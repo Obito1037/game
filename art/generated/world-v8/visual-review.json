@@ -1,0 +1,23 @@
+{
+  "reviewed": true,
+  "acceptedForLimitedScope": true,
+  "scope": "作者实际查看原尺寸1440×900的同机位path与lamp对照，仅判断本轮紫花及蕨的静态形态改善；最终整合仍取决于根代理独立审图与运行验证。",
+  "imagesViewed": [
+    "art/verification/v11-plants-baseline/path-fixed40.png",
+    "art/verification/v11-plants-candidate/path-fixed40.png",
+    "art/verification/v11-plants-baseline/lamp-fixed40.png",
+    "art/verification/v11-plants-candidate/lamp-fixed40.png"
+  ],
+  "findings": [
+    "正常path比例下，右下及右侧近石紫色大柱串消失，保留为细小紫色花序；左下石旁的粗黑梯形叶架变成较细、弯曲下垂的羽状轮廓。整体改善不依赖放大lamp诊断图。",
+    "lamp原尺寸可辨错列小花冠和细弯茎；花不再读成大型棱块。蕨叶仍为风格化简化形体，但宽大黑尖三角明显减弱，叶片尖端、起伏和层次可见。",
+    "花穗在path远处的紫色面积比基线少，颜色存在感减弱。这是小尺度花冠带来的取舍；当前仍可辨近景花序，不为补颜色密度再扩大花冠或增加植株。"
+  ],
+  "limits": [
+    "没有审查所有角度、时间、风摆中间帧或完整碰撞路线。",
+    "未从静态截图推断性能；全岛三角增加97478，需根代理实测。",
+    "草丛、匍匐叶、宽叶野花均保持原样，仍有整齐带片及局部宽根，不能声称整岛植被已达到参考图自然度。",
+    "固定条件截图仍可能包含逐帧SSAO和粒子差异，不声称非目标像素完全相同。"
+  ],
+  "recommendation": "本轮两类几何候选可进入整合验证，保持当前模型冻结。"
+}

@@ -1,0 +1,42 @@
+借光岛 v8 · 制作记录与 AI 使用披露
+
+用户提供了参赛目标、单人制作和48小时范围、参考网站以及视觉验收要求。
+当前 Blender 生产脚本、岛屿与角色几何、Unity C# 程序、程序材质、音频合成脚本、构建与验收脚本及说明文档，均由 Codex 代理生成或修改。
+天空位图由内置 image_gen 根据原创提示生成。模型没有调用参考网站或第三方游戏的模型文件；音乐为本地合成，没有使用第三方录音采样。
+本轮四块主石的局部形体、法线与顶点色，以及两袖的局部折痕，由 Codex 代理编写的本地 Blender Python 脚本修改。主石的低幅程序凹凸与相关验收脚本由 Codex 代理修改项目代码；其他既有模型、界面、音频与星空沿用原制作记录。没有新增第三方模型或纹理。
+面部补光进行过 0.23 / 0.16 / 0.23 同姿态对照，最终保留原有 0.23；未将该试验描述为人物皮肤已经改善，也未改写用户的创作贡献。
+用户后续的审美取舍、实际修改、试玩反馈和最终提交应按事实补记；本文件不将尚未发生的工作写成学生已完成的贡献。
+
+第三方字体
+Noto Serif CJK SC，版权为原字体作者，使用 SIL Open Font License 1.1。
+当前运行包使用改名子集 BorrowedLight Story Serif，保留原轮廓、排版与版权/授权元数据。
+完整母版、子集、许可与验证：art/generated/fonts/。
+复现脚本：tools/font-subset/build_subset.py；工具版本与哈希见字体 manifest.json。
+
+视觉参考
+作者 Saccc_c，https://littleprince.dev/
+原推文：https://x.com/Saccc_c/status/2110694725640474759
+仅参考童话小星球的氛围与叙事表达，没有复制网站的程序、模型、角色、音频或原作文字。
+参考截图用于本地研究和同规格验收，不作为本作美术素材打包。
+
+实机与来源证据
+art/production-manifest.json：来源汇总与当前验证状态。
+art/generated/sky/manifest.json：天空生成提示、工具来源与哈希。
+art/generated/world-v7/interchange-verification.json：岛屿 BLEND/FBX/GLB 回读结果；29 mesh / 412,815 三角保持，28 个非主石网格与基线一致，锚点和植物保留，实际植物穿岩检查通过。主石渲染几何及随之生成的障碍碰撞有局部内收，不能宣称主石碰撞三角不变。
+art/generated/character-v7/v6-preservation-file-verification.json：独立重新打开冻结 v6 与候选 v7，确认除两袖坐标/派生法线外的保护数据一致；角色保持 75,862 三角 / 62 mesh / 28 skinned mesh / 12 bones / 29 材质。
+art/generated/character-v7/frozen-export-verification.json：角色 FBX/GLB 中性与屈膝姿态、骨架和附件关系的独立回读结果。
+art/generated/character-v7/color-interchange-verification.json：62 个角色网格的线性顶点色导出验证。
+art/generated/character-v7/blink-verification.json：闭眼覆盖片的几何遮挡检查，范围见报告。
+art/generated/character-v7/gait-verification.json：Blender 实际蒙皮鞋底在理想平地及台阶的姿态检查；本轮未改腿、鞋或骨架，该记录确认重新导出未破坏已有行为，不代替游戏实测。
+art/generated/world-v7/ 与 art/generated/character-v7/：游戏修订 v8 使用的可编辑源模型及预览；资产目录版本与游戏修订号不同。
+生产脚本为 art/blender/build_island_v7.py 与 art/blender/build_traveler_v7.py。岛屿脚本直接读取冻结 world-v6/island.blend、相关清单和地表纹理；角色脚本直接读取冻结 character-v6/traveler.blend，另外读取 character-v5/traveler.blend，以相同采样恢复两袖无皱基础形体，并保留 v6 的其他数据。
+复现时须完整保留 art/generated/world-v6/、character-v6/、character-v5/ 以及相应清单、验证脚本和纹理；不要把冻结来源目录当作无用旧版本删除。继续使用 Blender 自带骨架和权重，未使用 Auto-Rig Pro。
+art/verification/v7-planning/starfield-geometry-verification.json：星空合并前后的几何与漂移比对，不是 GPU 性能报告。
+早期版本仍保留在 art/generated/ 原目录，避免将 Blender 预览混同于 Unity 实机。
+art/verification/run-022-v8/：原生构建 build_95baec27b2f5 的运行日志、截图及功能结果；boulder-approaches.json 记录 16/16 指定方向的四石胶囊接近探测，范围不是完整连续步态。
+art/verification/v8-portrait-light-compare/：同姿态面部补光对照与保留原设置的依据。
+art/verification/web-008-v8/：浏览器构建 build_6a2cf444c9a6 的正常验收；真实键盘三章、刷新续玩、默认音频策略下的音频恢复通过，浏览器错误数组为空，Unity 兼容性提示另列。artifact-identity.json 记录会话请求 URL 及随后四个 HTTP 构建文件与候选磁盘文件的字节身份核对。
+art/verification/web-v8-observatory-video/：本轮真实键盘 W 接近观星台、上阶和停步的完整录屏及 13.28 秒片段。片段是源视频 30.720–44.000 秒的流复制时间截取，332 个 VP8 编码包逐个 SHA-256 一致，截取过程没有生成、重绘或补帧。该后视路线只支持所见动作的局部判断，不证明细微袖褶、完整动态姿态或性能。
+本轮袖勒痕改善、主石断面更清楚，但石头低缘仍偏软，人物和材质自然度仍有差距；整体“比参考更惊艳”的目标未达成。
+
+本文件是对当前制作过程的如实记录。提交时请按当届比赛的正式格式和本人实际贡献填写相应表单。

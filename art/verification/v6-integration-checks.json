@@ -1,0 +1,42 @@
+{
+  "date": "2026-10-21",
+  "scope": "Unity Editor import and scene initialization; native and browser runtime checks are separate.",
+  "worldFbxSHA256": "2CB1F0F6810517864231998F464B4681AA7A63F3B6C806239905BB67D004C762",
+  "travelerFbxSHA256": "60A8C0B5DF7DE6FBDD9F09BFA2931FD462BC538E50AD54E33370724C7E58D25E",
+  "islandMeshes": 29,
+  "islandMeshesWithVertexColor": 29,
+  "grassImportedColorRedRange": [0.78039217, 1.0],
+  "islandRenderersInStaticBatch": 27,
+  "missingMaterialsInScene": 0,
+  "heroBouldersMeshColliderOnLayer9": true,
+  "travelerSkinnedRenderers": 28,
+  "travelerRigidRenderers": 34,
+  "importedNamedJoints": ["Elbow_L", "Elbow_R", "Knee_L", "Knee_R", "Ankle_L", "Ankle_R", "HipAnchor_L", "HipAnchor_R"],
+  "tintedFoliagePass": {"shaderSupported": true, "keywordEnabled": true, "forcedCompileMessages": []},
+  "finalNativeEvidence": {
+    "buildId": "build_9f6d972e72eb",
+    "path": "run-016-v6/runtime-results.json",
+    "islandStaticBatchRenderersConfirmedInPlayerLog": 27,
+    "boulderCollisionWorks": true,
+    "riggedSoles": 2,
+    "soleGroundSamples": 220,
+    "minimumIdleSoleClearanceMetres": 0.001412,
+    "observatoryGroundingWorks": true,
+    "observatoryInstrumentCollisionWorks": true,
+    "scope": "Actual Unity BakeMesh vertices and ground raycasts at the idle portrait pose; does not prove every moving pose or terrain combination."
+  },
+  "observatoryColliders": {
+    "walkableTriangles": 2980,
+    "obstacleTriangles": 2420,
+    "walkableLayer": 8,
+    "obstacleLayer": 9,
+    "editorGroundRayHitY": 0.26,
+    "editorInstrumentMotionProbeFinalZ": -0.34,
+    "classification": "Keep BI_metal_dark in the solid instrument; other whole triangles whose highest world Y is <=0.305 form the walkable steps. Visible geometry is unchanged."
+  },
+  "limitations": [
+    "The Editor remained at frame 1 while backgrounded; its screenshots are setup/pose diagnostics, not evidence of real-time gait or performance.",
+    "Static-batch membership does not establish reduced draw calls or improved FPS.",
+    "Blender gait verification covers evaluated skinned geometry on ideal planes; runtime terrain and animation still require Player checks."
+  ]
+}

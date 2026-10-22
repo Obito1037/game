@@ -1,0 +1,18 @@
+{
+  "passed": true,
+  "method": "Parse EBML SimpleBlock payloads and compare the SHA-256 of every encoded VP8 packet in order. No decoding or re-encoding.",
+  "fullPackets": 1100,
+  "excerptPackets": 332,
+  "sourceFirstPacketMs": 30720,
+  "sourceLastPacketMs": 43960,
+  "sourceEndExclusiveMs": 44000,
+  "excerptFirstPacketMs": 0,
+  "excerptLastPacketMs": 13240,
+  "allEncodedPacketsByteIdentical": true,
+  "startsAtKeyframe": true,
+  "fullContainerDurationSeconds": 44,
+  "excerptContainerDurationSeconds": 13.28,
+  "requestedTrimStartSeconds": 35,
+  "requestedTrimDurationSeconds": 9,
+  "trimLimit": "FFmpeg input seeking with stream copy starts at a prior keyframe. The actual verified source range is reported. The recording cadence is not game engine FPS."
+}

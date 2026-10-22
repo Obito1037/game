@@ -1,0 +1,50 @@
+{
+  "reviewType": "character-sampled-frame-review",
+  "revision": "v10",
+  "sourceManifest": "capture-manifest.json",
+  "reviewer": "character agent, independent of the main review.json",
+  "readOnlyAssetReview": true,
+  "continuousVideoViewed": false,
+  "reviewedOriginalPngFramesMs": [36000, 36400, 37200, 38400, 39600, 40800, 42000, 44000, 45200, 46800, 50000, 52000],
+  "imageDimensions": [1440, 900],
+  "routeFromManifest": "diagonal-and-side: actual right-mouse orbit, W, W+D, D and released-key stops",
+  "manifestStatus": {"completed": true, "errors": []},
+  "recordingRateInterpretation": "25fps录屏或抽帧时间间隔属于录制/重采样信息，不是Unity实际渲染FPS，不据此提出性能结论。",
+  "timingInterpretation": "文件名为录像抽帧时间；manifest事件从navigation计时，录制略早开始，因此两者只可近似对应路线阶段，不能当作逐帧精确输入对齐。",
+  "summary": "实际查看的12张离散原始PNG中，未发现新袖/裤的明显分离、爆点或孤立肢体；清楚可见的停步样本未见明显悬空或深陷地面。本结论不等于完整连续录像观看、连续步态无突变或所有姿态通过。",
+  "findings": [
+    {
+      "topic": "袖肩、袖口与手臂连接",
+      "evidenceFramesMs": [38400, 40800, 42000, 44000, 45200, 46800, 50000, 52000],
+      "observation": "由后视转为侧后视及停步样本中，可见袖子轮廓与躯干/手部保持连接；未见穿出背景的明显裂口、袖片脱落或突出的长三角。披肩遮挡了部分肩根，画面尺度不足以评判细袖褶质量。",
+      "temporalLimit": "离散抽帧不能证明两帧之间没有瞬间穿插、拉伸或轮廓跳变。"
+    },
+    {
+      "topic": "裤腿、膝部与靴口连接",
+      "evidenceFramesMs": [36000, 36400, 37200, 38400, 40800, 42000, 45200, 46800, 50000, 52000],
+      "observation": "前段可见左右腿的不同摆动位置；40.8s有明显向前抬出的鞋，裤腿延续至靴口。后段侧视与停步后裤靴交界未出现明显开口或裤脚整体脱离。未发现新裤腿松量造成的可辨识网格爆点。",
+      "temporalLimit": "人物主要处于远中景，深色裤料、腿部相互遮挡及草叶遮挡限制了膝盖具体变形与靴口细缝判断。"
+    },
+    {
+      "topic": "鞋底接地",
+      "evidenceFramesMs": [40800, 45200, 46800, 50000, 52000],
+      "observation": "45.2/46.8s侧面与50/52s停止后的双鞋下缘和裸地贴合外观基本成立，未见清楚的整鞋悬空间隙或大幅埋入。40.8s抬脚跨石只是一张摆动样本，不作为整段脚掌接触判据。",
+      "measurementLimit": "没有读取碰撞体或鞋底高度数据。低角度接触阴影、压缩和部分草叶遮挡使毫米级间隙无法判断；不能据此排除滑脚、短暂穿地或踩在未覆盖地形上的异常。"
+    },
+    {
+      "topic": "后段路线覆盖限制",
+      "evidenceFramesMs": [44000, 45200, 46800, 50000, 52000],
+      "observation": "45.2/46.8s人物已靠近屋墙，两帧位置和双脚姿态变化很小。虽然manifest对应阶段记录D按键，按键保持不等于持续产生位移；这些图更适合判断靠墙/停步连接，不能被写成充分的持续侧走姿态覆盖。50/52s主要是停步后相机方向变化。",
+      "inference": "屋体碰撞可能限制了该段位移；仅凭抽帧不把具体碰撞原因作为已验证事实。"
+    }
+  ],
+  "hardFailuresObservedInReviewedFrames": [],
+  "limits": [
+    "只亲看列出的12张原始PNG，没有连续播放完整录像。",
+    "没有评审抽帧间的连续速度、脚步节奏、转向顺滑度或瞬时跳变。",
+    "没有覆盖所有步态相位、坡面、台阶、远近机位和碰撞情形。",
+    "不从25fps录屏或文件名时间间隔推断引擎FPS。",
+    "没有改动代码、冻结模型、生产资源或正式review.json；没有启动GPU。"
+  ],
+  "conclusionScope": "所检抽帧未见明显角色连接回归；可作为本路线的有限视觉证据，并保留上述未覆盖项。"
+}

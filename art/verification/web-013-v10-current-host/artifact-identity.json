@@ -1,0 +1,48 @@
+{
+  "passed": true,
+  "buildId": "build_c472c4b76e7c",
+  "declaredBuildMatches": true,
+  "session": "web-013-v10-current-host",
+  "scope": "Session request URLs plus subsequent raw HTTP/disk SHA-256 checks against the candidate payload recorded after build. Historical response bodies were not intercepted.",
+  "requestedAllCurrentFiles": true,
+  "servedBuildResources": [
+    "http://127.0.0.1:8765/Build/cfc919b85070950e4426c4bd86dcbed4.loader.js",
+    "http://127.0.0.1:8765/Build/b281874b7c5b6a62e898db90eddbb667.framework.js.gz",
+    "http://127.0.0.1:8765/Build/56b2089fd931dfe1dbeb6d645b39149e.wasm.gz",
+    "http://127.0.0.1:8765/Build/3112b3ad8fcdbeaa68664343e7c206aa.data.gz"
+  ],
+  "files": [
+    {
+      "name": "3112b3ad8fcdbeaa68664343e7c206aa.data.gz",
+      "bytes": 37982199,
+      "httpSHA256": "7328875473D35DE5BBCFB9513E4BB5CE0B0D4F31DEDA9664200D09D1AF697D06",
+      "diskSHA256": "7328875473D35DE5BBCFB9513E4BB5CE0B0D4F31DEDA9664200D09D1AF697D06",
+      "buildReportSHA256": "7328875473D35DE5BBCFB9513E4BB5CE0B0D4F31DEDA9664200D09D1AF697D06",
+      "matches": true
+    },
+    {
+      "name": "56b2089fd931dfe1dbeb6d645b39149e.wasm.gz",
+      "bytes": 11609435,
+      "httpSHA256": "3D4136B9F6E4B2825D773115F0C3D33D5F9F2AAF97C91013477B6158C1B5FF5E",
+      "diskSHA256": "3D4136B9F6E4B2825D773115F0C3D33D5F9F2AAF97C91013477B6158C1B5FF5E",
+      "buildReportSHA256": "3D4136B9F6E4B2825D773115F0C3D33D5F9F2AAF97C91013477B6158C1B5FF5E",
+      "matches": true
+    },
+    {
+      "name": "b281874b7c5b6a62e898db90eddbb667.framework.js.gz",
+      "bytes": 88480,
+      "httpSHA256": "B62192AB199052DFF72E0937E59C17FB88A89060F77797ADC0E4B1BE68C4CAAD",
+      "diskSHA256": "B62192AB199052DFF72E0937E59C17FB88A89060F77797ADC0E4B1BE68C4CAAD",
+      "buildReportSHA256": "B62192AB199052DFF72E0937E59C17FB88A89060F77797ADC0E4B1BE68C4CAAD",
+      "matches": true
+    },
+    {
+      "name": "cfc919b85070950e4426c4bd86dcbed4.loader.js",
+      "bytes": 26983,
+      "httpSHA256": "0C42281ED9858B213BA4FC4317257EC175FF0240E66BC10F524EFA5F89700877",
+      "diskSHA256": "0C42281ED9858B213BA4FC4317257EC175FF0240E66BC10F524EFA5F89700877",
+      "buildReportSHA256": "0C42281ED9858B213BA4FC4317257EC175FF0240E66BC10F524EFA5F89700877",
+      "matches": true
+    }
+  ]
+}

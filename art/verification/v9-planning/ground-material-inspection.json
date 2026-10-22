@@ -1,0 +1,214 @@
+{
+  "scope": "Read-only Blender scene/PNG inspection; no render, no GPU, no runtime material query.",
+  "ground_mesh": {
+    "name": "Island_Meadow",
+    "triangles": 6816,
+    "materials": [
+      "BI_grass"
+    ],
+    "uv_layer": "WatercolorUV",
+    "uv_formula": "u=(Unity.x+9)/18; v=(Unity.z+9)/18",
+    "maximum_uv_error": 2.9802322387695312e-08,
+    "atlas_span_metres": 18,
+    "base_texel_metres": 0.0087890625,
+    "polygon_normal_blender_z_min_max": [
+      0.9418365359306335,
+      1.0
+    ]
+  },
+  "images": {
+    "meadow-watercolor.png": {
+      "width": 2048,
+      "height": 2048,
+      "linear_rgb_mean": [
+        0.3648482859134674,
+        0.4136846661567688,
+        0.23613780736923218
+      ],
+      "rgba_byte_sha256": "889c373c911c8fd5e4be519cbbc957436909b380481d1de22051bb22ef0d3c7f",
+      "ground_patch_statistics": [
+        {
+          "unity_xz": [
+            0,
+            -5.4
+          ],
+          "radius_metres": 0.35,
+          "linear_luminance_mean": 0.3597366075191263,
+          "linear_luminance_std": 0.0117670351648637
+        },
+        {
+          "unity_xz": [
+            0,
+            -3.5
+          ],
+          "radius_metres": 0.25,
+          "linear_luminance_mean": 0.34845267579133,
+          "linear_luminance_std": 0.00966529407551326
+        },
+        {
+          "unity_xz": [
+            -0.6,
+            -5.2
+          ],
+          "radius_metres": 0.25,
+          "linear_luminance_mean": 0.3519190784246347,
+          "linear_luminance_std": 0.014521675102902925
+        },
+        {
+          "unity_xz": [
+            1.7,
+            -4.7
+          ],
+          "radius_metres": 0.25,
+          "linear_luminance_mean": 0.4373804391615435,
+          "linear_luminance_std": 0.027593030046829132
+        }
+      ]
+    },
+    "meadow-normal.png": {
+      "width": 2048,
+      "height": 2048,
+      "linear_rgb_mean": [
+        0.5000124573707581,
+        0.5000040531158447,
+        0.9998820424079895
+      ],
+      "rgba_byte_sha256": "bbaf18fc6dd0f38e7d0e3fba17b98ae72fd55d47597971ffcc712460b2c321bc",
+      "decoded_uncompressed_estimates": [
+        {
+          "mip": 0,
+          "scale": 0.22,
+          "angle_degrees_mean": 0.6688539385795593,
+          "angle_degrees_p50_p90_p99_max": [
+            0.5093308091163635,
+            1.0982270240783691,
+            3.480919361114502,
+            8.945722579956055
+          ]
+        },
+        {
+          "mip": 0,
+          "scale": 0.45,
+          "angle_degrees_mean": 1.36679208278656,
+          "angle_degrees_p50_p90_p99_max": [
+            1.041725516319275,
+            2.245497941970825,
+            7.092386722564697,
+            17.84763526916504
+          ]
+        },
+        {
+          "mip": 0,
+          "scale": 1.0,
+          "angle_degrees_mean": 3.022714376449585,
+          "angle_degrees_p50_p90_p99_max": [
+            2.3139421939849854,
+            4.979973316192627,
+            15.455724716186523,
+            35.584327697753906
+          ]
+        },
+        {
+          "mip": 1,
+          "scale": 0.22,
+          "angle_degrees_mean": 0.4384739100933075,
+          "angle_degrees_p50_p90_p99_max": [
+            0.29769739508628845,
+            0.7755400538444519,
+            2.645068883895874,
+            6.770490646362305
+          ]
+        },
+        {
+          "mip": 1,
+          "scale": 0.45,
+          "angle_degrees_mean": 0.8963125348091125,
+          "angle_degrees_p50_p90_p99_max": [
+            0.608909010887146,
+            1.5860235691070557,
+            5.3981852531433105,
+            13.649345397949219
+          ]
+        },
+        {
+          "mip": 1,
+          "scale": 1.0,
+          "angle_degrees_mean": 1.9854422807693481,
+          "angle_degrees_p50_p90_p99_max": [
+            1.3529306650161743,
+            3.520958423614502,
+            11.85927677154541,
+            28.353004455566406
+          ]
+        },
+        {
+          "mip": 2,
+          "scale": 0.22,
+          "angle_degrees_mean": 0.2743769586086273,
+          "angle_degrees_p50_p90_p99_max": [
+            0.16877926886081696,
+            0.7086886644363428,
+            1.4634108710289002,
+            3.531156301498413
+          ]
+        },
+        {
+          "mip": 2,
+          "scale": 0.45,
+          "angle_degrees_mean": 0.5611031651496887,
+          "angle_degrees_p50_p90_p99_max": [
+            0.34522712230682373,
+            1.4493550658226064,
+            2.9912708139419557,
+            7.193934917449951
+          ]
+        },
+        {
+          "mip": 2,
+          "scale": 1.0,
+          "angle_degrees_mean": 1.2454971075057983,
+          "angle_degrees_p50_p90_p99_max": [
+            0.7671349048614502,
+            3.218088030815136,
+            6.623649187088013,
+            15.668434143066406
+          ]
+        },
+        {
+          "mip": 3,
+          "scale": 0.22,
+          "angle_degrees_mean": 0.1681469827890396,
+          "angle_degrees_p50_p90_p99_max": [
+            0.12914830446243286,
+            0.35717587172985077,
+            0.6299737334251405,
+            1.2975248098373413
+          ]
+        },
+        {
+          "mip": 3,
+          "scale": 0.45,
+          "angle_degrees_mean": 0.3439251184463501,
+          "angle_degrees_p50_p90_p99_max": [
+            0.2641655504703522,
+            0.730556845664978,
+            1.2884173750877383,
+            2.652585029602051
+          ]
+        },
+        {
+          "mip": 3,
+          "scale": 1.0,
+          "angle_degrees_mean": 0.7641409635543823,
+          "angle_degrees_p50_p90_p99_max": [
+            0.5870182514190674,
+            1.6231133341789246,
+            2.8612516641616828,
+            5.878138065338135
+          ]
+        }
+      ]
+    }
+  },
+  "normal_estimate_limits": "Original PNG and ideal arithmetic mip averages only. Unity compression, derivative LOD, filtering, tangent basis and GPU output are not measured."
+}

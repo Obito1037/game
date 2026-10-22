@@ -1,0 +1,24 @@
+v8 候选 Web 正常验收
+
+构建：build_6a2cf444c9a6。候选服务：http://127.0.0.1:8778/；服务根目录 builds/candidates/v8/web。测试使用独立 Edge 持久目录 tools/game-browser-profile-v8-qa，默认浏览器自动播放策略，1440 × 900、DPR 1，ANGLE / Intel Iris Xe / Direct3D11。开始前 Unity 已结束构建并切回 StandaloneWindows64；正常 QA 与动作录像分别运行，正常 QA 结束先关闭浏览器，没有并行 Blender、Player、构建或 GPU profile。
+
+runtime-results.json passed=true。真实键鼠完成三章、第二章刷新后继续、结局、回岛移动及返回结局；日志 phases=[0,1,2,2,3,4]，browser errors=[]，crossOriginIsolated=true，观察到用户交互后 AudioContext resumed。errors=[] 的范围是浏览器 console.error、页面异常和崩溃，不表示 Unity 没有诊断提示。
+
+前台采样：每个机位约 3.1 秒、六个约 500 ms 间隔；所有样本 visibility=visible 且 focused=true。应使用 samples[].fps 的 interval 中位数，不能使用 rolling movingAverageFps 作为当前机位帧率。
+菜单：中位数 70.0015986884 FPS，范围 11.9030894740–72.4914529038。首个加载延迟样本没有删除。
+结局：中位数 45.9443705445 FPS，范围 39.7980969170–48.6760125153。
+行走机位：中位数 34.0777081671 FPS，范围 28.5347410886–36.9514498223。脚本先按 W 移动，再松键并在该机位采样，因此是行走机位停步后的测量，不能解释为整段持续行走平均帧率。
+这些读数来自 Unity GetMetricsInfo，不是独立逐渲染帧计数，也不是长期稳定性能基准。没有 GPU timer 或 draw 拦截；不由短样本宣称相对 v7 提速。usedWASMHeapSize=151,892,784 / totalWASMHeapSize=268,435,456 bytes 是末尾单次读数，不能当峰值。
+
+引擎提示仍存在，全部保留在 browser-console.txt 和 runtime-results.json：
+- WebGL: INVALID_ENUM: getInternalformatParameter: invalid internalformat。
+- ERROR: Shader（日志与后续具体 shader 名分行输出）。
+- Hidden/CoreSRP/CoreCopy shader is not supported on this GPU。
+- Hidden/Universal Render Pipeline/StencilDitherMaskSeed shader is not supported on this GPU。
+- Hidden/Universal/HDRDebugView shader is not supported on this GPU。
+- Trying to get length of sound which is not loaded yet。
+这些提示与 v7 同类；本次未见主场景粉材质或浏览器崩溃，但没有据此宣称无渲染兼容性风险。
+
+artifact-identity.json 将本会话与独立观星台录像的实际 Build 请求 URL 核对到候选文件，再将每个 URL 的原始 HTTP 响应字节（保留 gzip 编码）与磁盘 SHA-256 比较。四项资源均匹配，总 payload=48,736,381 bytes。framework 文件名虽然和 v7 一样，其 SHA-256 已变化，因此没有仅靠文件名或声明 build ID 判断身份。范围限制：历史会话的响应体没有逐一拦截保存；本次核验是在两次会话后对其所请求 URL 再取原始响应并核对当时磁盘文件。
+
+已目检 05-stars-return.png、06-walking.png：场景与文字完整、近景 Hero 岩石平面轮廓可见，无粉色材质或 HUD 尺寸异常。动作证据及限制见 ../web-v8-observatory-video/review.zh-CN.txt。功能通过和此短路线观察不证明整体美术目标已达到或超过参考网站。

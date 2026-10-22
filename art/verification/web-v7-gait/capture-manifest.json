@@ -1,0 +1,159 @@
+{
+  "completed": true,
+  "error": null,
+  "requestedRevision": "v7",
+  "purpose": "Actual browser gameplay animation review; separate from normal QA and GPU profiling.",
+  "recordedVideo": "gait-session-includes-loading.webm",
+  "videoScope": "Full Playwright session, including loading, puzzle completion, return to island, camera adjustment, and the gait review window. This is not a trimmed 10–15 second clip.",
+  "frameRateLimit": "Playwright recordVideo samples/resamples browser output. Video playback FPS and screenshot cadence are not native engine FPS and must not be reported as performance evidence.",
+  "inputMethod": "Actual mouse and keyboard only: right-mouse orbit, W, W+D, D, and released-key stops. Diagonal/side input reveals knee and ankle motion that camera-relative W alone hides.",
+  "width": 1440,
+  "height": 900,
+  "gaitWindow": {
+    "startSinceNavigationMs": 34555,
+    "endSinceNavigationMs": 55033,
+    "durationMs": 20478
+  },
+  "timingLimit": "Event times are relative to navigation; recording begins slightly before navigation. They are approximate video navigation aids, not exact frame timestamps.",
+  "phases": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "errors": [],
+  "events": [
+    {
+      "type": "right-mouse-orbit",
+      "sinceNavigationMs": 32673,
+      "deltaX": 390,
+      "nominalYawDeltaDegrees": 50.7
+    },
+    {
+      "type": "screenshot",
+      "sinceNavigationMs": 34555,
+      "file": "00-side-rear-ready.png",
+      "captureRequestedSinceNavigationMs": 33533
+    },
+    {
+      "type": "gait-window-start",
+      "sinceNavigationMs": 34555
+    },
+    {
+      "type": "movement-start",
+      "sinceNavigationMs": 34574,
+      "keys": [
+        "w"
+      ],
+      "durationRequestedMs": 1600
+    },
+    {
+      "type": "screenshot",
+      "sinceNavigationMs": 36173,
+      "file": "01-walk-forward-a.png",
+      "captureRequestedSinceNavigationMs": 34978
+    },
+    {
+      "type": "screenshot",
+      "sinceNavigationMs": 37678,
+      "file": "02-walk-forward-b.png",
+      "captureRequestedSinceNavigationMs": 36187
+    },
+    {
+      "type": "movement-stop",
+      "sinceNavigationMs": 37692,
+      "keys": [
+        "w"
+      ],
+      "actualHeldMs": 3118
+    },
+    {
+      "type": "screenshot",
+      "sinceNavigationMs": 40015,
+      "file": "03-first-stop.png",
+      "captureRequestedSinceNavigationMs": 38695
+    },
+    {
+      "type": "movement-start",
+      "sinceNavigationMs": 40042,
+      "keys": [
+        "w",
+        "d"
+      ],
+      "durationRequestedMs": 2000
+    },
+    {
+      "type": "screenshot",
+      "sinceNavigationMs": 41516,
+      "file": "04-diagonal-step-a.png",
+      "captureRequestedSinceNavigationMs": 40551
+    },
+    {
+      "type": "screenshot",
+      "sinceNavigationMs": 42505,
+      "file": "05-diagonal-step-b.png",
+      "captureRequestedSinceNavigationMs": 41525
+    },
+    {
+      "type": "movement-stop",
+      "sinceNavigationMs": 42530,
+      "keys": [
+        "w",
+        "d"
+      ],
+      "actualHeldMs": 2488
+    },
+    {
+      "type": "screenshot",
+      "sinceNavigationMs": 44829,
+      "file": "06-diagonal-stop.png",
+      "captureRequestedSinceNavigationMs": 43742
+    },
+    {
+      "type": "movement-start",
+      "sinceNavigationMs": 44856,
+      "keys": [
+        "d"
+      ],
+      "durationRequestedMs": 1600
+    },
+    {
+      "type": "screenshot",
+      "sinceNavigationMs": 46619,
+      "file": "07-side-step-a.png",
+      "captureRequestedSinceNavigationMs": 45262
+    },
+    {
+      "type": "screenshot",
+      "sinceNavigationMs": 48310,
+      "file": "08-side-step-b.png",
+      "captureRequestedSinceNavigationMs": 46620
+    },
+    {
+      "type": "movement-stop",
+      "sinceNavigationMs": 48336,
+      "keys": [
+        "d"
+      ],
+      "actualHeldMs": 3480
+    },
+    {
+      "type": "right-mouse-orbit",
+      "sinceNavigationMs": 52078,
+      "deltaX": -150,
+      "nominalYawDeltaDegrees": -19.5
+    },
+    {
+      "type": "screenshot",
+      "sinceNavigationMs": 55033,
+      "file": "09-final-planted-feet.png",
+      "captureRequestedSinceNavigationMs": 53893
+    },
+    {
+      "type": "gait-window-end",
+      "sinceNavigationMs": 55033,
+      "durationMs": 20478
+    }
+  ]
+}

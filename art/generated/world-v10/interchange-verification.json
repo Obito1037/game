@@ -1,0 +1,1926 @@
+{
+  "passed": true,
+  "in_progress": false,
+  "stage": "complete",
+  "checks": [
+    {
+      "format": "blend",
+      "mesh_count": 29,
+      "anchor_count": 14,
+      "triangles": 505782,
+      "unchanged_non_targets": [
+        {
+          "mesh": "Island_Strata",
+          "same": true,
+          "baseline_sha256": "d485ad41fcfef1d79826f9b820c70bf7f6dc9d1c13a91fd3acd06f4b8e97d00e",
+          "candidate_sha256": "d485ad41fcfef1d79826f9b820c70bf7f6dc9d1c13a91fd3acd06f4b8e97d00e"
+        },
+        {
+          "mesh": "Island_Meadow",
+          "same": true,
+          "baseline_sha256": "1477dbb1ee8e3addbc0bded179878c458732fb2e0050eafe576792ea967070c5",
+          "candidate_sha256": "1477dbb1ee8e3addbc0bded179878c458732fb2e0050eafe576792ea967070c5"
+        },
+        {
+          "mesh": "Island_CliffGardens",
+          "same": true,
+          "baseline_sha256": "d44792429b330d1bd04a57bbf1dbc2dc7511b919584cd638454af600c6d4eb61",
+          "candidate_sha256": "d44792429b330d1bd04a57bbf1dbc2dc7511b919584cd638454af600c6d4eb61"
+        },
+        {
+          "mesh": "Island_BrassMeridian",
+          "same": true,
+          "baseline_sha256": "2a25af8b61ee27c6888faf214ac9b00458157df957b2ef0c54e4b636879fd707",
+          "candidate_sha256": "2a25af8b61ee27c6888faf214ac9b00458157df957b2ef0c54e4b636879fd707"
+        },
+        {
+          "mesh": "Garden_Walkways",
+          "same": true,
+          "baseline_sha256": "fb88a6bb205a2e959a3bd5c0cf90ef51b27f73dae6f7b7426ccd10d175135d63",
+          "candidate_sha256": "fb88a6bb205a2e959a3bd5c0cf90ef51b27f73dae6f7b7426ccd10d175135d63"
+        },
+        {
+          "mesh": "Garden_HeroBoulders",
+          "same": true,
+          "baseline_sha256": "8598090dfe5e9631e3fc4a7b6613b475d5fd60a35d58f7a0a1de785a09be115c",
+          "candidate_sha256": "8598090dfe5e9631e3fc4a7b6613b475d5fd60a35d58f7a0a1de785a09be115c"
+        },
+        {
+          "mesh": "Observatory_StoneAndBrass",
+          "same": true,
+          "baseline_sha256": "d84cb8a67c27e6e17e5bc6c75918b6c0c11388aaeafd3651355d7cfd1ad8ef80",
+          "candidate_sha256": "d84cb8a67c27e6e17e5bc6c75918b6c0c11388aaeafd3651355d7cfd1ad8ef80"
+        },
+        {
+          "mesh": "Cabin_PlasterAndFoundation",
+          "same": true,
+          "baseline_sha256": "bb055f8506e865199921107c0272af48d7e18a20a9f3ea39b031d1d8684ea582",
+          "candidate_sha256": "bb055f8506e865199921107c0272af48d7e18a20a9f3ea39b031d1d8684ea582"
+        },
+        {
+          "mesh": "Cabin_IndividualShingles",
+          "same": true,
+          "baseline_sha256": "49ee3e2daafceb9d820c01f7cd4393846f3f766be4040e81ca790bf76e88ac00",
+          "candidate_sha256": "49ee3e2daafceb9d820c01f7cd4393846f3f766be4040e81ca790bf76e88ac00"
+        },
+        {
+          "mesh": "Cabin_ReadingWindow_Glow",
+          "same": true,
+          "baseline_sha256": "ab1a7c34c69f1488eddc16bc1f2474bfa3eb47b05b708045b1e43e6d8d129738",
+          "candidate_sha256": "ab1a7c34c69f1488eddc16bc1f2474bfa3eb47b05b708045b1e43e6d8d129738"
+        },
+        {
+          "mesh": "Cabin_DoorAndAccessories",
+          "same": true,
+          "baseline_sha256": "bb6370c29761c1a3f53201a1b79a946709faf7916c513bbe837f5752698328b5",
+          "candidate_sha256": "bb6370c29761c1a3f53201a1b79a946709faf7916c513bbe837f5752698328b5"
+        },
+        {
+          "mesh": "Cabin_Timber",
+          "same": true,
+          "baseline_sha256": "6b4753a38d3c5632fd99eb234bc5a13e7f756069754769a221563e070fb40d08",
+          "candidate_sha256": "6b4753a38d3c5632fd99eb234bc5a13e7f756069754769a221563e070fb40d08"
+        },
+        {
+          "mesh": "LampBase_A",
+          "same": true,
+          "baseline_sha256": "b12276dd00aa8fc4cd9ae7162f06e60ffadedbc2cbc26f7ca9cca547cd872f85",
+          "candidate_sha256": "b12276dd00aa8fc4cd9ae7162f06e60ffadedbc2cbc26f7ca9cca547cd872f85"
+        },
+        {
+          "mesh": "LampBase_B",
+          "same": true,
+          "baseline_sha256": "aff87264784cc2160fc7fa3745a3b75d416e3d6896cc20f8b9bc0bc20f43f57c",
+          "candidate_sha256": "aff87264784cc2160fc7fa3745a3b75d416e3d6896cc20f8b9bc0bc20f43f57c"
+        },
+        {
+          "mesh": "LampBase_C",
+          "same": true,
+          "baseline_sha256": "794643c1f016ae5077e4a32bd949d8e2a50e4116cc9c17532adac633d228561c",
+          "candidate_sha256": "794643c1f016ae5077e4a32bd949d8e2a50e4116cc9c17532adac633d228561c"
+        },
+        {
+          "mesh": "Garden_Bench",
+          "same": true,
+          "baseline_sha256": "b47aef82086ab8c111bdc1490d042f7079c99e3c82cbc4651cb4a2bbd16a0b05",
+          "candidate_sha256": "b47aef82086ab8c111bdc1490d042f7079c99e3c82cbc4651cb4a2bbd16a0b05"
+        },
+        {
+          "mesh": "Cliff_Pier",
+          "same": true,
+          "baseline_sha256": "f32f42fd688fad5ca5888284cc115842ff5c63a33548fb8a20fe77d158c4c06c",
+          "candidate_sha256": "f32f42fd688fad5ca5888284cc115842ff5c63a33548fb8a20fe77d158c4c06c"
+        },
+        {
+          "mesh": "Garden_TreeTrunks",
+          "same": true,
+          "baseline_sha256": "55ef6562d9e78b8c4fb71966c21af47168254b80a21a20d11fb540f0e235ec9e",
+          "candidate_sha256": "55ef6562d9e78b8c4fb71966c21af47168254b80a21a20d11fb540f0e235ec9e"
+        },
+        {
+          "mesh": "Garden_TreeCanopies",
+          "same": true,
+          "baseline_sha256": "bdca462568abd3f5268f18b2cd3464a4f43672e0af56044c58d870fb7d65e93c",
+          "candidate_sha256": "bdca462568abd3f5268f18b2cd3464a4f43672e0af56044c58d870fb7d65e93c"
+        },
+        {
+          "mesh": "Garden_CanopyLeafEdges",
+          "same": true,
+          "baseline_sha256": "027691d0f675892afba7eca4d7cb091d3a396318303d437cb6eb18ed3083983d",
+          "candidate_sha256": "027691d0f675892afba7eca4d7cb091d3a396318303d437cb6eb18ed3083983d"
+        },
+        {
+          "mesh": "MoonDial_Sculpture",
+          "same": true,
+          "baseline_sha256": "c8131421be778ac3231cb9d1c72e12e5b74aafc5e4365c0bc9dd8b9223bdc05c",
+          "candidate_sha256": "c8131421be778ac3231cb9d1c72e12e5b74aafc5e4365c0bc9dd8b9223bdc05c"
+        },
+        {
+          "mesh": "Garden_FeatherFerns",
+          "same": true,
+          "baseline_sha256": "bba4968d398c08fb49dbb6b601375fcaa448ff0309f488b1848369b57fdacdb8",
+          "candidate_sha256": "bba4968d398c08fb49dbb6b601375fcaa448ff0309f488b1848369b57fdacdb8"
+        },
+        {
+          "mesh": "Garden_LavenderAndSeedHeads",
+          "same": true,
+          "baseline_sha256": "8c56331b9670963f5835fef7291996016f90f4788fc9cd3a4f0cdd558405d0b5",
+          "candidate_sha256": "8c56331b9670963f5835fef7291996016f90f4788fc9cd3a4f0cdd558405d0b5"
+        },
+        {
+          "mesh": "Garden_Wildflowers",
+          "same": true,
+          "baseline_sha256": "4bf728222820f5e95c226bd387cac61cc73d1c34d16afaaf3dbc2c1dc070a6c4",
+          "candidate_sha256": "4bf728222820f5e95c226bd387cac61cc73d1c34d16afaaf3dbc2c1dc070a6c4"
+        },
+        {
+          "mesh": "Garden_MushroomsAndPebbles",
+          "same": true,
+          "baseline_sha256": "e036db1693ff0b8e5ff45f2a62168c707ec3a9ac42b79c73052aff139dd60418",
+          "candidate_sha256": "e036db1693ff0b8e5ff45f2a62168c707ec3a9ac42b79c73052aff139dd60418"
+        },
+        {
+          "mesh": "Cabin_ClimbingIvy",
+          "same": true,
+          "baseline_sha256": "a0f0b4fafe63f9914c2a2e7470ace0d5a65802a588c08def1f5e5da766b2663d",
+          "candidate_sha256": "a0f0b4fafe63f9914c2a2e7470ace0d5a65802a588c08def1f5e5da766b2663d"
+        },
+        {
+          "mesh": "Garden_StoryDetails",
+          "same": true,
+          "baseline_sha256": "a3b3ea3c093ff6965a8c47c039bcdc94fce0f7d49f1c48817e4fc46bf12fa532",
+          "candidate_sha256": "a3b3ea3c093ff6965a8c47c039bcdc94fce0f7d49f1c48817e4fc46bf12fa532"
+        }
+      ],
+      "materials_identical": true,
+      "anchors_identical": true,
+      "material_fingerprints": {
+        "baseline": {
+          "BI_brass": "9f5730a54ea7672195e943281c8ce51456b6b0961ef60f6c65c159993ec3e9a0",
+          "BI_brass_light": "bfc9d3cb7f07f10defd2d44009befc52fd43a8023bca06b5c90ace0e790f2257",
+          "BI_flower_blue": "254cb9affa23b965f192a4c9682b1f4af1c13c2da1be88e4bba15f92e8e1ac65",
+          "BI_flower_coral": "9bca031b620cb4f83203b97ec4bf3e11025b7c21875d7f317da12b69fa707226",
+          "BI_flower_cream": "0e81a59a7cb6cd75a629059677b2e8bc46e336a9d71096c29e2eb853e893823f",
+          "BI_flower_lilac": "003850a74135d90033d126eae4048093ae4eae6e210a9f383c2a4f096d532a0c",
+          "BI_grass": "57d3ae00cdc66d749d6ef0445406cdb98c8c47d815d00babacc5161129a95d7d",
+          "BI_grass_sage": "e91c0c2a00ec25dc7e7d4e0efc0551b09435696a0eab08e0f91ae17b44f24601",
+          "BI_leaf": "9cf37fb847493813506eb26d54585a9be92026416abee08af6f12d6f57011d33",
+          "BI_leaf_blue": "5088c8e72484f09240e3101636930d8da6ae62b646435d9e1586ee58487966dd",
+          "BI_leaf_dark": "50544088bce04e5b783248f652955083fc1d998af5fd121c2f3bdae3891137bd",
+          "BI_leaf_gold": "de7a05d89410a3fbeecc17f4d6831dba8d49bbe87d57226d795bf5cae5a7ca2f",
+          "BI_leaf_ground_lime": "f3f7d741485ba33c30526c142868fa3ae6103ff96033c5a3752fe661099e25d4",
+          "BI_leaf_ground_sage": "3cdc442821d6f1205f5a231d74b14cba143750da9f05be9d0c0f1e8f5067bdaa",
+          "BI_leaf_light": "f81faa8e2b7f300199261e61293317a72692e9a756dca2968ae9a57ffe0c2bf6",
+          "BI_leaf_meadow_deep": "e38e368304bf81f3b033103f6c48a11495de2a8562d86cbc7a27423c78a6dbf3",
+          "BI_leaf_meadow_dry": "5625be0adb1386c2fee0459b3fac328e614c259b27735d83ed70be94375e6583",
+          "BI_leaf_meadow_olive": "7c5698fa86d8e06e05652cdfc19552994084711e75e702873255e509f2fa467a",
+          "BI_leaf_meadow_young": "72b0b49295fc4deeeff5cf36c001c482513e21f6d56edc3eb32c62c5f8c8a4b0",
+          "BI_metal_dark": "5fe11d694ea6304aac4918fdd9d38407b7ead19f32db2fac538793f0053031bc",
+          "BI_moss": "8bedd312855eae7c9ae0ed3d3961fc23e46afcb8e4e480a44e1b377108f8cba0",
+          "BI_mushroom": "81ea5178cff9ff555dc5b1f037544727eaadc0d6f16c48a6faeec98a46d2dcb4",
+          "BI_mushroom_spot": "196b60e94bc223799cbc8d4d44c1262dcf09cd6f20d716aed536a285d3132fbf",
+          "BI_paper": "120d78584f5410a87c79c4586cb44a8a2b100e3c96e7938d2be179cebfc40b25",
+          "BI_plaster": "394f64c06922eee5df9442c5b7f6696a376a959eedc46575ae4d9308f43ee93c",
+          "BI_plaster_light": "c504c42c6b9b48eac2925b78683892458d66b0973a11c79d27f4e8aed0a32561",
+          "BI_quartz": "e69529820a907996a9fa39344afa211fa31abc088e08a79fe792a5bf46dc147f",
+          "BI_rock": "4385af5ee4dba3347151a44779ae4980d6dd56d4b40c7bc6938ba68004ee1e4b",
+          "BI_rock_blue": "a4fda28c96e0d207e97e4b4d381ab229c5ba9505eacbf6880703cd44188e3574",
+          "BI_rock_dark": "a36c4f7975a7ba876e27937498fec115c9b77be40afd30f7fa76dffc62d3fe4d",
+          "BI_rock_hero_slate": "579b6837996166e51052957b18d9db09cf8d00869bd1ffb103719bd5462529ab",
+          "BI_rock_hero_warm": "372bf050e9b1680cc0cdccab5060aa4b51844cd3ddb9868c4ac9fa3c54c3b992",
+          "BI_rock_light": "b3ad8362eed11802a7b371742421d75af409fe8ce1ee1f4f088bb66132c4dcd9",
+          "BI_roof": "eee0362eea04094e10eae6a426b1d8416788dd7c41060bb8ff1ff147ce09fbdf",
+          "BI_roof_dark": "4f16e111ef83a707282abdcb2442dbded7abd2cec335a4a95d5c20d7e838ff66",
+          "BI_roof_light": "0df0b9a2b53fcfa54480990ab1047ed6380fa5d63d70c327bb9f523e114e3e3d",
+          "BI_sea_glass": "4ef477af52c596c4eb6fd8165fa7dddd40060cde5501d17e9874f66d34bd1a52",
+          "BI_star_warm": "0fa96f079c4c27b4ab12daa5c1530c84516265d6d97a9705527596e5c8dd2cf0",
+          "BI_stem": "66199373abd86a8577ac3f706e434cb01ebeef95e06e5e25f5e9708704afd37e",
+          "BI_stone": "3f018e4cb24ef7ee168708b4f1955e40501a1b41777e998f5101cc088fff313b",
+          "BI_stone_dark": "e9d014c3c70d6c36c081075d9a7e9ad261ccd2d40e7e1ff7f7e5cfe05fe8e60f",
+          "BI_stone_light": "eba97756aa0f494c2e10203e3c99ab96dc785805fcee7ed92a3f1224595e886d",
+          "BI_stone_path_ochre": "5368743a1fbfa690f96b1f9fad2acc6d8b8de78141e44bb6f2a90b4df16ce249",
+          "BI_stone_path_slate": "8df76dadea6ac367c5a881ce8080a98f38dc0cbb1a058ae59a0f01d7851a83b8",
+          "BI_stone_path_warm": "2d397f02fb2eb54a14654232f7b9198e35ad22fb7962f26c6bdb2b2fe094e031",
+          "BI_window_honey": "7b574b3bd96d594cac96c996e8e4d5fd28efbb4168769b4d3ffa4ceb89e18051",
+          "BI_wood": "6b41303ea396cae4aea9c906c976ca3d1e0184837b7ed279c98d16c77b200dbc",
+          "BI_wood_cut": "b9d765da5a9928d38ed1b6dab09f9b118edb4a33586c483b89847b5fa12252d0",
+          "BI_wood_light": "fa239eeaff9ada29073229ca7e642ea5f07afa4c73cda6597288b1027c5c3d63"
+        },
+        "candidate": {
+          "BI_brass": "9f5730a54ea7672195e943281c8ce51456b6b0961ef60f6c65c159993ec3e9a0",
+          "BI_brass_light": "bfc9d3cb7f07f10defd2d44009befc52fd43a8023bca06b5c90ace0e790f2257",
+          "BI_flower_blue": "254cb9affa23b965f192a4c9682b1f4af1c13c2da1be88e4bba15f92e8e1ac65",
+          "BI_flower_coral": "9bca031b620cb4f83203b97ec4bf3e11025b7c21875d7f317da12b69fa707226",
+          "BI_flower_cream": "0e81a59a7cb6cd75a629059677b2e8bc46e336a9d71096c29e2eb853e893823f",
+          "BI_flower_lilac": "003850a74135d90033d126eae4048093ae4eae6e210a9f383c2a4f096d532a0c",
+          "BI_grass": "57d3ae00cdc66d749d6ef0445406cdb98c8c47d815d00babacc5161129a95d7d",
+          "BI_grass_sage": "e91c0c2a00ec25dc7e7d4e0efc0551b09435696a0eab08e0f91ae17b44f24601",
+          "BI_leaf": "9cf37fb847493813506eb26d54585a9be92026416abee08af6f12d6f57011d33",
+          "BI_leaf_blue": "5088c8e72484f09240e3101636930d8da6ae62b646435d9e1586ee58487966dd",
+          "BI_leaf_dark": "50544088bce04e5b783248f652955083fc1d998af5fd121c2f3bdae3891137bd",
+          "BI_leaf_gold": "de7a05d89410a3fbeecc17f4d6831dba8d49bbe87d57226d795bf5cae5a7ca2f",
+          "BI_leaf_ground_lime": "f3f7d741485ba33c30526c142868fa3ae6103ff96033c5a3752fe661099e25d4",
+          "BI_leaf_ground_sage": "3cdc442821d6f1205f5a231d74b14cba143750da9f05be9d0c0f1e8f5067bdaa",
+          "BI_leaf_light": "f81faa8e2b7f300199261e61293317a72692e9a756dca2968ae9a57ffe0c2bf6",
+          "BI_leaf_meadow_deep": "e38e368304bf81f3b033103f6c48a11495de2a8562d86cbc7a27423c78a6dbf3",
+          "BI_leaf_meadow_dry": "5625be0adb1386c2fee0459b3fac328e614c259b27735d83ed70be94375e6583",
+          "BI_leaf_meadow_olive": "7c5698fa86d8e06e05652cdfc19552994084711e75e702873255e509f2fa467a",
+          "BI_leaf_meadow_young": "72b0b49295fc4deeeff5cf36c001c482513e21f6d56edc3eb32c62c5f8c8a4b0",
+          "BI_metal_dark": "5fe11d694ea6304aac4918fdd9d38407b7ead19f32db2fac538793f0053031bc",
+          "BI_moss": "8bedd312855eae7c9ae0ed3d3961fc23e46afcb8e4e480a44e1b377108f8cba0",
+          "BI_mushroom": "81ea5178cff9ff555dc5b1f037544727eaadc0d6f16c48a6faeec98a46d2dcb4",
+          "BI_mushroom_spot": "196b60e94bc223799cbc8d4d44c1262dcf09cd6f20d716aed536a285d3132fbf",
+          "BI_paper": "120d78584f5410a87c79c4586cb44a8a2b100e3c96e7938d2be179cebfc40b25",
+          "BI_plaster": "394f64c06922eee5df9442c5b7f6696a376a959eedc46575ae4d9308f43ee93c",
+          "BI_plaster_light": "c504c42c6b9b48eac2925b78683892458d66b0973a11c79d27f4e8aed0a32561",
+          "BI_quartz": "e69529820a907996a9fa39344afa211fa31abc088e08a79fe792a5bf46dc147f",
+          "BI_rock": "4385af5ee4dba3347151a44779ae4980d6dd56d4b40c7bc6938ba68004ee1e4b",
+          "BI_rock_blue": "a4fda28c96e0d207e97e4b4d381ab229c5ba9505eacbf6880703cd44188e3574",
+          "BI_rock_dark": "a36c4f7975a7ba876e27937498fec115c9b77be40afd30f7fa76dffc62d3fe4d",
+          "BI_rock_hero_slate": "579b6837996166e51052957b18d9db09cf8d00869bd1ffb103719bd5462529ab",
+          "BI_rock_hero_warm": "372bf050e9b1680cc0cdccab5060aa4b51844cd3ddb9868c4ac9fa3c54c3b992",
+          "BI_rock_light": "b3ad8362eed11802a7b371742421d75af409fe8ce1ee1f4f088bb66132c4dcd9",
+          "BI_roof": "eee0362eea04094e10eae6a426b1d8416788dd7c41060bb8ff1ff147ce09fbdf",
+          "BI_roof_dark": "4f16e111ef83a707282abdcb2442dbded7abd2cec335a4a95d5c20d7e838ff66",
+          "BI_roof_light": "0df0b9a2b53fcfa54480990ab1047ed6380fa5d63d70c327bb9f523e114e3e3d",
+          "BI_sea_glass": "4ef477af52c596c4eb6fd8165fa7dddd40060cde5501d17e9874f66d34bd1a52",
+          "BI_star_warm": "0fa96f079c4c27b4ab12daa5c1530c84516265d6d97a9705527596e5c8dd2cf0",
+          "BI_stem": "66199373abd86a8577ac3f706e434cb01ebeef95e06e5e25f5e9708704afd37e",
+          "BI_stone": "3f018e4cb24ef7ee168708b4f1955e40501a1b41777e998f5101cc088fff313b",
+          "BI_stone_dark": "e9d014c3c70d6c36c081075d9a7e9ad261ccd2d40e7e1ff7f7e5cfe05fe8e60f",
+          "BI_stone_light": "eba97756aa0f494c2e10203e3c99ab96dc785805fcee7ed92a3f1224595e886d",
+          "BI_stone_path_ochre": "5368743a1fbfa690f96b1f9fad2acc6d8b8de78141e44bb6f2a90b4df16ce249",
+          "BI_stone_path_slate": "8df76dadea6ac367c5a881ce8080a98f38dc0cbb1a058ae59a0f01d7851a83b8",
+          "BI_stone_path_warm": "2d397f02fb2eb54a14654232f7b9198e35ad22fb7962f26c6bdb2b2fe094e031",
+          "BI_window_honey": "7b574b3bd96d594cac96c996e8e4d5fd28efbb4168769b4d3ffa4ceb89e18051",
+          "BI_wood": "6b41303ea396cae4aea9c906c976ca3d1e0184837b7ed279c98d16c77b200dbc",
+          "BI_wood_cut": "b9d765da5a9928d38ed1b6dab09f9b118edb4a33586c483b89847b5fa12252d0",
+          "BI_wood_light": "fa239eeaff9ada29073229ca7e642ea5f07afa4c73cda6597288b1027c5c3d63"
+        }
+      },
+      "zero_area_triangles": [],
+      "duplicate_triangles": [],
+      "invalid_normal_meshes": [],
+      "target_checks": [
+        {
+          "mesh": "Garden_CreepingMeadowLeaves",
+          "vertices": 35154,
+          "triangles": 31248,
+          "max_position_error_metres": 0.0,
+          "max_corner_normal_error_degrees": 0.03157050311576817,
+          "normal_corners_over_0_2_degrees": 0,
+          "max_linear_colour_error": 0.0,
+          "colour_acceptance": "linear RGBA error <= 0.00001",
+          "exceeds_historical_glb_0_0045": false,
+          "geometric_face_up_normal_min": 0.8476323485374451,
+          "geometric_faces_below_negative_tolerance": 0,
+          "geometric_faces_nonpositive_before_tolerance": 0,
+          "root_edge_contact": {
+            "source_root_vertex_count": 3906,
+            "matched_unique_source_root_vertices": 3906,
+            "unmatched_source_root_vertices": 0,
+            "missing_ground_hits": 0,
+            "clearance_metres": {
+              "count": 3906,
+              "min": -0.0006013112142682076,
+              "p05": -0.0006005950272083282,
+              "median": -0.000599999912083149,
+              "p95": -0.0005995221436023712,
+              "p99": -0.0005992837250232697,
+              "max": -0.0005988068878650665,
+              "mean": -0.0006000046153547767
+            },
+            "max_error_from_expected_metres": 1.3112142682076026e-06,
+            "expected_clearance_metres": -0.0006
+          },
+          "creeping_surface_samples": {
+            "clearance_metres": {
+              "vertices": {
+                "count": 35154,
+                "min": -0.0006013112142682076,
+                "p05": -0.0006000008434057236,
+                "median": 0.004549457225948572,
+                "p95": 0.008999999612569809,
+                "p99": 0.009000476449728012,
+                "max": 0.012809406965970993,
+                "mean": 0.004466304806323316
+              },
+              "triangle_centroids": {
+                "count": 31248,
+                "min": 0.001383766531944275,
+                "p05": 0.004315696051344275,
+                "median": 0.005562236299738288,
+                "p95": 0.0065168222412467,
+                "p99": 0.006630492694675922,
+                "max": 0.010257475078105927,
+                "mean": 0.0055939398296173965
+              },
+              "edge_midpoints": {
+                "count": 62496,
+                "min": -0.0003508925437927246,
+                "p05": 0.001974731683731079,
+                "median": 0.005270902067422867,
+                "p95": 0.007496172562241554,
+                "p99": 0.007510738074779512,
+                "max": 0.01130492240190506,
+                "mean": 0.005170628737488399
+              }
+            },
+            "missing_ground_hits": {},
+            "samples_below_minus_1mm": {
+              "vertices": 0,
+              "triangle_centroids": 0,
+              "edge_midpoints": 0
+            },
+            "samples_above_18mm": {
+              "vertices": 0,
+              "triangle_centroids": 0,
+              "edge_midpoints": 0
+            },
+            "passed": true
+          },
+          "full_height_obstacle_projection": {
+            "vertices_tested": 35154,
+            "triangle_centroids_tested": 31248,
+            "vertex_hits": {},
+            "triangle_centroid_hits": {},
+            "first_hits": []
+          }
+        },
+        {
+          "mesh": "Garden_GrassTufts",
+          "vertices": 289370,
+          "triangles": 212029,
+          "max_position_error_metres": 0.0,
+          "max_corner_normal_error_degrees": 0.03700937167982347,
+          "normal_corners_over_0_2_degrees": 0,
+          "max_linear_colour_error": 0.0,
+          "colour_acceptance": "linear RGBA error <= 0.00001",
+          "exceeds_historical_glb_0_0045": false,
+          "geometric_face_up_normal_min": 0.0,
+          "geometric_faces_below_negative_tolerance": 0,
+          "geometric_faces_nonpositive_before_tolerance": 332,
+          "root_edge_contact": {
+            "source_root_vertex_count": 77673,
+            "matched_unique_source_root_vertices": 77673,
+            "unmatched_source_root_vertices": 0,
+            "missing_ground_hits": 0,
+            "clearance_metres": {
+              "count": 77673,
+              "min": -0.0008014310151338577,
+              "p05": -0.000800594687461853,
+              "median": -0.0007999999797903001,
+              "p95": -0.0007994044572114944,
+              "p99": -0.0007991660386323929,
+              "max": -0.0007985690608620644,
+              "mean": -0.0008000018666437243
+            },
+            "max_error_from_expected_metres": 1.4310151338576887e-06,
+            "expected_clearance_metres": -0.0008
+          },
+          "creeping_surface_samples": null,
+          "full_height_obstacle_projection": {
+            "vertices_tested": 289370,
+            "triangle_centroids_tested": 212029,
+            "vertex_hits": {},
+            "triangle_centroid_hits": {},
+            "first_hits": []
+          }
+        }
+      ],
+      "local_byte_colour_model": null,
+      "sha256": "f4985e1be056f6bb8eee14f298c28ed5f490f79e0bfcaa1ea131617e8b4d5503",
+      "errors": [],
+      "passed": true
+    },
+    {
+      "format": "fbx",
+      "mesh_count": 29,
+      "anchor_count": 14,
+      "triangles": 505782,
+      "unchanged_non_targets": [
+        {
+          "mesh": "Cabin_ClimbingIvy",
+          "same": true,
+          "baseline_sha256": "0aef28503ee000b44512bc16975139fa865e932398c9423cda35d38350c9619f",
+          "candidate_sha256": "0aef28503ee000b44512bc16975139fa865e932398c9423cda35d38350c9619f"
+        },
+        {
+          "mesh": "Cabin_DoorAndAccessories",
+          "same": true,
+          "baseline_sha256": "5a934e596d36300ec69383743b8fccf1b6d62f295fcaa9c5d3625e7b9fd50cfd",
+          "candidate_sha256": "5a934e596d36300ec69383743b8fccf1b6d62f295fcaa9c5d3625e7b9fd50cfd"
+        },
+        {
+          "mesh": "Cabin_IndividualShingles",
+          "same": true,
+          "baseline_sha256": "c334e94d9e843cae299819d921029ed2c4ed544c436c50f49c083eafb0155864",
+          "candidate_sha256": "c334e94d9e843cae299819d921029ed2c4ed544c436c50f49c083eafb0155864"
+        },
+        {
+          "mesh": "Cabin_PlasterAndFoundation",
+          "same": true,
+          "baseline_sha256": "f4d4a9d17f9e2686a36803d5d21e23bc013e98d021e922fcc0c0f66a220d80bb",
+          "candidate_sha256": "f4d4a9d17f9e2686a36803d5d21e23bc013e98d021e922fcc0c0f66a220d80bb"
+        },
+        {
+          "mesh": "Cabin_ReadingWindow_Glow",
+          "same": true,
+          "baseline_sha256": "3f756cfd53b57388472e22390199e144250968a4f7c8c689f7f4d516e9b27d2c",
+          "candidate_sha256": "3f756cfd53b57388472e22390199e144250968a4f7c8c689f7f4d516e9b27d2c"
+        },
+        {
+          "mesh": "Cabin_Timber",
+          "same": true,
+          "baseline_sha256": "a042f0fbc78aa8c0c45d445fd99c7d22650ffc095be609f52d98d071445364ac",
+          "candidate_sha256": "a042f0fbc78aa8c0c45d445fd99c7d22650ffc095be609f52d98d071445364ac"
+        },
+        {
+          "mesh": "Cliff_Pier",
+          "same": true,
+          "baseline_sha256": "111ef0d3d8697d1c0b09b6ce8b0eb7649e2bb7c469386470e932386a838972fb",
+          "candidate_sha256": "111ef0d3d8697d1c0b09b6ce8b0eb7649e2bb7c469386470e932386a838972fb"
+        },
+        {
+          "mesh": "Garden_Bench",
+          "same": true,
+          "baseline_sha256": "430d4af685fdbfc0a1d62b969d06caaa158c3f795d0b11d23e317fc7e74a9b4d",
+          "candidate_sha256": "430d4af685fdbfc0a1d62b969d06caaa158c3f795d0b11d23e317fc7e74a9b4d"
+        },
+        {
+          "mesh": "Garden_CanopyLeafEdges",
+          "same": true,
+          "baseline_sha256": "abdffe976107c507172b3ba2aa69eefec01a438662d0ea688cecacf43ee7940b",
+          "candidate_sha256": "abdffe976107c507172b3ba2aa69eefec01a438662d0ea688cecacf43ee7940b"
+        },
+        {
+          "mesh": "Garden_FeatherFerns",
+          "same": true,
+          "baseline_sha256": "5108cc15c787e2f80920f73bf3fc5e9aca3e14ac3c639c665bd94b9307f1e47a",
+          "candidate_sha256": "5108cc15c787e2f80920f73bf3fc5e9aca3e14ac3c639c665bd94b9307f1e47a"
+        },
+        {
+          "mesh": "Garden_HeroBoulders",
+          "same": true,
+          "baseline_sha256": "7463ff98136e4ca5341f7975d22664dc38d1f3ead7a93008a7897f5b35bba6e6",
+          "candidate_sha256": "7463ff98136e4ca5341f7975d22664dc38d1f3ead7a93008a7897f5b35bba6e6"
+        },
+        {
+          "mesh": "Garden_LavenderAndSeedHeads",
+          "same": true,
+          "baseline_sha256": "a97ef47e869385964e2678cca6c2516830456701b4c4be49b95af165d338bc1b",
+          "candidate_sha256": "a97ef47e869385964e2678cca6c2516830456701b4c4be49b95af165d338bc1b"
+        },
+        {
+          "mesh": "Garden_MushroomsAndPebbles",
+          "same": true,
+          "baseline_sha256": "146e9c8317032e046530fe5d666d0c9ff35dc60c28ce3b88b5795199d2add912",
+          "candidate_sha256": "146e9c8317032e046530fe5d666d0c9ff35dc60c28ce3b88b5795199d2add912"
+        },
+        {
+          "mesh": "Garden_StoryDetails",
+          "same": true,
+          "baseline_sha256": "a2aa3f05e6729d0c22db9384a87ee44c299b59ec6724381699b026f9bc9a9eb1",
+          "candidate_sha256": "a2aa3f05e6729d0c22db9384a87ee44c299b59ec6724381699b026f9bc9a9eb1"
+        },
+        {
+          "mesh": "Garden_TreeCanopies",
+          "same": true,
+          "baseline_sha256": "8916f7ced67628a9ff4e04de2cedb1b485ea855555598a3f2b8a160246670a7e",
+          "candidate_sha256": "8916f7ced67628a9ff4e04de2cedb1b485ea855555598a3f2b8a160246670a7e"
+        },
+        {
+          "mesh": "Garden_TreeTrunks",
+          "same": true,
+          "baseline_sha256": "d6baa6727c8a2594b1494dd47eb6692045db6f133c4f19d77402b1fae18e61f4",
+          "candidate_sha256": "d6baa6727c8a2594b1494dd47eb6692045db6f133c4f19d77402b1fae18e61f4"
+        },
+        {
+          "mesh": "Garden_Walkways",
+          "same": true,
+          "baseline_sha256": "da1ba29b69f5bcd4b12bb9c515dc7993bdda4184c3bc1533ff18414737dce94c",
+          "candidate_sha256": "da1ba29b69f5bcd4b12bb9c515dc7993bdda4184c3bc1533ff18414737dce94c"
+        },
+        {
+          "mesh": "Garden_Wildflowers",
+          "same": true,
+          "baseline_sha256": "155bd3dc998bae793581d78477807b8a33c2fadf5954a414026b02641f47546b",
+          "candidate_sha256": "155bd3dc998bae793581d78477807b8a33c2fadf5954a414026b02641f47546b"
+        },
+        {
+          "mesh": "Island_BrassMeridian",
+          "same": true,
+          "baseline_sha256": "c3ac406aca5e85b872e1e52befc5a051e134b5901e017b88ce0584c9e6ef65a4",
+          "candidate_sha256": "c3ac406aca5e85b872e1e52befc5a051e134b5901e017b88ce0584c9e6ef65a4"
+        },
+        {
+          "mesh": "Island_CliffGardens",
+          "same": true,
+          "baseline_sha256": "274587bb39cb76d87bd32b518cf9acb27fc76ea3b024d499859a330e1c8cfc2b",
+          "candidate_sha256": "274587bb39cb76d87bd32b518cf9acb27fc76ea3b024d499859a330e1c8cfc2b"
+        },
+        {
+          "mesh": "Island_Meadow",
+          "same": true,
+          "baseline_sha256": "d6476c09bf30150ae3670c0afc9a563dc3f4bd3cd60bff7897663e38258fa425",
+          "candidate_sha256": "d6476c09bf30150ae3670c0afc9a563dc3f4bd3cd60bff7897663e38258fa425"
+        },
+        {
+          "mesh": "Island_Strata",
+          "same": true,
+          "baseline_sha256": "87a9ccabbd0c6a454e8e21402274e7b728fd9afd97ee9bc1aaf32b8aec75b61e",
+          "candidate_sha256": "87a9ccabbd0c6a454e8e21402274e7b728fd9afd97ee9bc1aaf32b8aec75b61e"
+        },
+        {
+          "mesh": "LampBase_A",
+          "same": true,
+          "baseline_sha256": "980d41f002300c440aef8e7c9638730a01ec009b4b0b31f8cd898dfd0edc5eab",
+          "candidate_sha256": "980d41f002300c440aef8e7c9638730a01ec009b4b0b31f8cd898dfd0edc5eab"
+        },
+        {
+          "mesh": "LampBase_B",
+          "same": true,
+          "baseline_sha256": "00c4aa6311a68f62e66546a122d9792bdce68368cefe93b41faf3d2ec54e1062",
+          "candidate_sha256": "00c4aa6311a68f62e66546a122d9792bdce68368cefe93b41faf3d2ec54e1062"
+        },
+        {
+          "mesh": "LampBase_C",
+          "same": true,
+          "baseline_sha256": "76cce7bb95e74315a4ca74ec1ea223c5f1818745c2ce7cc3319e50d8b435a0fe",
+          "candidate_sha256": "76cce7bb95e74315a4ca74ec1ea223c5f1818745c2ce7cc3319e50d8b435a0fe"
+        },
+        {
+          "mesh": "MoonDial_Sculpture",
+          "same": true,
+          "baseline_sha256": "5f6d6cf8c660a8b51e5acc20659ed497bf255a0b433733aa054f4f7d11b0ecce",
+          "candidate_sha256": "5f6d6cf8c660a8b51e5acc20659ed497bf255a0b433733aa054f4f7d11b0ecce"
+        },
+        {
+          "mesh": "Observatory_StoneAndBrass",
+          "same": true,
+          "baseline_sha256": "cda947bdc276c6a0a7584279139979d4256067dbcb828c72b8bde21b9937c75f",
+          "candidate_sha256": "cda947bdc276c6a0a7584279139979d4256067dbcb828c72b8bde21b9937c75f"
+        }
+      ],
+      "materials_identical": true,
+      "anchors_identical": true,
+      "material_fingerprints": {
+        "baseline": {
+          "BI_brass": "7bdc3e7e71831c6ed65136ed4870d5831eb5e7bf013f6b8ac4bb0dd29a44ad24",
+          "BI_brass_light": "6994a45dd32758787d17402633fc19b4fbdf4788997149ac6065959fb55d7173",
+          "BI_flower_blue": "947dee80724fcc1a6bd97dcbf2d7eed9230aab501418831bfff4937d0d690e95",
+          "BI_flower_coral": "b79bba107221ad64051cc38ee7bcafbbeaa1d6146449629b9e7259efad3754b9",
+          "BI_flower_cream": "d99c70f4db8399f9602fd9fb927e790300407cce48a231ec261fc9a310cd37a8",
+          "BI_flower_lilac": "585980453d5ef07761f8f1d34a044828f45451de9974681079b4120d7f68e06b",
+          "BI_grass": "99f82f617d8a07f4d4ccd7310b8eed624bc4bab2f05cdf7be9ba2ed6318a07fa",
+          "BI_grass_sage": "4561ad717cae2738b1e66a60e885e78e2866decf0fd07107ab890cc2b5d9f549",
+          "BI_leaf": "0934ad8ec9e225c7f702ca489157a619cbd46e5d10a6c9c707229831f703792e",
+          "BI_leaf_blue": "4a453f5ecb9047720a0a2211be91f99c2c4f92a9dcbcc9fcb793970aa08b9cc1",
+          "BI_leaf_dark": "0d302b012c3f4b48f39a51ea71fd77c42138758de9b272d0579af913895e069c",
+          "BI_leaf_gold": "6341fcb554f5327256c5268fdc8f04db7bf43b9490b81fc561c58e37e7ac6b23",
+          "BI_leaf_ground_lime": "8e7e627606af06c31b88b348e266959a370fa283dee28868a4e2aa94d3847e01",
+          "BI_leaf_ground_sage": "c34fd3a4a121dae3040bb5660a5a3bc203d4b66f34ee0cda7ab53e0dcea31dce",
+          "BI_leaf_light": "88c35981ff04931e6548578dcb4180f6b7c47c2bdd3eae6bd3b6e9fb19257655",
+          "BI_leaf_meadow_deep": "e91cf3e91f69310db4968d6e57560991e17d001fc00b7a4ad1a96837102057cd",
+          "BI_leaf_meadow_dry": "9694c795aaff1628cd4cd8023da0abe68cade5af06655cfbca412d86a3789373",
+          "BI_leaf_meadow_olive": "68ad06f3a0f9c3d72aee657aa09929ad28af6256bceb0d9d1e121ea2f5433f9e",
+          "BI_leaf_meadow_young": "81c2cf10354d873b15522b292bf51d0fe2ca1c4f155dca9ddb64c11abde6fb51",
+          "BI_metal_dark": "14abf77f5d5929def42ad16abe9789534725b3f60f5685a4ce0cfe30c1a7f922",
+          "BI_moss": "17cfd2c344a72b5640c3bd2cf87e5e91e895eb4374a9a642c7333bdf13a052ac",
+          "BI_mushroom": "aa3b776e0bc5472b66093369623918512743bafdf7575d65a2f2da3502da23d1",
+          "BI_mushroom_spot": "f786d5ac0c3fbb27c59f85409049ef4434f6e04e08b5a328148a1de52d2ee17e",
+          "BI_paper": "67157c7110dc463c1243efdb8e16e63d491f6d83980e41a6bb9129c9db8a1e03",
+          "BI_plaster": "8e594bf49978e9e6bba2ac9646826698cc770661afd417b550b938725513e5bf",
+          "BI_plaster_light": "49107f1ceec204ce0876d9a42ce49800698a8fc8c6b097dfb5606fc5e6ecafe4",
+          "BI_quartz": "fb4c1ef1c65a4c25e7f9b0361d947eebc6b9019dc5ac5028c68602afffa0aaf8",
+          "BI_rock": "21dd62f33de3eb0b53fdd6976be154f846ee22abd6a2d4de709af1142def4ae8",
+          "BI_rock_blue": "2902b6a358dfca8402047200449f2c2ac3493946a2922ccdc0369a369f873dc6",
+          "BI_rock_dark": "f50b5715521cfc4821c95b64817119c51292a071425712aef49f72a553e08396",
+          "BI_rock_hero_slate": "9ad308a2268740c1e5d61d3ee875949ae9d605ae00c2fba4f50d45dfafab367b",
+          "BI_rock_hero_warm": "c38460f873aa61dfc9f87eae0c2408df5bd7e4aeb059e16af09a6b9893727137",
+          "BI_rock_light": "50fb81a6c804175559a6822c17c07fb29819615bdb82244a2be12adc91b9dbdb",
+          "BI_roof": "78655139d4dcf04032df9e5ede7e6e7da9910a710d97b6a66a49e0ee2eb2deac",
+          "BI_roof_dark": "31e78c3897845102ecbbd2461ac975b76f5dbf542390183e6c57d983e451841e",
+          "BI_roof_light": "3a96bc0926254cd497185b1646d911fb05c1cb9c4552c1224b0173eec0bb795a",
+          "BI_sea_glass": "78160ab1b4d21316073d357d46093342438bbb7cd0a9f22f3552db7877cfe042",
+          "BI_star_warm": "5a9b0b26a358149e99da45f767e04257e8d82deb7684d5d5a55f74a86a26964f",
+          "BI_stem": "707a68a0bebd648d9a5abc1fc5d646533760831ab10647e07e8ca6112c9417a0",
+          "BI_stone": "c4ea4c89671de4712fd3c746e844e18b0e6df947bcbd522a2f42ea9cda5216a6",
+          "BI_stone_dark": "bcbff52e8fb23dea03731fcadc7d3b9c0b16f70682b87cfc06c7c00708d791b3",
+          "BI_stone_light": "44b2b2a63a5c512e0f00a6a1f7daac4ae774b5b425f7a6a0d249e54b9db3568d",
+          "BI_stone_path_ochre": "2b8331f0058d469bc1445888b2f80542240e2730c73aab56bdbba7e96b066825",
+          "BI_stone_path_slate": "f51a4bf77aa81f341028a2e0e54918438cab554daf18e48d7f6b4349317209a6",
+          "BI_stone_path_warm": "7d56f8757ae14d21666db32598401465392b480c9e4a6754919cce5220b30ea9",
+          "BI_window_honey": "4b728b9f15592d999102006e8c0f2f799d8497cb04ca0bd6474ee1516b2cc835",
+          "BI_wood": "129b74758db3ca434f9668e0354e6529c7e6cd595d80beab873298253e1839c7",
+          "BI_wood_cut": "ccc3f51a33952f7cb285e787e874f9100390a48b19610cc2ecce7d13b9269aaa",
+          "BI_wood_light": "0ec436323ca3715d6f5ad1a70133ca5230eebfc250d988cdec580cbd75e4c7fb"
+        },
+        "candidate": {
+          "BI_brass": "7bdc3e7e71831c6ed65136ed4870d5831eb5e7bf013f6b8ac4bb0dd29a44ad24",
+          "BI_brass_light": "6994a45dd32758787d17402633fc19b4fbdf4788997149ac6065959fb55d7173",
+          "BI_flower_blue": "947dee80724fcc1a6bd97dcbf2d7eed9230aab501418831bfff4937d0d690e95",
+          "BI_flower_coral": "b79bba107221ad64051cc38ee7bcafbbeaa1d6146449629b9e7259efad3754b9",
+          "BI_flower_cream": "d99c70f4db8399f9602fd9fb927e790300407cce48a231ec261fc9a310cd37a8",
+          "BI_flower_lilac": "585980453d5ef07761f8f1d34a044828f45451de9974681079b4120d7f68e06b",
+          "BI_grass": "99f82f617d8a07f4d4ccd7310b8eed624bc4bab2f05cdf7be9ba2ed6318a07fa",
+          "BI_grass_sage": "4561ad717cae2738b1e66a60e885e78e2866decf0fd07107ab890cc2b5d9f549",
+          "BI_leaf": "0934ad8ec9e225c7f702ca489157a619cbd46e5d10a6c9c707229831f703792e",
+          "BI_leaf_blue": "4a453f5ecb9047720a0a2211be91f99c2c4f92a9dcbcc9fcb793970aa08b9cc1",
+          "BI_leaf_dark": "0d302b012c3f4b48f39a51ea71fd77c42138758de9b272d0579af913895e069c",
+          "BI_leaf_gold": "6341fcb554f5327256c5268fdc8f04db7bf43b9490b81fc561c58e37e7ac6b23",
+          "BI_leaf_ground_lime": "8e7e627606af06c31b88b348e266959a370fa283dee28868a4e2aa94d3847e01",
+          "BI_leaf_ground_sage": "c34fd3a4a121dae3040bb5660a5a3bc203d4b66f34ee0cda7ab53e0dcea31dce",
+          "BI_leaf_light": "88c35981ff04931e6548578dcb4180f6b7c47c2bdd3eae6bd3b6e9fb19257655",
+          "BI_leaf_meadow_deep": "e91cf3e91f69310db4968d6e57560991e17d001fc00b7a4ad1a96837102057cd",
+          "BI_leaf_meadow_dry": "9694c795aaff1628cd4cd8023da0abe68cade5af06655cfbca412d86a3789373",
+          "BI_leaf_meadow_olive": "68ad06f3a0f9c3d72aee657aa09929ad28af6256bceb0d9d1e121ea2f5433f9e",
+          "BI_leaf_meadow_young": "81c2cf10354d873b15522b292bf51d0fe2ca1c4f155dca9ddb64c11abde6fb51",
+          "BI_metal_dark": "14abf77f5d5929def42ad16abe9789534725b3f60f5685a4ce0cfe30c1a7f922",
+          "BI_moss": "17cfd2c344a72b5640c3bd2cf87e5e91e895eb4374a9a642c7333bdf13a052ac",
+          "BI_mushroom": "aa3b776e0bc5472b66093369623918512743bafdf7575d65a2f2da3502da23d1",
+          "BI_mushroom_spot": "f786d5ac0c3fbb27c59f85409049ef4434f6e04e08b5a328148a1de52d2ee17e",
+          "BI_paper": "67157c7110dc463c1243efdb8e16e63d491f6d83980e41a6bb9129c9db8a1e03",
+          "BI_plaster": "8e594bf49978e9e6bba2ac9646826698cc770661afd417b550b938725513e5bf",
+          "BI_plaster_light": "49107f1ceec204ce0876d9a42ce49800698a8fc8c6b097dfb5606fc5e6ecafe4",
+          "BI_quartz": "fb4c1ef1c65a4c25e7f9b0361d947eebc6b9019dc5ac5028c68602afffa0aaf8",
+          "BI_rock": "21dd62f33de3eb0b53fdd6976be154f846ee22abd6a2d4de709af1142def4ae8",
+          "BI_rock_blue": "2902b6a358dfca8402047200449f2c2ac3493946a2922ccdc0369a369f873dc6",
+          "BI_rock_dark": "f50b5715521cfc4821c95b64817119c51292a071425712aef49f72a553e08396",
+          "BI_rock_hero_slate": "9ad308a2268740c1e5d61d3ee875949ae9d605ae00c2fba4f50d45dfafab367b",
+          "BI_rock_hero_warm": "c38460f873aa61dfc9f87eae0c2408df5bd7e4aeb059e16af09a6b9893727137",
+          "BI_rock_light": "50fb81a6c804175559a6822c17c07fb29819615bdb82244a2be12adc91b9dbdb",
+          "BI_roof": "78655139d4dcf04032df9e5ede7e6e7da9910a710d97b6a66a49e0ee2eb2deac",
+          "BI_roof_dark": "31e78c3897845102ecbbd2461ac975b76f5dbf542390183e6c57d983e451841e",
+          "BI_roof_light": "3a96bc0926254cd497185b1646d911fb05c1cb9c4552c1224b0173eec0bb795a",
+          "BI_sea_glass": "78160ab1b4d21316073d357d46093342438bbb7cd0a9f22f3552db7877cfe042",
+          "BI_star_warm": "5a9b0b26a358149e99da45f767e04257e8d82deb7684d5d5a55f74a86a26964f",
+          "BI_stem": "707a68a0bebd648d9a5abc1fc5d646533760831ab10647e07e8ca6112c9417a0",
+          "BI_stone": "c4ea4c89671de4712fd3c746e844e18b0e6df947bcbd522a2f42ea9cda5216a6",
+          "BI_stone_dark": "bcbff52e8fb23dea03731fcadc7d3b9c0b16f70682b87cfc06c7c00708d791b3",
+          "BI_stone_light": "44b2b2a63a5c512e0f00a6a1f7daac4ae774b5b425f7a6a0d249e54b9db3568d",
+          "BI_stone_path_ochre": "2b8331f0058d469bc1445888b2f80542240e2730c73aab56bdbba7e96b066825",
+          "BI_stone_path_slate": "f51a4bf77aa81f341028a2e0e54918438cab554daf18e48d7f6b4349317209a6",
+          "BI_stone_path_warm": "7d56f8757ae14d21666db32598401465392b480c9e4a6754919cce5220b30ea9",
+          "BI_window_honey": "4b728b9f15592d999102006e8c0f2f799d8497cb04ca0bd6474ee1516b2cc835",
+          "BI_wood": "129b74758db3ca434f9668e0354e6529c7e6cd595d80beab873298253e1839c7",
+          "BI_wood_cut": "ccc3f51a33952f7cb285e787e874f9100390a48b19610cc2ecce7d13b9269aaa",
+          "BI_wood_light": "0ec436323ca3715d6f5ad1a70133ca5230eebfc250d988cdec580cbd75e4c7fb"
+        }
+      },
+      "zero_area_triangles": [],
+      "duplicate_triangles": [],
+      "invalid_normal_meshes": [],
+      "target_checks": [
+        {
+          "mesh": "Garden_CreepingMeadowLeaves",
+          "vertices": 35154,
+          "triangles": 31248,
+          "max_position_error_metres": 1.1427657682361314e-06,
+          "max_corner_normal_error_degrees": 0.0340107325234426,
+          "normal_corners_over_0_2_degrees": 0,
+          "max_linear_colour_error": 0.0,
+          "colour_acceptance": "linear RGBA error <= 0.00001",
+          "exceeds_historical_glb_0_0045": false,
+          "geometric_face_up_normal_min": 0.847633421421051,
+          "geometric_faces_below_negative_tolerance": 0,
+          "geometric_faces_nonpositive_before_tolerance": 0,
+          "root_edge_contact": {
+            "source_root_vertex_count": 3906,
+            "matched_unique_source_root_vertices": 3906,
+            "unmatched_source_root_vertices": 0,
+            "missing_ground_hits": 0,
+            "clearance_metres": {
+              "count": 3906,
+              "min": -0.0006014974787831306,
+              "p05": -0.0006006397306919098,
+              "median": -0.0005999859422445297,
+              "p95": -0.0005993880331516266,
+              "p99": -0.0005991647019982338,
+              "max": -0.0005986206233501434,
+              "mean": -0.0005999992104203274
+            },
+            "max_error_from_expected_metres": 1.4974787831306983e-06,
+            "expected_clearance_metres": -0.0006
+          },
+          "creeping_surface_samples": {
+            "clearance_metres": {
+              "vertices": {
+                "count": 35154,
+                "min": -0.0006014974787831306,
+                "p05": -0.00060003655962646,
+                "median": 0.004549417644739151,
+                "p95": 0.009000053023919463,
+                "p99": 0.009000529411714524,
+                "max": 0.01280953735113144,
+                "mean": 0.004466308910096859
+              },
+              "triangle_centroids": {
+                "count": 31248,
+                "min": 0.0013839751482009888,
+                "p05": 0.004315648227930069,
+                "median": 0.005562263540923595,
+                "p95": 0.006516940053552389,
+                "p99": 0.006630611792206764,
+                "max": 0.010257333517074585,
+                "mean": 0.005593936957327671
+              },
+              "edge_midpoints": {
+                "count": 62496,
+                "min": -0.0003507658839225769,
+                "p05": 0.0019747132319025695,
+                "median": 0.005270905792713165,
+                "p95": 0.007496178150177002,
+                "p99": 0.00751080047339201,
+                "max": 0.011304937303066254,
+                "mean": 0.005170627506017031
+              }
+            },
+            "missing_ground_hits": {},
+            "samples_below_minus_1mm": {
+              "vertices": 0,
+              "triangle_centroids": 0,
+              "edge_midpoints": 0
+            },
+            "samples_above_18mm": {
+              "vertices": 0,
+              "triangle_centroids": 0,
+              "edge_midpoints": 0
+            },
+            "passed": true
+          },
+          "full_height_obstacle_projection": {
+            "vertices_tested": 35154,
+            "triangle_centroids_tested": 31248,
+            "vertex_hits": {},
+            "triangle_centroid_hits": {},
+            "first_hits": []
+          }
+        },
+        {
+          "mesh": "Garden_GrassTufts",
+          "vertices": 289370,
+          "triangles": 212029,
+          "max_position_error_metres": 1.1564266060304362e-06,
+          "max_corner_normal_error_degrees": 0.04311461351007984,
+          "normal_corners_over_0_2_degrees": 0,
+          "max_linear_colour_error": 0.0,
+          "colour_acceptance": "linear RGBA error <= 0.00001",
+          "exceeds_historical_glb_0_0045": false,
+          "geometric_face_up_normal_min": 0.0,
+          "geometric_faces_below_negative_tolerance": 0,
+          "geometric_faces_nonpositive_before_tolerance": 332,
+          "root_edge_contact": {
+            "source_root_vertex_count": 77673,
+            "matched_unique_source_root_vertices": 77673,
+            "unmatched_source_root_vertices": 0,
+            "missing_ground_hits": 0,
+            "clearance_metres": {
+              "count": 77673,
+              "min": -0.0008015856146812439,
+              "p05": -0.0008006468415260315,
+              "median": -0.0008000024827197194,
+              "p95": -0.0007993653416633606,
+              "p99": -0.0007990987226366997,
+              "max": -0.0007985010743141174,
+              "mean": -0.0008000042445914768
+            },
+            "max_error_from_expected_metres": 1.5856146812438581e-06,
+            "expected_clearance_metres": -0.0008
+          },
+          "creeping_surface_samples": null,
+          "full_height_obstacle_projection": {
+            "vertices_tested": 289370,
+            "triangle_centroids_tested": 212029,
+            "vertex_hits": {},
+            "triangle_centroid_hits": {},
+            "first_hits": []
+          }
+        }
+      ],
+      "local_byte_colour_model": null,
+      "sha256": "273418cd01a41e95ca5b63050eac812190511ef0d4577e860e2e6527110ba7a2",
+      "errors": [],
+      "passed": true
+    },
+    {
+      "format": "glb",
+      "mesh_count": 29,
+      "anchor_count": 14,
+      "triangles": 505782,
+      "unchanged_non_targets": [
+        {
+          "mesh": "Island_Strata",
+          "same": true,
+          "baseline_sha256": "99a9964f24a0c467407b44bb04dd9d27a40720cdfa3196f885908cc220b7c2a2",
+          "candidate_sha256": "99a9964f24a0c467407b44bb04dd9d27a40720cdfa3196f885908cc220b7c2a2"
+        },
+        {
+          "mesh": "Island_Meadow",
+          "same": true,
+          "baseline_sha256": "de5f40e9c3492e5f2971cea1cc43326f9ca748ee153c092c7fd4733c3af22631",
+          "candidate_sha256": "de5f40e9c3492e5f2971cea1cc43326f9ca748ee153c092c7fd4733c3af22631"
+        },
+        {
+          "mesh": "Island_CliffGardens",
+          "same": true,
+          "baseline_sha256": "009bf838c4e30e88138b0439958ae218f3266411d9d30ee0f15e09ac52f81e34",
+          "candidate_sha256": "009bf838c4e30e88138b0439958ae218f3266411d9d30ee0f15e09ac52f81e34"
+        },
+        {
+          "mesh": "Island_BrassMeridian",
+          "same": true,
+          "baseline_sha256": "3292484b226e2c0657b427ef2472c696015426d34ece628852894d9b3273033f",
+          "candidate_sha256": "3292484b226e2c0657b427ef2472c696015426d34ece628852894d9b3273033f"
+        },
+        {
+          "mesh": "Garden_Walkways",
+          "same": true,
+          "baseline_sha256": "b1224006d4723b750fd9c150a70d4d67ae22ad70814c352e13e73640ad7de785",
+          "candidate_sha256": "b1224006d4723b750fd9c150a70d4d67ae22ad70814c352e13e73640ad7de785"
+        },
+        {
+          "mesh": "Garden_HeroBoulders",
+          "same": true,
+          "baseline_sha256": "7f033e6687940949dd988221abf0042be2b69cefff2f32321cfaf00afb68d619",
+          "candidate_sha256": "7f033e6687940949dd988221abf0042be2b69cefff2f32321cfaf00afb68d619"
+        },
+        {
+          "mesh": "Observatory_StoneAndBrass",
+          "same": true,
+          "baseline_sha256": "bccc5a1735b562002cc592144d28556c45a62be06ef696e7dbecf0284bb0feda",
+          "candidate_sha256": "bccc5a1735b562002cc592144d28556c45a62be06ef696e7dbecf0284bb0feda"
+        },
+        {
+          "mesh": "Cabin_PlasterAndFoundation",
+          "same": true,
+          "baseline_sha256": "1ee7780b1ce93ba7155d59a60455120a7e833d38588c2f9768211153d7dd8650",
+          "candidate_sha256": "1ee7780b1ce93ba7155d59a60455120a7e833d38588c2f9768211153d7dd8650"
+        },
+        {
+          "mesh": "Cabin_IndividualShingles",
+          "same": true,
+          "baseline_sha256": "b0924c342d5dada811e4374a2b3a2e5fab50cd7f6c49f346c440a26f33ab3bfc",
+          "candidate_sha256": "b0924c342d5dada811e4374a2b3a2e5fab50cd7f6c49f346c440a26f33ab3bfc"
+        },
+        {
+          "mesh": "Cabin_ReadingWindow_Glow",
+          "same": true,
+          "baseline_sha256": "c3ab32d3e83b627de4846d835f2d83ed288ce1b0a5be9578a928584ecdfef275",
+          "candidate_sha256": "c3ab32d3e83b627de4846d835f2d83ed288ce1b0a5be9578a928584ecdfef275"
+        },
+        {
+          "mesh": "Cabin_DoorAndAccessories",
+          "same": true,
+          "baseline_sha256": "e02eb3ba9429cd57bdd3abb165c0b980228c43e52dd05f5a171c9137f0ffb3e0",
+          "candidate_sha256": "e02eb3ba9429cd57bdd3abb165c0b980228c43e52dd05f5a171c9137f0ffb3e0"
+        },
+        {
+          "mesh": "Cabin_Timber",
+          "same": true,
+          "baseline_sha256": "0a2b95e72cf8f62c50c2c1306ba9700423e268278c15cad48e48008813f2c73c",
+          "candidate_sha256": "0a2b95e72cf8f62c50c2c1306ba9700423e268278c15cad48e48008813f2c73c"
+        },
+        {
+          "mesh": "LampBase_A",
+          "same": true,
+          "baseline_sha256": "fb7d1fb7185da7ee0cd55adcd43298071ca02c5f00d217e9ee8b3e34a8e74066",
+          "candidate_sha256": "fb7d1fb7185da7ee0cd55adcd43298071ca02c5f00d217e9ee8b3e34a8e74066"
+        },
+        {
+          "mesh": "LampBase_B",
+          "same": true,
+          "baseline_sha256": "c22e43d9f84f3a3a5e091979556fa932487cdd29bd901b3e556e75b4ffeba264",
+          "candidate_sha256": "c22e43d9f84f3a3a5e091979556fa932487cdd29bd901b3e556e75b4ffeba264"
+        },
+        {
+          "mesh": "LampBase_C",
+          "same": true,
+          "baseline_sha256": "25b0994e8d222af546e70376884aff4dc882b9361fb76cd0f03b4d7cc5fc6c7b",
+          "candidate_sha256": "25b0994e8d222af546e70376884aff4dc882b9361fb76cd0f03b4d7cc5fc6c7b"
+        },
+        {
+          "mesh": "Garden_Bench",
+          "same": true,
+          "baseline_sha256": "8ec506d9a42243162665ce7ff4e3167917e1333e1b789a86054d94b54dcabb97",
+          "candidate_sha256": "8ec506d9a42243162665ce7ff4e3167917e1333e1b789a86054d94b54dcabb97"
+        },
+        {
+          "mesh": "Cliff_Pier",
+          "same": true,
+          "baseline_sha256": "56a1517e2ebda6dcce886b891d6f9f01eb9153b3c7ef6c1ce674d8e2e08675be",
+          "candidate_sha256": "56a1517e2ebda6dcce886b891d6f9f01eb9153b3c7ef6c1ce674d8e2e08675be"
+        },
+        {
+          "mesh": "Garden_TreeTrunks",
+          "same": true,
+          "baseline_sha256": "432ce57cf36d4f0460e743647e1bd2a6ab8811374884368dc8b14779b90b3d01",
+          "candidate_sha256": "432ce57cf36d4f0460e743647e1bd2a6ab8811374884368dc8b14779b90b3d01"
+        },
+        {
+          "mesh": "Garden_TreeCanopies",
+          "same": true,
+          "baseline_sha256": "d38012b87b443bcd66238c62cec3cae3bb7fdc07e5620224502f8f1fc38386ac",
+          "candidate_sha256": "d38012b87b443bcd66238c62cec3cae3bb7fdc07e5620224502f8f1fc38386ac"
+        },
+        {
+          "mesh": "Garden_CanopyLeafEdges",
+          "same": true,
+          "baseline_sha256": "3aee198e7da43de3ebc3ad11bdae8b078f9a78f14df5d47754573229acef8e3a",
+          "candidate_sha256": "3aee198e7da43de3ebc3ad11bdae8b078f9a78f14df5d47754573229acef8e3a"
+        },
+        {
+          "mesh": "MoonDial_Sculpture",
+          "same": true,
+          "baseline_sha256": "43831b6ac8ba6edffa01b76b33f6e9616097fbe93cd42c938b86e02283416aee",
+          "candidate_sha256": "43831b6ac8ba6edffa01b76b33f6e9616097fbe93cd42c938b86e02283416aee"
+        },
+        {
+          "mesh": "Garden_FeatherFerns",
+          "same": true,
+          "baseline_sha256": "46eb360d50e844d3918e2ebe6ba5fd19a2bc074a326fe7f6a8cf5c7e594bddb8",
+          "candidate_sha256": "46eb360d50e844d3918e2ebe6ba5fd19a2bc074a326fe7f6a8cf5c7e594bddb8"
+        },
+        {
+          "mesh": "Garden_LavenderAndSeedHeads",
+          "same": true,
+          "baseline_sha256": "fa1df7b3ed91afff28f7f28b5103bb60e9100c99d408a5a43731705b948f4abb",
+          "candidate_sha256": "fa1df7b3ed91afff28f7f28b5103bb60e9100c99d408a5a43731705b948f4abb"
+        },
+        {
+          "mesh": "Garden_Wildflowers",
+          "same": true,
+          "baseline_sha256": "1da27ae6ac645dacbd2cf55bbb7f28c8f600498f25f86248f1cffad9346bc20d",
+          "candidate_sha256": "1da27ae6ac645dacbd2cf55bbb7f28c8f600498f25f86248f1cffad9346bc20d"
+        },
+        {
+          "mesh": "Garden_MushroomsAndPebbles",
+          "same": true,
+          "baseline_sha256": "b693e5ab915621c71a0bc479af22ef2e4f780e578b12c52c8605e6f097d756a1",
+          "candidate_sha256": "b693e5ab915621c71a0bc479af22ef2e4f780e578b12c52c8605e6f097d756a1"
+        },
+        {
+          "mesh": "Cabin_ClimbingIvy",
+          "same": true,
+          "baseline_sha256": "c1bf8a0b758915b0b729616c93c4231dee2b2db00e9450f554bcbdbca18eb37e",
+          "candidate_sha256": "c1bf8a0b758915b0b729616c93c4231dee2b2db00e9450f554bcbdbca18eb37e"
+        },
+        {
+          "mesh": "Garden_StoryDetails",
+          "same": true,
+          "baseline_sha256": "c81481e77b3bc45b430faff20e0a9a286721094054287f72b8b48c7e20271432",
+          "candidate_sha256": "c81481e77b3bc45b430faff20e0a9a286721094054287f72b8b48c7e20271432"
+        }
+      ],
+      "materials_identical": true,
+      "anchors_identical": true,
+      "material_fingerprints": {
+        "baseline": {
+          "BI_brass": "c29d49155ab6ec4e810d9e6d7bd81dd41dc59e8c5e934303917879bc86402f05",
+          "BI_brass_light": "4f3c48fed2859dd12eacaa15e605a07dcff071b8cfe8f1a9a7fe2464f09f72c6",
+          "BI_flower_blue": "d9aa652a70ec1f73bde7321859d6348771e783b2accc49a547920b8d5d137f30",
+          "BI_flower_coral": "3f6d71e40ef314ca0feda05e1a0e25d29490c6882fb1e8e535516c93a2133325",
+          "BI_flower_cream": "0b47f36c977cc3b068c0141a1a9f0d54db76048923d42944f6afa9faab0de937",
+          "BI_flower_lilac": "008f4fc80c2921c014f4a4b1175aa8c12ebf13507e7d68b05640c9a3a0e0e18e",
+          "BI_grass": "90bb77223fa0bec96309ff9cb44ef1e5a3190246926aa6a2da79c3c7b73a1745",
+          "BI_grass_sage": "00537e050163cf4b62cce538f73e8da07837ca64efcb0faf2835bcdb6a08b77a",
+          "BI_leaf": "f735f761e99d424c33613a32cfa6fad7735b1facdac4518d1e8b0dbc74239f35",
+          "BI_leaf_blue": "9eafd2f73ecff25b3313f4cff0be685b86539f19f4a89fcc85e952769586ac09",
+          "BI_leaf_dark": "87767e1f62c8d8f42dbb8ce029fa0fffc73f9769bf05034c819f00248299c37d",
+          "BI_leaf_gold": "d4372e9522938e3172612ac493143ce90586f527f4b20386cb205265d1048d62",
+          "BI_leaf_ground_lime": "457fcca83122817b0a9efdfafb47a4a58e82a91513b9e93b3a83295d86b24ef0",
+          "BI_leaf_ground_sage": "429f647f61857792cec53dfb2875419b8f236c76153f6d574e6bfcb4de124dbe",
+          "BI_leaf_light": "688c0fbd2f0789162b47527916896c867b95979356c7c76181f0a76644fbb554",
+          "BI_leaf_meadow_deep": "bbc6cd99c046fef857a4b8801274cccf72e8238a14dcb63b793015ef508dd39f",
+          "BI_leaf_meadow_dry": "b2fed8802974d801de8c8e91850734b3adfe5e5ad9aab4394c3d1b8323e7b73b",
+          "BI_leaf_meadow_olive": "82f22bd5d81ddbc8d9ae1fddce4c481c424cf2397e76db3e83b7575733b9619b",
+          "BI_leaf_meadow_young": "eee77863e53c170750b0f29b4bc63e3069dfb22b1d6bc09777e88fc80f6251fb",
+          "BI_metal_dark": "6542ecabbec1ddcf1823d97aed33499ac619f97b2c3c6a567f782716975e628d",
+          "BI_moss": "022cc9bcef18b77ea4ccb15b07fd7a35fe5254625b8e9d3f32366770cf69477c",
+          "BI_mushroom": "27e3f3f06fac10b79bb3f6e341516462300efe92474127ec8a9fa3aedec30d2f",
+          "BI_mushroom_spot": "b26b7d70718ca1daabff45045f242756d6aa41d084535fd47cc657e8261f1f5d",
+          "BI_paper": "db8c02c1d5a975bb89abd7b58d8fb86a95621caad962b10af8a5b9a834b32df1",
+          "BI_plaster": "345fda1f3f51135c2b9e19cd87b50a3bdb40d2b86774cc45dc1550edcead91ef",
+          "BI_plaster_light": "7cc4a83ec01583a8d500a5232a51ba091e54827f79042d5d0bba23278a9e3796",
+          "BI_quartz": "ee943b37e20ca6860a2084c35980c3c7f2c226de51f674c0376cf7bb051ee411",
+          "BI_rock": "28da6d83185276ac1dde2a29644918e0beb620555a3c3ac0df2567ab6d1363f7",
+          "BI_rock_blue": "03637f8d55f09b0c3966637f7cfbcb9d4773ff4aaa8efa57c73a9f152e3e6754",
+          "BI_rock_dark": "00df9702446a7a1fe453cfeea48c221c525a968db4b9aba19cc2f42c288093dd",
+          "BI_rock_hero_slate": "ad0927d7594d5af25efc6f284ad510bcad838b51755bb32b57900484fd32fe0c",
+          "BI_rock_hero_warm": "5177161046691116f6907eca816c8e0ef98406316e4be93ac9255a6463accf4f",
+          "BI_rock_light": "2ae9f574a6d58eaeaee0f04218d2f10a1002bf141e4ce212ddcd042b3317008b",
+          "BI_roof": "a7cb273d72ca099088d767ebbe2f154a7feabf975af6b335c814f88d75faf96d",
+          "BI_roof_dark": "e43c899290d2107a815a2480c1290d7c80718d31ea9f6d8b9413f78c3f448184",
+          "BI_roof_light": "dc438e1660e6bcf222b5061dbb3f47d005f209764847a1a100ec26bd779c25c4",
+          "BI_sea_glass": "11d6a57545c3ecb0c8ca3c5fee143ecbe8c2e97f655661f51a9d26cf6fae678b",
+          "BI_star_warm": "dc70bf2ec844fe9c2ac15bd80d763bcbb999bb03c4d5ac84fbb84cbdcbe1ce2b",
+          "BI_stem": "a5c7308be01883868cdd084e9bc94b7a12d05ec0911f35c7cf094ed585753a69",
+          "BI_stone": "d7cb3d71d3ef2267ad14405fc213aefc8dac34c8236124e698e505990e478a31",
+          "BI_stone_dark": "b6f135b439e0ca1921e4c876400c9c1e6e90944870a3be5b0f5b91855a43389d",
+          "BI_stone_light": "d5bd429a35c743a4e775ec377ec0853df457e169baab1d9971deabd6cc1fb87e",
+          "BI_stone_path_ochre": "1e84d885f99b67521f3c9cbe9214c554165a402c500b4df3debebfd894dd97f5",
+          "BI_stone_path_slate": "89c6644e22510d0f32141a2f58bd33fbc71fe24e2c1233452c34e58604cd826b",
+          "BI_stone_path_warm": "07b57b45362d6a33d802f78a81f728e8b906fb41bc272c6e0554a9efa9667e47",
+          "BI_window_honey": "09a18ca0e465f6844a9a9222320acef168cda9e9c9e52d5f6abed8d1c48ade6e",
+          "BI_wood": "db4b4af40b54eb4b1a6c114629d7153a375e8fcfa8009bfba7291d3f0016eee0",
+          "BI_wood_cut": "7e723584e4deef5816d371d939a1be9546ef0748911284738241d19298038107",
+          "BI_wood_light": "7a505002bb9c2222e44403c33b381183e14d81893a350bdb54e1b84c92fa3a73"
+        },
+        "candidate": {
+          "BI_brass": "c29d49155ab6ec4e810d9e6d7bd81dd41dc59e8c5e934303917879bc86402f05",
+          "BI_brass_light": "4f3c48fed2859dd12eacaa15e605a07dcff071b8cfe8f1a9a7fe2464f09f72c6",
+          "BI_flower_blue": "d9aa652a70ec1f73bde7321859d6348771e783b2accc49a547920b8d5d137f30",
+          "BI_flower_coral": "3f6d71e40ef314ca0feda05e1a0e25d29490c6882fb1e8e535516c93a2133325",
+          "BI_flower_cream": "0b47f36c977cc3b068c0141a1a9f0d54db76048923d42944f6afa9faab0de937",
+          "BI_flower_lilac": "008f4fc80c2921c014f4a4b1175aa8c12ebf13507e7d68b05640c9a3a0e0e18e",
+          "BI_grass": "90bb77223fa0bec96309ff9cb44ef1e5a3190246926aa6a2da79c3c7b73a1745",
+          "BI_grass_sage": "00537e050163cf4b62cce538f73e8da07837ca64efcb0faf2835bcdb6a08b77a",
+          "BI_leaf": "f735f761e99d424c33613a32cfa6fad7735b1facdac4518d1e8b0dbc74239f35",
+          "BI_leaf_blue": "9eafd2f73ecff25b3313f4cff0be685b86539f19f4a89fcc85e952769586ac09",
+          "BI_leaf_dark": "87767e1f62c8d8f42dbb8ce029fa0fffc73f9769bf05034c819f00248299c37d",
+          "BI_leaf_gold": "d4372e9522938e3172612ac493143ce90586f527f4b20386cb205265d1048d62",
+          "BI_leaf_ground_lime": "457fcca83122817b0a9efdfafb47a4a58e82a91513b9e93b3a83295d86b24ef0",
+          "BI_leaf_ground_sage": "429f647f61857792cec53dfb2875419b8f236c76153f6d574e6bfcb4de124dbe",
+          "BI_leaf_light": "688c0fbd2f0789162b47527916896c867b95979356c7c76181f0a76644fbb554",
+          "BI_leaf_meadow_deep": "bbc6cd99c046fef857a4b8801274cccf72e8238a14dcb63b793015ef508dd39f",
+          "BI_leaf_meadow_dry": "b2fed8802974d801de8c8e91850734b3adfe5e5ad9aab4394c3d1b8323e7b73b",
+          "BI_leaf_meadow_olive": "82f22bd5d81ddbc8d9ae1fddce4c481c424cf2397e76db3e83b7575733b9619b",
+          "BI_leaf_meadow_young": "eee77863e53c170750b0f29b4bc63e3069dfb22b1d6bc09777e88fc80f6251fb",
+          "BI_metal_dark": "6542ecabbec1ddcf1823d97aed33499ac619f97b2c3c6a567f782716975e628d",
+          "BI_moss": "022cc9bcef18b77ea4ccb15b07fd7a35fe5254625b8e9d3f32366770cf69477c",
+          "BI_mushroom": "27e3f3f06fac10b79bb3f6e341516462300efe92474127ec8a9fa3aedec30d2f",
+          "BI_mushroom_spot": "b26b7d70718ca1daabff45045f242756d6aa41d084535fd47cc657e8261f1f5d",
+          "BI_paper": "db8c02c1d5a975bb89abd7b58d8fb86a95621caad962b10af8a5b9a834b32df1",
+          "BI_plaster": "345fda1f3f51135c2b9e19cd87b50a3bdb40d2b86774cc45dc1550edcead91ef",
+          "BI_plaster_light": "7cc4a83ec01583a8d500a5232a51ba091e54827f79042d5d0bba23278a9e3796",
+          "BI_quartz": "ee943b37e20ca6860a2084c35980c3c7f2c226de51f674c0376cf7bb051ee411",
+          "BI_rock": "28da6d83185276ac1dde2a29644918e0beb620555a3c3ac0df2567ab6d1363f7",
+          "BI_rock_blue": "03637f8d55f09b0c3966637f7cfbcb9d4773ff4aaa8efa57c73a9f152e3e6754",
+          "BI_rock_dark": "00df9702446a7a1fe453cfeea48c221c525a968db4b9aba19cc2f42c288093dd",
+          "BI_rock_hero_slate": "ad0927d7594d5af25efc6f284ad510bcad838b51755bb32b57900484fd32fe0c",
+          "BI_rock_hero_warm": "5177161046691116f6907eca816c8e0ef98406316e4be93ac9255a6463accf4f",
+          "BI_rock_light": "2ae9f574a6d58eaeaee0f04218d2f10a1002bf141e4ce212ddcd042b3317008b",
+          "BI_roof": "a7cb273d72ca099088d767ebbe2f154a7feabf975af6b335c814f88d75faf96d",
+          "BI_roof_dark": "e43c899290d2107a815a2480c1290d7c80718d31ea9f6d8b9413f78c3f448184",
+          "BI_roof_light": "dc438e1660e6bcf222b5061dbb3f47d005f209764847a1a100ec26bd779c25c4",
+          "BI_sea_glass": "11d6a57545c3ecb0c8ca3c5fee143ecbe8c2e97f655661f51a9d26cf6fae678b",
+          "BI_star_warm": "dc70bf2ec844fe9c2ac15bd80d763bcbb999bb03c4d5ac84fbb84cbdcbe1ce2b",
+          "BI_stem": "a5c7308be01883868cdd084e9bc94b7a12d05ec0911f35c7cf094ed585753a69",
+          "BI_stone": "d7cb3d71d3ef2267ad14405fc213aefc8dac34c8236124e698e505990e478a31",
+          "BI_stone_dark": "b6f135b439e0ca1921e4c876400c9c1e6e90944870a3be5b0f5b91855a43389d",
+          "BI_stone_light": "d5bd429a35c743a4e775ec377ec0853df457e169baab1d9971deabd6cc1fb87e",
+          "BI_stone_path_ochre": "1e84d885f99b67521f3c9cbe9214c554165a402c500b4df3debebfd894dd97f5",
+          "BI_stone_path_slate": "89c6644e22510d0f32141a2f58bd33fbc71fe24e2c1233452c34e58604cd826b",
+          "BI_stone_path_warm": "07b57b45362d6a33d802f78a81f728e8b906fb41bc272c6e0554a9efa9667e47",
+          "BI_window_honey": "09a18ca0e465f6844a9a9222320acef168cda9e9c9e52d5f6abed8d1c48ade6e",
+          "BI_wood": "db4b4af40b54eb4b1a6c114629d7153a375e8fcfa8009bfba7291d3f0016eee0",
+          "BI_wood_cut": "7e723584e4deef5816d371d939a1be9546ef0748911284738241d19298038107",
+          "BI_wood_light": "7a505002bb9c2222e44403c33b381183e14d81893a350bdb54e1b84c92fa3a73"
+        }
+      },
+      "zero_area_triangles": [],
+      "duplicate_triangles": [],
+      "invalid_normal_meshes": [],
+      "target_checks": [
+        {
+          "mesh": "Garden_CreepingMeadowLeaves",
+          "vertices": 35154,
+          "triangles": 31248,
+          "max_position_error_metres": 0.0,
+          "max_corner_normal_error_degrees": 0.03157050311576817,
+          "normal_corners_over_0_2_degrees": 0,
+          "max_linear_colour_error": 0.004510223865509033,
+          "colour_acceptance": "raw UINT16 export codes + local BYTE_COLOR model",
+          "exceeds_historical_glb_0_0045": true,
+          "geometric_face_up_normal_min": 0.8476323485374451,
+          "geometric_faces_below_negative_tolerance": 0,
+          "geometric_faces_nonpositive_before_tolerance": 0,
+          "root_edge_contact": {
+            "source_root_vertex_count": 3906,
+            "matched_unique_source_root_vertices": 3906,
+            "unmatched_source_root_vertices": 0,
+            "missing_ground_hits": 0,
+            "clearance_metres": {
+              "count": 3906,
+              "min": -0.0006013112142682076,
+              "p05": -0.0006005950272083282,
+              "median": -0.000599999912083149,
+              "p95": -0.0005995221436023712,
+              "p99": -0.0005992837250232697,
+              "max": -0.0005988068878650665,
+              "mean": -0.0006000046153547767
+            },
+            "max_error_from_expected_metres": 1.3112142682076026e-06,
+            "expected_clearance_metres": -0.0006
+          },
+          "creeping_surface_samples": {
+            "clearance_metres": {
+              "vertices": {
+                "count": 35154,
+                "min": -0.0006013112142682076,
+                "p05": -0.0006000008434057236,
+                "median": 0.004549457225948572,
+                "p95": 0.008999999612569809,
+                "p99": 0.009000476449728012,
+                "max": 0.012809406965970993,
+                "mean": 0.004466304806323316
+              },
+              "triangle_centroids": {
+                "count": 31248,
+                "min": 0.001383766531944275,
+                "p05": 0.004315696051344275,
+                "median": 0.005562236299738288,
+                "p95": 0.0065168222412467,
+                "p99": 0.006630492694675922,
+                "max": 0.010257475078105927,
+                "mean": 0.0055939398296173965
+              },
+              "edge_midpoints": {
+                "count": 62496,
+                "min": -0.0003508925437927246,
+                "p05": 0.001974731683731079,
+                "median": 0.005270902067422867,
+                "p95": 0.007496172562241554,
+                "p99": 0.007510738074779512,
+                "max": 0.01130492240190506,
+                "mean": 0.005170628737488399
+              }
+            },
+            "missing_ground_hits": {},
+            "samples_below_minus_1mm": {
+              "vertices": 0,
+              "triangle_centroids": 0,
+              "edge_midpoints": 0
+            },
+            "samples_above_18mm": {
+              "vertices": 0,
+              "triangle_centroids": 0,
+              "edge_midpoints": 0
+            },
+            "passed": true
+          },
+          "full_height_obstacle_projection": {
+            "vertices_tested": 35154,
+            "triangle_centroids_tested": 31248,
+            "vertex_hits": {},
+            "triangle_centroid_hits": {},
+            "first_hits": []
+          }
+        },
+        {
+          "mesh": "Garden_GrassTufts",
+          "vertices": 289370,
+          "triangles": 212029,
+          "max_position_error_metres": 0.0,
+          "max_corner_normal_error_degrees": 0.035663122863758445,
+          "normal_corners_over_0_2_degrees": 0,
+          "max_linear_colour_error": 0.0045084357261657715,
+          "colour_acceptance": "raw UINT16 export codes + local BYTE_COLOR model",
+          "exceeds_historical_glb_0_0045": true,
+          "geometric_face_up_normal_min": 0.0,
+          "geometric_faces_below_negative_tolerance": 0,
+          "geometric_faces_nonpositive_before_tolerance": 332,
+          "root_edge_contact": {
+            "source_root_vertex_count": 77673,
+            "matched_unique_source_root_vertices": 77673,
+            "unmatched_source_root_vertices": 0,
+            "missing_ground_hits": 0,
+            "clearance_metres": {
+              "count": 77673,
+              "min": -0.0008014310151338577,
+              "p05": -0.000800594687461853,
+              "median": -0.0007999999797903001,
+              "p95": -0.0007994044572114944,
+              "p99": -0.0007991660386323929,
+              "max": -0.0007985690608620644,
+              "mean": -0.0008000018666437243
+            },
+            "max_error_from_expected_metres": 1.4310151338576887e-06,
+            "expected_clearance_metres": -0.0008
+          },
+          "creeping_surface_samples": null,
+          "full_height_obstacle_projection": {
+            "vertices_tested": 289370,
+            "triangle_centroids_tested": 212029,
+            "vertex_hits": {},
+            "triangle_centroid_hits": {},
+            "first_hits": []
+          }
+        }
+      ],
+      "local_byte_colour_model": [
+        {
+          "mesh": "Garden_CreepingMeadowLeaves",
+          "attribute_type": "BYTE_COLOR",
+          "attribute_domain": "POINT",
+          "loops": 93744,
+          "source_vertices_covered": 35154,
+          "max_position_error_metres": 0.0,
+          "raw_float32_to_source_error": {
+            "max_rgba": 7.62939453125e-06,
+            "max_rgb": 7.62939453125e-06,
+            "mean_absolute_rgba": 2.8627625625071253e-06,
+            "mean_absolute_rgb": 3.8170167500095e-06,
+            "rows": 93744
+          },
+          "local_byte_conversion_to_raw_error": {
+            "max_rgba": 0.004503190517425537,
+            "max_rgb": 0.004503190517425537,
+            "mean_absolute_rgba": 0.0016548859601181346,
+            "mean_absolute_rgb": 0.002206514613490846,
+            "rows": 93744
+          },
+          "predicted_byte_to_source_error": {
+            "max_rgba": 0.004510223865509033,
+            "max_rgb": 0.004510223865509033,
+            "mean_absolute_rgba": 0.001654907165470028,
+            "mean_absolute_rgb": 0.002206542887293371,
+            "rows": 93744
+          },
+          "actual_import_to_source_error": {
+            "max_rgba": 0.004510223865509033,
+            "max_rgb": 0.004510223865509033,
+            "mean_absolute_rgba": 0.001654907165470028,
+            "mean_absolute_rgb": 0.002206542887293371,
+            "rows": 93744
+          },
+          "actual_import_minus_predicted_byte_error": {
+            "max_rgba": 0.0,
+            "max_rgb": 0.0,
+            "mean_absolute_rgba": 0.0,
+            "mean_absolute_rgb": 0.0,
+            "rows": 93744
+          },
+          "model_residual_tolerance": 1e-07,
+          "exactly_equal_model_components": 374976,
+          "total_components": 374976,
+          "exceeds_old_import_threshold_0_0045": true,
+          "worst_source_error": {
+            "loop": 35743,
+            "channel": 0,
+            "source_vertex": 13404,
+            "source_linear": [
+              0.9956124424934387,
+              0.9956124424934387,
+              0.9956124424934387,
+              1.0
+            ],
+            "raw_glb_linear_float32": [
+              0.9956054091453552,
+              0.9956054091453552,
+              0.9956054091453552,
+              1.0
+            ],
+            "predicted_local_byte_linear": [
+              0.9911022186279297,
+              0.9911022186279297,
+              0.9911022186279297,
+              1.0
+            ],
+            "actual_import_linear": [
+              0.9911022186279297,
+              0.9911022186279297,
+              0.9911022186279297,
+              1.0
+            ]
+          },
+          "passed": true
+        },
+        {
+          "mesh": "Garden_GrassTufts",
+          "attribute_type": "BYTE_COLOR",
+          "attribute_domain": "POINT",
+          "loops": 636087,
+          "source_vertices_covered": 289370,
+          "max_position_error_metres": 0.0,
+          "raw_float32_to_source_error": {
+            "max_rgba": 7.62939453125e-06,
+            "max_rgb": 7.62939453125e-06,
+            "mean_absolute_rgba": 2.8645917811548755e-06,
+            "mean_absolute_rgb": 3.819455708206501e-06,
+            "rows": 636087
+          },
+          "local_byte_conversion_to_raw_error": {
+            "max_rgba": 0.004503190517425537,
+            "max_rgb": 0.004503190517425537,
+            "mean_absolute_rgba": 0.001560507738495617,
+            "mean_absolute_rgb": 0.0020806769846608225,
+            "rows": 636087
+          },
+          "predicted_byte_to_source_error": {
+            "max_rgba": 0.0045084357261657715,
+            "max_rgb": 0.0045084357261657715,
+            "mean_absolute_rgba": 0.001560524253681628,
+            "mean_absolute_rgb": 0.0020806990049088373,
+            "rows": 636087
+          },
+          "actual_import_to_source_error": {
+            "max_rgba": 0.0045084357261657715,
+            "max_rgb": 0.0045084357261657715,
+            "mean_absolute_rgba": 0.001560524253681628,
+            "mean_absolute_rgb": 0.0020806990049088373,
+            "rows": 636087
+          },
+          "actual_import_minus_predicted_byte_error": {
+            "max_rgba": 0.0,
+            "max_rgb": 0.0,
+            "mean_absolute_rgba": 0.0,
+            "mean_absolute_rgb": 0.0,
+            "rows": 636087
+          },
+          "model_residual_tolerance": 1e-07,
+          "exactly_equal_model_components": 2544348,
+          "total_components": 2544348,
+          "exceeds_old_import_threshold_0_0045": true,
+          "worst_source_error": {
+            "loop": 134829,
+            "channel": 0,
+            "source_vertex": 59411,
+            "source_linear": [
+              0.9956106543540955,
+              0.9956106543540955,
+              0.9956106543540955,
+              1.0
+            ],
+            "raw_glb_linear_float32": [
+              0.9956054091453552,
+              0.9956054091453552,
+              0.9956054091453552,
+              1.0
+            ],
+            "predicted_local_byte_linear": [
+              0.9911022186279297,
+              0.9911022186279297,
+              0.9911022186279297,
+              1.0
+            ],
+            "actual_import_linear": [
+              0.9911022186279297,
+              0.9911022186279297,
+              0.9911022186279297,
+              1.0
+            ]
+          },
+          "passed": true
+        }
+      ],
+      "sha256": "d7c687191321a95a1bcbf9918cd1baa85e8a8a1467b68254ef6c774e4439a3c5",
+      "errors": [],
+      "passed": true
+    }
+  ],
+  "scope": "Clean-scene same-format comparison to frozen world-v8. Preserve 27 non-target mesh fingerprints including normals/UV/colour/material slots and transforms, all used material node/socket/image content, and 14 anchor matrices. Audit target position/normal/linear colour readback, actual root-edge contact, low-leaf vertices/triangle centres/edge midpoints, and static full-height obstacle projection. No animated wind, continuous-intersection, runtime, aesthetic or performance claim. Target GLB colour acceptance requires exact raw UINT16 export codes and a local CORNER BYTE_COLOR importer model, not a widened error threshold.",
+  "limits": {
+    "position_metres": 1e-05,
+    "corner_normal_degrees": 0.2,
+    "root_contact_error_metres": 1e-05,
+    "expected_root_clearance_metres": {
+      "Garden_GrassTufts": -0.0008,
+      "Garden_CreepingMeadowLeaves": -0.0006
+    },
+    "creeping_sample_clearance_metres": [
+      -0.001,
+      0.018
+    ],
+    "geometric_up_normal_negative_tolerance": 1e-07,
+    "surface_comparison_numeric_tolerance_metres": 1e-07,
+    "obstacle_ray_blender_z": 6.0,
+    "obstacle_ray_length_metres": 9.0,
+    "world_triangle_budget": 510293,
+    "raw_glb_uint16_error_bound": 7.748720237898992e-06,
+    "glb_local_byte_model_residual": 1e-07,
+    "historical_glb_0_0045_is_diagnostic_only": true
+  },
+  "full_height_obstacles": [
+    "Garden_HeroBoulders",
+    "Garden_Walkways",
+    "Observatory_StoneAndBrass",
+    "Cliff_Pier",
+    "LampBase_A",
+    "LampBase_B",
+    "LampBase_C",
+    "Cabin_PlasterAndFoundation",
+    "Cabin_Timber"
+  ],
+  "expected_triangles": 505782,
+  "frozen_source_hashes_unchanged": {
+    "island.blend": true,
+    "island.fbx": true,
+    "island.glb": true,
+    "textures/meadow-watercolor.png": true,
+    "textures/meadow-normal.png": true
+  },
+  "candidate_hashes_match": {
+    "island.blend": true,
+    "island.fbx": true,
+    "island.glb": true,
+    "textures/meadow-watercolor.png": true,
+    "textures/meadow-normal.png": true
+  },
+  "textures_byte_identical": {
+    "meadow-watercolor.png": true,
+    "meadow-normal.png": true
+  },
+  "script_sha256": "934e23e3163c8db178a52d49677a847c5cf913dae13e3dc7dc4254b97a23ebb5",
+  "glb_colour_implementation": {
+    "importer": {
+      "path": "C:\\Users\\20665\\Desktop\\game\\tools\\blender-4.5.14-windows-x64\\4.5\\scripts\\addons_core\\io_scene_gltf2\\blender\\imp\\mesh.py",
+      "sha256": "7c8204165da0b3cf0caf24af665642a7f29572cb4e056939ffca48ee1fb09b93",
+      "evidence": [
+        {
+          "line": 348,
+          "source": "layer = mesh.color_attributes.new(name, 'BYTE_COLOR', vc_domains[col_i])"
+        },
+        {
+          "line": 350,
+          "source": "layer.data.foreach_set('color', squish(loop_cols[col_i], np.float32))"
+        }
+      ]
+    },
+    "exporter": {
+      "path": "C:\\Users\\20665\\Desktop\\game\\tools\\blender-4.5.14-windows-x64\\4.5\\scripts\\addons_core\\io_scene_gltf2\\blender\\exp\\primitive_attributes.py",
+      "sha256": "74ae12212ba5eebb6175f0269085e228c6962efc3ec426f52bd4723538cae02d",
+      "evidence": [
+        {
+          "line": 186,
+          "source": "data['data'] *= 65535"
+        },
+        {
+          "line": 187,
+          "source": "data['data'] += 0.5  # bias for rounding"
+        },
+        {
+          "line": 188,
+          "source": "data['data'] = data['data'].astype(np.uint16)"
+        }
+      ]
+    }
+  },
+  "retained_part_classes": {
+    "creeping_leaf": 3906,
+    "long_grass": 8363,
+    "short_grass": 30432,
+    "broad_grass": 83
+  },
+  "source_part_validation": [
+    {
+      "mesh": "Garden_CreepingMeadowLeaves",
+      "vertices": 35154,
+      "triangles": 31248,
+      "parts": 3906,
+      "root_edge_source_vertices": 3906,
+      "part_ranges_cover_source": true
+    },
+    {
+      "mesh": "Garden_GrassTufts",
+      "vertices": 289370,
+      "triangles": 212029,
+      "parts": 38878,
+      "root_edge_source_vertices": 77673,
+      "part_ranges_cover_source": true
+    }
+  ],
+  "raw_glb_colours": [
+    {
+      "mesh": "Island_Strata",
+      "component_types": [
+        5123
+      ],
+      "range_error": 0.0,
+      "linear_range_matches_manifest": true,
+      "linear": true
+    },
+    {
+      "mesh": "Island_Meadow",
+      "component_types": [
+        5123
+      ],
+      "range_error": 0.0,
+      "linear_range_matches_manifest": true,
+      "linear": true
+    },
+    {
+      "mesh": "Island_CliffGardens",
+      "component_types": [
+        5123
+      ],
+      "range_error": 0.0,
+      "linear_range_matches_manifest": true,
+      "linear": true
+    },
+    {
+      "mesh": "Island_BrassMeridian",
+      "component_types": [
+        5123
+      ],
+      "range_error": 0.0,
+      "linear_range_matches_manifest": true,
+      "linear": true
+    },
+    {
+      "mesh": "Garden_Walkways",
+      "component_types": [
+        5123
+      ],
+      "range_error": 0.0,
+      "linear_range_matches_manifest": true,
+      "linear": true
+    },
+    {
+      "mesh": "Garden_HeroBoulders",
+      "component_types": [
+        5123
+      ],
+      "range_error": 7.297627629521131e-06,
+      "linear_range_matches_manifest": true,
+      "linear": true
+    },
+    {
+      "mesh": "Observatory_StoneAndBrass",
+      "component_types": [
+        5123
+      ],
+      "range_error": 0.0,
+      "linear_range_matches_manifest": true,
+      "linear": true
+    },
+    {
+      "mesh": "Cabin_PlasterAndFoundation",
+      "component_types": [
+        5123
+      ],
+      "range_error": 0.0,
+      "linear_range_matches_manifest": true,
+      "linear": true
+    },
+    {
+      "mesh": "Cabin_IndividualShingles",
+      "component_types": [
+        5123
+      ],
+      "range_error": 0.0,
+      "linear_range_matches_manifest": true,
+      "linear": true
+    },
+    {
+      "mesh": "Cabin_ReadingWindow_Glow",
+      "component_types": [
+        5123
+      ],
+      "range_error": 0.0,
+      "linear_range_matches_manifest": true,
+      "linear": true
+    },
+    {
+      "mesh": "Cabin_DoorAndAccessories",
+      "component_types": [
+        5123
+      ],
+      "range_error": 0.0,
+      "linear_range_matches_manifest": true,
+      "linear": true
+    },
+    {
+      "mesh": "Cabin_Timber",
+      "component_types": [
+        5123
+      ],
+      "range_error": 0.0,
+      "linear_range_matches_manifest": true,
+      "linear": true
+    },
+    {
+      "mesh": "LampBase_A",
+      "component_types": [
+        5123
+      ],
+      "range_error": 0.0,
+      "linear_range_matches_manifest": true,
+      "linear": true
+    },
+    {
+      "mesh": "LampBase_B",
+      "component_types": [
+        5123
+      ],
+      "range_error": 0.0,
+      "linear_range_matches_manifest": true,
+      "linear": true
+    },
+    {
+      "mesh": "LampBase_C",
+      "component_types": [
+        5123
+      ],
+      "range_error": 0.0,
+      "linear_range_matches_manifest": true,
+      "linear": true
+    },
+    {
+      "mesh": "Garden_Bench",
+      "component_types": [
+        5123
+      ],
+      "range_error": 0.0,
+      "linear_range_matches_manifest": true,
+      "linear": true
+    },
+    {
+      "mesh": "Cliff_Pier",
+      "component_types": [
+        5123
+      ],
+      "range_error": 0.0,
+      "linear_range_matches_manifest": true,
+      "linear": true
+    },
+    {
+      "mesh": "Garden_TreeTrunks",
+      "component_types": [
+        5123
+      ],
+      "range_error": 0.0,
+      "linear_range_matches_manifest": true,
+      "linear": true
+    },
+    {
+      "mesh": "Garden_TreeCanopies",
+      "component_types": [
+        5123
+      ],
+      "range_error": 0.0,
+      "linear_range_matches_manifest": true,
+      "linear": true
+    },
+    {
+      "mesh": "Garden_CanopyLeafEdges",
+      "component_types": [
+        5123
+      ],
+      "range_error": 0.0,
+      "linear_range_matches_manifest": true,
+      "linear": true
+    },
+    {
+      "mesh": "MoonDial_Sculpture",
+      "component_types": [
+        5123
+      ],
+      "range_error": 0.0,
+      "linear_range_matches_manifest": true,
+      "linear": true
+    },
+    {
+      "mesh": "Garden_CreepingMeadowLeaves",
+      "component_types": [
+        5123
+      ],
+      "range_error": 4.787514918613844e-06,
+      "linear_range_matches_manifest": true,
+      "linear": true
+    },
+    {
+      "mesh": "Garden_FeatherFerns",
+      "component_types": [
+        5123
+      ],
+      "range_error": 2.9723113285085034e-06,
+      "linear_range_matches_manifest": true,
+      "linear": true
+    },
+    {
+      "mesh": "Garden_LavenderAndSeedHeads",
+      "component_types": [
+        5123
+      ],
+      "range_error": 0.0,
+      "linear_range_matches_manifest": true,
+      "linear": true
+    },
+    {
+      "mesh": "Garden_Wildflowers",
+      "component_types": [
+        5123
+      ],
+      "range_error": 0.0,
+      "linear_range_matches_manifest": true,
+      "linear": true
+    },
+    {
+      "mesh": "Garden_GrassTufts",
+      "component_types": [
+        5123
+      ],
+      "range_error": 5.025933497715407e-06,
+      "linear_range_matches_manifest": true,
+      "linear": true
+    },
+    {
+      "mesh": "Garden_MushroomsAndPebbles",
+      "component_types": [
+        5123
+      ],
+      "range_error": 0.0,
+      "linear_range_matches_manifest": true,
+      "linear": true
+    },
+    {
+      "mesh": "Cabin_ClimbingIvy",
+      "component_types": [
+        5123
+      ],
+      "range_error": 0.0,
+      "linear_range_matches_manifest": true,
+      "linear": true
+    },
+    {
+      "mesh": "Garden_StoryDetails",
+      "component_types": [
+        5123
+      ],
+      "range_error": 0.0,
+      "linear_range_matches_manifest": true,
+      "linear": true
+    }
+  ],
+  "raw_glb_target_quantization": [
+    {
+      "mesh": "Garden_CreepingMeadowLeaves",
+      "node": 35,
+      "mesh_index": 21,
+      "node_world_matrix_gltf": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "coordinate_conversion": "node world, then (x, -z, y), metre scale 1",
+      "source_vertices_covered": 35154,
+      "primitives": [
+        {
+          "primitive": 0,
+          "vertices": 12177,
+          "position_accessor": 395,
+          "colour_accessor": 398
+        },
+        {
+          "primitive": 1,
+          "vertices": 11070,
+          "position_accessor": 400,
+          "colour_accessor": 403
+        },
+        {
+          "primitive": 2,
+          "vertices": 11907,
+          "position_accessor": 405,
+          "colour_accessor": 408
+        }
+      ],
+      "max_position_error_metres": 0.0,
+      "raw_linear_to_source_error": {
+        "max_rgba": 7.658261424015045e-06,
+        "max_rgb": 7.658261424015045e-06,
+        "mean_absolute_rgba": 2.8575974400949024e-06,
+        "mean_absolute_rgb": 3.810129920126537e-06,
+        "rows": 35154
+      },
+      "expected_export_uint16_code_mismatches": 0,
+      "ideal_uint16_half_step": 7.629510948348211e-06,
+      "float32_arithmetic_allowance": 1.1920928955078125e-07,
+      "raw_linear_error_bound": 7.748720237898992e-06,
+      "passed": true
+    },
+    {
+      "mesh": "Garden_GrassTufts",
+      "node": 39,
+      "mesh_index": 25,
+      "node_world_matrix_gltf": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "coordinate_conversion": "node world, then (x, -z, y), metre scale 1",
+      "source_vertices_covered": 289370,
+      "primitives": [
+        {
+          "primitive": 0,
+          "vertices": 154598,
+          "position_accessor": 474,
+          "colour_accessor": 477
+        },
+        {
+          "primitive": 1,
+          "vertices": 98311,
+          "position_accessor": 479,
+          "colour_accessor": 482
+        },
+        {
+          "primitive": 2,
+          "vertices": 9422,
+          "position_accessor": 484,
+          "colour_accessor": 487
+        },
+        {
+          "primitive": 3,
+          "vertices": 1079,
+          "position_accessor": 489,
+          "colour_accessor": 492
+        },
+        {
+          "primitive": 4,
+          "vertices": 25960,
+          "position_accessor": 494,
+          "colour_accessor": 497
+        }
+      ],
+      "max_position_error_metres": 0.0,
+      "raw_linear_to_source_error": {
+        "max_rgba": 7.658941736488067e-06,
+        "max_rgb": 7.658941736488067e-06,
+        "mean_absolute_rgba": 2.863019485177382e-06,
+        "mean_absolute_rgb": 3.817359313569844e-06,
+        "rows": 289370
+      },
+      "expected_export_uint16_code_mismatches": 0,
+      "ideal_uint16_half_step": 7.629510948348211e-06,
+      "float32_arithmetic_allowance": 1.1920928955078125e-07,
+      "raw_linear_error_bound": 7.748720237898992e-06,
+      "passed": true
+    }
+  ],
+  "input_files_unchanged_during_audit": {
+    "C:\\Users\\20665\\Desktop\\game\\art\\generated\\world-v8\\island.blend": true,
+    "C:\\Users\\20665\\Desktop\\game\\art\\generated\\world-v8\\island.fbx": true,
+    "C:\\Users\\20665\\Desktop\\game\\art\\generated\\world-v8\\island.glb": true,
+    "C:\\Users\\20665\\Desktop\\game\\art\\generated\\world-v8\\textures\\meadow-watercolor.png": true,
+    "C:\\Users\\20665\\Desktop\\game\\art\\generated\\world-v8\\textures\\meadow-normal.png": true,
+    "C:\\Users\\20665\\Desktop\\game\\art\\generated\\world-v10\\island.blend": true,
+    "C:\\Users\\20665\\Desktop\\game\\art\\generated\\world-v10\\island.fbx": true,
+    "C:\\Users\\20665\\Desktop\\game\\art\\generated\\world-v10\\island.glb": true,
+    "C:\\Users\\20665\\Desktop\\game\\art\\generated\\world-v10\\textures\\meadow-watercolor.png": true,
+    "C:\\Users\\20665\\Desktop\\game\\art\\generated\\world-v10\\textures\\meadow-normal.png": true,
+    "C:\\Users\\20665\\Desktop\\game\\art\\generated\\world-v8\\asset-manifest.json": true,
+    "C:\\Users\\20665\\Desktop\\game\\art\\generated\\world-v10\\asset-manifest.json": true
+  }
+}

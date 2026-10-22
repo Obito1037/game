@@ -1,0 +1,48 @@
+{
+  "reviewed": true,
+  "isReleaseDecision": false,
+  "worthImportingIntoUnityForEvaluation": true,
+  "acceptedForRelease": false,
+  "scope": "亲看六张原始640×800工作室预览。结论仅决定是否值得进入Unity同机位评估，不代表实机、动画或发布验收。",
+  "observedImages": [
+    "art/generated/character-v11/baseline-three-quarter.png",
+    "art/generated/character-v11/candidate-three-quarter.png",
+    "art/generated/character-v11/baseline-profile.png",
+    "art/generated/character-v11/candidate-profile.png",
+    "art/generated/character-v10/candidate-three-quarter.png",
+    "art/generated/character-v10/candidate-profile.png"
+  ],
+  "summary": "v11值得作为独立候选导入Unity继续评估。收益主要是头发轮廓：基线高耸的独立粗发束变为贴近头形、方向连续的侧扫发团；v10的大块裸露底帽和稀疏尖束问题在v11明显减轻。脸部质感及发束边缘仍有不足，尚不能认为角色美术问题已解决。",
+  "observations": [
+    {
+      "view": "three-quarter",
+      "judgment": "改善",
+      "evidence": "基线顶部发束像数根粗条竖起，头顶体积较高；v11头顶降低、侧扫方向更统一，眉眼周围轮廓更清楚。眼白及虹膜视觉面积增加，五官读取得更直接。头发右侧仍是宽而硬的片束，中央分束处有明显尖沟，近景带雕刻塑料感。"
+    },
+    {
+      "view": "profile",
+      "judgment": "轮廓明显改善，细节仍欠自然",
+      "evidence": "基线前顶翘起并露出大块帽状底层，后脑下缘近似横切平面；v11形成较连续的圆弧头形，覆盖耳上和后脑，顶发不再突兀抬高。耳上数片宽发束的下缘形成重复尖齿，外侧深沟与薄尖仍显硬。鼻口轮廓可读，但脸颊至下巴仍接近均匀光滑的玩偶表面。"
+    },
+    {
+      "view": "rejected-character-v10",
+      "judgment": "v11比被拒首版更完整",
+      "evidence": "v10两机位都可见大片光滑暗色底帽，耳上还有浅色缺口，数根稀疏发束悬在底层上。v11用连续侧发覆盖这些暴露区域，没有在所看两机位复现同样明显的耳上缺口；但不能据此断言其他角度无穿插或露底。"
+    }
+  ],
+  "remainingIssues": [
+    "发束仍偏宽、末端尖硬，侧发下缘锯齿和表面重复沟槽在近景可见。",
+    "眼睛扩大后更醒目，但眼睑层次仍浅，表情偏固定凝视；闭眼、眨眼覆盖与转头后的衔接没有查看。",
+    "脸部仍有大块均匀奶白表面，鼻口细节弱；本组预览无法证明正常游戏中的灰斑、下脸偏黄或袖胸过亮已改善。"
+  ],
+  "suggestedUnityAcceptance": [
+    "固定原v9角色基线与v11候选，保持同一世界、相机、姿势和灯位，分别检查正常漫步距离及正面/左右近景；不要同时改补光位置来归因。",
+    "确认正常游戏尺寸仍能读到侧扫轮廓，头发没有变成整体暗头盔，耳上和后脑不露明显底帽、缺口或悬空发片。",
+    "检查眨眼与左右转头，眼白/眼睑/眉毛/发际线无新增穿插；静态预览的改进不能替代这一步。"
+  ],
+  "limits": [
+    "本次仅看列出的六张工作室静态原图；预览条件文件声明同相机同灯，但未由本审查运行或复核渲染程序。",
+    "未查看Unity候选、正常玩法、动画、全部角度、格式回读或性能。",
+    "没有作整体超过参考作品的判断，也不是发布采用决定。"
+  ]
+}

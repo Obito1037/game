@@ -1,0 +1,43 @@
+《借光岛》角色 character-v5：连续肢体蒙皮冻结候选
+
+本轮只给已认可的 character-v4 加骨架与蒙皮，不重新制作头脸、头发、衣物外形或材质。原 v4 资产、原 build_traveler.py、Unity Resources 均未被本任务覆盖。
+
+冻结文件
+- traveler.fbx：SHA256 60A8C0B5DF7DE6FBDD9F09BFA2931FD462BC538E50AD54E33370724C7E58D25E。
+- traveler.glb：SHA256 160ABE8A588207695498450F07C1327A5FCB3F5C98C2410EC6638D50D8C4F759。
+- traveler.blend：包含 4 个 Blender 原生 Armature、12 根骨骼及可编辑权重。
+- 来源脚本：art/blender/build_traveler_rigged.py，读取冻结 character-v4/traveler.blend 后增量构建。
+- 最终步态预览：render-gait-front.png / render-gait-side.png；800×800 的 Blender 离线图，不是 Unity 实机。
+
+骨架与运行约定
+- 仍是 53,956 triangles、62 个网格，28 个网格有连续蒙皮；静止顶点相对 v4 最大误差约 0.000000071 m。
+- 原有 TravelerRoot、Body、Head、Arm_L/R、Leg_L/R、ScarfTail、Lantern、Blink_L/R 11 个节点的名字与静止世界位置保留。
+- Arm_L/R 下各有 UpperArm、Elbow。袖管跨肘权重连续变化；袖口、手套、手指、指甲 100% 随前臂，不产生切割接缝。
+- Leg_L/R 下各有 Thigh、Knee、Ankle、HipAnchor。裤腿跨膝连续变化，靴筒跨踝过渡，鞋底刚性随 Ankle。HipAnchor 反向抵消外层 Leg 的俯仰，让裤腰留在身体下，修正抬腿穿出固定外套下摆的问题。
+- Lantern 节点仍在 Arm_R 的祖先树下，直接挂在 Elbow_R 骨，保留原位置；提灯与手掌相对变换固定。
+- Blink_L/R 不改变：打开 localScale=(.001,.001,1)，闭合=(1,1,1)，必须保留导入 bind rotation。
+- FBX 导出仍是 -Z forward / Y up。骨局部 X 不能直接假设为横向轴；Motor.Bind 从 actor.right 计算各关节的准确 bind-space hinge axis，再用 bind * AngleAxis。
+- 保持 Unity Generic、optimizeGameObjects=0，确保命名骨关节可查询。不要对这个资产做动态对象 StaticBatch。
+
+TravelerMotor.cs
+- 默认 WalkSpeed 从 2.3 调为 1.75 m/s；输入、墙体 CapsuleCast、移动边界、Ground() 碰撞语义不变。
+- 新模型使用两段腿 IK；脚跟、踝、脚尖分别向可行走层射线，脚掌反向旋转保持平整。平地抬脚最高约 2.8 cm，石路高度由射线另行补偿。
+- 支撑腿中段身体自然升起，长步时降低；视觉偏移抵消 Ground() 原本加的 3 cm，避免再叠加悬浮 bob。
+- 步频按平面移动速度匹配，接触前后水平切线连续、垂直速度回到零。左右臂轻微反向摆动，提灯侧摆幅更小。
+- 未找到 Knee/Ankle 的旧模型仍走原刚性动画分支，可继续加载旧资源。
+- 旧版 C# 备份在 art/verification/v5-release-source/TravelerMotor.cs。
+
+已完成的独立验证
+- frozen-export-verification.json：新 Blender 进程分别回读 FBX、GLB，均通过。
+- 4 个骨架、12 骨、28 个蒙皮网格、全部原节点、归一化权重、连续肘膝踝过渡均完整。
+- 回读静止/弯曲姿态顶点误差均低于 0.000001 m，提灯随手位置误差低于 0.000001 m；FBX/GLB 均保持 53,956 三角。
+- gait-verification.json：实际求值蒙皮网格，平地及左/右脚各高 9 cm 三种地形、每种 48 相位，共 144 相位；最低鞋底离对应平面约 4 mm，没有穿地；最大膝屈曲约 80°（9 cm 台阶情况）。
+- 这些检查不覆盖 Unity 导入后变换、实时射线采样、帧间平滑和实机行走；主代理还需导入与完整运行 QA。
+
+复核命令（workspace 根目录）
+tools/blender-4.5.14-windows-x64/blender.exe --background --factory-startup --python-exit-code 1 --python art/generated/character-v5/verify_rigged.py
+tools/blender-4.5.14-windows-x64/blender.exe --background --factory-startup --python-exit-code 1 --python art/generated/character-v5/verify_gait.py
+
+历史预览
+pre-hip-anchor-stride-front.png / pre-hip-anchor-stride-side.png 是增加髋锚前的关节弯曲测试，不作为本次冻结步态预览。
+render-neutral.png 是相同静止几何的中性预览。所有图片均保留原始 Blender 输出，没有后期修图。

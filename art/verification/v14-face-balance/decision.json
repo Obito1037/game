@@ -1,0 +1,59 @@
+{
+  "recordedAtUTC": "2026-10-21T07:18:24.143Z",
+  "acceptedForDevelopment": true,
+  "isReleaseDecision": false,
+  "aestheticObjectiveAchieved": false,
+  "conditions": "18 frozen 1440x900 images in three views; recorded scene, material, transform and per-variant light/SSAO invariants passed. Independent visual review covered front and portrait; root also inspected right30.",
+  "adopted": {
+    "carriedLightIntensity": {
+      "previous": 0.52,
+      "current": 0.18
+    },
+    "faceFillColour": {
+      "previous": [
+        1,
+        0.88,
+        0.74
+      ],
+      "current": [
+        1,
+        0.95,
+        0.88
+      ]
+    },
+    "faceFillIntensity": 0.23,
+    "faceFillLocalPosition": [
+      0,
+      1.25,
+      0.55
+    ],
+    "mainShadows": "Retained",
+    "ssao": "Retained"
+  },
+  "observations": [
+    "Reducing the carried light is the main visible improvement: less orange under-light on the face and less pale glare on the coat, while the lantern and nearby ground still read warm.",
+    "Neutral face fill adds a smaller reduction in yellow tint without removing face readability.",
+    "Head-no-cast, main-no-shadows and SSAO-off did not remove the broad cheek gray region in the tested pose; no claim that all possible shadow or AO defects are excluded.",
+    "Nose/mouth relief, flat eye layers, fixed gaze, hair grooves and remaining side-cheek shading still limit visual quality."
+  ],
+  "normalMode": {
+    "buildId": "build_4c8f842d85ef",
+    "path": "builds/candidates/v14-balanced-light/windows/BorrowedLight.exe",
+    "qa": "art/verification/run-035-v14/runtime-results.json",
+    "functionalChecksPassed": true,
+    "processId": 34380,
+    "processExited": true,
+    "rootViewed": [
+      "07-walking.png",
+      "09-traveler-portrait.png"
+    ],
+    "shortFPSSamples": {
+      "walking": 58,
+      "portrait": 60,
+      "final": 57.9
+    },
+    "scope": "Short Iris Xe 1440x900 samples; not sustained minimum FPS or isolated performance improvement."
+  },
+  "stableRelease": "v13 retained; no v14 WebGL or release ZIP",
+  "next": "Review Blender nose/mouth/cheek volume candidate separately before importing."
+}

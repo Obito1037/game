@@ -1,0 +1,5 @@
+{
+  "status": "Historical first candidate; not accepted",
+  "worldFbxSHA256": "A95095CBA24C06D1CC98D65067EE558C9DBF7CCF04A9FA236A0F5E1B4E629D3A",
+  "reason": "Grass material slot order changed; author also found obstacle projection hits. Candidate will be locally corrected before build."
+}

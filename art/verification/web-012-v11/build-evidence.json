@@ -1,0 +1,9 @@
+{
+  "declaredBuildId": "build_afad10959a97",
+  "servedBuildResources": [
+    "http://127.0.0.1:8780/Build/b383042eecdb32cf1a4cc50727f416ac.loader.js",
+    "http://127.0.0.1:8780/Build/b281874b7c5b6a62e898db90eddbb667.framework.js.gz",
+    "http://127.0.0.1:8780/Build/56b2089fd931dfe1dbeb6d645b39149e.wasm.gz",
+    "http://127.0.0.1:8780/Build/36149c4fe0cdca54f6f1623149d7ab4f.data.gz"
+  ]
+}

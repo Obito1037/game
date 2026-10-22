@@ -1,0 +1,57 @@
+world-v7 岩石形体候选（2026-10-21）
+
+状态：资产已冻结，供下一轮 Unity 实机评估；不是美术最终验收，也不改变已发布 v7 的状态。
+
+来源与所有权
+源脚本：art/blender/build_island_v7.py
+基线：art/generated/world-v6/island.blend，直接载入，不重新生成场景。
+本轮仅修改 Garden_HeroBoulders 四块石头的上部形体、受控法线与线性顶点色。
+没有修改 Unity 文件、冻结 world-v6 或 character 资产。
+
+变更与预算
+整岛仍为 29 个 mesh / 412,815 三角；Hero 仍为 20,480 三角、1 个 Renderer、2 个原有材质槽：
+  BI_rock_hero_warm
+  BI_rock_hero_slate
+四石上部由宽平面向内切削，保留有限倒角和一处局部浅层理。
+没有叠加随机噪声、增加三角、材质、纹理或 Renderer。
+源拓扑不变；地面高度以上 8 厘米内的低缘和埋地部分逐顶点保留（共 3,873 个顶点）。
+上部允许局部水平向内收，不再要求逐顶点 XZ 相同。61,448 个顶点、边中点、面心投影样本在旧 Hero 实际 BVH 包络内；切线射线的数值内移容差为 0.25 毫米。
+原低缘仍有柔软起伏，近景宽面也略规整；这是实机待评估的限制，不能把更多共面区直接称为最终艺术效果达标。
+
+颜色与法线
+沿用 BL_FoliageTint / CORNER / FLOAT_COLOR。
+Hero RGB 为线性乘数，范围 0.8674770857–0.9279999989；alpha 全为 1，没有新增 AO 约定。
+顶点色仅表现安静的矿物色差和层理差异，不再随多频噪声强烈变化。
+宽面内使用受控法线，边带连续过渡，不能在 Unity 导入后全局重算法线抹平。
+其余 28 个 mesh 的几何、拓扑、UV、颜色、材质和法线按各自 BLEND/FBX/GLB 基线检查。
+Unity 仍需沿用 Hero 的 _PAINT_VERTEX_COLOR；主线程负责只对 Hero 降低 PaintedSurface 的程序凹凸。
+
+冻结边界与碰撞
+14 个 anchors、全部植物、地面、步石、观星台、码头不移动，不重新清理植物。
+两张地表纹理逐字节复制，hash 与 world-v6 相同。
+实际 BVH 对五组植物检查均为零穿岩；植物本身的 fingerprint 必须与基线相同。
+Hero 渲染网格本身改变，因此当前用 sharedMesh 生成的 layer9 障碍碰撞也有局部内收，不能宣称碰撞三角保持不变。
+旧 route_centerline_clearance_metres 只是继承的保守估算。主线程仍须在四石附近做真实 CapsuleCast / 玩家移动复测。
+
+可复核证据
+asset-manifest.json：几何统计、逐 mesh 指纹、边界样本、颜色与文件 hash。
+interchange-verification.json：独立清空场景后加载 BLEND、FBX、GLB，与相同格式的 world-v6 对比；最终 passed 字段为准。
+本轮最终三种格式均 PASS：29 mesh / 412,815 三角，28 非 Hero 指纹相同，14 anchors 通过，零退化/重复，五组植物穿岩均为零。所有三种格式 Hero 均为 10,248 顶点，未因法线导出产生额外拆点。
+verify_world_v7.py：只读回读脚本；额外核对实际 Hero corner normals、完整颜色、零退化/重复三角、锚点、植物穿岩。
+gray-path-context.png / gray-rock-low.png：512px、6 samples、CPU 4 线程、无 Hero 程序凹凸的灰模检查。
+color-path-context.png / color-rock-low.png：同灯光/机位恢复简单颜色，仍不是 Unity 石材效果。
+所有预览已实际查看，且完成一次有针对性的形体修正；没有继续盲增细节。
+
+冻结 SHA256
+island.fbx
+  91c6d643698c414d0582d86aa42ebfaa1e470124dddd7faa7852860877806f64
+island.blend
+  c40dcb462a3890026017c4a945525c6f4b2881044433b050c392a405c4687f82
+island.glb
+  18190a8eba2489bcbb445671df8a93a77b8dd6464f7352dbb393105b03f9c89f
+textures/meadow-watercolor.png
+  889c373c911c8fd5e4be519cbbc957436909b380481d1de22051bb22ef0d3c7f
+textures/meadow-normal.png
+  bbaf18fc6dd0f38e7d0e3fba17b98ae72fd55d47597971ffcc712460b2c321bc
+
+当前不再修改导出文件。后续是否整合，以 Unity 实机外观、碰撞及必要的 Windows/Web 验证为准。

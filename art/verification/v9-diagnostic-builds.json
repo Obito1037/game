@@ -1,0 +1,71 @@
+{
+  "scope": "Staged v9 native diagnostics. Baseline/materialStudy use character-v7; faceCandidate/eyeMaterial use frozen character-v8. None of these are final release build IDs.",
+  "baseline": {
+    "status": "completed",
+    "buildId": "build_0d201f7e94bf",
+    "result": "Succeeded",
+    "platform": "StandaloneWindows64",
+    "outputPath": "C:/Users/20665/Desktop/game/builds/candidates/v9-face-baseline/windows/BorrowedLight.exe",
+    "totalSizeBytes": 157008185,
+    "buildTimeMs": 12681,
+    "totalErrors": 0,
+    "totalWarnings": 1,
+    "warnings": [
+      {
+        "message": "Pipeline: No RuntimePipelineConfig asset found (Project Settings > Pipeline > Runtime). Pipeline will be disabled in Player builds."
+      }
+    ],
+    "errors": []
+  },
+  "materialStudy": {
+    "status": "completed",
+    "buildId": "build_c1c26b9dbb66",
+    "result": "Succeeded",
+    "platform": "StandaloneWindows64",
+    "outputPath": "C:/Users/20665/Desktop/game/builds/candidates/v9-material-studies/windows/BorrowedLight.exe",
+    "totalSizeBytes": 157012281,
+    "buildTimeMs": 41444,
+    "totalErrors": 0,
+    "totalWarnings": 1,
+    "warnings": [
+      {
+        "message": "Pipeline: No RuntimePipelineConfig asset found (Project Settings > Pipeline > Runtime). Pipeline will be disabled in Player builds."
+      }
+    ],
+    "errors": []
+  },
+  "faceCandidate": {
+    "status": "completed",
+    "buildId": "build_f2d775a4fe4e",
+    "result": "Succeeded",
+    "platform": "StandaloneWindows64",
+    "outputPath": "C:/Users/20665/Desktop/game/builds/candidates/v9-face-candidate/windows/BorrowedLight.exe",
+    "totalSizeBytes": 156982777,
+    "buildTimeMs": 9862,
+    "totalErrors": 0,
+    "totalWarnings": 1,
+    "warnings": [
+      {
+        "message": "Pipeline: No RuntimePipelineConfig asset found (Project Settings > Pipeline > Runtime). Pipeline will be disabled in Player builds."
+      }
+    ],
+    "errors": []
+  },
+  "eyeMaterial": {
+    "status": "completed",
+    "buildId": "build_4c8a787a29fe",
+    "result": "Succeeded",
+    "platform": "StandaloneWindows64",
+    "outputPath": "C:/Users/20665/Desktop/game/builds/candidates/v9-eye-material/windows/BorrowedLight.exe",
+    "totalSizeBytes": 156983289,
+    "buildTimeMs": 30149,
+    "totalErrors": 0,
+    "totalWarnings": 1,
+    "warnings": [
+      {
+        "message": "Pipeline: No RuntimePipelineConfig asset found (Project Settings > Pipeline > Runtime). Pipeline will be disabled in Player builds."
+      }
+    ],
+    "errors": []
+  }
+}

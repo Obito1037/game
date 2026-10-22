@@ -1,0 +1,44 @@
+{
+  "study": "v14-face-light-position-refined",
+  "buildId": "build_a5f8ce780c00",
+  "reviewer": "root",
+  "accepted": false,
+  "diagnosticConditionsPassed": true,
+  "isReleaseDecision": false,
+  "reviewedOriginalImages": [
+    "portrait-baseline.png",
+    "portrait-candidate.png",
+    "front-baseline.png",
+    "front-candidate.png",
+    "left30-baseline.png",
+    "left30-candidate.png",
+    "right30-baseline.png",
+    "right30-candidate.png"
+  ],
+  "baseline": {
+    "localPosition": [
+      0,
+      1.25,
+      0.55
+    ],
+    "intensity": 0.23,
+    "range": 1.1
+  },
+  "candidate": {
+    "localPosition": [
+      0,
+      1.410364031791687,
+      0.55
+    ],
+    "intensity": 0.23,
+    "range": 1.1
+  },
+  "finding": "抬高补光没有减轻脸颊灰暗斑块；正面和右三分之四图中鼻旁、左颊与下颌的明暗反差更重。正常距离改善不明显，衣襟亮带仍在。拒绝此位置候选，正常CreateTraveler保持原灯位。",
+  "limitations": [
+    "冻结时角色恰好处于近闭眼姿态，不能用于睁眼可读性验收。",
+    "只比较一个灯位候选，不能据此断言所有灯光方案无效，或确定灰斑唯一根因。",
+    "静态4机位；没有正常游玩或性能含义。",
+    "首轮v14-face-light-position条件检查失败，保留记录但不作为受控对照证据。"
+  ],
+  "nextAction": "独立评估新的Blender头部几何；如灰斑仍在，针对材质/法线/光源贡献继续定位，不采用此抬高补光。"
+}

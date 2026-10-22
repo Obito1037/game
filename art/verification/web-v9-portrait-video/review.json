@@ -1,0 +1,124 @@
+{
+  "reviewed": true,
+  "acceptedForLimitedScope": true,
+  "revision": "v9",
+  "declaredBuildId": "build_d7f44f9d30f9",
+  "url": "http://127.0.0.1:8779/",
+  "summary": "正常滚轮输入后的近镜成立；在该固定三分之四视角，可辨认一次自然开眼→闭合过渡→闭眼→开启过渡→睁开的过程，已查看五张1440×900原帧。闭眼帧未见明显眼白漏出。仅接受该有限可见范围。",
+  "captureCompleted": true,
+  "captureErrors": [],
+  "captureManifest": "capture-manifest.json",
+  "framing": {
+    "accepted": true,
+    "frame": "video-frames/at-50.png",
+    "actuallyViewed": true,
+    "sha256": "959ac503f4113617768924b71f8e3ee319092302557e240dd40081d69fa4e92d",
+    "characterHeightApproxPixels": 640,
+    "faceHeightApproxPixels": 110,
+    "measurement": "Approximate visual extent in original 1440x900 frame, not an instrumented camera-distance measurement.",
+    "normalInput": "Two real 600px right drags, then eight deltaY=-120 wheel pulses after normalized-scroll sensitivity correction. No Unity transform or animation state injection.",
+    "sourceDistanceMeasured": false
+  },
+  "blink": {
+    "acceptedForThisView": true,
+    "sourceIntervalSeconds": [
+      44.56,
+      44.72
+    ],
+    "frames": [
+      {
+        "file": "video-frames/blink-open-44.56.png",
+        "sourceSeconds": 44.56,
+        "state": "open",
+        "width": 1440,
+        "height": 900,
+        "actuallyViewed": true,
+        "sha256": "c91748220eef3cc325a23f1a37e8a8b9a8aa9ab2c37cdd3eac1da2bac99bf7ad"
+      },
+      {
+        "file": "video-frames/blink-closing-44.60.png",
+        "sourceSeconds": 44.6,
+        "state": "closing transition",
+        "width": 1440,
+        "height": 900,
+        "actuallyViewed": true,
+        "sha256": "c935cb017d883b818eb482bbab6376dcc4a6469a4d6a442818e007ee55dd6361"
+      },
+      {
+        "file": "video-frames/blink-closed-44.64.png",
+        "sourceSeconds": 44.64,
+        "state": "closed",
+        "width": 1440,
+        "height": 900,
+        "actuallyViewed": true,
+        "sha256": "2a4272a0c8c76be525a35a2c68043a7b7b1b66ab7876ee0c7a1d8a1219099913"
+      },
+      {
+        "file": "video-frames/blink-opening-44.68.png",
+        "sourceSeconds": 44.68,
+        "state": "opening transition",
+        "width": 1440,
+        "height": 900,
+        "actuallyViewed": true,
+        "sha256": "8e9385e0b1ebbfb796a8b7ccc66b27f0be58700fe0dfb9b4aef9c7feb30141d5"
+      },
+      {
+        "file": "video-frames/blink-reopened-44.72.png",
+        "sourceSeconds": 44.72,
+        "state": "reopened",
+        "width": 1440,
+        "height": 900,
+        "actuallyViewed": true,
+        "sha256": "0dea4930b8663b1590d05ab6e135bd5dc7b3f46f161bc78575ef8010e8402557"
+      }
+    ],
+    "findings": [
+      "两眼在开眼与重新睁开帧可见；中间闭眼帧有覆盖，未见明显眼白漏出或与脸分离。",
+      "该顺序来自自然待机，未禁用眨眼或指定眼睑状态。",
+      "眼裂仍较窄、面部造型简化，不能把本次功能性可见性通过解释为整体审美目标已达成。"
+    ]
+  },
+  "originalVideo": {
+    "file": "portrait-session-includes-loading.webm",
+    "sha256": "678cc1a0288c80a838eae65817566d0788a7334272b0a0c684fa615be312a0b3",
+    "bytes": 5706220,
+    "durationSeconds": 57.2,
+    "containsLoadingPuzzleAndSetup": true,
+    "fullPlaybackReviewed": false
+  },
+  "timeCut": {
+    "file": "portrait-time-cut.webm",
+    "sha256": "fb8ccf36364b82dc2f57c448e8cbbe09cbaaa995bce095c99fc355edcb4873ac",
+    "bytes": 1240446,
+    "verification": "time-cut-verification.json",
+    "verified": true,
+    "encodedPackets": 399,
+    "allEncodedPacketsByteIdentical": true,
+    "sourceStartSeconds": 40.96,
+    "sourceEndExclusiveSeconds": 56.92,
+    "durationSeconds": 15.96,
+    "limit": "Stream copy seeks to prior keyframe; actual start40.960s includes late camera settling before the idle window. No re-encoding; no claim of an exact15s clip."
+  },
+  "reviewerMethod": "Inspected at-50 and five original-size PNG frames extracted from full video. A 240x200 face crop sequence and pixel count only located candidates; acceptance was based on the original frames. No exhaustive playback or all-angle audit.",
+  "idleWindow": {
+    "startSinceNavigationMs": 41941,
+    "endSinceNavigationMs": 56956,
+    "durationMs": 15015
+  },
+  "containerCadence": 25,
+  "containerCadenceLimit": "25fps is encoded browser video cadence, not game-engine FPS. Sampling/compression can hide brief intermediate geometry defects.",
+  "limitations": [
+    "Only one natural blink at one fixed three-quarter camera angle is accepted; other angles, every intermediate eyelid state, all expressions and full gait are not covered.",
+    "At roughly110px face height, fine lid edges, tiny intersections and detailed skin/cloth quality cannot be judged reliably.",
+    "Full15s video was not exhaustively reviewed frame-by-frame; five selected original blink frames plus one framing frame were actually viewed.",
+    "Natural head/cloth motion and video compression remain; there is no deterministic freeze-pose comparison here.",
+    "Actual camera distance was not read; near framing is visually confirmed rather than asserting an exact2.5m measurement.",
+    "Recording and stream-copy cadence are not FPS or sustained-performance evidence."
+  ],
+  "failedAttemptsPreserved": [
+    "../web-v9-portrait-video-far-camera-attempt/",
+    "../web-v9-portrait-video-second-framing-attempt/"
+  ],
+  "diagnostic": "../web-v9-portrait-wheel-diagnostic/review.zh-CN.txt",
+  "aestheticObjectiveAchieved": false
+}

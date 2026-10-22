@@ -1,0 +1,156 @@
+{
+  "revision": "v10",
+  "world": "world-v7",
+  "character": "character-v9",
+  "travelerFbxSHA256": "70069F12265EF5C0B713A94CE2B20F3D305DDE339FC8B2F0487C436091BB4D71",
+  "geometry": {
+    "worldTriangles": 412815,
+    "travelerTriangles": 77132,
+    "travelerRenderers": 62,
+    "skinned": 28,
+    "bones": 12
+  },
+  "characterScope": "Seven silhouette meshes modified; 55 non-target meshes and all weights, rigs, material values, face/eyes, soles, hands and attachments retained. Three protected-connection pose checks pass.",
+  "interchangeLimit": "Seven target mesh FBX/GLB corner-normal checks pass. The prior character-v8 strict GLB failure at six zero-area non-target endpoints is inherited, not newly retested as globally passed.",
+  "worldAndGroundBytesUnchanged": true,
+  "generatedStone": {
+    "source": "Built-in image_gen; new original bitmap, no reference image supplied",
+    "mode": "built-in",
+    "originalFile": "stone-base-v1.png",
+    "promptFile": "prompt.txt",
+    "sha256": "17613BDBD49E1D48A99D5B2B3687ABED4DE6D8E19006E25D78ED07FB588D8CF5",
+    "width": 1254,
+    "height": 1254,
+    "channels": 3,
+    "bytes": 4167818,
+    "measurement": "All source PNG pixels, IEC sRGB transfer decoded to linear RGB; image not modified.",
+    "meanSRGB": [
+      0.6115185086850911,
+      0.5490731526043742,
+      0.4768073858327348
+    ],
+    "meanLinearRGB": [
+      0.3450991416026722,
+      0.27470601805190437,
+      0.2027940803132051
+    ],
+    "meanLinearLuminance": 0.2844795542141554,
+    "linearLuminancePercentiles_1_5_50_95_99": [
+      0.07440044656302208,
+      0.12419682931524949,
+      0.2765690855917204,
+      0.47325531126758424,
+      0.5772522596891629
+    ],
+    "limits": [
+      "AI-generated color texture, not a calibrated scan or measured PBR material.",
+      "Shallow fissure shading is present in the generated image.",
+      "Requested tileability is not a verified seamless edge guarantee.",
+      "Runtime relief derived from luminance is an artistic approximation."
+    ],
+    "status": "Candidate: requires in-game material comparison before production adoption."
+  },
+  "shaderScope": {
+    "heroRock": "Texture triplanar colour/roughness and shallow artistic luminance relief",
+    "foliage": "Fixed40: shared wind and double-sided normal handling in Forward/DepthNormals; synchronized positions in depth/shadows",
+    "fixed20Adopted": false,
+    "aoSettingsChanged": false,
+    "lightingChanged": false
+  },
+  "staticStudies": {
+    "stone": "v10-stone-study/decision.json",
+    "foliage": "v10-foliage-study/review.json",
+    "silhouette": "v10-silhouette-candidate/decision.json",
+    "repeatLimit": "Frozen transforms and time do not freeze per-camera SSAO blue-noise selection and random offsets. A/A captures are not pixel-identical."
+  },
+  "native": {
+    "buildId": "build_6b2f1936c854",
+    "evidence": "run-025-v10/runtime-results.json",
+    "results": {
+      "game": "Borrowed Light",
+      "puzzleCompleted": true,
+      "menuKeyboardStart": true,
+      "walkingDistance": 2.311,
+      "pauseStopsMovement": true,
+      "resumeMovement": true,
+      "restartWorks": true,
+      "fpsAtFinalView": 47.2,
+      "width": 1440,
+      "height": 900,
+      "gpu": "Intel(R) Iris(R) Xe Graphics",
+      "endingReturnWorks": true,
+      "cabinCollisionWorks": true,
+      "fpsSamples": {
+        "menu": 60,
+        "overview": 60,
+        "walking": 47.7,
+        "portrait": 60
+      },
+      "walkwayGroundingWorks": true,
+      "boulderCollisionWorks": true,
+      "riggedSoles": 2,
+      "soleGroundSamples": 220,
+      "minimumIdleSoleClearanceMetres": 0.001375,
+      "observatoryGroundingWorks": true,
+      "observatoryInstrumentCollisionWorks": true,
+      "decorativeLeavesExcluded": true,
+      "pierGroundingWorks": true,
+      "pierRailCollisionWorks": true,
+      "scrollZoomWorks": true,
+      "normalizedScrollStepMetres": 0.35
+    },
+    "boulderApproaches": 16,
+    "boulderChecksPassed": true
+  },
+  "web": {
+    "buildId": "build_c472c4b76e7c",
+    "evidence": "web-011-v10/runtime-results.json",
+    "passed": true,
+    "errors": [],
+    "engineDiagnostics": [
+      "WebGL: INVALID_ENUM: getInternalformatParameter: invalid internalformat",
+      "ERROR: Shader ",
+      "Hidden/CoreSRP/CoreCopy shader is not supported on this GPU (none of subshaders/fallbacks are suitable)\n",
+      "Hidden/Universal Render Pipeline/StencilDitherMaskSeed shader is not supported on this GPU (none of subshaders/fallbacks are suitable)\n",
+      "Hidden/Universal/HDRDebugView shader is not supported on this GPU (none of subshaders/fallbacks are suitable)\n",
+      "Trying to get length of sound which is not loaded yet."
+    ],
+    "payload": {
+      "bytes": 49707097,
+      "directoryBytes": 54443556,
+      "files": [
+        {
+          "name": "3112b3ad8fcdbeaa68664343e7c206aa.data.gz",
+          "bytes": 37982199,
+          "sha256": "7328875473D35DE5BBCFB9513E4BB5CE0B0D4F31DEDA9664200D09D1AF697D06"
+        },
+        {
+          "name": "56b2089fd931dfe1dbeb6d645b39149e.wasm.gz",
+          "bytes": 11609435,
+          "sha256": "3D4136B9F6E4B2825D773115F0C3D33D5F9F2AAF97C91013477B6158C1B5FF5E"
+        },
+        {
+          "name": "b281874b7c5b6a62e898db90eddbb667.framework.js.gz",
+          "bytes": 88480,
+          "sha256": "B62192AB199052DFF72E0937E59C17FB88A89060F77797ADC0E4B1BE68C4CAAD"
+        },
+        {
+          "name": "cfc919b85070950e4426c4bd86dcbed4.loader.js",
+          "bytes": 26983,
+          "sha256": "0C42281ED9858B213BA4FC4317257EC175FF0240E66BC10F524EFA5F89700877"
+        }
+      ]
+    }
+  },
+  "motion": {
+    "capture": "web-v10-gait-video/capture-manifest.json",
+    "review": "web-v10-gait-video/review.json"
+  },
+  "limits": [
+    "Short native/browser FPS samples are not full-session averages/minima or evidence of isolated performance gains.",
+    "No new GPU profile.",
+    "Motion review covers only the recorded route and inspected frames.",
+    "Foliage shape and cloth/skin shading remain simplified. Overall aesthetic objective remains unachieved."
+  ],
+  "aestheticObjectiveAchieved": false
+}

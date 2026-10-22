@@ -1,0 +1,56 @@
+{
+  "accepted": false,
+  "revision": "character-v13",
+  "baseline": "character-v11",
+  "reviewedOriginals": [
+    "baseline-three-quarter.png",
+    "candidate-three-quarter.png",
+    "baseline-profile.png",
+    "candidate-profile.png"
+  ],
+  "reviewers": ["root", "blender_world"],
+  "sourceReview": {
+    "reviewer": "world_naturalness_v5",
+    "readOnly": true,
+    "noObviousScopeOrRecordingDefectFound": true,
+    "scope": "Source inspection only: fixed Z parameters, actual-triangle mouth projection, three-target and 59-mesh/rig/material preservation guards."
+  },
+  "improvementsOverRejectedV12": [
+    "The profile's stepped protruding lips and pursed expression are substantially reduced.",
+    "The two conspicuous nose-base pits disappear.",
+    "Long mouth-corner grooves into the cheeks are reduced."
+  ],
+  "rejectionReasonsAgainstV11": [
+    "The closed-mouth line is less legible than v11 in the three-quarter view.",
+    "Fine horizontal bright lip bands remain.",
+    "The nose and mouth still read as soft dough-like volumes; the candidate is not demonstrably more natural than v11."
+  ],
+  "technicalEvidence": {
+    "triangles": 81968,
+    "newPolygons": 0,
+    "protectedMeshes": 59,
+    "protectedMeshStatesUnchanged": true,
+    "objectBonePivotContractUnchanged": true,
+    "materialGraphsUnchanged": true,
+    "sourceZRingParameterUnchanged": true,
+    "actualHeadTriangleMouthVertexClearanceMetres": {
+      "minimum": 0.00010000169277191162,
+      "maximum": 0.00010000169277191162,
+      "vertices": 114
+    },
+    "sameCameraAndLights": true,
+    "cpuThreads": 4,
+    "blenderPID": 48376,
+    "blenderExitCode": 0,
+    "sourcePreservationIsNotFBXRoundtripAudit": true
+  },
+  "scope": "Rejected geometry candidate. Preserve the source, BLEND/FBX, manifest and all four original previews. Do not import into Unity. No additional variants or blind control-cage amplitude tuning in this study.",
+  "currentPlayableSelection": "character-v11 head with the separately accepted balanced lighting; the geometry candidate is not used.",
+  "limits": [
+    "Neutral CPU previews compare geometry under identical studio conditions, not normal-game rendering or performance.",
+    "Preserved channels and export completion do not constitute artistic acceptance.",
+    "Mouth clearance measures 114 vertices along world Y; it is not a proof of clearance for the entire ribbon, along surface normals, or every animated pose.",
+    "No new GLB or FBX roundtrip acceptance was requested after the visual rejection."
+  ],
+  "aestheticObjectiveAchieved": false
+}

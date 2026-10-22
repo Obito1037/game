@@ -1,0 +1,26 @@
+借光岛 v10 · 制作记录与 AI 使用披露
+
+用户提出单人参赛、48 小时范围和视觉参考。Blender 脚本、模型、Unity 程序、材质、音频合成、验收脚本及文案由 Codex 代理生成或修改；不把尚未发生的工作记为学生已完成的贡献。本人后续创意取舍、修改与试玩应据实补记。没有代为报名或公网部署。
+
+v10 保留 world-v7：岛屿 412,815 三角；角色采用 character-v9：77,132 三角、62 mesh renderer、28 skinned mesh、4 armatures / 12 bones。
+本轮三项改动：原创 stone-v10 颜色图与三平面投影材质；Foliage Fixed40 的前向／深度／法线／阴影通道风摆同步；角色七个网格的头发、肩袖、衣摆和裤腿轮廓。55 个非目标网格、权重、骨架、材质及脸眼保留；脸部补光仍为 0.23。原地面资源保留，v9 根部染色候选未采用。
+角色脚本 art/blender/build_traveler_v9.py 读取冻结 character-v8/traveler.blend，依赖 v8→v7→v6/v5 及相应脚本和清单。世界仍为 build_island_v7.py 与 world-v7/，保留 world-v6 来源链。继续使用 Blender 自带骨架与权重，没有使用 Auto-Rig Pro、Tripo 或 Mixamo 账号。
+character-v9 的 FBX/GLB 正常及弯曲姿态、颜色和七个目标网格法线回读检查通过；55 个非目标网格及全部权重／骨架／材质保护检查通过，另核对三种姿态的连接边界。它们不构成全地形步态穷举。旧 character-v8 的 GLB 六个零面积下睑／嘴线端点严格全角法线失败是继承限制，本轮七个目标通过不能写成全模型、所有格式重新全面通过。运行时使用 FBX。
+模型证据：art/generated/character-v9/review.zh-CN.txt、v8-preservation-file-verification.json、frozen-export-verification.json、target-normal-interchange-verification.json、color-interchange-verification.json、connection-verification.json。
+
+stone-v10 与天空均由内置 image_gen 依原创提示生成，来源、提示词和 SHA256 分别在 art/generated/stone-v10/manifest.json 与 art/generated/sky/manifest.json。石纹是生成颜色图及艺术性浅凹凸，不是实测扫描或物理校准材质。世界模型没有重新生成；Foliage Fixed40 只同步既有风摆和法线相关通道，未采用 20% 候选。
+音乐与提示音为本地原创合成，无第三方录音采样。字体为 Noto Serif CJK SC 的改名子集 BorrowedLight Story Serif，SIL OFL 1.1；完整来源、子集许可与修改记录保留于 art/generated/fonts/，复现脚本 tools/font-subset/build_subset.py。
+
+参考：https://littleprince.dev/ 与 https://x.com/Saccc_c/status/2110694725640474759 。仅参考气氛与叙事表达，没有复制其程序、模型、角色、音频或原作文字；研究截图不打包为本作素材。暗夜保护依据见 art/reference/dark-sky-theme-sources.zh-CN.txt；灯光预算是无量纲游戏规则，暖色不代表无生态影响。
+
+Windows 构建 build_6b2f1936c854：三章通关、键盘启动、行走、暂停恢复、重开、结尾返回、归一化滚轮及既有碰撞／接地检查通过；16/16 主石指定方向探测通过。两只实际蒙皮鞋底共 220 个静止采样，最小净空 0.001375 m，此数据不覆盖所有动态姿态。
+Web 构建 build_c472c4b76e7c：真实键盘通关、刷新续玩、默认策略下音频恢复与跨源隔离通过，浏览器异常数组为空。引擎兼容性提示仍按原日志保留，不称日志完全无提示。
+实际键鼠录像与审查：web-v10-gait-video/，reviewed=true、acceptedForLimitedScope=true；仅接受录像中已查看的有限动作与可见范围，不据此证明所有步态、地形或姿态。
+Intel(R) Iris(R) Xe Graphics / 1440×900 原生短样本：菜单 60、总览 60、漫步视角 47.7、近景 60、末段 47.2 FPS。网页各视角 6×500 ms 前台区间指标中位：停步后的漫步视角 35.09、结尾 53.89。这是短时视角样本，不是持续行走平均、全程最低或独立渲染帧计数；录像帧率不作为游戏 FPS，也不据此宣称版本间性能提升。
+压缩网页四个核心文件合计 49,707,097 bytes（约 49.7 MB）；本地缓存测试不代表首次网络加载速度。
+运行包完整性记录见 art/verification/v10-package-verification.json，以记录为准。
+本机网页文件校验见 art/verification/v10-release-http-verification.json，以记录为准。
+
+独立固定诊断：art/verification/v10-stone-study/、v10-foliage-study/、v10-silhouette-candidate/。固定时间、摆位与近镜只支持对应条件下的对照，不冒充正常游玩、动态或性能验证；A/A 存在非零差异，不称像素完全相同。
+历史 v8/v9 录像、GLB 检查与 GPU 分析不替代当前 v10 正常玩法和性能证据。固定 A/B 中，主石层理和粗糙感更清楚；角色发缘、肩袖和裤腿轮廓有所改善。植被采用通道同步的 Fixed40，20% 法线混合候选未采用。花草与地面衔接、头发和衣料仍有简化，整体视觉超过参考站的目标尚未证实。
+提交前按正式模板如实填写 AI 使用环节与本人原创贡献。

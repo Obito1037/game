@@ -1,0 +1,30 @@
+参考作品公开资料核查（2026-10-21）
+
+在线参考：https://littleprince.dev/
+已读取公开首页 HTML；页面标题为“小王子：星辰之旅”，英文为 The Little Prince Among the Stars。
+首页含 createUnityInstance、Unity Build 文件与 WebGPU 检测；需要桌面设备和 BC 纹理压缩支持，列出 8 种语言，浏览器 IndexedDB 保存旅程数据。
+本研究未亲自游玩参考作品，也未观看演示视频，不能凭资料判断实机流畅度或声画质量。
+
+作者首发：https://x.com/Saccc_c/status/2109962425512734739
+原始公开数据：https://api.fxtwitter.com/Saccc_c/status/2109962425512734739
+已通过公开代理读取作者首发内容及媒体元数据。作者称制作耗时 16 天；附 63.4 秒演示，此为作者自述及元数据，并非本研究验证的工期。
+视频：https://video.twimg.com/amplify_video/2109941568253927424/vid/avc1/1920x1080/QNI9mG0UfjXRuci_.mp4?tag=29
+
+完整教程：https://x.com/i/article/2110601994578866176
+教程分享：https://x.com/Saccc_c/status/2110694725640474759
+原始公开数据：https://api.fxtwitter.com/Saccc_c/status/2110694725640474759
+可读转载：https://bbs1.org/topic/2051
+已读取公开代理所返回的文章正文。原文创建于 2026-10-15，修改于 2026-10-17。
+作者所述流程：需求与剧情策划，参考图与多角度图，资产拆分，Tripo 生成道具及角色，Blender 修模与整体场景搭建，Auto-Rig Pro 绑骨，Mixamo 动作，Blender IK 修正角色和道具接触，Unity CLI／Pipeline／MCP 制作。
+文章末尾预告后续在 GitHub 开源；截至本次精确搜索，没有找到可确认属于该游戏的官方工程仓库。
+转载比原文多出“独立审查 agent 盲审”一句，引用作者流程时应以原始公开数据为准。
+
+公开视觉入口（已核实 URL；不表示本研究已观看对应画面）：
+首页主视觉：https://littleprince.dev/keyart.031aa305131370a0e08c9cb92d1b1aaa.jpg
+教程场景参考图：https://file.bbs1.org/uploads/60/60fa900a8f2a7df5a6c104f073644845c8298c9347e9b49f13a69a9d58927b86.png
+教程资产拆分图：https://file.bbs1.org/uploads/42/420ee44e25bd66973f8aa75d63e3efa5340f875e494a7fe1d8dbc29e4829fd12.png
+教程概念参考图不能作为实机截图或性能证据。
+
+对标方法建议（本项目的制作建议，不是作者原话）：
+使用相同分辨率的真实运行截图比较构图、材质、光色、空间层次、人物与环境关系；同时实际验收操作与完整体验。
+Blender 预览、概念图和游戏实机分别记录来源，不互相替代。画面更惊艳属于审美验收，需要真实画面对照与用户试玩判断。

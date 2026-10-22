@@ -1,0 +1,106 @@
+[
+  {
+    "source": "AGENTS.md",
+    "sha256": "39152E21CCB3BD0D0D377113445031F48C8E01A5B137D57D18FDF73465B5AEB2"
+  },
+  {
+    "source": "PLAY.zh-CN.txt",
+    "sha256": "3AEAE646787105AC604321E63C0D722E1B150DF9996373AECE93EC636232B3DD"
+  },
+  {
+    "source": "CONCEPT-48H.zh-CN.txt",
+    "sha256": "639A46297F00B0537FD06921145D0F95D763C7BFD60150EEC5C55CA67128D4DA"
+  },
+  {
+    "source": "SUBMISSION-演示与材料.zh-CN.txt",
+    "sha256": "2B9D3724FF3B2F503A2D72DE52891A2849BCBB76E89CE756170DF49F976F8666"
+  },
+  {
+    "source": "Open-Borrowed-Light-Fullscreen.cmd",
+    "sha256": "A49E7F7E40AE927C91AABDE2F0DD4291202F4B38939A9D938E8D900E66C818F5"
+  },
+  {
+    "source": "tools/package-templates/Play-Fullscreen.cmd",
+    "sha256": "308D82E76B1721E9A9E8AFEF33AB60A3CE97E7049237A7E80C9711B7B15E876C"
+  },
+  {
+    "source": "AI-使用与素材来源.zh-CN.txt",
+    "sha256": "8DBBD6DAA6C394D7E9E6B233BDF84C2B499016118E85C9DAAA475F5CF2DE05C9"
+  },
+  {
+    "source": "setup/NEXT-STEPS.zh-CN.txt",
+    "sha256": "3D6D583112303AEBABA69F1D9E03F42822B2F3D7590A42642AF72689142C7494"
+  },
+  {
+    "source": "art/production-manifest.json",
+    "sha256": "74C0767B4709BCEA876C94E8648B4B9FF3C6771A8DD0EDC81AD4C18CC9084CFD"
+  },
+  {
+    "source": "art/verification/release-checks.json",
+    "sha256": "F661D83C2B52E553F363DCD47DBADEF0DD276C34D56F89B11CF19CD7EC412989"
+  },
+  {
+    "source": "tools/run-game-qa.ps1",
+    "sha256": "005FA374B16A2DEE09AA1BAA01FCBDE2EDA25322378DDCA31B38F9A48416E398"
+  },
+  {
+    "source": "tools/snapshot-island-import.cs",
+    "sha256": "78847DABB27A3BD0408C0E9A4B71DBF1151FCD2F9BA5768F2054BD07E14F6F5C"
+  },
+  {
+    "source": "tools/compare-island-import.cjs",
+    "sha256": "CB15B19E7511289F540A2FC26944D05683FC4AD9373C6E60BF17E78FF3A5024B"
+  },
+  {
+    "source": "tools/compare-material-study-conditions.cjs",
+    "sha256": "59EED4DAA0A5753B1DAAB9024B5833CB7C0DD75BBE9CAB2ABFC45F89C6C91683"
+  },
+  {
+    "source": "tools/prepare-v11-plant-review.cjs",
+    "sha256": "6795A6D619363C0020D2B73EA37903D472997697DE70331516C4861FE5740994"
+  },
+  {
+    "source": "tools/prepare-v11-main-review.cjs",
+    "sha256": "D82CE83CC75119BE250F01B838A7FE9E2077BC0800CF506BD0F071F6509E6BCF"
+  },
+  {
+    "source": "tools/prepare-v11-handoff.cjs",
+    "sha256": "9C885865F39797D0BD070AA14227A990FED370A4338026090746A4A1DE14B8FE"
+  },
+  {
+    "source": "tools/verify-visual-review.cjs",
+    "sha256": "A64A5547F60C48D13CFF841958AA2A81CEFC7036C2F2E26CD4868480F7A077BC"
+  },
+  {
+    "source": "tools/record-game-builds.cjs",
+    "sha256": "10A2ACFC24F3D0EA87F59E272D60D1D6CEAE907526CE39BE79316528EB1108DD"
+  },
+  {
+    "source": "tools/verify-candidate-artifacts.cjs",
+    "sha256": "8D411A97E4B1714EAB5DCC141660D48E81B2C6BCD675D4D628B40D6706D00929"
+  },
+  {
+    "source": "tools/verify-game-web.cjs",
+    "sha256": "6C9447884636752B20052F2AC09E2BB5D6856E0299C576BC33168A7416773F66"
+  },
+  {
+    "source": "tools/verify-game-release-http.cjs",
+    "sha256": "E7A3AB8B417C0B0404831287867F460705D7CAF18168CED360A5E80D6A06D94E"
+  },
+  {
+    "source": "tools/promote-v11-local.ps1",
+    "sha256": "BA000AC9BF795ABC976890A0C16327941598300554921710CF7C5E7F40ED6AF0"
+  },
+  {
+    "source": "tools/finalize-v11-local.cjs",
+    "sha256": "9912B5BFF5F6C6269F05C80CBD317BE1DDEEBA1E5C402228B901B4418948812D"
+  },
+  {
+    "source": "art/blender/build_island_v8.py",
+    "sha256": "30DC8712AD4CFE076F5314B5326960BD7EBAE34D0E36A8BE2D191717E2AB13C3"
+  },
+  {
+    "source": "art/generated/world-v8/verify_world_v8.py",
+    "sha256": "E9806C5A68E151163F05CDDA66F47FDB17FCDE5DA62CBAAD9362A6FA4AA1E776"
+  }
+]

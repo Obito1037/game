@@ -1,0 +1,37 @@
+{
+  "revision": "v13",
+  "previousRevision": "v12",
+  "nativeRun": "run-033-v13",
+  "webRun": "web-014-v13",
+  "candidatePaths": {
+    "native": "builds/candidates/v13-tree-refined/windows/BorrowedLight.exe",
+    "web": "builds/candidates/v13/web"
+  },
+  "passed": true,
+  "phase": "promoted-awaiting-package-and-http",
+  "buildIds": {
+    "windows": "build_217b8e11531f",
+    "web": "build_d4b703095f70"
+  },
+  "draftSHA256": {
+    "visual-review.html": "F3085C427A9589F7960FE1F0027B05EE8FC026A5C4E0B3A727164E871C19539C",
+    "PLAY.zh-CN.txt": "A947655F99CE982923CCFB311A8A08038A7D73C320C0BD3A42365470D3BA8EBF",
+    "production-manifest.json": "6294B67FD83299A2EB0DDCF711A49A4E5382AEE1094C0B949D7F8CB7D47D6EEC",
+    "AI-使用与素材来源.zh-CN.txt": "506D083F04A1F8B24B3249C07152C7DF7442139B18FD2E40373060A81CA2A027",
+    "NEXT-STEPS.zh-CN.txt": "21CA99AC6310E9DC3B62931CA2915AB3C543B6CE8EFE0C808137BE47BE868494",
+    "release-checks.json": "6635320B2EDED887D245058619D99FA314EEEA6A3A2406D4FE0AA5845B2E1A5A"
+  },
+  "previousWindowsZIP": "6B03683B947CFC646EB2D088B77692611D7C0EE8C83556D0D1D623FA499C6C79",
+  "steps": [
+    "v12 web and handoff archived",
+    "preserved v12 windows",
+    "installed v13 windows",
+    "preserved v12 web",
+    "installed v13 web"
+  ],
+  "startedAtUTC": "2026-10-21T06:07:10.9943037Z",
+  "candidateCopiesPreserved": true,
+  "localOnly": true,
+  "packageVerificationPending": true,
+  "completedAtUTC": "2026-10-21T06:07:14.3126748Z"
+}

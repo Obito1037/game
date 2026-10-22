@@ -1,0 +1,1268 @@
+{
+  "passed": true,
+  "errors": [],
+  "poses": 3,
+  "rows": [
+    {
+      "pose": "neutral",
+      "mesh": "Arm_L_Cape_SeaMistBinding",
+      "is_boundary_subset": false,
+      "vertices": 217,
+      "maximum_world_error_m": 0.0
+    },
+    {
+      "pose": "neutral",
+      "mesh": "Arm_L_Face_Fingernails",
+      "is_boundary_subset": false,
+      "vertices": 208,
+      "maximum_world_error_m": 0.0
+    },
+    {
+      "pose": "neutral",
+      "mesh": "Arm_L_Face_NoseCream",
+      "is_boundary_subset": false,
+      "vertices": 208,
+      "maximum_world_error_m": 0.0
+    },
+    {
+      "pose": "neutral",
+      "mesh": "Arm_L_Face_PorcelainCream",
+      "is_boundary_subset": false,
+      "vertices": 662,
+      "maximum_world_error_m": 0.0
+    },
+    {
+      "pose": "neutral",
+      "mesh": "Arm_L_Face_RoseCheeks",
+      "is_boundary_subset": false,
+      "vertices": 32,
+      "maximum_world_error_m": 0.0
+    },
+    {
+      "pose": "neutral",
+      "mesh": "Arm_L_Gloves_OatKnit",
+      "is_boundary_subset": false,
+      "vertices": 175,
+      "maximum_world_error_m": 0.0
+    },
+    {
+      "pose": "neutral",
+      "mesh": "Arm_L_Stitches_PaleFlax",
+      "is_boundary_subset": false,
+      "vertices": 80,
+      "maximum_world_error_m": 0.0
+    },
+    {
+      "pose": "neutral",
+      "mesh": "Sleeve_L",
+      "is_boundary_subset": true,
+      "vertices": 407,
+      "maximum_world_error_m": 0.0
+    },
+    {
+      "pose": "neutral",
+      "mesh": "Arm_R_Cape_SeaMistBinding",
+      "is_boundary_subset": false,
+      "vertices": 217,
+      "maximum_world_error_m": 0.0
+    },
+    {
+      "pose": "neutral",
+      "mesh": "Arm_R_Face_Fingernails",
+      "is_boundary_subset": false,
+      "vertices": 208,
+      "maximum_world_error_m": 0.0
+    },
+    {
+      "pose": "neutral",
+      "mesh": "Arm_R_Face_NoseCream",
+      "is_boundary_subset": false,
+      "vertices": 208,
+      "maximum_world_error_m": 0.0
+    },
+    {
+      "pose": "neutral",
+      "mesh": "Arm_R_Face_PorcelainCream",
+      "is_boundary_subset": false,
+      "vertices": 662,
+      "maximum_world_error_m": 0.0
+    },
+    {
+      "pose": "neutral",
+      "mesh": "Arm_R_Face_RoseCheeks",
+      "is_boundary_subset": false,
+      "vertices": 32,
+      "maximum_world_error_m": 0.0
+    },
+    {
+      "pose": "neutral",
+      "mesh": "Arm_R_Gloves_OatKnit",
+      "is_boundary_subset": false,
+      "vertices": 175,
+      "maximum_world_error_m": 0.0
+    },
+    {
+      "pose": "neutral",
+      "mesh": "Arm_R_Stitches_PaleFlax",
+      "is_boundary_subset": false,
+      "vertices": 80,
+      "maximum_world_error_m": 0.0
+    },
+    {
+      "pose": "neutral",
+      "mesh": "Lantern_Heart",
+      "is_boundary_subset": false,
+      "vertices": 75,
+      "maximum_world_error_m": 0.0
+    },
+    {
+      "pose": "neutral",
+      "mesh": "Lantern_Lantern_BrushedBrass",
+      "is_boundary_subset": false,
+      "vertices": 156,
+      "maximum_world_error_m": 0.0
+    },
+    {
+      "pose": "neutral",
+      "mesh": "Lantern_Lantern_GoldEdges",
+      "is_boundary_subset": false,
+      "vertices": 597,
+      "maximum_world_error_m": 0.0
+    },
+    {
+      "pose": "neutral",
+      "mesh": "Lantern_OpalGlass",
+      "is_boundary_subset": false,
+      "vertices": 103,
+      "maximum_world_error_m": 0.0
+    },
+    {
+      "pose": "neutral",
+      "mesh": "Sleeve_R",
+      "is_boundary_subset": true,
+      "vertices": 407,
+      "maximum_world_error_m": 0.0
+    },
+    {
+      "pose": "neutral",
+      "mesh": "Body_Boots_HoneyLeather",
+      "is_boundary_subset": false,
+      "vertices": 73,
+      "maximum_world_error_m": 0.0
+    },
+    {
+      "pose": "neutral",
+      "mesh": "Body_Cape_DeepOceanLining",
+      "is_boundary_subset": false,
+      "vertices": 150,
+      "maximum_world_error_m": 0.0
+    },
+    {
+      "pose": "neutral",
+      "mesh": "Body_Cape_SeaMistBinding",
+      "is_boundary_subset": false,
+      "vertices": 731,
+      "maximum_world_error_m": 0.0
+    },
+    {
+      "pose": "neutral",
+      "mesh": "Body_Hood_DuskBlue",
+      "is_boundary_subset": false,
+      "vertices": 185,
+      "maximum_world_error_m": 0.0
+    },
+    {
+      "pose": "neutral",
+      "mesh": "Body_Lantern_GoldEdges",
+      "is_boundary_subset": false,
+      "vertices": 196,
+      "maximum_world_error_m": 0.0
+    },
+    {
+      "pose": "neutral",
+      "mesh": "Body_Scarf_EdgeHoney",
+      "is_boundary_subset": false,
+      "vertices": 216,
+      "maximum_world_error_m": 0.0
+    },
+    {
+      "pose": "neutral",
+      "mesh": "Body_Stitches_PaleFlax",
+      "is_boundary_subset": false,
+      "vertices": 312,
+      "maximum_world_error_m": 0.0
+    },
+    {
+      "pose": "neutral",
+      "mesh": "Brooch_AmberStone",
+      "is_boundary_subset": false,
+      "vertices": 44,
+      "maximum_world_error_m": 0.0
+    },
+    {
+      "pose": "neutral",
+      "mesh": "Cloak_Outer",
+      "is_boundary_subset": false,
+      "vertices": 308,
+      "maximum_world_error_m": 0.0
+    },
+    {
+      "pose": "neutral",
+      "mesh": "Satchel_Body",
+      "is_boundary_subset": false,
+      "vertices": 49,
+      "maximum_world_error_m": 0.0
+    },
+    {
+      "pose": "neutral",
+      "mesh": "Satchel_Clasp",
+      "is_boundary_subset": false,
+      "vertices": 49,
+      "maximum_world_error_m": 0.0
+    },
+    {
+      "pose": "neutral",
+      "mesh": "Scarf_Collar",
+      "is_boundary_subset": false,
+      "vertices": 245,
+      "maximum_world_error_m": 0.0
+    },
+    {
+      "pose": "neutral",
+      "mesh": "TailoredTunic",
+      "is_boundary_subset": true,
+      "vertices": 3125,
+      "maximum_world_error_m": 0.0
+    },
+    {
+      "pose": "neutral",
+      "mesh": "Blink_L_ClosedLash",
+      "is_boundary_subset": false,
+      "vertices": 125,
+      "maximum_world_error_m": 0.0
+    },
+    {
+      "pose": "neutral",
+      "mesh": "Blink_L_LidCover",
+      "is_boundary_subset": false,
+      "vertices": 289,
+      "maximum_world_error_m": 0.0
+    },
+    {
+      "pose": "neutral",
+      "mesh": "Blink_R_ClosedLash",
+      "is_boundary_subset": false,
+      "vertices": 125,
+      "maximum_world_error_m": 0.0
+    },
+    {
+      "pose": "neutral",
+      "mesh": "Blink_R_LidCover",
+      "is_boundary_subset": false,
+      "vertices": 289,
+      "maximum_world_error_m": 0.0
+    },
+    {
+      "pose": "neutral",
+      "mesh": "Head_Eye_AmberRim",
+      "is_boundary_subset": false,
+      "vertices": 258,
+      "maximum_world_error_m": 0.0
+    },
+    {
+      "pose": "neutral",
+      "mesh": "Head_Eye_Catchlight",
+      "is_boundary_subset": false,
+      "vertices": 258,
+      "maximum_world_error_m": 0.0
+    },
+    {
+      "pose": "neutral",
+      "mesh": "Head_Eye_Chestnut",
+      "is_boundary_subset": false,
+      "vertices": 258,
+      "maximum_world_error_m": 0.0
+    },
+    {
+      "pose": "neutral",
+      "mesh": "Head_Eye_Ivory",
+      "is_boundary_subset": false,
+      "vertices": 642,
+      "maximum_world_error_m": 0.0
+    },
+    {
+      "pose": "neutral",
+      "mesh": "Head_Eye_Pupil",
+      "is_boundary_subset": false,
+      "vertices": 258,
+      "maximum_world_error_m": 0.0
+    },
+    {
+      "pose": "neutral",
+      "mesh": "Head_Face_NoseCream",
+      "is_boundary_subset": false,
+      "vertices": 164,
+      "maximum_world_error_m": 0.0
+    },
+    {
+      "pose": "neutral",
+      "mesh": "Head_Face_PorcelainCream",
+      "is_boundary_subset": false,
+      "vertices": 9806,
+      "maximum_world_error_m": 0.0
+    },
+    {
+      "pose": "neutral",
+      "mesh": "Head_Face_RoseCheeks",
+      "is_boundary_subset": false,
+      "vertices": 290,
+      "maximum_world_error_m": 0.0
+    },
+    {
+      "pose": "neutral",
+      "mesh": "QuietSmile",
+      "is_boundary_subset": false,
+      "vertices": 98,
+      "maximum_world_error_m": 0.0
+    },
+    {
+      "pose": "neutral",
+      "mesh": "BootSole_L",
+      "is_boundary_subset": false,
+      "vertices": 58,
+      "maximum_world_error_m": 0.0
+    },
+    {
+      "pose": "neutral",
+      "mesh": "BootUpper_L",
+      "is_boundary_subset": false,
+      "vertices": 115,
+      "maximum_world_error_m": 0.0
+    },
+    {
+      "pose": "neutral",
+      "mesh": "Leg_L_Boots_HoneyLeather",
+      "is_boundary_subset": false,
+      "vertices": 315,
+      "maximum_world_error_m": 0.0
+    },
+    {
+      "pose": "neutral",
+      "mesh": "Leg_L_Hood_DuskBlue",
+      "is_boundary_subset": false,
+      "vertices": 45,
+      "maximum_world_error_m": 0.0
+    },
+    {
+      "pose": "neutral",
+      "mesh": "Leg_L_Lantern_BrushedBrass",
+      "is_boundary_subset": false,
+      "vertices": 312,
+      "maximum_world_error_m": 0.0
+    },
+    {
+      "pose": "neutral",
+      "mesh": "Trouser_L",
+      "is_boundary_subset": true,
+      "vertices": 365,
+      "maximum_world_error_m": 0.0
+    },
+    {
+      "pose": "neutral",
+      "mesh": "BootSole_R",
+      "is_boundary_subset": false,
+      "vertices": 58,
+      "maximum_world_error_m": 0.0
+    },
+    {
+      "pose": "neutral",
+      "mesh": "BootUpper_R",
+      "is_boundary_subset": false,
+      "vertices": 115,
+      "maximum_world_error_m": 0.0
+    },
+    {
+      "pose": "neutral",
+      "mesh": "Leg_R_Boots_HoneyLeather",
+      "is_boundary_subset": false,
+      "vertices": 315,
+      "maximum_world_error_m": 0.0
+    },
+    {
+      "pose": "neutral",
+      "mesh": "Leg_R_Hood_DuskBlue",
+      "is_boundary_subset": false,
+      "vertices": 45,
+      "maximum_world_error_m": 0.0
+    },
+    {
+      "pose": "neutral",
+      "mesh": "Leg_R_Lantern_BrushedBrass",
+      "is_boundary_subset": false,
+      "vertices": 312,
+      "maximum_world_error_m": 0.0
+    },
+    {
+      "pose": "neutral",
+      "mesh": "Trouser_R",
+      "is_boundary_subset": true,
+      "vertices": 354,
+      "maximum_world_error_m": 0.0
+    },
+    {
+      "pose": "neutral",
+      "mesh": "ScarfTail_Scarf_EdgeHoney",
+      "is_boundary_subset": false,
+      "vertices": 272,
+      "maximum_world_error_m": 0.0
+    },
+    {
+      "pose": "neutral",
+      "mesh": "ScarfTail_Scarf_HarvestGold",
+      "is_boundary_subset": false,
+      "vertices": 120,
+      "maximum_world_error_m": 0.0
+    },
+    {
+      "pose": "stride_bend",
+      "mesh": "Arm_L_Cape_SeaMistBinding",
+      "is_boundary_subset": false,
+      "vertices": 217,
+      "maximum_world_error_m": 0.0
+    },
+    {
+      "pose": "stride_bend",
+      "mesh": "Arm_L_Face_Fingernails",
+      "is_boundary_subset": false,
+      "vertices": 208,
+      "maximum_world_error_m": 0.0
+    },
+    {
+      "pose": "stride_bend",
+      "mesh": "Arm_L_Face_NoseCream",
+      "is_boundary_subset": false,
+      "vertices": 208,
+      "maximum_world_error_m": 0.0
+    },
+    {
+      "pose": "stride_bend",
+      "mesh": "Arm_L_Face_PorcelainCream",
+      "is_boundary_subset": false,
+      "vertices": 662,
+      "maximum_world_error_m": 0.0
+    },
+    {
+      "pose": "stride_bend",
+      "mesh": "Arm_L_Face_RoseCheeks",
+      "is_boundary_subset": false,
+      "vertices": 32,
+      "maximum_world_error_m": 0.0
+    },
+    {
+      "pose": "stride_bend",
+      "mesh": "Arm_L_Gloves_OatKnit",
+      "is_boundary_subset": false,
+      "vertices": 175,
+      "maximum_world_error_m": 0.0
+    },
+    {
+      "pose": "stride_bend",
+      "mesh": "Arm_L_Stitches_PaleFlax",
+      "is_boundary_subset": false,
+      "vertices": 80,
+      "maximum_world_error_m": 0.0
+    },
+    {
+      "pose": "stride_bend",
+      "mesh": "Sleeve_L",
+      "is_boundary_subset": true,
+      "vertices": 407,
+      "maximum_world_error_m": 0.0
+    },
+    {
+      "pose": "stride_bend",
+      "mesh": "Arm_R_Cape_SeaMistBinding",
+      "is_boundary_subset": false,
+      "vertices": 217,
+      "maximum_world_error_m": 0.0
+    },
+    {
+      "pose": "stride_bend",
+      "mesh": "Arm_R_Face_Fingernails",
+      "is_boundary_subset": false,
+      "vertices": 208,
+      "maximum_world_error_m": 0.0
+    },
+    {
+      "pose": "stride_bend",
+      "mesh": "Arm_R_Face_NoseCream",
+      "is_boundary_subset": false,
+      "vertices": 208,
+      "maximum_world_error_m": 0.0
+    },
+    {
+      "pose": "stride_bend",
+      "mesh": "Arm_R_Face_PorcelainCream",
+      "is_boundary_subset": false,
+      "vertices": 662,
+      "maximum_world_error_m": 0.0
+    },
+    {
+      "pose": "stride_bend",
+      "mesh": "Arm_R_Face_RoseCheeks",
+      "is_boundary_subset": false,
+      "vertices": 32,
+      "maximum_world_error_m": 0.0
+    },
+    {
+      "pose": "stride_bend",
+      "mesh": "Arm_R_Gloves_OatKnit",
+      "is_boundary_subset": false,
+      "vertices": 175,
+      "maximum_world_error_m": 0.0
+    },
+    {
+      "pose": "stride_bend",
+      "mesh": "Arm_R_Stitches_PaleFlax",
+      "is_boundary_subset": false,
+      "vertices": 80,
+      "maximum_world_error_m": 0.0
+    },
+    {
+      "pose": "stride_bend",
+      "mesh": "Lantern_Heart",
+      "is_boundary_subset": false,
+      "vertices": 75,
+      "maximum_world_error_m": 0.0
+    },
+    {
+      "pose": "stride_bend",
+      "mesh": "Lantern_Lantern_BrushedBrass",
+      "is_boundary_subset": false,
+      "vertices": 156,
+      "maximum_world_error_m": 0.0
+    },
+    {
+      "pose": "stride_bend",
+      "mesh": "Lantern_Lantern_GoldEdges",
+      "is_boundary_subset": false,
+      "vertices": 597,
+      "maximum_world_error_m": 0.0
+    },
+    {
+      "pose": "stride_bend",
+      "mesh": "Lantern_OpalGlass",
+      "is_boundary_subset": false,
+      "vertices": 103,
+      "maximum_world_error_m": 0.0
+    },
+    {
+      "pose": "stride_bend",
+      "mesh": "Sleeve_R",
+      "is_boundary_subset": true,
+      "vertices": 407,
+      "maximum_world_error_m": 0.0
+    },
+    {
+      "pose": "stride_bend",
+      "mesh": "Body_Boots_HoneyLeather",
+      "is_boundary_subset": false,
+      "vertices": 73,
+      "maximum_world_error_m": 0.0
+    },
+    {
+      "pose": "stride_bend",
+      "mesh": "Body_Cape_DeepOceanLining",
+      "is_boundary_subset": false,
+      "vertices": 150,
+      "maximum_world_error_m": 0.0
+    },
+    {
+      "pose": "stride_bend",
+      "mesh": "Body_Cape_SeaMistBinding",
+      "is_boundary_subset": false,
+      "vertices": 731,
+      "maximum_world_error_m": 0.0
+    },
+    {
+      "pose": "stride_bend",
+      "mesh": "Body_Hood_DuskBlue",
+      "is_boundary_subset": false,
+      "vertices": 185,
+      "maximum_world_error_m": 0.0
+    },
+    {
+      "pose": "stride_bend",
+      "mesh": "Body_Lantern_GoldEdges",
+      "is_boundary_subset": false,
+      "vertices": 196,
+      "maximum_world_error_m": 0.0
+    },
+    {
+      "pose": "stride_bend",
+      "mesh": "Body_Scarf_EdgeHoney",
+      "is_boundary_subset": false,
+      "vertices": 216,
+      "maximum_world_error_m": 0.0
+    },
+    {
+      "pose": "stride_bend",
+      "mesh": "Body_Stitches_PaleFlax",
+      "is_boundary_subset": false,
+      "vertices": 312,
+      "maximum_world_error_m": 0.0
+    },
+    {
+      "pose": "stride_bend",
+      "mesh": "Brooch_AmberStone",
+      "is_boundary_subset": false,
+      "vertices": 44,
+      "maximum_world_error_m": 0.0
+    },
+    {
+      "pose": "stride_bend",
+      "mesh": "Cloak_Outer",
+      "is_boundary_subset": false,
+      "vertices": 308,
+      "maximum_world_error_m": 0.0
+    },
+    {
+      "pose": "stride_bend",
+      "mesh": "Satchel_Body",
+      "is_boundary_subset": false,
+      "vertices": 49,
+      "maximum_world_error_m": 0.0
+    },
+    {
+      "pose": "stride_bend",
+      "mesh": "Satchel_Clasp",
+      "is_boundary_subset": false,
+      "vertices": 49,
+      "maximum_world_error_m": 0.0
+    },
+    {
+      "pose": "stride_bend",
+      "mesh": "Scarf_Collar",
+      "is_boundary_subset": false,
+      "vertices": 245,
+      "maximum_world_error_m": 0.0
+    },
+    {
+      "pose": "stride_bend",
+      "mesh": "TailoredTunic",
+      "is_boundary_subset": true,
+      "vertices": 3125,
+      "maximum_world_error_m": 0.0
+    },
+    {
+      "pose": "stride_bend",
+      "mesh": "Blink_L_ClosedLash",
+      "is_boundary_subset": false,
+      "vertices": 125,
+      "maximum_world_error_m": 0.0
+    },
+    {
+      "pose": "stride_bend",
+      "mesh": "Blink_L_LidCover",
+      "is_boundary_subset": false,
+      "vertices": 289,
+      "maximum_world_error_m": 0.0
+    },
+    {
+      "pose": "stride_bend",
+      "mesh": "Blink_R_ClosedLash",
+      "is_boundary_subset": false,
+      "vertices": 125,
+      "maximum_world_error_m": 0.0
+    },
+    {
+      "pose": "stride_bend",
+      "mesh": "Blink_R_LidCover",
+      "is_boundary_subset": false,
+      "vertices": 289,
+      "maximum_world_error_m": 0.0
+    },
+    {
+      "pose": "stride_bend",
+      "mesh": "Head_Eye_AmberRim",
+      "is_boundary_subset": false,
+      "vertices": 258,
+      "maximum_world_error_m": 0.0
+    },
+    {
+      "pose": "stride_bend",
+      "mesh": "Head_Eye_Catchlight",
+      "is_boundary_subset": false,
+      "vertices": 258,
+      "maximum_world_error_m": 0.0
+    },
+    {
+      "pose": "stride_bend",
+      "mesh": "Head_Eye_Chestnut",
+      "is_boundary_subset": false,
+      "vertices": 258,
+      "maximum_world_error_m": 0.0
+    },
+    {
+      "pose": "stride_bend",
+      "mesh": "Head_Eye_Ivory",
+      "is_boundary_subset": false,
+      "vertices": 642,
+      "maximum_world_error_m": 0.0
+    },
+    {
+      "pose": "stride_bend",
+      "mesh": "Head_Eye_Pupil",
+      "is_boundary_subset": false,
+      "vertices": 258,
+      "maximum_world_error_m": 0.0
+    },
+    {
+      "pose": "stride_bend",
+      "mesh": "Head_Face_NoseCream",
+      "is_boundary_subset": false,
+      "vertices": 164,
+      "maximum_world_error_m": 0.0
+    },
+    {
+      "pose": "stride_bend",
+      "mesh": "Head_Face_PorcelainCream",
+      "is_boundary_subset": false,
+      "vertices": 9806,
+      "maximum_world_error_m": 0.0
+    },
+    {
+      "pose": "stride_bend",
+      "mesh": "Head_Face_RoseCheeks",
+      "is_boundary_subset": false,
+      "vertices": 290,
+      "maximum_world_error_m": 0.0
+    },
+    {
+      "pose": "stride_bend",
+      "mesh": "QuietSmile",
+      "is_boundary_subset": false,
+      "vertices": 98,
+      "maximum_world_error_m": 0.0
+    },
+    {
+      "pose": "stride_bend",
+      "mesh": "BootSole_L",
+      "is_boundary_subset": false,
+      "vertices": 58,
+      "maximum_world_error_m": 0.0
+    },
+    {
+      "pose": "stride_bend",
+      "mesh": "BootUpper_L",
+      "is_boundary_subset": false,
+      "vertices": 115,
+      "maximum_world_error_m": 0.0
+    },
+    {
+      "pose": "stride_bend",
+      "mesh": "Leg_L_Boots_HoneyLeather",
+      "is_boundary_subset": false,
+      "vertices": 315,
+      "maximum_world_error_m": 0.0
+    },
+    {
+      "pose": "stride_bend",
+      "mesh": "Leg_L_Hood_DuskBlue",
+      "is_boundary_subset": false,
+      "vertices": 45,
+      "maximum_world_error_m": 0.0
+    },
+    {
+      "pose": "stride_bend",
+      "mesh": "Leg_L_Lantern_BrushedBrass",
+      "is_boundary_subset": false,
+      "vertices": 312,
+      "maximum_world_error_m": 0.0
+    },
+    {
+      "pose": "stride_bend",
+      "mesh": "Trouser_L",
+      "is_boundary_subset": true,
+      "vertices": 365,
+      "maximum_world_error_m": 0.0
+    },
+    {
+      "pose": "stride_bend",
+      "mesh": "BootSole_R",
+      "is_boundary_subset": false,
+      "vertices": 58,
+      "maximum_world_error_m": 0.0
+    },
+    {
+      "pose": "stride_bend",
+      "mesh": "BootUpper_R",
+      "is_boundary_subset": false,
+      "vertices": 115,
+      "maximum_world_error_m": 0.0
+    },
+    {
+      "pose": "stride_bend",
+      "mesh": "Leg_R_Boots_HoneyLeather",
+      "is_boundary_subset": false,
+      "vertices": 315,
+      "maximum_world_error_m": 0.0
+    },
+    {
+      "pose": "stride_bend",
+      "mesh": "Leg_R_Hood_DuskBlue",
+      "is_boundary_subset": false,
+      "vertices": 45,
+      "maximum_world_error_m": 0.0
+    },
+    {
+      "pose": "stride_bend",
+      "mesh": "Leg_R_Lantern_BrushedBrass",
+      "is_boundary_subset": false,
+      "vertices": 312,
+      "maximum_world_error_m": 0.0
+    },
+    {
+      "pose": "stride_bend",
+      "mesh": "Trouser_R",
+      "is_boundary_subset": true,
+      "vertices": 354,
+      "maximum_world_error_m": 0.0
+    },
+    {
+      "pose": "stride_bend",
+      "mesh": "ScarfTail_Scarf_EdgeHoney",
+      "is_boundary_subset": false,
+      "vertices": 272,
+      "maximum_world_error_m": 0.0
+    },
+    {
+      "pose": "stride_bend",
+      "mesh": "ScarfTail_Scarf_HarvestGold",
+      "is_boundary_subset": false,
+      "vertices": 120,
+      "maximum_world_error_m": 0.0
+    },
+    {
+      "pose": "opposite_bend",
+      "mesh": "Arm_L_Cape_SeaMistBinding",
+      "is_boundary_subset": false,
+      "vertices": 217,
+      "maximum_world_error_m": 0.0
+    },
+    {
+      "pose": "opposite_bend",
+      "mesh": "Arm_L_Face_Fingernails",
+      "is_boundary_subset": false,
+      "vertices": 208,
+      "maximum_world_error_m": 0.0
+    },
+    {
+      "pose": "opposite_bend",
+      "mesh": "Arm_L_Face_NoseCream",
+      "is_boundary_subset": false,
+      "vertices": 208,
+      "maximum_world_error_m": 0.0
+    },
+    {
+      "pose": "opposite_bend",
+      "mesh": "Arm_L_Face_PorcelainCream",
+      "is_boundary_subset": false,
+      "vertices": 662,
+      "maximum_world_error_m": 0.0
+    },
+    {
+      "pose": "opposite_bend",
+      "mesh": "Arm_L_Face_RoseCheeks",
+      "is_boundary_subset": false,
+      "vertices": 32,
+      "maximum_world_error_m": 0.0
+    },
+    {
+      "pose": "opposite_bend",
+      "mesh": "Arm_L_Gloves_OatKnit",
+      "is_boundary_subset": false,
+      "vertices": 175,
+      "maximum_world_error_m": 0.0
+    },
+    {
+      "pose": "opposite_bend",
+      "mesh": "Arm_L_Stitches_PaleFlax",
+      "is_boundary_subset": false,
+      "vertices": 80,
+      "maximum_world_error_m": 0.0
+    },
+    {
+      "pose": "opposite_bend",
+      "mesh": "Sleeve_L",
+      "is_boundary_subset": true,
+      "vertices": 407,
+      "maximum_world_error_m": 0.0
+    },
+    {
+      "pose": "opposite_bend",
+      "mesh": "Arm_R_Cape_SeaMistBinding",
+      "is_boundary_subset": false,
+      "vertices": 217,
+      "maximum_world_error_m": 0.0
+    },
+    {
+      "pose": "opposite_bend",
+      "mesh": "Arm_R_Face_Fingernails",
+      "is_boundary_subset": false,
+      "vertices": 208,
+      "maximum_world_error_m": 0.0
+    },
+    {
+      "pose": "opposite_bend",
+      "mesh": "Arm_R_Face_NoseCream",
+      "is_boundary_subset": false,
+      "vertices": 208,
+      "maximum_world_error_m": 0.0
+    },
+    {
+      "pose": "opposite_bend",
+      "mesh": "Arm_R_Face_PorcelainCream",
+      "is_boundary_subset": false,
+      "vertices": 662,
+      "maximum_world_error_m": 0.0
+    },
+    {
+      "pose": "opposite_bend",
+      "mesh": "Arm_R_Face_RoseCheeks",
+      "is_boundary_subset": false,
+      "vertices": 32,
+      "maximum_world_error_m": 0.0
+    },
+    {
+      "pose": "opposite_bend",
+      "mesh": "Arm_R_Gloves_OatKnit",
+      "is_boundary_subset": false,
+      "vertices": 175,
+      "maximum_world_error_m": 0.0
+    },
+    {
+      "pose": "opposite_bend",
+      "mesh": "Arm_R_Stitches_PaleFlax",
+      "is_boundary_subset": false,
+      "vertices": 80,
+      "maximum_world_error_m": 0.0
+    },
+    {
+      "pose": "opposite_bend",
+      "mesh": "Lantern_Heart",
+      "is_boundary_subset": false,
+      "vertices": 75,
+      "maximum_world_error_m": 0.0
+    },
+    {
+      "pose": "opposite_bend",
+      "mesh": "Lantern_Lantern_BrushedBrass",
+      "is_boundary_subset": false,
+      "vertices": 156,
+      "maximum_world_error_m": 0.0
+    },
+    {
+      "pose": "opposite_bend",
+      "mesh": "Lantern_Lantern_GoldEdges",
+      "is_boundary_subset": false,
+      "vertices": 597,
+      "maximum_world_error_m": 0.0
+    },
+    {
+      "pose": "opposite_bend",
+      "mesh": "Lantern_OpalGlass",
+      "is_boundary_subset": false,
+      "vertices": 103,
+      "maximum_world_error_m": 0.0
+    },
+    {
+      "pose": "opposite_bend",
+      "mesh": "Sleeve_R",
+      "is_boundary_subset": true,
+      "vertices": 407,
+      "maximum_world_error_m": 0.0
+    },
+    {
+      "pose": "opposite_bend",
+      "mesh": "Body_Boots_HoneyLeather",
+      "is_boundary_subset": false,
+      "vertices": 73,
+      "maximum_world_error_m": 0.0
+    },
+    {
+      "pose": "opposite_bend",
+      "mesh": "Body_Cape_DeepOceanLining",
+      "is_boundary_subset": false,
+      "vertices": 150,
+      "maximum_world_error_m": 0.0
+    },
+    {
+      "pose": "opposite_bend",
+      "mesh": "Body_Cape_SeaMistBinding",
+      "is_boundary_subset": false,
+      "vertices": 731,
+      "maximum_world_error_m": 0.0
+    },
+    {
+      "pose": "opposite_bend",
+      "mesh": "Body_Hood_DuskBlue",
+      "is_boundary_subset": false,
+      "vertices": 185,
+      "maximum_world_error_m": 0.0
+    },
+    {
+      "pose": "opposite_bend",
+      "mesh": "Body_Lantern_GoldEdges",
+      "is_boundary_subset": false,
+      "vertices": 196,
+      "maximum_world_error_m": 0.0
+    },
+    {
+      "pose": "opposite_bend",
+      "mesh": "Body_Scarf_EdgeHoney",
+      "is_boundary_subset": false,
+      "vertices": 216,
+      "maximum_world_error_m": 0.0
+    },
+    {
+      "pose": "opposite_bend",
+      "mesh": "Body_Stitches_PaleFlax",
+      "is_boundary_subset": false,
+      "vertices": 312,
+      "maximum_world_error_m": 0.0
+    },
+    {
+      "pose": "opposite_bend",
+      "mesh": "Brooch_AmberStone",
+      "is_boundary_subset": false,
+      "vertices": 44,
+      "maximum_world_error_m": 0.0
+    },
+    {
+      "pose": "opposite_bend",
+      "mesh": "Cloak_Outer",
+      "is_boundary_subset": false,
+      "vertices": 308,
+      "maximum_world_error_m": 0.0
+    },
+    {
+      "pose": "opposite_bend",
+      "mesh": "Satchel_Body",
+      "is_boundary_subset": false,
+      "vertices": 49,
+      "maximum_world_error_m": 0.0
+    },
+    {
+      "pose": "opposite_bend",
+      "mesh": "Satchel_Clasp",
+      "is_boundary_subset": false,
+      "vertices": 49,
+      "maximum_world_error_m": 0.0
+    },
+    {
+      "pose": "opposite_bend",
+      "mesh": "Scarf_Collar",
+      "is_boundary_subset": false,
+      "vertices": 245,
+      "maximum_world_error_m": 0.0
+    },
+    {
+      "pose": "opposite_bend",
+      "mesh": "TailoredTunic",
+      "is_boundary_subset": true,
+      "vertices": 3125,
+      "maximum_world_error_m": 0.0
+    },
+    {
+      "pose": "opposite_bend",
+      "mesh": "Blink_L_ClosedLash",
+      "is_boundary_subset": false,
+      "vertices": 125,
+      "maximum_world_error_m": 0.0
+    },
+    {
+      "pose": "opposite_bend",
+      "mesh": "Blink_L_LidCover",
+      "is_boundary_subset": false,
+      "vertices": 289,
+      "maximum_world_error_m": 0.0
+    },
+    {
+      "pose": "opposite_bend",
+      "mesh": "Blink_R_ClosedLash",
+      "is_boundary_subset": false,
+      "vertices": 125,
+      "maximum_world_error_m": 0.0
+    },
+    {
+      "pose": "opposite_bend",
+      "mesh": "Blink_R_LidCover",
+      "is_boundary_subset": false,
+      "vertices": 289,
+      "maximum_world_error_m": 0.0
+    },
+    {
+      "pose": "opposite_bend",
+      "mesh": "Head_Eye_AmberRim",
+      "is_boundary_subset": false,
+      "vertices": 258,
+      "maximum_world_error_m": 0.0
+    },
+    {
+      "pose": "opposite_bend",
+      "mesh": "Head_Eye_Catchlight",
+      "is_boundary_subset": false,
+      "vertices": 258,
+      "maximum_world_error_m": 0.0
+    },
+    {
+      "pose": "opposite_bend",
+      "mesh": "Head_Eye_Chestnut",
+      "is_boundary_subset": false,
+      "vertices": 258,
+      "maximum_world_error_m": 0.0
+    },
+    {
+      "pose": "opposite_bend",
+      "mesh": "Head_Eye_Ivory",
+      "is_boundary_subset": false,
+      "vertices": 642,
+      "maximum_world_error_m": 0.0
+    },
+    {
+      "pose": "opposite_bend",
+      "mesh": "Head_Eye_Pupil",
+      "is_boundary_subset": false,
+      "vertices": 258,
+      "maximum_world_error_m": 0.0
+    },
+    {
+      "pose": "opposite_bend",
+      "mesh": "Head_Face_NoseCream",
+      "is_boundary_subset": false,
+      "vertices": 164,
+      "maximum_world_error_m": 0.0
+    },
+    {
+      "pose": "opposite_bend",
+      "mesh": "Head_Face_PorcelainCream",
+      "is_boundary_subset": false,
+      "vertices": 9806,
+      "maximum_world_error_m": 0.0
+    },
+    {
+      "pose": "opposite_bend",
+      "mesh": "Head_Face_RoseCheeks",
+      "is_boundary_subset": false,
+      "vertices": 290,
+      "maximum_world_error_m": 0.0
+    },
+    {
+      "pose": "opposite_bend",
+      "mesh": "QuietSmile",
+      "is_boundary_subset": false,
+      "vertices": 98,
+      "maximum_world_error_m": 0.0
+    },
+    {
+      "pose": "opposite_bend",
+      "mesh": "BootSole_L",
+      "is_boundary_subset": false,
+      "vertices": 58,
+      "maximum_world_error_m": 0.0
+    },
+    {
+      "pose": "opposite_bend",
+      "mesh": "BootUpper_L",
+      "is_boundary_subset": false,
+      "vertices": 115,
+      "maximum_world_error_m": 0.0
+    },
+    {
+      "pose": "opposite_bend",
+      "mesh": "Leg_L_Boots_HoneyLeather",
+      "is_boundary_subset": false,
+      "vertices": 315,
+      "maximum_world_error_m": 0.0
+    },
+    {
+      "pose": "opposite_bend",
+      "mesh": "Leg_L_Hood_DuskBlue",
+      "is_boundary_subset": false,
+      "vertices": 45,
+      "maximum_world_error_m": 0.0
+    },
+    {
+      "pose": "opposite_bend",
+      "mesh": "Leg_L_Lantern_BrushedBrass",
+      "is_boundary_subset": false,
+      "vertices": 312,
+      "maximum_world_error_m": 0.0
+    },
+    {
+      "pose": "opposite_bend",
+      "mesh": "Trouser_L",
+      "is_boundary_subset": true,
+      "vertices": 365,
+      "maximum_world_error_m": 0.0
+    },
+    {
+      "pose": "opposite_bend",
+      "mesh": "BootSole_R",
+      "is_boundary_subset": false,
+      "vertices": 58,
+      "maximum_world_error_m": 0.0
+    },
+    {
+      "pose": "opposite_bend",
+      "mesh": "BootUpper_R",
+      "is_boundary_subset": false,
+      "vertices": 115,
+      "maximum_world_error_m": 0.0
+    },
+    {
+      "pose": "opposite_bend",
+      "mesh": "Leg_R_Boots_HoneyLeather",
+      "is_boundary_subset": false,
+      "vertices": 315,
+      "maximum_world_error_m": 0.0
+    },
+    {
+      "pose": "opposite_bend",
+      "mesh": "Leg_R_Hood_DuskBlue",
+      "is_boundary_subset": false,
+      "vertices": 45,
+      "maximum_world_error_m": 0.0
+    },
+    {
+      "pose": "opposite_bend",
+      "mesh": "Leg_R_Lantern_BrushedBrass",
+      "is_boundary_subset": false,
+      "vertices": 312,
+      "maximum_world_error_m": 0.0
+    },
+    {
+      "pose": "opposite_bend",
+      "mesh": "Trouser_R",
+      "is_boundary_subset": true,
+      "vertices": 354,
+      "maximum_world_error_m": 0.0
+    },
+    {
+      "pose": "opposite_bend",
+      "mesh": "ScarfTail_Scarf_EdgeHoney",
+      "is_boundary_subset": false,
+      "vertices": 272,
+      "maximum_world_error_m": 0.0
+    },
+    {
+      "pose": "opposite_bend",
+      "mesh": "ScarfTail_Scarf_HarvestGold",
+      "is_boundary_subset": false,
+      "vertices": 120,
+      "maximum_world_error_m": 0.0
+    }
+  ],
+  "scope": "Neutral and two opposed joint poses: actual evaluated original vs new sleeve shoulder-root/cuff, trouser waist/boot boundary, tunic front/collar plus all 55 fully protected meshes. This is a connection preservation test, not a full dynamic gait or collision sweep."
+}

@@ -1,0 +1,52 @@
+{
+  "revision": "v14-candidate",
+  "stableRelease": "v13",
+  "recordedAtUTC": "2026-10-21T06:50:32.645Z",
+  "releaseReady": false,
+  "aestheticObjectiveAchieved": false,
+  "status": "New Blender head in a tested independent Windows candidate. Stable Windows/Web/ZIP remain v13. Continue face rendering work before release promotion.",
+  "nativeBuild": "build_f1144060ca63",
+  "nativeCandidate": "builds/candidates/v14-character-v11/windows/BorrowedLight.exe",
+  "nativeQA": "art/verification/run-034-v14/runtime-results.json",
+  "nativeFunctionalChecksPassed": true,
+  "character": {
+    "source": "art/generated/character-v11/",
+    "fbxSHA256": "58E808F1AEC15F3E960E96E57B9484284BF7B9B214DE511D036C1567761B828B",
+    "authoringTriangles": 81968,
+    "unityTriangles": 81964,
+    "readback": "art/verification/v14-character-v11-fbx/fbx-readback.json"
+  },
+  "sourceAudit": {
+    "baseline": "art/verification/v13-release-source/source-files.json",
+    "baselineFilesCompared": 91,
+    "changedTrackedFiles": [
+      {
+        "source": "GameProject/Assets/BorrowedLight/Runtime/WorldDirector.cs",
+        "baselineSHA256": "ED2E54DBC8921C16CB9716B5F5B7C9132B3BFFD503509F392EB48E6088468248",
+        "currentSHA256": "C376EF6D653CCDFD69EBAA32CCC6A8190DBDE4EE4E403FAB08F4DE26D9C62A14"
+      }
+    ],
+    "addedDiagnosticFiles": [
+      {
+        "source": "GameProject/Assets/BorrowedLight/Runtime/WorldFaceLightStudy.cs",
+        "sha256": "ED75DC03E9849B2525121B1F6ACF24F3FB8DA4630FC7976F278390F3515C02AC"
+      },
+      {
+        "source": "GameProject/Assets/BorrowedLight/Runtime/WorldFaceLightStudy.cs.meta",
+        "sha256": "69E3BEBE1687C47CCD0720EB40C25BE54A345134AF682A48BF7A7BBE29B5FB7C"
+      }
+    ],
+    "normalDirectorUnchangedAfterRemovingDiagnosticEntry": true
+  },
+  "geometryReview": "art/verification/v14-face-geometry-candidate/decision.json",
+  "reviewPage": "art/verification/visual-review-v14-character.html",
+  "rejectedLighting": "art/verification/v14-face-light-position-refined/decision.json",
+  "rejectedCharacter": "art/generated/character-v10/",
+  "limits": [
+    "No candidate WebGL build or release ZIP.",
+    "Head lighting still shows a gray cheek region and warm lower face; overall aesthetic target unachieved.",
+    "Static blink endpoints and short normal QA do not cover all animation poses.",
+    "Four inherited zero-area lower-lid endpoint triangles recorded; no new GLB export."
+  ],
+  "nextAction": "Isolate main-light self-shadow, skin normals/material response and carried-light contribution with the accepted development head; improve normal-view face shading before promoting a release."
+}

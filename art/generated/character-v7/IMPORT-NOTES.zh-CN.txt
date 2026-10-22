@@ -1,0 +1,54 @@
+借光岛 character-v7：仅袖褶修订的冻结候选
+日期：2026-10-21
+
+资产与来源
+  traveler.blend / traveler.fbx / traveler.glb。
+  构建脚本：art/blender/build_traveler_v7.py。
+  主来源：冻结 art/generated/character-v6/traveler.blend。
+  仅两只袖子的无皱坐标从冻结 v5 以完全相同的 SIMPLE 一级采样恢复；恢复后的顶点顺序、拓扑和权重必须与 v6 一致后，才替换坐标。
+  本轮没有写 Unity Resources，没有覆盖 v5/v6 的任何文件。
+
+具体变化
+  只修改 Sleeve_L / Sleeve_R 的位置与派生法线。
+  删除 v6 沿整个袖圆周重复的 elbow/wrist/longitudinal 正弦场。
+  用真实骨骼 Elbow_L/R 的 bind head 高度 0.806 m 定位局部肘内折痕。
+  两条开放折痕的长度、倾斜、宽度和幅度不同，背面及范围外严格归零。
+  与无皱基础袖面相比，实际最大新增位移：左袖 0.910 mm，右袖 0.994 mm。
+  与 v6 相比，移除旧波纹带来的最大位置差：左袖 3.895 mm，右袖 3.868 mm。
+  没有新增面数、mesh、材质或骨骼。
+
+保持不变的契约
+  75,862 tris / 62 mesh / 28 skinned mesh / 4 armature / 12 bones / 29 材质。
+  60 个非袖 mesh 的坐标、拓扑、法线、UV、顶点色、权重、材质指派全部逐项相同。
+  两袖的拓扑、UV、COLOR_0、权重和材质指派逐项相同。
+  所有对象/pivot/bone 的矩阵、父子关系、骨骼绑定和附件关系相同。
+  所有材质基础值与节点图相同。
+  因此本轮没有改变脸、眼睛、闭眼片、衣身、裤、肤色、鞋底、手或灯笼。
+
+独立文件证据
+  v6-preservation-verification.json：构建时逐项指纹和位移范围。
+  v6-preservation-file-verification.json：重新打开保存后的 v6/v7 两个 .blend，再次比较上述保护数据；全部精确一致。
+  frozen-export-verification.json：实际回读 FBX / GLB，中性与屈膝姿态、骨骼、blink 和灯笼关系通过。
+  color-interchange-verification.json：62 mesh 的实际导出颜色通过。FBX 线性颜色不变；GLB 回读的 BYTE_COLOR 量化范围与 v6 相同。
+  blink-verification.json：闭眼覆盖检查通过。此次未编辑任何眼部数据，该检查只确认重新导出没有损坏已有行为。
+  gait-verification.json：144 个 Blender 实际蒙皮鞋底姿态通过；最小离地约 4 mm。此次未改腿或鞋，该检查不表示新增动态能力。
+  上述验证只执行一轮候选回归，不替代 Unity 真实接地、动画时序与移动路线检查。
+
+实际预览与判断
+  render-neutral.png、render-lantern-side.png、render-back.png。
+  均为 Blender Cycles CPU、4 线程、8 samples、512×512。
+  已实际查看三图：原有上臂等距环带在预览中消失，侧面与背面平顺；未发现新肩口/袖口断缝。
+  新肘褶在工作室灯光下非常轻，是否在游戏提灯下足够自然且可读，需要主线程实机判断。
+  不为放大工作室小样效果继续增加幅度；这不是“整体超过参考”的完成证明。
+
+Unity 导入
+  沿用既有 Generic / optimizeGameObjects=false / isReadable=true / bakeAxisConversion=false。
+  法线使用 Import，保留原闭眼覆盖片的定制边缘法线。
+  保持所有命名 pivot / bone 及 bind rotation，原 TravelerMotor 可继续使用。
+  顶点色仍为 Col、CORNER/FLOAT_COLOR，RGB 乘基础色、A=1；使用原 PaintedTinted/Skin kind 6 路径即可。
+  主线程另行试验的脸部补光 A/B 与本角色资产无关，不包含在此次资产中。
+
+冻结 SHA256
+  traveler.blend A1DABF6FE7D6B86C633D329F9F14F91669464F2555CC0675CE4A3AB3D2C25C77
+  traveler.fbx   CC87EA03F46CA44CB83F082A8B529E1D93EF118E22BE1D0B7C93ECB9B8094C0D
+  traveler.glb   5CA18E3BEFADDD809E4D4389D2B65F728D99A3F6F674B21CC8FC6B0C203FD339

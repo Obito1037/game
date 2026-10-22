@@ -1,0 +1,1177 @@
+{
+  "version": 6,
+  "source": "art\\generated\\character-v5\\traveler.blend",
+  "source_sha256": "0195778ac8610c0e561763e41e5e9ed5c7717e903c402d23c7d922a64a1e4c8d",
+  "triangles": 75862,
+  "mesh_renderers": 62,
+  "skinned_meshes": 28,
+  "armatures": 4,
+  "bones": 12,
+  "material_names": [
+    "Traveler_Boots_DarkSole",
+    "Traveler_Boots_HoneyLeather",
+    "Traveler_Boots_WornChestnut",
+    "Traveler_Cape_DeepOceanLining",
+    "Traveler_Cape_SeaMistBinding",
+    "Traveler_Cape_TwilightTeal",
+    "Traveler_Coat_WashedBlue",
+    "Traveler_Eye_AmberRim",
+    "Traveler_Eye_Catchlight",
+    "Traveler_Eye_Chestnut",
+    "Traveler_Eye_Ivory",
+    "Traveler_Eye_Pupil",
+    "Traveler_Face_Fingernails",
+    "Traveler_Face_NoseCream",
+    "Traveler_Face_PorcelainCream",
+    "Traveler_Face_RoseCheeks",
+    "Traveler_Face_SoftLips",
+    "Traveler_Gloves_OatKnit",
+    "Traveler_Hair_Indigo",
+    "Traveler_Hair_MidnightBlue",
+    "Traveler_Hood_DuskBlue",
+    "Traveler_Lantern_AmberGlass",
+    "Traveler_Lantern_BrushedBrass",
+    "Traveler_Lantern_GoldEdges",
+    "Traveler_Lantern_WarmHeart",
+    "Traveler_Scarf_EdgeHoney",
+    "Traveler_Scarf_HarvestGold",
+    "Traveler_Stitches_PaleFlax",
+    "Traveler_Trousers_Ink"
+  ],
+  "material_count": 29,
+  "contract_unchanged": true,
+  "subdivision_preserves_source_cage_weights": [
+    {
+      "mesh": "Trouser_L",
+      "old_vertices": 99,
+      "new_vertices": 1810,
+      "retained_cage_position_error_m": 6.188916756855178e-08,
+      "retained_cage_weight_error": 0.0
+    },
+    {
+      "mesh": "Trouser_R",
+      "old_vertices": 99,
+      "new_vertices": 1794,
+      "retained_cage_position_error_m": 6.155189424816854e-08,
+      "retained_cage_weight_error": 0.0
+    },
+    {
+      "mesh": "Sleeve_L",
+      "old_vertices": 418,
+      "new_vertices": 1962,
+      "retained_cage_position_error_m": 1.2310378849633707e-07,
+      "retained_cage_weight_error": 0.0
+    },
+    {
+      "mesh": "Sleeve_R",
+      "old_vertices": 418,
+      "new_vertices": 1936,
+      "retained_cage_position_error_m": 1.2310378849633707e-07,
+      "retained_cage_weight_error": 0.0
+    },
+    {
+      "mesh": "TailoredTunic",
+      "old_vertices": 1023,
+      "new_vertices": 4800,
+      "retained_cage_position_error_m": 1.2036781527058338e-07,
+      "retained_cage_weight_error": 0.0
+    }
+  ],
+  "frozen_contact_and_accessory_geometry": [
+    {
+      "mesh": "Arm_L_Cape_SeaMistBinding",
+      "position_max_error_m": 0.0,
+      "weights_unchanged": true
+    },
+    {
+      "mesh": "Arm_L_Face_Fingernails",
+      "position_max_error_m": 0.0,
+      "weights_unchanged": true
+    },
+    {
+      "mesh": "Arm_L_Face_NoseCream",
+      "position_max_error_m": 0.0,
+      "weights_unchanged": true
+    },
+    {
+      "mesh": "Arm_L_Face_PorcelainCream",
+      "position_max_error_m": 0.0,
+      "weights_unchanged": true
+    },
+    {
+      "mesh": "Arm_L_Face_RoseCheeks",
+      "position_max_error_m": 0.0,
+      "weights_unchanged": true
+    },
+    {
+      "mesh": "Arm_L_Gloves_OatKnit",
+      "position_max_error_m": 0.0,
+      "weights_unchanged": true
+    },
+    {
+      "mesh": "Arm_L_Stitches_PaleFlax",
+      "position_max_error_m": 0.0,
+      "weights_unchanged": true
+    },
+    {
+      "mesh": "Arm_R_Cape_SeaMistBinding",
+      "position_max_error_m": 0.0,
+      "weights_unchanged": true
+    },
+    {
+      "mesh": "Arm_R_Face_Fingernails",
+      "position_max_error_m": 0.0,
+      "weights_unchanged": true
+    },
+    {
+      "mesh": "Arm_R_Face_NoseCream",
+      "position_max_error_m": 0.0,
+      "weights_unchanged": true
+    },
+    {
+      "mesh": "Arm_R_Face_PorcelainCream",
+      "position_max_error_m": 0.0,
+      "weights_unchanged": true
+    },
+    {
+      "mesh": "Arm_R_Face_RoseCheeks",
+      "position_max_error_m": 0.0,
+      "weights_unchanged": true
+    },
+    {
+      "mesh": "Arm_R_Gloves_OatKnit",
+      "position_max_error_m": 0.0,
+      "weights_unchanged": true
+    },
+    {
+      "mesh": "Arm_R_Stitches_PaleFlax",
+      "position_max_error_m": 0.0,
+      "weights_unchanged": true
+    },
+    {
+      "mesh": "Lantern_Heart",
+      "position_max_error_m": 0.0,
+      "weights_unchanged": true
+    },
+    {
+      "mesh": "Lantern_Lantern_BrushedBrass",
+      "position_max_error_m": 0.0,
+      "weights_unchanged": true
+    },
+    {
+      "mesh": "Lantern_Lantern_GoldEdges",
+      "position_max_error_m": 0.0,
+      "weights_unchanged": true
+    },
+    {
+      "mesh": "Lantern_OpalGlass",
+      "position_max_error_m": 0.0,
+      "weights_unchanged": true
+    },
+    {
+      "mesh": "BootSole_L",
+      "position_max_error_m": 0.0,
+      "weights_unchanged": true
+    },
+    {
+      "mesh": "BootUpper_L",
+      "position_max_error_m": 0.0,
+      "weights_unchanged": true
+    },
+    {
+      "mesh": "Leg_L_Boots_HoneyLeather",
+      "position_max_error_m": 0.0,
+      "weights_unchanged": true
+    },
+    {
+      "mesh": "Leg_L_Hood_DuskBlue",
+      "position_max_error_m": 0.0,
+      "weights_unchanged": true
+    },
+    {
+      "mesh": "Leg_L_Lantern_BrushedBrass",
+      "position_max_error_m": 0.0,
+      "weights_unchanged": true
+    },
+    {
+      "mesh": "BootSole_R",
+      "position_max_error_m": 0.0,
+      "weights_unchanged": true
+    },
+    {
+      "mesh": "BootUpper_R",
+      "position_max_error_m": 0.0,
+      "weights_unchanged": true
+    },
+    {
+      "mesh": "Leg_R_Boots_HoneyLeather",
+      "position_max_error_m": 0.0,
+      "weights_unchanged": true
+    },
+    {
+      "mesh": "Leg_R_Hood_DuskBlue",
+      "position_max_error_m": 0.0,
+      "weights_unchanged": true
+    },
+    {
+      "mesh": "Leg_R_Lantern_BrushedBrass",
+      "position_max_error_m": 0.0,
+      "weights_unchanged": true
+    },
+    {
+      "mesh": "ScarfTail_Scarf_EdgeHoney",
+      "position_max_error_m": 0.0,
+      "weights_unchanged": true
+    },
+    {
+      "mesh": "ScarfTail_Scarf_HarvestGold",
+      "position_max_error_m": 0.0,
+      "weights_unchanged": true
+    }
+  ],
+  "changed_geometry": [
+    {
+      "mesh": "Sleeve_L",
+      "max_displacement_m": 0.00389521961739102
+    },
+    {
+      "mesh": "Sleeve_R",
+      "max_displacement_m": 0.003867927808901596
+    },
+    {
+      "mesh": "TailoredTunic",
+      "max_displacement_m": 0.005485103242698263
+    },
+    {
+      "mesh": "Head_Eye_AmberRim",
+      "max_displacement_m": 0.0011485819811639358
+    },
+    {
+      "mesh": "Head_Eye_Catchlight",
+      "max_displacement_m": 0.0006664537212377073
+    },
+    {
+      "mesh": "Head_Eye_Chestnut",
+      "max_displacement_m": 0.0009376015466900487
+    },
+    {
+      "mesh": "Head_Eye_Ivory",
+      "max_displacement_m": 0.0026930689199330953
+    },
+    {
+      "mesh": "Head_Eye_Pupil",
+      "max_displacement_m": 0.0005867793929764986
+    },
+    {
+      "mesh": "Head_Face_NoseCream",
+      "max_displacement_m": 0.0006714612204223611
+    },
+    {
+      "mesh": "Head_Face_PorcelainCream",
+      "max_displacement_m": 0.007179237957553922
+    },
+    {
+      "mesh": "Head_Face_RoseCheeks",
+      "max_displacement_m": 0.004110746075590106
+    },
+    {
+      "mesh": "Head_Hair_Indigo",
+      "max_displacement_m": 0.0028667995925312096
+    },
+    {
+      "mesh": "QuietSmile",
+      "max_displacement_m": 0.00021608918995169677
+    },
+    {
+      "mesh": "Trouser_L",
+      "max_displacement_m": 0.004581956638022372
+    },
+    {
+      "mesh": "Trouser_R",
+      "max_displacement_m": 0.004588495577503398
+    }
+  ],
+  "colors": {
+    "Arm_L_Cape_SeaMistBinding": {
+      "min": [
+        0.9533957839012146,
+        0.9533957839012146,
+        0.9533957839012146,
+        1.0
+      ],
+      "max": [
+        0.992520272731781,
+        0.992520272731781,
+        0.992520272731781,
+        1.0
+      ]
+    },
+    "Arm_L_Face_Fingernails": {
+      "min": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "max": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "Arm_L_Face_NoseCream": {
+      "min": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "max": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "Arm_L_Face_PorcelainCream": {
+      "min": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "max": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "Arm_L_Face_RoseCheeks": {
+      "min": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "max": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "Arm_L_Gloves_OatKnit": {
+      "min": [
+        0.9637849926948547,
+        0.9637849926948547,
+        0.9637849926948547,
+        1.0
+      ],
+      "max": [
+        0.9814704656600952,
+        0.9814704656600952,
+        0.9814704656600952,
+        1.0
+      ]
+    },
+    "Arm_L_Stitches_PaleFlax": {
+      "min": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "max": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "Sleeve_L": {
+      "min": [
+        0.9517648816108704,
+        0.9517648816108704,
+        0.9517648816108704,
+        1.0
+      ],
+      "max": [
+        0.9966443777084351,
+        0.9966443777084351,
+        0.9966443777084351,
+        1.0
+      ]
+    },
+    "Arm_R_Cape_SeaMistBinding": {
+      "min": [
+        0.9679566025733948,
+        0.9679566025733948,
+        0.9679566025733948,
+        1.0
+      ],
+      "max": [
+        0.9861114025115967,
+        0.9861114025115967,
+        0.9861114025115967,
+        1.0
+      ]
+    },
+    "Arm_R_Face_Fingernails": {
+      "min": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "max": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "Arm_R_Face_NoseCream": {
+      "min": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "max": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "Arm_R_Face_PorcelainCream": {
+      "min": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "max": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "Arm_R_Face_RoseCheeks": {
+      "min": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "max": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "Arm_R_Gloves_OatKnit": {
+      "min": [
+        0.9746665358543396,
+        0.9746665358543396,
+        0.9746665358543396,
+        1.0
+      ],
+      "max": [
+        0.9953541159629822,
+        0.9953541159629822,
+        0.9953541159629822,
+        1.0
+      ]
+    },
+    "Arm_R_Stitches_PaleFlax": {
+      "min": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "max": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "Lantern_Heart": {
+      "min": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "max": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "Lantern_Lantern_BrushedBrass": {
+      "min": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "max": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "Lantern_Lantern_GoldEdges": {
+      "min": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "max": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "Lantern_OpalGlass": {
+      "min": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "max": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "Sleeve_R": {
+      "min": [
+        0.9539030194282532,
+        0.9539030194282532,
+        0.9539030194282532,
+        1.0
+      ],
+      "max": [
+        0.9964554905891418,
+        0.9964554905891418,
+        0.9964554905891418,
+        1.0
+      ]
+    },
+    "Body_Boots_HoneyLeather": {
+      "min": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "max": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "Body_Cape_DeepOceanLining": {
+      "min": [
+        0.953677773475647,
+        0.953677773475647,
+        0.953677773475647,
+        1.0
+      ],
+      "max": [
+        0.9909206628799438,
+        0.9909206628799438,
+        0.9909206628799438,
+        1.0
+      ]
+    },
+    "Body_Cape_SeaMistBinding": {
+      "min": [
+        0.9516881108283997,
+        0.9516881108283997,
+        0.9516881108283997,
+        1.0
+      ],
+      "max": [
+        0.9959605932235718,
+        0.9959605932235718,
+        0.9959605932235718,
+        1.0
+      ]
+    },
+    "Body_Hood_DuskBlue": {
+      "min": [
+        0.9519476890563965,
+        0.9519476890563965,
+        0.9519476890563965,
+        1.0
+      ],
+      "max": [
+        0.9957842826843262,
+        0.9957842826843262,
+        0.9957842826843262,
+        1.0
+      ]
+    },
+    "Body_Lantern_GoldEdges": {
+      "min": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "max": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "Body_Scarf_EdgeHoney": {
+      "min": [
+        0.9595978856086731,
+        0.9595978856086731,
+        0.9595978856086731,
+        1.0
+      ],
+      "max": [
+        0.9931359887123108,
+        0.9931359887123108,
+        0.9931359887123108,
+        1.0
+      ]
+    },
+    "Body_Stitches_PaleFlax": {
+      "min": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "max": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "Brooch_AmberStone": {
+      "min": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "max": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "Cloak_Outer": {
+      "min": [
+        0.9526316523551941,
+        0.9526316523551941,
+        0.9526316523551941,
+        1.0
+      ],
+      "max": [
+        0.9959217309951782,
+        0.9959217309951782,
+        0.9959217309951782,
+        1.0
+      ]
+    },
+    "Satchel_Body": {
+      "min": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "max": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "Satchel_Clasp": {
+      "min": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "max": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "Scarf_Collar": {
+      "min": [
+        0.961833119392395,
+        0.961833119392395,
+        0.961833119392395,
+        1.0
+      ],
+      "max": [
+        0.9963129758834839,
+        0.9963129758834839,
+        0.9963129758834839,
+        1.0
+      ]
+    },
+    "TailoredTunic": {
+      "min": [
+        0.951375424861908,
+        0.951375424861908,
+        0.951375424861908,
+        1.0
+      ],
+      "max": [
+        0.9969655871391296,
+        0.9969655871391296,
+        0.9969655871391296,
+        1.0
+      ]
+    },
+    "Blink_L_ClosedLash": {
+      "min": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "max": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "Blink_L_LidCover": {
+      "min": [
+        0.9799820780754089,
+        0.9250778555870056,
+        0.9113674163818359,
+        1.0
+      ],
+      "max": [
+        0.9999983906745911,
+        0.9999733567237854,
+        0.9999681711196899,
+        1.0
+      ]
+    },
+    "Blink_R_ClosedLash": {
+      "min": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "max": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "Blink_R_LidCover": {
+      "min": [
+        0.9799820780754089,
+        0.9250778555870056,
+        0.9113674163818359,
+        1.0
+      ],
+      "max": [
+        0.9999983906745911,
+        0.9999733567237854,
+        0.9999681711196899,
+        1.0
+      ]
+    },
+    "Head_Eye_AmberRim": {
+      "min": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "max": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "Head_Eye_Catchlight": {
+      "min": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "max": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "Head_Eye_Chestnut": {
+      "min": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "max": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "Head_Eye_Ivory": {
+      "min": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "max": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "Head_Eye_Pupil": {
+      "min": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "max": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "Head_Face_NoseCream": {
+      "min": [
+        0.9797606468200684,
+        0.9500871896743774,
+        0.944184422492981,
+        1.0
+      ],
+      "max": [
+        0.9966799020767212,
+        0.9938545823097229,
+        0.993320882320404,
+        1.0
+      ]
+    },
+    "Head_Face_PorcelainCream": {
+      "min": [
+        0.9795534610748291,
+        0.8801411390304565,
+        0.8551744222640991,
+        1.0
+      ],
+      "max": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "Head_Face_RoseCheeks": {
+      "min": [
+        0.9986156821250916,
+        0.9459682106971741,
+        0.9275023937225342,
+        1.0
+      ],
+      "max": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "Head_Hair_Indigo": {
+      "min": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "max": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "Head_Hair_MidnightBlue": {
+      "min": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "max": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "QuietSmile": {
+      "min": [
+        0.9998883605003357,
+        0.9956228733062744,
+        0.9942435622215271,
+        1.0
+      ],
+      "max": [
+        0.9999437928199768,
+        0.9978058934211731,
+        0.9970579743385315,
+        1.0
+      ]
+    },
+    "BootSole_L": {
+      "min": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "max": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "BootUpper_L": {
+      "min": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "max": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "Leg_L_Boots_HoneyLeather": {
+      "min": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "max": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "Leg_L_Hood_DuskBlue": {
+      "min": [
+        0.958787202835083,
+        0.958787202835083,
+        0.958787202835083,
+        1.0
+      ],
+      "max": [
+        0.9801455140113831,
+        0.9801455140113831,
+        0.9801455140113831,
+        1.0
+      ]
+    },
+    "Leg_L_Lantern_BrushedBrass": {
+      "min": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "max": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "Trouser_L": {
+      "min": [
+        0.9511656761169434,
+        0.9511656761169434,
+        0.9511656761169434,
+        1.0
+      ],
+      "max": [
+        0.996449887752533,
+        0.996449887752533,
+        0.996449887752533,
+        1.0
+      ]
+    },
+    "BootSole_R": {
+      "min": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "max": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "BootUpper_R": {
+      "min": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "max": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "Leg_R_Boots_HoneyLeather": {
+      "min": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "max": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "Leg_R_Hood_DuskBlue": {
+      "min": [
+        0.953896701335907,
+        0.953896701335907,
+        0.953896701335907,
+        1.0
+      ],
+      "max": [
+        0.9902772903442383,
+        0.9902772903442383,
+        0.9902772903442383,
+        1.0
+      ]
+    },
+    "Leg_R_Lantern_BrushedBrass": {
+      "min": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "max": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "Trouser_R": {
+      "min": [
+        0.9512460231781006,
+        0.9512460231781006,
+        0.9512460231781006,
+        1.0
+      ],
+      "max": [
+        0.9969425201416016,
+        0.9969425201416016,
+        0.9969425201416016,
+        1.0
+      ]
+    },
+    "ScarfTail_Scarf_EdgeHoney": {
+      "min": [
+        0.9540274143218994,
+        0.9540274143218994,
+        0.9540274143218994,
+        1.0
+      ],
+      "max": [
+        0.9951544404029846,
+        0.9951544404029846,
+        0.9951544404029846,
+        1.0
+      ]
+    },
+    "ScarfTail_Scarf_HarvestGold": {
+      "min": [
+        0.9539538025856018,
+        0.9539538025856018,
+        0.9539538025856018,
+        1.0
+      ],
+      "max": [
+        0.9941978454589844,
+        0.9941978454589844,
+        0.9941978454589844,
+        1.0
+      ]
+    }
+  },
+  "vertex_color_contract": {
+    "name": "Col",
+    "domain": "CORNER",
+    "type": "FLOAT_COLOR",
+    "rgb": "linear relative albedo multiplication, neutral white",
+    "alpha": 1,
+    "range": "0.70..1.0, measured per mesh above"
+  },
+  "sha256": {
+    "traveler.blend": "5b1e0b1d49c0f522cb7ec20b1d4c01970baec4a3c1467377cb80b58651866f68",
+    "traveler.fbx": "878ffd87db158b5ea3e7833371ed4adfc155a817bf8bffd8ba210b7a05531f73",
+    "traveler.glb": "285bcace9e4e584f101dcf6be38f51b6cdc0bbd280d491bd22bc2e261aa36df2"
+  }
+}

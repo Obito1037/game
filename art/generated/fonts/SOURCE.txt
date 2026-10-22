@@ -1,0 +1,11 @@
+BorrowedLight Story Serif
+
+Derived from the unchanged local StorySerif.otf supplied with this game's font assets. Original authorship and copyright remain with the original font authors. This renamed game-text subset is distributed under SIL OFL 1.1.
+
+Original font copyright:
+© 2017-2024 Adobe (http://www.adobe.com/).
+
+Source SHA-256: 2a2eae2628df83556c54018c41e20fa532c1b862c5256ae8b3f23feb918d12ca
+Subset SHA-256: 3b80fc718f32906e8d35e9ae933cd7b75f3a3151450c43632261ad3e92fb946c
+
+Full license: LICENSE.txt

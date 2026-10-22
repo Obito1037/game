@@ -1,0 +1,50 @@
+{
+  "accepted": false,
+  "revision": "character-v14",
+  "baseline": "character-v11",
+  "reviewedBy": ["blender_world"],
+  "reviewedOriginals": [
+    "baseline-three-quarter.png", "candidate-three-quarter.png",
+    "baseline-front.png", "candidate-front.png", "candidate-profile.png",
+    "candidate-front-half.png", "candidate-front-closed.png"
+  ],
+  "improvements": [
+    "Open upper eyelids are lower and softer with the original eye width preserved.",
+    "The upper iris edge is partially covered, slightly relaxing the open-eye stare."
+  ],
+  "blockingIssues": [
+    "Half blink shows conspicuous protruding cream patches with the lower iris still exposed.",
+    "Full closure shows detached mask-like lower lid boundaries instead of continuous skin.",
+    "Finite frontal half-blink sampling detects 2 covered samples behind the eye surface, maximum penetration 0.768721mm."
+  ],
+  "diagnosticFindings": {
+    "halfBlinkScale": [0.5005, 0.5005, 1],
+    "halfCoveredSamples": 348,
+    "halfCoveredSamplesBehindEye": 2,
+    "halfMinimumWorldYClearanceMetres": -0.0007687211036682129,
+    "closedEyeSamples": 930,
+    "closedCoverMisses": 0,
+    "closedMinimumWorldYClearanceMetres": 0.001940906047821045,
+    "maximumCoverVertexFrontCorrectionMetres": 0.008838119494915008,
+    "explanation": "The inherited uniform local XY scale shrinks cover width and height toward a pivot above the eye. Pushing cover vertices forward to clear partial-state eye geometry introduces a floating boundary at full closure. The current sampled-envelope method does not solve natural eyelid motion."
+  },
+  "preservation": {
+    "source": "character-v11",
+    "triangles": 81968,
+    "newPolygons": 0,
+    "nonTargetMeshesUnchanged": 51,
+    "topologyUVColoursWeightsMaterialChannelsUnchanged": true,
+    "objectBonePivotContractUnchanged": true,
+    "materialGraphsUnchanged": true,
+    "mainHeadShellNeckEarCoordinatesUnchanged": true,
+    "trueHairScalpEyebrowCoordinatesUnchanged": true
+  },
+  "execution": {"cpuThreads": 4, "blenderPID": 24016, "exitCode": 0},
+  "scope": "Unaccepted geometry candidate. Do not import into Unity. Preserve source, model, manifest, all seven originals and raw failed coverage results. Any new blink-driving method requires a separately approved scope.",
+  "limits": [
+    "Open-eye gains do not constitute complete character acceptance.",
+    "Finite world-Y samples are not an all-angle or all-animation clearance proof.",
+    "No FBX roundtrip or Unity acceptance is claimed."
+  ],
+  "aestheticObjectiveAchieved": false
+}

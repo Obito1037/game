@@ -1,0 +1,17 @@
+{
+  "scope": "Scene/camera/light invariants only. Model identity is established by build/import evidence. Temporal AO is not frozen by Time.timeScale=0.",
+  "baseline": "C:\\Users\\20665\\Desktop\\game\\art\\verification\\v13-trees-baseline",
+  "candidate": "C:\\Users\\20665\\Desktop\\game\\art\\verification\\v13-trees-refined",
+  "sceneMatch": true,
+  "viewMatch": true,
+  "lightsMatch": true,
+  "bothStable": true,
+  "passed": true,
+  "treeConditions": {
+    "completeCaptures": true,
+    "materialsMatch": true,
+    "ambientMatch": true,
+    "targetsMatch": true,
+    "viewDetailsMatch": true
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "revision": "v14-candidate",
+  "stableRelease": "v13",
+  "recordedAtUTC": "2026-10-21T07:33:22.285Z",
+  "releaseReady": false,
+  "aestheticObjectiveAchieved": false,
+  "status": "Blender character-v11 with gentler carried light and neutral face fill in a tested independent Windows candidate. Stable Windows/Web/ZIP remain v13. Face geometry remains under development.",
+  "nativeBuild": "build_4c8f842d85ef",
+  "nativeCandidate": "builds/candidates/v14-balanced-light/windows/BorrowedLight.exe",
+  "nativeQA": "art/verification/run-035-v14/runtime-results.json",
+  "nativeFunctionalChecksPassed": true,
+  "character": {
+    "source": "art/generated/character-v11/",
+    "fbxSHA256": "58E808F1AEC15F3E960E96E57B9484284BF7B9B214DE511D036C1567761B828B",
+    "authoringTriangles": 81968,
+    "unityTriangles": 81964,
+    "readback": "art/verification/v14-character-v11-fbx/fbx-readback.json"
+  },
+  "sourceAudit": {
+    "baseline": "art/verification/v13-release-source/source-files.json",
+    "baselineFilesCompared": 91,
+    "changedTrackedFiles": [
+      {
+        "source": "GameProject/Assets/BorrowedLight/Runtime/WorldDirector.cs",
+        "baselineSHA256": "ED2E54DBC8921C16CB9716B5F5B7C9132B3BFFD503509F392EB48E6088468248",
+        "currentSHA256": "4F1D8ED0E531B171CD5C37C5694CC4028B91BAA11E4F6AF559400276E90C752F"
+      }
+    ],
+    "addedDiagnosticFiles": [
+      {
+        "source": "GameProject/Assets/BorrowedLight/Runtime/WorldFaceLightStudy.cs",
+        "sha256": "29727B4E7BF99572345107C5D0D43359CABF64294612FB4E803CA1D484649680"
+      },
+      {
+        "source": "GameProject/Assets/BorrowedLight/Runtime/WorldFaceLightStudy.cs.meta",
+        "sha256": "69E3BEBE1687C47CCD0720EB40C25BE54A345134AF682A48BF7A7BBE29B5FB7C"
+      }
+    ],
+    "normalDirectorUnchangedAfterRemovingDiagnosticEntries": false,
+    "normalChanges": [
+      "Carried light intensity .52 to .18; colour/range/anchor unchanged.",
+      "Face fill colour (1,.88,.74) to (1,.95,.88); intensity/range/position unchanged."
+    ]
+  },
+  "geometryReview": "art/verification/v14-face-geometry-candidate/decision.json",
+  "reviewPage": "art/verification/visual-review-v14-character.html",
+  "rejectedLighting": "art/verification/v14-face-light-position-refined/decision.json",
+  "rejectedCharacter": "art/generated/character-v10/",
+  "lightContributionStudy": "art/verification/v14-face-contribution/face-light-study.json",
+  "lightBalanceStudy": "art/verification/v14-face-balance/face-light-study.json",
+  "lightDecision": "art/verification/v14-face-balance/decision.json",
+  "limits": [
+    "No candidate WebGL build or release ZIP.",
+    "Gray cheek region, simplified nose/mouth, fixed gaze and grooved hair remain; overall aesthetic target unachieved.",
+    "Static blink endpoints and short normal QA do not cover all animation poses.",
+    "Four inherited zero-area lower-lid endpoint triangles recorded; no new GLB export."
+  ],
+  "geometryExperiments": [
+    {
+      "source": "art/generated/character-v12/",
+      "accepted": false,
+      "decision": "art/generated/character-v12/decision.json"
+    },
+    {
+      "source": "art/generated/character-v13/",
+      "accepted": false,
+      "decision": "art/generated/character-v13/decision.json"
+    }
+  ],
+  "nextAction": "Keep the tested v11 head and balanced lights. The nose/mouth cage experiments did not clearly improve naturalness; next improve eyelid/iris integration and expression at gameplay scale with a distinct, controlled character candidate."
+}

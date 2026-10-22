@@ -1,0 +1,31 @@
+{
+  "revision": "world-v12",
+  "gameCandidate": "v13",
+  "reviewed": true,
+  "acceptedForLimitedScope": true,
+  "scope": "仅三棵树在已查看静态机位下的形体改进建议；最终采用、运行碰撞和性能由主线程另验。",
+  "reviewer": "world_naturalness_v5",
+  "viewedOriginalImages": [
+    "art/verification/v13-trees-refined/path-current.png",
+    "art/verification/v13-trees-refined/island-current.png",
+    "art/verification/v13-trees-refined/left-tree-current.png",
+    "art/verification/v13-trees-refined/gold-tree-current.png",
+    "art/verification/v13-trees-refined/right-pine-current.png"
+  ],
+  "findings": [
+    "左冠重新进入正常path构图；近景可见完整的高低叶团和穿空，较旧水平纸片棚有立体层次。",
+    "金树冠降回近景内，金环弧线及灯头保留；叶团仍由枝条支撑，未恢复旧伞盖形。",
+    "右树在path及island恢复可见中下冠，不再像首版裸杆细丝；侧枝叶团不构成旧等间距三角片塔。",
+    "三树的枝叶结构和曲面叶片比稳定版生硬层叠更自然，可冻结本候选进入完整资产回读与运行验证。"
+  ],
+  "limitations": [
+    "右树仍较疏，尖叶风格不等同写实柏树；直干和少数横枝可见。",
+    "金冠在近景接近图像顶部，未由这一张图覆盖全部视角。",
+    "参考图没有成熟树木；不能称为复现参考树形或整体超越参考。",
+    "静态审图不证明动态风摆、完整游戏路线、所有碰撞或Iris Xe运行性能。",
+    "本记录不是最终发布许可；需以根代理最终检查与采用决定为准。"
+  ],
+  "staticAdoptionStatus": "Root and independent reviewer accepted these five fixed views for this tree pass; final release remains pending.",
+  "sourceWorld": "world-v10",
+  "finalReleaseAccepted": false
+}

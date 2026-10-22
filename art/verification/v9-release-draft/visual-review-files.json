@@ -1,0 +1,23 @@
+{
+  "allFilesExist": true,
+  "count": 17,
+  "files": [
+    "../reference/littleprince-gameplay.png",
+    "run-024-v9/07-walking.png",
+    "run-022-v8/09-traveler-portrait.png",
+    "run-024-v9/09-traveler-portrait.png",
+    "v9-face-study-baseline/01-front-open.png",
+    "v9-face-study-eye-material/01-front-open.png",
+    "v9-face-study-baseline/03-side-open.png",
+    "v9-face-study-eye-material/03-side-open.png",
+    "v9-face-study-baseline/04-front-closed.png",
+    "v9-face-study-eye-material/04-front-closed.png",
+    "v9-face-study-candidate/02-three-quarter-open.png",
+    "v9-face-study-eye-material/02-three-quarter-open.png",
+    "v9-ground-contact-study/lamp-baseline.png",
+    "v9-ground-contact-study/lamp-candidate.png",
+    "web-010-v9/05-stars-return.png",
+    "web-010-v9/06-walking.png",
+    "web-v9-portrait-video/portrait-time-cut.webm"
+  ]
+}

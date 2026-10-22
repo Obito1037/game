@@ -1,0 +1,16 @@
+浏览器滚轮短诊断
+
+结论：滚轮输入能传入画布并影响镜头，焦点不是本次失败原因；普通轮量与旧 .004 灵敏度组合产生很小的可见变化。正 DOM delta 拉远，负方向用于拉近。不能把 Playwright/DOM 数值直接当作 Unity scroll 值，也不能用极大输入代替正常操作验收。
+
+条件：候选 build_0846c11112cc，http://127.0.0.1:8779/。实际点击新旅程并按 Tab，进入正常探索输入分支，避免重新通关；截图 HUD 显示 WASD 漫步提示。无录像、无 Unity 状态/相机/时间/帧率注入。仅附加 passive DOM wheel 观察器，不 preventDefault。截图为原始 1440×900。
+
+观察：00 原机位；01 普通 +240×8 后几乎不变；02 +12000×8 后人物明显变小、镜头拉远；03 -12000×16 后返回接近原取景；04 极大 +120000×4 未呈现可外推的线性缩放。大数值只用于响应诊断，不是人类正常滚动量。未读取 Unity 内部相机距离或 scroll 数值，所以不声称已测定 native 换算倍数或到达任何距离夹限。
+36 个 wheel 事件均 isTrusted=true，target=unity-canvas，client=(1000,440)，deltaMode=0；所有截点均 visible/focused。当前浏览器实际 DOM delta 约为 Playwright 参数的 2 倍：240→480，12000→24000。此处只记录观察，不将它外推为所有设备/平台恒定比例。
+
+源码证据（本地 Input System 1.20.1）：
+GameProject/Library/PackageCache/com.unity.inputsystem@2436e68c60c4/InputSystem/Runtime/InputSettings.cs:72 说明默认滚轮统一为 ±1；:775 的字段默认值为 UniformAcrossAllPlatforms。
+同目录 InputManager.cs:260 设置 normalizeScrollWheelDelta；NativeInputRuntime.cs:344 转发至 NativeInputSystem。实际平台归一换算在引擎 native/WASM，本轮未从本地源码直接取得。
+旧 WorldDirector.cs:248 使用 Mouse.scroll.y × .004。若事件进入游戏后为一刻度，八次只改变 .032 m；这是基于源码的单位推断，不是本次直接读取相机字段所得。
+候选 framework 的 registerWheelEventCallback 把 DOM deltaX/Y/Z 和 deltaMode 原值写入 WASM。另有 pixel/100 helper，但仅发现定义，不能声称它是正在生效的路径。
+
+执行记录：首次短脚本在首张截图因文件名缺少 .png 后缀而退出，尚未开始 wheel 测试；修正后本次完成，diagnostic.json 为 completed=true/errors=[]。没有重复录制完整视频。后续由 root 决定并实施正常滚轮灵敏度修正，此诊断未改生产代码。

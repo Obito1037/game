@@ -1,0 +1,187 @@
+{
+  "purpose": "Capture-condition verification, not an automatic aesthetic judgment. Frozen times/background shader animation can differ.",
+  "baselineDir": "C:\\Users\\20665\\Desktop\\game\\art\\verification\\v9-face-study-candidate",
+  "candidateDir": "C:\\Users\\20665\\Desktop\\game\\art\\verification\\v9-face-study-eye-material",
+  "sceneConditionsMatch": true,
+  "viewConditionsMatch": true,
+  "lightsMatch": true,
+  "bodyPosesStable": true,
+  "captures": {
+    "baseline": [
+      {
+        "image": "01-front-open.png",
+        "bytes": 789479,
+        "validPNG": true,
+        "dimensionsMatch": true
+      },
+      {
+        "image": "02-three-quarter-open.png",
+        "bytes": 811948,
+        "validPNG": true,
+        "dimensionsMatch": true
+      },
+      {
+        "image": "03-side-open.png",
+        "bytes": 857667,
+        "validPNG": true,
+        "dimensionsMatch": true
+      },
+      {
+        "image": "04-front-closed.png",
+        "bytes": 787095,
+        "validPNG": true,
+        "dimensionsMatch": true
+      },
+      {
+        "image": "05-front-open-repeat.png",
+        "bytes": 791423,
+        "validPNG": true,
+        "dimensionsMatch": true
+      }
+    ],
+    "candidate": [
+      {
+        "image": "01-front-open.png",
+        "bytes": 789451,
+        "validPNG": true,
+        "dimensionsMatch": true
+      },
+      {
+        "image": "02-three-quarter-open.png",
+        "bytes": 810704,
+        "validPNG": true,
+        "dimensionsMatch": true
+      },
+      {
+        "image": "03-side-open.png",
+        "bytes": 857699,
+        "validPNG": true,
+        "dimensionsMatch": true
+      },
+      {
+        "image": "04-front-closed.png",
+        "bytes": 785865,
+        "validPNG": true,
+        "dimensionsMatch": true
+      },
+      {
+        "image": "05-front-open-repeat.png",
+        "bytes": 789691,
+        "validPNG": true,
+        "dimensionsMatch": true
+      }
+    ]
+  },
+  "materialChanges": [
+    {
+      "name": "Traveler_Eye_AmberRim — story light",
+      "baseline": {
+        "name": "Traveler_Eye_AmberRim — story light",
+        "shader": "Universal Render Pipeline/Lit",
+        "baseColor": {
+          "r": 0.5321354866027832,
+          "g": 0.41686996817588806,
+          "b": 0.3055160939693451,
+          "a": 1
+        },
+        "smoothness": 0.7200000286102295,
+        "surfaceKind": -1
+      },
+      "candidate": {
+        "name": "Traveler_Eye_AmberRim — story light",
+        "shader": "Universal Render Pipeline/Lit",
+        "baseColor": {
+          "r": 0.5321354866027832,
+          "g": 0.41686996817588806,
+          "b": 0.3055160939693451,
+          "a": 1
+        },
+        "smoothness": 0.3199999928474426,
+        "surfaceKind": -1
+      }
+    },
+    {
+      "name": "Traveler_Eye_Chestnut — story light",
+      "baseline": {
+        "name": "Traveler_Eye_Chestnut — story light",
+        "shader": "Universal Render Pipeline/Lit",
+        "baseColor": {
+          "r": 0.4956096410751343,
+          "g": 0.36873388290405273,
+          "b": 0.2671172618865967,
+          "a": 1
+        },
+        "smoothness": 0.7200000286102295,
+        "surfaceKind": -1
+      },
+      "candidate": {
+        "name": "Traveler_Eye_Chestnut — story light",
+        "shader": "Universal Render Pipeline/Lit",
+        "baseColor": {
+          "r": 0.4956096410751343,
+          "g": 0.36873388290405273,
+          "b": 0.2671172618865967,
+          "a": 1
+        },
+        "smoothness": 0.3199999928474426,
+        "surfaceKind": -1
+      }
+    },
+    {
+      "name": "Traveler_Eye_Ivory — story light",
+      "baseline": {
+        "name": "Traveler_Eye_Ivory — story light",
+        "shader": "Universal Render Pipeline/Lit",
+        "baseColor": {
+          "r": 0.8543057441711426,
+          "g": 0.8515938520431519,
+          "b": 0.8152506351470947,
+          "a": 1
+        },
+        "smoothness": 0.7200000286102295,
+        "surfaceKind": -1
+      },
+      "candidate": {
+        "name": "Traveler_Eye_Ivory — story light",
+        "shader": "Universal Render Pipeline/Lit",
+        "baseColor": {
+          "r": 0.8543057441711426,
+          "g": 0.8515938520431519,
+          "b": 0.8152506351470947,
+          "a": 1
+        },
+        "smoothness": 0.18000000715255737,
+        "surfaceKind": -1
+      }
+    },
+    {
+      "name": "Traveler_Eye_Pupil — story light",
+      "baseline": {
+        "name": "Traveler_Eye_Pupil — story light",
+        "shader": "Universal Render Pipeline/Lit",
+        "baseColor": {
+          "r": 0.11207485944032669,
+          "g": 0.14282560348510742,
+          "b": 0.17923611402511597,
+          "a": 1
+        },
+        "smoothness": 0.7200000286102295,
+        "surfaceKind": -1
+      },
+      "candidate": {
+        "name": "Traveler_Eye_Pupil — story light",
+        "shader": "Universal Render Pipeline/Lit",
+        "baseColor": {
+          "r": 0.11207485944032669,
+          "g": 0.14282560348510742,
+          "b": 0.17923611402511597,
+          "a": 1
+        },
+        "smoothness": 0.5,
+        "surfaceKind": -1
+      }
+    }
+  ],
+  "removedMaterials": [],
+  "captureConditionsPassed": true
+}

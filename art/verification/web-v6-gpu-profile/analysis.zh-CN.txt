@@ -1,0 +1,25 @@
+Borrowed Light v6 Web GPU 最小复验（2026-10-21）
+
+构建 build_1d3e76e5b3ab，实际请求的 wasm/framework/data 三个哈希与发布构建一致。runtime 日志确认 29 个岛屿 renderer 中 27 个进入静态合批。
+诊断独立于正常 QA 和录像；没有省略 draw、降低分辨率、删除植被或改变画质。
+
+正常 QA（无 WebGL 探针，web-005-v6/runtime-results.json）：
+六个 0.5 秒间隔 GetMetricsInfo().fps 读数中位数：菜单 49.09、结局 53.15、行走视角 34.63 fps。所有样本页面可见且有焦点。
+这些为 Unity 提供的区间读数，不是独立帧计数。行走 movingAverageFps 约 46.67 含前一视角历史，不能报告为当前行走帧率。
+真实键盘通关、刷新续玩、回岛和 Tab 返回结局通过，browser errors 为空；Unity 日志仍含既有 WebGL INVALID_ENUM、部分内部 shader 不支持及 sound 未加载诊断，不应描述为“所有日志无警告”。
+
+独立 GPU 探针：
+EXT_disjoint_timer_query_webgl2 可用，三帧查询全部返回，disjoint=false。
+以每个渲染帧唯一的 CelestialSky draw 计数，正常基线 34.44 fps，平均 1029.87 draw/frame。
+按 program-use 区间计时的三帧合计分别 26.665 / 25.554 / 26.064 ms，均值 26.094 ms。
+主要项目每帧均值：Painted 64 draw / 4.092 ms；Foliage 22 / 4.019 ms；ShadowCaster 554 / 2.928 ms；DepthNormals 214 / 2.167 ms；SSAO 与三段 blur 共 3.336 ms；Sky 0.834 ms；Moon 0.106 ms。
+查询计时只覆盖连续 program-use 区间，不包含全部 GPU 命令与 CPU/调度等待；三帧采样有查询开销，不能把 26.094 ms 等同于完整帧耗时。
+
+与保留的 v5 独立证据比较：
+总 draw 1115.65 → 1029.87，减少约 7.69%；ShadowCaster 657 → 554，DepthNormals 206 → 214；Foliage 22 → 22。
+v6 已用 WASM heap 约 129651408 bytes，比 v5 样本增加约 5.27 MiB。
+v5 正常 QA 行走区间中位数约 34.2，v6 约 34.6；没有足够证据证明帧率得到实质提高。
+这是整版观察，不能把全部 draw / GPU / FPS 变化归因于静态合批：v6 同时改变世界几何、蒙皮角色和行走速度（1.75 m/s 对旧 2.3 m/s），相同 W 1100 ms 后位置与相机取景不同。没有进行同画面关/开合批的因果 A/B。
+旧 tools/profile-game-web.cjs 的 v4 _SurfaceKind=4 识别法不适用于 v5/v6 固定 Foliage shader；不得把旧 skip-foliage 结果当成本版证据。
+
+原始查询、program 与源码识别信息分别保留在 profile-results.json、program-summary.json 和 programs.json。

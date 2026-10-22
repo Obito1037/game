@@ -1,0 +1,654 @@
+{
+  "fbx": {
+    "passed": true,
+    "errors": [],
+    "sha256": "1e9b778c88a70cc49d4872b441c32b9cdd0872747316f96963a0fb15a2532232",
+    "triangles": 77132,
+    "mesh_renderers": 62,
+    "skinned_meshes": 28,
+    "armatures": 4,
+    "bones": 12,
+    "max_neutral_vertex_deviation_m": 2.1490760104825313e-07,
+    "max_pivot_error_m": 1.862645149230957e-07,
+    "max_pose_vertex_deviation_m": 2.1696418173178245e-07,
+    "lantern_pose_deviation_m": 9.541398640621973e-08,
+    "stride_boot_min_height_m": [
+      0.03676924109458923,
+      0.03505610674619675
+    ],
+    "bone_validation": {
+      "UpperArm_L": {
+        "bind_position_error_m": 1.5148661453642688e-07,
+        "lateral_axis_bone_local": [
+          -0.949993371963501,
+          -0.3121231198310852,
+          0.009579092264175415
+        ],
+        "axis_roundtrip_error": 4.53201124839352e-08
+      },
+      "Elbow_L": {
+        "bind_position_error_m": 1.303086364927474e-07,
+        "lateral_axis_bone_local": [
+          -0.9842081069946289,
+          -0.1684875786304474,
+          0.05428101494908333
+        ],
+        "axis_roundtrip_error": 2.1721988524665314e-08
+      },
+      "UpperArm_R": {
+        "bind_position_error_m": 1.5148661453642688e-07,
+        "lateral_axis_bone_local": [
+          -0.949993371963501,
+          0.3121231198310852,
+          -0.009579092264175415
+        ],
+        "axis_roundtrip_error": 4.53201124839352e-08
+      },
+      "Elbow_R": {
+        "bind_position_error_m": 1.303086364927474e-07,
+        "lateral_axis_bone_local": [
+          -0.9842081069946289,
+          0.1684875786304474,
+          -0.05428101494908333
+        ],
+        "axis_roundtrip_error": 2.1721988524665314e-08
+      },
+      "Thigh_L": {
+        "bind_position_error_m": 1.0282104861986256e-07,
+        "lateral_axis_bone_local": [
+          -1.0,
+          -7.105427357601002e-15,
+          -1.5099581673894136e-07
+        ],
+        "axis_roundtrip_error": 7.944109290391274e-15
+      },
+      "Knee_L": {
+        "bind_position_error_m": 6.746787680787904e-08,
+        "lateral_axis_bone_local": [
+          -1.0,
+          2.1316282072803006e-14,
+          1.509958451606508e-07
+        ],
+        "axis_roundtrip_error": 3.552713678800501e-15
+      },
+      "Ankle_L": {
+        "bind_position_error_m": 1.834492720998098e-08,
+        "lateral_axis_bone_local": [
+          -1.0,
+          2.4868995751603507e-14,
+          1.509957598955225e-07
+        ],
+        "axis_roundtrip_error": 8.881784197001252e-15
+      },
+      "HipAnchor_L": {
+        "bind_position_error_m": 1.0282104861986256e-07,
+        "lateral_axis_bone_local": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "axis_roundtrip_error": 0.0
+      },
+      "Thigh_R": {
+        "bind_position_error_m": 1.0282104861986256e-07,
+        "lateral_axis_bone_local": [
+          -1.0,
+          -7.105427357601002e-15,
+          -1.5099581673894136e-07
+        ],
+        "axis_roundtrip_error": 7.944109290391274e-15
+      },
+      "Knee_R": {
+        "bind_position_error_m": 6.612390279769897e-08,
+        "lateral_axis_bone_local": [
+          -1.0,
+          2.1316282072803006e-14,
+          1.509958451606508e-07
+        ],
+        "axis_roundtrip_error": 3.552713678800501e-15
+      },
+      "Ankle_R": {
+        "bind_position_error_m": 1.834492720998098e-08,
+        "lateral_axis_bone_local": [
+          -1.0,
+          2.4868995751603507e-14,
+          1.509957598955225e-07
+        ],
+        "axis_roundtrip_error": 8.881784197001252e-15
+      },
+      "HipAnchor_R": {
+        "bind_position_error_m": 1.0282104861986256e-07,
+        "lateral_axis_bone_local": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "axis_roundtrip_error": 0.0
+      }
+    },
+    "skin_validation": [
+      {
+        "mesh": "Arm_L_Cape_SeaMistBinding",
+        "unweighted": 0,
+        "bad_weight_sum": 0,
+        "maximum_influences": 1,
+        "blended_vertices": 0
+      },
+      {
+        "mesh": "Arm_L_Face_Fingernails",
+        "unweighted": 0,
+        "bad_weight_sum": 0,
+        "maximum_influences": 1,
+        "blended_vertices": 0
+      },
+      {
+        "mesh": "Arm_L_Face_NoseCream",
+        "unweighted": 0,
+        "bad_weight_sum": 0,
+        "maximum_influences": 1,
+        "blended_vertices": 0
+      },
+      {
+        "mesh": "Arm_L_Face_PorcelainCream",
+        "unweighted": 0,
+        "bad_weight_sum": 0,
+        "maximum_influences": 1,
+        "blended_vertices": 0
+      },
+      {
+        "mesh": "Arm_L_Face_RoseCheeks",
+        "unweighted": 0,
+        "bad_weight_sum": 0,
+        "maximum_influences": 1,
+        "blended_vertices": 0
+      },
+      {
+        "mesh": "Arm_L_Gloves_OatKnit",
+        "unweighted": 0,
+        "bad_weight_sum": 0,
+        "maximum_influences": 1,
+        "blended_vertices": 0
+      },
+      {
+        "mesh": "Arm_L_Stitches_PaleFlax",
+        "unweighted": 0,
+        "bad_weight_sum": 0,
+        "maximum_influences": 1,
+        "blended_vertices": 0
+      },
+      {
+        "mesh": "Sleeve_L",
+        "unweighted": 0,
+        "bad_weight_sum": 0,
+        "maximum_influences": 2,
+        "blended_vertices": 526
+      },
+      {
+        "mesh": "Arm_R_Cape_SeaMistBinding",
+        "unweighted": 0,
+        "bad_weight_sum": 0,
+        "maximum_influences": 1,
+        "blended_vertices": 0
+      },
+      {
+        "mesh": "Arm_R_Face_Fingernails",
+        "unweighted": 0,
+        "bad_weight_sum": 0,
+        "maximum_influences": 1,
+        "blended_vertices": 0
+      },
+      {
+        "mesh": "Arm_R_Face_NoseCream",
+        "unweighted": 0,
+        "bad_weight_sum": 0,
+        "maximum_influences": 1,
+        "blended_vertices": 0
+      },
+      {
+        "mesh": "Arm_R_Face_PorcelainCream",
+        "unweighted": 0,
+        "bad_weight_sum": 0,
+        "maximum_influences": 1,
+        "blended_vertices": 0
+      },
+      {
+        "mesh": "Arm_R_Face_RoseCheeks",
+        "unweighted": 0,
+        "bad_weight_sum": 0,
+        "maximum_influences": 1,
+        "blended_vertices": 0
+      },
+      {
+        "mesh": "Arm_R_Gloves_OatKnit",
+        "unweighted": 0,
+        "bad_weight_sum": 0,
+        "maximum_influences": 1,
+        "blended_vertices": 0
+      },
+      {
+        "mesh": "Arm_R_Stitches_PaleFlax",
+        "unweighted": 0,
+        "bad_weight_sum": 0,
+        "maximum_influences": 1,
+        "blended_vertices": 0
+      },
+      {
+        "mesh": "Sleeve_R",
+        "unweighted": 0,
+        "bad_weight_sum": 0,
+        "maximum_influences": 2,
+        "blended_vertices": 530
+      },
+      {
+        "mesh": "BootSole_L",
+        "unweighted": 0,
+        "bad_weight_sum": 0,
+        "maximum_influences": 1,
+        "blended_vertices": 0
+      },
+      {
+        "mesh": "BootUpper_L",
+        "unweighted": 0,
+        "bad_weight_sum": 0,
+        "maximum_influences": 2,
+        "blended_vertices": 32
+      },
+      {
+        "mesh": "Leg_L_Boots_HoneyLeather",
+        "unweighted": 0,
+        "bad_weight_sum": 0,
+        "maximum_influences": 2,
+        "blended_vertices": 108
+      },
+      {
+        "mesh": "Leg_L_Hood_DuskBlue",
+        "unweighted": 0,
+        "bad_weight_sum": 0,
+        "maximum_influences": 2,
+        "blended_vertices": 15
+      },
+      {
+        "mesh": "Leg_L_Lantern_BrushedBrass",
+        "unweighted": 0,
+        "bad_weight_sum": 0,
+        "maximum_influences": 2,
+        "blended_vertices": 208
+      },
+      {
+        "mesh": "Trouser_L",
+        "unweighted": 0,
+        "bad_weight_sum": 0,
+        "maximum_influences": 3,
+        "blended_vertices": 943
+      },
+      {
+        "mesh": "BootSole_R",
+        "unweighted": 0,
+        "bad_weight_sum": 0,
+        "maximum_influences": 1,
+        "blended_vertices": 0
+      },
+      {
+        "mesh": "BootUpper_R",
+        "unweighted": 0,
+        "bad_weight_sum": 0,
+        "maximum_influences": 2,
+        "blended_vertices": 32
+      },
+      {
+        "mesh": "Leg_R_Boots_HoneyLeather",
+        "unweighted": 0,
+        "bad_weight_sum": 0,
+        "maximum_influences": 2,
+        "blended_vertices": 108
+      },
+      {
+        "mesh": "Leg_R_Hood_DuskBlue",
+        "unweighted": 0,
+        "bad_weight_sum": 0,
+        "maximum_influences": 2,
+        "blended_vertices": 15
+      },
+      {
+        "mesh": "Leg_R_Lantern_BrushedBrass",
+        "unweighted": 0,
+        "bad_weight_sum": 0,
+        "maximum_influences": 2,
+        "blended_vertices": 208
+      },
+      {
+        "mesh": "Trouser_R",
+        "unweighted": 0,
+        "bad_weight_sum": 0,
+        "maximum_influences": 3,
+        "blended_vertices": 1005
+      }
+    ]
+  },
+  "glb": {
+    "passed": true,
+    "errors": [],
+    "sha256": "e648a83897fee9e78a1cb81214ba4076f5c48757cbc9a95184681b37b8ed71a7",
+    "triangles": 77132,
+    "mesh_renderers": 62,
+    "skinned_meshes": 28,
+    "armatures": 4,
+    "bones": 12,
+    "max_neutral_vertex_deviation_m": 1.8143349223009864e-07,
+    "max_pivot_error_m": 1.1500231206739792e-07,
+    "max_pose_vertex_deviation_m": 2.987422703881748e-06,
+    "lantern_pose_deviation_m": 1.1662003280593849e-07,
+    "stride_boot_min_height_m": [
+      0.03676921874284744,
+      0.035055920481681824
+    ],
+    "bone_validation": {
+      "UpperArm_L": {
+        "bind_position_error_m": 0.0,
+        "lateral_axis_bone_local": [
+          -0.9499934315681458,
+          -0.31212323904037476,
+          0.009579062461853027
+        ],
+        "axis_roundtrip_error": 2.356080457693621e-08
+      },
+      "Elbow_L": {
+        "bind_position_error_m": 1.2968562349015268e-07,
+        "lateral_axis_bone_local": [
+          -0.9842079877853394,
+          -0.1684877723455429,
+          0.05428143963217735
+        ],
+        "axis_roundtrip_error": 1.666000468656264e-08
+      },
+      "UpperArm_R": {
+        "bind_position_error_m": 0.0,
+        "lateral_axis_bone_local": [
+          -0.9499934315681458,
+          0.31212323904037476,
+          -0.009579062461853027
+        ],
+        "axis_roundtrip_error": 2.356080457693621e-08
+      },
+      "Elbow_R": {
+        "bind_position_error_m": 1.2968562349015268e-07,
+        "lateral_axis_bone_local": [
+          -0.9842079877853394,
+          0.1684877723455429,
+          -0.05428143963217735
+        ],
+        "axis_roundtrip_error": 1.666000468656264e-08
+      },
+      "Thigh_L": {
+        "bind_position_error_m": 0.0,
+        "lateral_axis_bone_local": [
+          -1.0,
+          -1.4210854715202004e-14,
+          -1.5099581673894136e-07
+        ],
+        "axis_roundtrip_error": 7.944109290391274e-15
+      },
+      "Knee_L": {
+        "bind_position_error_m": 2.4039129724987423e-08,
+        "lateral_axis_bone_local": [
+          -0.9999999403953552,
+          2.1316282072803006e-14,
+          1.5099578831723193e-07
+        ],
+        "axis_roundtrip_error": 2.2748467065386707e-14
+      },
+      "Ankle_L": {
+        "bind_position_error_m": 2.4587621507130722e-08,
+        "lateral_axis_bone_local": [
+          -1.0,
+          6.394884621840902e-14,
+          1.5099554673270177e-07
+        ],
+        "axis_roundtrip_error": 1.7763568394002505e-15
+      },
+      "HipAnchor_L": {
+        "bind_position_error_m": 0.0,
+        "lateral_axis_bone_local": [
+          1.0000001192092896,
+          0.0,
+          3.422855243684353e-08
+        ],
+        "axis_roundtrip_error": 0.0
+      },
+      "Thigh_R": {
+        "bind_position_error_m": 0.0,
+        "lateral_axis_bone_local": [
+          -1.0,
+          -1.4210854715202004e-14,
+          -1.5099581673894136e-07
+        ],
+        "axis_roundtrip_error": 7.944109290391274e-15
+      },
+      "Knee_R": {
+        "bind_position_error_m": 1.7329858677395056e-08,
+        "lateral_axis_bone_local": [
+          -1.0,
+          2.1316282072803006e-14,
+          1.5099573147381307e-07
+        ],
+        "axis_roundtrip_error": 0.0
+      },
+      "Ankle_R": {
+        "bind_position_error_m": 6.476543341097873e-08,
+        "lateral_axis_bone_local": [
+          -1.0,
+          4.263256414560601e-14,
+          3.8941436741879443e-07
+        ],
+        "axis_roundtrip_error": 1.5888218580782548e-14
+      },
+      "HipAnchor_R": {
+        "bind_position_error_m": 0.0,
+        "lateral_axis_bone_local": [
+          1.0000001192092896,
+          0.0,
+          3.422855243684353e-08
+        ],
+        "axis_roundtrip_error": 0.0
+      }
+    },
+    "skin_validation": [
+      {
+        "mesh": "Arm_L_Cape_SeaMistBinding",
+        "unweighted": 0,
+        "bad_weight_sum": 0,
+        "maximum_influences": 1,
+        "blended_vertices": 0
+      },
+      {
+        "mesh": "Arm_L_Face_Fingernails",
+        "unweighted": 0,
+        "bad_weight_sum": 0,
+        "maximum_influences": 1,
+        "blended_vertices": 0
+      },
+      {
+        "mesh": "Arm_L_Face_NoseCream",
+        "unweighted": 0,
+        "bad_weight_sum": 0,
+        "maximum_influences": 1,
+        "blended_vertices": 0
+      },
+      {
+        "mesh": "Arm_L_Face_PorcelainCream",
+        "unweighted": 0,
+        "bad_weight_sum": 0,
+        "maximum_influences": 1,
+        "blended_vertices": 0
+      },
+      {
+        "mesh": "Arm_L_Face_RoseCheeks",
+        "unweighted": 0,
+        "bad_weight_sum": 0,
+        "maximum_influences": 1,
+        "blended_vertices": 0
+      },
+      {
+        "mesh": "Arm_L_Gloves_OatKnit",
+        "unweighted": 0,
+        "bad_weight_sum": 0,
+        "maximum_influences": 1,
+        "blended_vertices": 0
+      },
+      {
+        "mesh": "Arm_L_Stitches_PaleFlax",
+        "unweighted": 0,
+        "bad_weight_sum": 0,
+        "maximum_influences": 1,
+        "blended_vertices": 0
+      },
+      {
+        "mesh": "Sleeve_L",
+        "unweighted": 0,
+        "bad_weight_sum": 0,
+        "maximum_influences": 2,
+        "blended_vertices": 558
+      },
+      {
+        "mesh": "Arm_R_Cape_SeaMistBinding",
+        "unweighted": 0,
+        "bad_weight_sum": 0,
+        "maximum_influences": 1,
+        "blended_vertices": 0
+      },
+      {
+        "mesh": "Arm_R_Face_Fingernails",
+        "unweighted": 0,
+        "bad_weight_sum": 0,
+        "maximum_influences": 1,
+        "blended_vertices": 0
+      },
+      {
+        "mesh": "Arm_R_Face_NoseCream",
+        "unweighted": 0,
+        "bad_weight_sum": 0,
+        "maximum_influences": 1,
+        "blended_vertices": 0
+      },
+      {
+        "mesh": "Arm_R_Face_PorcelainCream",
+        "unweighted": 0,
+        "bad_weight_sum": 0,
+        "maximum_influences": 1,
+        "blended_vertices": 0
+      },
+      {
+        "mesh": "Arm_R_Face_RoseCheeks",
+        "unweighted": 0,
+        "bad_weight_sum": 0,
+        "maximum_influences": 1,
+        "blended_vertices": 0
+      },
+      {
+        "mesh": "Arm_R_Gloves_OatKnit",
+        "unweighted": 0,
+        "bad_weight_sum": 0,
+        "maximum_influences": 1,
+        "blended_vertices": 0
+      },
+      {
+        "mesh": "Arm_R_Stitches_PaleFlax",
+        "unweighted": 0,
+        "bad_weight_sum": 0,
+        "maximum_influences": 1,
+        "blended_vertices": 0
+      },
+      {
+        "mesh": "Sleeve_R",
+        "unweighted": 0,
+        "bad_weight_sum": 0,
+        "maximum_influences": 2,
+        "blended_vertices": 553
+      },
+      {
+        "mesh": "BootSole_L",
+        "unweighted": 0,
+        "bad_weight_sum": 0,
+        "maximum_influences": 1,
+        "blended_vertices": 0
+      },
+      {
+        "mesh": "BootUpper_L",
+        "unweighted": 0,
+        "bad_weight_sum": 0,
+        "maximum_influences": 2,
+        "blended_vertices": 45
+      },
+      {
+        "mesh": "Leg_L_Boots_HoneyLeather",
+        "unweighted": 0,
+        "bad_weight_sum": 0,
+        "maximum_influences": 2,
+        "blended_vertices": 279
+      },
+      {
+        "mesh": "Leg_L_Hood_DuskBlue",
+        "unweighted": 0,
+        "bad_weight_sum": 0,
+        "maximum_influences": 2,
+        "blended_vertices": 40
+      },
+      {
+        "mesh": "Leg_L_Lantern_BrushedBrass",
+        "unweighted": 0,
+        "bad_weight_sum": 0,
+        "maximum_influences": 2,
+        "blended_vertices": 300
+      },
+      {
+        "mesh": "Trouser_L",
+        "unweighted": 0,
+        "bad_weight_sum": 0,
+        "maximum_influences": 3,
+        "blended_vertices": 996
+      },
+      {
+        "mesh": "BootSole_R",
+        "unweighted": 0,
+        "bad_weight_sum": 0,
+        "maximum_influences": 1,
+        "blended_vertices": 0
+      },
+      {
+        "mesh": "BootUpper_R",
+        "unweighted": 0,
+        "bad_weight_sum": 0,
+        "maximum_influences": 2,
+        "blended_vertices": 45
+      },
+      {
+        "mesh": "Leg_R_Boots_HoneyLeather",
+        "unweighted": 0,
+        "bad_weight_sum": 0,
+        "maximum_influences": 2,
+        "blended_vertices": 283
+      },
+      {
+        "mesh": "Leg_R_Hood_DuskBlue",
+        "unweighted": 0,
+        "bad_weight_sum": 0,
+        "maximum_influences": 2,
+        "blended_vertices": 40
+      },
+      {
+        "mesh": "Leg_R_Lantern_BrushedBrass",
+        "unweighted": 0,
+        "bad_weight_sum": 0,
+        "maximum_influences": 2,
+        "blended_vertices": 300
+      },
+      {
+        "mesh": "Trouser_R",
+        "unweighted": 0,
+        "bad_weight_sum": 0,
+        "maximum_influences": 3,
+        "blended_vertices": 1063
+      }
+    ]
+  }
+}

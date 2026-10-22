@@ -1,0 +1,1183 @@
+{
+  "completed": true,
+  "error": null,
+  "errors": [],
+  "phases": [
+    0,
+    1
+  ],
+  "url": "http://127.0.0.1:8779/",
+  "events": [
+    {
+      "type": "wheel-test-start",
+      "elapsedMs": 20499,
+      "label": "01-positive-240-x8",
+      "deltaY": 240,
+      "count": 8,
+      "intervalMs": 120
+    },
+    {
+      "type": "wheel-test-end",
+      "elapsedMs": 22580,
+      "label": "01-positive-240-x8"
+    },
+    {
+      "type": "wheel-test-start",
+      "elapsedMs": 25145,
+      "label": "02-positive-12000-x8",
+      "deltaY": 12000,
+      "count": 8,
+      "intervalMs": 250
+    },
+    {
+      "type": "wheel-test-end",
+      "elapsedMs": 27695,
+      "label": "02-positive-12000-x8"
+    },
+    {
+      "type": "wheel-test-start",
+      "elapsedMs": 30324,
+      "label": "03-negative-12000-x16",
+      "deltaY": -12000,
+      "count": 16,
+      "intervalMs": 250
+    },
+    {
+      "type": "wheel-test-end",
+      "elapsedMs": 35560,
+      "label": "03-negative-12000-x16"
+    },
+    {
+      "type": "wheel-test-start",
+      "elapsedMs": 38065,
+      "label": "04-positive-120000-x4",
+      "deltaY": 120000,
+      "count": 4,
+      "intervalMs": 250
+    },
+    {
+      "type": "wheel-test-end",
+      "elapsedMs": 39268,
+      "label": "04-positive-120000-x4"
+    }
+  ],
+  "snapshots": [
+    {
+      "file": "00-before-wheel.png",
+      "elapsedMs": 20498,
+      "state": {
+        "canvas": [
+          1440,
+          900
+        ],
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "width": 1440,
+          "height": 900
+        },
+        "visible": "visible",
+        "focused": true,
+        "active": "unity-canvas",
+        "events": []
+      }
+    },
+    {
+      "file": "01-positive-240-x8.png",
+      "elapsedMs": 25145,
+      "state": {
+        "canvas": [
+          1440,
+          900
+        ],
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "width": 1440,
+          "height": 900
+        },
+        "visible": "visible",
+        "focused": true,
+        "active": "unity-canvas",
+        "events": [
+          {
+            "deltaX": 0,
+            "deltaY": 480,
+            "deltaMode": 0,
+            "clientX": 1000,
+            "clientY": 440,
+            "target": "unity-canvas",
+            "isTrusted": true,
+            "defaultPrevented": false,
+            "observedAtMs": 20991.10000038147
+          },
+          {
+            "deltaX": 0,
+            "deltaY": 480,
+            "deltaMode": 0,
+            "clientX": 1000,
+            "clientY": 440,
+            "target": "unity-canvas",
+            "isTrusted": true,
+            "defaultPrevented": false,
+            "observedAtMs": 21171.650000572205
+          },
+          {
+            "deltaX": 0,
+            "deltaY": 480,
+            "deltaMode": 0,
+            "clientX": 1000,
+            "clientY": 440,
+            "target": "unity-canvas",
+            "isTrusted": true,
+            "defaultPrevented": false,
+            "observedAtMs": 21355.925000190735
+          },
+          {
+            "deltaX": 0,
+            "deltaY": 480,
+            "deltaMode": 0,
+            "clientX": 1000,
+            "clientY": 440,
+            "target": "unity-canvas",
+            "isTrusted": true,
+            "defaultPrevented": false,
+            "observedAtMs": 21538.23500061035
+          },
+          {
+            "deltaX": 0,
+            "deltaY": 480,
+            "deltaMode": 0,
+            "clientX": 1000,
+            "clientY": 440,
+            "target": "unity-canvas",
+            "isTrusted": true,
+            "defaultPrevented": false,
+            "observedAtMs": 21749.910000801086
+          },
+          {
+            "deltaX": 0,
+            "deltaY": 480,
+            "deltaMode": 0,
+            "clientX": 1000,
+            "clientY": 440,
+            "target": "unity-canvas",
+            "isTrusted": true,
+            "defaultPrevented": false,
+            "observedAtMs": 21988.085000038147
+          },
+          {
+            "deltaX": 0,
+            "deltaY": 480,
+            "deltaMode": 0,
+            "clientX": 1000,
+            "clientY": 440,
+            "target": "unity-canvas",
+            "isTrusted": true,
+            "defaultPrevented": false,
+            "observedAtMs": 22219.930000305176
+          },
+          {
+            "deltaX": 0,
+            "deltaY": 480,
+            "deltaMode": 0,
+            "clientX": 1000,
+            "clientY": 440,
+            "target": "unity-canvas",
+            "isTrusted": true,
+            "defaultPrevented": false,
+            "observedAtMs": 22434.525000572205
+          }
+        ]
+      }
+    },
+    {
+      "file": "02-positive-12000-x8.png",
+      "elapsedMs": 30324,
+      "state": {
+        "canvas": [
+          1440,
+          900
+        ],
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "width": 1440,
+          "height": 900
+        },
+        "visible": "visible",
+        "focused": true,
+        "active": "unity-canvas",
+        "events": [
+          {
+            "deltaX": 0,
+            "deltaY": 480,
+            "deltaMode": 0,
+            "clientX": 1000,
+            "clientY": 440,
+            "target": "unity-canvas",
+            "isTrusted": true,
+            "defaultPrevented": false,
+            "observedAtMs": 20991.10000038147
+          },
+          {
+            "deltaX": 0,
+            "deltaY": 480,
+            "deltaMode": 0,
+            "clientX": 1000,
+            "clientY": 440,
+            "target": "unity-canvas",
+            "isTrusted": true,
+            "defaultPrevented": false,
+            "observedAtMs": 21171.650000572205
+          },
+          {
+            "deltaX": 0,
+            "deltaY": 480,
+            "deltaMode": 0,
+            "clientX": 1000,
+            "clientY": 440,
+            "target": "unity-canvas",
+            "isTrusted": true,
+            "defaultPrevented": false,
+            "observedAtMs": 21355.925000190735
+          },
+          {
+            "deltaX": 0,
+            "deltaY": 480,
+            "deltaMode": 0,
+            "clientX": 1000,
+            "clientY": 440,
+            "target": "unity-canvas",
+            "isTrusted": true,
+            "defaultPrevented": false,
+            "observedAtMs": 21538.23500061035
+          },
+          {
+            "deltaX": 0,
+            "deltaY": 480,
+            "deltaMode": 0,
+            "clientX": 1000,
+            "clientY": 440,
+            "target": "unity-canvas",
+            "isTrusted": true,
+            "defaultPrevented": false,
+            "observedAtMs": 21749.910000801086
+          },
+          {
+            "deltaX": 0,
+            "deltaY": 480,
+            "deltaMode": 0,
+            "clientX": 1000,
+            "clientY": 440,
+            "target": "unity-canvas",
+            "isTrusted": true,
+            "defaultPrevented": false,
+            "observedAtMs": 21988.085000038147
+          },
+          {
+            "deltaX": 0,
+            "deltaY": 480,
+            "deltaMode": 0,
+            "clientX": 1000,
+            "clientY": 440,
+            "target": "unity-canvas",
+            "isTrusted": true,
+            "defaultPrevented": false,
+            "observedAtMs": 22219.930000305176
+          },
+          {
+            "deltaX": 0,
+            "deltaY": 480,
+            "deltaMode": 0,
+            "clientX": 1000,
+            "clientY": 440,
+            "target": "unity-canvas",
+            "isTrusted": true,
+            "defaultPrevented": false,
+            "observedAtMs": 22434.525000572205
+          },
+          {
+            "deltaX": 0,
+            "deltaY": 24000,
+            "deltaMode": 0,
+            "clientX": 1000,
+            "clientY": 440,
+            "target": "unity-canvas",
+            "isTrusted": true,
+            "defaultPrevented": false,
+            "observedAtMs": 25162.99499988556
+          },
+          {
+            "deltaX": 0,
+            "deltaY": 24000,
+            "deltaMode": 0,
+            "clientX": 1000,
+            "clientY": 440,
+            "target": "unity-canvas",
+            "isTrusted": true,
+            "defaultPrevented": false,
+            "observedAtMs": 25470.63000011444
+          },
+          {
+            "deltaX": 0,
+            "deltaY": 24000,
+            "deltaMode": 0,
+            "clientX": 1000,
+            "clientY": 440,
+            "target": "unity-canvas",
+            "isTrusted": true,
+            "defaultPrevented": false,
+            "observedAtMs": 25792.175000190735
+          },
+          {
+            "deltaX": 0,
+            "deltaY": 24000,
+            "deltaMode": 0,
+            "clientX": 1000,
+            "clientY": 440,
+            "target": "unity-canvas",
+            "isTrusted": true,
+            "defaultPrevented": false,
+            "observedAtMs": 26126.285000801086
+          },
+          {
+            "deltaX": 0,
+            "deltaY": 24000,
+            "deltaMode": 0,
+            "clientX": 1000,
+            "clientY": 440,
+            "target": "unity-canvas",
+            "isTrusted": true,
+            "defaultPrevented": false,
+            "observedAtMs": 26439.905000686646
+          },
+          {
+            "deltaX": 0,
+            "deltaY": 24000,
+            "deltaMode": 0,
+            "clientX": 1000,
+            "clientY": 440,
+            "target": "unity-canvas",
+            "isTrusted": true,
+            "defaultPrevented": false,
+            "observedAtMs": 26782.155000686646
+          },
+          {
+            "deltaX": 0,
+            "deltaY": 24000,
+            "deltaMode": 0,
+            "clientX": 1000,
+            "clientY": 440,
+            "target": "unity-canvas",
+            "isTrusted": true,
+            "defaultPrevented": false,
+            "observedAtMs": 27108.460000038147
+          },
+          {
+            "deltaX": 0,
+            "deltaY": 24000,
+            "deltaMode": 0,
+            "clientX": 1000,
+            "clientY": 440,
+            "target": "unity-canvas",
+            "isTrusted": true,
+            "defaultPrevented": false,
+            "observedAtMs": 27432.22000026703
+          }
+        ]
+      }
+    },
+    {
+      "file": "03-negative-12000-x16.png",
+      "elapsedMs": 38065,
+      "state": {
+        "canvas": [
+          1440,
+          900
+        ],
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "width": 1440,
+          "height": 900
+        },
+        "visible": "visible",
+        "focused": true,
+        "active": "unity-canvas",
+        "events": [
+          {
+            "deltaX": 0,
+            "deltaY": 480,
+            "deltaMode": 0,
+            "clientX": 1000,
+            "clientY": 440,
+            "target": "unity-canvas",
+            "isTrusted": true,
+            "defaultPrevented": false,
+            "observedAtMs": 20991.10000038147
+          },
+          {
+            "deltaX": 0,
+            "deltaY": 480,
+            "deltaMode": 0,
+            "clientX": 1000,
+            "clientY": 440,
+            "target": "unity-canvas",
+            "isTrusted": true,
+            "defaultPrevented": false,
+            "observedAtMs": 21171.650000572205
+          },
+          {
+            "deltaX": 0,
+            "deltaY": 480,
+            "deltaMode": 0,
+            "clientX": 1000,
+            "clientY": 440,
+            "target": "unity-canvas",
+            "isTrusted": true,
+            "defaultPrevented": false,
+            "observedAtMs": 21355.925000190735
+          },
+          {
+            "deltaX": 0,
+            "deltaY": 480,
+            "deltaMode": 0,
+            "clientX": 1000,
+            "clientY": 440,
+            "target": "unity-canvas",
+            "isTrusted": true,
+            "defaultPrevented": false,
+            "observedAtMs": 21538.23500061035
+          },
+          {
+            "deltaX": 0,
+            "deltaY": 480,
+            "deltaMode": 0,
+            "clientX": 1000,
+            "clientY": 440,
+            "target": "unity-canvas",
+            "isTrusted": true,
+            "defaultPrevented": false,
+            "observedAtMs": 21749.910000801086
+          },
+          {
+            "deltaX": 0,
+            "deltaY": 480,
+            "deltaMode": 0,
+            "clientX": 1000,
+            "clientY": 440,
+            "target": "unity-canvas",
+            "isTrusted": true,
+            "defaultPrevented": false,
+            "observedAtMs": 21988.085000038147
+          },
+          {
+            "deltaX": 0,
+            "deltaY": 480,
+            "deltaMode": 0,
+            "clientX": 1000,
+            "clientY": 440,
+            "target": "unity-canvas",
+            "isTrusted": true,
+            "defaultPrevented": false,
+            "observedAtMs": 22219.930000305176
+          },
+          {
+            "deltaX": 0,
+            "deltaY": 480,
+            "deltaMode": 0,
+            "clientX": 1000,
+            "clientY": 440,
+            "target": "unity-canvas",
+            "isTrusted": true,
+            "defaultPrevented": false,
+            "observedAtMs": 22434.525000572205
+          },
+          {
+            "deltaX": 0,
+            "deltaY": 24000,
+            "deltaMode": 0,
+            "clientX": 1000,
+            "clientY": 440,
+            "target": "unity-canvas",
+            "isTrusted": true,
+            "defaultPrevented": false,
+            "observedAtMs": 25162.99499988556
+          },
+          {
+            "deltaX": 0,
+            "deltaY": 24000,
+            "deltaMode": 0,
+            "clientX": 1000,
+            "clientY": 440,
+            "target": "unity-canvas",
+            "isTrusted": true,
+            "defaultPrevented": false,
+            "observedAtMs": 25470.63000011444
+          },
+          {
+            "deltaX": 0,
+            "deltaY": 24000,
+            "deltaMode": 0,
+            "clientX": 1000,
+            "clientY": 440,
+            "target": "unity-canvas",
+            "isTrusted": true,
+            "defaultPrevented": false,
+            "observedAtMs": 25792.175000190735
+          },
+          {
+            "deltaX": 0,
+            "deltaY": 24000,
+            "deltaMode": 0,
+            "clientX": 1000,
+            "clientY": 440,
+            "target": "unity-canvas",
+            "isTrusted": true,
+            "defaultPrevented": false,
+            "observedAtMs": 26126.285000801086
+          },
+          {
+            "deltaX": 0,
+            "deltaY": 24000,
+            "deltaMode": 0,
+            "clientX": 1000,
+            "clientY": 440,
+            "target": "unity-canvas",
+            "isTrusted": true,
+            "defaultPrevented": false,
+            "observedAtMs": 26439.905000686646
+          },
+          {
+            "deltaX": 0,
+            "deltaY": 24000,
+            "deltaMode": 0,
+            "clientX": 1000,
+            "clientY": 440,
+            "target": "unity-canvas",
+            "isTrusted": true,
+            "defaultPrevented": false,
+            "observedAtMs": 26782.155000686646
+          },
+          {
+            "deltaX": 0,
+            "deltaY": 24000,
+            "deltaMode": 0,
+            "clientX": 1000,
+            "clientY": 440,
+            "target": "unity-canvas",
+            "isTrusted": true,
+            "defaultPrevented": false,
+            "observedAtMs": 27108.460000038147
+          },
+          {
+            "deltaX": 0,
+            "deltaY": 24000,
+            "deltaMode": 0,
+            "clientX": 1000,
+            "clientY": 440,
+            "target": "unity-canvas",
+            "isTrusted": true,
+            "defaultPrevented": false,
+            "observedAtMs": 27432.22000026703
+          },
+          {
+            "deltaX": 0,
+            "deltaY": -24000,
+            "deltaMode": 0,
+            "clientX": 1000,
+            "clientY": 440,
+            "target": "unity-canvas",
+            "isTrusted": true,
+            "defaultPrevented": false,
+            "observedAtMs": 30344.260000228882
+          },
+          {
+            "deltaX": 0,
+            "deltaY": -24000,
+            "deltaMode": 0,
+            "clientX": 1000,
+            "clientY": 440,
+            "target": "unity-canvas",
+            "isTrusted": true,
+            "defaultPrevented": false,
+            "observedAtMs": 30664.800000190735
+          },
+          {
+            "deltaX": 0,
+            "deltaY": -24000,
+            "deltaMode": 0,
+            "clientX": 1000,
+            "clientY": 440,
+            "target": "unity-canvas",
+            "isTrusted": true,
+            "defaultPrevented": false,
+            "observedAtMs": 30972.59500026703
+          },
+          {
+            "deltaX": 0,
+            "deltaY": -24000,
+            "deltaMode": 0,
+            "clientX": 1000,
+            "clientY": 440,
+            "target": "unity-canvas",
+            "isTrusted": true,
+            "defaultPrevented": false,
+            "observedAtMs": 31301.145000457764
+          },
+          {
+            "deltaX": 0,
+            "deltaY": -24000,
+            "deltaMode": 0,
+            "clientX": 1000,
+            "clientY": 440,
+            "target": "unity-canvas",
+            "isTrusted": true,
+            "defaultPrevented": false,
+            "observedAtMs": 31641.440000534058
+          },
+          {
+            "deltaX": 0,
+            "deltaY": -24000,
+            "deltaMode": 0,
+            "clientX": 1000,
+            "clientY": 440,
+            "target": "unity-canvas",
+            "isTrusted": true,
+            "defaultPrevented": false,
+            "observedAtMs": 31958.460000038147
+          },
+          {
+            "deltaX": 0,
+            "deltaY": -24000,
+            "deltaMode": 0,
+            "clientX": 1000,
+            "clientY": 440,
+            "target": "unity-canvas",
+            "isTrusted": true,
+            "defaultPrevented": false,
+            "observedAtMs": 32297.86000061035
+          },
+          {
+            "deltaX": 0,
+            "deltaY": -24000,
+            "deltaMode": 0,
+            "clientX": 1000,
+            "clientY": 440,
+            "target": "unity-canvas",
+            "isTrusted": true,
+            "defaultPrevented": false,
+            "observedAtMs": 32640.920000076294
+          },
+          {
+            "deltaX": 0,
+            "deltaY": -24000,
+            "deltaMode": 0,
+            "clientX": 1000,
+            "clientY": 440,
+            "target": "unity-canvas",
+            "isTrusted": true,
+            "defaultPrevented": false,
+            "observedAtMs": 32962.28999996185
+          },
+          {
+            "deltaX": 0,
+            "deltaY": -24000,
+            "deltaMode": 0,
+            "clientX": 1000,
+            "clientY": 440,
+            "target": "unity-canvas",
+            "isTrusted": true,
+            "defaultPrevented": false,
+            "observedAtMs": 33299.395000457764
+          },
+          {
+            "deltaX": 0,
+            "deltaY": -24000,
+            "deltaMode": 0,
+            "clientX": 1000,
+            "clientY": 440,
+            "target": "unity-canvas",
+            "isTrusted": true,
+            "defaultPrevented": false,
+            "observedAtMs": 33636.125
+          },
+          {
+            "deltaX": 0,
+            "deltaY": -24000,
+            "deltaMode": 0,
+            "clientX": 1000,
+            "clientY": 440,
+            "target": "unity-canvas",
+            "isTrusted": true,
+            "defaultPrevented": false,
+            "observedAtMs": 33987.31000041962
+          },
+          {
+            "deltaX": 0,
+            "deltaY": -24000,
+            "deltaMode": 0,
+            "clientX": 1000,
+            "clientY": 440,
+            "target": "unity-canvas",
+            "isTrusted": true,
+            "defaultPrevented": false,
+            "observedAtMs": 34303.48500061035
+          },
+          {
+            "deltaX": 0,
+            "deltaY": -24000,
+            "deltaMode": 0,
+            "clientX": 1000,
+            "clientY": 440,
+            "target": "unity-canvas",
+            "isTrusted": true,
+            "defaultPrevented": false,
+            "observedAtMs": 34647.09000015259
+          },
+          {
+            "deltaX": 0,
+            "deltaY": -24000,
+            "deltaMode": 0,
+            "clientX": 1000,
+            "clientY": 440,
+            "target": "unity-canvas",
+            "isTrusted": true,
+            "defaultPrevented": false,
+            "observedAtMs": 34972.24499988556
+          },
+          {
+            "deltaX": 0,
+            "deltaY": -24000,
+            "deltaMode": 0,
+            "clientX": 1000,
+            "clientY": 440,
+            "target": "unity-canvas",
+            "isTrusted": true,
+            "defaultPrevented": false,
+            "observedAtMs": 35283.770000457764
+          }
+        ]
+      }
+    },
+    {
+      "file": "04-positive-120000-x4.png",
+      "elapsedMs": 41781,
+      "state": {
+        "canvas": [
+          1440,
+          900
+        ],
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "width": 1440,
+          "height": 900
+        },
+        "visible": "visible",
+        "focused": true,
+        "active": "unity-canvas",
+        "events": [
+          {
+            "deltaX": 0,
+            "deltaY": 480,
+            "deltaMode": 0,
+            "clientX": 1000,
+            "clientY": 440,
+            "target": "unity-canvas",
+            "isTrusted": true,
+            "defaultPrevented": false,
+            "observedAtMs": 20991.10000038147
+          },
+          {
+            "deltaX": 0,
+            "deltaY": 480,
+            "deltaMode": 0,
+            "clientX": 1000,
+            "clientY": 440,
+            "target": "unity-canvas",
+            "isTrusted": true,
+            "defaultPrevented": false,
+            "observedAtMs": 21171.650000572205
+          },
+          {
+            "deltaX": 0,
+            "deltaY": 480,
+            "deltaMode": 0,
+            "clientX": 1000,
+            "clientY": 440,
+            "target": "unity-canvas",
+            "isTrusted": true,
+            "defaultPrevented": false,
+            "observedAtMs": 21355.925000190735
+          },
+          {
+            "deltaX": 0,
+            "deltaY": 480,
+            "deltaMode": 0,
+            "clientX": 1000,
+            "clientY": 440,
+            "target": "unity-canvas",
+            "isTrusted": true,
+            "defaultPrevented": false,
+            "observedAtMs": 21538.23500061035
+          },
+          {
+            "deltaX": 0,
+            "deltaY": 480,
+            "deltaMode": 0,
+            "clientX": 1000,
+            "clientY": 440,
+            "target": "unity-canvas",
+            "isTrusted": true,
+            "defaultPrevented": false,
+            "observedAtMs": 21749.910000801086
+          },
+          {
+            "deltaX": 0,
+            "deltaY": 480,
+            "deltaMode": 0,
+            "clientX": 1000,
+            "clientY": 440,
+            "target": "unity-canvas",
+            "isTrusted": true,
+            "defaultPrevented": false,
+            "observedAtMs": 21988.085000038147
+          },
+          {
+            "deltaX": 0,
+            "deltaY": 480,
+            "deltaMode": 0,
+            "clientX": 1000,
+            "clientY": 440,
+            "target": "unity-canvas",
+            "isTrusted": true,
+            "defaultPrevented": false,
+            "observedAtMs": 22219.930000305176
+          },
+          {
+            "deltaX": 0,
+            "deltaY": 480,
+            "deltaMode": 0,
+            "clientX": 1000,
+            "clientY": 440,
+            "target": "unity-canvas",
+            "isTrusted": true,
+            "defaultPrevented": false,
+            "observedAtMs": 22434.525000572205
+          },
+          {
+            "deltaX": 0,
+            "deltaY": 24000,
+            "deltaMode": 0,
+            "clientX": 1000,
+            "clientY": 440,
+            "target": "unity-canvas",
+            "isTrusted": true,
+            "defaultPrevented": false,
+            "observedAtMs": 25162.99499988556
+          },
+          {
+            "deltaX": 0,
+            "deltaY": 24000,
+            "deltaMode": 0,
+            "clientX": 1000,
+            "clientY": 440,
+            "target": "unity-canvas",
+            "isTrusted": true,
+            "defaultPrevented": false,
+            "observedAtMs": 25470.63000011444
+          },
+          {
+            "deltaX": 0,
+            "deltaY": 24000,
+            "deltaMode": 0,
+            "clientX": 1000,
+            "clientY": 440,
+            "target": "unity-canvas",
+            "isTrusted": true,
+            "defaultPrevented": false,
+            "observedAtMs": 25792.175000190735
+          },
+          {
+            "deltaX": 0,
+            "deltaY": 24000,
+            "deltaMode": 0,
+            "clientX": 1000,
+            "clientY": 440,
+            "target": "unity-canvas",
+            "isTrusted": true,
+            "defaultPrevented": false,
+            "observedAtMs": 26126.285000801086
+          },
+          {
+            "deltaX": 0,
+            "deltaY": 24000,
+            "deltaMode": 0,
+            "clientX": 1000,
+            "clientY": 440,
+            "target": "unity-canvas",
+            "isTrusted": true,
+            "defaultPrevented": false,
+            "observedAtMs": 26439.905000686646
+          },
+          {
+            "deltaX": 0,
+            "deltaY": 24000,
+            "deltaMode": 0,
+            "clientX": 1000,
+            "clientY": 440,
+            "target": "unity-canvas",
+            "isTrusted": true,
+            "defaultPrevented": false,
+            "observedAtMs": 26782.155000686646
+          },
+          {
+            "deltaX": 0,
+            "deltaY": 24000,
+            "deltaMode": 0,
+            "clientX": 1000,
+            "clientY": 440,
+            "target": "unity-canvas",
+            "isTrusted": true,
+            "defaultPrevented": false,
+            "observedAtMs": 27108.460000038147
+          },
+          {
+            "deltaX": 0,
+            "deltaY": 24000,
+            "deltaMode": 0,
+            "clientX": 1000,
+            "clientY": 440,
+            "target": "unity-canvas",
+            "isTrusted": true,
+            "defaultPrevented": false,
+            "observedAtMs": 27432.22000026703
+          },
+          {
+            "deltaX": 0,
+            "deltaY": -24000,
+            "deltaMode": 0,
+            "clientX": 1000,
+            "clientY": 440,
+            "target": "unity-canvas",
+            "isTrusted": true,
+            "defaultPrevented": false,
+            "observedAtMs": 30344.260000228882
+          },
+          {
+            "deltaX": 0,
+            "deltaY": -24000,
+            "deltaMode": 0,
+            "clientX": 1000,
+            "clientY": 440,
+            "target": "unity-canvas",
+            "isTrusted": true,
+            "defaultPrevented": false,
+            "observedAtMs": 30664.800000190735
+          },
+          {
+            "deltaX": 0,
+            "deltaY": -24000,
+            "deltaMode": 0,
+            "clientX": 1000,
+            "clientY": 440,
+            "target": "unity-canvas",
+            "isTrusted": true,
+            "defaultPrevented": false,
+            "observedAtMs": 30972.59500026703
+          },
+          {
+            "deltaX": 0,
+            "deltaY": -24000,
+            "deltaMode": 0,
+            "clientX": 1000,
+            "clientY": 440,
+            "target": "unity-canvas",
+            "isTrusted": true,
+            "defaultPrevented": false,
+            "observedAtMs": 31301.145000457764
+          },
+          {
+            "deltaX": 0,
+            "deltaY": -24000,
+            "deltaMode": 0,
+            "clientX": 1000,
+            "clientY": 440,
+            "target": "unity-canvas",
+            "isTrusted": true,
+            "defaultPrevented": false,
+            "observedAtMs": 31641.440000534058
+          },
+          {
+            "deltaX": 0,
+            "deltaY": -24000,
+            "deltaMode": 0,
+            "clientX": 1000,
+            "clientY": 440,
+            "target": "unity-canvas",
+            "isTrusted": true,
+            "defaultPrevented": false,
+            "observedAtMs": 31958.460000038147
+          },
+          {
+            "deltaX": 0,
+            "deltaY": -24000,
+            "deltaMode": 0,
+            "clientX": 1000,
+            "clientY": 440,
+            "target": "unity-canvas",
+            "isTrusted": true,
+            "defaultPrevented": false,
+            "observedAtMs": 32297.86000061035
+          },
+          {
+            "deltaX": 0,
+            "deltaY": -24000,
+            "deltaMode": 0,
+            "clientX": 1000,
+            "clientY": 440,
+            "target": "unity-canvas",
+            "isTrusted": true,
+            "defaultPrevented": false,
+            "observedAtMs": 32640.920000076294
+          },
+          {
+            "deltaX": 0,
+            "deltaY": -24000,
+            "deltaMode": 0,
+            "clientX": 1000,
+            "clientY": 440,
+            "target": "unity-canvas",
+            "isTrusted": true,
+            "defaultPrevented": false,
+            "observedAtMs": 32962.28999996185
+          },
+          {
+            "deltaX": 0,
+            "deltaY": -24000,
+            "deltaMode": 0,
+            "clientX": 1000,
+            "clientY": 440,
+            "target": "unity-canvas",
+            "isTrusted": true,
+            "defaultPrevented": false,
+            "observedAtMs": 33299.395000457764
+          },
+          {
+            "deltaX": 0,
+            "deltaY": -24000,
+            "deltaMode": 0,
+            "clientX": 1000,
+            "clientY": 440,
+            "target": "unity-canvas",
+            "isTrusted": true,
+            "defaultPrevented": false,
+            "observedAtMs": 33636.125
+          },
+          {
+            "deltaX": 0,
+            "deltaY": -24000,
+            "deltaMode": 0,
+            "clientX": 1000,
+            "clientY": 440,
+            "target": "unity-canvas",
+            "isTrusted": true,
+            "defaultPrevented": false,
+            "observedAtMs": 33987.31000041962
+          },
+          {
+            "deltaX": 0,
+            "deltaY": -24000,
+            "deltaMode": 0,
+            "clientX": 1000,
+            "clientY": 440,
+            "target": "unity-canvas",
+            "isTrusted": true,
+            "defaultPrevented": false,
+            "observedAtMs": 34303.48500061035
+          },
+          {
+            "deltaX": 0,
+            "deltaY": -24000,
+            "deltaMode": 0,
+            "clientX": 1000,
+            "clientY": 440,
+            "target": "unity-canvas",
+            "isTrusted": true,
+            "defaultPrevented": false,
+            "observedAtMs": 34647.09000015259
+          },
+          {
+            "deltaX": 0,
+            "deltaY": -24000,
+            "deltaMode": 0,
+            "clientX": 1000,
+            "clientY": 440,
+            "target": "unity-canvas",
+            "isTrusted": true,
+            "defaultPrevented": false,
+            "observedAtMs": 34972.24499988556
+          },
+          {
+            "deltaX": 0,
+            "deltaY": -24000,
+            "deltaMode": 0,
+            "clientX": 1000,
+            "clientY": 440,
+            "target": "unity-canvas",
+            "isTrusted": true,
+            "defaultPrevented": false,
+            "observedAtMs": 35283.770000457764
+          },
+          {
+            "deltaX": 0,
+            "deltaY": 240000,
+            "deltaMode": 0,
+            "clientX": 1000,
+            "clientY": 440,
+            "target": "unity-canvas",
+            "isTrusted": true,
+            "defaultPrevented": false,
+            "observedAtMs": 38079.670000076294
+          },
+          {
+            "deltaX": 0,
+            "deltaY": 240000,
+            "deltaMode": 0,
+            "clientX": 1000,
+            "clientY": 440,
+            "target": "unity-canvas",
+            "isTrusted": true,
+            "defaultPrevented": false,
+            "observedAtMs": 38378.16000080109
+          },
+          {
+            "deltaX": 0,
+            "deltaY": 240000,
+            "deltaMode": 0,
+            "clientX": 1000,
+            "clientY": 440,
+            "target": "unity-canvas",
+            "isTrusted": true,
+            "defaultPrevented": false,
+            "observedAtMs": 38676.48000049591
+          },
+          {
+            "deltaX": 0,
+            "deltaY": 240000,
+            "deltaMode": 0,
+            "clientX": 1000,
+            "clientY": 440,
+            "target": "unity-canvas",
+            "isTrusted": true,
+            "defaultPrevented": false,
+            "observedAtMs": 39003.38500022888
+          }
+        ]
+      }
+    }
+  ],
+  "scope": "Real browser input and screenshots only; no video, Unity transform/state changes or frame-rate override. Passive DOM observer records delivered wheel inputs but cannot measure Unity scroll units directly. New-journey Tab exploring is used to avoid repeating puzzles; this is not final portrait/blink acceptance."
+}

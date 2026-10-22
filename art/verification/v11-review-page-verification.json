@@ -1,0 +1,79 @@
+{
+  "passed": true,
+  "page": "visual-review-v11.html",
+  "localLinksChecked": 14,
+  "missingLocalLinks": [],
+  "imagesChecked": 8,
+  "videosChecked": 0,
+  "dialogOpened": true,
+  "errors": [],
+  "title": "借光岛 v11 · 实机与植被对照",
+  "images": [
+    {
+      "src": "../reference/littleprince-gameplay.png",
+      "complete": true,
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "src": "run-029-v11/07-walking.png",
+      "complete": true,
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "src": "v11-plants-baseline/path-fixed40.png",
+      "complete": true,
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "src": "v11-plants-candidate/path-fixed40.png",
+      "complete": true,
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "src": "v11-plants-baseline/roots-fixed40.png",
+      "complete": true,
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "src": "v11-plants-candidate/roots-fixed40.png",
+      "complete": true,
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "src": "v11-plants-baseline/lamp-fixed40.png",
+      "complete": true,
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "src": "v11-plants-candidate/lamp-fixed40.png",
+      "complete": true,
+      "width": 1440,
+      "height": 900
+    }
+  ],
+  "videos": [],
+  "links": [
+    "file:///C:/Users/20665/Desktop/game/art/reference/littleprince-gameplay.png",
+    "file:///C:/Users/20665/Desktop/game/art/verification/run-029-v11/07-walking.png",
+    "file:///C:/Users/20665/Desktop/game/art/verification/run-029-v11/runtime-results.json",
+    "file:///C:/Users/20665/Desktop/game/art/verification/web-012-v11/runtime-results.json",
+    "file:///C:/Users/20665/Desktop/game/art/verification/v11-native-display-comparison.json",
+    "file:///C:/Users/20665/Desktop/game/art/verification/v11-plants-baseline/path-fixed40.png",
+    "file:///C:/Users/20665/Desktop/game/art/verification/v11-plants-candidate/path-fixed40.png",
+    "file:///C:/Users/20665/Desktop/game/art/verification/v11-plants-baseline/roots-fixed40.png",
+    "file:///C:/Users/20665/Desktop/game/art/verification/v11-plants-candidate/roots-fixed40.png",
+    "file:///C:/Users/20665/Desktop/game/art/verification/v11-plants-baseline/lamp-fixed40.png",
+    "file:///C:/Users/20665/Desktop/game/art/verification/v11-plants-candidate/lamp-fixed40.png",
+    "file:///C:/Users/20665/Desktop/game/art/verification/v11-plants-candidate/capture-condition-comparison.json",
+    "file:///C:/Users/20665/Desktop/game/art/verification/v11-plants-candidate/unity-import-comparison.json",
+    "file:///C:/Users/20665/Desktop/game/art/verification/v11-plants-candidate/decision.json"
+  ],
+  "overflow": false
+}

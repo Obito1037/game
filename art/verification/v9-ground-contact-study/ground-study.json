@@ -1,0 +1,167 @@
+{
+    "purpose": "Albedo contact-layer A/B/A only. Both source PNGs use identical runtime RGBA32 sRGB/mip/filter settings; this is not final imported-texture, gameplay or performance evidence.",
+    "baselineSHA256": "889C373C911C8FD5E4BE519CBBC957436909B380481D1DE22051BB22EF0D3C7F",
+    "candidateSHA256": "50BB9AA9C0E10F9689C5D78E219D167E6764F54852E81457CFEFE4ED257092FC",
+    "width": 1440,
+    "height": 900,
+    "textureWidth": 2048,
+    "textureHeight": 2048,
+    "normalScale": 0.2199999988079071,
+    "frozenTime": 0.0,
+    "transformsAndLightsUnchanged": true,
+    "views": [
+        {
+            "image": "path-baseline.png",
+            "cameraPosition": {
+                "x": 0.0,
+                "y": 1.899999976158142,
+                "z": -8.100000381469727
+            },
+            "cameraRotation": {
+                "x": 0.12218326330184937,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 0.9925075769424439
+            },
+            "fieldOfView": 48.0,
+            "eyesClosed": false,
+            "bodyPoseUnchanged": true
+        },
+        {
+            "image": "path-candidate.png",
+            "cameraPosition": {
+                "x": 0.0,
+                "y": 1.899999976158142,
+                "z": -8.100000381469727
+            },
+            "cameraRotation": {
+                "x": 0.12218326330184937,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 0.9925075769424439
+            },
+            "fieldOfView": 48.0,
+            "eyesClosed": false,
+            "bodyPoseUnchanged": true
+        },
+        {
+            "image": "path-baseline-repeat.png",
+            "cameraPosition": {
+                "x": 0.0,
+                "y": 1.899999976158142,
+                "z": -8.100000381469727
+            },
+            "cameraRotation": {
+                "x": 0.12218326330184937,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 0.9925075769424439
+            },
+            "fieldOfView": 48.0,
+            "eyesClosed": false,
+            "bodyPoseUnchanged": true
+        },
+        {
+            "image": "roots-baseline.png",
+            "cameraPosition": {
+                "x": 1.5499999523162842,
+                "y": 0.6499999761581421,
+                "z": -4.400000095367432
+            },
+            "cameraRotation": {
+                "x": 0.19850066304206849,
+                "y": -0.1946670413017273,
+                "z": 0.04026293382048607,
+                "w": 0.9597297310829163
+            },
+            "fieldOfView": 42.0,
+            "eyesClosed": false,
+            "bodyPoseUnchanged": true
+        },
+        {
+            "image": "roots-candidate.png",
+            "cameraPosition": {
+                "x": 1.5499999523162842,
+                "y": 0.6499999761581421,
+                "z": -4.400000095367432
+            },
+            "cameraRotation": {
+                "x": 0.19850066304206849,
+                "y": -0.1946670413017273,
+                "z": 0.04026293382048607,
+                "w": 0.9597297310829163
+            },
+            "fieldOfView": 42.0,
+            "eyesClosed": false,
+            "bodyPoseUnchanged": true
+        },
+        {
+            "image": "roots-baseline-repeat.png",
+            "cameraPosition": {
+                "x": 1.5499999523162842,
+                "y": 0.6499999761581421,
+                "z": -4.400000095367432
+            },
+            "cameraRotation": {
+                "x": 0.19850066304206849,
+                "y": -0.1946670413017273,
+                "z": 0.04026293382048607,
+                "w": 0.9597297310829163
+            },
+            "fieldOfView": 42.0,
+            "eyesClosed": false,
+            "bodyPoseUnchanged": true
+        },
+        {
+            "image": "lamp-baseline.png",
+            "cameraPosition": {
+                "x": -3.3499999046325685,
+                "y": 0.6499999761581421,
+                "z": -3.200000047683716
+            },
+            "cameraRotation": {
+                "x": 0.2067367136478424,
+                "y": -0.3480522930622101,
+                "z": 0.0789867639541626,
+                "w": 0.910977840423584
+            },
+            "fieldOfView": 42.0,
+            "eyesClosed": false,
+            "bodyPoseUnchanged": true
+        },
+        {
+            "image": "lamp-candidate.png",
+            "cameraPosition": {
+                "x": -3.3499999046325685,
+                "y": 0.6499999761581421,
+                "z": -3.200000047683716
+            },
+            "cameraRotation": {
+                "x": 0.2067367136478424,
+                "y": -0.3480522930622101,
+                "z": 0.0789867639541626,
+                "w": 0.910977840423584
+            },
+            "fieldOfView": 42.0,
+            "eyesClosed": false,
+            "bodyPoseUnchanged": true
+        },
+        {
+            "image": "lamp-baseline-repeat.png",
+            "cameraPosition": {
+                "x": -3.3499999046325685,
+                "y": 0.6499999761581421,
+                "z": -3.200000047683716
+            },
+            "cameraRotation": {
+                "x": 0.2067367136478424,
+                "y": -0.3480522930622101,
+                "z": 0.0789867639541626,
+                "w": 0.910977840423584
+            },
+            "fieldOfView": 42.0,
+            "eyesClosed": false,
+            "bodyPoseUnchanged": true
+        }
+    ]
+}

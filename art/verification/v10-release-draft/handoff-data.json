@@ -1,0 +1,64 @@
+{
+  "revision": "v10",
+  "visual": "固定 A/B 中，主石层理和粗糙感更清楚；角色发缘、肩袖和裤腿轮廓有所改善。植被采用通道同步的 Fixed40，20% 法线混合候选未采用。花草与地面衔接、头发和衣料仍有简化，整体视觉超过参考站的目标尚未证实。",
+  "scope": "v10 保留 world-v7：岛屿 412,815 三角；角色采用 character-v9：77,132 三角、62 mesh renderer、28 skinned mesh、4 armatures / 12 bones。\n本轮三项改动：原创 stone-v10 颜色图与三平面投影材质；Foliage Fixed40 的前向／深度／法线／阴影通道风摆同步；角色七个网格的头发、肩袖、衣摆和裤腿轮廓。55 个非目标网格、权重、骨架、材质及脸眼保留；脸部补光仍为 0.23。原地面资源保留，v9 根部染色候选未采用。",
+  "validation": "Windows 构建 build_6b2f1936c854：三章通关、键盘启动、行走、暂停恢复、重开、结尾返回、归一化滚轮及既有碰撞／接地检查通过；16/16 主石指定方向探测通过。两只实际蒙皮鞋底共 220 个静止采样，最小净空 0.001375 m，此数据不覆盖所有动态姿态。\nWeb 构建 build_c472c4b76e7c：真实键盘通关、刷新续玩、默认策略下音频恢复与跨源隔离通过，浏览器异常数组为空。引擎兼容性提示仍按原日志保留，不称日志完全无提示。\n实际键鼠录像与审查：web-v10-gait-video/，reviewed=true、acceptedForLimitedScope=true；仅接受录像中已查看的有限动作与可见范围，不据此证明所有步态、地形或姿态。\nIntel(R) Iris(R) Xe Graphics / 1440×900 原生短样本：菜单 60、总览 60、漫步视角 47.7、近景 60、末段 47.2 FPS。网页各视角 6×500 ms 前台区间指标中位：停步后的漫步视角 35.09、结尾 53.89。这是短时视角样本，不是持续行走平均、全程最低或独立渲染帧计数；录像帧率不作为游戏 FPS，也不据此宣称版本间性能提升。\n压缩网页四个核心文件合计 49,707,097 bytes（约 49.7 MB）；本地缓存测试不代表首次网络加载速度。\n运行包完整性记录见 art/verification/v10-package-verification.json，以记录为准。\n本机网页文件校验见 art/verification/v10-release-http-verification.json，以记录为准。",
+  "performance": "Intel(R) Iris(R) Xe Graphics / 1440×900 原生短样本：菜单 60、总览 60、漫步视角 47.7、近景 60、末段 47.2 FPS。网页各视角 6×500 ms 前台区间指标中位：停步后的漫步视角 35.09、结尾 53.89。这是短时视角样本，不是持续行走平均、全程最低或独立渲染帧计数；录像帧率不作为游戏 FPS，也不据此宣称版本间性能提升。",
+  "modelScope": "character-v9 的 FBX/GLB 正常及弯曲姿态、颜色和七个目标网格法线回读检查通过；55 个非目标网格及全部权重／骨架／材质保护检查通过，另核对三种姿态的连接边界。它们不构成全地形步态穷举。旧 character-v8 的 GLB 六个零面积下睑／嘴线端点严格全角法线失败是继承限制，本轮七个目标通过不能写成全模型、所有格式重新全面通过。运行时使用 FBX。",
+  "diagnostics": "独立固定诊断：art/verification/v10-stone-study/、v10-foliage-study/、v10-silhouette-candidate/。固定时间、摆位与近镜只支持对应条件下的对照，不冒充正常游玩、动态或性能验证；A/A 存在非零差异，不称像素完全相同。",
+  "buildIds": {
+    "windows": "build_6b2f1936c854",
+    "web": "build_c472c4b76e7c"
+  },
+  "evidence": {
+    "builds": "art/verification/v10-build-reports.json",
+    "windowsQA": "art/verification/run-025-v10/runtime-results.json",
+    "nativeIdentity": "art/verification/run-025-v10/build-evidence.json",
+    "boulderProbes": "art/verification/run-025-v10/boulder-approaches.json",
+    "webQA": "art/verification/web-011-v10/runtime-results.json",
+    "webIdentity": "art/verification/web-011-v10/artifact-identity.json",
+    "gaitManifest": "art/verification/web-v10-gait-video/capture-manifest.json",
+    "gaitReview": "art/verification/web-v10-gait-video/review.json",
+    "gaitIdentity": "art/verification/web-v10-gait-video/artifact-identity.json",
+    "packageVerification": "art/verification/v10-package-verification.json",
+    "releaseHTTPVerification": "art/verification/v10-release-http-verification.json"
+  },
+  "webPayload": {
+    "bytes": 49707097,
+    "directoryBytes": 54443556,
+    "files": [
+      {
+        "name": "3112b3ad8fcdbeaa68664343e7c206aa.data.gz",
+        "bytes": 37982199,
+        "sha256": "7328875473D35DE5BBCFB9513E4BB5CE0B0D4F31DEDA9664200D09D1AF697D06"
+      },
+      {
+        "name": "56b2089fd931dfe1dbeb6d645b39149e.wasm.gz",
+        "bytes": 11609435,
+        "sha256": "3D4136B9F6E4B2825D773115F0C3D33D5F9F2AAF97C91013477B6158C1B5FF5E"
+      },
+      {
+        "name": "b281874b7c5b6a62e898db90eddbb667.framework.js.gz",
+        "bytes": 88480,
+        "sha256": "B62192AB199052DFF72E0937E59C17FB88A89060F77797ADC0E4B1BE68C4CAAD"
+      },
+      {
+        "name": "cfc919b85070950e4426c4bd86dcbed4.loader.js",
+        "bytes": 26983,
+        "sha256": "0C42281ED9858B213BA4FC4317257EC175FF0240E66BC10F524EFA5F89700877"
+      }
+    ]
+  },
+  "aestheticObjectiveAchieved": false,
+  "inputSHA256": {
+    "builds": "86A304A8F6FF403126D58660FCDF5942C249A28355AC5FDAB42C8F07D3728AB6",
+    "windowsQA": "15CC5F7DBE3CFFF89248422B33E79B5074E41434453B1DA3A31012EA04A21F15",
+    "nativeIdentity": "C4371C121184119C130DBEF08A17A08660184947FC37B9443DA95BA0814E381C",
+    "boulderProbes": "81623040F21336F4489EDDDDBF6462504804CF5D0B55629DE52643C877685C93",
+    "webQA": "F879E34BF89DFF8FD101A3295D0B98CC8FCCF8AE4BE987115C05B09D4F74B560",
+    "webIdentity": "F112322E4A0B715F8699CFD56D3E2ACEE088A5604EA95C2D5F62858D9B500F6A",
+    "gaitManifest": "0B389D5C3A482AB210543AF691AB4DA416593C9BCA5544EC4B9C41F93F32C5F8",
+    "gaitReview": "D46A6BBA94D5DC5393EB15237DBB4BC853607573A29A2FDA0201506D928C7EB2",
+    "gaitIdentity": "3A18D4F37F96A7FB089724F6A9627E56F4BB0955934391D7840EBD2C4FA2EB21"
+  }
+}

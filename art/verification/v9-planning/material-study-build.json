@@ -1,0 +1,20 @@
+{
+  "purpose": "Opt-in GroundStudy/FaceStudy diagnostic Player, using released character-v7/world-v7 geometry. Not a v9 release.",
+  "build": {
+    "status": "completed",
+    "buildId": "build_c1c26b9dbb66",
+    "result": "Succeeded",
+    "platform": "StandaloneWindows64",
+    "outputPath": "C:/Users/20665/Desktop/game/builds/candidates/v9-material-studies/windows/BorrowedLight.exe",
+    "totalSizeBytes": 157012281,
+    "buildTimeMs": 41444,
+    "totalErrors": 0,
+    "totalWarnings": 1,
+    "warnings": [
+      {
+        "message": "Pipeline: No RuntimePipelineConfig asset found (Project Settings > Pipeline > Runtime). Pipeline will be disabled in Player builds."
+      }
+    ],
+    "errors": []
+  }
+}

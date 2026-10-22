@@ -1,0 +1,20 @@
+{
+  "date": "2026-10-21",
+  "windowsBuild": "build_3a55022185f1",
+  "webBuild": "build_195f4fe89ef3",
+  "windowsQA": "run-013-v5/runtime-results.json",
+  "webQA": "web-004-v5/runtime-results.json",
+  "zipEntries": 182,
+  "requiredFilesPresent": true,
+  "debugFoldersExcluded": true,
+  "allZipStreamsRead": true,
+  "zipBytes": 65737463,
+  "zipSHA256": "D5332427983347F821AE50040218BB77C502A1B226B55F38DC17C242A3BFECAD",
+  "exeSHA256": "EB143EAD6441B6DD9D7D145ADB85410E9389FB3878899AE537E8C9869CCE38FA",
+  "nativeResourcesSHA256": "37298FB01498A0656E115E89CF4D008FA9AF92CDA607C5BF14FAF2A245334736",
+  "worldFbxSHA256": "5DFF3B73A52566855FFA4E2C1287ED0D692166DA8C0A9195CD528D23B2983E14",
+  "travelerFbxSHA256": "E4EF4BAFC25F56AB5BB6EF9C8F645D04628C2A550FE0D91E8E6F04E3D9FCF879",
+  "webPayloadBytes": 43259337.0,
+  "webDirectoryBytes": 48011434.0,
+  "visualAcceptance": "V5 actual captures compared with v4 and reference in visual-review.html. Character silhouette, eyes and sleeves improved; skin transitions and cloth folds remain simpler than reference. Full aesthetic objective is not yet achieved."
+}

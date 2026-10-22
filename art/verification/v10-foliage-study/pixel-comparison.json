@@ -1,0 +1,68 @@
+{
+  "scope": "Decoded original screenshots, RGB byte differences. A/A differences can include unscaled shader effects or temporal AO; numerical change is not visual quality.",
+  "rows": [
+    {
+      "a": "path-legacy40.png",
+      "b": "path-legacy40-repeat.png",
+      "width": 1440,
+      "height": 900,
+      "meanAbsoluteRGBByteDifference": 0.5638001543209876,
+      "maximumChannelDifference": 53,
+      "changedPixelFraction": 0.4889807098765432,
+      "regions": [
+        {
+          "name": "upper half",
+          "meanAbsoluteRGBByteDifference": 0.39802623456790126,
+          "changedPixelFraction": 0.32911265432098763
+        },
+        {
+          "name": "lower half",
+          "meanAbsoluteRGBByteDifference": 0.729574074074074,
+          "changedPixelFraction": 0.6488487654320988
+        }
+      ]
+    },
+    {
+      "a": "path-legacy40.png",
+      "b": "path-fixed40.png",
+      "width": 1440,
+      "height": 900,
+      "meanAbsoluteRGBByteDifference": 0.908326903292181,
+      "maximumChannelDifference": 63,
+      "changedPixelFraction": 0.5206674382716049,
+      "regions": [
+        {
+          "name": "upper half",
+          "meanAbsoluteRGBByteDifference": 0.6782947530864197,
+          "changedPixelFraction": 0.3682037037037037
+        },
+        {
+          "name": "lower half",
+          "meanAbsoluteRGBByteDifference": 1.1383590534979424,
+          "changedPixelFraction": 0.6731311728395062
+        }
+      ]
+    },
+    {
+      "a": "path-fixed40.png",
+      "b": "path-fixed20.png",
+      "width": 1440,
+      "height": 900,
+      "meanAbsoluteRGBByteDifference": 1.4314714506172839,
+      "maximumChannelDifference": 105,
+      "changedPixelFraction": 0.5287268518518519,
+      "regions": [
+        {
+          "name": "upper half",
+          "meanAbsoluteRGBByteDifference": 1.2827453703703704,
+          "changedPixelFraction": 0.37735493827160493
+        },
+        {
+          "name": "lower half",
+          "meanAbsoluteRGBByteDifference": 1.5801975308641976,
+          "changedPixelFraction": 0.6800987654320988
+        }
+      ]
+    }
+  ]
+}

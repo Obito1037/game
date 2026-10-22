@@ -1,0 +1,32 @@
+借光岛 Blender 原创场景资产
+
+交付文件：
+island.blend：可编辑原始场景，含展示相机与灯光。
+island.fbx：Unity 优先导入资产，39 种共享材质，27 个独立网格，14 个锚点。
+island.glb：含同样的网格、锚点与嵌入式水彩地表纹理。
+textures/meadow-watercolor.png：2048×2048 原创水彩地表，含与石板路匹配的泥土过渡、苔藓与细落叶。
+textures/meadow-normal.png：2048×2048 微表面法线，建议 Unity Normal Scale 0.25—0.45。
+asset-manifest.json：Unity 坐标、组件名称、三角数与材质清单。
+blender-render.png：1600×1200 Cycles 32 采样展示渲染，用于资产视觉检查。
+
+实际导出网格总计 215522 个三角；FBX 已实际导出并重新导入干净 Blender 场景核对。
+单位为米。Unity Y-up，Blender 输入转换为 (x, -z, y)。
+地面 Y≈0；灯底座顶部 Y=1.85。锚点命名 Anchor_Lamp_A 等。
+模型静态部件在世界坐标建模，原点统一在岛中心；请使用 Anchor 空对象放置交互部件。
+
+Unity 建议：
+1. 保留原有独立 mesh，灯头由程序添加到三个 Anchor_LampHead_* 位置。
+2. 把材质转换到 Universal Render Pipeline/Lit；BI_grass 材质的 Base Map 使用上述 PNG，乘色保持白色。Normal Map 使用 meadow-normal.png。
+3. 草叶与花瓣是单面面片，需要 URP 材质 Render Face = Both。
+4. 读书窗是独立网格 Cabin_ReadingWindow_Glow，使用 BI_window_honey 材质，可单独调节发光。
+5. 各地标可有需要地添加简单碰撞体；草花/装饰不需要碰撞体。
+6. Blender 展示图采用暖主光+蓝色补光；游戏夜景应由 Unity 的相机、灯光和后期实际验收。
+7. 地表 UV 契约不变：u=(Unity.x+9)/18，v=(Unity.z+9)/18。草叶全宽0.4—1cm、4段曲线；花瓣为6段弯曲椭圆杯形。
+8. 新增 blender-flora-closeup.png 为真实近景渲染，fbx-roundtrip-verification.json 为实际回读验收结果。
+
+组件包括分层浮岩、原生水彩地表、石板小径、逐片建造的瓦屋顶与木梁小屋、窗边打开的书、
+黄铜浑天仪星图台、三盏静态铸铁灯座、木椅与围巾、悬崖码头与地图、三种树冠、
+野花、羽状蕨、弯曲草叶、薰衣草、蘑菇、攀墙常春藤、雨水桶、堆叠木柴、望远镜和黄铜天球环。
+
+所有建模与地表纹理均来自 art/blender/build_island.py 的原创程序生成，无第三方模型、收费插件。
+运行可重建：tools/blender-4.5.14-windows-x64/blender.exe --background --factory-startup --python-exit-code 1 --python art/blender/build_island.py

@@ -1,0 +1,11 @@
+{
+  "title": "Night Letters",
+  "durationSeconds": 48,
+  "sampleRate": 22050,
+  "method": "Original mathematical additive synthesis; no third-party audio samples",
+  "tools": "Blender Python + NumPy",
+  "files": [
+    "NightLetters.wav",
+    "LanternChime.wav"
+  ]
+}

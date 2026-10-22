@@ -1,0 +1,27 @@
+{
+  "reviewed": true,
+  "accepted": true,
+  "selectedVariant": "detail-soft",
+  "summary": "Windows 地面细节采用 1024×1024 DXT1 导入：正常路径层次与路线可读性基本保留，近景最细颗粒略软，未见明显方块、接缝或大块糊平。仅限固定画面质量采用，性能结论另见正常游戏记录；Web 保持 1254×1254 RGBA32。",
+  "windowsBuild": "build_c217a6ee8275",
+  "reviewedImages": [
+    "../v12-ground-detail-refined/path-detail-soft.png",
+    "path-detail-soft.png",
+    "../v12-ground-detail-refined/roots-detail-soft.png",
+    "roots-detail-soft.png",
+    "../v12-ground-detail-refined/lamp-detail-soft.png",
+    "lamp-detail-soft.png"
+  ],
+  "textureSHA256": "483D36A325CA6B05BBB8580DD3E238AF866F331D762976CB0064569FD7925F1B",
+  "strength": 0.35,
+  "tileMetres": 1.8,
+  "normalScale": 0.22,
+  "limits": [
+    "最细颗粒与纤维略软，灯旁近景仍有均匀铺毯感。",
+    "引擎导入进行了缩小和有损块压缩；原PNG与Resources PNG字节未改。",
+    "仅此Windows导入配置已做固定画面对照，Web仍使用原RGBA32配置。",
+    "静态图不证明帧率提升或动态无闪烁。",
+    "整体视觉超过参考网站的目标尚未达到。"
+  ],
+  "aestheticObjectiveAchieved": false
+}

@@ -1,0 +1,87 @@
+{
+  "reviewed": true,
+  "isReleaseDecision": false,
+  "aestheticObjectiveAchieved": false,
+  "acceptedForLimitedStaticScope": true,
+  "supportedCandidate": {
+    "carryIntensity": 0.18,
+    "fillIntensity": 0.23,
+    "fillColor": [1, 0.95, 0.88],
+    "fillPositionChanged": false,
+    "keepSSAO": true,
+    "keepMainLightShadows": true
+  },
+  "scope": "亲看front与portrait各五变体，共十张1440×900固定实机原图。有限静态支持只针对携灯强度及面补光颜色组合；不是普通模式QA、动态、性能或发布验收。",
+  "observedImages": [
+    "front-baseline.png",
+    "front-ssao-off.png",
+    "front-carry-soft.png",
+    "front-fill-neutral.png",
+    "front-balanced.png",
+    "portrait-baseline.png",
+    "portrait-ssao-off.png",
+    "portrait-carry-soft.png",
+    "portrait-fill-neutral.png",
+    "portrait-balanced.png"
+  ],
+  "observations": [
+    {
+      "variant": "baseline",
+      "front": "画面左颊灰楔与右下脸橘黄同时存在，胸袖暖白区域过亮。",
+      "portrait": "正常距离仍可读到面部灰黄分区，携灯侧衣服明亮，手灯与附近地面暖光较强。"
+    },
+    {
+      "variant": "ssao-off",
+      "front": "眼周、鼻口及部分衣物接触区域稍提亮，但左脸灰楔形状仍在，下脸橘黄也仍在。",
+      "portrait": "脸部主要明暗分区未消失，场景接触与角色局部略变亮。",
+      "judgment": "没有足够视觉收益支持为此全局关闭SSAO。"
+    },
+    {
+      "variant": "carry-soft",
+      "front": "下脸橘黄与胸袖白亮明显收敛，面部色调较统一；下巴仍较深，灰楔并未完全消除。",
+      "portrait": "衣服亮度较克制，提灯及地面仍留暖光，没有上一轮carry-off那样明显失去携灯照明。",
+      "judgment": "本轮主要收益，支持携灯强度0.18进入普通模式验证。"
+    },
+    {
+      "variant": "fill-neutral",
+      "front": "上脸较少奶黄色，但下脸仍受原强携灯照明，单独改变补光颜色没有解决主要亮度对比。",
+      "portrait": "正常尺寸差异较小，脸部仍可读，未见明显新增突兀色偏。",
+      "judgment": "小幅正向调整，收益弱于carry-soft。"
+    },
+    {
+      "variant": "balanced",
+      "front": "保留carry-soft减弱下脸橘黄及胸袖过亮的收益，上脸相较carry-soft略清爽，仍有明暗层次。",
+      "portrait": "角色与提灯暖光仍有联系，肤色较基线整洁，衣服未变成上一轮carry-off的明显暗淡状态。",
+      "judgment": "倾向此组合，有限静态支持携灯0.18与补光颜色(1,0.95,0.88)合用；不能据此声称普通模式已经通过。"
+    }
+  ],
+  "ssaoCleanupSourceReview": {
+    "reviewedLocalInstalledURP": true,
+    "package": "GameProject/Library/PackageCache/com.unity.render-pipelines.universal@746735fb06f2/",
+    "conclusion": "正常完成的RenderGraph帧仍调用已入队SSAO pass的OnCameraCleanup。当前AfterOpaque=false时，该回调关闭_SCREEN_SPACE_OCCLUSION；随后SetActive(false)阻止SSAO再次入队。本轮未发现必须因关键字残留而作废SSAO-off对照的源码依据。此结论为本地代码路径核验，没有额外运行渲染或记录GPU关键字轨迹。",
+    "callChain": [
+      "Runtime/UniversalRenderPipeline.cs:902-907：RecordAndExecuteRenderGraph之后调用FinishRenderGraphRendering，并执行清理命令缓冲。",
+      "Runtime/ScriptableRenderer.cs:1289-1293：FinishRenderGraphRendering调用InternalFinishRenderingCommon。",
+      "Runtime/ScriptableRenderer.cs:2318-2323：遍历m_ActiveRenderPassQueue调用FrameCleanup。",
+      "Runtime/Deprecated.cs:16：FrameCleanup直接转调OnCameraCleanup。",
+      "Runtime/Passes/ScreenSpaceAmbientOcclusionPass.cs:661-667：AfterOpaque=false时关闭ScreenSpaceOcclusion全局关键字。",
+      "Runtime/ScriptableRenderer.cs:1662-1674：仅对isActive的renderer feature调用AddRenderPasses。"
+    ]
+  },
+  "normalModeStatusAtReview": {
+    "candidateImplementedReportedByRoot": true,
+    "qaRunningReportedByRoot": true,
+    "normalModeQAPassedEstablished": false,
+    "statement": "根代理已将组合用于普通模式候选，QA正在运行；本记录没有查看其最终结果，不能提前声称通过。"
+  },
+  "remainingIssues": [
+    "左面颊灰楔与下巴深区仍存在，不能称为已修好脸部灰斑。",
+    "凝视感、浅眼睑、简化玩偶质感与头发重复沟槽仍在。",
+    "整体审美目标尚未完成，未证明整体超过参考作品。"
+  ],
+  "limits": [
+    "只看所列十张原图，未查看本目录right30和baseline-repeat，也未重新审计全部程序不变量。",
+    "未查看普通模式候选的最终QA、动态携灯与转头表现或性能结果。",
+    "仅新增此独立记录，没有修改游戏源码、管线资产或启动渲染。"
+  ]
+}

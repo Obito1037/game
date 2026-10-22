@@ -1,0 +1,31 @@
+{
+  "candidate": "run-032-v12",
+  "baseline": "run-031-v11-current-host",
+  "rgba32Candidate": "run-030-v12",
+  "fullscreenRequested": true,
+  "width": 1440,
+  "height": 900,
+  "baselineFps": {
+    "menu": 60.0,
+    "overview": 60.0,
+    "walking": 42.7,
+    "portrait": 58.6
+  },
+  "candidateFps": {
+    "menu": 60.0,
+    "overview": 60.0,
+    "walking": 46.5,
+    "portrait": 50.0
+  },
+  "rgba32Fps": {
+    "menu": 58.2,
+    "overview": 52.7,
+    "walking": 37.5,
+    "portrait": 50.9
+  },
+  "baselineFinalFps": 49.2,
+  "candidateFinalFps": 45.9,
+  "rgba32FinalFps": 43.2,
+  "scope": "Sequential short view samples on this host with no concurrent Blender/build/QA jobs; not A/B/A, not a sustained traversal benchmark, not independent frame timing. Native v12 final uses 1024 DXT1 detail; Web retains RGBA32.",
+  "conclusion": "Final walking sample rose from RGBA32 v12 37.5 to DXT1 v12 46.5 FPS, while portrait was 50.9 versus 50.0. Current stable v11 walking was 42.7, also below its historical 60. Host/time variation prevents attributing all differences to compression or claiming an across-the-board speedup. Native final 15 functional checks passed."
+}

@@ -1,0 +1,33 @@
+v7 星空结构调整与证据范围
+
+最初的材质槽检查：当前导入 Island 29 renderer / 120 submesh / 47 材质，Traveler 62 renderer / 62 submesh / 29 材质。每个 mesh 内均无重复材质名，角色全部是单 submesh；WorldDirector.Remap 已按名称缓存材质。因此简单“删除重复材质槽”没有可证实收益。当前世界草叶有 22 个叶材质子网格分布于 7 个 renderer，颜色归一可作为以后单独研究，本轮未同时实施。
+
+本轮实施改为远景星空：CelestialStarField.cs 将原47个Unity Sphere与20个Cube的完整几何合为一个mesh；Starfield.shader保留URP Lit底色、smoothness .25、emission 2.8、光照和雾。没有改为平面，没有减少星数。COLOR float存原drifters索引，shader在世界坐标重现原x=.35*sin(t*.035+i)、y=.10*sin(t*.12+i*.7)。CreateClouds成功创建9个云簇时，星的相位索引为9…55；调用应传入实际drifters.Count。
+
+集成接口（WorldAtmosphere和Builder由主线程修改）：
+CelestialStarField.TryCreate(transform, drifters.Count, Resources.Load<Material>("Materials/Starfield"))
+返回非null则跳过旧CreateStars；null时保留旧实现回退。Resources材质保留专用shader，避免Shader.Find剥离。新星空不加入CPU drifters，不含Update。关闭星空投影，shader只留forward；仍写正常深度以维持遮挡。
+
+几何验证：Editor/StarfieldGeometryVerification.cs 的 Run(outputPath)。在Edit mode用旧算法构造真实Sphere/Cube的原Transform层级作参照，逐项验证全部顶点、法线、切线、UV、三角形索引/绕向、浮点COLOR相位、三时刻位移、所有顶点的四个漂移极角。临时对象为inactive，结束后销毁。主线程已执行成功，详见 starfield-geometry-verification.json：47星/20glint、24685顶点、36336三角形、1submesh；相位9…55；位置最大误差约9.54e-7米。几何检查不能替代GPU顶点shader或画面测试。
+
+预期与限制：
+67个星体renderer归为1个，去掉它们在深度法线及阴影里的提交；实际节省数量由视锥/阴影级联决定，不能将67直接乘固定倍数当测量。合并后任一部分可见时会提交整个星空的36336个三角形，失去每颗星独立CPU剔除；其余几何仍在GPU裁剪。这是需要最终运行评估的代价。当前PC renderer DepthPriming=0、MSAA=2，forward-only适配该配置；若未来启用强制depth priming，需重查。
+不保留远景星的地面投影和深度法线参与，是本轮明确的渲染语义调整；不能声称每像素严格相同。纯几何、颜色和漂移保持；正常画面需最终截图比对。
+
+准备好的v7测量参数（目前未运行）：
+正常QA tools/verify-game-web.cjs：
+  BORROWED_LIGHT_QA_DIR=art/verification/web-007-v7
+  BORROWED_LIGHT_QA_PROFILE=tools/game-browser-profile-v7
+  BORROWED_LIGHT_BUILD_ID=最终Web构建ID
+独立GPU tools/profile-game-web-v7.cjs：
+  默认输出art/verification/web-v7-gpu-profile，profile为tools/game-browser-profile-v7-gpu
+  支持BORROWED_LIGHT_PROFILE_DIR、BORROWED_LIGHT_PROFILE_BROWSER、BORROWED_LIGHT_BUILD_ID
+  从保存GLSL的COLOR相位/_Time/.035/.12/.35/.10特征识别starfield；最终须检查源码及实际draw，而非只引用合并源数量。
+独立步态 tools/capture-game-gait.cjs：
+  BORROWED_LIGHT_GAIT_DIR=art/verification/web-v7-gait
+  BORROWED_LIGHT_GAIT_PROFILE=tools/game-browser-profile-v7-gait
+  BORROWED_LIGHT_REVISION=v7
+  BORROWED_LIGHT_BUILD_ID=最终Web构建ID
+执行次序：无探针正常QA → 独立GPU计时 → 独立录像；等待主线程最终构建/恢复Editor后才启动。
+
+旧GPU evidence仅属于build_1d3e76e5b3ab；它不是后来的v6 Web29FPS、native42FPS构建的新benchmark，也不是v7结果。v7同时更改世界/角色/表面shader，整版FPS差异不能全部归因星空调整。

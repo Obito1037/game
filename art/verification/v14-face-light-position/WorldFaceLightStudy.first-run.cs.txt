@@ -1,0 +1,168 @@
+using System;
+using System.Collections;
+using System.Collections.Generic;
+using System.IO;
+using UnityEngine;
+
+namespace BorrowedLight
+{
+ public sealed partial class WorldDirector
+ {
+  [Serializable] sealed class FaceLightCondition
+  {
+   public int id,cullingMask;public string name,type,shadows;public bool enabled;
+   public Vector3 position,localPosition;public Quaternion rotation;
+   public Color color;public float intensity,range,spotAngle,colorTemperature;public bool useColorTemperature;
+  }
+  [Serializable] sealed class FaceLightMaterial
+  {
+   public int id,renderQueue;public MaterialStudyCondition properties;public Color emission;
+   public float surfaceKind;
+  }
+  [Serializable] sealed class FaceLightSample
+  {
+   public string image,view,variant;public int actualPNGWidth,actualPNGHeight;
+   public Vector3 cameraPosition,fillLocalPosition,headViewportMin,headViewportMax;public Quaternion cameraRotation;
+   public float fieldOfView;public bool pngComplete,headInFrame,cameraUnchanged,otherTransformsUnchanged,otherLightsUnchanged,fillConfigurationUnchanged,materialsUnchanged,environmentUnchanged;
+  }
+  [Serializable] sealed class FaceLightRecord
+  {
+   public string purpose="Position-only face fill A/B/baseline-repeat in one settled idle pose. Static diagnostic, not normal gameplay, performance or general visual acceptance. Time scale does not freeze every temporal rendering effect.";
+   public string stage,failure,faceRenderer;public int width,height,expectedImageCount=12,capturedImageCount,completedImages,transformCount;
+   public bool captureComplete,completed,failed,allInvariantsPassed,saveRestored;
+   public float frozenTime,night,ambientIntensity;public string ambientMode;
+   public Color ambientSky,ambientEquator,ambientGround;
+   public Vector3 faceWorldCenter,faceActorLocalCenter,headBoundsCenter,headBoundsSize,baselineLocalPosition,candidateLocalPosition;
+   public FaceLightCondition[] lights;public FaceLightMaterial[] materials;public FaceLightSample[] views=new FaceLightSample[12];
+  }
+  static FaceLightCondition FaceLightSettings(Light l)
+  {
+   return new FaceLightCondition{id=l.GetInstanceID(),name=l.name,type=l.type.ToString(),enabled=l.enabled,cullingMask=l.cullingMask,shadows=l.shadows.ToString(),
+    position=l.transform.position,localPosition=l.transform.localPosition,rotation=l.transform.rotation,color=l.color,intensity=l.intensity,range=l.range,
+    spotAngle=l.spotAngle,colorTemperature=l.colorTemperature,useColorTemperature=l.useColorTemperature};
+  }
+  static FaceLightMaterial FaceLightMaterialSettings(Material m)
+  {
+   return new FaceLightMaterial{id=m.GetInstanceID(),renderQueue=m.renderQueue,properties=MaterialStudySettings(m),
+    emission=m.HasProperty("_EmissionColor")?m.GetColor("_EmissionColor"):Color.black,surfaceKind=m.HasProperty("_SurfaceKind")?m.GetFloat("_SurfaceKind"):0};
+  }
+  static Vector3[] FaceLightCorners(Bounds bounds)
+  {
+   var result=new Vector3[8];for(int i=0;i<8;i++)result[i]=bounds.center+Vector3.Scale(bounds.extents,new Vector3((i&1)==0?-1:1,(i&2)==0?-1:1,(i&4)==0?-1:1));return result;
+  }
+  static bool FaceLightHeadInFrame(Camera camera,Bounds bounds,out Vector3 minimum,out Vector3 maximum)
+  {
+   minimum=new Vector3(float.PositiveInfinity,float.PositiveInfinity,float.PositiveInfinity);maximum=new Vector3(float.NegativeInfinity,float.NegativeInfinity,float.NegativeInfinity);
+   foreach(var corner in FaceLightCorners(bounds)){var p=camera.WorldToViewportPoint(corner);minimum=Vector3.Min(minimum,p);maximum=Vector3.Max(maximum,p);}
+   return minimum.x>.02f&&minimum.y>.02f&&maximum.x<.98f&&maximum.y<.98f&&minimum.z>camera.nearClipPlane;
+  }
+  IEnumerator FaceLightStudy(string output)
+  {
+   const string saveKey="BorrowedLight.Journey.v1";
+   bool hadSave=PlayerPrefs.HasKey(saveKey);string previousSave=PlayerPrefs.GetString(saveKey);float previousTimeScale=Time.timeScale;
+   var record=new FaceLightRecord{stage="setup",width=Screen.width,height=Screen.height};
+   Light fill=null;Vector3 originalFillPosition=Vector3.zero;bool capturedOriginalFill=false,success=false;
+   bool oldTravelerEnabled=traveler.enabled,oldAtmosphereEnabled=atmosphere.enabled,oldDirectorEnabled=enabled,oldHUDActive=HUD.gameObject.activeSelf;
+   try{
+    Directory.CreateDirectory(output);
+    File.WriteAllText(Path.Combine(output,"face-light-study.json"),JsonUtility.ToJson(record,true));
+    yield return new WaitForSeconds(2);
+    StartJourney(false);Logic.SetLamp(0,0,true,true);Logic.Advance();Logic.SetLamp(1,0,false,true);Logic.Advance();
+    Logic.SetLamp(1,1,true,true);Logic.SetLamp(2,0,false,true);Logic.SetLamp(0,0,false,true);Logic.Advance();HUD.ReturnToIsland?.Invoke();
+    traveler.transform.SetPositionAndRotation(new Vector3(0,.1f,-3.3f),Quaternion.identity);yaw=155;pitch=9;distance=2.65f;
+    record.stage="settling-normal-idle";yield return new WaitForSeconds(6);
+    traveler.enabled=false;atmosphere.enabled=false;enabled=false;HUD.gameObject.SetActive(false);Time.timeScale=0;
+    record.frozenTime=Time.time;record.night=atmosphere.Night;record.ambientSky=RenderSettings.ambientSkyColor;record.ambientEquator=RenderSettings.ambientEquatorColor;
+    record.ambientGround=RenderSettings.ambientGroundColor;record.ambientIntensity=RenderSettings.ambientIntensity;record.ambientMode=RenderSettings.ambientMode.ToString();
+    var fillTransform=Find(traveler.transform,"A soft reflection on the traveler");fill=fillTransform==null?null:fillTransform.GetComponent<Light>();
+    if(fill==null)throw new InvalidDataException("Original traveler face fill missing");
+    originalFillPosition=fill.transform.localPosition;capturedOriginalFill=true;
+    if(fill.type!=LightType.Point||!Mathf.Approximately(fill.intensity,.23f)||!Mathf.Approximately(fill.range,1.1f))throw new InvalidDataException("Unexpected original fill configuration");
+    Renderer face=null;Bounds headBounds=new Bounds();bool hasHead=false;
+    foreach(var r in traveler.GetComponentsInChildren<Renderer>()){
+     if(r.name=="Head_Face_PorcelainCream")face=r;
+     if(!r.name.StartsWith("Head_",StringComparison.Ordinal))continue;
+     if(!hasHead){headBounds=r.bounds;hasHead=true;}else headBounds.Encapsulate(r.bounds);
+    }
+    if(face==null||!hasHead||headBounds.size.y<=0)throw new InvalidDataException("Face/head renderer bounds missing");
+    record.faceRenderer=face.name;record.faceWorldCenter=face.bounds.center;record.faceActorLocalCenter=traveler.transform.InverseTransformPoint(face.bounds.center);
+    record.headBoundsCenter=headBounds.center;record.headBoundsSize=headBounds.size;
+    record.baselineLocalPosition=new Vector3(0,1.25f,.55f);record.candidateLocalPosition=new Vector3(0,record.faceActorLocalCenter.y+.23f,.55f);
+    if((originalFillPosition-record.baselineLocalPosition).sqrMagnitude>.00000001f)throw new InvalidDataException("Original fill no longer matches the specified baseline");
+    var transforms=new List<Transform>();foreach(var t in FindObjectsByType<Transform>(FindObjectsInactive.Include,FindObjectsSortMode.None))
+     if(t!=fill.transform&&t!=StoryCamera.transform&&!t.IsChildOf(StoryCamera.transform))transforms.Add(t);
+    transforms.Sort((a,b)=>a.GetInstanceID().CompareTo(b.GetInstanceID()));record.transformCount=transforms.Count;
+    var matrices=new Matrix4x4[transforms.Count];for(int i=0;i<transforms.Count;i++)matrices[i]=transforms[i].localToWorldMatrix;
+    var lights=FindObjectsByType<Light>(FindObjectsInactive.Include,FindObjectsSortMode.None);Array.Sort(lights,(a,b)=>a.GetInstanceID().CompareTo(b.GetInstanceID()));
+    record.lights=new FaceLightCondition[lights.Length];for(int i=0;i<lights.Length;i++)record.lights[i]=FaceLightSettings(lights[i]);
+    var renderers=FindObjectsByType<Renderer>(FindObjectsInactive.Include,FindObjectsSortMode.None);Array.Sort(renderers,(a,b)=>a.GetInstanceID().CompareTo(b.GetInstanceID()));
+    var assignments=new int[renderers.Length][];var materialSet=new HashSet<Material>();
+    for(int i=0;i<renderers.Length;i++){var assigned=renderers[i].sharedMaterials;assignments[i]=new int[assigned.Length];for(int j=0;j<assigned.Length;j++){assignments[i][j]=assigned[j]==null?0:assigned[j].GetInstanceID();if(assigned[j]!=null)materialSet.Add(assigned[j]);}}
+    if(RenderSettings.skybox!=null)materialSet.Add(RenderSettings.skybox);
+    var materialList=new List<Material>(materialSet);materialList.Sort((a,b)=>a.GetInstanceID().CompareTo(b.GetInstanceID()));
+    record.materials=new FaceLightMaterial[materialList.Count];var materialJSON=new string[materialList.Count];
+    for(int i=0;i<materialList.Count;i++){record.materials[i]=FaceLightMaterialSettings(materialList[i]);materialJSON[i]=JsonUtility.ToJson(record.materials[i]);}
+    var names=new[]{"portrait","front","left30","right30"};var variants=new[]{"baseline","candidate","baseline-repeat"};
+    var portraitPosition=StoryCamera.transform.position;var portraitRotation=StoryCamera.transform.rotation;float portraitFOV=StoryCamera.fieldOfView;
+    bool allChecks=true;
+    for(int view=0;view<4;view++){
+     if(view==0){StoryCamera.transform.SetPositionAndRotation(portraitPosition,portraitRotation);StoryCamera.fieldOfView=portraitFOV;}
+     else{
+      float angle=view==1?0:view==2?-30:30;StoryCamera.fieldOfView=32;
+      var direction=traveler.transform.TransformDirection(Quaternion.Euler(0,angle,0)*Vector3.forward).normalized;
+      var rotation=Quaternion.LookRotation(-direction,traveler.transform.up);
+      var framing=headBounds;framing.Encapsulate(headBounds.center-Vector3.up*headBounds.size.y*.95f);framing.Expand(headBounds.size.y*.16f);
+      float tangent=Mathf.Tan(StoryCamera.fieldOfView*.5f*Mathf.Deg2Rad),fit=.5f;
+      foreach(var corner in FaceLightCorners(framing)){var q=Quaternion.Inverse(rotation)*(corner-framing.center);fit=Mathf.Max(fit,Mathf.Abs(q.y)/(tangent*.87f)-q.z,Mathf.Abs(q.x)/(tangent*StoryCamera.aspect*.87f)-q.z);}
+      StoryCamera.transform.SetPositionAndRotation(framing.center+direction*(fit+.1f),rotation);
+     }
+     var cameraMatrix=StoryCamera.transform.localToWorldMatrix;float expectedFOV=StoryCamera.fieldOfView;
+     for(int variant=0;variant<3;variant++){
+      record.stage=names[view]+"-"+variants[variant];fill.transform.localPosition=variant==1?record.candidateLocalPosition:record.baselineLocalPosition;
+      string filename=record.stage+".png",imagePath=Path.Combine(output,filename);if(File.Exists(imagePath))File.Delete(imagePath);
+      yield return new WaitForSecondsRealtime(.5f);yield return new WaitForEndOfFrame();ScreenCapture.CaptureScreenshot(imagePath);
+      int width=0,height=0;float deadline=Time.realtimeSinceStartup+5;
+      while(!GroundPNGSize(imagePath,out width,out height)&&Time.realtimeSinceStartup<deadline)yield return new WaitForSecondsRealtime(.1f);
+      if(width<=0||height<=0)throw new IOException("Complete PNG missing: "+filename);
+      bool fixedTransforms=true;for(int i=0;i<transforms.Count;i++)fixedTransforms&=transforms[i]!=null&&transforms[i].localToWorldMatrix==matrices[i];
+      int currentTransformCount=0;foreach(var t in FindObjectsByType<Transform>(FindObjectsInactive.Include,FindObjectsSortMode.None))if(t!=fill.transform&&t!=StoryCamera.transform&&!t.IsChildOf(StoryCamera.transform))currentTransformCount++;
+      fixedTransforms&=currentTransformCount==transforms.Count;
+      bool fixedLights=FindObjectsByType<Light>(FindObjectsInactive.Include,FindObjectsSortMode.None).Length==lights.Length,fillConfig=true;
+      for(int i=0;i<lights.Length;i++){
+       if(lights[i]==null){fixedLights=false;continue;}var current=FaceLightSettings(lights[i]);
+       if(lights[i]==fill){current.position=record.lights[i].position;current.localPosition=record.lights[i].localPosition;fillConfig=JsonUtility.ToJson(current)==JsonUtility.ToJson(record.lights[i]);}
+       else fixedLights&=JsonUtility.ToJson(current)==JsonUtility.ToJson(record.lights[i]);
+      }
+      bool fixedMaterials=FindObjectsByType<Renderer>(FindObjectsInactive.Include,FindObjectsSortMode.None).Length==renderers.Length;
+      for(int i=0;i<materialList.Count;i++)fixedMaterials&=materialList[i]!=null&&JsonUtility.ToJson(FaceLightMaterialSettings(materialList[i]))==materialJSON[i];
+      for(int i=0;i<renderers.Length;i++){
+       if(renderers[i]==null){fixedMaterials=false;continue;}var assigned=renderers[i].sharedMaterials;fixedMaterials&=assigned.Length==assignments[i].Length;
+       for(int j=0;j<Math.Min(assigned.Length,assignments[i].Length);j++)fixedMaterials&=(assigned[j]==null?0:assigned[j].GetInstanceID())==assignments[i][j];
+      }
+      bool environment=Time.time==record.frozenTime&&Time.timeScale==0&&atmosphere.Night==record.night&&RenderSettings.ambientSkyColor==record.ambientSky&&RenderSettings.ambientEquatorColor==record.ambientEquator&&RenderSettings.ambientGroundColor==record.ambientGround&&RenderSettings.ambientIntensity==record.ambientIntensity&&RenderSettings.ambientMode.ToString()==record.ambientMode;
+      Vector3 viewportMin,viewportMax;bool headInFrame=FaceLightHeadInFrame(StoryCamera,headBounds,out viewportMin,out viewportMax);
+      var sample=new FaceLightSample{image=filename,view=names[view],variant=variants[variant],actualPNGWidth=width,actualPNGHeight=height,pngComplete=true,
+       cameraPosition=StoryCamera.transform.position,cameraRotation=StoryCamera.transform.rotation,fieldOfView=StoryCamera.fieldOfView,fillLocalPosition=fill.transform.localPosition,
+       headViewportMin=viewportMin,headViewportMax=viewportMax,headInFrame=headInFrame,cameraUnchanged=StoryCamera.transform.localToWorldMatrix==cameraMatrix&&StoryCamera.fieldOfView==expectedFOV,
+       otherTransformsUnchanged=fixedTransforms,otherLightsUnchanged=fixedLights,fillConfigurationUnchanged=fillConfig,materialsUnchanged=fixedMaterials,environmentUnchanged=environment};
+      record.views[view*3+variant]=sample;record.completedImages++;record.capturedImageCount=record.completedImages;
+      allChecks&=width==record.width&&height==record.height&&headInFrame&&sample.cameraUnchanged&&fixedTransforms&&fixedLights&&fillConfig&&fixedMaterials&&environment&&fill.transform.localPosition==(variant==1?record.candidateLocalPosition:record.baselineLocalPosition);
+      File.WriteAllText(Path.Combine(output,"face-light-study.json"),JsonUtility.ToJson(record,true));
+     }
+    }
+    record.captureComplete=record.completedImages==record.expectedImageCount;record.allInvariantsPassed=record.captureComplete&&allChecks;success=record.allInvariantsPassed;
+    if(!success)record.failure="One or more recorded capture invariants failed";
+   }finally{
+    try{
+     if(hadSave)PlayerPrefs.SetString(saveKey,previousSave);else PlayerPrefs.DeleteKey(saveKey);PlayerPrefs.Save();record.saveRestored=PlayerPrefs.HasKey(saveKey)==hadSave&&(!hadSave||PlayerPrefs.GetString(saveKey)==previousSave);
+     if(capturedOriginalFill&&fill!=null)fill.transform.localPosition=originalFillPosition;
+     Time.timeScale=previousTimeScale;traveler.enabled=oldTravelerEnabled;atmosphere.enabled=oldAtmosphereEnabled;enabled=oldDirectorEnabled;HUD.gameObject.SetActive(oldHUDActive);
+     success&=record.saveRestored;
+    }catch(Exception e){success=false;record.failure="Restore failed: "+e.Message;Debug.LogException(e);}
+    record.completed=success;record.failed=!success;if(!success){record.allInvariantsPassed=false;if(string.IsNullOrEmpty(record.failure))record.failure="Diagnostic interrupted at "+record.stage;}
+    try{File.WriteAllText(Path.Combine(output,"face-light-study.json"),JsonUtility.ToJson(record,true));}catch(Exception e){success=false;Debug.LogException(e);}
+    Application.Quit(success?0:1);
+   }
+  }
+ }
+}

@@ -1,0 +1,366 @@
+{
+    "scope": "Sixteen cardinal capsule approaches to the four authored boulders; geometric probes, not a walking animation test",
+    "probes": [
+        {
+            "rock": 0,
+            "start": {
+                "x": -0.20000004768371583,
+                "y": 0.029999999329447748,
+                "z": -5.150000095367432
+            },
+            "direction": {
+                "x": -1.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "end": {
+                "x": -0.5802920460700989,
+                "y": 0.029999999329447748,
+                "z": -5.119965076446533
+            },
+            "movedMetres": 0.38029199838638308,
+            "firstCollider": "Garden_HeroBoulders",
+            "startsClear": true,
+            "blockedBeforeCentre": true
+        },
+        {
+            "rock": 0,
+            "start": {
+                "x": -2.200000047683716,
+                "y": 0.04899619519710541,
+                "z": -5.150000095367432
+            },
+            "direction": {
+                "x": 1.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "end": {
+                "x": -1.7669130563735963,
+                "y": 0.04899619519710541,
+                "z": -5.15003776550293
+            },
+            "movedMetres": 0.43308699131011965,
+            "firstCollider": "Garden_HeroBoulders",
+            "startsClear": true,
+            "blockedBeforeCentre": true
+        },
+        {
+            "rock": 0,
+            "start": {
+                "x": -1.2000000476837159,
+                "y": 0.058237187564373019,
+                "z": -4.150000095367432
+            },
+            "direction": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": -1.0
+            },
+            "end": {
+                "x": -1.2325688600540162,
+                "y": 0.058237187564373019,
+                "z": -4.60616397857666
+            },
+            "movedMetres": 0.4561638832092285,
+            "firstCollider": "Garden_HeroBoulders",
+            "startsClear": true,
+            "blockedBeforeCentre": true
+        },
+        {
+            "rock": 0,
+            "start": {
+                "x": -1.2000000476837159,
+                "y": 0.0660342127084732,
+                "z": -6.150000095367432
+            },
+            "direction": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 1.0
+            },
+            "end": {
+                "x": -1.1388429403305054,
+                "y": 0.0660342127084732,
+                "z": -5.669099807739258
+            },
+            "movedMetres": 0.48090028762817385,
+            "firstCollider": "Garden_HeroBoulders",
+            "startsClear": true,
+            "blockedBeforeCentre": true
+        },
+        {
+            "rock": 1,
+            "start": {
+                "x": 2.200000047683716,
+                "y": 0.018289048224687578,
+                "z": -4.199999809265137
+            },
+            "direction": {
+                "x": -1.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "end": {
+                "x": 1.8341174125671387,
+                "y": 0.018289048224687578,
+                "z": -4.230553150177002
+            },
+            "movedMetres": 0.36588263511657717,
+            "firstCollider": "Garden_HeroBoulders",
+            "startsClear": true,
+            "blockedBeforeCentre": true
+        },
+        {
+            "rock": 1,
+            "start": {
+                "x": 0.20000004768371583,
+                "y": 0.08780086040496826,
+                "z": -4.199999809265137
+            },
+            "direction": {
+                "x": 1.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "end": {
+                "x": 0.46785956621170046,
+                "y": 0.08780086040496826,
+                "z": -4.199995517730713
+            },
+            "movedMetres": 0.2678595185279846,
+            "firstCollider": "Garden_HeroBoulders",
+            "startsClear": true,
+            "blockedBeforeCentre": true
+        },
+        {
+            "rock": 1,
+            "start": {
+                "x": 1.2000000476837159,
+                "y": 0.06743811815977097,
+                "z": -3.1999998092651369
+            },
+            "direction": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": -1.0
+            },
+            "end": {
+                "x": 1.2089699506759644,
+                "y": 0.06743811815977097,
+                "z": -3.5466220378875734
+            },
+            "movedMetres": 0.3466222286224365,
+            "firstCollider": "Garden_HeroBoulders",
+            "startsClear": true,
+            "blockedBeforeCentre": true
+        },
+        {
+            "rock": 1,
+            "start": {
+                "x": 1.2000000476837159,
+                "y": 0.03798109292984009,
+                "z": -5.199999809265137
+            },
+            "direction": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 1.0
+            },
+            "end": {
+                "x": 1.1438217163085938,
+                "y": 0.03798109292984009,
+                "z": -4.768674373626709
+            },
+            "movedMetres": 0.43132543563842776,
+            "firstCollider": "Garden_HeroBoulders",
+            "startsClear": true,
+            "blockedBeforeCentre": true
+        },
+        {
+            "rock": 2,
+            "start": {
+                "x": 3.0,
+                "y": 0.005776895210146904,
+                "z": -2.700000047683716
+            },
+            "direction": {
+                "x": -1.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "end": {
+                "x": 2.6349472999572756,
+                "y": 0.005776895210146904,
+                "z": -2.858492136001587
+            },
+            "movedMetres": 0.3650527000427246,
+            "firstCollider": "Garden_HeroBoulders",
+            "startsClear": true,
+            "blockedBeforeCentre": true
+        },
+        {
+            "rock": 2,
+            "start": {
+                "x": 1.0,
+                "y": 0.05493280664086342,
+                "z": -2.700000047683716
+            },
+            "direction": {
+                "x": 1.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "end": {
+                "x": 1.3305636644363404,
+                "y": 0.05493280664086342,
+                "z": -2.6570680141448976
+            },
+            "movedMetres": 0.33056366443634035,
+            "firstCollider": "Garden_HeroBoulders",
+            "startsClear": true,
+            "blockedBeforeCentre": true
+        },
+        {
+            "rock": 2,
+            "start": {
+                "x": 2.0,
+                "y": 0.061375148594379428,
+                "z": -1.7000000476837159
+            },
+            "direction": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": -1.0
+            },
+            "end": {
+                "x": 1.7460378408432007,
+                "y": 0.061375148594379428,
+                "z": -2.085315465927124
+            },
+            "movedMetres": 0.3853154182434082,
+            "firstCollider": "Garden_HeroBoulders",
+            "startsClear": true,
+            "blockedBeforeCentre": true
+        },
+        {
+            "rock": 2,
+            "start": {
+                "x": 2.0,
+                "y": 0.021499572321772577,
+                "z": -3.700000047683716
+            },
+            "direction": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 1.0
+            },
+            "end": {
+                "x": 2.277285099029541,
+                "y": 0.021499572321772577,
+                "z": -3.343519687652588
+            },
+            "movedMetres": 0.35648036003112795,
+            "firstCollider": "Garden_HeroBoulders",
+            "startsClear": true,
+            "blockedBeforeCentre": true
+        },
+        {
+            "rock": 3,
+            "start": {
+                "x": -1.2999999523162842,
+                "y": 0.030671361833810808,
+                "z": -2.200000047683716
+            },
+            "direction": {
+                "x": -1.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "end": {
+                "x": -1.7646269798278809,
+                "y": 0.030671361833810808,
+                "z": -2.222797155380249
+            },
+            "movedMetres": 0.4646270275115967,
+            "firstCollider": "Garden_HeroBoulders",
+            "startsClear": true,
+            "blockedBeforeCentre": true
+        },
+        {
+            "rock": 3,
+            "start": {
+                "x": -3.299999952316284,
+                "y": 0.06631316244602204,
+                "z": -2.200000047683716
+            },
+            "direction": {
+                "x": 1.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "end": {
+                "x": -2.843207836151123,
+                "y": 0.06631316244602204,
+                "z": -2.1551969051361086
+            },
+            "movedMetres": 0.45679211616516116,
+            "firstCollider": "Garden_HeroBoulders",
+            "startsClear": true,
+            "blockedBeforeCentre": true
+        },
+        {
+            "rock": 3,
+            "start": {
+                "x": -2.299999952316284,
+                "y": 0.03309427946805954,
+                "z": -1.2000000476837159
+            },
+            "direction": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": -1.0
+            },
+            "end": {
+                "x": -2.29062557220459,
+                "y": 0.03309427946805954,
+                "z": -1.6707507371902466
+            },
+            "movedMetres": 0.47075068950653078,
+            "firstCollider": "Garden_HeroBoulders",
+            "startsClear": true,
+            "blockedBeforeCentre": true
+        },
+        {
+            "rock": 3,
+            "start": {
+                "x": -2.299999952316284,
+                "y": 0.07854320108890534,
+                "z": -3.200000047683716
+            },
+            "direction": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 1.0
+            },
+            "end": {
+                "x": -2.31191349029541,
+                "y": 0.07854320108890534,
+                "z": -2.672884702682495
+            },
+            "movedMetres": 0.5271153450012207,
+            "firstCollider": "Garden_HeroBoulders",
+            "startsClear": true,
+            "blockedBeforeCentre": true
+        }
+    ],
+    "allPassed": true,
+    "heroMaterialNames": [
+        "BI_rock_hero_warm — story light",
+        "BI_rock_hero_slate — story light"
+    ],
+    "heroSurfaceKinds": [
+        7.0,
+        7.0
+    ]
+}

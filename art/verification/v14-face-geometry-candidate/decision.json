@@ -1,0 +1,34 @@
+{
+  "candidate": "character-v11",
+  "gameCandidate": "v14",
+  "buildId": "build_f1144060ca63",
+  "reviewer": "root",
+  "acceptedForDevelopment": true,
+  "acceptedForLimitedStaticScope": true,
+  "isReleaseDecision": false,
+  "releaseReady": false,
+  "aestheticObjectiveAchieved": false,
+  "reviewedFixedImages": [
+    "01-front-open.png",
+    "02-three-quarter-open.png",
+    "03-side-open.png",
+    "04-front-closed.png",
+    "05-front-open-repeat.png"
+  ],
+  "reviewedNormalImages": [
+    "../run-034-v14/07-walking.png",
+    "../run-034-v14/09-traveler-portrait.png"
+  ],
+  "improvements": [
+    "眼形在同机位正面和三分之四图中更清楚，睑下半圈灰色边缘较柔。",
+    "侧扫发团替代高耸分离的粗尖发束，侧后轮廓更连续，首版大块裸头皮已改善。",
+    "闭眼终点未见眼白或瞳孔穿出；原有四肢及附件在正常近景中保持。"
+  ],
+  "limitations": [
+    "侧后头发仍有重复尖齿与硬沟槽，缺少蓬松感。",
+    "正常近景仍可见脸颊灰暗斑与偏黄的下脸，皮肤和衣料仍显玩偶感。",
+    "闭眼终点与短时正常运行不等于完整眨眼/转头动画验收。",
+    "候选仅完成Windows构建与正常QA；没有新WebGL构建、发布包或正式晋级。"
+  ],
+  "nextAction": "保留新头部继续改善面部渲染；优先隔离主光阴影、面部补光和携灯贡献，避免直接把新的灯位参数当作改善。"
+}

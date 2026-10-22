@@ -1,0 +1,277 @@
+{
+  "title": "Frozen meadow-v9 PNG colour-space audit",
+  "status": "Audit correction only; original candidate and evidence retained. No asset iteration or adoption.",
+  "script": "art\\generated\\meadow-v9\\audit_colour_space.py",
+  "script_sha256": "cc47a2621a38738bf0987dbd50e3c93594b0ff150af93eec72b0c9d24b94e6c6",
+  "runtime": "Ordinary Python + NumPy; no Blender, Unity, GPU, or image editing",
+  "numpy_version": "1.26.4",
+  "inputs_sha256": {
+    "art\\blender\\build_meadow_contact_v9.py": "246b29756ce9e3cc37501b35358883e1d68ff31ff39a6450d8e10fb76154a7ae",
+    "art\\generated\\meadow-v9\\asset-manifest.original-encoded.json": "68a466c835840c51ecdb53697c5aa37b95d01612fc95ad952676aa5c4545f6f8",
+    "art\\generated\\meadow-v9\\meadow-no-contact.png": "889c373c911c8fd5e4be519cbbc957436909b380481d1de22051bb22ef0d3c7f",
+    "art\\generated\\meadow-v9\\meadow-contact.png": "50bb9aa9c0e10f9689c5d78e219d167e6764f54852e81457cfefe4ed257092fc",
+    "art\\generated\\meadow-v9\\contact-mask.png": "079997794d5b468043b86430595dd8c494d990e197ecbce9b0c28bd8953ec07b",
+    "art\\generated\\meadow-v9\\root-positions.json": "5aa1d19812611da89aa7cd4e04fe33de5bb8a4abba89f675bbd4560ac3520714"
+  },
+  "all_frozen_inputs_unchanged": true,
+  "legacy_manifest_source": "art\\generated\\meadow-v9\\asset-manifest.original-encoded.json",
+  "png_metadata": {
+    "baseline": {
+      "width": 2048,
+      "height": 2048,
+      "bit_depth": 8,
+      "colour_type": 6,
+      "row_order": "PNG top to bottom",
+      "channels": 4,
+      "scanline_filter_counts": {
+        "1": 6,
+        "2": 298,
+        "4": 1468,
+        "3": 276
+      }
+    },
+    "candidate": {
+      "width": 2048,
+      "height": 2048,
+      "bit_depth": 8,
+      "colour_type": 6,
+      "row_order": "PNG top to bottom",
+      "channels": 4,
+      "scanline_filter_counts": {
+        "1": 1,
+        "2": 29,
+        "4": 1963,
+        "3": 55
+      }
+    }
+  },
+  "colour_contract": {
+    "input": "PNG uint8 RGB are sRGB encoded samples; alpha is not gamma transformed.",
+    "decode": "c/12.92 for c<=0.04045; ((c+0.055)/1.055)^2.4 otherwise, where c=channel/255.",
+    "linear_luminance": "0.2126*R_linear + 0.7152*G_linear + 0.0722*B_linear",
+    "darkening": "1 - candidate_linear_luminance / baseline_linear_luminance",
+    "means": "Arithmetic mean of per-pixel relative darkening; whole atlas includes unchanged pixels. Total luminance reduction is reported separately.",
+    "coordinates": "PNG top-down row r maps to authored Unity z=9-(r+0.5)*18/height; column c maps to x=(c+0.5)*18/width-9."
+  },
+  "actual_linear_statistics": {
+    "maximum_linear_luminance_darkening": 0.2301264642004872,
+    "minimum_linear_luminance_darkening": 0.0,
+    "mean_linear_luminance_darkening_whole_atlas": 0.033681271351559475,
+    "mean_linear_luminance_darkening_changed_pixels": 0.09959293516807997,
+    "total_linear_luminance_reduction_fraction": 0.033159887173214386,
+    "changed_pixels": 1418469,
+    "changed_fraction_atlas": 0.33818936347961426,
+    "pixels_with_linear_darkening_above_12_percent": 573346,
+    "pixels_with_any_brightened_rgb_channel": 0,
+    "linear_darkening_changed_pixel_percentiles_p50_p90_p99": [
+      0.10107566226288112,
+      0.17477499091014725,
+      0.20542399651647303
+    ],
+    "maximum_location": {
+      "png_column": 1597,
+      "png_row_top_to_bottom": 917,
+      "authored_unity_xz": [
+        5.04052734375,
+        0.93603515625
+      ],
+      "baseline_srgb_rgb8": [
+        106,
+        120,
+        66
+      ],
+      "candidate_srgb_rgb8": [
+        94,
+        106,
+        59
+      ],
+      "baseline_linear_luminance": 0.16890460521301223,
+      "candidate_linear_luminance": 0.13003518562816255,
+      "encoded_luminance_darkening_at_same_pixel": 0.11553081198817583
+    },
+    "alpha_unchanged": true
+  },
+  "encoded_statistics_for_legacy_comparison": {
+    "maximum_encoded_luminance_darkening": 0.11760745217064794,
+    "mean_encoded_luminance_darkening_whole_atlas": 0.016681179305480662,
+    "mean_encoded_luminance_darkening_changed_pixels": 0.049324967331464284
+  },
+  "legacy_manifest_correction": {
+    "finding": "Old manifest fields named linear were computed from sRGB encoded channel values. Its maximum/mean and ideal mip values are encoded-space measurements, not linear-light measurements.",
+    "maximum_linear_darkening_before_quantization": "The recorded 0.11 cap bounded encoded RGB multiplication, not linear luminance attenuation.",
+    "old_maximum_encoded_linear_luminance_darkening": 0.11760749309629648,
+    "old_mean_encoded_linear_luminance_darkening_whole_atlas": 0.016681180944993816,
+    "recomputed_encoded_max_difference_from_old": 4.092564853674929e-08,
+    "recomputed_encoded_mean_difference_from_old": 1.6395131537116914e-09,
+    "scope": "Zero pixel differences, identical PNG hashes, alpha preservation and frozen-input checks in the old evidence remain valid."
+  },
+  "path_layout_read_as_literal_from_frozen_generator": [
+    [
+      [
+        0,
+        -6
+      ],
+      [
+        0,
+        -3.6
+      ],
+      [
+        -1,
+        -1.7
+      ],
+      [
+        -1.7,
+        -0.8
+      ]
+    ],
+    [
+      [
+        -1,
+        0.9
+      ],
+      [
+        -2.4,
+        1.8
+      ],
+      [
+        -3.9,
+        2.5
+      ],
+      [
+        -4.1,
+        2.9
+      ]
+    ],
+    [
+      [
+        1.6,
+        0
+      ],
+      [
+        3.6,
+        -0.4
+      ],
+      [
+        5.4,
+        -1.8
+      ],
+      [
+        6.1,
+        -3.35
+      ]
+    ],
+    [
+      [
+        -1.6,
+        -0.3
+      ],
+      [
+        -3.7,
+        -0.4
+      ],
+      [
+        -5.8,
+        0.1
+      ]
+    ]
+  ],
+  "ideal_linear_mip_path_checks": [
+    {
+      "mip": 0,
+      "resolution": [
+        2048,
+        2048
+      ],
+      "25cm_path_core": {
+        "sample_count": 137654,
+        "maximum_linear_luminance_darkening": 0.0,
+        "mean_linear_luminance_darkening": 0.0,
+        "affected_samples": 0
+      },
+      "15cm_path_center": {
+        "sample_count": 80249,
+        "maximum_linear_luminance_darkening": 0.0,
+        "mean_linear_luminance_darkening": 0.0,
+        "affected_samples": 0
+      }
+    },
+    {
+      "mip": 1,
+      "resolution": [
+        1024,
+        1024
+      ],
+      "25cm_path_core": {
+        "sample_count": 34399,
+        "maximum_linear_luminance_darkening": 0.0,
+        "mean_linear_luminance_darkening": 0.0,
+        "affected_samples": 0
+      },
+      "15cm_path_center": {
+        "sample_count": 20201,
+        "maximum_linear_luminance_darkening": 0.0,
+        "mean_linear_luminance_darkening": 0.0,
+        "affected_samples": 0
+      }
+    },
+    {
+      "mip": 2,
+      "resolution": [
+        512,
+        512
+      ],
+      "25cm_path_core": {
+        "sample_count": 8593,
+        "maximum_linear_luminance_darkening": 0.0010582013196180906,
+        "mean_linear_luminance_darkening": 2.752345768996239e-07,
+        "affected_samples": 3
+      },
+      "15cm_path_center": {
+        "sample_count": 4995,
+        "maximum_linear_luminance_darkening": 0.0,
+        "mean_linear_luminance_darkening": 0.0,
+        "affected_samples": 0
+      }
+    },
+    {
+      "mip": 3,
+      "resolution": [
+        256,
+        256
+      ],
+      "25cm_path_core": {
+        "sample_count": 2179,
+        "maximum_linear_luminance_darkening": 0.004638115871585025,
+        "mean_linear_luminance_darkening": 1.4233840077274355e-05,
+        "affected_samples": 27
+      },
+      "15cm_path_center": {
+        "sample_count": 1248,
+        "maximum_linear_luminance_darkening": 0.0,
+        "mean_linear_luminance_darkening": 0.0,
+        "affected_samples": 0
+      }
+    },
+    {
+      "mip": 4,
+      "resolution": [
+        128,
+        128
+      ],
+      "25cm_path_core": {
+        "sample_count": 541,
+        "maximum_linear_luminance_darkening": 0.011131789623810229,
+        "mean_linear_luminance_darkening": 0.00010516704522143122,
+        "affected_samples": 32
+      },
+      "15cm_path_center": {
+        "sample_count": 310,
+        "maximum_linear_luminance_darkening": 0.0,
+        "mean_linear_luminance_darkening": 0.0,
+        "affected_samples": 0
+      }
+    }
+  ],
+  "mip_limit": "Recursive 2x2 box averages of sRGB-decoded linear RGB, sampled at mip texel centres. Does not simulate Unity compression, actual mip filtering, trilinear/bilinear sampling, or GPU output.",
+  "seconds": 47.86300349235535
+}

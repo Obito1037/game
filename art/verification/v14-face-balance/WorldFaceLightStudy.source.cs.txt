@@ -1,0 +1,266 @@
+using System;
+using System.Collections;
+using System.Collections.Generic;
+using System.IO;
+using UnityEngine;
+using UnityEngine.Rendering;
+using UnityEngine.Rendering.Universal;
+
+namespace BorrowedLight
+{
+ public sealed partial class WorldDirector
+ {
+  [Serializable] sealed class FaceLightCondition
+  {
+   public int id,cullingMask;public string name,type,shadows;public bool enabled;
+   public Vector3 position,localPosition;public Quaternion rotation;
+   public Color color;public float intensity,range,spotAngle,colorTemperature,shadowBias,shadowNormalBias;public bool useColorTemperature;
+  }
+  [Serializable] sealed class FaceLightMaterial
+  {
+   public int id,renderQueue;public MaterialStudyCondition properties;public Color emission;
+   public float surfaceKind;
+  }
+  [Serializable] sealed class FaceLightSample
+  {
+   public string image,view,variant;public int actualPNGWidth,actualPNGHeight;
+   public string[] transformChanges,materialChanges,rendererChanges;
+   public string[] headShadowModes;public bool shadowModesMatch;
+   public bool[] ssaoActive;public bool ssaoStateMatch;public float carriedIntensity;public Color fillColor;
+   public Vector3 cameraPosition,fillLocalPosition,headViewportMin,headViewportMax;public Quaternion cameraRotation;
+   public float fieldOfView;public bool pngComplete,headInFrame,cameraUnchanged,otherTransformsUnchanged,otherLightsUnchanged,fillConfigurationUnchanged,materialsUnchanged,environmentUnchanged;
+  }
+  [Serializable] sealed class FaceLightRecord
+  {
+   public string purpose="Position-only face fill A/B/baseline-repeat in one settled idle pose. Static diagnostic, not normal gameplay, performance or general visual acceptance. Time scale does not freeze every temporal rendering effect.";
+   public string stage,failure,faceRenderer;public int width,height,expectedImageCount=12,capturedImageCount,completedImages,transformCount;
+   public string candidatePositionStrategy="X=0; Y=actor.InverseTransformPoint(headBounds.max).y + .14; Z=.55. Head-top-based position because the face mesh also contains a long neck.";
+   public bool contributionStudy,balanceStudy,eyesStagedOpen;public string[] variants,headRendererNames,ssaoFeatures;
+   public bool captureComplete,completed,failed,allInvariantsPassed,saveRestored;
+   public float frozenTime,night,ambientIntensity;public string ambientMode;
+   public Color ambientSky,ambientEquator,ambientGround;
+   public Vector3 faceWorldCenter,faceActorLocalCenter,headBoundsCenter,headBoundsSize,headBoundsMaxActorLocal,baselineLocalPosition,candidateLocalPosition;
+   public FaceLightCondition[] lights;public FaceLightMaterial[] materials;public FaceLightSample[] views=new FaceLightSample[12];
+  }
+  static FaceLightCondition FaceLightSettings(Light l)
+  {
+   return new FaceLightCondition{id=l.GetInstanceID(),name=l.name,type=l.type.ToString(),enabled=l.enabled,cullingMask=l.cullingMask,shadows=l.shadows.ToString(),
+    position=l.transform.position,localPosition=l.transform.localPosition,rotation=l.transform.rotation,color=l.color,intensity=l.intensity,range=l.range,
+    spotAngle=l.spotAngle,colorTemperature=l.colorTemperature,useColorTemperature=l.useColorTemperature,shadowBias=l.shadowBias,shadowNormalBias=l.shadowNormalBias};
+  }
+  static FaceLightMaterial FaceLightMaterialSettings(Material m)
+  {
+   return new FaceLightMaterial{id=m.GetInstanceID(),renderQueue=m.renderQueue,properties=MaterialStudySettings(m),
+    emission=m.HasProperty("_EmissionColor")?m.GetColor("_EmissionColor"):Color.black,surfaceKind=m.HasProperty("_SurfaceKind")?m.GetFloat("_SurfaceKind"):0};
+  }
+  static string FaceLightObjectName(Transform t)
+  {
+   string result=t.name;for(var parent=t.parent;parent!=null;parent=parent.parent)result=parent.name+"/"+result;
+   return result+" #"+t.GetInstanceID();
+  }
+  static Vector3[] FaceLightCorners(Bounds bounds)
+  {
+   var result=new Vector3[8];for(int i=0;i<8;i++)result[i]=bounds.center+Vector3.Scale(bounds.extents,new Vector3((i&1)==0?-1:1,(i&2)==0?-1:1,(i&4)==0?-1:1));return result;
+  }
+  static bool FaceLightHeadInFrame(Camera camera,Bounds bounds,out Vector3 minimum,out Vector3 maximum)
+  {
+   minimum=new Vector3(float.PositiveInfinity,float.PositiveInfinity,float.PositiveInfinity);maximum=new Vector3(float.NegativeInfinity,float.NegativeInfinity,float.NegativeInfinity);
+   foreach(var corner in FaceLightCorners(bounds)){var p=camera.WorldToViewportPoint(corner);minimum=Vector3.Min(minimum,p);maximum=Vector3.Max(maximum,p);}
+   return minimum.x>.02f&&minimum.y>.02f&&maximum.x<.98f&&maximum.y<.98f&&minimum.z>camera.nearClipPlane;
+  }
+  IEnumerator FaceLightStudy(string output,bool contributionStudy=false,bool balanceStudy=false)
+  {
+   const string saveKey="BorrowedLight.Journey.v1";
+   bool hadSave=PlayerPrefs.HasKey(saveKey);string previousSave=PlayerPrefs.GetString(saveKey);float previousTimeScale=Time.timeScale;
+   var record=new FaceLightRecord{stage="setup",width=Screen.width,height=Screen.height};
+   Light fill=null;Vector3 originalFillPosition=Vector3.zero;bool capturedOriginalFill=false,success=false;
+   Light main=null,carry=null;LightShadows originalMainShadows=LightShadows.None;float originalCarryIntensity=0,originalFillIntensity=0;
+   Color originalFillColor=Color.white;var ssaoFeatures=new List<ScreenSpaceAmbientOcclusion>();var ssaoStates=new List<bool>();
+   Renderer[] headRenderers=null;UnityEngine.Rendering.ShadowCastingMode[] headModes=null;
+   Transform blinkL=null,blinkR=null;Vector3 blinkLScale=Vector3.one,blinkRScale=Vector3.one;
+   bool oldTravelerEnabled=traveler.enabled,oldAtmosphereEnabled=atmosphere.enabled,oldDirectorEnabled=enabled,oldHUDActive=HUD.gameObject.activeSelf;
+   try{
+    Directory.CreateDirectory(output);
+    File.WriteAllText(Path.Combine(output,"face-light-study.json"),JsonUtility.ToJson(record,true));
+    yield return new WaitForSeconds(2);
+    StartJourney(false);Logic.SetLamp(0,0,true,true);Logic.Advance();Logic.SetLamp(1,0,false,true);Logic.Advance();
+    Logic.SetLamp(1,1,true,true);Logic.SetLamp(2,0,false,true);Logic.SetLamp(0,0,false,true);Logic.Advance();HUD.ReturnToIsland?.Invoke();atmosphere.ClearCelebration();
+    traveler.transform.SetPositionAndRotation(new Vector3(0,.1f,-3.3f),Quaternion.identity);yaw=155;pitch=9;distance=2.65f;
+    record.stage="settling-normal-idle";yield return new WaitForSeconds(6);
+    traveler.enabled=false;atmosphere.enabled=false;enabled=false;HUD.gameObject.SetActive(false);Time.timeScale=0;
+    if(contributionStudy){
+     blinkL=Find(traveler.transform,"Blink_L");blinkR=Find(traveler.transform,"Blink_R");
+     if(blinkL==null||blinkR==null)throw new InvalidDataException("Blink pivots missing");
+     blinkLScale=blinkL.localScale;blinkRScale=blinkR.localScale;blinkL.localScale=blinkR.localScale=new Vector3(.001f,.001f,1);
+     record.eyesStagedOpen=true;record.contributionStudy=true;
+     record.purpose="Frozen open-eye light contribution isolation. Each variant independently changes only head shadow casting, main-light shadows, carried-light intensity or face-fill intensity; baseline restored before every variant. Not normal gameplay or performance evidence.";
+     record.candidatePositionStrategy="No light position is changed in contribution mode.";
+     if(balanceStudy){record.balanceStudy=true;record.purpose="Frozen open-eye SSAO isolation and carried-light balance candidates. Individual SSAO, carry intensity, fill colour, and combined candidates are named explicitly. Static diagnostic only.";}
+    }
+    // Let deferred Destroy and the current frame finish before taking invariant snapshots.
+    yield return null;yield return new WaitForEndOfFrame();
+    record.frozenTime=Time.time;record.night=atmosphere.Night;record.ambientSky=RenderSettings.ambientSkyColor;record.ambientEquator=RenderSettings.ambientEquatorColor;
+    record.ambientGround=RenderSettings.ambientGroundColor;record.ambientIntensity=RenderSettings.ambientIntensity;record.ambientMode=RenderSettings.ambientMode.ToString();
+    var fillTransform=Find(traveler.transform,"A soft reflection on the traveler");fill=fillTransform==null?null:fillTransform.GetComponent<Light>();
+    if(fill==null)throw new InvalidDataException("Original traveler face fill missing");
+    originalFillPosition=fill.transform.localPosition;capturedOriginalFill=true;
+    originalFillIntensity=fill.intensity;
+    originalFillColor=fill.color;
+    if(fill.type!=LightType.Point||!Mathf.Approximately(fill.intensity,.23f)||!Mathf.Approximately(fill.range,1.1f))throw new InvalidDataException("Unexpected original fill configuration");
+    Renderer face=null;Bounds headBounds=new Bounds();bool hasHead=false;
+    foreach(var r in traveler.GetComponentsInChildren<Renderer>()){
+     if(r.name=="Head_Face_PorcelainCream")face=r;
+     if(!r.name.StartsWith("Head_",StringComparison.Ordinal))continue;
+     if(!hasHead){headBounds=r.bounds;hasHead=true;}else headBounds.Encapsulate(r.bounds);
+    }
+    if(face==null||!hasHead||headBounds.size.y<=0)throw new InvalidDataException("Face/head renderer bounds missing");
+    record.faceRenderer=face.name;record.faceWorldCenter=face.bounds.center;record.faceActorLocalCenter=traveler.transform.InverseTransformPoint(face.bounds.center);
+    record.headBoundsCenter=headBounds.center;record.headBoundsSize=headBounds.size;
+    record.headBoundsMaxActorLocal=traveler.transform.InverseTransformPoint(headBounds.max);
+    record.baselineLocalPosition=new Vector3(0,1.25f,.55f);record.candidateLocalPosition=new Vector3(0,record.headBoundsMaxActorLocal.y+.14f,.55f);
+    if((originalFillPosition-record.baselineLocalPosition).sqrMagnitude>.00000001f)throw new InvalidDataException("Original fill no longer matches the specified baseline");
+    if(contributionStudy){
+     foreach(var light in FindObjectsByType<Light>(FindObjectsSortMode.None))if(light.name=="The light of the moon")main=light;else if(light.name=="The light we carry")carry=light;
+     if(main==null||carry==null)throw new InvalidDataException("Contribution lights missing");
+     originalMainShadows=main.shadows;originalCarryIntensity=carry.intensity;
+     var head=Find(traveler.transform,"Head");if(head==null)throw new InvalidDataException("Head pivot missing");
+     headRenderers=head.GetComponentsInChildren<Renderer>(true);headModes=new UnityEngine.Rendering.ShadowCastingMode[headRenderers.Length];record.headRendererNames=new string[headRenderers.Length];
+     for(int i=0;i<headRenderers.Length;i++){headModes[i]=headRenderers[i].shadowCastingMode;record.headRendererNames[i]=headRenderers[i].name;}
+     if(balanceStudy){
+      var pipeline=GraphicsSettings.currentRenderPipeline as UniversalRenderPipelineAsset;if(pipeline==null)throw new InvalidDataException("URP pipeline missing");
+      var featureNames=new List<string>();
+      for(int i=0;i<pipeline.rendererDataList.Length;i++)foreach(var feature in pipeline.rendererDataList[i].rendererFeatures)
+       if(feature is ScreenSpaceAmbientOcclusion ssao&&!ssaoFeatures.Contains(ssao)){ssaoFeatures.Add(ssao);ssaoStates.Add(ssao.isActive);featureNames.Add(pipeline.rendererDataList[i].name+"/"+ssao.name);}
+      if(ssaoFeatures.Count==0)throw new InvalidDataException("No SSAO feature found for isolation");record.ssaoFeatures=featureNames.ToArray();
+     }
+    }
+    var transforms=new List<Transform>();foreach(var t in FindObjectsByType<Transform>(FindObjectsInactive.Include,FindObjectsSortMode.None))
+     if(t!=fill.transform&&t!=StoryCamera.transform&&!t.IsChildOf(StoryCamera.transform))transforms.Add(t);
+    transforms.Sort((a,b)=>a.GetInstanceID().CompareTo(b.GetInstanceID()));record.transformCount=transforms.Count;
+    var matrices=new Matrix4x4[transforms.Count];var transformNames=new string[transforms.Count];var transformIDs=new HashSet<int>();
+    for(int i=0;i<transforms.Count;i++){matrices[i]=transforms[i].localToWorldMatrix;transformNames[i]=FaceLightObjectName(transforms[i]);transformIDs.Add(transforms[i].GetInstanceID());}
+    var lights=FindObjectsByType<Light>(FindObjectsInactive.Include,FindObjectsSortMode.None);Array.Sort(lights,(a,b)=>a.GetInstanceID().CompareTo(b.GetInstanceID()));
+    record.lights=new FaceLightCondition[lights.Length];for(int i=0;i<lights.Length;i++)record.lights[i]=FaceLightSettings(lights[i]);
+    var renderers=FindObjectsByType<Renderer>(FindObjectsInactive.Include,FindObjectsSortMode.None);Array.Sort(renderers,(a,b)=>a.GetInstanceID().CompareTo(b.GetInstanceID()));
+    var allShadowModes=new UnityEngine.Rendering.ShadowCastingMode[renderers.Length];for(int i=0;i<renderers.Length;i++)allShadowModes[i]=renderers[i].shadowCastingMode;
+    var assignments=new int[renderers.Length][];var materialSet=new HashSet<Material>();var rendererNames=new string[renderers.Length];var rendererIDs=new HashSet<int>();
+    for(int i=0;i<renderers.Length;i++){rendererNames[i]=FaceLightObjectName(renderers[i].transform);rendererIDs.Add(renderers[i].GetInstanceID());var assigned=renderers[i].sharedMaterials;assignments[i]=new int[assigned.Length];for(int j=0;j<assigned.Length;j++){assignments[i][j]=assigned[j]==null?0:assigned[j].GetInstanceID();if(assigned[j]!=null)materialSet.Add(assigned[j]);}}
+    if(RenderSettings.skybox!=null)materialSet.Add(RenderSettings.skybox);
+    var materialList=new List<Material>(materialSet);materialList.Sort((a,b)=>a.GetInstanceID().CompareTo(b.GetInstanceID()));
+    record.materials=new FaceLightMaterial[materialList.Count];var materialJSON=new string[materialList.Count];var materialNames=new string[materialList.Count];var materialIDs=new HashSet<int>();
+    for(int i=0;i<materialList.Count;i++){record.materials[i]=FaceLightMaterialSettings(materialList[i]);materialJSON[i]=JsonUtility.ToJson(record.materials[i]);materialNames[i]=materialList[i].name+" #"+materialList[i].GetInstanceID();materialIDs.Add(materialList[i].GetInstanceID());}
+    var names=contributionStudy?new[]{"portrait","front","right30"}:new[]{"portrait","front","left30","right30"};
+    var variants=balanceStudy?new[]{"baseline","ssao-off","carry-soft","fill-neutral","balanced","baseline-repeat"}:contributionStudy?new[]{"baseline","head-no-cast","main-no-shadows","carry-off","fill-off","baseline-repeat"}:new[]{"baseline","candidate","baseline-repeat"};
+    record.variants=variants;record.expectedImageCount=names.Length*variants.Length;record.views=new FaceLightSample[record.expectedImageCount];
+    var portraitPosition=StoryCamera.transform.position;var portraitRotation=StoryCamera.transform.rotation;float portraitFOV=StoryCamera.fieldOfView;
+    bool allChecks=true;
+    for(int view=0;view<names.Length;view++){
+     if(view==0){StoryCamera.transform.SetPositionAndRotation(portraitPosition,portraitRotation);StoryCamera.fieldOfView=portraitFOV;}
+     else{
+      float angle=view==1?0:contributionStudy?30:view==2?-30:30;StoryCamera.fieldOfView=32;
+      var direction=traveler.transform.TransformDirection(Quaternion.Euler(0,angle,0)*Vector3.forward).normalized;
+      var rotation=Quaternion.LookRotation(-direction,traveler.transform.up);
+      var framing=headBounds;framing.Encapsulate(headBounds.center-Vector3.up*headBounds.size.y*.95f);framing.Expand(headBounds.size.y*.16f);
+      float tangent=Mathf.Tan(StoryCamera.fieldOfView*.5f*Mathf.Deg2Rad),fit=.5f;
+      foreach(var corner in FaceLightCorners(framing)){var q=Quaternion.Inverse(rotation)*(corner-framing.center);fit=Mathf.Max(fit,Mathf.Abs(q.y)/(tangent*.87f)-q.z,Mathf.Abs(q.x)/(tangent*StoryCamera.aspect*.87f)-q.z);}
+      StoryCamera.transform.SetPositionAndRotation(framing.center+direction*(fit+.1f),rotation);
+     }
+     var cameraMatrix=StoryCamera.transform.localToWorldMatrix;float expectedFOV=StoryCamera.fieldOfView;
+     for(int variant=0;variant<variants.Length;variant++){
+      record.stage=names[view]+"-"+variants[variant];
+      fill.transform.localPosition=!contributionStudy&&variant==1?record.candidateLocalPosition:record.baselineLocalPosition;
+      if(balanceStudy){
+       main.shadows=originalMainShadows;carry.intensity=variant==2||variant==4?.18f:originalCarryIntensity;fill.intensity=originalFillIntensity;
+       fill.color=variant==3||variant==4?new Color(1,.95f,.88f):originalFillColor;
+       for(int i=0;i<ssaoFeatures.Count;i++)ssaoFeatures[i].SetActive(variant==1?false:ssaoStates[i]);
+      }else if(contributionStudy){
+       main.shadows=variant==2?LightShadows.None:originalMainShadows;carry.intensity=variant==3?0:originalCarryIntensity;fill.intensity=variant==4?0:originalFillIntensity;
+       for(int i=0;i<headRenderers.Length;i++)headRenderers[i].shadowCastingMode=variant==1?UnityEngine.Rendering.ShadowCastingMode.Off:headModes[i];
+      }
+      string filename=record.stage+".png",imagePath=Path.Combine(output,filename);if(File.Exists(imagePath))File.Delete(imagePath);
+      yield return new WaitForSecondsRealtime(.5f);yield return new WaitForEndOfFrame();ScreenCapture.CaptureScreenshot(imagePath);
+      int width=0,height=0;float deadline=Time.realtimeSinceStartup+5;
+      while(!GroundPNGSize(imagePath,out width,out height)&&Time.realtimeSinceStartup<deadline)yield return new WaitForSecondsRealtime(.1f);
+      if(width<=0||height<=0)throw new IOException("Complete PNG missing: "+filename);
+      var transformChanges=new List<string>();var materialChanges=new List<string>();var rendererChanges=new List<string>();
+      bool fixedTransforms=true;for(int i=0;i<transforms.Count;i++){
+       if(transforms[i]==null){fixedTransforms=false;transformChanges.Add("removed: "+transformNames[i]);}
+       else if(transforms[i].localToWorldMatrix!=matrices[i]){fixedTransforms=false;transformChanges.Add("changed: "+transformNames[i]);}
+      }
+      int currentTransformCount=0;foreach(var t in FindObjectsByType<Transform>(FindObjectsInactive.Include,FindObjectsSortMode.None))if(t!=fill.transform&&t!=StoryCamera.transform&&!t.IsChildOf(StoryCamera.transform)){
+       currentTransformCount++;if(!transformIDs.Contains(t.GetInstanceID())){fixedTransforms=false;transformChanges.Add("added: "+FaceLightObjectName(t));}
+      }
+      fixedTransforms&=currentTransformCount==transforms.Count;
+      bool fixedLights=FindObjectsByType<Light>(FindObjectsInactive.Include,FindObjectsSortMode.None).Length==lights.Length,fillConfig=true;
+      for(int i=0;i<lights.Length;i++){
+       if(lights[i]==null){fixedLights=false;continue;}var current=FaceLightSettings(lights[i]);
+       var expected=JsonUtility.FromJson<FaceLightCondition>(JsonUtility.ToJson(record.lights[i]));
+       if(!contributionStudy&&lights[i]==fill&&variant==1){expected.localPosition=record.candidateLocalPosition;expected.position=fill.transform.parent.TransformPoint(expected.localPosition);}
+       if(balanceStudy){
+        if(lights[i]==carry&&(variant==2||variant==4))expected.intensity=.18f;
+        if(lights[i]==fill&&(variant==3||variant==4))expected.color=new Color(1,.95f,.88f);
+       }else if(contributionStudy){
+        if(lights[i]==main&&variant==2)expected.shadows=LightShadows.None.ToString();
+        if((lights[i]==carry&&variant==3)||(lights[i]==fill&&variant==4))expected.intensity=0;
+       }
+       bool matches=JsonUtility.ToJson(current)==JsonUtility.ToJson(expected);if(lights[i]==fill)fillConfig=matches;else fixedLights&=matches;
+      }
+      var currentRenderers=FindObjectsByType<Renderer>(FindObjectsInactive.Include,FindObjectsSortMode.None);bool fixedMaterials=currentRenderers.Length==renderers.Length;
+      var currentMaterialIDs=new HashSet<int>();foreach(var r in currentRenderers){
+       if(!rendererIDs.Contains(r.GetInstanceID())){fixedMaterials=false;rendererChanges.Add("added: "+FaceLightObjectName(r.transform));}
+       foreach(var m in r.sharedMaterials)if(m!=null){currentMaterialIDs.Add(m.GetInstanceID());if(!materialIDs.Contains(m.GetInstanceID())){fixedMaterials=false;materialChanges.Add("added/assigned: "+m.name+" #"+m.GetInstanceID());}}
+      }
+      if(RenderSettings.skybox!=null){currentMaterialIDs.Add(RenderSettings.skybox.GetInstanceID());if(!materialIDs.Contains(RenderSettings.skybox.GetInstanceID())){fixedMaterials=false;materialChanges.Add("added skybox: "+RenderSettings.skybox.name);}}
+      for(int i=0;i<materialList.Count;i++){
+       if(materialList[i]==null){fixedMaterials=false;materialChanges.Add("removed: "+materialNames[i]);}
+       else{
+        if(!currentMaterialIDs.Contains(materialList[i].GetInstanceID())){fixedMaterials=false;materialChanges.Add("unassigned: "+materialNames[i]);}
+        if(JsonUtility.ToJson(FaceLightMaterialSettings(materialList[i]))!=materialJSON[i]){fixedMaterials=false;materialChanges.Add("changed: "+materialNames[i]);}
+       }
+      }
+      for(int i=0;i<renderers.Length;i++){
+       if(renderers[i]==null){fixedMaterials=false;rendererChanges.Add("removed: "+rendererNames[i]);continue;}var assigned=renderers[i].sharedMaterials;bool sameAssignment=assigned.Length==assignments[i].Length;
+       for(int j=0;j<Math.Min(assigned.Length,assignments[i].Length);j++)sameAssignment&=(assigned[j]==null?0:assigned[j].GetInstanceID())==assignments[i][j];
+       if(!sameAssignment){fixedMaterials=false;rendererChanges.Add("material assignment changed: "+rendererNames[i]);}
+      }
+      bool environment=Time.time==record.frozenTime&&Time.timeScale==0&&atmosphere.Night==record.night&&RenderSettings.ambientSkyColor==record.ambientSky&&RenderSettings.ambientEquatorColor==record.ambientEquator&&RenderSettings.ambientGroundColor==record.ambientGround&&RenderSettings.ambientIntensity==record.ambientIntensity&&RenderSettings.ambientMode.ToString()==record.ambientMode;
+      Vector3 viewportMin,viewportMax;bool headInFrame=FaceLightHeadInFrame(StoryCamera,headBounds,out viewportMin,out viewportMax);
+      bool shadowsMatch=true;for(int i=0;i<renderers.Length;i++){
+       bool isHead=contributionStudy&&Array.IndexOf(headRenderers,renderers[i])>=0;
+       shadowsMatch&=renderers[i]!=null&&renderers[i].shadowCastingMode==(isHead&&!balanceStudy&&variant==1?UnityEngine.Rendering.ShadowCastingMode.Off:allShadowModes[i]);
+      }
+      var actualSSAO=new bool[ssaoFeatures.Count];bool ssaoMatches=true;for(int i=0;i<actualSSAO.Length;i++){actualSSAO[i]=ssaoFeatures[i].isActive;ssaoMatches&=actualSSAO[i]==(variant==1?false:ssaoStates[i]);}
+      var actualHeadModes=new string[headRenderers==null?0:headRenderers.Length];for(int i=0;i<actualHeadModes.Length;i++)actualHeadModes[i]=headRenderers[i].shadowCastingMode.ToString();
+      var sample=new FaceLightSample{image=filename,view=names[view],variant=variants[variant],actualPNGWidth=width,actualPNGHeight=height,pngComplete=true,
+       cameraPosition=StoryCamera.transform.position,cameraRotation=StoryCamera.transform.rotation,fieldOfView=StoryCamera.fieldOfView,fillLocalPosition=fill.transform.localPosition,
+       transformChanges=transformChanges.ToArray(),materialChanges=materialChanges.ToArray(),rendererChanges=rendererChanges.ToArray(),
+       headShadowModes=actualHeadModes,shadowModesMatch=shadowsMatch,ssaoActive=actualSSAO,ssaoStateMatch=ssaoMatches,carriedIntensity=carry==null?0:carry.intensity,fillColor=fill.color,
+       headViewportMin=viewportMin,headViewportMax=viewportMax,headInFrame=headInFrame,cameraUnchanged=StoryCamera.transform.localToWorldMatrix==cameraMatrix&&StoryCamera.fieldOfView==expectedFOV,
+       otherTransformsUnchanged=fixedTransforms,otherLightsUnchanged=fixedLights,fillConfigurationUnchanged=fillConfig,materialsUnchanged=fixedMaterials,environmentUnchanged=environment};
+      record.views[view*variants.Length+variant]=sample;record.completedImages++;record.capturedImageCount=record.completedImages;
+      allChecks&=width==record.width&&height==record.height&&headInFrame&&sample.cameraUnchanged&&fixedTransforms&&fixedLights&&fillConfig&&fixedMaterials&&environment&&shadowsMatch&&ssaoMatches&&fill.transform.localPosition==(!contributionStudy&&variant==1?record.candidateLocalPosition:record.baselineLocalPosition);
+      File.WriteAllText(Path.Combine(output,"face-light-study.json"),JsonUtility.ToJson(record,true));
+     }
+    }
+    record.captureComplete=record.completedImages==record.expectedImageCount;record.allInvariantsPassed=record.captureComplete&&allChecks;success=record.allInvariantsPassed;
+    if(!success)record.failure="One or more recorded capture invariants failed";
+   }finally{
+    try{
+     if(hadSave)PlayerPrefs.SetString(saveKey,previousSave);else PlayerPrefs.DeleteKey(saveKey);PlayerPrefs.Save();record.saveRestored=PlayerPrefs.HasKey(saveKey)==hadSave&&(!hadSave||PlayerPrefs.GetString(saveKey)==previousSave);
+     if(capturedOriginalFill&&fill!=null)fill.transform.localPosition=originalFillPosition;
+     if(fill!=null)fill.color=originalFillColor;for(int i=0;i<ssaoFeatures.Count;i++)if(ssaoFeatures[i]!=null)ssaoFeatures[i].SetActive(ssaoStates[i]);
+     if(contributionStudy){
+      if(main!=null)main.shadows=originalMainShadows;if(carry!=null)carry.intensity=originalCarryIntensity;if(fill!=null)fill.intensity=originalFillIntensity;
+      if(headRenderers!=null&&headModes!=null)for(int i=0;i<headRenderers.Length;i++)if(headRenderers[i]!=null)headRenderers[i].shadowCastingMode=headModes[i];
+      if(blinkL!=null)blinkL.localScale=blinkLScale;if(blinkR!=null)blinkR.localScale=blinkRScale;
+     }
+     Time.timeScale=previousTimeScale;traveler.enabled=oldTravelerEnabled;atmosphere.enabled=oldAtmosphereEnabled;enabled=oldDirectorEnabled;HUD.gameObject.SetActive(oldHUDActive);
+     success&=record.saveRestored;
+    }catch(Exception e){success=false;record.failure="Restore failed: "+e.Message;Debug.LogException(e);}
+    record.completed=success;record.failed=!success;if(!success){record.allInvariantsPassed=false;if(string.IsNullOrEmpty(record.failure))record.failure="Diagnostic interrupted at "+record.stage;}
+    try{File.WriteAllText(Path.Combine(output,"face-light-study.json"),JsonUtility.ToJson(record,true));}catch(Exception e){success=false;Debug.LogException(e);}
+    Application.Quit(success?0:1);
+   }
+  }
+ }
+}

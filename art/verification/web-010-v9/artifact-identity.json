@@ -1,0 +1,48 @@
+{
+  "passed": true,
+  "buildId": "build_d7f44f9d30f9",
+  "declaredBuildMatches": true,
+  "session": "web-010-v9",
+  "scope": "Session request URLs plus subsequent raw HTTP/disk SHA-256 checks against the unchanged candidate payload recorded after build. Historical response bodies were not intercepted; this does not claim per-response body hashing during gameplay.",
+  "requestedAllCurrentFiles": true,
+  "servedBuildResources": [
+    "http://127.0.0.1:8779/Build/a0c06d3e614c45d276481d37b2c4f459.loader.js",
+    "http://127.0.0.1:8779/Build/b281874b7c5b6a62e898db90eddbb667.framework.js.gz",
+    "http://127.0.0.1:8779/Build/702755c42cffae70351e173e02577e7c.wasm.gz",
+    "http://127.0.0.1:8779/Build/eee8121ce67ee80bcdd23e5b49306cbf.data.gz"
+  ],
+  "files": [
+    {
+      "name": "702755c42cffae70351e173e02577e7c.wasm.gz",
+      "bytes": 11597799,
+      "httpSHA256": "C57B82862641B5A56655D0AC307F4F597A99A0EEBC597487F54D6F7B78E94F73",
+      "diskSHA256": "C57B82862641B5A56655D0AC307F4F597A99A0EEBC597487F54D6F7B78E94F73",
+      "buildReportSHA256": "C57B82862641B5A56655D0AC307F4F597A99A0EEBC597487F54D6F7B78E94F73",
+      "matches": true
+    },
+    {
+      "name": "a0c06d3e614c45d276481d37b2c4f459.loader.js",
+      "bytes": 26983,
+      "httpSHA256": "A5082CAC6116664D81DEE556762CE13C7A1FDC23F25EC1523FC34CBCF4B4FE4E",
+      "diskSHA256": "A5082CAC6116664D81DEE556762CE13C7A1FDC23F25EC1523FC34CBCF4B4FE4E",
+      "buildReportSHA256": "A5082CAC6116664D81DEE556762CE13C7A1FDC23F25EC1523FC34CBCF4B4FE4E",
+      "matches": true
+    },
+    {
+      "name": "b281874b7c5b6a62e898db90eddbb667.framework.js.gz",
+      "bytes": 88480,
+      "httpSHA256": "BDA32BC9EB70C7970A4AD57FF93F335CDBA0B653C5BBA40D6A692F0101BE8976",
+      "diskSHA256": "BDA32BC9EB70C7970A4AD57FF93F335CDBA0B653C5BBA40D6A692F0101BE8976",
+      "buildReportSHA256": "BDA32BC9EB70C7970A4AD57FF93F335CDBA0B653C5BBA40D6A692F0101BE8976",
+      "matches": true
+    },
+    {
+      "name": "eee8121ce67ee80bcdd23e5b49306cbf.data.gz",
+      "bytes": 37212032,
+      "httpSHA256": "6B638A210A5A889757A8CBDB8E735F4D3FE1C3B812908AFDC5F5FF5A24FE282E",
+      "diskSHA256": "6B638A210A5A889757A8CBDB8E735F4D3FE1C3B812908AFDC5F5FF5A24FE282E",
+      "buildReportSHA256": "6B638A210A5A889757A8CBDB8E735F4D3FE1C3B812908AFDC5F5FF5A24FE282E",
+      "matches": true
+    }
+  ]
+}

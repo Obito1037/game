@@ -1,0 +1,59 @@
+游戏开发工具：验收结果与日常使用（v8）
+
+免费本地工具链已完成安装与实时连接验收：
+1. Blender 4.5.14 LTS：版本运行、场景保存、GLB 和 FBX 导出均已通过。
+2. Unity Hub 3.22.3、Unity 6.3 LTS（6000.3.26f1）及 Web 构建模块已安装。
+3. Unity 账号已登录，Editor 已通过许可检查，GameProject 已正常导入和编译。
+4. Unity CLI 1.0.0-beta.13、Pipeline 0.8.0-exp.1 已连通，安装验收时 Editor 状态 ready；后续操作前需重新检查实时状态。
+5. 官方 Unity MCP 已发现 160 个工具，实际只读工具调用成功返回 Editor 版本 6000.3.26f1。
+既有版本已完成《借光岛》的 Windows 与 WebGL 构建及实际运行验证；当前 v8 结果如下。
+试玩：双击上一级目录的 Open-Borrowed-Light.cmd 或 Open-Borrowed-Light-Web.cmd。
+详细操作和验证范围见上一级目录 PLAY.zh-CN.txt；浏览器版本仅在本机提供服务，未发布到公网。
+当前 v8 仅修订两袖的周期横褶和四块主石形体；脸部、肤色、衣身、裤腿、骨架、鞋底和附件保留。主石使用 kind 7 的低幅程序凹凸。面部补光 0.23 / 0.16 / 0.23 对照后保留原有 0.23，没有将试验写成已完成的皮肤改善。
+远景 47 个星体和 20 个闪光合并为 1 个 renderer，保留原几何与漂移动作；实际性能见本轮运行记录，不据此单独宣称帧率提升。
+原生构建 build_95baec27b2f5 的验收在 art/verification/run-022-v8/，主流程、行走、暂停/恢复/重开/返回及既有接地/阻挡检查均通过；四块主石 16/16 指定轴向胶囊接近探测通过，不代表连续步态或所有方向。
+本机 1440×900 / Iris Xe 原生短样本：菜单 60.0、总览 60.0、漫步视角 53.4、近景 59.9、末段 52.5 FPS；220 个 idle 鞋底采样点最小净空 0.001413 m。不是持续行走平均帧率，不能与 v7 单次数据相减后声称优化收益，也不覆盖完整动态步态。
+网页 v8 构建 build_6a2cf444c9a6 成功，0 errors / 1 项预期 Pipeline 警告；压缩 payload 为 48,736,381 bytes，约 48.7 MB，四个 HTTP 文件与候选文件 hash 匹配。
+正常验收在 art/verification/web-008-v8/：真实键盘三章、刷新续玩、默认音频策略下的音频上下文恢复通过；crossOriginIsolated=true，浏览器 errors=[]。Unity 日志仍有 INVALID_ENUM、三个隐藏 shader 不支持及 sound-length 提示，不能写成日志完全无错误。
+网页各视角约 3.1 秒、6×500 ms 前台采样；漫步视角松开 W 停步后的区间指标中位 34.08、结尾 45.94，不是持续行走平均帧率。Unity 接口不是独立渲染帧计数；菜单指标存在超过配置 60 目标的数值，不作为可靠实际渲染帧率对外报告。原始样本（包括首个低读数）全部保留在 JSON。
+本轮观星台连续动作证据在 art/verification/web-v8-observatory-video/：capture-manifest.json 记录完成、errors=[]，真实 W 持续 4248 ms 后松开停步；片段显示连续上阶，双鞋停于上层台面和仪器之前，未见明显裤靴或袖臂断开。
+observatory-approach-time-cut.webm 为 13.28 秒原帧流复制短片，源区间 30.720–44.000 秒；time-cut-verification.json 验证 332 个 VP8 编码包逐个 SHA-256 相同。后视录像无法判断细微袖褶，单一路线不覆盖完整步态，录屏帧率不代表引擎 FPS；本轮未新增独立 GPU 性能报告。
+历史网页证据仍保留：web-007-v7/、web-v7-gpu-profile/、web-v7-gait/、web-v7-gait-video-only/、web-v7-observatory-video/。这些目录不能替代本轮 v8 的正常验收、GPU 诊断或动态路线记录。
+游戏修订号 v8 使用 art/generated/world-v7/ 与 art/generated/character-v7/ 资产；岛屿/角色三角数仍为 412,815 / 75,862。
+生产脚本为 art/blender/build_island_v7.py 与 art/blender/build_traveler_v7.py；直接读取冻结 world-v6/、character-v6/，角色另依赖 character-v5/ 的无皱袖形体。完整来源目录、清单、纹理和验证脚本须保留，详细 AI 制作与依赖记录见 AI-使用与素材来源.zh-CN.txt。
+稳定 v6 Windows 包保留在 builds/archive/BorrowedLight-v6-Windows.zip；其他历史版本见 builds/archive/ 实际文件。
+实机原图对照见 art/verification/visual-review.html；本轮袖勒痕减少、主石断面更易辨认，但石头低缘仍偏软，人物与材质自然度仍有差距，尚未认定整体视觉超过参考。
+
+已修复的首次导入问题：
+- Unity Package Manager 未继承系统代理，导致官方下载超时。项目启动脚本现在读取已有 Windows 代理，传给本次启动的 Editor，并让 localhost 连接绕过代理；没有更改系统代理设置。
+- 官方模板原有 Input System 1.12.0 与当前 Editor 编译不兼容，已改用 Unity 6.3 官方发布的 1.20.1。
+
+日常使用：
+- 双击上一级目录的 Open-GameProject.cmd 打开项目，建议使用此入口继承正确的代理配置。
+- 双击 Open-Blender.cmd 打开 Blender。
+- 双击 Game-Tools-Terminal.cmd 打开带 unity、blender 命令的终端。
+- 使用 MCP 时保持 GameProject 的 Editor 打开。若当前 Codex 聊天未加载 Unity MCP，重启 Codex 后在本项目新建聊天。
+- 只读检查当前状态：
+  unity status --json
+  unity pipeline list --json
+- 检查并保存安装状态：
+  powershell -NoProfile -File .\setup\Check-Tools.ps1
+- 重新验证 MCP 实际只读调用：
+  node .\setup\verify_unity_mcp.mjs --verify-editor
+
+验收证据：
+- setup/tool-status.json：最近一次完整状态快照。
+- setup/verification/blender-result.json：Blender 导出验证。
+- setup/verification/unity-mcp-result.json：MCP 握手、工具数与实际调用结果。
+- setup/verification/unity-editor-current.log：当前 Editor 启动日志。
+
+可选外部工具（当前游戏不依赖）：
+- Auto-Rig Pro：本机未安装。它是付费 Blender 插件，准备正版安装包后再安装。
+  https://artell.gumroad.com/l/autorigpro
+- Tripo 和 Mixamo：网页服务，账号权限和额度未纳入本次本地验收。
+  https://www.tripo3d.ai/
+  https://www.mixamo.com/
+
+版本参考：
+https://docs.unity3d.com/6000.3/Documentation/Manual/com.unity.inputsystem.html
+https://docs.unity3d.com/6000.3/Documentation/Manual/upm-config-network.html

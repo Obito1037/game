@@ -1,0 +1,21 @@
+{
+  "accepted": false,
+  "candidateWorld": "world-v11",
+  "candidateGame": "v13",
+  "buildId": "build_616eb888fe19",
+  "baselineBuildId": "build_07b75c9c9302",
+  "reviewedOriginals": ["path-current.png", "island-current.png", "left-tree-current.png", "gold-tree-current.png", "right-pine-current.png"],
+  "reviewer": "root, with independent reference_research review agreeing on rejection",
+  "improvements": [
+    "Branch-supported broadleaf and gold leaf groups have varied height and more natural gaps instead of one flat horizontal shelf.",
+    "Gold ring is much clearer; cabin windows, roof and moon remain readable.",
+    "Curved smaller leaves are less like the old large angular paper layers."
+  ],
+  "blockingProblems": [
+    "The right conifer is too sparse: long bare branches and fine needle traces read as a weak or unfinished tree in path, island and close views.",
+    "Broadleaf and gold crowns moved upward; close-view tops are cropped and the main path loses much of its upper foliage mass.",
+    "Improved openings do not compensate for the overall loss of greenery and right-side visual weight."
+  ],
+  "nextAction": "Keep the branch and curved-leaf approach. Restore irregular three-dimensional mid/lower conifer foliage, modestly lower upper broadleaf/gold crowns while preserving the readable ring and cabin. Produce a separately retained world-v12 candidate from world-v10; do not overwrite this rejected source or its evidence.",
+  "scope": "Static original Windows Player screenshots at the same recorded cameras, light and material settings. Not FPS, dynamic wind/aliasing, complete crown close-up, or normal gameplay acceptance. Stable local release remains v12."
+}

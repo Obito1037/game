@@ -1,0 +1,56 @@
+{
+  "reviewed": true,
+  "isReleaseDecision": false,
+  "aestheticObjectiveAchieved": false,
+  "scope": "亲看front与portrait各五变体，共十张1440×900实机原图；仅作本轮固定姿势的贡献隔离图评，不代表正常动态、性能或最终采用。",
+  "observedImages": [
+    "front-baseline.png",
+    "front-head-no-cast.png",
+    "front-main-no-shadows.png",
+    "front-carry-off.png",
+    "front-fill-off.png",
+    "portrait-baseline.png",
+    "portrait-head-no-cast.png",
+    "portrait-main-no-shadows.png",
+    "portrait-carry-off.png",
+    "portrait-fill-off.png"
+  ],
+  "observations": [
+    {
+      "variant": "baseline",
+      "front": "画面左侧面颊至嘴角保留明显灰楔，右下脸和下巴偏橘黄；胸前、衣袖及袖口有很亮的暖白区域。",
+      "portrait": "正常距离仍能读到灰楔与橘黄下脸的分界，提灯及附近地面明亮，衣服左右亮度差很大。"
+    },
+    {
+      "variant": "head-no-cast",
+      "front": "灰楔、鼻旁及下脸明暗形状与baseline基本保留，未见足以解释问题的清除效果。",
+      "portrait": "灰楔仍在同一区域，橘黄下脸与胸袖高亮仍在。",
+      "inference": "在这两个机位，头部向自身投影不支持作为该灰楔的主要解释；不能据此推导其他机位完全没有头部阴影贡献。"
+    },
+    {
+      "variant": "main-no-shadows",
+      "front": "面颊灰楔与鼻旁明暗分界基本保留，下脸依然橘黄。",
+      "portrait": "角色面部灰区仍可辨，周围场景投影有变化，但脸部问题没有随主光阴影一起消失。",
+      "inference": "本轮优先盲调主光shadow bias缺乏图像依据。仍需区分直接光NdotL、SSAO、法线与材质等贡献。"
+    },
+    {
+      "variant": "carry-off",
+      "front": "强烈橘黄下脸明显减退，脸部上下色温较统一，胸袖暖白高亮也消退；但下巴变为暗褐，左脸与鼻口仍有明暗层次。",
+      "portrait": "脸部色调更整洁，胸袖不再刺亮；同时衣服、手和提灯周围明显变暗，手灯地面暖光大幅减少。",
+      "inference": "携灯是橘黄下脸和胸袖过亮的重要直接照明贡献。它关闭后外观变化明显，但不能据此把携灯全部关闭作为最终方案：下巴变暗、提灯存在感和角色周围暖光也受到损失。"
+    },
+    {
+      "variant": "fill-off",
+      "front": "上脸大幅转暗蓝灰，眼周和鼻旁分界更突兀，而右下脸及下颌仍橘黄，冷暖断层更强。",
+      "portrait": "面部阅读明显变差，蓝灰上脸与暖亮下颌同时存在，胸袖携灯高亮仍在。",
+      "inference": "现有面补光在有效照亮上脸，删除它没有解决问题；本轮不支持直接关掉面补光。"
+    }
+  ],
+  "summary": "两种阴影开关均未明显清除灰楔，当前应停止把主光自阴影或偏置作为优先根因。携灯对下脸橘黄与胸袖暖白高亮有明显贡献，面补光则在维持上脸可读性。下一步值得对照较弱携灯及中性补光，并单独隔离SSAO；这些后续结果尚未查看，不能预判采用。",
+  "limits": [
+    "只看列出的十张原图，未查看right30机位及baseline-repeat，未独立复核记录中的全部程序不变量。",
+    "本图评没有证明灰楔的最终根因，没有把较弱携灯、中性补光或SSAO-off当成已验证修复。",
+    "没有运行渲染、测试或修改普通光照；本轮没有发布决定。",
+    "角色仍有明显明暗分区、玩偶感及简化材质，整体审美目标尚未完成，也没有证明整体超过参考作品。"
+  ]
+}

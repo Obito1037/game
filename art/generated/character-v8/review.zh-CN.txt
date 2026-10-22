@@ -1,0 +1,67 @@
+借光岛 character-v8：面部候选交付
+日期：2026-10-21
+
+状态与范围
+这是一份供 Unity 固定机位 A/B 的冻结角色候选，尚不代表已达到参考图的人物质量。
+源文件：art/blender/build_traveler_v8.py。
+直接依赖：冻结 character-v7/traveler.blend；从 build_traveler_v7.py 读取纯指纹函数，
+从 build_traveler_v6.py 读取纯比例/旧脸剖面函数，不执行旧脚本构建入口。
+上游 v7 仍依赖冻结 v6，袖子重建另依赖 v5；所有上游文件必须保留。
+本轮没有修改旧资产、Unity 资源或 Shader。
+
+几何与外观改动
+1. 非等距高度控制点改用按实际 z 间距计算导数的 C1 Hermite 剖面。
+   旧 uniform Catmull-Rom 在不等长段连接处的导数不连续，是横向颊/下颌明暗断带的真实来源之一。
+   保持头顶与已有头发的衔接；下颌略收，脸颊/颧区连续过渡。
+2. 鼻梁、较浅鼻尖、鼻翼、口周、上/下唇、下唇沟与下巴由同一皮肤表面协调塑形。
+   没有添加独立鼻球。口周不再只是平滑壳面上的一条嘴线。
+3. 眼裂挖出实际开口，用上/下不对称的细睑缘衔接皮肤；眼白、虹膜与瞳孔共享浅弧表面。
+   虹膜在上下睑边界裁切，取消旧纵向椭圆瞳孔，减轻层叠亮环和嵌珠感。
+   上睑睫线、眉毛、闭眼覆盖片和闭眼睫线同步调整。所有原命名/pivot/眨眼接口保留。
+4. 头部相对顶点色使用宽、克制的暖颊/鼻尖/唇色变化，Alpha 保持 1；没有新增眼窝黑圈或噪点。
+   皮肤材质 BaseColor 未变。仅三个眼材质基础色更新：
+   Traveler_Eye_Ivory = (0.70, 0.695, 0.63, 1)
+   Traveler_Eye_AmberRim = (0.245, 0.145, 0.076, 1)
+   Traveler_Eye_Chestnut = (0.21, 0.112, 0.058, 1)
+   这些均是 Blender/导出文件中的线性数值。衣服/手部等已有材质与颜色完全保护。
+
+预算与保护证据
+77,132 tris（v7 为 75,862，增加 1,270）、62 mesh、28 skinned mesh、4 armatures、12 bones、29 materials。
+v7-preservation-file-verification.json 独立重新打开两个 BLEND，确认：
+48 个非目标网格全部坐标/拓扑/角法线/UV/顶点色/权重/材质分配精确一致；
+26 个非目标材质图精确一致；所有对象、骨架、named pivot、父子关系、附件与修改器契约精确一致。
+身体、已改善袖子、衣裤、四肢、鞋底、灯笼/围巾附件没有变化。
+
+实际视觉检查
+v7-front / v8-front、v7-three-quarter / v8-three-quarter、v7-profile / v8-profile
+使用相同冻结场景灯光和相同机位，512px、Cycles CPU 4线程、8 samples、降噪，均已实际查看。
+v8-blink.png 是同条件三分之四闭眼图，也已查看。
+下颊横向断带明显减少，侧面鼻下急凹缓和，眼周不再有整圈凸亮边；闭眼片不出现黑边或高光穿出。
+仍需实机判断：新正面鼻翼/口周灰影范围偏宽，可能显得鼻子宽短；肤质整体仍简化。
+这些工作室图片是造型诊断，不是游戏画面、性能测试或质量达标证明。
+
+导出与回读证据
+frozen-export-verification.json：FBX 与 GLB 正常和实际屈膝/弯肘姿态均通过；
+保留 28 skinned、12 named bones、连续权重过渡、灯笼跟随、眨眼 XY 缩放契约和摆步鞋底。
+最大姿态顶点误差：FBX 0.000000217m，GLB 0.000002987m。
+blink-verification.json：每种 BLEND/FBX/GLB 对 1,674 个眼部顶点做正面射线覆盖检查，
+全部在闭眼片后方，最小间隙 0.001136m。另有实际闭眼预览，不能替代所有角度的动态验收。
+color-interchange-verification.json：FBX 线性颜色误差为 0；GLB 回读 BYTE_COLOR 最大误差 0.004508，
+原始 GLB COLOR_0 与 baseColorFactor 已验证。62 个网格颜色通道均存在。
+由于身体完全精确保护，本轮没有无意义重跑已有 144 姿态地形步态扫描。
+
+明确保留的 GLB 限制
+face-normal-interchange-verification.json：FBX 所有修改头部的角法线最大差 0.0445°，全通过；
+眼片/闭眼片几何绕序均朝外。
+GLB 的严格“所有角法线”检查不通过：下睑线4个端点和嘴线2个端点所在的6个零面积三角形，
+Blender 导入时使用了 ±Z 回退法线。差异逐 loop/位置/面积写入 JSON，未掩盖失败。
+GLB 所有有面积面最大角法线误差 0.2015°；这6个退化面本身无可绘制面积。
+当前 Unity 使用已完整通过的 FBX，未为此修改冻结资产；未来重建可移除这6个零面积端三角形。
+
+冻结 SHA-256
+traveler.blend 5043ae76c4a8bb3e3a169a196d352aa41dae7e2c0c07dddf687a8d9f76f2e3e0
+traveler.fbx   1e9b778c88a70cc49d4872b441c32b9cdd0872747316f96963a0fb15a2532232
+traveler.glb   e648a83897fee9e78a1cb81214ba4076f5c48757cbc9a95184681b37b8ed71a7
+
+后续由主线程进行相同夜景、0.23 补光、同绑定姿态与固定机位的原生 FaceStudy A/B。
+候选源文件和导出文件现已冻结，后续调整需新的明确决策，不静默覆盖。

@@ -1,0 +1,147 @@
+{
+  "project": "Borrowed Light / 借光岛",
+  "objective": "制作基于 Blender 的高质量可玩游戏，参考 littleprince.dev；完整验收目标是整体视觉体验比参考站更惊艳。目前此审美目标尚未达成。",
+  "reference": {
+    "url": "https://littleprince.dev/",
+    "authorPost": "https://x.com/Saccc_c/status/2110694725640474759",
+    "originalArticle": "https://x.com/i/article/2110601994578866176",
+    "captureMethod": "Isolated Edge session, 1440x900, actual entry / chapter menu / chapter-one gameplay",
+    "screenshots": [
+      "reference/littleprince-entry.png",
+      "reference/littleprince-started.png",
+      "reference/littleprince-gameplay.png"
+    ],
+    "sourceAssetReuse": false
+  },
+  "authoring": {
+    "scene": "generated/world-v7/island.blend",
+    "sceneScript": "blender/build_island_v7.py",
+    "character": "generated/character-v9/traveler.blend",
+    "characterScript": "blender/build_traveler_v9.py",
+    "audioScript": "blender/build_audio.py",
+    "engine": "Unity 6000.3.26f1 / URP",
+    "primaryScene": "GameProject/Assets/BorrowedLight/Scenes/BorrowedLight.unity",
+    "characterDependencies": [
+      "generated/character-v8/",
+      "generated/character-v7/",
+      "generated/character-v6/",
+      "generated/character-v5/"
+    ]
+  },
+  "resources": [
+    {
+      "name": "Island and traveler models",
+      "source": "Locally authored Blender Python geometry",
+      "type": "original AI-assisted production"
+    },
+    {
+      "name": "Meadow watercolor texture",
+      "source": "Local Blender production",
+      "type": "original AI-assisted production"
+    },
+    {
+      "name": "Night Letters score and lantern chime",
+      "source": "Original additive synthesis; no sampled recordings",
+      "type": "original AI-assisted production"
+    },
+    {
+      "name": "Watercolor nebula sky",
+      "source": "Built-in image_gen; prompt, SHA256 and provenance in generated/sky/manifest.json",
+      "type": "original AI-generated bitmap"
+    },
+    {
+      "name": "Weathered wood, mossy stone, plaster and tiles",
+      "source": "Original world-coordinate procedural PBR shader, using official URP lighting",
+      "type": "original AI-assisted production"
+    },
+    {
+      "name": "Noto Serif CJK SC",
+      "source": "https://github.com/notofonts/noto-cjk",
+      "license": "SIL Open Font License 1.1",
+      "licenseFile": "GameProject/Assets/BorrowedLight/Resources/Fonts/LICENSE.txt",
+      "modification": "Renamed subset: BorrowedLight Story Serif; 247920 bytes; canonical full source retained; tools/font-subset/build_subset.py; OFL and SUBSET-NOTICE included."
+    },
+    {
+      "name": "StoneV10 original colour texture",
+      "source": "Built-in image_gen; generated/stone-v10/manifest.json",
+      "type": "original AI-generated bitmap; triplanar artistic relief, not measured PBR",
+      "sha256": "17613BDBD49E1D48A99D5B2B3687ABED4DE6D8E19006E25D78ED07FB588D8CF5"
+    }
+  ],
+  "verification": {
+    "blenderInterchange": "generated/world-v7/interchange-verification.json: BLEND/FBX/GLB passed; 412815 triangles, 29 meshes, 14 unchanged anchors. All 28 non-Hero mesh fingerprints and ground texture bytes match frozen v6; only the four Hero boulders changed. No projected footprint expansion within the recorded tolerance; five plant groups have zero tested intersections. The actual obstacle geometry changed and was tested in Player.",
+    "purePuzzleRules": "independently checked by gameplay implementation agent",
+    "characterRoundTrip": "character-v9 的 FBX/GLB 正常及弯曲姿态、颜色和七个目标网格法线回读检查通过；55 个非目标网格及全部权重／骨架／材质保护检查通过，另核对三种姿态的连接边界。它们不构成全地形步态穷举。旧 character-v8 的 GLB 六个零面积下睑／嘴线端点严格全角法线失败是继承限制，本轮七个目标通过不能写成全模型、所有格式重新全面通过。运行时使用 FBX。 art/generated/character-v9/review.zh-CN.txt、v8-preservation-file-verification.json、frozen-export-verification.json、target-normal-interchange-verification.json、color-interchange-verification.json、connection-verification.json",
+    "windowsRuntime": "art/verification/run-025-v10/runtime-results.json: Windows 构建 build_6b2f1936c854：三章通关、键盘启动、行走、暂停恢复、重开、结尾返回、归一化滚轮及既有碰撞／接地检查通过；16/16 主石指定方向探测通过。两只实际蒙皮鞋底共 220 个静止采样，最小净空 0.001375 m，此数据不覆盖所有动态姿态。\n",
+    "webRuntime": "art/verification/web-011-v10/runtime-results.json: real keyboard completion, reload persistence, default-policy audio resume and cross-origin isolation passed.",
+    "browserGait": "art/verification/web-v10-gait-video/review.json: limited actual mouse/keyboard gait-video scope accepted; not exhaustive animation/terrain or FPS coverage.",
+    "artifactIdentity": [
+      "art/verification/run-025-v10/build-evidence.json",
+      "art/verification/web-011-v10/artifact-identity.json",
+      "art/verification/web-v10-gait-video/artifact-identity.json"
+    ],
+    "performance": "Intel(R) Iris(R) Xe Graphics / 1440×900 原生短样本：菜单 60、总览 60、漫步视角 47.7、近景 60、末段 47.2 FPS。网页各视角 6×500 ms 前台区间指标中位：停步后的漫步视角 35.09、结尾 53.89。这是短时视角样本，不是持续行走平均、全程最低或独立渲染帧计数；录像帧率不作为游戏 FPS，也不据此宣称版本间性能提升。",
+    "shaderChecks": "Original stone texture/triplanar shallow relief; Foliage Fixed40 auxiliary wind and normal consistency; 20% candidate not adopted. No new GPU profile and no unmeasured zero-cost claim.",
+    "historicalPortrait": "verification/web-v9-portrait-video/ is v9 historical evidence, not a v10 portrait re-test.",
+    "rejectedGroundCandidate": "verification/v9-ground-contact-study/review.zh-CN.txt: root contact albedo candidate rejected; original ground remains. Earlier encoded-vs-linear darkening labels corrected in retained audit.",
+    "scrollInput": "Existing normalized .35 metres/step and 2.5–10 clamp retained; current native forward/reverse-step QA passed. No separate current web portrait/wheel review claimed.",
+    "fixedDiagnostics": "独立固定诊断：art/verification/v10-stone-study/、v10-foliage-study/、v10-silhouette-candidate/。固定时间、摆位与近镜只支持对应条件下的对照，不冒充正常游玩、动态或性能验证；A/A 存在非零差异，不称像素完全相同。",
+    "finalVisualComparison": "固定 A/B 中，主石层理和粗糙感更清楚；角色发缘、肩袖和裤腿轮廓有所改善。植被采用通道同步的 Fixed40，20% 法线混合候选未采用。花草与地面衔接、头发和衣料仍有简化，整体视觉超过参考站的目标尚未证实。"
+  },
+  "buildIds": {
+    "windows": "build_6b2f1936c854",
+    "web": "build_c472c4b76e7c"
+  },
+  "disclosure": "../AI-使用与素材来源.zh-CN.txt",
+  "geometry": {
+    "travelerFbxSHA256": "70069F12265EF5C0B713A94CE2B20F3D305DDE339FC8B2F0487C436091BB4D71",
+    "travelerTriangles": 77132,
+    "travelerSkinnedMeshes": 28,
+    "worldFbxSHA256": "91C6D643698C414D0582D86AA42EBFAA1E470124DDDD7FAA7852860877806F64",
+    "islandTriangles": 412815
+  },
+  "themeSources": "reference/dark-sky-theme-sources.zh-CN.txt",
+  "revision": "v10",
+  "webPayload": {
+    "bytes": 49707097,
+    "directoryBytes": 54443556,
+    "files": [
+      {
+        "name": "3112b3ad8fcdbeaa68664343e7c206aa.data.gz",
+        "bytes": 37982199,
+        "sha256": "7328875473D35DE5BBCFB9513E4BB5CE0B0D4F31DEDA9664200D09D1AF697D06"
+      },
+      {
+        "name": "56b2089fd931dfe1dbeb6d645b39149e.wasm.gz",
+        "bytes": 11609435,
+        "sha256": "3D4136B9F6E4B2825D773115F0C3D33D5F9F2AAF97C91013477B6158C1B5FF5E"
+      },
+      {
+        "name": "b281874b7c5b6a62e898db90eddbb667.framework.js.gz",
+        "bytes": 88480,
+        "sha256": "B62192AB199052DFF72E0937E59C17FB88A89060F77797ADC0E4B1BE68C4CAAD"
+      },
+      {
+        "name": "cfc919b85070950e4426c4bd86dcbed4.loader.js",
+        "bytes": 26983,
+        "sha256": "0C42281ED9858B213BA4FC4317257EC175FF0240E66BC10F524EFA5F89700877"
+      }
+    ]
+  },
+  "delivery": {
+    "package": "../builds/BorrowedLight-Windows.zip",
+    "packageVerification": "verification/v10-package-verification.json",
+    "previousStableWindowsArchive": "../builds/archive/BorrowedLight-v9-Windows.zip",
+    "previousStableWebArchive": "../builds/archive/BorrowedLight-v9-Web/",
+    "previousStableWebArchivePresent": true,
+    "releaseHTTPVerification": "verification/v10-release-http-verification.json",
+    "packageVerificationPassed": true,
+    "releaseHTTPVerified": true,
+    "stagingOnly": false,
+    "packageSHA256": "5D798DEF22906DBEDBAC2053175C1FF2907A7BD53B7C7683D61C214B6F3FEA9D",
+    "packageBytes": 71817451,
+    "currentWindowsArchive": "../builds/archive/BorrowedLight-v10-Windows.zip",
+    "visualReviewPageVerified": true
+  },
+  "aestheticObjectiveAchieved": false
+}

@@ -1,0 +1,5741 @@
+{
+    "purpose": "Position-only face fill A/B/baseline-repeat in one settled idle pose. Static diagnostic, not normal gameplay, performance or general visual acceptance. Time scale does not freeze every temporal rendering effect.",
+    "stage": "right30-baseline-repeat",
+    "failure": "One or more recorded capture invariants failed",
+    "faceRenderer": "Head_Face_PorcelainCream",
+    "width": 1440,
+    "height": 900,
+    "expectedImageCount": 12,
+    "capturedImageCount": 12,
+    "completedImages": 12,
+    "transformCount": 337,
+    "captureComplete": true,
+    "completed": false,
+    "failed": true,
+    "allInvariantsPassed": false,
+    "saveRestored": true,
+    "frozenTime": 8.017194747924805,
+    "night": 0.9989964962005615,
+    "ambientIntensity": 1.0,
+    "ambientMode": "Trilight",
+    "ambientSky": {
+        "r": 0.5,
+        "g": 0.5899999737739563,
+        "b": 0.699999988079071,
+        "a": 1.0
+    },
+    "ambientEquator": {
+        "r": 0.3700000047683716,
+        "g": 0.44999998807907107,
+        "b": 0.5199999809265137,
+        "a": 1.0
+    },
+    "ambientGround": {
+        "r": 0.23000000417232514,
+        "g": 0.2800000011920929,
+        "b": 0.33000001311302187,
+        "a": 1.0
+    },
+    "faceWorldCenter": {
+        "x": 0.0009660562500357628,
+        "y": 1.1576099395751954,
+        "z": -3.2949414253234865
+    },
+    "faceActorLocalCenter": {
+        "x": 0.0009660562500357628,
+        "y": 1.0576099157333375,
+        "z": 0.0050585269927978519
+    },
+    "headBoundsCenter": {
+        "x": 0.009678155183792115,
+        "y": 1.186293601989746,
+        "z": -3.3105525970458986
+    },
+    "headBoundsSize": {
+        "x": 0.31027472019195559,
+        "y": 0.3681297302246094,
+        "z": 0.25336647033691409
+    },
+    "baselineLocalPosition": {
+        "x": 0.0,
+        "y": 1.25,
+        "z": 0.550000011920929
+    },
+    "candidateLocalPosition": {
+        "x": 0.0,
+        "y": 1.2876099348068238,
+        "z": 0.550000011920929
+    },
+    "lights": [
+        {
+            "id": -2094,
+            "cullingMask": -1,
+            "name": "A place that needs light 3",
+            "type": "Point",
+            "shadows": "None",
+            "enabled": true,
+            "position": {
+                "x": 6.900000095367432,
+                "y": 0.7200000286102295,
+                "z": -3.3499999046325685
+            },
+            "localPosition": {
+                "x": 6.900000095367432,
+                "y": 0.7200000286102295,
+                "z": -3.3499999046325685
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "color": {
+                "r": 1.0,
+                "g": 0.7099999785423279,
+                "b": 0.38999998569488528,
+                "a": 1.0
+            },
+            "intensity": 1.600000023841858,
+            "range": 3.5,
+            "spotAngle": 30.0,
+            "colorTemperature": 6570.0,
+            "useColorTemperature": false
+        },
+        {
+            "id": -2082,
+            "cullingMask": -1,
+            "name": "A place that needs light 2",
+            "type": "Point",
+            "shadows": "None",
+            "enabled": true,
+            "position": {
+                "x": -4.099999904632568,
+                "y": 2.200000047683716,
+                "z": 3.049999952316284
+            },
+            "localPosition": {
+                "x": -4.099999904632568,
+                "y": 2.200000047683716,
+                "z": 3.049999952316284
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "color": {
+                "r": 1.0,
+                "g": 0.7099999785423279,
+                "b": 0.38999998569488528,
+                "a": 1.0
+            },
+            "intensity": 1.600000023841858,
+            "range": 2.5,
+            "spotAngle": 30.0,
+            "colorTemperature": 6570.0,
+            "useColorTemperature": false
+        },
+        {
+            "id": -2070,
+            "cullingMask": -1,
+            "name": "A place that needs light 1",
+            "type": "Point",
+            "shadows": "None",
+            "enabled": true,
+            "position": {
+                "x": -5.800000190734863,
+                "y": 0.7000000476837158,
+                "z": 0.15000000596046449
+            },
+            "localPosition": {
+                "x": -5.800000190734863,
+                "y": 0.7000000476837158,
+                "z": 0.15000000596046449
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "color": {
+                "r": 1.0,
+                "g": 0.7099999785423279,
+                "b": 0.38999998569488528,
+                "a": 1.0
+            },
+            "intensity": 1.600000023841858,
+            "range": 3.5,
+            "spotAngle": 30.0,
+            "colorTemperature": 6570.0,
+            "useColorTemperature": false
+        },
+        {
+            "id": -2058,
+            "cullingMask": -1,
+            "name": "A place that needs light 0",
+            "type": "Point",
+            "shadows": "None",
+            "enabled": true,
+            "position": {
+                "x": -1.7999999523162842,
+                "y": 0.6800000071525574,
+                "z": -3.200000047683716
+            },
+            "localPosition": {
+                "x": -1.7999999523162842,
+                "y": 0.6800000071525574,
+                "z": -3.200000047683716
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "color": {
+                "r": 1.0,
+                "g": 0.7099999785423279,
+                "b": 0.38999998569488528,
+                "a": 1.0
+            },
+            "intensity": 1.600000023841858,
+            "range": 3.5,
+            "spotAngle": 30.0,
+            "colorTemperature": 6570.0,
+            "useColorTemperature": false
+        },
+        {
+            "id": -2046,
+            "cullingMask": -1,
+            "name": "Warmth from lamp 2",
+            "type": "Point",
+            "shadows": "None",
+            "enabled": true,
+            "position": {
+                "x": 4.699999809265137,
+                "y": 2.049999952316284,
+                "z": -2.4000000953674318
+            },
+            "localPosition": {
+                "x": 4.699999809265137,
+                "y": 2.049999952316284,
+                "z": -2.4000000953674318
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "color": {
+                "r": 1.0,
+                "g": 0.6600000262260437,
+                "b": 0.28999999165534975,
+                "a": 1.0
+            },
+            "intensity": 2.0999999046325685,
+            "range": 5.0,
+            "spotAngle": 30.0,
+            "colorTemperature": 6570.0,
+            "useColorTemperature": false
+        },
+        {
+            "id": -1936,
+            "cullingMask": -1,
+            "name": "Warmth from lamp 1",
+            "type": "Point",
+            "shadows": "None",
+            "enabled": true,
+            "position": {
+                "x": 1.7999999523162842,
+                "y": 2.049999952316284,
+                "z": 3.4000000953674318
+            },
+            "localPosition": {
+                "x": 1.7999999523162842,
+                "y": 2.049999952316284,
+                "z": 3.4000000953674318
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "color": {
+                "r": 1.0,
+                "g": 0.6600000262260437,
+                "b": 0.28999999165534975,
+                "a": 1.0
+            },
+            "intensity": 2.0999999046325685,
+            "range": 5.0,
+            "spotAngle": 30.0,
+            "colorTemperature": 6570.0,
+            "useColorTemperature": false
+        },
+        {
+            "id": -1826,
+            "cullingMask": -1,
+            "name": "Warmth from lamp 0",
+            "type": "Point",
+            "shadows": "None",
+            "enabled": true,
+            "position": {
+                "x": -4.5,
+                "y": 2.049999952316284,
+                "z": -2.0
+            },
+            "localPosition": {
+                "x": -4.5,
+                "y": 2.049999952316284,
+                "z": -2.0
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "color": {
+                "r": 1.0,
+                "g": 0.6600000262260437,
+                "b": 0.28999999165534975,
+                "a": 1.0
+            },
+            "intensity": 2.0999999046325685,
+            "range": 5.0,
+            "spotAngle": 30.0,
+            "colorTemperature": 6570.0,
+            "useColorTemperature": false
+        },
+        {
+            "id": -1710,
+            "cullingMask": -1,
+            "name": "A soft reflection on the traveler",
+            "type": "Point",
+            "shadows": "None",
+            "enabled": true,
+            "position": {
+                "x": 0.0,
+                "y": 1.350000023841858,
+                "z": -2.75
+            },
+            "localPosition": {
+                "x": 0.0,
+                "y": 1.25,
+                "z": 0.550000011920929
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "color": {
+                "r": 1.0,
+                "g": 0.8799999952316284,
+                "b": 0.7400000095367432,
+                "a": 1.0
+            },
+            "intensity": 0.23000000417232514,
+            "range": 1.100000023841858,
+            "spotAngle": 30.0,
+            "colorTemperature": 6570.0,
+            "useColorTemperature": false
+        },
+        {
+            "id": -1704,
+            "cullingMask": -1,
+            "name": "The light we carry",
+            "type": "Point",
+            "shadows": "None",
+            "enabled": true,
+            "position": {
+                "x": -0.23902280628681184,
+                "y": 0.6975383758544922,
+                "z": -3.225064992904663
+            },
+            "localPosition": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.7271978259086609,
+                "y": -0.006240711081773043,
+                "z": -0.00609968975186348,
+                "w": -0.6863725781440735
+            },
+            "color": {
+                "r": 1.0,
+                "g": 0.699999988079071,
+                "b": 0.38999998569488528,
+                "a": 1.0
+            },
+            "intensity": 0.5199999809265137,
+            "range": 2.200000047683716,
+            "spotAngle": 30.0,
+            "colorTemperature": 6570.0,
+            "useColorTemperature": false
+        },
+        {
+            "id": -596,
+            "cullingMask": -1,
+            "name": "Someone is still awake",
+            "type": "Point",
+            "shadows": "None",
+            "enabled": true,
+            "position": {
+                "x": -4.099999904632568,
+                "y": 2.299999952316284,
+                "z": 2.5999999046325685
+            },
+            "localPosition": {
+                "x": -4.099999904632568,
+                "y": 2.299999952316284,
+                "z": 2.5999999046325685
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "color": {
+                "r": 1.0,
+                "g": 0.7200000286102295,
+                "b": 0.4000000059604645,
+                "a": 1.0
+            },
+            "intensity": 1.25,
+            "range": 4.5,
+            "spotAngle": 30.0,
+            "colorTemperature": 6570.0,
+            "useColorTemperature": false
+        },
+        {
+            "id": -590,
+            "cullingMask": -1,
+            "name": "The warmth of remembered stories",
+            "type": "Directional",
+            "shadows": "None",
+            "enabled": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "localPosition": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.1884319931268692,
+                "y": 0.4133830666542053,
+                "z": -0.08786728233098984,
+                "w": 0.8865028023719788
+            },
+            "color": {
+                "r": 1.0,
+                "g": 0.878000020980835,
+                "b": 0.7409999966621399,
+                "a": 1.0
+            },
+            "intensity": 0.18000000715255738,
+            "range": 5.0,
+            "spotAngle": 30.0,
+            "colorTemperature": 6570.0,
+            "useColorTemperature": false
+        },
+        {
+            "id": -584,
+            "cullingMask": -1,
+            "name": "Blue hour",
+            "type": "Directional",
+            "shadows": "None",
+            "enabled": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "localPosition": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.07301944494247437,
+                "y": 0.9069052934646606,
+                "z": -0.1762845367193222,
+                "w": 0.3756524622440338
+            },
+            "color": {
+                "r": 0.3199999928474426,
+                "g": 0.5699999928474426,
+                "b": 0.8500000238418579,
+                "a": 1.0
+            },
+            "intensity": 0.3499999940395355,
+            "range": 5.0,
+            "spotAngle": 30.0,
+            "colorTemperature": 6570.0,
+            "useColorTemperature": false
+        },
+        {
+            "id": -578,
+            "cullingMask": -1,
+            "name": "The light of the moon",
+            "type": "Directional",
+            "shadows": "Soft",
+            "enabled": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "localPosition": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.3104998767375946,
+                "y": -0.28432294726371767,
+                "z": 0.09790023416280747,
+                "w": 0.9017571210861206
+            },
+            "color": {
+                "r": 0.7730000019073486,
+                "g": 0.8159999847412109,
+                "b": 0.8669999837875366,
+                "a": 1.0
+            },
+            "intensity": 0.620180606842041,
+            "range": 5.0,
+            "spotAngle": 30.0,
+            "colorTemperature": 6570.0,
+            "useColorTemperature": false
+        }
+    ],
+    "materials": [
+        {
+            "id": -3790,
+            "renderQueue": 2000,
+            "properties": {
+                "name": "Universal Render Pipeline/Lit",
+                "shader": "Universal Render Pipeline/Lit",
+                "baseMap": "",
+                "normalMap": "",
+                "detailMap": "",
+                "keywords": [
+                    "_EMISSION"
+                ],
+                "baseColor": {
+                    "r": 0.800000011920929,
+                    "g": 0.6000000238418579,
+                    "b": 0.31999996304512026,
+                    "a": 1.0
+                },
+                "metallic": 0.0,
+                "smoothness": 0.25,
+                "normalScale": 1.0,
+                "detailStrength": 1.0,
+                "cull": 2.0,
+                "foliageLegacyAux": 0.0,
+                "foliageNormalUp20": 0.0,
+                "baseTiling": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "baseOffset": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "detailTiling": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "detailOffset": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "doubleSidedGI": false
+            },
+            "emission": {
+                "r": 0.800000011920929,
+                "g": 0.6000000238418579,
+                "b": 0.3199999928474426,
+                "a": 1.0
+            },
+            "surfaceKind": 0.0
+        },
+        {
+            "id": -3726,
+            "renderQueue": 2000,
+            "properties": {
+                "name": "Universal Render Pipeline/Lit",
+                "shader": "Universal Render Pipeline/Lit",
+                "baseMap": "",
+                "normalMap": "",
+                "detailMap": "",
+                "keywords": [
+                    "_EMISSION"
+                ],
+                "baseColor": {
+                    "r": 1.0,
+                    "g": 0.7699999809265137,
+                    "b": 0.3699999749660492,
+                    "a": 1.0
+                },
+                "metallic": 0.0,
+                "smoothness": 0.25,
+                "normalScale": 1.0,
+                "detailStrength": 1.0,
+                "cull": 2.0,
+                "foliageLegacyAux": 0.0,
+                "foliageNormalUp20": 0.0,
+                "baseTiling": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "baseOffset": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "detailTiling": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "detailOffset": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "doubleSidedGI": false
+            },
+            "emission": {
+                "r": 3.0,
+                "g": 2.309999942779541,
+                "b": 1.1100000143051148,
+                "a": 3.0
+            },
+            "surfaceKind": 0.0
+        },
+        {
+            "id": -3718,
+            "renderQueue": 3000,
+            "properties": {
+                "name": "LightVeil",
+                "shader": "BorrowedLight/LightVeil",
+                "baseMap": "",
+                "normalMap": "",
+                "detailMap": "",
+                "keywords": [],
+                "baseColor": {
+                    "r": 1.0,
+                    "g": 1.0,
+                    "b": 1.0,
+                    "a": 1.0
+                },
+                "metallic": 0.0,
+                "smoothness": 0.0,
+                "normalScale": 0.0,
+                "detailStrength": 0.0,
+                "cull": 0.0,
+                "foliageLegacyAux": 0.0,
+                "foliageNormalUp20": 0.0,
+                "baseTiling": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "baseOffset": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "detailTiling": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "detailOffset": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "doubleSidedGI": false
+            },
+            "emission": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0,
+                "a": 1.0
+            },
+            "surfaceKind": 0.0
+        },
+        {
+            "id": -3704,
+            "renderQueue": 3000,
+            "properties": {
+                "name": "LightVeil",
+                "shader": "BorrowedLight/LightVeil",
+                "baseMap": "",
+                "normalMap": "",
+                "detailMap": "",
+                "keywords": [],
+                "baseColor": {
+                    "r": 1.0,
+                    "g": 1.0,
+                    "b": 1.0,
+                    "a": 1.0
+                },
+                "metallic": 0.0,
+                "smoothness": 0.0,
+                "normalScale": 0.0,
+                "detailStrength": 0.0,
+                "cull": 0.0,
+                "foliageLegacyAux": 0.0,
+                "foliageNormalUp20": 0.0,
+                "baseTiling": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "baseOffset": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "detailTiling": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "detailOffset": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "doubleSidedGI": false
+            },
+            "emission": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0,
+                "a": 1.0
+            },
+            "surfaceKind": 0.0
+        },
+        {
+            "id": -3690,
+            "renderQueue": 3000,
+            "properties": {
+                "name": "LightVeil",
+                "shader": "BorrowedLight/LightVeil",
+                "baseMap": "",
+                "normalMap": "",
+                "detailMap": "",
+                "keywords": [],
+                "baseColor": {
+                    "r": 1.0,
+                    "g": 1.0,
+                    "b": 1.0,
+                    "a": 1.0
+                },
+                "metallic": 0.0,
+                "smoothness": 0.0,
+                "normalScale": 0.0,
+                "detailStrength": 0.0,
+                "cull": 0.0,
+                "foliageLegacyAux": 0.0,
+                "foliageNormalUp20": 0.0,
+                "baseTiling": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "baseOffset": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "detailTiling": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "detailOffset": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "doubleSidedGI": false
+            },
+            "emission": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0,
+                "a": 1.0
+            },
+            "surfaceKind": 0.0
+        },
+        {
+            "id": -3676,
+            "renderQueue": 3000,
+            "properties": {
+                "name": "LightVeil",
+                "shader": "BorrowedLight/LightVeil",
+                "baseMap": "",
+                "normalMap": "",
+                "detailMap": "",
+                "keywords": [],
+                "baseColor": {
+                    "r": 1.0,
+                    "g": 1.0,
+                    "b": 1.0,
+                    "a": 1.0
+                },
+                "metallic": 0.0,
+                "smoothness": 0.0,
+                "normalScale": 0.0,
+                "detailStrength": 0.0,
+                "cull": 0.0,
+                "foliageLegacyAux": 0.0,
+                "foliageNormalUp20": 0.0,
+                "baseTiling": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "baseOffset": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "detailTiling": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "detailOffset": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "doubleSidedGI": false
+            },
+            "emission": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0,
+                "a": 1.0
+            },
+            "surfaceKind": 0.0
+        },
+        {
+            "id": -1720,
+            "renderQueue": 2000,
+            "properties": {
+                "name": "Universal Render Pipeline/Lit",
+                "shader": "Universal Render Pipeline/Lit",
+                "baseMap": "",
+                "normalMap": "",
+                "detailMap": "",
+                "keywords": [
+                    "_EMISSION"
+                ],
+                "baseColor": {
+                    "r": 1.0,
+                    "g": 0.75,
+                    "b": 0.3399999737739563,
+                    "a": 1.0
+                },
+                "metallic": 0.0,
+                "smoothness": 0.25,
+                "normalScale": 1.0,
+                "detailStrength": 1.0,
+                "cull": 2.0,
+                "foliageLegacyAux": 0.0,
+                "foliageNormalUp20": 0.0,
+                "baseTiling": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "baseOffset": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "detailTiling": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "detailOffset": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "doubleSidedGI": false
+            },
+            "emission": {
+                "r": 1.0499999523162842,
+                "g": 0.7874999642372131,
+                "b": 0.3569999933242798,
+                "a": 1.0499999523162842
+            },
+            "surfaceKind": 0.0
+        },
+        {
+            "id": -1718,
+            "renderQueue": 2000,
+            "properties": {
+                "name": "Universal Render Pipeline/Lit",
+                "shader": "Universal Render Pipeline/Lit",
+                "baseMap": "",
+                "normalMap": "",
+                "detailMap": "",
+                "keywords": [
+                    "_EMISSION"
+                ],
+                "baseColor": {
+                    "r": 1.0,
+                    "g": 0.6800000071525574,
+                    "b": 0.2799999713897705,
+                    "a": 1.0
+                },
+                "metallic": 0.0,
+                "smoothness": 0.25,
+                "normalScale": 1.0,
+                "detailStrength": 1.0,
+                "cull": 2.0,
+                "foliageLegacyAux": 0.0,
+                "foliageNormalUp20": 0.0,
+                "baseTiling": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "baseOffset": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "detailTiling": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "detailOffset": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "doubleSidedGI": false
+            },
+            "emission": {
+                "r": 3.5,
+                "g": 2.380000114440918,
+                "b": 0.9800000190734863,
+                "a": 3.5
+            },
+            "surfaceKind": 0.0
+        },
+        {
+            "id": -1716,
+            "renderQueue": 2000,
+            "properties": {
+                "name": "Universal Render Pipeline/Lit",
+                "shader": "Universal Render Pipeline/Lit",
+                "baseMap": "",
+                "normalMap": "",
+                "detailMap": "",
+                "keywords": [],
+                "baseColor": {
+                    "r": 0.4599999189376831,
+                    "g": 0.31999996304512026,
+                    "b": 0.13999995589256288,
+                    "a": 1.0
+                },
+                "metallic": 0.699999988079071,
+                "smoothness": 0.550000011920929,
+                "normalScale": 1.0,
+                "detailStrength": 1.0,
+                "cull": 2.0,
+                "foliageLegacyAux": 0.0,
+                "foliageNormalUp20": 0.0,
+                "baseTiling": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "baseOffset": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "detailTiling": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "detailOffset": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "doubleSidedGI": false
+            },
+            "emission": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0,
+                "a": 1.0
+            },
+            "surfaceKind": 0.0
+        },
+        {
+            "id": -1698,
+            "renderQueue": 2000,
+            "properties": {
+                "name": "Traveler_Trousers_Ink — story light",
+                "shader": "BorrowedLight/PaintedSurface",
+                "baseMap": "",
+                "normalMap": "",
+                "detailMap": "",
+                "keywords": [
+                    "_PAINT_VERTEX_COLOR"
+                ],
+                "baseColor": {
+                    "r": 0.20598405599594117,
+                    "g": 0.3491900861263275,
+                    "b": 0.41002076864242556,
+                    "a": 1.0
+                },
+                "metallic": 0.0,
+                "smoothness": 0.09000000357627869,
+                "normalScale": 1.0,
+                "detailStrength": 0.0,
+                "cull": 0.0,
+                "foliageLegacyAux": 0.0,
+                "foliageNormalUp20": 0.0,
+                "baseTiling": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "baseOffset": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "detailTiling": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "detailOffset": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "doubleSidedGI": true
+            },
+            "emission": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0,
+                "a": 1.0
+            },
+            "surfaceKind": 5.0
+        },
+        {
+            "id": -1696,
+            "renderQueue": 2000,
+            "properties": {
+                "name": "Traveler_Face_SoftLips — story light",
+                "shader": "BorrowedLight/PaintedSurface",
+                "baseMap": "",
+                "normalMap": "",
+                "detailMap": "",
+                "keywords": [
+                    "_PAINT_VERTEX_COLOR"
+                ],
+                "baseColor": {
+                    "r": 0.7673755288124085,
+                    "g": 0.5926192998886108,
+                    "b": 0.5220286250114441,
+                    "a": 1.0
+                },
+                "metallic": 0.0,
+                "smoothness": 0.20000000298023225,
+                "normalScale": 1.0,
+                "detailStrength": 0.0,
+                "cull": 0.0,
+                "foliageLegacyAux": 0.0,
+                "foliageNormalUp20": 0.0,
+                "baseTiling": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "baseOffset": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "detailTiling": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "detailOffset": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "doubleSidedGI": true
+            },
+            "emission": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0,
+                "a": 1.0
+            },
+            "surfaceKind": 6.0
+        },
+        {
+            "id": -1694,
+            "renderQueue": 2000,
+            "properties": {
+                "name": "Traveler_Hair_MidnightBlue — story light",
+                "shader": "Universal Render Pipeline/Lit",
+                "baseMap": "",
+                "normalMap": "",
+                "detailMap": "",
+                "keywords": [],
+                "baseColor": {
+                    "r": 0.34064334630966189,
+                    "g": 0.28060415387153628,
+                    "b": 0.24269360303878785,
+                    "a": 1.0
+                },
+                "metallic": 0.0,
+                "smoothness": 0.17000000178813935,
+                "normalScale": 1.0,
+                "detailStrength": 1.0,
+                "cull": 0.0,
+                "foliageLegacyAux": 0.0,
+                "foliageNormalUp20": 0.0,
+                "baseTiling": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "baseOffset": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "detailTiling": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "detailOffset": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "doubleSidedGI": true
+            },
+            "emission": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0,
+                "a": 1.0
+            },
+            "surfaceKind": 0.0
+        },
+        {
+            "id": -1692,
+            "renderQueue": 2000,
+            "properties": {
+                "name": "Traveler_Eye_Pupil — story light",
+                "shader": "Universal Render Pipeline/Lit",
+                "baseMap": "",
+                "normalMap": "",
+                "detailMap": "",
+                "keywords": [],
+                "baseColor": {
+                    "r": 0.11207485944032669,
+                    "g": 0.14282560348510743,
+                    "b": 0.17923611402511598,
+                    "a": 1.0
+                },
+                "metallic": 0.0,
+                "smoothness": 0.5,
+                "normalScale": 1.0,
+                "detailStrength": 1.0,
+                "cull": 0.0,
+                "foliageLegacyAux": 0.0,
+                "foliageNormalUp20": 0.0,
+                "baseTiling": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "baseOffset": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "detailTiling": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "detailOffset": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "doubleSidedGI": true
+            },
+            "emission": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0,
+                "a": 1.0
+            },
+            "surfaceKind": 0.0
+        },
+        {
+            "id": -1690,
+            "renderQueue": 2000,
+            "properties": {
+                "name": "Traveler_Eye_Ivory — story light",
+                "shader": "Universal Render Pipeline/Lit",
+                "baseMap": "",
+                "normalMap": "",
+                "detailMap": "",
+                "keywords": [],
+                "baseColor": {
+                    "r": 0.8543057441711426,
+                    "g": 0.8515938520431519,
+                    "b": 0.8152506351470947,
+                    "a": 1.0
+                },
+                "metallic": 0.0,
+                "smoothness": 0.18000000715255738,
+                "normalScale": 1.0,
+                "detailStrength": 1.0,
+                "cull": 0.0,
+                "foliageLegacyAux": 0.0,
+                "foliageNormalUp20": 0.0,
+                "baseTiling": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "baseOffset": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "detailTiling": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "detailOffset": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "doubleSidedGI": true
+            },
+            "emission": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0,
+                "a": 1.0
+            },
+            "surfaceKind": 0.0
+        },
+        {
+            "id": -1688,
+            "renderQueue": 2000,
+            "properties": {
+                "name": "Traveler_Eye_Chestnut — story light",
+                "shader": "Universal Render Pipeline/Lit",
+                "baseMap": "",
+                "normalMap": "",
+                "detailMap": "",
+                "keywords": [],
+                "baseColor": {
+                    "r": 0.4956096410751343,
+                    "g": 0.36873388290405276,
+                    "b": 0.2671172618865967,
+                    "a": 1.0
+                },
+                "metallic": 0.0,
+                "smoothness": 0.3199999928474426,
+                "normalScale": 1.0,
+                "detailStrength": 1.0,
+                "cull": 0.0,
+                "foliageLegacyAux": 0.0,
+                "foliageNormalUp20": 0.0,
+                "baseTiling": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "baseOffset": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "detailTiling": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "detailOffset": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "doubleSidedGI": true
+            },
+            "emission": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0,
+                "a": 1.0
+            },
+            "surfaceKind": 0.0
+        },
+        {
+            "id": -1686,
+            "renderQueue": 2000,
+            "properties": {
+                "name": "Traveler_Eye_Catchlight — story light",
+                "shader": "Universal Render Pipeline/Lit",
+                "baseMap": "",
+                "normalMap": "",
+                "detailMap": "",
+                "keywords": [
+                    "_EMISSION"
+                ],
+                "baseColor": {
+                    "r": 1.0,
+                    "g": 0.9911565184593201,
+                    "b": 0.9405249357223511,
+                    "a": 1.0
+                },
+                "metallic": 0.0,
+                "smoothness": 0.7200000286102295,
+                "normalScale": 1.0,
+                "detailStrength": 1.0,
+                "cull": 0.0,
+                "foliageLegacyAux": 0.0,
+                "foliageNormalUp20": 0.0,
+                "baseTiling": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "baseOffset": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "detailTiling": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "detailOffset": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "doubleSidedGI": true
+            },
+            "emission": {
+                "r": 0.30000001192092898,
+                "g": 0.29734697937965395,
+                "b": 0.2821574807167053,
+                "a": 0.30000001192092898
+            },
+            "surfaceKind": 0.0
+        },
+        {
+            "id": -1684,
+            "renderQueue": 2000,
+            "properties": {
+                "name": "Traveler_Eye_AmberRim — story light",
+                "shader": "Universal Render Pipeline/Lit",
+                "baseMap": "",
+                "normalMap": "",
+                "detailMap": "",
+                "keywords": [],
+                "baseColor": {
+                    "r": 0.5321354866027832,
+                    "g": 0.41686996817588808,
+                    "b": 0.3055160939693451,
+                    "a": 1.0
+                },
+                "metallic": 0.0,
+                "smoothness": 0.3199999928474426,
+                "normalScale": 1.0,
+                "detailStrength": 1.0,
+                "cull": 0.0,
+                "foliageLegacyAux": 0.0,
+                "foliageNormalUp20": 0.0,
+                "baseTiling": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "baseOffset": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "detailTiling": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "detailOffset": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "doubleSidedGI": true
+            },
+            "emission": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0,
+                "a": 1.0
+            },
+            "surfaceKind": 0.0
+        },
+        {
+            "id": -1682,
+            "renderQueue": 2000,
+            "properties": {
+                "name": "Traveler_Hair_Indigo — story light",
+                "shader": "Universal Render Pipeline/Lit",
+                "baseMap": "",
+                "normalMap": "",
+                "detailMap": "",
+                "keywords": [],
+                "baseColor": {
+                    "r": 0.21508187055587769,
+                    "g": 0.18974819779396058,
+                    "b": 0.1931149959564209,
+                    "a": 1.0
+                },
+                "metallic": 0.0,
+                "smoothness": 0.17000000178813935,
+                "normalScale": 1.0,
+                "detailStrength": 1.0,
+                "cull": 0.0,
+                "foliageLegacyAux": 0.0,
+                "foliageNormalUp20": 0.0,
+                "baseTiling": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "baseOffset": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "detailTiling": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "detailOffset": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "doubleSidedGI": true
+            },
+            "emission": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0,
+                "a": 1.0
+            },
+            "surfaceKind": 0.0
+        },
+        {
+            "id": -1680,
+            "renderQueue": 2000,
+            "properties": {
+                "name": "Traveler_Scarf_HarvestGold — story light",
+                "shader": "BorrowedLight/PaintedSurface",
+                "baseMap": "",
+                "normalMap": "",
+                "detailMap": "",
+                "keywords": [
+                    "_PAINT_VERTEX_COLOR"
+                ],
+                "baseColor": {
+                    "r": 0.9260748028755188,
+                    "g": 0.7152408361434937,
+                    "b": 0.38109174370765688,
+                    "a": 1.0
+                },
+                "metallic": 0.0,
+                "smoothness": 0.09000000357627869,
+                "normalScale": 1.0,
+                "detailStrength": 0.0,
+                "cull": 0.0,
+                "foliageLegacyAux": 0.0,
+                "foliageNormalUp20": 0.0,
+                "baseTiling": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "baseOffset": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "detailTiling": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "detailOffset": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "doubleSidedGI": true
+            },
+            "emission": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0,
+                "a": 1.0
+            },
+            "surfaceKind": 5.0
+        },
+        {
+            "id": -1678,
+            "renderQueue": 2000,
+            "properties": {
+                "name": "Traveler_Cape_TwilightTeal — story light",
+                "shader": "BorrowedLight/PaintedSurface",
+                "baseMap": "",
+                "normalMap": "",
+                "detailMap": "",
+                "keywords": [
+                    "_PAINT_VERTEX_COLOR"
+                ],
+                "baseColor": {
+                    "r": 0.2600674033164978,
+                    "g": 0.5321354866027832,
+                    "b": 0.5784764289855957,
+                    "a": 1.0
+                },
+                "metallic": 0.0,
+                "smoothness": 0.09000000357627869,
+                "normalScale": 1.0,
+                "detailStrength": 0.0,
+                "cull": 0.0,
+                "foliageLegacyAux": 0.0,
+                "foliageNormalUp20": 0.0,
+                "baseTiling": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "baseOffset": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "detailTiling": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "detailOffset": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "doubleSidedGI": true
+            },
+            "emission": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0,
+                "a": 1.0
+            },
+            "surfaceKind": 5.0
+        },
+        {
+            "id": -1676,
+            "renderQueue": 2000,
+            "properties": {
+                "name": "Traveler_Scarf_EdgeHoney — story light",
+                "shader": "BorrowedLight/PaintedSurface",
+                "baseMap": "",
+                "normalMap": "",
+                "detailMap": "",
+                "keywords": [
+                    "_PAINT_VERTEX_COLOR"
+                ],
+                "baseColor": {
+                    "r": 0.9866952300071716,
+                    "g": 0.8433891534805298,
+                    "b": 0.527112603187561,
+                    "a": 1.0
+                },
+                "metallic": 0.0,
+                "smoothness": 0.09000000357627869,
+                "normalScale": 1.0,
+                "detailStrength": 0.0,
+                "cull": 0.0,
+                "foliageLegacyAux": 0.0,
+                "foliageNormalUp20": 0.0,
+                "baseTiling": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "baseOffset": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "detailTiling": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "detailOffset": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "doubleSidedGI": true
+            },
+            "emission": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0,
+                "a": 1.0
+            },
+            "surfaceKind": 5.0
+        },
+        {
+            "id": -1674,
+            "renderQueue": 2000,
+            "properties": {
+                "name": "Traveler_Cape_DeepOceanLining — story light",
+                "shader": "BorrowedLight/PaintedSurface",
+                "baseMap": "",
+                "normalMap": "",
+                "detailMap": "",
+                "keywords": [
+                    "_PAINT_VERTEX_COLOR"
+                ],
+                "baseColor": {
+                    "r": 0.17558154463768006,
+                    "g": 0.35253891348838808,
+                    "b": 0.43662694096565249,
+                    "a": 1.0
+                },
+                "metallic": 0.0,
+                "smoothness": 0.09000000357627869,
+                "normalScale": 1.0,
+                "detailStrength": 0.0,
+                "cull": 0.0,
+                "foliageLegacyAux": 0.0,
+                "foliageNormalUp20": 0.0,
+                "baseTiling": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "baseOffset": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "detailTiling": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "detailOffset": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "doubleSidedGI": true
+            },
+            "emission": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0,
+                "a": 1.0
+            },
+            "surfaceKind": 5.0
+        },
+        {
+            "id": -1672,
+            "renderQueue": 2000,
+            "properties": {
+                "name": "Traveler_Lantern_AmberGlass — story light",
+                "shader": "Universal Render Pipeline/Lit",
+                "baseMap": "",
+                "normalMap": "",
+                "detailMap": "",
+                "keywords": [
+                    "_EMISSION"
+                ],
+                "baseColor": {
+                    "r": 0.9866952300071716,
+                    "g": 0.7857768535614014,
+                    "b": 0.4235827624797821,
+                    "a": 1.0
+                },
+                "metallic": 0.0,
+                "smoothness": 0.17000000178813935,
+                "normalScale": 1.0,
+                "detailStrength": 1.0,
+                "cull": 0.0,
+                "foliageLegacyAux": 0.0,
+                "foliageNormalUp20": 0.0,
+                "baseTiling": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "baseOffset": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "detailTiling": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "detailOffset": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "doubleSidedGI": true
+            },
+            "emission": {
+                "r": 0.6906866431236267,
+                "g": 0.5500437617301941,
+                "b": 0.29650795459747317,
+                "a": 0.699999988079071
+            },
+            "surfaceKind": 0.0
+        },
+        {
+            "id": -1670,
+            "renderQueue": 2000,
+            "properties": {
+                "name": "Traveler_Lantern_GoldEdges — story light",
+                "shader": "Universal Render Pipeline/Lit",
+                "baseMap": "",
+                "normalMap": "",
+                "detailMap": "",
+                "keywords": [],
+                "baseColor": {
+                    "r": 0.9452767968177795,
+                    "g": 0.8036309480667114,
+                    "b": 0.5168808698654175,
+                    "a": 1.0
+                },
+                "metallic": 0.7200000286102295,
+                "smoothness": 0.5799999833106995,
+                "normalScale": 1.0,
+                "detailStrength": 1.0,
+                "cull": 2.0,
+                "foliageLegacyAux": 0.0,
+                "foliageNormalUp20": 0.0,
+                "baseTiling": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "baseOffset": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "detailTiling": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "detailOffset": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "doubleSidedGI": false
+            },
+            "emission": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0,
+                "a": 1.0
+            },
+            "surfaceKind": 0.0
+        },
+        {
+            "id": -1668,
+            "renderQueue": 2000,
+            "properties": {
+                "name": "Traveler_Lantern_WarmHeart — story light",
+                "shader": "Universal Render Pipeline/Lit",
+                "baseMap": "",
+                "normalMap": "",
+                "detailMap": "",
+                "keywords": [
+                    "_EMISSION"
+                ],
+                "baseColor": {
+                    "r": 1.0,
+                    "g": 0.8911432027816773,
+                    "b": 0.5838313698768616,
+                    "a": 1.0
+                },
+                "metallic": 0.0,
+                "smoothness": 0.17000000178813935,
+                "normalScale": 1.0,
+                "detailStrength": 1.0,
+                "cull": 0.0,
+                "foliageLegacyAux": 0.0,
+                "foliageNormalUp20": 0.0,
+                "baseTiling": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "baseOffset": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "detailTiling": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "detailOffset": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "doubleSidedGI": true
+            },
+            "emission": {
+                "r": 3.5,
+                "g": 3.1190011501312258,
+                "b": 2.043409824371338,
+                "a": 3.5
+            },
+            "surfaceKind": 0.0
+        },
+        {
+            "id": -1666,
+            "renderQueue": 2000,
+            "properties": {
+                "name": "Traveler_Coat_WashedBlue — story light",
+                "shader": "BorrowedLight/PaintedSurface",
+                "baseMap": "",
+                "normalMap": "",
+                "detailMap": "",
+                "keywords": [
+                    "_PAINT_VERTEX_COLOR"
+                ],
+                "baseColor": {
+                    "r": 0.31330406665802,
+                    "g": 0.5926192998886108,
+                    "b": 0.61803138256073,
+                    "a": 1.0
+                },
+                "metallic": 0.0,
+                "smoothness": 0.09000000357627869,
+                "normalScale": 1.0,
+                "detailStrength": 0.0,
+                "cull": 0.0,
+                "foliageLegacyAux": 0.0,
+                "foliageNormalUp20": 0.0,
+                "baseTiling": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "baseOffset": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "detailTiling": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "detailOffset": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "doubleSidedGI": true
+            },
+            "emission": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0,
+                "a": 1.0
+            },
+            "surfaceKind": 5.0
+        },
+        {
+            "id": -1664,
+            "renderQueue": 2000,
+            "properties": {
+                "name": "Traveler_Lantern_BrushedBrass — story light",
+                "shader": "Universal Render Pipeline/Lit",
+                "baseMap": "",
+                "normalMap": "",
+                "detailMap": "",
+                "keywords": [],
+                "baseColor": {
+                    "r": 0.8209797739982605,
+                    "g": 0.6421664357185364,
+                    "b": 0.35749107599258425,
+                    "a": 1.0
+                },
+                "metallic": 0.7200000286102295,
+                "smoothness": 0.5799999833106995,
+                "normalScale": 1.0,
+                "detailStrength": 1.0,
+                "cull": 2.0,
+                "foliageLegacyAux": 0.0,
+                "foliageNormalUp20": 0.0,
+                "baseTiling": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "baseOffset": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "detailTiling": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "detailOffset": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "doubleSidedGI": false
+            },
+            "emission": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0,
+                "a": 1.0
+            },
+            "surfaceKind": 0.0
+        },
+        {
+            "id": -1662,
+            "renderQueue": 2000,
+            "properties": {
+                "name": "Traveler_Hood_DuskBlue — story light",
+                "shader": "BorrowedLight/PaintedSurface",
+                "baseMap": "",
+                "normalMap": "",
+                "detailMap": "",
+                "keywords": [
+                    "_PAINT_VERTEX_COLOR"
+                ],
+                "baseColor": {
+                    "r": 0.24269360303878785,
+                    "g": 0.43662694096565249,
+                    "b": 0.5168808698654175,
+                    "a": 1.0
+                },
+                "metallic": 0.0,
+                "smoothness": 0.09000000357627869,
+                "normalScale": 1.0,
+                "detailStrength": 0.0,
+                "cull": 0.0,
+                "foliageLegacyAux": 0.0,
+                "foliageNormalUp20": 0.0,
+                "baseTiling": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "baseOffset": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "detailTiling": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "detailOffset": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "doubleSidedGI": true
+            },
+            "emission": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0,
+                "a": 1.0
+            },
+            "surfaceKind": 5.0
+        },
+        {
+            "id": -1660,
+            "renderQueue": 2000,
+            "properties": {
+                "name": "Traveler_Boots_HoneyLeather — story light",
+                "shader": "Universal Render Pipeline/Lit",
+                "baseMap": "",
+                "normalMap": "",
+                "detailMap": "",
+                "keywords": [],
+                "baseColor": {
+                    "r": 0.6421664357185364,
+                    "g": 0.4956096410751343,
+                    "b": 0.35749107599258425,
+                    "a": 1.0
+                },
+                "metallic": 0.0,
+                "smoothness": 0.17000000178813935,
+                "normalScale": 1.0,
+                "detailStrength": 1.0,
+                "cull": 0.0,
+                "foliageLegacyAux": 0.0,
+                "foliageNormalUp20": 0.0,
+                "baseTiling": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "baseOffset": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "detailTiling": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "detailOffset": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "doubleSidedGI": true
+            },
+            "emission": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0,
+                "a": 1.0
+            },
+            "surfaceKind": 0.0
+        },
+        {
+            "id": -1658,
+            "renderQueue": 2000,
+            "properties": {
+                "name": "Traveler_Boots_WornChestnut — story light",
+                "shader": "Universal Render Pipeline/Lit",
+                "baseMap": "",
+                "normalMap": "",
+                "detailMap": "",
+                "keywords": [],
+                "baseColor": {
+                    "r": 0.5063862204551697,
+                    "g": 0.35749107599258425,
+                    "b": 0.2527894377708435,
+                    "a": 1.0
+                },
+                "metallic": 0.0,
+                "smoothness": 0.17000000178813935,
+                "normalScale": 1.0,
+                "detailStrength": 1.0,
+                "cull": 0.0,
+                "foliageLegacyAux": 0.0,
+                "foliageNormalUp20": 0.0,
+                "baseTiling": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "baseOffset": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "detailTiling": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "detailOffset": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "doubleSidedGI": true
+            },
+            "emission": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0,
+                "a": 1.0
+            },
+            "surfaceKind": 0.0
+        },
+        {
+            "id": -1656,
+            "renderQueue": 2000,
+            "properties": {
+                "name": "Traveler_Boots_DarkSole — story light",
+                "shader": "Universal Render Pipeline/Lit",
+                "baseMap": "",
+                "normalMap": "",
+                "detailMap": "",
+                "keywords": [],
+                "baseColor": {
+                    "r": 0.3035319447517395,
+                    "g": 0.2527894377708435,
+                    "b": 0.2209162414073944,
+                    "a": 1.0
+                },
+                "metallic": 0.0,
+                "smoothness": 0.17000000178813935,
+                "normalScale": 1.0,
+                "detailStrength": 1.0,
+                "cull": 0.0,
+                "foliageLegacyAux": 0.0,
+                "foliageNormalUp20": 0.0,
+                "baseTiling": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "baseOffset": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "detailTiling": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "detailOffset": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "doubleSidedGI": true
+            },
+            "emission": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0,
+                "a": 1.0
+            },
+            "surfaceKind": 0.0
+        },
+        {
+            "id": -1654,
+            "renderQueue": 2000,
+            "properties": {
+                "name": "Traveler_Stitches_PaleFlax — story light",
+                "shader": "Universal Render Pipeline/Lit",
+                "baseMap": "",
+                "normalMap": "",
+                "detailMap": "",
+                "keywords": [],
+                "baseColor": {
+                    "r": 0.7977376580238342,
+                    "g": 0.8266569972038269,
+                    "b": 0.741905152797699,
+                    "a": 1.0
+                },
+                "metallic": 0.0,
+                "smoothness": 0.17000000178813935,
+                "normalScale": 1.0,
+                "detailStrength": 1.0,
+                "cull": 0.0,
+                "foliageLegacyAux": 0.0,
+                "foliageNormalUp20": 0.0,
+                "baseTiling": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "baseOffset": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "detailTiling": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "detailOffset": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "doubleSidedGI": true
+            },
+            "emission": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0,
+                "a": 1.0
+            },
+            "surfaceKind": 0.0
+        },
+        {
+            "id": -1652,
+            "renderQueue": 2000,
+            "properties": {
+                "name": "Traveler_Gloves_OatKnit — story light",
+                "shader": "BorrowedLight/PaintedSurface",
+                "baseMap": "",
+                "normalMap": "",
+                "detailMap": "",
+                "keywords": [
+                    "_PAINT_VERTEX_COLOR"
+                ],
+                "baseColor": {
+                    "r": 0.6651850342750549,
+                    "g": 0.6763172149658203,
+                    "b": 0.6138895750045776,
+                    "a": 1.0
+                },
+                "metallic": 0.0,
+                "smoothness": 0.09000000357627869,
+                "normalScale": 1.0,
+                "detailStrength": 0.0,
+                "cull": 0.0,
+                "foliageLegacyAux": 0.0,
+                "foliageNormalUp20": 0.0,
+                "baseTiling": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "baseOffset": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "detailTiling": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "detailOffset": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "doubleSidedGI": true
+            },
+            "emission": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0,
+                "a": 1.0
+            },
+            "surfaceKind": 5.0
+        },
+        {
+            "id": -1650,
+            "renderQueue": 2000,
+            "properties": {
+                "name": "Traveler_Face_RoseCheeks — story light",
+                "shader": "BorrowedLight/PaintedSurface",
+                "baseMap": "",
+                "normalMap": "",
+                "detailMap": "",
+                "keywords": [
+                    "_PAINT_VERTEX_COLOR"
+                ],
+                "baseColor": {
+                    "r": 0.9260748028755188,
+                    "g": 0.8036309480667114,
+                    "b": 0.7287318110466003,
+                    "a": 1.0
+                },
+                "metallic": 0.0,
+                "smoothness": 0.20000000298023225,
+                "normalScale": 1.0,
+                "detailStrength": 0.0,
+                "cull": 0.0,
+                "foliageLegacyAux": 0.0,
+                "foliageNormalUp20": 0.0,
+                "baseTiling": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "baseOffset": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "detailTiling": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "detailOffset": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "doubleSidedGI": true
+            },
+            "emission": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0,
+                "a": 1.0
+            },
+            "surfaceKind": 6.0
+        },
+        {
+            "id": -1648,
+            "renderQueue": 2000,
+            "properties": {
+                "name": "Traveler_Face_PorcelainCream — story light",
+                "shader": "BorrowedLight/PaintedSurface",
+                "baseMap": "",
+                "normalMap": "",
+                "detailMap": "",
+                "keywords": [
+                    "_PAINT_VERTEX_COLOR"
+                ],
+                "baseColor": {
+                    "r": 0.9357409477233887,
+                    "g": 0.8406307697296143,
+                    "b": 0.7451512813568115,
+                    "a": 1.0
+                },
+                "metallic": 0.0,
+                "smoothness": 0.20000000298023225,
+                "normalScale": 1.0,
+                "detailStrength": 0.0,
+                "cull": 0.0,
+                "foliageLegacyAux": 0.0,
+                "foliageNormalUp20": 0.0,
+                "baseTiling": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "baseOffset": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "detailTiling": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "detailOffset": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "doubleSidedGI": true
+            },
+            "emission": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0,
+                "a": 1.0
+            },
+            "surfaceKind": 6.0
+        },
+        {
+            "id": -1646,
+            "renderQueue": 2000,
+            "properties": {
+                "name": "Traveler_Face_NoseCream — story light",
+                "shader": "BorrowedLight/PaintedSurface",
+                "baseMap": "",
+                "normalMap": "",
+                "detailMap": "",
+                "keywords": [
+                    "_PAINT_VERTEX_COLOR"
+                ],
+                "baseColor": {
+                    "r": 0.9452767968177795,
+                    "g": 0.8515938520431519,
+                    "b": 0.757955014705658,
+                    "a": 1.0
+                },
+                "metallic": 0.0,
+                "smoothness": 0.20000000298023225,
+                "normalScale": 1.0,
+                "detailStrength": 0.0,
+                "cull": 0.0,
+                "foliageLegacyAux": 0.0,
+                "foliageNormalUp20": 0.0,
+                "baseTiling": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "baseOffset": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "detailTiling": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "detailOffset": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "doubleSidedGI": true
+            },
+            "emission": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0,
+                "a": 1.0
+            },
+            "surfaceKind": 6.0
+        },
+        {
+            "id": -1644,
+            "renderQueue": 2000,
+            "properties": {
+                "name": "Traveler_Face_Fingernails — story light",
+                "shader": "BorrowedLight/PaintedSurface",
+                "baseMap": "",
+                "normalMap": "",
+                "detailMap": "",
+                "keywords": [
+                    "_PAINT_VERTEX_COLOR"
+                ],
+                "baseColor": {
+                    "r": 0.9499973654747009,
+                    "g": 0.8729804754257202,
+                    "b": 0.8006914258003235,
+                    "a": 1.0
+                },
+                "metallic": 0.0,
+                "smoothness": 0.20000000298023225,
+                "normalScale": 1.0,
+                "detailStrength": 0.0,
+                "cull": 0.0,
+                "foliageLegacyAux": 0.0,
+                "foliageNormalUp20": 0.0,
+                "baseTiling": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "baseOffset": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "detailTiling": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "detailOffset": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "doubleSidedGI": true
+            },
+            "emission": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0,
+                "a": 1.0
+            },
+            "surfaceKind": 6.0
+        },
+        {
+            "id": -1642,
+            "renderQueue": 2000,
+            "properties": {
+                "name": "Traveler_Cape_SeaMistBinding — story light",
+                "shader": "BorrowedLight/PaintedSurface",
+                "baseMap": "",
+                "normalMap": "",
+                "detailMap": "",
+                "keywords": [
+                    "_PAINT_VERTEX_COLOR"
+                ],
+                "baseColor": {
+                    "r": 0.373426616191864,
+                    "g": 0.6054964065551758,
+                    "b": 0.61803138256073,
+                    "a": 1.0
+                },
+                "metallic": 0.0,
+                "smoothness": 0.09000000357627869,
+                "normalScale": 1.0,
+                "detailStrength": 0.0,
+                "cull": 0.0,
+                "foliageLegacyAux": 0.0,
+                "foliageNormalUp20": 0.0,
+                "baseTiling": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "baseOffset": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "detailTiling": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "detailOffset": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "doubleSidedGI": true
+            },
+            "emission": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0,
+                "a": 1.0
+            },
+            "surfaceKind": 5.0
+        },
+        {
+            "id": -1076,
+            "renderQueue": 2000,
+            "properties": {
+                "name": "Universal Render Pipeline/Lit",
+                "shader": "Universal Render Pipeline/Lit",
+                "baseMap": "",
+                "normalMap": "",
+                "detailMap": "",
+                "keywords": [
+                    "_EMISSION"
+                ],
+                "baseColor": {
+                    "r": 0.699999988079071,
+                    "g": 0.5199999809265137,
+                    "b": 0.2499999701976776,
+                    "a": 1.0
+                },
+                "metallic": 0.0,
+                "smoothness": 0.25,
+                "normalScale": 1.0,
+                "detailStrength": 1.0,
+                "cull": 2.0,
+                "foliageLegacyAux": 0.0,
+                "foliageNormalUp20": 0.0,
+                "baseTiling": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "baseOffset": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "detailTiling": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "detailOffset": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "doubleSidedGI": false
+            },
+            "emission": {
+                "r": 0.21000000834465028,
+                "g": 0.15600000321865083,
+                "b": 0.07500000298023224,
+                "a": 0.30000001192092898
+            },
+            "surfaceKind": 0.0
+        },
+        {
+            "id": -1056,
+            "renderQueue": 2000,
+            "properties": {
+                "name": "The original warm distant starlight",
+                "shader": "BorrowedLight/Starfield",
+                "baseMap": "",
+                "normalMap": "",
+                "detailMap": "",
+                "keywords": [],
+                "baseColor": {
+                    "r": 1.0,
+                    "g": 0.7699999809265137,
+                    "b": 0.3999999761581421,
+                    "a": 1.0
+                },
+                "metallic": 0.0,
+                "smoothness": 0.25,
+                "normalScale": 1.0,
+                "detailStrength": 0.0,
+                "cull": 0.0,
+                "foliageLegacyAux": 0.0,
+                "foliageNormalUp20": 0.0,
+                "baseTiling": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "baseOffset": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "detailTiling": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "detailOffset": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "doubleSidedGI": false
+            },
+            "emission": {
+                "r": 2.799999952316284,
+                "g": 2.1559998989105226,
+                "b": 1.1200000047683716,
+                "a": 2.799999952316284
+            },
+            "surfaceKind": 0.0
+        },
+        {
+            "id": -630,
+            "renderQueue": 2000,
+            "properties": {
+                "name": "Universal Render Pipeline/Lit",
+                "shader": "Universal Render Pipeline/Lit",
+                "baseMap": "",
+                "normalMap": "",
+                "detailMap": "",
+                "keywords": [
+                    "_EMISSION"
+                ],
+                "baseColor": {
+                    "r": 0.7400000095367432,
+                    "g": 0.5299999713897705,
+                    "b": 0.2699999511241913,
+                    "a": 1.0
+                },
+                "metallic": 0.0,
+                "smoothness": 0.25,
+                "normalScale": 1.0,
+                "detailStrength": 1.0,
+                "cull": 2.0,
+                "foliageLegacyAux": 0.0,
+                "foliageNormalUp20": 0.0,
+                "baseTiling": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "baseOffset": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "detailTiling": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "detailOffset": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "doubleSidedGI": false
+            },
+            "emission": {
+                "r": 0.3700000047683716,
+                "g": 0.26499998569488528,
+                "b": 0.13500000536441804,
+                "a": 0.5
+            },
+            "surfaceKind": 0.0
+        },
+        {
+            "id": -572,
+            "renderQueue": 1000,
+            "properties": {
+                "name": "CelestialSky",
+                "shader": "BorrowedLight/CelestialSky",
+                "baseMap": "",
+                "normalMap": "",
+                "detailMap": "",
+                "keywords": [],
+                "baseColor": {
+                    "r": 1.0,
+                    "g": 1.0,
+                    "b": 1.0,
+                    "a": 1.0
+                },
+                "metallic": 0.0,
+                "smoothness": 0.0,
+                "normalScale": 0.0,
+                "detailStrength": 0.0,
+                "cull": 0.0,
+                "foliageLegacyAux": 0.0,
+                "foliageNormalUp20": 0.0,
+                "baseTiling": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "baseOffset": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "detailTiling": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "detailOffset": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "doubleSidedGI": false
+            },
+            "emission": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0,
+                "a": 1.0
+            },
+            "surfaceKind": 0.0
+        },
+        {
+            "id": -496,
+            "renderQueue": 2000,
+            "properties": {
+                "name": "BI_quartz — story light",
+                "shader": "Universal Render Pipeline/Lit",
+                "baseMap": "",
+                "normalMap": "",
+                "detailMap": "",
+                "keywords": [],
+                "baseColor": {
+                    "r": 0.679975688457489,
+                    "g": 0.8209797739982605,
+                    "b": 0.8094680905342102,
+                    "a": 1.0
+                },
+                "metallic": 0.0,
+                "smoothness": 0.17000000178813935,
+                "normalScale": 1.0,
+                "detailStrength": 1.0,
+                "cull": 0.0,
+                "foliageLegacyAux": 0.0,
+                "foliageNormalUp20": 0.0,
+                "baseTiling": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "baseOffset": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "detailTiling": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "detailOffset": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "doubleSidedGI": true
+            },
+            "emission": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0,
+                "a": 1.0
+            },
+            "surfaceKind": 0.0
+        },
+        {
+            "id": -494,
+            "renderQueue": 2000,
+            "properties": {
+                "name": "BI_stone_light — story light",
+                "shader": "BorrowedLight/PaintedSurface",
+                "baseMap": "",
+                "normalMap": "",
+                "detailMap": "",
+                "keywords": [],
+                "baseColor": {
+                    "r": 0.7547805905342102,
+                    "g": 0.7857768535614014,
+                    "b": 0.7611121535301209,
+                    "a": 1.0
+                },
+                "metallic": 0.0,
+                "smoothness": 0.17000000178813935,
+                "normalScale": 1.0,
+                "detailStrength": 0.0,
+                "cull": 0.0,
+                "foliageLegacyAux": 0.0,
+                "foliageNormalUp20": 0.0,
+                "baseTiling": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "baseOffset": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "detailTiling": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "detailOffset": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "doubleSidedGI": true
+            },
+            "emission": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0,
+                "a": 1.0
+            },
+            "surfaceKind": 0.0
+        },
+        {
+            "id": -492,
+            "renderQueue": 2000,
+            "properties": {
+                "name": "BI_star_warm — story light",
+                "shader": "Universal Render Pipeline/Lit",
+                "baseMap": "",
+                "normalMap": "",
+                "detailMap": "",
+                "keywords": [],
+                "baseColor": {
+                    "r": 0.9911565184593201,
+                    "g": 0.8962438106536865,
+                    "b": 0.6342527270317078,
+                    "a": 1.0
+                },
+                "metallic": 0.0,
+                "smoothness": 0.17000000178813935,
+                "normalScale": 1.0,
+                "detailStrength": 1.0,
+                "cull": 0.0,
+                "foliageLegacyAux": 0.0,
+                "foliageNormalUp20": 0.0,
+                "baseTiling": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "baseOffset": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "detailTiling": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "detailOffset": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "doubleSidedGI": true
+            },
+            "emission": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0,
+                "a": 1.0
+            },
+            "surfaceKind": 0.0
+        },
+        {
+            "id": -490,
+            "renderQueue": 2000,
+            "properties": {
+                "name": "BI_rock — story light",
+                "shader": "BorrowedLight/PaintedSurface",
+                "baseMap": "",
+                "normalMap": "",
+                "detailMap": "",
+                "keywords": [],
+                "baseColor": {
+                    "r": 0.38109174370765688,
+                    "g": 0.4956096410751343,
+                    "b": 0.5563931465148926,
+                    "a": 1.0
+                },
+                "metallic": 0.0,
+                "smoothness": 0.17000000178813935,
+                "normalScale": 1.0,
+                "detailStrength": 0.0,
+                "cull": 0.0,
+                "foliageLegacyAux": 0.0,
+                "foliageNormalUp20": 0.0,
+                "baseTiling": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "baseOffset": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "detailTiling": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "detailOffset": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "doubleSidedGI": true
+            },
+            "emission": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0,
+                "a": 1.0
+            },
+            "surfaceKind": 0.0
+        },
+        {
+            "id": -488,
+            "renderQueue": 2000,
+            "properties": {
+                "name": "BI_grass — story light",
+                "shader": "BorrowedLight/GroundDetail",
+                "baseMap": "Meadow",
+                "normalMap": "MeadowNormal",
+                "detailMap": "GroundDetailV12",
+                "keywords": [
+                    "_ENVIRONMENTREFLECTIONS_OFF",
+                    "_NORMALMAP",
+                    "_SPECULARHIGHLIGHTS_OFF"
+                ],
+                "baseColor": {
+                    "r": 1.0,
+                    "g": 1.0,
+                    "b": 1.0,
+                    "a": 1.0
+                },
+                "metallic": 0.0,
+                "smoothness": 0.0,
+                "normalScale": 0.2199999988079071,
+                "detailStrength": 0.3499999940395355,
+                "cull": 0.0,
+                "foliageLegacyAux": 0.0,
+                "foliageNormalUp20": 0.0,
+                "baseTiling": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "baseOffset": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "detailTiling": {
+                    "x": 0.5555555820465088,
+                    "y": 0.5555555820465088
+                },
+                "detailOffset": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "doubleSidedGI": true
+            },
+            "emission": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0,
+                "a": 1.0
+            },
+            "surfaceKind": 0.0
+        },
+        {
+            "id": -486,
+            "renderQueue": 2000,
+            "properties": {
+                "name": "BI_rock_light — story light",
+                "shader": "BorrowedLight/PaintedSurface",
+                "baseMap": "",
+                "normalMap": "",
+                "detailMap": "",
+                "keywords": [],
+                "baseColor": {
+                    "r": 0.5168808698654175,
+                    "g": 0.61803138256073,
+                    "b": 0.6651850342750549,
+                    "a": 1.0
+                },
+                "metallic": 0.0,
+                "smoothness": 0.17000000178813935,
+                "normalScale": 1.0,
+                "detailStrength": 0.0,
+                "cull": 0.0,
+                "foliageLegacyAux": 0.0,
+                "foliageNormalUp20": 0.0,
+                "baseTiling": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "baseOffset": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "detailTiling": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "detailOffset": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "doubleSidedGI": true
+            },
+            "emission": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0,
+                "a": 1.0
+            },
+            "surfaceKind": 0.0
+        },
+        {
+            "id": -484,
+            "renderQueue": 2000,
+            "properties": {
+                "name": "BI_moss — story light",
+                "shader": "Universal Render Pipeline/Lit",
+                "baseMap": "",
+                "normalMap": "",
+                "detailMap": "",
+                "keywords": [
+                    "_ENVIRONMENTREFLECTIONS_OFF",
+                    "_SPECULARHIGHLIGHTS_OFF"
+                ],
+                "baseColor": {
+                    "r": 0.6342527270317078,
+                    "g": 0.6872170567512512,
+                    "b": 0.4731205701828003,
+                    "a": 1.0
+                },
+                "metallic": 0.0,
+                "smoothness": 0.0,
+                "normalScale": 1.0,
+                "detailStrength": 1.0,
+                "cull": 0.0,
+                "foliageLegacyAux": 0.0,
+                "foliageNormalUp20": 0.0,
+                "baseTiling": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "baseOffset": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "detailTiling": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "detailOffset": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "doubleSidedGI": true
+            },
+            "emission": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0,
+                "a": 1.0
+            },
+            "surfaceKind": 0.0
+        },
+        {
+            "id": -482,
+            "renderQueue": 2000,
+            "properties": {
+                "name": "BI_flower_blue — story light",
+                "shader": "Universal Render Pipeline/Lit",
+                "baseMap": "",
+                "normalMap": "",
+                "detailMap": "",
+                "keywords": [
+                    "_ENVIRONMENTREFLECTIONS_OFF",
+                    "_SPECULARHIGHLIGHTS_OFF"
+                ],
+                "baseColor": {
+                    "r": 0.5748708844184876,
+                    "g": 0.7673755288124085,
+                    "b": 0.7977376580238342,
+                    "a": 1.0
+                },
+                "metallic": 0.0,
+                "smoothness": 0.0,
+                "normalScale": 1.0,
+                "detailStrength": 1.0,
+                "cull": 0.0,
+                "foliageLegacyAux": 0.0,
+                "foliageNormalUp20": 0.0,
+                "baseTiling": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "baseOffset": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "detailTiling": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "detailOffset": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "doubleSidedGI": true
+            },
+            "emission": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0,
+                "a": 1.0
+            },
+            "surfaceKind": 0.0
+        },
+        {
+            "id": -480,
+            "renderQueue": 2000,
+            "properties": {
+                "name": "BI_stone_path_slate — story light",
+                "shader": "BorrowedLight/PaintedSurface",
+                "baseMap": "",
+                "normalMap": "",
+                "detailMap": "",
+                "keywords": [],
+                "baseColor": {
+                    "r": 0.5748708844184876,
+                    "g": 0.6221377849578857,
+                    "b": 0.601243257522583,
+                    "a": 1.0
+                },
+                "metallic": 0.0,
+                "smoothness": 0.17000000178813935,
+                "normalScale": 1.0,
+                "detailStrength": 0.0,
+                "cull": 0.0,
+                "foliageLegacyAux": 0.0,
+                "foliageNormalUp20": 0.0,
+                "baseTiling": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "baseOffset": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "detailTiling": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "detailOffset": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "doubleSidedGI": true
+            },
+            "emission": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0,
+                "a": 1.0
+            },
+            "surfaceKind": 0.0
+        },
+        {
+            "id": -478,
+            "renderQueue": 2000,
+            "properties": {
+                "name": "BI_stone_path_ochre — story light",
+                "shader": "BorrowedLight/PaintedSurface",
+                "baseMap": "",
+                "normalMap": "",
+                "detailMap": "",
+                "keywords": [],
+                "baseColor": {
+                    "r": 0.6614202857017517,
+                    "g": 0.6538065671920776,
+                    "b": 0.5969513058662415,
+                    "a": 1.0
+                },
+                "metallic": 0.0,
+                "smoothness": 0.17000000178813935,
+                "normalScale": 1.0,
+                "detailStrength": 0.0,
+                "cull": 0.0,
+                "foliageLegacyAux": 0.0,
+                "foliageNormalUp20": 0.0,
+                "baseTiling": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "baseOffset": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "detailTiling": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "detailOffset": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "doubleSidedGI": true
+            },
+            "emission": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0,
+                "a": 1.0
+            },
+            "surfaceKind": 0.0
+        },
+        {
+            "id": -476,
+            "renderQueue": 2000,
+            "properties": {
+                "name": "BI_stone_path_warm — story light",
+                "shader": "BorrowedLight/PaintedSurface",
+                "baseMap": "",
+                "normalMap": "",
+                "detailMap": "",
+                "keywords": [],
+                "baseColor": {
+                    "r": 0.6302477121353149,
+                    "g": 0.6382253766059876,
+                    "b": 0.5969513058662415,
+                    "a": 1.0
+                },
+                "metallic": 0.0,
+                "smoothness": 0.17000000178813935,
+                "normalScale": 1.0,
+                "detailStrength": 0.0,
+                "cull": 0.0,
+                "foliageLegacyAux": 0.0,
+                "foliageNormalUp20": 0.0,
+                "baseTiling": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "baseOffset": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "detailTiling": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "detailOffset": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "doubleSidedGI": true
+            },
+            "emission": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0,
+                "a": 1.0
+            },
+            "surfaceKind": 0.0
+        },
+        {
+            "id": -474,
+            "renderQueue": 2000,
+            "properties": {
+                "name": "BI_leaf_blue — story light",
+                "shader": "BorrowedLight/FoliagePaint",
+                "baseMap": "",
+                "normalMap": "",
+                "detailMap": "",
+                "keywords": [
+                    "_FOLIAGE_VERTEX_COLOR"
+                ],
+                "baseColor": {
+                    "r": 0.5063862204551697,
+                    "g": 0.6342527270317078,
+                    "b": 0.5838313698768616,
+                    "a": 1.0
+                },
+                "metallic": 0.0,
+                "smoothness": 0.0,
+                "normalScale": 1.0,
+                "detailStrength": 0.0,
+                "cull": 0.0,
+                "foliageLegacyAux": 0.0,
+                "foliageNormalUp20": 0.0,
+                "baseTiling": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "baseOffset": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "detailTiling": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "detailOffset": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "doubleSidedGI": true
+            },
+            "emission": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0,
+                "a": 1.0
+            },
+            "surfaceKind": 0.0
+        },
+        {
+            "id": -472,
+            "renderQueue": 2000,
+            "properties": {
+                "name": "BI_leaf_dark — story light",
+                "shader": "BorrowedLight/FoliagePaint",
+                "baseMap": "",
+                "normalMap": "",
+                "detailMap": "",
+                "keywords": [
+                    "_FOLIAGE_VERTEX_COLOR"
+                ],
+                "baseColor": {
+                    "r": 0.4235827624797821,
+                    "g": 0.5563931465148926,
+                    "b": 0.4235827624797821,
+                    "a": 1.0
+                },
+                "metallic": 0.0,
+                "smoothness": 0.0,
+                "normalScale": 1.0,
+                "detailStrength": 0.0,
+                "cull": 0.0,
+                "foliageLegacyAux": 0.0,
+                "foliageNormalUp20": 0.0,
+                "baseTiling": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "baseOffset": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "detailTiling": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "detailOffset": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "doubleSidedGI": true
+            },
+            "emission": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0,
+                "a": 1.0
+            },
+            "surfaceKind": 0.0
+        },
+        {
+            "id": -470,
+            "renderQueue": 2000,
+            "properties": {
+                "name": "BI_sea_glass — story light",
+                "shader": "Universal Render Pipeline/Lit",
+                "baseMap": "",
+                "normalMap": "",
+                "detailMap": "",
+                "keywords": [],
+                "baseColor": {
+                    "r": 0.5370987057685852,
+                    "g": 0.7977376580238342,
+                    "b": 0.8094680905342102,
+                    "a": 1.0
+                },
+                "metallic": 0.0,
+                "smoothness": 0.17000000178813935,
+                "normalScale": 1.0,
+                "detailStrength": 1.0,
+                "cull": 0.0,
+                "foliageLegacyAux": 0.0,
+                "foliageNormalUp20": 0.0,
+                "baseTiling": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "baseOffset": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "detailTiling": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "detailOffset": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "doubleSidedGI": true
+            },
+            "emission": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0,
+                "a": 1.0
+            },
+            "surfaceKind": 0.0
+        },
+        {
+            "id": -468,
+            "renderQueue": 2000,
+            "properties": {
+                "name": "BI_rock_blue — story light",
+                "shader": "BorrowedLight/PaintedSurface",
+                "baseMap": "",
+                "normalMap": "",
+                "detailMap": "",
+                "keywords": [],
+                "baseColor": {
+                    "r": 0.4492037892341614,
+                    "g": 0.5563931465148926,
+                    "b": 0.6342527270317078,
+                    "a": 1.0
+                },
+                "metallic": 0.0,
+                "smoothness": 0.17000000178813935,
+                "normalScale": 1.0,
+                "detailStrength": 0.0,
+                "cull": 0.0,
+                "foliageLegacyAux": 0.0,
+                "foliageNormalUp20": 0.0,
+                "baseTiling": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "baseOffset": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "detailTiling": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "detailOffset": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "doubleSidedGI": true
+            },
+            "emission": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0,
+                "a": 1.0
+            },
+            "surfaceKind": 0.0
+        },
+        {
+            "id": -466,
+            "renderQueue": 2000,
+            "properties": {
+                "name": "BI_mushroom_spot — story light",
+                "shader": "Universal Render Pipeline/Lit",
+                "baseMap": "",
+                "normalMap": "",
+                "detailMap": "",
+                "keywords": [],
+                "baseColor": {
+                    "r": 0.9593464732170105,
+                    "g": 0.8911432027816773,
+                    "b": 0.7353569269180298,
+                    "a": 1.0
+                },
+                "metallic": 0.0,
+                "smoothness": 0.17000000178813935,
+                "normalScale": 1.0,
+                "detailStrength": 1.0,
+                "cull": 0.0,
+                "foliageLegacyAux": 0.0,
+                "foliageNormalUp20": 0.0,
+                "baseTiling": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "baseOffset": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "detailTiling": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "detailOffset": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "doubleSidedGI": true
+            },
+            "emission": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0,
+                "a": 1.0
+            },
+            "surfaceKind": 0.0
+        },
+        {
+            "id": -464,
+            "renderQueue": 2000,
+            "properties": {
+                "name": "BI_mushroom — story light",
+                "shader": "Universal Render Pipeline/Lit",
+                "baseMap": "",
+                "normalMap": "",
+                "detailMap": "",
+                "keywords": [],
+                "baseColor": {
+                    "r": 0.865041971206665,
+                    "g": 0.6342527270317078,
+                    "b": 0.527112603187561,
+                    "a": 1.0
+                },
+                "metallic": 0.0,
+                "smoothness": 0.17000000178813935,
+                "normalScale": 1.0,
+                "detailStrength": 1.0,
+                "cull": 0.0,
+                "foliageLegacyAux": 0.0,
+                "foliageNormalUp20": 0.0,
+                "baseTiling": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "baseOffset": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "detailTiling": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "detailOffset": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "doubleSidedGI": true
+            },
+            "emission": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0,
+                "a": 1.0
+            },
+            "surfaceKind": 0.0
+        },
+        {
+            "id": -462,
+            "renderQueue": 2000,
+            "properties": {
+                "name": "BI_flower_lilac — story light",
+                "shader": "Universal Render Pipeline/Lit",
+                "baseMap": "",
+                "normalMap": "",
+                "detailMap": "",
+                "keywords": [
+                    "_ENVIRONMENTREFLECTIONS_OFF",
+                    "_SPECULARHIGHLIGHTS_OFF"
+                ],
+                "baseColor": {
+                    "r": 0.7287318110466003,
+                    "g": 0.6872170567512512,
+                    "b": 0.8266569972038269,
+                    "a": 1.0
+                },
+                "metallic": 0.0,
+                "smoothness": 0.0,
+                "normalScale": 1.0,
+                "detailStrength": 1.0,
+                "cull": 0.0,
+                "foliageLegacyAux": 0.0,
+                "foliageNormalUp20": 0.0,
+                "baseTiling": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "baseOffset": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "detailTiling": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "detailOffset": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "doubleSidedGI": true
+            },
+            "emission": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0,
+                "a": 1.0
+            },
+            "surfaceKind": 0.0
+        },
+        {
+            "id": -460,
+            "renderQueue": 2000,
+            "properties": {
+                "name": "BI_rock_hero_slate — story light",
+                "shader": "BorrowedLight/PaintedSurface",
+                "baseMap": "StoneV10",
+                "normalMap": "",
+                "detailMap": "",
+                "keywords": [
+                    "_PAINT_VERTEX_COLOR",
+                    "_ROCK_TEXTURE"
+                ],
+                "baseColor": {
+                    "r": 0.601243257522583,
+                    "g": 0.6262096166610718,
+                    "b": 0.601243257522583,
+                    "a": 1.0
+                },
+                "metallic": 0.0,
+                "smoothness": 0.17000000178813935,
+                "normalScale": 1.0,
+                "detailStrength": 0.0,
+                "cull": 0.0,
+                "foliageLegacyAux": 0.0,
+                "foliageNormalUp20": 0.0,
+                "baseTiling": {
+                    "x": 0.8999999761581421,
+                    "y": 0.8999999761581421
+                },
+                "baseOffset": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "detailTiling": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "detailOffset": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "doubleSidedGI": true
+            },
+            "emission": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0,
+                "a": 1.0
+            },
+            "surfaceKind": 7.0
+        },
+        {
+            "id": -458,
+            "renderQueue": 2000,
+            "properties": {
+                "name": "BI_rock_hero_warm — story light",
+                "shader": "BorrowedLight/PaintedSurface",
+                "baseMap": "StoneV10",
+                "normalMap": "",
+                "detailMap": "",
+                "keywords": [
+                    "_PAINT_VERTEX_COLOR",
+                    "_ROCK_TEXTURE"
+                ],
+                "baseColor": {
+                    "r": 0.6576276421546936,
+                    "g": 0.6382253766059876,
+                    "b": 0.5882462859153748,
+                    "a": 1.0
+                },
+                "metallic": 0.0,
+                "smoothness": 0.17000000178813935,
+                "normalScale": 1.0,
+                "detailStrength": 0.0,
+                "cull": 0.0,
+                "foliageLegacyAux": 0.0,
+                "foliageNormalUp20": 0.0,
+                "baseTiling": {
+                    "x": 0.8999999761581421,
+                    "y": 0.8999999761581421
+                },
+                "baseOffset": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "detailTiling": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "detailOffset": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "doubleSidedGI": true
+            },
+            "emission": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0,
+                "a": 1.0
+            },
+            "surfaceKind": 7.0
+        },
+        {
+            "id": -456,
+            "renderQueue": 2000,
+            "properties": {
+                "name": "BI_leaf_meadow_deep — story light",
+                "shader": "BorrowedLight/FoliagePaint",
+                "baseMap": "",
+                "normalMap": "",
+                "detailMap": "",
+                "keywords": [
+                    "_FOLIAGE_VERTEX_COLOR"
+                ],
+                "baseColor": {
+                    "r": 0.4235827624797821,
+                    "g": 0.5116676092147827,
+                    "b": 0.3227260112762451,
+                    "a": 1.0
+                },
+                "metallic": 0.0,
+                "smoothness": 0.0,
+                "normalScale": 1.0,
+                "detailStrength": 0.0,
+                "cull": 0.0,
+                "foliageLegacyAux": 0.0,
+                "foliageNormalUp20": 0.0,
+                "baseTiling": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "baseOffset": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "detailTiling": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "detailOffset": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "doubleSidedGI": true
+            },
+            "emission": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0,
+                "a": 1.0
+            },
+            "surfaceKind": 0.0
+        },
+        {
+            "id": -454,
+            "renderQueue": 2000,
+            "properties": {
+                "name": "BI_leaf_meadow_dry — story light",
+                "shader": "BorrowedLight/FoliagePaint",
+                "baseMap": "",
+                "normalMap": "",
+                "detailMap": "",
+                "keywords": [
+                    "_FOLIAGE_VERTEX_COLOR"
+                ],
+                "baseColor": {
+                    "r": 0.6872170567512512,
+                    "g": 0.6421664357185364,
+                    "b": 0.4731205701828003,
+                    "a": 1.0
+                },
+                "metallic": 0.0,
+                "smoothness": 0.0,
+                "normalScale": 1.0,
+                "detailStrength": 0.0,
+                "cull": 0.0,
+                "foliageLegacyAux": 0.0,
+                "foliageNormalUp20": 0.0,
+                "baseTiling": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "baseOffset": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "detailTiling": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "detailOffset": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "doubleSidedGI": true
+            },
+            "emission": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0,
+                "a": 1.0
+            },
+            "surfaceKind": 0.0
+        },
+        {
+            "id": -452,
+            "renderQueue": 2000,
+            "properties": {
+                "name": "BI_leaf_meadow_young — story light",
+                "shader": "BorrowedLight/FoliagePaint",
+                "baseMap": "",
+                "normalMap": "",
+                "detailMap": "",
+                "keywords": [
+                    "_FOLIAGE_VERTEX_COLOR"
+                ],
+                "baseColor": {
+                    "r": 0.6499563455581665,
+                    "g": 0.7220273017883301,
+                    "b": 0.49010878801345827,
+                    "a": 1.0
+                },
+                "metallic": 0.0,
+                "smoothness": 0.0,
+                "normalScale": 1.0,
+                "detailStrength": 0.0,
+                "cull": 0.0,
+                "foliageLegacyAux": 0.0,
+                "foliageNormalUp20": 0.0,
+                "baseTiling": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "baseOffset": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "detailTiling": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "detailOffset": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "doubleSidedGI": true
+            },
+            "emission": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0,
+                "a": 1.0
+            },
+            "surfaceKind": 0.0
+        },
+        {
+            "id": -450,
+            "renderQueue": 2000,
+            "properties": {
+                "name": "BI_grass_sage — story light",
+                "shader": "Universal Render Pipeline/Lit",
+                "baseMap": "",
+                "normalMap": "",
+                "detailMap": "",
+                "keywords": [
+                    "_ENVIRONMENTREFLECTIONS_OFF",
+                    "_SPECULARHIGHLIGHTS_OFF"
+                ],
+                "baseColor": {
+                    "r": 0.5748708844184876,
+                    "g": 0.6651850342750549,
+                    "b": 0.5168808698654175,
+                    "a": 1.0
+                },
+                "metallic": 0.0,
+                "smoothness": 0.0,
+                "normalScale": 1.0,
+                "detailStrength": 1.0,
+                "cull": 0.0,
+                "foliageLegacyAux": 0.0,
+                "foliageNormalUp20": 0.0,
+                "baseTiling": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "baseOffset": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "detailTiling": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "detailOffset": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "doubleSidedGI": true
+            },
+            "emission": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0,
+                "a": 1.0
+            },
+            "surfaceKind": 0.0
+        },
+        {
+            "id": -448,
+            "renderQueue": 2000,
+            "properties": {
+                "name": "BI_leaf_ground_lime — story light",
+                "shader": "BorrowedLight/FoliagePaint",
+                "baseMap": "",
+                "normalMap": "",
+                "detailMap": "",
+                "keywords": [
+                    "_FOLIAGE_VERTEX_COLOR"
+                ],
+                "baseColor": {
+                    "r": 0.6499563455581665,
+                    "g": 0.7118160128593445,
+                    "b": 0.48452913761138918,
+                    "a": 1.0
+                },
+                "metallic": 0.0,
+                "smoothness": 0.0,
+                "normalScale": 1.0,
+                "detailStrength": 0.0,
+                "cull": 0.0,
+                "foliageLegacyAux": 0.0,
+                "foliageNormalUp20": 0.0,
+                "baseTiling": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "baseOffset": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "detailTiling": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "detailOffset": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "doubleSidedGI": true
+            },
+            "emission": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0,
+                "a": 1.0
+            },
+            "surfaceKind": 0.0
+        },
+        {
+            "id": -446,
+            "renderQueue": 2000,
+            "properties": {
+                "name": "BI_leaf_ground_sage — story light",
+                "shader": "BorrowedLight/FoliagePaint",
+                "baseMap": "",
+                "normalMap": "",
+                "detailMap": "",
+                "keywords": [
+                    "_FOLIAGE_VERTEX_COLOR"
+                ],
+                "baseColor": {
+                    "r": 0.5748708844184876,
+                    "g": 0.6651850342750549,
+                    "b": 0.4956096410751343,
+                    "a": 1.0
+                },
+                "metallic": 0.0,
+                "smoothness": 0.0,
+                "normalScale": 1.0,
+                "detailStrength": 0.0,
+                "cull": 0.0,
+                "foliageLegacyAux": 0.0,
+                "foliageNormalUp20": 0.0,
+                "baseTiling": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "baseOffset": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "detailTiling": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "detailOffset": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "doubleSidedGI": true
+            },
+            "emission": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0,
+                "a": 1.0
+            },
+            "surfaceKind": 0.0
+        },
+        {
+            "id": -444,
+            "renderQueue": 2000,
+            "properties": {
+                "name": "BI_leaf_meadow_olive — story light",
+                "shader": "BorrowedLight/FoliagePaint",
+                "baseMap": "",
+                "normalMap": "",
+                "detailMap": "",
+                "keywords": [
+                    "_FOLIAGE_VERTEX_COLOR"
+                ],
+                "baseColor": {
+                    "r": 0.5748708844184876,
+                    "g": 0.6421664357185364,
+                    "b": 0.41002076864242556,
+                    "a": 1.0
+                },
+                "metallic": 0.0,
+                "smoothness": 0.0,
+                "normalScale": 1.0,
+                "detailStrength": 0.0,
+                "cull": 0.0,
+                "foliageLegacyAux": 0.0,
+                "foliageNormalUp20": 0.0,
+                "baseTiling": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "baseOffset": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "detailTiling": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "detailOffset": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "doubleSidedGI": true
+            },
+            "emission": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0,
+                "a": 1.0
+            },
+            "surfaceKind": 0.0
+        },
+        {
+            "id": -442,
+            "renderQueue": 2000,
+            "properties": {
+                "name": "BI_flower_cream — story light",
+                "shader": "Universal Render Pipeline/Lit",
+                "baseMap": "",
+                "normalMap": "",
+                "detailMap": "",
+                "keywords": [
+                    "_ENVIRONMENTREFLECTIONS_OFF",
+                    "_SPECULARHIGHLIGHTS_OFF"
+                ],
+                "baseColor": {
+                    "r": 0.9776914715766907,
+                    "g": 0.921191394329071,
+                    "b": 0.7547805905342102,
+                    "a": 1.0
+                },
+                "metallic": 0.0,
+                "smoothness": 0.0,
+                "normalScale": 1.0,
+                "detailStrength": 1.0,
+                "cull": 0.0,
+                "foliageLegacyAux": 0.0,
+                "foliageNormalUp20": 0.0,
+                "baseTiling": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "baseOffset": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "detailTiling": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "detailOffset": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "doubleSidedGI": true
+            },
+            "emission": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0,
+                "a": 1.0
+            },
+            "surfaceKind": 0.0
+        },
+        {
+            "id": -440,
+            "renderQueue": 2000,
+            "properties": {
+                "name": "BI_flower_coral — story light",
+                "shader": "Universal Render Pipeline/Lit",
+                "baseMap": "",
+                "normalMap": "",
+                "detailMap": "",
+                "keywords": [
+                    "_ENVIRONMENTREFLECTIONS_OFF",
+                    "_SPECULARHIGHLIGHTS_OFF"
+                ],
+                "baseColor": {
+                    "r": 0.9113204479217529,
+                    "g": 0.6262096166610718,
+                    "b": 0.5657283067703247,
+                    "a": 1.0
+                },
+                "metallic": 0.0,
+                "smoothness": 0.0,
+                "normalScale": 1.0,
+                "detailStrength": 1.0,
+                "cull": 0.0,
+                "foliageLegacyAux": 0.0,
+                "foliageNormalUp20": 0.0,
+                "baseTiling": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "baseOffset": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "detailTiling": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "detailOffset": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "doubleSidedGI": true
+            },
+            "emission": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0,
+                "a": 1.0
+            },
+            "surfaceKind": 0.0
+        },
+        {
+            "id": -438,
+            "renderQueue": 2000,
+            "properties": {
+                "name": "BI_brass — story light",
+                "shader": "Universal Render Pipeline/Lit",
+                "baseMap": "",
+                "normalMap": "",
+                "detailMap": "",
+                "keywords": [],
+                "baseColor": {
+                    "r": 0.8094680905342102,
+                    "g": 0.6943609714508057,
+                    "b": 0.4731205701828003,
+                    "a": 1.0
+                },
+                "metallic": 0.7200000286102295,
+                "smoothness": 0.5799999833106995,
+                "normalScale": 1.0,
+                "detailStrength": 1.0,
+                "cull": 2.0,
+                "foliageLegacyAux": 0.0,
+                "foliageNormalUp20": 0.0,
+                "baseTiling": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "baseOffset": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "detailTiling": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "detailOffset": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "doubleSidedGI": false
+            },
+            "emission": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0,
+                "a": 1.0
+            },
+            "surfaceKind": 0.0
+        },
+        {
+            "id": -436,
+            "renderQueue": 2000,
+            "properties": {
+                "name": "BI_metal_dark — story light",
+                "shader": "Universal Render Pipeline/Lit",
+                "baseMap": "",
+                "normalMap": "",
+                "detailMap": "",
+                "keywords": [],
+                "baseColor": {
+                    "r": 0.38109174370765688,
+                    "g": 0.5063862204551697,
+                    "b": 0.5468541979789734,
+                    "a": 1.0
+                },
+                "metallic": 0.7200000286102295,
+                "smoothness": 0.5799999833106995,
+                "normalScale": 1.0,
+                "detailStrength": 1.0,
+                "cull": 2.0,
+                "foliageLegacyAux": 0.0,
+                "foliageNormalUp20": 0.0,
+                "baseTiling": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "baseOffset": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "detailTiling": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "detailOffset": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "doubleSidedGI": false
+            },
+            "emission": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0,
+                "a": 1.0
+            },
+            "surfaceKind": 0.0
+        },
+        {
+            "id": -434,
+            "renderQueue": 2000,
+            "properties": {
+                "name": "BI_wood_cut — story light",
+                "shader": "BorrowedLight/PaintedSurface",
+                "baseMap": "",
+                "normalMap": "",
+                "detailMap": "",
+                "keywords": [],
+                "baseColor": {
+                    "r": 0.7857768535614014,
+                    "g": 0.6872170567512512,
+                    "b": 0.5563931465148926,
+                    "a": 1.0
+                },
+                "metallic": 0.0,
+                "smoothness": 0.17000000178813935,
+                "normalScale": 1.0,
+                "detailStrength": 0.0,
+                "cull": 0.0,
+                "foliageLegacyAux": 0.0,
+                "foliageNormalUp20": 0.0,
+                "baseTiling": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "baseOffset": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "detailTiling": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "detailOffset": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "doubleSidedGI": true
+            },
+            "emission": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0,
+                "a": 1.0
+            },
+            "surfaceKind": 1.0
+        },
+        {
+            "id": -432,
+            "renderQueue": 2000,
+            "properties": {
+                "name": "BI_rock_dark — story light",
+                "shader": "BorrowedLight/PaintedSurface",
+                "baseMap": "",
+                "normalMap": "",
+                "detailMap": "",
+                "keywords": [],
+                "baseColor": {
+                    "r": 0.3035319447517395,
+                    "g": 0.39588114619255068,
+                    "b": 0.48452913761138918,
+                    "a": 1.0
+                },
+                "metallic": 0.0,
+                "smoothness": 0.17000000178813935,
+                "normalScale": 1.0,
+                "detailStrength": 0.0,
+                "cull": 0.0,
+                "foliageLegacyAux": 0.0,
+                "foliageNormalUp20": 0.0,
+                "baseTiling": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "baseOffset": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "detailTiling": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "detailOffset": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "doubleSidedGI": true
+            },
+            "emission": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0,
+                "a": 1.0
+            },
+            "surfaceKind": 0.0
+        },
+        {
+            "id": -430,
+            "renderQueue": 2000,
+            "properties": {
+                "name": "BI_plaster_light — story light",
+                "shader": "BorrowedLight/PaintedSurface",
+                "baseMap": "",
+                "normalMap": "",
+                "detailMap": "",
+                "keywords": [],
+                "baseColor": {
+                    "r": 0.9593464732170105,
+                    "g": 0.9260748028755188,
+                    "b": 0.8209797739982605,
+                    "a": 1.0
+                },
+                "metallic": 0.0,
+                "smoothness": 0.17000000178813935,
+                "normalScale": 1.0,
+                "detailStrength": 0.0,
+                "cull": 0.0,
+                "foliageLegacyAux": 0.0,
+                "foliageNormalUp20": 0.0,
+                "baseTiling": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "baseOffset": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "detailTiling": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "detailOffset": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "doubleSidedGI": true
+            },
+            "emission": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0,
+                "a": 1.0
+            },
+            "surfaceKind": 2.0
+        },
+        {
+            "id": -428,
+            "renderQueue": 2000,
+            "properties": {
+                "name": "BI_plaster — story light",
+                "shader": "BorrowedLight/PaintedSurface",
+                "baseMap": "",
+                "normalMap": "",
+                "detailMap": "",
+                "keywords": [],
+                "baseColor": {
+                    "r": 0.9013063907623291,
+                    "g": 0.865041971206665,
+                    "b": 0.7547805905342102,
+                    "a": 1.0
+                },
+                "metallic": 0.0,
+                "smoothness": 0.17000000178813935,
+                "normalScale": 1.0,
+                "detailStrength": 0.0,
+                "cull": 0.0,
+                "foliageLegacyAux": 0.0,
+                "foliageNormalUp20": 0.0,
+                "baseTiling": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "baseOffset": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "detailTiling": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "detailOffset": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "doubleSidedGI": true
+            },
+            "emission": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0,
+                "a": 1.0
+            },
+            "surfaceKind": 2.0
+        },
+        {
+            "id": -426,
+            "renderQueue": 2000,
+            "properties": {
+                "name": "BI_roof_light — story light",
+                "shader": "BorrowedLight/PaintedSurface",
+                "baseMap": "",
+                "normalMap": "",
+                "detailMap": "",
+                "keywords": [],
+                "baseColor": {
+                    "r": 0.46135610342025759,
+                    "g": 0.6576276421546936,
+                    "b": 0.6262096166610718,
+                    "a": 1.0
+                },
+                "metallic": 0.0,
+                "smoothness": 0.17000000178813935,
+                "normalScale": 1.0,
+                "detailStrength": 0.0,
+                "cull": 0.0,
+                "foliageLegacyAux": 0.0,
+                "foliageNormalUp20": 0.0,
+                "baseTiling": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "baseOffset": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "detailTiling": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "detailOffset": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "doubleSidedGI": true
+            },
+            "emission": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0,
+                "a": 1.0
+            },
+            "surfaceKind": 3.0
+        },
+        {
+            "id": -424,
+            "renderQueue": 2000,
+            "properties": {
+                "name": "BI_roof_dark — story light",
+                "shader": "BorrowedLight/PaintedSurface",
+                "baseMap": "",
+                "normalMap": "",
+                "detailMap": "",
+                "keywords": [],
+                "baseColor": {
+                    "r": 0.33182990550994875,
+                    "g": 0.5063862204551697,
+                    "b": 0.5370987057685852,
+                    "a": 1.0
+                },
+                "metallic": 0.0,
+                "smoothness": 0.17000000178813935,
+                "normalScale": 1.0,
+                "detailStrength": 0.0,
+                "cull": 0.0,
+                "foliageLegacyAux": 0.0,
+                "foliageNormalUp20": 0.0,
+                "baseTiling": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "baseOffset": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "detailTiling": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "detailOffset": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "doubleSidedGI": true
+            },
+            "emission": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0,
+                "a": 1.0
+            },
+            "surfaceKind": 3.0
+        },
+        {
+            "id": -422,
+            "renderQueue": 2000,
+            "properties": {
+                "name": "BI_roof — story light",
+                "shader": "BorrowedLight/PaintedSurface",
+                "baseMap": "",
+                "normalMap": "",
+                "detailMap": "",
+                "keywords": [],
+                "baseColor": {
+                    "r": 0.38109174370765688,
+                    "g": 0.5838313698768616,
+                    "b": 0.5748708844184876,
+                    "a": 1.0
+                },
+                "metallic": 0.0,
+                "smoothness": 0.17000000178813935,
+                "normalScale": 1.0,
+                "detailStrength": 0.0,
+                "cull": 0.0,
+                "foliageLegacyAux": 0.0,
+                "foliageNormalUp20": 0.0,
+                "baseTiling": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "baseOffset": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "detailTiling": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "detailOffset": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "doubleSidedGI": true
+            },
+            "emission": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0,
+                "a": 1.0
+            },
+            "surfaceKind": 3.0
+        },
+        {
+            "id": -420,
+            "renderQueue": 2000,
+            "properties": {
+                "name": "BI_window_honey — story light",
+                "shader": "Universal Render Pipeline/Lit",
+                "baseMap": "",
+                "normalMap": "",
+                "detailMap": "",
+                "keywords": [
+                    "_EMISSION"
+                ],
+                "baseColor": {
+                    "r": 0.9911565184593201,
+                    "g": 0.8094680905342102,
+                    "b": 0.48452913761138918,
+                    "a": 1.0
+                },
+                "metallic": 0.0,
+                "smoothness": 0.17000000178813935,
+                "normalScale": 1.0,
+                "detailStrength": 1.0,
+                "cull": 0.0,
+                "foliageLegacyAux": 0.0,
+                "foliageNormalUp20": 0.0,
+                "baseTiling": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "baseOffset": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "detailTiling": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "detailOffset": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "doubleSidedGI": true
+            },
+            "emission": {
+                "r": 1.399999976158142,
+                "g": 0.7279999852180481,
+                "b": 0.21000000834465028,
+                "a": 1.399999976158142
+            },
+            "surfaceKind": 0.0
+        },
+        {
+            "id": -418,
+            "renderQueue": 2000,
+            "properties": {
+                "name": "BI_paper — story light",
+                "shader": "Universal Render Pipeline/Lit",
+                "baseMap": "",
+                "normalMap": "",
+                "detailMap": "",
+                "keywords": [],
+                "baseColor": {
+                    "r": 0.9593464732170105,
+                    "g": 0.9162734746932983,
+                    "b": 0.791786789894104,
+                    "a": 1.0
+                },
+                "metallic": 0.0,
+                "smoothness": 0.17000000178813935,
+                "normalScale": 1.0,
+                "detailStrength": 1.0,
+                "cull": 0.0,
+                "foliageLegacyAux": 0.0,
+                "foliageNormalUp20": 0.0,
+                "baseTiling": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "baseOffset": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "detailTiling": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "detailOffset": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "doubleSidedGI": true
+            },
+            "emission": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0,
+                "a": 1.0
+            },
+            "surfaceKind": 0.0
+        },
+        {
+            "id": -416,
+            "renderQueue": 2000,
+            "properties": {
+                "name": "BI_stone_dark — story light",
+                "shader": "BorrowedLight/PaintedSurface",
+                "baseMap": "",
+                "normalMap": "",
+                "detailMap": "",
+                "keywords": [],
+                "baseColor": {
+                    "r": 0.5838313698768616,
+                    "g": 0.6499563455581665,
+                    "b": 0.6576276421546936,
+                    "a": 1.0
+                },
+                "metallic": 0.0,
+                "smoothness": 0.17000000178813935,
+                "normalScale": 1.0,
+                "detailStrength": 0.0,
+                "cull": 0.0,
+                "foliageLegacyAux": 0.0,
+                "foliageNormalUp20": 0.0,
+                "baseTiling": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "baseOffset": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "detailTiling": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "detailOffset": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "doubleSidedGI": true
+            },
+            "emission": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0,
+                "a": 1.0
+            },
+            "surfaceKind": 0.0
+        },
+        {
+            "id": -414,
+            "renderQueue": 2000,
+            "properties": {
+                "name": "BI_stone — story light",
+                "shader": "BorrowedLight/PaintedSurface",
+                "baseMap": "",
+                "normalMap": "",
+                "detailMap": "",
+                "keywords": [],
+                "baseColor": {
+                    "r": 0.6651850342750549,
+                    "g": 0.7220273017883301,
+                    "b": 0.7220273017883301,
+                    "a": 1.0
+                },
+                "metallic": 0.0,
+                "smoothness": 0.17000000178813935,
+                "normalScale": 1.0,
+                "detailStrength": 0.0,
+                "cull": 0.0,
+                "foliageLegacyAux": 0.0,
+                "foliageNormalUp20": 0.0,
+                "baseTiling": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "baseOffset": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "detailTiling": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "detailOffset": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "doubleSidedGI": true
+            },
+            "emission": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0,
+                "a": 1.0
+            },
+            "surfaceKind": 0.0
+        },
+        {
+            "id": -412,
+            "renderQueue": 2000,
+            "properties": {
+                "name": "BI_brass_light — story light",
+                "shader": "Universal Render Pipeline/Lit",
+                "baseMap": "",
+                "normalMap": "",
+                "detailMap": "",
+                "keywords": [],
+                "baseColor": {
+                    "r": 0.9357409477233887,
+                    "g": 0.8378604650497437,
+                    "b": 0.5926192998886108,
+                    "a": 1.0
+                },
+                "metallic": 0.7200000286102295,
+                "smoothness": 0.5799999833106995,
+                "normalScale": 1.0,
+                "detailStrength": 1.0,
+                "cull": 2.0,
+                "foliageLegacyAux": 0.0,
+                "foliageNormalUp20": 0.0,
+                "baseTiling": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "baseOffset": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "detailTiling": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "detailOffset": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "doubleSidedGI": false
+            },
+            "emission": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0,
+                "a": 1.0
+            },
+            "surfaceKind": 0.0
+        },
+        {
+            "id": -410,
+            "renderQueue": 2000,
+            "properties": {
+                "name": "BI_wood_light — story light",
+                "shader": "BorrowedLight/PaintedSurface",
+                "baseMap": "",
+                "normalMap": "",
+                "detailMap": "",
+                "keywords": [],
+                "baseColor": {
+                    "r": 0.6943609714508057,
+                    "g": 0.5926192998886108,
+                    "b": 0.4731205701828003,
+                    "a": 1.0
+                },
+                "metallic": 0.0,
+                "smoothness": 0.17000000178813935,
+                "normalScale": 1.0,
+                "detailStrength": 0.0,
+                "cull": 0.0,
+                "foliageLegacyAux": 0.0,
+                "foliageNormalUp20": 0.0,
+                "baseTiling": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "baseOffset": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "detailTiling": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "detailOffset": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "doubleSidedGI": true
+            },
+            "emission": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0,
+                "a": 1.0
+            },
+            "surfaceKind": 1.0
+        },
+        {
+            "id": -408,
+            "renderQueue": 2000,
+            "properties": {
+                "name": "BI_wood — story light",
+                "shader": "BorrowedLight/PaintedSurface",
+                "baseMap": "",
+                "normalMap": "",
+                "detailMap": "",
+                "keywords": [],
+                "baseColor": {
+                    "r": 0.5370987057685852,
+                    "g": 0.46135610342025759,
+                    "b": 0.39588114619255068,
+                    "a": 1.0
+                },
+                "metallic": 0.0,
+                "smoothness": 0.17000000178813935,
+                "normalScale": 1.0,
+                "detailStrength": 0.0,
+                "cull": 0.0,
+                "foliageLegacyAux": 0.0,
+                "foliageNormalUp20": 0.0,
+                "baseTiling": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "baseOffset": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "detailTiling": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "detailOffset": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "doubleSidedGI": true
+            },
+            "emission": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0,
+                "a": 1.0
+            },
+            "surfaceKind": 1.0
+        },
+        {
+            "id": -406,
+            "renderQueue": 2000,
+            "properties": {
+                "name": "BI_leaf — story light",
+                "shader": "BorrowedLight/FoliagePaint",
+                "baseMap": "",
+                "normalMap": "",
+                "detailMap": "",
+                "keywords": [
+                    "_FOLIAGE_VERTEX_COLOR"
+                ],
+                "baseColor": {
+                    "r": 0.527112603187561,
+                    "g": 0.6499563455581665,
+                    "b": 0.4492037892341614,
+                    "a": 1.0
+                },
+                "metallic": 0.0,
+                "smoothness": 0.0,
+                "normalScale": 1.0,
+                "detailStrength": 0.0,
+                "cull": 0.0,
+                "foliageLegacyAux": 0.0,
+                "foliageNormalUp20": 0.0,
+                "baseTiling": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "baseOffset": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "detailTiling": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "detailOffset": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "doubleSidedGI": true
+            },
+            "emission": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0,
+                "a": 1.0
+            },
+            "surfaceKind": 0.0
+        },
+        {
+            "id": -404,
+            "renderQueue": 2000,
+            "properties": {
+                "name": "BI_leaf_light — story light",
+                "shader": "BorrowedLight/FoliagePaint",
+                "baseMap": "",
+                "normalMap": "",
+                "detailMap": "",
+                "keywords": [
+                    "_FOLIAGE_VERTEX_COLOR"
+                ],
+                "baseColor": {
+                    "r": 0.6499563455581665,
+                    "g": 0.741905152797699,
+                    "b": 0.5168808698654175,
+                    "a": 1.0
+                },
+                "metallic": 0.0,
+                "smoothness": 0.0,
+                "normalScale": 1.0,
+                "detailStrength": 0.0,
+                "cull": 0.0,
+                "foliageLegacyAux": 0.0,
+                "foliageNormalUp20": 0.0,
+                "baseTiling": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "baseOffset": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "detailTiling": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "detailOffset": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "doubleSidedGI": true
+            },
+            "emission": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0,
+                "a": 1.0
+            },
+            "surfaceKind": 0.0
+        },
+        {
+            "id": -402,
+            "renderQueue": 2000,
+            "properties": {
+                "name": "BI_stem — story light",
+                "shader": "Universal Render Pipeline/Lit",
+                "baseMap": "",
+                "normalMap": "",
+                "detailMap": "",
+                "keywords": [
+                    "_ENVIRONMENTREFLECTIONS_OFF",
+                    "_SPECULARHIGHLIGHTS_OFF"
+                ],
+                "baseColor": {
+                    "r": 0.43662694096565249,
+                    "g": 0.61803138256073,
+                    "b": 0.527112603187561,
+                    "a": 1.0
+                },
+                "metallic": 0.0,
+                "smoothness": 0.0,
+                "normalScale": 1.0,
+                "detailStrength": 1.0,
+                "cull": 0.0,
+                "foliageLegacyAux": 0.0,
+                "foliageNormalUp20": 0.0,
+                "baseTiling": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "baseOffset": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "detailTiling": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "detailOffset": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "doubleSidedGI": true
+            },
+            "emission": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0,
+                "a": 1.0
+            },
+            "surfaceKind": 0.0
+        },
+        {
+            "id": -400,
+            "renderQueue": 2000,
+            "properties": {
+                "name": "BI_leaf_gold — story light",
+                "shader": "BorrowedLight/FoliagePaint",
+                "baseMap": "",
+                "normalMap": "",
+                "detailMap": "",
+                "keywords": [
+                    "_FOLIAGE_VERTEX_COLOR"
+                ],
+                "baseColor": {
+                    "r": 0.8036309480667114,
+                    "g": 0.7673755288124085,
+                    "b": 0.527112603187561,
+                    "a": 1.0
+                },
+                "metallic": 0.0,
+                "smoothness": 0.0,
+                "normalScale": 1.0,
+                "detailStrength": 0.0,
+                "cull": 0.0,
+                "foliageLegacyAux": 0.0,
+                "foliageNormalUp20": 0.0,
+                "baseTiling": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "baseOffset": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "detailTiling": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "detailOffset": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "doubleSidedGI": true
+            },
+            "emission": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0,
+                "a": 1.0
+            },
+            "surfaceKind": 0.0
+        },
+        {
+            "id": 4544,
+            "renderQueue": 3000,
+            "properties": {
+                "name": "CloudVeil",
+                "shader": "BorrowedLight/CloudVeil",
+                "baseMap": "",
+                "normalMap": "",
+                "detailMap": "",
+                "keywords": [],
+                "baseColor": {
+                    "r": 1.0,
+                    "g": 1.0,
+                    "b": 1.0,
+                    "a": 1.0
+                },
+                "metallic": 0.0,
+                "smoothness": 0.0,
+                "normalScale": 0.0,
+                "detailStrength": 0.0,
+                "cull": 0.0,
+                "foliageLegacyAux": 0.0,
+                "foliageNormalUp20": 0.0,
+                "baseTiling": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "baseOffset": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "detailTiling": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "detailOffset": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "doubleSidedGI": false
+            },
+            "emission": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0,
+                "a": 1.0
+            },
+            "surfaceKind": 0.0
+        },
+        {
+            "id": 4546,
+            "renderQueue": 3000,
+            "properties": {
+                "name": "Firefly",
+                "shader": "BorrowedLight/Firefly",
+                "baseMap": "",
+                "normalMap": "",
+                "detailMap": "",
+                "keywords": [],
+                "baseColor": {
+                    "r": 1.0,
+                    "g": 1.0,
+                    "b": 1.0,
+                    "a": 1.0
+                },
+                "metallic": 0.0,
+                "smoothness": 0.0,
+                "normalScale": 0.0,
+                "detailStrength": 0.0,
+                "cull": 0.0,
+                "foliageLegacyAux": 0.0,
+                "foliageNormalUp20": 0.0,
+                "baseTiling": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "baseOffset": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "detailTiling": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "detailOffset": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "doubleSidedGI": false
+            },
+            "emission": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0,
+                "a": 1.0
+            },
+            "surfaceKind": 0.0
+        },
+        {
+            "id": 4568,
+            "renderQueue": 2000,
+            "properties": {
+                "name": "MoonPaint",
+                "shader": "BorrowedLight/MoonPaint",
+                "baseMap": "",
+                "normalMap": "",
+                "detailMap": "",
+                "keywords": [],
+                "baseColor": {
+                    "r": 1.0,
+                    "g": 1.0,
+                    "b": 1.0,
+                    "a": 1.0
+                },
+                "metallic": 0.0,
+                "smoothness": 0.0,
+                "normalScale": 0.0,
+                "detailStrength": 0.0,
+                "cull": 0.0,
+                "foliageLegacyAux": 0.0,
+                "foliageNormalUp20": 0.0,
+                "baseTiling": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "baseOffset": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "detailTiling": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "detailOffset": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "doubleSidedGI": false
+            },
+            "emission": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0,
+                "a": 1.0
+            },
+            "surfaceKind": 0.0
+        }
+    ],
+    "views": [
+        {
+            "image": "portrait-baseline.png",
+            "view": "portrait",
+            "variant": "baseline",
+            "actualPNGWidth": 1440,
+            "actualPNGHeight": 900,
+            "cameraPosition": {
+                "x": 1.1061511039733887,
+                "y": 1.2295520305633546,
+                "z": -0.9278537034988403
+            },
+            "fillLocalPosition": {
+                "x": 0.0,
+                "y": 1.25,
+                "z": 0.550000011920929
+            },
+            "headViewportMin": {
+                "x": 0.43435627222061159,
+                "y": 0.5853186845779419,
+                "z": 2.390371799468994
+            },
+            "headViewportMax": {
+                "x": 0.5594777464866638,
+                "y": 0.7890017628669739,
+                "z": 2.804274559020996
+            },
+            "cameraRotation": {
+                "x": -0.016981730237603189,
+                "y": 0.9732863306999207,
+                "z": -0.07659951597452164,
+                "w": -0.21577271819114686
+            },
+            "fieldOfView": 41.33329391479492,
+            "pngComplete": true,
+            "headInFrame": true,
+            "cameraUnchanged": true,
+            "otherTransformsUnchanged": false,
+            "otherLightsUnchanged": true,
+            "fillConfigurationUnchanged": true,
+            "materialsUnchanged": false,
+            "environmentUnchanged": true
+        },
+        {
+            "image": "portrait-candidate.png",
+            "view": "portrait",
+            "variant": "candidate",
+            "actualPNGWidth": 1440,
+            "actualPNGHeight": 900,
+            "cameraPosition": {
+                "x": 1.1061511039733887,
+                "y": 1.2295520305633546,
+                "z": -0.9278537034988403
+            },
+            "fillLocalPosition": {
+                "x": 0.0,
+                "y": 1.2876099348068238,
+                "z": 0.550000011920929
+            },
+            "headViewportMin": {
+                "x": 0.43435627222061159,
+                "y": 0.5853186845779419,
+                "z": 2.390371799468994
+            },
+            "headViewportMax": {
+                "x": 0.5594777464866638,
+                "y": 0.7890017628669739,
+                "z": 2.804274559020996
+            },
+            "cameraRotation": {
+                "x": -0.016981730237603189,
+                "y": 0.9732863306999207,
+                "z": -0.07659951597452164,
+                "w": -0.21577271819114686
+            },
+            "fieldOfView": 41.33329391479492,
+            "pngComplete": true,
+            "headInFrame": true,
+            "cameraUnchanged": true,
+            "otherTransformsUnchanged": false,
+            "otherLightsUnchanged": true,
+            "fillConfigurationUnchanged": true,
+            "materialsUnchanged": false,
+            "environmentUnchanged": true
+        },
+        {
+            "image": "portrait-baseline-repeat.png",
+            "view": "portrait",
+            "variant": "baseline-repeat",
+            "actualPNGWidth": 1440,
+            "actualPNGHeight": 900,
+            "cameraPosition": {
+                "x": 1.1061511039733887,
+                "y": 1.2295520305633546,
+                "z": -0.9278537034988403
+            },
+            "fillLocalPosition": {
+                "x": 0.0,
+                "y": 1.25,
+                "z": 0.550000011920929
+            },
+            "headViewportMin": {
+                "x": 0.43435627222061159,
+                "y": 0.5853186845779419,
+                "z": 2.390371799468994
+            },
+            "headViewportMax": {
+                "x": 0.5594777464866638,
+                "y": 0.7890017628669739,
+                "z": 2.804274559020996
+            },
+            "cameraRotation": {
+                "x": -0.016981730237603189,
+                "y": 0.9732863306999207,
+                "z": -0.07659951597452164,
+                "w": -0.21577271819114686
+            },
+            "fieldOfView": 41.33329391479492,
+            "pngComplete": true,
+            "headInFrame": true,
+            "cameraUnchanged": true,
+            "otherTransformsUnchanged": false,
+            "otherLightsUnchanged": true,
+            "fillConfigurationUnchanged": true,
+            "materialsUnchanged": false,
+            "environmentUnchanged": true
+        },
+        {
+            "image": "front-baseline.png",
+            "view": "front",
+            "variant": "baseline",
+            "actualPNGWidth": 1440,
+            "actualPNGHeight": 900,
+            "cameraPosition": {
+                "x": 0.009678155183792115,
+                "y": 1.1034643650054932,
+                "z": -1.8665157556533814
+            },
+            "fillLocalPosition": {
+                "x": 0.0,
+                "y": 1.25,
+                "z": 0.550000011920929
+            },
+            "headViewportMin": {
+                "x": 0.3716583549976349,
+                "y": 0.3660000264644623,
+                "z": 1.31735360622406
+            },
+            "headViewportMax": {
+                "x": 0.6283416152000427,
+                "y": 0.8532726764678955,
+                "z": 1.5707200765609742
+            },
+            "cameraRotation": {
+                "x": 0.0,
+                "y": 1.0,
+                "z": 0.0,
+                "w": 0.0
+            },
+            "fieldOfView": 32.0,
+            "pngComplete": true,
+            "headInFrame": true,
+            "cameraUnchanged": true,
+            "otherTransformsUnchanged": false,
+            "otherLightsUnchanged": true,
+            "fillConfigurationUnchanged": true,
+            "materialsUnchanged": false,
+            "environmentUnchanged": true
+        },
+        {
+            "image": "front-candidate.png",
+            "view": "front",
+            "variant": "candidate",
+            "actualPNGWidth": 1440,
+            "actualPNGHeight": 900,
+            "cameraPosition": {
+                "x": 0.009678155183792115,
+                "y": 1.1034643650054932,
+                "z": -1.8665157556533814
+            },
+            "fillLocalPosition": {
+                "x": 0.0,
+                "y": 1.2876099348068238,
+                "z": 0.550000011920929
+            },
+            "headViewportMin": {
+                "x": 0.3716583549976349,
+                "y": 0.3660000264644623,
+                "z": 1.31735360622406
+            },
+            "headViewportMax": {
+                "x": 0.6283416152000427,
+                "y": 0.8532726764678955,
+                "z": 1.5707200765609742
+            },
+            "cameraRotation": {
+                "x": 0.0,
+                "y": 1.0,
+                "z": 0.0,
+                "w": 0.0
+            },
+            "fieldOfView": 32.0,
+            "pngComplete": true,
+            "headInFrame": true,
+            "cameraUnchanged": true,
+            "otherTransformsUnchanged": false,
+            "otherLightsUnchanged": true,
+            "fillConfigurationUnchanged": true,
+            "materialsUnchanged": false,
+            "environmentUnchanged": true
+        },
+        {
+            "image": "front-baseline-repeat.png",
+            "view": "front",
+            "variant": "baseline-repeat",
+            "actualPNGWidth": 1440,
+            "actualPNGHeight": 900,
+            "cameraPosition": {
+                "x": 0.009678155183792115,
+                "y": 1.1034643650054932,
+                "z": -1.8665157556533814
+            },
+            "fillLocalPosition": {
+                "x": 0.0,
+                "y": 1.25,
+                "z": 0.550000011920929
+            },
+            "headViewportMin": {
+                "x": 0.3716583549976349,
+                "y": 0.3660000264644623,
+                "z": 1.31735360622406
+            },
+            "headViewportMax": {
+                "x": 0.6283416152000427,
+                "y": 0.8532726764678955,
+                "z": 1.5707200765609742
+            },
+            "cameraRotation": {
+                "x": 0.0,
+                "y": 1.0,
+                "z": 0.0,
+                "w": 0.0
+            },
+            "fieldOfView": 32.0,
+            "pngComplete": true,
+            "headInFrame": true,
+            "cameraUnchanged": true,
+            "otherTransformsUnchanged": false,
+            "otherLightsUnchanged": true,
+            "fillConfigurationUnchanged": true,
+            "materialsUnchanged": false,
+            "environmentUnchanged": true
+        },
+        {
+            "image": "left30-baseline.png",
+            "view": "left30",
+            "variant": "baseline",
+            "actualPNGWidth": 1440,
+            "actualPNGHeight": 900,
+            "cameraPosition": {
+                "x": -0.7480282783508301,
+                "y": 1.1034643650054932,
+                "z": -1.9981666803359986
+            },
+            "fillLocalPosition": {
+                "x": 0.0,
+                "y": 1.25,
+                "z": 0.550000011920929
+            },
+            "headViewportMin": {
+                "x": 0.3547459840774536,
+                "y": 0.3670876622200012,
+                "z": 1.3281328678131104
+            },
+            "headViewportMax": {
+                "x": 0.6392200589179993,
+                "y": 0.8504053354263306,
+                "z": 1.702691912651062
+            },
+            "cameraRotation": {
+                "x": 0.0,
+                "y": 0.9659258723258972,
+                "z": 0.0,
+                "w": 0.2588190734386444
+            },
+            "fieldOfView": 32.0,
+            "pngComplete": true,
+            "headInFrame": true,
+            "cameraUnchanged": true,
+            "otherTransformsUnchanged": false,
+            "otherLightsUnchanged": true,
+            "fillConfigurationUnchanged": true,
+            "materialsUnchanged": false,
+            "environmentUnchanged": true
+        },
+        {
+            "image": "left30-candidate.png",
+            "view": "left30",
+            "variant": "candidate",
+            "actualPNGWidth": 1440,
+            "actualPNGHeight": 900,
+            "cameraPosition": {
+                "x": -0.7480282783508301,
+                "y": 1.1034643650054932,
+                "z": -1.9981666803359986
+            },
+            "fillLocalPosition": {
+                "x": 0.0,
+                "y": 1.2876099348068238,
+                "z": 0.550000011920929
+            },
+            "headViewportMin": {
+                "x": 0.3547459840774536,
+                "y": 0.3670876622200012,
+                "z": 1.3281328678131104
+            },
+            "headViewportMax": {
+                "x": 0.6392200589179993,
+                "y": 0.8504053354263306,
+                "z": 1.702691912651062
+            },
+            "cameraRotation": {
+                "x": 0.0,
+                "y": 0.9659258723258972,
+                "z": 0.0,
+                "w": 0.2588190734386444
+            },
+            "fieldOfView": 32.0,
+            "pngComplete": true,
+            "headInFrame": true,
+            "cameraUnchanged": true,
+            "otherTransformsUnchanged": false,
+            "otherLightsUnchanged": true,
+            "fillConfigurationUnchanged": true,
+            "materialsUnchanged": false,
+            "environmentUnchanged": true
+        },
+        {
+            "image": "left30-baseline-repeat.png",
+            "view": "left30",
+            "variant": "baseline-repeat",
+            "actualPNGWidth": 1440,
+            "actualPNGHeight": 900,
+            "cameraPosition": {
+                "x": -0.7480282783508301,
+                "y": 1.1034643650054932,
+                "z": -1.9981666803359986
+            },
+            "fillLocalPosition": {
+                "x": 0.0,
+                "y": 1.25,
+                "z": 0.550000011920929
+            },
+            "headViewportMin": {
+                "x": 0.3547459840774536,
+                "y": 0.3670876622200012,
+                "z": 1.3281328678131104
+            },
+            "headViewportMax": {
+                "x": 0.6392200589179993,
+                "y": 0.8504053354263306,
+                "z": 1.702691912651062
+            },
+            "cameraRotation": {
+                "x": 0.0,
+                "y": 0.9659258723258972,
+                "z": 0.0,
+                "w": 0.2588190734386444
+            },
+            "fieldOfView": 32.0,
+            "pngComplete": true,
+            "headInFrame": true,
+            "cameraUnchanged": true,
+            "otherTransformsUnchanged": false,
+            "otherLightsUnchanged": true,
+            "fillConfigurationUnchanged": true,
+            "materialsUnchanged": false,
+            "environmentUnchanged": true
+        },
+        {
+            "image": "right30-baseline.png",
+            "view": "right30",
+            "variant": "baseline",
+            "actualPNGWidth": 1440,
+            "actualPNGHeight": 900,
+            "cameraPosition": {
+                "x": 0.7673845291137695,
+                "y": 1.1034643650054932,
+                "z": -1.9981666803359986
+            },
+            "fillLocalPosition": {
+                "x": 0.0,
+                "y": 1.25,
+                "z": 0.550000011920929
+            },
+            "headViewportMin": {
+                "x": 0.3607800006866455,
+                "y": 0.3670876622200012,
+                "z": 1.3281331062316895
+            },
+            "headViewportMax": {
+                "x": 0.6452540159225464,
+                "y": 0.8504053354263306,
+                "z": 1.7026920318603516
+            },
+            "cameraRotation": {
+                "x": 0.0,
+                "y": 0.9659258723258972,
+                "z": 0.0,
+                "w": -0.2588190734386444
+            },
+            "fieldOfView": 32.0,
+            "pngComplete": true,
+            "headInFrame": true,
+            "cameraUnchanged": true,
+            "otherTransformsUnchanged": false,
+            "otherLightsUnchanged": true,
+            "fillConfigurationUnchanged": true,
+            "materialsUnchanged": false,
+            "environmentUnchanged": true
+        },
+        {
+            "image": "right30-candidate.png",
+            "view": "right30",
+            "variant": "candidate",
+            "actualPNGWidth": 1440,
+            "actualPNGHeight": 900,
+            "cameraPosition": {
+                "x": 0.7673845291137695,
+                "y": 1.1034643650054932,
+                "z": -1.9981666803359986
+            },
+            "fillLocalPosition": {
+                "x": 0.0,
+                "y": 1.2876099348068238,
+                "z": 0.550000011920929
+            },
+            "headViewportMin": {
+                "x": 0.3607800006866455,
+                "y": 0.3670876622200012,
+                "z": 1.3281331062316895
+            },
+            "headViewportMax": {
+                "x": 0.6452540159225464,
+                "y": 0.8504053354263306,
+                "z": 1.7026920318603516
+            },
+            "cameraRotation": {
+                "x": 0.0,
+                "y": 0.9659258723258972,
+                "z": 0.0,
+                "w": -0.2588190734386444
+            },
+            "fieldOfView": 32.0,
+            "pngComplete": true,
+            "headInFrame": true,
+            "cameraUnchanged": true,
+            "otherTransformsUnchanged": false,
+            "otherLightsUnchanged": true,
+            "fillConfigurationUnchanged": true,
+            "materialsUnchanged": false,
+            "environmentUnchanged": true
+        },
+        {
+            "image": "right30-baseline-repeat.png",
+            "view": "right30",
+            "variant": "baseline-repeat",
+            "actualPNGWidth": 1440,
+            "actualPNGHeight": 900,
+            "cameraPosition": {
+                "x": 0.7673845291137695,
+                "y": 1.1034643650054932,
+                "z": -1.9981666803359986
+            },
+            "fillLocalPosition": {
+                "x": 0.0,
+                "y": 1.25,
+                "z": 0.550000011920929
+            },
+            "headViewportMin": {
+                "x": 0.3607800006866455,
+                "y": 0.3670876622200012,
+                "z": 1.3281331062316895
+            },
+            "headViewportMax": {
+                "x": 0.6452540159225464,
+                "y": 0.8504053354263306,
+                "z": 1.7026920318603516
+            },
+            "cameraRotation": {
+                "x": 0.0,
+                "y": 0.9659258723258972,
+                "z": 0.0,
+                "w": -0.2588190734386444
+            },
+            "fieldOfView": 32.0,
+            "pngComplete": true,
+            "headInFrame": true,
+            "cameraUnchanged": true,
+            "otherTransformsUnchanged": false,
+            "otherLightsUnchanged": true,
+            "fillConfigurationUnchanged": true,
+            "materialsUnchanged": false,
+            "environmentUnchanged": true
+        }
+    ]
+}

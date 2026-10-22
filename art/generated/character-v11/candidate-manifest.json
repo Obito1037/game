@@ -1,0 +1,1649 @@
+{
+  "revision": "character-v11",
+  "gameCandidate": "v14",
+  "source": "art/generated/character-v9/traveler.blend",
+  "sourceSHA256": "044f7a69d762bde8d998f25bce0462508a371e321c7730adbc7997a7df3db3ec",
+  "triangles": 81968,
+  "meshRenderers": 62,
+  "targets": [
+    "Blink_L_ClosedLash",
+    "Blink_L_LidCover",
+    "Blink_R_ClosedLash",
+    "Blink_R_LidCover",
+    "Head_Eye_AmberRim",
+    "Head_Eye_Catchlight",
+    "Head_Eye_Chestnut",
+    "Head_Eye_Ivory",
+    "Head_Eye_Pupil",
+    "Head_Face_NoseCream",
+    "Head_Face_PorcelainCream",
+    "Head_Face_RoseCheeks",
+    "Head_Hair_Indigo",
+    "Head_Hair_MidnightBlue",
+    "QuietSmile"
+  ],
+  "protectedMeshes": [
+    {
+      "mesh": "Arm_L_Cape_SeaMistBinding",
+      "unchanged": true,
+      "sha256": "edc755554b354c13fc54721d06974f77e58c7cd3c8c90969181416300f53a96f"
+    },
+    {
+      "mesh": "Arm_L_Face_Fingernails",
+      "unchanged": true,
+      "sha256": "2c699e6bc41b88cde804ea785e7d88137d985491c6de8d38e0c4a5e81f779af0"
+    },
+    {
+      "mesh": "Arm_L_Face_NoseCream",
+      "unchanged": true,
+      "sha256": "24d0fe61c158f770d08846aefb0880022dbfe552dec0bcd6bc7d45427b466649"
+    },
+    {
+      "mesh": "Arm_L_Face_PorcelainCream",
+      "unchanged": true,
+      "sha256": "713a7cd4ebb0adc884454af6671b389216a64597fced152185e21c8a57f2dd66"
+    },
+    {
+      "mesh": "Arm_L_Face_RoseCheeks",
+      "unchanged": true,
+      "sha256": "aa2c27c86a8b3e0117fbd13b396eaf427c6bbacbf447910e4ed8dedb69cb766d"
+    },
+    {
+      "mesh": "Arm_L_Gloves_OatKnit",
+      "unchanged": true,
+      "sha256": "c4c1b4aeee9905c64c7df5103d2deebfc053a63f4d14a2ba332952c7bec584eb"
+    },
+    {
+      "mesh": "Arm_L_Stitches_PaleFlax",
+      "unchanged": true,
+      "sha256": "e4ef32587523d04386d21a31393be29576a4b4c27792b570cdaa60e03d50b8a5"
+    },
+    {
+      "mesh": "Sleeve_L",
+      "unchanged": true,
+      "sha256": "2daa8e084f9cac8f4cd622898a373aed00cbafe830aee7d8f4aab5f831eb290d"
+    },
+    {
+      "mesh": "Arm_R_Cape_SeaMistBinding",
+      "unchanged": true,
+      "sha256": "b46dc26ccd9543738a3bf72e7d696c6e83e4ac124140eb8e031c450d28491844"
+    },
+    {
+      "mesh": "Arm_R_Face_Fingernails",
+      "unchanged": true,
+      "sha256": "5090f552df6dff6256e74ef876f4b5922ae3c3134b7bbbf3fa99ce808819d44a"
+    },
+    {
+      "mesh": "Arm_R_Face_NoseCream",
+      "unchanged": true,
+      "sha256": "d2a02c8a9eb0ef16f080b685687c004b260be95dc23c912d288f9776e2f862e1"
+    },
+    {
+      "mesh": "Arm_R_Face_PorcelainCream",
+      "unchanged": true,
+      "sha256": "14e499c2cee0d0d06f48133020e902a7dafe2b93dc2796c547535789dfe489b8"
+    },
+    {
+      "mesh": "Arm_R_Face_RoseCheeks",
+      "unchanged": true,
+      "sha256": "95fb08f0417545d465fc93356abc2cacfab31b1cb50e08c19a3b6a8a0656d6c0"
+    },
+    {
+      "mesh": "Arm_R_Gloves_OatKnit",
+      "unchanged": true,
+      "sha256": "f453a00934c92b6bb5e9d2c87c21d3517679d64283e482746fbb3e4ab5fef0ce"
+    },
+    {
+      "mesh": "Arm_R_Stitches_PaleFlax",
+      "unchanged": true,
+      "sha256": "4b0167b97c8f8c9f40efa09d2fc6abdf36789c158e49e0f0edc5cf27ddbdc69c"
+    },
+    {
+      "mesh": "Lantern_Heart",
+      "unchanged": true,
+      "sha256": "e03cc595ec2729e4734882c0d83aad2a809f2b69d691c63d94be7b090d71c118"
+    },
+    {
+      "mesh": "Lantern_Lantern_BrushedBrass",
+      "unchanged": true,
+      "sha256": "5f52b72e250284517df316c0d1c76d923f654fb105b358525347d2cd39be8995"
+    },
+    {
+      "mesh": "Lantern_Lantern_GoldEdges",
+      "unchanged": true,
+      "sha256": "2297b2b83f09de461ab173a12ef9943433d5de847a48528b6aeb45fa9074f093"
+    },
+    {
+      "mesh": "Lantern_OpalGlass",
+      "unchanged": true,
+      "sha256": "aadbe1c87a7d7f889b19a33b541ad8e402d883d2122415feb7bbd1b5e4a223cf"
+    },
+    {
+      "mesh": "Sleeve_R",
+      "unchanged": true,
+      "sha256": "5eee91b64267833dfcdfa364481baa7c13223705144bc401ad91a5025724bbf1"
+    },
+    {
+      "mesh": "Body_Boots_HoneyLeather",
+      "unchanged": true,
+      "sha256": "46e14f5a9c57dc9681f83201b1dcbd75638247ae6e77511b352320a952cc73ac"
+    },
+    {
+      "mesh": "Body_Cape_DeepOceanLining",
+      "unchanged": true,
+      "sha256": "cbdaba775abd28d10f05ceab5bc8fc219b510a32b7b4b7f9844b9876acd6241e"
+    },
+    {
+      "mesh": "Body_Cape_SeaMistBinding",
+      "unchanged": true,
+      "sha256": "37995a8416ad90ee7c04ee1fc1a78b69396144ec3f76990a01ae4302f2643a73"
+    },
+    {
+      "mesh": "Body_Hood_DuskBlue",
+      "unchanged": true,
+      "sha256": "133a83e1455ef76f6fb04b9efe377123eb965b2f79e959a9e4620daaab955696"
+    },
+    {
+      "mesh": "Body_Lantern_GoldEdges",
+      "unchanged": true,
+      "sha256": "9302e86aebe48bde5aedf3c94f1eff101aa58a718c9b24bc40cf0883ccecc705"
+    },
+    {
+      "mesh": "Body_Scarf_EdgeHoney",
+      "unchanged": true,
+      "sha256": "a88525a0e1dc5d8fe9c59c246b443f9e2516d671fe4fc0930af63173127bb906"
+    },
+    {
+      "mesh": "Body_Stitches_PaleFlax",
+      "unchanged": true,
+      "sha256": "81ea5b03fa8e19ecf5c3650c8b9c9b80708e186703644a6891c6467458394d3d"
+    },
+    {
+      "mesh": "Brooch_AmberStone",
+      "unchanged": true,
+      "sha256": "ccfb088f5c476ff267b92d08f688220f26b9d7ff41036ec10d762d302e2c702a"
+    },
+    {
+      "mesh": "Cloak_Outer",
+      "unchanged": true,
+      "sha256": "12855a084116da0edcc649cd78c76982348ed4142fa3c4a86cd266c66bdd62b0"
+    },
+    {
+      "mesh": "Satchel_Body",
+      "unchanged": true,
+      "sha256": "6bcc2fec3bfcb1ae4f73bdd3afa561a1cfc0e5226c7213eab74ea9322fa20e94"
+    },
+    {
+      "mesh": "Satchel_Clasp",
+      "unchanged": true,
+      "sha256": "d1cb7eb49f8794bfe1cafe1eb09b0dfa097fbb1d8435217a41973c07426c5030"
+    },
+    {
+      "mesh": "Scarf_Collar",
+      "unchanged": true,
+      "sha256": "082e6c154841637a9b24ff0e8c2250c49fb7e36e432c9905c538a223ebc49ed7"
+    },
+    {
+      "mesh": "TailoredTunic",
+      "unchanged": true,
+      "sha256": "306caf64fe744195be4b0b6fab9d15850b1b17ad2287c1b7efc15d9bf40d91aa"
+    },
+    {
+      "mesh": "BootSole_L",
+      "unchanged": true,
+      "sha256": "b843ab045c6f497246265589b83fa3e4ec9e1c87cb2b13ac8b1a65b129cbf632"
+    },
+    {
+      "mesh": "BootUpper_L",
+      "unchanged": true,
+      "sha256": "6eb78bbb68da79e34a08e08e3c58a2a43fd4f7ee1fe50e2e545b7e6a48809a42"
+    },
+    {
+      "mesh": "Leg_L_Boots_HoneyLeather",
+      "unchanged": true,
+      "sha256": "b1d5ee4846ab82a898399c0edc7018b714874471813a2cc8039747abea983e67"
+    },
+    {
+      "mesh": "Leg_L_Hood_DuskBlue",
+      "unchanged": true,
+      "sha256": "e648e43f34d1b160c3904774f345e96c1b8e5d6af477a762f57e7e6f75a82732"
+    },
+    {
+      "mesh": "Leg_L_Lantern_BrushedBrass",
+      "unchanged": true,
+      "sha256": "f1b368bb35f21c7843ef7b6e7d9fcccc23a410513e12d4eff1d5909bc2720217"
+    },
+    {
+      "mesh": "Trouser_L",
+      "unchanged": true,
+      "sha256": "8fa40bcdaf69fe4df1a0624e727b811a5b814d5908342703c9f82557b6225b8a"
+    },
+    {
+      "mesh": "BootSole_R",
+      "unchanged": true,
+      "sha256": "d3385084b9a7612b2dde7248690780872b105c8ac20a2436a8a65aa3b437187e"
+    },
+    {
+      "mesh": "BootUpper_R",
+      "unchanged": true,
+      "sha256": "7279fe3fe91e081b3c95efde29f24b6f26f5f688552377c1284975d63daecf0c"
+    },
+    {
+      "mesh": "Leg_R_Boots_HoneyLeather",
+      "unchanged": true,
+      "sha256": "c5f3a13f734935809d486edde961574bfde5fab4458d3b935d282e337dbbf1b3"
+    },
+    {
+      "mesh": "Leg_R_Hood_DuskBlue",
+      "unchanged": true,
+      "sha256": "d2f1b3cbb262eb2455bf9374490416bbe1655ffe1b4221581cb3bba58b8aa9fe"
+    },
+    {
+      "mesh": "Leg_R_Lantern_BrushedBrass",
+      "unchanged": true,
+      "sha256": "123fd00c4511c9b11131c91a5b0716c941784cda09eda86c710d0f91bab24ad2"
+    },
+    {
+      "mesh": "Trouser_R",
+      "unchanged": true,
+      "sha256": "75a7961a3628f5829597d51874cc47f9ea8ad1b3cf80fd04d5a531ed364eb044"
+    },
+    {
+      "mesh": "ScarfTail_Scarf_EdgeHoney",
+      "unchanged": true,
+      "sha256": "fc6490c687b912df7a0fd08b57469f9b8b9ac3912551edef663790875207308b"
+    },
+    {
+      "mesh": "ScarfTail_Scarf_HarvestGold",
+      "unchanged": true,
+      "sha256": "1c75994b6b415422723b6c9bec071822baf096b2b78a7117b09d0b06f6ce3c9b"
+    }
+  ],
+  "objectBonePivotContractUnchanged": true,
+  "materialGraphsUnchanged": true,
+  "skinWeightsOutsideHeadUnchanged": true,
+  "headHasSkinWeights": false,
+  "headStyle": "Open, gently attentive almond eyes; softer continuous cheek/jaw/nose; asymmetric restrained mouth and brows; layered broad-root hair masses with thin irregular tips. Original dark-brown/teal identity.",
+  "eyeChanges": {
+    "openingWidth": 0.0612,
+    "approxOpeningHeight": 0.0271,
+    "irisDiameter": 0.026,
+    "pupilDiameter": 0.0106,
+    "shallowCapMaxDepth": 0.0028
+  },
+  "normalMethod": "Continuous full-theta/z derivative over head shell; eyelid transition blended into that surface, no cos-threshold normal switch.",
+  "hair": {
+    "version": "character-v11-hair-candidate",
+    "original_local_procedural_geometry": true,
+    "coordinate_space": "v6 unproportion canonical metres; front=-Y; caller applies proportion once",
+    "primary_masses": 9,
+    "secondary_surface_ridges": 24,
+    "highlight_strips": 12,
+    "geometry": {
+      "vertices": 3927,
+      "faces": 4158,
+      "triangles": 7722,
+      "bounds_min": [
+        -0.14384221492912383,
+        -0.11110095501062367,
+        1.0749845334110597
+      ],
+      "bounds_max": [
+        0.14708930723328334,
+        0.14541539241021295,
+        1.2457674982092357
+      ],
+      "minimum_fan_triangle_area_m2": 2.6956799999976367e-07,
+      "signed_volume_m3": 0.000970269665803127,
+      "boundary_edges": 0,
+      "closed_wedges": true
+    },
+    "highlights": {
+      "vertices": 264,
+      "faces": 120,
+      "triangles": 240,
+      "bounds_min": [
+        -0.14036726438215383,
+        -0.11059034644414681,
+        1.1155656385720465
+      ],
+      "bounds_max": [
+        0.14393062314220942,
+        0.12616030953617785,
+        1.241737986606554
+      ],
+      "minimum_fan_triangle_area_m2": 1.418773912467587e-07,
+      "signed_volume_m3": 0.00013143293018141167,
+      "boundary_edges": 264,
+      "closed_wedges": false
+    },
+    "pieces": [
+      {
+        "name": "left_swept_fringe",
+        "role": "primary_broad_rooted_wedge",
+        "vertex_start": 0,
+        "vertex_count": 119,
+        "face_start": 0,
+        "face_count": 126,
+        "root": [
+          0.019600699683591717,
+          0.0064643272149980885,
+          1.240314001405583
+        ],
+        "tip": [
+          -0.08668018602543415,
+          -0.08241336887762088,
+          1.1440362042943124
+        ],
+        "half_width_m": 0.048,
+        "ridge_depth_m": 0.0105,
+        "audit": {
+          "vertices": 119,
+          "faces": 126,
+          "triangles": 234,
+          "bounds_min": [
+            -0.08698884677210118,
+            -0.11110095501062367,
+            1.1440362042943124
+          ],
+          "bounds_max": [
+            0.09570310276125699,
+            0.042927852102667266,
+            1.2445667047542617
+          ],
+          "minimum_fan_triangle_area_m2": 2.0472637378058196e-06,
+          "signed_volume_m3": 0.0001367627109102218,
+          "boundary_edges": 0,
+          "closed_wedges": true
+        }
+      },
+      {
+        "name": "central_swept_fringe",
+        "role": "primary_broad_rooted_wedge",
+        "vertex_start": 119,
+        "vertex_count": 119,
+        "face_start": 126,
+        "face_count": 126,
+        "root": [
+          0.01489757770968125,
+          0.013736773959036191,
+          1.2410507399327104
+        ],
+        "tip": [
+          -0.008809679608402572,
+          -0.10418207847020096,
+          1.1525000223286865
+        ],
+        "half_width_m": 0.041,
+        "ridge_depth_m": 0.0095,
+        "audit": {
+          "vertices": 119,
+          "faces": 126,
+          "triangles": 234,
+          "bounds_min": [
+            -0.012342516233168328,
+            -0.10418207847020096,
+            1.1525000223286865
+          ],
+          "bounds_max": [
+            0.09837322461608118,
+            0.05242648127448149,
+            1.2457674982092357
+          ],
+          "minimum_fan_triangle_area_m2": 1.913064780469263e-06,
+          "signed_volume_m3": 9.198434503261949e-05,
+          "boundary_edges": 0,
+          "closed_wedges": true
+        }
+      },
+      {
+        "name": "right_swept_fringe",
+        "role": "primary_broad_rooted_wedge",
+        "vertex_start": 238,
+        "vertex_count": 119,
+        "face_start": 252,
+        "face_count": 126,
+        "root": [
+          0.04150077910060613,
+          0.01862394086714131,
+          1.2344436158497418
+        ],
+        "tip": [
+          0.10684977575012902,
+          -0.06571603894680364,
+          1.1361953706307166
+        ],
+        "half_width_m": 0.039,
+        "ridge_depth_m": 0.009,
+        "audit": {
+          "vertices": 119,
+          "faces": 126,
+          "triangles": 234,
+          "bounds_min": [
+            0.035871361731904174,
+            -0.06858884745258213,
+            1.1361953706307166
+          ],
+          "bounds_max": [
+            0.12846254230311582,
+            0.055971397386632274,
+            1.2364868132237354
+          ],
+          "minimum_fan_triangle_area_m2": 1.644928967959117e-06,
+          "signed_volume_m3": 6.341876613575998e-05,
+          "boundary_edges": 0,
+          "closed_wedges": true
+        }
+      },
+      {
+        "name": "left_temple_mass",
+        "role": "primary_broad_rooted_wedge",
+        "vertex_start": 357,
+        "vertex_count": 119,
+        "face_start": 378,
+        "face_count": 126,
+        "root": [
+          -0.05779534580629388,
+          -0.020509845137284866,
+          1.2218376746537711
+        ],
+        "tip": [
+          -0.13632199656760266,
+          -0.012963640228009204,
+          1.0760093235005126
+        ],
+        "half_width_m": 0.036,
+        "ridge_depth_m": 0.0085,
+        "audit": {
+          "vertices": 119,
+          "faces": 126,
+          "triangles": 234,
+          "bounds_min": [
+            -0.14382699032041363,
+            -0.06685248563619337,
+            1.0760093235005126
+          ],
+          "bounds_max": [
+            -0.04371606530561608,
+            0.01777663936202902,
+            1.2235030265605094
+          ],
+          "minimum_fan_triangle_area_m2": 3.580199999999233e-06,
+          "signed_volume_m3": 6.376131708447984e-05,
+          "boundary_edges": 0,
+          "closed_wedges": true
+        }
+      },
+      {
+        "name": "right_temple_mass",
+        "role": "primary_broad_rooted_wedge",
+        "vertex_start": 476,
+        "vertex_count": 119,
+        "face_start": 504,
+        "face_count": 126,
+        "root": [
+          0.05633731504351318,
+          -0.007060281008667707,
+          1.2264679373365361
+        ],
+        "tip": [
+          0.1366408068173556,
+          -0.01281510610456739,
+          1.0778786764715977
+        ],
+        "half_width_m": 0.037,
+        "ridge_depth_m": 0.0085,
+        "audit": {
+          "vertices": 119,
+          "faces": 126,
+          "triangles": 234,
+          "bounds_min": [
+            0.04712976244710788,
+            -0.05500512553280648,
+            1.0778786764715977
+          ],
+          "bounds_max": [
+            0.14421614750154646,
+            0.022581442048832306,
+            1.2284567443147774
+          ],
+          "minimum_fan_triangle_area_m2": 3.6796500000000983e-06,
+          "signed_volume_m3": 6.720597089766549e-05,
+          "boundary_edges": 0,
+          "closed_wedges": true
+        }
+      },
+      {
+        "name": "right_rear_mass",
+        "role": "primary_broad_rooted_wedge",
+        "vertex_start": 595,
+        "vertex_count": 119,
+        "face_start": 630,
+        "face_count": 126,
+        "root": [
+          0.0406957551155594,
+          0.021605155383176356,
+          1.2344436158497418
+        ],
+        "tip": [
+          0.12980146948155447,
+          0.05798394959541911,
+          1.0818786764715977
+        ],
+        "half_width_m": 0.044,
+        "ridge_depth_m": 0.009,
+        "audit": {
+          "vertices": 119,
+          "faces": 126,
+          "triangles": 234,
+          "bounds_min": [
+            0.031835568566230536,
+            -0.011750019424286336,
+            1.0818786764715977
+          ],
+          "bounds_max": [
+            0.14708930723328334,
+            0.09767069153802382,
+            1.2364494060206874
+          ],
+          "minimum_fan_triangle_area_m2": 4.633199999998552e-06,
+          "signed_volume_m3": 9.195326880179905e-05,
+          "boundary_edges": 0,
+          "closed_wedges": true
+        }
+      },
+      {
+        "name": "rear_right_mass",
+        "role": "primary_broad_rooted_wedge",
+        "vertex_start": 714,
+        "vertex_count": 119,
+        "face_start": 756,
+        "face_count": 126,
+        "root": [
+          0.018457756777718073,
+          0.02658313266582172,
+          1.239368788275044
+        ],
+        "tip": [
+          0.059665294709967696,
+          0.12270965800963808,
+          1.076444535084114
+        ],
+        "half_width_m": 0.049,
+        "ridge_depth_m": 0.0095,
+        "audit": {
+          "vertices": 119,
+          "faces": 126,
+          "triangles": 234,
+          "bounds_min": [
+            -0.006323613573385477,
+            -0.002503785009883172,
+            1.076444535084114
+          ],
+          "bounds_max": [
+            0.11232877413400091,
+            0.14182919114051143,
+            1.2415479353088457
+          ],
+          "minimum_fan_triangle_area_m2": 5.44634999999799e-06,
+          "signed_volume_m3": 0.00011905478506005406,
+          "boundary_edges": 0,
+          "closed_wedges": true
+        }
+      },
+      {
+        "name": "rear_left_mass",
+        "role": "primary_broad_rooted_wedge",
+        "vertex_start": 833,
+        "vertex_count": 119,
+        "face_start": 882,
+        "face_count": 126,
+        "root": [
+          0.0027366989070541554,
+          0.038240245712282614,
+          1.2382166126804681
+        ],
+        "tip": [
+          -0.056261452857260724,
+          0.1285668239170802,
+          1.0869925267529907
+        ],
+        "half_width_m": 0.051,
+        "ridge_depth_m": 0.009,
+        "audit": {
+          "vertices": 119,
+          "faces": 126,
+          "triangles": 234,
+          "bounds_min": [
+            -0.09962830969450445,
+            0.034315464878718296,
+            1.0869925267529907
+          ],
+          "bounds_max": [
+            0.054221460108892956,
+            0.14541539241021295,
+            1.2403503465126549
+          ],
+          "minimum_fan_triangle_area_m2": 5.37030000000076e-06,
+          "signed_volume_m3": 0.00011387334796021945,
+          "boundary_edges": 0,
+          "closed_wedges": true
+        }
+      },
+      {
+        "name": "left_rear_mass",
+        "role": "primary_broad_rooted_wedge",
+        "vertex_start": 952,
+        "vertex_count": 119,
+        "face_start": 1008,
+        "face_count": 126,
+        "root": [
+          -0.029184642513187992,
+          0.045848975747035156,
+          1.2320879959011655
+        ],
+        "tip": [
+          -0.120392698879434,
+          0.07370080874651652,
+          1.0795861077876407
+        ],
+        "half_width_m": 0.043,
+        "ridge_depth_m": 0.0085,
+        "audit": {
+          "vertices": 119,
+          "faces": 126,
+          "triangles": 234,
+          "bounds_min": [
+            -0.14264682204062362,
+            0.02474119527152394,
+            1.0795861077876407
+          ],
+          "bounds_max": [
+            -0.003146297297643246,
+            0.11676409827113456,
+            1.234234388199193
+          ],
+          "minimum_fan_triangle_area_m2": 4.276349999997242e-06,
+          "signed_volume_m3": 8.534147152233288e-05,
+          "boundary_edges": 0,
+          "closed_wedges": true
+        }
+      },
+      {
+        "name": "left_swept_fringe_ridge_0",
+        "role": "subordinate_surface_ridge",
+        "vertex_start": 1071,
+        "vertex_count": 119,
+        "face_start": 1134,
+        "face_count": 126,
+        "root": [
+          0.05260774437934128,
+          0.022892136091002564,
+          1.2382004870948484
+        ],
+        "tip": [
+          -0.08510534748577461,
+          -0.08431056804303147,
+          1.1457341976457773
+        ],
+        "half_width_m": 0.012,
+        "ridge_depth_m": 0.0024,
+        "audit": {
+          "vertices": 119,
+          "faces": 126,
+          "triangles": 234,
+          "bounds_min": [
+            -0.08510534748577461,
+            -0.11070392926761168,
+            1.1457341976457773
+          ],
+          "bounds_max": [
+            0.09105201852406693,
+            0.03138459730026195,
+            1.240586391378716
+          ],
+          "minimum_fan_triangle_area_m2": 3.36959999999942e-07,
+          "signed_volume_m3": 8.688476114681457e-06,
+          "boundary_edges": 0,
+          "closed_wedges": true
+        }
+      },
+      {
+        "name": "left_swept_fringe_ridge_1",
+        "role": "subordinate_surface_ridge",
+        "vertex_start": 1190,
+        "vertex_count": 119,
+        "face_start": 1260,
+        "face_count": 126,
+        "root": [
+          0.04563555491692941,
+          0.005686588922732928,
+          1.243288834262674
+        ],
+        "tip": [
+          -0.07018957693853847,
+          -0.08986765155323385,
+          1.1593196862176807
+        ],
+        "half_width_m": 0.01008,
+        "ridge_depth_m": 0.0028499999999999997,
+        "audit": {
+          "vertices": 119,
+          "faces": 126,
+          "triangles": 234,
+          "bounds_min": [
+            -0.07018957693853847,
+            -0.10502241487984296,
+            1.1593196862176807
+          ],
+          "bounds_max": [
+            0.07297853044804548,
+            0.012422670960503916,
+            1.2443646697878312
+          ],
+          "minimum_fan_triangle_area_m2": 3.361175999995686e-07,
+          "signed_volume_m3": 6.84188369601695e-06,
+          "boundary_edges": 0,
+          "closed_wedges": true
+        }
+      },
+      {
+        "name": "left_swept_fringe_ridge_2",
+        "role": "subordinate_surface_ridge",
+        "vertex_start": 1309,
+        "vertex_count": 119,
+        "face_start": 1386,
+        "face_count": 126,
+        "root": [
+          0.03820226433133122,
+          -0.023095059953671837,
+          1.239907000086062
+        ],
+        "tip": [
+          -0.08856160420411671,
+          -0.08442367183868324,
+          1.1375260232728739
+        ],
+        "half_width_m": 0.013440000000000002,
+        "ridge_depth_m": 0.0033,
+        "audit": {
+          "vertices": 119,
+          "faces": 126,
+          "triangles": 234,
+          "bounds_min": [
+            -0.08967221331270224,
+            -0.09675318291629147,
+            1.1375260232728739
+          ],
+          "bounds_max": [
+            0.0512451338645995,
+            -0.019274401733219468,
+            1.2416145043627482
+          ],
+          "minimum_fan_triangle_area_m2": 5.189184000001354e-07,
+          "signed_volume_m3": 9.687650081276364e-06,
+          "boundary_edges": 0,
+          "closed_wedges": true
+        }
+      },
+      {
+        "name": "left_swept_fringe_ridge_3",
+        "role": "subordinate_surface_ridge",
+        "vertex_start": 1428,
+        "vertex_count": 119,
+        "face_start": 1512,
+        "face_count": 126,
+        "root": [
+          0.018311046696424957,
+          -0.030482052164854632,
+          1.2411648486775997
+        ],
+        "tip": [
+          -0.0679954926834513,
+          -0.07872389270331903,
+          1.182641156086425
+        ],
+        "half_width_m": 0.009600000000000001,
+        "ridge_depth_m": 0.0024,
+        "audit": {
+          "vertices": 119,
+          "faces": 126,
+          "triangles": 234,
+          "bounds_min": [
+            -0.0679954926834513,
+            -0.07872389270331903,
+            1.182641156086425
+          ],
+          "bounds_max": [
+            0.027873878391436187,
+            -0.029273849906880863,
+            1.2427853158493696
+          ],
+          "minimum_fan_triangle_area_m2": 2.6956799999976367e-07,
+          "signed_volume_m3": 2.6308511934945626e-06,
+          "boundary_edges": 0,
+          "closed_wedges": true
+        }
+      },
+      {
+        "name": "central_swept_fringe_ridge_0",
+        "role": "subordinate_surface_ridge",
+        "vertex_start": 1547,
+        "vertex_count": 119,
+        "face_start": 1638,
+        "face_count": 126,
+        "root": [
+          0.04220528774890287,
+          0.036658889444878266,
+          1.2393100891113948
+        ],
+        "tip": [
+          0.001421983111458251,
+          -0.10188571842265169,
+          1.1610055009892493
+        ],
+        "half_width_m": 0.010660000000000001,
+        "ridge_depth_m": 0.0024,
+        "audit": {
+          "vertices": 119,
+          "faces": 126,
+          "triangles": 234,
+          "bounds_min": [
+            0.001421983111458251,
+            -0.10188571842265169,
+            1.1610055009892493
+          ],
+          "bounds_max": [
+            0.09664951316882582,
+            0.044688898859060217,
+            1.2414547991957705
+          ],
+          "minimum_fan_triangle_area_m2": 2.9933280000006523e-07,
+          "signed_volume_m3": 5.8904062830626495e-06,
+          "boundary_edges": 0,
+          "closed_wedges": true
+        }
+      },
+      {
+        "name": "central_swept_fringe_ridge_1",
+        "role": "subordinate_surface_ridge",
+        "vertex_start": 1666,
+        "vertex_count": 119,
+        "face_start": 1764,
+        "face_count": 126,
+        "root": [
+          0.033242283514397036,
+          0.014189293781983775,
+          1.2446290060287646
+        ],
+        "tip": [
+          -0.008796611552971286,
+          -0.10715492244726982,
+          1.1477640700919867
+        ],
+        "half_width_m": 0.01189,
+        "ridge_depth_m": 0.0028499999999999997,
+        "audit": {
+          "vertices": 119,
+          "faces": 126,
+          "triangles": 234,
+          "bounds_min": [
+            -0.009907083113837204,
+            -0.10715492244726982,
+            1.1477640700919867
+          ],
+          "bounds_max": [
+            0.07817356757420722,
+            0.023400595555357912,
+            1.2453222433481328
+          ],
+          "minimum_fan_triangle_area_m2": 3.96472050000315e-07,
+          "signed_volume_m3": 7.3341653606351965e-06,
+          "boundary_edges": 0,
+          "closed_wedges": true
+        }
+      },
+      {
+        "name": "central_swept_fringe_ridge_2",
+        "role": "subordinate_surface_ridge",
+        "vertex_start": 1785,
+        "vertex_count": 119,
+        "face_start": 1890,
+        "face_count": 126,
+        "root": [
+          0.035536441888902974,
+          -0.013182151021383879,
+          1.2412492005199862
+        ],
+        "tip": [
+          -0.0021456973239467967,
+          -0.09419071890795223,
+          1.181979261526223
+        ],
+        "half_width_m": 0.009430000000000001,
+        "ridge_depth_m": 0.0033,
+        "audit": {
+          "vertices": 119,
+          "faces": 126,
+          "triangles": 234,
+          "bounds_min": [
+            -0.0021456973239467967,
+            -0.09419071890795223,
+            1.181979261526223
+          ],
+          "bounds_max": [
+            0.05237924261727707,
+            -0.00758077179745979,
+            1.2429157036521805
+          ],
+          "minimum_fan_triangle_area_m2": 3.640922999998979e-07,
+          "signed_volume_m3": 3.5537862112539255e-06,
+          "boundary_edges": 0,
+          "closed_wedges": true
+        }
+      },
+      {
+        "name": "right_swept_fringe_ridge_0",
+        "role": "subordinate_surface_ridge",
+        "vertex_start": 1904,
+        "vertex_count": 119,
+        "face_start": 2016,
+        "face_count": 126,
+        "root": [
+          0.0694590549292262,
+          0.04101408618665767,
+          1.2256396310349627
+        ],
+        "tip": [
+          0.10858164386965313,
+          -0.06528779166151637,
+          1.1364524841662582
+        ],
+        "half_width_m": 0.010530000000000001,
+        "ridge_depth_m": 0.0024,
+        "audit": {
+          "vertices": 119,
+          "faces": 126,
+          "triangles": 234,
+          "bounds_min": [
+            0.06892858166292196,
+            -0.06528779166151637,
+            1.1364524841662582
+          ],
+          "bounds_max": [
+            0.12756417501114392,
+            0.04887965173020041,
+            1.2279442820614674
+          ],
+          "minimum_fan_triangle_area_m2": 2.956824000001262e-07,
+          "signed_volume_m3": 4.017731927310694e-06,
+          "boundary_edges": 0,
+          "closed_wedges": true
+        }
+      },
+      {
+        "name": "right_swept_fringe_ridge_1",
+        "role": "subordinate_surface_ridge",
+        "vertex_start": 2023,
+        "vertex_count": 119,
+        "face_start": 2142,
+        "face_count": 126,
+        "root": [
+          0.07318394679141417,
+          0.01642572685979416,
+          1.2290119011969411
+        ],
+        "tip": [
+          0.10844846320309891,
+          -0.05853321904889841,
+          1.1548574211097768
+        ],
+        "half_width_m": 0.00936,
+        "ridge_depth_m": 0.0028499999999999997,
+        "audit": {
+          "vertices": 119,
+          "faces": 126,
+          "triangles": 234,
+          "bounds_min": [
+            0.07149081273478812,
+            -0.05853321904889841,
+            1.1548574211097768
+          ],
+          "bounds_max": [
+            0.11655544789543307,
+            0.023363611773952863,
+            1.2305287171462844
+          ],
+          "minimum_fan_triangle_area_m2": 2.892988995880358e-07,
+          "signed_volume_m3": 3.183486816303189e-06,
+          "boundary_edges": 0,
+          "closed_wedges": true
+        }
+      },
+      {
+        "name": "right_swept_fringe_ridge_2",
+        "role": "subordinate_surface_ridge",
+        "vertex_start": 2142,
+        "vertex_count": 119,
+        "face_start": 2268,
+        "face_count": 126,
+        "root": [
+          0.06317003006935142,
+          -0.0041477103803603125,
+          1.231698061946932
+        ],
+        "tip": [
+          0.1038162368926939,
+          -0.06542709179578987,
+          1.1485150656077188
+        ],
+        "half_width_m": 0.00975,
+        "ridge_depth_m": 0.0033,
+        "audit": {
+          "vertices": 119,
+          "faces": 126,
+          "triangles": 234,
+          "bounds_min": [
+            0.059892204728137305,
+            -0.06542709179578987,
+            1.1485150656077188
+          ],
+          "bounds_max": [
+            0.1038162368926939,
+            0.0026778850992293457,
+            1.2324947956102854
+          ],
+          "minimum_fan_triangle_area_m2": 3.76447499999633e-07,
+          "signed_volume_m3": 3.698985254990084e-06,
+          "boundary_edges": 0,
+          "closed_wedges": true
+        }
+      },
+      {
+        "name": "left_temple_mass_ridge_0",
+        "role": "subordinate_surface_ridge",
+        "vertex_start": 2261,
+        "vertex_count": 119,
+        "face_start": 2394,
+        "face_count": 126,
+        "root": [
+          -0.07869508006234019,
+          -0.053774925623032294,
+          1.199672957174023
+        ],
+        "tip": [
+          -0.13671526723652178,
+          -0.015173227620628412,
+          1.0751102537942605
+        ],
+        "half_width_m": 0.01224,
+        "ridge_depth_m": 0.0024,
+        "audit": {
+          "vertices": 119,
+          "faces": 126,
+          "triangles": 234,
+          "bounds_min": [
+            -0.13695674491487675,
+            -0.06598282912636136,
+            1.0751102537942605
+          ],
+          "bounds_max": [
+            -0.07375919700624164,
+            -0.015173227620628412,
+            1.2023035319708513
+          ],
+          "minimum_fan_triangle_area_m2": 3.436991999996008e-07,
+          "signed_volume_m3": 4.108158245257407e-06,
+          "boundary_edges": 0,
+          "closed_wedges": true
+        }
+      },
+      {
+        "name": "left_temple_mass_ridge_1",
+        "role": "subordinate_surface_ridge",
+        "vertex_start": 2380,
+        "vertex_count": 119,
+        "face_start": 2520,
+        "face_count": 126,
+        "root": [
+          -0.07769858909615003,
+          -0.03304735937739458,
+          1.214263694519719
+        ],
+        "tip": [
+          -0.13935294260755804,
+          -0.022547155592447188,
+          1.0960430730350499
+        ],
+        "half_width_m": 0.01188,
+        "ridge_depth_m": 0.0028499999999999997,
+        "audit": {
+          "vertices": 119,
+          "faces": 126,
+          "triangles": 234,
+          "bounds_min": [
+            -0.13957222195413577,
+            -0.049942176276742974,
+            1.0960430730350499
+          ],
+          "bounds_max": [
+            -0.0734899308275875,
+            -0.022030888177729437,
+            1.2154012724448664
+          ],
+          "minimum_fan_triangle_area_m2": 3.9613859999919103e-07,
+          "signed_volume_m3": 4.703325086757914e-06,
+          "boundary_edges": 0,
+          "closed_wedges": true
+        }
+      },
+      {
+        "name": "left_temple_mass_ridge_2",
+        "role": "subordinate_surface_ridge",
+        "vertex_start": 2499,
+        "vertex_count": 119,
+        "face_start": 2646,
+        "face_count": 126,
+        "root": [
+          -0.10302056585653549,
+          -0.015474410785667607,
+          1.198188583811118
+        ],
+        "tip": [
+          -0.14012689469367953,
+          -0.009334257336296857,
+          1.086370799921064
+        ],
+        "half_width_m": 0.010799999999999999,
+        "ridge_depth_m": 0.0033,
+        "audit": {
+          "vertices": 119,
+          "faces": 126,
+          "triangles": 234,
+          "bounds_min": [
+            -0.14384221492912383,
+            -0.02561275732126026,
+            1.086370799921064
+          ],
+          "bounds_max": [
+            -0.10136468116220905,
+            0.004338882138933277,
+            1.199312319682162
+          ],
+          "minimum_fan_triangle_area_m2": 4.1698799999990246e-07,
+          "signed_volume_m3": 4.3394550476003005e-06,
+          "boundary_edges": 0,
+          "closed_wedges": true
+        }
+      },
+      {
+        "name": "right_temple_mass_ridge_0",
+        "role": "subordinate_surface_ridge",
+        "vertex_start": 2618,
+        "vertex_count": 119,
+        "face_start": 2772,
+        "face_count": 126,
+        "root": [
+          0.08921690481910653,
+          0.0064178966044469475,
+          1.2160062103845337
+        ],
+        "tip": [
+          0.1434194661190757,
+          0.00670690248208201,
+          1.0951918433072783
+        ],
+        "half_width_m": 0.01184,
+        "ridge_depth_m": 0.0024,
+        "audit": {
+          "vertices": 119,
+          "faces": 126,
+          "triangles": 234,
+          "bounds_min": [
+            0.08865013322626292,
+            -0.007074180197766202,
+            1.0951918433072783
+          ],
+          "bounds_max": [
+            0.1448587934111607,
+            0.020726347007323086,
+            1.216508688966813
+          ],
+          "minimum_fan_triangle_area_m2": 3.3246719999952303e-07,
+          "signed_volume_m3": 3.6770874165210714e-06,
+          "boundary_edges": 0,
+          "closed_wedges": true
+        }
+      },
+      {
+        "name": "right_temple_mass_ridge_1",
+        "role": "subordinate_surface_ridge",
+        "vertex_start": 2737,
+        "vertex_count": 119,
+        "face_start": 2898,
+        "face_count": 126,
+        "root": [
+          0.0928273982856391,
+          -0.015131142320568447,
+          1.2112007215767446
+        ],
+        "tip": [
+          0.1377905947529169,
+          -0.012109028831742316,
+          1.0756678576546157
+        ],
+        "half_width_m": 0.012580000000000001,
+        "ridge_depth_m": 0.0028499999999999997,
+        "audit": {
+          "vertices": 119,
+          "faces": 126,
+          "triangles": 234,
+          "bounds_min": [
+            0.09030208764771755,
+            -0.02900154903378511,
+            1.0756678576546157
+          ],
+          "bounds_max": [
+            0.14581538228772514,
+            0.002703506102071457,
+            1.2119161531149092
+          ],
+          "minimum_fan_triangle_area_m2": 4.194800999995667e-07,
+          "signed_volume_m3": 5.185306481983921e-06,
+          "boundary_edges": 0,
+          "closed_wedges": true
+        }
+      },
+      {
+        "name": "right_temple_mass_ridge_2",
+        "role": "subordinate_surface_ridge",
+        "vertex_start": 2856,
+        "vertex_count": 119,
+        "face_start": 3024,
+        "face_count": 126,
+        "root": [
+          0.08032242880561025,
+          -0.03451785163388777,
+          1.2104943731818172
+        ],
+        "tip": [
+          0.1373572387846701,
+          -0.028138626672445387,
+          1.1052633288845264
+        ],
+        "half_width_m": 0.01147,
+        "ridge_depth_m": 0.0033,
+        "audit": {
+          "vertices": 119,
+          "faces": 126,
+          "triangles": 234,
+          "bounds_min": [
+            0.07641551666854944,
+            -0.047675716677939586,
+            1.1052633288845264
+          ],
+          "bounds_max": [
+            0.1373572387846701,
+            -0.02198814390485447,
+            1.211828614835484
+          ],
+          "minimum_fan_triangle_area_m2": 4.4285669999970055e-07,
+          "signed_volume_m3": 4.672783601229867e-06,
+          "boundary_edges": 0,
+          "closed_wedges": true
+        }
+      },
+      {
+        "name": "right_rear_mass_ridge_0",
+        "role": "subordinate_surface_ridge",
+        "vertex_start": 2975,
+        "vertex_count": 119,
+        "face_start": 3150,
+        "face_count": 126,
+        "root": [
+          0.06735851283676861,
+          0.050146056616129454,
+          1.2247153972334943
+        ],
+        "tip": [
+          0.12839013552486833,
+          0.0672780735118735,
+          1.0914658825217634
+        ],
+        "half_width_m": 0.01672,
+        "ridge_depth_m": 0.0024,
+        "audit": {
+          "vertices": 119,
+          "faces": 126,
+          "triangles": 234,
+          "bounds_min": [
+            0.06134199626371389,
+            0.03865100220646015,
+            1.0914658825217634
+          ],
+          "bounds_max": [
+            0.12839013552486833,
+            0.0915652900812406,
+            1.2260377372067615
+          ],
+          "minimum_fan_triangle_area_m2": 4.694975999991786e-07,
+          "signed_volume_m3": 5.961529256497075e-06,
+          "boundary_edges": 0,
+          "closed_wedges": true
+        }
+      },
+      {
+        "name": "right_rear_mass_ridge_1",
+        "role": "subordinate_surface_ridge",
+        "vertex_start": 3094,
+        "vertex_count": 119,
+        "face_start": 3276,
+        "face_count": 126,
+        "root": [
+          0.0870703632606006,
+          0.014830316454875926,
+          1.2185030478761145
+        ],
+        "tip": [
+          0.1380342522683659,
+          0.0510810934776129,
+          1.1097304559906938
+        ],
+        "half_width_m": 0.015399999999999999,
+        "ridge_depth_m": 0.0028499999999999997,
+        "audit": {
+          "vertices": 119,
+          "faces": 126,
+          "triangles": 234,
+          "bounds_min": [
+            0.08460620203128824,
+            0.003179132727699145,
+            1.1097304559906938
+          ],
+          "bounds_max": [
+            0.1382854569329809,
+            0.05672518294772126,
+            1.220073388982857
+          ],
+          "minimum_fan_triangle_area_m2": 5.135129999986844e-07,
+          "signed_volume_m3": 5.672973175117049e-06,
+          "boundary_edges": 0,
+          "closed_wedges": true
+        }
+      },
+      {
+        "name": "rear_right_mass_ridge_0",
+        "role": "subordinate_surface_ridge",
+        "vertex_start": 3213,
+        "vertex_count": 119,
+        "face_start": 3402,
+        "face_count": 126,
+        "root": [
+          0.022134654532918283,
+          0.059922527397848084,
+          1.2359668624348792
+        ],
+        "tip": [
+          0.04070673598189386,
+          0.13655638867126188,
+          1.1033327885364248
+        ],
+        "half_width_m": 0.01813,
+        "ridge_depth_m": 0.0024,
+        "audit": {
+          "vertices": 119,
+          "faces": 126,
+          "triangles": 234,
+          "bounds_min": [
+            0.010356676648430868,
+            0.05227100354796033,
+            1.1033327885364248
+          ],
+          "bounds_max": [
+            0.06187130812340129,
+            0.13917471388085007,
+            1.2376138638578065
+          ],
+          "minimum_fan_triangle_area_m2": 5.090903999989962e-07,
+          "signed_volume_m3": 6.752461197152594e-06,
+          "boundary_edges": 0,
+          "closed_wedges": true
+        }
+      },
+      {
+        "name": "rear_right_mass_ridge_1",
+        "role": "subordinate_surface_ridge",
+        "vertex_start": 3332,
+        "vertex_count": 119,
+        "face_start": 3528,
+        "face_count": 126,
+        "root": [
+          0.0710591214145478,
+          0.050619451115792295,
+          1.221974952579439
+        ],
+        "tip": [
+          0.06068992347171088,
+          0.12332780770855219,
+          1.0749845334110597
+        ],
+        "half_width_m": 0.01715,
+        "ridge_depth_m": 0.0028499999999999997,
+        "audit": {
+          "vertices": 119,
+          "faces": 126,
+          "triangles": 234,
+          "bounds_min": [
+            0.06068992347171088,
+            0.04151991754088262,
+            1.0749845334110597
+          ],
+          "bounds_max": [
+            0.09995224696995007,
+            0.1271358969440793,
+            1.224243678679913
+          ],
+          "minimum_fan_triangle_area_m2": 5.718667499994661e-07,
+          "signed_volume_m3": 8.499714155735926e-06,
+          "boundary_edges": 0,
+          "closed_wedges": true
+        }
+      },
+      {
+        "name": "rear_left_mass_ridge_0",
+        "role": "subordinate_surface_ridge",
+        "vertex_start": 3451,
+        "vertex_count": 119,
+        "face_start": 3654,
+        "face_count": 126,
+        "root": [
+          -0.02165007255283274,
+          0.07160425662204487,
+          1.2314755767001035
+        ],
+        "tip": [
+          -0.06296210934623298,
+          0.12749851181533375,
+          1.0892517027908457
+        ],
+        "half_width_m": 0.019379999999999998,
+        "ridge_depth_m": 0.0024,
+        "audit": {
+          "vertices": 119,
+          "faces": 126,
+          "triangles": 234,
+          "bounds_min": [
+            -0.09040923053428013,
+            0.06770909480161254,
+            1.0892517027908457
+          ],
+          "bounds_max": [
+            -0.007046307745784795,
+            0.12749851181533375,
+            1.231956396514758
+          ],
+          "minimum_fan_triangle_area_m2": 5.441904000003232e-07,
+          "signed_volume_m3": 7.25716251904742e-06,
+          "boundary_edges": 0,
+          "closed_wedges": true
+        }
+      },
+      {
+        "name": "rear_left_mass_ridge_1",
+        "role": "subordinate_surface_ridge",
+        "vertex_start": 3570,
+        "vertex_count": 119,
+        "face_start": 3780,
+        "face_count": 126,
+        "root": [
+          0.02625665342978038,
+          0.07137481051109035,
+          1.228985267163101
+        ],
+        "tip": [
+          -0.04273041784249144,
+          0.1373727373424467,
+          1.1100140302770598
+        ],
+        "half_width_m": 0.017849999999999998,
+        "ridge_depth_m": 0.0028499999999999997,
+        "audit": {
+          "vertices": 119,
+          "faces": 126,
+          "triangles": 234,
+          "bounds_min": [
+            -0.04273041784249144,
+            0.06985298707416143,
+            1.1100140302770598
+          ],
+          "bounds_max": [
+            0.039919220185754944,
+            0.13819246552273942,
+            1.2311916787442327
+          ],
+          "minimum_fan_triangle_area_m2": 5.952082500003712e-07,
+          "signed_volume_m3": 8.151961212980244e-06,
+          "boundary_edges": 0,
+          "closed_wedges": true
+        }
+      },
+      {
+        "name": "left_rear_mass_ridge_0",
+        "role": "subordinate_surface_ridge",
+        "vertex_start": 3689,
+        "vertex_count": 119,
+        "face_start": 3906,
+        "face_count": 126,
+        "root": [
+          -0.06298211628656494,
+          0.051629393655455574,
+          1.2255589859689235
+        ],
+        "tip": [
+          -0.13769504097929872,
+          0.0536991747485238,
+          1.1102614689383767
+        ],
+        "half_width_m": 0.015049999999999997,
+        "ridge_depth_m": 0.0024,
+        "audit": {
+          "vertices": 119,
+          "faces": 126,
+          "triangles": 234,
+          "bounds_min": [
+            -0.13769504097929872,
+            0.041867063301165304,
+            1.1102614689383767
+          ],
+          "bounds_max": [
+            -0.05649911616225944,
+            0.07802077121538631,
+            1.2262771475336631
+          ],
+          "minimum_fan_triangle_area_m2": 4.226039999999292e-07,
+          "signed_volume_m3": 4.869134427518429e-06,
+          "boundary_edges": 0,
+          "closed_wedges": true
+        }
+      },
+      {
+        "name": "left_rear_mass_ridge_1",
+        "role": "subordinate_surface_ridge",
+        "vertex_start": 3808,
+        "vertex_count": 119,
+        "face_start": 4032,
+        "face_count": 126,
+        "root": [
+          -0.04360889023960775,
+          0.0857576133278061,
+          1.212780134526162
+        ],
+        "tip": [
+          -0.12122859447874737,
+          0.07635774057586497,
+          1.0812225547056702
+        ],
+        "half_width_m": 0.01677,
+        "ridge_depth_m": 0.0028499999999999997,
+        "audit": {
+          "vertices": 119,
+          "faces": 126,
+          "triangles": 234,
+          "bounds_min": [
+            -0.12185001054478563,
+            0.07635774057586497,
+            1.0812225547056702
+          ],
+          "bounds_max": [
+            -0.03416324565456725,
+            0.10911535966913948,
+            1.2163495465031333
+          ],
+          "minimum_fan_triangle_area_m2": 5.591956499994377e-07,
+          "signed_volume_m3": 7.535207635549231e-06,
+          "boundary_edges": 0,
+          "closed_wedges": true
+        }
+      }
+    ],
+    "caller_preserves": [
+      "existing 640-vertex scalp",
+      "face and brow/lash choices",
+      "skeleton and attachment transforms",
+      "two existing hair materials"
+    ],
+    "material_intent": "original dark brown; subdued existing hairLight; no yellow",
+    "topology": "closed shallow asymmetric wedge volumes; open outward highlight strips",
+    "root_contact": "ellipsoid-following primary roots overlap cap; no arched free bridge; subordinate roots overlap parent wedge",
+    "revision_reason": "v10 original views showed exposed cap/black root gaps and absent temple/rear volume; v10 is preserved",
+    "visual_targets": [
+      "unequal forehead ends above brows",
+      "four layered ends per temple down to ~1.075m",
+      "posterior volume ~y.14 and staggered cap-edge coverage below z1.103"
+    ],
+    "limitations": [
+      "Scalp/face are not loaded here; contact needs assembled-scene inspection.",
+      "No render or visual acceptance is claimed.",
+      "No guarantee against every facial morph or view before integration checks."
+    ],
+    "visual_review_pending": true
+  },
+  "blinkInterface": "Names, parents, original object transforms and .001..1 XY scale interface preserved; lid covers and closed lashes regenerated to match new opening.",
+  "limits": [
+    "Candidate only; no normal Unity acceptance or attribution to lighting.",
+    "No GLB export or full interchange audit at this stage.",
+    "Preview studio lights and fixed cameras compare geometry only; they do not reproduce current Unity gameplay lighting.",
+    "Existing blink pivot centers are retained; intermediate/full blink coverage still requires visual runtime checks."
+  ],
+  "files": {
+    "traveler.blend": {
+      "sha256": "a707e934b666cd861d96ba3287b106aa60499aae0fda071dbbe4b7a66f97d18d",
+      "bytes": 9771914
+    },
+    "traveler.fbx": {
+      "sha256": "58e808f1aec15f3e960e96e57b9484284bf7b9b214de511d036c1567761b828b",
+      "bytes": 2672076
+    }
+  },
+  "aestheticObjectiveAchieved": false
+}

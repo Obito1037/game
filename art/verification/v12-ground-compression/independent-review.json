@@ -1,0 +1,59 @@
+{
+  "reviewer": "reference_research",
+  "reviewed": true,
+  "acceptedForLimitedStaticScope": true,
+  "isReleaseDecision": false,
+  "recommendation": "静态图范围内，1024 DXT1 候选可继续进入性能与正常运行检查，没有看到足以否决的压缩退化。",
+  "summary": "三组 0.35 原图对照中，压缩候选保留了正常路径的土壤层次；近景细碎纹理略柔和，灯旁最容易看出差别，但未见显著方块、贴图接缝或大面积糊成色块。它没有解决既有的均匀铺毯感，也不能据图宣称性能改善。",
+  "evidence": {
+    "importRecord": "unity-import.json",
+    "candidateStudy": "ground-detail-study.json",
+    "baselineStudy": "../v12-ground-detail-refined/ground-detail-study.json",
+    "personallyViewedOriginals": [
+      "../v12-ground-detail-refined/path-detail-soft.png",
+      "path-detail-soft.png",
+      "../v12-ground-detail-refined/roots-detail-soft.png",
+      "roots-detail-soft.png",
+      "../v12-ground-detail-refined/lamp-detail-soft.png",
+      "lamp-detail-soft.png"
+    ],
+    "sourceSHA256FromImportRecord": "483D36A325CA6B05BBB8580DD3E238AF866F331D762976CB0064569FD7925F1B",
+    "baseline": { "width": 1254, "height": 1254, "format": "RGBA32", "mips": 11 },
+    "candidate": { "width": 1024, "height": 1024, "format": "DXT1", "mips": 11 },
+    "sharedParameters": { "detailStrengthApprox": 0.35, "normalScaleApprox": 0.22, "tileMetresApprox": 1.8, "filter": "Trilinear", "aniso": 4 },
+    "originalFrameDimensions": { "width": 1440, "height": 900 },
+    "bothStudyAllInvariantsPassed": true
+  },
+  "observations": [
+    {
+      "view": "path",
+      "finding": "正常构图里，中央踏石间土壤及左右岩石周围的纹理仍清楚，压缩版与 RGBA32 版的地面阅读感接近；没有看到方块阵列、新接缝或路径识别下降。",
+      "limitation": "这不是逐像素相同；星点等非地面细节也有会话差异，不把全图差异归于压缩。"
+    },
+    {
+      "view": "roots",
+      "finding": "石间细碎地表在压缩候选中稍柔和，仍保留连续的土壤细节，没有大块平涂化，也没有在石脚出现新白边或规则块状条纹。",
+      "limitation": "少量最细纤维与颗粒的锐度损失可辨；原有平面苔藓毯感继续存在。"
+    },
+    {
+      "view": "lamp",
+      "finding": "六图中这里最容易辨认细节略软：灯座前方碎纹边缘没有 RGBA32 那样细，但花草与灯座轮廓不受影响，未见明显 4×4 压缩格或跨区接缝。",
+      "limitation": "均匀卷碎纹和近景铺毯感依然明显；压缩不是对这些美术问题的修复。"
+    }
+  ],
+  "visibleFailureChecks": {
+    "obviousCompressionBlockGridSeen": false,
+    "obviousNewTileSeamSeen": false,
+    "largeGroundAreasBlurredIntoFlatColour": false,
+    "pathReadabilityLost": false,
+    "someFineDetailSofteningSeen": true
+  },
+  "limits": [
+    "仅亲看六张原始静态图，未运行浏览器、Unity、Blender、GPU 测试或动态录像。",
+    "两份 study 各自记录十五图及 allInvariantsPassed；这不代表亲看其余变体。",
+    "固定时间不会冻结全部逐帧随机项，静态比较不能证明动态闪烁、远距稳定性或全角度结果。",
+    "没有将理论存储缩小或导入器 Profiler 对象内存数字视为显存实测、带宽实测或帧率收益。",
+    "此候选仅修改 Standalone 导入；WebGL 仍为 RGBA32，本结论不能替代 Web 检查，也不证明所有设备支持 DXT1。",
+    "最终是否采用仍由根代理结合正常运行、实际性能与身份记录决定；未写 decision.json。"
+  ]
+}

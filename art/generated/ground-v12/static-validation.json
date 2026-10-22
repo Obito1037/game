@@ -1,0 +1,25 @@
+{
+  "atUTC": "2026-10-21T03:53:43.535Z",
+  "scope": "Read-only static/source/PNG identity audit; Unity support result reported by root; no sub-agent GPU work",
+  "checks": {
+    "originalAndResourcesByteIdentical": true,
+    "normalGameplayRemapExactlyMatchesFrozenV11": true,
+    "noCustomUnityPerMaterialBuffer": true,
+    "readsInstalledOfficialLitInput": true,
+    "readsInstalledOfficialLitForwardPass": true,
+    "officialShadowDepthNormalPasses": true,
+    "shaderUsesMeasuredLinearMean": true,
+    "shaderUsesMeasuredClampedMean": true,
+    "onlyOneOptInStartupBranch": true,
+    "meadowBaseImageStillFrozenV8": true,
+    "meadowNormalStillFrozenV8": true
+  },
+  "normalGameplayRemapSHA256": "8732F2C5F87D6B19832DAABA5B767114E4DD081C8880AD916F4E38A7D8E9939A",
+  "expectedAuthoredPixelMultiplierRange": [
+    0.6501005345114608,
+    1.7363605790022478
+  ],
+  "expectedAuthoredMeanMultiplier": 1,
+  "flatMipTheoreticalMultiplier": 1.021715812889888,
+  "allChecksPassed": true
+}

@@ -1,0 +1,24 @@
+{
+  "buildId": "build_9902e018c8ce",
+  "playerDirectory": "C:\\Users\\20665\\Desktop\\game\\builds\\candidates\\v10-foliage-study",
+  "capturedBeforeLaunchUtc": "2026-10-21T01:57:46.6958305Z",
+  "files": [
+    {
+      "name": "BorrowedLight.exe",
+      "sha256": "EB143EAD6441B6DD9D7D145ADB85410E9389FB3878899AE537E8C9869CCE38FA"
+    },
+    {
+      "name": "UnityPlayer.dll",
+      "sha256": "851DA827899734E8B3D56F7E4DBBD58210E58E4DAEF504E6B7472B9EE503914B"
+    },
+    {
+      "name": "BorrowedLight_Data/resources.assets",
+      "sha256": "B06EF1D03AE5E2217D56042960ED1B2A783BC3F2A9F5401C87466B0E0E718F5A"
+    },
+    {
+      "name": "BorrowedLight_Data/Managed/Assembly-CSharp.dll",
+      "sha256": "494CA87D21F4D80F26E932F71EA09CA10F38CFA30552EA3627608D3EA9414831"
+    }
+  ],
+  "scope": "Read-only hashes of the player files immediately before launching this QA session. Runtime acceptance is recorded separately."
+}

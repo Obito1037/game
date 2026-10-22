@@ -1,0 +1,10 @@
+{
+  "scope": "Scene/camera/light invariants only. Model identity is established by build/import evidence. Temporal AO is not frozen by Time.timeScale=0.",
+  "baseline": "C:\\Users\\20665\\Desktop\\game\\art\\verification\\v11-plants-candidate",
+  "candidate": "C:\\Users\\20665\\Desktop\\game\\art\\verification\\v12-grass-candidate",
+  "sceneMatch": true,
+  "viewMatch": true,
+  "lightsMatch": true,
+  "bothStable": true,
+  "passed": true
+}

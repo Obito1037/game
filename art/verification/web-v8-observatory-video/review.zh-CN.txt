@@ -1,0 +1,15 @@
+v8 默认机位观星台连续动作核验
+
+推荐播放：observatory-approach-time-cut.webm，13.280 秒，1,727,250 bytes。完整原视频 gait-session-includes-loading.webm，44.000 秒，4,349,646 bytes。构建 build_6a2cf444c9a6；会话实际请求与正常 Web QA 的四项 Build 资源一致，原始 HTTP 响应字节与候选磁盘 SHA-256 均通过，详见 ../web-008-v8/artifact-identity.json。
+
+本次使用 tools/capture-game-gait.cjs 的既有 video-only + observatory 路线，未修改共享脚本。completed=true、errors=[]，canvas/viewport 1440 × 900，DPR 1。独立浏览器目录 tools/game-browser-profile-v8-observatory-video；正常 QA 的浏览器关闭后才开始录像。
+
+操作：真实键盘完成三章，回岛后等待至少 6,500 ms 镜头稳定，再等 850 ms 焦点稳定，保持默认镜头按 W。实际按键持续 4,248 ms，松键停步约 1,514 ms，完整动作窗口 5,788 ms。没有截图、镜头拖动、位置或骨骼注入。录制完整会话的导航时间与视频时间略有偏差，capture-manifest.json 的事件时间只能用于定位，不能当精确帧时间。
+
+从原视频 36 秒起按约 4 帧/秒离线抽帧到 video-frames；目检 step-08、12、16、20、24、31。角色从铺石路交替迈步，上观星台台阶，最终双鞋保持在上层台面，身体停在中央仪器前侧。所看帧中裤腿与靴筒、袖子与手臂没有可见断开，袖臂随走路连续变化，没有明显几何爆开。HUD 尺寸稳定，未重现 v7 截图与录屏并行时的放大裁切现象。
+
+观察边界：此为后方常规游玩机位，袖褶只占少量像素，无法判断毫米级折痕是否足够自然；应结合原生近景及 Blender 袖部对照图判断造型。此片段只证明这条真实输入路线的可见上阶、停步和肢体连接，不能代替所有方向、全部帧或全部姿态的数值接地与穿插检查。单条路线已覆盖本次所需的明显动画回归检查，因此没有重复录制无新增问题的侧向路线。
+
+裁切命令只用 FFmpeg -ss 35、-t 9、-c copy。流复制从前一关键帧开始，实际保留原视频 30.720–44.000 秒，片段 13.280 秒，包含完整起步前等待、上阶及停步。没有重编码、画面缩放、补帧、调速或重画。verify-time-cut.cjs 解析 EBML SimpleBlock，将片段全部 332 个 VP8 编码包逐一 SHA-256 比对到原视频，passed=true；time-cut-verification.json 记录实际范围和容器时长。
+
+25 FPS 是 Playwright 视频容器采样/重采样频率，不是游戏引擎帧率。性能只引用独立正常 QA 的 interval 读数。录像会话的 Unity 提示仍含 INVALID_ENUM、CoreCopy / StencilDitherMaskSeed / HDRDebugView unsupported、未加载音频取长提示，原始日志完整保留。本次不据功能或这条短路线声称整体美术已超越参考。

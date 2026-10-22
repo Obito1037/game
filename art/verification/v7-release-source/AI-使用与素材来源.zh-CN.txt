@@ -1,0 +1,35 @@
+借光岛 · 制作记录与 AI 使用披露
+
+用户提供了参赛目标、单人制作和48小时范围、参考网站以及视觉验收要求。
+当前 Blender 生产脚本、岛屿与角色几何、Unity C# 程序、程序材质、音频合成脚本、构建与验收脚本及说明文档，均由 Codex 代理生成或修改。
+天空位图由内置 image_gen 根据原创提示生成。模型没有调用参考网站或第三方游戏的模型文件；音乐为本地合成，没有使用第三方录音采样。
+本轮草叶、岩石、人物面部、衣褶和顶点色仍由本地 Blender Python 脚本生成或修改；星空合并、表面着色、界面及碰撞修复由 Codex 代理修改项目代码。没有新增第三方模型或纹理。
+用户后续的审美取舍、实际修改、试玩反馈和最终提交应按事实补记；本文件不将尚未发生的工作写成学生已完成的贡献。
+
+第三方字体
+Noto Serif CJK SC，版权为原字体作者，使用 SIL Open Font License 1.1。
+当前运行包使用改名子集 BorrowedLight Story Serif，保留原轮廓、排版与版权/授权元数据。
+完整母版、子集、许可与验证：art/generated/fonts/。
+复现脚本：tools/font-subset/build_subset.py；工具版本与哈希见字体 manifest.json。
+
+视觉参考
+作者 Saccc_c，https://littleprince.dev/
+原推文：https://x.com/Saccc_c/status/2110694725640474759
+仅参考童话小星球的氛围与叙事表达，没有复制网站的程序、模型、角色、音频或原作文字。
+参考截图用于本地研究和同规格验收，不作为本作美术素材打包。
+
+实机与来源证据
+art/production-manifest.json：来源汇总与当前验证状态。
+art/generated/sky/manifest.json：天空生成提示、工具来源与哈希。
+art/generated/world-v6/interchange-verification.json：岛屿 BLEND/FBX/GLB 回读结果，包含草叶与岩石几何、保留锚点与可行走模型、顶点色及局部植物清理核对。
+art/generated/character-v6/frozen-export-verification.json：角色 FBX/GLB 中性与屈膝姿态、骨架和附件关系的独立回读结果。
+art/generated/character-v6/color-interchange-verification.json：62 个角色网格的线性顶点色导出验证。
+art/generated/character-v6/blink-verification.json：闭眼覆盖片的几何遮挡检查，范围见报告。
+art/generated/character-v6/gait-verification.json：Blender 实际蒙皮鞋底在理想平地及台阶的姿态检查；不代替游戏实测。
+art/generated/world-v6/ 与 art/generated/character-v6/：本轮可编辑源模型及预览；
+生产脚本为 art/blender/build_island_v6.py 与 art/blender/build_traveler_v6.py，后者读取保留的 art/generated/character-v5/traveler.blend，继续使用 Blender 自带骨架和权重。
+art/verification/v7-planning/starfield-geometry-verification.json：星空合并前后的几何与漂移比对，不是 GPU 性能报告。
+早期版本仍保留在 art/generated/ 原目录，避免将 Blender 预览混同于 Unity 实机。
+art/verification/：真实打包游戏运行日志、截图与浏览器验收结果。
+
+本文件是对当前制作过程的如实记录。提交时请按当届比赛的正式格式和本人实际贡献填写相应表单。

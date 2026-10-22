@@ -1,0 +1,74 @@
+v10 植被辅助通道一致性候选
+
+范围
+仅修改 GameProject/Assets/BorrowedLight/Shaders/FoliagePaint.shader，新增其专用 FoliageSurface.hlsl。
+没有修改世界/角色模型、材质资产、AO 参数、灯光、生产 C#、构建或 v9 冻结交付物。
+本任务仅静态检查；没有调用 Unity、Blender、浏览器、截图或 GPU 测试。
+
+实际基础版本
+项目使用 com.unity.render-pipelines.universal 17.3.0，适配 Unity 6000.3；不是 URP 14。
+核对源为 GameProject/Library/PackageCache/com.unity.render-pipelines.universal@746735fb06f2/：
+  package.json
+  Shaders/Lit.shader
+  Shaders/LitInput.hlsl
+  Shaders/LitForwardPass.hlsl
+  Shaders/LitDepthNormalsPass.hlsl
+  Shaders/DepthOnlyPass.hlsl
+  Shaders/ShadowCasterPass.hlsl
+  ShaderLibrary/DOTS.hlsl
+
+实现
+1. FoliageSurface.hlsl 提供统一世界坐标风函数，频率、振幅、世界高度权重完全沿用旧公式。
+   Forward、Fixed DepthNormals、Fixed DepthOnly、Fixed ShadowCaster 都调用它。
+   所有 vertex wrapper 在 Object/World 变换前调用 UNITY_SETUP_INSTANCE_ID；原前向此初始化晚于风变换。
+2. Forward 与 Fixed DepthNormals 使用相同的 front-face 正反判断、叶片 normal 归一化、向世界上方混合。
+   默认混合量保持 40%，20% 仅由局部材质 keyword 选择。不是新增 uniform，因此官方 UnityPerMaterial
+   和 DOTS 材质布局保持一致，也没有复制整份 LitInput。
+3. 三个辅助通道保留原 pass 名称、LightMode、ZWrite/Cull/ColorMask 等状态，使用官方 vertex/fragment
+   实现承担实例化、立体视图、光源 shadow bias、near-plane clamping、alpha/LOD 宏处理。
+   Fixed DepthNormals 的片元代码按官方 normal-buffer 编码分支处理修改后的 normal，保留 fp32 八面编码、
+   PackFloat2To888 与 _WRITE_RENDERING_LAYERS 输出。Foliage 前向不采 normal map，Fixed DepthNormals
+   也不采；现有植被是不透明几何、没有 normal/parallax/detail 贴图。
+4. ShadowCaster 只同步位置；shadow bias 使用官方几何 normal，不使用依赖相机正反面的 shading normal。
+5. 没有增加通道数量、纹理、材质实例、Renderer、三角形或草量。已有预通道多了一次风函数的顶点运算；
+   不声称没有 GPU 成本。主线程需在实机比较后决定保留。
+
+材质调用
+  Legacy40：_FOLIAGE_LEGACY_AUX 开启，_FOLIAGE_NORMAL_UP_20 关闭。
+  Fixed40：以上两个 keyword 均关闭（默认）。
+  Fixed20：_FOLIAGE_LEGACY_AUX 关闭，_FOLIAGE_NORMAL_UP_20 开启。
+  对照回退：再次切换 Legacy40。
+
+Inspector Toggle 属性名：_FoliageLegacyAux、_FoliageNormalUp20，默认都为 0。
+运行时 Material.SetFloat 不会执行 Inspector drawer，必须同时同步 keyword。例如：
+  material.SetFloat("_FoliageLegacyAux", 0);
+  material.DisableKeyword("_FOLIAGE_LEGACY_AUX");
+  material.SetFloat("_FoliageNormalUp20", 1);
+  material.EnableKeyword("_FOLIAGE_NORMAL_UP_20");
+恢复默认时将两个 float 设 0，并 DisableKeyword 两项。
+_FOLIAGE_VERTEX_COLOR 必须与对应旧材质一致，不要因为做 study 关闭现有顶点色。
+20% 和 Legacy 同时开启时，Legacy 优先，Forward 仍强制使用原 40%。
+
+变体保留
+两个开关使用 shader_feature_local（按实际使用阶段限制），仅运行时 EnableKeyword 无法防止 Player strip。
+root 已安排 Resources 下保留 Legacy40/Fixed40/Fixed20 材质资产。构建前必须保存这些资产，并保留实际植被的
+_FOLIAGE_VERTEX_COLOR 状态。本代理不修改材质资产或执行构建。
+
+Legacy 是否完全还原
+三 auxiliary Legacy vertex 不做风位移，直接调用原官方 vertex；DepthNormals Legacy fragment 直接调用原
+官方 DepthNormalsFragment，不做双面翻转/向上混合；DepthOnly/ShadowCaster fragment 始终为原官方函数。
+因此当前不透明、无 normal/detail/parallax 的静态合批岛屿保留原辅助通道的语义，Legacy Forward 保留旧风公式与40%。
+这不是原编译二进制或像素逐字节一致的保证：新 pass wrapper 使用 target 3.0（原 Lit aux 的最低 target 是 2.0），
+新增显式八面 normal 编码变体、Forward DOTS/渲染层声明，并修正前向实例化初始化时序。当前非 GPU-instancing
+岛屿无预期差异，仍需主线程同机位 Legacy/Fixed/Legacy 返回帧及材质状态记录证明实际对照成立。
+未宣称验证开启 alpha clipping、LOD 交叉淡化、DOTS、XR、deferred 或假设性附加贴图的所有组合。
+
+静态检查和证据
+FoliagePaint.before.shader.txt：编辑前原文件，SHA256
+  ea8cdd77ba71d6fb15a54b5353083d688e018a91a88d6e487cb82f3ba569cbac
+FoliagePaint.diff.txt：已查看逐行差异。
+static-checks.json：括号/预处理条件平衡、4 pass、共享 helper/LitInput、没有新增材质 uniform 等静态检查。
+source-verification.json：最终源码/hash、部署一致性、独立静态审查及未覆盖项。
+独立审查未发现 Attributes 字段、实例化顺序、负缩放额外翻转、rendering-layer 输出或编码分支阻断；变体 strip
+风险已明确交由 root 的 Resources study 材质保留措施处理。
+编译、原尺寸 A/B 和实际帧时间仍待主线程；本文件不能作为视觉提升或性能通过证据。

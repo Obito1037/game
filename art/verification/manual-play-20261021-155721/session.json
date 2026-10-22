@@ -1,0 +1,28 @@
+{
+  "checkedAtUtc": "2026-10-21T07:58:48Z",
+  "purpose": "User requested to play the verified candidate before providing change requests.",
+  "player": {
+    "pid": 46436,
+    "buildId": "build_4c8f842d85ef",
+    "directory": "builds/candidates/v14-balanced-light/windows",
+    "launchTimeLocal": "2026-10-21T15:57:21+08:00",
+    "lastObservedRunning": true,
+    "lastObservedResponding": true,
+    "verifiedBinaryHashesMatchQA": true,
+    "log": "player.log",
+    "errorsInInspectedLogTail": false
+  },
+  "production": {
+    "renderingAndBuildsDeferredDuringUserPlay": true,
+    "activeBlenderProcessesObserved": 0,
+    "unitySourceModifiedThisHandoff": false,
+    "newBlinkDriverImplemented": false,
+    "characterV15Exported": false
+  },
+  "pending": {
+    "eyeMaterialStudy": "18-image diagnostic completed; independent review supports only small close-up improvement. Root viewed front and gameplay-distance baseline/combined, confirms subtle benefit, no normal-play adoption yet.",
+    "blink": "v15 generator stopped before export after interpolation repair exceeded 1mm gate (requested 2.62mm); do not widen gate without geometric investigation.",
+    "priority": "User playtest feedback before choosing next production changes."
+  },
+  "goalComplete": false
+}

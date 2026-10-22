@@ -1,0 +1,293 @@
+{
+  "title": "Original meadow root contact colour candidate",
+  "status": "not adopted after fixed-pose three-view A/B/A; retain stable v8 Meadow; candidate PNG frozen for evidence only",
+  "generator": "art\\blender\\build_meadow_contact_v9.py",
+  "original_algorithm": "art\\blender\\build_island_v6.py",
+  "original_algorithm_file_sha256": "f9c63d39a70527c4da0b1e7d861e1152a2ef3bb83864cbb1d3ee4d40571ce36f",
+  "seeds": {
+    "python_random": 7319,
+    "numpy_default_rng": 41
+  },
+  "resolution": [
+    2048,
+    2048
+  ],
+  "new_runtime_texture_slots": 0,
+  "normal_unchanged": true,
+  "geometry_unchanged": true,
+  "old_png_used_only_as_read_only_oracle": true,
+  "no_contact_vs_frozen": {
+    "pixels_identical": true,
+    "generated_png_sha256": "889c373c911c8fd5e4be519cbbc957436909b380481d1de22051bb22ef0d3c7f",
+    "original_png_sha256": "889c373c911c8fd5e4be519cbbc957436909b380481d1de22051bb22ef0d3c7f",
+    "maximum_srgb_encoded_rgba_difference": 0
+  },
+  "root_extraction": [
+    {
+      "mesh": "Garden_GrassTufts",
+      "components": 39570,
+      "accepted": 38790,
+      "rejected_no_ground": 143,
+      "rejected_root_clearance": 637
+    },
+    {
+      "mesh": "Garden_CreepingMeadowLeaves",
+      "components": 3998,
+      "accepted": 3918,
+      "rejected_no_ground": 5,
+      "rejected_root_clearance": 75
+    }
+  ],
+  "root_count": 42708,
+  "mask_method": "Root-derived compact quadratic kernels, MAX union, no random additions. Path distance<=.25m protected, smooth transition to .34m.",
+  "mask_statistics": {
+    "maximum_srgb_encoded_darkening_before_quantization": 0.109999880194664,
+    "mean_srgb_encoded_darkening_whole_atlas": 0.016683125868439674,
+    "mean_srgb_encoded_darkening_contact_mask": 0.04535908252000809,
+    "darkening_percentiles_contact_p50_p90_p99": [
+      0.045049820095300674,
+      0.08665698170661928,
+      0.1031373929232359
+    ],
+    "target_mask_pixels": 1542670,
+    "target_mask_fraction_atlas": 0.3678011894226074,
+    "target_mask_area_m2": 119.1675853729248,
+    "actual_ground_pixels": 3056583,
+    "actual_ground_area_m2": 236.11376094818115,
+    "target_mask_fraction_actual_ground": 0.5047041091310133,
+    "mean_srgb_encoded_darkening_actual_ground": 0.0228929091244936,
+    "encoded_changed_pixels": 1418469,
+    "encoded_changed_fraction_atlas": 0.33818936347961426,
+    "fraction_atlas_darker_by_at_least_2pct": 0.2660651206970215,
+    "fraction_atlas_darker_by_at_least_8pct": 0.061808109283447266,
+    "fraction_atlas_darker_by_at_least_11pct": 0,
+    "maximum_srgb_encoded_luminance_darkening": 0.11760749309629648,
+    "maximum_encoded_ratio_error_from_target": 0.014510143908875062,
+    "mean_srgb_encoded_luminance_darkening_whole_atlas": 0.016681180944993816,
+    "protected_bare_path_pixels": 137654,
+    "protected_bare_path_area_m2": 10.633443832397461,
+    "protected_path_max_pixel_difference": 0,
+    "outside_mask_max_pixel_difference": 0,
+    "alpha_unchanged": true,
+    "legacy_srgb_encoded_box_mip_path_checks": [
+      {
+        "mip": 0,
+        "resolution": 2048,
+        "max_darkening_in_25cm_path_core": 0,
+        "max_darkening_in_15cm_path_center": 0,
+        "scope": "Legacy box averages in sRGB encoded space; not a linear-light mip result. Actual linear-light audit is separate; no actual Unity filtering or compression simulation."
+      },
+      {
+        "mip": 1,
+        "resolution": 1024,
+        "max_darkening_in_25cm_path_core": 0,
+        "max_darkening_in_15cm_path_center": 0,
+        "scope": "Legacy box averages in sRGB encoded space; not a linear-light mip result. Actual linear-light audit is separate; no actual Unity filtering or compression simulation."
+      },
+      {
+        "mip": 2,
+        "resolution": 512,
+        "max_darkening_in_25cm_path_core": 0.0005269819369868589,
+        "max_darkening_in_15cm_path_center": 0,
+        "scope": "Legacy box averages in sRGB encoded space; not a linear-light mip result. Actual linear-light audit is separate; no actual Unity filtering or compression simulation."
+      },
+      {
+        "mip": 3,
+        "resolution": 256,
+        "max_darkening_in_25cm_path_core": 0.002242578836978315,
+        "max_darkening_in_15cm_path_center": 0,
+        "scope": "Legacy box averages in sRGB encoded space; not a linear-light mip result. Actual linear-light audit is separate; no actual Unity filtering or compression simulation."
+      },
+      {
+        "mip": 4,
+        "resolution": 128,
+        "max_darkening_in_25cm_path_core": 0.00550840409097908,
+        "max_darkening_in_15cm_path_center": 0,
+        "scope": "Legacy box averages in sRGB encoded space; not a linear-light mip result. Actual linear-light audit is separate; no actual Unity filtering or compression simulation."
+      }
+    ],
+    "quantity_basis": "Mask amplitude and legacy luminance ratios in this object use sRGB encoded RGB values, not linear-light attenuation. Threshold fractions also use the encoded mask amplitude."
+  },
+  "frozen_inputs_sha256": {
+    "art\\generated\\world-v7\\island.blend": "c40dcb462a3890026017c4a945525c6f4b2881044433b050c392a405c4687f82",
+    "art\\generated\\world-v7\\island.fbx": "91c6d643698c414d0582d86aa42ebfaa1e470124dddd7faa7852860877806f64",
+    "art\\generated\\world-v7\\island.glb": "18190a8eba2489bcbb445671df8a93a77b8dd6464f7352dbb393105b03f9c89f",
+    "art\\generated\\world-v7\\textures\\meadow-watercolor.png": "889c373c911c8fd5e4be519cbbc957436909b380481d1de22051bb22ef0d3c7f",
+    "art\\generated\\world-v7\\textures\\meadow-normal.png": "bbaf18fc6dd0f38e7d0e3fba17b98ae72fd55d47597971ffcc712460b2c321bc",
+    "GameProject\\Assets\\BorrowedLight\\Resources\\Textures\\Meadow.png": "889c373c911c8fd5e4be519cbbc957436909b380481d1de22051bb22ef0d3c7f",
+    "GameProject\\Assets\\BorrowedLight\\Resources\\Textures\\MeadowNormal.png": "bbaf18fc6dd0f38e7d0e3fba17b98ae72fd55d47597971ffcc712460b2c321bc"
+  },
+  "all_frozen_inputs_unchanged": true,
+  "files": [
+    "meadow-contact.png",
+    "meadow-no-contact.png",
+    "contact-mask.png",
+    "root-positions.json"
+  ],
+  "sha256": {
+    "meadow-contact.png": "50bb9aa9c0e10f9689c5d78e219d167e6764f54852e81457cfefe4ed257092fc",
+    "meadow-no-contact.png": "889c373c911c8fd5e4be519cbbc957436909b380481d1de22051bb22ef0d3c7f",
+    "contact-mask.png": "079997794d5b468043b86430595dd8c494d990e197ecbce9b0c28bd8953ec07b",
+    "root-positions.json": "5aa1d19812611da89aa7cd4e04fe33de5bb8a4abba89f675bbd4560ac3520714"
+  },
+  "seconds": 23.94618058204651,
+  "colour_space_correction": {
+    "reason": "Original report assumed Blender Image.pixels / PNG save supplied linear-light values. The saved PNG quantizes generator RGB directly as sRGB samples; the candidate multiplied encoded RGB. Old fields labelled linear were misnamed.",
+    "archived_original_manifest": "asset-manifest.original-encoded.json",
+    "archived_original_manifest_sha256": "68a466c835840c51ecdb53697c5aa37b95d01612fc95ad952676aa5c4545f6f8",
+    "audit_file": "colour-space-audit.json",
+    "audit_sha256": "abd547487d345b48d5895b99de9da7363b9004eb0bcb4092aa9a848944f8e3cc",
+    "audit_script": "audit_colour_space.py",
+    "fields_renamed": {
+      "maximum_linear_darkening_before_quantization": "maximum_srgb_encoded_darkening_before_quantization",
+      "mean_linear_darkening_whole_atlas": "mean_srgb_encoded_darkening_whole_atlas",
+      "mean_linear_darkening_contact_mask": "mean_srgb_encoded_darkening_contact_mask",
+      "mean_linear_darkening_actual_ground": "mean_srgb_encoded_darkening_actual_ground",
+      "maximum_encoded_linear_luminance_darkening": "maximum_srgb_encoded_luminance_darkening",
+      "mean_encoded_linear_luminance_darkening_whole_atlas": "mean_srgb_encoded_luminance_darkening_whole_atlas",
+      "ideal_mip_path_checks": "legacy_srgb_encoded_box_mip_path_checks"
+    },
+    "root_positions_legacy_label": "root-positions.json roots[].maximum_linear_darkening is a frozen legacy label: its values are encoded RGB multipliers. The JSON and generator remain byte-frozen for reproduction; do not use that label as a linear-light promise.",
+    "source_generator_legacy_labels": "build_meadow_contact_v9.py retains the original inaccurate linear variable/report names. It reproduces this rejected experiment only; current manifest and the independent audit supersede its colour-space interpretation.",
+    "png_modified": false,
+    "decision": "No new texture iteration or integration. An 11% encoded cap is not an 11% linear-light cap.",
+    "preserved_valid_evidence": "Byte-identical no-contact baseline, PNG hashes, alpha, zero protected-path/outside-mask pixel delta, root extraction and frozen asset checks remain valid."
+  },
+  "actual_linear_statistics": {
+    "maximum_linear_luminance_darkening": 0.2301264642004872,
+    "minimum_linear_luminance_darkening": 0,
+    "mean_linear_luminance_darkening_whole_atlas": 0.033681271351559475,
+    "mean_linear_luminance_darkening_changed_pixels": 0.09959293516807997,
+    "total_linear_luminance_reduction_fraction": 0.033159887173214386,
+    "changed_pixels": 1418469,
+    "changed_fraction_atlas": 0.33818936347961426,
+    "pixels_with_linear_darkening_above_12_percent": 573346,
+    "pixels_with_any_brightened_rgb_channel": 0,
+    "linear_darkening_changed_pixel_percentiles_p50_p90_p99": [
+      0.10107566226288112,
+      0.17477499091014725,
+      0.20542399651647303
+    ],
+    "maximum_location": {
+      "png_column": 1597,
+      "png_row_top_to_bottom": 917,
+      "authored_unity_xz": [
+        5.04052734375,
+        0.93603515625
+      ],
+      "baseline_srgb_rgb8": [
+        106,
+        120,
+        66
+      ],
+      "candidate_srgb_rgb8": [
+        94,
+        106,
+        59
+      ],
+      "baseline_linear_luminance": 0.16890460521301223,
+      "candidate_linear_luminance": 0.13003518562816255,
+      "encoded_luminance_darkening_at_same_pixel": 0.11553081198817583
+    },
+    "alpha_unchanged": true
+  },
+  "ideal_linear_mip_path_checks": [
+    {
+      "mip": 0,
+      "resolution": [
+        2048,
+        2048
+      ],
+      "25cm_path_core": {
+        "sample_count": 137654,
+        "maximum_linear_luminance_darkening": 0,
+        "mean_linear_luminance_darkening": 0,
+        "affected_samples": 0
+      },
+      "15cm_path_center": {
+        "sample_count": 80249,
+        "maximum_linear_luminance_darkening": 0,
+        "mean_linear_luminance_darkening": 0,
+        "affected_samples": 0
+      }
+    },
+    {
+      "mip": 1,
+      "resolution": [
+        1024,
+        1024
+      ],
+      "25cm_path_core": {
+        "sample_count": 34399,
+        "maximum_linear_luminance_darkening": 0,
+        "mean_linear_luminance_darkening": 0,
+        "affected_samples": 0
+      },
+      "15cm_path_center": {
+        "sample_count": 20201,
+        "maximum_linear_luminance_darkening": 0,
+        "mean_linear_luminance_darkening": 0,
+        "affected_samples": 0
+      }
+    },
+    {
+      "mip": 2,
+      "resolution": [
+        512,
+        512
+      ],
+      "25cm_path_core": {
+        "sample_count": 8593,
+        "maximum_linear_luminance_darkening": 0.0010582013196180906,
+        "mean_linear_luminance_darkening": 2.752345768996239e-7,
+        "affected_samples": 3
+      },
+      "15cm_path_center": {
+        "sample_count": 4995,
+        "maximum_linear_luminance_darkening": 0,
+        "mean_linear_luminance_darkening": 0,
+        "affected_samples": 0
+      }
+    },
+    {
+      "mip": 3,
+      "resolution": [
+        256,
+        256
+      ],
+      "25cm_path_core": {
+        "sample_count": 2179,
+        "maximum_linear_luminance_darkening": 0.004638115871585025,
+        "mean_linear_luminance_darkening": 0.000014233840077274355,
+        "affected_samples": 27
+      },
+      "15cm_path_center": {
+        "sample_count": 1248,
+        "maximum_linear_luminance_darkening": 0,
+        "mean_linear_luminance_darkening": 0,
+        "affected_samples": 0
+      }
+    },
+    {
+      "mip": 4,
+      "resolution": [
+        128,
+        128
+      ],
+      "25cm_path_core": {
+        "sample_count": 541,
+        "maximum_linear_luminance_darkening": 0.011131789623810229,
+        "mean_linear_luminance_darkening": 0.00010516704522143122,
+        "affected_samples": 32
+      },
+      "15cm_path_center": {
+        "sample_count": 310,
+        "maximum_linear_luminance_darkening": 0,
+        "mean_linear_luminance_darkening": 0,
+        "affected_samples": 0
+      }
+    }
+  ],
+  "ideal_linear_mip_limit": "Recursive 2x2 box averages of sRGB-decoded linear RGB, sampled at mip texel centres. Does not simulate Unity compression, actual mip filtering, trilinear/bilinear sampling, or GPU output.",
+  "runtime_review": "art/verification/v9-ground-contact-study/review.zh-CN.txt"
+}

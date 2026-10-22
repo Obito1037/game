@@ -1,0 +1,38 @@
+{
+  "source": "Built-in image_gen; new original bitmap, no reference image supplied",
+  "mode": "built-in",
+  "originalFile": "stone-base-v1.png",
+  "promptFile": "prompt.txt",
+  "sha256": "17613BDBD49E1D48A99D5B2B3687ABED4DE6D8E19006E25D78ED07FB588D8CF5",
+  "width": 1254,
+  "height": 1254,
+  "channels": 3,
+  "bytes": 4167818,
+  "measurement": "All source PNG pixels, IEC sRGB transfer decoded to linear RGB; image not modified.",
+  "meanSRGB": [
+    0.6115185086850911,
+    0.5490731526043742,
+    0.4768073858327348
+  ],
+  "meanLinearRGB": [
+    0.3450991416026722,
+    0.27470601805190437,
+    0.2027940803132051
+  ],
+  "meanLinearLuminance": 0.2844795542141554,
+  "linearLuminancePercentiles_1_5_50_95_99": [
+    0.07440044656302208,
+    0.12419682931524949,
+    0.2765690855917204,
+    0.47325531126758424,
+    0.5772522596891629
+  ],
+  "limits": [
+    "AI-generated color texture, not a calibrated scan or measured PBR material.",
+    "Shallow fissure shading is present in the generated image.",
+    "Requested tileability is not a verified seamless edge guarantee.",
+    "Runtime relief derived from luminance is an artistic approximation."
+  ],
+  "status": "Adopted in game v10 after staged A/B and integrated native/browser review.",
+  "runtimeImport": "Original PNG bytes preserved; Unity import uses 1024 maximum, nearest power-of-two, mipmaps, trilinear/aniso4. Windows import DXT1; platform compression is recorded separately."
+}

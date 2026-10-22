@@ -1,0 +1,167 @@
+{
+  "completed": true,
+  "error": null,
+  "requestedRevision": "v7",
+  "videoOnly": true,
+  "canvasMetrics": {
+    "width": 1440,
+    "height": 900,
+    "devicePixelRatio": 1,
+    "viewportWidth": 1440,
+    "viewportHeight": 900
+  },
+  "purpose": "Actual browser gameplay animation review; separate from normal QA and GPU profiling.",
+  "recordedVideo": "gait-session-includes-loading.webm",
+  "videoScope": "Full Playwright session, including loading, puzzle completion, return to island, camera adjustment, and the gait review window. This is not a trimmed 10–15 second clip.",
+  "frameRateLimit": "Playwright recordVideo samples/resamples browser output. Video playback FPS and screenshot cadence are not native engine FPS and must not be reported as performance evidence.",
+  "inputMethod": "Actual mouse and keyboard only: right-mouse orbit, W, W+D, D, and released-key stops. Diagonal/side input reveals knee and ankle motion that camera-relative W alone hides.",
+  "width": 1440,
+  "height": 900,
+  "gaitWindow": {
+    "startSinceNavigationMs": 32779,
+    "endSinceNavigationMs": 48915,
+    "durationMs": 16136
+  },
+  "timingLimit": "Event times are relative to navigation; recording begins slightly before navigation. They are approximate video navigation aids, not exact frame timestamps.",
+  "phases": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "errors": [],
+  "events": [
+    {
+      "type": "right-mouse-orbit",
+      "sinceNavigationMs": 31924,
+      "deltaX": 390,
+      "nominalYawDeltaDegrees": 50.7
+    },
+    {
+      "type": "screenshot-skipped",
+      "sinceNavigationMs": 32779,
+      "file": "00-side-rear-ready.png",
+      "reason": "Keep recordVideo continuous; simultaneous page.screenshot produced transient scaled/cropped video frames on this machine."
+    },
+    {
+      "type": "gait-window-start",
+      "sinceNavigationMs": 32779
+    },
+    {
+      "type": "movement-start",
+      "sinceNavigationMs": 32781,
+      "keys": [
+        "w"
+      ],
+      "durationRequestedMs": 3100
+    },
+    {
+      "type": "screenshot-skipped",
+      "sinceNavigationMs": 33184,
+      "file": "01-walk-forward-a.png",
+      "reason": "Keep recordVideo continuous; simultaneous page.screenshot produced transient scaled/cropped video frames on this machine."
+    },
+    {
+      "type": "screenshot-skipped",
+      "sinceNavigationMs": 33894,
+      "file": "02-walk-forward-b.png",
+      "reason": "Keep recordVideo continuous; simultaneous page.screenshot produced transient scaled/cropped video frames on this machine."
+    },
+    {
+      "type": "movement-stop",
+      "sinceNavigationMs": 35892,
+      "keys": [
+        "w"
+      ],
+      "actualHeldMs": 3111
+    },
+    {
+      "type": "screenshot-skipped",
+      "sinceNavigationMs": 36903,
+      "file": "03-first-stop.png",
+      "reason": "Keep recordVideo continuous; simultaneous page.screenshot produced transient scaled/cropped video frames on this machine."
+    },
+    {
+      "type": "movement-start",
+      "sinceNavigationMs": 36908,
+      "keys": [
+        "w",
+        "d"
+      ],
+      "durationRequestedMs": 2500
+    },
+    {
+      "type": "screenshot-skipped",
+      "sinceNavigationMs": 37411,
+      "file": "04-diagonal-step-a.png",
+      "reason": "Keep recordVideo continuous; simultaneous page.screenshot produced transient scaled/cropped video frames on this machine."
+    },
+    {
+      "type": "screenshot-skipped",
+      "sinceNavigationMs": 38311,
+      "file": "05-diagonal-step-b.png",
+      "reason": "Keep recordVideo continuous; simultaneous page.screenshot produced transient scaled/cropped video frames on this machine."
+    },
+    {
+      "type": "movement-stop",
+      "sinceNavigationMs": 39433,
+      "keys": [
+        "w",
+        "d"
+      ],
+      "actualHeldMs": 2525
+    },
+    {
+      "type": "screenshot-skipped",
+      "sinceNavigationMs": 40647,
+      "file": "06-diagonal-stop.png",
+      "reason": "Keep recordVideo continuous; simultaneous page.screenshot produced transient scaled/cropped video frames on this machine."
+    },
+    {
+      "type": "movement-start",
+      "sinceNavigationMs": 40655,
+      "keys": [
+        "d"
+      ],
+      "durationRequestedMs": 3500
+    },
+    {
+      "type": "screenshot-skipped",
+      "sinceNavigationMs": 41068,
+      "file": "07-side-step-a.png",
+      "reason": "Keep recordVideo continuous; simultaneous page.screenshot produced transient scaled/cropped video frames on this machine."
+    },
+    {
+      "type": "screenshot-skipped",
+      "sinceNavigationMs": 41811,
+      "file": "08-side-step-b.png",
+      "reason": "Keep recordVideo continuous; simultaneous page.screenshot produced transient scaled/cropped video frames on this machine."
+    },
+    {
+      "type": "movement-stop",
+      "sinceNavigationMs": 44168,
+      "keys": [
+        "d"
+      ],
+      "actualHeldMs": 3512
+    },
+    {
+      "type": "right-mouse-orbit",
+      "sinceNavigationMs": 47098,
+      "deltaX": -150,
+      "nominalYawDeltaDegrees": -19.5
+    },
+    {
+      "type": "screenshot-skipped",
+      "sinceNavigationMs": 48915,
+      "file": "09-final-planted-feet.png",
+      "reason": "Keep recordVideo continuous; simultaneous page.screenshot produced transient scaled/cropped video frames on this machine."
+    },
+    {
+      "type": "gait-window-end",
+      "sinceNavigationMs": 48915,
+      "durationMs": 16136
+    }
+  ]
+}

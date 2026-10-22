@@ -1,0 +1,31 @@
+{
+  "reviewed": true,
+  "accepted": true,
+  "selectedVariant": "detail-soft",
+  "strength": 0.35,
+  "tileMetres": 1.8,
+  "normalScale": 0.22,
+  "summary": "采用 0.35 的柔和地面细节：踏石之间和岩石、暖灯周围增加了土壤与落叶层次，相比 0.55 更克制，路线仍然清楚。灯旁近景仍有均匀碎纹和铺毯感，属于局部改善，进入正常游戏和 WebGL 检查。",
+  "scope": "Root and independent reviewer inspected all nine original baseline/detail/detail-soft frames in the completed 15-frame session. Static appearance acceptance only.",
+  "reviewedImages": [
+    "path-baseline.png",
+    "path-detail.png",
+    "path-detail-soft.png",
+    "roots-baseline.png",
+    "roots-detail.png",
+    "roots-detail-soft.png",
+    "lamp-baseline.png",
+    "lamp-detail.png",
+    "lamp-detail-soft.png"
+  ],
+  "windowsBuild": "build_7c20b5c3a50d",
+  "textureSHA256": "483D36A325CA6B05BBB8580DD3E238AF866F331D762976CB0064569FD7925F1B",
+  "limits": [
+    "灯旁和贴地近景仍有较均匀的细碎平面纹理。",
+    "这是颜色细节，未增加真实几何或新的凹凸法线。",
+    "动态闪烁、实际 WebGL 变体和性能仍需正常运行验证。",
+    "原始像素均值归一不保证屏幕或 mip 过滤后亮度均值完全一致。",
+    "整体视觉超过参考网站的目标尚未达到。"
+  ],
+  "aestheticObjectiveAchieved": false
+}

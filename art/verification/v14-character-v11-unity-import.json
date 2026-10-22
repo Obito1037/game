@@ -1,0 +1,513 @@
+{
+  "candidate": "character-v11",
+  "fbxSHA256": "58E808F1AEC15F3E960E96E57B9484284BF7B9B214DE511D036C1567761B828B",
+  "authoringTriangles": 81968,
+  "output": null,
+  "diagnostics": [],
+  "success": true,
+  "result": {
+    "asset": "Assets/BorrowedLight/Resources/Models/Traveler.fbx",
+    "triangles": 81964,
+    "renderers": 62,
+    "skinned": 28,
+    "meshes": [
+      {
+        "name": "Arm_L_Cape_SeaMistBinding",
+        "vertices": 437,
+        "triangles": 422,
+        "skinned": true,
+        "colors": true,
+        "materials": 1
+      },
+      {
+        "name": "Arm_L_Face_Fingernails",
+        "vertices": 300,
+        "triangles": 400,
+        "skinned": true,
+        "colors": true,
+        "materials": 1
+      },
+      {
+        "name": "Arm_L_Face_NoseCream",
+        "vertices": 300,
+        "triangles": 400,
+        "skinned": true,
+        "colors": true,
+        "materials": 1
+      },
+      {
+        "name": "Arm_L_Face_PorcelainCream",
+        "vertices": 764,
+        "triangles": 1296,
+        "skinned": true,
+        "colors": true,
+        "materials": 1
+      },
+      {
+        "name": "Arm_L_Face_RoseCheeks",
+        "vertices": 96,
+        "triangles": 48,
+        "skinned": true,
+        "colors": true,
+        "materials": 1
+      },
+      {
+        "name": "Arm_L_Gloves_OatKnit",
+        "vertices": 191,
+        "triangles": 346,
+        "skinned": true,
+        "colors": true,
+        "materials": 1
+      },
+      {
+        "name": "Arm_L_Stitches_PaleFlax",
+        "vertices": 190,
+        "triangles": 140,
+        "skinned": true,
+        "colors": true,
+        "materials": 1
+      },
+      {
+        "name": "Arm_R_Cape_SeaMistBinding",
+        "vertices": 402,
+        "triangles": 422,
+        "skinned": true,
+        "colors": true,
+        "materials": 1
+      },
+      {
+        "name": "Arm_R_Face_Fingernails",
+        "vertices": 300,
+        "triangles": 400,
+        "skinned": true,
+        "colors": true,
+        "materials": 1
+      },
+      {
+        "name": "Arm_R_Face_NoseCream",
+        "vertices": 300,
+        "triangles": 400,
+        "skinned": true,
+        "colors": true,
+        "materials": 1
+      },
+      {
+        "name": "Arm_R_Face_PorcelainCream",
+        "vertices": 764,
+        "triangles": 1296,
+        "skinned": true,
+        "colors": true,
+        "materials": 1
+      },
+      {
+        "name": "Arm_R_Face_RoseCheeks",
+        "vertices": 96,
+        "triangles": 48,
+        "skinned": true,
+        "colors": true,
+        "materials": 1
+      },
+      {
+        "name": "Arm_R_Gloves_OatKnit",
+        "vertices": 191,
+        "triangles": 346,
+        "skinned": true,
+        "colors": true,
+        "materials": 1
+      },
+      {
+        "name": "Arm_R_Stitches_PaleFlax",
+        "vertices": 190,
+        "triangles": 140,
+        "skinned": true,
+        "colors": true,
+        "materials": 1
+      },
+      {
+        "name": "BootSole_L",
+        "vertices": 110,
+        "triangles": 112,
+        "skinned": true,
+        "colors": true,
+        "materials": 1
+      },
+      {
+        "name": "BootSole_R",
+        "vertices": 110,
+        "triangles": 112,
+        "skinned": true,
+        "colors": true,
+        "materials": 1
+      },
+      {
+        "name": "BootUpper_L",
+        "vertices": 185,
+        "triangles": 226,
+        "skinned": true,
+        "colors": true,
+        "materials": 1
+      },
+      {
+        "name": "BootUpper_R",
+        "vertices": 186,
+        "triangles": 226,
+        "skinned": true,
+        "colors": true,
+        "materials": 1
+      },
+      {
+        "name": "Leg_L_Boots_HoneyLeather",
+        "vertices": 776,
+        "triangles": 590,
+        "skinned": true,
+        "colors": true,
+        "materials": 1
+      },
+      {
+        "name": "Leg_L_Hood_DuskBlue",
+        "vertices": 120,
+        "triangles": 78,
+        "skinned": true,
+        "colors": true,
+        "materials": 1
+      },
+      {
+        "name": "Leg_L_Lantern_BrushedBrass",
+        "vertices": 450,
+        "triangles": 600,
+        "skinned": true,
+        "colors": true,
+        "materials": 1
+      },
+      {
+        "name": "Leg_R_Boots_HoneyLeather",
+        "vertices": 827,
+        "triangles": 590,
+        "skinned": true,
+        "colors": true,
+        "materials": 1
+      },
+      {
+        "name": "Leg_R_Hood_DuskBlue",
+        "vertices": 120,
+        "triangles": 78,
+        "skinned": true,
+        "colors": true,
+        "materials": 1
+      },
+      {
+        "name": "Leg_R_Lantern_BrushedBrass",
+        "vertices": 450,
+        "triangles": 600,
+        "skinned": true,
+        "colors": true,
+        "materials": 1
+      },
+      {
+        "name": "Sleeve_L",
+        "vertices": 2304,
+        "triangles": 3920,
+        "skinned": true,
+        "colors": true,
+        "materials": 1
+      },
+      {
+        "name": "Sleeve_R",
+        "vertices": 2271,
+        "triangles": 3868,
+        "skinned": true,
+        "colors": true,
+        "materials": 1
+      },
+      {
+        "name": "Lantern_Heart",
+        "vertices": 92,
+        "triangles": 146,
+        "skinned": false,
+        "colors": true,
+        "materials": 1
+      },
+      {
+        "name": "Lantern_Lantern_BrushedBrass",
+        "vertices": 312,
+        "triangles": 280,
+        "skinned": false,
+        "colors": true,
+        "materials": 1
+      },
+      {
+        "name": "Lantern_Lantern_GoldEdges",
+        "vertices": 711,
+        "triangles": 1166,
+        "skinned": false,
+        "colors": true,
+        "materials": 1
+      },
+      {
+        "name": "Lantern_OpalGlass",
+        "vertices": 121,
+        "triangles": 202,
+        "skinned": false,
+        "colors": true,
+        "materials": 1
+      },
+      {
+        "name": "Body_Boots_HoneyLeather",
+        "vertices": 88,
+        "triangles": 138,
+        "skinned": false,
+        "colors": true,
+        "materials": 1
+      },
+      {
+        "name": "Body_Cape_DeepOceanLining",
+        "vertices": 360,
+        "triangles": 276,
+        "skinned": false,
+        "colors": true,
+        "materials": 1
+      },
+      {
+        "name": "Body_Cape_SeaMistBinding",
+        "vertices": 1882,
+        "triangles": 1254,
+        "skinned": false,
+        "colors": true,
+        "materials": 1
+      },
+      {
+        "name": "Body_Hood_DuskBlue",
+        "vertices": 324,
+        "triangles": 358,
+        "skinned": false,
+        "colors": true,
+        "materials": 1
+      },
+      {
+        "name": "Body_Lantern_GoldEdges",
+        "vertices": 284,
+        "triangles": 372,
+        "skinned": false,
+        "colors": true,
+        "materials": 1
+      },
+      {
+        "name": "Body_Scarf_EdgeHoney",
+        "vertices": 232,
+        "triangles": 428,
+        "skinned": false,
+        "colors": true,
+        "materials": 1
+      },
+      {
+        "name": "Body_Stitches_PaleFlax",
+        "vertices": 934,
+        "triangles": 468,
+        "skinned": false,
+        "colors": true,
+        "materials": 1
+      },
+      {
+        "name": "Brooch_AmberStone",
+        "vertices": 59,
+        "triangles": 84,
+        "skinned": false,
+        "colors": true,
+        "materials": 1
+      },
+      {
+        "name": "Cloak_Outer",
+        "vertices": 528,
+        "triangles": 612,
+        "skinned": false,
+        "colors": true,
+        "materials": 1
+      },
+      {
+        "name": "Satchel_Body",
+        "vertices": 64,
+        "triangles": 94,
+        "skinned": false,
+        "colors": true,
+        "materials": 1
+      },
+      {
+        "name": "Satchel_Clasp",
+        "vertices": 64,
+        "triangles": 94,
+        "skinned": false,
+        "colors": true,
+        "materials": 1
+      },
+      {
+        "name": "Scarf_Collar",
+        "vertices": 412,
+        "triangles": 490,
+        "skinned": false,
+        "colors": true,
+        "materials": 1
+      },
+      {
+        "name": "TailoredTunic",
+        "vertices": 5219,
+        "triangles": 9596,
+        "skinned": false,
+        "colors": true,
+        "materials": 1
+      },
+      {
+        "name": "Blink_L_ClosedLash",
+        "vertices": 243,
+        "triangles": 320,
+        "skinned": false,
+        "colors": true,
+        "materials": 1
+      },
+      {
+        "name": "Blink_L_LidCover",
+        "vertices": 385,
+        "triangles": 704,
+        "skinned": false,
+        "colors": true,
+        "materials": 1
+      },
+      {
+        "name": "Blink_R_ClosedLash",
+        "vertices": 244,
+        "triangles": 320,
+        "skinned": false,
+        "colors": true,
+        "materials": 1
+      },
+      {
+        "name": "Blink_R_LidCover",
+        "vertices": 385,
+        "triangles": 704,
+        "skinned": false,
+        "colors": true,
+        "materials": 1
+      },
+      {
+        "name": "Head_Eye_AmberRim",
+        "vertices": 402,
+        "triangles": 720,
+        "skinned": false,
+        "colors": true,
+        "materials": 1
+      },
+      {
+        "name": "Head_Eye_Catchlight",
+        "vertices": 402,
+        "triangles": 720,
+        "skinned": false,
+        "colors": true,
+        "materials": 1
+      },
+      {
+        "name": "Head_Eye_Chestnut",
+        "vertices": 402,
+        "triangles": 720,
+        "skinned": false,
+        "colors": true,
+        "materials": 1
+      },
+      {
+        "name": "Head_Eye_Ivory",
+        "vertices": 866,
+        "triangles": 1584,
+        "skinned": false,
+        "colors": true,
+        "materials": 1
+      },
+      {
+        "name": "Head_Eye_Pupil",
+        "vertices": 402,
+        "triangles": 720,
+        "skinned": false,
+        "colors": true,
+        "materials": 1
+      },
+      {
+        "name": "Head_Face_NoseCream",
+        "vertices": 192,
+        "triangles": 188,
+        "skinned": false,
+        "colors": true,
+        "materials": 1
+      },
+      {
+        "name": "Head_Face_PorcelainCream",
+        "vertices": 11994,
+        "triangles": 22784,
+        "skinned": false,
+        "colors": true,
+        "materials": 1
+      },
+      {
+        "name": "Head_Face_RoseCheeks",
+        "vertices": 395,
+        "triangles": 592,
+        "skinned": false,
+        "colors": true,
+        "materials": 1
+      },
+      {
+        "name": "Head_Hair_Indigo",
+        "vertices": 6863,
+        "triangles": 10490,
+        "skinned": false,
+        "colors": true,
+        "materials": 1
+      },
+      {
+        "name": "Head_Hair_MidnightBlue",
+        "vertices": 264,
+        "triangles": 240,
+        "skinned": false,
+        "colors": true,
+        "materials": 1
+      },
+      {
+        "name": "QuietSmile",
+        "vertices": 114,
+        "triangles": 112,
+        "skinned": false,
+        "colors": true,
+        "materials": 1
+      },
+      {
+        "name": "ScarfTail_Scarf_EdgeHoney",
+        "vertices": 694,
+        "triangles": 480,
+        "skinned": false,
+        "colors": true,
+        "materials": 1
+      },
+      {
+        "name": "ScarfTail_Scarf_HarvestGold",
+        "vertices": 292,
+        "triangles": 204,
+        "skinned": false,
+        "colors": true,
+        "materials": 1
+      },
+      {
+        "name": "Trouser_L",
+        "vertices": 2010,
+        "triangles": 3616,
+        "skinned": true,
+        "colors": true,
+        "materials": 1
+      },
+      {
+        "name": "Trouser_R",
+        "vertices": 1998,
+        "triangles": 3584,
+        "skinned": true,
+        "colors": true,
+        "materials": 1
+      }
+    ]
+  },
+  "scope": "Actual Unity imported mesh counts. Authoring retains 4 zero-area lower-lid endpoint triangles (also present in character-v9); Unity total is 81964. This is not visual acceptance."
+}

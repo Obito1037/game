@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<base href="../">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="dark">
+<title>借光岛 · 本地实机美术对照</title>
+<style>
+:root{--bg:#07111f;--panel:#0d1b2e;--line:#253449;--text:#eee9dd;--muted:#a7b3c2;--gold:#dab77b;--green:#90c9ba}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--text);font:15px/1.7 system-ui,-apple-system,"Segoe UI","Microsoft YaHei",sans-serif}
+a{color:var(--gold);text-decoration-color:#866f4c;text-underline-offset:4px}a:hover{color:#ffe0a7}button,a{-webkit-tap-highlight-color:transparent}a:focus-visible,button:focus-visible{outline:2px solid var(--gold);outline-offset:5px}
+main{max-width:1560px;margin:auto;padding:54px 32px 42px}header{border-bottom:1px solid var(--line);padding-bottom:28px;margin-bottom:38px}.eyebrow{font-size:11px;letter-spacing:.2em;color:var(--gold);text-transform:uppercase}h1{font-family:"Noto Serif SC","Source Han Serif SC",SimSun,serif;font-size:clamp(27px,3.5vw,43px);line-height:1.35;font-weight:500;letter-spacing:.08em;margin:12px 0 16px}p{margin:10px 0}.lede{max-width:870px;color:var(--muted)}.tags{display:flex;flex-wrap:wrap;gap:8px;margin:18px 0 0}.tag{border:1px solid var(--line);padding:4px 11px;border-radius:20px;color:var(--muted);font-size:12px}.tag.pending{color:var(--gold);border-color:#655238}
+section{margin:0 0 38px}.section-head{display:flex;justify-content:space-between;gap:16px;align-items:baseline;margin-bottom:13px}h2{font-size:19px;font-weight:500;margin:0}.section-note{font-size:12px;color:var(--muted);margin:0}.grid{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:20px}
+figure{margin:0;background:var(--panel);border:1px solid var(--line);overflow:hidden;border-radius:8px}.card-top{display:flex;justify-content:space-between;gap:12px;align-items:center;padding:11px 15px;border-bottom:1px solid var(--line);font-size:12px}.source{letter-spacing:.04em}.source.ours{color:var(--green)}.source.reference{color:var(--gold)}.resolution{color:var(--muted);font-variant-numeric:tabular-nums;white-space:nowrap}.resolution.mismatch{color:#efb28d}
+.picture{display:block;position:relative;aspect-ratio:8/5;background:#050c16;overflow:hidden}.picture img{display:block;width:100%;height:100%;object-fit:contain}.picture::after{content:"点击查看原图 ↗";position:absolute;right:12px;bottom:12px;background:#05101ed9;color:var(--text);border:1px solid #ffffff24;border-radius:4px;padding:4px 9px;font-size:11px;opacity:0;transition:opacity .15s}.picture:hover::after,.picture:focus-visible::after{opacity:1}.image-state{position:absolute;inset:0;display:grid;place-content:center;text-align:center;padding:24px;color:var(--muted);font-size:13px;pointer-events:none}.image-state small{display:block;opacity:.65;margin-top:5px}.loaded .image-state{display:none}.missing img{visibility:hidden}
+figcaption{padding:12px 15px 15px;color:var(--muted);font-size:13px}figcaption strong{display:block;color:var(--text);font-weight:500;margin-bottom:3px}.file{font:11px/1.5 ui-monospace,SFMono-Regular,Consolas,monospace;overflow-wrap:anywhere;color:#8796aa;margin-top:6px}
+.review{display:grid;grid-template-columns:1.3fr 1fr;gap:28px;padding:23px 25px;border:1px solid var(--line);border-left:3px solid var(--gold);border-radius:5px;background:#0b1829}.review h2{margin-bottom:7px}.review p{color:var(--muted);font-size:13px;margin:7px 0}.criteria{list-style:none;margin:0;padding:0}.criteria li{padding:5px 0;border-bottom:1px solid #ffffff0a;color:var(--muted);font-size:13px}.criteria li::before{content:"□";margin-right:10px;color:var(--gold)}footer{font-size:12px;color:#7c8ca1;border-top:1px solid var(--line);padding-top:20px;margin-top:30px}
+.clip{display:block;width:100%;height:auto;max-height:75vh;object-fit:contain;background:#050c16}
+dialog{max-width:calc(100vw - 48px);max-height:calc(100vh - 48px);width:max-content;padding:0;border:1px solid #536177;border-radius:7px;background:#081424;color:var(--text);box-shadow:0 25px 100px #000b}dialog::backdrop{background:#01050de8}dialog img{display:block;max-width:calc(100vw - 50px);max-height:calc(100vh - 130px);width:auto;height:auto;object-fit:contain}.dialog-bar{display:flex;justify-content:space-between;align-items:center;gap:20px;padding:10px 14px;font-size:12px}.dialog-bar span{max-width:65vw}.close{background:transparent;color:var(--text);border:1px solid var(--line);border-radius:4px;cursor:pointer;padding:5px 12px;font:inherit}.close:hover{border-color:var(--gold)}
+@media(max-width:760px){main{padding:30px 16px}.grid,.review{grid-template-columns:1fr}.section-head{display:block}.section-note{margin-top:5px}.grid{gap:14px}header{margin-bottom:26px}.review{padding:18px;gap:14px}dialog{max-width:calc(100vw - 16px)}dialog img{max-width:calc(100vw - 18px)}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition:none!important}}
+@media print{body{background:#fff;color:#111}main{padding:0}a{color:#333}.grid{grid-template-columns:1fr 1fr}figure,.review{break-inside:avoid;background:#fff}.lede,figcaption,.review p,.criteria li,footer{color:#333}.picture::after{display:none}}
+</style>
+</head>
+<body>
+<main>
+<header>
+<div class="eyebrow">Borrowed Light · Local visual review</div>
+<h1>借光岛 · 实机美术对照</h1>
+<p class="lede">以原始游戏截图并排检查入口构图、场景层次、角色表现与星空氛围。参考作品为 Saccc_c 的《小王子：星辰之旅》；本作采用原创角色与场景。</p>
+<p class="lede">参考来源：<a href="https://littleprince.dev/" target="_blank" rel="noopener noreferrer">原网站 littleprince.dev</a> · <a href="https://x.com/Saccc_c/status/2110694725640474759" target="_blank" rel="noopener noreferrer">作者 Saccc_c 原推文</a></p>
+<div class="tags"><span class="tag">本地验收证据 · 未发布</span><span class="tag">当前原生版本 v7 · run-021-v7</span><span class="tag">统一对照尺寸 1440 × 900</span><span class="tag">点击图片放大原图</span><span class="tag pending">审美结论待人工验收</span></div>
+</header>
+
+<section aria-labelledby="entry-heading">
+<div class="section-head"><h2 id="entry-heading">01 / 菜单与第一印象</h2><p class="section-note">比较主体尺度、文字留白、材质细节与画面重心</p></div>
+<div class="grid">
+<figure>
+<div class="card-top"><span class="source reference">参考 / Saccc_c</span><span class="resolution">检测图片尺寸…</span></div>
+<a class="picture" href="../reference/littleprince-entry.png" target="_blank" rel="noopener" data-title="参考 · 小王子：星辰之旅 · 入口"><img src="../reference/littleprince-entry.png" alt="Saccc_c 的小王子网站入口实际截图"><span class="image-state">正在加载原始截图…</span></a>
+<figcaption><strong>《小王子：星辰之旅》入口</strong>参考作者的原网站实际截图。<div class="file">art/reference/littleprince-entry.png</div></figcaption>
+</figure>
+<figure>
+<div class="card-top"><span class="source ours">本作 / Unity 游戏实机</span><span class="resolution">等待截图</span></div>
+<a class="picture" href="run-021-v7/01-invitation.png" target="_blank" rel="noopener" data-title="本作 · 借光岛 · 入口"><img src="run-021-v7/01-invitation.png" alt="借光岛 Windows 游戏入口实际截图"><span class="image-state">正在加载最终实机截图<small>01-invitation.png</small></span></a>
+<figcaption><strong>《借光岛》邀请界面</strong>1440 × 900 实际游戏截图；以最终载入文件的像素尺寸为准。<div class="file">art/verification/run-021-v7/01-invitation.png</div></figcaption>
+</figure>
+</div>
+</section>
+
+<section aria-labelledby="play-heading">
+<div class="section-head"><h2 id="play-heading">02 / 近景与实际游玩</h2><p class="section-note">比较角色可读性、前中后景、植被密度与光影</p></div>
+<div class="grid">
+<figure>
+<div class="card-top"><span class="source reference">参考 / Saccc_c</span><span class="resolution">检测图片尺寸…</span></div>
+<a class="picture" href="../reference/littleprince-gameplay.png" target="_blank" rel="noopener" data-title="参考 · 小王子：星辰之旅 · 游戏画面"><img src="../reference/littleprince-gameplay.png" alt="Saccc_c 的小王子网站实际游玩截图" loading="lazy"><span class="image-state">正在加载原始截图…</span></a>
+<figcaption><strong>参考作品实际游玩</strong>保留原始画面，不加局部美化或重新绘制。<div class="file">art/reference/littleprince-gameplay.png</div></figcaption>
+</figure>
+<figure>
+<div class="card-top"><span class="source ours">本作 / Unity 游戏实机</span><span class="resolution">等待截图</span></div>
+<a class="picture" href="run-021-v7/07-walking.png" target="_blank" rel="noopener" data-title="本作 · 借光岛 · 行走与场景"><img src="run-021-v7/07-walking.png" alt="借光岛 Windows 游戏角色行走实际截图" loading="lazy"><span class="image-state">正在加载最终实机截图<small>07-walking.png</small></span></a>
+<figcaption><strong>本作行走与场景</strong>1440 × 900 实际游戏截图，展示游玩时的角色与环境关系。<div class="file">art/verification/run-021-v7/07-walking.png</div></figcaption>
+</figure>
+</div>
+</section>
+
+<section aria-labelledby="revision-heading">
+<div class="section-head"><h2 id="revision-heading">03 / 本轮改进：v6 与 v7 漫步场景</h2><p class="section-note">均为 1440 × 900 原始实机截图，未裁切、调色或重绘；位置与待机相位略有不同</p></div>
+<div class="grid">
+<figure>
+<div class="card-top"><span class="source reference">本作旧版 / v6</span><span class="resolution">检测图片尺寸…</span></div>
+<a class="picture" href="run-016-v6/07-walking.png" target="_blank" rel="noopener" data-title="本作 v6 · 漫步场景"><img src="run-016-v6/07-walking.png" alt="借光岛 v6 原始漫步实机截图" loading="lazy"><span class="image-state">正在加载原始截图…</span></a>
+<figcaption><strong>v6 · 修改前</strong>前景草叶较宽平，大岩石表面较光滑；完整原图保留，供本轮对照。<div class="file">art/verification/run-016-v6/07-walking.png</div></figcaption>
+</figure>
+<figure>
+<div class="card-top"><span class="source ours">本作当前原生版 / v7</span><span class="resolution">检测图片尺寸…</span></div>
+<a class="picture" href="run-021-v7/07-walking.png" target="_blank" rel="noopener" data-title="本作 v7 · 漫步场景"><img src="run-021-v7/07-walking.png" alt="借光岛 v7 原始漫步实机截图" loading="lazy"><span class="image-state">正在加载原始截图…</span></a>
+<figcaption><strong>v7 · 本轮进退</strong>细草减少宽纸片感，路径与鞋仍清楚；石面起伏增加，但局部仍像揉皱的黏土。人物近景中的提灯侧上臂横褶偏等距，是新增的不自然细节。<div class="file">art/verification/run-021-v7/07-walking.png</div></figcaption>
+</figure>
+</div>
+<p class="section-note">细草有可见改善，岩石细节增加却未完全形成硬质感；人物皮肤、眼窝过渡和衣料形态仍明显不及参考自然，整体审美目标尚未达到。三图未见新的阻断性渲染错误，不能据此覆盖所有视角和动作。详见<a href="v7-planning/visual-audit.zh-CN.txt" target="_blank" rel="noopener">独立视觉审查</a>。</p>
+<p class="section-note">当前<a href="run-021-v7/runtime-results.json" target="_blank" rel="noopener">v7 原生运行诊断</a>通过步石、观星台、码头接地及岩石、中央仪器、码头护栏碰撞检查，并确认装饰叶片排除出可踩地面；220 个静止鞋底采样点的最小净空为 0.001375 米。鞋底测量仅覆盖 idle 样本，不代表完整行走周期或所有场景已经验收。</p>
+<p class="section-note"><strong>v7 正常网页 QA 已通过，连续上台与停步的本次路线已完成核验。</strong>新的原始视频、检查范围和性能记录见下方第 05 部分。这里保留的浏览器路线属于 v6 历史证据，不作为本次 v7 的通过记录。</p>
+<details>
+<summary>v6 历史路线：观星台问题与修复证据</summary>
+<p class="section-note">v6 修复前的浏览器路线发现观星台缺少碰撞，鞋和小腿穿入台面，另有横穿中央仪器的问题；保留<a href="web-v6-gait/06-diagonal-stop.png" target="_blank" rel="noopener">旧问题原图</a>与<a href="web-v6-gait/review.zh-CN.txt" target="_blank" rel="noopener">旧路线审查记录</a>。</p>
+<p class="section-note">v6 修复后曾通过实际上台与停步复测：<a href="web-v6-gait-fixed/07-side-step-a.png" target="_blank" rel="noopener">上台原图</a>、<a href="web-v6-gait-fixed/09-final-planted-feet.png" target="_blank" rel="noopener">停步原图</a>与<a href="web-v6-gait-fixed/capture-manifest.json" target="_blank" rel="noopener">采集记录</a>。其后完成<a href="web-v6-gait-fixed/observatory-contact/capture-manifest.json" target="_blank" rel="noopener">一次正面接触检查</a>；<a href="web-v6-gait-fixed/observatory-contact/03-contact-side.png" target="_blank" rel="noopener">侧面原图</a>可见人物位于仪器外、双鞋落在台面。该历史测试仅支持当时版本、路线与接近方向。</p>
+</details>
+<p class="section-note">当前 v7 原生短时采样：菜单 60.0、俯视 60.0、漫步 46.2、人物近景 60.0 FPS，末尾读数 55.2 FPS（1440 × 900，Intel Iris Xe）。这些是本轮样本，不代表恒定帧率或与旧版同条件的性能比较。</p>
+</section>
+<section aria-labelledby="detail-heading">
+<div class="section-head"><h2 id="detail-heading">04 / 人物与全岛总览</h2><p class="section-note">补充检查面部、衣褶、场景分布与材质层次</p></div>
+<div class="grid">
+<figure>
+<div class="card-top"><span class="source ours">本作 / Unity 游戏实机</span><span class="resolution">等待截图</span></div>
+<a class="picture" href="run-021-v7/09-traveler-portrait.png" target="_blank" rel="noopener" data-title="本作 · 借光岛 · 旅人近景"><img src="run-021-v7/09-traveler-portrait.png" alt="借光岛原创旅人角色的实际游戏近景截图" loading="lazy"><span class="image-state">正在加载最终实机截图<small>09-traveler-portrait.png</small></span></a>
+<figcaption><strong>旅人近景</strong>v7 实机近景。面部调整较克制；提灯侧上臂的横褶有等距勒痕感，比 v6 局部更不自然。静态图不能代替完整步态检查。<div class="file">art/verification/run-021-v7/09-traveler-portrait.png</div></figcaption>
+</figure>
+<figure>
+<div class="card-top"><span class="source ours">本作 / Unity 游戏实机</span><span class="resolution">等待截图</span></div>
+<a class="picture" href="run-021-v7/02-island.png" target="_blank" rel="noopener" data-title="本作 · 借光岛 · 全岛总览"><img src="run-021-v7/02-island.png" alt="借光岛 v7 全岛总览实际游戏截图" loading="lazy"><span class="image-state">正在加载最终实机截图<small>02-island.png</small></span></a>
+<figcaption><strong>全岛总览</strong>观察细草、岩石与主要道具分布；未见明显布局或星体丢失。<div class="file">art/verification/run-021-v7/02-island.png</div></figcaption>
+</figure>
+</div>
+</section>
+
+<section aria-labelledby="web-heading">
+<div class="section-head"><h2 id="web-heading">05 / v7 网页与连续上台录像</h2><p class="section-note">真实键盘输入；此片段覆盖一条路线，不代表所有动作和位置</p></div>
+<p class="section-note"><a href="web-007-v7/runtime-results.json" target="_blank" rel="noopener">正常网页 QA</a>通过实际键盘通关、刷新续玩和回岛检查，浏览器异常列表为空；Unity 日志仍保留隐藏着色器、INVALID_ENUM 与音频加载提示，不能称为日志无异常。1440 × 900 / Iris Xe 前台短样本的 interval FPS 中位数为菜单 60.44、结尾 53.80、漫步 33.46，不是固定帧率。</p>
+<figure>
+<div class="card-top"><span class="source ours">v7 / 浏览器实际连续输入</span><span class="resolution">12.4 秒 · 1440 × 900</span></div>
+<video class="clip" controls preload="metadata" playsinline poster="web-v7-observatory-video/time-cut-first-frame.png" aria-label="借光岛 v7 连续上阶与停步实机录像" aria-describedby="v7-video-caption">
+<source src="web-v7-observatory-video/observatory-approach-time-cut.webm" type="video/webm">
+浏览器不支持此视频格式，请<a href="web-v7-observatory-video/observatory-approach-time-cut.webm">下载原始片段</a>查看。
+</video>
+<figcaption id="v7-video-caption"><strong>默认镜头前进、抬腿上阶、松键停步</strong>真实按 W 约 4.216 秒，再松键停步约 1.513 秒；动作中不截图、不拖动镜头。<a href="web-v7-observatory-video/review.zh-CN.txt" target="_blank" rel="noopener">视频审查记录</a>及抽帧显示角色交替抬腿上阶，最终双鞋位于上层台面、身体停在中央仪器前侧，HUD 尺寸稳定。该路线没有看到原先明显的小腿陷台或裤腿、靴筒断开；不证明所有方向、所有帧都无穿插。<div class="file">art/verification/web-v7-observatory-video/observatory-approach-time-cut.webm</div></figcaption>
+</figure>
+<p class="section-note">该片段仅裁时间，取自<a href="web-v7-observatory-video/gait-session-includes-loading.webm" target="_blank" rel="noopener">完整原录像</a>的 25.600–38.000 秒。因流复制从前一关键帧开始，实际长度为 12.400 秒；<a href="web-v7-observatory-video/time-cut-verification.json" target="_blank" rel="noopener">310 个编码包核对</a>全部与原视频一致，没有重编码、缩放、调速或改动画面。输入时序见<a href="web-v7-observatory-video/capture-manifest.json" target="_blank" rel="noopener">采集记录</a>。录像容器的 25 FPS 不代表游戏 FPS。</p>
+<p class="section-note">其他 v7 证据范围：首份会话的<a href="web-v7-gait/06-diagonal-stop.png" target="_blank" rel="noopener">上台静帧</a>与<a href="web-v7-gait/09-final-planted-feet.png" target="_blank" rel="noopener">停步静帧</a>可检查对应时刻，但其视频在截图期间短暂放大裁切，不能作为完整连续步态证据（<a href="web-v7-gait/review.zh-CN.txt" target="_blank" rel="noopener">审查记录</a>）。另一次<a href="web-v7-gait-video-only/review.zh-CN.txt" target="_blank" rel="noopener">无截图的岛边补录</a>实际没有上台，仅支持平地路线。</p>
+<p class="section-note"><a href="web-v7-gpu-profile/analysis.zh-CN.txt" target="_blank" rel="noopener">独立绘制诊断</a>核对 Starfield 每帧 1 次 draw、36,336 个三角形，该次视角总计约 979 draws/frame。此证据支持星体提交已合并，不是单变量 A/B 实验，不能据此宣称 FPS 提升。</p>
+<p class="section-note">连续录像补足了这条上台、停步路线的证据，但没有改变前述美术评价：细草改善与局部袖褶退步并存，整体“比参考更惊艳”的目标尚未达到。</p>
+</section>
+<aside class="review" aria-labelledby="review-heading">
+<div><h2 id="review-heading">人工审美验收 · 待完成</h2><p>本页展示证据，不预设“已超越参考”的结论。请以游戏实际运行和上方原图检查画面，再记录判断。</p><p>对照图统一以 1440 × 900 为标准；每张卡片会读取原图实际尺寸。缺失图片显示等待状态，尺寸不一致会明确标记。</p><p>Blender 建模预览与离线渲染不计入实机对照。本页仅为本地验收记录，不是游戏，也不替代可运行游戏的验收。</p></div>
+<ul class="criteria" aria-label="建议检查项目"><li>入口构图与文字是否舒适、清晰</li><li>场景细节是否形成层次，而非杂乱堆叠</li><li>角色近景、轮廓与动作是否自然</li><li>光照、色彩与星空是否协调</li><li>画面表现能否在实际游玩中保持</li></ul>
+</aside>
+<footer>《借光岛》本地美术验收页 · 参考作品署名 Saccc_c · 图片以各自原始文件为准 · 无外部字体、统计或上传功能</footer>
+</main>
+<dialog aria-label="原始截图查看器"><img alt=""><div class="dialog-bar"><span></span><a class="original" target="_blank" rel="noopener">打开原图 ↗</a><button class="close" type="button">关闭 · Esc</button></div></dialog>
+<script>
+(function(){
+  const dialog=document.querySelector('dialog');
+  document.querySelectorAll('.picture').forEach(function(link){
+    const img=link.querySelector('img'),badge=link.closest('figure').querySelector('.resolution'),state=link.querySelector('.image-state');
+    function loaded(){link.classList.add('loaded');link.classList.remove('missing');const w=img.naturalWidth,h=img.naturalHeight;badge.textContent=w+' × '+h+(w===1440&&h===900?' · 原图':' · 尺寸不同');badge.classList.toggle('mismatch',w!==1440||h!==900);}
+    function missing(){link.classList.add('missing');badge.textContent='截图待生成 / 未载入';state.innerHTML='截图尚未生成或无法载入<small>生成后刷新本页查看</small>';}
+    img.addEventListener('load',loaded);img.addEventListener('error',missing);
+    if(img.complete){if(img.naturalWidth)loaded();else missing();}
+    link.addEventListener('click',function(event){if(!img.naturalWidth||!dialog.showModal)return;event.preventDefault();dialog.querySelector('img').src=link.getAttribute('href');dialog.querySelector('img').alt=img.alt;dialog.querySelector('.dialog-bar span').textContent=link.dataset.title+' · '+img.naturalWidth+' × '+img.naturalHeight;dialog.querySelector('.original').href=link.getAttribute('href');dialog.showModal();});
+  });
+  dialog.querySelector('button').addEventListener('click',function(){dialog.close();});
+  dialog.addEventListener('click',function(event){if(event.target===dialog)dialog.close();});
+})();
+</script>
+</body>
+</html>
+
+

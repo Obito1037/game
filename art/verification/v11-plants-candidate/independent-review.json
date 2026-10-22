@@ -1,0 +1,44 @@
+{
+  "reviewer": "reference_research",
+  "reviewed": true,
+  "acceptedForLimitedScope": true,
+  "recommendation": "建议采用，限本次三组固定机位的静态视觉范围；不扩大到正常动态或性能验收。",
+  "viewingMethod": "亲自逐张查看六张原尺寸 PNG；未裁切、增强、重绘或重新截图，未运行游戏。",
+  "imagesViewed": [
+    "../v11-plants-baseline/path-fixed40.png",
+    "path-fixed40.png",
+    "../v11-plants-baseline/roots-fixed40.png",
+    "roots-fixed40.png",
+    "../v11-plants-baseline/lamp-fixed40.png",
+    "lamp-fixed40.png"
+  ],
+  "summary": "path 的普通画面比例已能辨认改进：紫花不再像成串六角晶体，左下岩旁蕨叶的梯架与黑硬菱片减少。lamp 近景也显示花冠和弧形羽叶更自然。未见足以阻止采用的新增突兀瑕疵；当前几何仍属简化风格。",
+  "perView": {
+    "path": "右侧紫色块体缩为细碎花穗，减少几何柱串对前景的打断；左下岩边蕨叶更像展开的羽状簇。角色、小路、石块和灯光主次保持。收益在整张 1440×900 图中可见，不仅是近景优势。新紫穗比旧版更细、色量更少，中远景紫色节奏也明显变弱。",
+    "roots": "石面、脚边草叶、铺路石及台阶未见新增的肉眼明显形变或突变。这一构图没有充分呈现主要紫穗／蕨叶，因此主要支持非目标周边的有限回归，不作为目标改进的主要证明；不声称两图像素完全一致。",
+    "lamp": "等大紫色尖柱改成细茎上的小花冠，蕨叶主轴弯曲、羽片长短更有层次，原有黑楔和折线梯架明显减少。新蕨仍有扁平尖片感，灯座前部分羽叶交叠较密，但没有看见新增大块黑叶、离散破面或明显悬浮。"
+  },
+  "recordedConditions": {
+    "captureComparison": "capture-condition-comparison.json",
+    "sceneViewLightsAndStableChecksPassed": true,
+    "unityComparison": "unity-import-comparison.json",
+    "importComparisonPassed": true,
+    "trianglesBefore": 412815,
+    "trianglesAfter": 510293,
+    "addedTriangles": 97478,
+    "scope": "上述条件是读取已有比较记录，非本代理重新采集或做运行时验证。"
+  },
+  "remainingArtLimits": [
+    "紫色花穗在中远景更细、更暗淡，未确认所有游戏视角下都有足够辨识度。",
+    "草地的均匀细针、硬直茎与大叶之间的尺度层次仍在；这批图不能证明草群布局已改善。",
+    "部分蕨叶与野花仍有平片／剪纸感；本轮提升不能等同整体自然度或参考作品品质已追平。"
+  ],
+  "notVerified": [
+    "所有视角、光照时段和距离下的植物观感",
+    "风摆中叶片交叠、单帧穿插和动态闪烁",
+    "新增几何对本机 Windows / WebGL 帧时间和内存的影响",
+    "完整游戏流程、碰撞和性能回归",
+    "整体视觉优于参考网站"
+  ],
+  "nextAction": "先以当前模型完成正常游戏与动态／性能回归；本次无需继续扩大草地或其他材质改造。"
+}

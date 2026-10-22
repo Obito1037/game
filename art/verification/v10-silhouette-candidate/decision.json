@@ -1,0 +1,12 @@
+{
+  "decision": "Adopt for integrated candidate, pending normal movement verification",
+  "baselineCharacter": "character-v8",
+  "candidateCharacter": "character-v9",
+  "candidateFBXSHA256": "70069F12265EF5C0B713A94CE2B20F3D305DDE339FC8B2F0487C436091BB4D71",
+  "reviewedViews": ["front-current.png", "three-quarter-current.png", "profile-current.png"],
+  "reviewedBothVersions": true,
+  "observed": "The front and three-quarter silhouettes have narrower upper sleeves, relaxed trouser knees and asymmetrical swept hair tips. The side view remains coherent. The same night lighting still produces broad simple cloth highlights.",
+  "conditions": "capture-condition-comparison.json: camera, night, light settings and frozen scene checks pass. Temporal AO/background frame variation remains, so captures are not pixel-identical.",
+  "preservation": "55 non-target meshes, all weights/rigs/materials and protected connection boundaries retained; see character-v9 independent export and three-pose connection checks.",
+  "limits": ["These are staged bind-pose views, not walking footage.", "Hair retains thick stylized locks, clothing is still simplified, and overall reference-level quality is not established."]
+}

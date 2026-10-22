@@ -1,0 +1,32 @@
+{
+  "revision": "v12",
+  "previousRevision": "v11",
+  "nativeRun": "run-032-v12",
+  "passed": true,
+  "phase": "promoted-awaiting-package-and-http",
+  "buildIds": {
+    "windows": "build_c217a6ee8275",
+    "web": "build_5b89ba634913"
+  },
+  "draftSHA256": {
+    "production-manifest.json": "42A43A0B5B922C24951F1B759BD2FFBCA8A1E63E39786A52A5448F0AE0F3357A",
+    "PLAY.zh-CN.txt": "6E37320BA2A3EBDB2236C23622D62E4950349421816838EFEF87354D48F962FD",
+    "visual-review.html": "2C32CBCBCCBFDA3CFA41633A4074DCA27CED2E2281D5E2FC4EF326386C072A51",
+    "AI-使用与素材来源.zh-CN.txt": "2DE19084DD44FFC3E50E20EC0382A009CEFD94025F3E725506AFDE7C1C523313",
+    "release-checks.json": "6995316567E6BCE74BF6E8243F8BA079C70F5BB18D65E2B447835333553A0061",
+    "NEXT-STEPS.zh-CN.txt": "58D6EDB3D858B5DBBD7DC6934DF9372FA3023D0CAC7ED7974F9F072EA3F0FF86"
+  },
+  "previousWindowsZIP": "CD823F949941B85101DFE71A5429837D23A0173DEC1807AB1BA1919229566B15",
+  "steps": [
+    "v11 web and handoff archived",
+    "preserved v11 windows",
+    "installed v12 windows",
+    "preserved v11 web",
+    "installed v12 web"
+  ],
+  "startedAtUTC": "2026-10-21T05:03:27.8779474Z",
+  "candidateCopiesPreserved": true,
+  "localOnly": true,
+  "packageVerificationPending": true,
+  "completedAtUTC": "2026-10-21T05:03:31.4492897Z"
+}

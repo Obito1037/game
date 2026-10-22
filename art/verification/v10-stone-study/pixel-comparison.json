@@ -1,0 +1,68 @@
+{
+  "scope": "Decoded original screenshots, RGB byte differences. A/A differences can include unscaled shader effects or temporal AO; numerical change is not visual quality.",
+  "rows": [
+    {
+      "a": "path-baseline.png",
+      "b": "path-baseline-repeat.png",
+      "width": 1440,
+      "height": 900,
+      "meanAbsoluteRGBByteDifference": 0.5649663065843621,
+      "maximumChannelDifference": 73,
+      "changedPixelFraction": 0.4906952160493827,
+      "regions": [
+        {
+          "name": "upper half",
+          "meanAbsoluteRGBByteDifference": 0.40274897119341563,
+          "changedPixelFraction": 0.33058796296296294
+        },
+        {
+          "name": "lower half",
+          "meanAbsoluteRGBByteDifference": 0.7271836419753086,
+          "changedPixelFraction": 0.6508024691358024
+        }
+      ]
+    },
+    {
+      "a": "path-baseline.png",
+      "b": "path-texture.png",
+      "width": 1440,
+      "height": 900,
+      "meanAbsoluteRGBByteDifference": 1.003772890946502,
+      "maximumChannelDifference": 73,
+      "changedPixelFraction": 0.5349729938271605,
+      "regions": [
+        {
+          "name": "upper half",
+          "meanAbsoluteRGBByteDifference": 0.4002829218106996,
+          "changedPixelFraction": 0.3295725308641975
+        },
+        {
+          "name": "lower half",
+          "meanAbsoluteRGBByteDifference": 1.6072628600823045,
+          "changedPixelFraction": 0.7403734567901235
+        }
+      ]
+    },
+    {
+      "a": "left-rock-baseline.png",
+      "b": "left-rock-baseline-repeat.png",
+      "width": 1440,
+      "height": 900,
+      "meanAbsoluteRGBByteDifference": 0.6358672839506173,
+      "maximumChannelDifference": 66,
+      "changedPixelFraction": 0.6022314814814815,
+      "regions": [
+        {
+          "name": "upper half",
+          "meanAbsoluteRGBByteDifference": 0.6287124485596708,
+          "changedPixelFraction": 0.5078688271604939
+        },
+        {
+          "name": "lower half",
+          "meanAbsoluteRGBByteDifference": 0.6430221193415638,
+          "changedPixelFraction": 0.6965941358024691
+        }
+      ]
+    }
+  ]
+}

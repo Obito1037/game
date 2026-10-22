@@ -1,0 +1,1611 @@
+{
+  "scope": "Clean-scene BLEND / FBX / GLB readback. Linear vertex multipliers. All 14 anchors checked; observatory, stepping-stone paths, terrain and other unchanged objects match world-v5 geometry/material fingerprints exactly. Blender previews do not establish Unity appearance.",
+  "passed": true,
+  "budget": 450000,
+  "baseline_triangles": 325264,
+  "baseline_grass_vertices": 243354,
+  "ground_textures_identical_to_world_v5": true,
+  "raw_glb_color_0": [
+    {
+      "mesh": "Island_Strata",
+      "min_rgb": 1.0,
+      "max_rgb": 1.0,
+      "color_space": "linear",
+      "encoding": "normalized UINT16 COLOR_0"
+    },
+    {
+      "mesh": "Island_Meadow",
+      "min_rgb": 1.0,
+      "max_rgb": 1.0,
+      "color_space": "linear",
+      "encoding": "normalized UINT16 COLOR_0"
+    },
+    {
+      "mesh": "Island_CliffGardens",
+      "min_rgb": 1.0,
+      "max_rgb": 1.0,
+      "color_space": "linear",
+      "encoding": "normalized UINT16 COLOR_0"
+    },
+    {
+      "mesh": "Island_BrassMeridian",
+      "min_rgb": 1.0,
+      "max_rgb": 1.0,
+      "color_space": "linear",
+      "encoding": "normalized UINT16 COLOR_0"
+    },
+    {
+      "mesh": "Garden_Walkways",
+      "min_rgb": 1.0,
+      "max_rgb": 1.0,
+      "color_space": "linear",
+      "encoding": "normalized UINT16 COLOR_0"
+    },
+    {
+      "mesh": "Garden_HeroBoulders",
+      "min_rgb": 0.5619287403677424,
+      "max_rgb": 0.9729762722209506,
+      "color_space": "linear",
+      "encoding": "normalized UINT16 COLOR_0"
+    },
+    {
+      "mesh": "Observatory_StoneAndBrass",
+      "min_rgb": 1.0,
+      "max_rgb": 1.0,
+      "color_space": "linear",
+      "encoding": "normalized UINT16 COLOR_0"
+    },
+    {
+      "mesh": "Cabin_PlasterAndFoundation",
+      "min_rgb": 1.0,
+      "max_rgb": 1.0,
+      "color_space": "linear",
+      "encoding": "normalized UINT16 COLOR_0"
+    },
+    {
+      "mesh": "Cabin_IndividualShingles",
+      "min_rgb": 1.0,
+      "max_rgb": 1.0,
+      "color_space": "linear",
+      "encoding": "normalized UINT16 COLOR_0"
+    },
+    {
+      "mesh": "Cabin_ReadingWindow_Glow",
+      "min_rgb": 1.0,
+      "max_rgb": 1.0,
+      "color_space": "linear",
+      "encoding": "normalized UINT16 COLOR_0"
+    },
+    {
+      "mesh": "Cabin_DoorAndAccessories",
+      "min_rgb": 1.0,
+      "max_rgb": 1.0,
+      "color_space": "linear",
+      "encoding": "normalized UINT16 COLOR_0"
+    },
+    {
+      "mesh": "Cabin_Timber",
+      "min_rgb": 1.0,
+      "max_rgb": 1.0,
+      "color_space": "linear",
+      "encoding": "normalized UINT16 COLOR_0"
+    },
+    {
+      "mesh": "LampBase_A",
+      "min_rgb": 1.0,
+      "max_rgb": 1.0,
+      "color_space": "linear",
+      "encoding": "normalized UINT16 COLOR_0"
+    },
+    {
+      "mesh": "LampBase_B",
+      "min_rgb": 1.0,
+      "max_rgb": 1.0,
+      "color_space": "linear",
+      "encoding": "normalized UINT16 COLOR_0"
+    },
+    {
+      "mesh": "LampBase_C",
+      "min_rgb": 1.0,
+      "max_rgb": 1.0,
+      "color_space": "linear",
+      "encoding": "normalized UINT16 COLOR_0"
+    },
+    {
+      "mesh": "Garden_Bench",
+      "min_rgb": 1.0,
+      "max_rgb": 1.0,
+      "color_space": "linear",
+      "encoding": "normalized UINT16 COLOR_0"
+    },
+    {
+      "mesh": "Cliff_Pier",
+      "min_rgb": 1.0,
+      "max_rgb": 1.0,
+      "color_space": "linear",
+      "encoding": "normalized UINT16 COLOR_0"
+    },
+    {
+      "mesh": "Garden_TreeTrunks",
+      "min_rgb": 1.0,
+      "max_rgb": 1.0,
+      "color_space": "linear",
+      "encoding": "normalized UINT16 COLOR_0"
+    },
+    {
+      "mesh": "Garden_TreeCanopies",
+      "min_rgb": 1.0,
+      "max_rgb": 1.0,
+      "color_space": "linear",
+      "encoding": "normalized UINT16 COLOR_0"
+    },
+    {
+      "mesh": "Garden_CanopyLeafEdges",
+      "min_rgb": 1.0,
+      "max_rgb": 1.0,
+      "color_space": "linear",
+      "encoding": "normalized UINT16 COLOR_0"
+    },
+    {
+      "mesh": "MoonDial_Sculpture",
+      "min_rgb": 1.0,
+      "max_rgb": 1.0,
+      "color_space": "linear",
+      "encoding": "normalized UINT16 COLOR_0"
+    },
+    {
+      "mesh": "Garden_CreepingMeadowLeaves",
+      "min_rgb": 0.779995422293431,
+      "max_rgb": 0.9999847409781033,
+      "color_space": "linear",
+      "encoding": "normalized UINT16 COLOR_0"
+    },
+    {
+      "mesh": "Garden_FeatherFerns",
+      "min_rgb": 0.7800106813153277,
+      "max_rgb": 1.0,
+      "color_space": "linear",
+      "encoding": "normalized UINT16 COLOR_0"
+    },
+    {
+      "mesh": "Garden_LavenderAndSeedHeads",
+      "min_rgb": 1.0,
+      "max_rgb": 1.0,
+      "color_space": "linear",
+      "encoding": "normalized UINT16 COLOR_0"
+    },
+    {
+      "mesh": "Garden_Wildflowers",
+      "min_rgb": 1.0,
+      "max_rgb": 1.0,
+      "color_space": "linear",
+      "encoding": "normalized UINT16 COLOR_0"
+    },
+    {
+      "mesh": "Garden_GrassTufts",
+      "min_rgb": 0.779995422293431,
+      "max_rgb": 1.0,
+      "color_space": "linear",
+      "encoding": "normalized UINT16 COLOR_0"
+    },
+    {
+      "mesh": "Garden_MushroomsAndPebbles",
+      "min_rgb": 1.0,
+      "max_rgb": 1.0,
+      "color_space": "linear",
+      "encoding": "normalized UINT16 COLOR_0"
+    },
+    {
+      "mesh": "Cabin_ClimbingIvy",
+      "min_rgb": 1.0,
+      "max_rgb": 1.0,
+      "color_space": "linear",
+      "encoding": "normalized UINT16 COLOR_0"
+    },
+    {
+      "mesh": "Garden_StoryDetails",
+      "min_rgb": 1.0,
+      "max_rgb": 1.0,
+      "color_space": "linear",
+      "encoding": "normalized UINT16 COLOR_0"
+    }
+  ],
+  "checks": [
+    {
+      "format": "blend",
+      "triangles": 412815,
+      "mesh_count": 29,
+      "uv_mesh_count": 29,
+      "anchors": [
+        {
+          "name": "Lamp_A",
+          "actual_unity": [
+            -4.5,
+            0.0,
+            -2.0
+          ],
+          "error_metres": 0.0
+        },
+        {
+          "name": "Lamp_B",
+          "actual_unity": [
+            1.7999999523162842,
+            0.0,
+            3.4000000953674316
+          ],
+          "error_metres": 0.0
+        },
+        {
+          "name": "Lamp_C",
+          "actual_unity": [
+            4.699999809265137,
+            0.0,
+            -2.4000000953674316
+          ],
+          "error_metres": 0.0
+        },
+        {
+          "name": "LampHead_A",
+          "actual_unity": [
+            -4.5,
+            1.850000023841858,
+            -2.0
+          ],
+          "error_metres": 0.0
+        },
+        {
+          "name": "LampHead_B",
+          "actual_unity": [
+            1.7999999523162842,
+            1.850000023841858,
+            3.4000000953674316
+          ],
+          "error_metres": 0.0
+        },
+        {
+          "name": "LampHead_C",
+          "actual_unity": [
+            4.699999809265137,
+            1.850000023841858,
+            -2.4000000953674316
+          ],
+          "error_metres": 0.0
+        },
+        {
+          "name": "Target_Path",
+          "actual_unity": [
+            -1.7999999523162842,
+            0.07999999821186066,
+            -3.200000047683716
+          ],
+          "error_metres": 0.0
+        },
+        {
+          "name": "Target_Bench",
+          "actual_unity": [
+            -5.800000190734863,
+            0.10000000149011612,
+            0.15000000596046448
+          ],
+          "error_metres": 0.0
+        },
+        {
+          "name": "Target_Window",
+          "actual_unity": [
+            -4.099999904632568,
+            1.600000023841858,
+            3.049999952316284
+          ],
+          "error_metres": 0.0
+        },
+        {
+          "name": "Target_Dock",
+          "actual_unity": [
+            6.900000095367432,
+            0.11999999731779099,
+            -3.3499999046325684
+          ],
+          "error_metres": 0.0
+        },
+        {
+          "name": "Cabin",
+          "actual_unity": [
+            -4.099999904632568,
+            0.0,
+            4.050000190734863
+          ],
+          "error_metres": 0.0
+        },
+        {
+          "name": "StarAltar",
+          "actual_unity": [
+            0.0,
+            0.07999999821186066,
+            0.3499999940395355
+          ],
+          "error_metres": 0.0
+        },
+        {
+          "name": "Moon",
+          "actual_unity": [
+            3.299999952316284,
+            1.7999999523162842,
+            5.400000095367432
+          ],
+          "error_metres": 0.0
+        },
+        {
+          "name": "PlayerSpawn",
+          "actual_unity": [
+            0.0,
+            0.10000000149011612,
+            -5.599999904632568
+          ],
+          "error_metres": 0.0
+        }
+      ],
+      "walkway_height_range_metres": [
+        -0.006000000052154064,
+        0.08647987991571426
+      ],
+      "walkway_top_faces_checked": 490,
+      "downward_walkway_top_faces": 0,
+      "hero_boulder_triangles": 20480,
+      "hero_materials": [
+        "BI_rock_hero_warm",
+        "BI_rock_hero_slate"
+      ],
+      "zero_area_triangles": [],
+      "vertex_colors": [
+        {
+          "mesh": "Island_Strata",
+          "attribute": "BL_FoliageTint",
+          "domain": "CORNER",
+          "min_rgb": 1.0,
+          "max_rgb": 1.0
+        },
+        {
+          "mesh": "Island_Meadow",
+          "attribute": "BL_FoliageTint",
+          "domain": "CORNER",
+          "min_rgb": 1.0,
+          "max_rgb": 1.0
+        },
+        {
+          "mesh": "Island_CliffGardens",
+          "attribute": "BL_FoliageTint",
+          "domain": "CORNER",
+          "min_rgb": 1.0,
+          "max_rgb": 1.0
+        },
+        {
+          "mesh": "Island_BrassMeridian",
+          "attribute": "BL_FoliageTint",
+          "domain": "CORNER",
+          "min_rgb": 1.0,
+          "max_rgb": 1.0
+        },
+        {
+          "mesh": "Garden_Walkways",
+          "attribute": "BL_FoliageTint",
+          "domain": "CORNER",
+          "min_rgb": 1.0,
+          "max_rgb": 1.0
+        },
+        {
+          "mesh": "Garden_HeroBoulders",
+          "attribute": "BL_FoliageTint",
+          "domain": "CORNER",
+          "min_rgb": 0.5619326233863831,
+          "max_rgb": 0.9729737043380737
+        },
+        {
+          "mesh": "Observatory_StoneAndBrass",
+          "attribute": "BL_FoliageTint",
+          "domain": "CORNER",
+          "min_rgb": 1.0,
+          "max_rgb": 1.0
+        },
+        {
+          "mesh": "Cabin_PlasterAndFoundation",
+          "attribute": "BL_FoliageTint",
+          "domain": "CORNER",
+          "min_rgb": 1.0,
+          "max_rgb": 1.0
+        },
+        {
+          "mesh": "Cabin_IndividualShingles",
+          "attribute": "BL_FoliageTint",
+          "domain": "CORNER",
+          "min_rgb": 1.0,
+          "max_rgb": 1.0
+        },
+        {
+          "mesh": "Cabin_ReadingWindow_Glow",
+          "attribute": "BL_FoliageTint",
+          "domain": "CORNER",
+          "min_rgb": 1.0,
+          "max_rgb": 1.0
+        },
+        {
+          "mesh": "Cabin_DoorAndAccessories",
+          "attribute": "BL_FoliageTint",
+          "domain": "CORNER",
+          "min_rgb": 1.0,
+          "max_rgb": 1.0
+        },
+        {
+          "mesh": "Cabin_Timber",
+          "attribute": "BL_FoliageTint",
+          "domain": "CORNER",
+          "min_rgb": 1.0,
+          "max_rgb": 1.0
+        },
+        {
+          "mesh": "LampBase_A",
+          "attribute": "BL_FoliageTint",
+          "domain": "CORNER",
+          "min_rgb": 1.0,
+          "max_rgb": 1.0
+        },
+        {
+          "mesh": "LampBase_B",
+          "attribute": "BL_FoliageTint",
+          "domain": "CORNER",
+          "min_rgb": 1.0,
+          "max_rgb": 1.0
+        },
+        {
+          "mesh": "LampBase_C",
+          "attribute": "BL_FoliageTint",
+          "domain": "CORNER",
+          "min_rgb": 1.0,
+          "max_rgb": 1.0
+        },
+        {
+          "mesh": "Garden_Bench",
+          "attribute": "BL_FoliageTint",
+          "domain": "CORNER",
+          "min_rgb": 1.0,
+          "max_rgb": 1.0
+        },
+        {
+          "mesh": "Cliff_Pier",
+          "attribute": "BL_FoliageTint",
+          "domain": "CORNER",
+          "min_rgb": 1.0,
+          "max_rgb": 1.0
+        },
+        {
+          "mesh": "Garden_TreeTrunks",
+          "attribute": "BL_FoliageTint",
+          "domain": "CORNER",
+          "min_rgb": 1.0,
+          "max_rgb": 1.0
+        },
+        {
+          "mesh": "Garden_TreeCanopies",
+          "attribute": "BL_FoliageTint",
+          "domain": "CORNER",
+          "min_rgb": 1.0,
+          "max_rgb": 1.0
+        },
+        {
+          "mesh": "Garden_CanopyLeafEdges",
+          "attribute": "BL_FoliageTint",
+          "domain": "CORNER",
+          "min_rgb": 1.0,
+          "max_rgb": 1.0
+        },
+        {
+          "mesh": "MoonDial_Sculpture",
+          "attribute": "BL_FoliageTint",
+          "domain": "CORNER",
+          "min_rgb": 1.0,
+          "max_rgb": 1.0
+        },
+        {
+          "mesh": "Garden_CreepingMeadowLeaves",
+          "attribute": "BL_FoliageTint",
+          "domain": "CORNER",
+          "min_rgb": 0.7800002098083496,
+          "max_rgb": 0.9999865293502808
+        },
+        {
+          "mesh": "Garden_FeatherFerns",
+          "attribute": "BL_FoliageTint",
+          "domain": "CORNER",
+          "min_rgb": 0.7800047993659973,
+          "max_rgb": 0.9999933838844299
+        },
+        {
+          "mesh": "Garden_LavenderAndSeedHeads",
+          "attribute": "BL_FoliageTint",
+          "domain": "CORNER",
+          "min_rgb": 1.0,
+          "max_rgb": 1.0
+        },
+        {
+          "mesh": "Garden_Wildflowers",
+          "attribute": "BL_FoliageTint",
+          "domain": "CORNER",
+          "min_rgb": 1.0,
+          "max_rgb": 1.0
+        },
+        {
+          "mesh": "Garden_GrassTufts",
+          "attribute": "BL_FoliageTint",
+          "domain": "CORNER",
+          "min_rgb": 0.7800004482269287,
+          "max_rgb": 0.9999986290931702
+        },
+        {
+          "mesh": "Garden_MushroomsAndPebbles",
+          "attribute": "BL_FoliageTint",
+          "domain": "CORNER",
+          "min_rgb": 1.0,
+          "max_rgb": 1.0
+        },
+        {
+          "mesh": "Cabin_ClimbingIvy",
+          "attribute": "BL_FoliageTint",
+          "domain": "CORNER",
+          "min_rgb": 1.0,
+          "max_rgb": 1.0
+        },
+        {
+          "mesh": "Garden_StoryDetails",
+          "attribute": "BL_FoliageTint",
+          "domain": "CORNER",
+          "min_rgb": 1.0,
+          "max_rgb": 1.0
+        }
+      ],
+      "unchanged_geometry_checks": [
+        {
+          "mesh": "Island_Strata",
+          "vertices_not_at_baseline_position": 0
+        },
+        {
+          "mesh": "Island_Meadow",
+          "vertices_not_at_baseline_position": 0
+        },
+        {
+          "mesh": "Island_CliffGardens",
+          "vertices_not_at_baseline_position": 0
+        },
+        {
+          "mesh": "Island_BrassMeridian",
+          "vertices_not_at_baseline_position": 0
+        },
+        {
+          "mesh": "Observatory_StoneAndBrass",
+          "vertices_not_at_baseline_position": 0
+        },
+        {
+          "mesh": "Cabin_PlasterAndFoundation",
+          "vertices_not_at_baseline_position": 0
+        },
+        {
+          "mesh": "Cabin_IndividualShingles",
+          "vertices_not_at_baseline_position": 0
+        },
+        {
+          "mesh": "Cabin_ReadingWindow_Glow",
+          "vertices_not_at_baseline_position": 0
+        },
+        {
+          "mesh": "Cabin_DoorAndAccessories",
+          "vertices_not_at_baseline_position": 0
+        },
+        {
+          "mesh": "Cabin_Timber",
+          "vertices_not_at_baseline_position": 0
+        },
+        {
+          "mesh": "LampBase_A",
+          "vertices_not_at_baseline_position": 0
+        },
+        {
+          "mesh": "LampBase_B",
+          "vertices_not_at_baseline_position": 0
+        },
+        {
+          "mesh": "LampBase_C",
+          "vertices_not_at_baseline_position": 0
+        },
+        {
+          "mesh": "Garden_Bench",
+          "vertices_not_at_baseline_position": 0
+        },
+        {
+          "mesh": "Cliff_Pier",
+          "vertices_not_at_baseline_position": 0
+        },
+        {
+          "mesh": "Garden_TreeTrunks",
+          "vertices_not_at_baseline_position": 0
+        },
+        {
+          "mesh": "Garden_TreeCanopies",
+          "vertices_not_at_baseline_position": 0
+        },
+        {
+          "mesh": "Garden_CanopyLeafEdges",
+          "vertices_not_at_baseline_position": 0
+        },
+        {
+          "mesh": "MoonDial_Sculpture",
+          "vertices_not_at_baseline_position": 0
+        },
+        {
+          "mesh": "Garden_FeatherFerns",
+          "vertices_not_at_baseline_position": 0
+        },
+        {
+          "mesh": "Garden_LavenderAndSeedHeads",
+          "vertices_not_at_baseline_position": 0
+        },
+        {
+          "mesh": "Garden_Wildflowers",
+          "vertices_not_at_baseline_position": 0
+        },
+        {
+          "mesh": "Garden_MushroomsAndPebbles",
+          "vertices_not_at_baseline_position": 0
+        },
+        {
+          "mesh": "Cabin_ClimbingIvy",
+          "vertices_not_at_baseline_position": 0
+        },
+        {
+          "mesh": "Garden_StoryDetails",
+          "vertices_not_at_baseline_position": 0
+        },
+        {
+          "mesh": "Island_Strata",
+          "geometry_material_fingerprint_identical_to_world_v5": true
+        },
+        {
+          "mesh": "Island_Meadow",
+          "geometry_material_fingerprint_identical_to_world_v5": true
+        },
+        {
+          "mesh": "Island_CliffGardens",
+          "geometry_material_fingerprint_identical_to_world_v5": true
+        },
+        {
+          "mesh": "Island_BrassMeridian",
+          "geometry_material_fingerprint_identical_to_world_v5": true
+        },
+        {
+          "mesh": "Garden_Walkways",
+          "geometry_material_fingerprint_identical_to_world_v5": true
+        },
+        {
+          "mesh": "Observatory_StoneAndBrass",
+          "geometry_material_fingerprint_identical_to_world_v5": true
+        },
+        {
+          "mesh": "Cabin_PlasterAndFoundation",
+          "geometry_material_fingerprint_identical_to_world_v5": true
+        },
+        {
+          "mesh": "Cabin_IndividualShingles",
+          "geometry_material_fingerprint_identical_to_world_v5": true
+        },
+        {
+          "mesh": "Cabin_ReadingWindow_Glow",
+          "geometry_material_fingerprint_identical_to_world_v5": true
+        },
+        {
+          "mesh": "Cabin_DoorAndAccessories",
+          "geometry_material_fingerprint_identical_to_world_v5": true
+        },
+        {
+          "mesh": "Cabin_Timber",
+          "geometry_material_fingerprint_identical_to_world_v5": true
+        },
+        {
+          "mesh": "LampBase_A",
+          "geometry_material_fingerprint_identical_to_world_v5": true
+        },
+        {
+          "mesh": "LampBase_B",
+          "geometry_material_fingerprint_identical_to_world_v5": true
+        },
+        {
+          "mesh": "LampBase_C",
+          "geometry_material_fingerprint_identical_to_world_v5": true
+        },
+        {
+          "mesh": "Garden_Bench",
+          "geometry_material_fingerprint_identical_to_world_v5": true
+        },
+        {
+          "mesh": "Cliff_Pier",
+          "geometry_material_fingerprint_identical_to_world_v5": true
+        },
+        {
+          "mesh": "Garden_TreeTrunks",
+          "geometry_material_fingerprint_identical_to_world_v5": true
+        },
+        {
+          "mesh": "Garden_TreeCanopies",
+          "geometry_material_fingerprint_identical_to_world_v5": true
+        },
+        {
+          "mesh": "Garden_CanopyLeafEdges",
+          "geometry_material_fingerprint_identical_to_world_v5": true
+        },
+        {
+          "mesh": "MoonDial_Sculpture",
+          "geometry_material_fingerprint_identical_to_world_v5": true
+        },
+        {
+          "mesh": "Garden_MushroomsAndPebbles",
+          "geometry_material_fingerprint_identical_to_world_v5": true
+        },
+        {
+          "mesh": "Cabin_ClimbingIvy",
+          "geometry_material_fingerprint_identical_to_world_v5": true
+        },
+        {
+          "mesh": "Garden_StoryDetails",
+          "geometry_material_fingerprint_identical_to_world_v5": true
+        }
+      ],
+      "cleanup_survivor_checks": [],
+      "remaining_plant_footprint_hits": [
+        {
+          "mesh": "Garden_CreepingMeadowLeaves",
+          "vertices_projecting_into_boulders": 0
+        },
+        {
+          "mesh": "Garden_FeatherFerns",
+          "vertices_projecting_into_boulders": 0
+        },
+        {
+          "mesh": "Garden_LavenderAndSeedHeads",
+          "vertices_projecting_into_boulders": 0
+        },
+        {
+          "mesh": "Garden_Wildflowers",
+          "vertices_projecting_into_boulders": 0
+        },
+        {
+          "mesh": "Garden_GrassTufts",
+          "vertices_projecting_into_boulders": 0
+        }
+      ],
+      "topology": [
+        {
+          "mesh": "Garden_HeroBoulders",
+          "vertices": 10248,
+          "triangles": 20480,
+          "smooth_polygons": 20480,
+          "polygons": 20480
+        },
+        {
+          "mesh": "Garden_CreepingMeadowLeaves",
+          "vertices": 35982,
+          "triangles": 31984,
+          "smooth_polygons": 0,
+          "polygons": 31984
+        },
+        {
+          "mesh": "Garden_GrassTufts",
+          "vertices": 294524,
+          "triangles": 215804,
+          "smooth_polygons": 127645,
+          "polygons": 127645
+        }
+      ],
+      "sha256": "610c7caba9991648cc06e7442e62eb50964f44794ded3bc9f885f289b01a8206",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "format": "fbx",
+      "triangles": 412815,
+      "mesh_count": 29,
+      "uv_mesh_count": 29,
+      "anchors": [
+        {
+          "name": "Lamp_A",
+          "actual_unity": [
+            -4.5,
+            0.0,
+            -2.0
+          ],
+          "error_metres": 0.0
+        },
+        {
+          "name": "Lamp_B",
+          "actual_unity": [
+            1.7999999523162842,
+            0.0,
+            3.3999998569488525
+          ],
+          "error_metres": 2.384185791015625e-07
+        },
+        {
+          "name": "Lamp_C",
+          "actual_unity": [
+            4.699999809265137,
+            0.0,
+            -2.4000000953674316
+          ],
+          "error_metres": 0.0
+        },
+        {
+          "name": "LampHead_A",
+          "actual_unity": [
+            -4.5,
+            1.8499999046325684,
+            -2.0
+          ],
+          "error_metres": 1.1920928955078125e-07
+        },
+        {
+          "name": "LampHead_B",
+          "actual_unity": [
+            1.7999999523162842,
+            1.8499999046325684,
+            3.3999998569488525
+          ],
+          "error_metres": 2.6656007498500226e-07
+        },
+        {
+          "name": "LampHead_C",
+          "actual_unity": [
+            4.699999809265137,
+            1.8499999046325684,
+            -2.4000000953674316
+          ],
+          "error_metres": 1.1920928955078125e-07
+        },
+        {
+          "name": "Target_Path",
+          "actual_unity": [
+            -1.7999999523162842,
+            0.07999999821186066,
+            -3.1999998092651367
+          ],
+          "error_metres": 2.384185791015625e-07
+        },
+        {
+          "name": "Target_Bench",
+          "actual_unity": [
+            -5.799999713897705,
+            0.09999999403953552,
+            0.15000000596046448
+          ],
+          "error_metres": 4.768953623117584e-07
+        },
+        {
+          "name": "Target_Window",
+          "actual_unity": [
+            -4.099999904632568,
+            1.5999999046325684,
+            3.049999952316284
+          ],
+          "error_metres": 1.1920928955078125e-07
+        },
+        {
+          "name": "Target_Dock",
+          "actual_unity": [
+            6.899999618530273,
+            0.11999999731779099,
+            -3.3499999046325684
+          ],
+          "error_metres": 4.76837158203125e-07
+        },
+        {
+          "name": "Cabin",
+          "actual_unity": [
+            -4.099999904632568,
+            0.0,
+            4.050000190734863
+          ],
+          "error_metres": 0.0
+        },
+        {
+          "name": "StarAltar",
+          "actual_unity": [
+            0.0,
+            0.07999999821186066,
+            0.3499999940395355
+          ],
+          "error_metres": 0.0
+        },
+        {
+          "name": "Moon",
+          "actual_unity": [
+            3.299999952316284,
+            1.7999999523162842,
+            5.400000095367432
+          ],
+          "error_metres": 0.0
+        },
+        {
+          "name": "PlayerSpawn",
+          "actual_unity": [
+            0.0,
+            0.09999999403953552,
+            -5.599999904632568
+          ],
+          "error_metres": 7.450580596923828e-09
+        }
+      ],
+      "walkway_height_range_metres": [
+        -0.006000461056828499,
+        0.08647949993610382
+      ],
+      "walkway_top_faces_checked": 490,
+      "downward_walkway_top_faces": 0,
+      "hero_boulder_triangles": 20480,
+      "hero_materials": [
+        "BI_rock_hero_warm",
+        "BI_rock_hero_slate"
+      ],
+      "zero_area_triangles": [],
+      "vertex_colors": [
+        {
+          "mesh": "Cabin_ClimbingIvy",
+          "attribute": "BL_FoliageTint",
+          "domain": "CORNER",
+          "min_rgb": 1.0,
+          "max_rgb": 1.0
+        },
+        {
+          "mesh": "Cabin_DoorAndAccessories",
+          "attribute": "BL_FoliageTint",
+          "domain": "CORNER",
+          "min_rgb": 1.0,
+          "max_rgb": 1.0
+        },
+        {
+          "mesh": "Cabin_IndividualShingles",
+          "attribute": "BL_FoliageTint",
+          "domain": "CORNER",
+          "min_rgb": 1.0,
+          "max_rgb": 1.0
+        },
+        {
+          "mesh": "Cabin_PlasterAndFoundation",
+          "attribute": "BL_FoliageTint",
+          "domain": "CORNER",
+          "min_rgb": 1.0,
+          "max_rgb": 1.0
+        },
+        {
+          "mesh": "Cabin_ReadingWindow_Glow",
+          "attribute": "BL_FoliageTint",
+          "domain": "CORNER",
+          "min_rgb": 1.0,
+          "max_rgb": 1.0
+        },
+        {
+          "mesh": "Cabin_Timber",
+          "attribute": "BL_FoliageTint",
+          "domain": "CORNER",
+          "min_rgb": 1.0,
+          "max_rgb": 1.0
+        },
+        {
+          "mesh": "Cliff_Pier",
+          "attribute": "BL_FoliageTint",
+          "domain": "CORNER",
+          "min_rgb": 1.0,
+          "max_rgb": 1.0
+        },
+        {
+          "mesh": "Garden_Bench",
+          "attribute": "BL_FoliageTint",
+          "domain": "CORNER",
+          "min_rgb": 1.0,
+          "max_rgb": 1.0
+        },
+        {
+          "mesh": "Garden_CanopyLeafEdges",
+          "attribute": "BL_FoliageTint",
+          "domain": "CORNER",
+          "min_rgb": 1.0,
+          "max_rgb": 1.0
+        },
+        {
+          "mesh": "Garden_CreepingMeadowLeaves",
+          "attribute": "BL_FoliageTint",
+          "domain": "CORNER",
+          "min_rgb": 0.7800002098083496,
+          "max_rgb": 0.9999865293502808
+        },
+        {
+          "mesh": "Garden_FeatherFerns",
+          "attribute": "BL_FoliageTint",
+          "domain": "CORNER",
+          "min_rgb": 0.7800047993659973,
+          "max_rgb": 0.9999933838844299
+        },
+        {
+          "mesh": "Garden_GrassTufts",
+          "attribute": "BL_FoliageTint",
+          "domain": "CORNER",
+          "min_rgb": 0.7800004482269287,
+          "max_rgb": 0.9999986290931702
+        },
+        {
+          "mesh": "Garden_HeroBoulders",
+          "attribute": "BL_FoliageTint",
+          "domain": "CORNER",
+          "min_rgb": 0.5619326233863831,
+          "max_rgb": 0.9729737043380737
+        },
+        {
+          "mesh": "Garden_LavenderAndSeedHeads",
+          "attribute": "BL_FoliageTint",
+          "domain": "CORNER",
+          "min_rgb": 1.0,
+          "max_rgb": 1.0
+        },
+        {
+          "mesh": "Garden_MushroomsAndPebbles",
+          "attribute": "BL_FoliageTint",
+          "domain": "CORNER",
+          "min_rgb": 1.0,
+          "max_rgb": 1.0
+        },
+        {
+          "mesh": "Garden_StoryDetails",
+          "attribute": "BL_FoliageTint",
+          "domain": "CORNER",
+          "min_rgb": 1.0,
+          "max_rgb": 1.0
+        },
+        {
+          "mesh": "Garden_TreeCanopies",
+          "attribute": "BL_FoliageTint",
+          "domain": "CORNER",
+          "min_rgb": 1.0,
+          "max_rgb": 1.0
+        },
+        {
+          "mesh": "Garden_TreeTrunks",
+          "attribute": "BL_FoliageTint",
+          "domain": "CORNER",
+          "min_rgb": 1.0,
+          "max_rgb": 1.0
+        },
+        {
+          "mesh": "Garden_Walkways",
+          "attribute": "BL_FoliageTint",
+          "domain": "CORNER",
+          "min_rgb": 1.0,
+          "max_rgb": 1.0
+        },
+        {
+          "mesh": "Garden_Wildflowers",
+          "attribute": "BL_FoliageTint",
+          "domain": "CORNER",
+          "min_rgb": 1.0,
+          "max_rgb": 1.0
+        },
+        {
+          "mesh": "Island_BrassMeridian",
+          "attribute": "BL_FoliageTint",
+          "domain": "CORNER",
+          "min_rgb": 1.0,
+          "max_rgb": 1.0
+        },
+        {
+          "mesh": "Island_CliffGardens",
+          "attribute": "BL_FoliageTint",
+          "domain": "CORNER",
+          "min_rgb": 1.0,
+          "max_rgb": 1.0
+        },
+        {
+          "mesh": "Island_Meadow",
+          "attribute": "BL_FoliageTint",
+          "domain": "CORNER",
+          "min_rgb": 1.0,
+          "max_rgb": 1.0
+        },
+        {
+          "mesh": "Island_Strata",
+          "attribute": "BL_FoliageTint",
+          "domain": "CORNER",
+          "min_rgb": 1.0,
+          "max_rgb": 1.0
+        },
+        {
+          "mesh": "LampBase_A",
+          "attribute": "BL_FoliageTint",
+          "domain": "CORNER",
+          "min_rgb": 1.0,
+          "max_rgb": 1.0
+        },
+        {
+          "mesh": "LampBase_B",
+          "attribute": "BL_FoliageTint",
+          "domain": "CORNER",
+          "min_rgb": 1.0,
+          "max_rgb": 1.0
+        },
+        {
+          "mesh": "LampBase_C",
+          "attribute": "BL_FoliageTint",
+          "domain": "CORNER",
+          "min_rgb": 1.0,
+          "max_rgb": 1.0
+        },
+        {
+          "mesh": "MoonDial_Sculpture",
+          "attribute": "BL_FoliageTint",
+          "domain": "CORNER",
+          "min_rgb": 1.0,
+          "max_rgb": 1.0
+        },
+        {
+          "mesh": "Observatory_StoneAndBrass",
+          "attribute": "BL_FoliageTint",
+          "domain": "CORNER",
+          "min_rgb": 1.0,
+          "max_rgb": 1.0
+        }
+      ],
+      "unchanged_geometry_checks": [],
+      "cleanup_survivor_checks": [],
+      "remaining_plant_footprint_hits": [
+        {
+          "mesh": "Garden_CreepingMeadowLeaves",
+          "vertices_projecting_into_boulders": 0
+        },
+        {
+          "mesh": "Garden_FeatherFerns",
+          "vertices_projecting_into_boulders": 0
+        },
+        {
+          "mesh": "Garden_LavenderAndSeedHeads",
+          "vertices_projecting_into_boulders": 0
+        },
+        {
+          "mesh": "Garden_Wildflowers",
+          "vertices_projecting_into_boulders": 0
+        },
+        {
+          "mesh": "Garden_GrassTufts",
+          "vertices_projecting_into_boulders": 0
+        }
+      ],
+      "topology": [
+        {
+          "mesh": "Garden_CreepingMeadowLeaves",
+          "vertices": 35982,
+          "triangles": 31984,
+          "smooth_polygons": 0,
+          "polygons": 31984
+        },
+        {
+          "mesh": "Garden_GrassTufts",
+          "vertices": 294524,
+          "triangles": 215804,
+          "smooth_polygons": 127645,
+          "polygons": 127645
+        },
+        {
+          "mesh": "Garden_HeroBoulders",
+          "vertices": 10248,
+          "triangles": 20480,
+          "smooth_polygons": 20480,
+          "polygons": 20480
+        }
+      ],
+      "sha256": "37c8534ba4db23f6ff06773c1799759fa6f2ed9a32e12d8927b6e5a855ddf87f",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "format": "glb",
+      "triangles": 412815,
+      "mesh_count": 29,
+      "uv_mesh_count": 29,
+      "anchors": [
+        {
+          "name": "Lamp_A",
+          "actual_unity": [
+            -4.5,
+            0.0,
+            -2.0
+          ],
+          "error_metres": 0.0
+        },
+        {
+          "name": "Lamp_B",
+          "actual_unity": [
+            1.7999999523162842,
+            0.0,
+            3.4000000953674316
+          ],
+          "error_metres": 0.0
+        },
+        {
+          "name": "Lamp_C",
+          "actual_unity": [
+            4.699999809265137,
+            0.0,
+            -2.4000000953674316
+          ],
+          "error_metres": 0.0
+        },
+        {
+          "name": "LampHead_A",
+          "actual_unity": [
+            -4.5,
+            1.850000023841858,
+            -2.0
+          ],
+          "error_metres": 0.0
+        },
+        {
+          "name": "LampHead_B",
+          "actual_unity": [
+            1.7999999523162842,
+            1.850000023841858,
+            3.4000000953674316
+          ],
+          "error_metres": 0.0
+        },
+        {
+          "name": "LampHead_C",
+          "actual_unity": [
+            4.699999809265137,
+            1.850000023841858,
+            -2.4000000953674316
+          ],
+          "error_metres": 0.0
+        },
+        {
+          "name": "Target_Path",
+          "actual_unity": [
+            -1.7999999523162842,
+            0.07999999821186066,
+            -3.200000047683716
+          ],
+          "error_metres": 0.0
+        },
+        {
+          "name": "Target_Bench",
+          "actual_unity": [
+            -5.800000190734863,
+            0.10000000149011612,
+            0.15000000596046448
+          ],
+          "error_metres": 0.0
+        },
+        {
+          "name": "Target_Window",
+          "actual_unity": [
+            -4.099999904632568,
+            1.600000023841858,
+            3.049999952316284
+          ],
+          "error_metres": 0.0
+        },
+        {
+          "name": "Target_Dock",
+          "actual_unity": [
+            6.900000095367432,
+            0.11999999731779099,
+            -3.3499999046325684
+          ],
+          "error_metres": 0.0
+        },
+        {
+          "name": "Cabin",
+          "actual_unity": [
+            -4.099999904632568,
+            0.0,
+            4.050000190734863
+          ],
+          "error_metres": 0.0
+        },
+        {
+          "name": "StarAltar",
+          "actual_unity": [
+            0.0,
+            0.07999999821186066,
+            0.3499999940395355
+          ],
+          "error_metres": 0.0
+        },
+        {
+          "name": "Moon",
+          "actual_unity": [
+            3.299999952316284,
+            1.7999999523162842,
+            5.400000095367432
+          ],
+          "error_metres": 0.0
+        },
+        {
+          "name": "PlayerSpawn",
+          "actual_unity": [
+            0.0,
+            0.10000000149011612,
+            -5.599999904632568
+          ],
+          "error_metres": 0.0
+        }
+      ],
+      "walkway_height_range_metres": [
+        -0.006000000052154064,
+        0.08647987991571426
+      ],
+      "walkway_top_faces_checked": 729,
+      "downward_walkway_top_faces": 0,
+      "hero_boulder_triangles": 20480,
+      "hero_materials": [
+        "BI_rock_hero_warm",
+        "BI_rock_hero_slate"
+      ],
+      "zero_area_triangles": [],
+      "vertex_colors": [
+        {
+          "mesh": "Island_Strata",
+          "attribute": "Color",
+          "domain": "CORNER",
+          "min_rgb": 1.0,
+          "max_rgb": 1.0
+        },
+        {
+          "mesh": "Island_Meadow",
+          "attribute": "Color",
+          "domain": "CORNER",
+          "min_rgb": 1.0,
+          "max_rgb": 1.0
+        },
+        {
+          "mesh": "Island_CliffGardens",
+          "attribute": "Color",
+          "domain": "CORNER",
+          "min_rgb": 1.0,
+          "max_rgb": 1.0
+        },
+        {
+          "mesh": "Island_BrassMeridian",
+          "attribute": "Color",
+          "domain": "CORNER",
+          "min_rgb": 1.0,
+          "max_rgb": 1.0
+        },
+        {
+          "mesh": "Garden_Walkways",
+          "attribute": "Color",
+          "domain": "CORNER",
+          "min_rgb": 1.0,
+          "max_rgb": 1.0
+        },
+        {
+          "mesh": "Garden_HeroBoulders",
+          "attribute": "Color",
+          "domain": "CORNER",
+          "min_rgb": 0.5647116899490356,
+          "max_rgb": 0.973445475101471
+        },
+        {
+          "mesh": "Observatory_StoneAndBrass",
+          "attribute": "Color",
+          "domain": "CORNER",
+          "min_rgb": 1.0,
+          "max_rgb": 1.0
+        },
+        {
+          "mesh": "Cabin_PlasterAndFoundation",
+          "attribute": "Color",
+          "domain": "CORNER",
+          "min_rgb": 1.0,
+          "max_rgb": 1.0
+        },
+        {
+          "mesh": "Cabin_IndividualShingles",
+          "attribute": "Color",
+          "domain": "CORNER",
+          "min_rgb": 1.0,
+          "max_rgb": 1.0
+        },
+        {
+          "mesh": "Cabin_ReadingWindow_Glow",
+          "attribute": "Color",
+          "domain": "CORNER",
+          "min_rgb": 1.0,
+          "max_rgb": 1.0
+        },
+        {
+          "mesh": "Cabin_DoorAndAccessories",
+          "attribute": "Color",
+          "domain": "CORNER",
+          "min_rgb": 1.0,
+          "max_rgb": 1.0
+        },
+        {
+          "mesh": "Cabin_Timber",
+          "attribute": "Color",
+          "domain": "CORNER",
+          "min_rgb": 1.0,
+          "max_rgb": 1.0
+        },
+        {
+          "mesh": "LampBase_A",
+          "attribute": "Color",
+          "domain": "CORNER",
+          "min_rgb": 1.0,
+          "max_rgb": 1.0
+        },
+        {
+          "mesh": "LampBase_B",
+          "attribute": "Color",
+          "domain": "CORNER",
+          "min_rgb": 1.0,
+          "max_rgb": 1.0
+        },
+        {
+          "mesh": "LampBase_C",
+          "attribute": "Color",
+          "domain": "CORNER",
+          "min_rgb": 1.0,
+          "max_rgb": 1.0
+        },
+        {
+          "mesh": "Garden_Bench",
+          "attribute": "Color",
+          "domain": "CORNER",
+          "min_rgb": 1.0,
+          "max_rgb": 1.0
+        },
+        {
+          "mesh": "Cliff_Pier",
+          "attribute": "Color",
+          "domain": "CORNER",
+          "min_rgb": 1.0,
+          "max_rgb": 1.0
+        },
+        {
+          "mesh": "Garden_TreeTrunks",
+          "attribute": "Color",
+          "domain": "CORNER",
+          "min_rgb": 1.0,
+          "max_rgb": 1.0
+        },
+        {
+          "mesh": "Garden_TreeCanopies",
+          "attribute": "Color",
+          "domain": "CORNER",
+          "min_rgb": 1.0,
+          "max_rgb": 1.0
+        },
+        {
+          "mesh": "Garden_CanopyLeafEdges",
+          "attribute": "Color",
+          "domain": "CORNER",
+          "min_rgb": 1.0,
+          "max_rgb": 1.0
+        },
+        {
+          "mesh": "MoonDial_Sculpture",
+          "attribute": "Color",
+          "domain": "CORNER",
+          "min_rgb": 1.0,
+          "max_rgb": 1.0
+        },
+        {
+          "mesh": "Garden_CreepingMeadowLeaves",
+          "attribute": "Color",
+          "domain": "CORNER",
+          "min_rgb": 0.7835380434989929,
+          "max_rgb": 1.0
+        },
+        {
+          "mesh": "Garden_FeatherFerns",
+          "attribute": "Color",
+          "domain": "CORNER",
+          "min_rgb": 0.7835380434989929,
+          "max_rgb": 1.0
+        },
+        {
+          "mesh": "Garden_LavenderAndSeedHeads",
+          "attribute": "Color",
+          "domain": "CORNER",
+          "min_rgb": 1.0,
+          "max_rgb": 1.0
+        },
+        {
+          "mesh": "Garden_Wildflowers",
+          "attribute": "Color",
+          "domain": "CORNER",
+          "min_rgb": 1.0,
+          "max_rgb": 1.0
+        },
+        {
+          "mesh": "Garden_GrassTufts",
+          "attribute": "Color",
+          "domain": "CORNER",
+          "min_rgb": 0.7835380434989929,
+          "max_rgb": 1.0
+        },
+        {
+          "mesh": "Garden_MushroomsAndPebbles",
+          "attribute": "Color",
+          "domain": "CORNER",
+          "min_rgb": 1.0,
+          "max_rgb": 1.0
+        },
+        {
+          "mesh": "Cabin_ClimbingIvy",
+          "attribute": "Color",
+          "domain": "CORNER",
+          "min_rgb": 1.0,
+          "max_rgb": 1.0
+        },
+        {
+          "mesh": "Garden_StoryDetails",
+          "attribute": "Color",
+          "domain": "CORNER",
+          "min_rgb": 1.0,
+          "max_rgb": 1.0
+        }
+      ],
+      "unchanged_geometry_checks": [],
+      "cleanup_survivor_checks": [],
+      "remaining_plant_footprint_hits": [
+        {
+          "mesh": "Garden_CreepingMeadowLeaves",
+          "vertices_projecting_into_boulders": 0
+        },
+        {
+          "mesh": "Garden_FeatherFerns",
+          "vertices_projecting_into_boulders": 0
+        },
+        {
+          "mesh": "Garden_LavenderAndSeedHeads",
+          "vertices_projecting_into_boulders": 0
+        },
+        {
+          "mesh": "Garden_Wildflowers",
+          "vertices_projecting_into_boulders": 0
+        },
+        {
+          "mesh": "Garden_GrassTufts",
+          "vertices_projecting_into_boulders": 0
+        }
+      ],
+      "topology": [
+        {
+          "mesh": "Garden_HeroBoulders",
+          "vertices": 10248,
+          "triangles": 20480,
+          "smooth_polygons": 20480,
+          "polygons": 20480
+        },
+        {
+          "mesh": "Garden_CreepingMeadowLeaves",
+          "vertices": 95952,
+          "triangles": 31984,
+          "smooth_polygons": 1342,
+          "polygons": 31984
+        },
+        {
+          "mesh": "Garden_GrassTufts",
+          "vertices": 294524,
+          "triangles": 215804,
+          "smooth_polygons": 215051,
+          "polygons": 215804
+        }
+      ],
+      "sha256": "32825f24a0937d9cbb1b4b1fb363a8e12bd331519e4ad031a5995a5e72dc486c",
+      "passed": true,
+      "errors": []
+    }
+  ]
+}

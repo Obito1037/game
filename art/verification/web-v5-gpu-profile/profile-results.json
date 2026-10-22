@@ -1,0 +1,1380 @@
+{
+  "build": "v5",
+  "diagnosticOnly": true,
+  "width": 1440,
+  "height": 900,
+  "extension": true,
+  "phases": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "baseline": {
+    "mode": "normal",
+    "renderFps": 35.698264368480785,
+    "drawsPerFrame": 1115.654867256637,
+    "skippedPerFrame": 0,
+    "metrics": [
+      {
+        "time": 29718.789999961853,
+        "visibility": "visible",
+        "focused": true,
+        "totalWASMHeapSize": 268435456,
+        "usedWASMHeapSize": 124123816,
+        "totalJSHeapSize": 78641381,
+        "usedJSHeapSize": 62195245,
+        "pageLoadTime": 1643,
+        "pageLoadTimeToFrame1": 1720,
+        "fps": 45.90802228345236,
+        "movingAverageFps": 45.90802228345236,
+        "assetLoadTime": 645,
+        "webAssemblyStartupTime": 632.0550003051758,
+        "codeDownloadTime": 32,
+        "gameStartupTime": 838,
+        "numJankedFrames": 16
+      },
+      {
+        "time": 30251.89999961853,
+        "visibility": "visible",
+        "focused": true,
+        "totalWASMHeapSize": 268435456,
+        "usedWASMHeapSize": 124124504,
+        "totalJSHeapSize": 78641381,
+        "usedJSHeapSize": 63082685,
+        "pageLoadTime": 1643,
+        "pageLoadTimeToFrame1": 1720,
+        "fps": 31.611439637846633,
+        "movingAverageFps": 38.7597309606495,
+        "assetLoadTime": 645,
+        "webAssemblyStartupTime": 632.0550003051758,
+        "codeDownloadTime": 32,
+        "gameStartupTime": 838,
+        "numJankedFrames": 16
+      },
+      {
+        "time": 30766.939999580383,
+        "visibility": "visible",
+        "focused": true,
+        "totalWASMHeapSize": 268435456,
+        "usedWASMHeapSize": 124124432,
+        "totalJSHeapSize": 60867966,
+        "usedJSHeapSize": 58797422,
+        "pageLoadTime": 1643,
+        "pageLoadTimeToFrame1": 1720,
+        "fps": 34.365901413984155,
+        "movingAverageFps": 37.295121111761055,
+        "assetLoadTime": 645,
+        "webAssemblyStartupTime": 632.0550003051758,
+        "codeDownloadTime": 32,
+        "gameStartupTime": 838,
+        "numJankedFrames": 16
+      },
+      {
+        "time": 31297.434999465942,
+        "visibility": "visible",
+        "focused": true,
+        "totalWASMHeapSize": 268435456,
+        "usedWASMHeapSize": 124124432,
+        "totalJSHeapSize": 61916542,
+        "usedJSHeapSize": 59020890,
+        "pageLoadTime": 1643,
+        "pageLoadTimeToFrame1": 1720,
+        "fps": 38.40725124402637,
+        "movingAverageFps": 37.573153644827386,
+        "assetLoadTime": 645,
+        "webAssemblyStartupTime": 632.0550003051758,
+        "codeDownloadTime": 32,
+        "gameStartupTime": 838,
+        "numJankedFrames": 17
+      },
+      {
+        "time": 31826.795000076294,
+        "visibility": "visible",
+        "focused": true,
+        "totalWASMHeapSize": 268435456,
+        "usedWASMHeapSize": 124124736,
+        "totalJSHeapSize": 62702974,
+        "usedJSHeapSize": 58411098,
+        "pageLoadTime": 1643,
+        "pageLoadTimeToFrame1": 1720,
+        "fps": 37.6162577843822,
+        "movingAverageFps": 37.581774472738346,
+        "assetLoadTime": 645,
+        "webAssemblyStartupTime": 632.0550003051758,
+        "codeDownloadTime": 32,
+        "gameStartupTime": 838,
+        "numJankedFrames": 19
+      },
+      {
+        "time": 32365.52499961853,
+        "visibility": "visible",
+        "focused": true,
+        "totalWASMHeapSize": 268435456,
+        "usedWASMHeapSize": 124124640,
+        "totalJSHeapSize": 62965118,
+        "usedJSHeapSize": 59500814,
+        "pageLoadTime": 1643,
+        "pageLoadTimeToFrame1": 1720,
+        "fps": 39.08649279153428,
+        "movingAverageFps": 37.832560859204335,
+        "assetLoadTime": 645,
+        "webAssemblyStartupTime": 632.0550003051758,
+        "codeDownloadTime": 32,
+        "gameStartupTime": 838,
+        "numJankedFrames": 23
+      }
+    ]
+  },
+  "timer": {
+    "remaining": 0,
+    "pending": 0,
+    "results": [
+      {
+        "program": 19,
+        "kind": "sky",
+        "frame": 1,
+        "draws": 1,
+        "triangles": 1680,
+        "gpuMs": 0.627812,
+        "disjoint": false
+      },
+      {
+        "program": 20,
+        "kind": "other",
+        "frame": 1,
+        "draws": 13,
+        "triangles": 9984,
+        "gpuMs": 0.021666,
+        "disjoint": false
+      },
+      {
+        "program": 29,
+        "kind": "other",
+        "frame": 1,
+        "draws": 2,
+        "triangles": 4,
+        "gpuMs": 0.041562,
+        "disjoint": false
+      },
+      {
+        "program": 21,
+        "kind": "other",
+        "frame": 1,
+        "draws": 1,
+        "triangles": 320,
+        "gpuMs": 0.016458,
+        "disjoint": false
+      },
+      {
+        "program": 29,
+        "kind": "other",
+        "frame": 1,
+        "draws": 2,
+        "triangles": 4,
+        "gpuMs": 0.425468,
+        "disjoint": false
+      },
+      {
+        "program": 22,
+        "kind": "other",
+        "frame": 1,
+        "draws": 1,
+        "triangles": 1,
+        "gpuMs": 0.081093,
+        "disjoint": false
+      },
+      {
+        "program": 23,
+        "kind": "other",
+        "frame": 1,
+        "draws": 1,
+        "triangles": 1,
+        "gpuMs": 0.037395,
+        "disjoint": false
+      },
+      {
+        "program": 24,
+        "kind": "other",
+        "frame": 1,
+        "draws": 1,
+        "triangles": 1,
+        "gpuMs": 0.024479,
+        "disjoint": false
+      },
+      {
+        "program": 23,
+        "kind": "other",
+        "frame": 1,
+        "draws": 1,
+        "triangles": 1,
+        "gpuMs": 0.019583,
+        "disjoint": false
+      },
+      {
+        "program": 24,
+        "kind": "other",
+        "frame": 1,
+        "draws": 1,
+        "triangles": 1,
+        "gpuMs": 0.014114,
+        "disjoint": false
+      },
+      {
+        "program": 23,
+        "kind": "other",
+        "frame": 1,
+        "draws": 1,
+        "triangles": 1,
+        "gpuMs": 0.014322,
+        "disjoint": false
+      },
+      {
+        "program": 24,
+        "kind": "other",
+        "frame": 1,
+        "draws": 1,
+        "triangles": 1,
+        "gpuMs": 0.011406,
+        "disjoint": false
+      },
+      {
+        "program": 23,
+        "kind": "other",
+        "frame": 1,
+        "draws": 1,
+        "triangles": 1,
+        "gpuMs": 0.012968,
+        "disjoint": false
+      },
+      {
+        "program": 24,
+        "kind": "other",
+        "frame": 1,
+        "draws": 1,
+        "triangles": 1,
+        "gpuMs": 0.010468,
+        "disjoint": false
+      },
+      {
+        "program": 23,
+        "kind": "other",
+        "frame": 1,
+        "draws": 1,
+        "triangles": 1,
+        "gpuMs": 0.012656,
+        "disjoint": false
+      },
+      {
+        "program": 24,
+        "kind": "other",
+        "frame": 1,
+        "draws": 1,
+        "triangles": 1,
+        "gpuMs": 0.010781,
+        "disjoint": false
+      },
+      {
+        "program": 25,
+        "kind": "other",
+        "frame": 1,
+        "draws": 5,
+        "triangles": 5,
+        "gpuMs": 0.252656,
+        "disjoint": false
+      },
+      {
+        "program": 26,
+        "kind": "other",
+        "frame": 1,
+        "draws": 1,
+        "triangles": 1,
+        "gpuMs": 0.94177,
+        "disjoint": false
+      },
+      {
+        "program": 27,
+        "kind": "other",
+        "frame": 1,
+        "draws": 1,
+        "triangles": 1,
+        "gpuMs": 0.599218,
+        "disjoint": false
+      },
+      {
+        "program": 28,
+        "kind": "other",
+        "frame": 1,
+        "draws": 2,
+        "triangles": 194,
+        "gpuMs": 0.035312,
+        "disjoint": false
+      },
+      {
+        "program": 4,
+        "kind": "other",
+        "frame": 1,
+        "draws": 1,
+        "triangles": 1,
+        "gpuMs": 0.526613,
+        "disjoint": false
+      },
+      {
+        "program": 1,
+        "kind": "other",
+        "frame": 1,
+        "draws": 657,
+        "triangles": 558400,
+        "gpuMs": 2.392604,
+        "disjoint": false
+      },
+      {
+        "program": 5,
+        "kind": "other",
+        "frame": 1,
+        "draws": 1,
+        "triangles": 1,
+        "gpuMs": 0.234531,
+        "disjoint": false
+      },
+      {
+        "program": 6,
+        "kind": "other",
+        "frame": 1,
+        "draws": 99,
+        "triangles": 120939,
+        "gpuMs": 0.329218,
+        "disjoint": false
+      },
+      {
+        "program": 7,
+        "kind": "other",
+        "frame": 1,
+        "draws": 1,
+        "triangles": 6816,
+        "gpuMs": 0.166093,
+        "disjoint": false
+      },
+      {
+        "program": 6,
+        "kind": "other",
+        "frame": 1,
+        "draws": 106,
+        "triangles": 261808,
+        "gpuMs": 1.448854,
+        "disjoint": false
+      },
+      {
+        "program": 8,
+        "kind": "other",
+        "frame": 1,
+        "draws": 1,
+        "triangles": 1,
+        "gpuMs": 1.65552,
+        "disjoint": false
+      },
+      {
+        "program": 9,
+        "kind": "other",
+        "frame": 1,
+        "draws": 1,
+        "triangles": 1,
+        "gpuMs": 0.444791,
+        "disjoint": false
+      },
+      {
+        "program": 10,
+        "kind": "other",
+        "frame": 1,
+        "draws": 1,
+        "triangles": 1,
+        "gpuMs": 0.353385,
+        "disjoint": false
+      },
+      {
+        "program": 11,
+        "kind": "other",
+        "frame": 1,
+        "draws": 1,
+        "triangles": 1,
+        "gpuMs": 0.292812,
+        "disjoint": false
+      },
+      {
+        "program": 12,
+        "kind": "other",
+        "frame": 1,
+        "draws": 4,
+        "triangles": 768,
+        "gpuMs": 0.056822,
+        "disjoint": false
+      },
+      {
+        "program": 14,
+        "kind": "other",
+        "frame": 1,
+        "draws": 39,
+        "triangles": 43300,
+        "gpuMs": 0.382083,
+        "disjoint": false
+      },
+      {
+        "program": 17,
+        "kind": "painted",
+        "frame": 1,
+        "draws": 19,
+        "triangles": 9888,
+        "gpuMs": 0.34802,
+        "disjoint": false
+      },
+      {
+        "program": 13,
+        "kind": "other",
+        "frame": 1,
+        "draws": 12,
+        "triangles": 43966,
+        "gpuMs": 0.61552,
+        "disjoint": false
+      },
+      {
+        "program": 14,
+        "kind": "other",
+        "frame": 1,
+        "draws": 25,
+        "triangles": 23017,
+        "gpuMs": 0.32401,
+        "disjoint": false
+      },
+      {
+        "program": 15,
+        "kind": "other",
+        "frame": 1,
+        "draws": 1,
+        "triangles": 6816,
+        "gpuMs": 1.812812,
+        "disjoint": false
+      },
+      {
+        "program": 16,
+        "kind": "foliage",
+        "frame": 1,
+        "draws": 11,
+        "triangles": 184168,
+        "gpuMs": 2.438593,
+        "disjoint": false
+      },
+      {
+        "program": 17,
+        "kind": "painted",
+        "frame": 1,
+        "draws": 23,
+        "triangles": 9400,
+        "gpuMs": 1.005416,
+        "disjoint": false
+      },
+      {
+        "program": 12,
+        "kind": "other",
+        "frame": 1,
+        "draws": 4,
+        "triangles": 1272,
+        "gpuMs": 0.08276,
+        "disjoint": false
+      },
+      {
+        "program": 13,
+        "kind": "other",
+        "frame": 1,
+        "draws": 1,
+        "triangles": 592,
+        "gpuMs": 0.050677,
+        "disjoint": false
+      },
+      {
+        "program": 14,
+        "kind": "other",
+        "frame": 1,
+        "draws": 14,
+        "triangles": 4060,
+        "gpuMs": 0.126614,
+        "disjoint": false
+      },
+      {
+        "program": 16,
+        "kind": "foliage",
+        "frame": 1,
+        "draws": 11,
+        "triangles": 44606,
+        "gpuMs": 1.009843,
+        "disjoint": false
+      },
+      {
+        "program": 17,
+        "kind": "painted",
+        "frame": 1,
+        "draws": 20,
+        "triangles": 7246,
+        "gpuMs": 1.108854,
+        "disjoint": false
+      },
+      {
+        "program": 12,
+        "kind": "other",
+        "frame": 1,
+        "draws": 2,
+        "triangles": 1536,
+        "gpuMs": 0.025677,
+        "disjoint": false
+      },
+      {
+        "program": 18,
+        "kind": "moon",
+        "frame": 1,
+        "draws": 1,
+        "triangles": 768,
+        "gpuMs": 0.090208,
+        "disjoint": false
+      },
+      {
+        "program": 12,
+        "kind": "other",
+        "frame": 1,
+        "draws": 20,
+        "triangles": 8928,
+        "gpuMs": 0.030937,
+        "disjoint": false
+      },
+      {
+        "program": 19,
+        "kind": "sky",
+        "frame": 2,
+        "draws": 1,
+        "triangles": 1680,
+        "gpuMs": 0.634427,
+        "disjoint": false
+      },
+      {
+        "program": 20,
+        "kind": "other",
+        "frame": 2,
+        "draws": 13,
+        "triangles": 9984,
+        "gpuMs": 0.024687,
+        "disjoint": false
+      },
+      {
+        "program": 29,
+        "kind": "other",
+        "frame": 2,
+        "draws": 2,
+        "triangles": 4,
+        "gpuMs": 0.036979,
+        "disjoint": false
+      },
+      {
+        "program": 21,
+        "kind": "other",
+        "frame": 2,
+        "draws": 1,
+        "triangles": 320,
+        "gpuMs": 0.015052,
+        "disjoint": false
+      },
+      {
+        "program": 29,
+        "kind": "other",
+        "frame": 2,
+        "draws": 2,
+        "triangles": 4,
+        "gpuMs": 0.427864,
+        "disjoint": false
+      },
+      {
+        "program": 22,
+        "kind": "other",
+        "frame": 2,
+        "draws": 1,
+        "triangles": 1,
+        "gpuMs": 0.08,
+        "disjoint": false
+      },
+      {
+        "program": 23,
+        "kind": "other",
+        "frame": 2,
+        "draws": 1,
+        "triangles": 1,
+        "gpuMs": 0.037812,
+        "disjoint": false
+      },
+      {
+        "program": 24,
+        "kind": "other",
+        "frame": 2,
+        "draws": 1,
+        "triangles": 1,
+        "gpuMs": 0.023645,
+        "disjoint": false
+      },
+      {
+        "program": 23,
+        "kind": "other",
+        "frame": 2,
+        "draws": 1,
+        "triangles": 1,
+        "gpuMs": 0.018229,
+        "disjoint": false
+      },
+      {
+        "program": 24,
+        "kind": "other",
+        "frame": 2,
+        "draws": 1,
+        "triangles": 1,
+        "gpuMs": 0.014635,
+        "disjoint": false
+      },
+      {
+        "program": 23,
+        "kind": "other",
+        "frame": 2,
+        "draws": 1,
+        "triangles": 1,
+        "gpuMs": 0.01401,
+        "disjoint": false
+      },
+      {
+        "program": 24,
+        "kind": "other",
+        "frame": 2,
+        "draws": 1,
+        "triangles": 1,
+        "gpuMs": 0.011093,
+        "disjoint": false
+      },
+      {
+        "program": 23,
+        "kind": "other",
+        "frame": 2,
+        "draws": 1,
+        "triangles": 1,
+        "gpuMs": 0.012916,
+        "disjoint": false
+      },
+      {
+        "program": 24,
+        "kind": "other",
+        "frame": 2,
+        "draws": 1,
+        "triangles": 1,
+        "gpuMs": 0.010572,
+        "disjoint": false
+      },
+      {
+        "program": 23,
+        "kind": "other",
+        "frame": 2,
+        "draws": 1,
+        "triangles": 1,
+        "gpuMs": 0.012656,
+        "disjoint": false
+      },
+      {
+        "program": 24,
+        "kind": "other",
+        "frame": 2,
+        "draws": 1,
+        "triangles": 1,
+        "gpuMs": 0.010833,
+        "disjoint": false
+      },
+      {
+        "program": 25,
+        "kind": "other",
+        "frame": 2,
+        "draws": 5,
+        "triangles": 5,
+        "gpuMs": 0.250781,
+        "disjoint": false
+      },
+      {
+        "program": 26,
+        "kind": "other",
+        "frame": 2,
+        "draws": 1,
+        "triangles": 1,
+        "gpuMs": 0.944218,
+        "disjoint": false
+      },
+      {
+        "program": 27,
+        "kind": "other",
+        "frame": 2,
+        "draws": 1,
+        "triangles": 1,
+        "gpuMs": 0.614791,
+        "disjoint": false
+      },
+      {
+        "program": 28,
+        "kind": "other",
+        "frame": 2,
+        "draws": 2,
+        "triangles": 194,
+        "gpuMs": 0.177552,
+        "disjoint": false
+      },
+      {
+        "program": 4,
+        "kind": "other",
+        "frame": 2,
+        "draws": 1,
+        "triangles": 1,
+        "gpuMs": 0.481927,
+        "disjoint": false
+      },
+      {
+        "program": 1,
+        "kind": "other",
+        "frame": 2,
+        "draws": 657,
+        "triangles": 558400,
+        "gpuMs": 2.085937,
+        "disjoint": false
+      },
+      {
+        "program": 5,
+        "kind": "other",
+        "frame": 2,
+        "draws": 1,
+        "triangles": 1,
+        "gpuMs": 0.235156,
+        "disjoint": false
+      },
+      {
+        "program": 6,
+        "kind": "other",
+        "frame": 2,
+        "draws": 99,
+        "triangles": 120939,
+        "gpuMs": 0.302812,
+        "disjoint": false
+      },
+      {
+        "program": 7,
+        "kind": "other",
+        "frame": 2,
+        "draws": 1,
+        "triangles": 6816,
+        "gpuMs": 0.166927,
+        "disjoint": false
+      },
+      {
+        "program": 6,
+        "kind": "other",
+        "frame": 2,
+        "draws": 106,
+        "triangles": 261808,
+        "gpuMs": 1.408958,
+        "disjoint": false
+      },
+      {
+        "program": 8,
+        "kind": "other",
+        "frame": 2,
+        "draws": 1,
+        "triangles": 1,
+        "gpuMs": 1.684583,
+        "disjoint": false
+      },
+      {
+        "program": 9,
+        "kind": "other",
+        "frame": 2,
+        "draws": 1,
+        "triangles": 1,
+        "gpuMs": 0.439635,
+        "disjoint": false
+      },
+      {
+        "program": 10,
+        "kind": "other",
+        "frame": 2,
+        "draws": 1,
+        "triangles": 1,
+        "gpuMs": 0.350833,
+        "disjoint": false
+      },
+      {
+        "program": 11,
+        "kind": "other",
+        "frame": 2,
+        "draws": 1,
+        "triangles": 1,
+        "gpuMs": 0.291041,
+        "disjoint": false
+      },
+      {
+        "program": 12,
+        "kind": "other",
+        "frame": 2,
+        "draws": 4,
+        "triangles": 768,
+        "gpuMs": 0.055781,
+        "disjoint": false
+      },
+      {
+        "program": 14,
+        "kind": "other",
+        "frame": 2,
+        "draws": 39,
+        "triangles": 43300,
+        "gpuMs": 0.381927,
+        "disjoint": false
+      },
+      {
+        "program": 17,
+        "kind": "painted",
+        "frame": 2,
+        "draws": 19,
+        "triangles": 9888,
+        "gpuMs": 0.378854,
+        "disjoint": false
+      },
+      {
+        "program": 13,
+        "kind": "other",
+        "frame": 2,
+        "draws": 12,
+        "triangles": 43966,
+        "gpuMs": 0.545312,
+        "disjoint": false
+      },
+      {
+        "program": 14,
+        "kind": "other",
+        "frame": 2,
+        "draws": 25,
+        "triangles": 23017,
+        "gpuMs": 0.323072,
+        "disjoint": false
+      },
+      {
+        "program": 15,
+        "kind": "other",
+        "frame": 2,
+        "draws": 1,
+        "triangles": 6816,
+        "gpuMs": 1.809322,
+        "disjoint": false
+      },
+      {
+        "program": 16,
+        "kind": "foliage",
+        "frame": 2,
+        "draws": 11,
+        "triangles": 184168,
+        "gpuMs": 2.438854,
+        "disjoint": false
+      },
+      {
+        "program": 17,
+        "kind": "painted",
+        "frame": 2,
+        "draws": 23,
+        "triangles": 9400,
+        "gpuMs": 0.996875,
+        "disjoint": false
+      },
+      {
+        "program": 12,
+        "kind": "other",
+        "frame": 2,
+        "draws": 4,
+        "triangles": 1272,
+        "gpuMs": 0.081145,
+        "disjoint": false
+      },
+      {
+        "program": 13,
+        "kind": "other",
+        "frame": 2,
+        "draws": 1,
+        "triangles": 592,
+        "gpuMs": 0.049635,
+        "disjoint": false
+      },
+      {
+        "program": 14,
+        "kind": "other",
+        "frame": 2,
+        "draws": 14,
+        "triangles": 4060,
+        "gpuMs": 0.136197,
+        "disjoint": false
+      },
+      {
+        "program": 16,
+        "kind": "foliage",
+        "frame": 2,
+        "draws": 11,
+        "triangles": 44606,
+        "gpuMs": 1.010312,
+        "disjoint": false
+      },
+      {
+        "program": 17,
+        "kind": "painted",
+        "frame": 2,
+        "draws": 20,
+        "triangles": 7246,
+        "gpuMs": 1.10875,
+        "disjoint": false
+      },
+      {
+        "program": 12,
+        "kind": "other",
+        "frame": 2,
+        "draws": 2,
+        "triangles": 1536,
+        "gpuMs": 0.027239,
+        "disjoint": false
+      },
+      {
+        "program": 18,
+        "kind": "moon",
+        "frame": 2,
+        "draws": 1,
+        "triangles": 768,
+        "gpuMs": 0.090416,
+        "disjoint": false
+      },
+      {
+        "program": 12,
+        "kind": "other",
+        "frame": 2,
+        "draws": 20,
+        "triangles": 8928,
+        "gpuMs": 0.050885,
+        "disjoint": false
+      },
+      {
+        "program": 19,
+        "kind": "sky",
+        "frame": 3,
+        "draws": 1,
+        "triangles": 1680,
+        "gpuMs": 0.635208,
+        "disjoint": false
+      },
+      {
+        "program": 20,
+        "kind": "other",
+        "frame": 3,
+        "draws": 13,
+        "triangles": 9984,
+        "gpuMs": 0.024687,
+        "disjoint": false
+      },
+      {
+        "program": 29,
+        "kind": "other",
+        "frame": 3,
+        "draws": 2,
+        "triangles": 4,
+        "gpuMs": 0.039947,
+        "disjoint": false
+      },
+      {
+        "program": 21,
+        "kind": "other",
+        "frame": 3,
+        "draws": 1,
+        "triangles": 320,
+        "gpuMs": 0.015781,
+        "disjoint": false
+      },
+      {
+        "program": 29,
+        "kind": "other",
+        "frame": 3,
+        "draws": 2,
+        "triangles": 4,
+        "gpuMs": 0.439166,
+        "disjoint": false
+      },
+      {
+        "program": 22,
+        "kind": "other",
+        "frame": 3,
+        "draws": 1,
+        "triangles": 1,
+        "gpuMs": 0.079635,
+        "disjoint": false
+      },
+      {
+        "program": 23,
+        "kind": "other",
+        "frame": 3,
+        "draws": 1,
+        "triangles": 1,
+        "gpuMs": 0.036458,
+        "disjoint": false
+      },
+      {
+        "program": 24,
+        "kind": "other",
+        "frame": 3,
+        "draws": 1,
+        "triangles": 1,
+        "gpuMs": 0.024427,
+        "disjoint": false
+      },
+      {
+        "program": 23,
+        "kind": "other",
+        "frame": 3,
+        "draws": 1,
+        "triangles": 1,
+        "gpuMs": 0.017812,
+        "disjoint": false
+      },
+      {
+        "program": 24,
+        "kind": "other",
+        "frame": 3,
+        "draws": 1,
+        "triangles": 1,
+        "gpuMs": 0.014375,
+        "disjoint": false
+      },
+      {
+        "program": 23,
+        "kind": "other",
+        "frame": 3,
+        "draws": 1,
+        "triangles": 1,
+        "gpuMs": 0.01375,
+        "disjoint": false
+      },
+      {
+        "program": 24,
+        "kind": "other",
+        "frame": 3,
+        "draws": 1,
+        "triangles": 1,
+        "gpuMs": 0.011093,
+        "disjoint": false
+      },
+      {
+        "program": 23,
+        "kind": "other",
+        "frame": 3,
+        "draws": 1,
+        "triangles": 1,
+        "gpuMs": 0.012864,
+        "disjoint": false
+      },
+      {
+        "program": 24,
+        "kind": "other",
+        "frame": 3,
+        "draws": 1,
+        "triangles": 1,
+        "gpuMs": 0.01052,
+        "disjoint": false
+      },
+      {
+        "program": 23,
+        "kind": "other",
+        "frame": 3,
+        "draws": 1,
+        "triangles": 1,
+        "gpuMs": 0.012708,
+        "disjoint": false
+      },
+      {
+        "program": 24,
+        "kind": "other",
+        "frame": 3,
+        "draws": 1,
+        "triangles": 1,
+        "gpuMs": 0.010729,
+        "disjoint": false
+      },
+      {
+        "program": 25,
+        "kind": "other",
+        "frame": 3,
+        "draws": 5,
+        "triangles": 5,
+        "gpuMs": 0.245468,
+        "disjoint": false
+      },
+      {
+        "program": 26,
+        "kind": "other",
+        "frame": 3,
+        "draws": 1,
+        "triangles": 1,
+        "gpuMs": 0.95302,
+        "disjoint": false
+      },
+      {
+        "program": 27,
+        "kind": "other",
+        "frame": 3,
+        "draws": 1,
+        "triangles": 1,
+        "gpuMs": 0.606093,
+        "disjoint": false
+      },
+      {
+        "program": 28,
+        "kind": "other",
+        "frame": 3,
+        "draws": 2,
+        "triangles": 194,
+        "gpuMs": 0.169687,
+        "disjoint": false
+      },
+      {
+        "program": 4,
+        "kind": "other",
+        "frame": 3,
+        "draws": 1,
+        "triangles": 1,
+        "gpuMs": 0.482135,
+        "disjoint": false
+      },
+      {
+        "program": 1,
+        "kind": "other",
+        "frame": 3,
+        "draws": 657,
+        "triangles": 558400,
+        "gpuMs": 2.085052,
+        "disjoint": false
+      },
+      {
+        "program": 5,
+        "kind": "other",
+        "frame": 3,
+        "draws": 1,
+        "triangles": 1,
+        "gpuMs": 0.231666,
+        "disjoint": false
+      },
+      {
+        "program": 6,
+        "kind": "other",
+        "frame": 3,
+        "draws": 99,
+        "triangles": 120939,
+        "gpuMs": 0.30526,
+        "disjoint": false
+      },
+      {
+        "program": 7,
+        "kind": "other",
+        "frame": 3,
+        "draws": 1,
+        "triangles": 6816,
+        "gpuMs": 0.166354,
+        "disjoint": false
+      },
+      {
+        "program": 6,
+        "kind": "other",
+        "frame": 3,
+        "draws": 106,
+        "triangles": 261808,
+        "gpuMs": 1.414062,
+        "disjoint": false
+      },
+      {
+        "program": 8,
+        "kind": "other",
+        "frame": 3,
+        "draws": 1,
+        "triangles": 1,
+        "gpuMs": 1.674479,
+        "disjoint": false
+      },
+      {
+        "program": 9,
+        "kind": "other",
+        "frame": 3,
+        "draws": 1,
+        "triangles": 1,
+        "gpuMs": 0.447812,
+        "disjoint": false
+      },
+      {
+        "program": 10,
+        "kind": "other",
+        "frame": 3,
+        "draws": 1,
+        "triangles": 1,
+        "gpuMs": 0.359635,
+        "disjoint": false
+      },
+      {
+        "program": 11,
+        "kind": "other",
+        "frame": 3,
+        "draws": 1,
+        "triangles": 1,
+        "gpuMs": 0.292604,
+        "disjoint": false
+      },
+      {
+        "program": 12,
+        "kind": "other",
+        "frame": 3,
+        "draws": 4,
+        "triangles": 768,
+        "gpuMs": 0.055677,
+        "disjoint": false
+      },
+      {
+        "program": 14,
+        "kind": "other",
+        "frame": 3,
+        "draws": 39,
+        "triangles": 43300,
+        "gpuMs": 0.386614,
+        "disjoint": false
+      },
+      {
+        "program": 17,
+        "kind": "painted",
+        "frame": 3,
+        "draws": 19,
+        "triangles": 9888,
+        "gpuMs": 0.336406,
+        "disjoint": false
+      },
+      {
+        "program": 13,
+        "kind": "other",
+        "frame": 3,
+        "draws": 12,
+        "triangles": 43966,
+        "gpuMs": 0.54875,
+        "disjoint": false
+      },
+      {
+        "program": 14,
+        "kind": "other",
+        "frame": 3,
+        "draws": 25,
+        "triangles": 23017,
+        "gpuMs": 0.336145,
+        "disjoint": false
+      },
+      {
+        "program": 15,
+        "kind": "other",
+        "frame": 3,
+        "draws": 1,
+        "triangles": 6816,
+        "gpuMs": 1.814114,
+        "disjoint": false
+      },
+      {
+        "program": 16,
+        "kind": "foliage",
+        "frame": 3,
+        "draws": 11,
+        "triangles": 184168,
+        "gpuMs": 2.470677,
+        "disjoint": false
+      },
+      {
+        "program": 17,
+        "kind": "painted",
+        "frame": 3,
+        "draws": 23,
+        "triangles": 9400,
+        "gpuMs": 1.027812,
+        "disjoint": false
+      },
+      {
+        "program": 12,
+        "kind": "other",
+        "frame": 3,
+        "draws": 4,
+        "triangles": 1272,
+        "gpuMs": 0.0825,
+        "disjoint": false
+      },
+      {
+        "program": 13,
+        "kind": "other",
+        "frame": 3,
+        "draws": 1,
+        "triangles": 592,
+        "gpuMs": 0.047239,
+        "disjoint": false
+      },
+      {
+        "program": 14,
+        "kind": "other",
+        "frame": 3,
+        "draws": 14,
+        "triangles": 4060,
+        "gpuMs": 0.124427,
+        "disjoint": false
+      },
+      {
+        "program": 16,
+        "kind": "foliage",
+        "frame": 3,
+        "draws": 11,
+        "triangles": 44606,
+        "gpuMs": 1.031718,
+        "disjoint": false
+      },
+      {
+        "program": 17,
+        "kind": "painted",
+        "frame": 3,
+        "draws": 20,
+        "triangles": 7246,
+        "gpuMs": 1.097708,
+        "disjoint": false
+      },
+      {
+        "program": 12,
+        "kind": "other",
+        "frame": 3,
+        "draws": 2,
+        "triangles": 1536,
+        "gpuMs": 0.028177,
+        "disjoint": false
+      },
+      {
+        "program": 18,
+        "kind": "moon",
+        "frame": 3,
+        "draws": 1,
+        "triangles": 768,
+        "gpuMs": 0.089479,
+        "disjoint": false
+      },
+      {
+        "program": 12,
+        "kind": "other",
+        "frame": 3,
+        "draws": 20,
+        "triangles": 8928,
+        "gpuMs": 0.046979,
+        "disjoint": false
+      }
+    ],
+    "disjoint": false
+  },
+  "ab": []
+}

@@ -1,0 +1,14 @@
+'use strict';
+const fs=require('node:fs'),path=require('node:path'),assert=require('node:assert/strict');
+const [aDir,bDir]=process.argv.slice(2);assert(aDir&&bDir,'Supply two ground study directories');
+const read=d=>JSON.parse(fs.readFileSync(path.join(d,'ground-detail-study.json'),'utf8').replace(/^\uFEFF/,''));
+const a=read(aDir),b=read(bDir);
+const same=(x,y)=>typeof x==='number'&&typeof y==='number'?Math.abs(x-y)<1e-5:x&&y&&typeof x==='object'&&typeof y==='object'?Object.keys(x).length===Object.keys(y).length&&Object.keys(x).every(k=>same(x[k],y[k])):x===y;
+const keys=['rendererName','meshName','meshVertexCount','originalSHA256','screenWidth','screenHeight','frozenTime','night','tileMetres','variants','variantDetailStrengths','baseMap','baseNormal'];
+const sceneMatch=keys.every(k=>same(a[k],b[k]));
+const lights=x=>[...x.lights].sort((p,q)=>p.name.localeCompare(q.name));
+const viewMatch=same(a.views,b.views),lightsMatch=same(lights(a),lights(b));
+const detailSamplingUnchanged=['name','mipCount','aniso','filter','wrap'].every(k=>same(a.detailMap[k],b.detailMap[k]));
+const report={passed:sceneMatch&&viewMatch&&lightsMatch&&detailSamplingUnchanged&&a.allInvariantsPassed&&b.allInvariantsPassed,baseline:aDir,candidate:bDir,sceneMatch,viewMatch,lightsMatch,detailSamplingUnchanged,baselineDetail:a.detailMap,candidateDetail:b.detailMap,scope:'Recorded scene, camera, material, base map and filter invariants. Intentional detail resolution/format difference allowed. Does not establish pixel equality, full rendering determinism, appearance or FPS.'};
+fs.writeFileSync(path.join(bDir,'capture-condition-comparison.json'),JSON.stringify(report,null,2)+'\n');
+console.log(JSON.stringify(report,null,2));if(!report.passed)process.exitCode=1;

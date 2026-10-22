@@ -1,0 +1,94 @@
+{
+  "date": "2026-10-21",
+  "revision": "v8",
+  "scope": "Frozen assets and native Player acceptance plus normal browser QA and one actual observatory approach.",
+  "worldFbxSHA256": "91C6D643698C414D0582D86AA42EBFAA1E470124DDDD7FAA7852860877806F64",
+  "travelerFbxSHA256": "CC87EA03F46CA44CB83F082A8B529E1D93EF118E22BE1D0B7C93ECB9B8094C0D",
+  "geometry": {
+    "worldTriangles": 412815,
+    "worldMeshes": 29,
+    "heroTriangles": 20480,
+    "heroUnityImportedVertices": 11846,
+    "heroUnityImportedNormals": 11846,
+    "travelerTriangles": 75862,
+    "travelerRenderers": 62,
+    "travelerSkinnedRenderers": 28,
+    "travelerRigidRenderers": 34,
+    "travelerArmatures": 4,
+    "travelerBones": 12
+  },
+  "preservation": {
+    "world": "../generated/world-v7/interchange-verification.json",
+    "nonHeroMeshesUnchanged": 28,
+    "anchorsUnchanged": 14,
+    "groundTextureBytesUnchanged": true,
+    "character": "../generated/character-v7/v6-preservation-file-verification.json",
+    "nonSleeveMeshesUnchanged": 60,
+    "rigAndAttachmentDataUnchanged": true
+  },
+  "import": {
+    "islandNormals": "Import",
+    "travelerNormals": "Import",
+    "travelerRig": "Generic",
+    "travelerOptimizeGameObjects": false,
+    "travelerReadable": true,
+    "paintedShaderMessages": []
+  },
+  "material": {
+    "heroSurfaceKind": 7,
+    "actualHeroRuntimeKinds": [
+      7,
+      7
+    ],
+    "heroBroadRelief": 0,
+    "heroMineralRelief": 0.0015,
+    "otherSurfaceBranchesUnchanged": true,
+    "faceFillRetained": 0.23,
+    "portraitAB": "v8-portrait-light-compare/comparison.json",
+    "portraitABReview": "v8-portrait-light-compare/review.zh-CN.txt"
+  },
+  "nativeEvidence": {
+    "buildId": "build_95baec27b2f5",
+    "path": "run-022-v8/runtime-results.json",
+    "islandStaticBatchRenderersConfirmedInPlayerLog": 25,
+    "soleSamples": 220,
+    "minimumIdleSoleClearanceMetres": 0.001413,
+    "allFunctionalChecksPassed": true,
+    "fpsSamples": {
+      "menu": 60,
+      "overview": 60,
+      "walking": 53.4,
+      "portrait": 59.9,
+      "final": 52.5
+    }
+  },
+  "rockCollisionEvidence": {
+    "path": "run-022-v8/boulder-approaches.json",
+    "approaches": 16,
+    "startsClear": 16,
+    "blockedBeforeCentre": 16,
+    "allPassed": true,
+    "scope": "Actual imported geometry and capsule casts; does not replace continuous movement or every direction"
+  },
+  "visualReview": "run-022-v8/visual-audit.zh-CN.txt",
+  "aestheticObjectiveAchieved": false,
+  "limitations": [
+    "Sleeves and rock plane readability improved; rocks retain soft low rims and a more block-like outline.",
+    "Face lighting A/B found no clear naturalness gain at .16, so .23 remains.",
+    "Short native FPS samples do not establish an isolated speed improvement over v7.",
+    "Idle sole and cardinal capsule probes do not prove every moving pose.",
+    "The v7 Starfield GPU profile is historical; no new v8 GPU capture has been claimed."
+  ],
+  "webEvidence": {
+    "buildId": "build_6a2cf444c9a6",
+    "normalQA": "web-008-v8/runtime-results.json",
+    "artifactIdentity": "web-008-v8/artifact-identity.json",
+    "video": "web-v8-observatory-video/observatory-approach-time-cut.webm",
+    "videoPacketVerification": "web-v8-observatory-video/time-cut-verification.json",
+    "normalQAPassed": true,
+    "videoRouteReviewed": true,
+    "walkingViewStoppedIntervalMedian": 34.077708167070156,
+    "endingIntervalMedian": 45.94437054453727,
+    "gpuProfileRepeated": false
+  }
+}

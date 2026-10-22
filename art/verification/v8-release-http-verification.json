@@ -1,0 +1,51 @@
+{
+  "passed": true,
+  "revision": "v8",
+  "server": "http://127.0.0.1:8765/",
+  "root": "C:\\Users\\20665\\Desktop\\game\\builds\\web",
+  "indexReferencesCurrentFiles": true,
+  "method": "Node http raw response buffers; gzip Content-Encoding is not decoded before SHA-256 comparison.",
+  "previousAttemptLimit": "The earlier PowerShell response stream was transparently decompressed. Its hashes are checked against decoded bytes below; that attempt was not evidence of a corrupt release.",
+  "files": [
+    {
+      "name": "1ccb9895fb1e7261fe8984b890c550f3.loader.js",
+      "bytes": 26983,
+      "contentEncoding": null,
+      "httpSHA256": "70A97FA0B5AA93028EA7DF9157A7EA12E40875BEB58A5C9787FD40980F4A3CD7",
+      "diskSHA256": "70A97FA0B5AA93028EA7DF9157A7EA12E40875BEB58A5C9787FD40980F4A3CD7",
+      "manifestSHA256": "70A97FA0B5AA93028EA7DF9157A7EA12E40875BEB58A5C9787FD40980F4A3CD7",
+      "matches": true,
+      "previousPowerShellHashMatchesDecodedBytes": null
+    },
+    {
+      "name": "6d036cbf014d12ee2b524333ea2aba14.data.gz",
+      "bytes": 37047979,
+      "contentEncoding": "gzip",
+      "httpSHA256": "CA2163B7E7FF718F3C6DD5950782E382AF669368E66FB77E18CDACCD874ECE94",
+      "diskSHA256": "CA2163B7E7FF718F3C6DD5950782E382AF669368E66FB77E18CDACCD874ECE94",
+      "manifestSHA256": "CA2163B7E7FF718F3C6DD5950782E382AF669368E66FB77E18CDACCD874ECE94",
+      "matches": true,
+      "previousPowerShellHashMatchesDecodedBytes": true
+    },
+    {
+      "name": "7f75960fd79adf90d0e4f785be29520d.framework.js.gz",
+      "bytes": 88481,
+      "contentEncoding": "gzip",
+      "httpSHA256": "925BF1669FE21122791E554192EAFC7B5FC9FED74DC2022BF530BE0094BF4912",
+      "diskSHA256": "925BF1669FE21122791E554192EAFC7B5FC9FED74DC2022BF530BE0094BF4912",
+      "manifestSHA256": "925BF1669FE21122791E554192EAFC7B5FC9FED74DC2022BF530BE0094BF4912",
+      "matches": true,
+      "previousPowerShellHashMatchesDecodedBytes": true
+    },
+    {
+      "name": "96630087373a878d6b80097af1c6ab89.wasm.gz",
+      "bytes": 11572938,
+      "contentEncoding": "gzip",
+      "httpSHA256": "62525DAA68BDA9B257C5BB81192264608770FD0529FE8AA1963362E00209D505",
+      "diskSHA256": "62525DAA68BDA9B257C5BB81192264608770FD0529FE8AA1963362E00209D505",
+      "manifestSHA256": "62525DAA68BDA9B257C5BB81192264608770FD0529FE8AA1963362E00209D505",
+      "matches": true,
+      "previousPowerShellHashMatchesDecodedBytes": true
+    }
+  ]
+}

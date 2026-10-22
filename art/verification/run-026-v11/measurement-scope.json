@@ -1,0 +1,6 @@
+{
+  "functionalChecksUsable": true,
+  "performanceIsIsolated": false,
+  "concurrentProcess": "Blender 40896: CPU interchange verification, no rendering",
+  "scope": "This run completed gameplay, collision and grounding checks while Blender asset verification was running. Its FPS samples are not used to judge the candidate's isolated rendering performance or a change from v10. A separate run-027-v11 follows after confirming Blender exited."
+}

@@ -1,0 +1,6 @@
+此目录保留观星台碰撞修复前的 v6 原生验收。
+当时常规巡游通过；随后 web-v6-gait 的实际行走录像发现角色鞋与小腿进入观星台台面，并可穿过中央仪器。
+原因是 Observatory_StoneAndBrass 原先未纳入地面或障碍物碰撞分类。
+当前修复将完整三角面分为可行走台阶与仪器障碍，没有改变显示模型。修复后的原生证据在 run-016-v6。
+本目录的 57.9 FPS 漫步采样是历史结果，不能作为修复版的当前帧率。run-016-v6 本轮为 41.6 FPS，波动原因尚未证实。
+production-manifest-before-observatory-fix.json 与 release-checks-before-observatory-fix.json 仅用于保留此前候选包的身份，不代表当前交付状态。

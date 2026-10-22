@@ -1,0 +1,35 @@
+{
+  "revision": "world-v12",
+  "gameCandidate": "v13",
+  "source": "world-v10",
+  "triangles": 538118,
+  "sha256": {
+    "art/blender/build_island_v12.py": "1202a5d268b8298fdaaf2b1e38f6befbf142eded567d1da0c0dfbcfa9030d1ba",
+    "art/generated/world-v12/island.blend": "354674ee273fa4c0ad8a0a8afa906fb5a72c9086cf00ba2bce44cb4fe2b778cb",
+    "art/generated/world-v12/island.fbx": "9528b4a8af5d93b15ed61114c82b642db18d0b887d49c6c992c2be2c0a8f1b94",
+    "art/generated/world-v12/island.glb": "14bc4a9734b69d7c2c7d0f88e3cbc07ec7a9a565896d9c8fadd7e33618c20342",
+    "art/generated/world-v12/asset-manifest.json": "5ca88e21ddb5ec6529be5a0311712ea4e00f30e6cbc757730c67cea5dafbf6c1",
+    "art/generated/world-v12/frozen-trunk-components.json": "17eefa9350d3f5a5ea735dd3711127b113cf234f4772738aa0abbb3b97f870cd",
+    "art/generated/world-v12/verify_world_v12.py": "86fdf3e51fa4344be0989ec7e6a79798a0d7d2e85cf25034aa95cabe26c1cdd6",
+    "art/generated/world-v12/interchange-verification.json": "18f5311ba7228a939518357bd7acd65577ecffcc94d6ba3ba96bf9582fc9f9f8",
+    "art/generated/world-v12/visual-review.json": "35a7616b5186b79c4ca4f2639502d67ed64531bd189cd57fefa7e1488a2ece57",
+    "art/generated/world-v12/IMPORT-NOTES.zh-CN.txt": "2de01fd68e1bea81afe8245791c3dc153734dae1eb7636193045251d0ece415b",
+    "art/generated/world-v12/textures/meadow-watercolor.png": "889c373c911c8fd5e4be519cbbc957436909b380481d1de22051bb22ef0d3c7f",
+    "art/generated/world-v12/textures/meadow-normal.png": "bbaf18fc6dd0f38e7d0e3fba17b98ae72fd55d47597971ffcc712460b2c321bc",
+    "art/generated/world-v12/asset-manifest-at-audit.json": "c3b203a73eacdae12a0c628911e82c0313827a80367e5962e2db230469bbb14a"
+  },
+  "fullInterchangePassed": true,
+  "visualScope": "Five fixed static views only; main thread decides release.",
+  "frozenSourceFilesUnchanged": true,
+  "normalMetric": "Conservative float32 numerical upper bound; see report note.",
+  "runtimePerformanceAndCollisionPending": true,
+  "noBlenderProcessRemaining": true,
+  "generationPidExited": 48708,
+  "auditPidExited": 35320,
+  "metadataUpdatedAfterAudit": {
+    "preservedAuditInputManifest": "asset-manifest-at-audit.json",
+    "auditInputManifestSHA256": "c3b203a73eacdae12a0c628911e82c0313827a80367e5962e2db230469bbb14a",
+    "reason": "Authorized static-adoption metadata update only. Existing model/texture SHA256 identities preserved without rerunning or claiming a new audit.",
+    "pathNormalization": "SHA256 keys use forward slashes; original audit-input manifest is separately preserved, not retained as a conflicting current-file digest."
+  }
+}

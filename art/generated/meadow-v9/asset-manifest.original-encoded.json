@@ -1,0 +1,133 @@
+{
+  "title": "Original meadow root contact colour candidate",
+  "status": "staged; requires fixed-pose Unity A/B approval",
+  "generator": "art\\blender\\build_meadow_contact_v9.py",
+  "original_algorithm": "art\\blender\\build_island_v6.py",
+  "original_algorithm_file_sha256": "f9c63d39a70527c4da0b1e7d861e1152a2ef3bb83864cbb1d3ee4d40571ce36f",
+  "seeds": {
+    "python_random": 7319,
+    "numpy_default_rng": 41
+  },
+  "resolution": [
+    2048,
+    2048
+  ],
+  "new_runtime_texture_slots": 0,
+  "normal_unchanged": true,
+  "geometry_unchanged": true,
+  "old_png_used_only_as_read_only_oracle": true,
+  "no_contact_vs_frozen": {
+    "pixels_identical": true,
+    "maximum_decoded_linear_rgba_difference": 0.0,
+    "generated_png_sha256": "889c373c911c8fd5e4be519cbbc957436909b380481d1de22051bb22ef0d3c7f",
+    "original_png_sha256": "889c373c911c8fd5e4be519cbbc957436909b380481d1de22051bb22ef0d3c7f"
+  },
+  "root_extraction": [
+    {
+      "mesh": "Garden_GrassTufts",
+      "components": 39570,
+      "accepted": 38790,
+      "rejected_no_ground": 143,
+      "rejected_root_clearance": 637
+    },
+    {
+      "mesh": "Garden_CreepingMeadowLeaves",
+      "components": 3998,
+      "accepted": 3918,
+      "rejected_no_ground": 5,
+      "rejected_root_clearance": 75
+    }
+  ],
+  "root_count": 42708,
+  "mask_method": "Root-derived compact quadratic kernels, MAX union, no random additions. Path distance<=.25m protected, smooth transition to .34m.",
+  "mask_statistics": {
+    "maximum_linear_darkening_before_quantization": 0.109999880194664,
+    "mean_linear_darkening_whole_atlas": 0.016683125868439674,
+    "mean_linear_darkening_contact_mask": 0.04535908252000809,
+    "darkening_percentiles_contact_p50_p90_p99": [
+      0.045049820095300674,
+      0.08665698170661928,
+      0.1031373929232359
+    ],
+    "target_mask_pixels": 1542670,
+    "target_mask_fraction_atlas": 0.3678011894226074,
+    "target_mask_area_m2": 119.1675853729248,
+    "actual_ground_pixels": 3056583,
+    "actual_ground_area_m2": 236.11376094818115,
+    "target_mask_fraction_actual_ground": 0.5047041091310133,
+    "mean_linear_darkening_actual_ground": 0.0228929091244936,
+    "encoded_changed_pixels": 1418469,
+    "encoded_changed_fraction_atlas": 0.33818936347961426,
+    "fraction_atlas_darker_by_at_least_2pct": 0.2660651206970215,
+    "fraction_atlas_darker_by_at_least_8pct": 0.061808109283447266,
+    "fraction_atlas_darker_by_at_least_11pct": 0.0,
+    "maximum_encoded_linear_luminance_darkening": 0.11760749309629648,
+    "maximum_encoded_ratio_error_from_target": 0.014510143908875062,
+    "mean_encoded_linear_luminance_darkening_whole_atlas": 0.016681180944993816,
+    "protected_bare_path_pixels": 137654,
+    "protected_bare_path_area_m2": 10.633443832397461,
+    "protected_path_max_pixel_difference": 0.0,
+    "outside_mask_max_pixel_difference": 0.0,
+    "alpha_unchanged": true,
+    "ideal_mip_path_checks": [
+      {
+        "mip": 0,
+        "resolution": 2048,
+        "max_darkening_in_25cm_path_core": 0.0,
+        "max_darkening_in_15cm_path_center": 0.0,
+        "scope": "Ideal linear box averages at mip texel centers; actual Unity compression/LOD/bilinear still needs runtime A/B."
+      },
+      {
+        "mip": 1,
+        "resolution": 1024,
+        "max_darkening_in_25cm_path_core": 0.0,
+        "max_darkening_in_15cm_path_center": 0.0,
+        "scope": "Ideal linear box averages at mip texel centers; actual Unity compression/LOD/bilinear still needs runtime A/B."
+      },
+      {
+        "mip": 2,
+        "resolution": 512,
+        "max_darkening_in_25cm_path_core": 0.0005269819369868589,
+        "max_darkening_in_15cm_path_center": 0.0,
+        "scope": "Ideal linear box averages at mip texel centers; actual Unity compression/LOD/bilinear still needs runtime A/B."
+      },
+      {
+        "mip": 3,
+        "resolution": 256,
+        "max_darkening_in_25cm_path_core": 0.002242578836978315,
+        "max_darkening_in_15cm_path_center": 0.0,
+        "scope": "Ideal linear box averages at mip texel centers; actual Unity compression/LOD/bilinear still needs runtime A/B."
+      },
+      {
+        "mip": 4,
+        "resolution": 128,
+        "max_darkening_in_25cm_path_core": 0.00550840409097908,
+        "max_darkening_in_15cm_path_center": 0.0,
+        "scope": "Ideal linear box averages at mip texel centers; actual Unity compression/LOD/bilinear still needs runtime A/B."
+      }
+    ]
+  },
+  "frozen_inputs_sha256": {
+    "art\\generated\\world-v7\\island.blend": "c40dcb462a3890026017c4a945525c6f4b2881044433b050c392a405c4687f82",
+    "art\\generated\\world-v7\\island.fbx": "91c6d643698c414d0582d86aa42ebfaa1e470124dddd7faa7852860877806f64",
+    "art\\generated\\world-v7\\island.glb": "18190a8eba2489bcbb445671df8a93a77b8dd6464f7352dbb393105b03f9c89f",
+    "art\\generated\\world-v7\\textures\\meadow-watercolor.png": "889c373c911c8fd5e4be519cbbc957436909b380481d1de22051bb22ef0d3c7f",
+    "art\\generated\\world-v7\\textures\\meadow-normal.png": "bbaf18fc6dd0f38e7d0e3fba17b98ae72fd55d47597971ffcc712460b2c321bc",
+    "GameProject\\Assets\\BorrowedLight\\Resources\\Textures\\Meadow.png": "889c373c911c8fd5e4be519cbbc957436909b380481d1de22051bb22ef0d3c7f",
+    "GameProject\\Assets\\BorrowedLight\\Resources\\Textures\\MeadowNormal.png": "bbaf18fc6dd0f38e7d0e3fba17b98ae72fd55d47597971ffcc712460b2c321bc"
+  },
+  "all_frozen_inputs_unchanged": true,
+  "files": [
+    "meadow-contact.png",
+    "meadow-no-contact.png",
+    "contact-mask.png",
+    "root-positions.json"
+  ],
+  "sha256": {
+    "meadow-contact.png": "50bb9aa9c0e10f9689c5d78e219d167e6764f54852e81457cfefe4ed257092fc",
+    "meadow-no-contact.png": "889c373c911c8fd5e4be519cbbc957436909b380481d1de22051bb22ef0d3c7f",
+    "contact-mask.png": "079997794d5b468043b86430595dd8c494d990e197ecbce9b0c28bd8953ec07b",
+    "root-positions.json": "5aa1d19812611da89aa7cd4e04fe33de5bb8a4abba89f675bbd4560ac3520714"
+  },
+  "seconds": 23.94618058204651
+}

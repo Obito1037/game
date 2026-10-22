@@ -1,0 +1,1639 @@
+{
+  "asset": "Borrowed Light Island / Original traveler",
+  "version": 2,
+  "original": true,
+  "files": {
+    "blend": "traveler.blend",
+    "fbx": "traveler.fbx",
+    "glb": "traveler.glb",
+    "preview": "render.png",
+    "closed_eyes_preview": "render-blink.png"
+  },
+  "blender_axes": {
+    "up": "+Z",
+    "forward": "-Y",
+    "ground": "Z=0",
+    "units": "meters"
+  },
+  "unity_import": {
+    "up": "+Y",
+    "forward": "+Z",
+    "ground": "Y=0",
+    "scale": 1,
+    "fbx_axis_forward": "-Z",
+    "fbx_axis_up": "Y",
+    "import_bake_axis_conversion": true,
+    "note": "FBX root may carry Blender axis conversion; preserve it. Animate named descendant pivots in their imported bind pose, local X is lateral hinge."
+  },
+  "dimensions_m": {
+    "target_height": 1.25,
+    "actual_height": 1.260594367980957,
+    "foot_base": 0.002
+  },
+  "statistics": {
+    "triangles": 22241,
+    "objects": 74,
+    "materials": 27
+  },
+  "animation": {
+    "rig": "separate rigid groups, no skinning or external plugins required",
+    "pivots": {
+      "TravelerRoot": "world origin; translate/rotate whole model",
+      "Body": "torso; subtle local Z breathing in Blender / local Y Unity",
+      "Head": "neck 0,0,.945 Blender; idle look ±6° yaw",
+      "Arm_L": "left shoulder; hinge local X",
+      "Arm_R": "right shoulder; hinge local X; lantern child follows",
+      "Leg_L": "left hip; hinge local X",
+      "Leg_R": "right hip; hinge local X",
+      "ScarfTail": "neck rear; local X/Z small flutter",
+      "Lantern": "right hand hanging handle; child of Arm_R"
+    },
+    "suggested_unity_drive": "Store initial local rotations; bind * Quaternion.Euler(sin(t)*angle,0,0). Legs ±18 degrees opposed; arms opposed ±8 (right ±5); root y bob .008m; scarf ±4 X, ±7 Z. Lantern local X ±3 counter-swing.",
+    "contact_note": "No scale animation; boots bottom at approximately Unity Y 0.002. Use collision capsule height 1.25 radius .18 center y .625."
+  },
+  "material_notes": "Principled diffuse/metallic/emission export to GLB. Procedural cloth bump and sheen are Blender preview enhancements; recreate with a fine URP normal or supplied colors. Lantern flame is emissive; runtime optional small warm point light.",
+  "blink_contract": {
+    "pivots": [
+      "Blink_L",
+      "Blink_R"
+    ],
+    "parent": "Head",
+    "bind_rotation_note": "Keep imported bind rotation. Source local rotation X=+90 degrees makes pivot local Y its height expansion axis and X its width.",
+    "open_local_scale": [
+      0.001,
+      0.001,
+      1
+    ],
+    "closed_local_scale": [
+      1,
+      1,
+      1
+    ],
+    "drive": "float s = Mathf.Lerp(.001f,1f,closeAmount); localScale = new Vector3(s,s,1). closeAmount 0=open,1=closed; do not multiply .001 bind.y by closeAmount.",
+    "suggested_timing": "Close 0.06s, hold 0.025s, reopen 0.09s; intervals 3.2 to 5.5s with subtle independent offset. Optional disable blink children while fully open.",
+    "geometry": "Separate thin domed cream eyelid cover, face-blended perimeter and closed lash under each pivot; no skinning, no material transparency required."
+  },
+  "geometry_details": [
+    "Coat running stitches and hem pleats",
+    "Cape center seam and hand stitches",
+    "Hood top seam and small cross stitches",
+    "Fingerless oat-knit gloves with geometric ribs",
+    "Scarf woven warp/weft strands and fine fringe"
+  ],
+  "hierarchy": [
+    {
+      "name": "TravelerRoot",
+      "type": "EMPTY",
+      "parent": null,
+      "blender_local_position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "blender_local_rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "blender_local_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "mesh_triangles": 0
+    },
+    {
+      "name": "Arm_L",
+      "type": "EMPTY",
+      "parent": "TravelerRoot",
+      "blender_local_position": [
+        -0.1899999976158142,
+        0.0,
+        0.8550000190734863
+      ],
+      "blender_local_rotation_euler": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "blender_local_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "mesh_triangles": 0
+    },
+    {
+      "name": "Arm_L_Cape_SeaMistBinding",
+      "type": "MESH",
+      "parent": "Arm_L",
+      "blender_local_position": [
+        0.1899999976158142,
+        0.0,
+        -0.8550000190734863
+      ],
+      "blender_local_rotation_euler": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "blender_local_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "mesh_triangles": 250
+    },
+    {
+      "name": "Arm_L_Face_RoseCheeks",
+      "type": "MESH",
+      "parent": "Arm_L",
+      "blender_local_position": [
+        0.1899999976158142,
+        0.0,
+        -0.8550000190734863
+      ],
+      "blender_local_rotation_euler": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "blender_local_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "mesh_triangles": 24
+    },
+    {
+      "name": "Arm_L_Gloves_OatKnit",
+      "type": "MESH",
+      "parent": "Arm_L",
+      "blender_local_position": [
+        -0.07600000500679016,
+        -0.054999999701976776,
+        -0.30400002002716064
+      ],
+      "blender_local_rotation_euler": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "blender_local_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "mesh_triangles": 376
+    },
+    {
+      "name": "Arm_L_Stitches_PaleFlax",
+      "type": "MESH",
+      "parent": "Arm_L",
+      "blender_local_position": [
+        0.1899999976158142,
+        0.0,
+        -0.8550000190734863
+      ],
+      "blender_local_rotation_euler": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "blender_local_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "mesh_triangles": 140
+    },
+    {
+      "name": "Hand_L",
+      "type": "MESH",
+      "parent": "Arm_L",
+      "blender_local_position": [
+        -0.07600000500679016,
+        -0.054999999701976776,
+        -0.3149999976158142
+      ],
+      "blender_local_rotation_euler": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "blender_local_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "mesh_triangles": 232
+    },
+    {
+      "name": "Sleeve_L",
+      "type": "MESH",
+      "parent": "Arm_L",
+      "blender_local_position": [
+        0.1899999976158142,
+        0.0,
+        -0.8550000190734863
+      ],
+      "blender_local_rotation_euler": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "blender_local_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "mesh_triangles": 134
+    },
+    {
+      "name": "Thumb_L",
+      "type": "MESH",
+      "parent": "Arm_L",
+      "blender_local_position": [
+        -0.04999999701976776,
+        -0.07400000095367432,
+        -0.3140000104904175
+      ],
+      "blender_local_rotation_euler": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "blender_local_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "mesh_triangles": 140
+    },
+    {
+      "name": "Arm_R",
+      "type": "EMPTY",
+      "parent": "TravelerRoot",
+      "blender_local_position": [
+        0.1899999976158142,
+        0.0,
+        0.8550000190734863
+      ],
+      "blender_local_rotation_euler": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "blender_local_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "mesh_triangles": 0
+    },
+    {
+      "name": "Arm_R_Cape_SeaMistBinding",
+      "type": "MESH",
+      "parent": "Arm_R",
+      "blender_local_position": [
+        -0.1899999976158142,
+        0.0,
+        -0.8550000190734863
+      ],
+      "blender_local_rotation_euler": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "blender_local_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "mesh_triangles": 250
+    },
+    {
+      "name": "Arm_R_Face_RoseCheeks",
+      "type": "MESH",
+      "parent": "Arm_R",
+      "blender_local_position": [
+        -0.1899999976158142,
+        0.0,
+        -0.8550000190734863
+      ],
+      "blender_local_rotation_euler": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "blender_local_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "mesh_triangles": 24
+    },
+    {
+      "name": "Arm_R_Gloves_OatKnit",
+      "type": "MESH",
+      "parent": "Arm_R",
+      "blender_local_position": [
+        0.07600000500679016,
+        -0.054999999701976776,
+        -0.30400002002716064
+      ],
+      "blender_local_rotation_euler": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "blender_local_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "mesh_triangles": 376
+    },
+    {
+      "name": "Arm_R_Stitches_PaleFlax",
+      "type": "MESH",
+      "parent": "Arm_R",
+      "blender_local_position": [
+        -0.1899999976158142,
+        0.0,
+        -0.8550000190734863
+      ],
+      "blender_local_rotation_euler": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "blender_local_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "mesh_triangles": 140
+    },
+    {
+      "name": "Hand_R",
+      "type": "MESH",
+      "parent": "Arm_R",
+      "blender_local_position": [
+        0.07600000500679016,
+        -0.054999999701976776,
+        -0.3149999976158142
+      ],
+      "blender_local_rotation_euler": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "blender_local_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "mesh_triangles": 232
+    },
+    {
+      "name": "Lantern",
+      "type": "EMPTY",
+      "parent": "Arm_R",
+      "blender_local_position": [
+        0.085999995470047,
+        -0.06599999964237213,
+        -0.33500003814697266
+      ],
+      "blender_local_rotation_euler": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "blender_local_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "mesh_triangles": 0
+    },
+    {
+      "name": "Lantern_Heart",
+      "type": "MESH",
+      "parent": "Lantern",
+      "blender_local_position": [
+        0.0010000169277191162,
+        -0.0010000020265579224,
+        -0.1199999749660492
+      ],
+      "blender_local_rotation_euler": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "blender_local_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "mesh_triangles": 206
+    },
+    {
+      "name": "Lantern_Lantern_BrushedBrass",
+      "type": "MESH",
+      "parent": "Lantern",
+      "blender_local_position": [
+        -0.2759999930858612,
+        0.06599999964237213,
+        -0.5199999809265137
+      ],
+      "blender_local_rotation_euler": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "blender_local_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "mesh_triangles": 280
+    },
+    {
+      "name": "Lantern_Lantern_GoldEdges",
+      "type": "MESH",
+      "parent": "Lantern",
+      "blender_local_position": [
+        -0.2759999930858612,
+        0.06599999964237213,
+        -0.5199999809265137
+      ],
+      "blender_local_rotation_euler": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "blender_local_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "mesh_triangles": 1448
+    },
+    {
+      "name": "Lantern_OpalGlass",
+      "type": "MESH",
+      "parent": "Lantern",
+      "blender_local_position": [
+        0.0010000169277191162,
+        -0.0010000020265579224,
+        -0.12199997901916504
+      ],
+      "blender_local_rotation_euler": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "blender_local_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "mesh_triangles": 284
+    },
+    {
+      "name": "Sleeve_R",
+      "type": "MESH",
+      "parent": "Arm_R",
+      "blender_local_position": [
+        -0.1899999976158142,
+        0.0,
+        -0.8550000190734863
+      ],
+      "blender_local_rotation_euler": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "blender_local_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "mesh_triangles": 134
+    },
+    {
+      "name": "Thumb_R",
+      "type": "MESH",
+      "parent": "Arm_R",
+      "blender_local_position": [
+        0.04999999701976776,
+        -0.07400000095367432,
+        -0.3140000104904175
+      ],
+      "blender_local_rotation_euler": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "blender_local_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "mesh_triangles": 140
+    },
+    {
+      "name": "Body",
+      "type": "EMPTY",
+      "parent": "TravelerRoot",
+      "blender_local_position": [
+        0.0,
+        0.0,
+        0.6700000166893005
+      ],
+      "blender_local_rotation_euler": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "blender_local_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "mesh_triangles": 0
+    },
+    {
+      "name": "Body_Boots_HoneyLeather",
+      "type": "MESH",
+      "parent": "Body",
+      "blender_local_position": [
+        -0.18000000715255737,
+        -0.0010000000474974513,
+        -0.004999995231628418
+      ],
+      "blender_local_rotation_euler": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "blender_local_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "mesh_triangles": 178
+    },
+    {
+      "name": "Body_Cape_DeepOceanLining",
+      "type": "MESH",
+      "parent": "Body",
+      "blender_local_position": [
+        0.0,
+        0.0,
+        -0.6700000166893005
+      ],
+      "blender_local_rotation_euler": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "blender_local_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "mesh_triangles": 276
+    },
+    {
+      "name": "Body_Cape_SeaMistBinding",
+      "type": "MESH",
+      "parent": "Body",
+      "blender_local_position": [
+        0.0,
+        0.0,
+        -0.6700000166893005
+      ],
+      "blender_local_rotation_euler": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "blender_local_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "mesh_triangles": 1274
+    },
+    {
+      "name": "Body_Lantern_GoldEdges",
+      "type": "MESH",
+      "parent": "Body",
+      "blender_local_position": [
+        0.008999999612569809,
+        -0.11599999666213989,
+        -0.12000000476837158
+      ],
+      "blender_local_rotation_euler": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "blender_local_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "mesh_triangles": 516
+    },
+    {
+      "name": "Body_Scarf_EdgeHoney",
+      "type": "MESH",
+      "parent": "Body",
+      "blender_local_position": [
+        0.0,
+        0.0,
+        -0.6700000166893005
+      ],
+      "blender_local_rotation_euler": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "blender_local_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "mesh_triangles": 604
+    },
+    {
+      "name": "Body_Stitches_PaleFlax",
+      "type": "MESH",
+      "parent": "Body",
+      "blender_local_position": [
+        0.0,
+        0.0,
+        -0.6700000166893005
+      ],
+      "blender_local_rotation_euler": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "blender_local_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "mesh_triangles": 468
+    },
+    {
+      "name": "Brooch_AmberStone",
+      "type": "MESH",
+      "parent": "Body",
+      "blender_local_position": [
+        0.06499999761581421,
+        -0.13699999451637268,
+        0.218999981880188
+      ],
+      "blender_local_rotation_euler": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "blender_local_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "mesh_triangles": 120
+    },
+    {
+      "name": "Cloak_Outer",
+      "type": "MESH",
+      "parent": "Body",
+      "blender_local_position": [
+        0.0,
+        0.0,
+        -0.6700000166893005
+      ],
+      "blender_local_rotation_euler": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "blender_local_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "mesh_triangles": 864
+    },
+    {
+      "name": "Satchel_Body",
+      "type": "MESH",
+      "parent": "Body",
+      "blender_local_position": [
+        -0.18000000715255737,
+        0.04800000041723251,
+        -0.050000011920928955
+      ],
+      "blender_local_rotation_euler": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "blender_local_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "mesh_triangles": 134
+    },
+    {
+      "name": "Satchel_Clasp",
+      "type": "MESH",
+      "parent": "Body",
+      "blender_local_position": [
+        -0.18000000715255737,
+        -0.01600000075995922,
+        -0.029000043869018555
+      ],
+      "blender_local_rotation_euler": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "blender_local_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "mesh_triangles": 134
+    },
+    {
+      "name": "Scarf_Collar",
+      "type": "MESH",
+      "parent": "Body",
+      "blender_local_position": [
+        0.0,
+        0.0,
+        -0.6700000166893005
+      ],
+      "blender_local_rotation_euler": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "blender_local_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "mesh_triangles": 576
+    },
+    {
+      "name": "TailoredTunic",
+      "type": "MESH",
+      "parent": "Body",
+      "blender_local_position": [
+        0.0,
+        0.0,
+        -0.6700000166893005
+      ],
+      "blender_local_rotation_euler": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "blender_local_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "mesh_triangles": 318
+    },
+    {
+      "name": "Head",
+      "type": "EMPTY",
+      "parent": "TravelerRoot",
+      "blender_local_position": [
+        0.0,
+        0.0,
+        0.9449999928474426
+      ],
+      "blender_local_rotation_euler": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "blender_local_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "mesh_triangles": 0
+    },
+    {
+      "name": "Blink_L",
+      "type": "EMPTY",
+      "parent": "Head",
+      "blender_local_position": [
+        -0.05700000002980232,
+        -0.18400000035762787,
+        0.1589999794960022
+      ],
+      "blender_local_rotation_euler": [
+        1.5707963705062866,
+        -0.0,
+        0.0
+      ],
+      "blender_local_scale": [
+        0.0010000000474974513,
+        0.0010000000474974513,
+        1.0
+      ],
+      "mesh_triangles": 0
+    },
+    {
+      "name": "Blink_L_ClosedLash",
+      "type": "MESH",
+      "parent": "Blink_L",
+      "blender_local_position": [
+        0.05700000002980232,
+        -1.1039999723434448,
+        -0.1839999556541443
+      ],
+      "blender_local_rotation_euler": [
+        -1.570796251296997,
+        0.0,
+        0.0
+      ],
+      "blender_local_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "mesh_triangles": 46
+    },
+    {
+      "name": "Blink_L_LidCover",
+      "type": "MESH",
+      "parent": "Blink_L",
+      "blender_local_position": [
+        0.05700000002980232,
+        -1.1039999723434448,
+        -0.1839999556541443
+      ],
+      "blender_local_rotation_euler": [
+        -1.570796251296997,
+        0.0,
+        0.0
+      ],
+      "blender_local_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "mesh_triangles": 220
+    },
+    {
+      "name": "Blink_R",
+      "type": "EMPTY",
+      "parent": "Head",
+      "blender_local_position": [
+        0.05700000002980232,
+        -0.18400000035762787,
+        0.1589999794960022
+      ],
+      "blender_local_rotation_euler": [
+        1.5707963705062866,
+        -0.0,
+        0.0
+      ],
+      "blender_local_scale": [
+        0.0010000000474974513,
+        0.0010000000474974513,
+        1.0
+      ],
+      "mesh_triangles": 0
+    },
+    {
+      "name": "Blink_R_ClosedLash",
+      "type": "MESH",
+      "parent": "Blink_R",
+      "blender_local_position": [
+        -0.05700000002980232,
+        -1.1039999723434448,
+        -0.1839999556541443
+      ],
+      "blender_local_rotation_euler": [
+        -1.570796251296997,
+        0.0,
+        0.0
+      ],
+      "blender_local_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "mesh_triangles": 46
+    },
+    {
+      "name": "Blink_R_LidCover",
+      "type": "MESH",
+      "parent": "Blink_R",
+      "blender_local_position": [
+        -0.05700000002980232,
+        -1.1039999723434448,
+        -0.1839999556541443
+      ],
+      "blender_local_rotation_euler": [
+        -1.570796251296997,
+        0.0,
+        0.0
+      ],
+      "blender_local_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "mesh_triangles": 220
+    },
+    {
+      "name": "Head_Cape_SeaMistBinding",
+      "type": "MESH",
+      "parent": "Head",
+      "blender_local_position": [
+        0.0,
+        0.0,
+        -0.9449999928474426
+      ],
+      "blender_local_rotation_euler": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "blender_local_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "mesh_triangles": 622
+    },
+    {
+      "name": "Head_Eye_AmberRim",
+      "type": "MESH",
+      "parent": "Head",
+      "blender_local_position": [
+        -0.05900000035762787,
+        -0.16500000655651093,
+        0.12200003862380981
+      ],
+      "blender_local_rotation_euler": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "blender_local_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "mesh_triangles": 632
+    },
+    {
+      "name": "Head_Eye_Catchlight",
+      "type": "MESH",
+      "parent": "Head",
+      "blender_local_position": [
+        -0.06300000101327896,
+        -0.17599999904632568,
+        0.13599997758865356
+      ],
+      "blender_local_rotation_euler": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "blender_local_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "mesh_triangles": 440
+    },
+    {
+      "name": "Head_Eye_Chestnut",
+      "type": "MESH",
+      "parent": "Head",
+      "blender_local_position": [
+        -0.05900000035762787,
+        -0.16899999976158142,
+        0.12400001287460327
+      ],
+      "blender_local_rotation_euler": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "blender_local_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "mesh_triangles": 464
+    },
+    {
+      "name": "Head_Eye_Ivory",
+      "type": "MESH",
+      "parent": "Head",
+      "blender_local_position": [
+        -0.05700000002980232,
+        -0.15600000321865082,
+        0.12099999189376831
+      ],
+      "blender_local_rotation_euler": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "blender_local_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "mesh_triangles": 632
+    },
+    {
+      "name": "Head_Eye_Pupil",
+      "type": "MESH",
+      "parent": "Head",
+      "blender_local_position": [
+        -0.05900000035762787,
+        -0.1720000058412552,
+        0.12500005960464478
+      ],
+      "blender_local_rotation_euler": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "blender_local_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "mesh_triangles": 412
+    },
+    {
+      "name": "Head_Face_PorcelainCream",
+      "type": "MESH",
+      "parent": "Head",
+      "blender_local_position": [
+        0.0,
+        -0.02500000037252903,
+        0.10100001096725464
+      ],
+      "blender_local_rotation_euler": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "blender_local_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "mesh_triangles": 1286
+    },
+    {
+      "name": "Head_Face_RoseCheeks",
+      "type": "MESH",
+      "parent": "Head",
+      "blender_local_position": [
+        -0.164000004529953,
+        -0.039000000804662704,
+        0.10200005769729614
+      ],
+      "blender_local_rotation_euler": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "blender_local_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "mesh_triangles": 560
+    },
+    {
+      "name": "Head_Hair_Indigo",
+      "type": "MESH",
+      "parent": "Head",
+      "blender_local_position": [
+        -0.05700000002980232,
+        -0.15000000596046448,
+        0.12200003862380981
+      ],
+      "blender_local_rotation_euler": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "blender_local_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "mesh_triangles": 1316
+    },
+    {
+      "name": "Head_Hair_MidnightBlue",
+      "type": "MESH",
+      "parent": "Head",
+      "blender_local_position": [
+        0.0,
+        0.0,
+        -0.9449999928474426
+      ],
+      "blender_local_rotation_euler": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "blender_local_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "mesh_triangles": 72
+    },
+    {
+      "name": "Head_Stitches_PaleFlax",
+      "type": "MESH",
+      "parent": "Head",
+      "blender_local_position": [
+        0.0,
+        0.0,
+        -0.9449999928474426
+      ],
+      "blender_local_rotation_euler": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "blender_local_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "mesh_triangles": 108
+    },
+    {
+      "name": "Hood_InnerVelvetBinding",
+      "type": "MESH",
+      "parent": "Head",
+      "blender_local_position": [
+        0.0,
+        0.0,
+        -0.9449999928474426
+      ],
+      "blender_local_rotation_euler": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "blender_local_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "mesh_triangles": 414
+    },
+    {
+      "name": "Hood_OuterShell",
+      "type": "MESH",
+      "parent": "Head",
+      "blender_local_position": [
+        0.0,
+        0.0,
+        -0.9449999928474426
+      ],
+      "blender_local_rotation_euler": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "blender_local_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "mesh_triangles": 747
+    },
+    {
+      "name": "Nose",
+      "type": "MESH",
+      "parent": "Head",
+      "blender_local_position": [
+        0.0,
+        -0.16500000655651093,
+        0.08100003004074097
+      ],
+      "blender_local_rotation_euler": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "blender_local_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "mesh_triangles": 284
+    },
+    {
+      "name": "QuietSmile",
+      "type": "MESH",
+      "parent": "Head",
+      "blender_local_position": [
+        0.0,
+        0.0,
+        -0.9449999928474426
+      ],
+      "blender_local_rotation_euler": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "blender_local_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "mesh_triangles": 56
+    },
+    {
+      "name": "Leg_L",
+      "type": "EMPTY",
+      "parent": "TravelerRoot",
+      "blender_local_position": [
+        -0.08299999684095383,
+        0.0,
+        0.5049999952316284
+      ],
+      "blender_local_rotation_euler": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "blender_local_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "mesh_triangles": 0
+    },
+    {
+      "name": "BootSole_L",
+      "type": "MESH",
+      "parent": "Leg_L",
+      "blender_local_position": [
+        0.0,
+        -0.03500000014901161,
+        -0.47600001096725464
+      ],
+      "blender_local_rotation_euler": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "blender_local_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "mesh_triangles": 200
+    },
+    {
+      "name": "Leg_L_Boots_HoneyLeather",
+      "type": "MESH",
+      "parent": "Leg_L",
+      "blender_local_position": [
+        0.08299999684095383,
+        0.0,
+        -0.5049999952316284
+      ],
+      "blender_local_rotation_euler": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "blender_local_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "mesh_triangles": 332
+    },
+    {
+      "name": "Leg_L_Boots_WornChestnut",
+      "type": "MESH",
+      "parent": "Leg_L",
+      "blender_local_position": [
+        0.0,
+        0.00800000037997961,
+        -0.36000001430511475
+      ],
+      "blender_local_rotation_euler": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "blender_local_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "mesh_triangles": 490
+    },
+    {
+      "name": "Leg_L_Hood_DuskBlue",
+      "type": "MESH",
+      "parent": "Leg_L",
+      "blender_local_position": [
+        0.08299999684095383,
+        0.0,
+        -0.5049999952316284
+      ],
+      "blender_local_rotation_euler": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "blender_local_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "mesh_triangles": 52
+    },
+    {
+      "name": "Leg_L_Scarf_EdgeHoney",
+      "type": "MESH",
+      "parent": "Leg_L",
+      "blender_local_position": [
+        0.08299999684095383,
+        0.0,
+        -0.5049999952316284
+      ],
+      "blender_local_rotation_euler": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "blender_local_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "mesh_triangles": 48
+    },
+    {
+      "name": "Trouser_L",
+      "type": "MESH",
+      "parent": "Leg_L",
+      "blender_local_position": [
+        0.0,
+        0.009999999776482582,
+        -0.1599999964237213
+      ],
+      "blender_local_rotation_euler": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "blender_local_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "mesh_triangles": 232
+    },
+    {
+      "name": "Leg_R",
+      "type": "EMPTY",
+      "parent": "TravelerRoot",
+      "blender_local_position": [
+        0.08299999684095383,
+        0.0,
+        0.5049999952316284
+      ],
+      "blender_local_rotation_euler": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "blender_local_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "mesh_triangles": 0
+    },
+    {
+      "name": "BootSole_R",
+      "type": "MESH",
+      "parent": "Leg_R",
+      "blender_local_position": [
+        0.0,
+        -0.03500000014901161,
+        -0.47600001096725464
+      ],
+      "blender_local_rotation_euler": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "blender_local_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "mesh_triangles": 200
+    },
+    {
+      "name": "Leg_R_Boots_HoneyLeather",
+      "type": "MESH",
+      "parent": "Leg_R",
+      "blender_local_position": [
+        -0.08299999684095383,
+        0.0,
+        -0.5049999952316284
+      ],
+      "blender_local_rotation_euler": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "blender_local_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "mesh_triangles": 332
+    },
+    {
+      "name": "Leg_R_Boots_WornChestnut",
+      "type": "MESH",
+      "parent": "Leg_R",
+      "blender_local_position": [
+        0.0,
+        0.00800000037997961,
+        -0.36000001430511475
+      ],
+      "blender_local_rotation_euler": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "blender_local_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "mesh_triangles": 490
+    },
+    {
+      "name": "Leg_R_Hood_DuskBlue",
+      "type": "MESH",
+      "parent": "Leg_R",
+      "blender_local_position": [
+        -0.08299999684095383,
+        0.0,
+        -0.5049999952316284
+      ],
+      "blender_local_rotation_euler": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "blender_local_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "mesh_triangles": 52
+    },
+    {
+      "name": "Leg_R_Scarf_EdgeHoney",
+      "type": "MESH",
+      "parent": "Leg_R",
+      "blender_local_position": [
+        -0.08299999684095383,
+        0.0,
+        -0.5049999952316284
+      ],
+      "blender_local_rotation_euler": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "blender_local_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "mesh_triangles": 48
+    },
+    {
+      "name": "Trouser_R",
+      "type": "MESH",
+      "parent": "Leg_R",
+      "blender_local_position": [
+        0.0,
+        0.009999999776482582,
+        -0.1599999964237213
+      ],
+      "blender_local_rotation_euler": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "blender_local_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "mesh_triangles": 232
+    },
+    {
+      "name": "ScarfTail",
+      "type": "EMPTY",
+      "parent": "TravelerRoot",
+      "blender_local_position": [
+        0.04500000178813934,
+        0.07500000298023224,
+        0.8949999809265137
+      ],
+      "blender_local_rotation_euler": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "blender_local_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "mesh_triangles": 0
+    },
+    {
+      "name": "ScarfTail_Scarf_EdgeHoney",
+      "type": "MESH",
+      "parent": "ScarfTail",
+      "blender_local_position": [
+        -0.04500000178813934,
+        -0.07500000298023224,
+        -0.8949999809265137
+      ],
+      "blender_local_rotation_euler": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "blender_local_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "mesh_triangles": 480
+    },
+    {
+      "name": "ScarfTail_Scarf_HarvestGold",
+      "type": "MESH",
+      "parent": "ScarfTail",
+      "blender_local_position": [
+        -0.04500000178813934,
+        -0.07500000298023224,
+        -0.8949999809265137
+      ],
+      "blender_local_rotation_euler": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "blender_local_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "mesh_triangles": 204
+    }
+  ]
+}

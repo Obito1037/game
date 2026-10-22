@@ -1,0 +1,13 @@
+{
+  "reviewed": true,
+  "accepted": false,
+  "scope": "Root and independent reviewer compared complete original path, roots and lamp frames. This geometry candidate is not adopted.",
+  "summary": "叶根变窄、局部成束改善了宽底刷毛感，但正常路径机位中左暖灯、左前石与画面底部出现大片裸地，原有低层覆盖损失过多。近景高草仍有细硬折线，匍匐叶出现重复三叶风车形态。当前 world-v9 不采用；下一候选从 world-v8 保留原覆盖并局部改形。",
+  "reviewedImages": ["../v11-plants-candidate/path-fixed40.png", "path-fixed40.png", "../v11-plants-candidate/roots-fixed40.png", "roots-fixed40.png", "../v11-plants-candidate/lamp-fixed40.png", "lamp-fixed40.png"],
+  "windowsBuild": "build_e6c779dc6e15",
+  "worldFbxSHA256": "D5FB795EDEB86089ABC45CAEFD709C5A6A1BF9FEC5F6294C15718D65CF507EF3",
+  "trianglesBefore": 510293,
+  "trianglesAfter": 504328,
+  "limits": ["固定机位仅供形态判断，不验证动态闪烁和帧率。", "导入与场景保持性检查通过不能代替审美验收。", "地面细节纹理另行测试，不用于掩盖草覆盖退步。", "整体视觉超过参考网站的目标尚未达到。"],
+  "aestheticObjectiveAchieved": false
+}

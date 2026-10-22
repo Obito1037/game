@@ -1,0 +1,28 @@
+{
+  "buildId": "build_616eb888fe19",
+  "playerDirectory": "C:\\Users\\20665\\Desktop\\game\\builds\\candidates\\v13-tree-candidate\\windows",
+  "capturedBeforeLaunchUtc": "2026-10-21T05:32:06.5224186Z",
+  "requestedFullscreen": true,
+  "requestedWidth": 1440,
+  "requestedHeight": 900,
+  "mode": "TreeStudy",
+  "files": [
+    {
+      "name": "BorrowedLight.exe",
+      "sha256": "EB143EAD6441B6DD9D7D145ADB85410E9389FB3878899AE537E8C9869CCE38FA"
+    },
+    {
+      "name": "UnityPlayer.dll",
+      "sha256": "851DA827899734E8B3D56F7E4DBBD58210E58E4DAEF504E6B7472B9EE503914B"
+    },
+    {
+      "name": "BorrowedLight_Data/resources.assets",
+      "sha256": "293A176FF71FF6865955E4FA5FFF027491B505C10AFCB3498E09FA74361B6429"
+    },
+    {
+      "name": "BorrowedLight_Data/Managed/Assembly-CSharp.dll",
+      "sha256": "1482FB0F4032AF8ADB72C1EE59255E667D7A37A069C8D41D53B9CBA2E85F757F"
+    }
+  ],
+  "scope": "Read-only hashes and requested display settings immediately before launching this QA session. Actual image dimensions and runtime acceptance are recorded separately."
+}

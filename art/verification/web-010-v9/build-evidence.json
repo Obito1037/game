@@ -1,0 +1,9 @@
+{
+  "declaredBuildId": "build_d7f44f9d30f9",
+  "servedBuildResources": [
+    "http://127.0.0.1:8779/Build/a0c06d3e614c45d276481d37b2c4f459.loader.js",
+    "http://127.0.0.1:8779/Build/b281874b7c5b6a62e898db90eddbb667.framework.js.gz",
+    "http://127.0.0.1:8779/Build/702755c42cffae70351e173e02577e7c.wasm.gz",
+    "http://127.0.0.1:8779/Build/eee8121ce67ee80bcdd23e5b49306cbf.data.gz"
+  ]
+}

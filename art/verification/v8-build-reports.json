@@ -1,0 +1,57 @@
+{
+  "revision": "v8",
+  "portraitDiagnostic": {
+    "status": "completed",
+    "buildId": "build_27388bb4f78e",
+    "result": "Succeeded",
+    "platform": "StandaloneWindows64",
+    "outputPath": "C:/Users/20665/Desktop/game/builds/candidates/v8-portrait/windows/BorrowedLight.exe",
+    "totalSizeBytes": 157001049,
+    "buildTimeMs": 56208,
+    "totalWarnings": 2,
+    "totalErrors": 0,
+    "errors": [],
+    "warnings": [
+      {
+        "message": "Pipeline: No RuntimePipelineConfig asset found (Project Settings > Pipeline > Runtime). Pipeline will be disabled in Player builds."
+      },
+      {
+        "message": "You are building a player, but you have uncompiled code changes. This means that any post-processing or importing code you may have changed will not affect this player build."
+      }
+    ]
+  },
+  "native": {
+    "status": "completed",
+    "buildId": "build_95baec27b2f5",
+    "result": "Succeeded",
+    "outputPath": "C:/Users/20665/Desktop/game/builds/candidates/v8/windows/BorrowedLight.exe",
+    "totalSizeBytes": 157003577,
+    "buildTimeMs": 28232,
+    "totalWarnings": 1,
+    "totalErrors": 0,
+    "errors": [],
+    "warnings": [
+      {
+        "message": "Pipeline: No RuntimePipelineConfig asset found (Project Settings > Pipeline > Runtime). Pipeline will be disabled in Player builds."
+      }
+    ]
+  },
+  "web": {
+    "status": "completed",
+    "buildId": "build_6a2cf444c9a6",
+    "result": "Succeeded",
+    "outputPath": "C:/Users/20665/Desktop/game/builds/candidates/v8/web",
+    "totalSizeBytes": 4736459,
+    "buildTimeMs": 395788,
+    "totalWarnings": 1,
+    "totalErrors": 0,
+    "errors": [],
+    "warnings": [
+      {
+        "message": "Pipeline: No RuntimePipelineConfig asset found (Project Settings > Pipeline > Runtime). Pipeline will be disabled in Player builds."
+      }
+    ],
+    "actualPayloadBytes": 48736381,
+    "sizeReportingLimit": "Unity totalSizeBytes is a partial build-report value; actual compressed Build directory bytes are recorded separately."
+  }
+}

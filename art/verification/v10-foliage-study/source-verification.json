@@ -1,0 +1,50 @@
+{
+  "scope": "Read-only static review and authorized source replacement; no Unity/Blender/browser/GPU operation",
+  "urpVersion": "17.3.0",
+  "sourceFiles": {
+    "shader": "GameProject/Assets/BorrowedLight/Shaders/FoliagePaint.shader",
+    "sharedHlsl": "GameProject/Assets/BorrowedLight/Shaders/FoliageSurface.hlsl"
+  },
+  "sha256": {
+    "shader": "476a08a84695e3826a2ff452714e928dd4aa958b927226b0671ec85ed32fe9f8",
+    "sharedHlsl": "be618753f3f05a449e66e8bc4d3f1092c8dd2e1f9ad79cbb23d68387f7501181"
+  },
+  "candidateEqualsProduction": {
+    "shader": true,
+    "sharedHlsl": true
+  },
+  "officialSourcesSha256": {
+    "package.json": "65dda1430372e7088a3b4e0bb538cecd68b6337f6f6d6c0199a211dbacdb3747",
+    "Shaders/Lit.shader": "6f4648b6b5271132cfed1d7d7c771ba0a73ef7972470d6694047804d259c0997",
+    "Shaders/LitInput.hlsl": "4790ecd2f2c8093113b702fdc106486a63308754802c58995f2f0a8121b5b516",
+    "Shaders/LitForwardPass.hlsl": "3582bdeea7bc30ac0ffb45159800f1d00df496527cf1f1717f3143d04f9f9633",
+    "Shaders/LitDepthNormalsPass.hlsl": "2f223b0ece8300d2d971c1fd12c6ae37139c440671bbaec55dc33cb74f31866d",
+    "Shaders/DepthOnlyPass.hlsl": "e85742944bcb2d9fdc03a742e70232021dde254338dca18020ea0c71b1a04826",
+    "Shaders/ShadowCasterPass.hlsl": "7db96c7b79c5c5ba306708efd96a74ab7799d13f0426f2c8f2fc34aeabc350e6",
+    "ShaderLibrary/DOTS.hlsl": "424a623118393c12bf4191ed1873c1d88fc66c9afa74e7488782271a25cc9e0f"
+  },
+  "staticReviewed": true,
+  "independentStaticReviewed": true,
+  "shaderCompileVerified": false,
+  "runtimeVisualVerified": false,
+  "gpuPerformanceVerified": false,
+  "default": "Fixed40",
+  "studyVariants": {
+    "Legacy40": [
+      "_FOLIAGE_LEGACY_AUX"
+    ],
+    "Fixed40": [],
+    "Fixed20": [
+      "_FOLIAGE_NORMAL_UP_20"
+    ]
+  },
+  "preserveExistingVertexTintKeyword": true,
+  "variantsNeedSerializedMaterialsBeforePlayerBuild": true,
+  "legacyEquivalentScope": "Original official auxiliary entry points with undisplaced input and untouched normals; forward old wind and 40% blend for current opaque non-instanced island. Not binary/pixel identity or all keyword combinations.",
+  "limitations": [
+    "Actual shader compilation and same-camera A/B/A remain root tasks.",
+    "Auxiliary vertex ALU increases; no GPU performance claim.",
+    "No alpha-clipped foliage, LOD crossfade, DOTS, XR or deferred combination validation.",
+    "New helper metadata is left to normal Unity import."
+  ]
+}

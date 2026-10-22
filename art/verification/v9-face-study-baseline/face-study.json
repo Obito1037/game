@@ -1,0 +1,763 @@
+{
+    "purpose": "Controlled bind-pose face geometry/material study in the game's night lighting; not gameplay or performance evidence",
+    "width": 1440,
+    "height": 900,
+    "travelerPosition": {
+        "x": 0.0,
+        "y": 0.10000000149011612,
+        "z": -3.299999952316284
+    },
+    "lookTarget": {
+        "x": 0.0,
+        "y": 1.2699999809265137,
+        "z": -3.299999952316284
+    },
+    "travelerRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 1.0
+    },
+    "frozenTime": 0.0,
+    "night": 1.0,
+    "fillIntensity": 0.23000000417232514,
+    "views": [
+        {
+            "image": "01-front-open.png",
+            "cameraPosition": {
+                "x": 9.616505280973797e-8,
+                "y": 1.2699999809265137,
+                "z": -2.1999998092651369
+            },
+            "cameraRotation": {
+                "x": 0.0,
+                "y": 1.0,
+                "z": 0.0,
+                "w": -4.371138118131057e-8
+            },
+            "fieldOfView": 30.0,
+            "eyesClosed": false,
+            "bodyPoseUnchanged": true
+        },
+        {
+            "image": "02-three-quarter-open.png",
+            "cameraPosition": {
+                "x": -0.6309341192245483,
+                "y": 1.2699999809265137,
+                "z": -2.398932695388794
+            },
+            "cameraRotation": {
+                "x": 0.0,
+                "y": 0.9537169933319092,
+                "z": 0.0,
+                "w": 0.30070579051971438
+            },
+            "fieldOfView": 30.0,
+            "eyesClosed": false,
+            "bodyPoseUnchanged": true
+        },
+        {
+            "image": "03-side-open.png",
+            "cameraPosition": {
+                "x": -1.0958142280578614,
+                "y": 1.2699999809265137,
+                "z": -3.2041287422180177
+            },
+            "cameraRotation": {
+                "x": 0.0,
+                "y": 0.7372773289680481,
+                "z": 0.0,
+                "w": 0.6755902171134949
+            },
+            "fieldOfView": 30.0,
+            "eyesClosed": false,
+            "bodyPoseUnchanged": true
+        },
+        {
+            "image": "04-front-closed.png",
+            "cameraPosition": {
+                "x": 9.616505280973797e-8,
+                "y": 1.2699999809265137,
+                "z": -2.1999998092651369
+            },
+            "cameraRotation": {
+                "x": 0.0,
+                "y": 1.0,
+                "z": 0.0,
+                "w": -4.371138118131057e-8
+            },
+            "fieldOfView": 30.0,
+            "eyesClosed": true,
+            "bodyPoseUnchanged": true
+        },
+        {
+            "image": "05-front-open-repeat.png",
+            "cameraPosition": {
+                "x": 9.616505280973797e-8,
+                "y": 1.2699999809265137,
+                "z": -2.1999998092651369
+            },
+            "cameraRotation": {
+                "x": 0.0,
+                "y": 1.0,
+                "z": 0.0,
+                "w": -4.371138118131057e-8
+            },
+            "fieldOfView": 30.0,
+            "eyesClosed": false,
+            "bodyPoseUnchanged": true
+        }
+    ],
+    "lights": [
+        {
+            "name": "A place that needs light 0",
+            "type": "Point",
+            "position": {
+                "x": -1.7999999523162842,
+                "y": 0.6800000071525574,
+                "z": -3.200000047683716
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "color": {
+                "r": 1.0,
+                "g": 0.7099999785423279,
+                "b": 0.38999998569488528,
+                "a": 1.0
+            },
+            "intensity": 1.600000023841858,
+            "range": 3.5
+        },
+        {
+            "name": "Someone is still awake",
+            "type": "Point",
+            "position": {
+                "x": -4.099999904632568,
+                "y": 2.299999952316284,
+                "z": 2.5999999046325685
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "color": {
+                "r": 1.0,
+                "g": 0.7200000286102295,
+                "b": 0.4000000059604645,
+                "a": 1.0
+            },
+            "intensity": 1.25,
+            "range": 4.5
+        },
+        {
+            "name": "A soft reflection on the traveler",
+            "type": "Point",
+            "position": {
+                "x": 0.0,
+                "y": 1.350000023841858,
+                "z": -2.75
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "color": {
+                "r": 1.0,
+                "g": 0.8799999952316284,
+                "b": 0.7400000095367432,
+                "a": 1.0
+            },
+            "intensity": 0.23000000417232514,
+            "range": 1.100000023841858
+        },
+        {
+            "name": "The warmth of remembered stories",
+            "type": "Directional",
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.1884319931268692,
+                "y": 0.4133830666542053,
+                "z": -0.08786728233098984,
+                "w": 0.8865028023719788
+            },
+            "color": {
+                "r": 1.0,
+                "g": 0.878000020980835,
+                "b": 0.7409999966621399,
+                "a": 1.0
+            },
+            "intensity": 0.18000000715255738,
+            "range": 5.0
+        },
+        {
+            "name": "The light we carry",
+            "type": "Point",
+            "position": {
+                "x": -0.2401200532913208,
+                "y": 0.7440321445465088,
+                "z": -3.240600109100342
+            },
+            "rotation": {
+                "x": 0.70710688829422,
+                "y": -5.2683560625155226e-8,
+                "z": 1.053671638828746e-8,
+                "w": -0.7071066498756409
+            },
+            "color": {
+                "r": 1.0,
+                "g": 0.699999988079071,
+                "b": 0.38999998569488528,
+                "a": 1.0
+            },
+            "intensity": 0.5199999809265137,
+            "range": 2.200000047683716
+        },
+        {
+            "name": "Warmth from lamp 1",
+            "type": "Point",
+            "position": {
+                "x": 1.7999999523162842,
+                "y": 2.049999952316284,
+                "z": 3.4000000953674318
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "color": {
+                "r": 1.0,
+                "g": 0.6600000262260437,
+                "b": 0.28999999165534975,
+                "a": 1.0
+            },
+            "intensity": 2.0999999046325685,
+            "range": 5.0
+        },
+        {
+            "name": "A place that needs light 2",
+            "type": "Point",
+            "position": {
+                "x": -4.099999904632568,
+                "y": 2.200000047683716,
+                "z": 3.049999952316284
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "color": {
+                "r": 1.0,
+                "g": 0.7099999785423279,
+                "b": 0.38999998569488528,
+                "a": 1.0
+            },
+            "intensity": 1.600000023841858,
+            "range": 2.5
+        },
+        {
+            "name": "A place that needs light 3",
+            "type": "Point",
+            "position": {
+                "x": 6.900000095367432,
+                "y": 0.7200000286102295,
+                "z": -3.3499999046325685
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "color": {
+                "r": 1.0,
+                "g": 0.7099999785423279,
+                "b": 0.38999998569488528,
+                "a": 1.0
+            },
+            "intensity": 1.600000023841858,
+            "range": 3.5
+        },
+        {
+            "name": "Blue hour",
+            "type": "Directional",
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.07301944494247437,
+                "y": 0.9069052934646606,
+                "z": -0.1762845367193222,
+                "w": 0.3756524622440338
+            },
+            "color": {
+                "r": 0.3199999928474426,
+                "g": 0.5699999928474426,
+                "b": 0.8500000238418579,
+                "a": 1.0
+            },
+            "intensity": 0.3499999940395355,
+            "range": 5.0
+        },
+        {
+            "name": "The light of the moon",
+            "type": "Directional",
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.3104998767375946,
+                "y": -0.28432294726371767,
+                "z": 0.09790023416280747,
+                "w": 0.9017571210861206
+            },
+            "color": {
+                "r": 0.7730000019073486,
+                "g": 0.8159999847412109,
+                "b": 0.8669999837875366,
+                "a": 1.0
+            },
+            "intensity": 0.6200000047683716,
+            "range": 5.0
+        },
+        {
+            "name": "Warmth from lamp 0",
+            "type": "Point",
+            "position": {
+                "x": -4.5,
+                "y": 2.049999952316284,
+                "z": -2.0
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "color": {
+                "r": 1.0,
+                "g": 0.6600000262260437,
+                "b": 0.28999999165534975,
+                "a": 1.0
+            },
+            "intensity": 2.0999999046325685,
+            "range": 5.0
+        },
+        {
+            "name": "Warmth from lamp 2",
+            "type": "Point",
+            "position": {
+                "x": 4.699999809265137,
+                "y": 2.049999952316284,
+                "z": -2.4000000953674318
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "color": {
+                "r": 1.0,
+                "g": 0.6600000262260437,
+                "b": 0.28999999165534975,
+                "a": 1.0
+            },
+            "intensity": 2.0999999046325685,
+            "range": 5.0
+        },
+        {
+            "name": "A place that needs light 1",
+            "type": "Point",
+            "position": {
+                "x": -5.800000190734863,
+                "y": 0.7000000476837158,
+                "z": 0.15000000596046449
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "color": {
+                "r": 1.0,
+                "g": 0.7099999785423279,
+                "b": 0.38999998569488528,
+                "a": 1.0
+            },
+            "intensity": 1.600000023841858,
+            "range": 3.5
+        }
+    ],
+    "materials": [
+        {
+            "name": "Traveler_Cape_SeaMistBinding — story light",
+            "shader": "BorrowedLight/PaintedSurface",
+            "baseColor": {
+                "r": 0.373426616191864,
+                "g": 0.6054964065551758,
+                "b": 0.61803138256073,
+                "a": 1.0
+            },
+            "smoothness": 0.09000000357627869,
+            "surfaceKind": 5.0
+        },
+        {
+            "name": "Traveler_Face_Fingernails — story light",
+            "shader": "BorrowedLight/PaintedSurface",
+            "baseColor": {
+                "r": 0.9499973654747009,
+                "g": 0.8729804754257202,
+                "b": 0.8006914258003235,
+                "a": 1.0
+            },
+            "smoothness": 0.20000000298023225,
+            "surfaceKind": 6.0
+        },
+        {
+            "name": "Traveler_Face_NoseCream — story light",
+            "shader": "BorrowedLight/PaintedSurface",
+            "baseColor": {
+                "r": 0.9452767968177795,
+                "g": 0.8515938520431519,
+                "b": 0.757955014705658,
+                "a": 1.0
+            },
+            "smoothness": 0.20000000298023225,
+            "surfaceKind": 6.0
+        },
+        {
+            "name": "Traveler_Face_PorcelainCream — story light",
+            "shader": "BorrowedLight/PaintedSurface",
+            "baseColor": {
+                "r": 0.9357409477233887,
+                "g": 0.8406307697296143,
+                "b": 0.7451512813568115,
+                "a": 1.0
+            },
+            "smoothness": 0.20000000298023225,
+            "surfaceKind": 6.0
+        },
+        {
+            "name": "Traveler_Face_RoseCheeks — story light",
+            "shader": "BorrowedLight/PaintedSurface",
+            "baseColor": {
+                "r": 0.9260748028755188,
+                "g": 0.8036309480667114,
+                "b": 0.7287318110466003,
+                "a": 1.0
+            },
+            "smoothness": 0.20000000298023225,
+            "surfaceKind": 6.0
+        },
+        {
+            "name": "Traveler_Gloves_OatKnit — story light",
+            "shader": "BorrowedLight/PaintedSurface",
+            "baseColor": {
+                "r": 0.6651850342750549,
+                "g": 0.6763172149658203,
+                "b": 0.6138895750045776,
+                "a": 1.0
+            },
+            "smoothness": 0.09000000357627869,
+            "surfaceKind": 5.0
+        },
+        {
+            "name": "Traveler_Stitches_PaleFlax — story light",
+            "shader": "Universal Render Pipeline/Lit",
+            "baseColor": {
+                "r": 0.7977376580238342,
+                "g": 0.8266569972038269,
+                "b": 0.741905152797699,
+                "a": 1.0
+            },
+            "smoothness": 0.17000000178813935,
+            "surfaceKind": -1.0
+        },
+        {
+            "name": "Traveler_Boots_DarkSole — story light",
+            "shader": "Universal Render Pipeline/Lit",
+            "baseColor": {
+                "r": 0.3035319447517395,
+                "g": 0.2527894377708435,
+                "b": 0.2209162414073944,
+                "a": 1.0
+            },
+            "smoothness": 0.17000000178813935,
+            "surfaceKind": -1.0
+        },
+        {
+            "name": "Traveler_Boots_WornChestnut — story light",
+            "shader": "Universal Render Pipeline/Lit",
+            "baseColor": {
+                "r": 0.5063862204551697,
+                "g": 0.35749107599258425,
+                "b": 0.2527894377708435,
+                "a": 1.0
+            },
+            "smoothness": 0.17000000178813935,
+            "surfaceKind": -1.0
+        },
+        {
+            "name": "Traveler_Boots_HoneyLeather — story light",
+            "shader": "Universal Render Pipeline/Lit",
+            "baseColor": {
+                "r": 0.6421664357185364,
+                "g": 0.4956096410751343,
+                "b": 0.35749107599258425,
+                "a": 1.0
+            },
+            "smoothness": 0.17000000178813935,
+            "surfaceKind": -1.0
+        },
+        {
+            "name": "Traveler_Hood_DuskBlue — story light",
+            "shader": "BorrowedLight/PaintedSurface",
+            "baseColor": {
+                "r": 0.24269360303878785,
+                "g": 0.43662694096565249,
+                "b": 0.5168808698654175,
+                "a": 1.0
+            },
+            "smoothness": 0.09000000357627869,
+            "surfaceKind": 5.0
+        },
+        {
+            "name": "Traveler_Lantern_BrushedBrass — story light",
+            "shader": "Universal Render Pipeline/Lit",
+            "baseColor": {
+                "r": 0.8209797739982605,
+                "g": 0.6421664357185364,
+                "b": 0.35749107599258425,
+                "a": 1.0
+            },
+            "smoothness": 0.5799999833106995,
+            "surfaceKind": -1.0
+        },
+        {
+            "name": "Traveler_Coat_WashedBlue — story light",
+            "shader": "BorrowedLight/PaintedSurface",
+            "baseColor": {
+                "r": 0.31330406665802,
+                "g": 0.5926192998886108,
+                "b": 0.61803138256073,
+                "a": 1.0
+            },
+            "smoothness": 0.09000000357627869,
+            "surfaceKind": 5.0
+        },
+        {
+            "name": "Traveler_Lantern_WarmHeart — story light",
+            "shader": "Universal Render Pipeline/Lit",
+            "baseColor": {
+                "r": 1.0,
+                "g": 0.8911432027816773,
+                "b": 0.5838313698768616,
+                "a": 1.0
+            },
+            "smoothness": 0.17000000178813935,
+            "surfaceKind": -1.0
+        },
+        {
+            "name": "Traveler_Lantern_GoldEdges — story light",
+            "shader": "Universal Render Pipeline/Lit",
+            "baseColor": {
+                "r": 0.9452767968177795,
+                "g": 0.8036309480667114,
+                "b": 0.5168808698654175,
+                "a": 1.0
+            },
+            "smoothness": 0.5799999833106995,
+            "surfaceKind": -1.0
+        },
+        {
+            "name": "Traveler_Lantern_AmberGlass — story light",
+            "shader": "Universal Render Pipeline/Lit",
+            "baseColor": {
+                "r": 0.9866952300071716,
+                "g": 0.7857768535614014,
+                "b": 0.4235827624797821,
+                "a": 1.0
+            },
+            "smoothness": 0.17000000178813935,
+            "surfaceKind": -1.0
+        },
+        {
+            "name": "Traveler_Cape_DeepOceanLining — story light",
+            "shader": "BorrowedLight/PaintedSurface",
+            "baseColor": {
+                "r": 0.17558154463768006,
+                "g": 0.35253891348838808,
+                "b": 0.43662694096565249,
+                "a": 1.0
+            },
+            "smoothness": 0.09000000357627869,
+            "surfaceKind": 5.0
+        },
+        {
+            "name": "Traveler_Scarf_EdgeHoney — story light",
+            "shader": "BorrowedLight/PaintedSurface",
+            "baseColor": {
+                "r": 0.9866952300071716,
+                "g": 0.8433891534805298,
+                "b": 0.527112603187561,
+                "a": 1.0
+            },
+            "smoothness": 0.09000000357627869,
+            "surfaceKind": 5.0
+        },
+        {
+            "name": "Traveler_Cape_TwilightTeal — story light",
+            "shader": "BorrowedLight/PaintedSurface",
+            "baseColor": {
+                "r": 0.2600674033164978,
+                "g": 0.5321354866027832,
+                "b": 0.5784764289855957,
+                "a": 1.0
+            },
+            "smoothness": 0.09000000357627869,
+            "surfaceKind": 5.0
+        },
+        {
+            "name": "Traveler_Scarf_HarvestGold — story light",
+            "shader": "BorrowedLight/PaintedSurface",
+            "baseColor": {
+                "r": 0.9260748028755188,
+                "g": 0.7152408361434937,
+                "b": 0.38109174370765688,
+                "a": 1.0
+            },
+            "smoothness": 0.09000000357627869,
+            "surfaceKind": 5.0
+        },
+        {
+            "name": "Traveler_Hair_Indigo — story light",
+            "shader": "Universal Render Pipeline/Lit",
+            "baseColor": {
+                "r": 0.21508187055587769,
+                "g": 0.18974819779396058,
+                "b": 0.1931149959564209,
+                "a": 1.0
+            },
+            "smoothness": 0.17000000178813935,
+            "surfaceKind": -1.0
+        },
+        {
+            "name": "Traveler_Eye_AmberRim — story light",
+            "shader": "Universal Render Pipeline/Lit",
+            "baseColor": {
+                "r": 0.5516499876976013,
+                "g": 0.43016621470451357,
+                "b": 0.30943921208381655,
+                "a": 1.0
+            },
+            "smoothness": 0.7200000286102295,
+            "surfaceKind": -1.0
+        },
+        {
+            "name": "Traveler_Eye_Catchlight — story light",
+            "shader": "Universal Render Pipeline/Lit",
+            "baseColor": {
+                "r": 1.0,
+                "g": 0.9911565184593201,
+                "b": 0.9405249357223511,
+                "a": 1.0
+            },
+            "smoothness": 0.7200000286102295,
+            "surfaceKind": -1.0
+        },
+        {
+            "name": "Traveler_Eye_Chestnut — story light",
+            "shader": "Universal Render Pipeline/Lit",
+            "baseColor": {
+                "r": 0.43662694096565249,
+                "g": 0.30943921208381655,
+                "b": 0.2347949743270874,
+                "a": 1.0
+            },
+            "smoothness": 0.7200000286102295,
+            "surfaceKind": -1.0
+        },
+        {
+            "name": "Traveler_Eye_Ivory — story light",
+            "shader": "Universal Render Pipeline/Lit",
+            "baseColor": {
+                "r": 0.9113204479217529,
+                "g": 0.9038236141204834,
+                "b": 0.8543057441711426,
+                "a": 1.0
+            },
+            "smoothness": 0.7200000286102295,
+            "surfaceKind": -1.0
+        },
+        {
+            "name": "Traveler_Eye_Pupil — story light",
+            "shader": "Universal Render Pipeline/Lit",
+            "baseColor": {
+                "r": 0.11207485944032669,
+                "g": 0.14282560348510743,
+                "b": 0.17923611402511598,
+                "a": 1.0
+            },
+            "smoothness": 0.7200000286102295,
+            "surfaceKind": -1.0
+        },
+        {
+            "name": "Traveler_Hair_MidnightBlue — story light",
+            "shader": "Universal Render Pipeline/Lit",
+            "baseColor": {
+                "r": 0.34064334630966189,
+                "g": 0.28060415387153628,
+                "b": 0.24269360303878785,
+                "a": 1.0
+            },
+            "smoothness": 0.17000000178813935,
+            "surfaceKind": -1.0
+        },
+        {
+            "name": "Traveler_Face_SoftLips — story light",
+            "shader": "BorrowedLight/PaintedSurface",
+            "baseColor": {
+                "r": 0.7673755288124085,
+                "g": 0.5926192998886108,
+                "b": 0.5220286250114441,
+                "a": 1.0
+            },
+            "smoothness": 0.20000000298023225,
+            "surfaceKind": 6.0
+        },
+        {
+            "name": "Traveler_Trousers_Ink — story light",
+            "shader": "BorrowedLight/PaintedSurface",
+            "baseColor": {
+                "r": 0.20598405599594117,
+                "g": 0.3491900861263275,
+                "b": 0.41002076864242556,
+                "a": 1.0
+            },
+            "smoothness": 0.09000000357627869,
+            "surfaceKind": 5.0
+        }
+    ],
+    "allBodyPosesUnchanged": true
+}

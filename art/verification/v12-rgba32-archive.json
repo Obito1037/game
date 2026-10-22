@@ -1,0 +1,34 @@
+{
+  "passed": true,
+  "buildId": "build_eaeda1eb2b2f",
+  "session": "run-030-v12",
+  "originalPlayerDirectory": "C:\\Users\\20665\\Desktop\\game\\builds\\candidates\\v12\\windows",
+  "archivedPlayerDirectory": "C:\\Users\\20665\\Desktop\\game\\builds\\candidates\\v12-rgba32\\windows",
+  "files": [
+    {
+      "name": "BorrowedLight.exe",
+      "qaSHA256": "EB143EAD6441B6DD9D7D145ADB85410E9389FB3878899AE537E8C9869CCE38FA",
+      "archiveSHA256": "EB143EAD6441B6DD9D7D145ADB85410E9389FB3878899AE537E8C9869CCE38FA",
+      "matches": true
+    },
+    {
+      "name": "UnityPlayer.dll",
+      "qaSHA256": "851DA827899734E8B3D56F7E4DBBD58210E58E4DAEF504E6B7472B9EE503914B",
+      "archiveSHA256": "851DA827899734E8B3D56F7E4DBBD58210E58E4DAEF504E6B7472B9EE503914B",
+      "matches": true
+    },
+    {
+      "name": "BorrowedLight_Data/resources.assets",
+      "qaSHA256": "4C5B5F72C4128B1617AE879BEAAE327EFCE6D8D92BF031A870F89FD632679C54",
+      "archiveSHA256": "4C5B5F72C4128B1617AE879BEAAE327EFCE6D8D92BF031A870F89FD632679C54",
+      "matches": true
+    },
+    {
+      "name": "BorrowedLight_Data/Managed/Assembly-CSharp.dll",
+      "qaSHA256": "15019F8851EB3473D07A091A54219E121868787F6A628CF4BF783D01D9A93B6B",
+      "archiveSHA256": "15019F8851EB3473D07A091A54219E121868787F6A628CF4BF783D01D9A93B6B",
+      "matches": true
+    }
+  ],
+  "scope": "Old RGBA32 v12 native candidate moved before compressed rebuild; original launch record preserved unmodified."
+}

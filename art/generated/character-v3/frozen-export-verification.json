@@ -1,0 +1,90 @@
+{
+  "fbx": {
+    "passed": true,
+    "errors": [],
+    "sha256": "780a381d2a5049b82ba397f0d5c7b23a0c8eba3cf92f6bbf19bab4d11e947f11",
+    "triangles": 29950,
+    "mesh_renderers": 65,
+    "bounds_blender": {
+      "min": [
+        -0.31068718433380127,
+        -0.1439998745918274,
+        0.003941922914236784
+      ],
+      "max": [
+        0.5351461172103882,
+        0.2712087333202362,
+        1.2616642713546753
+      ]
+    },
+    "verified_pivots": [
+      "TravelerRoot",
+      "Arm_L",
+      "Arm_R",
+      "Lantern",
+      "Body",
+      "Head",
+      "Blink_L",
+      "Blink_R",
+      "Leg_L",
+      "Leg_R",
+      "ScarfTail"
+    ],
+    "blink_validation": {
+      "Blink_L": {
+        "open_width_m": 6.400048732757568e-05,
+        "open_height_m": 5.0067901611328125e-05,
+        "closed_height_m": 0.04999995231628418
+      },
+      "Blink_R": {
+        "open_width_m": 6.400048732757568e-05,
+        "open_height_m": 5.0067901611328125e-05,
+        "closed_height_m": 0.04999995231628418
+      }
+    }
+  },
+  "glb": {
+    "passed": true,
+    "errors": [],
+    "sha256": "29d6cd0e191550e786fce3f7b0fbcd4d1e1e4f4468bed1948ead9ce723bef0d8",
+    "triangles": 29950,
+    "mesh_renderers": 65,
+    "bounds_blender": {
+      "min": [
+        -0.31068718433380127,
+        -0.14400000870227814,
+        0.003941935487091541
+      ],
+      "max": [
+        0.5351461172103882,
+        0.2712085545063019,
+        1.2616642713546753
+      ]
+    },
+    "verified_pivots": [
+      "TravelerRoot",
+      "Arm_L",
+      "Arm_R",
+      "Lantern",
+      "Body",
+      "Head",
+      "Blink_L",
+      "Blink_R",
+      "Leg_L",
+      "Leg_R",
+      "ScarfTail"
+    ],
+    "blink_validation": {
+      "Blink_L": {
+        "open_width_m": 6.400048732757568e-05,
+        "open_height_m": 5.0067901611328125e-05,
+        "closed_height_m": 0.04999995231628418
+      },
+      "Blink_R": {
+        "open_width_m": 6.400048732757568e-05,
+        "open_height_m": 5.0067901611328125e-05,
+        "closed_height_m": 0.04999995231628418
+      }
+    }
+  }
+}

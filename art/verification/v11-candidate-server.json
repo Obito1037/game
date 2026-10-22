@@ -1,0 +1,9 @@
+{
+  "pid": 37176,
+  "port": 8780,
+  "started": "2026-10-21T11:10:50.3273107+08:00",
+  "root": "C:\\Users\\20665\\Desktop\\game\\builds\\candidates\\v11\\web",
+  "script": "C:\\Users\\20665\\Desktop\\game\\tools\\serve-game.cjs",
+  "stoppedAt": "2026-10-21T11:29:28.0659503+08:00",
+  "stopReason": "v11 promoted and verified; temporary candidate server retired; stable localhost server retained."
+}

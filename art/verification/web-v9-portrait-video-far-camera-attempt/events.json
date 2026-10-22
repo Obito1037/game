@@ -1,0 +1,357 @@
+[
+  {
+    "type": "navigation-start",
+    "sinceNavigationMs": 0,
+    "requestedUrl": "http://127.0.0.1:8779/"
+  },
+  {
+    "type": "game-ready",
+    "sinceNavigationMs": 16581,
+    "url": "http://127.0.0.1:8779/",
+    "canvas": {
+      "width": 1440,
+      "height": 900,
+      "cssWidth": 1440,
+      "cssHeight": 900,
+      "cssLeft": 0,
+      "cssTop": 0,
+      "devicePixelRatio": 1,
+      "viewportWidth": 1440,
+      "viewportHeight": 900,
+      "visibility": "visible",
+      "documentFocused": true,
+      "canvasFocused": true
+    }
+  },
+  {
+    "type": "menu-click",
+    "sinceNavigationMs": 16581,
+    "at": [
+      195,
+      566
+    ]
+  },
+  {
+    "type": "game-phase",
+    "sinceNavigationMs": 16627,
+    "phase": 0
+  },
+  {
+    "type": "game-phase",
+    "sinceNavigationMs": 16632,
+    "phase": 1
+  },
+  {
+    "type": "keyboard-press-start",
+    "sinceNavigationMs": 18601,
+    "key": "1",
+    "delayRequestedMs": 90
+  },
+  {
+    "type": "keyboard-press-end",
+    "sinceNavigationMs": 18755,
+    "key": "1"
+  },
+  {
+    "type": "keyboard-press-start",
+    "sinceNavigationMs": 19040,
+    "key": "d",
+    "delayRequestedMs": 90
+  },
+  {
+    "type": "keyboard-press-end",
+    "sinceNavigationMs": 19170,
+    "key": "d"
+  },
+  {
+    "type": "keyboard-press-start",
+    "sinceNavigationMs": 19477,
+    "key": "Enter",
+    "delayRequestedMs": 90
+  },
+  {
+    "type": "game-phase",
+    "sinceNavigationMs": 19575,
+    "phase": 2
+  },
+  {
+    "type": "keyboard-press-end",
+    "sinceNavigationMs": 19747,
+    "key": "Enter"
+  },
+  {
+    "type": "keyboard-press-start",
+    "sinceNavigationMs": 20034,
+    "key": "2",
+    "delayRequestedMs": 90
+  },
+  {
+    "type": "keyboard-press-end",
+    "sinceNavigationMs": 20224,
+    "key": "2"
+  },
+  {
+    "type": "keyboard-press-start",
+    "sinceNavigationMs": 20505,
+    "key": "d",
+    "delayRequestedMs": 90
+  },
+  {
+    "type": "keyboard-press-end",
+    "sinceNavigationMs": 20690,
+    "key": "d"
+  },
+  {
+    "type": "keyboard-press-start",
+    "sinceNavigationMs": 20976,
+    "key": "Enter",
+    "delayRequestedMs": 90
+  },
+  {
+    "type": "game-phase",
+    "sinceNavigationMs": 21033,
+    "phase": 3
+  },
+  {
+    "type": "keyboard-press-end",
+    "sinceNavigationMs": 21143,
+    "key": "Enter"
+  },
+  {
+    "type": "keyboard-press-start",
+    "sinceNavigationMs": 21438,
+    "key": "3",
+    "delayRequestedMs": 90
+  },
+  {
+    "type": "keyboard-press-end",
+    "sinceNavigationMs": 21607,
+    "key": "3"
+  },
+  {
+    "type": "keyboard-press-start",
+    "sinceNavigationMs": 21893,
+    "key": "d",
+    "delayRequestedMs": 90
+  },
+  {
+    "type": "keyboard-press-end",
+    "sinceNavigationMs": 22050,
+    "key": "d"
+  },
+  {
+    "type": "keyboard-press-start",
+    "sinceNavigationMs": 22341,
+    "key": "2",
+    "delayRequestedMs": 90
+  },
+  {
+    "type": "keyboard-press-end",
+    "sinceNavigationMs": 22859,
+    "key": "2"
+  },
+  {
+    "type": "keyboard-press-start",
+    "sinceNavigationMs": 23155,
+    "key": "d",
+    "delayRequestedMs": 90
+  },
+  {
+    "type": "keyboard-press-end",
+    "sinceNavigationMs": 23296,
+    "key": "d"
+  },
+  {
+    "type": "keyboard-press-start",
+    "sinceNavigationMs": 23579,
+    "key": "Space",
+    "delayRequestedMs": 90
+  },
+  {
+    "type": "keyboard-press-end",
+    "sinceNavigationMs": 23703,
+    "key": "Space"
+  },
+  {
+    "type": "keyboard-press-start",
+    "sinceNavigationMs": 23993,
+    "key": "1",
+    "delayRequestedMs": 90
+  },
+  {
+    "type": "keyboard-press-end",
+    "sinceNavigationMs": 24136,
+    "key": "1"
+  },
+  {
+    "type": "keyboard-press-start",
+    "sinceNavigationMs": 24425,
+    "key": "Space",
+    "delayRequestedMs": 90
+  },
+  {
+    "type": "keyboard-press-end",
+    "sinceNavigationMs": 24535,
+    "key": "Space"
+  },
+  {
+    "type": "keyboard-press-start",
+    "sinceNavigationMs": 24817,
+    "key": "Enter",
+    "delayRequestedMs": 90
+  },
+  {
+    "type": "game-phase",
+    "sinceNavigationMs": 24846,
+    "phase": 4
+  },
+  {
+    "type": "keyboard-press-end",
+    "sinceNavigationMs": 24944,
+    "key": "Enter"
+  },
+  {
+    "type": "puzzle-completed",
+    "sinceNavigationMs": 25255,
+    "phases": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "method": "Actual keyboard input"
+  },
+  {
+    "type": "return-to-island-click",
+    "sinceNavigationMs": 31759,
+    "at": [
+      210,
+      634
+    ]
+  },
+  {
+    "type": "right-mouse-orbit-start",
+    "sinceNavigationMs": 38580,
+    "pass": 1,
+    "from": [
+      700,
+      440
+    ],
+    "to": [
+      1300,
+      430
+    ],
+    "deltaX": 600,
+    "nominalYawDeltaDegrees": 78,
+    "nominalSensitivityDegreesPerPixel": 0.13
+  },
+  {
+    "type": "right-mouse-orbit-end",
+    "sinceNavigationMs": 42896,
+    "pass": 1,
+    "actualHeldMs": 4317
+  },
+  {
+    "type": "right-mouse-orbit-start",
+    "sinceNavigationMs": 43316,
+    "pass": 2,
+    "from": [
+      700,
+      440
+    ],
+    "to": [
+      1300,
+      430
+    ],
+    "deltaX": 600,
+    "nominalYawDeltaDegrees": 78,
+    "nominalSensitivityDegreesPerPixel": 0.13
+  },
+  {
+    "type": "right-mouse-orbit-end",
+    "sinceNavigationMs": 46336,
+    "pass": 2,
+    "actualHeldMs": 3020
+  },
+  {
+    "type": "wheel-up",
+    "sinceNavigationMs": 47236,
+    "pulse": 1,
+    "deltaY": -240
+  },
+  {
+    "type": "wheel-up",
+    "sinceNavigationMs": 47863,
+    "pulse": 2,
+    "deltaY": -240
+  },
+  {
+    "type": "wheel-up",
+    "sinceNavigationMs": 48403,
+    "pulse": 3,
+    "deltaY": -240
+  },
+  {
+    "type": "wheel-up",
+    "sinceNavigationMs": 48859,
+    "pulse": 4,
+    "deltaY": -240
+  },
+  {
+    "type": "wheel-up",
+    "sinceNavigationMs": 49364,
+    "pulse": 5,
+    "deltaY": -240
+  },
+  {
+    "type": "wheel-up",
+    "sinceNavigationMs": 49750,
+    "pulse": 6,
+    "deltaY": -240
+  },
+  {
+    "type": "wheel-up",
+    "sinceNavigationMs": 50218,
+    "pulse": 7,
+    "deltaY": -240
+  },
+  {
+    "type": "wheel-up",
+    "sinceNavigationMs": 50785,
+    "pulse": 8,
+    "deltaY": -240
+  },
+  {
+    "type": "camera-settle-start",
+    "sinceNavigationMs": 50913,
+    "requestedDurationMs": 3000,
+    "nominalTotalYawDegrees": 156,
+    "sourceDistanceClampMinimum": 2.5,
+    "actualCameraStateMeasured": false
+  },
+  {
+    "type": "portrait-window-start",
+    "sinceNavigationMs": 53924,
+    "requestedDurationMs": 15000,
+    "canvas": {
+      "width": 1440,
+      "height": 900,
+      "cssWidth": 1440,
+      "cssHeight": 900,
+      "cssLeft": 0,
+      "cssTop": 0,
+      "devicePixelRatio": 1,
+      "viewportWidth": 1440,
+      "viewportHeight": 900,
+      "visibility": "visible",
+      "documentFocused": true,
+      "canvasFocused": true
+    }
+  },
+  {
+    "type": "portrait-window-end",
+    "sinceNavigationMs": 68928,
+    "durationMs": 15004
+  }
+]

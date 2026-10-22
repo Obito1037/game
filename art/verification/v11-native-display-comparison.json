@@ -1,0 +1,28 @@
+{
+  "baseline": "run-028-v10-current-host",
+  "candidate": "run-029-v11",
+  "fullscreenRequested": true,
+  "baselineSize": [
+    1440,
+    900
+  ],
+  "candidateSize": [
+    1440,
+    900
+  ],
+  "baselineFps": {
+    "menu": 60.0,
+    "overview": 60.0,
+    "walking": 59.9,
+    "portrait": 59.9
+  },
+  "candidateFps": {
+    "menu": 60.0,
+    "overview": 60.0,
+    "walking": 59.9,
+    "portrait": 59.8
+  },
+  "baselineFinalFps": 60.0,
+  "candidateFinalFps": 60.0,
+  "conclusion": "Both fullscreen short samples reached the 60 FPS cap at 1440x900. This does not quantify GPU headroom, a speedup, full-session average/minimum, or long-duration stability. Earlier windowed runs were affected by parallel Blender work or mid-run resizing."
+}

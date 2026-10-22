@@ -1,0 +1,35 @@
+{
+  "assetRevision": "world-v9",
+  "gameCandidate": "v12",
+  "reviewed": true,
+  "acceptedForLimitedScope": false,
+  "disposition": "保留失败尝试及全部原始证据，不采用到发布版本。",
+  "reviewedOriginalImages": [
+    "path-fixed40.png",
+    "roots-fixed40.png",
+    "lamp-fixed40.png"
+  ],
+  "comparisonImages": [
+    "../v11-plants-candidate/path-fixed40.png",
+    "../v11-plants-candidate/roots-fixed40.png",
+    "../v11-plants-candidate/lamp-fixed40.png"
+  ],
+  "observations": [
+    "窄根、局部成束和实际地表贴合在 roots 近景较易辨认。",
+    "正常 path 机位的左暖灯、左前石及画面底部低矮覆盖明显减少，光滑裸地变多；整体前景繁茂感退步。",
+    "部分高草仍呈细硬折线，匍匐叶重复三叶形状过于明显。",
+    "不能用近景根部改善替代正常机位的整体观感验收，也不能用独立地面材质候选掩盖覆盖退步。"
+  ],
+  "sourceEvidence": {
+    "frozenWorldV8GrassComponents": 39570,
+    "worldV9GrassComponents": 30809,
+    "frozenWorldV8CreepingComponents": 3998,
+    "worldV9CreepingComponents": 3270,
+    "interpretation": "草数量减少与叶宽、宏观留白变化叠加，是覆盖退步的合理解释；未进行单变量几何消融，不能声称量化因果贡献。"
+  },
+  "limits": [
+    "这是固定三机位静态视觉评审，不代表动态风摆、全部角度或运行性能。",
+    "world-v9/interchange-verification.json 的 GLB 颜色回读失败保留；视觉不采用的结论不依赖格式审计是否最终通过。",
+    "所有冻结模型、贴图及截图保持不变。"
+  ]
+}

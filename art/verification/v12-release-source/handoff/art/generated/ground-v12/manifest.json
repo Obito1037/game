@@ -1,0 +1,134 @@
+{
+  "title": "Ground albedo detail v12 — adopted .35 layer",
+  "stagingOnly": false,
+  "adopted": true,
+  "source": "Built-in image_gen; original generated raster, no pixel edits",
+  "original": "art/generated/ground-v12/earth-detail-original.png",
+  "sha256": "483D36A325CA6B05BBB8580DD3E238AF866F331D762976CB0064569FD7925F1B",
+  "prompt": "art/generated/ground-v12/prompt.txt",
+  "width": 1254,
+  "height": 1254,
+  "bitDepth": 8,
+  "channels": 3,
+  "sampleCount": 1572516,
+  "colorAssumption": "PNG RGB treated as sRGB, exact IEC sRGB inverse transfer per component; Rec.709 luminance",
+  "meanSRGBRGB": [
+    0.4612317994333427,
+    0.3975245290704943,
+    0.32726159736311083
+  ],
+  "meanLinearRGB": [
+    0.2019533346199976,
+    0.15070012187587817,
+    0.10169036775998508
+  ],
+  "meanSRGBLuminance": 0.4059957110785225,
+  "meanLinearLuminance": 0.15805805065816778,
+  "shaderRatioClamp": [
+    0.35,
+    2.25
+  ],
+  "clampedRatioMean": 0.9620164207456156,
+  "ratioLowClampFraction": 0.114472603140445,
+  "ratioHighClampFraction": 0.06943395170541986,
+  "intendedTileMetres": 1.8,
+  "detailStrength": 0.35,
+  "resourceCopy": "GameProject/Assets/BorrowedLight/Resources/Textures/GroundDetailV12.png",
+  "setupScript": "tools/setup-ground-detail-v12.cs",
+  "shader": "GameProject/Assets/BorrowedLight/Shaders/GroundDetail.shader",
+  "studyScript": "GameProject/Assets/BorrowedLight/Runtime/GroundDetailStudy.cs",
+  "studyArgument": "-borrowedLightGroundDetailStudy",
+  "currentValidation": {
+    "originalHashVerified": true,
+    "sourceAuditPassed": true,
+    "unityCompilation": "root reported ready/success",
+    "shaderSupported": true,
+    "shaderMessages": [],
+    "rootReportedSetup": {
+      "width": 1254,
+      "height": 1254,
+      "format": "RGBA32",
+      "mipCount": 11,
+      "sRGB": true,
+      "filter": "Trilinear",
+      "aniso": 4
+    },
+    "runtimeFixedPoseStudy": "art/verification/v12-ground-detail-refined/ground-detail-study.json: 15 complete 1440x900 views; invariants passed",
+    "visualAcceptance": "art/verification/v12-ground-detail-refined/decision.json: detail-soft accepted for limited static scope",
+    "performance": "Final normal-game short samples are recorded in run-032-v12/web-013-v12; no isolated shader performance attribution.",
+    "playerCompilation": "Native study build_7c20b5c3a50d and normal build_eaeda1eb2b2f succeeded; first failed attempts preserved in art/verification",
+    "resourceIdentityBasis": [
+      "Original and Resources PNG SHA256",
+      "Editor setup observation",
+      "Candidate build resources.assets hash to be recorded by root"
+    ]
+  },
+  "detailFormula": "(1-strength)+strength*(clamp(linearLuminance/meanLinearLuminance,.35,2.25)/clampedRatioMean)",
+  "wholeImageMeanMultiplier": 1,
+  "baseMeadowUVAndColorUnchanged": true,
+  "originalMeadowNormalScale": 0.22,
+  "limitations": [
+    "Mean multiplier is an authored-pixel mean; filtered/mipmapped projected frame mean is not guaranteed to equal one.",
+    "Static .35 review reduces but does not eliminate uniform close-up carpet-like texture.",
+    "Ground detail affects albedo only; no added geometric or normal detail.",
+    "Final native/Web QA and local adoption completed; short samples do not establish isolated shader cost or sustained minimum FPS."
+  ],
+  "adoption": {
+    "game": "v12",
+    "detailStrength": 0.35,
+    "tileMetres": 1.8,
+    "normalScale": 0.22,
+    "import": {
+      "meta": "GameProject/Assets/BorrowedLight/Resources/Textures/GroundDetailV12.png.meta",
+      "sha256": "A672FCCD21B3CF12682D1C89915E40574ED7FA2C826F56A050711090A2556833",
+      "standalone": {
+        "platform": "Standalone",
+        "overridden": 1,
+        "format": 10,
+        "maxTextureSize": 1024,
+        "compression": 2,
+        "compressionQuality": 100,
+        "crunched": 0
+      },
+      "web": {
+        "platform": "WebGL",
+        "overridden": 1,
+        "format": 4,
+        "maxTextureSize": 2048,
+        "compression": 0,
+        "compressionQuality": 50,
+        "crunched": 0
+      },
+      "compressionReview": {
+        "decision": "art/verification/v12-ground-compression/decision.json",
+        "study": "art/verification/v12-ground-compression/ground-detail-study.json",
+        "captureComparison": "art/verification/v12-ground-compression/capture-condition-comparison.json",
+        "buildEvidence": "art/verification/v12-ground-compression/build-evidence.json",
+        "windowsBuild": "build_c217a6ee8275",
+        "detailMap": {
+          "name": "GroundDetailV12",
+          "format": "DXT1",
+          "graphicsFormat": "RGBA_DXT1_SRGB",
+          "width": 1024,
+          "height": 1024,
+          "mipCount": 11,
+          "aniso": 4,
+          "filter": "Trilinear",
+          "wrap": "Repeat"
+        },
+        "summary": "Windows 地面细节采用 1024×1024 DXT1 导入：正常路径层次与路线可读性基本保留，近景最细颗粒略软，未见明显方块、接缝或大块糊平。仅限固定画面质量采用，性能结论另见正常游戏记录；Web 保持 1254×1254 RGBA32。",
+        "limits": [
+          "最细颗粒与纤维略软，灯旁近景仍有均匀铺毯感。",
+          "引擎导入进行了缩小和有损块压缩；原PNG与Resources PNG字节未改。",
+          "仅此Windows导入配置已做固定画面对照，Web仍使用原RGBA32配置。",
+          "静态图不证明帧率提升或动态无闪烁。",
+          "整体视觉超过参考网站的目标尚未达到。"
+        ],
+        "scope": "Native importer-only review; original PNG bytes unchanged. Original ground adoption remains the separate RGBA32 static comparison. No claim of zero rendering cost."
+      }
+    },
+    "nativeQA": "art/verification/run-032-v12/runtime-results.json",
+    "webQA": "art/verification/web-013-v12/runtime-results.json",
+    "scope": "Fixed visual review plus final functional QA; no isolated ground-shader performance gain or all-angle claim."
+  }
+}

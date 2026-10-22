@@ -1,0 +1,71 @@
+{
+  "passed": true,
+  "baseline": "art/verification/v14-face-geometry-baseline",
+  "candidate": "art/verification/v14-face-geometry-candidate",
+  "lightsMatch": true,
+  "recordedMaterialsMatch": true,
+  "camerasAndPosesMatch": true,
+  "images": [
+    {
+      "path": "art/verification/v14-face-geometry-baseline/01-front-open.png",
+      "width": 1440,
+      "height": 900,
+      "complete": true
+    },
+    {
+      "path": "art/verification/v14-face-geometry-baseline/02-three-quarter-open.png",
+      "width": 1440,
+      "height": 900,
+      "complete": true
+    },
+    {
+      "path": "art/verification/v14-face-geometry-baseline/03-side-open.png",
+      "width": 1440,
+      "height": 900,
+      "complete": true
+    },
+    {
+      "path": "art/verification/v14-face-geometry-baseline/04-front-closed.png",
+      "width": 1440,
+      "height": 900,
+      "complete": true
+    },
+    {
+      "path": "art/verification/v14-face-geometry-baseline/05-front-open-repeat.png",
+      "width": 1440,
+      "height": 900,
+      "complete": true
+    },
+    {
+      "path": "art/verification/v14-face-geometry-candidate/01-front-open.png",
+      "width": 1440,
+      "height": 900,
+      "complete": true
+    },
+    {
+      "path": "art/verification/v14-face-geometry-candidate/02-three-quarter-open.png",
+      "width": 1440,
+      "height": 900,
+      "complete": true
+    },
+    {
+      "path": "art/verification/v14-face-geometry-candidate/03-side-open.png",
+      "width": 1440,
+      "height": 900,
+      "complete": true
+    },
+    {
+      "path": "art/verification/v14-face-geometry-candidate/04-front-closed.png",
+      "width": 1440,
+      "height": 900,
+      "complete": true
+    },
+    {
+      "path": "art/verification/v14-face-geometry-candidate/05-front-open-repeat.png",
+      "width": 1440,
+      "height": 900,
+      "complete": true
+    }
+  ],
+  "scope": "Five fixed bind-pose views at original lighting; recorded material properties match. Does not establish normal gameplay, all animation poses, full material byte identity or aesthetic acceptance."
+}

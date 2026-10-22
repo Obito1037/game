@@ -1,0 +1,1113 @@
+{
+    "purpose": "Fixed v11 geometry eye-colour study. Original Lit, neutral custom Lit, contact-only, iris-only, combined and baseline-repeat; staged pose, not normal gameplay or FPS.",
+    "completed": true,
+    "failed": false,
+    "allInvariantsPassed": true,
+    "saveRestored": true,
+    "stage": "gameplay-distance-baseline-repeat",
+    "failure": "",
+    "width": 1440,
+    "height": 900,
+    "expectedImages": 18,
+    "capturedImages": 18,
+    "targets": [
+        "Head_Eye_Ivory",
+        "Head_Eye_AmberRim",
+        "Head_Eye_Chestnut"
+    ],
+    "variants": [
+        "baseline",
+        "neutral-shader",
+        "contact-only",
+        "iris-only",
+        "combined",
+        "baseline-repeat"
+    ],
+    "lights": [
+        {
+            "id": -590,
+            "cullingMask": -1,
+            "name": "The warmth of remembered stories",
+            "type": "Directional",
+            "shadows": "None",
+            "enabled": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "localPosition": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.1884319931268692,
+                "y": 0.4133830666542053,
+                "z": -0.08786728233098984,
+                "w": 0.8865028023719788
+            },
+            "color": {
+                "r": 1.0,
+                "g": 0.878000020980835,
+                "b": 0.7409999966621399,
+                "a": 1.0
+            },
+            "intensity": 0.18000000715255738,
+            "range": 5.0,
+            "spotAngle": 30.0,
+            "colorTemperature": 6570.0,
+            "shadowBias": 0.05000000074505806,
+            "shadowNormalBias": 0.4000000059604645,
+            "useColorTemperature": false
+        },
+        {
+            "id": -596,
+            "cullingMask": -1,
+            "name": "Someone is still awake",
+            "type": "Point",
+            "shadows": "None",
+            "enabled": true,
+            "position": {
+                "x": -4.099999904632568,
+                "y": 2.299999952316284,
+                "z": 2.5999999046325685
+            },
+            "localPosition": {
+                "x": -4.099999904632568,
+                "y": 2.299999952316284,
+                "z": 2.5999999046325685
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "color": {
+                "r": 1.0,
+                "g": 0.7200000286102295,
+                "b": 0.4000000059604645,
+                "a": 1.0
+            },
+            "intensity": 1.25,
+            "range": 4.5,
+            "spotAngle": 30.0,
+            "colorTemperature": 6570.0,
+            "shadowBias": 0.05000000074505806,
+            "shadowNormalBias": 0.4000000059604645,
+            "useColorTemperature": false
+        },
+        {
+            "id": -1710,
+            "cullingMask": -1,
+            "name": "A soft reflection on the traveler",
+            "type": "Point",
+            "shadows": "None",
+            "enabled": true,
+            "position": {
+                "x": 0.0,
+                "y": 1.350000023841858,
+                "z": -2.75
+            },
+            "localPosition": {
+                "x": 0.0,
+                "y": 1.25,
+                "z": 0.550000011920929
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "color": {
+                "r": 1.0,
+                "g": 0.949999988079071,
+                "b": 0.8799999952316284,
+                "a": 1.0
+            },
+            "intensity": 0.23000000417232514,
+            "range": 1.100000023841858,
+            "spotAngle": 30.0,
+            "colorTemperature": 6570.0,
+            "shadowBias": 0.05000000074505806,
+            "shadowNormalBias": 0.4000000059604645,
+            "useColorTemperature": false
+        },
+        {
+            "id": -1826,
+            "cullingMask": -1,
+            "name": "Warmth from lamp 0",
+            "type": "Point",
+            "shadows": "None",
+            "enabled": true,
+            "position": {
+                "x": -4.5,
+                "y": 2.049999952316284,
+                "z": -2.0
+            },
+            "localPosition": {
+                "x": -4.5,
+                "y": 2.049999952316284,
+                "z": -2.0
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "color": {
+                "r": 1.0,
+                "g": 0.6600000262260437,
+                "b": 0.28999999165534975,
+                "a": 1.0
+            },
+            "intensity": 2.0999999046325685,
+            "range": 5.0,
+            "spotAngle": 30.0,
+            "colorTemperature": 6570.0,
+            "shadowBias": 0.05000000074505806,
+            "shadowNormalBias": 0.4000000059604645,
+            "useColorTemperature": false
+        },
+        {
+            "id": -584,
+            "cullingMask": -1,
+            "name": "Blue hour",
+            "type": "Directional",
+            "shadows": "None",
+            "enabled": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "localPosition": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.07301944494247437,
+                "y": 0.9069052934646606,
+                "z": -0.1762845367193222,
+                "w": 0.3756524622440338
+            },
+            "color": {
+                "r": 0.3199999928474426,
+                "g": 0.5699999928474426,
+                "b": 0.8500000238418579,
+                "a": 1.0
+            },
+            "intensity": 0.3499999940395355,
+            "range": 5.0,
+            "spotAngle": 30.0,
+            "colorTemperature": 6570.0,
+            "shadowBias": 0.05000000074505806,
+            "shadowNormalBias": 0.4000000059604645,
+            "useColorTemperature": false
+        },
+        {
+            "id": -2094,
+            "cullingMask": -1,
+            "name": "A place that needs light 3",
+            "type": "Point",
+            "shadows": "None",
+            "enabled": true,
+            "position": {
+                "x": 6.900000095367432,
+                "y": 0.7200000286102295,
+                "z": -3.3499999046325685
+            },
+            "localPosition": {
+                "x": 6.900000095367432,
+                "y": 0.7200000286102295,
+                "z": -3.3499999046325685
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "color": {
+                "r": 1.0,
+                "g": 0.7099999785423279,
+                "b": 0.38999998569488528,
+                "a": 1.0
+            },
+            "intensity": 1.600000023841858,
+            "range": 3.5,
+            "spotAngle": 30.0,
+            "colorTemperature": 6570.0,
+            "shadowBias": 0.05000000074505806,
+            "shadowNormalBias": 0.4000000059604645,
+            "useColorTemperature": false
+        },
+        {
+            "id": -578,
+            "cullingMask": -1,
+            "name": "The light of the moon",
+            "type": "Directional",
+            "shadows": "Soft",
+            "enabled": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "localPosition": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.3104998767375946,
+                "y": -0.28432294726371767,
+                "z": 0.09790023416280747,
+                "w": 0.9017571210861206
+            },
+            "color": {
+                "r": 0.7730000019073486,
+                "g": 0.8159999847412109,
+                "b": 0.8669999837875366,
+                "a": 1.0
+            },
+            "intensity": 0.6200000047683716,
+            "range": 5.0,
+            "spotAngle": 30.0,
+            "colorTemperature": 6570.0,
+            "shadowBias": 0.03500000014901161,
+            "shadowNormalBias": 0.2199999988079071,
+            "useColorTemperature": false
+        },
+        {
+            "id": -2058,
+            "cullingMask": -1,
+            "name": "A place that needs light 0",
+            "type": "Point",
+            "shadows": "None",
+            "enabled": true,
+            "position": {
+                "x": -1.7999999523162842,
+                "y": 0.6800000071525574,
+                "z": -3.200000047683716
+            },
+            "localPosition": {
+                "x": -1.7999999523162842,
+                "y": 0.6800000071525574,
+                "z": -3.200000047683716
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "color": {
+                "r": 1.0,
+                "g": 0.7099999785423279,
+                "b": 0.38999998569488528,
+                "a": 1.0
+            },
+            "intensity": 1.600000023841858,
+            "range": 3.5,
+            "spotAngle": 30.0,
+            "colorTemperature": 6570.0,
+            "shadowBias": 0.05000000074505806,
+            "shadowNormalBias": 0.4000000059604645,
+            "useColorTemperature": false
+        },
+        {
+            "id": -2082,
+            "cullingMask": -1,
+            "name": "A place that needs light 2",
+            "type": "Point",
+            "shadows": "None",
+            "enabled": true,
+            "position": {
+                "x": -4.099999904632568,
+                "y": 2.200000047683716,
+                "z": 3.049999952316284
+            },
+            "localPosition": {
+                "x": -4.099999904632568,
+                "y": 2.200000047683716,
+                "z": 3.049999952316284
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "color": {
+                "r": 1.0,
+                "g": 0.7099999785423279,
+                "b": 0.38999998569488528,
+                "a": 1.0
+            },
+            "intensity": 1.600000023841858,
+            "range": 2.5,
+            "spotAngle": 30.0,
+            "colorTemperature": 6570.0,
+            "shadowBias": 0.05000000074505806,
+            "shadowNormalBias": 0.4000000059604645,
+            "useColorTemperature": false
+        },
+        {
+            "id": -1704,
+            "cullingMask": -1,
+            "name": "The light we carry",
+            "type": "Point",
+            "shadows": "None",
+            "enabled": true,
+            "position": {
+                "x": -0.2401200532913208,
+                "y": 0.7440321445465088,
+                "z": -3.240600109100342
+            },
+            "localPosition": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.70710688829422,
+                "y": -5.2683560625155226e-8,
+                "z": 1.053671638828746e-8,
+                "w": -0.7071066498756409
+            },
+            "color": {
+                "r": 1.0,
+                "g": 0.699999988079071,
+                "b": 0.38999998569488528,
+                "a": 1.0
+            },
+            "intensity": 0.18000000715255738,
+            "range": 2.200000047683716,
+            "spotAngle": 30.0,
+            "colorTemperature": 6570.0,
+            "shadowBias": 0.05000000074505806,
+            "shadowNormalBias": 0.4000000059604645,
+            "useColorTemperature": false
+        },
+        {
+            "id": -2070,
+            "cullingMask": -1,
+            "name": "A place that needs light 1",
+            "type": "Point",
+            "shadows": "None",
+            "enabled": true,
+            "position": {
+                "x": -5.800000190734863,
+                "y": 0.7000000476837158,
+                "z": 0.15000000596046449
+            },
+            "localPosition": {
+                "x": -5.800000190734863,
+                "y": 0.7000000476837158,
+                "z": 0.15000000596046449
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "color": {
+                "r": 1.0,
+                "g": 0.7099999785423279,
+                "b": 0.38999998569488528,
+                "a": 1.0
+            },
+            "intensity": 1.600000023841858,
+            "range": 3.5,
+            "spotAngle": 30.0,
+            "colorTemperature": 6570.0,
+            "shadowBias": 0.05000000074505806,
+            "shadowNormalBias": 0.4000000059604645,
+            "useColorTemperature": false
+        },
+        {
+            "id": -1936,
+            "cullingMask": -1,
+            "name": "Warmth from lamp 1",
+            "type": "Point",
+            "shadows": "None",
+            "enabled": true,
+            "position": {
+                "x": 1.7999999523162842,
+                "y": 2.049999952316284,
+                "z": 3.4000000953674318
+            },
+            "localPosition": {
+                "x": 1.7999999523162842,
+                "y": 2.049999952316284,
+                "z": 3.4000000953674318
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "color": {
+                "r": 1.0,
+                "g": 0.6600000262260437,
+                "b": 0.28999999165534975,
+                "a": 1.0
+            },
+            "intensity": 2.0999999046325685,
+            "range": 5.0,
+            "spotAngle": 30.0,
+            "colorTemperature": 6570.0,
+            "shadowBias": 0.05000000074505806,
+            "shadowNormalBias": 0.4000000059604645,
+            "useColorTemperature": false
+        },
+        {
+            "id": -2046,
+            "cullingMask": -1,
+            "name": "Warmth from lamp 2",
+            "type": "Point",
+            "shadows": "None",
+            "enabled": true,
+            "position": {
+                "x": 4.699999809265137,
+                "y": 2.049999952316284,
+                "z": -2.4000000953674318
+            },
+            "localPosition": {
+                "x": 4.699999809265137,
+                "y": 2.049999952316284,
+                "z": -2.4000000953674318
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "color": {
+                "r": 1.0,
+                "g": 0.6600000262260437,
+                "b": 0.28999999165534975,
+                "a": 1.0
+            },
+            "intensity": 2.0999999046325685,
+            "range": 5.0,
+            "spotAngle": 30.0,
+            "colorTemperature": 6570.0,
+            "shadowBias": 0.05000000074505806,
+            "shadowNormalBias": 0.4000000059604645,
+            "useColorTemperature": false
+        }
+    ],
+    "originalEyeMaterials": [
+        {
+            "name": "Traveler_Eye_Ivory — story light",
+            "shader": "Universal Render Pipeline/Lit",
+            "baseMap": "",
+            "normalMap": "",
+            "detailMap": "",
+            "keywords": [],
+            "baseColor": {
+                "r": 0.8543057441711426,
+                "g": 0.8515938520431519,
+                "b": 0.8152506351470947,
+                "a": 1.0
+            },
+            "metallic": 0.0,
+            "smoothness": 0.18000000715255738,
+            "normalScale": 1.0,
+            "detailStrength": 1.0,
+            "cull": 0.0,
+            "foliageLegacyAux": 0.0,
+            "foliageNormalUp20": 0.0,
+            "baseTiling": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "baseOffset": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "detailTiling": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "detailOffset": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "doubleSidedGI": true
+        },
+        {
+            "name": "Traveler_Eye_AmberRim — story light",
+            "shader": "Universal Render Pipeline/Lit",
+            "baseMap": "",
+            "normalMap": "",
+            "detailMap": "",
+            "keywords": [],
+            "baseColor": {
+                "r": 0.5321354866027832,
+                "g": 0.41686996817588808,
+                "b": 0.3055160939693451,
+                "a": 1.0
+            },
+            "metallic": 0.0,
+            "smoothness": 0.3199999928474426,
+            "normalScale": 1.0,
+            "detailStrength": 1.0,
+            "cull": 0.0,
+            "foliageLegacyAux": 0.0,
+            "foliageNormalUp20": 0.0,
+            "baseTiling": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "baseOffset": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "detailTiling": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "detailOffset": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "doubleSidedGI": true
+        },
+        {
+            "name": "Traveler_Eye_Chestnut — story light",
+            "shader": "Universal Render Pipeline/Lit",
+            "baseMap": "",
+            "normalMap": "",
+            "detailMap": "",
+            "keywords": [],
+            "baseColor": {
+                "r": 0.4956096410751343,
+                "g": 0.36873388290405276,
+                "b": 0.2671172618865967,
+                "a": 1.0
+            },
+            "metallic": 0.0,
+            "smoothness": 0.3199999928474426,
+            "normalScale": 1.0,
+            "detailStrength": 1.0,
+            "cull": 0.0,
+            "foliageLegacyAux": 0.0,
+            "foliageNormalUp20": 0.0,
+            "baseTiling": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "baseOffset": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "detailTiling": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "detailOffset": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "doubleSidedGI": true
+        }
+    ],
+    "samples": [
+        {
+            "image": "front-baseline.png",
+            "view": "front",
+            "variant": "baseline",
+            "width": 1440,
+            "height": 900,
+            "contact": 0.0,
+            "iris": 0.0,
+            "fieldOfView": 30.0,
+            "cameraPosition": {
+                "x": 9.616505280973797e-8,
+                "y": 1.2699999809265137,
+                "z": -2.1999998092651369
+            },
+            "cameraRotation": {
+                "x": 0.0,
+                "y": 1.0,
+                "z": 0.0,
+                "w": -4.371138118131057e-8
+            },
+            "pngComplete": true,
+            "transformsMatch": true,
+            "lightsMatch": true,
+            "materialsMatch": true,
+            "assignmentsMatch": true,
+            "cameraMatch": true
+        },
+        {
+            "image": "front-neutral-shader.png",
+            "view": "front",
+            "variant": "neutral-shader",
+            "width": 1440,
+            "height": 900,
+            "contact": 0.0,
+            "iris": 0.0,
+            "fieldOfView": 30.0,
+            "cameraPosition": {
+                "x": 9.616505280973797e-8,
+                "y": 1.2699999809265137,
+                "z": -2.1999998092651369
+            },
+            "cameraRotation": {
+                "x": 0.0,
+                "y": 1.0,
+                "z": 0.0,
+                "w": -4.371138118131057e-8
+            },
+            "pngComplete": true,
+            "transformsMatch": true,
+            "lightsMatch": true,
+            "materialsMatch": true,
+            "assignmentsMatch": true,
+            "cameraMatch": true
+        },
+        {
+            "image": "front-contact-only.png",
+            "view": "front",
+            "variant": "contact-only",
+            "width": 1440,
+            "height": 900,
+            "contact": 1.0,
+            "iris": 0.0,
+            "fieldOfView": 30.0,
+            "cameraPosition": {
+                "x": 9.616505280973797e-8,
+                "y": 1.2699999809265137,
+                "z": -2.1999998092651369
+            },
+            "cameraRotation": {
+                "x": 0.0,
+                "y": 1.0,
+                "z": 0.0,
+                "w": -4.371138118131057e-8
+            },
+            "pngComplete": true,
+            "transformsMatch": true,
+            "lightsMatch": true,
+            "materialsMatch": true,
+            "assignmentsMatch": true,
+            "cameraMatch": true
+        },
+        {
+            "image": "front-iris-only.png",
+            "view": "front",
+            "variant": "iris-only",
+            "width": 1440,
+            "height": 900,
+            "contact": 0.0,
+            "iris": 1.0,
+            "fieldOfView": 30.0,
+            "cameraPosition": {
+                "x": 9.616505280973797e-8,
+                "y": 1.2699999809265137,
+                "z": -2.1999998092651369
+            },
+            "cameraRotation": {
+                "x": 0.0,
+                "y": 1.0,
+                "z": 0.0,
+                "w": -4.371138118131057e-8
+            },
+            "pngComplete": true,
+            "transformsMatch": true,
+            "lightsMatch": true,
+            "materialsMatch": true,
+            "assignmentsMatch": true,
+            "cameraMatch": true
+        },
+        {
+            "image": "front-combined.png",
+            "view": "front",
+            "variant": "combined",
+            "width": 1440,
+            "height": 900,
+            "contact": 1.0,
+            "iris": 1.0,
+            "fieldOfView": 30.0,
+            "cameraPosition": {
+                "x": 9.616505280973797e-8,
+                "y": 1.2699999809265137,
+                "z": -2.1999998092651369
+            },
+            "cameraRotation": {
+                "x": 0.0,
+                "y": 1.0,
+                "z": 0.0,
+                "w": -4.371138118131057e-8
+            },
+            "pngComplete": true,
+            "transformsMatch": true,
+            "lightsMatch": true,
+            "materialsMatch": true,
+            "assignmentsMatch": true,
+            "cameraMatch": true
+        },
+        {
+            "image": "front-baseline-repeat.png",
+            "view": "front",
+            "variant": "baseline-repeat",
+            "width": 1440,
+            "height": 900,
+            "contact": 0.0,
+            "iris": 0.0,
+            "fieldOfView": 30.0,
+            "cameraPosition": {
+                "x": 9.616505280973797e-8,
+                "y": 1.2699999809265137,
+                "z": -2.1999998092651369
+            },
+            "cameraRotation": {
+                "x": 0.0,
+                "y": 1.0,
+                "z": 0.0,
+                "w": -4.371138118131057e-8
+            },
+            "pngComplete": true,
+            "transformsMatch": true,
+            "lightsMatch": true,
+            "materialsMatch": true,
+            "assignmentsMatch": true,
+            "cameraMatch": true
+        },
+        {
+            "image": "three-quarter-baseline.png",
+            "view": "three-quarter",
+            "variant": "baseline",
+            "width": 1440,
+            "height": 900,
+            "contact": 0.0,
+            "iris": 0.0,
+            "fieldOfView": 30.0,
+            "cameraPosition": {
+                "x": -0.6309341192245483,
+                "y": 1.2699999809265137,
+                "z": -2.398932695388794
+            },
+            "cameraRotation": {
+                "x": 0.0,
+                "y": 0.9537169933319092,
+                "z": 0.0,
+                "w": 0.30070579051971438
+            },
+            "pngComplete": true,
+            "transformsMatch": true,
+            "lightsMatch": true,
+            "materialsMatch": true,
+            "assignmentsMatch": true,
+            "cameraMatch": true
+        },
+        {
+            "image": "three-quarter-neutral-shader.png",
+            "view": "three-quarter",
+            "variant": "neutral-shader",
+            "width": 1440,
+            "height": 900,
+            "contact": 0.0,
+            "iris": 0.0,
+            "fieldOfView": 30.0,
+            "cameraPosition": {
+                "x": -0.6309341192245483,
+                "y": 1.2699999809265137,
+                "z": -2.398932695388794
+            },
+            "cameraRotation": {
+                "x": 0.0,
+                "y": 0.9537169933319092,
+                "z": 0.0,
+                "w": 0.30070579051971438
+            },
+            "pngComplete": true,
+            "transformsMatch": true,
+            "lightsMatch": true,
+            "materialsMatch": true,
+            "assignmentsMatch": true,
+            "cameraMatch": true
+        },
+        {
+            "image": "three-quarter-contact-only.png",
+            "view": "three-quarter",
+            "variant": "contact-only",
+            "width": 1440,
+            "height": 900,
+            "contact": 1.0,
+            "iris": 0.0,
+            "fieldOfView": 30.0,
+            "cameraPosition": {
+                "x": -0.6309341192245483,
+                "y": 1.2699999809265137,
+                "z": -2.398932695388794
+            },
+            "cameraRotation": {
+                "x": 0.0,
+                "y": 0.9537169933319092,
+                "z": 0.0,
+                "w": 0.30070579051971438
+            },
+            "pngComplete": true,
+            "transformsMatch": true,
+            "lightsMatch": true,
+            "materialsMatch": true,
+            "assignmentsMatch": true,
+            "cameraMatch": true
+        },
+        {
+            "image": "three-quarter-iris-only.png",
+            "view": "three-quarter",
+            "variant": "iris-only",
+            "width": 1440,
+            "height": 900,
+            "contact": 0.0,
+            "iris": 1.0,
+            "fieldOfView": 30.0,
+            "cameraPosition": {
+                "x": -0.6309341192245483,
+                "y": 1.2699999809265137,
+                "z": -2.398932695388794
+            },
+            "cameraRotation": {
+                "x": 0.0,
+                "y": 0.9537169933319092,
+                "z": 0.0,
+                "w": 0.30070579051971438
+            },
+            "pngComplete": true,
+            "transformsMatch": true,
+            "lightsMatch": true,
+            "materialsMatch": true,
+            "assignmentsMatch": true,
+            "cameraMatch": true
+        },
+        {
+            "image": "three-quarter-combined.png",
+            "view": "three-quarter",
+            "variant": "combined",
+            "width": 1440,
+            "height": 900,
+            "contact": 1.0,
+            "iris": 1.0,
+            "fieldOfView": 30.0,
+            "cameraPosition": {
+                "x": -0.6309341192245483,
+                "y": 1.2699999809265137,
+                "z": -2.398932695388794
+            },
+            "cameraRotation": {
+                "x": 0.0,
+                "y": 0.9537169933319092,
+                "z": 0.0,
+                "w": 0.30070579051971438
+            },
+            "pngComplete": true,
+            "transformsMatch": true,
+            "lightsMatch": true,
+            "materialsMatch": true,
+            "assignmentsMatch": true,
+            "cameraMatch": true
+        },
+        {
+            "image": "three-quarter-baseline-repeat.png",
+            "view": "three-quarter",
+            "variant": "baseline-repeat",
+            "width": 1440,
+            "height": 900,
+            "contact": 0.0,
+            "iris": 0.0,
+            "fieldOfView": 30.0,
+            "cameraPosition": {
+                "x": -0.6309341192245483,
+                "y": 1.2699999809265137,
+                "z": -2.398932695388794
+            },
+            "cameraRotation": {
+                "x": 0.0,
+                "y": 0.9537169933319092,
+                "z": 0.0,
+                "w": 0.30070579051971438
+            },
+            "pngComplete": true,
+            "transformsMatch": true,
+            "lightsMatch": true,
+            "materialsMatch": true,
+            "assignmentsMatch": true,
+            "cameraMatch": true
+        },
+        {
+            "image": "gameplay-distance-baseline.png",
+            "view": "gameplay-distance",
+            "variant": "baseline",
+            "width": 1440,
+            "height": 900,
+            "contact": 0.0,
+            "iris": 0.0,
+            "fieldOfView": 40.0,
+            "cameraPosition": {
+                "x": -1.119938611984253,
+                "y": 1.0799999237060547,
+                "z": -0.8982841968536377
+            },
+            "cameraRotation": {
+                "x": 0.010175535455346108,
+                "y": 0.9752165079116821,
+                "z": -0.04589886590838432,
+                "w": 0.2162003368139267
+            },
+            "pngComplete": true,
+            "transformsMatch": true,
+            "lightsMatch": true,
+            "materialsMatch": true,
+            "assignmentsMatch": true,
+            "cameraMatch": true
+        },
+        {
+            "image": "gameplay-distance-neutral-shader.png",
+            "view": "gameplay-distance",
+            "variant": "neutral-shader",
+            "width": 1440,
+            "height": 900,
+            "contact": 0.0,
+            "iris": 0.0,
+            "fieldOfView": 40.0,
+            "cameraPosition": {
+                "x": -1.119938611984253,
+                "y": 1.0799999237060547,
+                "z": -0.8982841968536377
+            },
+            "cameraRotation": {
+                "x": 0.010175535455346108,
+                "y": 0.9752165079116821,
+                "z": -0.04589886590838432,
+                "w": 0.2162003368139267
+            },
+            "pngComplete": true,
+            "transformsMatch": true,
+            "lightsMatch": true,
+            "materialsMatch": true,
+            "assignmentsMatch": true,
+            "cameraMatch": true
+        },
+        {
+            "image": "gameplay-distance-contact-only.png",
+            "view": "gameplay-distance",
+            "variant": "contact-only",
+            "width": 1440,
+            "height": 900,
+            "contact": 1.0,
+            "iris": 0.0,
+            "fieldOfView": 40.0,
+            "cameraPosition": {
+                "x": -1.119938611984253,
+                "y": 1.0799999237060547,
+                "z": -0.8982841968536377
+            },
+            "cameraRotation": {
+                "x": 0.010175535455346108,
+                "y": 0.9752165079116821,
+                "z": -0.04589886590838432,
+                "w": 0.2162003368139267
+            },
+            "pngComplete": true,
+            "transformsMatch": true,
+            "lightsMatch": true,
+            "materialsMatch": true,
+            "assignmentsMatch": true,
+            "cameraMatch": true
+        },
+        {
+            "image": "gameplay-distance-iris-only.png",
+            "view": "gameplay-distance",
+            "variant": "iris-only",
+            "width": 1440,
+            "height": 900,
+            "contact": 0.0,
+            "iris": 1.0,
+            "fieldOfView": 40.0,
+            "cameraPosition": {
+                "x": -1.119938611984253,
+                "y": 1.0799999237060547,
+                "z": -0.8982841968536377
+            },
+            "cameraRotation": {
+                "x": 0.010175535455346108,
+                "y": 0.9752165079116821,
+                "z": -0.04589886590838432,
+                "w": 0.2162003368139267
+            },
+            "pngComplete": true,
+            "transformsMatch": true,
+            "lightsMatch": true,
+            "materialsMatch": true,
+            "assignmentsMatch": true,
+            "cameraMatch": true
+        },
+        {
+            "image": "gameplay-distance-combined.png",
+            "view": "gameplay-distance",
+            "variant": "combined",
+            "width": 1440,
+            "height": 900,
+            "contact": 1.0,
+            "iris": 1.0,
+            "fieldOfView": 40.0,
+            "cameraPosition": {
+                "x": -1.119938611984253,
+                "y": 1.0799999237060547,
+                "z": -0.8982841968536377
+            },
+            "cameraRotation": {
+                "x": 0.010175535455346108,
+                "y": 0.9752165079116821,
+                "z": -0.04589886590838432,
+                "w": 0.2162003368139267
+            },
+            "pngComplete": true,
+            "transformsMatch": true,
+            "lightsMatch": true,
+            "materialsMatch": true,
+            "assignmentsMatch": true,
+            "cameraMatch": true
+        },
+        {
+            "image": "gameplay-distance-baseline-repeat.png",
+            "view": "gameplay-distance",
+            "variant": "baseline-repeat",
+            "width": 1440,
+            "height": 900,
+            "contact": 0.0,
+            "iris": 0.0,
+            "fieldOfView": 40.0,
+            "cameraPosition": {
+                "x": -1.119938611984253,
+                "y": 1.0799999237060547,
+                "z": -0.8982841968536377
+            },
+            "cameraRotation": {
+                "x": 0.010175535455346108,
+                "y": 0.9752165079116821,
+                "z": -0.04589886590838432,
+                "w": 0.2162003368139267
+            },
+            "pngComplete": true,
+            "transformsMatch": true,
+            "lightsMatch": true,
+            "materialsMatch": true,
+            "assignmentsMatch": true,
+            "cameraMatch": true
+        }
+    ]
+}

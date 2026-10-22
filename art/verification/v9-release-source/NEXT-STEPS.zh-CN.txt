@@ -1,0 +1,60 @@
+游戏开发工具：验收结果与日常使用（v9）
+
+免费本地工具链已完成安装与实时连接验收：
+1. Blender 4.5.14 LTS：版本运行、场景保存、GLB 和 FBX 导出均已通过。
+2. Unity Hub 3.22.3、Unity 6.3 LTS（6000.3.26f1）及 Web 构建模块已安装。
+3. Unity 账号已登录，Editor 已通过许可检查，GameProject 已正常导入和编译。
+4. Unity CLI 1.0.0-beta.13、Pipeline 0.8.0-exp.1 已连通，安装验收时 Editor 状态 ready；后续操作前需重新检查实时状态。
+5. 官方 Unity MCP 已发现 160 个工具，实际只读工具调用成功返回 Editor 版本 6000.3.26f1。
+《借光岛》v9 的 Windows 与 WebGL 构建和实际运行验证已完成。
+试玩：双击上一级 Open-Borrowed-Light.cmd 或 Open-Borrowed-Light-Web.cmd；网页仅本机提供服务。
+v9 使用 world-v7 与 character-v8，岛屿 412,815 三角，角色 77,132 三角、62 renderer / 28 skinned / 12 bones。身体、两袖、腿鞋、骨架与附件的数据保护检查通过；游戏流程和地面资源保留。
+人物面部采用按实际节点间距连续插值的剖面，并重做鼻颊口周、眼裂和闭眼片；头部顶点色与三个眼部底色也有更新，因此新旧脸的收益不能全部归于单一几何修正。眼白/虹膜/瞳孔分别降低光滑度，夜景灯光与 0.23 面部补光保持。
+地面根部接触染色仅作为未采用候选保留：固定 A/B 的游玩尺寸收益不足，未加入运行包。其早期“线性暗化”统计误标已更正，实际图像、审计及拒绝理由保留。
+修复新版 Input System 归一化滚轮与旧缩放系数不匹配的问题：每刻度距离变化改为 0.35，保留 2.5–10 的距离限制。原生输入正反刻度及网页真实滚轮分别验证。
+
+Windows 构建 build_4f99c761ca99：三章通关、键盘启动、行走、暂停恢复、重开、返回结尾和既有碰撞/接地检查通过；16/16 主石指定方向探测通过。两只实际蒙皮鞋底 220 个静止采样，最小净空 0.001412 m，不能据此证明所有动态姿态。
+Web 构建 build_d7f44f9d30f9：真实键盘通关、刷新续玩、默认音频恢复和跨源隔离通过；浏览器异常数组为空。Unity 兼容性提示见原日志，不能称日志完全无提示。
+本轮真实鼠标环视/缩放后的自然待机与眨眼录像见 web-v9-portrait-video/；录像审查范围和结论见 review.json。该路线不覆盖所有转头、眨眼中间姿态或完整步态，录制帧率不是游戏帧率。
+Iris Xe / 1440×900 原生短样本：菜单 60.5、总览 57.1、漫步视角 39.9、近景 56.1、末段 43.7 FPS。网页各视角 6×500 ms 前台区间指标中位：停步后的漫步视角 36.50、结尾 51.80。这些短样本不是持续行走平均、全程最低或独立渲染帧计数，也不支持版本间性能收益结论。
+当前压缩网页四个核心文件共 48,925,294 bytes（约 48.9 MB）；缓存下的本机结果不代表首次网络加载速度。
+
+原生：art/verification/run-024-v9/；网页：art/verification/web-010-v9/；眨眼录像：art/verification/web-v9-portrait-video/。
+固定脸部对照、未采用地面试验与限制见 art/verification/visual-review.html。
+新脸下颊与鼻唇衔接更连贯，粗棕色眼眶和遮住虹膜的高光条减少；眼裂仍窄、侧面较平，嘴部及衣料层次仍简化。整体视觉尚未达到“比参考更惊艳”的目标。
+旧版 v8 Windows 包与 Web 文件保存在 builds/archive/，完整复现依赖见 AI-使用与素材来源.zh-CN.txt。
+
+已修复的首次导入问题：
+- Unity Package Manager 未继承系统代理，导致官方下载超时。项目启动脚本现在读取已有 Windows 代理，传给本次启动的 Editor，并让 localhost 连接绕过代理；没有更改系统代理设置。
+- 官方模板原有 Input System 1.12.0 与当前 Editor 编译不兼容，已改用 Unity 6.3 官方发布的 1.20.1。
+
+日常使用：
+- 双击上一级目录的 Open-GameProject.cmd 打开项目，建议使用此入口继承正确的代理配置。
+- 双击 Open-Blender.cmd 打开 Blender。
+- 双击 Game-Tools-Terminal.cmd 打开带 unity、blender 命令的终端。
+- 使用 MCP 时保持 GameProject 的 Editor 打开。若当前 Codex 聊天未加载 Unity MCP，重启 Codex 后在本项目新建聊天。
+- 只读检查当前状态：
+  unity status --json
+  unity pipeline list --json
+- 检查并保存安装状态：
+  powershell -NoProfile -File .\setup\Check-Tools.ps1
+- 重新验证 MCP 实际只读调用：
+  node .\setup\verify_unity_mcp.mjs --verify-editor
+
+验收证据：
+- setup/tool-status.json：最近一次完整状态快照。
+- setup/verification/blender-result.json：Blender 导出验证。
+- setup/verification/unity-mcp-result.json：MCP 握手、工具数与实际调用结果。
+- setup/verification/unity-editor-current.log：当前 Editor 启动日志。
+
+可选外部工具（当前游戏不依赖）：
+- Auto-Rig Pro：本机未安装。它是付费 Blender 插件，准备正版安装包后再安装。
+  https://artell.gumroad.com/l/autorigpro
+- Tripo 和 Mixamo：网页服务，账号权限和额度未纳入本次本地验收。
+  https://www.tripo3d.ai/
+  https://www.mixamo.com/
+
+版本参考：
+https://docs.unity3d.com/6000.3/Documentation/Manual/com.unity.inputsystem.html
+https://docs.unity3d.com/6000.3/Documentation/Manual/upm-config-network.html
+

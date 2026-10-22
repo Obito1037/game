@@ -1,0 +1,48 @@
+{
+  "revision": "v10",
+  "allFilesExist": true,
+  "imageCount": 9,
+  "videoCount": 1,
+  "count": 10,
+  "files": [
+    "../reference/littleprince-gameplay.png",
+    "run-025-v10/07-walking.png",
+    "v10-stone-study/path-baseline.png",
+    "v10-stone-study/path-texture.png",
+    "v10-stone-study/left-rock-texture.png",
+    "v10-silhouette-baseline/three-quarter-current.png",
+    "v10-silhouette-candidate/three-quarter-current.png",
+    "v10-foliage-study/lamp-legacy40.png",
+    "v10-foliage-study/lamp-fixed40.png",
+    "web-v10-gait-video/gait-session-includes-loading.webm"
+  ],
+  "localLinks": [
+    "../reference/littleprince-gameplay.png",
+    "run-025-v10/07-walking.png",
+    "v10-stone-study/path-baseline.png",
+    "v10-stone-study/path-texture.png",
+    "v10-stone-study/left-rock-texture.png",
+    "v10-stone-study/pixel-comparison.json",
+    "v10-stone-study/decision.json",
+    "v10-silhouette-baseline/three-quarter-current.png",
+    "v10-silhouette-candidate/three-quarter-current.png",
+    "v10-silhouette-candidate/capture-condition-comparison.json",
+    "v10-silhouette-candidate/decision.json",
+    "v10-foliage-study/lamp-legacy40.png",
+    "v10-foliage-study/lamp-fixed40.png",
+    "v10-foliage-study/review.json",
+    "web-v10-gait-video/gait-session-includes-loading.webm",
+    "web-v10-gait-video/capture-manifest.json",
+    "web-v10-gait-video/review.json",
+    "run-025-v10/runtime-results.json",
+    "web-011-v10/runtime-results.json"
+  ],
+  "buildIds": {
+    "windows": "build_6b2f1936c854",
+    "web": "build_c472c4b76e7c"
+  },
+  "linkBaseAfterPromotion": "art/verification",
+  "generatedFromAcceptedEvidence": true,
+  "browserLoadingVerified": false,
+  "limitation": "Existence and recorded acceptance checks only. Root must verify static page/media loading after promotion."
+}

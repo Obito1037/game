@@ -1,0 +1,25 @@
+{
+  "reviewed": true,
+  "accepted": true,
+  "scope": "Root and independent mesh author reviewed three complete original fixed-camera pairs. Acceptance is limited to grass shape and coverage before normal-game regression.",
+  "summary": "保留原来的低层覆盖，草叶根部收细并略有弯曲；路径、左暖灯和前景岩石附近未重现上一候选的大块裸地。匍匐叶更贴近地面，宽底刷毛感减轻。采用 world-v10 进入正常游戏检查。",
+  "reviewedImages": [
+    "../v11-plants-candidate/path-fixed40.png",
+    "path-fixed40.png",
+    "../v11-plants-candidate/roots-fixed40.png",
+    "roots-fixed40.png",
+    "../v11-plants-candidate/lamp-fixed40.png",
+    "lamp-fixed40.png"
+  ],
+  "windowsBuild": "build_7c20b5c3a50d",
+  "worldFbxSHA256": "273418CD01A41E95CA5B63050EAC812190511EF0D4577E860E2E6527110BA7A2",
+  "trianglesBefore": 510293,
+  "trianglesAfter": 505782,
+  "limits": [
+    "高草近景仍有折线和扁平叶面，改善幅度有限。",
+    "静态对照不验证动态风摆、移动闪烁或帧率。",
+    "地面细节另行独立对照，草地截图尚未启用新地面。",
+    "整体视觉超过参考网站的目标尚未达到。"
+  ],
+  "aestheticObjectiveAchieved": false
+}

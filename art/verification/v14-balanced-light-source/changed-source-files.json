@@ -1,0 +1,17 @@
+[
+  {
+    "source": "GameProject/Assets/BorrowedLight/Runtime/WorldDirector.cs",
+    "snapshot": "WorldDirector.cs",
+    "sha256": "4F1D8ED0E531B171CD5C37C5694CC4028B91BAA11E4F6AF559400276E90C752F"
+  },
+  {
+    "source": "GameProject/Assets/BorrowedLight/Runtime/WorldFaceLightStudy.cs",
+    "snapshot": "WorldFaceLightStudy.cs",
+    "sha256": "29727B4E7BF99572345107C5D0D43359CABF64294612FB4E803CA1D484649680"
+  },
+  {
+    "source": "GameProject/Assets/BorrowedLight/Runtime/WorldFaceLightStudy.cs.meta",
+    "snapshot": "WorldFaceLightStudy.cs.meta",
+    "sha256": "69E3BEBE1687C47CCD0720EB40C25BE54A345134AF682A48BF7A7BBE29B5FB7C"
+  }
+]

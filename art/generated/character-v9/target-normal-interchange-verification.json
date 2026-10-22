@@ -1,0 +1,86 @@
+{
+  "fbx": {
+    "passed": true,
+    "errors": [],
+    "rows": [
+      {
+        "mesh": "Head_Hair_Indigo",
+        "maximum_angle_degrees": 0.03426402009603798,
+        "unmatched": 0
+      },
+      {
+        "mesh": "Head_Hair_MidnightBlue",
+        "maximum_angle_degrees": 0.030486635221571266,
+        "unmatched": 0
+      },
+      {
+        "mesh": "Sleeve_L",
+        "maximum_angle_degrees": 0.032805301619918265,
+        "unmatched": 0
+      },
+      {
+        "mesh": "Sleeve_R",
+        "maximum_angle_degrees": 0.03166719707547238,
+        "unmatched": 0
+      },
+      {
+        "mesh": "TailoredTunic",
+        "maximum_angle_degrees": 0.03317599477062028,
+        "unmatched": 0
+      },
+      {
+        "mesh": "Trouser_L",
+        "maximum_angle_degrees": 0.032805301619918265,
+        "unmatched": 0
+      },
+      {
+        "mesh": "Trouser_R",
+        "maximum_angle_degrees": 0.030486635221571266,
+        "unmatched": 0
+      }
+    ],
+    "max_angle_degrees": 0.03426402009603798
+  },
+  "glb": {
+    "passed": true,
+    "errors": [],
+    "rows": [
+      {
+        "mesh": "Head_Hair_Indigo",
+        "maximum_angle_degrees": 0.07002851330780141,
+        "unmatched": 0
+      },
+      {
+        "mesh": "Head_Hair_MidnightBlue",
+        "maximum_angle_degrees": 0.02967351172840696,
+        "unmatched": 0
+      },
+      {
+        "mesh": "Sleeve_L",
+        "maximum_angle_degrees": 0.035663122863758445,
+        "unmatched": 0
+      },
+      {
+        "mesh": "Sleeve_R",
+        "maximum_angle_degrees": 0.037664455686860075,
+        "unmatched": 0
+      },
+      {
+        "mesh": "TailoredTunic",
+        "maximum_angle_degrees": 0.03830833920128959,
+        "unmatched": 0
+      },
+      {
+        "mesh": "Trouser_L",
+        "maximum_angle_degrees": 0.033905224647599166,
+        "unmatched": 0
+      },
+      {
+        "mesh": "Trouser_R",
+        "maximum_angle_degrees": 0.03673945040267332,
+        "unmatched": 0
+      }
+    ],
+    "max_angle_degrees": 0.07002851330780141
+  }
+}

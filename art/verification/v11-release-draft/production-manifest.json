@@ -1,0 +1,161 @@
+{
+  "project": "Borrowed Light / 借光岛",
+  "objective": "制作基于 Blender 的高质量可玩游戏，参考 littleprince.dev；完整验收目标是整体视觉体验比参考站更惊艳。目前此审美目标尚未达成。",
+  "reference": {
+    "url": "https://littleprince.dev/",
+    "authorPost": "https://x.com/Saccc_c/status/2110694725640474759",
+    "originalArticle": "https://x.com/i/article/2110601994578866176",
+    "captureMethod": "Isolated Edge session, 1440x900, actual entry / chapter menu / chapter-one gameplay",
+    "screenshots": [
+      "reference/littleprince-entry.png",
+      "reference/littleprince-started.png",
+      "reference/littleprince-gameplay.png"
+    ],
+    "sourceAssetReuse": false
+  },
+  "authoring": {
+    "scene": "generated/world-v8/island.blend",
+    "sceneScript": "blender/build_island_v8.py",
+    "character": "generated/character-v9/traveler.blend",
+    "characterScript": "blender/build_traveler_v9.py",
+    "audioScript": "blender/build_audio.py",
+    "engine": "Unity 6000.3.26f1 / URP",
+    "primaryScene": "GameProject/Assets/BorrowedLight/Scenes/BorrowedLight.unity",
+    "characterDependencies": [
+      "generated/character-v8/",
+      "generated/character-v7/",
+      "generated/character-v6/",
+      "generated/character-v5/"
+    ],
+    "sceneDependencies": [
+      "generated/world-v7/",
+      "generated/world-v6/"
+    ]
+  },
+  "resources": [
+    {
+      "name": "Island and traveler models",
+      "source": "Locally authored Blender Python geometry",
+      "type": "original AI-assisted production"
+    },
+    {
+      "name": "Meadow watercolor texture",
+      "source": "Local Blender production",
+      "type": "original AI-assisted production"
+    },
+    {
+      "name": "Night Letters score and lantern chime",
+      "source": "Original additive synthesis; no sampled recordings",
+      "type": "original AI-assisted production"
+    },
+    {
+      "name": "Watercolor nebula sky",
+      "source": "Built-in image_gen; prompt, SHA256 and provenance in generated/sky/manifest.json",
+      "type": "original AI-generated bitmap"
+    },
+    {
+      "name": "Weathered wood, mossy stone, plaster and tiles",
+      "source": "Original world-coordinate procedural PBR shader, using official URP lighting",
+      "type": "original AI-assisted production"
+    },
+    {
+      "name": "Noto Serif CJK SC",
+      "source": "https://github.com/notofonts/noto-cjk",
+      "license": "SIL Open Font License 1.1",
+      "licenseFile": "GameProject/Assets/BorrowedLight/Resources/Fonts/LICENSE.txt",
+      "modification": "Renamed subset: BorrowedLight Story Serif; 247920 bytes; canonical full source retained; tools/font-subset/build_subset.py; OFL and SUBSET-NOTICE included."
+    },
+    {
+      "name": "StoneV10 original colour texture",
+      "source": "Built-in image_gen; generated/stone-v10/manifest.json",
+      "type": "original AI-generated bitmap; triplanar artistic relief, not measured PBR",
+      "sha256": "17613BDBD49E1D48A99D5B2B3687ABED4DE6D8E19006E25D78ED07FB588D8CF5"
+    }
+  ],
+  "verification": {
+    "blenderInterchange": "art/generated/world-v8/interchange-verification.json: BLEND/FBX/GLB passed; 29 meshes/14 anchors; 27 non-target meshes, textures and materials preserved. This is format/preservation evidence, not full runtime collision or animation coverage.",
+    "characterRoundTrip": "character-v9 保持冻结，本轮没有重新全面验证人物各格式、眨眼和全部步态。其继承自 character-v8 的 GLB 六个零面积下睑／嘴线端点全角法线限制保留；既有七个目标网格法线通过不等于所有格式全域通过。游戏仍使用 FBX。",
+    "purePuzzleRules": "independently checked by gameplay implementation agent",
+    "windowsRuntime": "art/verification/run-029-v11/runtime-results.json: individual native functional checks and 16 boulder probes passed.",
+    "webRuntime": "art/verification/web-012-v11/runtime-results.json: real keyboard completion, reload persistence, default-policy audio resume and isolation passed.",
+    "artifactIdentity": [
+      "art/verification/run-029-v11/build-evidence.json",
+      "art/verification/web-012-v11/artifact-identity.json"
+    ],
+    "performance": "Intel(R) Iris(R) Xe Graphics 原生 全屏 1440×900 短样本：菜单 60、总览 60、漫步视角 59.9、近景 59.8、末段 60 FPS。网页 1440×900 各视角 6×500 ms 前台区间指标中位：停步后的漫步视角 21.45、结尾 30.33。这些短样本不是持续行走平均、全程最低或独立渲染帧计数，不支持版本间性能收益结论。",
+    "fixedPlantComparison": [
+      "art/verification/v11-plants-candidate/decision.json",
+      "art/verification/v11-plants-candidate/capture-condition-comparison.json",
+      "art/verification/v11-plants-candidate/unity-import-comparison.json"
+    ],
+    "shaderChecks": "Existing stone-v10 and Foliage Fixed40 retained; no new shader performance comparison or zero-cost claim.",
+    "scrollInput": "Existing normalized .35 metres/step retained; native forward/reverse-step QA passed.",
+    "finalVisualComparison": "固定机位原图中，紫花由等大尖柱变为细碎花冠，蕨叶的黑硬菱片减少；路径完整画面也能看到改善。新紫穗更细，中远景色量减弱；草群的均匀针状分布和地面层次仍是下一重点。整体审美超过参考站的目标仍未达成。",
+    "currentAnimationLimit": "No new gait/idle/blink-video review for v11. Functional movement QA does not replace exhaustive visual animation review."
+  },
+  "buildIds": {
+    "windows": "build_45ae373ba8b1",
+    "web": "build_afad10959a97"
+  },
+  "disclosure": "../AI-使用与素材来源.zh-CN.txt",
+  "geometry": {
+    "travelerFbxSHA256": "70069F12265EF5C0B713A94CE2B20F3D305DDE339FC8B2F0487C436091BB4D71",
+    "travelerTriangles": 77132,
+    "travelerSkinnedMeshes": 28,
+    "worldFbxSHA256": "AFC45E86B5186BEB2668CFBBBA66A46352EE2D3E1E58A96FB7638BEA4490BDAD",
+    "islandTriangles": 510293
+  },
+  "themeSources": "reference/dark-sky-theme-sources.zh-CN.txt",
+  "revision": "v11",
+  "webPayload": {
+    "bytes": 53227613,
+    "directoryBytes": 57964072,
+    "files": [
+      {
+        "name": "36149c4fe0cdca54f6f1623149d7ab4f.data.gz",
+        "bytes": 41502715,
+        "sha256": "B9BB170DFB6545B7A8CDB4F46DF6803BB58A309B68C779CAD763A3496620156D"
+      },
+      {
+        "name": "56b2089fd931dfe1dbeb6d645b39149e.wasm.gz",
+        "bytes": 11609435,
+        "sha256": "3D4136B9F6E4B2825D773115F0C3D33D5F9F2AAF97C91013477B6158C1B5FF5E"
+      },
+      {
+        "name": "b281874b7c5b6a62e898db90eddbb667.framework.js.gz",
+        "bytes": 88480,
+        "sha256": "B62192AB199052DFF72E0937E59C17FB88A89060F77797ADC0E4B1BE68C4CAAD"
+      },
+      {
+        "name": "b383042eecdb32cf1a4cc50727f416ac.loader.js",
+        "bytes": 26983,
+        "sha256": "D1269CBC542379F361EA5277E6B6ADD6D8588345C60AE45F658CE02A51199995"
+      }
+    ]
+  },
+  "delivery": {
+    "package": "../builds/BorrowedLight-Windows.zip",
+    "packageVerification": "verification/v11-package-verification.json",
+    "releaseHTTPVerification": "verification/v11-release-http-verification.json",
+    "previousStableWindowsArchive": "../builds/archive/BorrowedLight-v10-Windows.zip",
+    "previousStableWebArchive": "../builds/archive/BorrowedLight-v10-Web/",
+    "packageVerificationPassed": false,
+    "releaseHTTPVerified": false,
+    "stagingOnly": true
+  },
+  "aestheticObjectiveAchieved": false,
+  "historicalEvidence": {
+    "v10GaitVideo": {
+      "review": "verification/web-v10-gait-video/review.json",
+      "scope": "v10 historical limited-scope video only; not current v11 dynamic acceptance."
+    },
+    "v11ConcurrentNativeRun": {
+      "session": "verification/run-026-v11/",
+      "scope": "Historical run affected by parallel Blender work; current evidence: run-029-v11"
+    },
+    "v11ResizedNativeRun": {
+      "session": "verification/run-027-v11/",
+      "scope": "Window changed from 1440x900 to 1078x672 mid-run; not used for cross-version performance comparison."
+    }
+  }
+}

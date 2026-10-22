@@ -1,0 +1,150 @@
+{
+  "frame": 1,
+  "starfield": true,
+  "starVertices": 24685,
+  "starPhase": 9,
+  "starRenderers": 1,
+  "importNormals": "Import",
+  "tinted": [
+    {
+      "name": "Head_Face_NoseCream",
+      "materials": [
+        {
+          "name": "Traveler_Face_NoseCream — story light",
+          "shader": "BorrowedLight/PaintedSurface",
+          "tint": true,
+          "kind": 6.0
+        }
+      ]
+    },
+    {
+      "name": "Garden_HeroBoulders",
+      "materials": [
+        {
+          "name": "BI_rock_hero_warm — story light",
+          "shader": "BorrowedLight/PaintedSurface",
+          "tint": true,
+          "kind": 0.0
+        },
+        {
+          "name": "BI_rock_hero_slate — story light",
+          "shader": "BorrowedLight/PaintedSurface",
+          "tint": true,
+          "kind": 0.0
+        }
+      ]
+    },
+    {
+      "name": "Head_Face_PorcelainCream",
+      "materials": [
+        {
+          "name": "Traveler_Face_PorcelainCream — story light",
+          "shader": "BorrowedLight/PaintedSurface",
+          "tint": true,
+          "kind": 6.0
+        }
+      ]
+    },
+    {
+      "name": "Head_Face_RoseCheeks",
+      "materials": [
+        {
+          "name": "Traveler_Face_RoseCheeks — story light",
+          "shader": "BorrowedLight/PaintedSurface",
+          "tint": true,
+          "kind": 6.0
+        }
+      ]
+    },
+    {
+      "name": "Arm_L_Face_Fingernails",
+      "materials": [
+        {
+          "name": "Traveler_Face_Fingernails — story light",
+          "shader": "BorrowedLight/PaintedSurface",
+          "tint": true,
+          "kind": 6.0
+        }
+      ]
+    },
+    {
+      "name": "Arm_L_Face_NoseCream",
+      "materials": [
+        {
+          "name": "Traveler_Face_NoseCream — story light",
+          "shader": "BorrowedLight/PaintedSurface",
+          "tint": true,
+          "kind": 6.0
+        }
+      ]
+    },
+    {
+      "name": "Arm_R_Face_RoseCheeks",
+      "materials": [
+        {
+          "name": "Traveler_Face_RoseCheeks — story light",
+          "shader": "BorrowedLight/PaintedSurface",
+          "tint": true,
+          "kind": 6.0
+        }
+      ]
+    },
+    {
+      "name": "Arm_R_Face_NoseCream",
+      "materials": [
+        {
+          "name": "Traveler_Face_NoseCream — story light",
+          "shader": "BorrowedLight/PaintedSurface",
+          "tint": true,
+          "kind": 6.0
+        }
+      ]
+    },
+    {
+      "name": "Arm_R_Face_Fingernails",
+      "materials": [
+        {
+          "name": "Traveler_Face_Fingernails — story light",
+          "shader": "BorrowedLight/PaintedSurface",
+          "tint": true,
+          "kind": 6.0
+        }
+      ]
+    },
+    {
+      "name": "Arm_R_Face_PorcelainCream",
+      "materials": [
+        {
+          "name": "Traveler_Face_PorcelainCream — story light",
+          "shader": "BorrowedLight/PaintedSurface",
+          "tint": true,
+          "kind": 6.0
+        }
+      ]
+    },
+    {
+      "name": "Arm_L_Face_RoseCheeks",
+      "materials": [
+        {
+          "name": "Traveler_Face_RoseCheeks — story light",
+          "shader": "BorrowedLight/PaintedSurface",
+          "tint": true,
+          "kind": 6.0
+        }
+      ]
+    },
+    {
+      "name": "Arm_L_Face_PorcelainCream",
+      "materials": [
+        {
+          "name": "Traveler_Face_PorcelainCream — story light",
+          "shader": "BorrowedLight/PaintedSurface",
+          "tint": true,
+          "kind": 6.0
+        }
+      ]
+    }
+  ],
+  "platformHit": "Observatory walkable steps",
+  "platformY": 0.26
+}

@@ -1,0 +1,450 @@
+{
+  "completed": true,
+  "error": null,
+  "requestedRevision": "v9",
+  "requestedUrl": "http://127.0.0.1:8779/",
+  "finalUrl": "http://127.0.0.1:8779/",
+  "profile": "C:\\Users\\20665\\Desktop\\game\\tools\\game-browser-profile-v9-portrait-normal-wheel",
+  "purpose": "Normal real-input idle and blink visual evidence after puzzle completion and return to the island.",
+  "recordedVideo": "portrait-session-includes-loading.webm",
+  "videoOnly": true,
+  "screenshotsTaken": 0,
+  "width": 1440,
+  "height": 900,
+  "videoScope": "Full session including loading, keyboard puzzle completion, return to island, camera drag/zoom, settling, and the 15-second portrait window. Not a trimmed clip.",
+  "canvasMetrics": {
+    "ready": {
+      "width": 1440,
+      "height": 900,
+      "cssWidth": 1440,
+      "cssHeight": 900,
+      "cssLeft": 0,
+      "cssTop": 0,
+      "devicePixelRatio": 1,
+      "viewportWidth": 1440,
+      "viewportHeight": 900,
+      "visibility": "visible",
+      "documentFocused": true,
+      "canvasFocused": true
+    },
+    "portraitStart": {
+      "width": 1440,
+      "height": 900,
+      "cssWidth": 1440,
+      "cssHeight": 900,
+      "cssLeft": 0,
+      "cssTop": 0,
+      "devicePixelRatio": 1,
+      "viewportWidth": 1440,
+      "viewportHeight": 900,
+      "visibility": "visible",
+      "documentFocused": true,
+      "canvasFocused": true
+    },
+    "portraitEnd": {
+      "width": 1440,
+      "height": 900,
+      "cssWidth": 1440,
+      "cssHeight": 900,
+      "cssLeft": 0,
+      "cssTop": 0,
+      "devicePixelRatio": 1,
+      "viewportWidth": 1440,
+      "viewportHeight": 900,
+      "visibility": "visible",
+      "documentFocused": true,
+      "canvasFocused": true
+    }
+  },
+  "phases": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "errors": [],
+  "events": [
+    {
+      "type": "navigation-start",
+      "sinceNavigationMs": 0,
+      "requestedUrl": "http://127.0.0.1:8779/"
+    },
+    {
+      "type": "game-ready",
+      "sinceNavigationMs": 14133,
+      "url": "http://127.0.0.1:8779/",
+      "canvas": {
+        "width": 1440,
+        "height": 900,
+        "cssWidth": 1440,
+        "cssHeight": 900,
+        "cssLeft": 0,
+        "cssTop": 0,
+        "devicePixelRatio": 1,
+        "viewportWidth": 1440,
+        "viewportHeight": 900,
+        "visibility": "visible",
+        "documentFocused": true,
+        "canvasFocused": true
+      }
+    },
+    {
+      "type": "menu-click",
+      "sinceNavigationMs": 14133,
+      "at": [
+        195,
+        566
+      ]
+    },
+    {
+      "type": "game-phase",
+      "sinceNavigationMs": 14183,
+      "phase": 0
+    },
+    {
+      "type": "game-phase",
+      "sinceNavigationMs": 14186,
+      "phase": 1
+    },
+    {
+      "type": "keyboard-press-start",
+      "sinceNavigationMs": 16172,
+      "key": "1",
+      "delayRequestedMs": 90
+    },
+    {
+      "type": "keyboard-press-end",
+      "sinceNavigationMs": 16282,
+      "key": "1"
+    },
+    {
+      "type": "keyboard-press-start",
+      "sinceNavigationMs": 16570,
+      "key": "d",
+      "delayRequestedMs": 90
+    },
+    {
+      "type": "keyboard-press-end",
+      "sinceNavigationMs": 16707,
+      "key": "d"
+    },
+    {
+      "type": "keyboard-press-start",
+      "sinceNavigationMs": 16993,
+      "key": "Enter",
+      "delayRequestedMs": 90
+    },
+    {
+      "type": "game-phase",
+      "sinceNavigationMs": 17002,
+      "phase": 2
+    },
+    {
+      "type": "keyboard-press-end",
+      "sinceNavigationMs": 17112,
+      "key": "Enter"
+    },
+    {
+      "type": "keyboard-press-start",
+      "sinceNavigationMs": 17395,
+      "key": "2",
+      "delayRequestedMs": 90
+    },
+    {
+      "type": "keyboard-press-end",
+      "sinceNavigationMs": 17502,
+      "key": "2"
+    },
+    {
+      "type": "keyboard-press-start",
+      "sinceNavigationMs": 17789,
+      "key": "d",
+      "delayRequestedMs": 90
+    },
+    {
+      "type": "keyboard-press-end",
+      "sinceNavigationMs": 17910,
+      "key": "d"
+    },
+    {
+      "type": "keyboard-press-start",
+      "sinceNavigationMs": 18198,
+      "key": "Enter",
+      "delayRequestedMs": 90
+    },
+    {
+      "type": "game-phase",
+      "sinceNavigationMs": 18224,
+      "phase": 3
+    },
+    {
+      "type": "keyboard-press-end",
+      "sinceNavigationMs": 18334,
+      "key": "Enter"
+    },
+    {
+      "type": "keyboard-press-start",
+      "sinceNavigationMs": 18630,
+      "key": "3",
+      "delayRequestedMs": 90
+    },
+    {
+      "type": "keyboard-press-end",
+      "sinceNavigationMs": 18746,
+      "key": "3"
+    },
+    {
+      "type": "keyboard-press-start",
+      "sinceNavigationMs": 19033,
+      "key": "d",
+      "delayRequestedMs": 90
+    },
+    {
+      "type": "keyboard-press-end",
+      "sinceNavigationMs": 19158,
+      "key": "d"
+    },
+    {
+      "type": "keyboard-press-start",
+      "sinceNavigationMs": 19444,
+      "key": "2",
+      "delayRequestedMs": 90
+    },
+    {
+      "type": "keyboard-press-end",
+      "sinceNavigationMs": 19576,
+      "key": "2"
+    },
+    {
+      "type": "keyboard-press-start",
+      "sinceNavigationMs": 19863,
+      "key": "d",
+      "delayRequestedMs": 90
+    },
+    {
+      "type": "keyboard-press-end",
+      "sinceNavigationMs": 19980,
+      "key": "d"
+    },
+    {
+      "type": "keyboard-press-start",
+      "sinceNavigationMs": 20273,
+      "key": "Space",
+      "delayRequestedMs": 90
+    },
+    {
+      "type": "keyboard-press-end",
+      "sinceNavigationMs": 20395,
+      "key": "Space"
+    },
+    {
+      "type": "keyboard-press-start",
+      "sinceNavigationMs": 20680,
+      "key": "1",
+      "delayRequestedMs": 90
+    },
+    {
+      "type": "keyboard-press-end",
+      "sinceNavigationMs": 20802,
+      "key": "1"
+    },
+    {
+      "type": "keyboard-press-start",
+      "sinceNavigationMs": 21083,
+      "key": "Space",
+      "delayRequestedMs": 90
+    },
+    {
+      "type": "keyboard-press-end",
+      "sinceNavigationMs": 21222,
+      "key": "Space"
+    },
+    {
+      "type": "keyboard-press-start",
+      "sinceNavigationMs": 21514,
+      "key": "Enter",
+      "delayRequestedMs": 90
+    },
+    {
+      "type": "game-phase",
+      "sinceNavigationMs": 21547,
+      "phase": 4
+    },
+    {
+      "type": "keyboard-press-end",
+      "sinceNavigationMs": 21624,
+      "key": "Enter"
+    },
+    {
+      "type": "puzzle-completed",
+      "sinceNavigationMs": 21918,
+      "phases": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "method": "Actual keyboard input"
+    },
+    {
+      "type": "return-to-island-click",
+      "sinceNavigationMs": 28422,
+      "at": [
+        210,
+        634
+      ]
+    },
+    {
+      "type": "right-mouse-orbit-start",
+      "sinceNavigationMs": 35141,
+      "pass": 1,
+      "from": [
+        700,
+        440
+      ],
+      "to": [
+        1300,
+        430
+      ],
+      "deltaX": 600,
+      "nominalYawDeltaDegrees": 78,
+      "nominalSensitivityDegreesPerPixel": 0.13
+    },
+    {
+      "type": "right-mouse-orbit-end",
+      "sinceNavigationMs": 36122,
+      "pass": 1,
+      "actualHeldMs": 981
+    },
+    {
+      "type": "right-mouse-orbit-start",
+      "sinceNavigationMs": 36465,
+      "pass": 2,
+      "from": [
+        700,
+        440
+      ],
+      "to": [
+        1300,
+        430
+      ],
+      "deltaX": 600,
+      "nominalYawDeltaDegrees": 78,
+      "nominalSensitivityDegreesPerPixel": 0.13
+    },
+    {
+      "type": "right-mouse-orbit-end",
+      "sinceNavigationMs": 37150,
+      "pass": 2,
+      "actualHeldMs": 685
+    },
+    {
+      "type": "wheel-negative-y",
+      "sinceNavigationMs": 37463,
+      "pulse": 1,
+      "deltaY": -120,
+      "intendedEffect": "Zoom closer using normal wheel input after normalized-scroll sensitivity fix"
+    },
+    {
+      "type": "wheel-negative-y",
+      "sinceNavigationMs": 37644,
+      "pulse": 2,
+      "deltaY": -120,
+      "intendedEffect": "Zoom closer using normal wheel input after normalized-scroll sensitivity fix"
+    },
+    {
+      "type": "wheel-negative-y",
+      "sinceNavigationMs": 37838,
+      "pulse": 3,
+      "deltaY": -120,
+      "intendedEffect": "Zoom closer using normal wheel input after normalized-scroll sensitivity fix"
+    },
+    {
+      "type": "wheel-negative-y",
+      "sinceNavigationMs": 38022,
+      "pulse": 4,
+      "deltaY": -120,
+      "intendedEffect": "Zoom closer using normal wheel input after normalized-scroll sensitivity fix"
+    },
+    {
+      "type": "wheel-negative-y",
+      "sinceNavigationMs": 38205,
+      "pulse": 5,
+      "deltaY": -120,
+      "intendedEffect": "Zoom closer using normal wheel input after normalized-scroll sensitivity fix"
+    },
+    {
+      "type": "wheel-negative-y",
+      "sinceNavigationMs": 38406,
+      "pulse": 6,
+      "deltaY": -120,
+      "intendedEffect": "Zoom closer using normal wheel input after normalized-scroll sensitivity fix"
+    },
+    {
+      "type": "wheel-negative-y",
+      "sinceNavigationMs": 38589,
+      "pulse": 7,
+      "deltaY": -120,
+      "intendedEffect": "Zoom closer using normal wheel input after normalized-scroll sensitivity fix"
+    },
+    {
+      "type": "wheel-negative-y",
+      "sinceNavigationMs": 38786,
+      "pulse": 8,
+      "deltaY": -120,
+      "intendedEffect": "Zoom closer using normal wheel input after normalized-scroll sensitivity fix"
+    },
+    {
+      "type": "camera-settle-start",
+      "sinceNavigationMs": 38920,
+      "requestedDurationMs": 3000,
+      "nominalTotalYawDegrees": 156,
+      "sourceDistanceClampMinimum": 2.5,
+      "actualCameraStateMeasured": false
+    },
+    {
+      "type": "portrait-window-start",
+      "sinceNavigationMs": 41941,
+      "requestedDurationMs": 15000,
+      "canvas": {
+        "width": 1440,
+        "height": 900,
+        "cssWidth": 1440,
+        "cssHeight": 900,
+        "cssLeft": 0,
+        "cssTop": 0,
+        "devicePixelRatio": 1,
+        "viewportWidth": 1440,
+        "viewportHeight": 900,
+        "visibility": "visible",
+        "documentFocused": true,
+        "canvasFocused": true
+      }
+    },
+    {
+      "type": "portrait-window-end",
+      "sinceNavigationMs": 56956,
+      "durationMs": 15015
+    }
+  ],
+  "portraitWindow": {
+    "startSinceNavigationMs": 41941,
+    "endSinceNavigationMs": 56956,
+    "durationMs": 15015
+  },
+  "inputMethod": "Actual keyboard puzzle completion and UI clicks; two right drags (700,440)->(1300,430), then eight normal browser wheel pulses with deltaY=-120. No actor/camera transform injection.",
+  "priorAttemptCorrection": "Both earlier attempts failed near-framing acceptance. Merely reversing wheel sign did not fix the old .004 sensitivity with normalized Input System units. They remain in far-camera-attempt and second-framing-attempt archives. The separate real-input diagnostic confirmed positive deltaY pulls away; this capture uses normal negative pulses after the production sensitivity fix, pending visual framing review.",
+  "cameraExpectation": {
+    "nominalYawDeltaDegrees": 156,
+    "requestedMinimumDistance": 2.5,
+    "limitation": "Nominal values follow WorldDirector input sensitivity/clamp. Actual camera pose, input consumption, collision correction and framing require video review."
+  },
+  "completionLimit": "completed means the scripted capture finished without detected errors. Return-to-island is a real UI click, not a queried game-mode assertion; the reviewer must confirm exploration, framing and visible blink transitions in the video.",
+  "animationScope": "Normal unmodified idle and blink logic. Capturing 15 seconds does not automatically prove every blendshape intermediate; a reviewer must inspect the video.",
+  "performanceLimit": "Playwright recordVideo samples/resamples browser output. Video FPS, browser capture cadence and wall-clock duration are not actual engine FPS; no performance claim or engine frame-rate change is made.",
+  "timingLimit": "Event times are navigation-relative wall-clock aids. Recording starts before navigation; these are not exact video frame timestamps.",
+  "focusLimit": "Visibility/focus are checked at portrait endpoints only; these checks do not prove continuous foreground residency.",
+  "errorScope": "Browser console.error, page exceptions, renderer crash, failed network requests and capture finalization; full Unity console text is retained separately."
+}

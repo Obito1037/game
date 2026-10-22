@@ -1,0 +1,40 @@
+{
+  "revision": "v7",
+  "native": {
+    "buildId": "build_99bc9bcdbd43",
+    "result": "Succeeded",
+    "platform": "StandaloneWindows64",
+    "outputPath": "C:/Users/20665/Desktop/game/builds/windows/BorrowedLight.exe",
+    "totalSizeBytes": 156996585,
+    "buildTimeMs": 27660,
+    "buildStartedAt": "2026-10-20T14:49:25.2287044Z",
+    "buildEndedAt": "2026-10-20T14:49:52.8889063Z",
+    "totalWarnings": 1,
+    "totalErrors": 0,
+    "errors": [],
+    "warnings": [
+      {
+        "message": "Pipeline: No RuntimePipelineConfig asset found (Project Settings > Pipeline > Runtime). Pipeline will be disabled in Player builds."
+      }
+    ]
+  },
+  "web": {
+    "buildId": "build_391eab7c3886",
+    "result": "Succeeded",
+    "platform": "WebGL",
+    "outputPath": "C:/Users/20665/Desktop/game/builds/web",
+    "totalSizeBytes": 4736459,
+    "buildTimeMs": 446883,
+    "buildStartedAt": "2026-10-20T14:52:46.2755375Z",
+    "buildEndedAt": "2026-10-20T15:00:13.1588782Z",
+    "totalWarnings": 1,
+    "totalErrors": 0,
+    "errors": [],
+    "warnings": [
+      {
+        "message": "Pipeline: No RuntimePipelineConfig asset found (Project Settings > Pipeline > Runtime). Pipeline will be disabled in Player builds."
+      }
+    ]
+  },
+  "webSizeNote": "Unity BuildReport totalSizeBytes is retained verbatim; actual served compressed payload size is independently recorded in web-007-v7/build-evidence.json."
+}

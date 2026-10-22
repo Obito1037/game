@@ -1,0 +1,36 @@
+《借光岛》原创旅人 character-v4：冻结导入说明
+
+本目录是本轮角色最终源资产。character-v3 保留为历史版本；v4 未直接写入 Unity Resources，由主代理负责实机导入和验收。
+
+冻结文件
+- traveler.blend：可编辑 Blender 源场景，包含预览灯光、相机和地面；导出 FBX/GLB 仅含角色。
+- traveler.fbx：Unity 候选文件，SHA256 E4EF4BAFC25F56AB5BB6EF9C8F645D04628C2A550FE0D91E8E6F04E3D9FCF879。
+- traveler.glb：交换格式，SHA256 C2CE004BDE58B416BA9EB2625D2BC192E56A2F37837B2FF9C97E192D90311CFC。
+- render.png / render-portrait.png / render-side.png / render-blink.png：800×800、12–16 samples 的 Blender 离线预览；不是 Unity 实机证明。
+- traveler-manifest.json：几何统计、完整层级、材质、预览与资产 hash、原脚本 hash。
+- frozen-export-verification.json：作者进程退出后，使用新 Blender 进程独立回读最终 FBX、GLB 的检查结果。
+
+可见改动
+- 圆形包脸兜帽放到肩背，露出有层次的深棕侧扫发束。
+- 缩窄上装、延长可见裤腿、缩短靴筒，整体最高点约 1.305 m。
+- 大钟形披风改为后肩短披肩，袖子增加自然弯曲和圆滑肩头。
+- 鼻梁、鼻翼、眼窝和嘴唇起伏融入同一脸面，收窄下颌；眼睛跟随脸面曲率，减少前凸。
+- 闭眼盖面扩大边缘过渡、同步减薄眼白与虹膜，收细闭眼眼线两端。
+- 后脑发束宽度、长度和方向错开；右手中间手指回钩，左手指轻微不同卷曲。
+- 提灯保持等比，深青外套、金色围巾、提灯、胸针、背包全部保留。
+
+最终数据与独立检查
+FBX 与 GLB 均为 53,956 triangles、62 mesh renderers；最高点 Z=1.304983 m，足底 Z=0.003129 m。
+11 个约定 pivots 及父子关系完整。Lantern 仍是 Arm_R 的子节点；FBX 最大 pivot 回读误差约 0.000000186 m。
+非有限顶点 0、无效顶点法线 0、退化三角形 0；脸面朝向外法线正确。
+Blink_L/R 打开时 localScale=(.001,.001,1)，闭眼时=(1,1,1)，保留导入 bind rotation；闭眼盖高约 0.0414 m。
+Blender 作者坐标 +Z 上、-Y 前；FBX 沿用 -Z forward / Y up 导出设置，Unity 保持原轴转换后 +Z 前。
+新 Head pivot 世界高度为 1.010 m，腿部 pivots 高度约 0.6311 m；建议在 Unity 检查原步态、镜头和碰撞胶囊对约 1.305 m 角色的适配。
+
+复核命令（在 workspace 根目录）
+tools/blender-4.5.14-windows-x64/blender.exe --background --factory-startup --python-exit-code 1 --python art/generated/character-v4/verify_frozen.py
+
+验证过程中发现并修复了原薄背包盖过宽倒角导致的 28 个真实零面积三角形。倒角现限制为最薄尺寸的 42%。pre-fix-* 文件保留的是修复前证据，不是当前冻结结果。
+
+限制
+仍使用命名刚性分件动画，没有蒙皮骨骼；肩肘和膝盖的细腻弯曲仍有限。发束保持风格化的实体分层，非写实发丝。离线图不能证明 Unity 材质、行走和灯光已经达到参考游戏水平，需要后续实机查看。

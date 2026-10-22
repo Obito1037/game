@@ -1,0 +1,62 @@
+{
+  "reviewer": "reference_research",
+  "reviewed": true,
+  "scope": "本次 refined 会话九张原始静态图：path、roots、lamp 的 baseline、detail 0.55、detail-soft 0.35。未观看动态录像，未运行 GPU。",
+  "recommendedVariant": "detail-soft",
+  "recommendedDetailStrength": 0.35,
+  "acceptedForLimitedStaticScope": true,
+  "isReleaseDecision": false,
+  "summary": "推荐低强度 0.35：正常路径的裸地不再是大块平滑底色，同时比 0.55 更少抢夺草叶和踏石的注意力。收益真实但有限，近景仍能看出均匀的平面碎纹，不能视为草地自然度或整体审美验收完成。",
+  "evidence": {
+    "record": "ground-detail-study.json",
+    "recordAllInvariantsPassed": true,
+    "recordViewCount": 15,
+    "personallyViewedOriginals": [
+      "path-baseline.png",
+      "path-detail.png",
+      "path-detail-soft.png",
+      "roots-baseline.png",
+      "roots-detail.png",
+      "roots-detail-soft.png",
+      "lamp-baseline.png",
+      "lamp-detail.png",
+      "lamp-detail-soft.png"
+    ],
+    "recordedDimensions": { "width": 1440, "height": 900 },
+    "recordedTileMetres": 1.7999999523162842,
+    "parametersSource": "ground-detail-study.json；数值为实际采集记录，0.35/0.55 为显示近似值。"
+  },
+  "views": [
+    {
+      "view": "path",
+      "preferred": "detail-soft",
+      "benefit": "人物脚前踏石间的棕土、左侧暖灯下以及右侧岩石周围都出现低对比土壤层次，减轻基线平滑色块和草叶插在光滑底板上的观感；路线和石阶仍清楚。",
+      "limitation": "0.55 在画面下半部连续铺满细碎纹理，使地面比草叶更像一整张粗糙地毯；0.35 降低这一问题，但不改变纹理均匀分布的性质。"
+    },
+    {
+      "view": "roots",
+      "preferred": "detail-soft",
+      "benefit": "两块岩石之间及圆台前的裸地获得细节，颜色过渡比基线更完整，岩石接地周边未看到新白边或明显贴图接缝。",
+      "limitation": "0.55 的密碎亮绿纹路接近苔藓毯；0.35 更平静，但纹理依然贴在平面上，没有增加真实草根、腐殖层厚度或接触几何。岩石的高频细节与简单草叶的风格差异仍存在。"
+    },
+    {
+      "view": "lamp",
+      "preferred": "detail-soft",
+      "benefit": "基线大面积光滑黄绿地面被打散，0.35 让灯座和花叶继续保持主要轮廓，比 0.55 的亮绿碎纹更克制。",
+      "limitation": "这是三机位里残留铺毯感最明显的一组：0.35 仍有覆盖全地表的均匀卷碎纹，近看偏迷彩或压平苔藓。草叶根部穿插和薄片感没有由地面贴图解决。"
+    }
+  ],
+  "failureChecks": {
+    "obviousNewTileSeamSeenInReviewedFrames": false,
+    "obviousNewStoneOrLampContactHaloSeen": false,
+    "pathReadabilityLost": false,
+    "nearViewCarpetAppearanceFullyResolved": false
+  },
+  "limits": [
+    "只对本次同一 refined 会话的九张原图给出视觉建议；没有混用旧十二图或不同模型会话。",
+    "十五图及逐图场景、其他材质、原始底图不变由采集记录声明；肉眼审查不等同独立验证全部运行时状态。",
+    "Time.timeScale 与冻结时间不会冻结全部逐帧随机项，不声称对照逐像素相同或所有差异均由材质单独造成。",
+    "静态原图不能验证移动闪烁、纹理远距稳定性、WebGL 编译、显存或帧率，也不代表完整游戏与发布 QA 通过。",
+    "接受建议仅限 0.35 低强度地面细节，不构成总体视觉超过参考站的结论；最终 decision 由根代理另行填写。"
+  ]
+}

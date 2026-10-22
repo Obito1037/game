@@ -1,0 +1,50 @@
+{
+  "passed": true,
+  "revision": "v13",
+  "server": "http://127.0.0.1:8765/",
+  "root": "C:\\Users\\20665\\Desktop\\game\\builds\\web",
+  "indexReferencesCurrentFiles": true,
+  "method": "Node http raw response buffers; gzip Content-Encoding is not decoded before SHA-256 comparison.",
+  "files": [
+    {
+      "name": "55a819ff853cce9db54438f5d5c73642.wasm.gz",
+      "bytes": 11615949,
+      "contentEncoding": "gzip",
+      "httpSHA256": "58B8693CCA27B1715931CF66380271F22CB07142034060D368C6DF48E08F720A",
+      "diskSHA256": "58B8693CCA27B1715931CF66380271F22CB07142034060D368C6DF48E08F720A",
+      "manifestSHA256": "58B8693CCA27B1715931CF66380271F22CB07142034060D368C6DF48E08F720A",
+      "matches": true,
+      "previousPowerShellHashMatchesDecodedBytes": null
+    },
+    {
+      "name": "aaf0ca52e4a9c1b1aa9be92064634f84.framework.js.gz",
+      "bytes": 88482,
+      "contentEncoding": "gzip",
+      "httpSHA256": "3357A19FEADC16C0831E7EFE406FA630828ECDB73DBE03641D124830A8F5F01C",
+      "diskSHA256": "3357A19FEADC16C0831E7EFE406FA630828ECDB73DBE03641D124830A8F5F01C",
+      "manifestSHA256": "3357A19FEADC16C0831E7EFE406FA630828ECDB73DBE03641D124830A8F5F01C",
+      "matches": true,
+      "previousPowerShellHashMatchesDecodedBytes": null
+    },
+    {
+      "name": "e3c740918926eb07ac3913b367e50346.loader.js",
+      "bytes": 26983,
+      "contentEncoding": null,
+      "httpSHA256": "96EF2F7ECB95D3040B05E9306D226BC104BDFA2645782170F1F7418880B6A6D0",
+      "diskSHA256": "96EF2F7ECB95D3040B05E9306D226BC104BDFA2645782170F1F7418880B6A6D0",
+      "manifestSHA256": "96EF2F7ECB95D3040B05E9306D226BC104BDFA2645782170F1F7418880B6A6D0",
+      "matches": true,
+      "previousPowerShellHashMatchesDecodedBytes": null
+    },
+    {
+      "name": "ed310f4290c0fc83a12c4e93f835d69b.data.gz",
+      "bytes": 48667447,
+      "contentEncoding": "gzip",
+      "httpSHA256": "F69A48DB5F7EB984865AE56DC053B0F6F937306BE39814D1328C7C5C5AC65430",
+      "diskSHA256": "F69A48DB5F7EB984865AE56DC053B0F6F937306BE39814D1328C7C5C5AC65430",
+      "manifestSHA256": "F69A48DB5F7EB984865AE56DC053B0F6F937306BE39814D1328C7C5C5AC65430",
+      "matches": true,
+      "previousPowerShellHashMatchesDecodedBytes": null
+    }
+  ]
+}

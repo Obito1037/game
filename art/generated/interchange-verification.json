@@ -1,0 +1,122 @@
+{
+  "verifiedAt": "2026-10-20T17:59:31.357Z",
+  "source": "independent GLB header and accessor parse",
+  "triangles": 215522,
+  "meshCount": 27,
+  "materialCount": 39,
+  "embeddedImages": 2,
+  "anchors": [
+    {
+      "name": "Anchor_Lamp_A",
+      "position": [
+        -4.5,
+        0,
+        -2
+      ]
+    },
+    {
+      "name": "Anchor_Lamp_B",
+      "position": [
+        1.7999999523162842,
+        0,
+        3.4000000953674316
+      ]
+    },
+    {
+      "name": "Anchor_Lamp_C",
+      "position": [
+        4.699999809265137,
+        0,
+        -2.4000000953674316
+      ]
+    },
+    {
+      "name": "Anchor_LampHead_A",
+      "position": [
+        -4.5,
+        1.850000023841858,
+        -2
+      ]
+    },
+    {
+      "name": "Anchor_LampHead_B",
+      "position": [
+        1.7999999523162842,
+        1.850000023841858,
+        3.4000000953674316
+      ]
+    },
+    {
+      "name": "Anchor_LampHead_C",
+      "position": [
+        4.699999809265137,
+        1.850000023841858,
+        -2.4000000953674316
+      ]
+    },
+    {
+      "name": "Anchor_Target_Path",
+      "position": [
+        -1.7999999523162842,
+        0.07999999821186066,
+        -3.200000047683716
+      ]
+    },
+    {
+      "name": "Anchor_Target_Bench",
+      "position": [
+        -5.800000190734863,
+        0.10000000149011612,
+        0.15000000596046448
+      ]
+    },
+    {
+      "name": "Anchor_Target_Window",
+      "position": [
+        -4.099999904632568,
+        1.600000023841858,
+        3.049999952316284
+      ]
+    },
+    {
+      "name": "Anchor_Target_Dock",
+      "position": [
+        6.900000095367432,
+        0.11999999731779099,
+        -3.3499999046325684
+      ]
+    },
+    {
+      "name": "Anchor_Cabin",
+      "position": [
+        -4.099999904632568,
+        0,
+        4.050000190734863
+      ]
+    },
+    {
+      "name": "Anchor_StarAltar",
+      "position": [
+        0,
+        0.07999999821186066,
+        0.3499999940395355
+      ]
+    },
+    {
+      "name": "Anchor_Moon",
+      "position": [
+        3.299999952316284,
+        1.7999999523162842,
+        5.400000095367432
+      ]
+    },
+    {
+      "name": "Anchor_PlayerSpawn",
+      "position": [
+        0,
+        0.10000000149011612,
+        -5.599999904632568
+      ]
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "revision": "v9",
+  "web": {
+    "status": "completed",
+    "buildId": "build_d7f44f9d30f9",
+    "result": "Succeeded",
+    "platform": "WebGL",
+    "outputPath": "C:/Users/20665/Desktop/game/builds/candidates/v9/web",
+    "totalSizeBytes": 4736459,
+    "buildTimeMs": 384425,
+    "totalErrors": 0,
+    "totalWarnings": 1,
+    "warnings": [
+      {
+        "message": "Pipeline: No RuntimePipelineConfig asset found (Project Settings > Pipeline > Runtime). Pipeline will be disabled in Player builds."
+      }
+    ],
+    "errors": [],
+    "payload": {
+      "bytes": 48925294.0,
+      "files": [
+        {
+          "name": "702755c42cffae70351e173e02577e7c.wasm.gz",
+          "bytes": 11597799,
+          "sha256": "C57B82862641B5A56655D0AC307F4F597A99A0EEBC597487F54D6F7B78E94F73"
+        },
+        {
+          "name": "a0c06d3e614c45d276481d37b2c4f459.loader.js",
+          "bytes": 26983,
+          "sha256": "A5082CAC6116664D81DEE556762CE13C7A1FDC23F25EC1523FC34CBCF4B4FE4E"
+        },
+        {
+          "name": "b281874b7c5b6a62e898db90eddbb667.framework.js.gz",
+          "bytes": 88480,
+          "sha256": "BDA32BC9EB70C7970A4AD57FF93F335CDBA0B653C5BBA40D6A692F0101BE8976"
+        },
+        {
+          "name": "eee8121ce67ee80bcdd23e5b49306cbf.data.gz",
+          "bytes": 37212032,
+          "sha256": "6B638A210A5A889757A8CBDB8E735F4D3FE1C3B812908AFDC5F5FF5A24FE282E"
+        }
+      ]
+    },
+    "directoryBytes": 53661753.0
+  },
+  "diagnosticReports": "v9-diagnostic-builds.json",
+  "previousCandidateReports": "v9-build-before-scroll-fix.json",
+  "native": {
+    "status": "completed",
+    "buildId": "build_4f99c761ca99",
+    "result": "Succeeded",
+    "platform": "StandaloneWindows64",
+    "outputPath": "C:/Users/20665/Desktop/game/builds/candidates/v9/windows/BorrowedLight.exe",
+    "totalSizeBytes": 156984313,
+    "buildTimeMs": 15607,
+    "totalErrors": 0,
+    "totalWarnings": 1,
+    "warnings": [
+      {
+        "message": "Pipeline: No RuntimePipelineConfig asset found (Project Settings > Pipeline > Runtime). Pipeline will be disabled in Player builds."
+      }
+    ],
+    "errors": []
+  }
+}

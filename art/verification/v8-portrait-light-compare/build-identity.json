@@ -1,0 +1,29 @@
+{
+  "purpose": "Staged portrait diagnostic; not v8 release",
+  "world": "world-v6",
+  "worldFBXSHA256": "37C8534BA4DB23F6FF06773C1799759FA6F2ED9A32E12D8927B6E5A855DDF87F",
+  "character": "character-v7",
+  "characterFBXSHA256": "CC87EA03F46CA44CB83F082A8B529E1D93EF118E22BE1D0B7C93ECB9B8094C0D",
+  "heroShaderKind": 7,
+  "heroRelief": ".0015*mineral only",
+  "build": {
+    "status": "completed",
+    "buildId": "build_27388bb4f78e",
+    "result": "Succeeded",
+    "platform": "StandaloneWindows64",
+    "outputPath": "C:/Users/20665/Desktop/game/builds/candidates/v8-portrait/windows/BorrowedLight.exe",
+    "totalSizeBytes": 157001049,
+    "buildTimeMs": 56208,
+    "totalWarnings": 2,
+    "totalErrors": 0,
+    "errors": [],
+    "warnings": [
+      {
+        "message": "Pipeline: No RuntimePipelineConfig asset found (Project Settings > Pipeline > Runtime). Pipeline will be disabled in Player builds."
+      },
+      {
+        "message": "You are building a player, but you have uncompiled code changes. This means that any post-processing or importing code you may have changed will not affect this player build."
+      }
+    ]
+  }
+}

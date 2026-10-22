@@ -1,0 +1,1389 @@
+{
+  "revision": "world-v12",
+  "game_candidate": "v13",
+  "passed": true,
+  "in_progress": false,
+  "checks": [
+    {
+      "format": "blend",
+      "passed": true,
+      "errors": [],
+      "mesh_count": 29,
+      "triangles": 538118,
+      "unchanged_non_targets": [
+        {
+          "name": "Island_Strata",
+          "baseline_sha256": "d485ad41fcfef1d79826f9b820c70bf7f6dc9d1c13a91fd3acd06f4b8e97d00e",
+          "candidate_sha256": "d485ad41fcfef1d79826f9b820c70bf7f6dc9d1c13a91fd3acd06f4b8e97d00e",
+          "same": true
+        },
+        {
+          "name": "Island_Meadow",
+          "baseline_sha256": "1477dbb1ee8e3addbc0bded179878c458732fb2e0050eafe576792ea967070c5",
+          "candidate_sha256": "1477dbb1ee8e3addbc0bded179878c458732fb2e0050eafe576792ea967070c5",
+          "same": true
+        },
+        {
+          "name": "Island_CliffGardens",
+          "baseline_sha256": "d44792429b330d1bd04a57bbf1dbc2dc7511b919584cd638454af600c6d4eb61",
+          "candidate_sha256": "d44792429b330d1bd04a57bbf1dbc2dc7511b919584cd638454af600c6d4eb61",
+          "same": true
+        },
+        {
+          "name": "Island_BrassMeridian",
+          "baseline_sha256": "2a25af8b61ee27c6888faf214ac9b00458157df957b2ef0c54e4b636879fd707",
+          "candidate_sha256": "2a25af8b61ee27c6888faf214ac9b00458157df957b2ef0c54e4b636879fd707",
+          "same": true
+        },
+        {
+          "name": "Garden_Walkways",
+          "baseline_sha256": "fb88a6bb205a2e959a3bd5c0cf90ef51b27f73dae6f7b7426ccd10d175135d63",
+          "candidate_sha256": "fb88a6bb205a2e959a3bd5c0cf90ef51b27f73dae6f7b7426ccd10d175135d63",
+          "same": true
+        },
+        {
+          "name": "Garden_HeroBoulders",
+          "baseline_sha256": "8598090dfe5e9631e3fc4a7b6613b475d5fd60a35d58f7a0a1de785a09be115c",
+          "candidate_sha256": "8598090dfe5e9631e3fc4a7b6613b475d5fd60a35d58f7a0a1de785a09be115c",
+          "same": true
+        },
+        {
+          "name": "Observatory_StoneAndBrass",
+          "baseline_sha256": "d84cb8a67c27e6e17e5bc6c75918b6c0c11388aaeafd3651355d7cfd1ad8ef80",
+          "candidate_sha256": "d84cb8a67c27e6e17e5bc6c75918b6c0c11388aaeafd3651355d7cfd1ad8ef80",
+          "same": true
+        },
+        {
+          "name": "Cabin_PlasterAndFoundation",
+          "baseline_sha256": "bb055f8506e865199921107c0272af48d7e18a20a9f3ea39b031d1d8684ea582",
+          "candidate_sha256": "bb055f8506e865199921107c0272af48d7e18a20a9f3ea39b031d1d8684ea582",
+          "same": true
+        },
+        {
+          "name": "Cabin_IndividualShingles",
+          "baseline_sha256": "49ee3e2daafceb9d820c01f7cd4393846f3f766be4040e81ca790bf76e88ac00",
+          "candidate_sha256": "49ee3e2daafceb9d820c01f7cd4393846f3f766be4040e81ca790bf76e88ac00",
+          "same": true
+        },
+        {
+          "name": "Cabin_ReadingWindow_Glow",
+          "baseline_sha256": "ab1a7c34c69f1488eddc16bc1f2474bfa3eb47b05b708045b1e43e6d8d129738",
+          "candidate_sha256": "ab1a7c34c69f1488eddc16bc1f2474bfa3eb47b05b708045b1e43e6d8d129738",
+          "same": true
+        },
+        {
+          "name": "Cabin_DoorAndAccessories",
+          "baseline_sha256": "bb6370c29761c1a3f53201a1b79a946709faf7916c513bbe837f5752698328b5",
+          "candidate_sha256": "bb6370c29761c1a3f53201a1b79a946709faf7916c513bbe837f5752698328b5",
+          "same": true
+        },
+        {
+          "name": "Cabin_Timber",
+          "baseline_sha256": "6b4753a38d3c5632fd99eb234bc5a13e7f756069754769a221563e070fb40d08",
+          "candidate_sha256": "6b4753a38d3c5632fd99eb234bc5a13e7f756069754769a221563e070fb40d08",
+          "same": true
+        },
+        {
+          "name": "LampBase_A",
+          "baseline_sha256": "b12276dd00aa8fc4cd9ae7162f06e60ffadedbc2cbc26f7ca9cca547cd872f85",
+          "candidate_sha256": "b12276dd00aa8fc4cd9ae7162f06e60ffadedbc2cbc26f7ca9cca547cd872f85",
+          "same": true
+        },
+        {
+          "name": "LampBase_B",
+          "baseline_sha256": "aff87264784cc2160fc7fa3745a3b75d416e3d6896cc20f8b9bc0bc20f43f57c",
+          "candidate_sha256": "aff87264784cc2160fc7fa3745a3b75d416e3d6896cc20f8b9bc0bc20f43f57c",
+          "same": true
+        },
+        {
+          "name": "LampBase_C",
+          "baseline_sha256": "794643c1f016ae5077e4a32bd949d8e2a50e4116cc9c17532adac633d228561c",
+          "candidate_sha256": "794643c1f016ae5077e4a32bd949d8e2a50e4116cc9c17532adac633d228561c",
+          "same": true
+        },
+        {
+          "name": "Garden_Bench",
+          "baseline_sha256": "b47aef82086ab8c111bdc1490d042f7079c99e3c82cbc4651cb4a2bbd16a0b05",
+          "candidate_sha256": "b47aef82086ab8c111bdc1490d042f7079c99e3c82cbc4651cb4a2bbd16a0b05",
+          "same": true
+        },
+        {
+          "name": "Cliff_Pier",
+          "baseline_sha256": "f32f42fd688fad5ca5888284cc115842ff5c63a33548fb8a20fe77d158c4c06c",
+          "candidate_sha256": "f32f42fd688fad5ca5888284cc115842ff5c63a33548fb8a20fe77d158c4c06c",
+          "same": true
+        },
+        {
+          "name": "MoonDial_Sculpture",
+          "baseline_sha256": "c8131421be778ac3231cb9d1c72e12e5b74aafc5e4365c0bc9dd8b9223bdc05c",
+          "candidate_sha256": "c8131421be778ac3231cb9d1c72e12e5b74aafc5e4365c0bc9dd8b9223bdc05c",
+          "same": true
+        },
+        {
+          "name": "Garden_CreepingMeadowLeaves",
+          "baseline_sha256": "e3be6add4f139f2caf567f4f10f880bf85f3424c7958b580af0d7df2ff708d0d",
+          "candidate_sha256": "e3be6add4f139f2caf567f4f10f880bf85f3424c7958b580af0d7df2ff708d0d",
+          "same": true
+        },
+        {
+          "name": "Garden_FeatherFerns",
+          "baseline_sha256": "bba4968d398c08fb49dbb6b601375fcaa448ff0309f488b1848369b57fdacdb8",
+          "candidate_sha256": "bba4968d398c08fb49dbb6b601375fcaa448ff0309f488b1848369b57fdacdb8",
+          "same": true
+        },
+        {
+          "name": "Garden_LavenderAndSeedHeads",
+          "baseline_sha256": "8c56331b9670963f5835fef7291996016f90f4788fc9cd3a4f0cdd558405d0b5",
+          "candidate_sha256": "8c56331b9670963f5835fef7291996016f90f4788fc9cd3a4f0cdd558405d0b5",
+          "same": true
+        },
+        {
+          "name": "Garden_Wildflowers",
+          "baseline_sha256": "4bf728222820f5e95c226bd387cac61cc73d1c34d16afaaf3dbc2c1dc070a6c4",
+          "candidate_sha256": "4bf728222820f5e95c226bd387cac61cc73d1c34d16afaaf3dbc2c1dc070a6c4",
+          "same": true
+        },
+        {
+          "name": "Garden_GrassTufts",
+          "baseline_sha256": "9c300c34dc38059eb559a660123546591992e3072f9176f8f2269171be7c9c49",
+          "candidate_sha256": "9c300c34dc38059eb559a660123546591992e3072f9176f8f2269171be7c9c49",
+          "same": true
+        },
+        {
+          "name": "Garden_MushroomsAndPebbles",
+          "baseline_sha256": "e036db1693ff0b8e5ff45f2a62168c707ec3a9ac42b79c73052aff139dd60418",
+          "candidate_sha256": "e036db1693ff0b8e5ff45f2a62168c707ec3a9ac42b79c73052aff139dd60418",
+          "same": true
+        },
+        {
+          "name": "Cabin_ClimbingIvy",
+          "baseline_sha256": "a0f0b4fafe63f9914c2a2e7470ace0d5a65802a588c08def1f5e5da766b2663d",
+          "candidate_sha256": "a0f0b4fafe63f9914c2a2e7470ace0d5a65802a588c08def1f5e5da766b2663d",
+          "same": true
+        },
+        {
+          "name": "Garden_StoryDetails",
+          "baseline_sha256": "a3b3ea3c093ff6965a8c47c039bcdc94fce0f7d49f1c48817e4fc46bf12fa532",
+          "candidate_sha256": "a3b3ea3c093ff6965a8c47c039bcdc94fce0f7d49f1c48817e4fc46bf12fa532",
+          "same": true
+        }
+      ],
+      "anchors_identical": true,
+      "all_object_transforms_identical": true,
+      "materials_identical": true,
+      "zero_area_triangles": [],
+      "duplicate_triangles": [],
+      "invalid_normal_meshes": [],
+      "targets": [
+        {
+          "mesh": "Garden_CanopyLeafEdges",
+          "vertices": 648,
+          "triangles": 576,
+          "max_position_error_metres": 0.0,
+          "max_corner_normal_error_degrees": 0.03359951091151477,
+          "max_uv_error": 0.0,
+          "max_colour_error": 0.0,
+          "material_slots_identical": true,
+          "linear_byte_colour_model": null,
+          "passed": true
+        },
+        {
+          "mesh": "Garden_TreeCanopies",
+          "vertices": 71382,
+          "triangles": 62608,
+          "max_position_error_metres": 0.0,
+          "max_corner_normal_error_degrees": 0.035663122863758445,
+          "max_uv_error": 0.0,
+          "max_colour_error": 0.0,
+          "material_slots_identical": true,
+          "linear_byte_colour_model": null,
+          "passed": true
+        },
+        {
+          "mesh": "Garden_TreeTrunks",
+          "vertices": 10553,
+          "triangles": 18352,
+          "max_position_error_metres": 0.0,
+          "max_corner_normal_error_degrees": 0.035663122863758445,
+          "max_uv_error": 0.0,
+          "max_colour_error": 0.0,
+          "material_slots_identical": true,
+          "linear_byte_colour_model": null,
+          "passed": true
+        }
+      ]
+    },
+    {
+      "format": "fbx",
+      "passed": true,
+      "errors": [],
+      "mesh_count": 29,
+      "triangles": 538118,
+      "unchanged_non_targets": [
+        {
+          "name": "Cabin_ClimbingIvy",
+          "baseline_sha256": "0aef28503ee000b44512bc16975139fa865e932398c9423cda35d38350c9619f",
+          "candidate_sha256": "0aef28503ee000b44512bc16975139fa865e932398c9423cda35d38350c9619f",
+          "same": true
+        },
+        {
+          "name": "Cabin_DoorAndAccessories",
+          "baseline_sha256": "5a934e596d36300ec69383743b8fccf1b6d62f295fcaa9c5d3625e7b9fd50cfd",
+          "candidate_sha256": "5a934e596d36300ec69383743b8fccf1b6d62f295fcaa9c5d3625e7b9fd50cfd",
+          "same": true
+        },
+        {
+          "name": "Cabin_IndividualShingles",
+          "baseline_sha256": "c334e94d9e843cae299819d921029ed2c4ed544c436c50f49c083eafb0155864",
+          "candidate_sha256": "c334e94d9e843cae299819d921029ed2c4ed544c436c50f49c083eafb0155864",
+          "same": true
+        },
+        {
+          "name": "Cabin_PlasterAndFoundation",
+          "baseline_sha256": "f4d4a9d17f9e2686a36803d5d21e23bc013e98d021e922fcc0c0f66a220d80bb",
+          "candidate_sha256": "f4d4a9d17f9e2686a36803d5d21e23bc013e98d021e922fcc0c0f66a220d80bb",
+          "same": true
+        },
+        {
+          "name": "Cabin_ReadingWindow_Glow",
+          "baseline_sha256": "3f756cfd53b57388472e22390199e144250968a4f7c8c689f7f4d516e9b27d2c",
+          "candidate_sha256": "3f756cfd53b57388472e22390199e144250968a4f7c8c689f7f4d516e9b27d2c",
+          "same": true
+        },
+        {
+          "name": "Cabin_Timber",
+          "baseline_sha256": "a042f0fbc78aa8c0c45d445fd99c7d22650ffc095be609f52d98d071445364ac",
+          "candidate_sha256": "a042f0fbc78aa8c0c45d445fd99c7d22650ffc095be609f52d98d071445364ac",
+          "same": true
+        },
+        {
+          "name": "Cliff_Pier",
+          "baseline_sha256": "111ef0d3d8697d1c0b09b6ce8b0eb7649e2bb7c469386470e932386a838972fb",
+          "candidate_sha256": "111ef0d3d8697d1c0b09b6ce8b0eb7649e2bb7c469386470e932386a838972fb",
+          "same": true
+        },
+        {
+          "name": "Garden_Bench",
+          "baseline_sha256": "430d4af685fdbfc0a1d62b969d06caaa158c3f795d0b11d23e317fc7e74a9b4d",
+          "candidate_sha256": "430d4af685fdbfc0a1d62b969d06caaa158c3f795d0b11d23e317fc7e74a9b4d",
+          "same": true
+        },
+        {
+          "name": "Garden_CreepingMeadowLeaves",
+          "baseline_sha256": "4084e167178d082b8e2ee7db8f9eca0d9b610f9eb8d19c6c0bc9e425e40adb7d",
+          "candidate_sha256": "4084e167178d082b8e2ee7db8f9eca0d9b610f9eb8d19c6c0bc9e425e40adb7d",
+          "same": true
+        },
+        {
+          "name": "Garden_FeatherFerns",
+          "baseline_sha256": "5108cc15c787e2f80920f73bf3fc5e9aca3e14ac3c639c665bd94b9307f1e47a",
+          "candidate_sha256": "5108cc15c787e2f80920f73bf3fc5e9aca3e14ac3c639c665bd94b9307f1e47a",
+          "same": true
+        },
+        {
+          "name": "Garden_GrassTufts",
+          "baseline_sha256": "d49662829035080de78c8b4e257d756b3854c04c2eee789108f5c9d30b71d922",
+          "candidate_sha256": "d49662829035080de78c8b4e257d756b3854c04c2eee789108f5c9d30b71d922",
+          "same": true
+        },
+        {
+          "name": "Garden_HeroBoulders",
+          "baseline_sha256": "7463ff98136e4ca5341f7975d22664dc38d1f3ead7a93008a7897f5b35bba6e6",
+          "candidate_sha256": "7463ff98136e4ca5341f7975d22664dc38d1f3ead7a93008a7897f5b35bba6e6",
+          "same": true
+        },
+        {
+          "name": "Garden_LavenderAndSeedHeads",
+          "baseline_sha256": "a97ef47e869385964e2678cca6c2516830456701b4c4be49b95af165d338bc1b",
+          "candidate_sha256": "a97ef47e869385964e2678cca6c2516830456701b4c4be49b95af165d338bc1b",
+          "same": true
+        },
+        {
+          "name": "Garden_MushroomsAndPebbles",
+          "baseline_sha256": "146e9c8317032e046530fe5d666d0c9ff35dc60c28ce3b88b5795199d2add912",
+          "candidate_sha256": "146e9c8317032e046530fe5d666d0c9ff35dc60c28ce3b88b5795199d2add912",
+          "same": true
+        },
+        {
+          "name": "Garden_StoryDetails",
+          "baseline_sha256": "a2aa3f05e6729d0c22db9384a87ee44c299b59ec6724381699b026f9bc9a9eb1",
+          "candidate_sha256": "a2aa3f05e6729d0c22db9384a87ee44c299b59ec6724381699b026f9bc9a9eb1",
+          "same": true
+        },
+        {
+          "name": "Garden_Walkways",
+          "baseline_sha256": "da1ba29b69f5bcd4b12bb9c515dc7993bdda4184c3bc1533ff18414737dce94c",
+          "candidate_sha256": "da1ba29b69f5bcd4b12bb9c515dc7993bdda4184c3bc1533ff18414737dce94c",
+          "same": true
+        },
+        {
+          "name": "Garden_Wildflowers",
+          "baseline_sha256": "155bd3dc998bae793581d78477807b8a33c2fadf5954a414026b02641f47546b",
+          "candidate_sha256": "155bd3dc998bae793581d78477807b8a33c2fadf5954a414026b02641f47546b",
+          "same": true
+        },
+        {
+          "name": "Island_BrassMeridian",
+          "baseline_sha256": "c3ac406aca5e85b872e1e52befc5a051e134b5901e017b88ce0584c9e6ef65a4",
+          "candidate_sha256": "c3ac406aca5e85b872e1e52befc5a051e134b5901e017b88ce0584c9e6ef65a4",
+          "same": true
+        },
+        {
+          "name": "Island_CliffGardens",
+          "baseline_sha256": "274587bb39cb76d87bd32b518cf9acb27fc76ea3b024d499859a330e1c8cfc2b",
+          "candidate_sha256": "274587bb39cb76d87bd32b518cf9acb27fc76ea3b024d499859a330e1c8cfc2b",
+          "same": true
+        },
+        {
+          "name": "Island_Meadow",
+          "baseline_sha256": "d6476c09bf30150ae3670c0afc9a563dc3f4bd3cd60bff7897663e38258fa425",
+          "candidate_sha256": "d6476c09bf30150ae3670c0afc9a563dc3f4bd3cd60bff7897663e38258fa425",
+          "same": true
+        },
+        {
+          "name": "Island_Strata",
+          "baseline_sha256": "87a9ccabbd0c6a454e8e21402274e7b728fd9afd97ee9bc1aaf32b8aec75b61e",
+          "candidate_sha256": "87a9ccabbd0c6a454e8e21402274e7b728fd9afd97ee9bc1aaf32b8aec75b61e",
+          "same": true
+        },
+        {
+          "name": "LampBase_A",
+          "baseline_sha256": "980d41f002300c440aef8e7c9638730a01ec009b4b0b31f8cd898dfd0edc5eab",
+          "candidate_sha256": "980d41f002300c440aef8e7c9638730a01ec009b4b0b31f8cd898dfd0edc5eab",
+          "same": true
+        },
+        {
+          "name": "LampBase_B",
+          "baseline_sha256": "00c4aa6311a68f62e66546a122d9792bdce68368cefe93b41faf3d2ec54e1062",
+          "candidate_sha256": "00c4aa6311a68f62e66546a122d9792bdce68368cefe93b41faf3d2ec54e1062",
+          "same": true
+        },
+        {
+          "name": "LampBase_C",
+          "baseline_sha256": "76cce7bb95e74315a4ca74ec1ea223c5f1818745c2ce7cc3319e50d8b435a0fe",
+          "candidate_sha256": "76cce7bb95e74315a4ca74ec1ea223c5f1818745c2ce7cc3319e50d8b435a0fe",
+          "same": true
+        },
+        {
+          "name": "MoonDial_Sculpture",
+          "baseline_sha256": "5f6d6cf8c660a8b51e5acc20659ed497bf255a0b433733aa054f4f7d11b0ecce",
+          "candidate_sha256": "5f6d6cf8c660a8b51e5acc20659ed497bf255a0b433733aa054f4f7d11b0ecce",
+          "same": true
+        },
+        {
+          "name": "Observatory_StoneAndBrass",
+          "baseline_sha256": "cda947bdc276c6a0a7584279139979d4256067dbcb828c72b8bde21b9937c75f",
+          "candidate_sha256": "cda947bdc276c6a0a7584279139979d4256067dbcb828c72b8bde21b9937c75f",
+          "same": true
+        }
+      ],
+      "anchors_identical": true,
+      "all_object_transforms_identical": true,
+      "materials_identical": true,
+      "zero_area_triangles": [],
+      "duplicate_triangles": [],
+      "invalid_normal_meshes": [],
+      "targets": [
+        {
+          "mesh": "Garden_CanopyLeafEdges",
+          "vertices": 648,
+          "triangles": 576,
+          "max_position_error_metres": 1.1680077705022995e-06,
+          "max_corner_normal_error_degrees": 0.030586755806171196,
+          "max_uv_error": 0.0,
+          "max_colour_error": 0.0,
+          "material_slots_identical": true,
+          "linear_byte_colour_model": null,
+          "passed": true
+        },
+        {
+          "mesh": "Garden_TreeCanopies",
+          "vertices": 71382,
+          "triangles": 62608,
+          "max_position_error_metres": 1.1680077705022995e-06,
+          "max_corner_normal_error_degrees": 0.034970569093279974,
+          "max_uv_error": 0.0,
+          "max_colour_error": 0.0,
+          "material_slots_identical": true,
+          "linear_byte_colour_model": null,
+          "passed": true
+        },
+        {
+          "mesh": "Garden_TreeTrunks",
+          "vertices": 10553,
+          "triangles": 18352,
+          "max_position_error_metres": 1.1680077705022995e-06,
+          "max_corner_normal_error_degrees": 0.037664455686860075,
+          "max_uv_error": 0.0,
+          "max_colour_error": 0.0,
+          "material_slots_identical": true,
+          "linear_byte_colour_model": null,
+          "passed": true
+        }
+      ]
+    },
+    {
+      "format": "glb",
+      "passed": true,
+      "errors": [],
+      "mesh_count": 29,
+      "triangles": 538118,
+      "unchanged_non_targets": [
+        {
+          "name": "Island_Strata",
+          "baseline_sha256": "99a9964f24a0c467407b44bb04dd9d27a40720cdfa3196f885908cc220b7c2a2",
+          "candidate_sha256": "99a9964f24a0c467407b44bb04dd9d27a40720cdfa3196f885908cc220b7c2a2",
+          "same": true
+        },
+        {
+          "name": "Island_Meadow",
+          "baseline_sha256": "de5f40e9c3492e5f2971cea1cc43326f9ca748ee153c092c7fd4733c3af22631",
+          "candidate_sha256": "de5f40e9c3492e5f2971cea1cc43326f9ca748ee153c092c7fd4733c3af22631",
+          "same": true
+        },
+        {
+          "name": "Island_CliffGardens",
+          "baseline_sha256": "009bf838c4e30e88138b0439958ae218f3266411d9d30ee0f15e09ac52f81e34",
+          "candidate_sha256": "009bf838c4e30e88138b0439958ae218f3266411d9d30ee0f15e09ac52f81e34",
+          "same": true
+        },
+        {
+          "name": "Island_BrassMeridian",
+          "baseline_sha256": "3292484b226e2c0657b427ef2472c696015426d34ece628852894d9b3273033f",
+          "candidate_sha256": "3292484b226e2c0657b427ef2472c696015426d34ece628852894d9b3273033f",
+          "same": true
+        },
+        {
+          "name": "Garden_Walkways",
+          "baseline_sha256": "b1224006d4723b750fd9c150a70d4d67ae22ad70814c352e13e73640ad7de785",
+          "candidate_sha256": "b1224006d4723b750fd9c150a70d4d67ae22ad70814c352e13e73640ad7de785",
+          "same": true
+        },
+        {
+          "name": "Garden_HeroBoulders",
+          "baseline_sha256": "7f033e6687940949dd988221abf0042be2b69cefff2f32321cfaf00afb68d619",
+          "candidate_sha256": "7f033e6687940949dd988221abf0042be2b69cefff2f32321cfaf00afb68d619",
+          "same": true
+        },
+        {
+          "name": "Observatory_StoneAndBrass",
+          "baseline_sha256": "bccc5a1735b562002cc592144d28556c45a62be06ef696e7dbecf0284bb0feda",
+          "candidate_sha256": "bccc5a1735b562002cc592144d28556c45a62be06ef696e7dbecf0284bb0feda",
+          "same": true
+        },
+        {
+          "name": "Cabin_PlasterAndFoundation",
+          "baseline_sha256": "1ee7780b1ce93ba7155d59a60455120a7e833d38588c2f9768211153d7dd8650",
+          "candidate_sha256": "1ee7780b1ce93ba7155d59a60455120a7e833d38588c2f9768211153d7dd8650",
+          "same": true
+        },
+        {
+          "name": "Cabin_IndividualShingles",
+          "baseline_sha256": "b0924c342d5dada811e4374a2b3a2e5fab50cd7f6c49f346c440a26f33ab3bfc",
+          "candidate_sha256": "b0924c342d5dada811e4374a2b3a2e5fab50cd7f6c49f346c440a26f33ab3bfc",
+          "same": true
+        },
+        {
+          "name": "Cabin_ReadingWindow_Glow",
+          "baseline_sha256": "c3ab32d3e83b627de4846d835f2d83ed288ce1b0a5be9578a928584ecdfef275",
+          "candidate_sha256": "c3ab32d3e83b627de4846d835f2d83ed288ce1b0a5be9578a928584ecdfef275",
+          "same": true
+        },
+        {
+          "name": "Cabin_DoorAndAccessories",
+          "baseline_sha256": "e02eb3ba9429cd57bdd3abb165c0b980228c43e52dd05f5a171c9137f0ffb3e0",
+          "candidate_sha256": "e02eb3ba9429cd57bdd3abb165c0b980228c43e52dd05f5a171c9137f0ffb3e0",
+          "same": true
+        },
+        {
+          "name": "Cabin_Timber",
+          "baseline_sha256": "0a2b95e72cf8f62c50c2c1306ba9700423e268278c15cad48e48008813f2c73c",
+          "candidate_sha256": "0a2b95e72cf8f62c50c2c1306ba9700423e268278c15cad48e48008813f2c73c",
+          "same": true
+        },
+        {
+          "name": "LampBase_A",
+          "baseline_sha256": "fb7d1fb7185da7ee0cd55adcd43298071ca02c5f00d217e9ee8b3e34a8e74066",
+          "candidate_sha256": "fb7d1fb7185da7ee0cd55adcd43298071ca02c5f00d217e9ee8b3e34a8e74066",
+          "same": true
+        },
+        {
+          "name": "LampBase_B",
+          "baseline_sha256": "c22e43d9f84f3a3a5e091979556fa932487cdd29bd901b3e556e75b4ffeba264",
+          "candidate_sha256": "c22e43d9f84f3a3a5e091979556fa932487cdd29bd901b3e556e75b4ffeba264",
+          "same": true
+        },
+        {
+          "name": "LampBase_C",
+          "baseline_sha256": "25b0994e8d222af546e70376884aff4dc882b9361fb76cd0f03b4d7cc5fc6c7b",
+          "candidate_sha256": "25b0994e8d222af546e70376884aff4dc882b9361fb76cd0f03b4d7cc5fc6c7b",
+          "same": true
+        },
+        {
+          "name": "Garden_Bench",
+          "baseline_sha256": "8ec506d9a42243162665ce7ff4e3167917e1333e1b789a86054d94b54dcabb97",
+          "candidate_sha256": "8ec506d9a42243162665ce7ff4e3167917e1333e1b789a86054d94b54dcabb97",
+          "same": true
+        },
+        {
+          "name": "Cliff_Pier",
+          "baseline_sha256": "56a1517e2ebda6dcce886b891d6f9f01eb9153b3c7ef6c1ce674d8e2e08675be",
+          "candidate_sha256": "56a1517e2ebda6dcce886b891d6f9f01eb9153b3c7ef6c1ce674d8e2e08675be",
+          "same": true
+        },
+        {
+          "name": "MoonDial_Sculpture",
+          "baseline_sha256": "43831b6ac8ba6edffa01b76b33f6e9616097fbe93cd42c938b86e02283416aee",
+          "candidate_sha256": "43831b6ac8ba6edffa01b76b33f6e9616097fbe93cd42c938b86e02283416aee",
+          "same": true
+        },
+        {
+          "name": "Garden_CreepingMeadowLeaves",
+          "baseline_sha256": "e486e730ad0a28ced4fa1b3ec4a2e0709b7838a7f6a386f9185f783801fbb8e8",
+          "candidate_sha256": "e486e730ad0a28ced4fa1b3ec4a2e0709b7838a7f6a386f9185f783801fbb8e8",
+          "same": true
+        },
+        {
+          "name": "Garden_FeatherFerns",
+          "baseline_sha256": "46eb360d50e844d3918e2ebe6ba5fd19a2bc074a326fe7f6a8cf5c7e594bddb8",
+          "candidate_sha256": "46eb360d50e844d3918e2ebe6ba5fd19a2bc074a326fe7f6a8cf5c7e594bddb8",
+          "same": true
+        },
+        {
+          "name": "Garden_LavenderAndSeedHeads",
+          "baseline_sha256": "fa1df7b3ed91afff28f7f28b5103bb60e9100c99d408a5a43731705b948f4abb",
+          "candidate_sha256": "fa1df7b3ed91afff28f7f28b5103bb60e9100c99d408a5a43731705b948f4abb",
+          "same": true
+        },
+        {
+          "name": "Garden_Wildflowers",
+          "baseline_sha256": "1da27ae6ac645dacbd2cf55bbb7f28c8f600498f25f86248f1cffad9346bc20d",
+          "candidate_sha256": "1da27ae6ac645dacbd2cf55bbb7f28c8f600498f25f86248f1cffad9346bc20d",
+          "same": true
+        },
+        {
+          "name": "Garden_GrassTufts",
+          "baseline_sha256": "08aaac8d0261500a5dcd7c2c69651385a6c5f35626eb2300943d862607c7ea6c",
+          "candidate_sha256": "08aaac8d0261500a5dcd7c2c69651385a6c5f35626eb2300943d862607c7ea6c",
+          "same": true
+        },
+        {
+          "name": "Garden_MushroomsAndPebbles",
+          "baseline_sha256": "b693e5ab915621c71a0bc479af22ef2e4f780e578b12c52c8605e6f097d756a1",
+          "candidate_sha256": "b693e5ab915621c71a0bc479af22ef2e4f780e578b12c52c8605e6f097d756a1",
+          "same": true
+        },
+        {
+          "name": "Cabin_ClimbingIvy",
+          "baseline_sha256": "c1bf8a0b758915b0b729616c93c4231dee2b2db00e9450f554bcbdbca18eb37e",
+          "candidate_sha256": "c1bf8a0b758915b0b729616c93c4231dee2b2db00e9450f554bcbdbca18eb37e",
+          "same": true
+        },
+        {
+          "name": "Garden_StoryDetails",
+          "baseline_sha256": "c81481e77b3bc45b430faff20e0a9a286721094054287f72b8b48c7e20271432",
+          "candidate_sha256": "c81481e77b3bc45b430faff20e0a9a286721094054287f72b8b48c7e20271432",
+          "same": true
+        }
+      ],
+      "anchors_identical": true,
+      "all_object_transforms_identical": true,
+      "materials_identical": true,
+      "zero_area_triangles": [],
+      "duplicate_triangles": [],
+      "invalid_normal_meshes": [],
+      "targets": [
+        {
+          "mesh": "Garden_CanopyLeafEdges",
+          "vertices": 648,
+          "triangles": 576,
+          "max_position_error_metres": 0.0,
+          "max_corner_normal_error_degrees": 0.03359951091151477,
+          "max_uv_error": 0.0,
+          "max_colour_error": 0.0041806697845458984,
+          "material_slots_identical": true,
+          "linear_byte_colour_model": {
+            "type": "BYTE_COLOR",
+            "domain": "CORNER",
+            "model_residual": {
+              "max_rgba": 0.0,
+              "max_rgb": 0.0,
+              "mean_absolute_rgba": 0.0,
+              "mean_absolute_rgb": 0.0,
+              "rows": 1728
+            },
+            "source_linear_error": {
+              "max_rgba": 0.0041806697845458984,
+              "max_rgb": 0.0041806697845458984,
+              "mean_absolute_rgba": 0.0015599156419436138,
+              "mean_absolute_rgb": 0.0020798875225914847,
+              "rows": 1728
+            },
+            "passed": true
+          },
+          "passed": true
+        },
+        {
+          "mesh": "Garden_TreeCanopies",
+          "vertices": 71382,
+          "triangles": 62608,
+          "max_position_error_metres": 0.0,
+          "max_corner_normal_error_degrees": 0.035663122863758445,
+          "max_uv_error": 0.0,
+          "max_colour_error": 0.0044800639152526855,
+          "material_slots_identical": true,
+          "linear_byte_colour_model": {
+            "type": "BYTE_COLOR",
+            "domain": "CORNER",
+            "model_residual": {
+              "max_rgba": 0.0,
+              "max_rgb": 0.0,
+              "mean_absolute_rgba": 0.0,
+              "mean_absolute_rgb": 0.0,
+              "rows": 187824
+            },
+            "source_linear_error": {
+              "max_rgba": 0.0044800639152526855,
+              "max_rgb": 0.0044800639152526855,
+              "mean_absolute_rgba": 0.0015744304262080705,
+              "mean_absolute_rgb": 0.0020992405682774273,
+              "rows": 187824
+            },
+            "passed": true
+          },
+          "passed": true
+        },
+        {
+          "mesh": "Garden_TreeTrunks",
+          "vertices": 10556,
+          "triangles": 18352,
+          "max_position_error_metres": 0.0,
+          "max_corner_normal_error_degrees": 0.03956468264845247,
+          "max_uv_error": 0.0,
+          "max_colour_error": 0.0,
+          "material_slots_identical": true,
+          "linear_byte_colour_model": {
+            "type": "BYTE_COLOR",
+            "domain": "CORNER",
+            "model_residual": {
+              "max_rgba": 0.0,
+              "max_rgb": 0.0,
+              "mean_absolute_rgba": 0.0,
+              "mean_absolute_rgb": 0.0,
+              "rows": 55056
+            },
+            "source_linear_error": {
+              "max_rgba": 0.0,
+              "max_rgb": 0.0,
+              "mean_absolute_rgba": 0.0,
+              "mean_absolute_rgb": 0.0,
+              "rows": 55056
+            },
+            "passed": true
+          },
+          "passed": true
+        }
+      ]
+    }
+  ],
+  "limits": [
+    "This verifies asset preservation and interchange, not visual acceptance or runtime performance.",
+    "Low source trunk/root components are kept; upper TreeTrunks collider intentionally changes.",
+    "Static triangle intersections are reported for cabin/moondial only; no continuous wind or complete visibility proof."
+  ],
+  "candidate_hashes_match": {
+    "island.blend": true,
+    "island.fbx": true,
+    "island.glb": true,
+    "textures/meadow-watercolor.png": true,
+    "textures/meadow-normal.png": true
+  },
+  "source_hashes_match": {
+    "island.blend": true,
+    "island.fbx": true,
+    "island.glb": true,
+    "textures/meadow-watercolor.png": true,
+    "textures/meadow-normal.png": true
+  },
+  "source_target_parts": {
+    "Garden_CanopyLeafEdges": {
+      "vertices": 648,
+      "triangles": 576,
+      "parts": 72,
+      "classes": {
+        "curved_leaf": 72
+      }
+    },
+    "Garden_TreeCanopies": {
+      "vertices": 71382,
+      "triangles": 62608,
+      "parts": 8774,
+      "classes": {
+        "curved_leaf": 4982,
+        "needle": 3792
+      }
+    },
+    "Garden_TreeTrunks": {
+      "vertices": 10553,
+      "triangles": 18352,
+      "parts": 687,
+      "classes": {
+        "frozen_low_component": 39,
+        "upper_trunk": 3,
+        "primary_bough": 16,
+        "secondary_bough": 57,
+        "leaf_support_shoot": 390,
+        "conifer_bough": 22,
+        "conifer_spray": 154,
+        "conifer_leader": 6
+      }
+    }
+  },
+  "static_cabin_moondial_triangle_intersections": [
+    {
+      "tree_mesh": "Garden_CanopyLeafEdges",
+      "obstacle": "Cabin_PlasterAndFoundation",
+      "overlapping_polygon_pairs": 0,
+      "first_pairs": []
+    },
+    {
+      "tree_mesh": "Garden_CanopyLeafEdges",
+      "obstacle": "Cabin_IndividualShingles",
+      "overlapping_polygon_pairs": 0,
+      "first_pairs": []
+    },
+    {
+      "tree_mesh": "Garden_CanopyLeafEdges",
+      "obstacle": "Cabin_ReadingWindow_Glow",
+      "overlapping_polygon_pairs": 0,
+      "first_pairs": []
+    },
+    {
+      "tree_mesh": "Garden_CanopyLeafEdges",
+      "obstacle": "Cabin_DoorAndAccessories",
+      "overlapping_polygon_pairs": 0,
+      "first_pairs": []
+    },
+    {
+      "tree_mesh": "Garden_CanopyLeafEdges",
+      "obstacle": "Cabin_Timber",
+      "overlapping_polygon_pairs": 0,
+      "first_pairs": []
+    },
+    {
+      "tree_mesh": "Garden_CanopyLeafEdges",
+      "obstacle": "MoonDial_Sculpture",
+      "overlapping_polygon_pairs": 0,
+      "first_pairs": []
+    },
+    {
+      "tree_mesh": "Garden_TreeCanopies",
+      "obstacle": "Cabin_PlasterAndFoundation",
+      "overlapping_polygon_pairs": 0,
+      "first_pairs": []
+    },
+    {
+      "tree_mesh": "Garden_TreeCanopies",
+      "obstacle": "Cabin_IndividualShingles",
+      "overlapping_polygon_pairs": 0,
+      "first_pairs": []
+    },
+    {
+      "tree_mesh": "Garden_TreeCanopies",
+      "obstacle": "Cabin_ReadingWindow_Glow",
+      "overlapping_polygon_pairs": 0,
+      "first_pairs": []
+    },
+    {
+      "tree_mesh": "Garden_TreeCanopies",
+      "obstacle": "Cabin_DoorAndAccessories",
+      "overlapping_polygon_pairs": 0,
+      "first_pairs": []
+    },
+    {
+      "tree_mesh": "Garden_TreeCanopies",
+      "obstacle": "Cabin_Timber",
+      "overlapping_polygon_pairs": 0,
+      "first_pairs": []
+    },
+    {
+      "tree_mesh": "Garden_TreeCanopies",
+      "obstacle": "MoonDial_Sculpture",
+      "overlapping_polygon_pairs": 0,
+      "first_pairs": []
+    },
+    {
+      "tree_mesh": "Garden_TreeTrunks",
+      "obstacle": "Cabin_PlasterAndFoundation",
+      "overlapping_polygon_pairs": 0,
+      "first_pairs": []
+    },
+    {
+      "tree_mesh": "Garden_TreeTrunks",
+      "obstacle": "Cabin_IndividualShingles",
+      "overlapping_polygon_pairs": 0,
+      "first_pairs": []
+    },
+    {
+      "tree_mesh": "Garden_TreeTrunks",
+      "obstacle": "Cabin_ReadingWindow_Glow",
+      "overlapping_polygon_pairs": 0,
+      "first_pairs": []
+    },
+    {
+      "tree_mesh": "Garden_TreeTrunks",
+      "obstacle": "Cabin_DoorAndAccessories",
+      "overlapping_polygon_pairs": 0,
+      "first_pairs": []
+    },
+    {
+      "tree_mesh": "Garden_TreeTrunks",
+      "obstacle": "Cabin_Timber",
+      "overlapping_polygon_pairs": 0,
+      "first_pairs": []
+    },
+    {
+      "tree_mesh": "Garden_TreeTrunks",
+      "obstacle": "MoonDial_Sculpture",
+      "overlapping_polygon_pairs": 0,
+      "first_pairs": []
+    }
+  ],
+  "low_trunk_component_checks": [
+    {
+      "source_component": 0,
+      "geometry_uv_colour_exact": true,
+      "normal_vector_max_error": 5.960464477539063e-08,
+      "including_normals_exact": false,
+      "expected_geometry_uv_colour_sha256": "3cb4a41434b5d775bad21f63f37ae08067bdcf6435495e85a797f78b4c346392",
+      "actual_geometry_uv_colour_sha256": "3cb4a41434b5d775bad21f63f37ae08067bdcf6435495e85a797f78b4c346392"
+    },
+    {
+      "source_component": 1,
+      "geometry_uv_colour_exact": true,
+      "normal_vector_max_error": 5.960464477539063e-08,
+      "including_normals_exact": false,
+      "expected_geometry_uv_colour_sha256": "05e8da2ee3d483b05f99e108558e63d8c671cc1bb5dab006316b155545069e29",
+      "actual_geometry_uv_colour_sha256": "05e8da2ee3d483b05f99e108558e63d8c671cc1bb5dab006316b155545069e29"
+    },
+    {
+      "source_component": 54,
+      "geometry_uv_colour_exact": true,
+      "normal_vector_max_error": 6.664001874625056e-08,
+      "including_normals_exact": false,
+      "expected_geometry_uv_colour_sha256": "8c691f24ad6425f2777b160c4f11eef5b3409c21d12369c6aaf1d3ed2736d816",
+      "actual_geometry_uv_colour_sha256": "8c691f24ad6425f2777b160c4f11eef5b3409c21d12369c6aaf1d3ed2736d816"
+    },
+    {
+      "source_component": 55,
+      "geometry_uv_colour_exact": true,
+      "normal_vector_max_error": 6.664001874625056e-08,
+      "including_normals_exact": false,
+      "expected_geometry_uv_colour_sha256": "0e8d09d2e749aed7827bd817009e166f6a23393387569f52b3382f4fe82595d4",
+      "actual_geometry_uv_colour_sha256": "0e8d09d2e749aed7827bd817009e166f6a23393387569f52b3382f4fe82595d4"
+    },
+    {
+      "source_component": 56,
+      "geometry_uv_colour_exact": true,
+      "normal_vector_max_error": 8.429369702178807e-08,
+      "including_normals_exact": false,
+      "expected_geometry_uv_colour_sha256": "b605dcf532c0dd810512f1976c3578b1cee0866bae221595eb1ac38d5501ba06",
+      "actual_geometry_uv_colour_sha256": "b605dcf532c0dd810512f1976c3578b1cee0866bae221595eb1ac38d5501ba06"
+    },
+    {
+      "source_component": 57,
+      "geometry_uv_colour_exact": true,
+      "normal_vector_max_error": 5.960464477539063e-08,
+      "including_normals_exact": false,
+      "expected_geometry_uv_colour_sha256": "f0824cd43c7752cdbcbe46499cc4f0c4f0266f580f5ae775d246cc68dc5abd28",
+      "actual_geometry_uv_colour_sha256": "f0824cd43c7752cdbcbe46499cc4f0c4f0266f580f5ae775d246cc68dc5abd28"
+    },
+    {
+      "source_component": 58,
+      "geometry_uv_colour_exact": true,
+      "normal_vector_max_error": 1.3328003749250113e-07,
+      "including_normals_exact": false,
+      "expected_geometry_uv_colour_sha256": "ff7b5cfa06c88d6d5726b3737f1663f6ea14dec5ddcbbd60e33fa37dba390954",
+      "actual_geometry_uv_colour_sha256": "ff7b5cfa06c88d6d5726b3737f1663f6ea14dec5ddcbbd60e33fa37dba390954"
+    },
+    {
+      "source_component": 59,
+      "geometry_uv_colour_exact": true,
+      "normal_vector_max_error": 1.2013700229374393e-07,
+      "including_normals_exact": false,
+      "expected_geometry_uv_colour_sha256": "660dee1f8bacd43561f822ec9892dedc0213db5c026abd9316f5c496d1a909ee",
+      "actual_geometry_uv_colour_sha256": "660dee1f8bacd43561f822ec9892dedc0213db5c026abd9316f5c496d1a909ee"
+    },
+    {
+      "source_component": 60,
+      "geometry_uv_colour_exact": true,
+      "normal_vector_max_error": 1.228781230931777e-07,
+      "including_normals_exact": false,
+      "expected_geometry_uv_colour_sha256": "68f9c5e0ee4d1c557033195edccbcc1f0582778217bbc152ffed1ad0c27fe5dc",
+      "actual_geometry_uv_colour_sha256": "68f9c5e0ee4d1c557033195edccbcc1f0582778217bbc152ffed1ad0c27fe5dc"
+    },
+    {
+      "source_component": 61,
+      "geometry_uv_colour_exact": true,
+      "normal_vector_max_error": 5.960464477539063e-08,
+      "including_normals_exact": false,
+      "expected_geometry_uv_colour_sha256": "c241e9abc29a6382c5a6019c12a3e9c1c879b2defe79bca9fe26be090722f834",
+      "actual_geometry_uv_colour_sha256": "c241e9abc29a6382c5a6019c12a3e9c1c879b2defe79bca9fe26be090722f834"
+    },
+    {
+      "source_component": 62,
+      "geometry_uv_colour_exact": true,
+      "normal_vector_max_error": 3.332000937312528e-08,
+      "including_normals_exact": false,
+      "expected_geometry_uv_colour_sha256": "933b2204a5f3d974c2ab65773412a562617fc9019e4520feabaad45f1c8a00cd",
+      "actual_geometry_uv_colour_sha256": "933b2204a5f3d974c2ab65773412a562617fc9019e4520feabaad45f1c8a00cd"
+    },
+    {
+      "source_component": 63,
+      "geometry_uv_colour_exact": true,
+      "normal_vector_max_error": 8.429369702178807e-08,
+      "including_normals_exact": false,
+      "expected_geometry_uv_colour_sha256": "2fcf0aaa4562c543d02f246d63b1ec5d483c38a4656fbd4d7908cb44b098ea20",
+      "actual_geometry_uv_colour_sha256": "2fcf0aaa4562c543d02f246d63b1ec5d483c38a4656fbd4d7908cb44b098ea20"
+    },
+    {
+      "source_component": 64,
+      "geometry_uv_colour_exact": true,
+      "normal_vector_max_error": 6.664001874625056e-08,
+      "including_normals_exact": false,
+      "expected_geometry_uv_colour_sha256": "4d9bc448413150d63aba606d74d44c209d74591e013fa9e277653f7becbea07e",
+      "actual_geometry_uv_colour_sha256": "4d9bc448413150d63aba606d74d44c209d74591e013fa9e277653f7becbea07e"
+    },
+    {
+      "source_component": 65,
+      "geometry_uv_colour_exact": true,
+      "normal_vector_max_error": 8.429369702178807e-08,
+      "including_normals_exact": false,
+      "expected_geometry_uv_colour_sha256": "cea2f996eab131fa01ee805a34d7fda7ba21cf0e891109fdbce50e27996b7dda",
+      "actual_geometry_uv_colour_sha256": "cea2f996eab131fa01ee805a34d7fda7ba21cf0e891109fdbce50e27996b7dda"
+    },
+    {
+      "source_component": 67,
+      "geometry_uv_colour_exact": true,
+      "normal_vector_max_error": 4.9500166562410325e-05,
+      "including_normals_exact": false,
+      "expected_geometry_uv_colour_sha256": "41c09357a2938fc1d9c6e846db103bab39094464fc33d23cba03bc06a8194bb1",
+      "actual_geometry_uv_colour_sha256": "41c09357a2938fc1d9c6e846db103bab39094464fc33d23cba03bc06a8194bb1"
+    },
+    {
+      "source_component": 68,
+      "geometry_uv_colour_exact": true,
+      "normal_vector_max_error": 6.606564045376814e-05,
+      "including_normals_exact": false,
+      "expected_geometry_uv_colour_sha256": "86186fbdeefa5d67741142a868423c84195f8dc8940e80017903f9761320f172",
+      "actual_geometry_uv_colour_sha256": "86186fbdeefa5d67741142a868423c84195f8dc8940e80017903f9761320f172"
+    },
+    {
+      "source_component": 69,
+      "geometry_uv_colour_exact": true,
+      "normal_vector_max_error": 4.808206947851997e-05,
+      "including_normals_exact": false,
+      "expected_geometry_uv_colour_sha256": "42dc47b1eec1663a598b32e7b4a37a4c2b2cfb0862102372b48b58afe8322441",
+      "actual_geometry_uv_colour_sha256": "42dc47b1eec1663a598b32e7b4a37a4c2b2cfb0862102372b48b58afe8322441"
+    },
+    {
+      "source_component": 100,
+      "geometry_uv_colour_exact": true,
+      "normal_vector_max_error": 3.0719530773294423e-08,
+      "including_normals_exact": false,
+      "expected_geometry_uv_colour_sha256": "18c2d4278ee4d6380b80da0ecdabfbf31257b8a37c7e0610221336fe4b73707f",
+      "actual_geometry_uv_colour_sha256": "18c2d4278ee4d6380b80da0ecdabfbf31257b8a37c7e0610221336fe4b73707f"
+    },
+    {
+      "source_component": 101,
+      "geometry_uv_colour_exact": true,
+      "normal_vector_max_error": 8.429369702178807e-08,
+      "including_normals_exact": false,
+      "expected_geometry_uv_colour_sha256": "898942d3f1d23c78326ad9b22ee9c3c38df295e2cc49bafdf8eb8a54b19bd542",
+      "actual_geometry_uv_colour_sha256": "898942d3f1d23c78326ad9b22ee9c3c38df295e2cc49bafdf8eb8a54b19bd542"
+    },
+    {
+      "source_component": 102,
+      "geometry_uv_colour_exact": true,
+      "normal_vector_max_error": 1.2310379476739693e-07,
+      "including_normals_exact": false,
+      "expected_geometry_uv_colour_sha256": "9e578c2b5d29b57c5574f2e778a009235d18c0bd23ee53d325e18e0c0bb2400d",
+      "actual_geometry_uv_colour_sha256": "9e578c2b5d29b57c5574f2e778a009235d18c0bd23ee53d325e18e0c0bb2400d"
+    },
+    {
+      "source_component": 103,
+      "geometry_uv_colour_exact": true,
+      "normal_vector_max_error": 5.960464477539063e-08,
+      "including_normals_exact": false,
+      "expected_geometry_uv_colour_sha256": "9ce7de109ce2790bf8a05d182f24ab4377bcda20edf4e66d12f4a1114dc539fd",
+      "actual_geometry_uv_colour_sha256": "9ce7de109ce2790bf8a05d182f24ab4377bcda20edf4e66d12f4a1114dc539fd"
+    },
+    {
+      "source_component": 104,
+      "geometry_uv_colour_exact": true,
+      "normal_vector_max_error": 6.143906154658885e-08,
+      "including_normals_exact": false,
+      "expected_geometry_uv_colour_sha256": "39fbb5ec2f19629871969c024ed2e0fd0739a76cccbdffcda747df5ce9dc8a49",
+      "actual_geometry_uv_colour_sha256": "39fbb5ec2f19629871969c024ed2e0fd0739a76cccbdffcda747df5ce9dc8a49"
+    },
+    {
+      "source_component": 105,
+      "geometry_uv_colour_exact": true,
+      "normal_vector_max_error": 8.462232866585662e-08,
+      "including_normals_exact": false,
+      "expected_geometry_uv_colour_sha256": "13e34a93f7cde1aed55cac12fd70078f1045683cd18d4661b3f1f8b475793e0c",
+      "actual_geometry_uv_colour_sha256": "13e34a93f7cde1aed55cac12fd70078f1045683cd18d4661b3f1f8b475793e0c"
+    },
+    {
+      "source_component": 106,
+      "geometry_uv_colour_exact": true,
+      "normal_vector_max_error": 8.940696716308594e-08,
+      "including_normals_exact": false,
+      "expected_geometry_uv_colour_sha256": "adabb4014b07781c246e3943780a7c458e9d1764323233c327966110d736076d",
+      "actual_geometry_uv_colour_sha256": "adabb4014b07781c246e3943780a7c458e9d1764323233c327966110d736076d"
+    },
+    {
+      "source_component": 107,
+      "geometry_uv_colour_exact": true,
+      "normal_vector_max_error": 8.503133215392624e-08,
+      "including_normals_exact": false,
+      "expected_geometry_uv_colour_sha256": "98478c88be34dc0627457d700f66fca026ef6e735cfbac300508e5ab2ead7cc3",
+      "actual_geometry_uv_colour_sha256": "98478c88be34dc0627457d700f66fca026ef6e735cfbac300508e5ab2ead7cc3"
+    },
+    {
+      "source_component": 108,
+      "geometry_uv_colour_exact": true,
+      "normal_vector_max_error": 3.003425057343598e-08,
+      "including_normals_exact": false,
+      "expected_geometry_uv_colour_sha256": "884f0cf21543890db36dfc892ab45ae904aedc843dd150ffa0eb441a646b9b46",
+      "actual_geometry_uv_colour_sha256": "884f0cf21543890db36dfc892ab45ae904aedc843dd150ffa0eb441a646b9b46"
+    },
+    {
+      "source_component": 109,
+      "geometry_uv_colour_exact": true,
+      "normal_vector_max_error": 1.4901161193847656e-08,
+      "including_normals_exact": false,
+      "expected_geometry_uv_colour_sha256": "a87a9329369b15d393069c12242925196a1b66c5aee8cd9e11c0e0d3a8210567",
+      "actual_geometry_uv_colour_sha256": "a87a9329369b15d393069c12242925196a1b66c5aee8cd9e11c0e0d3a8210567"
+    },
+    {
+      "source_component": 110,
+      "geometry_uv_colour_exact": true,
+      "normal_vector_max_error": 8.429369702178807e-08,
+      "including_normals_exact": false,
+      "expected_geometry_uv_colour_sha256": "22033c7648cbfea653c2dd9e8a9ca990936f79317e28eea30f9005ed7694bd7f",
+      "actual_geometry_uv_colour_sha256": "22033c7648cbfea653c2dd9e8a9ca990936f79317e28eea30f9005ed7694bd7f"
+    },
+    {
+      "source_component": 111,
+      "geometry_uv_colour_exact": true,
+      "normal_vector_max_error": 8.429369702178807e-08,
+      "including_normals_exact": false,
+      "expected_geometry_uv_colour_sha256": "bbeab0cc5c03c74346f7876947b6f5db4749d151731f51a3b9ba6a2f373a228d",
+      "actual_geometry_uv_colour_sha256": "bbeab0cc5c03c74346f7876947b6f5db4749d151731f51a3b9ba6a2f373a228d"
+    },
+    {
+      "source_component": 154,
+      "geometry_uv_colour_exact": true,
+      "normal_vector_max_error": 5.960464477539063e-08,
+      "including_normals_exact": false,
+      "expected_geometry_uv_colour_sha256": "8b11be48c7335045c5c8d51e1b8db16fd529a05b3ef7bfe8cefeda0823b91e4f",
+      "actual_geometry_uv_colour_sha256": "8b11be48c7335045c5c8d51e1b8db16fd529a05b3ef7bfe8cefeda0823b91e4f"
+    },
+    {
+      "source_component": 155,
+      "geometry_uv_colour_exact": true,
+      "normal_vector_max_error": 6.664001874625056e-08,
+      "including_normals_exact": false,
+      "expected_geometry_uv_colour_sha256": "cb70bfc98452e9c7b068498fc7be9acc453f2ec99e4aa5cfff90d578e6f23adf",
+      "actual_geometry_uv_colour_sha256": "cb70bfc98452e9c7b068498fc7be9acc453f2ec99e4aa5cfff90d578e6f23adf"
+    },
+    {
+      "source_component": 156,
+      "geometry_uv_colour_exact": true,
+      "normal_vector_max_error": 5.960464477539063e-08,
+      "including_normals_exact": false,
+      "expected_geometry_uv_colour_sha256": "8127f3fd3c9de0c001cf1f75b42eb6d4e371040d3725da8e2d10390fb2e6b877",
+      "actual_geometry_uv_colour_sha256": "8127f3fd3c9de0c001cf1f75b42eb6d4e371040d3725da8e2d10390fb2e6b877"
+    },
+    {
+      "source_component": 157,
+      "geometry_uv_colour_exact": true,
+      "normal_vector_max_error": 5.960464477539063e-08,
+      "including_normals_exact": false,
+      "expected_geometry_uv_colour_sha256": "750ec0234691a7dbe92325dcf739b6bb74243e1d4d554f4eb850a47321889862",
+      "actual_geometry_uv_colour_sha256": "750ec0234691a7dbe92325dcf739b6bb74243e1d4d554f4eb850a47321889862"
+    },
+    {
+      "source_component": 158,
+      "geometry_uv_colour_exact": true,
+      "normal_vector_max_error": 5.3726900748371916e-08,
+      "including_normals_exact": false,
+      "expected_geometry_uv_colour_sha256": "9cf1c644c137b07848342da9ff7b5eec81b2edc32c2da49eca63e0cf0b0ff1c4",
+      "actual_geometry_uv_colour_sha256": "9cf1c644c137b07848342da9ff7b5eec81b2edc32c2da49eca63e0cf0b0ff1c4"
+    },
+    {
+      "source_component": 159,
+      "geometry_uv_colour_exact": true,
+      "normal_vector_max_error": 8.462232866585662e-08,
+      "including_normals_exact": false,
+      "expected_geometry_uv_colour_sha256": "153cf4c86911b03d7ffec10652745e6db18306e6617aac38234dd240b3166eaf",
+      "actual_geometry_uv_colour_sha256": "153cf4c86911b03d7ffec10652745e6db18306e6617aac38234dd240b3166eaf"
+    },
+    {
+      "source_component": 160,
+      "geometry_uv_colour_exact": true,
+      "normal_vector_max_error": 6.664001874625056e-08,
+      "including_normals_exact": false,
+      "expected_geometry_uv_colour_sha256": "794ac4d17491a71d48f7899716f1f7e0d092c191b4268a9f8c0a0a06c046ef1a",
+      "actual_geometry_uv_colour_sha256": "794ac4d17491a71d48f7899716f1f7e0d092c191b4268a9f8c0a0a06c046ef1a"
+    },
+    {
+      "source_component": 161,
+      "geometry_uv_colour_exact": true,
+      "normal_vector_max_error": 8.560065398421926e-08,
+      "including_normals_exact": false,
+      "expected_geometry_uv_colour_sha256": "caee8b3926330768307466a924e5f4842a5719adb2b422f84026df1b7559edad",
+      "actual_geometry_uv_colour_sha256": "caee8b3926330768307466a924e5f4842a5719adb2b422f84026df1b7559edad"
+    },
+    {
+      "source_component": 162,
+      "geometry_uv_colour_exact": true,
+      "normal_vector_max_error": 4.2146848510894035e-08,
+      "including_normals_exact": false,
+      "expected_geometry_uv_colour_sha256": "399dbedb9f3ae5246d12fd6a6251a587be43f3cdf75808f801aea2e9568e8271",
+      "actual_geometry_uv_colour_sha256": "399dbedb9f3ae5246d12fd6a6251a587be43f3cdf75808f801aea2e9568e8271"
+    },
+    {
+      "source_component": 163,
+      "geometry_uv_colour_exact": true,
+      "normal_vector_max_error": 1.4901161193847656e-08,
+      "including_normals_exact": false,
+      "expected_geometry_uv_colour_sha256": "76f7736474b21eb98689e3093c9f405eaed3af96e43247dc862a7fa881467d76",
+      "actual_geometry_uv_colour_sha256": "76f7736474b21eb98689e3093c9f405eaed3af96e43247dc862a7fa881467d76"
+    }
+  ],
+  "new_wood_min_y": 1.3167692422866821,
+  "stage": "complete",
+  "raw_glb_linear_colours": [
+    {
+      "mesh": "Garden_TreeTrunks",
+      "node": 31,
+      "mesh_index": 17,
+      "node_world_matrix_gltf": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "coordinate_conversion": "node world, then (x, -z, y), metre scale 1",
+      "source_vertices_covered": 10553,
+      "primitives": [
+        {
+          "primitive": 0,
+          "vertices": 653,
+          "position_accessor": 325,
+          "colour_accessor": 328
+        },
+        {
+          "primitive": 1,
+          "vertices": 9903,
+          "position_accessor": 330,
+          "colour_accessor": 333
+        }
+      ],
+      "max_position_error_metres": 0.0,
+      "raw_linear_to_source_error": {
+        "max_rgba": 0.0,
+        "max_rgb": 0.0,
+        "mean_absolute_rgba": 0.0,
+        "mean_absolute_rgb": 0.0,
+        "rows": 10556
+      },
+      "expected_export_uint16_code_mismatches": 0,
+      "ideal_uint16_half_step": 7.629510948348211e-06,
+      "float32_arithmetic_allowance": 1.1920928955078125e-07,
+      "raw_linear_error_bound": 7.748720237898992e-06,
+      "passed": true
+    },
+    {
+      "mesh": "Garden_TreeCanopies",
+      "node": 32,
+      "mesh_index": 18,
+      "node_world_matrix_gltf": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "coordinate_conversion": "node world, then (x, -z, y), metre scale 1",
+      "source_vertices_covered": 71382,
+      "primitives": [
+        {
+          "primitive": 0,
+          "vertices": 9693,
+          "position_accessor": 335,
+          "colour_accessor": 338
+        },
+        {
+          "primitive": 1,
+          "vertices": 14442,
+          "position_accessor": 340,
+          "colour_accessor": 343
+        },
+        {
+          "primitive": 2,
+          "vertices": 30296,
+          "position_accessor": 345,
+          "colour_accessor": 348
+        },
+        {
+          "primitive": 3,
+          "vertices": 7861,
+          "position_accessor": 350,
+          "colour_accessor": 353
+        },
+        {
+          "primitive": 4,
+          "vertices": 9090,
+          "position_accessor": 355,
+          "colour_accessor": 358
+        }
+      ],
+      "max_position_error_metres": 0.0,
+      "raw_linear_to_source_error": {
+        "max_rgba": 7.65895174104081e-06,
+        "max_rgb": 7.65895174104081e-06,
+        "mean_absolute_rgba": 2.8426805070083285e-06,
+        "mean_absolute_rgb": 3.7902406760111045e-06,
+        "rows": 71382
+      },
+      "expected_export_uint16_code_mismatches": 0,
+      "ideal_uint16_half_step": 7.629510948348211e-06,
+      "float32_arithmetic_allowance": 1.1920928955078125e-07,
+      "raw_linear_error_bound": 7.748720237898992e-06,
+      "passed": true
+    },
+    {
+      "mesh": "Garden_CanopyLeafEdges",
+      "node": 33,
+      "mesh_index": 19,
+      "node_world_matrix_gltf": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "coordinate_conversion": "node world, then (x, -z, y), metre scale 1",
+      "source_vertices_covered": 648,
+      "primitives": [
+        {
+          "primitive": 0,
+          "vertices": 207,
+          "position_accessor": 360,
+          "colour_accessor": 363
+        },
+        {
+          "primitive": 1,
+          "vertices": 207,
+          "position_accessor": 365,
+          "colour_accessor": 368
+        },
+        {
+          "primitive": 2,
+          "vertices": 234,
+          "position_accessor": 369,
+          "colour_accessor": 372
+        }
+      ],
+      "max_position_error_metres": 0.0,
+      "raw_linear_to_source_error": {
+        "max_rgba": 7.618422219746179e-06,
+        "max_rgb": 7.618422219746179e-06,
+        "mean_absolute_rgba": 2.9882192652124045e-06,
+        "mean_absolute_rgb": 3.984292353616539e-06,
+        "rows": 648
+      },
+      "expected_export_uint16_code_mismatches": 0,
+      "ideal_uint16_half_step": 7.629510948348211e-06,
+      "float32_arithmetic_allowance": 1.1920928955078125e-07,
+      "raw_linear_error_bound": 7.748720237898992e-06,
+      "passed": true
+    }
+  ],
+  "input_files_unchanged": {
+    "C:\\Users\\20665\\Desktop\\game\\art\\generated\\world-v10\\island.blend": true,
+    "C:\\Users\\20665\\Desktop\\game\\art\\generated\\world-v10\\island.fbx": true,
+    "C:\\Users\\20665\\Desktop\\game\\art\\generated\\world-v10\\island.glb": true,
+    "C:\\Users\\20665\\Desktop\\game\\art\\generated\\world-v10\\textures\\meadow-watercolor.png": true,
+    "C:\\Users\\20665\\Desktop\\game\\art\\generated\\world-v10\\textures\\meadow-normal.png": true,
+    "C:\\Users\\20665\\Desktop\\game\\art\\generated\\world-v10\\asset-manifest.json": true,
+    "C:\\Users\\20665\\Desktop\\game\\art\\generated\\world-v12\\island.blend": true,
+    "C:\\Users\\20665\\Desktop\\game\\art\\generated\\world-v12\\island.fbx": true,
+    "C:\\Users\\20665\\Desktop\\game\\art\\generated\\world-v12\\island.glb": true,
+    "C:\\Users\\20665\\Desktop\\game\\art\\generated\\world-v12\\textures\\meadow-watercolor.png": true,
+    "C:\\Users\\20665\\Desktop\\game\\art\\generated\\world-v12\\textures\\meadow-normal.png": true,
+    "C:\\Users\\20665\\Desktop\\game\\art\\generated\\world-v12\\asset-manifest.json": true
+  },
+  "normal_angle_metric_note": "Float32 mathutils normalized dot/acos; max 0.039565 degrees includes a BLEND self-comparison floor of 0.035663 degrees. Treat as a conservative numerical upper bound, not demonstrated physical normal drift. No tolerance was relaxed."
+}

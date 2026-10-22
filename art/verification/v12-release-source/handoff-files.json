@@ -1,0 +1,197 @@
+[
+  {
+    "source": "AGENTS.md",
+    "sha256": "8C2F3EE57261BAB0DEEEFF38A873CAB406CFD245D0487F4C09ABA9FFCA48DD37",
+    "snapshot": "handoff/AGENTS.md"
+  },
+  {
+    "source": "PLAY.zh-CN.txt",
+    "sha256": "6E37320BA2A3EBDB2236C23622D62E4950349421816838EFEF87354D48F962FD",
+    "snapshot": "handoff/PLAY.zh-CN.txt"
+  },
+  {
+    "source": "CONCEPT-48H.zh-CN.txt",
+    "sha256": "2593B3F376963AB86FDDE3FBFD5C27F0372EE80D321B7228345AB8F02D7A1532",
+    "snapshot": "handoff/CONCEPT-48H.zh-CN.txt"
+  },
+  {
+    "source": "SUBMISSION-演示与材料.zh-CN.txt",
+    "sha256": "2B9D3724FF3B2F503A2D72DE52891A2849BCBB76E89CE756170DF49F976F8666",
+    "snapshot": "handoff/SUBMISSION-演示与材料.zh-CN.txt"
+  },
+  {
+    "source": "AI-使用与素材来源.zh-CN.txt",
+    "sha256": "2DE19084DD44FFC3E50E20EC0382A009CEFD94025F3E725506AFDE7C1C523313",
+    "snapshot": "handoff/AI-使用与素材来源.zh-CN.txt"
+  },
+  {
+    "source": "setup/NEXT-STEPS.zh-CN.txt",
+    "sha256": "58D6EDB3D858B5DBBD7DC6934DF9372FA3023D0CAC7ED7974F9F072EA3F0FF86",
+    "snapshot": "handoff/setup/NEXT-STEPS.zh-CN.txt"
+  },
+  {
+    "source": "Open-Borrowed-Light.cmd",
+    "sha256": "EDDC192F5A1E0D78736F7B09E23DA920FFE7F2AE4D57913C4109D0AA2BB7B354",
+    "snapshot": "handoff/Open-Borrowed-Light.cmd"
+  },
+  {
+    "source": "Open-Borrowed-Light-Web.cmd",
+    "sha256": "D05F3B2657B60E5091437D0D75425577F805F79237FED71D45DEE15AA880D3E3",
+    "snapshot": "handoff/Open-Borrowed-Light-Web.cmd"
+  },
+  {
+    "source": "Open-Borrowed-Light-Fullscreen.cmd",
+    "sha256": "A49E7F7E40AE927C91AABDE2F0DD4291202F4B38939A9D938E8D900E66C818F5",
+    "snapshot": "handoff/Open-Borrowed-Light-Fullscreen.cmd"
+  },
+  {
+    "source": "tools/package-templates/Play-Fullscreen.cmd",
+    "sha256": "308D82E76B1721E9A9E8AFEF33AB60A3CE97E7049237A7E80C9711B7B15E876C",
+    "snapshot": "handoff/tools/package-templates/Play-Fullscreen.cmd"
+  },
+  {
+    "source": "art/production-manifest.json",
+    "sha256": "894B0EF1D4F4190B5215FC394AF06D9C95D173FF436403944051989B85D35BD3",
+    "snapshot": "handoff/art/production-manifest.json"
+  },
+  {
+    "source": "art/verification/release-checks.json",
+    "sha256": "2B68E849143147A917286F84DCC6C0DF8B1A66CD0BE6BB5FAC6550D14324B99F",
+    "snapshot": "handoff/art/verification/release-checks.json"
+  },
+  {
+    "source": "art/verification/visual-review-v12.html",
+    "sha256": "2C32CBCBCCBFDA3CFA41633A4074DCA27CED2E2281D5E2FC4EF326386C072A51",
+    "snapshot": "handoff/art/verification/visual-review-v12.html"
+  },
+  {
+    "source": "tools/run-game-qa.ps1",
+    "sha256": "78583DCAE51EAE894B835084394619842B4FEAAE408C43C4449598B58895C3FF",
+    "snapshot": "handoff/tools/run-game-qa.ps1"
+  },
+  {
+    "source": "tools/snapshot-island-import.cs",
+    "sha256": "78847DABB27A3BD0408C0E9A4B71DBF1151FCD2F9BA5768F2054BD07E14F6F5C",
+    "snapshot": "handoff/tools/snapshot-island-import.cs"
+  },
+  {
+    "source": "tools/compare-island-import.cjs",
+    "sha256": "9C043459F635E5E5A1CBAA8DA765B8EB39E3104C106821D731306D6C9817904A",
+    "snapshot": "handoff/tools/compare-island-import.cjs"
+  },
+  {
+    "source": "tools/compare-material-study-conditions.cjs",
+    "sha256": "59EED4DAA0A5753B1DAAB9024B5833CB7C0DD75BBE9CAB2ABFC45F89C6C91683",
+    "snapshot": "handoff/tools/compare-material-study-conditions.cjs"
+  },
+  {
+    "source": "tools/prepare-v12-handoff.cjs",
+    "sha256": "F05CF6FEF29EBA98B7C59FC11D5004B48B8D6B59CB19D24A9181429DECF4D001",
+    "snapshot": "handoff/tools/prepare-v12-handoff.cjs"
+  },
+  {
+    "source": "tools/prepare-v12-grass-review.cjs",
+    "sha256": "9F22BFB322FDAE4D6ACE11B5D55FAB554E6ADD09E71033E22F0FDDA4D90473E5",
+    "snapshot": "handoff/tools/prepare-v12-grass-review.cjs"
+  },
+  {
+    "source": "tools/prepare-v12-ground-review.cjs",
+    "sha256": "9E5CB6791041DF6CD7B0B73BCB5023342D8A3FE0C4B1275F5B31AA83C3DA9498",
+    "snapshot": "handoff/tools/prepare-v12-ground-review.cjs"
+  },
+  {
+    "source": "tools/verify-visual-review.cjs",
+    "sha256": "A64A5547F60C48D13CFF841958AA2A81CEFC7036C2F2E26CD4868480F7A077BC",
+    "snapshot": "handoff/tools/verify-visual-review.cjs"
+  },
+  {
+    "source": "tools/record-game-builds.cjs",
+    "sha256": "10A2ACFC24F3D0EA87F59E272D60D1D6CEAE907526CE39BE79316528EB1108DD",
+    "snapshot": "handoff/tools/record-game-builds.cjs"
+  },
+  {
+    "source": "tools/verify-candidate-artifacts.cjs",
+    "sha256": "8D411A97E4B1714EAB5DCC141660D48E81B2C6BCD675D4D628B40D6706D00929",
+    "snapshot": "handoff/tools/verify-candidate-artifacts.cjs"
+  },
+  {
+    "source": "tools/verify-game-web.cjs",
+    "sha256": "6C9447884636752B20052F2AC09E2BB5D6856E0299C576BC33168A7416773F66",
+    "snapshot": "handoff/tools/verify-game-web.cjs"
+  },
+  {
+    "source": "tools/verify-game-release-http.cjs",
+    "sha256": "E7A3AB8B417C0B0404831287867F460705D7CAF18168CED360A5E80D6A06D94E",
+    "snapshot": "handoff/tools/verify-game-release-http.cjs"
+  },
+  {
+    "source": "tools/promote-v12-local.ps1",
+    "sha256": "CD388DE686A26EC479A29C848DE1221B27BA48C62A0EBEFEE6F456D9AAD00B39",
+    "snapshot": "handoff/tools/promote-v12-local.ps1"
+  },
+  {
+    "source": "tools/finalize-v12-local.cjs",
+    "sha256": "7EF00ADD4FFE3A6677AA7074253FAF0D6FDC86359F72B6F662501A703F10D3BA",
+    "snapshot": "handoff/tools/finalize-v12-local.cjs"
+  },
+  {
+    "source": "tools/setup-ground-detail-v12.cs",
+    "sha256": "25D077A9D69C25A195417B8ADD071F1AE81AE9DD194BB335E1397A684F7858C8",
+    "snapshot": "handoff/tools/setup-ground-detail-v12.cs"
+  },
+  {
+    "source": "art/blender/build_island_v10.py",
+    "sha256": "4D1E59D2BA92DD180D82AC554A919F64F7BC5BF06D35B70D96ED948F5A511C52",
+    "snapshot": "handoff/art/blender/build_island_v10.py"
+  },
+  {
+    "source": "art/generated/world-v10/verify_world_v10.py",
+    "sha256": "934E23E3163C8DB178A52D49677A847C5CF913DAE13E3DC7DC4254B97A23EBB5",
+    "snapshot": "handoff/art/generated/world-v10/verify_world_v10.py"
+  },
+  {
+    "source": "art/generated/world-v10/asset-manifest.json",
+    "sha256": "8F39BACB0927D0F3D6CE6CE92A9A732B0B70828211ADE952E04DA4B297C6A5DE",
+    "snapshot": "handoff/art/generated/world-v10/asset-manifest.json"
+  },
+  {
+    "source": "art/generated/world-v10/IMPORT-NOTES.zh-CN.txt",
+    "sha256": "96EDA2A3A67D2A79343F689FBFF6F2D175935717FF6A7D4E26EAAA6213D165C1",
+    "snapshot": "handoff/art/generated/world-v10/IMPORT-NOTES.zh-CN.txt"
+  },
+  {
+    "source": "art/generated/ground-v12/manifest.json",
+    "sha256": "67107FA1C8590EC23D2F0F8CC75AEE14A4E049181DB89252317EA17AFAB1FED3",
+    "snapshot": "handoff/art/generated/ground-v12/manifest.json"
+  },
+  {
+    "source": "art/generated/ground-v12/prompt.txt",
+    "sha256": "97522CEEFBA8EDA4FEF307909C842892D394566F165EE43DBD5C7316BDBC3EFA",
+    "snapshot": "handoff/art/generated/ground-v12/prompt.txt"
+  },
+  {
+    "source": "tools/prepare-v12-main-review.cjs",
+    "sha256": "EB1E13CF426CB8C9D05513292EBD7EFA3F969FE0F6D3F53EA380211117B51749",
+    "snapshot": "handoff/tools/prepare-v12-main-review.cjs"
+  },
+  {
+    "source": "tools/compare-ground-study-conditions.cjs",
+    "sha256": "C4B160958F5390B4743CEB31904673A249522C4BE05C2B4AAB705A7330A3E31E",
+    "snapshot": "handoff/tools/compare-ground-study-conditions.cjs"
+  },
+  {
+    "source": "tools/snapshot-ground-detail-import.cs",
+    "sha256": "B956F4D1CE0E18B85D5D9B565D181BF37E89DC02DCEB5A73756EEA4C5230C8EC",
+    "snapshot": "handoff/tools/snapshot-ground-detail-import.cs"
+  },
+  {
+    "source": "art/verification/v12-native-display-comparison.json",
+    "sha256": "763F66CB56A2B2F534D162666BDAF13D1F3397D1E3D6CCA1E1EC8CC4A8E6CF8D",
+    "snapshot": "handoff/art/verification/v12-native-display-comparison.json"
+  },
+  {
+    "source": "art/verification/v12-web-performance-context.json",
+    "sha256": "BE5F51737A2C9913B220C4D4BFDB7540BE9D1B30B8CD2CE33472F7A31DE356C6",
+    "snapshot": "handoff/art/verification/v12-web-performance-context.json"
+  }
+]

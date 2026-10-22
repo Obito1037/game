@@ -1,0 +1,20 @@
+{
+  "scope": "Static source checks only; no Unity compilation, rendering or GPU validation",
+  "urpVersion": "17.3.0",
+  "checks": {
+    "production_still_frozen": true,
+    "four_passes": true,
+    "no_UsePass": true,
+    "all_use_original_LitInput": true,
+    "all_use_shared_helper": true,
+    "no_new_material_uniform": true,
+    "oct_encoding_present": true,
+    "no_AO_shader_changes": true,
+    "shader_balanced_delimiters": true,
+    "shader_balanced_preprocessor": true,
+    "helper_balanced_delimiters": true,
+    "helper_balanced_preprocessor": true
+  },
+  "shaderCompileVerified": false,
+  "runtimeVisualVerified": false
+}

@@ -1,0 +1,28 @@
+{
+  "buildId": "build_6f5a71b8e060",
+  "playerDirectory": "C:\\Users\\20665\\Desktop\\game\\builds\\candidates\\v14-face-light-study\\windows",
+  "capturedBeforeLaunchUtc": "2026-10-21T06:30:44.8338329Z",
+  "requestedFullscreen": true,
+  "requestedWidth": 1440,
+  "requestedHeight": 900,
+  "mode": "FaceLightStudy",
+  "files": [
+    {
+      "name": "BorrowedLight.exe",
+      "sha256": "EB143EAD6441B6DD9D7D145ADB85410E9389FB3878899AE537E8C9869CCE38FA"
+    },
+    {
+      "name": "UnityPlayer.dll",
+      "sha256": "851DA827899734E8B3D56F7E4DBBD58210E58E4DAEF504E6B7472B9EE503914B"
+    },
+    {
+      "name": "BorrowedLight_Data/resources.assets",
+      "sha256": "E2DD9857A8A448C177EDA0F96BF308BF01EC2CD666F877DE50BE1D1C02B30103"
+    },
+    {
+      "name": "BorrowedLight_Data/Managed/Assembly-CSharp.dll",
+      "sha256": "F241909FE73745AEE18852DF6D36E470EA06D06AF77806BEB74786696646F98E"
+    }
+  ],
+  "scope": "Read-only hashes and requested display settings immediately before launching this QA session. Actual image dimensions and runtime acceptance are recorded separately."
+}

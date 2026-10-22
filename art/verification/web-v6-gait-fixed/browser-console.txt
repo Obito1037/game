@@ -1,0 +1,127 @@
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+
+    "memorysetup-remapper-allocator-initial-capacity=32768"
+
+    "memorysetup-temp-allocator-size-background-worker=32768"
+
+    "memorysetup-bucket-allocator-granularity=16"
+
+    "memorysetup-bucket-allocator-bucket-count=8"
+
+    "memorysetup-bucket-allocator-block-size=4194304"
+
+    "memorysetup-bucket-allocator-block-count=1"
+
+    "memorysetup-main-allocator-block-size=16777216"
+
+    "memorysetup-thread-allocator-block-size=16777216"
+
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+
+    "memorysetup-cache-allocator-block-size=4194304"
+
+    "memorysetup-typetree-allocator-block-size=2097152"
+
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+
+    "memorysetup-profiler-bucket-allocator-block-size=4194304"
+
+    "memorysetup-profiler-bucket-allocator-block-count=1"
+
+    "memorysetup-profiler-allocator-block-size=16777216"
+
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+
+    "memorysetup-temp-allocator-size-main=4194304"
+
+    "memorysetup-job-temp-allocator-block-size=2097152"
+
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+
+Input System module state changed to: Initialized.
+
+[Physics::Module] Initialized fallback backend.
+
+[Physics::Module] Id: 0xdecafbad
+
+Loading player data from data.unity3d
+
+Initialize engine version: 6000.3.26f1 (de8167e7440c)
+
+Creating WebGL 2.0 context.
+Renderer: WebKit WebGL
+
+Vendor:   WebKit
+
+Version:  OpenGL ES 3.0 (WebGL 2.0 (OpenGL ES 3.0 Chromium))
+
+GLES:     3
+
+ EXT_clip_control EXT_color_buffer_float EXT_color_buffer_half_float EXT_conservative_depth EXT_depth_clamp EXT_disjoint_timer_query_webgl2 EXT_float_blend EXT_polygon_offset_clamp EXT_render_snorm EXT_texture_compression_bptc EXT_texture_compression_rgtc EXT_texture_filter_anisotropic EXT_texture_mirror_clamp_to_edge EXT_texture_norm16 KHR_parallel_shader_compile NV_shader_noperspective_interpolation OES_draw_buffers_indexed OES_sample_variables OES_shader_multisample_interpolation OES_texture_float_linear OVR_multiview2 WEBGL_blend_func_extended WEBGL_clip_cull_distance WEBGL_compressed_texture_s3tc WEBGL_compressed_texture_s3tc_srgb WEBGL_debug_renderer_info WEBGL_debug_shaders WEBGL_lose_context WEBGL_multi_draw WEBGL_polygon_mode WEBGL_provoking_vertex WEBGL_stencil_texturing GL_EXT_clip_control GL_EXT_color_buffer_float GL_EXT_color_buffer_half_float GL_EXT_conservative_depth GL_EXT_depth_clamp GL_EXT_disjoint_timer_query_webgl2 GL_EXT_float_blend GL_EXT_polygon_offset_clamp GL_EXT_render_snorm GL_EXT_
+
+texture_compression_bptc GL_EXT_texture_compression_rgtc GL_EXT_texture_filter_anisotropic GL_EXT_texture_mirror_clamp_to_edge GL_EXT_texture_norm16 GL_KHR_parallel_shader_compile GL_NV_shader_noperspective_interpolation GL_OES_draw_buffers_indexed GL_OES_sample_variables GL_OES_shader_multisample_interpolation GL_OES_texture_float_linear GL_OVR_multiview2 GL_WEBGL_blend_func_extended GL_WEBGL_clip_cull_distance GL_WEBGL_compressed_texture_s3tc GL_WEBGL_compressed_texture_s3tc_srgb GL_WEBGL_debug_renderer_info GL_WEBGL_debug_shaders GL_WEBGL_lose_context GL_WEBGL_multi_draw GL_WEBGL_polygon_mode GL_WEBGL_provoking_vertex GL_WEBGL_stencil_texturing
+
+WebGL: INVALID_ENUM: getInternalformatParameter: invalid internalformat
+WebGL: INVALID_ENUM: getInternalformatParameter: invalid internalformat
+WebGL: INVALID_ENUM: getInternalformatParameter: invalid internalformat
+WebGL: INVALID_ENUM: getInternalformatParameter: invalid internalformat
+WebGL: INVALID_ENUM: getInternalformatParameter: invalid internalformat
+WebGL: INVALID_ENUM: getInternalformatParameter: invalid internalformat
+OPENGL LOG: Creating OpenGL ES 3.0 graphics device ; Context level  <OpenGL ES 3.0> ; Context handle 1
+
+[Physics::Module] Selected backend.
+
+[Physics::Module] Name: PhysX
+
+[Physics::Module] Id: 0xf2b8ea05
+
+[Physics::Module] SDK Version: 4.1.2
+
+[Physics::Module] Integration Version: 1.0.0
+
+[Physics::Module] Threading Mode: Single-Threaded
+
+ERROR: Shader 
+Hidden/CoreSRP/CoreCopy shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+
+ERROR: Shader 
+Hidden/Universal Render Pipeline/StencilDitherMaskSeed shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+
+ERROR: Shader 
+Hidden/Universal/HDRDebugView shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+
+Input System initialize...
+
+UnloadTime: 1.235000 ms
+
+ISLAND_STATIC_BATCH_RENDERERS: 27
+
+ISLAND_ANCHOR_A: (-4.50, 0.00, -2.00)
+
+ISLAND_RENDERERS: 29
+
+Trying to get length of sound which is not loaded yet.
+Trying to get length of sound which is not loaded yet.
+Audio context resumed after 0.731 seconds.
+[UnityCache] 'http://127.0.0.1:8765/Build/da63e1ce50d6080c60701f1573b334a3.data.gz' successfully downloaded and stored in the browser cache
+BORROWED_LIGHT_PHASE:0
+
+BORROWED_LIGHT_PHASE:1
+
+BORROWED_LIGHT_PHASE:2
+
+BORROWED_LIGHT_PHASE:3
+
+BORROWED_LIGHT_PHASE:4

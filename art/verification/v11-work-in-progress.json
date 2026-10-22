@@ -1,0 +1,7 @@
+{
+  "revision": "v11",
+  "status": "Promoted locally after plant review, native/Web QA and package/HTTP verification.",
+  "aestheticObjectiveAchieved": false,
+  "releaseChecks": "v11-release-checks.json",
+  "nextArtPriority": "Grass clumps and ground transitions"
+}

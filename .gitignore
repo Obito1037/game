@@ -1,0 +1,81 @@
+# Installed tools and local downloads; retain the project's own scripts.
+/downloads/
+/tools/*
+!/tools/*.cjs
+!/tools/*.ps1
+!/tools/*.py
+!/tools/*.cs
+!/tools/package-templates/
+!/tools/font-subset/
+/tools/font-subset/*
+!/tools/font-subset/build_subset.py
+!/tools/font-subset/requirements.txt
+!/tools/font-subset/README.txt
+
+# Built players and Unity-generated machine state.
+/builds/
+/GameProject/[Ll]ibrary/
+/GameProject/[Tt]emp/
+/GameProject/[Oo]bj/
+/GameProject/[Ll]ogs/
+/GameProject/[Uu]ser[Ss]ettings/
+/GameProject/[Bb]uild/
+/GameProject/[Bb]uilds/
+/GameProject/.vs/
+/GameProject/.vscode/
+/GameProject/MemoryCaptures/
+/GameProject/Recordings/
+*.csproj
+*.sln
+*.slnx
+*.user
+*.pidb
+*.opendb
+*.VC.db
+~UnityDirMonSyncFile~*
+
+# Unrelated project; it remains untouched locally.
+/TryOnStudio/
+/Open-TryOnStudio.cmd
+/setup/Open-TryOnStudio.ps1
+/setup/research-virtual-tryon.md
+
+# Local reports, authentication state, caches and backups.
+/setup/verification/
+/setup/tool-status.json
+.codex/
+.agents/
+.aws/
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.pfx
+__pycache__/
+*.py[cod]
+*.blend[0-9]
+*.log
+*.tmp
+.DS_Store
+Thumbs.db
+node_modules/
+
+# Superseded world outputs outside the retained dependency chain.
+# Generation scripts remain in art/blender. No local files are deleted.
+/art/generated/world-v3/
+/art/generated/world-v4/
+/art/generated/world-v9/
+/art/generated/world-v11/
+
+# Bulk diagnostic media and downloaded reference-site assets stay local.
+/art/verification/**/*.png
+/art/verification/**/*.jpg
+/art/verification/**/*.jpeg
+/art/verification/**/*.webm
+/art/verification/**/*.mp4
+/art/verification/**/*.gif
+!/art/verification/run-035-v14/07-walking.png
+!/art/verification/run-035-v14/09-traveler-portrait.png
+/art/reference/*.png
+/art/reference/source-dom.html

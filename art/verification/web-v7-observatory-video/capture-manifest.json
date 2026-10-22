@@ -1,0 +1,68 @@
+{
+  "completed": true,
+  "error": null,
+  "requestedRevision": "v7",
+  "videoOnly": true,
+  "route": "observatory-straight-approach",
+  "canvasMetrics": {
+    "width": 1440,
+    "height": 900,
+    "devicePixelRatio": 1,
+    "viewportWidth": 1440,
+    "viewportHeight": 900
+  },
+  "purpose": "Actual browser gameplay animation review; separate from normal QA and GPU profiling.",
+  "recordedVideo": "gait-session-includes-loading.webm",
+  "videoScope": "Full Playwright session, including loading, puzzle completion, return to island, camera adjustment, and the gait review window. This is not a trimmed 10–15 second clip.",
+  "frameRateLimit": "Playwright recordVideo samples/resamples browser output. Video playback FPS and screenshot cadence are not native engine FPS and must not be reported as performance evidence.",
+  "inputMethod": "Actual keyboard only: after at least 6,500 ms camera settling, keep the default view, W for 4,200 ms, then release and stop for 1,500 ms. No camera drag, screenshots or transform injection.",
+  "width": 1440,
+  "height": 900,
+  "gaitWindow": {
+    "startSinceNavigationMs": 31546,
+    "endSinceNavigationMs": 37307,
+    "durationMs": 5761
+  },
+  "timingLimit": "Event times are relative to navigation; recording begins slightly before navigation. They are approximate video navigation aids, not exact frame timestamps.",
+  "phases": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "errors": [],
+  "events": [
+    {
+      "type": "screenshot-skipped",
+      "sinceNavigationMs": 31546,
+      "file": "00-side-rear-ready.png",
+      "reason": "Keep recordVideo continuous; simultaneous page.screenshot produced transient scaled/cropped video frames on this machine."
+    },
+    {
+      "type": "gait-window-start",
+      "sinceNavigationMs": 31546
+    },
+    {
+      "type": "movement-start",
+      "sinceNavigationMs": 31578,
+      "keys": [
+        "w"
+      ],
+      "durationRequestedMs": 4200
+    },
+    {
+      "type": "movement-stop",
+      "sinceNavigationMs": 35794,
+      "keys": [
+        "w"
+      ],
+      "actualHeldMs": 4216
+    },
+    {
+      "type": "gait-window-end",
+      "sinceNavigationMs": 37307,
+      "durationMs": 5761
+    }
+  ]
+}

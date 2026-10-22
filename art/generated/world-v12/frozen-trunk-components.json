@@ -1,0 +1,3126 @@
+{
+  "source": "world-v10",
+  "rule": "Keep every whole connected component containing any world Unity Y < 1.20 m vertex.",
+  "threshold_unity_y": 1.2,
+  "components": [
+    {
+      "source_component": 0,
+      "tree": "broad",
+      "keep_entire_component": true,
+      "vertices": 20,
+      "polygons": 12,
+      "triangles": 36,
+      "min_unity": [
+        -6.747004508972168,
+        -0.032834041863679886,
+        3.690000057220459
+      ],
+      "max_unity": [
+        -6.265830039978027,
+        0.7473617196083069,
+        4.110000133514404
+      ],
+      "geometry_uv_colour_normal_sha256": "52e61ea51c3009652738050fa82bb8fd98db222f26cbb832e136ffa6a1eabed2"
+    },
+    {
+      "source_component": 1,
+      "tree": "broad",
+      "keep_entire_component": true,
+      "vertices": 20,
+      "polygons": 12,
+      "triangles": 36,
+      "min_unity": [
+        -6.733567237854004,
+        0.6668815016746521,
+        3.727163791656494
+      ],
+      "max_unity": [
+        -6.269820690155029,
+        1.390977144241333,
+        4.133330821990967
+      ],
+      "geometry_uv_colour_normal_sha256": "fca92254ef672ea28210512434ef78dfb3edf1fda1aec22077e15b3438dc9d51"
+    },
+    {
+      "source_component": 2,
+      "tree": "broad",
+      "keep_entire_component": false,
+      "vertices": 20,
+      "polygons": 12,
+      "triangles": 36,
+      "min_unity": [
+        -6.736712455749512,
+        1.327054738998413,
+        3.855126142501831
+      ],
+      "max_unity": [
+        -6.350218296051025,
+        2.464447021484375,
+        4.134799480438232
+      ],
+      "geometry_uv_colour_normal_sha256": "20a51b47efec82f15ada43bdb8666ed3880917afc63cf112b8d253a37ece30b9"
+    },
+    {
+      "source_component": 3,
+      "tree": "broad",
+      "keep_entire_component": false,
+      "vertices": 20,
+      "polygons": 12,
+      "triangles": 36,
+      "min_unity": [
+        -6.5335917472839355,
+        2.433079481124878,
+        3.856050968170166
+      ],
+      "max_unity": [
+        -6.349788665771484,
+        3.0849766731262207,
+        4.064691066741943
+      ],
+      "geometry_uv_colour_normal_sha256": "afc59aa605f186d702862384e181400cc596ed274bda54a966d337f63690c3c3"
+    },
+    {
+      "source_component": 4,
+      "tree": "broad",
+      "keep_entire_component": false,
+      "vertices": 14,
+      "polygons": 9,
+      "triangles": 24,
+      "min_unity": [
+        -6.587477207183838,
+        1.250019907951355,
+        3.8673012256622314
+      ],
+      "max_unity": [
+        -5.904200553894043,
+        2.580354690551758,
+        4.014895915985107
+      ],
+      "geometry_uv_colour_normal_sha256": "cd35c5e5b9fabe61364d0f26f65e53c4a816c865eed25aaf7273264bbe18d21f"
+    },
+    {
+      "source_component": 5,
+      "tree": "broad",
+      "keep_entire_component": false,
+      "vertices": 14,
+      "polygons": 9,
+      "triangles": 24,
+      "min_unity": [
+        -5.962554931640625,
+        2.5209696292877197,
+        3.868102788925171
+      ],
+      "max_unity": [
+        -5.197299480438232,
+        2.906177043914795,
+        3.9556431770324707
+      ],
+      "geometry_uv_colour_normal_sha256": "b1e4b533ba1d2fca4c9e522a2cf1f81790561984c8344739a20bd72bf5c8d06d"
+    },
+    {
+      "source_component": 6,
+      "tree": "broad",
+      "keep_entire_component": false,
+      "vertices": 19,
+      "polygons": 14,
+      "triangles": 32,
+      "min_unity": [
+        -5.2229695320129395,
+        2.8780181407928467,
+        3.64056658744812
+      ],
+      "max_unity": [
+        -4.8805036544799805,
+        3.248194932937622,
+        3.9350192546844482
+      ],
+      "geometry_uv_colour_normal_sha256": "d4c11e58efc0c2afdd137c7a8feff71fb0be91e9bfec7320441321824f6e1420"
+    },
+    {
+      "source_component": 7,
+      "tree": "broad",
+      "keep_entire_component": false,
+      "vertices": 19,
+      "polygons": 14,
+      "triangles": 32,
+      "min_unity": [
+        -5.21727180480957,
+        2.8747363090515137,
+        3.9019765853881836
+      ],
+      "max_unity": [
+        -4.854187965393066,
+        3.0451536178588867,
+        3.940072536468506
+      ],
+      "geometry_uv_colour_normal_sha256": "2094108824212701e3d5fb4fa74b0579d4d0c7f4fe5b7574672091b178ce4f7c"
+    },
+    {
+      "source_component": 8,
+      "tree": "broad",
+      "keep_entire_component": false,
+      "vertices": 19,
+      "polygons": 14,
+      "triangles": 32,
+      "min_unity": [
+        -5.219028472900391,
+        2.875701427459717,
+        3.900780439376831
+      ],
+      "max_unity": [
+        -4.82990026473999,
+        3.1763195991516113,
+        4.262528896331787
+      ],
+      "geometry_uv_colour_normal_sha256": "33446ca41e0c2bf5fd4347ea45c6cba40dca20d5912f41172600276514968496"
+    },
+    {
+      "source_component": 9,
+      "tree": "broad",
+      "keep_entire_component": false,
+      "vertices": 14,
+      "polygons": 9,
+      "triangles": 24,
+      "min_unity": [
+        -7.091490268707275,
+        1.426063060760498,
+        3.872941493988037
+      ],
+      "max_unity": [
+        -6.454617023468018,
+        2.6124281883239746,
+        4.2505202293396
+      ],
+      "geometry_uv_colour_normal_sha256": "d8c1acc408d4311f7facaf7475097dbf035d1ebab8f8129cb76ec249bf439015"
+    },
+    {
+      "source_component": 10,
+      "tree": "broad",
+      "keep_entire_component": false,
+      "vertices": 14,
+      "polygons": 9,
+      "triangles": 24,
+      "min_unity": [
+        -7.672781944274902,
+        2.5528979301452637,
+        4.164214134216309
+      ],
+      "max_unity": [
+        -7.022922039031982,
+        3.0045204162597656,
+        4.520451545715332
+      ],
+      "geometry_uv_colour_normal_sha256": "7f4e658321e8572fd63b0b80b7a67773c3b24de89298114c3a22f7f5ddd6524d"
+    },
+    {
+      "source_component": 11,
+      "tree": "broad",
+      "keep_entire_component": false,
+      "vertices": 19,
+      "polygons": 14,
+      "triangles": 32,
+      "min_unity": [
+        -7.775362491607666,
+        2.9736549854278564,
+        4.490616321563721
+      ],
+      "max_unity": [
+        -7.6431427001953125,
+        3.1773252487182617,
+        4.9421586990356445
+      ],
+      "geometry_uv_colour_normal_sha256": "a4b450f439f1c728f9ca96ba9c90c05acbd5134c47592bf5f0a79311ab71758f"
+    },
+    {
+      "source_component": 12,
+      "tree": "broad",
+      "keep_entire_component": false,
+      "vertices": 19,
+      "polygons": 14,
+      "triangles": 32,
+      "min_unity": [
+        -8.144865989685059,
+        2.974738121032715,
+        4.485650539398193
+      ],
+      "max_unity": [
+        -7.646032810211182,
+        3.3010852336883545,
+        4.766184329986572
+      ],
+      "geometry_uv_colour_normal_sha256": "622f351cf8ce32ad82d9f335898a9e80d67f8d17449d65eca74abe8f3e9dd61f"
+    },
+    {
+      "source_component": 13,
+      "tree": "broad",
+      "keep_entire_component": false,
+      "vertices": 19,
+      "polygons": 14,
+      "triangles": 32,
+      "min_unity": [
+        -7.979544162750244,
+        2.9747533798217773,
+        4.432674884796143
+      ],
+      "max_unity": [
+        -7.646815299987793,
+        3.1509244441986084,
+        4.522513389587402
+      ],
+      "geometry_uv_colour_normal_sha256": "b8b59ce3ce559254deca8a02296f71f8f62475d6add0878d8e5b3298d764b2a4"
+    },
+    {
+      "source_component": 14,
+      "tree": "broad",
+      "keep_entire_component": false,
+      "vertices": 14,
+      "polygons": 9,
+      "triangles": 24,
+      "min_unity": [
+        -6.5882887840271,
+        1.6013983488082886,
+        3.2435977458953857
+      ],
+      "max_unity": [
+        -6.445026874542236,
+        2.722688674926758,
+        4.0016303062438965
+      ],
+      "geometry_uv_colour_normal_sha256": "2ea04c6f729cb83045c185879df5ff96f426689eb20ea978793d9d5bda690c0b"
+    },
+    {
+      "source_component": 15,
+      "tree": "broad",
+      "keep_entire_component": false,
+      "vertices": 14,
+      "polygons": 9,
+      "triangles": 24,
+      "min_unity": [
+        -6.544283390045166,
+        2.656982183456421,
+        2.6714625358581543
+      ],
+      "max_unity": [
+        -6.426220417022705,
+        2.9412686824798584,
+        3.2971832752227783
+      ],
+      "geometry_uv_colour_normal_sha256": "c6698fb911b4eb85a23754265de6f04fee0f6cc33190629832a5798d0aec3e7b"
+    },
+    {
+      "source_component": 16,
+      "tree": "broad",
+      "keep_entire_component": false,
+      "vertices": 19,
+      "polygons": 14,
+      "triangles": 32,
+      "min_unity": [
+        -6.794251918792725,
+        2.911022901535034,
+        2.3375589847564697
+      ],
+      "max_unity": [
+        -6.429258346557617,
+        3.235386371612549,
+        2.6963436603546143
+      ],
+      "geometry_uv_colour_normal_sha256": "88fb01edd9325b728e3c9f72782685f3d7e68bfea0bf67419abb11507f445de0"
+    },
+    {
+      "source_component": 17,
+      "tree": "broad",
+      "keep_entire_component": false,
+      "vertices": 19,
+      "polygons": 14,
+      "triangles": 32,
+      "min_unity": [
+        -6.46190881729126,
+        2.912470817565918,
+        2.280111074447632
+      ],
+      "max_unity": [
+        -6.404879093170166,
+        3.2351694107055664,
+        2.694140672683716
+      ],
+      "geometry_uv_colour_normal_sha256": "2655a9e1e831a52f481b49e93efe1efb20897089b1bc5c766ecad1d6c9b78259"
+    },
+    {
+      "source_component": 18,
+      "tree": "broad",
+      "keep_entire_component": false,
+      "vertices": 19,
+      "polygons": 14,
+      "triangles": 32,
+      "min_unity": [
+        -6.458521842956543,
+        2.9069504737854004,
+        2.3687782287597656
+      ],
+      "max_unity": [
+        -6.015525817871094,
+        3.0666723251342773,
+        2.694998264312744
+      ],
+      "geometry_uv_colour_normal_sha256": "eb373bfc97793b2e7f42d58166d5125c269c6745521c3a83045fade11f802c68"
+    },
+    {
+      "source_component": 19,
+      "tree": "broad",
+      "keep_entire_component": false,
+      "vertices": 14,
+      "polygons": 9,
+      "triangles": 24,
+      "min_unity": [
+        -6.590178489685059,
+        1.2482242584228516,
+        3.8726437091827393
+      ],
+      "max_unity": [
+        -6.094908237457275,
+        2.4685561656951904,
+        4.397912502288818
+      ],
+      "geometry_uv_colour_normal_sha256": "9210e2f294835f1df1399def48af814b173a86cd3143210ec9fde7f87d11ece5"
+    },
+    {
+      "source_component": 20,
+      "tree": "broad",
+      "keep_entire_component": false,
+      "vertices": 14,
+      "polygons": 9,
+      "triangles": 24,
+      "min_unity": [
+        -6.167977333068848,
+        2.408067226409912,
+        4.318219184875488
+      ],
+      "max_unity": [
+        -5.620369911193848,
+        2.762943983078003,
+        4.812485218048096
+      ],
+      "geometry_uv_colour_normal_sha256": "86b68a09ff535943314c66dfce9e2bd36773a2150215c3465130a7118e9f25fe"
+    },
+    {
+      "source_component": 21,
+      "tree": "broad",
+      "keep_entire_component": false,
+      "vertices": 19,
+      "polygons": 14,
+      "triangles": 32,
+      "min_unity": [
+        -5.645226955413818,
+        2.7305824756622314,
+        4.781728744506836
+      ],
+      "max_unity": [
+        -5.094158172607422,
+        2.948660373687744,
+        4.824456691741943
+      ],
+      "geometry_uv_colour_normal_sha256": "967a34750459b854aaff7f0ddaf519b3906a70778fdce7b8de7efe2e4bc1a6e0"
+    },
+    {
+      "source_component": 22,
+      "tree": "broad",
+      "keep_entire_component": false,
+      "vertices": 19,
+      "polygons": 14,
+      "triangles": 32,
+      "min_unity": [
+        -5.649048805236816,
+        2.7341957092285156,
+        4.780155181884766
+      ],
+      "max_unity": [
+        -5.264219760894775,
+        3.1691195964813232,
+        5.157045364379883
+      ],
+      "geometry_uv_colour_normal_sha256": "6426db5593b06abe2c605390f11f85467fc4166cd69e0bd95ba9802c9fcc86b3"
+    },
+    {
+      "source_component": 23,
+      "tree": "broad",
+      "keep_entire_component": false,
+      "vertices": 19,
+      "polygons": 14,
+      "triangles": 32,
+      "min_unity": [
+        -5.67570161819458,
+        2.729839563369751,
+        4.788077354431152
+      ],
+      "max_unity": [
+        -5.615987777709961,
+        2.890810012817383,
+        5.235543251037598
+      ],
+      "geometry_uv_colour_normal_sha256": "934d09860e58f42b11ea448385cc88e2b7526bb69b911438d57e49d011fcc059"
+    },
+    {
+      "source_component": 24,
+      "tree": "broad",
+      "keep_entire_component": false,
+      "vertices": 14,
+      "polygons": 9,
+      "triangles": 24,
+      "min_unity": [
+        -7.042505741119385,
+        1.431752324104309,
+        3.8604190349578857
+      ],
+      "max_unity": [
+        -6.453889846801758,
+        2.627420663833618,
+        4.009506702423096
+      ],
+      "geometry_uv_colour_normal_sha256": "1ea6342a61d1ad37e63c20b5d37ccf28fcb075cb27c7723900db98fcae7d36d6"
+    },
+    {
+      "source_component": 25,
+      "tree": "broad",
+      "keep_entire_component": false,
+      "vertices": 14,
+      "polygons": 9,
+      "triangles": 24,
+      "min_unity": [
+        -7.559495449066162,
+        2.5706820487976074,
+        3.86030912399292
+      ],
+      "max_unity": [
+        -6.979015827178955,
+        2.9244744777679443,
+        3.94785475730896
+      ],
+      "geometry_uv_colour_normal_sha256": "9288cc9a888d0b21cf7c1d9d760086cb80a243e088af33a351825742d4df8811"
+    },
+    {
+      "source_component": 26,
+      "tree": "broad",
+      "keep_entire_component": false,
+      "vertices": 19,
+      "polygons": 14,
+      "triangles": 32,
+      "min_unity": [
+        -7.884419918060303,
+        2.8941924571990967,
+        3.896946907043457
+      ],
+      "max_unity": [
+        -7.533628940582275,
+        3.121072292327881,
+        4.2160725593566895
+      ],
+      "geometry_uv_colour_normal_sha256": "057bbe4ddbbe1c78bd00c8cc1a3fbe7ef223c6c9efa828d12958edb01557a9cb"
+    },
+    {
+      "source_component": 27,
+      "tree": "broad",
+      "keep_entire_component": false,
+      "vertices": 19,
+      "polygons": 14,
+      "triangles": 32,
+      "min_unity": [
+        -8.112519264221191,
+        2.892940044403076,
+        3.8914706707000732
+      ],
+      "max_unity": [
+        -7.5394463539123535,
+        3.1260440349578857,
+        3.929547071456909
+      ],
+      "geometry_uv_colour_normal_sha256": "0274adef616d5851c62554ddbcd72d68c188599cc4d3f9c65eaa3d5203890459"
+    },
+    {
+      "source_component": 28,
+      "tree": "broad",
+      "keep_entire_component": false,
+      "vertices": 19,
+      "polygons": 14,
+      "triangles": 32,
+      "min_unity": [
+        -7.844888687133789,
+        2.892854690551758,
+        3.6588845252990723
+      ],
+      "max_unity": [
+        -7.537470817565918,
+        3.058264970779419,
+        3.9300575256347656
+      ],
+      "geometry_uv_colour_normal_sha256": "3f582090fd6eca45f47ba423ab9b5bce01436d81f5893ba2759b7a17384dd30d"
+    },
+    {
+      "source_component": 29,
+      "tree": "broad",
+      "keep_entire_component": false,
+      "vertices": 14,
+      "polygons": 9,
+      "triangles": 24,
+      "min_unity": [
+        -6.582663536071777,
+        1.6009173393249512,
+        3.63203501701355
+      ],
+      "max_unity": [
+        -5.960660457611084,
+        2.5846078395843506,
+        4.006887912750244
+      ],
+      "geometry_uv_colour_normal_sha256": "5eb4b7ed6699d6bb7ba0a0e59b1efbe17b1e2e029e2e9be04653142cbaeb405e"
+    },
+    {
+      "source_component": 30,
+      "tree": "broad",
+      "keep_entire_component": false,
+      "vertices": 14,
+      "polygons": 9,
+      "triangles": 24,
+      "min_unity": [
+        -6.020936489105225,
+        2.519317150115967,
+        3.441970109939575
+      ],
+      "max_unity": [
+        -5.320754528045654,
+        2.874612331390381,
+        3.7203726768493652
+      ],
+      "geometry_uv_colour_normal_sha256": "a90c1f686738d282dbc0ca707c8236a7d21f4616e05c9da0a4a9c0939821b70d"
+    },
+    {
+      "source_component": 31,
+      "tree": "broad",
+      "keep_entire_component": false,
+      "vertices": 19,
+      "polygons": 14,
+      "triangles": 32,
+      "min_unity": [
+        -5.348644733428955,
+        2.844865560531616,
+        3.0660362243652344
+      ],
+      "max_unity": [
+        -5.14578104019165,
+        3.126239538192749,
+        3.4743497371673584
+      ],
+      "geometry_uv_colour_normal_sha256": "ae1bf3245228abc1a9837c9ff75ae808777bb2826c37ac39002e62d6ad52d92f"
+    },
+    {
+      "source_component": 32,
+      "tree": "broad",
+      "keep_entire_component": false,
+      "vertices": 19,
+      "polygons": 14,
+      "triangles": 32,
+      "min_unity": [
+        -5.341009616851807,
+        2.841196060180664,
+        3.3000192642211914
+      ],
+      "max_unity": [
+        -4.895525932312012,
+        3.00345516204834,
+        3.478104591369629
+      ],
+      "geometry_uv_colour_normal_sha256": "82a27e5795a594d44f97e86eb8cf9154572f941147eeabea31a0993378f40d81"
+    },
+    {
+      "source_component": 33,
+      "tree": "broad",
+      "keep_entire_component": false,
+      "vertices": 19,
+      "polygons": 14,
+      "triangles": 32,
+      "min_unity": [
+        -5.340054512023926,
+        2.8405797481536865,
+        3.4404819011688232
+      ],
+      "max_unity": [
+        -4.824248790740967,
+        3.0036706924438477,
+        3.648550510406494
+      ],
+      "geometry_uv_colour_normal_sha256": "1ef2bdc2bec94ab77796111de726158f376d2b76d006016bdfae62be285cfb29"
+    },
+    {
+      "source_component": 34,
+      "tree": "broad",
+      "keep_entire_component": false,
+      "vertices": 14,
+      "polygons": 9,
+      "triangles": 24,
+      "min_unity": [
+        -6.627143859863281,
+        1.257973551750183,
+        3.868616819381714
+      ],
+      "max_unity": [
+        -6.446944236755371,
+        2.7114951610565186,
+        4.436583518981934
+      ],
+      "geometry_uv_colour_normal_sha256": "08f01b453f98ce46630f73ec29e2d1c420c0c629416141ddafb082d610f7377e"
+    },
+    {
+      "source_component": 35,
+      "tree": "broad",
+      "keep_entire_component": false,
+      "vertices": 14,
+      "polygons": 9,
+      "triangles": 24,
+      "min_unity": [
+        -6.639798641204834,
+        2.6605727672576904,
+        4.372178554534912
+      ],
+      "max_unity": [
+        -6.540103435516357,
+        3.050851821899414,
+        4.892786502838135
+      ],
+      "geometry_uv_colour_normal_sha256": "db7138ba2c7fb4336827778d305a917cd68429c6cdd38f86ccc4980440dd8b7f"
+    },
+    {
+      "source_component": 36,
+      "tree": "broad",
+      "keep_entire_component": false,
+      "vertices": 19,
+      "polygons": 14,
+      "triangles": 32,
+      "min_unity": [
+        -6.636310577392578,
+        3.0212361812591553,
+        4.864639759063721
+      ],
+      "max_unity": [
+        -6.365108013153076,
+        3.1961512565612793,
+        5.126397132873535
+      ],
+      "geometry_uv_colour_normal_sha256": "f1816922891aeadaf97ff5f64483cc2d8a942e28ef6ad9153f6016a0db51ceb4"
+    },
+    {
+      "source_component": 37,
+      "tree": "broad",
+      "keep_entire_component": false,
+      "vertices": 19,
+      "polygons": 14,
+      "triangles": 32,
+      "min_unity": [
+        -6.6490797996521,
+        3.0249996185302734,
+        4.865670680999756
+      ],
+      "max_unity": [
+        -6.604168891906738,
+        3.2811172008514404,
+        5.190339088439941
+      ],
+      "geometry_uv_colour_normal_sha256": "c8e53b3c4e57aacfbaf639cc626de1796150d27f61cf75a3cef32ade57ca7ad1"
+    },
+    {
+      "source_component": 38,
+      "tree": "broad",
+      "keep_entire_component": false,
+      "vertices": 19,
+      "polygons": 14,
+      "triangles": 32,
+      "min_unity": [
+        -6.956963062286377,
+        3.0215699672698975,
+        4.8655500411987305
+      ],
+      "max_unity": [
+        -6.605160713195801,
+        3.2325809001922607,
+        5.129892826080322
+      ],
+      "geometry_uv_colour_normal_sha256": "9c51ec25c6bcf8d878bd8f53c43f8873b177409948b7b8fdac347fd0cf958ac2"
+    },
+    {
+      "source_component": 39,
+      "tree": "broad",
+      "keep_entire_component": false,
+      "vertices": 14,
+      "polygons": 9,
+      "triangles": 24,
+      "min_unity": [
+        -6.790180206298828,
+        1.425329327583313,
+        3.291151762008667
+      ],
+      "max_unity": [
+        -6.449653148651123,
+        2.6872665882110596,
+        4.00616979598999
+      ],
+      "geometry_uv_colour_normal_sha256": "aeb9c832990de7ca81a682c557d7e4b1f8e85dab29069aeda762fb5cdb3d55c6"
+    },
+    {
+      "source_component": 40,
+      "tree": "broad",
+      "keep_entire_component": false,
+      "vertices": 14,
+      "polygons": 9,
+      "triangles": 24,
+      "min_unity": [
+        -7.000414848327637,
+        2.628633737564087,
+        2.7629544734954834
+      ],
+      "max_unity": [
+        -6.702938556671143,
+        3.082266092300415,
+        3.3576197624206543
+      ],
+      "geometry_uv_colour_normal_sha256": "879c294933ed042e4c63516580eab8431b1067e95d7c4c86c09acfe54b153f17"
+    },
+    {
+      "source_component": 41,
+      "tree": "broad",
+      "keep_entire_component": false,
+      "vertices": 19,
+      "polygons": 14,
+      "triangles": 32,
+      "min_unity": [
+        -7.397051811218262,
+        3.0540051460266113,
+        2.600646734237671
+      ],
+      "max_unity": [
+        -6.967846393585205,
+        3.347987651824951,
+        2.7936737537384033
+      ],
+      "geometry_uv_colour_normal_sha256": "9dc940994bf5f9fc23264b088c369c4889adef5480b68dd8e12fbfa74baac7a9"
+    },
+    {
+      "source_component": 42,
+      "tree": "broad",
+      "keep_entire_component": false,
+      "vertices": 19,
+      "polygons": 14,
+      "triangles": 32,
+      "min_unity": [
+        -7.128082275390625,
+        3.053253412246704,
+        2.4117629528045654
+      ],
+      "max_unity": [
+        -6.964243412017822,
+        3.265549898147583,
+        2.7886760234832764
+      ],
+      "geometry_uv_colour_normal_sha256": "b8dd8a56ee42df8e399891b26584e85d92bbb694c335b9b9d5dcffb232b89148"
+    },
+    {
+      "source_component": 43,
+      "tree": "broad",
+      "keep_entire_component": false,
+      "vertices": 19,
+      "polygons": 14,
+      "triangles": 32,
+      "min_unity": [
+        -7.003586292266846,
+        3.0562212467193604,
+        2.5139358043670654
+      ],
+      "max_unity": [
+        -6.824832439422607,
+        3.3042685985565186,
+        2.791916608810425
+      ],
+      "geometry_uv_colour_normal_sha256": "b495fb785f0e98bd5d5ec1d4a7e4f4914bb6fbd6dba9f0005580c142f80e26c5"
+    },
+    {
+      "source_component": 44,
+      "tree": "broad",
+      "keep_entire_component": false,
+      "vertices": 14,
+      "polygons": 9,
+      "triangles": 24,
+      "min_unity": [
+        -6.584780693054199,
+        1.5988460779190063,
+        3.8677234649658203
+      ],
+      "max_unity": [
+        -5.996801853179932,
+        2.4738271236419678,
+        4.239919185638428
+      ],
+      "geometry_uv_colour_normal_sha256": "c765041e4916816068f2c6d8c87a21d3b74397c7b690ab89bf477462bed16a0e"
+    },
+    {
+      "source_component": 45,
+      "tree": "broad",
+      "keep_entire_component": false,
+      "vertices": 14,
+      "polygons": 9,
+      "triangles": 24,
+      "min_unity": [
+        -6.067863941192627,
+        2.4148173332214355,
+        4.156219959259033
+      ],
+      "max_unity": [
+        -5.391890048980713,
+        3.0690441131591797,
+        4.508207321166992
+      ],
+      "geometry_uv_colour_normal_sha256": "0bfe7de99d0d1ba471a5fd7b1c90ebb789a0430a6a3db75be727d2dd9fb1bf1b"
+    },
+    {
+      "source_component": 46,
+      "tree": "broad",
+      "keep_entire_component": false,
+      "vertices": 19,
+      "polygons": 14,
+      "triangles": 32,
+      "min_unity": [
+        -5.416860580444336,
+        3.042268753051758,
+        4.4026055335998535
+      ],
+      "max_unity": [
+        -5.034667015075684,
+        3.2716853618621826,
+        4.512333869934082
+      ],
+      "geometry_uv_colour_normal_sha256": "b16059f3b6c490a86af7d2ede8054b4f34d2c76ed7a36ad186c28f87af7729d1"
+    },
+    {
+      "source_component": 47,
+      "tree": "broad",
+      "keep_entire_component": false,
+      "vertices": 19,
+      "polygons": 14,
+      "triangles": 32,
+      "min_unity": [
+        -5.420414924621582,
+        3.042712450027466,
+        4.4725165367126465
+      ],
+      "max_unity": [
+        -5.016030311584473,
+        3.357394218444824,
+        4.692887306213379
+      ],
+      "geometry_uv_colour_normal_sha256": "76a3bf1f41118791cb070ec1a2fbcc27a9ab47de45860b518fa89abfbac49c48"
+    },
+    {
+      "source_component": 48,
+      "tree": "broad",
+      "keep_entire_component": false,
+      "vertices": 19,
+      "polygons": 14,
+      "triangles": 32,
+      "min_unity": [
+        -5.424281120300293,
+        3.039499044418335,
+        4.480478286743164
+      ],
+      "max_unity": [
+        -5.2932047843933105,
+        3.2073538303375244,
+        4.878190517425537
+      ],
+      "geometry_uv_colour_normal_sha256": "67bdd138668bb8f7e8cc11947bcf857c07de23379db171b6b77bddd81b5bfa20"
+    },
+    {
+      "source_component": 49,
+      "tree": "broad",
+      "keep_entire_component": false,
+      "vertices": 14,
+      "polygons": 9,
+      "triangles": 24,
+      "min_unity": [
+        -6.990207672119141,
+        1.256695032119751,
+        3.866408348083496
+      ],
+      "max_unity": [
+        -6.4487762451171875,
+        2.598968982696533,
+        4.0689311027526855
+      ],
+      "geometry_uv_colour_normal_sha256": "cb1e0e6fafe37560624fcc030d8e352ca567b0ed3cc1d3ce159dca25cbf3673e"
+    },
+    {
+      "source_component": 50,
+      "tree": "broad",
+      "keep_entire_component": false,
+      "vertices": 14,
+      "polygons": 9,
+      "triangles": 24,
+      "min_unity": [
+        -7.448846340179443,
+        2.5447142124176025,
+        3.9799766540527344
+      ],
+      "max_unity": [
+        -6.928247928619385,
+        2.857236862182617,
+        4.162992477416992
+      ],
+      "geometry_uv_colour_normal_sha256": "0f4463415eb41b5691a587af9f47e2cb29daa16b5217a09d43c890eac7b31302"
+    },
+    {
+      "source_component": 51,
+      "tree": "broad",
+      "keep_entire_component": false,
+      "vertices": 19,
+      "polygons": 14,
+      "triangles": 32,
+      "min_unity": [
+        -7.628525257110596,
+        2.830127716064453,
+        4.129001140594482
+      ],
+      "max_unity": [
+        -7.420172214508057,
+        3.170250415802002,
+        4.467398166656494
+      ],
+      "geometry_uv_colour_normal_sha256": "02ab0eea30d42b34ac0876d3ae327d82073cd6eddefc41cbdbcd00ff8dca761e"
+    },
+    {
+      "source_component": 52,
+      "tree": "broad",
+      "keep_entire_component": false,
+      "vertices": 19,
+      "polygons": 14,
+      "triangles": 32,
+      "min_unity": [
+        -7.800736427307129,
+        2.827677011489868,
+        4.126143932342529
+      ],
+      "max_unity": [
+        -7.42691707611084,
+        3.0447275638580322,
+        4.248363018035889
+      ],
+      "geometry_uv_colour_normal_sha256": "4d9fe9e6710af2fd15ee6873f936dc4308ea0f194c2ed08a20234b755f8865c6"
+    },
+    {
+      "source_component": 53,
+      "tree": "broad",
+      "keep_entire_component": false,
+      "vertices": 19,
+      "polygons": 14,
+      "triangles": 32,
+      "min_unity": [
+        -7.7416510581970215,
+        2.829800844192505,
+        4.004151821136475
+      ],
+      "max_unity": [
+        -7.422586917877197,
+        3.0966813564300537,
+        4.16599702835083
+      ],
+      "geometry_uv_colour_normal_sha256": "556c6ee864edfc2398af3325e131860a698e36e9e791146f3193eb9c4722b7a0"
+    },
+    {
+      "source_component": 54,
+      "tree": "broad",
+      "keep_entire_component": true,
+      "vertices": 12,
+      "polygons": 8,
+      "triangles": 20,
+      "min_unity": [
+        -6.601647853851318,
+        0.009816057980060577,
+        3.8110105991363525
+      ],
+      "max_unity": [
+        -6.29388952255249,
+        0.2733311057090759,
+        3.9889895915985107
+      ],
+      "geometry_uv_colour_normal_sha256": "ad783d27693ce6b18e8935ef1fd0a6702dc92d44a4bc6d9b4f8b6dd85237666d"
+    },
+    {
+      "source_component": 55,
+      "tree": "broad",
+      "keep_entire_component": true,
+      "vertices": 12,
+      "polygons": 8,
+      "triangles": 20,
+      "min_unity": [
+        -6.3296098709106445,
+        0.0018566064536571503,
+        3.884826183319092
+      ],
+      "max_unity": [
+        -5.962724208831787,
+        0.08814339339733124,
+        3.9910495281219482
+      ],
+      "geometry_uv_colour_normal_sha256": "698683d71f22d865d3a7c17e69b971aa1c5faab004dd6c33465257314b2bbf64"
+    },
+    {
+      "source_component": 56,
+      "tree": "broad",
+      "keep_entire_component": true,
+      "vertices": 12,
+      "polygons": 8,
+      "triangles": 20,
+      "min_unity": [
+        -6.638790130615234,
+        0.009816069155931473,
+        3.8478236198425293
+      ],
+      "max_unity": [
+        -6.461210250854492,
+        0.27333107590675354,
+        4.155894756317139
+      ],
+      "geometry_uv_colour_normal_sha256": "4adaccad93b5c9b5f40735834aeedb27ce839682b095d6bbb553a463f7cf86e1"
+    },
+    {
+      "source_component": 57,
+      "tree": "broad",
+      "keep_entire_component": true,
+      "vertices": 12,
+      "polygons": 8,
+      "triangles": 20,
+      "min_unity": [
+        -6.561631202697754,
+        0.001905873417854309,
+        4.118103504180908
+      ],
+      "max_unity": [
+        -6.44893217086792,
+        0.08809413015842438,
+        4.439172267913818
+      ],
+      "geometry_uv_colour_normal_sha256": "8430a7dd7e7892004d536e12b0bebcef7f5cdf99e3619233a5c7ee69b005f869"
+    },
+    {
+      "source_component": 58,
+      "tree": "broad",
+      "keep_entire_component": true,
+      "vertices": 12,
+      "polygons": 8,
+      "triangles": 20,
+      "min_unity": [
+        -6.788102149963379,
+        0.009816069155931473,
+        3.820100784301758
+      ],
+      "max_unity": [
+        -6.488953113555908,
+        0.27333107590675354,
+        4.0502543449401855
+      ],
+      "geometry_uv_colour_normal_sha256": "b4a6d0647fc5a14f939650fc8b853f292d00bed495ff170aeef4b7e8f28f6a9b"
+    },
+    {
+      "source_component": 59,
+      "tree": "broad",
+      "keep_entire_component": true,
+      "vertices": 12,
+      "polygons": 8,
+      "triangles": 20,
+      "min_unity": [
+        -6.947533130645752,
+        0.0021362751722335815,
+        3.962087631225586
+      ],
+      "max_unity": [
+        -6.730032444000244,
+        0.0878637284040451,
+        4.1174163818359375
+      ],
+      "geometry_uv_colour_normal_sha256": "f9a5a07749fa5a4ff80c56511bfc521c680faaa329a6d7e17d5c6bdd912ab3ef"
+    },
+    {
+      "source_component": 60,
+      "tree": "broad",
+      "keep_entire_component": true,
+      "vertices": 12,
+      "polygons": 8,
+      "triangles": 20,
+      "min_unity": [
+        -6.749307632446289,
+        0.009816069155931473,
+        3.702916145324707
+      ],
+      "max_unity": [
+        -6.486053466796875,
+        0.27333107590675354,
+        3.9640886783599854
+      ],
+      "geometry_uv_colour_normal_sha256": "e41625960fd4e3325ad3336680113cd02c8cb68062c69d05196bbafdb88983da"
+    },
+    {
+      "source_component": 61,
+      "tree": "broad",
+      "keep_entire_component": true,
+      "vertices": 12,
+      "polygons": 8,
+      "triangles": 20,
+      "min_unity": [
+        -6.902225971221924,
+        0.0019249208271503448,
+        3.4926209449768066
+      ],
+      "max_unity": [
+        -6.673881530761719,
+        0.08807508647441864,
+        3.768653154373169
+      ],
+      "geometry_uv_colour_normal_sha256": "88d4d6bca9a47d174f046169265380db197ce51c6ad87d66e27a4f6e6a912ec6"
+    },
+    {
+      "source_component": 62,
+      "tree": "broad",
+      "keep_entire_component": true,
+      "vertices": 12,
+      "polygons": 8,
+      "triangles": 20,
+      "min_unity": [
+        -6.6304779052734375,
+        0.009816061705350876,
+        3.6605725288391113
+      ],
+      "max_unity": [
+        -6.4023261070251465,
+        0.27333107590675354,
+        3.9607715606689453
+      ],
+      "geometry_uv_colour_normal_sha256": "46ef36bf8f9a8e625aeeef89c96ec07eacf248ffeed8ba8a65818e822b12d6c5"
+    },
+    {
+      "source_component": 63,
+      "tree": "broad",
+      "keep_entire_component": true,
+      "vertices": 12,
+      "polygons": 8,
+      "triangles": 20,
+      "min_unity": [
+        -6.492559909820557,
+        0.002068202942609787,
+        3.476349115371704
+      ],
+      "max_unity": [
+        -6.342247009277344,
+        0.0879317969083786,
+        3.7150113582611084
+      ],
+      "geometry_uv_colour_normal_sha256": "ac7bb7e236d7004846212c59ba8a5fac36c4450db078ee43fafadbe66f011232"
+    },
+    {
+      "source_component": 64,
+      "tree": "cypress",
+      "keep_entire_component": true,
+      "vertices": 18,
+      "polygons": 11,
+      "triangles": 32,
+      "min_unity": [
+        4.932675361633301,
+        -0.007026020437479019,
+        2.8300530910491943
+      ],
+      "max_unity": [
+        5.267953872680664,
+        1.2052710056304932,
+        3.1597461700439453
+      ],
+      "geometry_uv_colour_normal_sha256": "b54567df800f338380afcf25bf05e47e07750a53082f0a1b7b78933acd7aea61"
+    },
+    {
+      "source_component": 65,
+      "tree": "cypress",
+      "keep_entire_component": true,
+      "vertices": 18,
+      "polygons": 11,
+      "triangles": 32,
+      "min_unity": [
+        4.986279010772705,
+        1.1923105716705322,
+        2.9000039100646973
+      ],
+      "max_unity": [
+        5.267783164978027,
+        2.504636526107788,
+        3.152177333831787
+      ],
+      "geometry_uv_colour_normal_sha256": "8d136a2a1db82033f09abcb231e848cff471f3155bbdbb37433bc1be65a5266d"
+    },
+    {
+      "source_component": 66,
+      "tree": "cypress",
+      "keep_entire_component": false,
+      "vertices": 18,
+      "polygons": 11,
+      "triangles": 32,
+      "min_unity": [
+        4.986182689666748,
+        2.4973206520080566,
+        2.9650049209594727
+      ],
+      "max_unity": [
+        5.133817195892334,
+        4.250389099121094,
+        3.1104824542999268
+      ],
+      "geometry_uv_colour_normal_sha256": "2f0554f56525c72464190e860a366010fa9d6f05282820b77a19e84230b53769"
+    },
+    {
+      "source_component": 67,
+      "tree": "cypress",
+      "keep_entire_component": true,
+      "vertices": 19,
+      "polygons": 14,
+      "triangles": 32,
+      "min_unity": [
+        5.096419811248779,
+        1.0978590250015259,
+        2.9724862575531006
+      ],
+      "max_unity": [
+        5.971529006958008,
+        1.3213757276535034,
+        3.0339999198913574
+      ],
+      "geometry_uv_colour_normal_sha256": "0448b3fb41cd0623a55aae8a72a7f6bb9404e5da1843fc5ab41003e3056d5003"
+    },
+    {
+      "source_component": 68,
+      "tree": "cypress",
+      "keep_entire_component": true,
+      "vertices": 19,
+      "polygons": 14,
+      "triangles": 32,
+      "min_unity": [
+        4.646364688873291,
+        1.0984749794006348,
+        2.9803154468536377
+      ],
+      "max_unity": [
+        5.125002384185791,
+        1.4024382829666138,
+        3.6365137100219727
+      ],
+      "geometry_uv_colour_normal_sha256": "c14b4a7fc43795e9c5f0e37aba707f1b7e3ef053073f617a6c3797dc41f63fb0"
+    },
+    {
+      "source_component": 69,
+      "tree": "cypress",
+      "keep_entire_component": true,
+      "vertices": 19,
+      "polygons": 14,
+      "triangles": 32,
+      "min_unity": [
+        4.578149318695068,
+        1.0977140665054321,
+        2.4027211666107178
+      ],
+      "max_unity": [
+        5.125619888305664,
+        1.2693382501602173,
+        3.018920421600342
+      ],
+      "geometry_uv_colour_normal_sha256": "6912fdacc8d30e1c09db877a00922e60d457df43dfd82b9908648f76ef12cb42"
+    },
+    {
+      "source_component": 70,
+      "tree": "cypress",
+      "keep_entire_component": false,
+      "vertices": 19,
+      "polygons": 14,
+      "triangles": 32,
+      "min_unity": [
+        5.066009044647217,
+        1.372927188873291,
+        2.9956421852111816
+      ],
+      "max_unity": [
+        5.127557754516602,
+        1.5886752605438232,
+        3.6901800632476807
+      ],
+      "geometry_uv_colour_normal_sha256": "04fcef2ff33fd471e7dc7203dfc13f62f1baebd8dd011de31d4816008f21c179"
+    },
+    {
+      "source_component": 71,
+      "tree": "cypress",
+      "keep_entire_component": false,
+      "vertices": 19,
+      "polygons": 14,
+      "triangles": 32,
+      "min_unity": [
+        4.37631368637085,
+        1.3729394674301147,
+        2.681814193725586
+      ],
+      "max_unity": [
+        5.113559722900391,
+        1.6036338806152344,
+        3.0262625217437744
+      ],
+      "geometry_uv_colour_normal_sha256": "579a5de34f0ea60bc480c733f15175f719faab33c3e6c9ce3687b9ddbc26a715"
+    },
+    {
+      "source_component": 72,
+      "tree": "cypress",
+      "keep_entire_component": false,
+      "vertices": 19,
+      "polygons": 14,
+      "triangles": 32,
+      "min_unity": [
+        5.085002899169922,
+        1.3731025457382202,
+        2.6534619331359863
+      ],
+      "max_unity": [
+        5.805082321166992,
+        1.630348801612854,
+        3.030565023422241
+      ],
+      "geometry_uv_colour_normal_sha256": "cfffd5fe73accd77309c37afdb5028988995397baa3df2a94f4700e5a3b791cf"
+    },
+    {
+      "source_component": 73,
+      "tree": "cypress",
+      "keep_entire_component": false,
+      "vertices": 19,
+      "polygons": 14,
+      "triangles": 32,
+      "min_unity": [
+        4.371153831481934,
+        1.6483540534973145,
+        2.83758807182312
+      ],
+      "max_unity": [
+        5.108719348907471,
+        1.9313231706619263,
+        3.027752161026001
+      ],
+      "geometry_uv_colour_normal_sha256": "98ad68b54fa0fc113cf7f1e131d23beac595c3c2919b65632e7c5701bca87a5c"
+    },
+    {
+      "source_component": 74,
+      "tree": "cypress",
+      "keep_entire_component": false,
+      "vertices": 19,
+      "polygons": 14,
+      "triangles": 32,
+      "min_unity": [
+        5.0781354904174805,
+        1.6480826139450073,
+        2.507049083709717
+      ],
+      "max_unity": [
+        5.584404945373535,
+        1.886692762374878,
+        3.023832321166992
+      ],
+      "geometry_uv_colour_normal_sha256": "1d2aa5b8de1d826b68cf548abf8660d8ed4db11f76ade0f0c3f17f443a7b7304"
+    },
+    {
+      "source_component": 75,
+      "tree": "cypress",
+      "keep_entire_component": false,
+      "vertices": 19,
+      "polygons": 14,
+      "triangles": 32,
+      "min_unity": [
+        5.07047700881958,
+        1.648861050605774,
+        2.9816789627075195
+      ],
+      "max_unity": [
+        5.431828022003174,
+        1.9598853588104248,
+        3.5763306617736816
+      ],
+      "geometry_uv_colour_normal_sha256": "fbf1c091f90b07f41032f43fcacd458c83d71eb108b89f9877220ff44bbf2f0a"
+    },
+    {
+      "source_component": 76,
+      "tree": "cypress",
+      "keep_entire_component": false,
+      "vertices": 19,
+      "polygons": 14,
+      "triangles": 32,
+      "min_unity": [
+        5.072294235229492,
+        1.923246145248413,
+        2.412449598312378
+      ],
+      "max_unity": [
+        5.146878719329834,
+        2.1629867553710938,
+        3.0068418979644775
+      ],
+      "geometry_uv_colour_normal_sha256": "69fe4fc81055819e333384a60e3a435394730b1a23d1f731d57f706efd3640f2"
+    },
+    {
+      "source_component": 77,
+      "tree": "cypress",
+      "keep_entire_component": false,
+      "vertices": 19,
+      "polygons": 14,
+      "triangles": 32,
+      "min_unity": [
+        5.082808017730713,
+        1.923831582069397,
+        2.9735782146453857
+      ],
+      "max_unity": [
+        5.671376705169678,
+        2.2319083213806152,
+        3.33724308013916
+      ],
+      "geometry_uv_colour_normal_sha256": "2cd10e9ee411a0f15036302acdbb9f52ff36fa5dad3c5c0c580a073b5eb65606"
+    },
+    {
+      "source_component": 78,
+      "tree": "cypress",
+      "keep_entire_component": false,
+      "vertices": 19,
+      "polygons": 14,
+      "triangles": 32,
+      "min_unity": [
+        4.42643928527832,
+        1.9226915836334229,
+        2.966655969619751
+      ],
+      "max_unity": [
+        5.106184959411621,
+        2.0786612033843994,
+        3.138066530227661
+      ],
+      "geometry_uv_colour_normal_sha256": "e4da02b2932b279402941f9d90670f34f37f39ae15535a4fb0993c33f2d11eb6"
+    },
+    {
+      "source_component": 79,
+      "tree": "cypress",
+      "keep_entire_component": false,
+      "vertices": 19,
+      "polygons": 14,
+      "triangles": 32,
+      "min_unity": [
+        5.094192981719971,
+        2.1978700160980225,
+        2.97251296043396
+      ],
+      "max_unity": [
+        5.719142436981201,
+        2.3963305950164795,
+        3.1119298934936523
+      ],
+      "geometry_uv_colour_normal_sha256": "72403eb937bf01df2cdbb7a8683ed99c9c281ce95280314d7f659692ab481709"
+    },
+    {
+      "source_component": 80,
+      "tree": "cypress",
+      "keep_entire_component": false,
+      "vertices": 19,
+      "polygons": 14,
+      "triangles": 32,
+      "min_unity": [
+        4.69866943359375,
+        2.197676658630371,
+        2.9764838218688965
+      ],
+      "max_unity": [
+        5.120251655578613,
+        2.341400384902954,
+        3.418851375579834
+      ],
+      "geometry_uv_colour_normal_sha256": "36f8125d08ba6cf0c88bc27ea403b3b300d5c36367f2a85b857b4cd6d5935854"
+    },
+    {
+      "source_component": 81,
+      "tree": "cypress",
+      "keep_entire_component": false,
+      "vertices": 19,
+      "polygons": 14,
+      "triangles": 32,
+      "min_unity": [
+        4.939461708068848,
+        2.198964834213257,
+        2.4782514572143555
+      ],
+      "max_unity": [
+        5.132556438446045,
+        2.4833602905273438,
+        3.01330304145813
+      ],
+      "geometry_uv_colour_normal_sha256": "c92694e9478ef201866866fec321a4a2f64a97aab31c4f42554864db96bb38aa"
+    },
+    {
+      "source_component": 82,
+      "tree": "cypress",
+      "keep_entire_component": false,
+      "vertices": 19,
+      "polygons": 14,
+      "triangles": 32,
+      "min_unity": [
+        4.994163513183594,
+        2.47270131111145,
+        2.9929585456848145
+      ],
+      "max_unity": [
+        5.127108097076416,
+        2.623577833175659,
+        3.478886127471924
+      ],
+      "geometry_uv_colour_normal_sha256": "84e0e3a55fc48d7bce954efa61d7301897e95b6e9a698c6f343393085c968069"
+    },
+    {
+      "source_component": 83,
+      "tree": "cypress",
+      "keep_entire_component": false,
+      "vertices": 19,
+      "polygons": 14,
+      "triangles": 32,
+      "min_unity": [
+        4.674410343170166,
+        2.4731812477111816,
+        2.6703336238861084
+      ],
+      "max_unity": [
+        5.120774269104004,
+        2.696536064147949,
+        3.023949384689331
+      ],
+      "geometry_uv_colour_normal_sha256": "3954112a202af4b0f0d0f0da7448bc70b1f544134cbce8534afac72734ee203a"
+    },
+    {
+      "source_component": 84,
+      "tree": "cypress",
+      "keep_entire_component": false,
+      "vertices": 19,
+      "polygons": 14,
+      "triangles": 32,
+      "min_unity": [
+        5.094476222991943,
+        2.4731240272521973,
+        2.950821876525879
+      ],
+      "max_unity": [
+        5.669858932495117,
+        2.697171926498413,
+        3.033893346786499
+      ],
+      "geometry_uv_colour_normal_sha256": "ec899064fddbd42ec4cc643b724c0c166daf63369ac3b713dfa325e7e8daed1a"
+    },
+    {
+      "source_component": 85,
+      "tree": "cypress",
+      "keep_entire_component": false,
+      "vertices": 19,
+      "polygons": 14,
+      "triangles": 32,
+      "min_unity": [
+        4.608460426330566,
+        2.748241662979126,
+        2.872328281402588
+      ],
+      "max_unity": [
+        5.108460426330566,
+        2.9716224670410156,
+        3.0275940895080566
+      ],
+      "geometry_uv_colour_normal_sha256": "6a842f8da9a188328d6f4633817c51f4aa52f4cbc5ecf448375b2b7e183c2cd7"
+    },
+    {
+      "source_component": 86,
+      "tree": "cypress",
+      "keep_entire_component": false,
+      "vertices": 19,
+      "polygons": 14,
+      "triangles": 32,
+      "min_unity": [
+        5.086524963378906,
+        2.747783899307251,
+        2.7822487354278564
+      ],
+      "max_unity": [
+        5.546407699584961,
+        2.917699098587036,
+        3.0306382179260254
+      ],
+      "geometry_uv_colour_normal_sha256": "61b2cfb59f8f1c713d26d0dbd62a34cff6d2aa3ac6782b7833beb1c2ad1dfd0d"
+    },
+    {
+      "source_component": 87,
+      "tree": "cypress",
+      "keep_entire_component": false,
+      "vertices": 19,
+      "polygons": 14,
+      "triangles": 32,
+      "min_unity": [
+        5.066670894622803,
+        2.7477519512176514,
+        2.9931187629699707
+      ],
+      "max_unity": [
+        5.190406322479248,
+        2.907304286956787,
+        3.4297800064086914
+      ],
+      "geometry_uv_colour_normal_sha256": "bfda1919c1c1ca89527065d82065a889970029cb7056c4930efff6ede9d3af5e"
+    },
+    {
+      "source_component": 88,
+      "tree": "cypress",
+      "keep_entire_component": false,
+      "vertices": 19,
+      "polygons": 14,
+      "triangles": 32,
+      "min_unity": [
+        5.072083473205566,
+        3.0248706340789795,
+        2.6428167819976807
+      ],
+      "max_unity": [
+        5.2759623527526855,
+        3.30257511138916,
+        3.0151474475860596
+      ],
+      "geometry_uv_colour_normal_sha256": "76405f1113e7c940e9a703cbb0a67d01654279547103278fc2d402747aab0405"
+    },
+    {
+      "source_component": 89,
+      "tree": "cypress",
+      "keep_entire_component": false,
+      "vertices": 19,
+      "polygons": 14,
+      "triangles": 32,
+      "min_unity": [
+        5.0726776123046875,
+        3.023920774459839,
+        2.9791951179504395
+      ],
+      "max_unity": [
+        5.344076156616211,
+        3.2653448581695557,
+        3.3269829750061035
+      ],
+      "geometry_uv_colour_normal_sha256": "e133ce9b223df0f9601545dee4dabd23b63e891c60382ae9510b7ec6f00883d9"
+    },
+    {
+      "source_component": 90,
+      "tree": "cypress",
+      "keep_entire_component": false,
+      "vertices": 19,
+      "polygons": 14,
+      "triangles": 32,
+      "min_unity": [
+        4.659698486328125,
+        3.0226712226867676,
+        2.9666621685028076
+      ],
+      "max_unity": [
+        5.1058125495910645,
+        3.1595675945281982,
+        3.0919442176818848
+      ],
+      "geometry_uv_colour_normal_sha256": "dd63fc4487e4a6af4c0973bb8e27a00a6b1c804653eebe250cd1f8d25333d800"
+    },
+    {
+      "source_component": 91,
+      "tree": "cypress",
+      "keep_entire_component": false,
+      "vertices": 19,
+      "polygons": 14,
+      "triangles": 32,
+      "min_unity": [
+        5.0902628898620605,
+        3.2980377674102783,
+        2.972777843475342
+      ],
+      "max_unity": [
+        5.470656871795654,
+        3.483731508255005,
+        3.1147587299346924
+      ],
+      "geometry_uv_colour_normal_sha256": "49cc085d65f1639fc89999e8d7e8c3081993fd053469413f70aea0ccc6d4b82f"
+    },
+    {
+      "source_component": 92,
+      "tree": "cypress",
+      "keep_entire_component": false,
+      "vertices": 19,
+      "polygons": 14,
+      "triangles": 32,
+      "min_unity": [
+        4.780076026916504,
+        3.299304962158203,
+        2.971003770828247
+      ],
+      "max_unity": [
+        5.119723796844482,
+        3.5474236011505127,
+        3.1982204914093018
+      ],
+      "geometry_uv_colour_normal_sha256": "cab9e0ed426986d3c0a1594c4b5c3d40517a701b861b11af9eecae5534d4912f"
+    },
+    {
+      "source_component": 93,
+      "tree": "cypress",
+      "keep_entire_component": false,
+      "vertices": 19,
+      "polygons": 14,
+      "triangles": 32,
+      "min_unity": [
+        5.02138614654541,
+        3.2977640628814697,
+        2.671610116958618
+      ],
+      "max_unity": [
+        5.1331467628479,
+        3.4511678218841553,
+        3.007654905319214
+      ],
+      "geometry_uv_colour_normal_sha256": "3015d1ab495dd16211de256c1a18ad58295e444aaf30df1f2bbe737fa668fc52"
+    },
+    {
+      "source_component": 94,
+      "tree": "cypress",
+      "keep_entire_component": false,
+      "vertices": 19,
+      "polygons": 14,
+      "triangles": 32,
+      "min_unity": [
+        4.948436260223389,
+        3.573469638824463,
+        2.982797145843506
+      ],
+      "max_unity": [
+        5.125968933105469,
+        3.765613079071045,
+        3.254791498184204
+      ],
+      "geometry_uv_colour_normal_sha256": "36b01fc692344859b1c83015c23142ba5458a1654e708fe8658cd7a189ecca23"
+    },
+    {
+      "source_component": 95,
+      "tree": "cypress",
+      "keep_entire_component": false,
+      "vertices": 19,
+      "polygons": 14,
+      "triangles": 32,
+      "min_unity": [
+        4.971373081207275,
+        3.5727062225341797,
+        2.7368838787078857
+      ],
+      "max_unity": [
+        5.130675792694092,
+        3.7144217491149902,
+        3.012782335281372
+      ],
+      "geometry_uv_colour_normal_sha256": "807c8a918d03afb67abffb35203ee4a09ce76ace10ea89e6d705570d92815d6d"
+    },
+    {
+      "source_component": 96,
+      "tree": "cypress",
+      "keep_entire_component": false,
+      "vertices": 19,
+      "polygons": 14,
+      "triangles": 32,
+      "min_unity": [
+        5.096136093139648,
+        3.5726845264434814,
+        2.972590923309326
+      ],
+      "max_unity": [
+        5.429449081420898,
+        3.7115886211395264,
+        3.0423758029937744
+      ],
+      "geometry_uv_colour_normal_sha256": "3409b4d1af0b57ad8c8e99ca637d83ac546aeef9f52d17d36a614a3657ecb718"
+    },
+    {
+      "source_component": 97,
+      "tree": "cypress",
+      "keep_entire_component": false,
+      "vertices": 19,
+      "polygons": 14,
+      "triangles": 32,
+      "min_unity": [
+        4.893582344055176,
+        3.8527657985687256,
+        2.8437795639038086
+      ],
+      "max_unity": [
+        5.120458602905273,
+        4.135558128356934,
+        3.0284526348114014
+      ],
+      "geometry_uv_colour_normal_sha256": "b42c252f50fd207c4e71ab7a796d287ba51c2ea2d611c1acf076d658afaa83d6"
+    },
+    {
+      "source_component": 98,
+      "tree": "cypress",
+      "keep_entire_component": false,
+      "vertices": 19,
+      "polygons": 14,
+      "triangles": 32,
+      "min_unity": [
+        5.078552722930908,
+        3.8536832332611084,
+        2.8926753997802734
+      ],
+      "max_unity": [
+        5.345721244812012,
+        4.16090726852417,
+        3.0312905311584473
+      ],
+      "geometry_uv_colour_normal_sha256": "ab0b4ba34ab6fa05951e44dd95531ee0b454ea473c49179f4675aa7768b90533"
+    },
+    {
+      "source_component": 99,
+      "tree": "cypress",
+      "keep_entire_component": false,
+      "vertices": 19,
+      "polygons": 14,
+      "triangles": 32,
+      "min_unity": [
+        5.045319080352783,
+        3.851505756378174,
+        2.9828078746795654
+      ],
+      "max_unity": [
+        5.128896236419678,
+        4.097580432891846,
+        3.229018211364746
+      ],
+      "geometry_uv_colour_normal_sha256": "97c1199d77bd46cb4293c83a7c36fd5453b0918012f7e8115001071d82978e88"
+    },
+    {
+      "source_component": 100,
+      "tree": "cypress",
+      "keep_entire_component": true,
+      "vertices": 12,
+      "polygons": 8,
+      "triangles": 20,
+      "min_unity": [
+        5.048352241516113,
+        0.009816057980060577,
+        2.911010503768921
+      ],
+      "max_unity": [
+        5.356110572814941,
+        0.2733311057090759,
+        3.088989496231079
+      ],
+      "geometry_uv_colour_normal_sha256": "adaa842b2b21f0a518ffbf83da0272a52f8d1ec0c070dc5e1d3caf2e901eba4c"
+    },
+    {
+      "source_component": 101,
+      "tree": "cypress",
+      "keep_entire_component": true,
+      "vertices": 12,
+      "polygons": 8,
+      "triangles": 20,
+      "min_unity": [
+        5.320316314697266,
+        0.001885928213596344,
+        2.9847590923309326
+      ],
+      "max_unity": [
+        5.6582770347595215,
+        0.08811407536268234,
+        3.083982229232788
+      ],
+      "geometry_uv_colour_normal_sha256": "329f8ccae8a424804f9a62444e4911fa74a85a7f6a1cbb2dd545c995490e65a1"
+    },
+    {
+      "source_component": 102,
+      "tree": "cypress",
+      "keep_entire_component": true,
+      "vertices": 12,
+      "polygons": 8,
+      "triangles": 20,
+      "min_unity": [
+        5.011209964752197,
+        0.009816061705350876,
+        2.9478235244750977
+      ],
+      "max_unity": [
+        5.1887898445129395,
+        0.27333107590675354,
+        3.255894899368286
+      ],
+      "geometry_uv_colour_normal_sha256": "2cc56b2e5577fb6447785b0366b6db67192261ffe716db02e8f67c55be692e3b"
+    },
+    {
+      "source_component": 103,
+      "tree": "cypress",
+      "keep_entire_component": true,
+      "vertices": 12,
+      "polygons": 8,
+      "triangles": 20,
+      "min_unity": [
+        5.088201522827148,
+        0.0019034892320632935,
+        3.2188467979431152
+      ],
+      "max_unity": [
+        5.195126533508301,
+        0.0880965143442154,
+        3.541933536529541
+      ],
+      "geometry_uv_colour_normal_sha256": "ed464e23cfe6d0ceac8720bb1270c1fc5130abc26508a52a70848630799605c6"
+    },
+    {
+      "source_component": 104,
+      "tree": "cypress",
+      "keep_entire_component": true,
+      "vertices": 12,
+      "polygons": 8,
+      "triangles": 20,
+      "min_unity": [
+        4.861897945404053,
+        0.009816069155931473,
+        2.920100688934326
+      ],
+      "max_unity": [
+        5.161046981811523,
+        0.27333107590675354,
+        3.150254487991333
+      ],
+      "geometry_uv_colour_normal_sha256": "e7698bbd0f51dea0fa834495233ef7208d7795147fcf890121ed4dbcfc0aa888"
+    },
+    {
+      "source_component": 105,
+      "tree": "cypress",
+      "keep_entire_component": true,
+      "vertices": 12,
+      "polygons": 8,
+      "triangles": 20,
+      "min_unity": [
+        4.6383376121521,
+        0.00197412446141243,
+        3.059340238571167
+      ],
+      "max_unity": [
+        4.914125442504883,
+        0.08802588284015656,
+        3.213498592376709
+      ],
+      "geometry_uv_colour_normal_sha256": "4ebd3084496c227a18c2a70dd67ca00a0b087b51e309b200643bd1b4e0b09ea3"
+    },
+    {
+      "source_component": 106,
+      "tree": "cypress",
+      "keep_entire_component": true,
+      "vertices": 12,
+      "polygons": 8,
+      "triangles": 20,
+      "min_unity": [
+        4.900692462921143,
+        0.00981607660651207,
+        2.8029162883758545
+      ],
+      "max_unity": [
+        5.163946628570557,
+        0.27333104610443115,
+        3.0640885829925537
+      ],
+      "geometry_uv_colour_normal_sha256": "d675904ca0fc5b418960a8a8831d102679a4cbd38b1cacfc6913dac1cd2a4bd8"
+    },
+    {
+      "source_component": 107,
+      "tree": "cypress",
+      "keep_entire_component": true,
+      "vertices": 12,
+      "polygons": 8,
+      "triangles": 20,
+      "min_unity": [
+        4.765423774719238,
+        0.0019144751131534576,
+        2.571946620941162
+      ],
+      "max_unity": [
+        4.978614330291748,
+        0.08808553218841553,
+        2.8650269508361816
+      ],
+      "geometry_uv_colour_normal_sha256": "ed483e89c293d947b052c70cb64d9804fad88f387c4c394785f070edbbb153d9"
+    },
+    {
+      "source_component": 108,
+      "tree": "cypress",
+      "keep_entire_component": true,
+      "vertices": 12,
+      "polygons": 8,
+      "triangles": 20,
+      "min_unity": [
+        5.019522190093994,
+        0.009816061705350876,
+        2.7605724334716797
+      ],
+      "max_unity": [
+        5.247673988342285,
+        0.27333107590675354,
+        3.0607714653015137
+      ],
+      "geometry_uv_colour_normal_sha256": "c32c73e02b48a5f8f52f2ccb5bf3baa975de62402e21b853449a52d734709f5f"
+    },
+    {
+      "source_component": 109,
+      "tree": "cypress",
+      "keep_entire_component": true,
+      "vertices": 12,
+      "polygons": 8,
+      "triangles": 20,
+      "min_unity": [
+        5.1574273109436035,
+        0.0019687339663505554,
+        2.5393970012664795
+      ],
+      "max_unity": [
+        5.32435417175293,
+        0.08803126960992813,
+        2.814983367919922
+      ],
+      "geometry_uv_colour_normal_sha256": "b7232aaf0eef2b90f05265737bd016250a8ff3731804b6402388ac19866d644d"
+    },
+    {
+      "source_component": 110,
+      "tree": "gold",
+      "keep_entire_component": true,
+      "vertices": 20,
+      "polygons": 12,
+      "triangles": 36,
+      "min_unity": [
+        2.502995491027832,
+        -0.032834041863679886,
+        6.190000057220459
+      ],
+      "max_unity": [
+        2.9841701984405518,
+        0.7473617196083069,
+        6.610000133514404
+      ],
+      "geometry_uv_colour_normal_sha256": "9c48937deb2057dd9b1a6bc5c0047e8ad1c89b8b5db2c163715562f60a514e0e"
+    },
+    {
+      "source_component": 111,
+      "tree": "gold",
+      "keep_entire_component": true,
+      "vertices": 20,
+      "polygons": 12,
+      "triangles": 36,
+      "min_unity": [
+        2.516432762145996,
+        0.6668815016746521,
+        6.227163791656494
+      ],
+      "max_unity": [
+        2.980179786682129,
+        1.390977144241333,
+        6.633330821990967
+      ],
+      "geometry_uv_colour_normal_sha256": "80cfb964ff2c42f4e66f53b653c1d1d286889db491ea9dd62f31f3ba1687e5f2"
+    },
+    {
+      "source_component": 112,
+      "tree": "gold",
+      "keep_entire_component": false,
+      "vertices": 20,
+      "polygons": 12,
+      "triangles": 36,
+      "min_unity": [
+        2.515162229537964,
+        1.298668622970581,
+        6.3593621253967285
+      ],
+      "max_unity": [
+        2.898601531982422,
+        1.8173197507858276,
+        6.628072261810303
+      ],
+      "geometry_uv_colour_normal_sha256": "472fcdf036cb222e732dc20a2fd4b47fe0038fbd3d8d7f70c98d76b9da124919"
+    },
+    {
+      "source_component": 113,
+      "tree": "gold",
+      "keep_entire_component": false,
+      "vertices": 20,
+      "polygons": 12,
+      "triangles": 36,
+      "min_unity": [
+        2.7165610790252686,
+        1.7621662616729736,
+        6.356948375701904
+      ],
+      "max_unity": [
+        2.8996925354003906,
+        2.250715732574463,
+        6.564426898956299
+      ],
+      "geometry_uv_colour_normal_sha256": "da0228ea1ff138fd6af82cf76b5687770a9cfc64918500577ab43198959c91fc"
+    },
+    {
+      "source_component": 114,
+      "tree": "gold",
+      "keep_entire_component": false,
+      "vertices": 14,
+      "polygons": 9,
+      "triangles": 24,
+      "min_unity": [
+        2.675122022628784,
+        1.2294906377792358,
+        6.320921421051025
+      ],
+      "max_unity": [
+        3.2214980125427246,
+        1.8001832962036133,
+        6.5140061378479
+      ],
+      "geometry_uv_colour_normal_sha256": "4c780cad94c82e5242b6cfcb7794e9367fd4e89d94459bdee58d684b26377e08"
+    },
+    {
+      "source_component": 115,
+      "tree": "gold",
+      "keep_entire_component": false,
+      "vertices": 14,
+      "polygons": 9,
+      "triangles": 24,
+      "min_unity": [
+        3.180499792098999,
+        1.7255057096481323,
+        6.312839984893799
+      ],
+      "max_unity": [
+        3.7952823638916016,
+        1.9250518083572388,
+        6.410080432891846
+      ],
+      "geometry_uv_colour_normal_sha256": "397bd6c028e47e044f8b4b8f012ac3b026c5c6c12e89bff806c692c64da0fdbd"
+    },
+    {
+      "source_component": 116,
+      "tree": "gold",
+      "keep_entire_component": false,
+      "vertices": 19,
+      "polygons": 14,
+      "triangles": 32,
+      "min_unity": [
+        3.7721664905548096,
+        1.8967453241348267,
+        6.050409317016602
+      ],
+      "max_unity": [
+        4.062437534332275,
+        2.2784838676452637,
+        6.345509052276611
+      ],
+      "geometry_uv_colour_normal_sha256": "0799a115f811c42a27d7b4ba9eb6d9becad1a3929a2f65bdefce62b3f58cc4fb"
+    },
+    {
+      "source_component": 117,
+      "tree": "gold",
+      "keep_entire_component": false,
+      "vertices": 19,
+      "polygons": 14,
+      "triangles": 32,
+      "min_unity": [
+        3.7824506759643555,
+        1.8903597593307495,
+        6.289915084838867
+      ],
+      "max_unity": [
+        4.346267223358154,
+        2.068329334259033,
+        6.350089073181152
+      ],
+      "geometry_uv_colour_normal_sha256": "c0204a20acdde0c541be068edfafae9b98ad51844e15fbd157996646898de6ca"
+    },
+    {
+      "source_component": 118,
+      "tree": "gold",
+      "keep_entire_component": false,
+      "vertices": 19,
+      "polygons": 14,
+      "triangles": 32,
+      "min_unity": [
+        3.776207447052002,
+        1.8939541578292847,
+        6.31028413772583
+      ],
+      "max_unity": [
+        4.187498092651367,
+        2.2156341075897217,
+        6.632747650146484
+      ],
+      "geometry_uv_colour_normal_sha256": "167f4a06b32b137d2bda3bad7fe6aaaf1cc88968df4b4a273041c70fb88c3a44"
+    },
+    {
+      "source_component": 119,
+      "tree": "gold",
+      "keep_entire_component": false,
+      "vertices": 14,
+      "polygons": 9,
+      "triangles": 24,
+      "min_unity": [
+        2.3281502723693848,
+        1.4016035795211792,
+        6.380762577056885
+      ],
+      "max_unity": [
+        2.7869112491607666,
+        1.8461065292358398,
+        6.765209674835205
+      ],
+      "geometry_uv_colour_normal_sha256": "e3a4c7d177e6bdb2d657084d1a1f25851fa6cbb9b5c80db55ead4134dc0dcec7"
+    },
+    {
+      "source_component": 120,
+      "tree": "gold",
+      "keep_entire_component": false,
+      "vertices": 14,
+      "polygons": 9,
+      "triangles": 24,
+      "min_unity": [
+        1.9397544860839844,
+        1.7677056789398193,
+        6.688679218292236
+      ],
+      "max_unity": [
+        2.3930976390838623,
+        1.9988017082214355,
+        7.0571675300598145
+      ],
+      "geometry_uv_colour_normal_sha256": "927a0a45d157e15855bda2fc1d88038499d8fffe82b8b5d6a91c894984467b1a"
+    },
+    {
+      "source_component": 121,
+      "tree": "gold",
+      "keep_entire_component": false,
+      "vertices": 19,
+      "polygons": 14,
+      "triangles": 32,
+      "min_unity": [
+        1.9297459125518799,
+        1.969584345817566,
+        7.027353286743164
+      ],
+      "max_unity": [
+        1.9678189754486084,
+        2.1755456924438477,
+        7.337656021118164
+      ],
+      "geometry_uv_colour_normal_sha256": "ec08d05b0a53cb55052e70475ccd46c7039977c7aef675ebae3f18e08235d6ec"
+    },
+    {
+      "source_component": 122,
+      "tree": "gold",
+      "keep_entire_component": false,
+      "vertices": 19,
+      "polygons": 14,
+      "triangles": 32,
+      "min_unity": [
+        1.6409162282943726,
+        1.9658169746398926,
+        7.026812553405762
+      ],
+      "max_unity": [
+        1.967159628868103,
+        2.1350159645080566,
+        7.306375503540039
+      ],
+      "geometry_uv_colour_normal_sha256": "4c76ed50c4d85e05f90f9710084cb9dffc5e3b9f42dfd327fc07f881e265d188"
+    },
+    {
+      "source_component": 123,
+      "tree": "gold",
+      "keep_entire_component": false,
+      "vertices": 19,
+      "polygons": 14,
+      "triangles": 32,
+      "min_unity": [
+        1.4458509683609009,
+        1.9685381650924683,
+        7.02183198928833
+      ],
+      "max_unity": [
+        1.965489149093628,
+        2.3281145095825195,
+        7.059982776641846
+      ],
+      "geometry_uv_colour_normal_sha256": "1b64bcd92837289003a45dcffa433309d4242cb57df7763d338f533b865bc863"
+    },
+    {
+      "source_component": 124,
+      "tree": "gold",
+      "keep_entire_component": false,
+      "vertices": 14,
+      "polygons": 9,
+      "triangles": 24,
+      "min_unity": [
+        2.661928653717041,
+        1.5708593130111694,
+        5.9239301681518555
+      ],
+      "max_unity": [
+        2.8049049377441406,
+        1.8550597429275513,
+        6.462788105010986
+      ],
+      "geometry_uv_colour_normal_sha256": "440ede00f36a9edefe7807f5ed6232c9818cc1aa5fd694dcee68518170b5fcf5"
+    },
+    {
+      "source_component": 125,
+      "tree": "gold",
+      "keep_entire_component": false,
+      "vertices": 14,
+      "polygons": 9,
+      "triangles": 24,
+      "min_unity": [
+        2.71602463722229,
+        1.7783682346343994,
+        5.4768500328063965
+      ],
+      "max_unity": [
+        2.848844528198242,
+        2.210712432861328,
+        5.9665141105651855
+      ],
+      "geometry_uv_colour_normal_sha256": "f55f71591088a3e14996985e46884b6ca406d188587725de6bd30ffe6e77fec2"
+    },
+    {
+      "source_component": 126,
+      "tree": "gold",
+      "keep_entire_component": false,
+      "vertices": 19,
+      "polygons": 14,
+      "triangles": 32,
+      "min_unity": [
+        2.5765435695648193,
+        2.1819815635681152,
+        5.215730667114258
+      ],
+      "max_unity": [
+        2.846435070037842,
+        2.362748861312866,
+        5.506031513214111
+      ],
+      "geometry_uv_colour_normal_sha256": "9253e176fff02348e4edde3bed8019d5a559e13f109cf3134dcca048fb22b18e"
+    },
+    {
+      "source_component": 127,
+      "tree": "gold",
+      "keep_entire_component": false,
+      "vertices": 19,
+      "polygons": 14,
+      "triangles": 32,
+      "min_unity": [
+        2.812840461730957,
+        2.1852545738220215,
+        5.083868503570557
+      ],
+      "max_unity": [
+        2.8942177295684814,
+        2.5407707691192627,
+        5.505355358123779
+      ],
+      "geometry_uv_colour_normal_sha256": "fc0ce699f86f6b9b5bf7836a43a1d5621eccf7873d3bb887be9f8de83d558745"
+    },
+    {
+      "source_component": 128,
+      "tree": "gold",
+      "keep_entire_component": false,
+      "vertices": 19,
+      "polygons": 14,
+      "triangles": 32,
+      "min_unity": [
+        2.8146257400512695,
+        2.182938575744629,
+        5.289175033569336
+      ],
+      "max_unity": [
+        3.1359591484069824,
+        2.3828907012939453,
+        5.506270408630371
+      ],
+      "geometry_uv_colour_normal_sha256": "f3b1ae1736b404d678a2f6689335449c1e08c5da15588feacfb1ad9060f7b312"
+    },
+    {
+      "source_component": 129,
+      "tree": "gold",
+      "keep_entire_component": false,
+      "vertices": 14,
+      "polygons": 9,
+      "triangles": 24,
+      "min_unity": [
+        2.665750503540039,
+        1.2331960201263428,
+        6.380324840545654
+      ],
+      "max_unity": [
+        3.009995698928833,
+        1.7979555130004883,
+        6.81053352355957
+      ],
+      "geometry_uv_colour_normal_sha256": "c6278232384b73986cc0e89116ccf5e887c394adbda83acb6b7d31f18ab2a4f6"
+    },
+    {
+      "source_component": 130,
+      "tree": "gold",
+      "keep_entire_component": false,
+      "vertices": 14,
+      "polygons": 9,
+      "triangles": 24,
+      "min_unity": [
+        2.928640604019165,
+        1.7383074760437012,
+        6.732900619506836
+      ],
+      "max_unity": [
+        3.3099989891052246,
+        2.293741226196289,
+        7.149377822875977
+      ],
+      "geometry_uv_colour_normal_sha256": "5fd61481f100559bcc466d4effdb74606aa0ce846ae0c1c0df2cff66fe7f7671"
+    },
+    {
+      "source_component": 131,
+      "tree": "gold",
+      "keep_entire_component": false,
+      "vertices": 19,
+      "polygons": 14,
+      "triangles": 32,
+      "min_unity": [
+        3.279165744781494,
+        2.26764178276062,
+        7.116273403167725
+      ],
+      "max_unity": [
+        3.8549582958221436,
+        2.660930633544922,
+        7.215133190155029
+      ],
+      "geometry_uv_colour_normal_sha256": "36075c5ef9de12741e98517765c175b340f4dbcad2f0dd2e894bfa35c402806c"
+    },
+    {
+      "source_component": 132,
+      "tree": "gold",
+      "keep_entire_component": false,
+      "vertices": 19,
+      "polygons": 14,
+      "triangles": 32,
+      "min_unity": [
+        3.277914524078369,
+        2.2685413360595703,
+        7.116323471069336
+      ],
+      "max_unity": [
+        3.623878002166748,
+        2.6790997982025146,
+        7.53577995300293
+      ],
+      "geometry_uv_colour_normal_sha256": "ce5918a2a316532ce86ddf85b56bf608a2681228aa778f712b429a58ff0a52e5"
+    },
+    {
+      "source_component": 133,
+      "tree": "gold",
+      "keep_entire_component": false,
+      "vertices": 19,
+      "polygons": 14,
+      "triangles": 32,
+      "min_unity": [
+        3.194373846054077,
+        2.2663958072662354,
+        7.120295524597168
+      ],
+      "max_unity": [
+        3.312469720840454,
+        2.4814934730529785,
+        7.569718837738037
+      ],
+      "geometry_uv_colour_normal_sha256": "06e75a2e1419bba6517753493efba8e7adef1c11511873ca3281507010dd8bb7"
+    },
+    {
+      "source_component": 134,
+      "tree": "gold",
+      "keep_entire_component": false,
+      "vertices": 14,
+      "polygons": 9,
+      "triangles": 24,
+      "min_unity": [
+        2.199943780899048,
+        1.403978705406189,
+        6.178946018218994
+      ],
+      "max_unity": [
+        2.7832839488983154,
+        1.9518488645553589,
+        6.510284423828125
+      ],
+      "geometry_uv_colour_normal_sha256": "c18944bcf85f3afb640b9d2b2cfcd8a9487e32afcb87da74a2b7e3617b52f005"
+    },
+    {
+      "source_component": 135,
+      "tree": "gold",
+      "keep_entire_component": false,
+      "vertices": 14,
+      "polygons": 9,
+      "triangles": 24,
+      "min_unity": [
+        1.6488090753555298,
+        1.8762288093566895,
+        6.029003620147705
+      ],
+      "max_unity": [
+        2.252289295196533,
+        2.189154624938965,
+        6.263002395629883
+      ],
+      "geometry_uv_colour_normal_sha256": "1219182b1a3e9ec7b08fcfe7485e10d043d52c5161c67f71a57b372681e4de99"
+    },
+    {
+      "source_component": 136,
+      "tree": "gold",
+      "keep_entire_component": false,
+      "vertices": 19,
+      "polygons": 14,
+      "triangles": 32,
+      "min_unity": [
+        1.2271430492401123,
+        2.157599687576294,
+        6.026675701141357
+      ],
+      "max_unity": [
+        1.6700739860534668,
+        2.3738741874694824,
+        6.217658042907715
+      ],
+      "geometry_uv_colour_normal_sha256": "fcbc95242b19c5bb3d4b3613d35f34faf840f041d8a4357a9abedf3a428f2a31"
+    },
+    {
+      "source_component": 137,
+      "tree": "gold",
+      "keep_entire_component": false,
+      "vertices": 19,
+      "polygons": 14,
+      "triangles": 32,
+      "min_unity": [
+        1.215680718421936,
+        2.157735824584961,
+        5.894600868225098
+      ],
+      "max_unity": [
+        1.6708182096481323,
+        2.3797662258148193,
+        6.064858436584473
+      ],
+      "geometry_uv_colour_normal_sha256": "5770aa3621df596706ff5add479afa456544857e2ce632e403b9a30a208e4056"
+    },
+    {
+      "source_component": 138,
+      "tree": "gold",
+      "keep_entire_component": false,
+      "vertices": 19,
+      "polygons": 14,
+      "triangles": 32,
+      "min_unity": [
+        1.5152915716171265,
+        2.1635425090789795,
+        5.763550758361816
+      ],
+      "max_unity": [
+        1.6754083633422852,
+        2.5563559532165527,
+        6.063462257385254
+      ],
+      "geometry_uv_colour_normal_sha256": "0969aaeb4fed677f026823f425b3f24f9fe6a5acb668afb29e8c55cc620322e8"
+    },
+    {
+      "source_component": 139,
+      "tree": "gold",
+      "keep_entire_component": false,
+      "vertices": 14,
+      "polygons": 9,
+      "triangles": 24,
+      "min_unity": [
+        2.6742300987243652,
+        1.5766534805297852,
+        6.124240875244141
+      ],
+      "max_unity": [
+        3.0948143005371094,
+        1.9286130666732788,
+        6.497587203979492
+      ],
+      "geometry_uv_colour_normal_sha256": "30289c4efdfde17cfd93933ee703273ba8a7237184448d6c37bc172bed8af18f"
+    },
+    {
+      "source_component": 140,
+      "tree": "gold",
+      "keep_entire_component": false,
+      "vertices": 14,
+      "polygons": 9,
+      "triangles": 24,
+      "min_unity": [
+        3.0434107780456543,
+        1.8449138402938843,
+        5.915930271148682
+      ],
+      "max_unity": [
+        3.514235496520996,
+        1.9346071481704712,
+        6.203198432922363
+      ],
+      "geometry_uv_colour_normal_sha256": "7308d0dc9917b2d1e2a805173a632bb9ba53b371930500ac105e24c2be83d1fd"
+    },
+    {
+      "source_component": 141,
+      "tree": "gold",
+      "keep_entire_component": false,
+      "vertices": 19,
+      "polygons": 14,
+      "triangles": 32,
+      "min_unity": [
+        3.487079381942749,
+        1.879551649093628,
+        5.605246067047119
+      ],
+      "max_unity": [
+        3.578899621963501,
+        2.233534574508667,
+        5.948305606842041
+      ],
+      "geometry_uv_colour_normal_sha256": "fec5708cd5efbfa85a240719d7598dc96dba6e1a03377db4351da34e8eb4ca48"
+    },
+    {
+      "source_component": 142,
+      "tree": "gold",
+      "keep_entire_component": false,
+      "vertices": 19,
+      "polygons": 14,
+      "triangles": 32,
+      "min_unity": [
+        3.489783763885498,
+        1.8759660720825195,
+        5.657122611999512
+      ],
+      "max_unity": [
+        3.976193904876709,
+        2.242405891418457,
+        5.948493957519531
+      ],
+      "geometry_uv_colour_normal_sha256": "f7dac7a04f266dc1821290b8a4da61f40742d7de18b77fb825f00d00e7e48ac5"
+    },
+    {
+      "source_component": 143,
+      "tree": "gold",
+      "keep_entire_component": false,
+      "vertices": 19,
+      "polygons": 14,
+      "triangles": 32,
+      "min_unity": [
+        3.489938259124756,
+        1.8768219947814941,
+        5.911914348602295
+      ],
+      "max_unity": [
+        3.91194224357605,
+        2.164133071899414,
+        6.008861064910889
+      ],
+      "geometry_uv_colour_normal_sha256": "498f8683be4f106988224a943342b171f19e833d5eed8c9a27ca232530871b3f"
+    },
+    {
+      "source_component": 144,
+      "tree": "gold",
+      "keep_entire_component": false,
+      "vertices": 14,
+      "polygons": 9,
+      "triangles": 24,
+      "min_unity": [
+        2.5981783866882324,
+        1.241132378578186,
+        6.3811774253845215
+      ],
+      "max_unity": [
+        2.8020102977752686,
+        1.9270075559616089,
+        6.860598087310791
+      ],
+      "geometry_uv_colour_normal_sha256": "659359e0fab09522cea3c88a9d947cb5edcf3036f44729a6271c3540e42e889c"
+    },
+    {
+      "source_component": 145,
+      "tree": "gold",
+      "keep_entire_component": false,
+      "vertices": 14,
+      "polygons": 9,
+      "triangles": 24,
+      "min_unity": [
+        2.5556440353393555,
+        1.8624390363693237,
+        6.801662445068359
+      ],
+      "max_unity": [
+        2.685283660888672,
+        2.1115365028381348,
+        7.240909099578857
+      ],
+      "geometry_uv_colour_normal_sha256": "e20f7bbd0d9f98f98073fe90b52da38c9ae4c3280978a0c394d3423ca75c5925"
+    },
+    {
+      "source_component": 146,
+      "tree": "gold",
+      "keep_entire_component": false,
+      "vertices": 19,
+      "polygons": 14,
+      "triangles": 32,
+      "min_unity": [
+        2.5578417778015137,
+        2.0835423469543457,
+        7.214259147644043
+      ],
+      "max_unity": [
+        2.8799431324005127,
+        2.4914345741271973,
+        7.566128253936768
+      ],
+      "geometry_uv_colour_normal_sha256": "84fead9fe464d883303b364e8166c85ecea1e7bfb9382ba743606ff7889c1ca7"
+    },
+    {
+      "source_component": 147,
+      "tree": "gold",
+      "keep_entire_component": false,
+      "vertices": 19,
+      "polygons": 14,
+      "triangles": 32,
+      "min_unity": [
+        2.5153746604919434,
+        2.0834879875183105,
+        7.216316223144531
+      ],
+      "max_unity": [
+        2.5916755199432373,
+        2.362061023712158,
+        7.582408905029297
+      ],
+      "geometry_uv_colour_normal_sha256": "3c807528205299061f707711e1e5bd27f8e4ad73ebff8a4bf26e022d0124345f"
+    },
+    {
+      "source_component": 148,
+      "tree": "gold",
+      "keep_entire_component": false,
+      "vertices": 19,
+      "polygons": 14,
+      "triangles": 32,
+      "min_unity": [
+        2.2416129112243652,
+        2.0835204124450684,
+        7.215306758880615
+      ],
+      "max_unity": [
+        2.5908262729644775,
+        2.414515256881714,
+        7.4470601081848145
+      ],
+      "geometry_uv_colour_normal_sha256": "bcd9d2cb6169bd0ddc81787145fb567e41ca2447c9cfaa0cb86ad859e85abca0"
+    },
+    {
+      "source_component": 149,
+      "tree": "gold",
+      "keep_entire_component": false,
+      "vertices": 14,
+      "polygons": 9,
+      "triangles": 24,
+      "min_unity": [
+        2.3919599056243896,
+        1.404508113861084,
+        5.899562835693359
+      ],
+      "max_unity": [
+        2.7947452068328857,
+        1.9967161417007446,
+        6.4923996925354
+      ],
+      "geometry_uv_colour_normal_sha256": "1d365c023b0f141c8ed32ac5939f0284f044a1e6311b0505f7d3c2646369a16d"
+    },
+    {
+      "source_component": 150,
+      "tree": "gold",
+      "keep_entire_component": false,
+      "vertices": 14,
+      "polygons": 9,
+      "triangles": 24,
+      "min_unity": [
+        2.0949220657348633,
+        1.9201104640960693,
+        5.4686431884765625
+      ],
+      "max_unity": [
+        2.4717438220977783,
+        2.164604425430298,
+        5.963438034057617
+      ],
+      "geometry_uv_colour_normal_sha256": "c8fc7703b6e08ba2cb745994c6b8530a3d66064642a1def68a352343c92a21a5"
+    },
+    {
+      "source_component": 151,
+      "tree": "gold",
+      "keep_entire_component": false,
+      "vertices": 19,
+      "polygons": 14,
+      "triangles": 32,
+      "min_unity": [
+        1.6629234552383423,
+        2.1315276622772217,
+        5.372016906738281
+      ],
+      "max_unity": [
+        2.1220896244049072,
+        2.3174476623535156,
+        5.497231960296631
+      ],
+      "geometry_uv_colour_normal_sha256": "d3016deb89ef9f4972861d5d87b8a6ab306739e16c056b53c38b8da50ed1c6db"
+    },
+    {
+      "source_component": 152,
+      "tree": "gold",
+      "keep_entire_component": false,
+      "vertices": 19,
+      "polygons": 14,
+      "triangles": 32,
+      "min_unity": [
+        1.831151008605957,
+        2.133429765701294,
+        5.0524773597717285
+      ],
+      "max_unity": [
+        2.127168893814087,
+        2.4299139976501465,
+        5.495455265045166
+      ],
+      "geometry_uv_colour_normal_sha256": "08c8334bc73b6fe68f409c02c98dab8b51e170258cd0bbbc46b32a607c4b0aa4"
+    },
+    {
+      "source_component": 153,
+      "tree": "gold",
+      "keep_entire_component": false,
+      "vertices": 19,
+      "polygons": 14,
+      "triangles": 32,
+      "min_unity": [
+        2.090057849884033,
+        2.1374003887176514,
+        5.116281509399414
+      ],
+      "max_unity": [
+        2.2393925189971924,
+        2.565485954284668,
+        5.497249603271484
+      ],
+      "geometry_uv_colour_normal_sha256": "817c271d8d71c50356afa1490d0728baad2e450941e4e171f7694d01a72b11db"
+    },
+    {
+      "source_component": 154,
+      "tree": "gold",
+      "keep_entire_component": true,
+      "vertices": 12,
+      "polygons": 8,
+      "triangles": 20,
+      "min_unity": [
+        2.6483523845672607,
+        0.009816065430641174,
+        6.311010837554932
+      ],
+      "max_unity": [
+        2.9561104774475098,
+        0.27333107590675354,
+        6.488989353179932
+      ],
+      "geometry_uv_colour_normal_sha256": "9cdd2043364a9571510299d720d2110b8ccba69a3056417f3593983ba42a190e"
+    },
+    {
+      "source_component": 155,
+      "tree": "gold",
+      "keep_entire_component": true,
+      "vertices": 12,
+      "polygons": 8,
+      "triangles": 20,
+      "min_unity": [
+        2.9216089248657227,
+        0.001851201057434082,
+        6.384563446044922
+      ],
+      "max_unity": [
+        3.295360803604126,
+        0.0881488025188446,
+        6.48417854309082
+      ],
+      "geometry_uv_colour_normal_sha256": "c5be13feede6db1c00b3fd03f887e662d356442bd4656477764e6e5ead3a604f"
+    },
+    {
+      "source_component": 156,
+      "tree": "gold",
+      "keep_entire_component": true,
+      "vertices": 12,
+      "polygons": 8,
+      "triangles": 20,
+      "min_unity": [
+        2.6112098693847656,
+        0.009816069155931473,
+        6.347823619842529
+      ],
+      "max_unity": [
+        2.788790225982666,
+        0.27333107590675354,
+        6.655894756317139
+      ],
+      "geometry_uv_colour_normal_sha256": "00bb9199040ec503e7834f96ce0ca7a53746ceeb079892c89db96545b6f38f5b"
+    },
+    {
+      "source_component": 157,
+      "tree": "gold",
+      "keep_entire_component": true,
+      "vertices": 12,
+      "polygons": 8,
+      "triangles": 20,
+      "min_unity": [
+        2.688779830932617,
+        0.0020460933446884155,
+        6.616052150726318
+      ],
+      "max_unity": [
+        2.7982120513916016,
+        0.08795391023159027,
+        6.866106986999512
+      ],
+      "geometry_uv_colour_normal_sha256": "8fc18668e2b1ca5c3105afe891fdd7553c0f80784ed37b13047bdf4fd394b252"
+    },
+    {
+      "source_component": 158,
+      "tree": "gold",
+      "keep_entire_component": true,
+      "vertices": 12,
+      "polygons": 8,
+      "triangles": 20,
+      "min_unity": [
+        2.461897850036621,
+        0.009816057980060577,
+        6.320100784301758
+      ],
+      "max_unity": [
+        2.761047124862671,
+        0.2733311057090759,
+        6.5502543449401855
+      ],
+      "geometry_uv_colour_normal_sha256": "05ada198c3fb06174bafd36d752cc419e467c5d8751c577928aecad2b2deb5e5"
+    },
+    {
+      "source_component": 159,
+      "tree": "gold",
+      "keep_entire_component": true,
+      "vertices": 12,
+      "polygons": 8,
+      "triangles": 20,
+      "min_unity": [
+        2.2744157314300537,
+        0.0020019039511680603,
+        6.464236736297607
+      ],
+      "max_unity": [
+        2.5235073566436768,
+        0.08799809962511063,
+        6.656866550445557
+      ],
+      "geometry_uv_colour_normal_sha256": "9db97fc13f953f240c5e32f25e9d9bc6efc90adc50d99018a08a302262bd2905"
+    },
+    {
+      "source_component": 160,
+      "tree": "gold",
+      "keep_entire_component": true,
+      "vertices": 12,
+      "polygons": 8,
+      "triangles": 20,
+      "min_unity": [
+        2.500692367553711,
+        0.009816069155931473,
+        6.202916145324707
+      ],
+      "max_unity": [
+        2.763946533203125,
+        0.27333107590675354,
+        6.4640889167785645
+      ],
+      "geometry_uv_colour_normal_sha256": "8e8d8536a66443fd941cb531803125449adf4b9339fb93cdb1edc5019503375a"
+    },
+    {
+      "source_component": 161,
+      "tree": "gold",
+      "keep_entire_component": true,
+      "vertices": 12,
+      "polygons": 8,
+      "triangles": 20,
+      "min_unity": [
+        2.3148720264434814,
+        0.0018713697791099548,
+        5.9623703956604
+      ],
+      "max_unity": [
+        2.575392723083496,
+        0.08812863379716873,
+        6.269591331481934
+      ],
+      "geometry_uv_colour_normal_sha256": "2db0f5d4646597c230299d7b8f77f536e52b6c7059f40c36395db8a014a77d16"
+    },
+    {
+      "source_component": 162,
+      "tree": "gold",
+      "keep_entire_component": true,
+      "vertices": 12,
+      "polygons": 8,
+      "triangles": 20,
+      "min_unity": [
+        2.6195220947265625,
+        0.009816061705350876,
+        6.160572528839111
+      ],
+      "max_unity": [
+        2.8476743698120117,
+        0.27333107590675354,
+        6.460771560668945
+      ],
+      "geometry_uv_colour_normal_sha256": "2edc94e3e10b94fb06758098f8c14da4b42f4036cbdbe3d3b68cdc2e7823e4b9"
+    },
+    {
+      "source_component": 163,
+      "tree": "gold",
+      "keep_entire_component": true,
+      "vertices": 12,
+      "polygons": 8,
+      "triangles": 20,
+      "min_unity": [
+        2.756718158721924,
+        0.002021748572587967,
+        5.957866668701172
+      ],
+      "max_unity": [
+        2.9063034057617188,
+        0.08797825872898102,
+        6.213342189788818
+      ],
+      "geometry_uv_colour_normal_sha256": "5f21aecea61a9d976e8d209cd2dcc03fb6ea1dba045422fed09b479777ee86cf"
+    }
+  ],
+  "preserved_components": 39,
+  "preserved_triangles": 904,
+  "limits": "Source edge-connected components, not a bounding-box reconstruction. Upper collision geometry may change."
+}

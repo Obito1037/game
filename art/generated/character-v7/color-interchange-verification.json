@@ -1,0 +1,1889 @@
+{
+  "fbx": {
+    "passed": true,
+    "errors": [],
+    "meshes": 62,
+    "max_linear_color_error": 0.0,
+    "max_base_material_error": 0.0,
+    "rows": [
+      {
+        "mesh": "Arm_L_Cape_SeaMistBinding",
+        "color_domain": "CORNER",
+        "color_storage": "FLOAT_COLOR",
+        "maximum_linear_error": 0.0
+      },
+      {
+        "mesh": "Arm_L_Face_Fingernails",
+        "color_domain": "CORNER",
+        "color_storage": "FLOAT_COLOR",
+        "maximum_linear_error": 0.0
+      },
+      {
+        "mesh": "Arm_L_Face_NoseCream",
+        "color_domain": "CORNER",
+        "color_storage": "FLOAT_COLOR",
+        "maximum_linear_error": 0.0
+      },
+      {
+        "mesh": "Arm_L_Face_PorcelainCream",
+        "color_domain": "CORNER",
+        "color_storage": "FLOAT_COLOR",
+        "maximum_linear_error": 0.0
+      },
+      {
+        "mesh": "Arm_L_Face_RoseCheeks",
+        "color_domain": "CORNER",
+        "color_storage": "FLOAT_COLOR",
+        "maximum_linear_error": 0.0
+      },
+      {
+        "mesh": "Arm_L_Gloves_OatKnit",
+        "color_domain": "CORNER",
+        "color_storage": "FLOAT_COLOR",
+        "maximum_linear_error": 0.0
+      },
+      {
+        "mesh": "Arm_L_Stitches_PaleFlax",
+        "color_domain": "CORNER",
+        "color_storage": "FLOAT_COLOR",
+        "maximum_linear_error": 0.0
+      },
+      {
+        "mesh": "Sleeve_L",
+        "color_domain": "CORNER",
+        "color_storage": "FLOAT_COLOR",
+        "maximum_linear_error": 0.0
+      },
+      {
+        "mesh": "Arm_R_Cape_SeaMistBinding",
+        "color_domain": "CORNER",
+        "color_storage": "FLOAT_COLOR",
+        "maximum_linear_error": 0.0
+      },
+      {
+        "mesh": "Arm_R_Face_Fingernails",
+        "color_domain": "CORNER",
+        "color_storage": "FLOAT_COLOR",
+        "maximum_linear_error": 0.0
+      },
+      {
+        "mesh": "Arm_R_Face_NoseCream",
+        "color_domain": "CORNER",
+        "color_storage": "FLOAT_COLOR",
+        "maximum_linear_error": 0.0
+      },
+      {
+        "mesh": "Arm_R_Face_PorcelainCream",
+        "color_domain": "CORNER",
+        "color_storage": "FLOAT_COLOR",
+        "maximum_linear_error": 0.0
+      },
+      {
+        "mesh": "Arm_R_Face_RoseCheeks",
+        "color_domain": "CORNER",
+        "color_storage": "FLOAT_COLOR",
+        "maximum_linear_error": 0.0
+      },
+      {
+        "mesh": "Arm_R_Gloves_OatKnit",
+        "color_domain": "CORNER",
+        "color_storage": "FLOAT_COLOR",
+        "maximum_linear_error": 0.0
+      },
+      {
+        "mesh": "Arm_R_Stitches_PaleFlax",
+        "color_domain": "CORNER",
+        "color_storage": "FLOAT_COLOR",
+        "maximum_linear_error": 0.0
+      },
+      {
+        "mesh": "Lantern_Heart",
+        "color_domain": "CORNER",
+        "color_storage": "FLOAT_COLOR",
+        "maximum_linear_error": 0.0
+      },
+      {
+        "mesh": "Lantern_Lantern_BrushedBrass",
+        "color_domain": "CORNER",
+        "color_storage": "FLOAT_COLOR",
+        "maximum_linear_error": 0.0
+      },
+      {
+        "mesh": "Lantern_Lantern_GoldEdges",
+        "color_domain": "CORNER",
+        "color_storage": "FLOAT_COLOR",
+        "maximum_linear_error": 0.0
+      },
+      {
+        "mesh": "Lantern_OpalGlass",
+        "color_domain": "CORNER",
+        "color_storage": "FLOAT_COLOR",
+        "maximum_linear_error": 0.0
+      },
+      {
+        "mesh": "Sleeve_R",
+        "color_domain": "CORNER",
+        "color_storage": "FLOAT_COLOR",
+        "maximum_linear_error": 0.0
+      },
+      {
+        "mesh": "Body_Boots_HoneyLeather",
+        "color_domain": "CORNER",
+        "color_storage": "FLOAT_COLOR",
+        "maximum_linear_error": 0.0
+      },
+      {
+        "mesh": "Body_Cape_DeepOceanLining",
+        "color_domain": "CORNER",
+        "color_storage": "FLOAT_COLOR",
+        "maximum_linear_error": 0.0
+      },
+      {
+        "mesh": "Body_Cape_SeaMistBinding",
+        "color_domain": "CORNER",
+        "color_storage": "FLOAT_COLOR",
+        "maximum_linear_error": 0.0
+      },
+      {
+        "mesh": "Body_Hood_DuskBlue",
+        "color_domain": "CORNER",
+        "color_storage": "FLOAT_COLOR",
+        "maximum_linear_error": 0.0
+      },
+      {
+        "mesh": "Body_Lantern_GoldEdges",
+        "color_domain": "CORNER",
+        "color_storage": "FLOAT_COLOR",
+        "maximum_linear_error": 0.0
+      },
+      {
+        "mesh": "Body_Scarf_EdgeHoney",
+        "color_domain": "CORNER",
+        "color_storage": "FLOAT_COLOR",
+        "maximum_linear_error": 0.0
+      },
+      {
+        "mesh": "Body_Stitches_PaleFlax",
+        "color_domain": "CORNER",
+        "color_storage": "FLOAT_COLOR",
+        "maximum_linear_error": 0.0
+      },
+      {
+        "mesh": "Brooch_AmberStone",
+        "color_domain": "CORNER",
+        "color_storage": "FLOAT_COLOR",
+        "maximum_linear_error": 0.0
+      },
+      {
+        "mesh": "Cloak_Outer",
+        "color_domain": "CORNER",
+        "color_storage": "FLOAT_COLOR",
+        "maximum_linear_error": 0.0
+      },
+      {
+        "mesh": "Satchel_Body",
+        "color_domain": "CORNER",
+        "color_storage": "FLOAT_COLOR",
+        "maximum_linear_error": 0.0
+      },
+      {
+        "mesh": "Satchel_Clasp",
+        "color_domain": "CORNER",
+        "color_storage": "FLOAT_COLOR",
+        "maximum_linear_error": 0.0
+      },
+      {
+        "mesh": "Scarf_Collar",
+        "color_domain": "CORNER",
+        "color_storage": "FLOAT_COLOR",
+        "maximum_linear_error": 0.0
+      },
+      {
+        "mesh": "TailoredTunic",
+        "color_domain": "CORNER",
+        "color_storage": "FLOAT_COLOR",
+        "maximum_linear_error": 0.0
+      },
+      {
+        "mesh": "Blink_L_ClosedLash",
+        "color_domain": "CORNER",
+        "color_storage": "FLOAT_COLOR",
+        "maximum_linear_error": 0.0
+      },
+      {
+        "mesh": "Blink_L_LidCover",
+        "color_domain": "CORNER",
+        "color_storage": "FLOAT_COLOR",
+        "maximum_linear_error": 0.0
+      },
+      {
+        "mesh": "Blink_R_ClosedLash",
+        "color_domain": "CORNER",
+        "color_storage": "FLOAT_COLOR",
+        "maximum_linear_error": 0.0
+      },
+      {
+        "mesh": "Blink_R_LidCover",
+        "color_domain": "CORNER",
+        "color_storage": "FLOAT_COLOR",
+        "maximum_linear_error": 0.0
+      },
+      {
+        "mesh": "Head_Eye_AmberRim",
+        "color_domain": "CORNER",
+        "color_storage": "FLOAT_COLOR",
+        "maximum_linear_error": 0.0
+      },
+      {
+        "mesh": "Head_Eye_Catchlight",
+        "color_domain": "CORNER",
+        "color_storage": "FLOAT_COLOR",
+        "maximum_linear_error": 0.0
+      },
+      {
+        "mesh": "Head_Eye_Chestnut",
+        "color_domain": "CORNER",
+        "color_storage": "FLOAT_COLOR",
+        "maximum_linear_error": 0.0
+      },
+      {
+        "mesh": "Head_Eye_Ivory",
+        "color_domain": "CORNER",
+        "color_storage": "FLOAT_COLOR",
+        "maximum_linear_error": 0.0
+      },
+      {
+        "mesh": "Head_Eye_Pupil",
+        "color_domain": "CORNER",
+        "color_storage": "FLOAT_COLOR",
+        "maximum_linear_error": 0.0
+      },
+      {
+        "mesh": "Head_Face_NoseCream",
+        "color_domain": "CORNER",
+        "color_storage": "FLOAT_COLOR",
+        "maximum_linear_error": 0.0
+      },
+      {
+        "mesh": "Head_Face_PorcelainCream",
+        "color_domain": "CORNER",
+        "color_storage": "FLOAT_COLOR",
+        "maximum_linear_error": 0.0
+      },
+      {
+        "mesh": "Head_Face_RoseCheeks",
+        "color_domain": "CORNER",
+        "color_storage": "FLOAT_COLOR",
+        "maximum_linear_error": 0.0
+      },
+      {
+        "mesh": "Head_Hair_Indigo",
+        "color_domain": "CORNER",
+        "color_storage": "FLOAT_COLOR",
+        "maximum_linear_error": 0.0
+      },
+      {
+        "mesh": "Head_Hair_MidnightBlue",
+        "color_domain": "CORNER",
+        "color_storage": "FLOAT_COLOR",
+        "maximum_linear_error": 0.0
+      },
+      {
+        "mesh": "QuietSmile",
+        "color_domain": "CORNER",
+        "color_storage": "FLOAT_COLOR",
+        "maximum_linear_error": 0.0
+      },
+      {
+        "mesh": "BootSole_L",
+        "color_domain": "CORNER",
+        "color_storage": "FLOAT_COLOR",
+        "maximum_linear_error": 0.0
+      },
+      {
+        "mesh": "BootUpper_L",
+        "color_domain": "CORNER",
+        "color_storage": "FLOAT_COLOR",
+        "maximum_linear_error": 0.0
+      },
+      {
+        "mesh": "Leg_L_Boots_HoneyLeather",
+        "color_domain": "CORNER",
+        "color_storage": "FLOAT_COLOR",
+        "maximum_linear_error": 0.0
+      },
+      {
+        "mesh": "Leg_L_Hood_DuskBlue",
+        "color_domain": "CORNER",
+        "color_storage": "FLOAT_COLOR",
+        "maximum_linear_error": 0.0
+      },
+      {
+        "mesh": "Leg_L_Lantern_BrushedBrass",
+        "color_domain": "CORNER",
+        "color_storage": "FLOAT_COLOR",
+        "maximum_linear_error": 0.0
+      },
+      {
+        "mesh": "Trouser_L",
+        "color_domain": "CORNER",
+        "color_storage": "FLOAT_COLOR",
+        "maximum_linear_error": 0.0
+      },
+      {
+        "mesh": "BootSole_R",
+        "color_domain": "CORNER",
+        "color_storage": "FLOAT_COLOR",
+        "maximum_linear_error": 0.0
+      },
+      {
+        "mesh": "BootUpper_R",
+        "color_domain": "CORNER",
+        "color_storage": "FLOAT_COLOR",
+        "maximum_linear_error": 0.0
+      },
+      {
+        "mesh": "Leg_R_Boots_HoneyLeather",
+        "color_domain": "CORNER",
+        "color_storage": "FLOAT_COLOR",
+        "maximum_linear_error": 0.0
+      },
+      {
+        "mesh": "Leg_R_Hood_DuskBlue",
+        "color_domain": "CORNER",
+        "color_storage": "FLOAT_COLOR",
+        "maximum_linear_error": 0.0
+      },
+      {
+        "mesh": "Leg_R_Lantern_BrushedBrass",
+        "color_domain": "CORNER",
+        "color_storage": "FLOAT_COLOR",
+        "maximum_linear_error": 0.0
+      },
+      {
+        "mesh": "Trouser_R",
+        "color_domain": "CORNER",
+        "color_storage": "FLOAT_COLOR",
+        "maximum_linear_error": 0.0
+      },
+      {
+        "mesh": "ScarfTail_Scarf_EdgeHoney",
+        "color_domain": "CORNER",
+        "color_storage": "FLOAT_COLOR",
+        "maximum_linear_error": 0.0
+      },
+      {
+        "mesh": "ScarfTail_Scarf_HarvestGold",
+        "color_domain": "CORNER",
+        "color_storage": "FLOAT_COLOR",
+        "maximum_linear_error": 0.0
+      }
+    ]
+  },
+  "glb": {
+    "passed": true,
+    "errors": [],
+    "meshes": 62,
+    "max_linear_color_error": 0.004507303237915039,
+    "max_base_material_error": 0.0,
+    "rows": [
+      {
+        "mesh": "Arm_L_Cape_SeaMistBinding",
+        "color_domain": "CORNER",
+        "color_storage": "BYTE_COLOR",
+        "maximum_linear_error": 0.0044321417808532715
+      },
+      {
+        "mesh": "Arm_L_Face_Fingernails",
+        "color_domain": "CORNER",
+        "color_storage": "BYTE_COLOR",
+        "maximum_linear_error": 0.0
+      },
+      {
+        "mesh": "Arm_L_Face_NoseCream",
+        "color_domain": "CORNER",
+        "color_storage": "BYTE_COLOR",
+        "maximum_linear_error": 0.0
+      },
+      {
+        "mesh": "Arm_L_Face_PorcelainCream",
+        "color_domain": "CORNER",
+        "color_storage": "BYTE_COLOR",
+        "maximum_linear_error": 0.0
+      },
+      {
+        "mesh": "Arm_L_Face_RoseCheeks",
+        "color_domain": "CORNER",
+        "color_storage": "BYTE_COLOR",
+        "maximum_linear_error": 0.0
+      },
+      {
+        "mesh": "Arm_L_Gloves_OatKnit",
+        "color_domain": "CORNER",
+        "color_storage": "BYTE_COLOR",
+        "maximum_linear_error": 0.00443655252456665
+      },
+      {
+        "mesh": "Arm_L_Stitches_PaleFlax",
+        "color_domain": "CORNER",
+        "color_storage": "BYTE_COLOR",
+        "maximum_linear_error": 0.0
+      },
+      {
+        "mesh": "Sleeve_L",
+        "color_domain": "CORNER",
+        "color_storage": "BYTE_COLOR",
+        "maximum_linear_error": 0.004507303237915039
+      },
+      {
+        "mesh": "Arm_R_Cape_SeaMistBinding",
+        "color_domain": "CORNER",
+        "color_storage": "BYTE_COLOR",
+        "maximum_linear_error": 0.004448950290679932
+      },
+      {
+        "mesh": "Arm_R_Face_Fingernails",
+        "color_domain": "CORNER",
+        "color_storage": "BYTE_COLOR",
+        "maximum_linear_error": 0.0
+      },
+      {
+        "mesh": "Arm_R_Face_NoseCream",
+        "color_domain": "CORNER",
+        "color_storage": "BYTE_COLOR",
+        "maximum_linear_error": 0.0
+      },
+      {
+        "mesh": "Arm_R_Face_PorcelainCream",
+        "color_domain": "CORNER",
+        "color_storage": "BYTE_COLOR",
+        "maximum_linear_error": 0.0
+      },
+      {
+        "mesh": "Arm_R_Face_RoseCheeks",
+        "color_domain": "CORNER",
+        "color_storage": "BYTE_COLOR",
+        "maximum_linear_error": 0.0
+      },
+      {
+        "mesh": "Arm_R_Gloves_OatKnit",
+        "color_domain": "CORNER",
+        "color_storage": "BYTE_COLOR",
+        "maximum_linear_error": 0.004466354846954346
+      },
+      {
+        "mesh": "Arm_R_Stitches_PaleFlax",
+        "color_domain": "CORNER",
+        "color_storage": "BYTE_COLOR",
+        "maximum_linear_error": 0.0
+      },
+      {
+        "mesh": "Lantern_Heart",
+        "color_domain": "CORNER",
+        "color_storage": "BYTE_COLOR",
+        "maximum_linear_error": 0.0
+      },
+      {
+        "mesh": "Lantern_Lantern_BrushedBrass",
+        "color_domain": "CORNER",
+        "color_storage": "BYTE_COLOR",
+        "maximum_linear_error": 0.0
+      },
+      {
+        "mesh": "Lantern_Lantern_GoldEdges",
+        "color_domain": "CORNER",
+        "color_storage": "BYTE_COLOR",
+        "maximum_linear_error": 0.0
+      },
+      {
+        "mesh": "Lantern_OpalGlass",
+        "color_domain": "CORNER",
+        "color_storage": "BYTE_COLOR",
+        "maximum_linear_error": 0.0
+      },
+      {
+        "mesh": "Sleeve_R",
+        "color_domain": "CORNER",
+        "color_storage": "BYTE_COLOR",
+        "maximum_linear_error": 0.004475116729736328
+      },
+      {
+        "mesh": "Body_Boots_HoneyLeather",
+        "color_domain": "CORNER",
+        "color_storage": "BYTE_COLOR",
+        "maximum_linear_error": 0.0
+      },
+      {
+        "mesh": "Body_Cape_DeepOceanLining",
+        "color_domain": "CORNER",
+        "color_storage": "BYTE_COLOR",
+        "maximum_linear_error": 0.004400134086608887
+      },
+      {
+        "mesh": "Body_Cape_SeaMistBinding",
+        "color_domain": "CORNER",
+        "color_storage": "BYTE_COLOR",
+        "maximum_linear_error": 0.004457712173461914
+      },
+      {
+        "mesh": "Body_Hood_DuskBlue",
+        "color_domain": "CORNER",
+        "color_storage": "BYTE_COLOR",
+        "maximum_linear_error": 0.004371583461761475
+      },
+      {
+        "mesh": "Body_Lantern_GoldEdges",
+        "color_domain": "CORNER",
+        "color_storage": "BYTE_COLOR",
+        "maximum_linear_error": 0.0
+      },
+      {
+        "mesh": "Body_Scarf_EdgeHoney",
+        "color_domain": "CORNER",
+        "color_storage": "BYTE_COLOR",
+        "maximum_linear_error": 0.0043454766273498535
+      },
+      {
+        "mesh": "Body_Stitches_PaleFlax",
+        "color_domain": "CORNER",
+        "color_storage": "BYTE_COLOR",
+        "maximum_linear_error": 0.0
+      },
+      {
+        "mesh": "Brooch_AmberStone",
+        "color_domain": "CORNER",
+        "color_storage": "BYTE_COLOR",
+        "maximum_linear_error": 0.0
+      },
+      {
+        "mesh": "Cloak_Outer",
+        "color_domain": "CORNER",
+        "color_storage": "BYTE_COLOR",
+        "maximum_linear_error": 0.004448890686035156
+      },
+      {
+        "mesh": "Satchel_Body",
+        "color_domain": "CORNER",
+        "color_storage": "BYTE_COLOR",
+        "maximum_linear_error": 0.0
+      },
+      {
+        "mesh": "Satchel_Clasp",
+        "color_domain": "CORNER",
+        "color_storage": "BYTE_COLOR",
+        "maximum_linear_error": 0.0
+      },
+      {
+        "mesh": "Scarf_Collar",
+        "color_domain": "CORNER",
+        "color_storage": "BYTE_COLOR",
+        "maximum_linear_error": 0.004398643970489502
+      },
+      {
+        "mesh": "TailoredTunic",
+        "color_domain": "CORNER",
+        "color_storage": "BYTE_COLOR",
+        "maximum_linear_error": 0.004462540149688721
+      },
+      {
+        "mesh": "Blink_L_ClosedLash",
+        "color_domain": "CORNER",
+        "color_storage": "BYTE_COLOR",
+        "maximum_linear_error": 0.0
+      },
+      {
+        "mesh": "Blink_L_LidCover",
+        "color_domain": "CORNER",
+        "color_storage": "BYTE_COLOR",
+        "maximum_linear_error": 0.004389762878417969
+      },
+      {
+        "mesh": "Blink_R_ClosedLash",
+        "color_domain": "CORNER",
+        "color_storage": "BYTE_COLOR",
+        "maximum_linear_error": 0.0
+      },
+      {
+        "mesh": "Blink_R_LidCover",
+        "color_domain": "CORNER",
+        "color_storage": "BYTE_COLOR",
+        "maximum_linear_error": 0.004389762878417969
+      },
+      {
+        "mesh": "Head_Eye_AmberRim",
+        "color_domain": "CORNER",
+        "color_storage": "BYTE_COLOR",
+        "maximum_linear_error": 0.0
+      },
+      {
+        "mesh": "Head_Eye_Catchlight",
+        "color_domain": "CORNER",
+        "color_storage": "BYTE_COLOR",
+        "maximum_linear_error": 0.0
+      },
+      {
+        "mesh": "Head_Eye_Chestnut",
+        "color_domain": "CORNER",
+        "color_storage": "BYTE_COLOR",
+        "maximum_linear_error": 0.0
+      },
+      {
+        "mesh": "Head_Eye_Ivory",
+        "color_domain": "CORNER",
+        "color_storage": "BYTE_COLOR",
+        "maximum_linear_error": 0.0
+      },
+      {
+        "mesh": "Head_Eye_Pupil",
+        "color_domain": "CORNER",
+        "color_storage": "BYTE_COLOR",
+        "maximum_linear_error": 0.0
+      },
+      {
+        "mesh": "Head_Face_NoseCream",
+        "color_domain": "CORNER",
+        "color_storage": "BYTE_COLOR",
+        "maximum_linear_error": 0.0044130682945251465
+      },
+      {
+        "mesh": "Head_Face_PorcelainCream",
+        "color_domain": "CORNER",
+        "color_storage": "BYTE_COLOR",
+        "maximum_linear_error": 0.00449901819229126
+      },
+      {
+        "mesh": "Head_Face_RoseCheeks",
+        "color_domain": "CORNER",
+        "color_storage": "BYTE_COLOR",
+        "maximum_linear_error": 0.0042307376861572266
+      },
+      {
+        "mesh": "Head_Hair_Indigo",
+        "color_domain": "CORNER",
+        "color_storage": "BYTE_COLOR",
+        "maximum_linear_error": 0.0
+      },
+      {
+        "mesh": "Head_Hair_MidnightBlue",
+        "color_domain": "CORNER",
+        "color_storage": "BYTE_COLOR",
+        "maximum_linear_error": 0.0
+      },
+      {
+        "mesh": "QuietSmile",
+        "color_domain": "CORNER",
+        "color_storage": "BYTE_COLOR",
+        "maximum_linear_error": 0.004377126693725586
+      },
+      {
+        "mesh": "BootSole_L",
+        "color_domain": "CORNER",
+        "color_storage": "BYTE_COLOR",
+        "maximum_linear_error": 0.0
+      },
+      {
+        "mesh": "BootUpper_L",
+        "color_domain": "CORNER",
+        "color_storage": "BYTE_COLOR",
+        "maximum_linear_error": 0.0
+      },
+      {
+        "mesh": "Leg_L_Boots_HoneyLeather",
+        "color_domain": "CORNER",
+        "color_storage": "BYTE_COLOR",
+        "maximum_linear_error": 0.0
+      },
+      {
+        "mesh": "Leg_L_Hood_DuskBlue",
+        "color_domain": "CORNER",
+        "color_storage": "BYTE_COLOR",
+        "maximum_linear_error": 0.004420459270477295
+      },
+      {
+        "mesh": "Leg_L_Lantern_BrushedBrass",
+        "color_domain": "CORNER",
+        "color_storage": "BYTE_COLOR",
+        "maximum_linear_error": 0.0
+      },
+      {
+        "mesh": "Trouser_L",
+        "color_domain": "CORNER",
+        "color_storage": "BYTE_COLOR",
+        "maximum_linear_error": 0.004476606845855713
+      },
+      {
+        "mesh": "BootSole_R",
+        "color_domain": "CORNER",
+        "color_storage": "BYTE_COLOR",
+        "maximum_linear_error": 0.0
+      },
+      {
+        "mesh": "BootUpper_R",
+        "color_domain": "CORNER",
+        "color_storage": "BYTE_COLOR",
+        "maximum_linear_error": 0.0
+      },
+      {
+        "mesh": "Leg_R_Boots_HoneyLeather",
+        "color_domain": "CORNER",
+        "color_storage": "BYTE_COLOR",
+        "maximum_linear_error": 0.0
+      },
+      {
+        "mesh": "Leg_R_Hood_DuskBlue",
+        "color_domain": "CORNER",
+        "color_storage": "BYTE_COLOR",
+        "maximum_linear_error": 0.004100203514099121
+      },
+      {
+        "mesh": "Leg_R_Lantern_BrushedBrass",
+        "color_domain": "CORNER",
+        "color_storage": "BYTE_COLOR",
+        "maximum_linear_error": 0.0
+      },
+      {
+        "mesh": "Trouser_R",
+        "color_domain": "CORNER",
+        "color_storage": "BYTE_COLOR",
+        "maximum_linear_error": 0.004447996616363525
+      },
+      {
+        "mesh": "ScarfTail_Scarf_EdgeHoney",
+        "color_domain": "CORNER",
+        "color_storage": "BYTE_COLOR",
+        "maximum_linear_error": 0.004434406757354736
+      },
+      {
+        "mesh": "ScarfTail_Scarf_HarvestGold",
+        "color_domain": "CORNER",
+        "color_storage": "BYTE_COLOR",
+        "maximum_linear_error": 0.004281520843505859
+      }
+    ],
+    "base_material_verification": "raw glTF baseColorFactor; imported BSDF default is unused behind COLOR_0 multiply graph",
+    "color_quantization_note": "Blender reimports normalized glTF colors as BYTE_COLOR; maximum measured linear error is below 0.0046. Raw COLOR_0 is checked separately."
+  },
+  "glb_raw": {
+    "all_primitives_have_color_0": true,
+    "primitives": 62,
+    "max_base_color_error": 0.0,
+    "rows": [
+      {
+        "mesh": "SleeveCuff_L_mesh",
+        "component_type": 5123,
+        "normalized": true,
+        "count": 437,
+        "min": [
+          0.9533989471274892,
+          0.9533989471274892,
+          0.9533989471274892,
+          1.0
+        ],
+        "max": [
+          0.9925230792706188,
+          0.9925230792706188,
+          0.9925230792706188,
+          1.0
+        ]
+      },
+      {
+        "mesh": "Sphere.019",
+        "component_type": 5123,
+        "normalized": true,
+        "count": 300,
+        "min": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "max": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      {
+        "mesh": "Sphere.018",
+        "component_type": 5123,
+        "normalized": true,
+        "count": 300,
+        "min": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "max": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      {
+        "mesh": "Sphere.016",
+        "component_type": 5123,
+        "normalized": true,
+        "count": 764,
+        "min": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "max": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      {
+        "mesh": "FingerCrease_L_0_mesh",
+        "component_type": 5123,
+        "normalized": true,
+        "count": 96,
+        "min": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "max": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      {
+        "mesh": "Sphere.026",
+        "component_type": 5123,
+        "normalized": true,
+        "count": 191,
+        "min": [
+          0.9637903410391394,
+          0.9637903410391394,
+          0.9637903410391394,
+          1.0
+        ],
+        "max": [
+          0.9814755474174105,
+          0.9814755474174105,
+          0.9814755474174105,
+          1.0
+        ]
+      },
+      {
+        "mesh": "KnitGlove_Rib_L0_mesh",
+        "component_type": 5123,
+        "normalized": true,
+        "count": 190,
+        "min": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "max": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      {
+        "mesh": "Sleeve_L_mesh",
+        "component_type": 5123,
+        "normalized": true,
+        "count": 2302,
+        "min": [
+          0.9517662317845426,
+          0.9517662317845426,
+          0.9517662317845426,
+          1.0
+        ],
+        "max": [
+          0.9966430151827268,
+          0.9966430151827268,
+          0.9966430151827268,
+          1.0
+        ]
+      },
+      {
+        "mesh": "SleeveCuff_R_mesh",
+        "component_type": 5123,
+        "normalized": true,
+        "count": 402,
+        "min": [
+          0.9679560540169375,
+          0.9679560540169375,
+          0.9679560540169375,
+          1.0
+        ],
+        "max": [
+          0.9861142900740063,
+          0.9861142900740063,
+          0.9861142900740063,
+          1.0
+        ]
+      },
+      {
+        "mesh": "Sphere.060",
+        "component_type": 5123,
+        "normalized": true,
+        "count": 92,
+        "min": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "max": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      {
+        "mesh": "Lantern_Rib_0_mesh",
+        "component_type": 5123,
+        "normalized": true,
+        "count": 312,
+        "min": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "max": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      {
+        "mesh": "Lantern_CageRing_0.332_mesh",
+        "component_type": 5123,
+        "normalized": true,
+        "count": 711,
+        "min": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "max": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      {
+        "mesh": "Sphere.059",
+        "component_type": 5123,
+        "normalized": true,
+        "count": 121,
+        "min": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "max": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      {
+        "mesh": "Sphere.030",
+        "component_type": 5123,
+        "normalized": true,
+        "count": 300,
+        "min": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "max": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      {
+        "mesh": "Sphere.029",
+        "component_type": 5123,
+        "normalized": true,
+        "count": 300,
+        "min": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "max": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      {
+        "mesh": "Sphere.027",
+        "component_type": 5123,
+        "normalized": true,
+        "count": 764,
+        "min": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "max": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      {
+        "mesh": "FingerCrease_R_0_mesh",
+        "component_type": 5123,
+        "normalized": true,
+        "count": 96,
+        "min": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "max": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      {
+        "mesh": "Sphere.037",
+        "component_type": 5123,
+        "normalized": true,
+        "count": 191,
+        "min": [
+          0.9746700236514839,
+          0.9746700236514839,
+          0.9746700236514839,
+          1.0
+        ],
+        "max": [
+          0.9953612573434043,
+          0.9953612573434043,
+          0.9953612573434043,
+          1.0
+        ]
+      },
+      {
+        "mesh": "KnitGlove_Rib_R0_mesh",
+        "component_type": 5123,
+        "normalized": true,
+        "count": 190,
+        "min": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "max": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      {
+        "mesh": "Sleeve_R_mesh",
+        "component_type": 5123,
+        "normalized": true,
+        "count": 2269,
+        "min": [
+          0.9539024948500802,
+          0.9539024948500802,
+          0.9539024948500802,
+          1.0
+        ],
+        "max": [
+          0.9964599069199664,
+          0.9964599069199664,
+          0.9964599069199664,
+          1.0
+        ]
+      },
+      {
+        "mesh": "Cube.002",
+        "component_type": 5123,
+        "normalized": true,
+        "count": 88,
+        "min": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "max": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      {
+        "mesh": "Cloak_QuietFold_5_mesh",
+        "component_type": 5123,
+        "normalized": true,
+        "count": 360,
+        "min": [
+          0.9536736095216297,
+          0.9536736095216297,
+          0.9536736095216297,
+          1.0
+        ],
+        "max": [
+          0.9909208819714657,
+          0.9909208819714657,
+          0.9909208819714657,
+          1.0
+        ]
+      },
+      {
+        "mesh": "CoatFrontSeam_mesh",
+        "component_type": 5123,
+        "normalized": true,
+        "count": 1882,
+        "min": [
+          0.9516899366750591,
+          0.9516899366750591,
+          0.9516899366750591,
+          1.0
+        ],
+        "max": [
+          0.9959563591973755,
+          0.9959563591973755,
+          0.9959563591973755,
+          1.0
+        ]
+      },
+      {
+        "mesh": "Hood_DrapedBackPouch_mesh",
+        "component_type": 5123,
+        "normalized": true,
+        "count": 324,
+        "min": [
+          0.9519493400473029,
+          0.9519493400473029,
+          0.9519493400473029,
+          1.0
+        ],
+        "max": [
+          0.9957885099565118,
+          0.9957885099565118,
+          0.9957885099565118,
+          1.0
+        ]
+      },
+      {
+        "mesh": "Sphere.012",
+        "component_type": 5123,
+        "normalized": true,
+        "count": 284,
+        "min": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "max": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      {
+        "mesh": "Scarf_CollarUpperStitch_mesh",
+        "component_type": 5123,
+        "normalized": true,
+        "count": 232,
+        "min": [
+          0.9595941100175479,
+          0.9595941100175479,
+          0.9595941100175479,
+          1.0
+        ],
+        "max": [
+          0.9931334401464866,
+          0.9931334401464866,
+          0.9931334401464866,
+          1.0
+        ]
+      },
+      {
+        "mesh": "Cloak_HemStitch_1_mesh",
+        "component_type": 5123,
+        "normalized": true,
+        "count": 934,
+        "min": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "max": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      {
+        "mesh": "Sphere.052",
+        "component_type": 5123,
+        "normalized": true,
+        "count": 57,
+        "min": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "max": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      {
+        "mesh": "Cloak_Outer_mesh",
+        "component_type": 5123,
+        "normalized": true,
+        "count": 528,
+        "min": [
+          0.9526359960326543,
+          0.9526359960326543,
+          0.9526359960326543,
+          1.0
+        ],
+        "max": [
+          0.9959258411535821,
+          0.9959258411535821,
+          0.9959258411535821,
+          1.0
+        ]
+      },
+      {
+        "mesh": "Cube.001",
+        "component_type": 5123,
+        "normalized": true,
+        "count": 64,
+        "min": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "max": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      {
+        "mesh": "Cube.003",
+        "component_type": 5123,
+        "normalized": true,
+        "count": 64,
+        "min": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "max": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      {
+        "mesh": "Scarf_Collar_mesh",
+        "component_type": 5123,
+        "normalized": true,
+        "count": 412,
+        "min": [
+          0.9618371862363623,
+          0.9618371862363623,
+          0.9618371862363623,
+          1.0
+        ],
+        "max": [
+          0.9963073167009995,
+          0.9963073167009995,
+          0.9963073167009995,
+          1.0
+        ]
+      },
+      {
+        "mesh": "TailoredTunic_mesh",
+        "component_type": 5123,
+        "normalized": true,
+        "count": 5219,
+        "min": [
+          0.9513694972152285,
+          0.9513694972152285,
+          0.9513694972152285,
+          1.0
+        ],
+        "max": [
+          0.9969634546425574,
+          0.9969634546425574,
+          0.9969634546425574,
+          1.0
+        ]
+      },
+      {
+        "mesh": "Blink_L_ClosedLash_mesh",
+        "component_type": 5123,
+        "normalized": true,
+        "count": 64,
+        "min": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "max": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      {
+        "mesh": "Blink_L_LidCover_mesh",
+        "component_type": 5123,
+        "normalized": true,
+        "count": 193,
+        "min": [
+          0.9799801632715343,
+          0.9250782024872206,
+          0.9113603418020905,
+          1.0
+        ],
+        "max": [
+          1.0,
+          0.9999694819562066,
+          0.9999694819562066,
+          1.0
+        ]
+      },
+      {
+        "mesh": "Blink_R_ClosedLash_mesh",
+        "component_type": 5123,
+        "normalized": true,
+        "count": 63,
+        "min": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "max": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      {
+        "mesh": "Blink_R_LidCover_mesh",
+        "component_type": 5123,
+        "normalized": true,
+        "count": 193,
+        "min": [
+          0.9799801632715343,
+          0.9250782024872206,
+          0.9113603418020905,
+          1.0
+        ],
+        "max": [
+          1.0,
+          0.9999694819562066,
+          0.9999694819562066,
+          1.0
+        ]
+      },
+      {
+        "mesh": "Sphere.041",
+        "component_type": 5123,
+        "normalized": true,
+        "count": 646,
+        "min": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "max": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      {
+        "mesh": "Sphere.044",
+        "component_type": 5123,
+        "normalized": true,
+        "count": 230,
+        "min": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "max": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      {
+        "mesh": "Sphere.042",
+        "component_type": 5123,
+        "normalized": true,
+        "count": 458,
+        "min": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "max": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      {
+        "mesh": "EyeWhite_-1_mesh",
+        "component_type": 5123,
+        "normalized": true,
+        "count": 258,
+        "min": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "max": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      {
+        "mesh": "Sphere.043",
+        "component_type": 5123,
+        "normalized": true,
+        "count": 370,
+        "min": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "max": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      {
+        "mesh": "LowerLid_-1_mesh",
+        "component_type": 5123,
+        "normalized": true,
+        "count": 371,
+        "min": [
+          0.9797665369649805,
+          0.950087739375906,
+          0.9441824979018845,
+          1.0
+        ],
+        "max": [
+          0.9966735332265202,
+          0.9938506141756314,
+          0.993316548409247,
+          1.0
+        ]
+      },
+      {
+        "mesh": "Face_SculptedContours_mesh",
+        "component_type": 5123,
+        "normalized": true,
+        "count": 9639,
+        "min": [
+          0.9795529106584268,
+          0.8801403830014496,
+          0.8551766231784542,
+          1.0
+        ],
+        "max": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      {
+        "mesh": "Sphere.040",
+        "component_type": 5123,
+        "normalized": true,
+        "count": 311,
+        "min": [
+          0.9986114290074006,
+          0.9459678034637979,
+          0.9275043869687953,
+          1.0
+        ],
+        "max": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      {
+        "mesh": "UpperLid_-1_mesh",
+        "component_type": 5123,
+        "normalized": true,
+        "count": 7521,
+        "min": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "max": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      {
+        "mesh": "Hair_SweptLock_0_Strand_mesh",
+        "component_type": 5123,
+        "normalized": true,
+        "count": 2354,
+        "min": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "max": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      {
+        "mesh": "QuietSmile_mesh",
+        "component_type": 5123,
+        "normalized": true,
+        "count": 52,
+        "min": [
+          0.9998931868467231,
+          0.9956206607156481,
+          0.9942473487449455,
+          1.0
+        ],
+        "max": [
+          0.9999389639124132,
+          0.9978027008468757,
+          0.9970550087739376,
+          1.0
+        ]
+      },
+      {
+        "mesh": "BootSole_L_mesh",
+        "component_type": 5123,
+        "normalized": true,
+        "count": 110,
+        "min": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "max": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      {
+        "mesh": "BootUpper_L_mesh",
+        "component_type": 5123,
+        "normalized": true,
+        "count": 185,
+        "min": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "max": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      {
+        "mesh": "BootCuff_L_mesh",
+        "component_type": 5123,
+        "normalized": true,
+        "count": 774,
+        "min": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "max": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      {
+        "mesh": "TrouserFold_L0_mesh",
+        "component_type": 5123,
+        "normalized": true,
+        "count": 120,
+        "min": [
+          0.958785381857023,
+          0.958785381857023,
+          0.958785381857023,
+          1.0
+        ],
+        "max": [
+          0.9801480125123979,
+          0.9801480125123979,
+          0.9801480125123979,
+          1.0
+        ]
+      },
+      {
+        "mesh": "Sphere",
+        "component_type": 5123,
+        "normalized": true,
+        "count": 450,
+        "min": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "max": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      {
+        "mesh": "Trouser_L_mesh",
+        "component_type": 5123,
+        "normalized": true,
+        "count": 2010,
+        "min": [
+          0.9511711299305714,
+          0.9511711299305714,
+          0.9511711299305714,
+          1.0
+        ],
+        "max": [
+          0.9964446478980697,
+          0.9964446478980697,
+          0.9964446478980697,
+          1.0
+        ]
+      },
+      {
+        "mesh": "BootSole_R_mesh",
+        "component_type": 5123,
+        "normalized": true,
+        "count": 110,
+        "min": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "max": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      {
+        "mesh": "BootUpper_R_mesh",
+        "component_type": 5123,
+        "normalized": true,
+        "count": 186,
+        "min": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "max": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      {
+        "mesh": "BootCuff_R_mesh",
+        "component_type": 5123,
+        "normalized": true,
+        "count": 825,
+        "min": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "max": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      {
+        "mesh": "TrouserFold_R0_mesh",
+        "component_type": 5123,
+        "normalized": true,
+        "count": 120,
+        "min": [
+          0.9539024948500802,
+          0.9539024948500802,
+          0.9539024948500802,
+          1.0
+        ],
+        "max": [
+          0.9902800030518044,
+          0.9902800030518044,
+          0.9902800030518044,
+          1.0
+        ]
+      },
+      {
+        "mesh": "Sphere.006",
+        "component_type": 5123,
+        "normalized": true,
+        "count": 450,
+        "min": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "max": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      {
+        "mesh": "Trouser_R_mesh",
+        "component_type": 5123,
+        "normalized": true,
+        "count": 1998,
+        "min": [
+          0.9512474250400549,
+          0.9512474250400549,
+          0.9512474250400549,
+          1.0
+        ],
+        "max": [
+          0.9969481956206607,
+          0.9969481956206607,
+          0.9969481956206607,
+          1.0
+        ]
+      },
+      {
+        "mesh": "Scarf_Edge_0_mesh",
+        "component_type": 5123,
+        "normalized": true,
+        "count": 694,
+        "min": [
+          0.9540245670252537,
+          0.9540245670252537,
+          0.9540245670252537,
+          1.0
+        ],
+        "max": [
+          0.9951476310368506,
+          0.9951476310368506,
+          0.9951476310368506,
+          1.0
+        ]
+      },
+      {
+        "mesh": "Scarf_WindRibbon_mesh",
+        "component_type": 5123,
+        "normalized": true,
+        "count": 292,
+        "min": [
+          0.9539482719157703,
+          0.9539482719157703,
+          0.9539482719157703,
+          1.0
+        ],
+        "max": [
+          0.9942015716792554,
+          0.9942015716792554,
+          0.9942015716792554,
+          1.0
+        ]
+      }
+    ]
+  }
+}

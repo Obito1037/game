@@ -1,0 +1,61 @@
+{
+  "completed": true,
+  "error": null,
+  "declaredBuildId": "build_d4eac3ac8c31",
+  "servedBuildResources": [
+    "http://127.0.0.1:8765/Build/1ed005219b5b262e3309104f967ff981.loader.js",
+    "http://127.0.0.1:8765/Build/64ec6dd503a81425e3ea45aa48531c65.framework.js.gz",
+    "http://127.0.0.1:8765/Build/add3460b836e7695eaecf5637fc904cb.wasm.gz",
+    "http://127.0.0.1:8765/Build/da63e1ce50d6080c60701f1573b334a3.data.gz"
+  ],
+  "input": "Real keyboard W from spawn with default camera; stop, press W again, and right-mouse side view. No programmatic movement or game-state injection.",
+  "measurement": "Visual collision check only. Full recording includes loading/resume and uses Playwright sampled video, not engine FPS.",
+  "events": [
+    {
+      "type": "screenshot",
+      "sinceStartMs": 18728,
+      "file": "00-default-approach.png",
+      "captureRequestedMs": 17548
+    },
+    {
+      "type": "w-down",
+      "sinceStartMs": 18748
+    },
+    {
+      "type": "w-up",
+      "sinceStartMs": 22387
+    },
+    {
+      "type": "screenshot",
+      "sinceStartMs": 24837,
+      "file": "01-contact-before.png",
+      "captureRequestedMs": 23401
+    },
+    {
+      "type": "continued-w-down",
+      "sinceStartMs": 24868
+    },
+    {
+      "type": "continued-w-up",
+      "sinceStartMs": 26489
+    },
+    {
+      "type": "screenshot",
+      "sinceStartMs": 28768,
+      "file": "02-contact-after.png",
+      "captureRequestedMs": 27497
+    },
+    {
+      "type": "right-mouse-orbit",
+      "sinceStartMs": 31316,
+      "deltaX": 340
+    },
+    {
+      "type": "screenshot",
+      "sinceStartMs": 33965,
+      "file": "03-contact-side.png",
+      "captureRequestedMs": 32923
+    }
+  ],
+  "errors": []
+}

@@ -1,0 +1,104 @@
+{
+  "fbx": {
+    "passed": false,
+    "errors": [
+      "degenerate triangles"
+    ],
+    "sha256": "276fc65bb6c4a1efa7a60d4917796733b96a859a6a4b4bcb9dfec54d60df214b",
+    "triangles": 53956,
+    "mesh_renderers": 62,
+    "bounds_blender": {
+      "min": [
+        -0.27047303318977356,
+        -0.1420000046491623,
+        0.003128967247903347
+      ],
+      "max": [
+        0.4797952175140381,
+        0.2484683394432068,
+        1.304983139038086
+      ]
+    },
+    "verified_pivots": [
+      "Arm_L",
+      "Arm_R",
+      "Blink_L",
+      "Blink_R",
+      "Body",
+      "Head",
+      "Lantern",
+      "Leg_L",
+      "Leg_R",
+      "ScarfTail",
+      "TravelerRoot"
+    ],
+    "maximum_pivot_error_m": 1.862645149230957e-07,
+    "nonfinite_vertices": 0,
+    "invalid_vertex_normals": 0,
+    "degenerate_triangles": 28,
+    "authored_front_mean_normal_y": -0.8795955095972333,
+    "blink_validation": {
+      "Blink_L": {
+        "open_width_m": 6.256252527236938e-05,
+        "open_height_m": 4.1484832763671875e-05,
+        "closed_height_m": 0.04139995574951172
+      },
+      "Blink_R": {
+        "open_width_m": 6.256252527236938e-05,
+        "open_height_m": 4.1484832763671875e-05,
+        "closed_height_m": 0.04139995574951172
+      }
+    }
+  },
+  "glb": {
+    "passed": false,
+    "errors": [
+      "degenerate triangles"
+    ],
+    "sha256": "2b4330a516a598ff781d9d373c2c8d594b0edecbeaf8b29cd122a579cce7533e",
+    "triangles": 53956,
+    "mesh_renderers": 62,
+    "bounds_blender": {
+      "min": [
+        -0.27047303318977356,
+        -0.1420000046491623,
+        0.00312894769012928
+      ],
+      "max": [
+        0.4797952175140381,
+        0.24846817553043365,
+        1.304983139038086
+      ]
+    },
+    "verified_pivots": [
+      "Arm_L",
+      "Arm_R",
+      "Blink_L",
+      "Blink_R",
+      "Body",
+      "Head",
+      "Lantern",
+      "Leg_L",
+      "Leg_R",
+      "ScarfTail",
+      "TravelerRoot"
+    ],
+    "maximum_pivot_error_m": 0,
+    "nonfinite_vertices": 0,
+    "invalid_vertex_normals": 0,
+    "degenerate_triangles": 28,
+    "authored_front_mean_normal_y": -0.8795944268386515,
+    "blink_validation": {
+      "Blink_L": {
+        "open_width_m": 6.256252527236938e-05,
+        "open_height_m": 4.1484832763671875e-05,
+        "closed_height_m": 0.04139995574951172
+      },
+      "Blink_R": {
+        "open_width_m": 6.256252527236938e-05,
+        "open_height_m": 4.1484832763671875e-05,
+        "closed_height_m": 0.04139995574951172
+      }
+    }
+  }
+}

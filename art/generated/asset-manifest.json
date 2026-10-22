@@ -1,0 +1,382 @@
+{
+  "title": "借光岛 / Borrowed Light Island",
+  "units": "metres",
+  "unity_coordinates": "Y-up; Blender=(Unity.x,-Unity.z,Unity.y)",
+  "ground_y": 0,
+  "island_radius": 9,
+  "lamp_head_y": 1.85,
+  "anchors_unity": {
+    "Lamp_A": [
+      -4.5,
+      0,
+      -2.0
+    ],
+    "Lamp_B": [
+      1.8,
+      0,
+      3.4
+    ],
+    "Lamp_C": [
+      4.7,
+      0,
+      -2.4
+    ],
+    "LampHead_A": [
+      -4.5,
+      1.85,
+      -2.0
+    ],
+    "LampHead_B": [
+      1.8,
+      1.85,
+      3.4
+    ],
+    "LampHead_C": [
+      4.7,
+      1.85,
+      -2.4
+    ],
+    "Target_Path": [
+      -1.8,
+      0.08,
+      -3.2
+    ],
+    "Target_Bench": [
+      -5.8,
+      0.1,
+      0.15
+    ],
+    "Target_Window": [
+      -4.1,
+      1.6,
+      3.05
+    ],
+    "Target_Dock": [
+      6.9,
+      0.12,
+      -3.35
+    ],
+    "Cabin": [
+      -4.1,
+      0,
+      4.05
+    ],
+    "StarAltar": [
+      0,
+      0.08,
+      0.35
+    ],
+    "Moon": [
+      3.3,
+      1.8,
+      5.4
+    ],
+    "PlayerSpawn": [
+      0,
+      0.1,
+      -5.6
+    ]
+  },
+  "triangles": 215522,
+  "objects": [
+    {
+      "name": "Island_Strata",
+      "triangles": 1630,
+      "materials": [
+        "BI_rock",
+        "BI_rock_dark",
+        "BI_rock_blue",
+        "BI_rock_light"
+      ]
+    },
+    {
+      "name": "Island_Meadow",
+      "triangles": 3360,
+      "materials": [
+        "BI_grass"
+      ]
+    },
+    {
+      "name": "Island_CliffGardens",
+      "triangles": 3978,
+      "materials": [
+        "BI_stone_dark",
+        "BI_moss",
+        "BI_rock_light",
+        "BI_rock_blue",
+        "BI_brass"
+      ]
+    },
+    {
+      "name": "Island_BrassMeridian",
+      "triangles": 3688,
+      "materials": [
+        "BI_brass",
+        "BI_brass_light"
+      ]
+    },
+    {
+      "name": "Garden_Walkways",
+      "triangles": 728,
+      "materials": [
+        "BI_stone",
+        "BI_stone_dark",
+        "BI_stone_light"
+      ]
+    },
+    {
+      "name": "Observatory_StoneAndBrass",
+      "triangles": 5400,
+      "materials": [
+        "BI_stone_dark",
+        "BI_stone",
+        "BI_stone_light",
+        "BI_brass",
+        "BI_brass_light",
+        "BI_metal_dark",
+        "BI_quartz",
+        "BI_star_warm"
+      ]
+    },
+    {
+      "name": "Cabin_PlasterAndFoundation",
+      "triangles": 126,
+      "materials": [
+        "BI_stone_dark",
+        "BI_plaster",
+        "BI_plaster_light",
+        "BI_stone",
+        "BI_rock_dark"
+      ]
+    },
+    {
+      "name": "Cabin_IndividualShingles",
+      "triangles": 1132,
+      "materials": [
+        "BI_roof_dark",
+        "BI_roof",
+        "BI_roof_light"
+      ]
+    },
+    {
+      "name": "Cabin_ReadingWindow_Glow",
+      "triangles": 28,
+      "materials": [
+        "BI_window_honey"
+      ]
+    },
+    {
+      "name": "Cabin_DoorAndAccessories",
+      "triangles": 884,
+      "materials": [
+        "BI_wood",
+        "BI_wood_light",
+        "BI_brass_light",
+        "BI_stone",
+        "BI_stone_dark",
+        "BI_paper",
+        "BI_window_honey"
+      ]
+    },
+    {
+      "name": "Cabin_Timber",
+      "triangles": 516,
+      "materials": [
+        "BI_wood_light",
+        "BI_wood",
+        "BI_wood_cut",
+        "BI_roof_dark"
+      ]
+    },
+    {
+      "name": "LampBase_A",
+      "triangles": 828,
+      "materials": [
+        "BI_stone_dark",
+        "BI_brass",
+        "BI_metal_dark",
+        "BI_brass_light"
+      ]
+    },
+    {
+      "name": "LampBase_B",
+      "triangles": 828,
+      "materials": [
+        "BI_stone_dark",
+        "BI_brass",
+        "BI_metal_dark",
+        "BI_brass_light"
+      ]
+    },
+    {
+      "name": "LampBase_C",
+      "triangles": 828,
+      "materials": [
+        "BI_stone_dark",
+        "BI_brass",
+        "BI_metal_dark",
+        "BI_brass_light"
+      ]
+    },
+    {
+      "name": "Garden_Bench",
+      "triangles": 492,
+      "materials": [
+        "BI_wood_light",
+        "BI_wood_cut",
+        "BI_metal_dark",
+        "BI_flower_coral",
+        "BI_flower_cream"
+      ]
+    },
+    {
+      "name": "Cliff_Pier",
+      "triangles": 2916,
+      "materials": [
+        "BI_wood",
+        "BI_metal_dark",
+        "BI_wood_light",
+        "BI_wood_cut",
+        "BI_paper",
+        "BI_brass"
+      ]
+    },
+    {
+      "name": "Garden_TreeTrunks",
+      "triangles": 1048,
+      "materials": [
+        "BI_wood",
+        "BI_wood_light"
+      ]
+    },
+    {
+      "name": "Garden_TreeCanopies",
+      "triangles": 5843,
+      "materials": [
+        "BI_leaf_light",
+        "BI_leaf",
+        "BI_leaf_gold",
+        "BI_leaf_blue",
+        "BI_leaf_dark"
+      ]
+    },
+    {
+      "name": "Garden_CanopyLeafEdges",
+      "triangles": 1660,
+      "materials": [
+        "BI_leaf_light",
+        "BI_leaf_blue",
+        "BI_leaf_gold"
+      ]
+    },
+    {
+      "name": "MoonDial_Sculpture",
+      "triangles": 2112,
+      "materials": [
+        "BI_stone_dark",
+        "BI_brass",
+        "BI_brass_light",
+        "BI_star_warm"
+      ]
+    },
+    {
+      "name": "Garden_FeatherFerns",
+      "triangles": 38160,
+      "materials": [
+        "BI_stem",
+        "BI_leaf",
+        "BI_grass_sage",
+        "BI_leaf_light"
+      ]
+    },
+    {
+      "name": "Garden_LavenderAndSeedHeads",
+      "triangles": 19200,
+      "materials": [
+        "BI_stem",
+        "BI_flower_lilac"
+      ]
+    },
+    {
+      "name": "Garden_Wildflowers",
+      "triangles": 61061,
+      "materials": [
+        "BI_stem",
+        "BI_leaf_light",
+        "BI_flower_cream",
+        "BI_brass_light",
+        "BI_flower_coral",
+        "BI_flower_lilac",
+        "BI_flower_blue"
+      ]
+    },
+    {
+      "name": "Garden_GrassTufts",
+      "triangles": 51310,
+      "materials": [
+        "BI_leaf_light",
+        "BI_leaf",
+        "BI_grass_sage",
+        "BI_grass_light"
+      ]
+    },
+    {
+      "name": "Garden_MushroomsAndPebbles",
+      "triangles": 5824,
+      "materials": [
+        "BI_paper",
+        "BI_mushroom",
+        "BI_mushroom_spot",
+        "BI_stone",
+        "BI_stone_dark",
+        "BI_rock_blue"
+      ]
+    },
+    {
+      "name": "Cabin_ClimbingIvy",
+      "triangles": 630,
+      "materials": [
+        "BI_leaf_light",
+        "BI_stem",
+        "BI_leaf_gold",
+        "BI_leaf"
+      ]
+    },
+    {
+      "name": "Garden_StoryDetails",
+      "triangles": 1312,
+      "materials": [
+        "BI_wood",
+        "BI_wood_cut",
+        "BI_wood_light",
+        "BI_metal_dark",
+        "BI_sea_glass",
+        "BI_brass",
+        "BI_brass_light"
+      ]
+    }
+  ],
+  "files": [
+    "island.blend",
+    "island.fbx",
+    "island.glb",
+    "blender-render.png"
+  ],
+  "notes": [
+    "All models original, procedurally authored in Blender.",
+    "Lamp heads and light beams intentionally supplied by Unity.",
+    "Cabin_ReadingWindow_Glow is separately named for runtime material control.",
+    "FBX/GLB retain named component meshes and anchor empties.",
+    "Walkable paths designed near Y=0; top terrain only varies +/-4cm."
+  ],
+  "revision": "Natural flora / curved petals / 2K soil-moss-leaf surface",
+  "textures": {
+    "base_color": "textures/meadow-watercolor.png",
+    "normal": "textures/meadow-normal.png",
+    "resolution": [
+      2048,
+      2048
+    ],
+    "uv_contract": "u=(Unity.x+9)/18; v=(Unity.z+9)/18, unchanged"
+  }
+}

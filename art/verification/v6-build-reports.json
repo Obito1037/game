@@ -1,0 +1,32 @@
+{
+  "date": "2026-10-21",
+  "windows": {
+    "buildId": "build_9f6d972e72eb",
+    "result": "Succeeded",
+    "target": "StandaloneWindows64",
+    "buildReportBytes": 149771689,
+    "buildTimeMs": 32119,
+    "totalErrors": 0,
+    "totalWarnings": 1,
+    "warnings": [
+      {
+        "message": "Pipeline: No RuntimePipelineConfig asset found (Project Settings > Pipeline > Runtime). Pipeline will be disabled in Player builds."
+      }
+    ]
+  },
+  "web": {
+    "buildId": "build_d4eac3ac8c31",
+    "result": "Succeeded",
+    "target": "WebGL",
+    "buildReportBytes": 4736459,
+    "buildTimeMs": 236927,
+    "totalErrors": 0,
+    "totalWarnings": 1,
+    "warnings": [
+      {
+        "message": "Pipeline: No RuntimePipelineConfig asset found (Project Settings > Pipeline > Runtime). Pipeline will be disabled in Player builds."
+      }
+    ]
+  },
+  "webSizeNote": "Unity BuildReport does not include all content-hashed compressed payloads. Use actual Build directory file sizes for the download estimate."
+}

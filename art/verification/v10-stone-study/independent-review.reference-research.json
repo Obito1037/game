@@ -1,0 +1,39 @@
+{
+  "reviewer": "reference_research",
+  "scope": "独立只读截图评审；没有操作 Unity、运行游戏或启动 GPU 渲染。",
+  "imagesViewed": [
+    "path-baseline.png",
+    "path-texture.png",
+    "left-rock-baseline.png",
+    "left-rock-texture.png",
+    "right-rock-baseline.png",
+    "right-rock-texture.png",
+    "art/reference/littleprince-gameplay.png"
+  ],
+  "documentsRead": [
+    "material-study.json",
+    "GameProject/Assets/BorrowedLight/Shaders/PaintedSurface.shader",
+    "art/generated/stone-v10/manifest.json"
+  ],
+  "recommendation": "视觉上建议采用 candidate，正式采用仍以正常游玩及性能回归通过为条件；不再提高纹理对比或细节强度。",
+  "normalScaleBenefit": "path 固定构图的画面比例接近一般第三人称观察：四块主石的顶部、转折与侧面增加了可读的矿物层理和粗糙感，明显减少 baseline 的柔滑蜡泥感。纹理没有压过角色、小屋和暖灯的主次关系，收益在这个尺度仍能看到，非只在极端放大下成立。该构图是摆位截图，不把它称为正常游玩记录。",
+  "closeViewFindings": [
+    "左石的顶面和前缘有连续的颗粒与细层理，原有几何平台、下沿裂口仍可辨认；没有看到明显直线 UV 缝或突变色带。",
+    "右石顶部与斜侧面呈现不同朝向的纹路，三平面混合处略有纹理方向交融，但提供的视角没有出现抢眼断缝或棋盘式重复。不能据此证明整石所有角度无缝。",
+    "近景表面比 baseline 更密，个别浅凹处带有生成图自带的阴影感；现强度可以接受，继续加深会使石头与纸雕植物的风格差异扩大。"
+  ],
+  "shaderAndSourceBoundary": "Shader 使用世界坐标三平面采样，按源图线性均值归一化颜色，并由亮度导出很浅的艺术性凹凸。源图是生成式颜色图，manifest 明确尚未证明边缘无缝，也不是实测 PBR 扫描。新增纹理并未改善几何轮廓或产生真实凹槽。",
+  "nextMostImportantArtGap": {
+    "item": "植被与路径边缘的自然层次",
+    "evidence": "参考实机截图的花草形成高低、疏密和不同细叶形态的群落，土径与草地有渐变交界；当前 path/rock 图中的近景紫花穗呈规则六角柱，部分大叶硬折，草线尺度较一致。岩石细化后，这组重复的硬边植物更显眼。参考是日景而本次为夜景，不能据此直接比较曝光或整体画面优劣。",
+    "boundedNextPass": "仅处理主要路径近景的一组紫色花穗和草地边缘：改善两类轮廓与疏密过渡，再在同一构图验收后停止；无需扩展场景或持续微调岩石。"
+  },
+  "notVerified": [
+    "动态镜头中的闪烁、摩尔纹与远处 mip 过渡",
+    "移动灯光下生成图阴影与凹凸的一致性",
+    "Windows 和 WebGL 的性能、内存或帧时间变化",
+    "所有岩石表面、角度和位置的重复与接缝",
+    "整体视觉已经超过参考作品"
+  ],
+  "studyLimit": "material-study.json 标记冻结时间、摆位姿态及固定灯光，并报告各变体 transformsAndLightsUnchanged。该记录支持这组三构图静态 A/B 的可比性，不证明正常动态游戏体验。"
+}

@@ -1,0 +1,32 @@
+{
+  "passed": true,
+  "baseline": "art/verification/v12-ground-detail-refined",
+  "candidate": "art/verification/v12-ground-compression",
+  "sceneMatch": true,
+  "viewMatch": true,
+  "lightsMatch": true,
+  "detailSamplingUnchanged": true,
+  "baselineDetail": {
+    "name": "GroundDetailV12",
+    "format": "RGBA32",
+    "graphicsFormat": "R8G8B8A8_SRGB",
+    "width": 1254,
+    "height": 1254,
+    "mipCount": 11,
+    "aniso": 4,
+    "filter": "Trilinear",
+    "wrap": "Repeat"
+  },
+  "candidateDetail": {
+    "name": "GroundDetailV12",
+    "format": "DXT1",
+    "graphicsFormat": "RGBA_DXT1_SRGB",
+    "width": 1024,
+    "height": 1024,
+    "mipCount": 11,
+    "aniso": 4,
+    "filter": "Trilinear",
+    "wrap": "Repeat"
+  },
+  "scope": "Recorded scene, camera, material, base map and filter invariants. Intentional detail resolution/format difference allowed. Does not establish pixel equality, full rendering determinism, appearance or FPS."
+}

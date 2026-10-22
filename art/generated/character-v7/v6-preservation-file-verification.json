@@ -1,0 +1,383 @@
+{
+  "passed": true,
+  "errors": [],
+  "source_sha256": "5b1e0b1d49c0f522cb7ec20b1d4c01970baec4a3c1467377cb80b58651866f68",
+  "candidate_sha256": "a1dabf6fe7d6b86c633d329f9f14f91669464f2555cc0675ce4a3ab3d2c25c77",
+  "scope": "Independent reload of both serialized BLEND files. All channels of 60 non-target meshes; topology/UV/COLOR_0/weights/material assignment of 2 sleeves; all object/bone matrices and parents; all material graphs.",
+  "meshes": [
+    {
+      "mesh": "Arm_L_Cape_SeaMistBinding",
+      "protected_data_equal": true,
+      "source_sha256": "edc755554b354c13fc54721d06974f77e58c7cd3c8c90969181416300f53a96f",
+      "candidate_sha256": "edc755554b354c13fc54721d06974f77e58c7cd3c8c90969181416300f53a96f"
+    },
+    {
+      "mesh": "Arm_L_Face_Fingernails",
+      "protected_data_equal": true,
+      "source_sha256": "2c699e6bc41b88cde804ea785e7d88137d985491c6de8d38e0c4a5e81f779af0",
+      "candidate_sha256": "2c699e6bc41b88cde804ea785e7d88137d985491c6de8d38e0c4a5e81f779af0"
+    },
+    {
+      "mesh": "Arm_L_Face_NoseCream",
+      "protected_data_equal": true,
+      "source_sha256": "24d0fe61c158f770d08846aefb0880022dbfe552dec0bcd6bc7d45427b466649",
+      "candidate_sha256": "24d0fe61c158f770d08846aefb0880022dbfe552dec0bcd6bc7d45427b466649"
+    },
+    {
+      "mesh": "Arm_L_Face_PorcelainCream",
+      "protected_data_equal": true,
+      "source_sha256": "713a7cd4ebb0adc884454af6671b389216a64597fced152185e21c8a57f2dd66",
+      "candidate_sha256": "713a7cd4ebb0adc884454af6671b389216a64597fced152185e21c8a57f2dd66"
+    },
+    {
+      "mesh": "Arm_L_Face_RoseCheeks",
+      "protected_data_equal": true,
+      "source_sha256": "aa2c27c86a8b3e0117fbd13b396eaf427c6bbacbf447910e4ed8dedb69cb766d",
+      "candidate_sha256": "aa2c27c86a8b3e0117fbd13b396eaf427c6bbacbf447910e4ed8dedb69cb766d"
+    },
+    {
+      "mesh": "Arm_L_Gloves_OatKnit",
+      "protected_data_equal": true,
+      "source_sha256": "c4c1b4aeee9905c64c7df5103d2deebfc053a63f4d14a2ba332952c7bec584eb",
+      "candidate_sha256": "c4c1b4aeee9905c64c7df5103d2deebfc053a63f4d14a2ba332952c7bec584eb"
+    },
+    {
+      "mesh": "Arm_L_Stitches_PaleFlax",
+      "protected_data_equal": true,
+      "source_sha256": "e4ef32587523d04386d21a31393be29576a4b4c27792b570cdaa60e03d50b8a5",
+      "candidate_sha256": "e4ef32587523d04386d21a31393be29576a4b4c27792b570cdaa60e03d50b8a5"
+    },
+    {
+      "mesh": "Sleeve_L",
+      "protected_data_equal": true,
+      "source_sha256": "c2516c73d2054ca5b6d38a132da68f9864772b666284817c063bb91b9ae3820f",
+      "candidate_sha256": "c2516c73d2054ca5b6d38a132da68f9864772b666284817c063bb91b9ae3820f"
+    },
+    {
+      "mesh": "Arm_R_Cape_SeaMistBinding",
+      "protected_data_equal": true,
+      "source_sha256": "b46dc26ccd9543738a3bf72e7d696c6e83e4ac124140eb8e031c450d28491844",
+      "candidate_sha256": "b46dc26ccd9543738a3bf72e7d696c6e83e4ac124140eb8e031c450d28491844"
+    },
+    {
+      "mesh": "Arm_R_Face_Fingernails",
+      "protected_data_equal": true,
+      "source_sha256": "5090f552df6dff6256e74ef876f4b5922ae3c3134b7bbbf3fa99ce808819d44a",
+      "candidate_sha256": "5090f552df6dff6256e74ef876f4b5922ae3c3134b7bbbf3fa99ce808819d44a"
+    },
+    {
+      "mesh": "Arm_R_Face_NoseCream",
+      "protected_data_equal": true,
+      "source_sha256": "d2a02c8a9eb0ef16f080b685687c004b260be95dc23c912d288f9776e2f862e1",
+      "candidate_sha256": "d2a02c8a9eb0ef16f080b685687c004b260be95dc23c912d288f9776e2f862e1"
+    },
+    {
+      "mesh": "Arm_R_Face_PorcelainCream",
+      "protected_data_equal": true,
+      "source_sha256": "14e499c2cee0d0d06f48133020e902a7dafe2b93dc2796c547535789dfe489b8",
+      "candidate_sha256": "14e499c2cee0d0d06f48133020e902a7dafe2b93dc2796c547535789dfe489b8"
+    },
+    {
+      "mesh": "Arm_R_Face_RoseCheeks",
+      "protected_data_equal": true,
+      "source_sha256": "95fb08f0417545d465fc93356abc2cacfab31b1cb50e08c19a3b6a8a0656d6c0",
+      "candidate_sha256": "95fb08f0417545d465fc93356abc2cacfab31b1cb50e08c19a3b6a8a0656d6c0"
+    },
+    {
+      "mesh": "Arm_R_Gloves_OatKnit",
+      "protected_data_equal": true,
+      "source_sha256": "f453a00934c92b6bb5e9d2c87c21d3517679d64283e482746fbb3e4ab5fef0ce",
+      "candidate_sha256": "f453a00934c92b6bb5e9d2c87c21d3517679d64283e482746fbb3e4ab5fef0ce"
+    },
+    {
+      "mesh": "Arm_R_Stitches_PaleFlax",
+      "protected_data_equal": true,
+      "source_sha256": "4b0167b97c8f8c9f40efa09d2fc6abdf36789c158e49e0f0edc5cf27ddbdc69c",
+      "candidate_sha256": "4b0167b97c8f8c9f40efa09d2fc6abdf36789c158e49e0f0edc5cf27ddbdc69c"
+    },
+    {
+      "mesh": "Lantern_Heart",
+      "protected_data_equal": true,
+      "source_sha256": "e03cc595ec2729e4734882c0d83aad2a809f2b69d691c63d94be7b090d71c118",
+      "candidate_sha256": "e03cc595ec2729e4734882c0d83aad2a809f2b69d691c63d94be7b090d71c118"
+    },
+    {
+      "mesh": "Lantern_Lantern_BrushedBrass",
+      "protected_data_equal": true,
+      "source_sha256": "5f52b72e250284517df316c0d1c76d923f654fb105b358525347d2cd39be8995",
+      "candidate_sha256": "5f52b72e250284517df316c0d1c76d923f654fb105b358525347d2cd39be8995"
+    },
+    {
+      "mesh": "Lantern_Lantern_GoldEdges",
+      "protected_data_equal": true,
+      "source_sha256": "2297b2b83f09de461ab173a12ef9943433d5de847a48528b6aeb45fa9074f093",
+      "candidate_sha256": "2297b2b83f09de461ab173a12ef9943433d5de847a48528b6aeb45fa9074f093"
+    },
+    {
+      "mesh": "Lantern_OpalGlass",
+      "protected_data_equal": true,
+      "source_sha256": "aadbe1c87a7d7f889b19a33b541ad8e402d883d2122415feb7bbd1b5e4a223cf",
+      "candidate_sha256": "aadbe1c87a7d7f889b19a33b541ad8e402d883d2122415feb7bbd1b5e4a223cf"
+    },
+    {
+      "mesh": "Sleeve_R",
+      "protected_data_equal": true,
+      "source_sha256": "ccd5da1fff3525caecbe46321ae21bf5570925382796c30a5013b423510c6d12",
+      "candidate_sha256": "ccd5da1fff3525caecbe46321ae21bf5570925382796c30a5013b423510c6d12"
+    },
+    {
+      "mesh": "Body_Boots_HoneyLeather",
+      "protected_data_equal": true,
+      "source_sha256": "46e14f5a9c57dc9681f83201b1dcbd75638247ae6e77511b352320a952cc73ac",
+      "candidate_sha256": "46e14f5a9c57dc9681f83201b1dcbd75638247ae6e77511b352320a952cc73ac"
+    },
+    {
+      "mesh": "Body_Cape_DeepOceanLining",
+      "protected_data_equal": true,
+      "source_sha256": "cbdaba775abd28d10f05ceab5bc8fc219b510a32b7b4b7f9844b9876acd6241e",
+      "candidate_sha256": "cbdaba775abd28d10f05ceab5bc8fc219b510a32b7b4b7f9844b9876acd6241e"
+    },
+    {
+      "mesh": "Body_Cape_SeaMistBinding",
+      "protected_data_equal": true,
+      "source_sha256": "37995a8416ad90ee7c04ee1fc1a78b69396144ec3f76990a01ae4302f2643a73",
+      "candidate_sha256": "37995a8416ad90ee7c04ee1fc1a78b69396144ec3f76990a01ae4302f2643a73"
+    },
+    {
+      "mesh": "Body_Hood_DuskBlue",
+      "protected_data_equal": true,
+      "source_sha256": "133a83e1455ef76f6fb04b9efe377123eb965b2f79e959a9e4620daaab955696",
+      "candidate_sha256": "133a83e1455ef76f6fb04b9efe377123eb965b2f79e959a9e4620daaab955696"
+    },
+    {
+      "mesh": "Body_Lantern_GoldEdges",
+      "protected_data_equal": true,
+      "source_sha256": "9302e86aebe48bde5aedf3c94f1eff101aa58a718c9b24bc40cf0883ccecc705",
+      "candidate_sha256": "9302e86aebe48bde5aedf3c94f1eff101aa58a718c9b24bc40cf0883ccecc705"
+    },
+    {
+      "mesh": "Body_Scarf_EdgeHoney",
+      "protected_data_equal": true,
+      "source_sha256": "a88525a0e1dc5d8fe9c59c246b443f9e2516d671fe4fc0930af63173127bb906",
+      "candidate_sha256": "a88525a0e1dc5d8fe9c59c246b443f9e2516d671fe4fc0930af63173127bb906"
+    },
+    {
+      "mesh": "Body_Stitches_PaleFlax",
+      "protected_data_equal": true,
+      "source_sha256": "81ea5b03fa8e19ecf5c3650c8b9c9b80708e186703644a6891c6467458394d3d",
+      "candidate_sha256": "81ea5b03fa8e19ecf5c3650c8b9c9b80708e186703644a6891c6467458394d3d"
+    },
+    {
+      "mesh": "Brooch_AmberStone",
+      "protected_data_equal": true,
+      "source_sha256": "ccfb088f5c476ff267b92d08f688220f26b9d7ff41036ec10d762d302e2c702a",
+      "candidate_sha256": "ccfb088f5c476ff267b92d08f688220f26b9d7ff41036ec10d762d302e2c702a"
+    },
+    {
+      "mesh": "Cloak_Outer",
+      "protected_data_equal": true,
+      "source_sha256": "12855a084116da0edcc649cd78c76982348ed4142fa3c4a86cd266c66bdd62b0",
+      "candidate_sha256": "12855a084116da0edcc649cd78c76982348ed4142fa3c4a86cd266c66bdd62b0"
+    },
+    {
+      "mesh": "Satchel_Body",
+      "protected_data_equal": true,
+      "source_sha256": "6bcc2fec3bfcb1ae4f73bdd3afa561a1cfc0e5226c7213eab74ea9322fa20e94",
+      "candidate_sha256": "6bcc2fec3bfcb1ae4f73bdd3afa561a1cfc0e5226c7213eab74ea9322fa20e94"
+    },
+    {
+      "mesh": "Satchel_Clasp",
+      "protected_data_equal": true,
+      "source_sha256": "d1cb7eb49f8794bfe1cafe1eb09b0dfa097fbb1d8435217a41973c07426c5030",
+      "candidate_sha256": "d1cb7eb49f8794bfe1cafe1eb09b0dfa097fbb1d8435217a41973c07426c5030"
+    },
+    {
+      "mesh": "Scarf_Collar",
+      "protected_data_equal": true,
+      "source_sha256": "082e6c154841637a9b24ff0e8c2250c49fb7e36e432c9905c538a223ebc49ed7",
+      "candidate_sha256": "082e6c154841637a9b24ff0e8c2250c49fb7e36e432c9905c538a223ebc49ed7"
+    },
+    {
+      "mesh": "TailoredTunic",
+      "protected_data_equal": true,
+      "source_sha256": "da843ebac74773770eb565ce3b20317064bc481bf822c68a1178dd5818c1c2ab",
+      "candidate_sha256": "da843ebac74773770eb565ce3b20317064bc481bf822c68a1178dd5818c1c2ab"
+    },
+    {
+      "mesh": "Blink_L_ClosedLash",
+      "protected_data_equal": true,
+      "source_sha256": "a1f335043c7ea497eeaf22aff98c33d7ae3d5cf236cebb7b19566cef5130e405",
+      "candidate_sha256": "a1f335043c7ea497eeaf22aff98c33d7ae3d5cf236cebb7b19566cef5130e405"
+    },
+    {
+      "mesh": "Blink_L_LidCover",
+      "protected_data_equal": true,
+      "source_sha256": "731bac5156389a473428a323f6f35962786bc9aa09fec4858c6c43ffaa64e481",
+      "candidate_sha256": "731bac5156389a473428a323f6f35962786bc9aa09fec4858c6c43ffaa64e481"
+    },
+    {
+      "mesh": "Blink_R_ClosedLash",
+      "protected_data_equal": true,
+      "source_sha256": "5c8a1153cffb271a82c016c508264553c7852ac437c228979007d82abb6d5833",
+      "candidate_sha256": "5c8a1153cffb271a82c016c508264553c7852ac437c228979007d82abb6d5833"
+    },
+    {
+      "mesh": "Blink_R_LidCover",
+      "protected_data_equal": true,
+      "source_sha256": "7feab19b8f6ffb13048805233871dbca82282b6d0618c9b867074bce83da2096",
+      "candidate_sha256": "7feab19b8f6ffb13048805233871dbca82282b6d0618c9b867074bce83da2096"
+    },
+    {
+      "mesh": "Head_Eye_AmberRim",
+      "protected_data_equal": true,
+      "source_sha256": "b2b9687ed16650279f3802f562a2169e3bc28f2ed88cd547c29ecbc25a22d1e7",
+      "candidate_sha256": "b2b9687ed16650279f3802f562a2169e3bc28f2ed88cd547c29ecbc25a22d1e7"
+    },
+    {
+      "mesh": "Head_Eye_Catchlight",
+      "protected_data_equal": true,
+      "source_sha256": "19505f28848930d4f93e674f38d200648260cb5984be3899de0d8c7a7e7a6b44",
+      "candidate_sha256": "19505f28848930d4f93e674f38d200648260cb5984be3899de0d8c7a7e7a6b44"
+    },
+    {
+      "mesh": "Head_Eye_Chestnut",
+      "protected_data_equal": true,
+      "source_sha256": "3e0d3abaa0faa7a2fe8681b4d9944fbb7d9ccc21ea3b3996dcd99df1cc865c5c",
+      "candidate_sha256": "3e0d3abaa0faa7a2fe8681b4d9944fbb7d9ccc21ea3b3996dcd99df1cc865c5c"
+    },
+    {
+      "mesh": "Head_Eye_Ivory",
+      "protected_data_equal": true,
+      "source_sha256": "dd9a6ad2c5b1a178dc6be9939b62ce1fe7500560736d00bf4d11447ad500b728",
+      "candidate_sha256": "dd9a6ad2c5b1a178dc6be9939b62ce1fe7500560736d00bf4d11447ad500b728"
+    },
+    {
+      "mesh": "Head_Eye_Pupil",
+      "protected_data_equal": true,
+      "source_sha256": "f6db20749686e23327aa866bea51ca210b8beb2dea0253a398a9dc32644f30a4",
+      "candidate_sha256": "f6db20749686e23327aa866bea51ca210b8beb2dea0253a398a9dc32644f30a4"
+    },
+    {
+      "mesh": "Head_Face_NoseCream",
+      "protected_data_equal": true,
+      "source_sha256": "a3ccb30b0192c61414467f19d1beaa9edfa7917dbde74c9f1550a47ad4ca6772",
+      "candidate_sha256": "a3ccb30b0192c61414467f19d1beaa9edfa7917dbde74c9f1550a47ad4ca6772"
+    },
+    {
+      "mesh": "Head_Face_PorcelainCream",
+      "protected_data_equal": true,
+      "source_sha256": "2b8fe2aa558326aa56f0a472dad84fa1f3e5f1cf500205e928582ed6b2c55b69",
+      "candidate_sha256": "2b8fe2aa558326aa56f0a472dad84fa1f3e5f1cf500205e928582ed6b2c55b69"
+    },
+    {
+      "mesh": "Head_Face_RoseCheeks",
+      "protected_data_equal": true,
+      "source_sha256": "abb8fed20b80ef771d853f51276e54e9f7c71034a83bae7b045894c548651ed3",
+      "candidate_sha256": "abb8fed20b80ef771d853f51276e54e9f7c71034a83bae7b045894c548651ed3"
+    },
+    {
+      "mesh": "Head_Hair_Indigo",
+      "protected_data_equal": true,
+      "source_sha256": "e78b17549a00f6b06d86eb971bed4672e9ce806b2bb197966a066f9dcf81b469",
+      "candidate_sha256": "e78b17549a00f6b06d86eb971bed4672e9ce806b2bb197966a066f9dcf81b469"
+    },
+    {
+      "mesh": "Head_Hair_MidnightBlue",
+      "protected_data_equal": true,
+      "source_sha256": "e366a9eb87a471da485f5cbdc1677ff26e303c0ebd11f20bae5b54d6ed28e526",
+      "candidate_sha256": "e366a9eb87a471da485f5cbdc1677ff26e303c0ebd11f20bae5b54d6ed28e526"
+    },
+    {
+      "mesh": "QuietSmile",
+      "protected_data_equal": true,
+      "source_sha256": "45f0ba862ae5ec17887028bb4d819a687891f7567e80b032b47968af28f5d680",
+      "candidate_sha256": "45f0ba862ae5ec17887028bb4d819a687891f7567e80b032b47968af28f5d680"
+    },
+    {
+      "mesh": "BootSole_L",
+      "protected_data_equal": true,
+      "source_sha256": "b843ab045c6f497246265589b83fa3e4ec9e1c87cb2b13ac8b1a65b129cbf632",
+      "candidate_sha256": "b843ab045c6f497246265589b83fa3e4ec9e1c87cb2b13ac8b1a65b129cbf632"
+    },
+    {
+      "mesh": "BootUpper_L",
+      "protected_data_equal": true,
+      "source_sha256": "6eb78bbb68da79e34a08e08e3c58a2a43fd4f7ee1fe50e2e545b7e6a48809a42",
+      "candidate_sha256": "6eb78bbb68da79e34a08e08e3c58a2a43fd4f7ee1fe50e2e545b7e6a48809a42"
+    },
+    {
+      "mesh": "Leg_L_Boots_HoneyLeather",
+      "protected_data_equal": true,
+      "source_sha256": "b1d5ee4846ab82a898399c0edc7018b714874471813a2cc8039747abea983e67",
+      "candidate_sha256": "b1d5ee4846ab82a898399c0edc7018b714874471813a2cc8039747abea983e67"
+    },
+    {
+      "mesh": "Leg_L_Hood_DuskBlue",
+      "protected_data_equal": true,
+      "source_sha256": "e648e43f34d1b160c3904774f345e96c1b8e5d6af477a762f57e7e6f75a82732",
+      "candidate_sha256": "e648e43f34d1b160c3904774f345e96c1b8e5d6af477a762f57e7e6f75a82732"
+    },
+    {
+      "mesh": "Leg_L_Lantern_BrushedBrass",
+      "protected_data_equal": true,
+      "source_sha256": "f1b368bb35f21c7843ef7b6e7d9fcccc23a410513e12d4eff1d5909bc2720217",
+      "candidate_sha256": "f1b368bb35f21c7843ef7b6e7d9fcccc23a410513e12d4eff1d5909bc2720217"
+    },
+    {
+      "mesh": "Trouser_L",
+      "protected_data_equal": true,
+      "source_sha256": "150027e49033a6b22d814a8b7e33c56b4c8f44e2e284b253d7e8635c4f2a8a7b",
+      "candidate_sha256": "150027e49033a6b22d814a8b7e33c56b4c8f44e2e284b253d7e8635c4f2a8a7b"
+    },
+    {
+      "mesh": "BootSole_R",
+      "protected_data_equal": true,
+      "source_sha256": "d3385084b9a7612b2dde7248690780872b105c8ac20a2436a8a65aa3b437187e",
+      "candidate_sha256": "d3385084b9a7612b2dde7248690780872b105c8ac20a2436a8a65aa3b437187e"
+    },
+    {
+      "mesh": "BootUpper_R",
+      "protected_data_equal": true,
+      "source_sha256": "7279fe3fe91e081b3c95efde29f24b6f26f5f688552377c1284975d63daecf0c",
+      "candidate_sha256": "7279fe3fe91e081b3c95efde29f24b6f26f5f688552377c1284975d63daecf0c"
+    },
+    {
+      "mesh": "Leg_R_Boots_HoneyLeather",
+      "protected_data_equal": true,
+      "source_sha256": "c5f3a13f734935809d486edde961574bfde5fab4458d3b935d282e337dbbf1b3",
+      "candidate_sha256": "c5f3a13f734935809d486edde961574bfde5fab4458d3b935d282e337dbbf1b3"
+    },
+    {
+      "mesh": "Leg_R_Hood_DuskBlue",
+      "protected_data_equal": true,
+      "source_sha256": "d2f1b3cbb262eb2455bf9374490416bbe1655ffe1b4221581cb3bba58b8aa9fe",
+      "candidate_sha256": "d2f1b3cbb262eb2455bf9374490416bbe1655ffe1b4221581cb3bba58b8aa9fe"
+    },
+    {
+      "mesh": "Leg_R_Lantern_BrushedBrass",
+      "protected_data_equal": true,
+      "source_sha256": "123fd00c4511c9b11131c91a5b0716c941784cda09eda86c710d0f91bab24ad2",
+      "candidate_sha256": "123fd00c4511c9b11131c91a5b0716c941784cda09eda86c710d0f91bab24ad2"
+    },
+    {
+      "mesh": "Trouser_R",
+      "protected_data_equal": true,
+      "source_sha256": "e4e4c5b1518c14275cd64289e9c2ec2e9e2ad76159bb41accd3d993fd11608c9",
+      "candidate_sha256": "e4e4c5b1518c14275cd64289e9c2ec2e9e2ad76159bb41accd3d993fd11608c9"
+    },
+    {
+      "mesh": "ScarfTail_Scarf_EdgeHoney",
+      "protected_data_equal": true,
+      "source_sha256": "fc6490c687b912df7a0fd08b57469f9b8b9ac3912551edef663790875207308b",
+      "candidate_sha256": "fc6490c687b912df7a0fd08b57469f9b8b9ac3912551edef663790875207308b"
+    },
+    {
+      "mesh": "ScarfTail_Scarf_HarvestGold",
+      "protected_data_equal": true,
+      "source_sha256": "1c75994b6b415422723b6c9bec071822baf096b2b78a7117b09d0b06f6ce3c9b",
+      "candidate_sha256": "1c75994b6b415422723b6c9bec071822baf096b2b78a7117b09d0b06f6ce3c9b"
+    }
+  ],
+  "object_contract_equal": true,
+  "material_graphs_equal": true
+}

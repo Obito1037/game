@@ -1,0 +1,14 @@
+const fs=require('node:fs'),path=require('node:path'),crypto=require('node:crypto'),assert=require('node:assert/strict');
+const revision=process.argv[2];assert(/^v\d+$/.test(revision||''),'Supply revision such as v11');
+const root=path.resolve(__dirname,'..'),dir=path.join(root,'art/verification');
+const read=name=>JSON.parse(fs.readFileSync(path.join(dir,name),'utf8').replace(/^\uFEFF/,''));
+const native=read(revision+'-native-build.json'),web=read(revision+'-web-build.json');
+for(const build of [native,web])assert.equal(build.result,'Succeeded');
+const buildDir=path.join(root,'builds/candidates',revision,'web/Build');
+const files=fs.readdirSync(buildDir).filter(name=>/\.(gz|js)$/.test(name)).sort().map(name=>{const bytes=fs.readFileSync(path.join(buildDir,name));return {name,bytes:bytes.length,sha256:crypto.createHash('sha256').update(bytes).digest('hex').toUpperCase()};});
+assert.equal(files.length,4);
+const index=fs.readFileSync(path.join(path.dirname(buildDir),'index.html'),'utf8');assert(files.every(x=>index.includes(x.name)));
+const directoryBytes=dir=>fs.readdirSync(dir,{withFileTypes:true}).reduce((sum,item)=>sum+(item.isDirectory()?directoryBytes(path.join(dir,item.name)):fs.statSync(path.join(dir,item.name)).size),0);
+web.payload={bytes:files.reduce((sum,x)=>sum+x.bytes,0),directoryBytes:directoryBytes(path.dirname(buildDir)),files};
+fs.writeFileSync(path.join(dir,revision+'-build-reports.json'),JSON.stringify({revision,recordedUTC:new Date().toISOString(),native,web},null,2)+'\n');
+console.log(JSON.stringify({native:native.buildId,web:web.buildId,payload:web.payload}));

@@ -1,0 +1,63 @@
+借光岛 v5：实际 GPU 计时与下一项优化建议
+
+取证范围
+当前已发布 Web v5，1440×900，Edge / ANGLE Intel Iris Xe；原始版本完整绘制。
+tools/profile-game-web-v5.cjs 在独立浏览器会话中取证，未改 Unity 源码、资源、画质或发布构建。
+EXT_disjoint_timer_query_webgl2 可用；计时3个 sky-to-sky 完整渲染周期，所有查询结果 available，disjoint=false。
+按 WebGL program 连续使用区间插入 GPU timer query，异步读结果，无 gl.finish、无 draw 跳过。
+时间包括区间内同 program 的绘制及相关GPU命令，不包括各区间之间所有工作。查询自身也有开销，因此不能把这些3帧当作长期性能基准。
+运行前已与角色代理协调无 Blender 渲染；浏览器取证后关闭并通知释放窗口。
+
+实测主要区间（3帧平均）
+FoliagePaint正向：22 draw，228,774三角形，3.467 ms。
+PaintedSurface正向：62 draw，26,534三角形，2.470 ms。
+ShadowCaster：657 draw，558,400三角形，2.188 ms。
+DepthNormals（含带法线贴图变体）：206 draw，389,563三角形，1.902 ms。
+SSAO采样：1 draw，1.672 ms；3次模糊合计1.091 ms；总2.763 ms。
+Meadow正向（带法线贴图Lit变体）：1 draw，6,816三角形，1.812 ms。
+CelestialSky：0.632 ms。
+MoonPaint：0.090 ms。行走镜头不值得优先优化月面。
+
+三个计时周期合计20.564 / 20.305 / 20.357 ms。
+计时前正常画面的3秒 sky draw计数约35.70 FPS，约1,116 draw/帧。
+Unity GetMetricsInfo的fps见原始samples；movingAverageFps含历史，不作为当前镜头速度。
+完整帧墙钟时间与计时区间总和有差距，可怀疑CPU提交/未计GPU工作/调度成本，不能把差额全部直接定性为CPU耗时。
+
+建议主代理实施和验证的下一项：岛屿运行时静态批处理
+位置：WorldDirector.CreateIsland完成负X校准、共享材质映射、MeshCollider创建后，调用 StaticBatchingUtility.Combine(island)。
+理由：当前world-v4清单有28个mesh、118个材质槽；仅按材质与投影开关区分为54组，许多石材、黄铜、木材跨对象重复。118→54只表示理想分组下每层最多省64次该类提交的估算；layer、顶点格式、64k顶点上限与可见范围还可能拆分，54不是承诺的实际draw数或全场景draw上限。
+当前657次阴影与206次法线预pass放大了小子网格的提交次数，合批能同时改善这些pass，且保留现有画质功能。
+
+兼容性依据与实施边界
+1. 所有island Mesh已Read/Write enabled。岛屿创建后没有任何子Transform动画；角色、可旋转灯头、云与星星均在其他根节点下，不应加入此batch。
+2. Combine保留原GameObject及各自culling；MeshCollider保留原sharedMesh，anchors仍是原Transform。不要销毁或禁用原节点。
+3. Foliage风、石木纹理以世界空间计算，合批烘入顶点变换后理论等价；island下没有角色cloth的局部坐标纹理。
+4. 先做负X镜像校准再Combine，保留island作为batch root，不手动翻转顶点或三角索引。
+5. 不调用UploadMeshData(true)释放原网格：当前QA会读取碰撞网格顶点，而且额外释放会扩大本次变更范围。
+6. Static batching额外复制网格数据，有内存成本；须记录Web heap变化。没有实际合批结果前不声称FPS改善。
+7. 不建议手工全岛Mesh.CombineMeshes：会失去各对象独立剔除。若后续做手工合并，应分区域、材质、layer、shadow状态，保留collider/anchors；目前没有必要承担这项复杂度。
+
+建议验收
+先只在隔离PlayMode诊断或下一版本中合批，记录Renderer.isPartOfStaticBatch、UnityStats批次数、前后anchor矩阵、MeshCollider实例/mesh引用不变。
+同镜头检查负X法线、草叶双面/风、树影、石路与灯具；行走、台阶、房屋碰撞继续验收。
+若静态batch成功而提交数几乎不变，优先查看子mesh可见范围、共享材质、shader/pass兼容及64k拆分，不能把调用成功当作优化成功。
+最终在新的Web构建用无探针前台实际fps采样，再与v5同镜头比较。
+
+为什么本轮不建议删除DepthNormals/SSAO pass
+本地URP源码明确：SSAO Source=DepthNormals且AfterOpaque=false要求法线prepass；这206次绘制不是可直接关闭的重复pass。
+UniversalRenderer.cs的IsDepthPrimingEnabled排除WebGL，也要求MSAA=1；当前WebGL+MSAA2无法通过打开DepthPriming免费复用深度。
+改SSAO为Depth重建法线/AfterOpaque会改变法线与遮蔽语义，GLES+MSAA下也未必消除深度prepass；不满足本轮保持视觉的约束。
+当前opaque color copy已关闭。未发现可直接删去又严格保持现有画面的额外全屏pass。
+
+证据路径
+profile-results.json：三帧原始计时、正常frame计数和GetMetricsInfo。
+programs.json：实际GLSL；program-summary.json：按program聚合的平均计时。
+walking-normal-restored.png：正常画面。
+旧tools/profile-game-web.cjs基于v4混合PaintedSurface的_SurfaceKind=4识别叶片；v5已使用独立FoliagePaint，不可直接运行旧脚本并把skip-foliage当作有效A/B。此处的新v5脚本依据实际独立shader GLSL识别，program16的22次draw已命中；本轮因GPU计时扩展可用，没有执行任何skip分支。
+本地源码：GameProject/Library/PackageCache/com.unity.render-pipelines.universal@746735fb06f2/Runtime/UniversalRenderer.cs（约行709–723、944–949）；Runtime/Passes/ScreenSpaceAmbientOcclusionPass.cs（约行172–182）。
+
+官方依据（2026-10-21读取）
+https://docs.unity3d.com/6000.3/Documentation/ScriptReference/StaticBatchingUtility.Combine.html
+https://docs.unity3d.com/6000.3/Documentation/Manual/static-batching-enable.html
+https://docs.unity3d.com/6000.3/Documentation/Manual/DrawCallBatching.html
+https://docs.unity3d.com/6000.3/Documentation/Manual/combining-meshes.html

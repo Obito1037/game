@@ -1,0 +1,40 @@
+world-v6 世界美术候选接入说明
+
+范围与来源
+独立生成脚本 art/blender/build_island_v6.py；本目录为新候选，未覆盖 world-v5 或 Unity 资源。
+所有形体、顶点颜色由本地 Blender Python 原创生成，没有下载模型或新增贴图。
+总三角 412,815，预算 450,000；29 meshes，数量与上一版一致。
+
+保持的内容
+14 个锚点、Island_Meadow 地面、Garden_Walkways 步石、Observatory_StoneAndBrass 观星台，以及其余非目标网格，均在回读中与 world-v5-r1 做几何/材质指纹对照。
+观星台现有 0.305 m 分离碰撞逻辑依然适用；本次未修改其任何顶点或材质分配。
+原地表两张 2K PNG 与 world-v5 字节一致，无需重新导入。
+所有新草叶与岩石几何改变均不修改可行走表面。4 块岩石的中心仍保持原位置，并继续留出路径净空。
+
+岩石
+Garden_HeroBoulders：20,480 三角，仍为 1 个 renderer / 2 个材质槽。
+新材质名 BI_rock_hero_warm、BI_rock_hero_slate，分别替代此 mesh 原先使用的 BI_stone_path_warm/slate；其他步石继续使用原材质。
+均匀三角拓扑承载不对称大切面、圆钝交界、有方向的浅侵蚀沟槽与低幅多尺度起伏，避免原先球面/薄块的均匀光滑轮廓。
+BL_FoliageTint 顶点 RGB 作为线性颜色乘数，范围约 0.562–0.973，包含连续矿物深浅、沟槽暗部及非常轻微的软苔藓色；没有 BI_moss 硬色块。
+Unity 只需为这两个 hero 材质启用 root 新增的 PaintedTinted / 顶点色关键词，其余 PaintedSurface 石材保持原逻辑。
+碰撞继续使用 Garden_HeroBoulders 的实际 mesh、layer 9；边界详见 asset-manifest.json 的 hero_boulders。
+
+草叶
+Garden_GrassTufts：215,804 三角。短叶为 7 个共享顶点 / 5 个三角，弯曲、逐渐收尖；长叶为连续共享环顶点的纤细扭转条带。
+叶内平滑法线，不是逐面复制顶点；每片独立小叶的顶点数天然可能高于三角数，三格式实际计数见验证报告 topology。
+短草按空间场产生不同高度和局部密度；首次过稀预览后只回调一次叶宽与簇保留率，保留疏密层次及路径开阔区域。
+Garden_CreepingMeadowLeaves：31,984 三角。保持低伏层，轮廓从尖锐四片菱形改为八三角的圆润卵形，沿浅叶脉弯折。
+现有 BI_leaf* 材质名与草叶顶点色契约不变，继续使用 FoliageTinted。
+岩石范围内植物按真实 BVH 垂直投影加 6 mm 余量局部清理；回读分别确认剩余植物顶点命中数为 0。
+
+交换格式与验证
+FBX 显式导出 LINEAR 顶点颜色；GLB 为线性 normalized UINT16 COLOR_0。原始 GLB accessor 数值误差 <0.00004。
+Blender 的 GLB 导入器将 COLOR_0 再保存为 BYTE_COLOR，因此回读颜色另允许约 0.0045 的 8-bit 舍入；FBX 仍要求精确保留。
+verify_world_v6.py 在三个独立场景回读 BLEND/FBX/GLB，检查三角预算、名字/UV、有限顶点、14 锚点、步石高度/顶面法线、0 零面积/0 重复三角、原地表纹理、冻结网格指纹和顶点色。
+interchange-verification.json 为当前验证依据，asset-manifest.json 为源资产与 hash 依据。
+预览仅为 512px、6 samples、CPU Blender 小样。岩石在正面柔光下仍偏柔和，按主线程要求先在 Unity 方向光与新顶点色下实机比较，不继续根据小样盲目加噪。
+
+冻结模型 SHA256
+island.blend  610c7caba9991648cc06e7442e62eb50964f44794ded3bc9f885f289b01a8206
+island.fbx    37c8534ba4db23f6ff06773c1799759fa6f2ed9a32e12d8927b6e5a855ddf87f
+island.glb    32825f24a0937d9cbb1b4b1fb363a8e12bd331519e4ad031a5995a5e72dc486c

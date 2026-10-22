@@ -1,0 +1,23 @@
+{
+  "purpose": "v9 face study baseline using released character-v7/world-v7 assets plus opt-in FaceStudy diagnostic. Not a released v9 Player.",
+  "build": {
+    "status": "completed",
+    "buildId": "build_0d201f7e94bf",
+    "result": "Succeeded",
+    "platform": "StandaloneWindows64",
+    "outputPath": "C:/Users/20665/Desktop/game/builds/candidates/v9-face-baseline/windows/BorrowedLight.exe",
+    "totalSizeBytes": 157008185,
+    "buildTimeMs": 12681,
+    "totalErrors": 0,
+    "totalWarnings": 1,
+    "warnings": [
+      {
+        "message": "Pipeline: No RuntimePipelineConfig asset found (Project Settings > Pipeline > Runtime). Pipeline will be disabled in Player builds."
+      }
+    ],
+    "errors": []
+  },
+  "evidence": "v9-face-study-baseline/face-study.json",
+  "sourceCharacterSHA256": "CC87EA03F46CA44CB83F082A8B529E1D93EF118E22BE1D0B7C93ECB9B8094C0D",
+  "sourceWorldSHA256": "91C6D643698C414D0582D86AA42EBFAA1E470124DDDD7FAA7852860877806F64"
+}

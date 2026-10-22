@@ -1,0 +1,23 @@
+{
+  "date": "2026-10-21",
+  "checks": {
+    "PaintedSurface": {"supported": true, "shaderMessages": []},
+    "FoliagePaint": {"supported": true, "shaderMessages": [], "srpBatcherCompatibilityCode": 0, "srpBatcherReason": "OK ()"},
+    "editorRuntimeFoliageMaterialCount": 11,
+    "editorRuntimeMissingOrErrorMaterials": 0,
+    "pcPipelineOpaqueTexture": false
+  },
+  "changes": [
+    "Move the existing foliage wind, normals and BlinnPhong lighting into a fixed shader; preserve all vegetation and official auxiliary passes.",
+    "Remove now-unused foliage branches from the solid-surface shader.",
+    "Disable the opaque color copy: no project shader samples CameraOpaqueTexture, and the only renderer feature is SSAO.",
+    "Use subtle derivative-filtered fabric weave; the coarse candidate from run-012-v5 was rejected and corrected in run-013-v5."
+  ],
+  "limitations": [
+    "The old mixed shader returned SRP code 1, Not initialized; this does not prove incompatibility.",
+    "The diagnostic draw-omission experiment is not a measurement of the shipping shader speedup.",
+    "Final performance is recorded in the actual native and browser runtime results, with the new character included."
+  ],
+  "diagnosticEvidence": "web-v4-profile-confirmed/analysis.zh-CN.txt",
+  "nativeVisualEvidence": "run-013-v5/09-traveler-portrait.png"
+}

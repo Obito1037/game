@@ -1,0 +1,9 @@
+# Preserve exact bytes: production manifests include SHA-256 source hashes.
+* -text
+*.cs diff=csharp
+
+# Editable 3D sources and interchange assets use Git LFS.
+*.blend filter=lfs diff=lfs merge=lfs -text
+*.fbx filter=lfs diff=lfs merge=lfs -text
+*.glb filter=lfs diff=lfs merge=lfs -text
+*.otf filter=lfs diff=lfs merge=lfs -text

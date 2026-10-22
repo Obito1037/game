@@ -1,0 +1,9 @@
+{
+  "pid": 15988,
+  "startedAt": "2026-10-21T14:02:29.8545381+08:00",
+  "port": 8780,
+  "root": "C:\\Users\\20665\\Desktop\\game\\builds\\candidates\\v13\\web",
+  "executable": "D:\\node\\node.exe",
+  "script": "C:\\Users\\20665\\Desktop\\game\\tools\\serve-game.cjs",
+  "stoppedAtUTC": "2026-10-21T06:16:22.0284796Z"
+}

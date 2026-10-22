@@ -1,0 +1,82 @@
+{
+  "project": "Borrowed Light / 借光岛",
+  "objective": "制作基于 Blender 的高质量可玩游戏，参考 littleprince.dev；完整验收目标是整体视觉体验比参考站更惊艳。目前此审美目标尚未达成。",
+  "reference": {
+    "url": "https://littleprince.dev/",
+    "authorPost": "https://x.com/Saccc_c/status/2110694725640474759",
+    "originalArticle": "https://x.com/i/article/2110601994578866176",
+    "captureMethod": "Isolated Edge session, 1440x900, actual entry / chapter menu / chapter-one gameplay",
+    "screenshots": [
+      "reference/littleprince-entry.png",
+      "reference/littleprince-started.png",
+      "reference/littleprince-gameplay.png"
+    ],
+    "sourceAssetReuse": false
+  },
+  "authoring": {
+    "scene": "generated/world-v5/island.blend",
+    "sceneScript": "blender/build_island_v5.py",
+    "character": "generated/character-v5/traveler.blend",
+    "characterScript": "blender/build_traveler_rigged.py",
+    "audioScript": "blender/build_audio.py",
+    "engine": "Unity 6000.3.26f1 / URP",
+    "primaryScene": "GameProject/Assets/BorrowedLight/Scenes/BorrowedLight.unity"
+  },
+  "resources": [
+    {
+      "name": "Island and traveler models",
+      "source": "Locally authored Blender Python geometry",
+      "type": "original AI-assisted production"
+    },
+    {
+      "name": "Meadow watercolor texture",
+      "source": "Local Blender production",
+      "type": "original AI-assisted production"
+    },
+    {
+      "name": "Night Letters score and lantern chime",
+      "source": "Original additive synthesis; no sampled recordings",
+      "type": "original AI-assisted production"
+    },
+    {
+      "name": "Watercolor nebula sky",
+      "source": "Built-in image_gen; prompt, SHA256 and provenance in generated/sky/manifest.json",
+      "type": "original AI-generated bitmap"
+    },
+    {
+      "name": "Weathered wood, mossy stone, plaster and tiles",
+      "source": "Original world-coordinate procedural PBR shader, using official URP lighting",
+      "type": "original AI-assisted production"
+    },
+    {
+      "name": "Noto Serif CJK SC",
+      "source": "https://github.com/notofonts/noto-cjk",
+      "license": "SIL Open Font License 1.1",
+      "licenseFile": "GameProject/Assets/BorrowedLight/Resources/Fonts/LICENSE.txt",
+      "modification": "Renamed subset: BorrowedLight Story Serif; 247920 bytes; canonical full source retained; tools/font-subset/build_subset.py; OFL and SUBSET-NOTICE included."
+    }
+  ],
+  "verification": {
+    "blenderInterchange": "generated/world-v5/interchange-verification.json: world-v5-r1 BLEND/FBX/GLB passed; 325264 triangles, 29 meshes, 14 unchanged anchors. Local boulder intersection cleanup preserves all remaining vertex positions and colors; ground texture hashes unchanged.",
+    "characterRoundTrip": "generated/character-v5/frozen-export-verification.json: FBX/GLB passed, 53956 triangles, 62 renderers including 28 skinned meshes, 4 armatures / 12 bones. Native Blender rig; 144 evaluated sole poses checked separately in gait-verification.json.",
+    "purePuzzleRules": "independently checked by gameplay implementation agent",
+    "windowsRuntime": "verification/run-016-v6/runtime-results.json: all functional checks passed; real movement 2.286m, cabin/boulder collision, walkway and observatory grounding, and central instrument collision verified. Two actual Unity-skinned soles: 220 idle-pose ground samples, minimum clearance 0.001412m. 1440x900 Iris Xe short samples: menu 57.3, overview 52.7, walking 41.6, portrait 60 FPS; final-view 43.7. Prior pre-fix run-015-v6 walking was 57.9; variation is observed, cause not established. Idle sole samples do not verify every moving pose.",
+    "webRuntime": "verification/web-006-v6/runtime-results.json: real-keyboard completion, reload persistence, walking, ending return and default audio policy passed. Foreground 1440x900 Iris Xe interval-FPS medians: menu 38.53, ending 43.88, walking 29.00. Previous pre-fix web-005-v6 walking was 34.63; variation is observed, cause not established. No captured browser exceptions; hidden-shader, INVALID_ENUM and sound-loading engine diagnostics remain. Rolling averages include earlier views and are not current-view measurements. Actual served payload identity is recorded in web-006-v6/build-evidence.json.",
+    "finalVisualComparison": "verification/visual-review.html uses run-016-v6 native captures, original reference images, and v5/run-013-v5 comparison. Shallow crowned stepping stones, foreground boulders and subtle leaf gradients add depth; intersecting plants and hard moss patches were corrected. Character skin, fabric folds and rock detail remain simpler than the reference. Pre-fix gait found observatory penetration; native collider checks now pass. Fixed browser gait screenshots 07/08/09 show supported shoes on the platform during ascent and after stopping; different route timings prevent exact-pose comparison. Static samples and one video route do not verify every moving pose. The overall aesthetic objective is not yet achieved.",
+    "shaderChecks": "verification/v6-integration-checks.json; tinted FoliagePaint compiled, all 29 imported island meshes retain vertex colors, 27 renderers are in static batches. GPU profile in verification/web-v6-gpu-profile/ belongs to the pre-collider-fix build_1d3e76e5b3ab: about 1030 draws/frame versus v5 about 1116, no clear walking FPS gain. Different speed, endpoint, world and rig prevent attributing the entire change to batching; this GPU profile was not repeated after the collider-only fix.",
+    "browserGait": "verification/web-v6-gait-fixed/capture-manifest.json and build-evidence.json identify actual-keyboard recording of build_d4eac3ac8c31. Separate video capture is visual evidence, not an FPS benchmark. Main route shows platform ascent and planted feet. An additional observatory-contact/capture-manifest.json records a frontal W approach, another 1.6 seconds of W, unchanged stopped position, and a side view outside the instrument; it supports blocking on this tested approach without game-state injection. It does not verify every possible route or moving pose."
+  },
+  "buildIds": {
+    "web": "build_d4eac3ac8c31",
+    "windows": "build_9f6d972e72eb"
+  },
+  "disclosure": "../AI-使用与素材来源.zh-CN.txt",
+  "geometry": {
+    "travelerFbxSHA256": "60A8C0B5DF7DE6FBDD9F09BFA2931FD462BC538E50AD54E33370724C7E58D25E",
+    "travelerTriangles": 53956,
+    "travelerSkinnedMeshes": 28,
+    "worldFbxSHA256": "2CB1F0F6810517864231998F464B4681AA7A63F3B6C806239905BB67D004C762",
+    "islandTriangles": 325264
+  },
+  "themeSources": "reference/dark-sky-theme-sources.zh-CN.txt"
+}

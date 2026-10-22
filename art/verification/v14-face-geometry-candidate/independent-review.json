@@ -1,0 +1,57 @@
+{
+  "reviewed": true,
+  "isReleaseDecision": false,
+  "aestheticObjectiveAchieved": false,
+  "acceptedForLimitedStaticScope": true,
+  "baselineCharacter": "character-v9",
+  "candidateCharacter": "character-v11",
+  "scope": "亲看四组、共八张1440×900固定实机原图；仅评价这些静态机位与闭眼终点，不代表正常玩法、动态眨眼、性能或发布验收。",
+  "observedImages": [
+    "art/verification/v14-face-geometry-baseline/01-front-open.png",
+    "art/verification/v14-face-geometry-candidate/01-front-open.png",
+    "art/verification/v14-face-geometry-baseline/02-three-quarter-open.png",
+    "art/verification/v14-face-geometry-candidate/02-three-quarter-open.png",
+    "art/verification/v14-face-geometry-baseline/03-side-open.png",
+    "art/verification/v14-face-geometry-candidate/03-side-open.png",
+    "art/verification/v14-face-geometry-baseline/04-front-closed.png",
+    "art/verification/v14-face-geometry-candidate/04-front-closed.png"
+  ],
+  "summary": "支持v11相对v9的有限静态采用，收益在实机中可见：头顶不再是高耸散开的粗束，侧扫发团更统一，眼形与虹膜更清楚，侧面减少突兀翘顶和裸露底帽；闭眼终点未见露白或瞳孔残留。仍未达到最终审美目标，正常QA和动态表现需另外判断。",
+  "views": [
+    {
+      "view": "front-open",
+      "judgment": "改善，值得有限采用",
+      "evidence": "头发外轮廓降低，侧扫方向连续，额头不再被多根粗尖束分割。扩大后的眼形和虹膜更清楚。画面左侧鼻旁至面颊的灰区较柔，脸部整体更整洁。",
+      "remaining": "左侧灰暗区域仍在，鼻下和下脸依然偏暖亮。较大的眼睛与浅眼睑仍有固定凝视感；鼻口细节弱，脸部仍像均匀光滑的玩偶。"
+    },
+    {
+      "view": "three-quarter-open",
+      "judgment": "改善",
+      "evidence": "基线顶部与耳后的多根孤立粗束变成连贯的头形，眼睛在转角下仍清楚，额角轮廓更集中，未见此机位出现v10预览中的耳上缺口。",
+      "remaining": "额角分束尖端较硬，头发表面多条相似沟槽形成重复条纹；眼睑厚度和眼窝层次仍浅。鼻尖亮区及下脸黄亮感没有消失。"
+    },
+    {
+      "view": "side-open",
+      "judgment": "轮廓改善最明显，侧后细节仍粗",
+      "evidence": "基线向上悬起的顶发与大片帽状底层明显减轻，顶发至后脑形成较连续的圆弧，耳上覆盖更完整。",
+      "remaining": "耳上和侧后仍是较宽的硬发片，下缘有重复尖齿，后脑末端仍带薄片悬出感。此机位不是完整后视，不能据此证明后脑所有角度都自然或无穿插。"
+    },
+    {
+      "view": "front-closed",
+      "judgment": "闭眼静态终点可接受",
+      "evidence": "两眼都由完整肤色覆盖，仅留细闭眼线；所看原图未见眼白、虹膜或瞳孔露出。",
+      "remaining": "眼周仍有淡的椭圆覆盖区域，闭眼线与表面层次较薄。只看这一终点，不能确认闭合、睁开过程或转头时的衔接。"
+    }
+  ],
+  "remainingIssues": [
+    "头发重复沟槽与侧后宽片、尖齿下缘仍明显，整体还有雕刻塑料或头盔感。",
+    "眼形更清楚，但凝视感、浅眼睑与简化眼窝仍在，尚未验证动态表情。",
+    "面颊暗区仅有所缓和，左右明暗差、鼻尖亮斑及下脸暖亮仍在；没有证明整体角色质感或整体画面超过参考。"
+  ],
+  "limits": [
+    "未查看第五张front-open-repeat，未把四组图评扩展为重复稳定性验证。",
+    "本轮采用判断不包含被拒绝的抬高补光方案。",
+    "没有运行渲染、浏览器或GPU测试；没有把固定诊断截图当作正常玩法或性能证据。",
+    "正常机位、完整眨眼/转头、三格式回读及最终发布采用由各自证据和根代理另行决定。"
+  ]
+}

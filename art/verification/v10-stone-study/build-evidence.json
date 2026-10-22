@@ -1,0 +1,24 @@
+{
+  "buildId": "build_12ece9a72204",
+  "playerDirectory": "C:\\Users\\20665\\Desktop\\game\\builds\\candidates\\v10-stone-study",
+  "capturedBeforeLaunchUtc": "2026-10-21T01:50:39.4208395Z",
+  "files": [
+    {
+      "name": "BorrowedLight.exe",
+      "sha256": "EB143EAD6441B6DD9D7D145ADB85410E9389FB3878899AE537E8C9869CCE38FA"
+    },
+    {
+      "name": "UnityPlayer.dll",
+      "sha256": "851DA827899734E8B3D56F7E4DBBD58210E58E4DAEF504E6B7472B9EE503914B"
+    },
+    {
+      "name": "BorrowedLight_Data/resources.assets",
+      "sha256": "80BBA2CC977C49A49575CABE84534FDA235CE63A56DC1D345CAF54EA36D01113"
+    },
+    {
+      "name": "BorrowedLight_Data/Managed/Assembly-CSharp.dll",
+      "sha256": "A12037B0B2BBC8611DCC283FFFF2EC03DCA2EF4E4FAC2038F7D8467496722F71"
+    }
+  ],
+  "scope": "Read-only hashes of the player files immediately before launching this QA session. Runtime acceptance is recorded separately."
+}

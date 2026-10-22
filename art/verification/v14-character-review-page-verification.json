@@ -1,0 +1,151 @@
+{
+  "passed": true,
+  "page": "visual-review-v14-character.html",
+  "localLinksChecked": 31,
+  "missingLocalLinks": [],
+  "imagesChecked": 17,
+  "videosChecked": 0,
+  "dialogOpened": true,
+  "errors": [],
+  "title": "借光岛 · v14 角色候选实机对照",
+  "images": [
+    {
+      "src": "run-034-v14/09-traveler-portrait.png",
+      "complete": true,
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "src": "run-035-v14/09-traveler-portrait.png",
+      "complete": true,
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "src": "v14-face-balance/front-baseline.png",
+      "complete": true,
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "src": "v14-face-balance/front-balanced.png",
+      "complete": true,
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "src": "run-033-v13/09-traveler-portrait.png",
+      "complete": true,
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "src": "run-034-v14/09-traveler-portrait.png",
+      "complete": true,
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "src": "v14-face-geometry-baseline/01-front-open.png",
+      "complete": true,
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "src": "v14-face-geometry-candidate/01-front-open.png",
+      "complete": true,
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "src": "v14-face-geometry-baseline/02-three-quarter-open.png",
+      "complete": true,
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "src": "v14-face-geometry-candidate/02-three-quarter-open.png",
+      "complete": true,
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "src": "v14-face-geometry-baseline/03-side-open.png",
+      "complete": true,
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "src": "v14-face-geometry-candidate/03-side-open.png",
+      "complete": true,
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "src": "v14-face-geometry-baseline/04-front-closed.png",
+      "complete": true,
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "src": "v14-face-geometry-candidate/04-front-closed.png",
+      "complete": true,
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "src": "run-033-v13/07-walking.png",
+      "complete": true,
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "src": "run-034-v14/07-walking.png",
+      "complete": true,
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "src": "../reference/littleprince-gameplay.png",
+      "complete": true,
+      "width": 1440,
+      "height": 900
+    }
+  ],
+  "videos": [],
+  "links": [
+    "file:///C:/Users/20665/Desktop/game/art/verification/run-035-v14/runtime-results.json",
+    "file:///C:/Users/20665/Desktop/game/art/verification/v14-face-balance/decision.json",
+    "file:///C:/Users/20665/Desktop/game/art/verification/v14-face-balance/independent-review.json",
+    "file:///C:/Users/20665/Desktop/game/art/verification/v14-face-balance/face-light-study.json",
+    "file:///C:/Users/20665/Desktop/game/art/verification/run-034-v14/09-traveler-portrait.png",
+    "file:///C:/Users/20665/Desktop/game/art/verification/run-035-v14/09-traveler-portrait.png",
+    "file:///C:/Users/20665/Desktop/game/art/verification/v14-face-balance/front-baseline.png",
+    "file:///C:/Users/20665/Desktop/game/art/verification/v14-face-balance/front-balanced.png",
+    "file:///C:/Users/20665/Desktop/game/art/verification/run-034-v14/runtime-results.json",
+    "file:///C:/Users/20665/Desktop/game/art/verification/v14-face-geometry-candidate/capture-condition-comparison.json",
+    "file:///C:/Users/20665/Desktop/game/art/verification/v14-face-geometry-candidate/decision.json",
+    "file:///C:/Users/20665/Desktop/game/art/verification/v14-face-geometry-candidate/independent-review.json",
+    "file:///C:/Users/20665/Desktop/game/art/verification/visual-review.html",
+    "file:///C:/Users/20665/Desktop/game/art/verification/run-033-v13/09-traveler-portrait.png",
+    "file:///C:/Users/20665/Desktop/game/art/verification/run-034-v14/09-traveler-portrait.png",
+    "file:///C:/Users/20665/Desktop/game/art/verification/v14-face-geometry-baseline/01-front-open.png",
+    "file:///C:/Users/20665/Desktop/game/art/verification/v14-face-geometry-candidate/01-front-open.png",
+    "file:///C:/Users/20665/Desktop/game/art/verification/v14-face-geometry-baseline/02-three-quarter-open.png",
+    "file:///C:/Users/20665/Desktop/game/art/verification/v14-face-geometry-candidate/02-three-quarter-open.png",
+    "file:///C:/Users/20665/Desktop/game/art/verification/v14-face-geometry-baseline/03-side-open.png",
+    "file:///C:/Users/20665/Desktop/game/art/verification/v14-face-geometry-candidate/03-side-open.png",
+    "file:///C:/Users/20665/Desktop/game/art/verification/v14-face-geometry-baseline/04-front-closed.png",
+    "file:///C:/Users/20665/Desktop/game/art/verification/v14-face-geometry-candidate/04-front-closed.png",
+    "file:///C:/Users/20665/Desktop/game/art/verification/run-033-v13/07-walking.png",
+    "file:///C:/Users/20665/Desktop/game/art/verification/run-034-v14/07-walking.png",
+    "file:///C:/Users/20665/Desktop/game/art/reference/littleprince-gameplay.png",
+    "file:///C:/Users/20665/Desktop/game/art/generated/character-v10/candidate-three-quarter.png",
+    "file:///C:/Users/20665/Desktop/game/art/generated/character-v11/candidate-manifest.json",
+    "file:///C:/Users/20665/Desktop/game/art/verification/v14-character-v11-fbx/fbx-readback.json",
+    "file:///C:/Users/20665/Desktop/game/art/verification/v14-character-v11-unity-import.json",
+    "file:///C:/Users/20665/Desktop/game/art/verification/v14-character-v11-build.json",
+    "file:///C:/Users/20665/Desktop/game/art/verification/v14-face-light-position-refined/decision.json"
+  ],
+  "overflow": false
+}

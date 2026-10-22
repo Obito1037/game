@@ -1,0 +1,38 @@
+world-v5-r1 接入说明
+
+来源与所有权
+生成脚本：art/blender/build_island_v5.py，独立复制自 world-v4-r1 生成脚本。
+当前目录包含新版本资产；world-v4、原 build_island.py、Unity Resources 均未由本任务覆盖。
+此处模型、几何起伏与顶点颜色均由本地 Blender Python 原创生成，无下载模型或新贴图。
+
+几何
+总三角：325,264，预算 400,000；v4-r1 为 325,579，净减少 315。相较清理前 world-v5 减少 5,380 个被新石头遮挡/穿插的植物三角。
+Garden_Walkways：1,908 三角（原 1,418），保留每块石头位置和尺寸，使用共享顶点的低弧顶与双层磨损肩部。
+Garden_HeroBoulders：4,608 三角，4 块石头合并为一个 mesh / renderer，2 个现有材质槽：BI_stone_path_warm、BI_stone_path_slate。仅将此前硬边 BI_moss 面分配回对应石材，石头几何不变，由 Unity PaintedSurface 提供柔和程序苔藓。
+4 块石头均在现有路径外，建议此单一 mesh 加 MeshCollider，放到现有 obstacle layer 9，让角色与镜头按既有逻辑避让。
+精确 Unity 坐标包围盒记录在 asset-manifest.json 的 hero_boulders 内。它们距路径中心线的保守净空最小 0.6135 m。
+14 个灯、目标、房屋、观星台、出生点锚点保持不变；未改网格每个保留顶点的位置也与 v4 相同。
+只清理真实 HeroBoulders 几何垂直投影及 6 mm 边缘余量中的连通植物小组件：草叶 3,843、地被 296、蕨叶 464、薰衣草 414、野花 363 三角，共 5,380 三角。6 mm 余量用于覆盖非平面四边形在 GLB/Unity 三角化后的微小轮廓差异。原随机序列完整执行，删除发生在颜色生成之后，因此区域外植物位置与已有顶点色不漂移。
+地表两张 2K 纹理与 v4 字节一致，不必重新导入。
+原 Garden_Wildflowers 存在 33 个重叠重复三角（并非零面积三角），GLB 导入器原本会隐式移除；此版本预先移除，使 BLEND/FBX/GLB 三角数一致。
+
+顶点色
+所有 mesh 都有 BL_FoliageTint，Blender FLOAT_COLOR / CORNER；普通网格为白色。
+Garden_GrassTufts、Garden_CreepingMeadowLeaves、Garden_FeatherFerns 的每个连通叶片由根部约 0.78 过渡到尖部接近 1.0，RGB 是乘现有材质颜色的线性系数，alpha 为 1。
+FBX 使用 colors_type=LINEAR，回读 colors_type=LINEAR 时浮点颜色精确保留。
+GLB 的 COLOR_0 是线性 normalized UINT16，原始 accessor 回读误差低于 0.00004。Blender 4.5 GLB importer 另将其转换到 BYTE_COLOR，引入约 0.0035 的舍入；这是导入器 8-bit sRGB 存储舍入，不是导出伽马改变。
+Unity FoliagePaint 顶点输入读取 COLOR，并传递给片元端乘到原始 albedo。由 root 按编译期开关启用；旧模型仍走原画面。
+不需新增材质。草叶材料仍沿用 BI_leaf*；其他物体的白色通道不改变颜色。
+
+验证与预览
+verify_world_v5.py 在独立空场景分别回读 .blend/.fbx/.glb，检查预算、mesh 名、UV、有限顶点、14 锚点、步石高度与顶面法线、0 零面积三角、0 重复三角和颜色数值。
+interchange-verification.json 保存每项结果和实际资产 SHA256；另检查实际新石头投影内剩余植物顶点为 0、石头无 BI_moss 槽，并对照 cleanup-baseline.blend 核对所有保留顶点位置和颜色不变。
+blender-ground-closeup.png 与 v4 同机位、同光照、同 12 samples，便于观察石头和草叶变化。
+blender-path-context.png 是路径方向的补充视角。二者只证明 Blender 预览；最终材质、碰撞、光照和性能仍需 Unity 实机验证。
+石头表面在 Blender 中只显示基础颜色，Unity PaintedSurface 才提供运行时石材纹理。此次 r1 专门处理 run-014-v6 实机发现的穿出花头和硬边苔藓，未继续微调石形、路径或锚点。
+
+最终冻结 SHA256
+island.blend  73b677ccc362551837f2fc43c5dde02ce41004f8c00d5908800e806bc9968b6b
+island.fbx    2cb1f0f6810517864231998f464b4681aa7a63f3b6c806239905bb67d004c762
+island.glb    e81c8d456aacd66e67c5199e6e1810b0ed33558617c45c049d539b505b9198bf
+world-v4/island.fbx 仍为 5dff3b73a52566855ffa4e2c1287ed0d692166da8c0a9195cd528d23b2983e14，可原样回退。

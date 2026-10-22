@@ -1,0 +1,924 @@
+{
+    "purpose": "Ground-only fixed path/roots/lamp A/B/normal-only/A study. Frozen bind pose and time; NOT normal gameplay, FPS or release acceptance.",
+    "stagingOnly": true,
+    "allInvariantsPassed": true,
+    "rendererName": "Island_Meadow",
+    "meshName": "Combined Mesh (root: The island that borrowed all the light)",
+    "detailResource": "Textures/GroundDetailV12",
+    "originalSHA256": "483D36A325CA6B05BBB8580DD3E238AF866F331D762976CB0064569FD7925F1B",
+    "variants": [
+        "baseline",
+        "detail",
+        "normal-only",
+        "baseline-repeat"
+    ],
+    "screenWidth": 1440,
+    "screenHeight": 900,
+    "meshVertexCount": 22140,
+    "frozenTime": 0.0,
+    "night": 1.0,
+    "tileMetres": 1.7999999523162842,
+    "detailStrength": 0.550000011920929,
+    "authoredLinearLuminanceMean": 0.15805805065816778,
+    "clampedRatioMean": 0.9620164207456156,
+    "baseMap": {
+        "name": "Meadow",
+        "format": "DXT1",
+        "graphicsFormat": "RGBA_DXT1_SRGB",
+        "width": 2048,
+        "height": 2048,
+        "mipCount": 12,
+        "aniso": 1,
+        "filter": "Bilinear",
+        "wrap": "Repeat"
+    },
+    "baseNormal": {
+        "name": "MeadowNormal",
+        "format": "DXT5",
+        "graphicsFormat": "RGBA_DXT5_UNorm",
+        "width": 2048,
+        "height": 2048,
+        "mipCount": 12,
+        "aniso": 4,
+        "filter": "Trilinear",
+        "wrap": "Repeat"
+    },
+    "detailMap": {
+        "name": "GroundDetailV12",
+        "format": "RGBA32",
+        "graphicsFormat": "R8G8B8A8_SRGB",
+        "width": 1254,
+        "height": 1254,
+        "mipCount": 11,
+        "aniso": 4,
+        "filter": "Trilinear",
+        "wrap": "Repeat"
+    },
+    "lights": [
+        {
+            "name": "Warmth from lamp 2",
+            "type": "Point",
+            "position": {
+                "x": 4.699999809265137,
+                "y": 2.049999952316284,
+                "z": -2.4000000953674318
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "color": {
+                "r": 1.0,
+                "g": 0.6600000262260437,
+                "b": 0.28999999165534975,
+                "a": 1.0
+            },
+            "intensity": 2.0999999046325685,
+            "range": 5.0
+        },
+        {
+            "name": "Warmth from lamp 0",
+            "type": "Point",
+            "position": {
+                "x": -4.5,
+                "y": 2.049999952316284,
+                "z": -2.0
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "color": {
+                "r": 1.0,
+                "g": 0.6600000262260437,
+                "b": 0.28999999165534975,
+                "a": 1.0
+            },
+            "intensity": 2.0999999046325685,
+            "range": 5.0
+        },
+        {
+            "name": "Blue hour",
+            "type": "Directional",
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.07301944494247437,
+                "y": 0.9069052934646606,
+                "z": -0.1762845367193222,
+                "w": 0.3756524622440338
+            },
+            "color": {
+                "r": 0.3199999928474426,
+                "g": 0.5699999928474426,
+                "b": 0.8500000238418579,
+                "a": 1.0
+            },
+            "intensity": 0.3499999940395355,
+            "range": 5.0
+        },
+        {
+            "name": "The light we carry",
+            "type": "Point",
+            "position": {
+                "x": -0.2401200532913208,
+                "y": 0.7440321445465088,
+                "z": -3.240600109100342
+            },
+            "rotation": {
+                "x": 0.70710688829422,
+                "y": -5.2683560625155226e-8,
+                "z": 1.053671638828746e-8,
+                "w": -0.7071066498756409
+            },
+            "color": {
+                "r": 1.0,
+                "g": 0.699999988079071,
+                "b": 0.38999998569488528,
+                "a": 1.0
+            },
+            "intensity": 0.5199999809265137,
+            "range": 2.200000047683716
+        },
+        {
+            "name": "The warmth of remembered stories",
+            "type": "Directional",
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.1884319931268692,
+                "y": 0.4133830666542053,
+                "z": -0.08786728233098984,
+                "w": 0.8865028023719788
+            },
+            "color": {
+                "r": 1.0,
+                "g": 0.878000020980835,
+                "b": 0.7409999966621399,
+                "a": 1.0
+            },
+            "intensity": 0.18000000715255738,
+            "range": 5.0
+        },
+        {
+            "name": "A place that needs light 2",
+            "type": "Point",
+            "position": {
+                "x": -4.099999904632568,
+                "y": 2.200000047683716,
+                "z": 3.049999952316284
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "color": {
+                "r": 1.0,
+                "g": 0.7099999785423279,
+                "b": 0.38999998569488528,
+                "a": 1.0
+            },
+            "intensity": 1.600000023841858,
+            "range": 2.5
+        },
+        {
+            "name": "A place that needs light 0",
+            "type": "Point",
+            "position": {
+                "x": -1.7999999523162842,
+                "y": 0.6800000071525574,
+                "z": -3.200000047683716
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "color": {
+                "r": 1.0,
+                "g": 0.7099999785423279,
+                "b": 0.38999998569488528,
+                "a": 1.0
+            },
+            "intensity": 1.600000023841858,
+            "range": 3.5
+        },
+        {
+            "name": "A place that needs light 3",
+            "type": "Point",
+            "position": {
+                "x": 6.900000095367432,
+                "y": 0.7200000286102295,
+                "z": -3.3499999046325685
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "color": {
+                "r": 1.0,
+                "g": 0.7099999785423279,
+                "b": 0.38999998569488528,
+                "a": 1.0
+            },
+            "intensity": 1.600000023841858,
+            "range": 3.5
+        },
+        {
+            "name": "Warmth from lamp 1",
+            "type": "Point",
+            "position": {
+                "x": 1.7999999523162842,
+                "y": 2.049999952316284,
+                "z": 3.4000000953674318
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "color": {
+                "r": 1.0,
+                "g": 0.6600000262260437,
+                "b": 0.28999999165534975,
+                "a": 1.0
+            },
+            "intensity": 2.0999999046325685,
+            "range": 5.0
+        },
+        {
+            "name": "A soft reflection on the traveler",
+            "type": "Point",
+            "position": {
+                "x": 0.0,
+                "y": 1.350000023841858,
+                "z": -2.75
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "color": {
+                "r": 1.0,
+                "g": 0.8799999952316284,
+                "b": 0.7400000095367432,
+                "a": 1.0
+            },
+            "intensity": 0.23000000417232514,
+            "range": 1.100000023841858
+        },
+        {
+            "name": "Someone is still awake",
+            "type": "Point",
+            "position": {
+                "x": -4.099999904632568,
+                "y": 2.299999952316284,
+                "z": 2.5999999046325685
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "color": {
+                "r": 1.0,
+                "g": 0.7200000286102295,
+                "b": 0.4000000059604645,
+                "a": 1.0
+            },
+            "intensity": 1.25,
+            "range": 4.5
+        },
+        {
+            "name": "A place that needs light 1",
+            "type": "Point",
+            "position": {
+                "x": -5.800000190734863,
+                "y": 0.7000000476837158,
+                "z": 0.15000000596046449
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "color": {
+                "r": 1.0,
+                "g": 0.7099999785423279,
+                "b": 0.38999998569488528,
+                "a": 1.0
+            },
+            "intensity": 1.600000023841858,
+            "range": 3.5
+        },
+        {
+            "name": "The light of the moon",
+            "type": "Directional",
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.3104998767375946,
+                "y": -0.28432294726371767,
+                "z": 0.09790023416280747,
+                "w": 0.9017571210861206
+            },
+            "color": {
+                "r": 0.7730000019073486,
+                "g": 0.8159999847412109,
+                "b": 0.8669999837875366,
+                "a": 1.0
+            },
+            "intensity": 0.6200000047683716,
+            "range": 5.0
+        }
+    ],
+    "views": [
+        {
+            "image": "path-baseline.png",
+            "variant": "baseline",
+            "materialName": "BI_grass — story light",
+            "shader": "Universal Render Pipeline/Lit",
+            "cameraPosition": {
+                "x": 0.0,
+                "y": 1.899999976158142,
+                "z": -8.100000381469727
+            },
+            "cameraRotation": {
+                "x": 0.12218326330184937,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 0.9925075769424439
+            },
+            "fieldOfView": 48.0,
+            "normalScale": 0.2199999988079071,
+            "detailStrength": 0.0,
+            "baseColor": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0,
+                "a": 1.0
+            },
+            "baseTiling": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "baseOffset": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "detailTiling": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "detailOffset": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "actualPNGWidth": 1440,
+            "actualPNGHeight": 900,
+            "sceneUnchanged": true,
+            "otherMaterialsUnchanged": true,
+            "baseTexturesUnchanged": true
+        },
+        {
+            "image": "path-detail.png",
+            "variant": "detail",
+            "materialName": "BI_grass — ground detail v12 diagnostic",
+            "shader": "BorrowedLight/GroundDetail",
+            "cameraPosition": {
+                "x": 0.0,
+                "y": 1.899999976158142,
+                "z": -8.100000381469727
+            },
+            "cameraRotation": {
+                "x": 0.12218326330184937,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 0.9925075769424439
+            },
+            "fieldOfView": 48.0,
+            "normalScale": 0.2199999988079071,
+            "detailStrength": 0.550000011920929,
+            "baseColor": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0,
+                "a": 1.0
+            },
+            "baseTiling": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "baseOffset": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "detailTiling": {
+                "x": 0.5555555820465088,
+                "y": 0.5555555820465088
+            },
+            "detailOffset": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "actualPNGWidth": 1440,
+            "actualPNGHeight": 900,
+            "sceneUnchanged": true,
+            "otherMaterialsUnchanged": true,
+            "baseTexturesUnchanged": true
+        },
+        {
+            "image": "path-normal-only.png",
+            "variant": "normal-only",
+            "materialName": "BI_grass — normal .65 diagnostic",
+            "shader": "Universal Render Pipeline/Lit",
+            "cameraPosition": {
+                "x": 0.0,
+                "y": 1.899999976158142,
+                "z": -8.100000381469727
+            },
+            "cameraRotation": {
+                "x": 0.12218326330184937,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 0.9925075769424439
+            },
+            "fieldOfView": 48.0,
+            "normalScale": 0.6499999761581421,
+            "detailStrength": 0.0,
+            "baseColor": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0,
+                "a": 1.0
+            },
+            "baseTiling": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "baseOffset": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "detailTiling": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "detailOffset": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "actualPNGWidth": 1440,
+            "actualPNGHeight": 900,
+            "sceneUnchanged": true,
+            "otherMaterialsUnchanged": true,
+            "baseTexturesUnchanged": true
+        },
+        {
+            "image": "path-baseline-repeat.png",
+            "variant": "baseline-repeat",
+            "materialName": "BI_grass — story light",
+            "shader": "Universal Render Pipeline/Lit",
+            "cameraPosition": {
+                "x": 0.0,
+                "y": 1.899999976158142,
+                "z": -8.100000381469727
+            },
+            "cameraRotation": {
+                "x": 0.12218326330184937,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 0.9925075769424439
+            },
+            "fieldOfView": 48.0,
+            "normalScale": 0.2199999988079071,
+            "detailStrength": 0.0,
+            "baseColor": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0,
+                "a": 1.0
+            },
+            "baseTiling": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "baseOffset": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "detailTiling": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "detailOffset": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "actualPNGWidth": 1440,
+            "actualPNGHeight": 900,
+            "sceneUnchanged": true,
+            "otherMaterialsUnchanged": true,
+            "baseTexturesUnchanged": true
+        },
+        {
+            "image": "roots-baseline.png",
+            "variant": "baseline",
+            "materialName": "BI_grass — story light",
+            "shader": "Universal Render Pipeline/Lit",
+            "cameraPosition": {
+                "x": 1.5499999523162842,
+                "y": 0.6499999761581421,
+                "z": -4.400000095367432
+            },
+            "cameraRotation": {
+                "x": 0.19850066304206849,
+                "y": -0.1946670413017273,
+                "z": 0.04026293382048607,
+                "w": 0.9597297310829163
+            },
+            "fieldOfView": 42.0,
+            "normalScale": 0.2199999988079071,
+            "detailStrength": 0.0,
+            "baseColor": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0,
+                "a": 1.0
+            },
+            "baseTiling": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "baseOffset": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "detailTiling": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "detailOffset": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "actualPNGWidth": 1440,
+            "actualPNGHeight": 900,
+            "sceneUnchanged": true,
+            "otherMaterialsUnchanged": true,
+            "baseTexturesUnchanged": true
+        },
+        {
+            "image": "roots-detail.png",
+            "variant": "detail",
+            "materialName": "BI_grass — ground detail v12 diagnostic",
+            "shader": "BorrowedLight/GroundDetail",
+            "cameraPosition": {
+                "x": 1.5499999523162842,
+                "y": 0.6499999761581421,
+                "z": -4.400000095367432
+            },
+            "cameraRotation": {
+                "x": 0.19850066304206849,
+                "y": -0.1946670413017273,
+                "z": 0.04026293382048607,
+                "w": 0.9597297310829163
+            },
+            "fieldOfView": 42.0,
+            "normalScale": 0.2199999988079071,
+            "detailStrength": 0.550000011920929,
+            "baseColor": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0,
+                "a": 1.0
+            },
+            "baseTiling": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "baseOffset": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "detailTiling": {
+                "x": 0.5555555820465088,
+                "y": 0.5555555820465088
+            },
+            "detailOffset": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "actualPNGWidth": 1440,
+            "actualPNGHeight": 900,
+            "sceneUnchanged": true,
+            "otherMaterialsUnchanged": true,
+            "baseTexturesUnchanged": true
+        },
+        {
+            "image": "roots-normal-only.png",
+            "variant": "normal-only",
+            "materialName": "BI_grass — normal .65 diagnostic",
+            "shader": "Universal Render Pipeline/Lit",
+            "cameraPosition": {
+                "x": 1.5499999523162842,
+                "y": 0.6499999761581421,
+                "z": -4.400000095367432
+            },
+            "cameraRotation": {
+                "x": 0.19850066304206849,
+                "y": -0.1946670413017273,
+                "z": 0.04026293382048607,
+                "w": 0.9597297310829163
+            },
+            "fieldOfView": 42.0,
+            "normalScale": 0.6499999761581421,
+            "detailStrength": 0.0,
+            "baseColor": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0,
+                "a": 1.0
+            },
+            "baseTiling": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "baseOffset": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "detailTiling": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "detailOffset": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "actualPNGWidth": 1440,
+            "actualPNGHeight": 900,
+            "sceneUnchanged": true,
+            "otherMaterialsUnchanged": true,
+            "baseTexturesUnchanged": true
+        },
+        {
+            "image": "roots-baseline-repeat.png",
+            "variant": "baseline-repeat",
+            "materialName": "BI_grass — story light",
+            "shader": "Universal Render Pipeline/Lit",
+            "cameraPosition": {
+                "x": 1.5499999523162842,
+                "y": 0.6499999761581421,
+                "z": -4.400000095367432
+            },
+            "cameraRotation": {
+                "x": 0.19850066304206849,
+                "y": -0.1946670413017273,
+                "z": 0.04026293382048607,
+                "w": 0.9597297310829163
+            },
+            "fieldOfView": 42.0,
+            "normalScale": 0.2199999988079071,
+            "detailStrength": 0.0,
+            "baseColor": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0,
+                "a": 1.0
+            },
+            "baseTiling": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "baseOffset": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "detailTiling": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "detailOffset": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "actualPNGWidth": 1440,
+            "actualPNGHeight": 900,
+            "sceneUnchanged": true,
+            "otherMaterialsUnchanged": true,
+            "baseTexturesUnchanged": true
+        },
+        {
+            "image": "lamp-baseline.png",
+            "variant": "baseline",
+            "materialName": "BI_grass — story light",
+            "shader": "Universal Render Pipeline/Lit",
+            "cameraPosition": {
+                "x": -3.3499999046325685,
+                "y": 0.6499999761581421,
+                "z": -3.200000047683716
+            },
+            "cameraRotation": {
+                "x": 0.2067367136478424,
+                "y": -0.3480522930622101,
+                "z": 0.0789867639541626,
+                "w": 0.910977840423584
+            },
+            "fieldOfView": 42.0,
+            "normalScale": 0.2199999988079071,
+            "detailStrength": 0.0,
+            "baseColor": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0,
+                "a": 1.0
+            },
+            "baseTiling": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "baseOffset": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "detailTiling": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "detailOffset": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "actualPNGWidth": 1440,
+            "actualPNGHeight": 900,
+            "sceneUnchanged": true,
+            "otherMaterialsUnchanged": true,
+            "baseTexturesUnchanged": true
+        },
+        {
+            "image": "lamp-detail.png",
+            "variant": "detail",
+            "materialName": "BI_grass — ground detail v12 diagnostic",
+            "shader": "BorrowedLight/GroundDetail",
+            "cameraPosition": {
+                "x": -3.3499999046325685,
+                "y": 0.6499999761581421,
+                "z": -3.200000047683716
+            },
+            "cameraRotation": {
+                "x": 0.2067367136478424,
+                "y": -0.3480522930622101,
+                "z": 0.0789867639541626,
+                "w": 0.910977840423584
+            },
+            "fieldOfView": 42.0,
+            "normalScale": 0.2199999988079071,
+            "detailStrength": 0.550000011920929,
+            "baseColor": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0,
+                "a": 1.0
+            },
+            "baseTiling": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "baseOffset": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "detailTiling": {
+                "x": 0.5555555820465088,
+                "y": 0.5555555820465088
+            },
+            "detailOffset": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "actualPNGWidth": 1440,
+            "actualPNGHeight": 900,
+            "sceneUnchanged": true,
+            "otherMaterialsUnchanged": true,
+            "baseTexturesUnchanged": true
+        },
+        {
+            "image": "lamp-normal-only.png",
+            "variant": "normal-only",
+            "materialName": "BI_grass — normal .65 diagnostic",
+            "shader": "Universal Render Pipeline/Lit",
+            "cameraPosition": {
+                "x": -3.3499999046325685,
+                "y": 0.6499999761581421,
+                "z": -3.200000047683716
+            },
+            "cameraRotation": {
+                "x": 0.2067367136478424,
+                "y": -0.3480522930622101,
+                "z": 0.0789867639541626,
+                "w": 0.910977840423584
+            },
+            "fieldOfView": 42.0,
+            "normalScale": 0.6499999761581421,
+            "detailStrength": 0.0,
+            "baseColor": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0,
+                "a": 1.0
+            },
+            "baseTiling": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "baseOffset": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "detailTiling": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "detailOffset": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "actualPNGWidth": 1440,
+            "actualPNGHeight": 900,
+            "sceneUnchanged": true,
+            "otherMaterialsUnchanged": true,
+            "baseTexturesUnchanged": true
+        },
+        {
+            "image": "lamp-baseline-repeat.png",
+            "variant": "baseline-repeat",
+            "materialName": "BI_grass — story light",
+            "shader": "Universal Render Pipeline/Lit",
+            "cameraPosition": {
+                "x": -3.3499999046325685,
+                "y": 0.6499999761581421,
+                "z": -3.200000047683716
+            },
+            "cameraRotation": {
+                "x": 0.2067367136478424,
+                "y": -0.3480522930622101,
+                "z": 0.0789867639541626,
+                "w": 0.910977840423584
+            },
+            "fieldOfView": 42.0,
+            "normalScale": 0.2199999988079071,
+            "detailStrength": 0.0,
+            "baseColor": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0,
+                "a": 1.0
+            },
+            "baseTiling": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "baseOffset": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "detailTiling": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "detailOffset": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "actualPNGWidth": 1440,
+            "actualPNGHeight": 900,
+            "sceneUnchanged": true,
+            "otherMaterialsUnchanged": true,
+            "baseTexturesUnchanged": true
+        }
+    ]
+}

@@ -1,0 +1,1704 @@
+{
+  "passed": true,
+  "scope": "Targeted v9/v11 same-format FBX body/rig/pivot protection, BLEND-to-FBX head shape/normal/material checks and actual imported FBX blink views. No GLB or normal-game acceptance.",
+  "pid": 53436,
+  "inputs": {
+    "art\\generated\\character-v9\\traveler.fbx": "70069f12265ef5c0b713a94ce2b20f3d305dde339fc8b2f0487c436091bb4d71",
+    "art\\generated\\character-v11\\traveler.fbx": "58e808f1aec15f3e960e96e57b9484284bf7b9b214de511d036c1567761b828b",
+    "art\\generated\\character-v11\\traveler.blend": "a707e934b666cd861d96ba3287b106aa60499aae0fda071dbbe4b7a66f97d18d"
+  },
+  "protectedMeshes": [
+    {
+      "mesh": "Arm_L_Cape_SeaMistBinding",
+      "allChannelsIdentical": true,
+      "channels": {
+        "coordinates": true,
+        "topology": true,
+        "normals": true,
+        "uv": true,
+        "colors": true,
+        "weights": true,
+        "material_names": true
+      },
+      "baselineSHA256": "8668296caeaa0a7cf66e607241708b09fff9ec3727a92d56c326d289efcdbdfe",
+      "candidateSHA256": "8668296caeaa0a7cf66e607241708b09fff9ec3727a92d56c326d289efcdbdfe"
+    },
+    {
+      "mesh": "Arm_L_Face_Fingernails",
+      "allChannelsIdentical": true,
+      "channels": {
+        "coordinates": true,
+        "topology": true,
+        "normals": true,
+        "uv": true,
+        "colors": true,
+        "weights": true,
+        "material_names": true
+      },
+      "baselineSHA256": "ce48769a416ab3667bdca724fccc31ee2051a9f60127aaf368dc804ea0c2ce26",
+      "candidateSHA256": "ce48769a416ab3667bdca724fccc31ee2051a9f60127aaf368dc804ea0c2ce26"
+    },
+    {
+      "mesh": "Arm_L_Face_NoseCream",
+      "allChannelsIdentical": true,
+      "channels": {
+        "coordinates": true,
+        "topology": true,
+        "normals": true,
+        "uv": true,
+        "colors": true,
+        "weights": true,
+        "material_names": true
+      },
+      "baselineSHA256": "75bf3f532e32614bc3ba09c58c1b99c2e7a40a83cfc1a9cdf8a53c430a10808a",
+      "candidateSHA256": "75bf3f532e32614bc3ba09c58c1b99c2e7a40a83cfc1a9cdf8a53c430a10808a"
+    },
+    {
+      "mesh": "Arm_L_Face_PorcelainCream",
+      "allChannelsIdentical": true,
+      "channels": {
+        "coordinates": true,
+        "topology": true,
+        "normals": true,
+        "uv": true,
+        "colors": true,
+        "weights": true,
+        "material_names": true
+      },
+      "baselineSHA256": "d9785d9abc9552dd6df49eacd5401bbbaefdb486dd44e5f656bd0ebd0cf39786",
+      "candidateSHA256": "d9785d9abc9552dd6df49eacd5401bbbaefdb486dd44e5f656bd0ebd0cf39786"
+    },
+    {
+      "mesh": "Arm_L_Face_RoseCheeks",
+      "allChannelsIdentical": true,
+      "channels": {
+        "coordinates": true,
+        "topology": true,
+        "normals": true,
+        "uv": true,
+        "colors": true,
+        "weights": true,
+        "material_names": true
+      },
+      "baselineSHA256": "226fd1ad5963985726792b8069a2aa576b3bb2583bf6da574ca290facbc25ba5",
+      "candidateSHA256": "226fd1ad5963985726792b8069a2aa576b3bb2583bf6da574ca290facbc25ba5"
+    },
+    {
+      "mesh": "Arm_L_Gloves_OatKnit",
+      "allChannelsIdentical": true,
+      "channels": {
+        "coordinates": true,
+        "topology": true,
+        "normals": true,
+        "uv": true,
+        "colors": true,
+        "weights": true,
+        "material_names": true
+      },
+      "baselineSHA256": "bfeecdfa1e4e178905eb7369126b17f92698eff0955e6d87abb76c2bcd69860e",
+      "candidateSHA256": "bfeecdfa1e4e178905eb7369126b17f92698eff0955e6d87abb76c2bcd69860e"
+    },
+    {
+      "mesh": "Arm_L_Stitches_PaleFlax",
+      "allChannelsIdentical": true,
+      "channels": {
+        "coordinates": true,
+        "topology": true,
+        "normals": true,
+        "uv": true,
+        "colors": true,
+        "weights": true,
+        "material_names": true
+      },
+      "baselineSHA256": "7abf223811df4cbea599ba6285a7fec6d3928f0ff021db62541faf60499400b1",
+      "candidateSHA256": "7abf223811df4cbea599ba6285a7fec6d3928f0ff021db62541faf60499400b1"
+    },
+    {
+      "mesh": "Sleeve_L",
+      "allChannelsIdentical": true,
+      "channels": {
+        "coordinates": true,
+        "topology": true,
+        "normals": true,
+        "uv": true,
+        "colors": true,
+        "weights": true,
+        "material_names": true
+      },
+      "baselineSHA256": "cebad008961d90cd95536809a0c6c2c2b9d28d5e9b1f095dbca45dcdc728e6d4",
+      "candidateSHA256": "cebad008961d90cd95536809a0c6c2c2b9d28d5e9b1f095dbca45dcdc728e6d4"
+    },
+    {
+      "mesh": "Arm_R_Cape_SeaMistBinding",
+      "allChannelsIdentical": true,
+      "channels": {
+        "coordinates": true,
+        "topology": true,
+        "normals": true,
+        "uv": true,
+        "colors": true,
+        "weights": true,
+        "material_names": true
+      },
+      "baselineSHA256": "8f6751c1ed507443016cfa3c74021822d8ac50819a03106320de740b587b7ed9",
+      "candidateSHA256": "8f6751c1ed507443016cfa3c74021822d8ac50819a03106320de740b587b7ed9"
+    },
+    {
+      "mesh": "Arm_R_Face_Fingernails",
+      "allChannelsIdentical": true,
+      "channels": {
+        "coordinates": true,
+        "topology": true,
+        "normals": true,
+        "uv": true,
+        "colors": true,
+        "weights": true,
+        "material_names": true
+      },
+      "baselineSHA256": "97675f28c2db8eedc8b7564afdea121d1fa8331de4c8cf35015eb24ef52160a1",
+      "candidateSHA256": "97675f28c2db8eedc8b7564afdea121d1fa8331de4c8cf35015eb24ef52160a1"
+    },
+    {
+      "mesh": "Arm_R_Face_NoseCream",
+      "allChannelsIdentical": true,
+      "channels": {
+        "coordinates": true,
+        "topology": true,
+        "normals": true,
+        "uv": true,
+        "colors": true,
+        "weights": true,
+        "material_names": true
+      },
+      "baselineSHA256": "fe00bc850885f763ccfc8f6eb2baf65cd8d17c5350ce09d48abe385828f90c78",
+      "candidateSHA256": "fe00bc850885f763ccfc8f6eb2baf65cd8d17c5350ce09d48abe385828f90c78"
+    },
+    {
+      "mesh": "Arm_R_Face_PorcelainCream",
+      "allChannelsIdentical": true,
+      "channels": {
+        "coordinates": true,
+        "topology": true,
+        "normals": true,
+        "uv": true,
+        "colors": true,
+        "weights": true,
+        "material_names": true
+      },
+      "baselineSHA256": "623368223dcdf2cdd49325a6ec334bae7e2936229efe9deb066bd91fdacc56d2",
+      "candidateSHA256": "623368223dcdf2cdd49325a6ec334bae7e2936229efe9deb066bd91fdacc56d2"
+    },
+    {
+      "mesh": "Arm_R_Face_RoseCheeks",
+      "allChannelsIdentical": true,
+      "channels": {
+        "coordinates": true,
+        "topology": true,
+        "normals": true,
+        "uv": true,
+        "colors": true,
+        "weights": true,
+        "material_names": true
+      },
+      "baselineSHA256": "2452426e2e010f9adf05c82cda430aacf25bcce7b3b3374e7c2e8cf0dff9951b",
+      "candidateSHA256": "2452426e2e010f9adf05c82cda430aacf25bcce7b3b3374e7c2e8cf0dff9951b"
+    },
+    {
+      "mesh": "Arm_R_Gloves_OatKnit",
+      "allChannelsIdentical": true,
+      "channels": {
+        "coordinates": true,
+        "topology": true,
+        "normals": true,
+        "uv": true,
+        "colors": true,
+        "weights": true,
+        "material_names": true
+      },
+      "baselineSHA256": "171b25eecd191e273f23f2e5f185a3e1579188493d6bfcf0e24e38dca232a760",
+      "candidateSHA256": "171b25eecd191e273f23f2e5f185a3e1579188493d6bfcf0e24e38dca232a760"
+    },
+    {
+      "mesh": "Arm_R_Stitches_PaleFlax",
+      "allChannelsIdentical": true,
+      "channels": {
+        "coordinates": true,
+        "topology": true,
+        "normals": true,
+        "uv": true,
+        "colors": true,
+        "weights": true,
+        "material_names": true
+      },
+      "baselineSHA256": "d8ecbfdb6f528ca79265a110054f4e40db484ca52d94cc47ae1db275f05b4bed",
+      "candidateSHA256": "d8ecbfdb6f528ca79265a110054f4e40db484ca52d94cc47ae1db275f05b4bed"
+    },
+    {
+      "mesh": "Lantern_Heart",
+      "allChannelsIdentical": true,
+      "channels": {
+        "coordinates": true,
+        "topology": true,
+        "normals": true,
+        "uv": true,
+        "colors": true,
+        "weights": true,
+        "material_names": true
+      },
+      "baselineSHA256": "b25d3bc31a180796a9d8ec95c3cf06b640b55b9adc016044267129f0eb496264",
+      "candidateSHA256": "b25d3bc31a180796a9d8ec95c3cf06b640b55b9adc016044267129f0eb496264"
+    },
+    {
+      "mesh": "Lantern_Lantern_BrushedBrass",
+      "allChannelsIdentical": true,
+      "channels": {
+        "coordinates": true,
+        "topology": true,
+        "normals": true,
+        "uv": true,
+        "colors": true,
+        "weights": true,
+        "material_names": true
+      },
+      "baselineSHA256": "e70aca56beffbe46ef16914d6c7901c3023e2d7d8355b23ba093c1e3b0f88c05",
+      "candidateSHA256": "e70aca56beffbe46ef16914d6c7901c3023e2d7d8355b23ba093c1e3b0f88c05"
+    },
+    {
+      "mesh": "Lantern_Lantern_GoldEdges",
+      "allChannelsIdentical": true,
+      "channels": {
+        "coordinates": true,
+        "topology": true,
+        "normals": true,
+        "uv": true,
+        "colors": true,
+        "weights": true,
+        "material_names": true
+      },
+      "baselineSHA256": "dc6383dd31dbe21d76729a8d3e292c82c65a05f9882f0d3d8e9c535a0406bfe0",
+      "candidateSHA256": "dc6383dd31dbe21d76729a8d3e292c82c65a05f9882f0d3d8e9c535a0406bfe0"
+    },
+    {
+      "mesh": "Lantern_OpalGlass",
+      "allChannelsIdentical": true,
+      "channels": {
+        "coordinates": true,
+        "topology": true,
+        "normals": true,
+        "uv": true,
+        "colors": true,
+        "weights": true,
+        "material_names": true
+      },
+      "baselineSHA256": "06f150f901ad49c55948dabcbc0ff45751b8ae3e0d2e3066da6aa6922259beff",
+      "candidateSHA256": "06f150f901ad49c55948dabcbc0ff45751b8ae3e0d2e3066da6aa6922259beff"
+    },
+    {
+      "mesh": "Sleeve_R",
+      "allChannelsIdentical": true,
+      "channels": {
+        "coordinates": true,
+        "topology": true,
+        "normals": true,
+        "uv": true,
+        "colors": true,
+        "weights": true,
+        "material_names": true
+      },
+      "baselineSHA256": "1bce0b58cae2e7443b8aeca4592868086d28ddfc79ef939ebafa33a528c63341",
+      "candidateSHA256": "1bce0b58cae2e7443b8aeca4592868086d28ddfc79ef939ebafa33a528c63341"
+    },
+    {
+      "mesh": "Body_Boots_HoneyLeather",
+      "allChannelsIdentical": true,
+      "channels": {
+        "coordinates": true,
+        "topology": true,
+        "normals": true,
+        "uv": true,
+        "colors": true,
+        "weights": true,
+        "material_names": true
+      },
+      "baselineSHA256": "44d841ceb1c3c7f2511f9ca317ea347421f2d3a9047504be33f133e127cee549",
+      "candidateSHA256": "44d841ceb1c3c7f2511f9ca317ea347421f2d3a9047504be33f133e127cee549"
+    },
+    {
+      "mesh": "Body_Cape_DeepOceanLining",
+      "allChannelsIdentical": true,
+      "channels": {
+        "coordinates": true,
+        "topology": true,
+        "normals": true,
+        "uv": true,
+        "colors": true,
+        "weights": true,
+        "material_names": true
+      },
+      "baselineSHA256": "aa1b730889feb6c5167a9c0cc80400dc37a7ee87c686338382f5cdd8c44ad49c",
+      "candidateSHA256": "aa1b730889feb6c5167a9c0cc80400dc37a7ee87c686338382f5cdd8c44ad49c"
+    },
+    {
+      "mesh": "Body_Cape_SeaMistBinding",
+      "allChannelsIdentical": true,
+      "channels": {
+        "coordinates": true,
+        "topology": true,
+        "normals": true,
+        "uv": true,
+        "colors": true,
+        "weights": true,
+        "material_names": true
+      },
+      "baselineSHA256": "512ee03886fefefc4d983e78f81a9595c60e0e28b87a13ce0d58228a9fb42c22",
+      "candidateSHA256": "512ee03886fefefc4d983e78f81a9595c60e0e28b87a13ce0d58228a9fb42c22"
+    },
+    {
+      "mesh": "Body_Hood_DuskBlue",
+      "allChannelsIdentical": true,
+      "channels": {
+        "coordinates": true,
+        "topology": true,
+        "normals": true,
+        "uv": true,
+        "colors": true,
+        "weights": true,
+        "material_names": true
+      },
+      "baselineSHA256": "9f76308439a3f1e957123cb04547bc2eff491007ffaa7e2ec8ab42ba50efa99b",
+      "candidateSHA256": "9f76308439a3f1e957123cb04547bc2eff491007ffaa7e2ec8ab42ba50efa99b"
+    },
+    {
+      "mesh": "Body_Lantern_GoldEdges",
+      "allChannelsIdentical": true,
+      "channels": {
+        "coordinates": true,
+        "topology": true,
+        "normals": true,
+        "uv": true,
+        "colors": true,
+        "weights": true,
+        "material_names": true
+      },
+      "baselineSHA256": "23b2544929d7ecefbbbf02cb25a95507440a25dc04a01527b385a3ff113e7064",
+      "candidateSHA256": "23b2544929d7ecefbbbf02cb25a95507440a25dc04a01527b385a3ff113e7064"
+    },
+    {
+      "mesh": "Body_Scarf_EdgeHoney",
+      "allChannelsIdentical": true,
+      "channels": {
+        "coordinates": true,
+        "topology": true,
+        "normals": true,
+        "uv": true,
+        "colors": true,
+        "weights": true,
+        "material_names": true
+      },
+      "baselineSHA256": "dddd9285f5cf19f13cbdacf927cfc03139272c3bee2545be07e82f317c2ba91a",
+      "candidateSHA256": "dddd9285f5cf19f13cbdacf927cfc03139272c3bee2545be07e82f317c2ba91a"
+    },
+    {
+      "mesh": "Body_Stitches_PaleFlax",
+      "allChannelsIdentical": true,
+      "channels": {
+        "coordinates": true,
+        "topology": true,
+        "normals": true,
+        "uv": true,
+        "colors": true,
+        "weights": true,
+        "material_names": true
+      },
+      "baselineSHA256": "0eafa4e1490c9c690fca6e47931bca9e429764b97f2658e80b575df9cd833bf7",
+      "candidateSHA256": "0eafa4e1490c9c690fca6e47931bca9e429764b97f2658e80b575df9cd833bf7"
+    },
+    {
+      "mesh": "Brooch_AmberStone",
+      "allChannelsIdentical": true,
+      "channels": {
+        "coordinates": true,
+        "topology": true,
+        "normals": true,
+        "uv": true,
+        "colors": true,
+        "weights": true,
+        "material_names": true
+      },
+      "baselineSHA256": "663d9d523f41270f7dcd350ac9c06e71212d2177442c952d501ad342144cde56",
+      "candidateSHA256": "663d9d523f41270f7dcd350ac9c06e71212d2177442c952d501ad342144cde56"
+    },
+    {
+      "mesh": "Cloak_Outer",
+      "allChannelsIdentical": true,
+      "channels": {
+        "coordinates": true,
+        "topology": true,
+        "normals": true,
+        "uv": true,
+        "colors": true,
+        "weights": true,
+        "material_names": true
+      },
+      "baselineSHA256": "e6ca78ced9ec839b40f0608d359cb353d70fa138b5ee3560c22ce5b702a464c6",
+      "candidateSHA256": "e6ca78ced9ec839b40f0608d359cb353d70fa138b5ee3560c22ce5b702a464c6"
+    },
+    {
+      "mesh": "Satchel_Body",
+      "allChannelsIdentical": true,
+      "channels": {
+        "coordinates": true,
+        "topology": true,
+        "normals": true,
+        "uv": true,
+        "colors": true,
+        "weights": true,
+        "material_names": true
+      },
+      "baselineSHA256": "c44a39813bdd0bb0772f27f743e08837874f5b655a285dacf90cf127e4333e40",
+      "candidateSHA256": "c44a39813bdd0bb0772f27f743e08837874f5b655a285dacf90cf127e4333e40"
+    },
+    {
+      "mesh": "Satchel_Clasp",
+      "allChannelsIdentical": true,
+      "channels": {
+        "coordinates": true,
+        "topology": true,
+        "normals": true,
+        "uv": true,
+        "colors": true,
+        "weights": true,
+        "material_names": true
+      },
+      "baselineSHA256": "1f698fcadf6c0aa6d63edc687726f760cbb63755c3dea279cc96d129e07002e6",
+      "candidateSHA256": "1f698fcadf6c0aa6d63edc687726f760cbb63755c3dea279cc96d129e07002e6"
+    },
+    {
+      "mesh": "Scarf_Collar",
+      "allChannelsIdentical": true,
+      "channels": {
+        "coordinates": true,
+        "topology": true,
+        "normals": true,
+        "uv": true,
+        "colors": true,
+        "weights": true,
+        "material_names": true
+      },
+      "baselineSHA256": "e8d2b32ad1ca11d94c04bcb4179ed892d0900dfa29460dfdef0e417794fe30ad",
+      "candidateSHA256": "e8d2b32ad1ca11d94c04bcb4179ed892d0900dfa29460dfdef0e417794fe30ad"
+    },
+    {
+      "mesh": "TailoredTunic",
+      "allChannelsIdentical": true,
+      "channels": {
+        "coordinates": true,
+        "topology": true,
+        "normals": true,
+        "uv": true,
+        "colors": true,
+        "weights": true,
+        "material_names": true
+      },
+      "baselineSHA256": "a1b1e95d90ec156be4bfc48659f6e953ae1a044e000090015efcc69538167bfc",
+      "candidateSHA256": "a1b1e95d90ec156be4bfc48659f6e953ae1a044e000090015efcc69538167bfc"
+    },
+    {
+      "mesh": "BootSole_L",
+      "allChannelsIdentical": true,
+      "channels": {
+        "coordinates": true,
+        "topology": true,
+        "normals": true,
+        "uv": true,
+        "colors": true,
+        "weights": true,
+        "material_names": true
+      },
+      "baselineSHA256": "6b7e71ce603fd97d0ead1cc40f169b5c5ba428f96554ed118f250f8113f4216f",
+      "candidateSHA256": "6b7e71ce603fd97d0ead1cc40f169b5c5ba428f96554ed118f250f8113f4216f"
+    },
+    {
+      "mesh": "BootUpper_L",
+      "allChannelsIdentical": true,
+      "channels": {
+        "coordinates": true,
+        "topology": true,
+        "normals": true,
+        "uv": true,
+        "colors": true,
+        "weights": true,
+        "material_names": true
+      },
+      "baselineSHA256": "85c007d204cd503dcc03510330063712579e26509d1f43e7bbcb979295b42cbc",
+      "candidateSHA256": "85c007d204cd503dcc03510330063712579e26509d1f43e7bbcb979295b42cbc"
+    },
+    {
+      "mesh": "Leg_L_Boots_HoneyLeather",
+      "allChannelsIdentical": true,
+      "channels": {
+        "coordinates": true,
+        "topology": true,
+        "normals": true,
+        "uv": true,
+        "colors": true,
+        "weights": true,
+        "material_names": true
+      },
+      "baselineSHA256": "b2634b33d24b7c064c3736b58e690686d910245028b12501fc0ccf70a6749a74",
+      "candidateSHA256": "b2634b33d24b7c064c3736b58e690686d910245028b12501fc0ccf70a6749a74"
+    },
+    {
+      "mesh": "Leg_L_Hood_DuskBlue",
+      "allChannelsIdentical": true,
+      "channels": {
+        "coordinates": true,
+        "topology": true,
+        "normals": true,
+        "uv": true,
+        "colors": true,
+        "weights": true,
+        "material_names": true
+      },
+      "baselineSHA256": "e4477d523212dab20fc258491a92251fb0efeebdb5f62b394dddadd18184c205",
+      "candidateSHA256": "e4477d523212dab20fc258491a92251fb0efeebdb5f62b394dddadd18184c205"
+    },
+    {
+      "mesh": "Leg_L_Lantern_BrushedBrass",
+      "allChannelsIdentical": true,
+      "channels": {
+        "coordinates": true,
+        "topology": true,
+        "normals": true,
+        "uv": true,
+        "colors": true,
+        "weights": true,
+        "material_names": true
+      },
+      "baselineSHA256": "b6e09b3b513d068a00628c8a1658b00c4dbff709495087b73424d9f42cdf50e4",
+      "candidateSHA256": "b6e09b3b513d068a00628c8a1658b00c4dbff709495087b73424d9f42cdf50e4"
+    },
+    {
+      "mesh": "Trouser_L",
+      "allChannelsIdentical": true,
+      "channels": {
+        "coordinates": true,
+        "topology": true,
+        "normals": true,
+        "uv": true,
+        "colors": true,
+        "weights": true,
+        "material_names": true
+      },
+      "baselineSHA256": "684f76c84b863c6f0b738840442c383a54413b1558fa1033ccd01055da710ac3",
+      "candidateSHA256": "684f76c84b863c6f0b738840442c383a54413b1558fa1033ccd01055da710ac3"
+    },
+    {
+      "mesh": "BootSole_R",
+      "allChannelsIdentical": true,
+      "channels": {
+        "coordinates": true,
+        "topology": true,
+        "normals": true,
+        "uv": true,
+        "colors": true,
+        "weights": true,
+        "material_names": true
+      },
+      "baselineSHA256": "08ffddbd080eed9e5a4b931a1c76810694010758db37d882a76ad595056a0c6d",
+      "candidateSHA256": "08ffddbd080eed9e5a4b931a1c76810694010758db37d882a76ad595056a0c6d"
+    },
+    {
+      "mesh": "BootUpper_R",
+      "allChannelsIdentical": true,
+      "channels": {
+        "coordinates": true,
+        "topology": true,
+        "normals": true,
+        "uv": true,
+        "colors": true,
+        "weights": true,
+        "material_names": true
+      },
+      "baselineSHA256": "25e5564a4373b46e319153ddfb07de6d5dc27115014f47f3d7d961ed25a2e1f8",
+      "candidateSHA256": "25e5564a4373b46e319153ddfb07de6d5dc27115014f47f3d7d961ed25a2e1f8"
+    },
+    {
+      "mesh": "Leg_R_Boots_HoneyLeather",
+      "allChannelsIdentical": true,
+      "channels": {
+        "coordinates": true,
+        "topology": true,
+        "normals": true,
+        "uv": true,
+        "colors": true,
+        "weights": true,
+        "material_names": true
+      },
+      "baselineSHA256": "aac45e29c76dc3a3c110ebdeca6f36ad17da637d468691b9c486b8f90409134d",
+      "candidateSHA256": "aac45e29c76dc3a3c110ebdeca6f36ad17da637d468691b9c486b8f90409134d"
+    },
+    {
+      "mesh": "Leg_R_Hood_DuskBlue",
+      "allChannelsIdentical": true,
+      "channels": {
+        "coordinates": true,
+        "topology": true,
+        "normals": true,
+        "uv": true,
+        "colors": true,
+        "weights": true,
+        "material_names": true
+      },
+      "baselineSHA256": "a9601bd7cc2b02ed6d6b9d765d3ca7b0e29b5a85163e2b03e6e418e0fc95bb60",
+      "candidateSHA256": "a9601bd7cc2b02ed6d6b9d765d3ca7b0e29b5a85163e2b03e6e418e0fc95bb60"
+    },
+    {
+      "mesh": "Leg_R_Lantern_BrushedBrass",
+      "allChannelsIdentical": true,
+      "channels": {
+        "coordinates": true,
+        "topology": true,
+        "normals": true,
+        "uv": true,
+        "colors": true,
+        "weights": true,
+        "material_names": true
+      },
+      "baselineSHA256": "0d0e53c4a4a793e4ea30bf7f016b924aa8f757ecc1fb0d39075f8b7c85671727",
+      "candidateSHA256": "0d0e53c4a4a793e4ea30bf7f016b924aa8f757ecc1fb0d39075f8b7c85671727"
+    },
+    {
+      "mesh": "Trouser_R",
+      "allChannelsIdentical": true,
+      "channels": {
+        "coordinates": true,
+        "topology": true,
+        "normals": true,
+        "uv": true,
+        "colors": true,
+        "weights": true,
+        "material_names": true
+      },
+      "baselineSHA256": "cceb4d2cdc1cc7f52bec601c6890e5fd5438325b7357f8d884b40a004062abb6",
+      "candidateSHA256": "cceb4d2cdc1cc7f52bec601c6890e5fd5438325b7357f8d884b40a004062abb6"
+    },
+    {
+      "mesh": "ScarfTail_Scarf_EdgeHoney",
+      "allChannelsIdentical": true,
+      "channels": {
+        "coordinates": true,
+        "topology": true,
+        "normals": true,
+        "uv": true,
+        "colors": true,
+        "weights": true,
+        "material_names": true
+      },
+      "baselineSHA256": "52e3f1296909059b656ecc028d01c9b5e2feac83b1f790ba3013dda5882c73ae",
+      "candidateSHA256": "52e3f1296909059b656ecc028d01c9b5e2feac83b1f790ba3013dda5882c73ae"
+    },
+    {
+      "mesh": "ScarfTail_Scarf_HarvestGold",
+      "allChannelsIdentical": true,
+      "channels": {
+        "coordinates": true,
+        "topology": true,
+        "normals": true,
+        "uv": true,
+        "colors": true,
+        "weights": true,
+        "material_names": true
+      },
+      "baselineSHA256": "354eb8100eaff86ae37fef6f51b5e3422150c47be65678b2968e4b72cef38320",
+      "candidateSHA256": "354eb8100eaff86ae37fef6f51b5e3422150c47be65678b2968e4b72cef38320"
+    }
+  ],
+  "protectedMeshCount": 47,
+  "sameFormatBodyMeshProtectionPassed": true,
+  "sameFormatObjectBonePivotContractIdentical": true,
+  "sameFormatMaterialGraphsIdentical": true,
+  "head": [
+    {
+      "mesh": "Blink_L_ClosedLash",
+      "expectedBLEND": {
+        "vertices": 165,
+        "triangles": 320,
+        "min": [
+          -0.04418766126036644,
+          -0.10196177661418915,
+          1.1575764417648315
+        ],
+        "max": [
+          -0.044132381677627563,
+          -0.08009905368089676,
+          1.1575801372528076
+        ],
+        "dimensions": [
+          5.527958273887634e-05,
+          0.02186272293329239,
+          3.6954879760742188e-06
+        ],
+        "cornerNormals": 640,
+        "invalidNormals": 0,
+        "minimumNormalLength": 0.9999998984213454,
+        "meanNormalY": 5.5614214726773525e-06,
+        "zeroAreaTriangles": 0,
+        "materials": [
+          "Traveler_Hair_Indigo"
+        ]
+      },
+      "actualFBX": {
+        "vertices": 165,
+        "triangles": 320,
+        "min": [
+          -0.04418766126036644,
+          -0.10196159780025482,
+          1.1575764417648315
+        ],
+        "max": [
+          -0.044132381677627563,
+          -0.08009887486696243,
+          1.1575801372528076
+        ],
+        "dimensions": [
+          5.527958273887634e-05,
+          0.02186272293329239,
+          3.6954879760742188e-06
+        ],
+        "cornerNormals": 640,
+        "invalidNormals": 0,
+        "minimumNormalLength": 0.999999926397547,
+        "meanNormalY": 5.540087315369923e-06,
+        "zeroAreaTriangles": 0,
+        "materials": [
+          "Traveler_Hair_Indigo"
+        ]
+      },
+      "baselineFBXZeroAreaTriangles": 0,
+      "maxBidirectionalPositionErrorMetres": 2.1490760104825313e-07,
+      "maxDimensionErrorMetres": 0.0,
+      "materialNamesMatch": true,
+      "eyeFacesForward": true,
+      "passed": true
+    },
+    {
+      "mesh": "Blink_L_LidCover",
+      "expectedBLEND": {
+        "vertices": 385,
+        "triangles": 704,
+        "min": [
+          -0.044197261333465576,
+          -0.10212349891662598,
+          1.1575543880462646
+        ],
+        "max": [
+          -0.044122740626335144,
+          -0.06979712098836899,
+          1.157605767250061
+        ],
+        "dimensions": [
+          7.452070713043213e-05,
+          0.03232637792825699,
+          5.137920379638672e-05
+        ],
+        "cornerNormals": 1472,
+        "invalidNormals": 0,
+        "minimumNormalLength": 0.9999998851128501,
+        "meanNormalY": -0.0028910568639137478,
+        "zeroAreaTriangles": 0,
+        "materials": [
+          "Traveler_Face_PorcelainCream"
+        ]
+      },
+      "actualFBX": {
+        "vertices": 385,
+        "triangles": 704,
+        "min": [
+          -0.044197261333465576,
+          -0.10212332010269165,
+          1.1575543880462646
+        ],
+        "max": [
+          -0.044122740626335144,
+          -0.06979694217443466,
+          1.157605767250061
+        ],
+        "dimensions": [
+          7.452070713043213e-05,
+          0.03232637792825699,
+          5.137920379638672e-05
+        ],
+        "cornerNormals": 1472,
+        "invalidNormals": 0,
+        "minimumNormalLength": 0.9999998865030129,
+        "meanNormalY": -0.002891119868961497,
+        "zeroAreaTriangles": 0,
+        "materials": [
+          "Traveler_Face_PorcelainCream"
+        ]
+      },
+      "baselineFBXZeroAreaTriangles": 0,
+      "maxBidirectionalPositionErrorMetres": 2.1490760104825313e-07,
+      "maxDimensionErrorMetres": 0.0,
+      "materialNamesMatch": true,
+      "eyeFacesForward": true,
+      "passed": true
+    },
+    {
+      "mesh": "Blink_R_ClosedLash",
+      "expectedBLEND": {
+        "vertices": 165,
+        "triangles": 320,
+        "min": [
+          0.044132381677627563,
+          -0.10196177661418915,
+          1.1575764417648315
+        ],
+        "max": [
+          0.04418766126036644,
+          -0.08009905368089676,
+          1.1575801372528076
+        ],
+        "dimensions": [
+          5.527958273887634e-05,
+          0.02186272293329239,
+          3.6954879760742188e-06
+        ],
+        "cornerNormals": 640,
+        "invalidNormals": 0,
+        "minimumNormalLength": 0.9999999019257709,
+        "meanNormalY": 5.571207298515901e-06,
+        "zeroAreaTriangles": 0,
+        "materials": [
+          "Traveler_Hair_Indigo"
+        ]
+      },
+      "actualFBX": {
+        "vertices": 165,
+        "triangles": 320,
+        "min": [
+          0.044132381677627563,
+          -0.10196159780025482,
+          1.1575764417648315
+        ],
+        "max": [
+          0.04418766126036644,
+          -0.08009887486696243,
+          1.1575801372528076
+        ],
+        "dimensions": [
+          5.527958273887634e-05,
+          0.02186272293329239,
+          3.6954879760742188e-06
+        ],
+        "cornerNormals": 640,
+        "invalidNormals": 0,
+        "minimumNormalLength": 0.9999998854082085,
+        "meanNormalY": 5.549877097221767e-06,
+        "zeroAreaTriangles": 0,
+        "materials": [
+          "Traveler_Hair_Indigo"
+        ]
+      },
+      "baselineFBXZeroAreaTriangles": 0,
+      "maxBidirectionalPositionErrorMetres": 2.1490760104825313e-07,
+      "maxDimensionErrorMetres": 0.0,
+      "materialNamesMatch": true,
+      "eyeFacesForward": true,
+      "passed": true
+    },
+    {
+      "mesh": "Blink_R_LidCover",
+      "expectedBLEND": {
+        "vertices": 385,
+        "triangles": 704,
+        "min": [
+          0.044122740626335144,
+          -0.10212349891662598,
+          1.1575543880462646
+        ],
+        "max": [
+          0.044197261333465576,
+          -0.06979712098836899,
+          1.157605767250061
+        ],
+        "dimensions": [
+          7.452070713043213e-05,
+          0.03232637792825699,
+          5.137920379638672e-05
+        ],
+        "cornerNormals": 1472,
+        "invalidNormals": 0,
+        "minimumNormalLength": 0.9999999007184734,
+        "meanNormalY": -0.0028910061376771646,
+        "zeroAreaTriangles": 0,
+        "materials": [
+          "Traveler_Face_PorcelainCream"
+        ]
+      },
+      "actualFBX": {
+        "vertices": 385,
+        "triangles": 704,
+        "min": [
+          0.044122740626335144,
+          -0.10212332010269165,
+          1.1575543880462646
+        ],
+        "max": [
+          0.044197261333465576,
+          -0.06979694217443466,
+          1.157605767250061
+        ],
+        "dimensions": [
+          7.452070713043213e-05,
+          0.03232637792825699,
+          5.137920379638672e-05
+        ],
+        "cornerNormals": 1472,
+        "invalidNormals": 0,
+        "minimumNormalLength": 0.999999900805387,
+        "meanNormalY": -0.002891068758522717,
+        "zeroAreaTriangles": 0,
+        "materials": [
+          "Traveler_Face_PorcelainCream"
+        ]
+      },
+      "baselineFBXZeroAreaTriangles": 0,
+      "maxBidirectionalPositionErrorMetres": 2.1490760104825313e-07,
+      "maxDimensionErrorMetres": 0.0,
+      "materialNamesMatch": true,
+      "eyeFacesForward": true,
+      "passed": true
+    },
+    {
+      "mesh": "Head_Eye_AmberRim",
+      "expectedBLEND": {
+        "vertices": 402,
+        "triangles": 720,
+        "min": [
+          -0.05561399832367897,
+          -0.0967555120587349,
+          1.1284786462783813
+        ],
+        "max": [
+          0.05662599951028824,
+          -0.08596925437450409,
+          1.150399923324585
+        ],
+        "dimensions": [
+          0.11223999783396721,
+          0.010786257684230804,
+          0.021921277046203613
+        ],
+        "cornerNormals": 1520,
+        "invalidNormals": 0,
+        "minimumNormalLength": 0.9999999366700629,
+        "meanNormalY": -0.9087549680157712,
+        "zeroAreaTriangles": 0,
+        "materials": [
+          "Traveler_Eye_AmberRim"
+        ]
+      },
+      "actualFBX": {
+        "vertices": 402,
+        "triangles": 720,
+        "min": [
+          -0.05561399832367897,
+          -0.09675532579421997,
+          1.1284786462783813
+        ],
+        "max": [
+          0.05662599951028824,
+          -0.08596906810998917,
+          1.150399923324585
+        ],
+        "dimensions": [
+          0.11223999783396721,
+          0.010786257684230804,
+          0.021921277046203613
+        ],
+        "cornerNormals": 1520,
+        "invalidNormals": 0,
+        "minimumNormalLength": 0.9999999217689006,
+        "meanNormalY": -0.9087549224495888,
+        "zeroAreaTriangles": 0,
+        "materials": [
+          "Traveler_Eye_AmberRim"
+        ]
+      },
+      "baselineFBXZeroAreaTriangles": 0,
+      "maxBidirectionalPositionErrorMetres": 1.862645149230957e-07,
+      "maxDimensionErrorMetres": 0.0,
+      "materialNamesMatch": true,
+      "eyeFacesForward": true,
+      "passed": true
+    },
+    {
+      "mesh": "Head_Eye_Catchlight",
+      "expectedBLEND": {
+        "vertices": 402,
+        "triangles": 720,
+        "min": [
+          -0.04843800142407417,
+          -0.09307460486888885,
+          1.1412200927734375
+        ],
+        "max": [
+          0.04301000013947487,
+          -0.08959290385246277,
+          1.1444600820541382
+        ],
+        "dimensions": [
+          0.09144800156354904,
+          0.0034817010164260864,
+          0.0032399892807006836
+        ],
+        "cornerNormals": 1520,
+        "invalidNormals": 0,
+        "minimumNormalLength": 0.9999999254941913,
+        "meanNormalY": -0.8907181186895622,
+        "zeroAreaTriangles": 0,
+        "materials": [
+          "Traveler_Eye_Catchlight"
+        ]
+      },
+      "actualFBX": {
+        "vertices": 402,
+        "triangles": 720,
+        "min": [
+          -0.04843800142407417,
+          -0.09307441860437393,
+          1.1412200927734375
+        ],
+        "max": [
+          0.04301000013947487,
+          -0.08959271758794785,
+          1.1444600820541382
+        ],
+        "dimensions": [
+          0.09144800156354904,
+          0.0034817010164260864,
+          0.0032399892807006836
+        ],
+        "cornerNormals": 1520,
+        "invalidNormals": 0,
+        "minimumNormalLength": 0.9999999254941913,
+        "meanNormalY": -0.8907180625357126,
+        "zeroAreaTriangles": 0,
+        "materials": [
+          "Traveler_Eye_Catchlight"
+        ]
+      },
+      "baselineFBXZeroAreaTriangles": 0,
+      "maxBidirectionalPositionErrorMetres": 1.862645149230957e-07,
+      "maxDimensionErrorMetres": 0.0,
+      "materialNamesMatch": true,
+      "eyeFacesForward": true,
+      "passed": true
+    },
+    {
+      "mesh": "Head_Eye_Chestnut",
+      "expectedBLEND": {
+        "vertices": 402,
+        "triangles": 720,
+        "min": [
+          -0.05441799759864807,
+          -0.09657850116491318,
+          1.1286200284957886
+        ],
+        "max": [
+          0.05543000251054764,
+          -0.0867505818605423,
+          1.1493200063705444
+        ],
+        "dimensions": [
+          0.10984800010919571,
+          0.00982791930437088,
+          0.02069997787475586
+        ],
+        "cornerNormals": 1520,
+        "invalidNormals": 0,
+        "minimumNormalLength": 0.9999999105930288,
+        "meanNormalY": -0.9088294981341613,
+        "zeroAreaTriangles": 0,
+        "materials": [
+          "Traveler_Eye_Chestnut"
+        ]
+      },
+      "actualFBX": {
+        "vertices": 402,
+        "triangles": 720,
+        "min": [
+          -0.05441799759864807,
+          -0.09657831490039825,
+          1.1286200284957886
+        ],
+        "max": [
+          0.05543000251054764,
+          -0.08675039559602737,
+          1.1493200063705444
+        ],
+        "dimensions": [
+          0.10984800010919571,
+          0.00982791930437088,
+          0.02069997787475586
+        ],
+        "cornerNormals": 1520,
+        "invalidNormals": 0,
+        "minimumNormalLength": 0.9999999292194818,
+        "meanNormalY": -0.9088294513915715,
+        "zeroAreaTriangles": 0,
+        "materials": [
+          "Traveler_Eye_Chestnut"
+        ]
+      },
+      "baselineFBXZeroAreaTriangles": 0,
+      "maxBidirectionalPositionErrorMetres": 1.862645149230957e-07,
+      "maxDimensionErrorMetres": 0.0,
+      "materialNamesMatch": true,
+      "eyeFacesForward": true,
+      "passed": true
+    },
+    {
+      "mesh": "Head_Eye_Ivory",
+      "expectedBLEND": {
+        "vertices": 866,
+        "triangles": 1584,
+        "min": [
+          -0.07231199741363525,
+          -0.09922061860561371,
+          1.128350019454956
+        ],
+        "max": [
+          0.07231199741363525,
+          -0.07782866805791855,
+          1.1531180143356323
+        ],
+        "dimensions": [
+          0.1446239948272705,
+          0.02139195054769516,
+          0.02476799488067627
+        ],
+        "cornerNormals": 3312,
+        "invalidNormals": 0,
+        "minimumNormalLength": 0.9999999105930288,
+        "meanNormalY": -0.9008317639430364,
+        "zeroAreaTriangles": 0,
+        "materials": [
+          "Traveler_Eye_Ivory"
+        ]
+      },
+      "actualFBX": {
+        "vertices": 866,
+        "triangles": 1584,
+        "min": [
+          -0.07231199741363525,
+          -0.09922043234109879,
+          1.128350019454956
+        ],
+        "max": [
+          0.07231199741363525,
+          -0.07782848179340363,
+          1.1531180143356323
+        ],
+        "dimensions": [
+          0.1446239948272705,
+          0.02139195054769516,
+          0.02476799488067627
+        ],
+        "cornerNormals": 3312,
+        "invalidNormals": 0,
+        "minimumNormalLength": 0.9999999217689006,
+        "meanNormalY": -0.900831724062634,
+        "zeroAreaTriangles": 0,
+        "materials": [
+          "Traveler_Eye_Ivory"
+        ]
+      },
+      "baselineFBXZeroAreaTriangles": 0,
+      "maxBidirectionalPositionErrorMetres": 1.862645149230957e-07,
+      "maxDimensionErrorMetres": 0.0,
+      "materialNamesMatch": true,
+      "eyeFacesForward": true,
+      "passed": true
+    },
+    {
+      "mesh": "Head_Eye_Pupil",
+      "expectedBLEND": {
+        "vertices": 402,
+        "triangles": 720,
+        "min": [
+          -0.04852999746799469,
+          -0.09501124918460846,
+          1.1340199708938599
+        ],
+        "max": [
+          0.04954200237989426,
+          -0.09008055925369263,
+          1.1439199447631836
+        ],
+        "dimensions": [
+          0.09807199984788895,
+          0.0049306899309158325,
+          0.00989997386932373
+        ],
+        "cornerNormals": 1520,
+        "invalidNormals": 0,
+        "minimumNormalLength": 0.9999999217689006,
+        "meanNormalY": -0.9044490914595754,
+        "zeroAreaTriangles": 0,
+        "materials": [
+          "Traveler_Eye_Pupil"
+        ]
+      },
+      "actualFBX": {
+        "vertices": 402,
+        "triangles": 720,
+        "min": [
+          -0.04852999746799469,
+          -0.09501106292009354,
+          1.1340199708938599
+        ],
+        "max": [
+          0.04954200237989426,
+          -0.0900803729891777,
+          1.1439199447631836
+        ],
+        "dimensions": [
+          0.09807199984788895,
+          0.0049306899309158325,
+          0.00989997386932373
+        ],
+        "cornerNormals": 1520,
+        "invalidNormals": 0,
+        "minimumNormalLength": 0.9999999310821271,
+        "meanNormalY": -0.9044490385996667,
+        "zeroAreaTriangles": 0,
+        "materials": [
+          "Traveler_Eye_Pupil"
+        ]
+      },
+      "baselineFBXZeroAreaTriangles": 0,
+      "maxBidirectionalPositionErrorMetres": 1.862645149230957e-07,
+      "maxDimensionErrorMetres": 0.0,
+      "materialNamesMatch": true,
+      "eyeFacesForward": true,
+      "passed": true
+    },
+    {
+      "mesh": "Head_Face_NoseCream",
+      "expectedBLEND": {
+        "vertices": 196,
+        "triangles": 192,
+        "min": [
+          -0.07231199741363525,
+          -0.09928641468286514,
+          1.1277507543563843
+        ],
+        "max": [
+          0.07231199741363525,
+          -0.07789888232946396,
+          1.1384299993515015
+        ],
+        "dimensions": [
+          0.1446239948272705,
+          0.021387532353401184,
+          0.010679244995117188
+        ],
+        "cornerNormals": 384,
+        "invalidNormals": 0,
+        "minimumNormalLength": 0.9999999348074177,
+        "meanNormalY": -0.9102610098198056,
+        "zeroAreaTriangles": 4,
+        "materials": [
+          "Traveler_Face_NoseCream"
+        ]
+      },
+      "actualFBX": {
+        "vertices": 196,
+        "triangles": 192,
+        "min": [
+          -0.07231199741363525,
+          -0.09928622841835022,
+          1.1277507543563843
+        ],
+        "max": [
+          0.07231199741363525,
+          -0.07789869606494904,
+          1.1384299993515015
+        ],
+        "dimensions": [
+          0.1446239948272705,
+          0.021387532353401184,
+          0.010679244995117188
+        ],
+        "cornerNormals": 384,
+        "invalidNormals": 0,
+        "minimumNormalLength": 0.9999999348074177,
+        "meanNormalY": -0.9102609688416123,
+        "zeroAreaTriangles": 4,
+        "materials": [
+          "Traveler_Face_NoseCream"
+        ]
+      },
+      "baselineFBXZeroAreaTriangles": 4,
+      "maxBidirectionalPositionErrorMetres": 1.862645149230957e-07,
+      "maxDimensionErrorMetres": 0.0,
+      "materialNamesMatch": true,
+      "eyeFacesForward": true,
+      "passed": true
+    },
+    {
+      "mesh": "Head_Face_PorcelainCream",
+      "expectedBLEND": {
+        "vertices": 11730,
+        "triangles": 22784,
+        "min": [
+          -0.1278800070285797,
+          -0.10715354233980179,
+          0.954763650894165
+        ],
+        "max": [
+          0.12787999212741852,
+          0.10484109073877335,
+          1.261099934577942
+        ],
+        "dimensions": [
+          0.25575999915599823,
+          0.21199463307857513,
+          0.30633628368377686
+        ],
+        "cornerNormals": 45464,
+        "invalidNormals": 0,
+        "minimumNormalLength": 0.9999999031424476,
+        "meanNormalY": -0.08101259359444517,
+        "zeroAreaTriangles": 0,
+        "materials": [
+          "Traveler_Face_PorcelainCream"
+        ]
+      },
+      "actualFBX": {
+        "vertices": 11730,
+        "triangles": 22784,
+        "min": [
+          -0.1278800070285797,
+          -0.10715336352586746,
+          0.954763650894165
+        ],
+        "max": [
+          0.12787999212741852,
+          0.10484127700328827,
+          1.261099934577942
+        ],
+        "dimensions": [
+          0.25575999915599823,
+          0.21199464052915573,
+          0.30633628368377686
+        ],
+        "cornerNormals": 45464,
+        "invalidNormals": 0,
+        "minimumNormalLength": 0.9999999031424476,
+        "meanNormalY": -0.0810121745647172,
+        "zeroAreaTriangles": 0,
+        "materials": [
+          "Traveler_Face_PorcelainCream"
+        ]
+      },
+      "baselineFBXZeroAreaTriangles": 0,
+      "maxBidirectionalPositionErrorMetres": 2.0489096641540527e-07,
+      "maxDimensionErrorMetres": 7.450580596923828e-09,
+      "materialNamesMatch": true,
+      "eyeFacesForward": true,
+      "passed": true
+    },
+    {
+      "mesh": "Head_Face_RoseCheeks",
+      "expectedBLEND": {
+        "vertices": 310,
+        "triangles": 592,
+        "min": [
+          -0.12686774134635925,
+          -0.10084618628025055,
+          1.0882318019866943
+        ],
+        "max": [
+          0.12686775624752045,
+          -0.0056399996392428875,
+          1.1297000646591187
+        ],
+        "dimensions": [
+          0.2537354975938797,
+          0.09520618664100766,
+          0.041468262672424316
+        ],
+        "cornerNormals": 1240,
+        "invalidNormals": 0,
+        "minimumNormalLength": 0.9999999254941913,
+        "meanNormalY": 0.002342391182304525,
+        "zeroAreaTriangles": 0,
+        "materials": [
+          "Traveler_Face_RoseCheeks"
+        ]
+      },
+      "actualFBX": {
+        "vertices": 310,
+        "triangles": 592,
+        "min": [
+          -0.12686774134635925,
+          -0.10084600746631622,
+          1.0882318019866943
+        ],
+        "max": [
+          0.12686775624752045,
+          -0.0056398180313408375,
+          1.1297000646591187
+        ],
+        "dimensions": [
+          0.2537354975938797,
+          0.09520618943497539,
+          0.041468262672424316
+        ],
+        "cornerNormals": 1240,
+        "invalidNormals": 0,
+        "minimumNormalLength": 0.9999999355059096,
+        "meanNormalY": 0.0023423879314792787,
+        "zeroAreaTriangles": 0,
+        "materials": [
+          "Traveler_Face_RoseCheeks"
+        ]
+      },
+      "baselineFBXZeroAreaTriangles": 0,
+      "maxBidirectionalPositionErrorMetres": 1.8440186977386475e-07,
+      "maxDimensionErrorMetres": 2.7939677238464355e-09,
+      "materialNamesMatch": true,
+      "eyeFacesForward": true,
+      "passed": true
+    },
+    {
+      "mesh": "Head_Hair_Indigo",
+      "expectedBLEND": {
+        "vertices": 5373,
+        "triangles": 10490,
+        "min": [
+          -0.1323348432779312,
+          -0.10443489998579025,
+          1.1269861459732056
+        ],
+        "max": [
+          0.13532215356826782,
+          0.13669046759605408,
+          1.2806906700134277
+        ],
+        "dimensions": [
+          0.26765699684619904,
+          0.24112536758184433,
+          0.15370452404022217
+        ],
+        "cornerNormals": 21574,
+        "invalidNormals": 0,
+        "minimumNormalLength": 0.9999999105930288,
+        "meanNormalY": 0.001854107962648067,
+        "zeroAreaTriangles": 0,
+        "materials": [
+          "Traveler_Hair_Indigo"
+        ]
+      },
+      "actualFBX": {
+        "vertices": 5373,
+        "triangles": 10490,
+        "min": [
+          -0.1323348432779312,
+          -0.10443470627069473,
+          1.1269861459732056
+        ],
+        "max": [
+          0.13532215356826782,
+          0.1366906613111496,
+          1.2806906700134277
+        ],
+        "dimensions": [
+          0.26765699684619904,
+          0.24112536758184433,
+          0.15370452404022217
+        ],
+        "cornerNormals": 21574,
+        "invalidNormals": 0,
+        "minimumNormalLength": 0.9999999143183195,
+        "meanNormalY": 0.0018541238029372849,
+        "zeroAreaTriangles": 0,
+        "materials": [
+          "Traveler_Hair_Indigo"
+        ]
+      },
+      "baselineFBXZeroAreaTriangles": 0,
+      "maxBidirectionalPositionErrorMetres": 2.086162567138672e-07,
+      "maxDimensionErrorMetres": 0.0,
+      "materialNamesMatch": true,
+      "eyeFacesForward": true,
+      "passed": true
+    },
+    {
+      "mesh": "Head_Hair_MidnightBlue",
+      "expectedBLEND": {
+        "vertices": 264,
+        "triangles": 240,
+        "min": [
+          -0.12913788855075836,
+          -0.10395492613315582,
+          1.1635091304779053
+        ],
+        "max": [
+          0.13241617381572723,
+          0.11859069019556046,
+          1.2770642042160034
+        ],
+        "dimensions": [
+          0.2615540623664856,
+          0.22254561632871628,
+          0.11355507373809814
+        ],
+        "cornerNormals": 480,
+        "invalidNormals": 0,
+        "minimumNormalLength": 0.9999999180436101,
+        "meanNormalY": -0.06235272043850273,
+        "zeroAreaTriangles": 0,
+        "materials": [
+          "Traveler_Hair_MidnightBlue"
+        ]
+      },
+      "actualFBX": {
+        "vertices": 264,
+        "triangles": 240,
+        "min": [
+          -0.12913788855075836,
+          -0.1039547324180603,
+          1.1635091304779053
+        ],
+        "max": [
+          0.13241617381572723,
+          0.11859088391065598,
+          1.2770642042160034
+        ],
+        "dimensions": [
+          0.2615540623664856,
+          0.22254561632871628,
+          0.11355507373809814
+        ],
+        "cornerNormals": 480,
+        "invalidNormals": 0,
+        "minimumNormalLength": 0.9999999279098094,
+        "meanNormalY": -0.06235262491973117,
+        "zeroAreaTriangles": 0,
+        "materials": [
+          "Traveler_Hair_MidnightBlue"
+        ]
+      },
+      "baselineFBXZeroAreaTriangles": 0,
+      "maxBidirectionalPositionErrorMetres": 2.086162567138672e-07,
+      "maxDimensionErrorMetres": 0.0,
+      "materialNamesMatch": true,
+      "eyeFacesForward": true,
+      "passed": true
+    },
+    {
+      "mesh": "QuietSmile",
+      "expectedBLEND": {
+        "vertices": 114,
+        "triangles": 112,
+        "min": [
+          -0.025760000571608543,
+          -0.09285783022642136,
+          1.068699598312378
+        ],
+        "max": [
+          0.025760000571608543,
+          -0.08774659782648087,
+          1.0725680589675903
+        ],
+        "dimensions": [
+          0.05152000114321709,
+          0.005111232399940491,
+          0.0038684606552124023
+        ],
+        "cornerNormals": 224,
+        "invalidNormals": 0,
+        "minimumNormalLength": 0.999999933526849,
+        "meanNormalY": -0.936881970880287,
+        "zeroAreaTriangles": 0,
+        "materials": [
+          "Traveler_Face_SoftLips"
+        ]
+      },
+      "actualFBX": {
+        "vertices": 114,
+        "triangles": 112,
+        "min": [
+          -0.025760000571608543,
+          -0.09285765886306763,
+          1.068699598312378
+        ],
+        "max": [
+          0.025760000571608543,
+          -0.08774642646312714,
+          1.0725680589675903
+        ],
+        "dimensions": [
+          0.05152000114321709,
+          0.005111232399940491,
+          0.0038684606552124023
+        ],
+        "cornerNormals": 224,
+        "invalidNormals": 0,
+        "minimumNormalLength": 0.9999999217689006,
+        "meanNormalY": -0.9368820009487016,
+        "zeroAreaTriangles": 0,
+        "materials": [
+          "Traveler_Face_SoftLips"
+        ]
+      },
+      "baselineFBXZeroAreaTriangles": 2,
+      "maxBidirectionalPositionErrorMetres": 1.7136335372924805e-07,
+      "maxDimensionErrorMetres": 0.0,
+      "materialNamesMatch": true,
+      "eyeFacesForward": true,
+      "passed": true
+    }
+  ],
+  "headPassed": true,
+  "sourceHeadBoundsAndNormalsCheckedAgainstActualFBX": true,
+  "sameFormatImportMeshCount": 62,
+  "blinkViews": [
+    {
+      "state": "open",
+      "file": "fbx-front-open.png",
+      "blinkScale": [
+        0.001,
+        0.001,
+        1
+      ],
+      "actualGeometry": "Imported character-v11 FBX; authoring style materials assigned only for CPU shape visibility."
+    },
+    {
+      "state": "closed",
+      "file": "fbx-front-closed.png",
+      "blinkScale": [
+        1.0,
+        1.0,
+        1
+      ],
+      "actualGeometry": "Imported character-v11 FBX; authoring style materials assigned only for CPU shape visibility."
+    }
+  ],
+  "inputFilesUnchanged": {
+    "art\\generated\\character-v9\\traveler.fbx": true,
+    "art\\generated\\character-v11\\traveler.fbx": true,
+    "art\\generated\\character-v11\\traveler.blend": true
+  },
+  "limits": [
+    "Zero-area endpoint triangles are reported per head object against v9; no GLB acceptance is claimed.",
+    "CPU blink originals require visual inspection; two end states do not prove natural intermediate runtime blinking.",
+    "CPU images use actual FBX geometry with the known authoring material style; the separately compared imported FBX graphs are recorded above.",
+    "This is not Unity import, animation/normal gameplay acceptance, or isolated performance evidence."
+  ]
+}

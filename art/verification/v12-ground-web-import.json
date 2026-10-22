@@ -1,0 +1,37 @@
+{
+  "activeTarget": "WebGL",
+  "assetPath": "Assets/BorrowedLight/Resources/Textures/GroundDetailV12.png",
+  "sourceSHA256": "483D36A325CA6B05BBB8580DD3E238AF866F331D762976CB0064569FD7925F1B",
+  "width": 1254,
+  "height": 1254,
+  "format": "RGBA32",
+  "mips": 11,
+  "filter": "Trilinear",
+  "aniso": 4,
+  "sRGB": true,
+  "readable": false,
+  "mipmaps": true,
+  "wrap": "Repeat",
+  "runtimeMemorySizeBytes": 16768800,
+  "runtimeMemorySizeScope": "Unity Profiler object memory, not a direct GPU allocation counter",
+  "platforms": [
+    {
+      "name": "Standalone",
+      "overridden": true,
+      "maxTextureSize": 1024,
+      "format": "DXT1",
+      "compression": "CompressedHQ",
+      "compressionQuality": 100,
+      "crunchedCompression": false
+    },
+    {
+      "name": "WebGL",
+      "overridden": true,
+      "maxTextureSize": 2048,
+      "format": "RGBA32",
+      "compression": "Uncompressed",
+      "compressionQuality": 50,
+      "crunchedCompression": false
+    }
+  ]
+}

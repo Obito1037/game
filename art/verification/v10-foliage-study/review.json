@@ -1,0 +1,171 @@
+{
+  "reviewer": "world_naturalness_v5；独立于根代理的原图视觉判断，本代理也是植被 shader 修正作者",
+  "reviewed": true,
+  "acceptedForLimitedScope": true,
+  "acceptedScope": "Fixed40 在本次三个冻结机位的静态视觉回归检查可接受；不代表正常动态玩法、性能或整体自然度已通过。",
+  "recommendedDefault": "fixed40",
+  "fixed20RecommendedAsDefault": false,
+  "fixed20HasBlockingVisualDefectInTheseViews": false,
+  "fixed20Reason": "20% 让部分细叶更暗、朝向间明暗差异略强，但原尺寸三机位没有显示明确优于40%的自然度；较暗细条仍有纸片感，暂不改默认。",
+  "buildId": "build_9902e018c8ce",
+  "viewingMethod": "逐张亲自查看12张1440x900原尺寸PNG，包含3张Legacy复拍；没有生成裁切、增强或拼贴。",
+  "reviewedImages": [
+    {
+      "file": "path-legacy40.png",
+      "width": 1440,
+      "height": 900,
+      "sha256": "0d7d1a02bad7f1c0b92c9c427f349a4659d28928ed8efdd1cfca5e442b6007a3"
+    },
+    {
+      "file": "path-fixed40.png",
+      "width": 1440,
+      "height": 900,
+      "sha256": "53965fe10a3b80abaee9c93d5f84d04be7a4c3a796e7249c5e3a32d3ed442eb1"
+    },
+    {
+      "file": "path-fixed20.png",
+      "width": 1440,
+      "height": 900,
+      "sha256": "afcf3bbd9751fba5e852ba8dc00bb8be411d3926e85db2d600bae599cf481813"
+    },
+    {
+      "file": "path-legacy40-repeat.png",
+      "width": 1440,
+      "height": 900,
+      "sha256": "47abff1c5994b5205d95045cb0affc174dcdd225c251e766be9d332c4e860a25"
+    },
+    {
+      "file": "roots-legacy40.png",
+      "width": 1440,
+      "height": 900,
+      "sha256": "11a968d10adb51b275277160dcd783524a71a54d0b1f643f7188daccdfcbb1eb"
+    },
+    {
+      "file": "roots-fixed40.png",
+      "width": 1440,
+      "height": 900,
+      "sha256": "7f9c7e11324b5897001e89ecd95209996b695e46626d8b14d25e234033c3e3d3"
+    },
+    {
+      "file": "roots-fixed20.png",
+      "width": 1440,
+      "height": 900,
+      "sha256": "36b75854ababfabacac5e5393428d05c3c63d5d83d3dc56c863989a4896b4451"
+    },
+    {
+      "file": "roots-legacy40-repeat.png",
+      "width": 1440,
+      "height": 900,
+      "sha256": "7fc4a40a99ab05353bea5085870bfcbeb8e1015b429e7ed373506ae3a53605e1"
+    },
+    {
+      "file": "lamp-legacy40.png",
+      "width": 1440,
+      "height": 900,
+      "sha256": "f61f18a11f01103895d65d9a0909b044c41a465b3d42d266a9118f1337d7a617"
+    },
+    {
+      "file": "lamp-fixed40.png",
+      "width": 1440,
+      "height": 900,
+      "sha256": "4c31c2c14fe48169fb43b89b99d53f85c8203a581769c07e5fa41d03a3a354f6"
+    },
+    {
+      "file": "lamp-fixed20.png",
+      "width": 1440,
+      "height": 900,
+      "sha256": "5377f667567d3c731ab5647e8d00edb28fbf7aeaf356a8a224ac7ecf1d0e6675"
+    },
+    {
+      "file": "lamp-legacy40-repeat.png",
+      "width": 1440,
+      "height": 900,
+      "sha256": "1d49f8021105b00c215de528525f25dd7cea3faaeba2c65663b4696354d7a9a5"
+    }
+  ],
+  "captureConditionsFromRecordedEvidence": {
+    "source": "material-study.json",
+    "frozenTime": 0.0,
+    "night": 1.0,
+    "allInvariantsPassed": true,
+    "viewCount": 12,
+    "transformsAndLightsUnchangedForAllViews": true,
+    "note": "这是读取已有采集证据，并非本代理重新采集或运行时检查。"
+  },
+  "perView": [
+    {
+      "view": "path",
+      "fixed40VsLegacy40": "整体色调、道路可读性和前中景草层保持接近；未看到新增的大块黑叶、脏圈或悬浮阴影。通道修正造成的视觉差异有限，不能称为明显整体画质提升。",
+      "fixed20VsFixed40": "部分背光细叶更暗，明暗分化略强；正常构图中自然度优势不明确，仍显细条/纸片轮廓。",
+      "obviousNewDirtyShadows": false,
+      "obviousNewBlackLeafMasses": false
+    },
+    {
+      "view": "roots",
+      "fixed40VsLegacy40": "近草仍保持绿色轮廓，岩脚与草根周围未出现新黑圈或大面积糊黑。地面和草叶之间的接触感仍偏弱，单靠本次修正未解决该美术问题。",
+      "fixed20VsFixed40": "若干背向细叶及窄边更暗、局部趋近黑色，但没有整片草丛失去可读性的严重压黑；未显示足够明确的自然度收益。",
+      "obviousNewDirtyShadows": false,
+      "obviousNewBlackLeafMasses": false
+    },
+    {
+      "view": "lamp",
+      "fixed40VsLegacy40": "灯座周围的浅绿叶片和草根可辨；横跨灯座的近黑尖叶在Legacy与复拍中也存在，不能归为修正新增。未见Fixed40产生新的宽脏影或黑色光晕。",
+      "fixed20VsFixed40": "部分竖叶、细条和背面暗得更明显，增加局部明暗差，却没有明显减轻平面剪纸感；我更倾向保持40%。",
+      "obviousNewDirtyShadows": false,
+      "obviousNewBlackLeafMasses": false
+    }
+  ],
+  "repeatAssessment": "Legacy复拍在原尺寸下构图与观感一致，但不是像素完全相同；未据小幅像素差推断材质质量。",
+  "ssaoTemporalReadOnlyFinding": {
+    "urpVersion": "17.3.0",
+    "activeConfiguration": "PC_Renderer.asset 中 m_Active=1、AOMethod=0（BlueNoise）、Downsample=0、Source=1（DepthNormals）；采集配置链会使用该renderer。",
+    "mechanism": "ScreenSpaceAmbientOcclusionPass.SetupKeywordsAndParameters 每次调用递增 m_BlueNoiseTextureIndex 并循环图集，同时取两个 UnityEngine.Random.value 作为UV偏移。不是_Time驱动，也不是直接按Time.frameCount取模；常规相机持续渲染时会继续更新。",
+    "evidence": [
+      {
+        "file": "GameProject/Assets/Settings/PC_Renderer.asset",
+        "lines": "73-85",
+        "supports": "Active BlueNoise SSAO配置"
+      },
+      {
+        "file": "GameProject/Library/PackageCache/com.unity.render-pipelines.universal@746735fb06f2/Runtime/Passes/ScreenSpaceAmbientOcclusionPass.cs",
+        "lines": "220,257-276",
+        "supports": "SetupKeywordsAndParameters中的纹理index递增、随机UV偏移以及UNITY_INCLUDE_TESTS例外"
+      },
+      {
+        "file": "GameProject/Library/PackageCache/com.unity.render-pipelines.universal@746735fb06f2/Runtime/Passes/ScreenSpaceAmbientOcclusionPass.cs",
+        "lines": "366-367,510-511",
+        "supports": "RenderGraph与compatibility相机setup都调用参数更新"
+      },
+      {
+        "file": "GameProject/Library/PackageCache/com.unity.render-pipelines.universal@746735fb06f2/ShaderLibrary/SSAO.hlsl",
+        "lines": "36-38,184-196",
+        "supports": "噪声偏移实际参与AO采样方向选择"
+      }
+    ],
+    "parameterCacheDoesNotFreezeNoise": "Pass.cs 259–276行先推进选图、随机偏移并写入材质，284–285行才因其他参数未变而提前返回；灯光/材质条件不变不会跳过本次噪声更新。此项经独立只读复核确认。",
+    "testBuildException": "若编译定义 UNITY_INCLUDE_TESTS，则代码强制纹理0、偏移(1,1)；本次仅检查普通Player证据，没有反编译确认该条件编译状态。",
+    "stoneAAObservedMetric": {
+      "source": "../v10-stone-study/pixel-comparison.json",
+      "pair": [
+        "path-baseline.png",
+        "path-baseline-repeat.png"
+      ],
+      "meanAbsoluteRGBByteDifference": 0.5649663065843621,
+      "maximumChannelDifference": 73,
+      "changedPixelFraction": 0.4906952160493827
+    },
+    "causalConclusion": "冻结_Time、transform、灯光不会自动冻结这套AO随机序列，因此该机制是A/A非零差异的具体合理来源；仅凭源码与全图MAE，不能证明全部差异由SSAO造成，也不能由此宣称任何两帧像素相同。",
+    "notEstablished": [
+      "未记录两次截图实际绑定的_BlueNoiseTexture和_SSAOBlueNoiseParams",
+      "未做AO固定随机参数或关闭AO的成对控制实验",
+      "未量化SSAO对0.565/255差异的单独贡献",
+      "其他逐渲染更新或随机项没有被本次任务完全排除"
+    ]
+  },
+  "limits": [
+    "只覆盖三个固定相机和冻结时间、摆好的角色姿态。",
+    "无法用静帧验收风摆期间的AO闪烁、边缘拖影或阴影同步。",
+    "未重跑游戏、未测试性能、Web压缩或其他硬件。",
+    "没有修改shader、材质、AO、灯光、模型或采集结果。"
+  ]
+}

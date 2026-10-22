@@ -1,0 +1,2001 @@
+{
+  "purpose": "Locate possible closed-eye frames; pixel threshold is not an animation pass/fail test.",
+  "crop": [
+    600,
+    140,
+    240,
+    200
+  ],
+  "sourceCaptureRate": 25,
+  "sourceRateLimit": "Browser video container cadence, not engine FPS.",
+  "allSamples": [
+    {
+      "file": "face-0001.png",
+      "index": 1,
+      "requestedSourceSeconds": 43,
+      "darkEyeRegionPixels": 82
+    },
+    {
+      "file": "face-0002.png",
+      "index": 2,
+      "requestedSourceSeconds": 43.04,
+      "darkEyeRegionPixels": 82
+    },
+    {
+      "file": "face-0003.png",
+      "index": 3,
+      "requestedSourceSeconds": 43.08,
+      "darkEyeRegionPixels": 81
+    },
+    {
+      "file": "face-0004.png",
+      "index": 4,
+      "requestedSourceSeconds": 43.12,
+      "darkEyeRegionPixels": 81
+    },
+    {
+      "file": "face-0005.png",
+      "index": 5,
+      "requestedSourceSeconds": 43.16,
+      "darkEyeRegionPixels": 81
+    },
+    {
+      "file": "face-0006.png",
+      "index": 6,
+      "requestedSourceSeconds": 43.2,
+      "darkEyeRegionPixels": 81
+    },
+    {
+      "file": "face-0007.png",
+      "index": 7,
+      "requestedSourceSeconds": 43.24,
+      "darkEyeRegionPixels": 81
+    },
+    {
+      "file": "face-0008.png",
+      "index": 8,
+      "requestedSourceSeconds": 43.28,
+      "darkEyeRegionPixels": 80
+    },
+    {
+      "file": "face-0009.png",
+      "index": 9,
+      "requestedSourceSeconds": 43.32,
+      "darkEyeRegionPixels": 79
+    },
+    {
+      "file": "face-0010.png",
+      "index": 10,
+      "requestedSourceSeconds": 43.36,
+      "darkEyeRegionPixels": 79
+    },
+    {
+      "file": "face-0011.png",
+      "index": 11,
+      "requestedSourceSeconds": 43.4,
+      "darkEyeRegionPixels": 79
+    },
+    {
+      "file": "face-0012.png",
+      "index": 12,
+      "requestedSourceSeconds": 43.44,
+      "darkEyeRegionPixels": 84
+    },
+    {
+      "file": "face-0013.png",
+      "index": 13,
+      "requestedSourceSeconds": 43.48,
+      "darkEyeRegionPixels": 84
+    },
+    {
+      "file": "face-0014.png",
+      "index": 14,
+      "requestedSourceSeconds": 43.52,
+      "darkEyeRegionPixels": 84
+    },
+    {
+      "file": "face-0015.png",
+      "index": 15,
+      "requestedSourceSeconds": 43.56,
+      "darkEyeRegionPixels": 84
+    },
+    {
+      "file": "face-0016.png",
+      "index": 16,
+      "requestedSourceSeconds": 43.6,
+      "darkEyeRegionPixels": 84
+    },
+    {
+      "file": "face-0017.png",
+      "index": 17,
+      "requestedSourceSeconds": 43.64,
+      "darkEyeRegionPixels": 84
+    },
+    {
+      "file": "face-0018.png",
+      "index": 18,
+      "requestedSourceSeconds": 43.68,
+      "darkEyeRegionPixels": 84
+    },
+    {
+      "file": "face-0019.png",
+      "index": 19,
+      "requestedSourceSeconds": 43.72,
+      "darkEyeRegionPixels": 82
+    },
+    {
+      "file": "face-0020.png",
+      "index": 20,
+      "requestedSourceSeconds": 43.76,
+      "darkEyeRegionPixels": 82
+    },
+    {
+      "file": "face-0021.png",
+      "index": 21,
+      "requestedSourceSeconds": 43.8,
+      "darkEyeRegionPixels": 81
+    },
+    {
+      "file": "face-0022.png",
+      "index": 22,
+      "requestedSourceSeconds": 43.84,
+      "darkEyeRegionPixels": 83
+    },
+    {
+      "file": "face-0023.png",
+      "index": 23,
+      "requestedSourceSeconds": 43.88,
+      "darkEyeRegionPixels": 83
+    },
+    {
+      "file": "face-0024.png",
+      "index": 24,
+      "requestedSourceSeconds": 43.92,
+      "darkEyeRegionPixels": 83
+    },
+    {
+      "file": "face-0025.png",
+      "index": 25,
+      "requestedSourceSeconds": 43.96,
+      "darkEyeRegionPixels": 83
+    },
+    {
+      "file": "face-0026.png",
+      "index": 26,
+      "requestedSourceSeconds": 44,
+      "darkEyeRegionPixels": 83
+    },
+    {
+      "file": "face-0027.png",
+      "index": 27,
+      "requestedSourceSeconds": 44.04,
+      "darkEyeRegionPixels": 83
+    },
+    {
+      "file": "face-0028.png",
+      "index": 28,
+      "requestedSourceSeconds": 44.08,
+      "darkEyeRegionPixels": 83
+    },
+    {
+      "file": "face-0029.png",
+      "index": 29,
+      "requestedSourceSeconds": 44.12,
+      "darkEyeRegionPixels": 83
+    },
+    {
+      "file": "face-0030.png",
+      "index": 30,
+      "requestedSourceSeconds": 44.16,
+      "darkEyeRegionPixels": 83
+    },
+    {
+      "file": "face-0031.png",
+      "index": 31,
+      "requestedSourceSeconds": 44.2,
+      "darkEyeRegionPixels": 83
+    },
+    {
+      "file": "face-0032.png",
+      "index": 32,
+      "requestedSourceSeconds": 44.24,
+      "darkEyeRegionPixels": 83
+    },
+    {
+      "file": "face-0033.png",
+      "index": 33,
+      "requestedSourceSeconds": 44.28,
+      "darkEyeRegionPixels": 84
+    },
+    {
+      "file": "face-0034.png",
+      "index": 34,
+      "requestedSourceSeconds": 44.32,
+      "darkEyeRegionPixels": 85
+    },
+    {
+      "file": "face-0035.png",
+      "index": 35,
+      "requestedSourceSeconds": 44.36,
+      "darkEyeRegionPixels": 85
+    },
+    {
+      "file": "face-0036.png",
+      "index": 36,
+      "requestedSourceSeconds": 44.4,
+      "darkEyeRegionPixels": 86
+    },
+    {
+      "file": "face-0037.png",
+      "index": 37,
+      "requestedSourceSeconds": 44.44,
+      "darkEyeRegionPixels": 86
+    },
+    {
+      "file": "face-0038.png",
+      "index": 38,
+      "requestedSourceSeconds": 44.48,
+      "darkEyeRegionPixels": 85
+    },
+    {
+      "file": "face-0039.png",
+      "index": 39,
+      "requestedSourceSeconds": 44.52,
+      "darkEyeRegionPixels": 85
+    },
+    {
+      "file": "face-0040.png",
+      "index": 40,
+      "requestedSourceSeconds": 44.56,
+      "darkEyeRegionPixels": 80
+    },
+    {
+      "file": "face-0041.png",
+      "index": 41,
+      "requestedSourceSeconds": 44.6,
+      "darkEyeRegionPixels": 0
+    },
+    {
+      "file": "face-0042.png",
+      "index": 42,
+      "requestedSourceSeconds": 44.64,
+      "darkEyeRegionPixels": 0
+    },
+    {
+      "file": "face-0043.png",
+      "index": 43,
+      "requestedSourceSeconds": 44.68,
+      "darkEyeRegionPixels": 0
+    },
+    {
+      "file": "face-0044.png",
+      "index": 44,
+      "requestedSourceSeconds": 44.72,
+      "darkEyeRegionPixels": 84
+    },
+    {
+      "file": "face-0045.png",
+      "index": 45,
+      "requestedSourceSeconds": 44.76,
+      "darkEyeRegionPixels": 83
+    },
+    {
+      "file": "face-0046.png",
+      "index": 46,
+      "requestedSourceSeconds": 44.8,
+      "darkEyeRegionPixels": 83
+    },
+    {
+      "file": "face-0047.png",
+      "index": 47,
+      "requestedSourceSeconds": 44.84,
+      "darkEyeRegionPixels": 83
+    },
+    {
+      "file": "face-0048.png",
+      "index": 48,
+      "requestedSourceSeconds": 44.88,
+      "darkEyeRegionPixels": 82
+    },
+    {
+      "file": "face-0049.png",
+      "index": 49,
+      "requestedSourceSeconds": 44.92,
+      "darkEyeRegionPixels": 82
+    },
+    {
+      "file": "face-0050.png",
+      "index": 50,
+      "requestedSourceSeconds": 44.96,
+      "darkEyeRegionPixels": 80
+    },
+    {
+      "file": "face-0051.png",
+      "index": 51,
+      "requestedSourceSeconds": 45,
+      "darkEyeRegionPixels": 81
+    },
+    {
+      "file": "face-0052.png",
+      "index": 52,
+      "requestedSourceSeconds": 45.04,
+      "darkEyeRegionPixels": 81
+    },
+    {
+      "file": "face-0053.png",
+      "index": 53,
+      "requestedSourceSeconds": 45.08,
+      "darkEyeRegionPixels": 81
+    },
+    {
+      "file": "face-0054.png",
+      "index": 54,
+      "requestedSourceSeconds": 45.12,
+      "darkEyeRegionPixels": 81
+    },
+    {
+      "file": "face-0055.png",
+      "index": 55,
+      "requestedSourceSeconds": 45.16,
+      "darkEyeRegionPixels": 82
+    },
+    {
+      "file": "face-0056.png",
+      "index": 56,
+      "requestedSourceSeconds": 45.2,
+      "darkEyeRegionPixels": 80
+    },
+    {
+      "file": "face-0057.png",
+      "index": 57,
+      "requestedSourceSeconds": 45.24,
+      "darkEyeRegionPixels": 80
+    },
+    {
+      "file": "face-0058.png",
+      "index": 58,
+      "requestedSourceSeconds": 45.28,
+      "darkEyeRegionPixels": 80
+    },
+    {
+      "file": "face-0059.png",
+      "index": 59,
+      "requestedSourceSeconds": 45.32,
+      "darkEyeRegionPixels": 80
+    },
+    {
+      "file": "face-0060.png",
+      "index": 60,
+      "requestedSourceSeconds": 45.36,
+      "darkEyeRegionPixels": 80
+    },
+    {
+      "file": "face-0061.png",
+      "index": 61,
+      "requestedSourceSeconds": 45.4,
+      "darkEyeRegionPixels": 80
+    },
+    {
+      "file": "face-0062.png",
+      "index": 62,
+      "requestedSourceSeconds": 45.44,
+      "darkEyeRegionPixels": 83
+    },
+    {
+      "file": "face-0063.png",
+      "index": 63,
+      "requestedSourceSeconds": 45.48,
+      "darkEyeRegionPixels": 82
+    },
+    {
+      "file": "face-0064.png",
+      "index": 64,
+      "requestedSourceSeconds": 45.52,
+      "darkEyeRegionPixels": 81
+    },
+    {
+      "file": "face-0065.png",
+      "index": 65,
+      "requestedSourceSeconds": 45.56,
+      "darkEyeRegionPixels": 82
+    },
+    {
+      "file": "face-0066.png",
+      "index": 66,
+      "requestedSourceSeconds": 45.6,
+      "darkEyeRegionPixels": 82
+    },
+    {
+      "file": "face-0067.png",
+      "index": 67,
+      "requestedSourceSeconds": 45.64,
+      "darkEyeRegionPixels": 85
+    },
+    {
+      "file": "face-0068.png",
+      "index": 68,
+      "requestedSourceSeconds": 45.68,
+      "darkEyeRegionPixels": 85
+    },
+    {
+      "file": "face-0069.png",
+      "index": 69,
+      "requestedSourceSeconds": 45.72,
+      "darkEyeRegionPixels": 85
+    },
+    {
+      "file": "face-0070.png",
+      "index": 70,
+      "requestedSourceSeconds": 45.76,
+      "darkEyeRegionPixels": 87
+    },
+    {
+      "file": "face-0071.png",
+      "index": 71,
+      "requestedSourceSeconds": 45.8,
+      "darkEyeRegionPixels": 86
+    },
+    {
+      "file": "face-0072.png",
+      "index": 72,
+      "requestedSourceSeconds": 45.84,
+      "darkEyeRegionPixels": 86
+    },
+    {
+      "file": "face-0073.png",
+      "index": 73,
+      "requestedSourceSeconds": 45.88,
+      "darkEyeRegionPixels": 85
+    },
+    {
+      "file": "face-0074.png",
+      "index": 74,
+      "requestedSourceSeconds": 45.92,
+      "darkEyeRegionPixels": 83
+    },
+    {
+      "file": "face-0075.png",
+      "index": 75,
+      "requestedSourceSeconds": 45.96,
+      "darkEyeRegionPixels": 83
+    },
+    {
+      "file": "face-0076.png",
+      "index": 76,
+      "requestedSourceSeconds": 46,
+      "darkEyeRegionPixels": 86
+    },
+    {
+      "file": "face-0077.png",
+      "index": 77,
+      "requestedSourceSeconds": 46.04,
+      "darkEyeRegionPixels": 84
+    },
+    {
+      "file": "face-0078.png",
+      "index": 78,
+      "requestedSourceSeconds": 46.08,
+      "darkEyeRegionPixels": 91
+    },
+    {
+      "file": "face-0079.png",
+      "index": 79,
+      "requestedSourceSeconds": 46.12,
+      "darkEyeRegionPixels": 87
+    },
+    {
+      "file": "face-0080.png",
+      "index": 80,
+      "requestedSourceSeconds": 46.16,
+      "darkEyeRegionPixels": 89
+    },
+    {
+      "file": "face-0081.png",
+      "index": 81,
+      "requestedSourceSeconds": 46.2,
+      "darkEyeRegionPixels": 88
+    },
+    {
+      "file": "face-0082.png",
+      "index": 82,
+      "requestedSourceSeconds": 46.24,
+      "darkEyeRegionPixels": 83
+    },
+    {
+      "file": "face-0083.png",
+      "index": 83,
+      "requestedSourceSeconds": 46.28,
+      "darkEyeRegionPixels": 81
+    },
+    {
+      "file": "face-0084.png",
+      "index": 84,
+      "requestedSourceSeconds": 46.32,
+      "darkEyeRegionPixels": 84
+    },
+    {
+      "file": "face-0085.png",
+      "index": 85,
+      "requestedSourceSeconds": 46.36,
+      "darkEyeRegionPixels": 85
+    },
+    {
+      "file": "face-0086.png",
+      "index": 86,
+      "requestedSourceSeconds": 46.4,
+      "darkEyeRegionPixels": 85
+    },
+    {
+      "file": "face-0087.png",
+      "index": 87,
+      "requestedSourceSeconds": 46.44,
+      "darkEyeRegionPixels": 85
+    },
+    {
+      "file": "face-0088.png",
+      "index": 88,
+      "requestedSourceSeconds": 46.48,
+      "darkEyeRegionPixels": 84
+    },
+    {
+      "file": "face-0089.png",
+      "index": 89,
+      "requestedSourceSeconds": 46.52,
+      "darkEyeRegionPixels": 83
+    },
+    {
+      "file": "face-0090.png",
+      "index": 90,
+      "requestedSourceSeconds": 46.56,
+      "darkEyeRegionPixels": 83
+    },
+    {
+      "file": "face-0091.png",
+      "index": 91,
+      "requestedSourceSeconds": 46.6,
+      "darkEyeRegionPixels": 81
+    },
+    {
+      "file": "face-0092.png",
+      "index": 92,
+      "requestedSourceSeconds": 46.64,
+      "darkEyeRegionPixels": 82
+    },
+    {
+      "file": "face-0093.png",
+      "index": 93,
+      "requestedSourceSeconds": 46.68,
+      "darkEyeRegionPixels": 84
+    },
+    {
+      "file": "face-0094.png",
+      "index": 94,
+      "requestedSourceSeconds": 46.72,
+      "darkEyeRegionPixels": 85
+    },
+    {
+      "file": "face-0095.png",
+      "index": 95,
+      "requestedSourceSeconds": 46.76,
+      "darkEyeRegionPixels": 85
+    },
+    {
+      "file": "face-0096.png",
+      "index": 96,
+      "requestedSourceSeconds": 46.8,
+      "darkEyeRegionPixels": 85
+    },
+    {
+      "file": "face-0097.png",
+      "index": 97,
+      "requestedSourceSeconds": 46.84,
+      "darkEyeRegionPixels": 84
+    },
+    {
+      "file": "face-0098.png",
+      "index": 98,
+      "requestedSourceSeconds": 46.88,
+      "darkEyeRegionPixels": 83
+    },
+    {
+      "file": "face-0099.png",
+      "index": 99,
+      "requestedSourceSeconds": 46.92,
+      "darkEyeRegionPixels": 83
+    },
+    {
+      "file": "face-0100.png",
+      "index": 100,
+      "requestedSourceSeconds": 46.96,
+      "darkEyeRegionPixels": 84
+    },
+    {
+      "file": "face-0101.png",
+      "index": 101,
+      "requestedSourceSeconds": 47,
+      "darkEyeRegionPixels": 86
+    },
+    {
+      "file": "face-0102.png",
+      "index": 102,
+      "requestedSourceSeconds": 47.04,
+      "darkEyeRegionPixels": 83
+    },
+    {
+      "file": "face-0103.png",
+      "index": 103,
+      "requestedSourceSeconds": 47.08,
+      "darkEyeRegionPixels": 89
+    },
+    {
+      "file": "face-0104.png",
+      "index": 104,
+      "requestedSourceSeconds": 47.12,
+      "darkEyeRegionPixels": 86
+    },
+    {
+      "file": "face-0105.png",
+      "index": 105,
+      "requestedSourceSeconds": 47.16,
+      "darkEyeRegionPixels": 88
+    },
+    {
+      "file": "face-0106.png",
+      "index": 106,
+      "requestedSourceSeconds": 47.2,
+      "darkEyeRegionPixels": 88
+    },
+    {
+      "file": "face-0107.png",
+      "index": 107,
+      "requestedSourceSeconds": 47.24,
+      "darkEyeRegionPixels": 89
+    },
+    {
+      "file": "face-0108.png",
+      "index": 108,
+      "requestedSourceSeconds": 47.28,
+      "darkEyeRegionPixels": 89
+    },
+    {
+      "file": "face-0109.png",
+      "index": 109,
+      "requestedSourceSeconds": 47.32,
+      "darkEyeRegionPixels": 90
+    },
+    {
+      "file": "face-0110.png",
+      "index": 110,
+      "requestedSourceSeconds": 47.36,
+      "darkEyeRegionPixels": 88
+    },
+    {
+      "file": "face-0111.png",
+      "index": 111,
+      "requestedSourceSeconds": 47.4,
+      "darkEyeRegionPixels": 89
+    },
+    {
+      "file": "face-0112.png",
+      "index": 112,
+      "requestedSourceSeconds": 47.44,
+      "darkEyeRegionPixels": 86
+    },
+    {
+      "file": "face-0113.png",
+      "index": 113,
+      "requestedSourceSeconds": 47.480000000000004,
+      "darkEyeRegionPixels": 86
+    },
+    {
+      "file": "face-0114.png",
+      "index": 114,
+      "requestedSourceSeconds": 47.519999999999996,
+      "darkEyeRegionPixels": 86
+    },
+    {
+      "file": "face-0115.png",
+      "index": 115,
+      "requestedSourceSeconds": 47.56,
+      "darkEyeRegionPixels": 86
+    },
+    {
+      "file": "face-0116.png",
+      "index": 116,
+      "requestedSourceSeconds": 47.6,
+      "darkEyeRegionPixels": 91
+    },
+    {
+      "file": "face-0117.png",
+      "index": 117,
+      "requestedSourceSeconds": 47.64,
+      "darkEyeRegionPixels": 91
+    },
+    {
+      "file": "face-0118.png",
+      "index": 118,
+      "requestedSourceSeconds": 47.68,
+      "darkEyeRegionPixels": 82
+    },
+    {
+      "file": "face-0119.png",
+      "index": 119,
+      "requestedSourceSeconds": 47.72,
+      "darkEyeRegionPixels": 84
+    },
+    {
+      "file": "face-0120.png",
+      "index": 120,
+      "requestedSourceSeconds": 47.76,
+      "darkEyeRegionPixels": 84
+    },
+    {
+      "file": "face-0121.png",
+      "index": 121,
+      "requestedSourceSeconds": 47.8,
+      "darkEyeRegionPixels": 84
+    },
+    {
+      "file": "face-0122.png",
+      "index": 122,
+      "requestedSourceSeconds": 47.84,
+      "darkEyeRegionPixels": 84
+    },
+    {
+      "file": "face-0123.png",
+      "index": 123,
+      "requestedSourceSeconds": 47.88,
+      "darkEyeRegionPixels": 85
+    },
+    {
+      "file": "face-0124.png",
+      "index": 124,
+      "requestedSourceSeconds": 47.92,
+      "darkEyeRegionPixels": 85
+    },
+    {
+      "file": "face-0125.png",
+      "index": 125,
+      "requestedSourceSeconds": 47.96,
+      "darkEyeRegionPixels": 89
+    },
+    {
+      "file": "face-0126.png",
+      "index": 126,
+      "requestedSourceSeconds": 48,
+      "darkEyeRegionPixels": 91
+    },
+    {
+      "file": "face-0127.png",
+      "index": 127,
+      "requestedSourceSeconds": 48.04,
+      "darkEyeRegionPixels": 89
+    },
+    {
+      "file": "face-0128.png",
+      "index": 128,
+      "requestedSourceSeconds": 48.08,
+      "darkEyeRegionPixels": 89
+    },
+    {
+      "file": "face-0129.png",
+      "index": 129,
+      "requestedSourceSeconds": 48.12,
+      "darkEyeRegionPixels": 94
+    },
+    {
+      "file": "face-0130.png",
+      "index": 130,
+      "requestedSourceSeconds": 48.16,
+      "darkEyeRegionPixels": 94
+    },
+    {
+      "file": "face-0131.png",
+      "index": 131,
+      "requestedSourceSeconds": 48.2,
+      "darkEyeRegionPixels": 94
+    },
+    {
+      "file": "face-0132.png",
+      "index": 132,
+      "requestedSourceSeconds": 48.24,
+      "darkEyeRegionPixels": 94
+    },
+    {
+      "file": "face-0133.png",
+      "index": 133,
+      "requestedSourceSeconds": 48.28,
+      "darkEyeRegionPixels": 94
+    },
+    {
+      "file": "face-0134.png",
+      "index": 134,
+      "requestedSourceSeconds": 48.32,
+      "darkEyeRegionPixels": 94
+    },
+    {
+      "file": "face-0135.png",
+      "index": 135,
+      "requestedSourceSeconds": 48.36,
+      "darkEyeRegionPixels": 93
+    },
+    {
+      "file": "face-0136.png",
+      "index": 136,
+      "requestedSourceSeconds": 48.4,
+      "darkEyeRegionPixels": 93
+    },
+    {
+      "file": "face-0137.png",
+      "index": 137,
+      "requestedSourceSeconds": 48.44,
+      "darkEyeRegionPixels": 92
+    },
+    {
+      "file": "face-0138.png",
+      "index": 138,
+      "requestedSourceSeconds": 48.480000000000004,
+      "darkEyeRegionPixels": 92
+    },
+    {
+      "file": "face-0139.png",
+      "index": 139,
+      "requestedSourceSeconds": 48.519999999999996,
+      "darkEyeRegionPixels": 92
+    },
+    {
+      "file": "face-0140.png",
+      "index": 140,
+      "requestedSourceSeconds": 48.56,
+      "darkEyeRegionPixels": 92
+    },
+    {
+      "file": "face-0141.png",
+      "index": 141,
+      "requestedSourceSeconds": 48.6,
+      "darkEyeRegionPixels": 93
+    },
+    {
+      "file": "face-0142.png",
+      "index": 142,
+      "requestedSourceSeconds": 48.64,
+      "darkEyeRegionPixels": 92
+    },
+    {
+      "file": "face-0143.png",
+      "index": 143,
+      "requestedSourceSeconds": 48.68,
+      "darkEyeRegionPixels": 92
+    },
+    {
+      "file": "face-0144.png",
+      "index": 144,
+      "requestedSourceSeconds": 48.72,
+      "darkEyeRegionPixels": 92
+    },
+    {
+      "file": "face-0145.png",
+      "index": 145,
+      "requestedSourceSeconds": 48.76,
+      "darkEyeRegionPixels": 92
+    },
+    {
+      "file": "face-0146.png",
+      "index": 146,
+      "requestedSourceSeconds": 48.8,
+      "darkEyeRegionPixels": 92
+    },
+    {
+      "file": "face-0147.png",
+      "index": 147,
+      "requestedSourceSeconds": 48.84,
+      "darkEyeRegionPixels": 91
+    },
+    {
+      "file": "face-0148.png",
+      "index": 148,
+      "requestedSourceSeconds": 48.88,
+      "darkEyeRegionPixels": 90
+    },
+    {
+      "file": "face-0149.png",
+      "index": 149,
+      "requestedSourceSeconds": 48.92,
+      "darkEyeRegionPixels": 88
+    },
+    {
+      "file": "face-0150.png",
+      "index": 150,
+      "requestedSourceSeconds": 48.96,
+      "darkEyeRegionPixels": 88
+    },
+    {
+      "file": "face-0151.png",
+      "index": 151,
+      "requestedSourceSeconds": 49,
+      "darkEyeRegionPixels": 89
+    },
+    {
+      "file": "face-0152.png",
+      "index": 152,
+      "requestedSourceSeconds": 49.04,
+      "darkEyeRegionPixels": 84
+    },
+    {
+      "file": "face-0153.png",
+      "index": 153,
+      "requestedSourceSeconds": 49.08,
+      "darkEyeRegionPixels": 88
+    },
+    {
+      "file": "face-0154.png",
+      "index": 154,
+      "requestedSourceSeconds": 49.12,
+      "darkEyeRegionPixels": 88
+    },
+    {
+      "file": "face-0155.png",
+      "index": 155,
+      "requestedSourceSeconds": 49.16,
+      "darkEyeRegionPixels": 87
+    },
+    {
+      "file": "face-0156.png",
+      "index": 156,
+      "requestedSourceSeconds": 49.2,
+      "darkEyeRegionPixels": 90
+    },
+    {
+      "file": "face-0157.png",
+      "index": 157,
+      "requestedSourceSeconds": 49.24,
+      "darkEyeRegionPixels": 88
+    },
+    {
+      "file": "face-0158.png",
+      "index": 158,
+      "requestedSourceSeconds": 49.28,
+      "darkEyeRegionPixels": 90
+    },
+    {
+      "file": "face-0159.png",
+      "index": 159,
+      "requestedSourceSeconds": 49.32,
+      "darkEyeRegionPixels": 91
+    },
+    {
+      "file": "face-0160.png",
+      "index": 160,
+      "requestedSourceSeconds": 49.36,
+      "darkEyeRegionPixels": 92
+    },
+    {
+      "file": "face-0161.png",
+      "index": 161,
+      "requestedSourceSeconds": 49.4,
+      "darkEyeRegionPixels": 89
+    },
+    {
+      "file": "face-0162.png",
+      "index": 162,
+      "requestedSourceSeconds": 49.44,
+      "darkEyeRegionPixels": 90
+    },
+    {
+      "file": "face-0163.png",
+      "index": 163,
+      "requestedSourceSeconds": 49.480000000000004,
+      "darkEyeRegionPixels": 90
+    },
+    {
+      "file": "face-0164.png",
+      "index": 164,
+      "requestedSourceSeconds": 49.519999999999996,
+      "darkEyeRegionPixels": 90
+    },
+    {
+      "file": "face-0165.png",
+      "index": 165,
+      "requestedSourceSeconds": 49.56,
+      "darkEyeRegionPixels": 94
+    },
+    {
+      "file": "face-0166.png",
+      "index": 166,
+      "requestedSourceSeconds": 49.6,
+      "darkEyeRegionPixels": 93
+    },
+    {
+      "file": "face-0167.png",
+      "index": 167,
+      "requestedSourceSeconds": 49.64,
+      "darkEyeRegionPixels": 93
+    },
+    {
+      "file": "face-0168.png",
+      "index": 168,
+      "requestedSourceSeconds": 49.68,
+      "darkEyeRegionPixels": 89
+    },
+    {
+      "file": "face-0169.png",
+      "index": 169,
+      "requestedSourceSeconds": 49.72,
+      "darkEyeRegionPixels": 86
+    },
+    {
+      "file": "face-0170.png",
+      "index": 170,
+      "requestedSourceSeconds": 49.76,
+      "darkEyeRegionPixels": 86
+    },
+    {
+      "file": "face-0171.png",
+      "index": 171,
+      "requestedSourceSeconds": 49.8,
+      "darkEyeRegionPixels": 89
+    },
+    {
+      "file": "face-0172.png",
+      "index": 172,
+      "requestedSourceSeconds": 49.84,
+      "darkEyeRegionPixels": 89
+    },
+    {
+      "file": "face-0173.png",
+      "index": 173,
+      "requestedSourceSeconds": 49.88,
+      "darkEyeRegionPixels": 89
+    },
+    {
+      "file": "face-0174.png",
+      "index": 174,
+      "requestedSourceSeconds": 49.92,
+      "darkEyeRegionPixels": 89
+    },
+    {
+      "file": "face-0175.png",
+      "index": 175,
+      "requestedSourceSeconds": 49.96,
+      "darkEyeRegionPixels": 92
+    },
+    {
+      "file": "face-0176.png",
+      "index": 176,
+      "requestedSourceSeconds": 50,
+      "darkEyeRegionPixels": 92
+    },
+    {
+      "file": "face-0177.png",
+      "index": 177,
+      "requestedSourceSeconds": 50.04,
+      "darkEyeRegionPixels": 88
+    },
+    {
+      "file": "face-0178.png",
+      "index": 178,
+      "requestedSourceSeconds": 50.08,
+      "darkEyeRegionPixels": 89
+    },
+    {
+      "file": "face-0179.png",
+      "index": 179,
+      "requestedSourceSeconds": 50.12,
+      "darkEyeRegionPixels": 89
+    },
+    {
+      "file": "face-0180.png",
+      "index": 180,
+      "requestedSourceSeconds": 50.16,
+      "darkEyeRegionPixels": 89
+    },
+    {
+      "file": "face-0181.png",
+      "index": 181,
+      "requestedSourceSeconds": 50.2,
+      "darkEyeRegionPixels": 0
+    },
+    {
+      "file": "face-0182.png",
+      "index": 182,
+      "requestedSourceSeconds": 50.24,
+      "darkEyeRegionPixels": 0
+    },
+    {
+      "file": "face-0183.png",
+      "index": 183,
+      "requestedSourceSeconds": 50.28,
+      "darkEyeRegionPixels": 89
+    },
+    {
+      "file": "face-0184.png",
+      "index": 184,
+      "requestedSourceSeconds": 50.32,
+      "darkEyeRegionPixels": 88
+    },
+    {
+      "file": "face-0185.png",
+      "index": 185,
+      "requestedSourceSeconds": 50.36,
+      "darkEyeRegionPixels": 86
+    },
+    {
+      "file": "face-0186.png",
+      "index": 186,
+      "requestedSourceSeconds": 50.4,
+      "darkEyeRegionPixels": 86
+    },
+    {
+      "file": "face-0187.png",
+      "index": 187,
+      "requestedSourceSeconds": 50.44,
+      "darkEyeRegionPixels": 89
+    },
+    {
+      "file": "face-0188.png",
+      "index": 188,
+      "requestedSourceSeconds": 50.480000000000004,
+      "darkEyeRegionPixels": 91
+    },
+    {
+      "file": "face-0189.png",
+      "index": 189,
+      "requestedSourceSeconds": 50.519999999999996,
+      "darkEyeRegionPixels": 92
+    },
+    {
+      "file": "face-0190.png",
+      "index": 190,
+      "requestedSourceSeconds": 50.56,
+      "darkEyeRegionPixels": 92
+    },
+    {
+      "file": "face-0191.png",
+      "index": 191,
+      "requestedSourceSeconds": 50.6,
+      "darkEyeRegionPixels": 92
+    },
+    {
+      "file": "face-0192.png",
+      "index": 192,
+      "requestedSourceSeconds": 50.64,
+      "darkEyeRegionPixels": 93
+    },
+    {
+      "file": "face-0193.png",
+      "index": 193,
+      "requestedSourceSeconds": 50.68,
+      "darkEyeRegionPixels": 93
+    },
+    {
+      "file": "face-0194.png",
+      "index": 194,
+      "requestedSourceSeconds": 50.72,
+      "darkEyeRegionPixels": 90
+    },
+    {
+      "file": "face-0195.png",
+      "index": 195,
+      "requestedSourceSeconds": 50.76,
+      "darkEyeRegionPixels": 91
+    },
+    {
+      "file": "face-0196.png",
+      "index": 196,
+      "requestedSourceSeconds": 50.8,
+      "darkEyeRegionPixels": 91
+    },
+    {
+      "file": "face-0197.png",
+      "index": 197,
+      "requestedSourceSeconds": 50.84,
+      "darkEyeRegionPixels": 91
+    },
+    {
+      "file": "face-0198.png",
+      "index": 198,
+      "requestedSourceSeconds": 50.88,
+      "darkEyeRegionPixels": 91
+    },
+    {
+      "file": "face-0199.png",
+      "index": 199,
+      "requestedSourceSeconds": 50.92,
+      "darkEyeRegionPixels": 89
+    },
+    {
+      "file": "face-0200.png",
+      "index": 200,
+      "requestedSourceSeconds": 50.96,
+      "darkEyeRegionPixels": 89
+    },
+    {
+      "file": "face-0201.png",
+      "index": 201,
+      "requestedSourceSeconds": 51,
+      "darkEyeRegionPixels": 88
+    },
+    {
+      "file": "face-0202.png",
+      "index": 202,
+      "requestedSourceSeconds": 51.04,
+      "darkEyeRegionPixels": 88
+    },
+    {
+      "file": "face-0203.png",
+      "index": 203,
+      "requestedSourceSeconds": 51.08,
+      "darkEyeRegionPixels": 90
+    },
+    {
+      "file": "face-0204.png",
+      "index": 204,
+      "requestedSourceSeconds": 51.12,
+      "darkEyeRegionPixels": 90
+    },
+    {
+      "file": "face-0205.png",
+      "index": 205,
+      "requestedSourceSeconds": 51.16,
+      "darkEyeRegionPixels": 89
+    },
+    {
+      "file": "face-0206.png",
+      "index": 206,
+      "requestedSourceSeconds": 51.2,
+      "darkEyeRegionPixels": 78
+    },
+    {
+      "file": "face-0207.png",
+      "index": 207,
+      "requestedSourceSeconds": 51.24,
+      "darkEyeRegionPixels": 88
+    },
+    {
+      "file": "face-0208.png",
+      "index": 208,
+      "requestedSourceSeconds": 51.28,
+      "darkEyeRegionPixels": 87
+    },
+    {
+      "file": "face-0209.png",
+      "index": 209,
+      "requestedSourceSeconds": 51.32,
+      "darkEyeRegionPixels": 86
+    },
+    {
+      "file": "face-0210.png",
+      "index": 210,
+      "requestedSourceSeconds": 51.36,
+      "darkEyeRegionPixels": 86
+    },
+    {
+      "file": "face-0211.png",
+      "index": 211,
+      "requestedSourceSeconds": 51.4,
+      "darkEyeRegionPixels": 87
+    },
+    {
+      "file": "face-0212.png",
+      "index": 212,
+      "requestedSourceSeconds": 51.44,
+      "darkEyeRegionPixels": 86
+    },
+    {
+      "file": "face-0213.png",
+      "index": 213,
+      "requestedSourceSeconds": 51.480000000000004,
+      "darkEyeRegionPixels": 90
+    },
+    {
+      "file": "face-0214.png",
+      "index": 214,
+      "requestedSourceSeconds": 51.519999999999996,
+      "darkEyeRegionPixels": 90
+    },
+    {
+      "file": "face-0215.png",
+      "index": 215,
+      "requestedSourceSeconds": 51.56,
+      "darkEyeRegionPixels": 90
+    },
+    {
+      "file": "face-0216.png",
+      "index": 216,
+      "requestedSourceSeconds": 51.6,
+      "darkEyeRegionPixels": 89
+    },
+    {
+      "file": "face-0217.png",
+      "index": 217,
+      "requestedSourceSeconds": 51.64,
+      "darkEyeRegionPixels": 89
+    },
+    {
+      "file": "face-0218.png",
+      "index": 218,
+      "requestedSourceSeconds": 51.68,
+      "darkEyeRegionPixels": 91
+    },
+    {
+      "file": "face-0219.png",
+      "index": 219,
+      "requestedSourceSeconds": 51.72,
+      "darkEyeRegionPixels": 90
+    },
+    {
+      "file": "face-0220.png",
+      "index": 220,
+      "requestedSourceSeconds": 51.76,
+      "darkEyeRegionPixels": 90
+    },
+    {
+      "file": "face-0221.png",
+      "index": 221,
+      "requestedSourceSeconds": 51.8,
+      "darkEyeRegionPixels": 88
+    },
+    {
+      "file": "face-0222.png",
+      "index": 222,
+      "requestedSourceSeconds": 51.84,
+      "darkEyeRegionPixels": 90
+    },
+    {
+      "file": "face-0223.png",
+      "index": 223,
+      "requestedSourceSeconds": 51.88,
+      "darkEyeRegionPixels": 89
+    },
+    {
+      "file": "face-0224.png",
+      "index": 224,
+      "requestedSourceSeconds": 51.92,
+      "darkEyeRegionPixels": 89
+    },
+    {
+      "file": "face-0225.png",
+      "index": 225,
+      "requestedSourceSeconds": 51.96,
+      "darkEyeRegionPixels": 91
+    },
+    {
+      "file": "face-0226.png",
+      "index": 226,
+      "requestedSourceSeconds": 52,
+      "darkEyeRegionPixels": 91
+    },
+    {
+      "file": "face-0227.png",
+      "index": 227,
+      "requestedSourceSeconds": 52.04,
+      "darkEyeRegionPixels": 94
+    },
+    {
+      "file": "face-0228.png",
+      "index": 228,
+      "requestedSourceSeconds": 52.08,
+      "darkEyeRegionPixels": 92
+    },
+    {
+      "file": "face-0229.png",
+      "index": 229,
+      "requestedSourceSeconds": 52.12,
+      "darkEyeRegionPixels": 89
+    },
+    {
+      "file": "face-0230.png",
+      "index": 230,
+      "requestedSourceSeconds": 52.16,
+      "darkEyeRegionPixels": 89
+    },
+    {
+      "file": "face-0231.png",
+      "index": 231,
+      "requestedSourceSeconds": 52.2,
+      "darkEyeRegionPixels": 87
+    },
+    {
+      "file": "face-0232.png",
+      "index": 232,
+      "requestedSourceSeconds": 52.24,
+      "darkEyeRegionPixels": 85
+    },
+    {
+      "file": "face-0233.png",
+      "index": 233,
+      "requestedSourceSeconds": 52.28,
+      "darkEyeRegionPixels": 86
+    },
+    {
+      "file": "face-0234.png",
+      "index": 234,
+      "requestedSourceSeconds": 52.32,
+      "darkEyeRegionPixels": 86
+    },
+    {
+      "file": "face-0235.png",
+      "index": 235,
+      "requestedSourceSeconds": 52.36,
+      "darkEyeRegionPixels": 88
+    },
+    {
+      "file": "face-0236.png",
+      "index": 236,
+      "requestedSourceSeconds": 52.4,
+      "darkEyeRegionPixels": 88
+    },
+    {
+      "file": "face-0237.png",
+      "index": 237,
+      "requestedSourceSeconds": 52.44,
+      "darkEyeRegionPixels": 85
+    },
+    {
+      "file": "face-0238.png",
+      "index": 238,
+      "requestedSourceSeconds": 52.480000000000004,
+      "darkEyeRegionPixels": 86
+    },
+    {
+      "file": "face-0239.png",
+      "index": 239,
+      "requestedSourceSeconds": 52.519999999999996,
+      "darkEyeRegionPixels": 86
+    },
+    {
+      "file": "face-0240.png",
+      "index": 240,
+      "requestedSourceSeconds": 52.56,
+      "darkEyeRegionPixels": 87
+    },
+    {
+      "file": "face-0241.png",
+      "index": 241,
+      "requestedSourceSeconds": 52.6,
+      "darkEyeRegionPixels": 87
+    },
+    {
+      "file": "face-0242.png",
+      "index": 242,
+      "requestedSourceSeconds": 52.64,
+      "darkEyeRegionPixels": 87
+    },
+    {
+      "file": "face-0243.png",
+      "index": 243,
+      "requestedSourceSeconds": 52.68,
+      "darkEyeRegionPixels": 86
+    },
+    {
+      "file": "face-0244.png",
+      "index": 244,
+      "requestedSourceSeconds": 52.72,
+      "darkEyeRegionPixels": 86
+    },
+    {
+      "file": "face-0245.png",
+      "index": 245,
+      "requestedSourceSeconds": 52.76,
+      "darkEyeRegionPixels": 84
+    },
+    {
+      "file": "face-0246.png",
+      "index": 246,
+      "requestedSourceSeconds": 52.8,
+      "darkEyeRegionPixels": 87
+    },
+    {
+      "file": "face-0247.png",
+      "index": 247,
+      "requestedSourceSeconds": 52.84,
+      "darkEyeRegionPixels": 87
+    },
+    {
+      "file": "face-0248.png",
+      "index": 248,
+      "requestedSourceSeconds": 52.88,
+      "darkEyeRegionPixels": 86
+    },
+    {
+      "file": "face-0249.png",
+      "index": 249,
+      "requestedSourceSeconds": 52.92,
+      "darkEyeRegionPixels": 89
+    },
+    {
+      "file": "face-0250.png",
+      "index": 250,
+      "requestedSourceSeconds": 52.96,
+      "darkEyeRegionPixels": 89
+    },
+    {
+      "file": "face-0251.png",
+      "index": 251,
+      "requestedSourceSeconds": 53,
+      "darkEyeRegionPixels": 89
+    },
+    {
+      "file": "face-0252.png",
+      "index": 252,
+      "requestedSourceSeconds": 53.04,
+      "darkEyeRegionPixels": 89
+    },
+    {
+      "file": "face-0253.png",
+      "index": 253,
+      "requestedSourceSeconds": 53.08,
+      "darkEyeRegionPixels": 89
+    },
+    {
+      "file": "face-0254.png",
+      "index": 254,
+      "requestedSourceSeconds": 53.12,
+      "darkEyeRegionPixels": 88
+    },
+    {
+      "file": "face-0255.png",
+      "index": 255,
+      "requestedSourceSeconds": 53.16,
+      "darkEyeRegionPixels": 88
+    },
+    {
+      "file": "face-0256.png",
+      "index": 256,
+      "requestedSourceSeconds": 53.2,
+      "darkEyeRegionPixels": 88
+    },
+    {
+      "file": "face-0257.png",
+      "index": 257,
+      "requestedSourceSeconds": 53.24,
+      "darkEyeRegionPixels": 90
+    },
+    {
+      "file": "face-0258.png",
+      "index": 258,
+      "requestedSourceSeconds": 53.28,
+      "darkEyeRegionPixels": 90
+    },
+    {
+      "file": "face-0259.png",
+      "index": 259,
+      "requestedSourceSeconds": 53.32,
+      "darkEyeRegionPixels": 90
+    },
+    {
+      "file": "face-0260.png",
+      "index": 260,
+      "requestedSourceSeconds": 53.36,
+      "darkEyeRegionPixels": 90
+    },
+    {
+      "file": "face-0261.png",
+      "index": 261,
+      "requestedSourceSeconds": 53.4,
+      "darkEyeRegionPixels": 90
+    },
+    {
+      "file": "face-0262.png",
+      "index": 262,
+      "requestedSourceSeconds": 53.44,
+      "darkEyeRegionPixels": 89
+    },
+    {
+      "file": "face-0263.png",
+      "index": 263,
+      "requestedSourceSeconds": 53.480000000000004,
+      "darkEyeRegionPixels": 88
+    },
+    {
+      "file": "face-0264.png",
+      "index": 264,
+      "requestedSourceSeconds": 53.519999999999996,
+      "darkEyeRegionPixels": 88
+    },
+    {
+      "file": "face-0265.png",
+      "index": 265,
+      "requestedSourceSeconds": 53.56,
+      "darkEyeRegionPixels": 88
+    },
+    {
+      "file": "face-0266.png",
+      "index": 266,
+      "requestedSourceSeconds": 53.6,
+      "darkEyeRegionPixels": 90
+    },
+    {
+      "file": "face-0267.png",
+      "index": 267,
+      "requestedSourceSeconds": 53.64,
+      "darkEyeRegionPixels": 89
+    },
+    {
+      "file": "face-0268.png",
+      "index": 268,
+      "requestedSourceSeconds": 53.68,
+      "darkEyeRegionPixels": 91
+    },
+    {
+      "file": "face-0269.png",
+      "index": 269,
+      "requestedSourceSeconds": 53.72,
+      "darkEyeRegionPixels": 91
+    },
+    {
+      "file": "face-0270.png",
+      "index": 270,
+      "requestedSourceSeconds": 53.76,
+      "darkEyeRegionPixels": 91
+    },
+    {
+      "file": "face-0271.png",
+      "index": 271,
+      "requestedSourceSeconds": 53.8,
+      "darkEyeRegionPixels": 91
+    },
+    {
+      "file": "face-0272.png",
+      "index": 272,
+      "requestedSourceSeconds": 53.84,
+      "darkEyeRegionPixels": 91
+    },
+    {
+      "file": "face-0273.png",
+      "index": 273,
+      "requestedSourceSeconds": 53.88,
+      "darkEyeRegionPixels": 93
+    },
+    {
+      "file": "face-0274.png",
+      "index": 274,
+      "requestedSourceSeconds": 53.92,
+      "darkEyeRegionPixels": 93
+    },
+    {
+      "file": "face-0275.png",
+      "index": 275,
+      "requestedSourceSeconds": 53.96,
+      "darkEyeRegionPixels": 93
+    },
+    {
+      "file": "face-0276.png",
+      "index": 276,
+      "requestedSourceSeconds": 54,
+      "darkEyeRegionPixels": 91
+    },
+    {
+      "file": "face-0277.png",
+      "index": 277,
+      "requestedSourceSeconds": 54.04,
+      "darkEyeRegionPixels": 91
+    },
+    {
+      "file": "face-0278.png",
+      "index": 278,
+      "requestedSourceSeconds": 54.08,
+      "darkEyeRegionPixels": 92
+    },
+    {
+      "file": "face-0279.png",
+      "index": 279,
+      "requestedSourceSeconds": 54.12,
+      "darkEyeRegionPixels": 89
+    },
+    {
+      "file": "face-0280.png",
+      "index": 280,
+      "requestedSourceSeconds": 54.16,
+      "darkEyeRegionPixels": 89
+    },
+    {
+      "file": "face-0281.png",
+      "index": 281,
+      "requestedSourceSeconds": 54.2,
+      "darkEyeRegionPixels": 88
+    },
+    {
+      "file": "face-0282.png",
+      "index": 282,
+      "requestedSourceSeconds": 54.24,
+      "darkEyeRegionPixels": 88
+    },
+    {
+      "file": "face-0283.png",
+      "index": 283,
+      "requestedSourceSeconds": 54.28,
+      "darkEyeRegionPixels": 89
+    },
+    {
+      "file": "face-0284.png",
+      "index": 284,
+      "requestedSourceSeconds": 54.32,
+      "darkEyeRegionPixels": 88
+    },
+    {
+      "file": "face-0285.png",
+      "index": 285,
+      "requestedSourceSeconds": 54.36,
+      "darkEyeRegionPixels": 86
+    },
+    {
+      "file": "face-0286.png",
+      "index": 286,
+      "requestedSourceSeconds": 54.4,
+      "darkEyeRegionPixels": 84
+    },
+    {
+      "file": "face-0287.png",
+      "index": 287,
+      "requestedSourceSeconds": 54.44,
+      "darkEyeRegionPixels": 85
+    },
+    {
+      "file": "face-0288.png",
+      "index": 288,
+      "requestedSourceSeconds": 54.480000000000004,
+      "darkEyeRegionPixels": 85
+    },
+    {
+      "file": "face-0289.png",
+      "index": 289,
+      "requestedSourceSeconds": 54.519999999999996,
+      "darkEyeRegionPixels": 83
+    },
+    {
+      "file": "face-0290.png",
+      "index": 290,
+      "requestedSourceSeconds": 54.56,
+      "darkEyeRegionPixels": 87
+    },
+    {
+      "file": "face-0291.png",
+      "index": 291,
+      "requestedSourceSeconds": 54.6,
+      "darkEyeRegionPixels": 87
+    },
+    {
+      "file": "face-0292.png",
+      "index": 292,
+      "requestedSourceSeconds": 54.64,
+      "darkEyeRegionPixels": 88
+    },
+    {
+      "file": "face-0293.png",
+      "index": 293,
+      "requestedSourceSeconds": 54.68,
+      "darkEyeRegionPixels": 86
+    },
+    {
+      "file": "face-0294.png",
+      "index": 294,
+      "requestedSourceSeconds": 54.72,
+      "darkEyeRegionPixels": 86
+    },
+    {
+      "file": "face-0295.png",
+      "index": 295,
+      "requestedSourceSeconds": 54.76,
+      "darkEyeRegionPixels": 88
+    },
+    {
+      "file": "face-0296.png",
+      "index": 296,
+      "requestedSourceSeconds": 54.8,
+      "darkEyeRegionPixels": 87
+    },
+    {
+      "file": "face-0297.png",
+      "index": 297,
+      "requestedSourceSeconds": 54.84,
+      "darkEyeRegionPixels": 86
+    },
+    {
+      "file": "face-0298.png",
+      "index": 298,
+      "requestedSourceSeconds": 54.88,
+      "darkEyeRegionPixels": 87
+    },
+    {
+      "file": "face-0299.png",
+      "index": 299,
+      "requestedSourceSeconds": 54.92,
+      "darkEyeRegionPixels": 88
+    },
+    {
+      "file": "face-0300.png",
+      "index": 300,
+      "requestedSourceSeconds": 54.96,
+      "darkEyeRegionPixels": 86
+    },
+    {
+      "file": "face-0301.png",
+      "index": 301,
+      "requestedSourceSeconds": 55,
+      "darkEyeRegionPixels": 88
+    },
+    {
+      "file": "face-0302.png",
+      "index": 302,
+      "requestedSourceSeconds": 55.04,
+      "darkEyeRegionPixels": 84
+    },
+    {
+      "file": "face-0303.png",
+      "index": 303,
+      "requestedSourceSeconds": 55.08,
+      "darkEyeRegionPixels": 0
+    },
+    {
+      "file": "face-0304.png",
+      "index": 304,
+      "requestedSourceSeconds": 55.12,
+      "darkEyeRegionPixels": 4
+    },
+    {
+      "file": "face-0305.png",
+      "index": 305,
+      "requestedSourceSeconds": 55.16,
+      "darkEyeRegionPixels": 92
+    },
+    {
+      "file": "face-0306.png",
+      "index": 306,
+      "requestedSourceSeconds": 55.2,
+      "darkEyeRegionPixels": 94
+    },
+    {
+      "file": "face-0307.png",
+      "index": 307,
+      "requestedSourceSeconds": 55.24,
+      "darkEyeRegionPixels": 94
+    },
+    {
+      "file": "face-0308.png",
+      "index": 308,
+      "requestedSourceSeconds": 55.28,
+      "darkEyeRegionPixels": 95
+    },
+    {
+      "file": "face-0309.png",
+      "index": 309,
+      "requestedSourceSeconds": 55.32,
+      "darkEyeRegionPixels": 89
+    },
+    {
+      "file": "face-0310.png",
+      "index": 310,
+      "requestedSourceSeconds": 55.36,
+      "darkEyeRegionPixels": 91
+    },
+    {
+      "file": "face-0311.png",
+      "index": 311,
+      "requestedSourceSeconds": 55.4,
+      "darkEyeRegionPixels": 89
+    },
+    {
+      "file": "face-0312.png",
+      "index": 312,
+      "requestedSourceSeconds": 55.44,
+      "darkEyeRegionPixels": 91
+    },
+    {
+      "file": "face-0313.png",
+      "index": 313,
+      "requestedSourceSeconds": 55.480000000000004,
+      "darkEyeRegionPixels": 88
+    },
+    {
+      "file": "face-0314.png",
+      "index": 314,
+      "requestedSourceSeconds": 55.519999999999996,
+      "darkEyeRegionPixels": 92
+    },
+    {
+      "file": "face-0315.png",
+      "index": 315,
+      "requestedSourceSeconds": 55.56,
+      "darkEyeRegionPixels": 88
+    },
+    {
+      "file": "face-0316.png",
+      "index": 316,
+      "requestedSourceSeconds": 55.6,
+      "darkEyeRegionPixels": 89
+    },
+    {
+      "file": "face-0317.png",
+      "index": 317,
+      "requestedSourceSeconds": 55.64,
+      "darkEyeRegionPixels": 90
+    },
+    {
+      "file": "face-0318.png",
+      "index": 318,
+      "requestedSourceSeconds": 55.68,
+      "darkEyeRegionPixels": 88
+    },
+    {
+      "file": "face-0319.png",
+      "index": 319,
+      "requestedSourceSeconds": 55.72,
+      "darkEyeRegionPixels": 92
+    },
+    {
+      "file": "face-0320.png",
+      "index": 320,
+      "requestedSourceSeconds": 55.76,
+      "darkEyeRegionPixels": 93
+    },
+    {
+      "file": "face-0321.png",
+      "index": 321,
+      "requestedSourceSeconds": 55.8,
+      "darkEyeRegionPixels": 91
+    },
+    {
+      "file": "face-0322.png",
+      "index": 322,
+      "requestedSourceSeconds": 55.84,
+      "darkEyeRegionPixels": 93
+    },
+    {
+      "file": "face-0323.png",
+      "index": 323,
+      "requestedSourceSeconds": 55.88,
+      "darkEyeRegionPixels": 87
+    },
+    {
+      "file": "face-0324.png",
+      "index": 324,
+      "requestedSourceSeconds": 55.92,
+      "darkEyeRegionPixels": 88
+    },
+    {
+      "file": "face-0325.png",
+      "index": 325,
+      "requestedSourceSeconds": 55.96,
+      "darkEyeRegionPixels": 88
+    }
+  ],
+  "localMinima": [
+    {
+      "file": "face-0041.png",
+      "index": 41,
+      "requestedSourceSeconds": 44.6,
+      "darkEyeRegionPixels": 0
+    },
+    {
+      "file": "face-0042.png",
+      "index": 42,
+      "requestedSourceSeconds": 44.64,
+      "darkEyeRegionPixels": 0
+    },
+    {
+      "file": "face-0043.png",
+      "index": 43,
+      "requestedSourceSeconds": 44.68,
+      "darkEyeRegionPixels": 0
+    },
+    {
+      "file": "face-0181.png",
+      "index": 181,
+      "requestedSourceSeconds": 50.2,
+      "darkEyeRegionPixels": 0
+    },
+    {
+      "file": "face-0182.png",
+      "index": 182,
+      "requestedSourceSeconds": 50.24,
+      "darkEyeRegionPixels": 0
+    },
+    {
+      "file": "face-0303.png",
+      "index": 303,
+      "requestedSourceSeconds": 55.08,
+      "darkEyeRegionPixels": 0
+    }
+  ]
+}

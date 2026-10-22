@@ -1,0 +1,30 @@
+{
+  "status": "completed",
+  "buildId": "build_974a20ad8a35",
+  "result": "Failed",
+  "platform": "StandaloneWindows64",
+  "outputPath": "C:/Users/20665/Desktop/game/builds/candidates/v12-study/windows/BorrowedLight.exe",
+  "totalSizeBytes": 0,
+  "buildTimeMs": 7363,
+  "buildStartedAt": "2026-10-20T19:53:21.3582521Z",
+  "buildEndedAt": "2026-10-20T19:53:28.7218781Z",
+  "totalWarnings": 2,
+  "totalErrors": 2,
+  "errors": [
+    {
+      "message": "error CS1061: 'Texture' does not contain a definition for 'imageContentsHash' and no accessible extension method 'imageContentsHash' accepting a first argument of type 'Texture' could be found (are you missing a using directive or an assembly reference?)",
+      "file": "Assets\\BorrowedLight\\Runtime\\GroundDetailStudy.cs"
+    },
+    {
+      "message": "Error building Player because scripts had compiler errors"
+    }
+  ],
+  "warnings": [
+    {
+      "message": "Pipeline: No RuntimePipelineConfig asset found (Project Settings > Pipeline > Runtime). Pipeline will be disabled in Player builds."
+    },
+    {
+      "message": "You are building a player, but you have uncompiled code changes. This means that any post-processing or importing code you may have changed will not affect this player build."
+    }
+  ]
+}

@@ -1,0 +1,150 @@
+{
+  "passed": true,
+  "page": "visual-review-v13-trees.html",
+  "localLinksChecked": 43,
+  "missingLocalLinks": [],
+  "imagesChecked": 15,
+  "videosChecked": 0,
+  "dialogOpened": true,
+  "errors": [],
+  "title": "借光岛 v13 · 三版树木固定机位对照",
+  "images": [
+    {
+      "src": "v13-trees-baseline/path-current.png",
+      "complete": true,
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "src": "v13-trees-candidate/path-current.png",
+      "complete": true,
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "src": "v13-trees-refined/path-current.png",
+      "complete": true,
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "src": "v13-trees-baseline/island-current.png",
+      "complete": true,
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "src": "v13-trees-candidate/island-current.png",
+      "complete": true,
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "src": "v13-trees-refined/island-current.png",
+      "complete": true,
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "src": "v13-trees-baseline/left-tree-current.png",
+      "complete": true,
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "src": "v13-trees-candidate/left-tree-current.png",
+      "complete": true,
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "src": "v13-trees-refined/left-tree-current.png",
+      "complete": true,
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "src": "v13-trees-baseline/gold-tree-current.png",
+      "complete": true,
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "src": "v13-trees-candidate/gold-tree-current.png",
+      "complete": true,
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "src": "v13-trees-refined/gold-tree-current.png",
+      "complete": true,
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "src": "v13-trees-baseline/right-pine-current.png",
+      "complete": true,
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "src": "v13-trees-candidate/right-pine-current.png",
+      "complete": true,
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "src": "v13-trees-refined/right-pine-current.png",
+      "complete": true,
+      "width": 1440,
+      "height": 900
+    }
+  ],
+  "videos": [],
+  "links": [
+    "file:///C:/Users/20665/Desktop/game/art/verification/v13-trees-baseline/path-current.png",
+    "file:///C:/Users/20665/Desktop/game/art/verification/v13-trees-baseline/path-repeat.png",
+    "file:///C:/Users/20665/Desktop/game/art/verification/v13-trees-candidate/path-current.png",
+    "file:///C:/Users/20665/Desktop/game/art/verification/v13-trees-candidate/path-repeat.png",
+    "file:///C:/Users/20665/Desktop/game/art/verification/v13-trees-refined/path-current.png",
+    "file:///C:/Users/20665/Desktop/game/art/verification/v13-trees-refined/path-repeat.png",
+    "file:///C:/Users/20665/Desktop/game/art/verification/v13-trees-baseline/island-current.png",
+    "file:///C:/Users/20665/Desktop/game/art/verification/v13-trees-baseline/island-repeat.png",
+    "file:///C:/Users/20665/Desktop/game/art/verification/v13-trees-candidate/island-current.png",
+    "file:///C:/Users/20665/Desktop/game/art/verification/v13-trees-candidate/island-repeat.png",
+    "file:///C:/Users/20665/Desktop/game/art/verification/v13-trees-refined/island-current.png",
+    "file:///C:/Users/20665/Desktop/game/art/verification/v13-trees-refined/island-repeat.png",
+    "file:///C:/Users/20665/Desktop/game/art/verification/v13-trees-baseline/left-tree-current.png",
+    "file:///C:/Users/20665/Desktop/game/art/verification/v13-trees-baseline/left-tree-repeat.png",
+    "file:///C:/Users/20665/Desktop/game/art/verification/v13-trees-candidate/left-tree-current.png",
+    "file:///C:/Users/20665/Desktop/game/art/verification/v13-trees-candidate/left-tree-repeat.png",
+    "file:///C:/Users/20665/Desktop/game/art/verification/v13-trees-refined/left-tree-current.png",
+    "file:///C:/Users/20665/Desktop/game/art/verification/v13-trees-refined/left-tree-repeat.png",
+    "file:///C:/Users/20665/Desktop/game/art/verification/v13-trees-baseline/gold-tree-current.png",
+    "file:///C:/Users/20665/Desktop/game/art/verification/v13-trees-baseline/gold-tree-repeat.png",
+    "file:///C:/Users/20665/Desktop/game/art/verification/v13-trees-candidate/gold-tree-current.png",
+    "file:///C:/Users/20665/Desktop/game/art/verification/v13-trees-candidate/gold-tree-repeat.png",
+    "file:///C:/Users/20665/Desktop/game/art/verification/v13-trees-refined/gold-tree-current.png",
+    "file:///C:/Users/20665/Desktop/game/art/verification/v13-trees-refined/gold-tree-repeat.png",
+    "file:///C:/Users/20665/Desktop/game/art/verification/v13-trees-baseline/right-pine-current.png",
+    "file:///C:/Users/20665/Desktop/game/art/verification/v13-trees-baseline/right-pine-repeat.png",
+    "file:///C:/Users/20665/Desktop/game/art/verification/v13-trees-candidate/right-pine-current.png",
+    "file:///C:/Users/20665/Desktop/game/art/verification/v13-trees-candidate/right-pine-repeat.png",
+    "file:///C:/Users/20665/Desktop/game/art/verification/v13-trees-refined/right-pine-current.png",
+    "file:///C:/Users/20665/Desktop/game/art/verification/v13-trees-refined/right-pine-repeat.png",
+    "file:///C:/Users/20665/Desktop/game/art/verification/v13-trees-candidate/independent-review.json",
+    "file:///C:/Users/20665/Desktop/game/art/verification/v13-trees-baseline/material-study.json",
+    "file:///C:/Users/20665/Desktop/game/art/verification/v13-trees-baseline/build-evidence.json",
+    "file:///C:/Users/20665/Desktop/game/art/verification/v13-trees-candidate/material-study.json",
+    "file:///C:/Users/20665/Desktop/game/art/verification/v13-trees-candidate/build-evidence.json",
+    "file:///C:/Users/20665/Desktop/game/art/verification/v13-trees-candidate/decision.json",
+    "file:///C:/Users/20665/Desktop/game/art/verification/v13-trees-candidate/capture-condition-comparison.json",
+    "file:///C:/Users/20665/Desktop/game/art/verification/v13-trees-candidate/unity-import-comparison.json",
+    "file:///C:/Users/20665/Desktop/game/art/verification/v13-trees-refined/material-study.json",
+    "file:///C:/Users/20665/Desktop/game/art/verification/v13-trees-refined/build-evidence.json",
+    "file:///C:/Users/20665/Desktop/game/art/verification/v13-trees-refined/decision.json",
+    "file:///C:/Users/20665/Desktop/game/art/verification/v13-trees-refined/capture-condition-comparison.json",
+    "file:///C:/Users/20665/Desktop/game/art/verification/v13-trees-refined/unity-import-comparison.json"
+  ],
+  "overflow": false
+}

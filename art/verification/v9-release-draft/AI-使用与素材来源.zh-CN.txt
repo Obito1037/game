@@ -1,0 +1,30 @@
+借光岛 v9 · 制作记录与 AI 使用披露
+
+用户提出单人参赛、48 小时范围、参考网站与视觉要求。Blender 生产脚本、角色和场景、Unity 程序、程序材质、音频合成、验收脚本及说明由 Codex 代理生成或修改；不把尚未发生的工作写成学生已经完成的贡献。用户后续取舍、修改、试玩和最终提交须据实补记。
+天空由内置 image_gen 按原创提示生成；模型没有使用参考游戏资产，音乐为本地原创合成，无第三方录音采样。当前未代为报名或发布公网。
+
+本轮制作
+v9 使用 world-v7 与 character-v8，岛屿 412,815 三角，角色 77,132 三角、62 renderer / 28 skinned / 12 bones。身体、两袖、腿鞋、骨架与附件的数据保护检查通过；游戏流程和地面资源保留。
+人物面部采用按实际节点间距连续插值的剖面，并重做鼻颊口周、眼裂和闭眼片；头部顶点色与三个眼部底色也有更新，因此新旧脸的收益不能全部归于单一几何修正。眼白/虹膜/瞳孔分别降低光滑度，夜景灯光与 0.23 面部补光保持。
+地面根部接触染色仅作为未采用候选保留：固定 A/B 的游玩尺寸收益不足，未加入运行包。其早期“线性暗化”统计误标已更正，实际图像、审计及拒绝理由保留。
+修复新版 Input System 归一化滚轮与旧缩放系数不匹配的问题：每刻度距离变化改为 0.35，保留 2.5–10 的距离限制。原生输入正反刻度及网页真实滚轮分别验证。
+角色脚本 art/blender/build_traveler_v8.py 读取冻结 character-v7/traveler.blend，并复用 v6/v7 的纯函数；完整保留 character-v5/v6/v7 及其脚本、清单以复现来源链。世界仍使用 build_island_v7.py、world-v7/，其 world-v6 来源保持。
+继续使用 Blender 自带骨架与权重，未使用 Auto-Rig Pro。
+FBX/GLB 中性与弯曲姿态、颜色、闭眼遮挡检查通过；48 个非目标网格、26 个非目标材质和所有骨架/枢轴/附件保护检查通过。Unity 使用 FBX，改动网格的角法线最大误差约 0.0445°。GLB 严格全角法线检查保留失败：6 个零面积线端点在 Blender 回读时得到回退法线；有面积面最大误差约 0.2015°。不得写成所有格式所有检查全通过。
+详细报告：art/generated/character-v8/review.zh-CN.txt、v7-preservation-file-verification.json、frozen-export-verification.json、color-interchange-verification.json、blink-verification.json。
+未采用地面候选由 build_meadow_contact_v9.py 从原固定种子数学算法重新生成，旧 PNG 仅作只读比较；无接触输出与原图字节一致。它没有进入运行资源，误标修正及审计位于 art/generated/meadow-v9/ 和 art/verification/v9-ground-contact-study/。
+
+字体与参考
+字体为 Noto Serif CJK SC 的改名子集 BorrowedLight Story Serif，SIL Open Font License 1.1；完整字体、子集与许可在 art/generated/fonts/，复现脚本 tools/font-subset/build_subset.py。许可和修改记录随构建提供。
+视觉参考为 Saccc_c：https://littleprince.dev/ 与 https://x.com/Saccc_c/status/2110694725640474759 。仅参考气氛与叙事表达，没有复制其程序、角色、模型、音频或原作文字。参考截图仅作本地研究，不打包为本作素材。
+
+本轮实机证据
+Windows 构建 build_4f99c761ca99：三章通关、键盘启动、行走、暂停恢复、重开、返回结尾和既有碰撞/接地检查通过；16/16 主石指定方向探测通过。两只实际蒙皮鞋底 220 个静止采样，最小净空 0.001412 m，不能据此证明所有动态姿态。
+Web 构建 build_d7f44f9d30f9：真实键盘通关、刷新续玩、默认音频恢复和跨源隔离通过；浏览器异常数组为空。Unity 兼容性提示见原日志，不能称日志完全无提示。
+本轮真实鼠标环视/缩放后的自然待机与眨眼录像见 web-v9-portrait-video/；录像审查范围和结论见 review.json。该路线不覆盖所有转头、眨眼中间姿态或完整步态，录制帧率不是游戏帧率。
+Iris Xe / 1440×900 原生短样本：菜单 60.5、总览 57.1、漫步视角 39.9、近景 56.1、末段 43.7 FPS。网页各视角 6×500 ms 前台区间指标中位：停步后的漫步视角 36.50、结尾 51.80。这些短样本不是持续行走平均、全程最低或独立渲染帧计数，也不支持版本间性能收益结论。
+当前压缩网页四个核心文件共 48,925,294 bytes（约 48.9 MB）；缓存下的本机结果不代表首次网络加载速度。
+固定脸部三组对照采用同机位、姿态、夜景灯光；截图条件与材料差异在各目录的 capture-condition-comparison.json。相机比正常游玩更近，不能混称正常游戏画面。实际待机眨眼录像由真实输入采集，没有注入角色或相机变换。
+v8 上观星台录像、v7 GPU 分析等为历史证据，不替代 v9 当前性能或动态验收。来源与当前构建：art/production-manifest.json；原始画面：art/verification/visual-review.html。
+新脸下颊与鼻唇衔接更连贯，粗棕色眼眶和遮住虹膜的高光条减少；眼裂仍窄、侧面较平，嘴部及衣料层次仍简化。整体视觉尚未达到“比参考更惊艳”的目标。
+提交时按比赛正式格式和本人实际贡献如实填写 AI 协作记录。

@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "zipEntries": 182,
+  "zipFilesHashCompared": 180,
+  "expectedPlayerFiles": 180,
+  "requiredFilesPresent": true,
+  "debugFoldersExcluded": true,
+  "allZipFileHashesMatchCurrentBuild": true,
+  "zipBytes": 75553186,
+  "zipSHA256": "6B03683B947CFC646EB2D088B77692611D7C0EE8C83556D0D1D623FA499C6C79",
+  "nativeResourcesSHA256": "8568237B8501E36908721D8924060E1109F4F5C6883DB230C595C5B3A25E7D00",
+  "nativeGameAssemblySHA256": "15019F8851EB3473D07A091A54219E121868787F6A628CF4BF783D01D9A93B6B",
+  "failures": []
+}

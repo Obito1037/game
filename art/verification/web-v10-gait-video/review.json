@@ -1,0 +1,28 @@
+{
+  "revision": "v10",
+  "declaredBuildId": "build_c472c4b76e7c",
+  "reviewed": true,
+  "acceptedForLimitedScope": true,
+  "method": "Manually inspected 12 original-resolution PNG frames extracted from the actual browser recording. No claim of continuous full-video viewing. No scaling, painting, cropping or colour correction was applied to the decoded frames.",
+  "summary": "已抽查前进、斜向移动、靠近小屋和停步的 12 张原录像帧；这些可见姿态中，袖子、裤腿、鞋与附件没有明显分离或塌陷，岩石纹理和植被正常显示。侧向路线后半段受到小屋碰撞限制，因此只接受已见姿态的有限检查。",
+  "recordedVideo": "gait-session-includes-loading.webm",
+  "videoSHA256": "2B8511E754CA683D699C37C5F4DF2ED1A0CFFBDC8742C255A0EA8B989FEBF463",
+  "videoBytes": 5868945,
+  "videoDurationSecondsFromContainer": 53.08,
+  "videoEncoding": "VP8, 1440x900, recorded at 25 fps; this is not engine performance",
+  "reviewedVideoTimesSeconds": [36,36.4,37.2,38.4,39.6,40.8,42,44,45.2,46.8,50,52],
+  "framePattern": "frames/frame-<milliseconds>ms.png",
+  "observations": [
+    "36–38.4 秒的行走抽帧中，可见交替腿姿和相连的衣袖、鞋口；没有出现整块模型脱离或错误材质颜色。",
+    "40.8–44 秒出现转向、斜向接近小屋与停步姿态，外轮廓维持完整。",
+    "45.2、46.8、50、52 秒主要受小屋前沿碰撞或停步影响，可见鞋底邻近地表，但不能从这些压缩帧测量精确净空。",
+    "前半段岩石保持层理，未在所见帧间出现大面积材质失效；细小纹理闪烁仍不在本抽帧证明范围内。"
+  ],
+  "limitations": [
+    "只抽查 12 帧，未声称完整视频连续观看；未覆盖所有步态中间帧、坡面、台阶和转头。",
+    "角色在多数帧中约 250–400 像素高，草叶遮挡与有损视频压缩限制了鞋底、手指和布料细节判断。",
+    "D 输入路线后半段靠近小屋并受碰撞限制，不是完整的无障碍侧向步态测试。",
+    "抽帧不足以排除微小纹理闪烁、短暂穿插或单帧抖动；录像帧率不等于游戏 FPS。",
+    "原录像包含加载和解谜；事件时刻以导航为原点，仅用于大致定位视频。"
+  ]
+}

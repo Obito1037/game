@@ -1,0 +1,121 @@
+{
+  "project": "Borrowed Light / 借光岛",
+  "objective": "制作基于 Blender 的高质量可玩游戏，参考 littleprince.dev；完整验收目标是整体视觉体验比参考站更惊艳。目前此审美目标尚未达成。",
+  "reference": {
+    "url": "https://littleprince.dev/",
+    "authorPost": "https://x.com/Saccc_c/status/2110694725640474759",
+    "originalArticle": "https://x.com/i/article/2110601994578866176",
+    "captureMethod": "Isolated Edge session, 1440x900, actual entry / chapter menu / chapter-one gameplay",
+    "screenshots": [
+      "reference/littleprince-entry.png",
+      "reference/littleprince-started.png",
+      "reference/littleprince-gameplay.png"
+    ],
+    "sourceAssetReuse": false
+  },
+  "authoring": {
+    "scene": "generated/world-v7/island.blend",
+    "sceneScript": "blender/build_island_v7.py",
+    "character": "generated/character-v8/traveler.blend",
+    "characterScript": "blender/build_traveler_v8.py",
+    "audioScript": "blender/build_audio.py",
+    "engine": "Unity 6000.3.26f1 / URP",
+    "primaryScene": "GameProject/Assets/BorrowedLight/Scenes/BorrowedLight.unity"
+  },
+  "resources": [
+    {
+      "name": "Island and traveler models",
+      "source": "Locally authored Blender Python geometry",
+      "type": "original AI-assisted production"
+    },
+    {
+      "name": "Meadow watercolor texture",
+      "source": "Local Blender production",
+      "type": "original AI-assisted production"
+    },
+    {
+      "name": "Night Letters score and lantern chime",
+      "source": "Original additive synthesis; no sampled recordings",
+      "type": "original AI-assisted production"
+    },
+    {
+      "name": "Watercolor nebula sky",
+      "source": "Built-in image_gen; prompt, SHA256 and provenance in generated/sky/manifest.json",
+      "type": "original AI-generated bitmap"
+    },
+    {
+      "name": "Weathered wood, mossy stone, plaster and tiles",
+      "source": "Original world-coordinate procedural PBR shader, using official URP lighting",
+      "type": "original AI-assisted production"
+    },
+    {
+      "name": "Noto Serif CJK SC",
+      "source": "https://github.com/notofonts/noto-cjk",
+      "license": "SIL Open Font License 1.1",
+      "licenseFile": "GameProject/Assets/BorrowedLight/Resources/Fonts/LICENSE.txt",
+      "modification": "Renamed subset: BorrowedLight Story Serif; 247920 bytes; canonical full source retained; tools/font-subset/build_subset.py; OFL and SUBSET-NOTICE included."
+    }
+  ],
+  "verification": {
+    "blenderInterchange": "generated/world-v7/interchange-verification.json: BLEND/FBX/GLB passed; 412815 triangles, 29 meshes, 14 unchanged anchors. All 28 non-Hero mesh fingerprints and ground texture bytes match frozen v6; only the four Hero boulders changed. No projected footprint expansion within the recorded tolerance; five plant groups have zero tested intersections. The actual obstacle geometry changed and was tested in Player.",
+    "characterRoundTrip": "generated/character-v8/review.zh-CN.txt: 77132 triangles, 62 renderers/28 skinned, 4 armatures/12 bones. 48 non-target meshes, 26 non-target materials and all rigs/pivots/attachments preserved. FBX posed/color/blink/normal checks passed. GLB strict all-corner normals fail at six zero-area line endpoints; drawable-face normals passed.",
+    "purePuzzleRules": "independently checked by gameplay implementation agent",
+    "windowsRuntime": "Windows 构建 build_4f99c761ca99：三章通关、键盘启动、行走、暂停恢复、重开、返回结尾和既有碰撞/接地检查通过；16/16 主石指定方向探测通过。两只实际蒙皮鞋底 220 个静止采样，最小净空 0.001412 m，不能据此证明所有动态姿态。\n Iris Xe / 1440×900 原生短样本：菜单 60.5、总览 57.1、漫步视角 39.9、近景 56.1、末段 43.7 FPS。网页各视角 6×500 ms 前台区间指标中位：停步后的漫步视角 36.50、结尾 51.80。这些短样本不是持续行走平均、全程最低或独立渲染帧计数，也不支持版本间性能收益结论。",
+    "webRuntime": "verification/web-010-v9/runtime-results.json; real-keyboard completion, reload persistence, audio resume and cross-origin isolation passed. Iris Xe / 1440×900 原生短样本：菜单 60.5、总览 57.1、漫步视角 39.9、近景 56.1、末段 43.7 FPS。网页各视角 6×500 ms 前台区间指标中位：停步后的漫步视角 36.50、结尾 51.80。这些短样本不是持续行走平均、全程最低或独立渲染帧计数，也不支持版本间性能收益结论。",
+    "finalVisualComparison": "新脸下颊与鼻唇衔接更连贯，粗棕色眼眶和遮住虹膜的高光条减少；眼裂仍窄、侧面较平，嘴部及衣料层次仍简化。整体视觉尚未达到“比参考更惊艳”的目标。",
+    "shaderChecks": "Eye smoothness Ivory=.18, AmberRim/Chestnut=.32, Pupil=.50; catchlight .72. Captured A/B confirms iris-obscuring strip removed. Skin/cloth/world shader and night-light settings unchanged. 25 static-batched island renderers and 1 starfield renderer remain. No new GPU profile.",
+    "browserPortrait": "verification/web-v9-portrait-video/review.json: actual mouse/keyboard camera control followed by normal idle/blink recording; limited visible-pose review, not exhaustive animation or FPS coverage.",
+    "rejectedGroundCandidate": "verification/v9-ground-contact-study/review.zh-CN.txt: root contact albedo candidate rejected; original ground remains. Earlier encoded-vs-linear darkening labels corrected in retained audit.",
+    "scrollInput": "Normalized scroll step coefficient .35; native positive/reverse step check passed. Actual browser wheel framing and normal idle video reviewed; initial failed framing attempts retained."
+  },
+  "buildIds": {
+    "windows": "build_4f99c761ca99",
+    "web": "build_d7f44f9d30f9"
+  },
+  "disclosure": "../AI-使用与素材来源.zh-CN.txt",
+  "geometry": {
+    "travelerFbxSHA256": "1E9B778C88A70CC49D4872B441C32B9CDD0872747316F96963A0FB15A2532232",
+    "travelerTriangles": 77132,
+    "travelerSkinnedMeshes": 28,
+    "worldFbxSHA256": "91C6D643698C414D0582D86AA42EBFAA1E470124DDDD7FAA7852860877806F64",
+    "islandTriangles": 412815
+  },
+  "themeSources": "reference/dark-sky-theme-sources.zh-CN.txt",
+  "revision": "v9",
+  "webPayload": {
+    "bytes": 48925294,
+    "files": [
+      {
+        "name": "702755c42cffae70351e173e02577e7c.wasm.gz",
+        "bytes": 11597799,
+        "sha256": "C57B82862641B5A56655D0AC307F4F597A99A0EEBC597487F54D6F7B78E94F73"
+      },
+      {
+        "name": "a0c06d3e614c45d276481d37b2c4f459.loader.js",
+        "bytes": 26983,
+        "sha256": "A5082CAC6116664D81DEE556762CE13C7A1FDC23F25EC1523FC34CBCF4B4FE4E"
+      },
+      {
+        "name": "b281874b7c5b6a62e898db90eddbb667.framework.js.gz",
+        "bytes": 88480,
+        "sha256": "BDA32BC9EB70C7970A4AD57FF93F335CDBA0B653C5BBA40D6A692F0101BE8976"
+      },
+      {
+        "name": "eee8121ce67ee80bcdd23e5b49306cbf.data.gz",
+        "bytes": 37212032,
+        "sha256": "6B638A210A5A889757A8CBDB8E735F4D3FE1C3B812908AFDC5F5FF5A24FE282E"
+      }
+    ]
+  },
+  "delivery": {
+    "package": "../builds/BorrowedLight-Windows.zip",
+    "packageVerification": "verification/v9-package-verification.json",
+    "previousStableWindowsArchive": "../builds/archive/BorrowedLight-v8-Windows.zip",
+    "previousStableWebArchive": "../builds/archive/BorrowedLight-v8-Web/",
+    "releaseHTTPVerification": "verification/v9-release-http-verification.json",
+    "packageSHA256": "3DFF04518963037AD824B642BFA8587EA3B8DDB68AD33BF5886FCB5EBD1A0B08",
+    "packageBytes": 71202111,
+    "currentWindowsArchive": "../builds/archive/BorrowedLight-v9-Windows.zip"
+  },
+  "aestheticObjectiveAchieved": false
+}

@@ -1,0 +1,80 @@
+{
+  "project": "Borrowed Light / 借光岛",
+  "objective": "制作基于 Blender 的高质量可玩游戏，参考 littleprince.dev；完整验收目标是整体视觉体验比参考站更惊艳。目前此审美目标尚未达成。",
+  "reference": {
+    "url": "https://littleprince.dev/",
+    "authorPost": "https://x.com/Saccc_c/status/2110694725640474759",
+    "originalArticle": "https://x.com/i/article/2110601994578866176",
+    "captureMethod": "Isolated Edge session, 1440x900, actual entry / chapter menu / chapter-one gameplay",
+    "screenshots": [
+      "reference/littleprince-entry.png",
+      "reference/littleprince-started.png",
+      "reference/littleprince-gameplay.png"
+    ],
+    "sourceAssetReuse": false
+  },
+  "authoring": {
+    "scene": "generated/world-v4/island.blend",
+    "sceneScript": "blender/build_island.py",
+    "character": "generated/character-v4/traveler.blend",
+    "characterScript": "blender/build_traveler.py",
+    "audioScript": "blender/build_audio.py",
+    "engine": "Unity 6000.3.26f1 / URP",
+    "primaryScene": "GameProject/Assets/BorrowedLight/Scenes/BorrowedLight.unity"
+  },
+  "resources": [
+    {
+      "name": "Island and traveler models",
+      "source": "Locally authored Blender Python geometry",
+      "type": "original AI-assisted production"
+    },
+    {
+      "name": "Meadow watercolor texture",
+      "source": "Local Blender production",
+      "type": "original AI-assisted production"
+    },
+    {
+      "name": "Night Letters score and lantern chime",
+      "source": "Original additive synthesis; no sampled recordings",
+      "type": "original AI-assisted production"
+    },
+    {
+      "name": "Watercolor nebula sky",
+      "source": "Built-in image_gen; prompt, SHA256 and provenance in generated/sky/manifest.json",
+      "type": "original AI-generated bitmap"
+    },
+    {
+      "name": "Weathered wood, mossy stone, plaster and tiles",
+      "source": "Original world-coordinate procedural PBR shader, using official URP lighting",
+      "type": "original AI-assisted production"
+    },
+    {
+      "name": "Noto Serif CJK SC",
+      "source": "https://github.com/notofonts/noto-cjk",
+      "license": "SIL Open Font License 1.1",
+      "licenseFile": "GameProject/Assets/BorrowedLight/Resources/Fonts/LICENSE.txt",
+      "modification": "Renamed subset: BorrowedLight Story Serif; 247920 bytes; canonical full source retained; tools/font-subset/build_subset.py; OFL and SUBSET-NOTICE included."
+    }
+  ],
+  "verification": {
+    "blenderInterchange": "generated/world-v4/interchange-verification.json; walkway-after-repair.json also verifies all top faces point upward and other meshes remained unchanged during repair.",
+    "characterRoundTrip": "generated/character-v4/frozen-export-verification.json: FBX/GLB passed, 53956 triangles, 62 renderers, 11 pivots, no degenerate triangles or invalid normals.",
+    "purePuzzleRules": "independently checked by gameplay implementation agent",
+    "windowsRuntime": "verification/run-013-v5/runtime-results.json: all functional checks passed, real movement 3.025m, cabin collision and walkway grounding verified. 1440x900 Iris Xe short samples: menu 59.8, overview 60, walking 56.5, portrait 60 FPS; final-view value 54.1. No background builds or Blender rendering during the tour.",
+    "webRuntime": "verification/web-004-v5/runtime-results.json: passed real-keyboard completion, reload persistence, walking and ending return in a fresh Edge profile with default autoplay. Audio context resume observed; no captured browser exceptions. Unity retains hidden-shader, INVALID_ENUM and sound-loading diagnostics. Foreground 1440x900 Iris Xe interval-FPS medians from six 0.5s samples: menu 47.60, ending 49.05, walking 34.20. Rolling-average medians include prior views and are not used as current-view performance. No claim of a Web performance gain over v4.",
+    "finalVisualComparison": "verification/visual-review.html uses run-013-v5 native captures, original reference images, and v4/v5 portraits. The new exposed-hair character has revised proportions, integrated nose/lips, shallow eyes and eyelids, softer sleeves and a lowered hood. Coarse candidate cloth was corrected. Skin/eye transitions, fabric folds and material naturalness remain simpler than the reference; superiority is not achieved.",
+    "shaderChecks": "verification/v5-shader-checks.json; fixed FoliagePaint retains authored vegetation and original lighting/wind, SRP compatibility code 0. No unused opaque texture copy. Diagnostic v4 omissions are not shipping speedup measurements."
+  },
+  "buildIds": {
+    "web": "build_195f4fe89ef3",
+    "windows": "build_3a55022185f1"
+  },
+  "disclosure": "../AI-使用与素材来源.zh-CN.txt",
+  "geometry": {
+    "travelerFbxSHA256": "E4EF4BAFC25F56AB5BB6EF9C8F645D04628C2A550FE0D91E8E6F04E3D9FCF879",
+    "travelerTriangles": 53956,
+    "worldFbxSHA256": "5DFF3B73A52566855FFA4E2C1287ED0D692166DA8C0A9195CD528D23B2983E14",
+    "islandTriangles": 325579
+  },
+  "themeSources": "reference/dark-sky-theme-sources.zh-CN.txt"
+}

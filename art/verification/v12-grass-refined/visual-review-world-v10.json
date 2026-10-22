@@ -1,0 +1,51 @@
+{
+  "assetRevision": "world-v10",
+  "gameCandidate": "v12",
+  "reviewed": true,
+  "acceptedForLimitedScope": true,
+  "recommendation": "建议采用为本轮两个草类 mesh 的有限形体改进；最终发布仍由完整游戏与动态检查决定。",
+  "reviewedOriginalImages": [
+    "path-fixed40.png",
+    "roots-fixed40.png",
+    "lamp-fixed40.png"
+  ],
+  "comparisonOriginalImages": [
+    "../v11-plants-candidate/path-fixed40.png",
+    "../v11-plants-candidate/roots-fixed40.png",
+    "../v11-plants-candidate/lamp-fixed40.png"
+  ],
+  "captureConditions": {
+    "recordComplete": true,
+    "playerProcessExitedBeforeReview": true,
+    "materialStudyAllInvariantsPassed": true,
+    "comparisonReport": "capture-condition-comparison.json",
+    "sceneCameraAndLightsMatch": true,
+    "viewingBasis": "六张 1440×900 原图；path 正常取景优先，roots/lamp 辅助细节。",
+    "temporalAO": "Time.timeScale=0 不冻结逐帧 SSAO 差异，未声称像素级完全一致。"
+  },
+  "observations": [
+    {
+      "view": "path",
+      "finding": "左暖灯区、左前石周围和画面底部的低矮覆盖基本保持 v11 的分布，未重现 world-v9 的明显大块裸面；草根刷毛感稍减，中央踏石与可走路径仍清楚。",
+      "weight": "主要采用依据。收益可辨但幅度有限，不是整体视觉飞跃。"
+    },
+    {
+      "view": "roots",
+      "finding": "宽直方根缩窄，成束叶根比基线的宽底条片自然；低叶更贴近地表，旧版悬起且同形的大叶减弱。",
+      "limit": "部分高叶仍有分段折线，局部地表仍平滑；没有把这些残留问题称为已解决。"
+    },
+    {
+      "view": "lamp",
+      "finding": "灯座周围宽底剪纸条减少，草叶从较窄根部伸展；匍匐叶保持原分布但降低悬浮感，紫花和蕨的主体识别保持。",
+      "limit": "近景仍可辨扁平叶面和有限段数，灯座局部空间变清楚不等同于更高覆盖率。"
+    }
+  ],
+  "scopeAndLimits": [
+    "只判断 Garden_GrassTufts 和 Garden_CreepingMeadowLeaves 的固定三机位视觉结果。",
+    "未叠加独立 ground-detail 候选，不能将后续材质收益归因于草形。",
+    "固定姿态 path 图不是正常游戏漫步视频；本报告不证明动态风摆、所有角度、碰撞、帧率或性能无回归。",
+    "格式回读与 BVH 接地证据单列于 world-v10/interchange-verification.json；这些数值不是美术质量的替代。",
+    "没有声称达到或超越 littleprince-gameplay 参考图。",
+    "模型、材质、纹理及冻结资产未因本评审再修改。"
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "generatedAtUTC": "2026-10-21T03:19:12.657Z",
+  "revision": "v11",
+  "stagingOnly": false,
+  "runtimeAcceptancePassed": true,
+  "releaseReady": true,
+  "windowsBuild": "build_45ae373ba8b1",
+  "webBuild": "build_afad10959a97",
+  "windowsQA": "art/verification/run-029-v11/runtime-results.json",
+  "webQA": "art/verification/web-012-v11/runtime-results.json",
+  "nativeArtifactIdentity": "art/verification/run-029-v11/build-evidence.json",
+  "webArtifactIdentity": "art/verification/web-012-v11/artifact-identity.json",
+  "plantDecision": "art/verification/v11-plants-candidate/decision.json",
+  "worldInterchange": "art/generated/world-v8/interchange-verification.json",
+  "worldFbxSHA256": "AFC45E86B5186BEB2668CFBBBA66A46352EE2D3E1E58A96FB7638BEA4490BDAD",
+  "travelerFbxSHA256": "70069F12265EF5C0B713A94CE2B20F3D305DDE339FC8B2F0487C436091BB4D71",
+  "webPayloadBytes": 53227613,
+  "performanceScope": "Intel(R) Iris(R) Xe Graphics 原生 全屏 1440×900 短样本：菜单 60、总览 60、漫步视角 59.9、近景 59.8、末段 60 FPS。网页 1440×900 各视角 6×500 ms 前台区间指标中位：停步后的漫步视角 21.45、结尾 30.33。这些短样本不是持续行走平均、全程最低或独立渲染帧计数，不支持版本间性能收益结论。",
+  "packageVerification": "art/verification/v11-package-verification.json",
+  "packageVerificationPassed": true,
+  "releaseHTTPVerification": "art/verification/v11-release-http-verification.json",
+  "releaseHTTPVerified": true,
+  "newGaitVideoReviewed": false,
+  "visualAcceptance": "固定机位原图中，紫花由等大尖柱变为细碎花冠，蕨叶的黑硬菱片减少；路径完整画面也能看到改善。新紫穗更细，中远景色量减弱；草群的均匀针状分布和地面层次仍是下一重点。整体审美超过参考站的目标仍未达成。",
+  "aestheticObjectiveAchieved": false,
+  "status": "Promoted locally after scoped plant review, native/Web QA and package/HTTP checks. Overall aesthetic objective remains unachieved.",
+  "visualReviewPageVerified": true,
+  "visualReviewPageVerification": "art/verification/v11-review-page-verification.json",
+  "packageBytes": 75512762,
+  "packageSHA256": "CD823F949941B85101DFE71A5429837D23A0173DEC1807AB1BA1919229566B15",
+  "nativeCandidateIdentity": [
+    {
+      "name": "BorrowedLight.exe",
+      "qaSHA256": "EB143EAD6441B6DD9D7D145ADB85410E9389FB3878899AE537E8C9869CCE38FA",
+      "candidateSHA256": "EB143EAD6441B6DD9D7D145ADB85410E9389FB3878899AE537E8C9869CCE38FA",
+      "releaseSHA256": "EB143EAD6441B6DD9D7D145ADB85410E9389FB3878899AE537E8C9869CCE38FA"
+    },
+    {
+      "name": "UnityPlayer.dll",
+      "qaSHA256": "851DA827899734E8B3D56F7E4DBBD58210E58E4DAEF504E6B7472B9EE503914B",
+      "candidateSHA256": "851DA827899734E8B3D56F7E4DBBD58210E58E4DAEF504E6B7472B9EE503914B",
+      "releaseSHA256": "851DA827899734E8B3D56F7E4DBBD58210E58E4DAEF504E6B7472B9EE503914B"
+    },
+    {
+      "name": "BorrowedLight_Data/resources.assets",
+      "qaSHA256": "6ACF54EF095A6A1FC8A259B251BCF2657A280BE9A84FD4BC46E27235EA753A2B",
+      "candidateSHA256": "6ACF54EF095A6A1FC8A259B251BCF2657A280BE9A84FD4BC46E27235EA753A2B",
+      "releaseSHA256": "6ACF54EF095A6A1FC8A259B251BCF2657A280BE9A84FD4BC46E27235EA753A2B"
+    },
+    {
+      "name": "BorrowedLight_Data/Managed/Assembly-CSharp.dll",
+      "qaSHA256": "A0B45AFA3FB31308711763680549C486B9AEF9790BE7715977A792CCB6B63F51",
+      "candidateSHA256": "A0B45AFA3FB31308711763680549C486B9AEF9790BE7715977A792CCB6B63F51",
+      "releaseSHA256": "A0B45AFA3FB31308711763680549C486B9AEF9790BE7715977A792CCB6B63F51"
+    }
+  ],
+  "gameSourcesUnchangedFromV10": true,
+  "nativeDisplayComparison": "art/verification/v11-native-display-comparison.json",
+  "webCurrentHostComparison": "art/verification/v11-web-current-host-comparison.json",
+  "previousStableWebArchivePresent": true,
+  "finalizedAtUTC": "2026-10-21T03:28:19.866Z"
+}

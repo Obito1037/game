@@ -1,0 +1,369 @@
+{
+  "fbx": {
+    "passed": true,
+    "errors": [],
+    "rows": [
+      {
+        "mesh": "Blink_L_ClosedLash",
+        "maximum_normal_angle_degrees": 0.028690905642659793,
+        "drawable_maximum_normal_angle_degrees": 0.028690905642659793,
+        "unmatched_loops": 0,
+        "inward_cap_polygons": 0,
+        "mismatches": []
+      },
+      {
+        "mesh": "Blink_L_LidCover",
+        "maximum_normal_angle_degrees": 0.02841022448464337,
+        "drawable_maximum_normal_angle_degrees": 0.02841022448464337,
+        "unmatched_loops": 0,
+        "inward_cap_polygons": 0,
+        "mismatches": []
+      },
+      {
+        "mesh": "Blink_R_ClosedLash",
+        "maximum_normal_angle_degrees": 0.027270878346448677,
+        "drawable_maximum_normal_angle_degrees": 0.027270878346448677,
+        "unmatched_loops": 0,
+        "inward_cap_polygons": 0,
+        "mismatches": []
+      },
+      {
+        "mesh": "Blink_R_LidCover",
+        "maximum_normal_angle_degrees": 0.02925847712924993,
+        "drawable_maximum_normal_angle_degrees": 0.02925847712924993,
+        "unmatched_loops": 0,
+        "inward_cap_polygons": 0,
+        "mismatches": []
+      },
+      {
+        "mesh": "Head_Eye_AmberRim",
+        "maximum_normal_angle_degrees": 0.02569801490449649,
+        "drawable_maximum_normal_angle_degrees": 0.02569801490449649,
+        "unmatched_loops": 0,
+        "inward_cap_polygons": 0,
+        "mismatches": []
+      },
+      {
+        "mesh": "Head_Eye_Catchlight",
+        "maximum_normal_angle_degrees": 0.02663279178610967,
+        "drawable_maximum_normal_angle_degrees": 0.02663279178610967,
+        "unmatched_loops": 0,
+        "inward_cap_polygons": 0,
+        "mismatches": []
+      },
+      {
+        "mesh": "Head_Eye_Chestnut",
+        "maximum_normal_angle_degrees": 0.02883746988867348,
+        "drawable_maximum_normal_angle_degrees": 0.02883746988867348,
+        "unmatched_loops": 0,
+        "inward_cap_polygons": 0,
+        "mismatches": []
+      },
+      {
+        "mesh": "Head_Eye_Ivory",
+        "maximum_normal_angle_degrees": 0.032805301619918265,
+        "drawable_maximum_normal_angle_degrees": 0.032805301619918265,
+        "unmatched_loops": 0,
+        "inward_cap_polygons": 0,
+        "mismatches": []
+      },
+      {
+        "mesh": "Head_Eye_Pupil",
+        "maximum_normal_angle_degrees": 0.02883746988867348,
+        "drawable_maximum_normal_angle_degrees": 0.02883746988867348,
+        "unmatched_loops": 0,
+        "inward_cap_polygons": 0,
+        "mismatches": []
+      },
+      {
+        "mesh": "Head_Face_NoseCream",
+        "maximum_normal_angle_degrees": 0.02883746988867348,
+        "drawable_maximum_normal_angle_degrees": 0.02883746988867348,
+        "unmatched_loops": 0,
+        "inward_cap_polygons": 0,
+        "mismatches": []
+      },
+      {
+        "mesh": "Head_Face_PorcelainCream",
+        "maximum_normal_angle_degrees": 0.04440711565293209,
+        "drawable_maximum_normal_angle_degrees": 0.04440711565293209,
+        "unmatched_loops": 0,
+        "inward_cap_polygons": 0,
+        "mismatches": []
+      },
+      {
+        "mesh": "Head_Face_RoseCheeks",
+        "maximum_normal_angle_degrees": 0.02720070834334727,
+        "drawable_maximum_normal_angle_degrees": 0.02720070834334727,
+        "unmatched_loops": 0,
+        "inward_cap_polygons": 0,
+        "mismatches": []
+      },
+      {
+        "mesh": "Head_Hair_Indigo",
+        "maximum_normal_angle_degrees": 0.034970569093279974,
+        "drawable_maximum_normal_angle_degrees": 0.034970569093279974,
+        "unmatched_loops": 0,
+        "inward_cap_polygons": 0,
+        "mismatches": []
+      },
+      {
+        "mesh": "QuietSmile",
+        "maximum_normal_angle_degrees": 0.026402200499925085,
+        "drawable_maximum_normal_angle_degrees": 0.026402200499925085,
+        "unmatched_loops": 0,
+        "inward_cap_polygons": 0,
+        "mismatches": []
+      }
+    ],
+    "max_normal_angle_degrees": 0.04440711565293209,
+    "drawable_maximum_normal_angle_degrees": 0.04440711565293209,
+    "limitation": "GLB has six zero-area taper-end triangles whose Blender-import corner normals fall back to +/-Z. Strict all-corner passed remains false; drawable normal error is recorded separately. FBX is the Unity source."
+  },
+  "glb": {
+    "passed": false,
+    "errors": [
+      "export normal mismatch Head_Face_NoseCream",
+      "export normal mismatch QuietSmile"
+    ],
+    "rows": [
+      {
+        "mesh": "Blink_L_ClosedLash",
+        "maximum_normal_angle_degrees": 0.026754931440754515,
+        "drawable_maximum_normal_angle_degrees": 0.026754931440754515,
+        "unmatched_loops": 0,
+        "inward_cap_polygons": 0,
+        "mismatches": []
+      },
+      {
+        "mesh": "Blink_L_LidCover",
+        "maximum_normal_angle_degrees": 0.02663279178610967,
+        "drawable_maximum_normal_angle_degrees": 0.02663279178610967,
+        "unmatched_loops": 0,
+        "inward_cap_polygons": 0,
+        "mismatches": []
+      },
+      {
+        "mesh": "Blink_R_ClosedLash",
+        "maximum_normal_angle_degrees": 0.03317599477062028,
+        "drawable_maximum_normal_angle_degrees": 0.03317599477062028,
+        "unmatched_loops": 0,
+        "inward_cap_polygons": 0,
+        "mismatches": []
+      },
+      {
+        "mesh": "Blink_R_LidCover",
+        "maximum_normal_angle_degrees": 0.20148339187195233,
+        "drawable_maximum_normal_angle_degrees": 0.20148339187195233,
+        "unmatched_loops": 0,
+        "inward_cap_polygons": 0,
+        "mismatches": []
+      },
+      {
+        "mesh": "Head_Eye_AmberRim",
+        "maximum_normal_angle_degrees": 0.032805301619918265,
+        "drawable_maximum_normal_angle_degrees": 0.032805301619918265,
+        "unmatched_loops": 0,
+        "inward_cap_polygons": 0,
+        "mismatches": []
+      },
+      {
+        "mesh": "Head_Eye_Catchlight",
+        "maximum_normal_angle_degrees": 0.032051055913528075,
+        "drawable_maximum_normal_angle_degrees": 0.032051055913528075,
+        "unmatched_loops": 0,
+        "inward_cap_polygons": 0,
+        "mismatches": []
+      },
+      {
+        "mesh": "Head_Eye_Chestnut",
+        "maximum_normal_angle_degrees": 0.032805301619918265,
+        "drawable_maximum_normal_angle_degrees": 0.032805301619918265,
+        "unmatched_loops": 0,
+        "inward_cap_polygons": 0,
+        "mismatches": []
+      },
+      {
+        "mesh": "Head_Eye_Ivory",
+        "maximum_normal_angle_degrees": 0.02703159375134192,
+        "drawable_maximum_normal_angle_degrees": 0.02703159375134192,
+        "unmatched_loops": 0,
+        "inward_cap_polygons": 0,
+        "mismatches": []
+      },
+      {
+        "mesh": "Head_Eye_Pupil",
+        "maximum_normal_angle_degrees": 0.032051055913528075,
+        "drawable_maximum_normal_angle_degrees": 0.032051055913528075,
+        "unmatched_loops": 0,
+        "inward_cap_polygons": 0,
+        "mismatches": []
+      },
+      {
+        "mesh": "Head_Face_NoseCream",
+        "maximum_normal_angle_degrees": 77.42485842976534,
+        "drawable_maximum_normal_angle_degrees": 0.027976455118293345,
+        "unmatched_loops": 0,
+        "inward_cap_polygons": 0,
+        "mismatches": [
+          {
+            "loop": 5,
+            "position": [
+              -0.02070000022649765,
+              -0.09982515871524811,
+              1.1362249851226807
+            ],
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ],
+            "polygon_area_local": 0.0,
+            "polygon": [
+              0,
+              42,
+              41
+            ],
+            "difference_degrees": 77.42485842976534
+          },
+          {
+            "loop": 235,
+            "position": [
+              -0.06762000173330307,
+              -0.0819520652294159,
+              1.1375750303268433
+            ],
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ],
+            "polygon_area_local": 0.0,
+            "polygon": [
+              39,
+              40,
+              81
+            ],
+            "difference_degrees": 73.45854826337619
+          },
+          {
+            "loop": 245,
+            "position": [
+              0.02070000022649765,
+              -0.09982515871524811,
+              1.1362249851226807
+            ],
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ],
+            "polygon_area_local": 0.0,
+            "polygon": [
+              123,
+              83,
+              82
+            ],
+            "difference_degrees": 77.42485842976534
+          },
+          {
+            "loop": 475,
+            "position": [
+              0.06762000173330307,
+              -0.0819520652294159,
+              1.1375750303268433
+            ],
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ],
+            "polygon_area_local": 0.0,
+            "polygon": [
+              162,
+              163,
+              122
+            ],
+            "difference_degrees": 73.45854826337619
+          }
+        ]
+      },
+      {
+        "mesh": "Head_Face_PorcelainCream",
+        "maximum_normal_angle_degrees": 0.04078234145154498,
+        "drawable_maximum_normal_angle_degrees": 0.04078234145154498,
+        "unmatched_loops": 0,
+        "inward_cap_polygons": 0,
+        "mismatches": []
+      },
+      {
+        "mesh": "Head_Face_RoseCheeks",
+        "maximum_normal_angle_degrees": 0.026879126513861103,
+        "drawable_maximum_normal_angle_degrees": 0.026879126513861103,
+        "unmatched_loops": 0,
+        "inward_cap_polygons": 0,
+        "mismatches": []
+      },
+      {
+        "mesh": "Head_Hair_Indigo",
+        "maximum_normal_angle_degrees": 0.04083852840334685,
+        "drawable_maximum_normal_angle_degrees": 0.04083852840334685,
+        "unmatched_loops": 0,
+        "inward_cap_polygons": 0,
+        "mismatches": []
+      },
+      {
+        "mesh": "QuietSmile",
+        "maximum_normal_angle_degrees": 69.50664605327542,
+        "drawable_maximum_normal_angle_degrees": 0.03426402009603798,
+        "unmatched_loops": 0,
+        "inward_cap_polygons": 0,
+        "mismatches": [
+          {
+            "loop": 5,
+            "position": [
+              -0.02208000048995018,
+              -0.08897390961647034,
+              1.0713800191879272
+            ],
+            "normal": [
+              0.0,
+              0.0,
+              -1.0
+            ],
+            "polygon_area_local": 0.0,
+            "polygon": [
+              0,
+              50,
+              49
+            ],
+            "difference_degrees": 69.50664605327542
+          },
+          {
+            "loop": 283,
+            "position": [
+              0.02208000048995018,
+              -0.08897390961647034,
+              1.0713800191879272
+            ],
+            "normal": [
+              0.0,
+              0.0,
+              -1.0
+            ],
+            "polygon_area_local": 0.0,
+            "polygon": [
+              47,
+              48,
+              97
+            ],
+            "difference_degrees": 69.50664605327542
+          }
+        ]
+      }
+    ],
+    "max_normal_angle_degrees": 77.42485842976534,
+    "drawable_maximum_normal_angle_degrees": 0.20148339187195233,
+    "limitation": "GLB has six zero-area taper-end triangles whose Blender-import corner normals fall back to +/-Z. Strict all-corner passed remains false; drawable normal error is recorded separately. FBX is the Unity source."
+  }
+}

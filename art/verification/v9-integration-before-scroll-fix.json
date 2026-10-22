@@ -1,0 +1,184 @@
+{
+  "revision": "v9",
+  "date": "2026-10-21",
+  "worldFbxSHA256": "91C6D643698C414D0582D86AA42EBFAA1E470124DDDD7FAA7852860877806F64",
+  "travelerFbxSHA256": "1E9B778C88A70CC49D4872B441C32B9CDD0872747316F96963A0FB15A2532232",
+  "geometry": {
+    "worldTriangles": 412815,
+    "worldMeshes": 29,
+    "travelerTriangles": 77132,
+    "travelerRenderers": 62,
+    "skinnedRenderers": 28,
+    "armatures": 4,
+    "bones": 12
+  },
+  "preservation": {
+    "character": "../generated/character-v8/v7-preservation-file-verification.json",
+    "nonTargetMeshesUnchanged": 48,
+    "nonTargetMaterialsUnchanged": 26,
+    "allRigsPivotsAttachmentsPreserved": true,
+    "worldAndGroundBytesUnchanged": true,
+    "protectedSources": [
+      {
+        "source": "GameProject/Assets/BorrowedLight/Runtime/TravelerMotor.cs",
+        "sha256": "5E9188F28E35B3C30EFDDBD4D0BB9EB6055575EFF7C4B2AE5AEB86A75C56F611",
+        "changedFromV8": false
+      },
+      {
+        "source": "GameProject/Assets/BorrowedLight/Runtime/WorldAtmosphere.cs",
+        "sha256": "9E860E01F0DE0F088599900B3B5F882A6A0A5AAD8F40E6EF043B65BF33F5716F",
+        "changedFromV8": false
+      },
+      {
+        "source": "GameProject/Assets/BorrowedLight/Runtime/CelestialStarField.cs",
+        "sha256": "0DD28669B31DBF1C07C1D00EDA809ED4A9E7A8FD9E9F5803E4CB44BBE6574916",
+        "changedFromV8": false
+      },
+      {
+        "source": "GameProject/Assets/BorrowedLight/Runtime/StoryHUD.cs",
+        "sha256": "BBD0E50EB13C16676DFC445DC30EFBC16C4DE3A4D908E288B716A4C5B46F27F3",
+        "changedFromV8": false
+      },
+      {
+        "source": "GameProject/Assets/BorrowedLight/Shaders/PaintedSurface.shader",
+        "sha256": "963A498CE58AFA982C9ECAE4E7744514DCBAABF204C727671A2585EE19878161",
+        "changedFromV8": false
+      },
+      {
+        "source": "GameProject/Assets/BorrowedLight/Shaders/FoliagePaint.shader",
+        "sha256": "EA8CDD77BA71D6FB15A54B5353083D688E018A91A88D6E487CB82F3BA569CBAC",
+        "changedFromV8": false
+      },
+      {
+        "source": "GameProject/Assets/BorrowedLight/Shaders/Starfield.shader",
+        "sha256": "29C8BE3CA176D2DE557D5CA2F7443BE367D28ABC0FD203A2B91F999C5036DD91",
+        "changedFromV8": false
+      },
+      {
+        "source": "GameProject/Assets/BorrowedLight/Editor/BorrowedLightBuilder.cs",
+        "sha256": "A8BDC71794058D0DFC66E6B8A7D3E2B4E3C33EDD661363EB2F873A188B78F2BE",
+        "changedFromV8": false
+      },
+      {
+        "source": "GameProject/Assets/BorrowedLight/Resources/Models/Island.fbx.meta",
+        "sha256": "ED40B40FE52BBFEB6009F1792C1B0A714C77B4F8AE8ECBA345F6A091535766AF",
+        "changedFromV8": false
+      },
+      {
+        "source": "GameProject/Assets/BorrowedLight/Resources/Models/Traveler.fbx.meta",
+        "sha256": "1D61D3065894AD590DD356D5970F87888D5A5C2FE87768A233E40542577A240B",
+        "changedFromV8": false
+      }
+    ]
+  },
+  "characterNormalLimit": "FBX all modified-head corner normals passed (max .0445 degrees). GLB strict all-corner check fails at six zero-area line endpoints; drawable faces passed (max .2015 degrees).",
+  "faceStudy": {
+    "geometry": "v9-face-study-candidate/capture-condition-comparison.json",
+    "eyeMaterial": "v9-face-study-eye-material/capture-condition-comparison.json",
+    "bothConditionsPassed": true,
+    "stagedScope": "Bind pose and closer fixed camera, not normal gameplay or performance evidence",
+    "eyeSmoothness": {
+      "Ivory": 0.18,
+      "AmberRim": 0.32,
+      "Chestnut": 0.32,
+      "Pupil": 0.5,
+      "Catchlight": 0.72
+    },
+    "faceFill": 0.23,
+    "skinShaderUnchanged": true
+  },
+  "groundCandidate": {
+    "adopted": false,
+    "review": "v9-ground-contact-study/review.zh-CN.txt",
+    "statisticsCorrection": "Encoded-vs-linear darkening labeling error corrected in retained candidate audit; no candidate pixels shipped."
+  },
+  "native": {
+    "buildId": "build_2f7d7e1d3c46",
+    "evidence": "run-023-v9/runtime-results.json",
+    "results": {
+      "game": "Borrowed Light",
+      "puzzleCompleted": true,
+      "menuKeyboardStart": true,
+      "walkingDistance": 2.294,
+      "pauseStopsMovement": true,
+      "resumeMovement": true,
+      "restartWorks": true,
+      "fpsAtFinalView": 47,
+      "width": 1440,
+      "height": 900,
+      "gpu": "Intel(R) Iris(R) Xe Graphics",
+      "endingReturnWorks": true,
+      "cabinCollisionWorks": true,
+      "fpsSamples": {
+        "menu": 60,
+        "overview": 60,
+        "walking": 46.6,
+        "portrait": 60
+      },
+      "walkwayGroundingWorks": true,
+      "boulderCollisionWorks": true,
+      "riggedSoles": 2,
+      "soleGroundSamples": 220,
+      "minimumIdleSoleClearanceMetres": 0.00138,
+      "observatoryGroundingWorks": true,
+      "observatoryInstrumentCollisionWorks": true,
+      "decorativeLeavesExcluded": true,
+      "pierGroundingWorks": true,
+      "pierRailCollisionWorks": true
+    },
+    "boulderApproaches": 16,
+    "boulderChecksPassed": true
+  },
+  "web": {
+    "buildId": "build_0846c11112cc",
+    "evidence": "web-009-v9/runtime-results.json",
+    "passed": true,
+    "errors": [],
+    "engineDiagnostics": [
+      "WebGL: INVALID_ENUM: getInternalformatParameter: invalid internalformat",
+      "ERROR: Shader ",
+      "Hidden/CoreSRP/CoreCopy shader is not supported on this GPU (none of subshaders/fallbacks are suitable)\n",
+      "Hidden/Universal Render Pipeline/StencilDitherMaskSeed shader is not supported on this GPU (none of subshaders/fallbacks are suitable)\n",
+      "Hidden/Universal/HDRDebugView shader is not supported on this GPU (none of subshaders/fallbacks are suitable)\n",
+      "Trying to get length of sound which is not loaded yet."
+    ],
+    "payload": {
+      "bytes": 48929277,
+      "files": [
+        {
+          "name": "3f7728c318b83d7aeec45934696b556f.loader.js",
+          "bytes": 26983,
+          "sha256": "EBD7C1A4F5B1EA6140035129736F05F71EA49662A79AE291BC05131D391B73DC"
+        },
+        {
+          "name": "b80880d67ba5c37614166cccf12035ce.wasm.gz",
+          "bytes": 11601911,
+          "sha256": "74E8EA1490BE36A14E27761F9FE8EA73935FA4EF017240CD9AD76BE722ED9010"
+        },
+        {
+          "name": "da9a71ac078824ccbcc9a5c86285577b.framework.js.gz",
+          "bytes": 88514,
+          "sha256": "F086EA65F1B5F3E606C57B9B5F62B3728F6AA9CBCE4E211F9D547B4932E8F9A0"
+        },
+        {
+          "name": "e01f7ee6feae26527254b041464030d9.data.gz",
+          "bytes": 37211869,
+          "sha256": "65DB6D9791DCF36544E930E12F0F1379411FFC387986582686CA668C02F8E553"
+        }
+      ]
+    },
+    "walkingViewStoppedIntervalMedian": 32.690308242533625,
+    "endingIntervalMedian": 49.75832065572177
+  },
+  "dynamicPortrait": {
+    "capture": "web-v9-portrait-video/capture-manifest.json",
+    "review": "web-v9-portrait-video/review.json"
+  },
+  "limits": [
+    "Overall aesthetic objective remains unachieved.",
+    "Native/browser short samples are not continuous movement averages, minima or isolated performance gains.",
+    "No new GPU profile. Older observatory/gait recordings remain historical.",
+    "Actual portrait footage has limited resolution and pose coverage; it cannot prove every eyelid intermediate."
+  ],
+  "aestheticObjectiveAchieved": false
+}

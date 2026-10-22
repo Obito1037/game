@@ -1,0 +1,50 @@
+[
+  {
+    "source": "GameProject/Assets/BorrowedLight/Runtime/WorldDirector.cs",
+    "sha256": "AB4C74AA20B0ADB5D2D44CADAB714B8B5A4155FED697861A65E7A1A39C5A9951"
+  },
+  {
+    "source": "GameProject/Assets/BorrowedLight/Runtime/WorldVisualDiagnostics.cs",
+    "sha256": "A17F5C497B394D442DEA708DA71D328F32292A6B7CCC2C66233551EFD38DB38B"
+  },
+  {
+    "source": "GameProject/Assets/BorrowedLight/Runtime/TravelerMotor.cs",
+    "sha256": "5E9188F28E35B3C30EFDDBD4D0BB9EB6055575EFF7C4B2AE5AEB86A75C56F611"
+  },
+  {
+    "source": "GameProject/Assets/BorrowedLight/Runtime/WorldAtmosphere.cs",
+    "sha256": "9E860E01F0DE0F088599900B3B5F882A6A0A5AAD8F40E6EF043B65BF33F5716F"
+  },
+  {
+    "source": "GameProject/Assets/BorrowedLight/Runtime/CelestialStarField.cs",
+    "sha256": "0DD28669B31DBF1C07C1D00EDA809ED4A9E7A8FD9E9F5803E4CB44BBE6574916"
+  },
+  {
+    "source": "GameProject/Assets/BorrowedLight/Runtime/StoryHUD.cs",
+    "sha256": "BBD0E50EB13C16676DFC445DC30EFBC16C4DE3A4D908E288B716A4C5B46F27F3"
+  },
+  {
+    "source": "GameProject/Assets/BorrowedLight/Shaders/PaintedSurface.shader",
+    "sha256": "963A498CE58AFA982C9ECAE4E7744514DCBAABF204C727671A2585EE19878161"
+  },
+  {
+    "source": "GameProject/Assets/BorrowedLight/Shaders/FoliagePaint.shader",
+    "sha256": "EA8CDD77BA71D6FB15A54B5353083D688E018A91A88D6E487CB82F3BA569CBAC"
+  },
+  {
+    "source": "GameProject/Assets/BorrowedLight/Shaders/Starfield.shader",
+    "sha256": "29C8BE3CA176D2DE557D5CA2F7443BE367D28ABC0FD203A2B91F999C5036DD91"
+  },
+  {
+    "source": "GameProject/Assets/BorrowedLight/Editor/BorrowedLightBuilder.cs",
+    "sha256": "A8BDC71794058D0DFC66E6B8A7D3E2B4E3C33EDD661363EB2F873A188B78F2BE"
+  },
+  {
+    "source": "GameProject/Assets/BorrowedLight/Resources/Models/Island.fbx.meta",
+    "sha256": "ED40B40FE52BBFEB6009F1792C1B0A714C77B4F8AE8ECBA345F6A091535766AF"
+  },
+  {
+    "source": "GameProject/Assets/BorrowedLight/Resources/Models/Traveler.fbx.meta",
+    "sha256": "1D61D3065894AD590DD356D5970F87888D5A5C2FE87768A233E40542577A240B"
+  }
+]

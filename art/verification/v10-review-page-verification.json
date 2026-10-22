@@ -1,0 +1,97 @@
+{
+  "passed": true,
+  "page": "visual-review.html",
+  "localLinksChecked": 19,
+  "missingLocalLinks": [],
+  "imagesChecked": 9,
+  "videosChecked": 1,
+  "dialogOpened": true,
+  "errors": [],
+  "title": "借光岛 v10 · 本地实机美术对照",
+  "images": [
+    {
+      "src": "../reference/littleprince-gameplay.png",
+      "complete": true,
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "src": "run-025-v10/07-walking.png",
+      "complete": true,
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "src": "v10-stone-study/path-baseline.png",
+      "complete": true,
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "src": "v10-stone-study/path-texture.png",
+      "complete": true,
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "src": "v10-stone-study/left-rock-texture.png",
+      "complete": true,
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "src": "v10-silhouette-baseline/three-quarter-current.png",
+      "complete": true,
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "src": "v10-silhouette-candidate/three-quarter-current.png",
+      "complete": true,
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "src": "v10-foliage-study/lamp-legacy40.png",
+      "complete": true,
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "src": "v10-foliage-study/lamp-fixed40.png",
+      "complete": true,
+      "width": 1440,
+      "height": 900
+    }
+  ],
+  "videos": [
+    {
+      "src": "web-v10-gait-video/gait-session-includes-loading.webm",
+      "width": 1440,
+      "height": 900,
+      "duration": 53.08
+    }
+  ],
+  "links": [
+    "file:///C:/Users/20665/Desktop/game/art/reference/littleprince-gameplay.png",
+    "file:///C:/Users/20665/Desktop/game/art/verification/run-025-v10/07-walking.png",
+    "file:///C:/Users/20665/Desktop/game/art/verification/v10-stone-study/path-baseline.png",
+    "file:///C:/Users/20665/Desktop/game/art/verification/v10-stone-study/path-texture.png",
+    "file:///C:/Users/20665/Desktop/game/art/verification/v10-stone-study/left-rock-texture.png",
+    "file:///C:/Users/20665/Desktop/game/art/verification/v10-stone-study/pixel-comparison.json",
+    "file:///C:/Users/20665/Desktop/game/art/verification/v10-stone-study/decision.json",
+    "file:///C:/Users/20665/Desktop/game/art/verification/v10-silhouette-baseline/three-quarter-current.png",
+    "file:///C:/Users/20665/Desktop/game/art/verification/v10-silhouette-candidate/three-quarter-current.png",
+    "file:///C:/Users/20665/Desktop/game/art/verification/v10-silhouette-candidate/capture-condition-comparison.json",
+    "file:///C:/Users/20665/Desktop/game/art/verification/v10-silhouette-candidate/decision.json",
+    "file:///C:/Users/20665/Desktop/game/art/verification/v10-foliage-study/lamp-legacy40.png",
+    "file:///C:/Users/20665/Desktop/game/art/verification/v10-foliage-study/lamp-fixed40.png",
+    "file:///C:/Users/20665/Desktop/game/art/verification/v10-foliage-study/review.json",
+    "file:///C:/Users/20665/Desktop/game/art/verification/web-v10-gait-video/capture-manifest.json",
+    "file:///C:/Users/20665/Desktop/game/art/verification/web-v10-gait-video/review.json",
+    "file:///C:/Users/20665/Desktop/game/art/verification/web-v10-gait-video/gait-session-includes-loading.webm",
+    "file:///C:/Users/20665/Desktop/game/art/verification/run-025-v10/runtime-results.json",
+    "file:///C:/Users/20665/Desktop/game/art/verification/web-011-v10/runtime-results.json"
+  ],
+  "overflow": false
+}

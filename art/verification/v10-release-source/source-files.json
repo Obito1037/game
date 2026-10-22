@@ -1,0 +1,82 @@
+[
+  {
+    "source": "GameProject/Assets/BorrowedLight/Runtime/WorldDirector.cs",
+    "sha256": "46BBCA67DCB08BD48F15A30FF66F075EE1B269C6F0641CB0CE7A78054F049A63",
+    "changedFromV9": true
+  },
+  {
+    "source": "GameProject/Assets/BorrowedLight/Runtime/WorldVisualDiagnostics.cs",
+    "sha256": "2F32161169DD27FA04A42C279B6E8703707878E74ED4FD732078C77BE1713104",
+    "changedFromV9": false
+  },
+  {
+    "source": "GameProject/Assets/BorrowedLight/Runtime/TravelerMotor.cs",
+    "sha256": "5E9188F28E35B3C30EFDDBD4D0BB9EB6055575EFF7C4B2AE5AEB86A75C56F611",
+    "changedFromV9": false
+  },
+  {
+    "source": "GameProject/Assets/BorrowedLight/Runtime/WorldAtmosphere.cs",
+    "sha256": "9E860E01F0DE0F088599900B3B5F882A6A0A5AAD8F40E6EF043B65BF33F5716F",
+    "changedFromV9": false
+  },
+  {
+    "source": "GameProject/Assets/BorrowedLight/Runtime/CelestialStarField.cs",
+    "sha256": "0DD28669B31DBF1C07C1D00EDA809ED4A9E7A8FD9E9F5803E4CB44BBE6574916",
+    "changedFromV9": false
+  },
+  {
+    "source": "GameProject/Assets/BorrowedLight/Runtime/StoryHUD.cs",
+    "sha256": "BBD0E50EB13C16676DFC445DC30EFBC16C4DE3A4D908E288B716A4C5B46F27F3",
+    "changedFromV9": false
+  },
+  {
+    "source": "GameProject/Assets/BorrowedLight/Shaders/PaintedSurface.shader",
+    "sha256": "90C59D9DD108EE401EB938F0296F6CBB2902541CF5B7BF3EDBA6A2B83D596258",
+    "changedFromV9": true
+  },
+  {
+    "source": "GameProject/Assets/BorrowedLight/Shaders/FoliagePaint.shader",
+    "sha256": "476A08A84695E3826A2FF452714E928DD4AA958B927226B0671EC85ED32FE9F8",
+    "changedFromV9": true
+  },
+  {
+    "source": "GameProject/Assets/BorrowedLight/Shaders/Starfield.shader",
+    "sha256": "29C8BE3CA176D2DE557D5CA2F7443BE367D28ABC0FD203A2B91F999C5036DD91",
+    "changedFromV9": false
+  },
+  {
+    "source": "GameProject/Assets/BorrowedLight/Editor/BorrowedLightBuilder.cs",
+    "sha256": "A8BDC71794058D0DFC66E6B8A7D3E2B4E3C33EDD661363EB2F873A188B78F2BE",
+    "changedFromV9": false
+  },
+  {
+    "source": "GameProject/Assets/BorrowedLight/Resources/Models/Island.fbx.meta",
+    "sha256": "ED40B40FE52BBFEB6009F1792C1B0A714C77B4F8AE8ECBA345F6A091535766AF",
+    "changedFromV9": false
+  },
+  {
+    "source": "GameProject/Assets/BorrowedLight/Resources/Models/Traveler.fbx.meta",
+    "sha256": "1D61D3065894AD590DD356D5970F87888D5A5C2FE87768A233E40542577A240B",
+    "changedFromV9": false
+  },
+  {
+    "source": "GameProject/Assets/BorrowedLight/Runtime/WorldMaterialStudy.cs",
+    "sha256": "5009A62C5A25C13569EB021263C1B7BB5DBFB3ABEBB81F7A3FB6D91856CEEDEE",
+    "addedInV10": true
+  },
+  {
+    "source": "GameProject/Assets/BorrowedLight/Shaders/FoliageSurface.hlsl",
+    "sha256": "BE618753F3F05A449E66E8BC4D3F1092C8DD2E1F9AD79CBB23D68387F7501181",
+    "addedInV10": true
+  },
+  {
+    "source": "GameProject/Assets/BorrowedLight/Resources/Materials/PaintedRockV10.mat",
+    "sha256": "6A7866AC6CB1529870969B82746DA2AC766121C3598812C16B28CE5FB1490F3E",
+    "addedInV10": true
+  },
+  {
+    "source": "GameProject/Assets/BorrowedLight/Resources/Textures/StoneV10.png.meta",
+    "sha256": "B0B701914F29F3CE63FC1006EE7AC8986B30552748879F5C90022430D79674DC",
+    "addedInV10": true
+  }
+]

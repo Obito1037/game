@@ -1,0 +1,85 @@
+{
+  "declaredBuildId": "build_391eab7c3886",
+  "scope": "Network request filenames from each isolated session matched to current disk files; build ID is the recorded Unity build ID, not an ID embedded in browser payloads.",
+  "totalPayloadBytes": 48553966.0,
+  "diskResources": [
+    {
+      "name": "1ed005219b5b262e3309104f967ff981.loader.js",
+      "bytes": 26983,
+      "sha256": "FF066CAAD4C087C9B2CD0CC45241897EAF6D1A5C6F464F0F3B9B6D78EE08D952"
+    },
+    {
+      "name": "7f75960fd79adf90d0e4f785be29520d.framework.js.gz",
+      "bytes": 88481,
+      "sha256": "9F613BB87E78F6ED9AF11574A7AC60F0A68A3C79803D6170CEE72C25363553B4"
+    },
+    {
+      "name": "fc6c868bef94f83e6e3a5e3e16e77a6e.data.gz",
+      "bytes": 36870280,
+      "sha256": "9D3280058CE6471AE3141D4E848E58A8C49E9B6471A2C32AAA8A2D054E4A4863"
+    },
+    {
+      "name": "ff0a1f4de67d7c5203b7c8b90e5b8792.wasm.gz",
+      "bytes": 11568222,
+      "sha256": "800018423D4C1F0145B34303ECDA4CD1522E30E212028CF06C53997391905FAE"
+    }
+  ],
+  "sessions": [
+    {
+      "session": "web-007-v7",
+      "declaredBuildId": "build_391eab7c3886",
+      "requestedNames": [
+        "1ed005219b5b262e3309104f967ff981.loader.js",
+        "7f75960fd79adf90d0e4f785be29520d.framework.js.gz",
+        "ff0a1f4de67d7c5203b7c8b90e5b8792.wasm.gz",
+        "fc6c868bef94f83e6e3a5e3e16e77a6e.data.gz"
+      ],
+      "namesMatchDisk": true
+    },
+    {
+      "session": "web-v7-gpu-profile",
+      "declaredBuildId": "build_391eab7c3886",
+      "requestedNames": [
+        "1ed005219b5b262e3309104f967ff981.loader.js",
+        "7f75960fd79adf90d0e4f785be29520d.framework.js.gz",
+        "ff0a1f4de67d7c5203b7c8b90e5b8792.wasm.gz",
+        "fc6c868bef94f83e6e3a5e3e16e77a6e.data.gz"
+      ],
+      "namesMatchDisk": true
+    },
+    {
+      "session": "web-v7-gait",
+      "declaredBuildId": "build_391eab7c3886",
+      "requestedNames": [
+        "1ed005219b5b262e3309104f967ff981.loader.js",
+        "7f75960fd79adf90d0e4f785be29520d.framework.js.gz",
+        "ff0a1f4de67d7c5203b7c8b90e5b8792.wasm.gz",
+        "fc6c868bef94f83e6e3a5e3e16e77a6e.data.gz"
+      ],
+      "namesMatchDisk": true
+    },
+    {
+      "session": "web-v7-gait-video-only",
+      "declaredBuildId": "build_391eab7c3886",
+      "requestedNames": [
+        "1ed005219b5b262e3309104f967ff981.loader.js",
+        "7f75960fd79adf90d0e4f785be29520d.framework.js.gz",
+        "ff0a1f4de67d7c5203b7c8b90e5b8792.wasm.gz",
+        "fc6c868bef94f83e6e3a5e3e16e77a6e.data.gz"
+      ],
+      "namesMatchDisk": true
+    },
+    {
+      "session": "web-v7-observatory-video",
+      "declaredBuildId": "build_391eab7c3886",
+      "requestedNames": [
+        "1ed005219b5b262e3309104f967ff981.loader.js",
+        "7f75960fd79adf90d0e4f785be29520d.framework.js.gz",
+        "ff0a1f4de67d7c5203b7c8b90e5b8792.wasm.gz",
+        "fc6c868bef94f83e6e3a5e3e16e77a6e.data.gz"
+      ],
+      "namesMatchDisk": true
+    }
+  ],
+  "allSessionsMatch": true
+}

@@ -1,0 +1,128 @@
+{
+  "passed": true,
+  "page": "visual-review.html",
+  "localLinksChecked": 20,
+  "missingLocalLinks": [],
+  "imagesChecked": 16,
+  "images": [
+    {
+      "src": "../reference/littleprince-gameplay.png",
+      "complete": true,
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "src": "run-024-v9/07-walking.png",
+      "complete": true,
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "src": "run-022-v8/09-traveler-portrait.png",
+      "complete": true,
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "src": "run-024-v9/09-traveler-portrait.png",
+      "complete": true,
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "src": "v9-face-study-baseline/01-front-open.png",
+      "complete": true,
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "src": "v9-face-study-eye-material/01-front-open.png",
+      "complete": true,
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "src": "v9-face-study-baseline/03-side-open.png",
+      "complete": true,
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "src": "v9-face-study-eye-material/03-side-open.png",
+      "complete": true,
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "src": "v9-face-study-baseline/04-front-closed.png",
+      "complete": true,
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "src": "v9-face-study-eye-material/04-front-closed.png",
+      "complete": true,
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "src": "v9-face-study-candidate/02-three-quarter-open.png",
+      "complete": true,
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "src": "v9-face-study-eye-material/02-three-quarter-open.png",
+      "complete": true,
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "src": "v9-ground-contact-study/lamp-baseline.png",
+      "complete": true,
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "src": "v9-ground-contact-study/lamp-candidate.png",
+      "complete": true,
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "src": "web-010-v9/05-stars-return.png",
+      "complete": true,
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "src": "web-010-v9/06-walking.png",
+      "complete": true,
+      "width": 1440,
+      "height": 900
+    }
+  ],
+  "videos": [
+    {
+      "src": "web-v9-portrait-video/portrait-time-cut.webm",
+      "readyState": 4,
+      "width": 1440,
+      "height": 900,
+      "duration": 15.96,
+      "playedToSeconds": 0.457558,
+      "error": null
+    }
+  ],
+  "errors": [],
+  "layout": {
+    "viewportWidth": 1440,
+    "documentWidth": 1440,
+    "title": "借光岛 v9 · 本地实机美术对照",
+    "heading": "借光岛 v9 · 人物面部对照"
+  },
+  "firstScreen": "v9-review-page-first-screen.png",
+  "firstScreenVisualReviewed": true,
+  "scope": "Local static review page only. All16 lazy images were scrolled into view; video metadata and short muted playback checked. External reference sites were not opened and no game was run.",
+  "browserClosed": true,
+  "firstScreenLayout": "Viewed the saved 1440x900 original screenshot: title, summary, tags and paired image cards are readable; no visible overlap or horizontal overflow."
+}

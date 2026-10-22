@@ -1,0 +1,67 @@
+借光岛 character-v9 候选（供游戏 v10 实机对比）
+日期：2026-10-21
+
+只读评估结论
+实际查看了 littleprince-gameplay.png、run-024-v9/09-traveler-portrait.png、
+v9-face-study-eye-material/01-front-open.png，并阅读角色源脚本、WorldDirector、WorldAtmosphere、PaintedSurface。
+当前正常游玩的玩偶感以大形体和材质分区为主，多方向冷暖灯会强化圆滑壳面。
+皮肤 Smoothness 已是 .20，衣料 .09；纹理主要是微弱程序噪声，衣料细织纹还会在游玩距离主动淡出。
+因此继续只降光泽度、增微噪点或小改眼圈，预计收益有限。
+参考在更小人物尺寸下仍能读出蓬松发缘、自然肩线、布料腰/膝松量；当前的厚弧发束、上臂圆管、
+平顺大衣和直裤管更容易被读成整体注塑件。不同日夜图片不能用于定量归因。
+
+最多三个候选方向
+1. 优先：重塑头发与衣服大轮廓。保留原创深棕发、青绿大衣、金围巾、脸眼和现有骨架，
+   减少规则整齐发束，明确主发束高低/方向；收起上臂圆管体积；使大衣侧后下摆、裤膝和靴口形成宽的布料松量。
+   这是本候选实际制作的唯一方向。
+2. 后续：与形体对应的中尺度材质分区。按发束/布片组织宽色块和磨损、区分领口/外衣/裤料；
+   皮肤用受控暖冷肤色面和柔和漫反射，避免全表面同一噪声或把缝线涂黑。当前未实施。
+3. 独立对照：调整携灯与脸补光的方向关系。现手灯 .52/2.2m 从下侧照脸，前置补光 .23/1.1m，
+   另有月光、蓝时刻和暖方向灯；应固定模型比较“主体面部光由侧上方主导、携灯只作低位暖缘”的效果。
+   需用同机位实机验证，不能仅凭参数断言改善。当前未改灯光。
+
+实际制作范围
+脚本：art/blender/build_traveler_v9.py
+直接来源：冻结 art/generated/character-v8/traveler.blend。
+读取 build_traveler_v7.py 的纯指纹函数、build_traveler_v6.py 的比例函数、build_traveler_v8.py 的连通岛函数；
+不执行旧构建入口。上游 v8→v7→v6/v5 依赖应完整保留。
+
+仅七个目标网格的坐标/角法线可变：
+Head_Hair_Indigo、Head_Hair_MidnightBlue、Sleeve_L、Sleeve_R、TailoredTunic、Trouser_L、Trouser_R。
+头发沿已有曲线组改变宽厚和中心线，形成不等长外翘束；没有新增发丝网格或换成参考黄发。
+最高发束经一次预览修正，降低厚尖瓣感；所有亮色细发线与所属发束使用同一变形。
+肩袖减小上臂体积，在已有局部肘褶上保留一个宽斜转折；没有重新引入整圈周期波纹。
+大衣只放松侧后下摆，保护前中线、纽扣和缝线；裤腿增加膝/小腿松量、一条宽长偏斜转折，靴口维持原接合。
+全部拓扑、UV、顶点色、蒙皮权重、材质分配/材质图、骨架/命名pivot/附件均不变。
+当前脸、眼睛、眨眼、手、鞋底、灯笼、围巾和披肩不变。
+
+预算与保护
+77,132 tris、62 mesh、28 skinned、4 armatures、12 bones、29 materials，和来源相同。
+v8-preservation-file-verification.json 独立重开两个 BLEND：55 非目标网格全通道精确一致；
+7 目标网格除坐标/角法线外的全部通道精确一致；29 材质图精确一致；所有对象/骨架/附件契约一致。
+Head_Hair_Indigo 中头皮、眉、睫等 1,315 个保护顶点和对应角法线精确一致。
+
+实际预览
+v8-three-quarter.png ↔ v9-three-quarter.png
+v8-profile.png ↔ v9-profile.png
+均使用冻结场景相同灯光和相同机位，512×640、Cycles CPU4线程/8 samples/降噪，无GPU。
+约560px高的全身图已实际查看。头发外轮廓和肩袖收束明显可辨，裤腿松量在外轮廓可见；
+侧后下摆变化更克制，整体衣料仍较平滑。此候选有可见变化，但尚不能称参考质量已追平。
+工作室对照不代表游戏最终效果，也不是帧率证据，需主线程正常游玩A/B。
+
+必要验证
+frozen-export-verification.json：FBX/GLB 正常和实际弯肘屈膝姿态、28个蒙皮网格、12骨、附件跟随、
+眨眼接口、原有摆步鞋底通过；最大姿态顶点误差 FBX 0.000000217m、GLB 0.000002814m。
+connection-verification.json：中性、两种相反关节姿态，实际求值的肩根/袖口、裤腰/靴口、大衣前中线/上部，
+以及全部55个保护网格，对比冻结v8最大位置误差0。这是连接保护检查，不是完整动态步态/碰撞穷举。
+target-normal-interchange-verification.json：7个目标网格角法线回读通过，最大 FBX0.0343°、GLB0.0701°。
+color-interchange-verification.json：62网格COLOR_0均保留；FBX线性色误差0，GLB BYTE_COLOR回读最大0.004508。
+未重复运行既有全地形步态扫描，也未重新宣称所有历史验证覆盖新的实际运行。
+来源角色GLB中6个零面积下睑/嘴线端点的法线导入限制原样保留；本轮目标法线通过不等于该旧限制消失。
+
+冻结SHA-256
+traveler.blend 044f7a69d762bde8d998f25bce0462508a371e321c7730adbc7997a7df3db3ec
+traveler.fbx   70069f12265ef5c0b713a94ce2b20f3d305dde339fc8b2f0487c436091bb4d71
+traveler.glb   042aaee83b6fd77457ca1b9a9a87595a03b6f3b33998ec8f39c55bb4632362dc
+
+冻结后不静默改动模型或导出；旧character-v8与Unity资源均未修改。

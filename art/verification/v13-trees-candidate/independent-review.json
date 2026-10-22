@@ -1,0 +1,65 @@
+{
+  "reviewer": "reference_research",
+  "reviewed": true,
+  "accepted": false,
+  "candidateGame": "v13",
+  "candidateWorld": "world-v11",
+  "candidateBuildId": "build_616eb888fe19",
+  "baselineBuildId": "build_07b75c9c9302",
+  "summary": "不建议整包采用。左阔叶与金树的分枝支撑和叶团层次有所改善，金环更清楚；右树却由浓密柱体变为裸杆与细丝枝圈，正常路径和全岛视角都明显损失绿冠体积。左、金树的冠顶上移并超出原近景，不足以完成整冠验收。",
+  "personallyViewedOriginals": [
+    "../v13-trees-baseline/path-current.png",
+    "path-current.png",
+    "../v13-trees-baseline/island-current.png",
+    "island-current.png",
+    "../v13-trees-baseline/left-tree-current.png",
+    "left-tree-current.png",
+    "../v13-trees-baseline/gold-tree-current.png",
+    "gold-tree-current.png",
+    "../v13-trees-baseline/right-pine-current.png",
+    "right-pine-current.png"
+  ],
+  "views": [
+    {
+      "view": "path",
+      "judgment": "局部改善，整体不通过",
+      "improvements": "左树与金树不再是同高薄棚，枝条更清楚；金环轮廓明显更完整，木屋圆窗、屋顶和月亮仍好读。",
+      "problems": "三树绿量下降且冠部上移，左侧冠量退到画面边外，右树呈裸杆与几圈细丝，画面更空。"
+    },
+    {
+      "view": "island",
+      "judgment": "空间层次改善，右侧视觉重量退步",
+      "improvements": "左树和金树由扁盖变为较高的分叉叶团，空间关系更自然，原有布局和主要焦点保持。",
+      "problems": "右树远看几乎消失为细枝杆，岛屿右侧植物体量明显变弱。"
+    },
+    {
+      "view": "left-tree",
+      "judgment": "分枝与叶团改善，完整冠形未验收",
+      "improvements": "分枝能支撑不同高度的叶团，天空孔隙更自然，旧大平盖和屋顶遮挡减轻。",
+      "problems": "新冠顶超出近景上边，长裸分枝更突出；不能用该图证明完整树冠形态通过。"
+    },
+    {
+      "view": "gold-tree",
+      "judgment": "五组中改善最明确，冠顶仍裁切",
+      "improvements": "叶团高低和枝干连接更自然，金环和灯头清楚，没有看到新遮挡。",
+      "problems": "新冠顶被原机位切掉，完整冠形需全岛图辅助，不能仅以近景局部作为采用依据。"
+    },
+    {
+      "view": "right-pine",
+      "judgment": "主要阻断，退步",
+      "improvements": "旧版等距堆层与刷状柱体消失，枝条关系更可见。",
+      "problems": "中下部大量裸枝和极小细针投影没有形成上细下丰的连贯叶量，像衰弱或未完成的树。金环露出更多不能抵消树冠本体退步。"
+    }
+  ],
+  "recommendedNextStep": "仅做一轮针对性修正：恢复右树中下部不规则、有体积的叶团和短枝覆盖，保留可读枝干与缺口，不恢复等距圆盘塔；适度压低左阔叶与金树的上冠，同时保留清楚的木屋和金环。首版来源与原图应保留。",
+  "limits": [
+    "仅亲看五对共十张完整 current 原始 PNG；没有观看 repeat 作为动态录像。",
+    "采集、材质、环境与导入对照通过不等同于美术通过；本判断基于可见画面，不以 manifest 或三角面数代替审美。",
+    "固定时间不会冻结全部时域 AO 或渲染随机项，不声称逐像素一致。",
+    "不验证动态风摆、移动闪烁、帧率、碰撞、正常游戏回归或所有机位。",
+    "左阔叶与金树的近景冠顶被裁切，完整冠形证据有限。",
+    "参考截图没有成熟树冠，不能据此宣称复刻参考树形或整体超过参考。",
+    "此为独立建议，未修改根代理的 decision.json，也未修改生产素材。"
+  ],
+  "aestheticObjectiveAchieved": false
+}

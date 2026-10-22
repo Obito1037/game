@@ -1,0 +1,17 @@
+{
+  "accepted": false,
+  "revision": "character-v12",
+  "baseline": "character-v11",
+  "reviewedOriginals": ["baseline-three-quarter.png", "candidate-three-quarter.png", "baseline-profile.png", "candidate-profile.png"],
+  "reviewers": ["root", "blender_world", "reference_research"],
+  "improvements": ["Nose, mouth, cheek and chin planes are more legible than the v11 baseline."],
+  "rejectionReasons": [
+    "Three-quarter view shows multiple horizontal bright lip bands and mouth-corner grooves continuing too far into the cheeks.",
+    "Profile has stepped protruding upper/lower lips, producing a pursed-mouth expression.",
+    "Nose-base ridges and nostril grooves combine into two conspicuous dark pits."
+  ],
+  "scope": "Rejected geometry study. Preserve the original manifest, Blender/FBX files and all four previews; do not import this candidate into Unity.",
+  "technicalLimits": ["Source preservation is not artistic acceptance or FBX readback verification."],
+  "nextCandidate": "character-v13",
+  "aestheticObjectiveAchieved": false
+}

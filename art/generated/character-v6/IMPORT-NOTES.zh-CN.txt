@@ -1,0 +1,65 @@
+借光岛原创守夜人 character-v6 冻结候选
+日期：2026-10-21
+
+资产
+  traveler.blend / traveler.fbx / traveler.glb
+  派生源：art/generated/character-v5/traveler.blend，原文件未改。
+  构建源：art/blender/build_traveler_v6.py。
+  75,862 三角；62 mesh；28 skinned mesh；4 armature；12 原生 bone；29 材质。
+  与 v5 相比增加实际衣褶采样和眼睑/眉毛轮廓，renderer 数量、材质种类不增加。
+
+本轮造型
+  保留青绿大衣、金围巾、短披肩、挎包、手提灯笼的原创身份。
+  连续头面表面增加鼻梁/鼻翼、颧颊和下颌过渡。
+  上眼白高度缩小 18%；新增轻薄肉色眼睑；眉毛改为圆滑渐细弧线。
+  虹膜亮圈改为克制栗色：Traveler_Eye_AmberRim 基础线性色 (0.265,0.155,0.078)。
+  上衣、肘部、袖口、膝部加入真实几何衣褶，第二轮减少规则波纹振幅。
+  闭眼覆盖片跟随新面部曲率，边缘定制法线贴合脸部；闭眼不再透出眼球高光。
+
+必须保留的导入条件
+  Unity Generic；optimizeGameObjects=false；isReadable=true；bakeAxisConversion=false。
+  法线选择 Import，不要重新计算，否则闭眼覆盖片的柔和边缘会改变。
+  不重命名任何 pivot、bone 或 mesh。保持导入 bind rotation。
+  来源坐标：+Z 上、-Y 前；FBX -Z forward / Y up。
+  原有 TravelerMotor 的骨骼轴推导和腿部 IK 可继续使用。
+  Blink_L/R：open localScale=(0.001,0.001,1)，closed=(1,1,1)，契约不变。
+  Lantern 保持 bone-parented 到右肘，与手部相对关系不变。
+
+顶点色/材质契约
+  每个 mesh 都有 Col，CORNER/FLOAT_COLOR，导出为 COLOR_0。
+  RGB 为线性相对基础色乘数，(1,1,1) 是中性；Alpha 固定 1。
+  范围不超过 1，避免 glTF 归一颜色对 >1 值的处理差异。
+  面颊/鼻尖增加暖色渐变；眼下仅克制的暖灰过渡；布料含低频轻微色差。
+  使用 FBX 原基础色乘顶点色，不要再次将完整基础肤色写入顶点色。
+  皮肤名称仍为 Traveler_Face_*；衣料仍为原 Coat/Cape/Hood/Trousers/Scarf/Gloves。
+  建议角色皮肤使用主线程的 SkinPaint，布料使用 PaintedTinted。
+  Blender 的细微 bump、subsurface、sheen 是预览节点，不能视为 Unity 已呈现的证明。
+
+已完成的独立证据
+  traveler-manifest.json：所有对象/骨架本地矩阵、父子关系和骨骼 bind 矩阵逐项不变。
+    袖裤 SIMPLE 加密保留原 cage 顶点权重，权重误差为 0；新增点插值后归一。
+    鞋底、鞋面、手部、灯笼、围巾及相关附件逐点与原权重保持不变。
+  frozen-export-verification.json：独立进程实际回读 FBX 和 GLB，验证中性及屈膝姿态。
+    FBX 最大中性误差 2.15e-7 m；最大姿态误差 2.17e-7 m。
+    GLB 最大中性误差 1.82e-7 m；最大姿态误差 2.96e-6 m。
+    所有 12 命名 bone、28 skinned mesh、blink 和灯笼关系通过。
+  color-interchange-verification.json：所有 62 mesh 的实际导出顶点色验证通过。
+    FBX 线性 RGB 回读误差 0；基础色误差 0。
+    GLB 原始 COLOR_0 与 baseColorFactor 均存在且基础色正确。
+    Blender 将 GLB 归一颜色回读为 BYTE_COLOR，最大线性量化误差约 0.00451。
+  blink-verification.json：BLEND/FBX/GLB 对每个实际眼球顶点做闭眼覆盖片射线验证。
+    最小遮挡余量约 1.25 mm，无漏点。只证明正前方遮挡关系；近景另有渲染确认。
+  gait-verification.json：144 个 Blender 实际蒙皮鞋底样本，涵盖平地、左右各 9 cm 台阶。
+    最小离地 0.00399977 m，最大膝屈约 79.98 度。
+    该验证不替代 Unity 的接地射线、平台碰撞、时序与移动实机检查。
+
+实际预览
+  render-neutral.png / render-portrait.png / render-side.png / render-blink.png。
+  Blender Cycles CPU、6 线程、20 samples、900×900。
+  这些是造型工作室灯光预览，不能替代 Unity 夜景美术与性能验收。
+  此候选不表示整体已超过 littleprince.dev 参考站；整体验收由实机画面和玩法决定。
+
+冻结 SHA256
+  traveler.blend 5B1E0B1D49C0F522CB7EC20B1D4C01970BAEC4A3C1467377CB80B58651866F68
+  traveler.fbx   878FFD87DB158B5EA3E7833371ED4ADFC155A817BF8BFFD8BA210B7A05531F73
+  traveler.glb   285BCACE9E4E584F101DCF6BE38F51B6CDC0BBD280D491BD22BC2E261AA36DF2

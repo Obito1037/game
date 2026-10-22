@@ -1,0 +1,16 @@
+{
+  "decision": "Adopt for integrated candidate, subject to normal runtime and Web verification",
+  "reviewedOriginalImages": ["path-baseline.png", "path-texture.png", "left-rock-texture.png", "right-rock-texture.png"],
+  "observed": "All four foreground boulders acquire visible mineral structure at gameplay scale. Close views retain the authored broad planes, with restrained grain and strata rather than the previous smooth clay-like surface.",
+  "independentReview": "independent-review.reference-research.json",
+  "scope": "New generated texture, world-space triplanar sampling, albedo/roughness variation and shallow luminance-derived relief; original geometry, vertex paint, authored base colours and lights retained.",
+  "strength": 0.65,
+  "textureWorldScale": 0.9,
+  "import": "Original 1254x1254 PNG copied unchanged. Unity importer produces mipmapped 1024x1024 sRGB DXT1 on Windows, trilinear filtering and anisotropy 4.",
+  "limitations": [
+    "Transforms, camera and light checks pass, but repeated captures are not pixel-identical. Path A/A mean absolute RGB difference is 0.565 byte levels; see pixel-comparison.json.",
+    "No obvious straight seam was seen in the inspected close views; all angles and texture tile boundaries are not exhaustively verified.",
+    "Dynamic shimmer and final integrated performance remain to be tested.",
+    "Remaining foliage geometry is visibly simplified; this material improvement does not establish overall superiority to the reference."
+  ]
+}

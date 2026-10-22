@@ -1,0 +1,65 @@
+{
+  "revision": "v9",
+  "native": {
+    "status": "completed",
+    "buildId": "build_2f7d7e1d3c46",
+    "result": "Succeeded",
+    "platform": "StandaloneWindows64",
+    "outputPath": "C:/Users/20665/Desktop/game/builds/candidates/v9/windows/BorrowedLight.exe",
+    "totalSizeBytes": 156983801,
+    "buildTimeMs": 11487,
+    "totalErrors": 0,
+    "totalWarnings": 1,
+    "warnings": [
+      {
+        "message": "Pipeline: No RuntimePipelineConfig asset found (Project Settings > Pipeline > Runtime). Pipeline will be disabled in Player builds."
+      }
+    ],
+    "errors": []
+  },
+  "web": {
+    "status": "completed",
+    "buildId": "build_0846c11112cc",
+    "result": "Succeeded",
+    "platform": "WebGL",
+    "outputPath": "C:/Users/20665/Desktop/game/builds/candidates/v9/web",
+    "totalSizeBytes": 4736459,
+    "buildTimeMs": 342194,
+    "totalErrors": 0,
+    "totalWarnings": 1,
+    "warnings": [
+      {
+        "message": "Pipeline: No RuntimePipelineConfig asset found (Project Settings > Pipeline > Runtime). Pipeline will be disabled in Player builds."
+      }
+    ],
+    "errors": [],
+    "payload": {
+      "bytes": 48929277.0,
+      "files": [
+        {
+          "name": "3f7728c318b83d7aeec45934696b556f.loader.js",
+          "bytes": 26983,
+          "sha256": "EBD7C1A4F5B1EA6140035129736F05F71EA49662A79AE291BC05131D391B73DC"
+        },
+        {
+          "name": "b80880d67ba5c37614166cccf12035ce.wasm.gz",
+          "bytes": 11601911,
+          "sha256": "74E8EA1490BE36A14E27761F9FE8EA73935FA4EF017240CD9AD76BE722ED9010"
+        },
+        {
+          "name": "da9a71ac078824ccbcc9a5c86285577b.framework.js.gz",
+          "bytes": 88514,
+          "sha256": "F086EA65F1B5F3E606C57B9B5F62B3728F6AA9CBCE4E211F9D547B4932E8F9A0"
+        },
+        {
+          "name": "e01f7ee6feae26527254b041464030d9.data.gz",
+          "bytes": 37211869,
+          "sha256": "65DB6D9791DCF36544E930E12F0F1379411FFC387986582686CA668C02F8E553"
+        }
+      ]
+    },
+    "directoryBytes": 53665736.0,
+    "sizeReportingLimit": "Unity totalSizeBytes is partial; actual compressed Build directory bytes are recorded separately."
+  },
+  "diagnosticReports": "v9-diagnostic-builds.json"
+}

@@ -1,0 +1,17 @@
+{
+  "status": "completed",
+  "buildId": "build_4f99c761ca99",
+  "result": "Succeeded",
+  "platform": "StandaloneWindows64",
+  "outputPath": "C:/Users/20665/Desktop/game/builds/candidates/v9/windows/BorrowedLight.exe",
+  "totalSizeBytes": 156984313,
+  "buildTimeMs": 15607,
+  "totalErrors": 0,
+  "totalWarnings": 1,
+  "warnings": [
+    {
+      "message": "Pipeline: No RuntimePipelineConfig asset found (Project Settings > Pipeline > Runtime). Pipeline will be disabled in Player builds."
+    }
+  ],
+  "errors": []
+}

@@ -1,0 +1,6 @@
+{
+  "acceptedForBlinkReview": false,
+  "reason": "The source video frame at 60 seconds shows the actor at roughly 280 pixels tall and the face about 45 pixels wide. The real wheel input increased camera distance instead of reaching the intended near view. The captured routine completed, but it did not satisfy the required portrait framing.",
+  "evidence": "video-frames/at-60.png",
+  "correction": "Reverse DOM wheel deltaY from -240 to +240, keep ordinary game input, and preserve this failed-framing recording separately. No claim that this far view verifies intermediate eyelid behavior."
+}

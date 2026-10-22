@@ -1,0 +1,13 @@
+Borrowed Light v6 观星台碰撞修复后：正常 Web QA
+
+构建 build_d4eac3ac8c31。build-evidence.json 所录实际请求的 wasm/data 与新构建哈希一致。
+本轮无 draw 拦截或省略、无录像、无图形设置改动，1440×900、DPR 1。
+
+真实键盘通关、刷新后续玩、结局回岛、Tab 返回结局均通过；阶段序列 [0,1,2,2,3,4]，crossOriginIsolated=true，browser errors=[]。测试结束浏览器已关闭。
+各视角正常 GetMetricsInfo 的六次 0.5 秒间隔 fps 读数中位数：菜单 38.53、结局 43.88、行走视角 29.00 fps；样本均 visible 且 focused。
+行走样本约 26.71–31.86 fps。其 movingAverageFps 中位数 39.29 包含早先视角历史，不能当成当前行走帧率。两种数值都是 Unity 提供的读数，并非独立计帧。
+本轮结果比 web-005-v6 的菜单 49.09、结局 53.15、行走 34.63 低，短采样也有明显波动。没有进行受控因果实验，因此不能将波动归因为碰撞修复，也不能宣称修复带来帧率提升。
+
+browser errors 为空仅指浏览器 console.error / pageexception / crash；Unity 日志仍有既有 INVALID_ENUM、内部 shader 不支持和 sound 未加载诊断，详见 runtime-results.json.engineDiagnostics 与 browser-console.txt。
+GPU 计时未重复。art/verification/web-v6-gpu-profile 对应修复前 build_1d3e76e5b3ab，不能冒充本构建的新测量。
+独立步态及观星台接触检查见 ../web-v6-gait-fixed/review.zh-CN.txt。

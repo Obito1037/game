@@ -1,0 +1,17 @@
+{
+  "status": "completed",
+  "buildId": "build_0846c11112cc",
+  "result": "Succeeded",
+  "platform": "WebGL",
+  "outputPath": "C:/Users/20665/Desktop/game/builds/candidates/v9/web",
+  "totalSizeBytes": 4736459,
+  "buildTimeMs": 342194,
+  "totalErrors": 0,
+  "totalWarnings": 1,
+  "warnings": [
+    {
+      "message": "Pipeline: No RuntimePipelineConfig asset found (Project Settings > Pipeline > Runtime). Pipeline will be disabled in Player builds."
+    }
+  ],
+  "errors": []
+}

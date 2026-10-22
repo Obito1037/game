@@ -1,0 +1,12 @@
+{
+  "revision": "v12",
+  "passed": true,
+  "stage": "complete",
+  "startedAtUTC": "2026-10-21T05:05:03.535Z",
+  "sourceAuditWithinAllowlist": true,
+  "completedAtUTC": "2026-10-21T05:05:04.421Z",
+  "packageBytes": 75553186,
+  "packageSHA256": "6B03683B947CFC646EB2D088B77692611D7C0EE8C83556D0D1D623FA499C6C79",
+  "sourceFiles": 91,
+  "handoffFiles": 39
+}

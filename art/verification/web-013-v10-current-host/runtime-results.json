@@ -1,0 +1,211 @@
+{
+  "passed": true,
+  "title": "借光岛 · 把星空还给夜晚",
+  "phases": [
+    0,
+    1,
+    2,
+    2,
+    3,
+    4
+  ],
+  "persistedProgressReload": true,
+  "realKeyboardPuzzleCompletion": true,
+  "crossOriginIsolated": true,
+  "graphics": {
+    "renderer": "ANGLE (Intel, Intel(R) Iris(R) Xe Graphics (0x0000A7A0) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+    "metrics": {
+      "totalWASMHeapSize": 268435456,
+      "usedWASMHeapSize": 156160024,
+      "totalJSHeapSize": 67136299,
+      "usedJSHeapSize": 65892847,
+      "pageLoadTime": 1777,
+      "pageLoadTimeToFrame1": 1798,
+      "fps": 24.769952261350983,
+      "movingAverageFps": 22.320862896589695,
+      "assetLoadTime": 717,
+      "webAssemblyStartupTime": 722.1300001144409,
+      "codeDownloadTime": 50,
+      "gameStartupTime": 669,
+      "numJankedFrames": 70
+    }
+  },
+  "performanceViews": [
+    {
+      "view": "menu",
+      "requestedDurationMs": 3000,
+      "elapsedMs": 3115,
+      "intervalMs": 500,
+      "samples": [
+        {
+          "timestampMs": 16334.125,
+          "visibility": "visible",
+          "focused": true,
+          "fps": 12.62635162486241,
+          "movingAverageFps": 12.62635162486241
+        },
+        {
+          "timestampMs": 16849.900000572205,
+          "visibility": "visible",
+          "focused": true,
+          "fps": 46.770861721835175,
+          "movingAverageFps": 29.69860667334879
+        },
+        {
+          "timestampMs": 17364.25,
+          "visibility": "visible",
+          "focused": true,
+          "fps": 52.95311685552623,
+          "movingAverageFps": 37.45011006740794
+        },
+        {
+          "timestampMs": 17890.550000190735,
+          "visibility": "visible",
+          "focused": true,
+          "fps": 41.56433023251886,
+          "movingAverageFps": 38.47866510868567
+        },
+        {
+          "timestampMs": 18413.375,
+          "visibility": "visible",
+          "focused": true,
+          "fps": 49.05012548336807,
+          "movingAverageFps": 40.59295718362215
+        },
+        {
+          "timestampMs": 18929.490000724792,
+          "visibility": "visible",
+          "focused": true,
+          "fps": 44.872795426807905,
+          "movingAverageFps": 41.30626355748644
+        }
+      ],
+      "medianIntervalFps": 45.82182857432154,
+      "medianMovingAverageFps": 37.964387588046804,
+      "allSamplesForeground": true,
+      "measurement": "Unity GetMetricsInfo: medianIntervalFps summarizes the six samples[].fps interval readings; medianMovingAverageFps summarizes the separate rolling-history readings, which may include preceding camera views. Neither is an independent rendered-frame counter. No draw interception or graphics modification is used."
+    },
+    {
+      "view": "ending",
+      "requestedDurationMs": 3000,
+      "elapsedMs": 3186,
+      "intervalMs": 500,
+      "samples": [
+        {
+          "timestampMs": 28261.409999847412,
+          "visibility": "visible",
+          "focused": true,
+          "fps": 38.02132489596486,
+          "movingAverageFps": 38.02132489596486
+        },
+        {
+          "timestampMs": 28803.82500076294,
+          "visibility": "visible",
+          "focused": true,
+          "fps": 27.68804799261652,
+          "movingAverageFps": 32.85468644429069
+        },
+        {
+          "timestampMs": 29327.36000061035,
+          "visibility": "visible",
+          "focused": true,
+          "fps": 25.131213941704708,
+          "movingAverageFps": 30.280195610095365
+        },
+        {
+          "timestampMs": 29843.585000038147,
+          "visibility": "visible",
+          "focused": true,
+          "fps": 24.972386267007792,
+          "movingAverageFps": 28.953243274323473
+        },
+        {
+          "timestampMs": 30376.775000572205,
+          "visibility": "visible",
+          "focused": true,
+          "fps": 27.878190924866356,
+          "movingAverageFps": 28.73823280443205
+        },
+        {
+          "timestampMs": 30931.35500049591,
+          "visibility": "visible",
+          "focused": true,
+          "fps": 25.467279076420034,
+          "movingAverageFps": 28.19307384976338
+        }
+      ],
+      "medianIntervalFps": 26.57766353451828,
+      "medianMovingAverageFps": 29.61671944220942,
+      "allSamplesForeground": true,
+      "measurement": "Unity GetMetricsInfo: medianIntervalFps summarizes the six samples[].fps interval readings; medianMovingAverageFps summarizes the separate rolling-history readings, which may include preceding camera views. Neither is an independent rendered-frame counter. No draw interception or graphics modification is used."
+    },
+    {
+      "view": "walking",
+      "requestedDurationMs": 3000,
+      "elapsedMs": 3243,
+      "intervalMs": 500,
+      "samples": [
+        {
+          "timestampMs": 39992.21500015259,
+          "visibility": "visible",
+          "focused": true,
+          "fps": 21.979927576320453,
+          "movingAverageFps": 27.30548152498582
+        },
+        {
+          "timestampMs": 40514.01500034332,
+          "visibility": "visible",
+          "focused": true,
+          "fps": 19.118265610465826,
+          "movingAverageFps": 26.282079535670817
+        },
+        {
+          "timestampMs": 41061.28999996185,
+          "visibility": "visible",
+          "focused": true,
+          "fps": 21.34395787111904,
+          "movingAverageFps": 25.73339935072062
+        },
+        {
+          "timestampMs": 41619.82500076294,
+          "visibility": "visible",
+          "focused": true,
+          "fps": 20.652429007275288,
+          "movingAverageFps": 25.225302316376087
+        },
+        {
+          "timestampMs": 42151.5700006485,
+          "visibility": "visible",
+          "focused": true,
+          "fps": 18.298596505312478,
+          "movingAverageFps": 23.25302947731085
+        },
+        {
+          "timestampMs": 42694.20000076294,
+          "visibility": "visible",
+          "focused": true,
+          "fps": 18.727643865758715,
+          "movingAverageFps": 22.35698906462507
+        }
+      ],
+      "medianIntervalFps": 19.885347308870557,
+      "medianMovingAverageFps": 25.479350833548352,
+      "allSamplesForeground": true,
+      "measurement": "Unity GetMetricsInfo: medianIntervalFps summarizes the six samples[].fps interval readings; medianMovingAverageFps summarizes the separate rolling-history readings, which may include preceding camera views. Neither is an independent rendered-frame counter. No draw interception or graphics modification is used."
+    }
+  ],
+  "errors": [],
+  "errorScope": "Browser console.error, page exceptions and renderer crashes; Unity log diagnostics are reported separately.",
+  "engineDiagnostics": [
+    "WebGL: INVALID_ENUM: getInternalformatParameter: invalid internalformat",
+    "ERROR: Shader ",
+    "Hidden/CoreSRP/CoreCopy shader is not supported on this GPU (none of subshaders/fallbacks are suitable)\n",
+    "Hidden/Universal Render Pipeline/StencilDitherMaskSeed shader is not supported on this GPU (none of subshaders/fallbacks are suitable)\n",
+    "Hidden/Universal/HDRDebugView shader is not supported on this GPU (none of subshaders/fallbacks are suitable)\n",
+    "Trying to get length of sound which is not loaded yet."
+  ],
+  "defaultBrowserAutoplayPolicy": true,
+  "audioContextResumeObserved": true,
+  "width": 1440,
+  "height": 900
+}

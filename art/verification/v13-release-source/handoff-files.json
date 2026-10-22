@@ -1,0 +1,197 @@
+[
+  {
+    "source": "AGENTS.md",
+    "sha256": "772A08FC62CBACCFAE5FD69E44D6A7F51C53D305C258633656F29D4E21059CA6",
+    "snapshot": "handoff/AGENTS.md"
+  },
+  {
+    "source": "PLAY.zh-CN.txt",
+    "sha256": "A947655F99CE982923CCFB311A8A08038A7D73C320C0BD3A42365470D3BA8EBF",
+    "snapshot": "handoff/PLAY.zh-CN.txt"
+  },
+  {
+    "source": "CONCEPT-48H.zh-CN.txt",
+    "sha256": "2593B3F376963AB86FDDE3FBFD5C27F0372EE80D321B7228345AB8F02D7A1532",
+    "snapshot": "handoff/CONCEPT-48H.zh-CN.txt"
+  },
+  {
+    "source": "SUBMISSION-演示与材料.zh-CN.txt",
+    "sha256": "2B9D3724FF3B2F503A2D72DE52891A2849BCBB76E89CE756170DF49F976F8666",
+    "snapshot": "handoff/SUBMISSION-演示与材料.zh-CN.txt"
+  },
+  {
+    "source": "AI-使用与素材来源.zh-CN.txt",
+    "sha256": "506D083F04A1F8B24B3249C07152C7DF7442139B18FD2E40373060A81CA2A027",
+    "snapshot": "handoff/AI-使用与素材来源.zh-CN.txt"
+  },
+  {
+    "source": "setup/NEXT-STEPS.zh-CN.txt",
+    "sha256": "21CA99AC6310E9DC3B62931CA2915AB3C543B6CE8EFE0C808137BE47BE868494",
+    "snapshot": "handoff/setup/NEXT-STEPS.zh-CN.txt"
+  },
+  {
+    "source": "Open-Borrowed-Light.cmd",
+    "sha256": "EDDC192F5A1E0D78736F7B09E23DA920FFE7F2AE4D57913C4109D0AA2BB7B354",
+    "snapshot": "handoff/Open-Borrowed-Light.cmd"
+  },
+  {
+    "source": "Open-Borrowed-Light-Web.cmd",
+    "sha256": "D05F3B2657B60E5091437D0D75425577F805F79237FED71D45DEE15AA880D3E3",
+    "snapshot": "handoff/Open-Borrowed-Light-Web.cmd"
+  },
+  {
+    "source": "Open-Borrowed-Light-Fullscreen.cmd",
+    "sha256": "A49E7F7E40AE927C91AABDE2F0DD4291202F4B38939A9D938E8D900E66C818F5",
+    "snapshot": "handoff/Open-Borrowed-Light-Fullscreen.cmd"
+  },
+  {
+    "source": "tools/package-templates/Play-Fullscreen.cmd",
+    "sha256": "308D82E76B1721E9A9E8AFEF33AB60A3CE97E7049237A7E80C9711B7B15E876C",
+    "snapshot": "handoff/tools/package-templates/Play-Fullscreen.cmd"
+  },
+  {
+    "source": "art/production-manifest.json",
+    "sha256": "23CDDEE89266024B4D942F346682A405C690EBBDCDB442456DE5831346162929",
+    "snapshot": "handoff/art/production-manifest.json"
+  },
+  {
+    "source": "art/verification/release-checks.json",
+    "sha256": "1971CBDE28CFCF8C3B9A40C8E37C143DAED66D0B629F049CE3024FDE9EF77722",
+    "snapshot": "handoff/art/verification/release-checks.json"
+  },
+  {
+    "source": "art/verification/visual-review-v13.html",
+    "sha256": "F3085C427A9589F7960FE1F0027B05EE8FC026A5C4E0B3A727164E871C19539C",
+    "snapshot": "handoff/art/verification/visual-review-v13.html"
+  },
+  {
+    "source": "tools/run-game-qa.ps1",
+    "sha256": "97E9DC61E5BB52FDDD14349A55D9D99C2352E16740255C9695E66A32F7B9A3A4",
+    "snapshot": "handoff/tools/run-game-qa.ps1"
+  },
+  {
+    "source": "tools/snapshot-island-import.cs",
+    "sha256": "78847DABB27A3BD0408C0E9A4B71DBF1151FCD2F9BA5768F2054BD07E14F6F5C",
+    "snapshot": "handoff/tools/snapshot-island-import.cs"
+  },
+  {
+    "source": "tools/compare-island-import.cjs",
+    "sha256": "9C043459F635E5E5A1CBAA8DA765B8EB39E3104C106821D731306D6C9817904A",
+    "snapshot": "handoff/tools/compare-island-import.cjs"
+  },
+  {
+    "source": "tools/compare-material-study-conditions.cjs",
+    "sha256": "24E3514DF29156840BB42DA1097DBF9A1B9E94A43C4406A56F23F9DF22FCDEB0",
+    "snapshot": "handoff/tools/compare-material-study-conditions.cjs"
+  },
+  {
+    "source": "tools/prepare-v13-handoff.cjs",
+    "sha256": "86231E6954F49BDEB59FA4E48C14C0F9C34E72DABED6AC71D1891CAA334119C1",
+    "snapshot": "handoff/tools/prepare-v13-handoff.cjs"
+  },
+  {
+    "source": "tools/verify-visual-review.cjs",
+    "sha256": "A64A5547F60C48D13CFF841958AA2A81CEFC7036C2F2E26CD4868480F7A077BC",
+    "snapshot": "handoff/tools/verify-visual-review.cjs"
+  },
+  {
+    "source": "tools/record-game-builds.cjs",
+    "sha256": "10A2ACFC24F3D0EA87F59E272D60D1D6CEAE907526CE39BE79316528EB1108DD",
+    "snapshot": "handoff/tools/record-game-builds.cjs"
+  },
+  {
+    "source": "tools/verify-candidate-artifacts.cjs",
+    "sha256": "8D411A97E4B1714EAB5DCC141660D48E81B2C6BCD675D4D628B40D6706D00929",
+    "snapshot": "handoff/tools/verify-candidate-artifacts.cjs"
+  },
+  {
+    "source": "tools/verify-game-web.cjs",
+    "sha256": "6C9447884636752B20052F2AC09E2BB5D6856E0299C576BC33168A7416773F66",
+    "snapshot": "handoff/tools/verify-game-web.cjs"
+  },
+  {
+    "source": "tools/verify-game-release-http.cjs",
+    "sha256": "E7A3AB8B417C0B0404831287867F460705D7CAF18168CED360A5E80D6A06D94E",
+    "snapshot": "handoff/tools/verify-game-release-http.cjs"
+  },
+  {
+    "source": "tools/promote-v13-local.ps1",
+    "sha256": "A99D86C7633CA4F34CF680778CF982496792D30155FD191E0826E87F0D4AB3C3",
+    "snapshot": "handoff/tools/promote-v13-local.ps1"
+  },
+  {
+    "source": "tools/finalize-v13-local.cjs",
+    "sha256": "60AF05C7F3BE214E1C7DB5C1FBA7849015AAA6C966A1DED1F969E4AD1A21D757",
+    "snapshot": "handoff/tools/finalize-v13-local.cjs"
+  },
+  {
+    "source": "art/blender/build_island_v12.py",
+    "sha256": "1202A5D268B8298FDAAF2B1E38F6BEFBF142EDED567D1DA0C0DFBCFA9030D1BA",
+    "snapshot": "handoff/art/blender/build_island_v12.py"
+  },
+  {
+    "source": "art/generated/world-v12/verify_world_v12.py",
+    "sha256": "86FDF3E51FA4344BE0989EC7E6A79798A0D7D2E85CF25034AA95CABE26C1CDD6",
+    "snapshot": "handoff/art/generated/world-v12/verify_world_v12.py"
+  },
+  {
+    "source": "art/generated/world-v12/asset-manifest.json",
+    "sha256": "5CA88E21DDB5EC6529BE5A0311712EA4E00F30E6CBC757730C67CEA5DAFBF6C1",
+    "snapshot": "handoff/art/generated/world-v12/asset-manifest.json"
+  },
+  {
+    "source": "art/generated/world-v12/asset-manifest-at-audit.json",
+    "sha256": "C3B203A73EACDAE12A0C628911E82C0313827A80367E5962E2DB230469BBB14A",
+    "snapshot": "handoff/art/generated/world-v12/asset-manifest-at-audit.json"
+  },
+  {
+    "source": "art/generated/world-v12/IMPORT-NOTES.zh-CN.txt",
+    "sha256": "2DE01FD68E1BEA81AFE8245791C3DC153734DAE1EB7636193045251D0ECE415B",
+    "snapshot": "handoff/art/generated/world-v12/IMPORT-NOTES.zh-CN.txt"
+  },
+  {
+    "source": "art/generated/world-v12/freeze-summary.json",
+    "sha256": "D7E7245C62E4E8C4601F58D9CAC6287347010D979DCA9C2AC3E0673FBEF8DD63",
+    "snapshot": "handoff/art/generated/world-v12/freeze-summary.json"
+  },
+  {
+    "source": "art/generated/world-v12/interchange-verification.json",
+    "sha256": "18F5311BA7228A939518357BD7ACD65577ECFFCC94D6BA3BA96BF9582FC9F9F8",
+    "snapshot": "handoff/art/generated/world-v12/interchange-verification.json"
+  },
+  {
+    "source": "art/generated/world-v12/visual-review.json",
+    "sha256": "35A7616B5186B79C4CA4F2639502D67ED64531BD189CD57FEFA7E1488A2ECE57",
+    "snapshot": "handoff/art/generated/world-v12/visual-review.json"
+  },
+  {
+    "source": "art/verification/v13-trees-refined/decision.json",
+    "sha256": "9B19276FEF52D38EB4F5879958C022170DACA61B6BC612052CA204E46333A54D",
+    "snapshot": "handoff/art/verification/v13-trees-refined/decision.json"
+  },
+  {
+    "source": "art/verification/v13-trees-refined/independent-review.json",
+    "sha256": "096F635D11F8153FB053ECF4B714571341358E808C1F45038ED13C0777578EE5",
+    "snapshot": "handoff/art/verification/v13-trees-refined/independent-review.json"
+  },
+  {
+    "source": "art/verification/v13-trees-candidate/decision.json",
+    "sha256": "DB523E7A1A2694D2259EE748CFCAA805C8FCB45E75ECDA432F6E467DC063FF92",
+    "snapshot": "handoff/art/verification/v13-trees-candidate/decision.json"
+  },
+  {
+    "source": "art/verification/v13-trees-refined/capture-condition-comparison.json",
+    "sha256": "C1A662C7F2971F50BF4817FCB4C283291A75892456FC2CE2409C40FECBF9F726",
+    "snapshot": "handoff/art/verification/v13-trees-refined/capture-condition-comparison.json"
+  },
+  {
+    "source": "art/verification/v13-trees-refined/unity-import-comparison.json",
+    "sha256": "E41BAD317A2B47F03F370A28301BF3C6B2FFF492BBFF046BB3FCBB83DEC38DC6",
+    "snapshot": "handoff/art/verification/v13-trees-refined/unity-import-comparison.json"
+  },
+  {
+    "source": "tools/prepare-v13-main-review.cjs",
+    "sha256": "7953F651B812957452623E3FB20024253B64867456F35444746C537186C64FEC",
+    "snapshot": "handoff/tools/prepare-v13-main-review.cjs"
+  }
+]

@@ -1,0 +1,2345 @@
+{
+  "asset": "Assets/BorrowedLight/Resources/Models/Island.fbx",
+  "unity": "6000.3.26f1",
+  "scope": "Actual imported mesh positions/normals/tangents/UV/color/index bytes, submesh materials, transforms and anchors. Not a visual quality judgment.",
+  "totalTriangles": 504328,
+  "meshes": [
+    {
+      "name": "Cabin_ClimbingIvy",
+      "vertices": 1178,
+      "triangles": 630,
+      "submeshes": 4,
+      "normalCount": 1178,
+      "colorCount": 1178,
+      "geometrySHA256": "21D68B89D31928A05A4966A54C49F6921F216C300C658FCDD7FA6D2DBE221270",
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "materials": [
+        {
+          "name": "BI_leaf_gold",
+          "shader": "Universal Render Pipeline/Lit",
+          "rgba": [
+            0.803630948,
+            0.7673755,
+            0.5271127,
+            1
+          ]
+        },
+        {
+          "name": "BI_stem",
+          "shader": "Universal Render Pipeline/Lit",
+          "rgba": [
+            0.436626971,
+            0.6180314,
+            0.5271127,
+            1
+          ]
+        },
+        {
+          "name": "BI_leaf_light",
+          "shader": "Universal Render Pipeline/Lit",
+          "rgba": [
+            0.649956346,
+            0.741905153,
+            0.5168809,
+            1
+          ]
+        },
+        {
+          "name": "BI_leaf",
+          "shader": "Universal Render Pipeline/Lit",
+          "rgba": [
+            0.5271127,
+            0.649956346,
+            0.4492038,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Cabin_DoorAndAccessories",
+      "vertices": 1560,
+      "triangles": 884,
+      "submeshes": 7,
+      "normalCount": 1560,
+      "colorCount": 1560,
+      "geometrySHA256": "96C31405D133BF7C1EED48A21FEC3F87EF2D48785AD298C41E6697381FB0C074",
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "materials": [
+        {
+          "name": "BI_wood",
+          "shader": "Universal Render Pipeline/Lit",
+          "rgba": [
+            0.5370987,
+            0.4613561,
+            0.395881176,
+            1
+          ]
+        },
+        {
+          "name": "BI_wood_light",
+          "shader": "Universal Render Pipeline/Lit",
+          "rgba": [
+            0.694361,
+            0.5926193,
+            0.47312057,
+            1
+          ]
+        },
+        {
+          "name": "BI_brass_light",
+          "shader": "Universal Render Pipeline/Lit",
+          "rgba": [
+            0.935740948,
+            0.837860465,
+            0.5926193,
+            1
+          ]
+        },
+        {
+          "name": "BI_stone",
+          "shader": "Universal Render Pipeline/Lit",
+          "rgba": [
+            0.665185034,
+            0.7220273,
+            0.7220273,
+            1
+          ]
+        },
+        {
+          "name": "BI_stone_dark",
+          "shader": "Universal Render Pipeline/Lit",
+          "rgba": [
+            0.58383137,
+            0.649956346,
+            0.657627642,
+            1
+          ]
+        },
+        {
+          "name": "BI_paper",
+          "shader": "Universal Render Pipeline/Lit",
+          "rgba": [
+            0.9593465,
+            0.9162735,
+            0.7917868,
+            1
+          ]
+        },
+        {
+          "name": "BI_window_honey",
+          "shader": "Universal Render Pipeline/Lit",
+          "rgba": [
+            0.9911565,
+            0.8094681,
+            0.484529138,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Cabin_IndividualShingles",
+      "vertices": 1968,
+      "triangles": 1132,
+      "submeshes": 3,
+      "normalCount": 1968,
+      "colorCount": 1968,
+      "geometrySHA256": "21E1EB11417B3041F395AEFA884B89285DA2C1A90E79F638B1465934044D4202",
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "materials": [
+        {
+          "name": "BI_roof",
+          "shader": "Universal Render Pipeline/Lit",
+          "rgba": [
+            0.381091774,
+            0.58383137,
+            0.5748709,
+            1
+          ]
+        },
+        {
+          "name": "BI_roof_dark",
+          "shader": "Universal Render Pipeline/Lit",
+          "rgba": [
+            0.331829965,
+            0.5063863,
+            0.5370987,
+            1
+          ]
+        },
+        {
+          "name": "BI_roof_light",
+          "shader": "Universal Render Pipeline/Lit",
+          "rgba": [
+            0.4613561,
+            0.657627642,
+            0.6262096,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Cabin_PlasterAndFoundation",
+      "vertices": 222,
+      "triangles": 126,
+      "submeshes": 5,
+      "normalCount": 222,
+      "colorCount": 222,
+      "geometrySHA256": "AD4DFB51BCD80E1F449A14EB6014F2474D4EE98194E27AF32F25A667034FDDD7",
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "materials": [
+        {
+          "name": "BI_stone_dark",
+          "shader": "Universal Render Pipeline/Lit",
+          "rgba": [
+            0.58383137,
+            0.649956346,
+            0.657627642,
+            1
+          ]
+        },
+        {
+          "name": "BI_plaster",
+          "shader": "Universal Render Pipeline/Lit",
+          "rgba": [
+            0.9013064,
+            0.865042,
+            0.7547806,
+            1
+          ]
+        },
+        {
+          "name": "BI_plaster_light",
+          "shader": "Universal Render Pipeline/Lit",
+          "rgba": [
+            0.9593465,
+            0.9260748,
+            0.8209798,
+            1
+          ]
+        },
+        {
+          "name": "BI_stone",
+          "shader": "Universal Render Pipeline/Lit",
+          "rgba": [
+            0.665185034,
+            0.7220273,
+            0.7220273,
+            1
+          ]
+        },
+        {
+          "name": "BI_rock_dark",
+          "shader": "Universal Render Pipeline/Lit",
+          "rgba": [
+            0.303531975,
+            0.395881176,
+            0.484529138,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Cabin_ReadingWindow_Glow",
+      "vertices": 48,
+      "triangles": 28,
+      "submeshes": 1,
+      "normalCount": 48,
+      "colorCount": 48,
+      "geometrySHA256": "7BF2312E3C78822FD6ECF97A97E65651A2BFBD217FD0D1E96F6BE1AF7D912A3D",
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "materials": [
+        {
+          "name": "BI_window_honey",
+          "shader": "Universal Render Pipeline/Lit",
+          "rgba": [
+            0.9911565,
+            0.8094681,
+            0.484529138,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Cabin_Timber",
+      "vertices": 960,
+      "triangles": 516,
+      "submeshes": 4,
+      "normalCount": 960,
+      "colorCount": 960,
+      "geometrySHA256": "14C34615914ECE3AB39B5587D13352A55A08120351E7225920A2B66E23D691A7",
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "materials": [
+        {
+          "name": "BI_wood_light",
+          "shader": "Universal Render Pipeline/Lit",
+          "rgba": [
+            0.694361,
+            0.5926193,
+            0.47312057,
+            1
+          ]
+        },
+        {
+          "name": "BI_wood",
+          "shader": "Universal Render Pipeline/Lit",
+          "rgba": [
+            0.5370987,
+            0.4613561,
+            0.395881176,
+            1
+          ]
+        },
+        {
+          "name": "BI_wood_cut",
+          "shader": "Universal Render Pipeline/Lit",
+          "rgba": [
+            0.785776854,
+            0.687217057,
+            0.5563932,
+            1
+          ]
+        },
+        {
+          "name": "BI_roof_dark",
+          "shader": "Universal Render Pipeline/Lit",
+          "rgba": [
+            0.331829965,
+            0.5063863,
+            0.5370987,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Cliff_Pier",
+      "vertices": 5220,
+      "triangles": 2916,
+      "submeshes": 6,
+      "normalCount": 5220,
+      "colorCount": 5220,
+      "geometrySHA256": "D478837294DB39B5DC37B4B6C9832253DDB0FD5CD8F9F7367CC4F8B4018A7EBC",
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "materials": [
+        {
+          "name": "BI_wood",
+          "shader": "Universal Render Pipeline/Lit",
+          "rgba": [
+            0.5370987,
+            0.4613561,
+            0.395881176,
+            1
+          ]
+        },
+        {
+          "name": "BI_metal_dark",
+          "shader": "Universal Render Pipeline/Lit",
+          "rgba": [
+            0.381091774,
+            0.5063863,
+            0.5468542,
+            1
+          ]
+        },
+        {
+          "name": "BI_wood_light",
+          "shader": "Universal Render Pipeline/Lit",
+          "rgba": [
+            0.694361,
+            0.5926193,
+            0.47312057,
+            1
+          ]
+        },
+        {
+          "name": "BI_wood_cut",
+          "shader": "Universal Render Pipeline/Lit",
+          "rgba": [
+            0.785776854,
+            0.687217057,
+            0.5563932,
+            1
+          ]
+        },
+        {
+          "name": "BI_paper",
+          "shader": "Universal Render Pipeline/Lit",
+          "rgba": [
+            0.9593465,
+            0.9162735,
+            0.7917868,
+            1
+          ]
+        },
+        {
+          "name": "BI_brass",
+          "shader": "Universal Render Pipeline/Lit",
+          "rgba": [
+            0.8094681,
+            0.694361,
+            0.47312057,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Garden_Bench",
+      "vertices": 864,
+      "triangles": 492,
+      "submeshes": 5,
+      "normalCount": 864,
+      "colorCount": 864,
+      "geometrySHA256": "5C6BA7F43DE6397F9FEE400D770B972A6A1BCCAF69417A8D6B78F021F17E1CF7",
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "materials": [
+        {
+          "name": "BI_wood_light",
+          "shader": "Universal Render Pipeline/Lit",
+          "rgba": [
+            0.694361,
+            0.5926193,
+            0.47312057,
+            1
+          ]
+        },
+        {
+          "name": "BI_wood_cut",
+          "shader": "Universal Render Pipeline/Lit",
+          "rgba": [
+            0.785776854,
+            0.687217057,
+            0.5563932,
+            1
+          ]
+        },
+        {
+          "name": "BI_metal_dark",
+          "shader": "Universal Render Pipeline/Lit",
+          "rgba": [
+            0.381091774,
+            0.5063863,
+            0.5468542,
+            1
+          ]
+        },
+        {
+          "name": "BI_flower_coral",
+          "shader": "Universal Render Pipeline/Lit",
+          "rgba": [
+            0.911320448,
+            0.6262096,
+            0.5657283,
+            1
+          ]
+        },
+        {
+          "name": "BI_flower_cream",
+          "shader": "Universal Render Pipeline/Lit",
+          "rgba": [
+            0.9776915,
+            0.9211914,
+            0.7547806,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Garden_CanopyLeafEdges",
+      "vertices": 1836,
+      "triangles": 612,
+      "submeshes": 3,
+      "normalCount": 1836,
+      "colorCount": 1836,
+      "geometrySHA256": "0B3BE8FB36BC20D199169C2A667768ADE82542E1A30BF5A139F562D73CCE17F9",
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "materials": [
+        {
+          "name": "BI_leaf",
+          "shader": "Universal Render Pipeline/Lit",
+          "rgba": [
+            0.5271127,
+            0.649956346,
+            0.4492038,
+            1
+          ]
+        },
+        {
+          "name": "BI_leaf_light",
+          "shader": "Universal Render Pipeline/Lit",
+          "rgba": [
+            0.649956346,
+            0.741905153,
+            0.5168809,
+            1
+          ]
+        },
+        {
+          "name": "BI_leaf_gold",
+          "shader": "Universal Render Pipeline/Lit",
+          "rgba": [
+            0.803630948,
+            0.7673755,
+            0.5271127,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Garden_CreepingMeadowLeaves",
+      "vertices": 29430,
+      "triangles": 26160,
+      "submeshes": 3,
+      "normalCount": 29430,
+      "colorCount": 29430,
+      "geometrySHA256": "90DEAD717573976464585798E7D0D74782AADAEA1F89E4BBCB49B3765524B412",
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "materials": [
+        {
+          "name": "BI_leaf_meadow_olive",
+          "shader": "Universal Render Pipeline/Lit",
+          "rgba": [
+            0.5748709,
+            0.642166436,
+            0.4100208,
+            1
+          ]
+        },
+        {
+          "name": "BI_leaf_ground_sage",
+          "shader": "Universal Render Pipeline/Lit",
+          "rgba": [
+            0.5748709,
+            0.665185034,
+            0.495609641,
+            1
+          ]
+        },
+        {
+          "name": "BI_leaf_ground_lime",
+          "shader": "Universal Render Pipeline/Lit",
+          "rgba": [
+            0.649956346,
+            0.711816,
+            0.484529138,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Garden_FeatherFerns",
+      "vertices": 42060,
+      "triangles": 46956,
+      "submeshes": 4,
+      "normalCount": 42060,
+      "colorCount": 42060,
+      "geometrySHA256": "6C7551C85D6B1F1995EB05EE34AB53B2941397EB6C31BCF73F4E5FFCB73C0872",
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "materials": [
+        {
+          "name": "BI_stem",
+          "shader": "Universal Render Pipeline/Lit",
+          "rgba": [
+            0.436626971,
+            0.6180314,
+            0.5271127,
+            1
+          ]
+        },
+        {
+          "name": "BI_leaf",
+          "shader": "Universal Render Pipeline/Lit",
+          "rgba": [
+            0.5271127,
+            0.649956346,
+            0.4492038,
+            1
+          ]
+        },
+        {
+          "name": "BI_grass_sage",
+          "shader": "Universal Render Pipeline/Lit",
+          "rgba": [
+            0.5748709,
+            0.665185034,
+            0.5168809,
+            1
+          ]
+        },
+        {
+          "name": "BI_leaf_light",
+          "shader": "Universal Render Pipeline/Lit",
+          "rgba": [
+            0.649956346,
+            0.741905153,
+            0.5168809,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Garden_GrassTufts",
+      "vertices": 277281,
+      "triangles": 215663,
+      "submeshes": 5,
+      "normalCount": 277281,
+      "colorCount": 277281,
+      "geometrySHA256": "BDF618498119D114557D25E24E0CEB26B8004D67CEF09A83BAEAF9FCAC11D273",
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "materials": [
+        {
+          "name": "BI_leaf_meadow_olive",
+          "shader": "Universal Render Pipeline/Lit",
+          "rgba": [
+            0.5748709,
+            0.642166436,
+            0.4100208,
+            1
+          ]
+        },
+        {
+          "name": "BI_leaf_meadow_young",
+          "shader": "Universal Render Pipeline/Lit",
+          "rgba": [
+            0.649956346,
+            0.7220273,
+            0.4901088,
+            1
+          ]
+        },
+        {
+          "name": "BI_leaf_meadow_dry",
+          "shader": "Universal Render Pipeline/Lit",
+          "rgba": [
+            0.687217057,
+            0.642166436,
+            0.47312057,
+            1
+          ]
+        },
+        {
+          "name": "BI_leaf",
+          "shader": "Universal Render Pipeline/Lit",
+          "rgba": [
+            0.5271127,
+            0.649956346,
+            0.4492038,
+            1
+          ]
+        },
+        {
+          "name": "BI_leaf_meadow_deep",
+          "shader": "Universal Render Pipeline/Lit",
+          "rgba": [
+            0.4235828,
+            0.511667669,
+            0.322726041,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Garden_HeroBoulders",
+      "vertices": 11846,
+      "triangles": 20480,
+      "submeshes": 2,
+      "normalCount": 11846,
+      "colorCount": 11846,
+      "geometrySHA256": "B81419BCBE1FA3FB2E6E2D877BFEBC8E402432BE7219C4F69424B9D956003DB0",
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "materials": [
+        {
+          "name": "BI_rock_hero_warm",
+          "shader": "Universal Render Pipeline/Lit",
+          "rgba": [
+            0.657627642,
+            0.6382254,
+            0.5882463,
+            1
+          ]
+        },
+        {
+          "name": "BI_rock_hero_slate",
+          "shader": "Universal Render Pipeline/Lit",
+          "rgba": [
+            0.601243258,
+            0.6262096,
+            0.601243258,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Garden_LavenderAndSeedHeads",
+      "vertices": 75684,
+      "triangles": 76296,
+      "submeshes": 2,
+      "normalCount": 75684,
+      "colorCount": 75684,
+      "geometrySHA256": "A6B6D332B2ED9528C121FFD3EDD95F880181CB870EE08E788A996687C8134B64",
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "materials": [
+        {
+          "name": "BI_stem",
+          "shader": "Universal Render Pipeline/Lit",
+          "rgba": [
+            0.436626971,
+            0.6180314,
+            0.5271127,
+            1
+          ]
+        },
+        {
+          "name": "BI_flower_lilac",
+          "shader": "Universal Render Pipeline/Lit",
+          "rgba": [
+            0.7287318,
+            0.687217057,
+            0.826657,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Garden_MushroomsAndPebbles",
+      "vertices": 11496,
+      "triangles": 5824,
+      "submeshes": 6,
+      "normalCount": 11496,
+      "colorCount": 11496,
+      "geometrySHA256": "2239B7C9F1846C90F853CB5744B10A4579E7F230B25C33E16E50D3C4FC64590D",
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "materials": [
+        {
+          "name": "BI_paper",
+          "shader": "Universal Render Pipeline/Lit",
+          "rgba": [
+            0.9593465,
+            0.9162735,
+            0.7917868,
+            1
+          ]
+        },
+        {
+          "name": "BI_mushroom",
+          "shader": "Universal Render Pipeline/Lit",
+          "rgba": [
+            0.865042,
+            0.6342527,
+            0.5271127,
+            1
+          ]
+        },
+        {
+          "name": "BI_mushroom_spot",
+          "shader": "Universal Render Pipeline/Lit",
+          "rgba": [
+            0.9593465,
+            0.8911432,
+            0.7353569,
+            1
+          ]
+        },
+        {
+          "name": "BI_rock_blue",
+          "shader": "Universal Render Pipeline/Lit",
+          "rgba": [
+            0.4492038,
+            0.5563932,
+            0.6342527,
+            1
+          ]
+        },
+        {
+          "name": "BI_stone_dark",
+          "shader": "Universal Render Pipeline/Lit",
+          "rgba": [
+            0.58383137,
+            0.649956346,
+            0.657627642,
+            1
+          ]
+        },
+        {
+          "name": "BI_stone",
+          "shader": "Universal Render Pipeline/Lit",
+          "rgba": [
+            0.665185034,
+            0.7220273,
+            0.7220273,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Garden_StoryDetails",
+      "vertices": 2376,
+      "triangles": 1312,
+      "submeshes": 7,
+      "normalCount": 2376,
+      "colorCount": 2376,
+      "geometrySHA256": "B5722E9B9C35CD6461BC2A553744A2F84CE7D3EB5855E685F515F5DA518D617E",
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "materials": [
+        {
+          "name": "BI_wood",
+          "shader": "Universal Render Pipeline/Lit",
+          "rgba": [
+            0.5370987,
+            0.4613561,
+            0.395881176,
+            1
+          ]
+        },
+        {
+          "name": "BI_wood_cut",
+          "shader": "Universal Render Pipeline/Lit",
+          "rgba": [
+            0.785776854,
+            0.687217057,
+            0.5563932,
+            1
+          ]
+        },
+        {
+          "name": "BI_wood_light",
+          "shader": "Universal Render Pipeline/Lit",
+          "rgba": [
+            0.694361,
+            0.5926193,
+            0.47312057,
+            1
+          ]
+        },
+        {
+          "name": "BI_metal_dark",
+          "shader": "Universal Render Pipeline/Lit",
+          "rgba": [
+            0.381091774,
+            0.5063863,
+            0.5468542,
+            1
+          ]
+        },
+        {
+          "name": "BI_sea_glass",
+          "shader": "Universal Render Pipeline/Lit",
+          "rgba": [
+            0.5370987,
+            0.797737658,
+            0.8094681,
+            1
+          ]
+        },
+        {
+          "name": "BI_brass",
+          "shader": "Universal Render Pipeline/Lit",
+          "rgba": [
+            0.8094681,
+            0.694361,
+            0.47312057,
+            1
+          ]
+        },
+        {
+          "name": "BI_brass_light",
+          "shader": "Universal Render Pipeline/Lit",
+          "rgba": [
+            0.935740948,
+            0.837860465,
+            0.5926193,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Garden_TreeCanopies",
+      "vertices": 131868,
+      "triangles": 43956,
+      "submeshes": 5,
+      "normalCount": 131868,
+      "colorCount": 131868,
+      "geometrySHA256": "098C37B171A2DD055A5957B1B8F27CD73E7333D85AAE620543D51068FF4D515C",
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "materials": [
+        {
+          "name": "BI_leaf_light",
+          "shader": "Universal Render Pipeline/Lit",
+          "rgba": [
+            0.649956346,
+            0.741905153,
+            0.5168809,
+            1
+          ]
+        },
+        {
+          "name": "BI_leaf_dark",
+          "shader": "Universal Render Pipeline/Lit",
+          "rgba": [
+            0.4235828,
+            0.5563932,
+            0.4235828,
+            1
+          ]
+        },
+        {
+          "name": "BI_leaf",
+          "shader": "Universal Render Pipeline/Lit",
+          "rgba": [
+            0.5271127,
+            0.649956346,
+            0.4492038,
+            1
+          ]
+        },
+        {
+          "name": "BI_leaf_blue",
+          "shader": "Universal Render Pipeline/Lit",
+          "rgba": [
+            0.5063863,
+            0.6342527,
+            0.58383137,
+            1
+          ]
+        },
+        {
+          "name": "BI_leaf_gold",
+          "shader": "Universal Render Pipeline/Lit",
+          "rgba": [
+            0.803630948,
+            0.7673755,
+            0.5271127,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Garden_TreeTrunks",
+      "vertices": 4720,
+      "triangles": 4632,
+      "submeshes": 2,
+      "normalCount": 4720,
+      "colorCount": 4720,
+      "geometrySHA256": "6F4B1B9CAFC56BC2E6E39A5D8FD0F187BD233A7B58C7AE254A11ED1AD2D8DE68",
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "materials": [
+        {
+          "name": "BI_wood",
+          "shader": "Universal Render Pipeline/Lit",
+          "rgba": [
+            0.5370987,
+            0.4613561,
+            0.395881176,
+            1
+          ]
+        },
+        {
+          "name": "BI_wood_light",
+          "shader": "Universal Render Pipeline/Lit",
+          "rgba": [
+            0.694361,
+            0.5926193,
+            0.47312057,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Garden_Walkways",
+      "vertices": 2317,
+      "triangles": 1908,
+      "submeshes": 3,
+      "normalCount": 2317,
+      "colorCount": 2317,
+      "geometrySHA256": "B5F3699B79D1042568572BC328793A4F8EB054666F0C8A466F472694CF89BFA7",
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "materials": [
+        {
+          "name": "BI_stone_path_warm",
+          "shader": "Universal Render Pipeline/Lit",
+          "rgba": [
+            0.6302477,
+            0.6382254,
+            0.5969513,
+            1
+          ]
+        },
+        {
+          "name": "BI_stone_path_ochre",
+          "shader": "Universal Render Pipeline/Lit",
+          "rgba": [
+            0.6614203,
+            0.653806567,
+            0.5969513,
+            1
+          ]
+        },
+        {
+          "name": "BI_stone_path_slate",
+          "shader": "Universal Render Pipeline/Lit",
+          "rgba": [
+            0.5748709,
+            0.6221378,
+            0.601243258,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Garden_Wildflowers",
+      "vertices": 32756,
+      "triangles": 27697,
+      "submeshes": 7,
+      "normalCount": 32756,
+      "colorCount": 32756,
+      "geometrySHA256": "5426C811CCD2979C9D725764E5065766119ED0ACE297F9C54A71198D3EB31973",
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "materials": [
+        {
+          "name": "BI_stem",
+          "shader": "Universal Render Pipeline/Lit",
+          "rgba": [
+            0.436626971,
+            0.6180314,
+            0.5271127,
+            1
+          ]
+        },
+        {
+          "name": "BI_leaf_light",
+          "shader": "Universal Render Pipeline/Lit",
+          "rgba": [
+            0.649956346,
+            0.741905153,
+            0.5168809,
+            1
+          ]
+        },
+        {
+          "name": "BI_flower_cream",
+          "shader": "Universal Render Pipeline/Lit",
+          "rgba": [
+            0.9776915,
+            0.9211914,
+            0.7547806,
+            1
+          ]
+        },
+        {
+          "name": "BI_brass_light",
+          "shader": "Universal Render Pipeline/Lit",
+          "rgba": [
+            0.935740948,
+            0.837860465,
+            0.5926193,
+            1
+          ]
+        },
+        {
+          "name": "BI_flower_coral",
+          "shader": "Universal Render Pipeline/Lit",
+          "rgba": [
+            0.911320448,
+            0.6262096,
+            0.5657283,
+            1
+          ]
+        },
+        {
+          "name": "BI_flower_lilac",
+          "shader": "Universal Render Pipeline/Lit",
+          "rgba": [
+            0.7287318,
+            0.687217057,
+            0.826657,
+            1
+          ]
+        },
+        {
+          "name": "BI_flower_blue",
+          "shader": "Universal Render Pipeline/Lit",
+          "rgba": [
+            0.5748709,
+            0.7673755,
+            0.797737658,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Island_BrassMeridian",
+      "vertices": 6632,
+      "triangles": 3688,
+      "submeshes": 2,
+      "normalCount": 6632,
+      "colorCount": 6632,
+      "geometrySHA256": "C94E2C0C38CA8849FC2A4EA6F8A7F57B78CDBE6E33400C16B9EB0252ED655399",
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "materials": [
+        {
+          "name": "BI_brass",
+          "shader": "Universal Render Pipeline/Lit",
+          "rgba": [
+            0.8094681,
+            0.694361,
+            0.47312057,
+            1
+          ]
+        },
+        {
+          "name": "BI_brass_light",
+          "shader": "Universal Render Pipeline/Lit",
+          "rgba": [
+            0.935740948,
+            0.837860465,
+            0.5926193,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Island_CliffGardens",
+      "vertices": 7888,
+      "triangles": 3978,
+      "submeshes": 5,
+      "normalCount": 7888,
+      "colorCount": 7888,
+      "geometrySHA256": "6EB67FE75AB37C14D666E9B6F124439791CE75BDF00F0C1EEF16E9E50E59FD3F",
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "materials": [
+        {
+          "name": "BI_stone_dark",
+          "shader": "Universal Render Pipeline/Lit",
+          "rgba": [
+            0.58383137,
+            0.649956346,
+            0.657627642,
+            1
+          ]
+        },
+        {
+          "name": "BI_moss",
+          "shader": "Universal Render Pipeline/Lit",
+          "rgba": [
+            0.6342527,
+            0.687217057,
+            0.47312057,
+            1
+          ]
+        },
+        {
+          "name": "BI_rock_blue",
+          "shader": "Universal Render Pipeline/Lit",
+          "rgba": [
+            0.4492038,
+            0.5563932,
+            0.6342527,
+            1
+          ]
+        },
+        {
+          "name": "BI_rock_light",
+          "shader": "Universal Render Pipeline/Lit",
+          "rgba": [
+            0.5168809,
+            0.6180314,
+            0.665185034,
+            1
+          ]
+        },
+        {
+          "name": "BI_brass",
+          "shader": "Universal Render Pipeline/Lit",
+          "rgba": [
+            0.8094681,
+            0.694361,
+            0.47312057,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Island_Meadow",
+      "vertices": 3457,
+      "triangles": 6816,
+      "submeshes": 1,
+      "normalCount": 3457,
+      "colorCount": 3457,
+      "geometrySHA256": "D41F5FF9E22B077C11231F4405B00A1AADE458E3E25542EABF7D50AB281C4ACB",
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "materials": [
+        {
+          "name": "BI_grass",
+          "shader": "Universal Render Pipeline/Lit",
+          "rgba": [
+            0.5370987,
+            0.642166436,
+            0.4492038,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Island_Strata",
+      "vertices": 4520,
+      "triangles": 1630,
+      "submeshes": 4,
+      "normalCount": 4520,
+      "colorCount": 4520,
+      "geometrySHA256": "9BBF876D2AB3B3D4D037A6A0D55E52E2EF3400563F65DD19BDAC7340BEBD4735",
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "materials": [
+        {
+          "name": "BI_rock_blue",
+          "shader": "Universal Render Pipeline/Lit",
+          "rgba": [
+            0.4492038,
+            0.5563932,
+            0.6342527,
+            1
+          ]
+        },
+        {
+          "name": "BI_rock_dark",
+          "shader": "Universal Render Pipeline/Lit",
+          "rgba": [
+            0.303531975,
+            0.395881176,
+            0.484529138,
+            1
+          ]
+        },
+        {
+          "name": "BI_rock",
+          "shader": "Universal Render Pipeline/Lit",
+          "rgba": [
+            0.381091774,
+            0.495609641,
+            0.5563932,
+            1
+          ]
+        },
+        {
+          "name": "BI_rock_light",
+          "shader": "Universal Render Pipeline/Lit",
+          "rgba": [
+            0.5168809,
+            0.6180314,
+            0.665185034,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "name": "LampBase_A",
+      "vertices": 1584,
+      "triangles": 828,
+      "submeshes": 4,
+      "normalCount": 1584,
+      "colorCount": 1584,
+      "geometrySHA256": "50165223318D8039A86F46D867121D7C0451919F8A2F1B870B4B9930BB1821FE",
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "materials": [
+        {
+          "name": "BI_stone_dark",
+          "shader": "Universal Render Pipeline/Lit",
+          "rgba": [
+            0.58383137,
+            0.649956346,
+            0.657627642,
+            1
+          ]
+        },
+        {
+          "name": "BI_brass",
+          "shader": "Universal Render Pipeline/Lit",
+          "rgba": [
+            0.8094681,
+            0.694361,
+            0.47312057,
+            1
+          ]
+        },
+        {
+          "name": "BI_metal_dark",
+          "shader": "Universal Render Pipeline/Lit",
+          "rgba": [
+            0.381091774,
+            0.5063863,
+            0.5468542,
+            1
+          ]
+        },
+        {
+          "name": "BI_brass_light",
+          "shader": "Universal Render Pipeline/Lit",
+          "rgba": [
+            0.935740948,
+            0.837860465,
+            0.5926193,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "name": "LampBase_B",
+      "vertices": 1584,
+      "triangles": 828,
+      "submeshes": 4,
+      "normalCount": 1584,
+      "colorCount": 1584,
+      "geometrySHA256": "979846F3C3AC3B0822106F627EB56A82659B1B3856C9313D759CE4BF4B2E75A0",
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "materials": [
+        {
+          "name": "BI_stone_dark",
+          "shader": "Universal Render Pipeline/Lit",
+          "rgba": [
+            0.58383137,
+            0.649956346,
+            0.657627642,
+            1
+          ]
+        },
+        {
+          "name": "BI_brass",
+          "shader": "Universal Render Pipeline/Lit",
+          "rgba": [
+            0.8094681,
+            0.694361,
+            0.47312057,
+            1
+          ]
+        },
+        {
+          "name": "BI_metal_dark",
+          "shader": "Universal Render Pipeline/Lit",
+          "rgba": [
+            0.381091774,
+            0.5063863,
+            0.5468542,
+            1
+          ]
+        },
+        {
+          "name": "BI_brass_light",
+          "shader": "Universal Render Pipeline/Lit",
+          "rgba": [
+            0.935740948,
+            0.837860465,
+            0.5926193,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "name": "LampBase_C",
+      "vertices": 1584,
+      "triangles": 828,
+      "submeshes": 4,
+      "normalCount": 1584,
+      "colorCount": 1584,
+      "geometrySHA256": "4A599DA4318DBFAE4C0B1EA686CD2D081EE0102E7733E888226177C521F0410D",
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "materials": [
+        {
+          "name": "BI_stone_dark",
+          "shader": "Universal Render Pipeline/Lit",
+          "rgba": [
+            0.58383137,
+            0.649956346,
+            0.657627642,
+            1
+          ]
+        },
+        {
+          "name": "BI_brass",
+          "shader": "Universal Render Pipeline/Lit",
+          "rgba": [
+            0.8094681,
+            0.694361,
+            0.47312057,
+            1
+          ]
+        },
+        {
+          "name": "BI_metal_dark",
+          "shader": "Universal Render Pipeline/Lit",
+          "rgba": [
+            0.381091774,
+            0.5063863,
+            0.5468542,
+            1
+          ]
+        },
+        {
+          "name": "BI_brass_light",
+          "shader": "Universal Render Pipeline/Lit",
+          "rgba": [
+            0.935740948,
+            0.837860465,
+            0.5926193,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "name": "MoonDial_Sculpture",
+      "vertices": 4172,
+      "triangles": 2112,
+      "submeshes": 4,
+      "normalCount": 4172,
+      "colorCount": 4172,
+      "geometrySHA256": "B47566BDB6A96CA0DB6B0B38351DC404FD645D36DD981CAB237F392BF1FC0ED9",
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "materials": [
+        {
+          "name": "BI_stone_dark",
+          "shader": "Universal Render Pipeline/Lit",
+          "rgba": [
+            0.58383137,
+            0.649956346,
+            0.657627642,
+            1
+          ]
+        },
+        {
+          "name": "BI_brass",
+          "shader": "Universal Render Pipeline/Lit",
+          "rgba": [
+            0.8094681,
+            0.694361,
+            0.47312057,
+            1
+          ]
+        },
+        {
+          "name": "BI_brass_light",
+          "shader": "Universal Render Pipeline/Lit",
+          "rgba": [
+            0.935740948,
+            0.837860465,
+            0.5926193,
+            1
+          ]
+        },
+        {
+          "name": "BI_star_warm",
+          "shader": "Universal Render Pipeline/Lit",
+          "rgba": [
+            0.9911565,
+            0.8962438,
+            0.6342527,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Observatory_StoneAndBrass",
+      "vertices": 9361,
+      "triangles": 5400,
+      "submeshes": 8,
+      "normalCount": 9361,
+      "colorCount": 9361,
+      "geometrySHA256": "C8288C64E491D65B866FBFC3CEF87D000D6402FCCBFE65006838EC1E4319FE34",
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "materials": [
+        {
+          "name": "BI_stone_dark",
+          "shader": "Universal Render Pipeline/Lit",
+          "rgba": [
+            0.58383137,
+            0.649956346,
+            0.657627642,
+            1
+          ]
+        },
+        {
+          "name": "BI_stone",
+          "shader": "Universal Render Pipeline/Lit",
+          "rgba": [
+            0.665185034,
+            0.7220273,
+            0.7220273,
+            1
+          ]
+        },
+        {
+          "name": "BI_stone_light",
+          "shader": "Universal Render Pipeline/Lit",
+          "rgba": [
+            0.7547806,
+            0.785776854,
+            0.761112154,
+            1
+          ]
+        },
+        {
+          "name": "BI_brass",
+          "shader": "Universal Render Pipeline/Lit",
+          "rgba": [
+            0.8094681,
+            0.694361,
+            0.47312057,
+            1
+          ]
+        },
+        {
+          "name": "BI_brass_light",
+          "shader": "Universal Render Pipeline/Lit",
+          "rgba": [
+            0.935740948,
+            0.837860465,
+            0.5926193,
+            1
+          ]
+        },
+        {
+          "name": "BI_metal_dark",
+          "shader": "Universal Render Pipeline/Lit",
+          "rgba": [
+            0.381091774,
+            0.5063863,
+            0.5468542,
+            1
+          ]
+        },
+        {
+          "name": "BI_quartz",
+          "shader": "Universal Render Pipeline/Lit",
+          "rgba": [
+            0.6799757,
+            0.8209798,
+            0.8094681,
+            1
+          ]
+        },
+        {
+          "name": "BI_star_warm",
+          "shader": "Universal Render Pipeline/Lit",
+          "rgba": [
+            0.9911565,
+            0.8962438,
+            0.6342527,
+            1
+          ]
+        }
+      ]
+    }
+  ],
+  "anchors": [
+    {
+      "name": "Anchor_Cabin",
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        4.1,
+        0,
+        4.05,
+        1
+      ]
+    },
+    {
+      "name": "Anchor_Lamp_A",
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        4.5,
+        0,
+        -2,
+        1
+      ]
+    },
+    {
+      "name": "Anchor_Lamp_B",
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        -1.8,
+        0,
+        3.39999986,
+        1
+      ]
+    },
+    {
+      "name": "Anchor_Lamp_C",
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        -4.7,
+        0,
+        -2.4,
+        1
+      ]
+    },
+    {
+      "name": "Anchor_LampHead_A",
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        4.5,
+        1.8499999,
+        -2,
+        1
+      ]
+    },
+    {
+      "name": "Anchor_LampHead_B",
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        -1.8,
+        1.8499999,
+        3.39999986,
+        1
+      ]
+    },
+    {
+      "name": "Anchor_LampHead_C",
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        -4.7,
+        1.8499999,
+        -2.4,
+        1
+      ]
+    },
+    {
+      "name": "Anchor_Moon",
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        -3.3,
+        1.8,
+        5.4,
+        1
+      ]
+    },
+    {
+      "name": "Anchor_PlayerSpawn",
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0.099999994,
+        -5.6,
+        1
+      ]
+    },
+    {
+      "name": "Anchor_StarAltar",
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0.08,
+        0.35,
+        1
+      ]
+    },
+    {
+      "name": "Anchor_Target_Bench",
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        5.79999971,
+        0.099999994,
+        0.15,
+        1
+      ]
+    },
+    {
+      "name": "Anchor_Target_Dock",
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        -6.89999962,
+        0.12,
+        -3.35,
+        1
+      ]
+    },
+    {
+      "name": "Anchor_Target_Path",
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1.8,
+        0.08,
+        -3.19999981,
+        1
+      ]
+    },
+    {
+      "name": "Anchor_Target_Window",
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        4.1,
+        1.5999999,
+        3.05,
+        1
+      ]
+    }
+  ]
+}

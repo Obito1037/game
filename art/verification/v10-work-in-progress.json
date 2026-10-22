@@ -1,0 +1,6 @@
+{
+  "revision": "v10",
+  "status": "Promoted locally after native/Web acceptance, scoped motion review and package/HTTP verification.",
+  "aestheticObjectiveAchieved": false,
+  "releaseChecks": "v10-release-checks.json"
+}

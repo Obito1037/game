@@ -1,0 +1,22 @@
+{
+  "date": "2026-10-21",
+  "windowsBuild": "build_321a432cfae3",
+  "webBuild": "build_1d3e76e5b3ab",
+  "windowsQA": "run-015-v6/runtime-results.json",
+  "webQA": "web-005-v6/runtime-results.json",
+  "gpuQA": "web-v6-gpu-profile/profile-results.json",
+  "gaitCapture": "web-v6-gait/capture-manifest.json",
+  "zipEntries": 182,
+  "requiredFilesPresent": true,
+  "debugFoldersExcluded": true,
+  "allZipStreamsRead": true,
+  "zipBytes": 66060127,
+  "zipSHA256": "7BBBE78ECD9CCB14EC672F3C5BF678B28002E7725D826D38D2FDD52E4A98D462",
+  "exeSHA256": "EB143EAD6441B6DD9D7D145ADB85410E9389FB3878899AE537E8C9869CCE38FA",
+  "nativeResourcesSHA256": "1A74C6EB86FE0A20B439415A90B6895A7938EF7F95E69E221CD65BBC68DC04C0",
+  "worldFbxSHA256": "2CB1F0F6810517864231998F464B4681AA7A63F3B6C806239905BB67D004C762",
+  "travelerFbxSHA256": "60A8C0B5DF7DE6FBDD9F09BFA2931FD462BC538E50AD54E33370724C7E58D25E",
+  "webPayloadBytes": 43494027.0,
+  "webDirectoryBytes": 48246749.0,
+  "visualAcceptance": "V6 final run-015-v6 original captures compared with v5 and the reference. Stepping stones, foliage gradients, articulated limbs and foreground boulders are integrated; idle sole and collider checks passed. Skin, cloth and rock detail remain simpler than the reference. The full aesthetic objective is not yet achieved."
+}

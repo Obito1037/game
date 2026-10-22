@@ -1,0 +1,7 @@
+{
+  "revision": "v12",
+  "status": "Promoted locally after limited grass/ground review, native/Web QA and package/HTTP verification.",
+  "aestheticObjectiveAchieved": false,
+  "releaseChecks": "v12-release-checks.json",
+  "limits": "Fixed studies and short QA samples do not establish all-angle foliage, exhaustive animation or overall visual superiority."
+}

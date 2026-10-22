@@ -1,0 +1,33 @@
+借光岛 v4：网页渲染 A/B 定位
+
+对象与方法
+当前已构建 v4；本机 Edge / ANGLE Intel Iris Xe，1440×900，完整 PC 画质。
+工具：tools/profile-game-web.cjs。仅在隔离浏览器诊断会话中拦截 WebGL draw，不修改发布版本。
+程序通过真实 GLSL 源码定位 MoonPaint / CelestialSky / PaintedSurface，通过 uniform1fv 的 _SurfaceKind=4 精确定位叶片正向绘制。
+每段先把浏览器切到前台，再预热 1 秒、采样 5 秒；结果包含 document.visibilityState 和 document.hasFocus，均为 visible / true。
+renderedFrameFps 按每帧唯一的 sky draw 计数，避免混淆 Unity 引擎帧率、独立 requestAnimationFrame 回调与 GetMetricsInfo 的移动平均。
+正常截图 baseline-restored.png 在恢复所有绘制后生成；会话随后关闭。
+
+关键结果（实际提交渲染帧 / 秒）
+Menu：baseline 41.48 → skip-moon 48.15 → baseline 41.83。
+Walking：baseline 36.40 → skip-foliage 51.33 → baseline 36.63 → skip-foliage 47.66 → baseline 34.78。
+Walking：skip-painted 53.64，相邻 baseline 34.78 / 32.94。
+Walking：skip-moon 32.05，相邻 baseline 32.94 / 33.63。
+Epilogue：baseline 46.93 → skip-moon 49.98 → baseline 54.36，变动超过效果，不能据此断言月面是此镜头瓶颈。
+
+Walking 每帧约 1,132 draw / 123 万提交三角形；其中叶片正向 pass 恰为 22 draw。
+Walking 两次去掉叶片正向绘制，分别省约 7.9 / 7.0 ms（用相邻 baseline 平均作粗估），是本次最一致的瓶颈信号。
+菜单里去掉月面约省 3.2 ms；Walking 未见收益。不能把月面判断为整款游戏性能回退的主因。
+
+实施方向
+1. 叶片改用固定 FoliagePaint shader，保留原 kind-4 的风、双面向上混合法线、BlinnPhong 灯光、GI、雾、辅助 pass 和全部植被。
+2. 从同一个巨型动态 shader 中分离，可以删除无关石材/木材/布料/PBR 运算及其寄存器需求；不再带 UnityPerMaterial 外的 _SurfaceKind 材质 uniform，有利于 SRP Batcher 兼容。
+3. WorldDirector 只将原本 kind-4 的 BI_*leaf* 材质分流；Builder 在 Resources 创建对应材质，保证 player 包含 shader。
+4. PC pipeline 的 opaque texture 没有自定义 shader 消费者，且唯一 renderer feature 是 SSAO；关闭这项额外 CopyColorPass 可作为独立无视觉变化优化，由主代理实施和验证。
+
+边界
+跳过叶片只省其正向绘制；DepthNormals / ShadowCaster 等官方辅助 pass 仍执行。这不是“全部植被”的总成本。
+跳过绘制会改变最终像素与遮挡，只用于定位，不可当作正式性能改善，也不代表保留视觉后的固定 shader 能拿回全部差额。
+新 shader 尚须主代理的 Unity 编译、SRP 兼容查询、实际构建、相同镜头图像核对和无探针帧率验收。本记录不宣称这些已经通过。
+第一轮 art/verification/web-v4-profile/ 是探索性记录：未捕获 uniform1fv，skip-foliage 实际省 0 draw；焦点/RAF 也不稳定。该轮不支持叶片效果结论。
+整个诊断保留 renderScale=1、MSAA2、HDR、SSAO、现有植被；未改动正式发布包。

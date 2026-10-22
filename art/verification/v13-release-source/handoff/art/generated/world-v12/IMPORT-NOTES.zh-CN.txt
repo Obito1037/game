@@ -1,0 +1,45 @@
+world-v12 / 游戏 v13 树冠修订候选
+
+来源与所有权
+从冻结 world-v10/island.blend 加载；脚本 art/blender/build_island_v12.py。
+只替换 Garden_TreeTrunks、Garden_TreeCanopies、Garden_CanopyLeafEdges。
+首版 world-v11 因右树稀疏裸枝及左/金冠上移出构图被拒绝，全部文件另存原处。
+本目录与游戏版本号不同；本目录是 world-v12，目标游戏仍为 v13。
+
+几何
+整岛 538118 tri；源 world-v10 为 505782 tri，实增 32336（约6.39%）。
+TreeTrunks 18352 tri（源4632）；TreeCanopies 62608（源43956）；CanopyLeafEdges 576（源612）。
+网格总数仍29，Renderer数量不增加；26个非目标模型保持完整指纹。
+14锚点、29网格变换、所有既有材质槽和材质值、两张地表纹理均冻结。
+无新叶片纹理、shader或材质。BI_leaf*仍用现有FoliagePaint乘线性顶点色。
+
+低干与碰撞
+源TreeTrunks中任一顶点世界Unity Y<1.20m的连通组件整组保留，共39组、904tri。
+阔叶/金树各272tri保留到最高Y1.39098m；右树360tri保留到Y2.50464m。
+不是用包围盒重建：源组件的坐标、面序/索引、UV、颜色精确保持。
+Blender自定义法线内部打包产生最大向量误差约6.61e-5，单独报告，不称法线逐位相同。
+新增木质最低Y1.316769m。上部枝干修改会改变TreeTrunks障碍碰撞体；不得称整体Collider不变。
+草、路、观星台、码头和其他碰撞地面不改。实际运行路线与树周碰撞仍由主线程验证。
+
+本轮形体
+左树保留新枝撑和曲叶，仅将新几何Y>1.40m部分压至80%高度，低组件及接点环不动。
+金冠上部下移0.42m，外围细枝/叶渐进后移最多0.18m，树干不整体移动。
+右树22个非等距主枝；短曲鳞/针叶围绕次枝分布，恢复中下冠体积，保留不规则缺口。
+
+验证状态
+生成内保护、主线程Unity导入对照及三格式干净回读已通过。
+interchange-verification.json：passed=true、in_progress=false，BLEND/FBX/GLB三项true。
+三格式均为29mesh、14锚点、538118tri；26非目标hash、材质/图片内容及全部变换一致。
+0退化三角、0重复索引三角、0非有限法线。木屋/月环与三树BVH三角交叠为0；这不证明可视遮挡或风摆连续安全。
+FBX最大目标位置误差1.168008e-6m；三格式UV误差0；FBX线性色误差0。
+法线角误差报告最大0.039565度；当前float32点积/acos计算连BLEND自比较也有0.03566度数值底噪，应视为含数值误差的保守上界，不是已证实的实际法线变形角。
+GLB原始UINT16线性色编码全部精确匹配，最大量化误差7.658952e-6。
+Blender GLB导入使用CORNER/BYTE_COLOR；最大线性色差0.004480064，本机sRGB8存储模型逐值预测残差0，未放宽gate掩盖gamma错误。
+manifest已按主线程授权更新为有限静态采用，原审计输入manifest原样另存asset-manifest-at-audit.json并记录原hash；模型与纹理hash不改。
+最终审计状态看独立interchange-verification.json，静态审图看visual-review.json及主线程/独立图评。元数据更新不冒充重新执行审计。
+已亲看refined的path/island/三树近景，建议有限静态采用；右树仍是较疏尖叶风格，不能称写实柏树。
+运行性能、全部角度/风摆及完整碰撞覆盖均不能由静态资产审计保证。
+
+依赖
+必须保留world-v10冻结资产与其verify_world_v10.py；脚本复用其中的只读指纹/材质与GLB工具。
+原始Blender生成链更早版本仍应保留。没有改写任何既有world目录或Unity资源。

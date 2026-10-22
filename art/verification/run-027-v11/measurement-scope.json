@@ -1,0 +1,7 @@
+{
+  "functionalChecksUsable": true,
+  "performanceIsIsolated": false,
+  "initialImageDimensions": [1440, 900],
+  "walkingAndLaterImageDimensions": [1078, 672],
+  "scope": "No Blender was running, but the player window dimensions changed during the run. A later host GPU sample showed GameViewerServer and desktop compositor activity; this subsequent sample does not prove the exact cause of the earlier slowdown. These FPS samples are not a controlled v10/v11 performance comparison. Current-host fullscreen checks follow."
+}

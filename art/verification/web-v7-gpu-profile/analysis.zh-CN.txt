@@ -1,0 +1,15 @@
+借光岛 v7：独立 WebGL 绘制诊断
+
+构建：build_391eab7c3886。实际请求的 wasm 为 ff0a1f4de67d7c5203b7c8b90e5b8792.wasm.gz，data 为 fc6c868bef94f83e6e3a5e3e16e77a6e.data.gz；均与本机 builds/web/Build 的新构建文件一致。1440 × 900，DPR 1，Edge / Intel Iris Xe / ANGLE D3D11。Unity 已恢复 StandaloneWindows64；正常 QA 浏览器关闭后才启动此独立 profile。采样期间没有并行游戏、构建或 Blender 渲染任务。
+
+真实键鼠完成三个章节并返回岛上后，前台静止漫步视角以 CelestialSky 每相机帧的一次 draw 作为帧计数，观测 30.6025 FPS、979 draws/frame；六次样本均 visible 且 focused。正常功能 QA 的同类视角另有 33.4555 的 interval FPS 中位数，见 ../web-007-v7/runtime-results.json。两种结果来自不同会话和不同测量机制，不混为同一组采样。
+
+Starfield 分类已经核对保存的 programs.json，而非只接受脚本关键词分类。program 20 的顶点 GLSL 中，in_COLOR0.x 是漂移相位；_Time.y * 0.0350000001 与 _Time.y * 0.119999997 经 sin 后，分别乘 0.349999994 和 0.100000001，和源码的 .035/.12 频率、.35/.10 振幅一致。三帧计时样本中，该程序每帧实际 1 次 draw、36,336 个三角形。program 21 是单次 CelestialSky draw，支持该视角所用帧计数的解释。
+
+三个计时帧均无 GPU disjoint。各主要类别每帧 draw：shadow-caster 546，depth-normals 193（两个程序合计），foliage 22，painted 78（两个程序合计），starfield 1。运行日志记录 ISLAND_STATIC_BATCH_RENDERERS: 25，岛屿总 renderer 为 29。原始逐程序结果及 GLSL 保留在 profile-results.json、program-summary.json 和 programs.json。
+
+限制：GPU query 覆盖连续 program-use 区间，不等于完整 GPU 帧时间，更不包含所有 CPU 调度；三个样本帧只适合定位该次视角中的工作量。脚本拦截 draw 用于计数，未省略任何 draw，也未改变渲染设置。Starfield 合并后保留完整几何，失去逐星 CPU 视锥剔除，该次 draw 仍提交完整 36,336 个三角形。
+
+历史 v6 GPU profile 为 build_1d3e76e5b3ab 的观星台碰撞修复前版本，观测约 1,029.87 draws/frame 和 34.44 FPS。此次 v7 为 979 draws/frame 和 30.60 FPS，不能据调用减少宣称帧率提升。v7 同时更换世界、人物几何和表面着色；相同 1,100 ms W 输入也不保证跨版本完全相同的位置与构图。这不是单独 Starfield 的 A/B 实验，也不能把旧 profile 的表现归到后来发布的 v6 构建。
+
+浏览器正常功能 QA 为另一独立会话，日志中的 Unity 隐藏 shader 不支持、INVALID_ENUM 和音频尚未加载提示单独保留；浏览器 console.error / pageerror / crash 检查并不等于 Unity 日志没有诊断。此文件不宣称画质已超过参考网站。

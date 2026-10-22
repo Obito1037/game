@@ -1,0 +1,106 @@
+{
+  "scope": "External foreground observations during the latter part of run-017-v7. Does not cover the entire tour or independently measure rendered FPS.",
+  "gameProcessId": 33180,
+  "samples": [
+    {
+      "utc": "2026-10-20T22:39:30.8512706Z",
+      "gameWasForeground": false
+    },
+    {
+      "utc": "2026-10-20T22:39:32.8972172Z",
+      "gameWasForeground": false
+    },
+    {
+      "utc": "2026-10-20T22:39:34.9005931Z",
+      "gameWasForeground": false
+    },
+    {
+      "utc": "2026-10-20T22:39:36.9028145Z",
+      "gameWasForeground": false
+    },
+    {
+      "utc": "2026-10-20T22:39:38.9152388Z",
+      "gameWasForeground": false
+    },
+    {
+      "utc": "2026-10-20T22:39:40.9271857Z",
+      "gameWasForeground": false
+    },
+    {
+      "utc": "2026-10-20T22:39:42.9412519Z",
+      "gameWasForeground": false
+    },
+    {
+      "utc": "2026-10-20T22:39:44.9575997Z",
+      "gameWasForeground": false
+    },
+    {
+      "utc": "2026-10-20T22:39:46.9615404Z",
+      "gameWasForeground": false
+    },
+    {
+      "utc": "2026-10-20T22:39:48.9711165Z",
+      "gameWasForeground": false
+    },
+    {
+      "utc": "2026-10-20T22:39:50.9762220Z",
+      "gameWasForeground": false
+    },
+    {
+      "utc": "2026-10-20T22:39:52.9873427Z",
+      "gameWasForeground": false
+    },
+    {
+      "utc": "2026-10-20T22:39:54.9961154Z",
+      "gameWasForeground": false
+    },
+    {
+      "utc": "2026-10-20T22:39:57.0130516Z",
+      "gameWasForeground": false
+    },
+    {
+      "utc": "2026-10-20T22:39:59.0256685Z",
+      "gameWasForeground": false
+    },
+    {
+      "utc": "2026-10-20T22:40:01.0410590Z",
+      "gameWasForeground": false
+    },
+    {
+      "utc": "2026-10-20T22:40:03.0458458Z",
+      "gameWasForeground": false
+    },
+    {
+      "utc": "2026-10-20T22:40:05.0459428Z",
+      "gameWasForeground": false
+    },
+    {
+      "utc": "2026-10-20T22:40:07.0527929Z",
+      "gameWasForeground": false
+    },
+    {
+      "utc": "2026-10-20T22:40:09.0580158Z",
+      "gameWasForeground": false
+    },
+    {
+      "utc": "2026-10-20T22:40:11.0705136Z",
+      "gameWasForeground": false
+    },
+    {
+      "utc": "2026-10-20T22:40:13.0813711Z",
+      "gameWasForeground": false
+    },
+    {
+      "utc": "2026-10-20T22:40:15.0895176Z",
+      "gameWasForeground": false
+    },
+    {
+      "utc": "2026-10-20T22:40:17.0912734Z",
+      "gameWasForeground": false
+    },
+    {
+      "utc": "2026-10-20T22:40:19.0966632Z",
+      "gameWasForeground": false
+    }
+  ]
+}

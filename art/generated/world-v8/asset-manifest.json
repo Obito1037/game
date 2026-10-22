@@ -1,0 +1,4399 @@
+{
+  "revision": "world-v8",
+  "game_candidate": "v11",
+  "source": "world-v7",
+  "triangles": 510293,
+  "triangle_budget": 550000,
+  "objects": [
+    {
+      "name": "Island_Strata",
+      "vertices": 4704,
+      "triangles": 1630,
+      "materials": [
+        "BI_rock_blue",
+        "BI_rock_dark",
+        "BI_rock",
+        "BI_rock_light"
+      ]
+    },
+    {
+      "name": "Island_Meadow",
+      "vertices": 3457,
+      "triangles": 6816,
+      "materials": [
+        "BI_grass"
+      ]
+    },
+    {
+      "name": "Island_CliffGardens",
+      "vertices": 2530,
+      "triangles": 3978,
+      "materials": [
+        "BI_stone_dark",
+        "BI_moss",
+        "BI_rock_blue",
+        "BI_rock_light",
+        "BI_brass"
+      ]
+    },
+    {
+      "name": "Island_BrassMeridian",
+      "vertices": 2232,
+      "triangles": 3688,
+      "materials": [
+        "BI_brass",
+        "BI_brass_light"
+      ]
+    },
+    {
+      "name": "Garden_Walkways",
+      "vertices": 1006,
+      "triangles": 1908,
+      "materials": [
+        "BI_stone_path_warm",
+        "BI_stone_path_ochre",
+        "BI_stone_path_slate"
+      ]
+    },
+    {
+      "name": "Garden_HeroBoulders",
+      "vertices": 10248,
+      "triangles": 20480,
+      "materials": [
+        "BI_rock_hero_warm",
+        "BI_rock_hero_slate"
+      ]
+    },
+    {
+      "name": "Observatory_StoneAndBrass",
+      "vertices": 2876,
+      "triangles": 5400,
+      "materials": [
+        "BI_stone_dark",
+        "BI_stone",
+        "BI_stone_light",
+        "BI_brass",
+        "BI_brass_light",
+        "BI_metal_dark",
+        "BI_quartz",
+        "BI_star_warm"
+      ]
+    },
+    {
+      "name": "Cabin_PlasterAndFoundation",
+      "vertices": 78,
+      "triangles": 126,
+      "materials": [
+        "BI_stone_dark",
+        "BI_plaster",
+        "BI_plaster_light",
+        "BI_stone",
+        "BI_rock_dark"
+      ]
+    },
+    {
+      "name": "Cabin_IndividualShingles",
+      "vertices": 1744,
+      "triangles": 1132,
+      "materials": [
+        "BI_roof",
+        "BI_roof_dark",
+        "BI_roof_light"
+      ]
+    },
+    {
+      "name": "Cabin_ReadingWindow_Glow",
+      "vertices": 16,
+      "triangles": 28,
+      "materials": [
+        "BI_window_honey"
+      ]
+    },
+    {
+      "name": "Cabin_DoorAndAccessories",
+      "vertices": 496,
+      "triangles": 884,
+      "materials": [
+        "BI_wood",
+        "BI_wood_light",
+        "BI_brass_light",
+        "BI_stone",
+        "BI_stone_dark",
+        "BI_paper",
+        "BI_window_honey"
+      ]
+    },
+    {
+      "name": "Cabin_Timber",
+      "vertices": 320,
+      "triangles": 516,
+      "materials": [
+        "BI_wood_light",
+        "BI_wood",
+        "BI_wood_cut",
+        "BI_roof_dark"
+      ]
+    },
+    {
+      "name": "LampBase_A",
+      "vertices": 448,
+      "triangles": 828,
+      "materials": [
+        "BI_stone_dark",
+        "BI_brass",
+        "BI_metal_dark",
+        "BI_brass_light"
+      ]
+    },
+    {
+      "name": "LampBase_B",
+      "vertices": 448,
+      "triangles": 828,
+      "materials": [
+        "BI_stone_dark",
+        "BI_brass",
+        "BI_metal_dark",
+        "BI_brass_light"
+      ]
+    },
+    {
+      "name": "LampBase_C",
+      "vertices": 448,
+      "triangles": 828,
+      "materials": [
+        "BI_stone_dark",
+        "BI_brass",
+        "BI_metal_dark",
+        "BI_brass_light"
+      ]
+    },
+    {
+      "name": "Garden_Bench",
+      "vertices": 288,
+      "triangles": 492,
+      "materials": [
+        "BI_wood_light",
+        "BI_wood_cut",
+        "BI_metal_dark",
+        "BI_flower_coral",
+        "BI_flower_cream"
+      ]
+    },
+    {
+      "name": "Cliff_Pier",
+      "vertices": 1720,
+      "triangles": 2916,
+      "materials": [
+        "BI_wood",
+        "BI_metal_dark",
+        "BI_wood_light",
+        "BI_wood_cut",
+        "BI_paper",
+        "BI_brass"
+      ]
+    },
+    {
+      "name": "Garden_TreeTrunks",
+      "vertices": 2731,
+      "triangles": 4632,
+      "materials": [
+        "BI_wood",
+        "BI_wood_light"
+      ]
+    },
+    {
+      "name": "Garden_TreeCanopies",
+      "vertices": 51282,
+      "triangles": 43956,
+      "materials": [
+        "BI_leaf_light",
+        "BI_leaf_dark",
+        "BI_leaf",
+        "BI_leaf_blue",
+        "BI_leaf_gold"
+      ]
+    },
+    {
+      "name": "Garden_CanopyLeafEdges",
+      "vertices": 714,
+      "triangles": 612,
+      "materials": [
+        "BI_leaf",
+        "BI_leaf_light",
+        "BI_leaf_gold"
+      ]
+    },
+    {
+      "name": "MoonDial_Sculpture",
+      "vertices": 1092,
+      "triangles": 2112,
+      "materials": [
+        "BI_stone_dark",
+        "BI_brass",
+        "BI_brass_light",
+        "BI_star_warm"
+      ]
+    },
+    {
+      "name": "Garden_CreepingMeadowLeaves",
+      "vertices": 35982,
+      "triangles": 31984,
+      "materials": [
+        "BI_leaf_meadow_olive",
+        "BI_leaf_ground_sage",
+        "BI_leaf_ground_lime"
+      ]
+    },
+    {
+      "name": "Garden_FeatherFerns",
+      "vertices": 37926,
+      "triangles": 46956,
+      "materials": [
+        "BI_stem",
+        "BI_leaf",
+        "BI_grass_sage",
+        "BI_leaf_light"
+      ]
+    },
+    {
+      "name": "Garden_LavenderAndSeedHeads",
+      "vertices": 45628,
+      "triangles": 76296,
+      "materials": [
+        "BI_stem",
+        "BI_flower_lilac"
+      ]
+    },
+    {
+      "name": "Garden_Wildflowers",
+      "vertices": 25921,
+      "triangles": 27697,
+      "materials": [
+        "BI_stem",
+        "BI_leaf_light",
+        "BI_flower_cream",
+        "BI_brass_light",
+        "BI_flower_coral",
+        "BI_flower_lilac",
+        "BI_flower_blue"
+      ]
+    },
+    {
+      "name": "Garden_GrassTufts",
+      "vertices": 294524,
+      "triangles": 215804,
+      "materials": [
+        "BI_leaf_meadow_olive",
+        "BI_leaf_meadow_young",
+        "BI_leaf_meadow_dry",
+        "BI_leaf",
+        "BI_leaf_meadow_deep"
+      ]
+    },
+    {
+      "name": "Garden_MushroomsAndPebbles",
+      "vertices": 3796,
+      "triangles": 5824,
+      "materials": [
+        "BI_paper",
+        "BI_mushroom",
+        "BI_mushroom_spot",
+        "BI_rock_blue",
+        "BI_stone_dark",
+        "BI_stone"
+      ]
+    },
+    {
+      "name": "Cabin_ClimbingIvy",
+      "vertices": 446,
+      "triangles": 630,
+      "materials": [
+        "BI_leaf_gold",
+        "BI_stem",
+        "BI_leaf_light",
+        "BI_leaf"
+      ]
+    },
+    {
+      "name": "Garden_StoryDetails",
+      "vertices": 728,
+      "triangles": 1312,
+      "materials": [
+        "BI_wood",
+        "BI_wood_cut",
+        "BI_wood_light",
+        "BI_metal_dark",
+        "BI_sea_glass",
+        "BI_brass",
+        "BI_brass_light"
+      ]
+    }
+  ],
+  "anchors_unity": {
+    "Lamp_A": [
+      -4.5,
+      0,
+      -2
+    ],
+    "Lamp_B": [
+      1.8,
+      0,
+      3.4
+    ],
+    "Lamp_C": [
+      4.7,
+      0,
+      -2.4
+    ],
+    "LampHead_A": [
+      -4.5,
+      1.85,
+      -2
+    ],
+    "LampHead_B": [
+      1.8,
+      1.85,
+      3.4
+    ],
+    "LampHead_C": [
+      4.7,
+      1.85,
+      -2.4
+    ],
+    "Target_Path": [
+      -1.8,
+      0.08,
+      -3.2
+    ],
+    "Target_Bench": [
+      -5.8,
+      0.1,
+      0.15
+    ],
+    "Target_Window": [
+      -4.1,
+      1.6,
+      3.05
+    ],
+    "Target_Dock": [
+      6.9,
+      0.12,
+      -3.35
+    ],
+    "Cabin": [
+      -4.1,
+      0,
+      4.05
+    ],
+    "StarAltar": [
+      0,
+      0.08,
+      0.35
+    ],
+    "Moon": [
+      3.3,
+      1.8,
+      5.4
+    ],
+    "PlayerSpawn": [
+      0,
+      0.1,
+      -5.6
+    ]
+  },
+  "vertex_colors": [
+    {
+      "mesh": "Island_Strata",
+      "domain": "CORNER",
+      "type": "FLOAT_COLOR",
+      "min_rgb": 1,
+      "max_rgb": 1
+    },
+    {
+      "mesh": "Island_Meadow",
+      "domain": "CORNER",
+      "type": "FLOAT_COLOR",
+      "min_rgb": 1,
+      "max_rgb": 1
+    },
+    {
+      "mesh": "Island_CliffGardens",
+      "domain": "CORNER",
+      "type": "FLOAT_COLOR",
+      "min_rgb": 1,
+      "max_rgb": 1
+    },
+    {
+      "mesh": "Island_BrassMeridian",
+      "domain": "CORNER",
+      "type": "FLOAT_COLOR",
+      "min_rgb": 1,
+      "max_rgb": 1
+    },
+    {
+      "mesh": "Garden_Walkways",
+      "domain": "CORNER",
+      "type": "FLOAT_COLOR",
+      "min_rgb": 1,
+      "max_rgb": 1
+    },
+    {
+      "mesh": "Garden_HeroBoulders",
+      "domain": "CORNER",
+      "type": "FLOAT_COLOR",
+      "min_rgb": 0.8674770593643188,
+      "max_rgb": 0.9279999732971191
+    },
+    {
+      "mesh": "Observatory_StoneAndBrass",
+      "domain": "CORNER",
+      "type": "FLOAT_COLOR",
+      "min_rgb": 1,
+      "max_rgb": 1
+    },
+    {
+      "mesh": "Cabin_PlasterAndFoundation",
+      "domain": "CORNER",
+      "type": "FLOAT_COLOR",
+      "min_rgb": 1,
+      "max_rgb": 1
+    },
+    {
+      "mesh": "Cabin_IndividualShingles",
+      "domain": "CORNER",
+      "type": "FLOAT_COLOR",
+      "min_rgb": 1,
+      "max_rgb": 1
+    },
+    {
+      "mesh": "Cabin_ReadingWindow_Glow",
+      "domain": "CORNER",
+      "type": "FLOAT_COLOR",
+      "min_rgb": 1,
+      "max_rgb": 1
+    },
+    {
+      "mesh": "Cabin_DoorAndAccessories",
+      "domain": "CORNER",
+      "type": "FLOAT_COLOR",
+      "min_rgb": 1,
+      "max_rgb": 1
+    },
+    {
+      "mesh": "Cabin_Timber",
+      "domain": "CORNER",
+      "type": "FLOAT_COLOR",
+      "min_rgb": 1,
+      "max_rgb": 1
+    },
+    {
+      "mesh": "LampBase_A",
+      "domain": "CORNER",
+      "type": "FLOAT_COLOR",
+      "min_rgb": 1,
+      "max_rgb": 1
+    },
+    {
+      "mesh": "LampBase_B",
+      "domain": "CORNER",
+      "type": "FLOAT_COLOR",
+      "min_rgb": 1,
+      "max_rgb": 1
+    },
+    {
+      "mesh": "LampBase_C",
+      "domain": "CORNER",
+      "type": "FLOAT_COLOR",
+      "min_rgb": 1,
+      "max_rgb": 1
+    },
+    {
+      "mesh": "Garden_Bench",
+      "domain": "CORNER",
+      "type": "FLOAT_COLOR",
+      "min_rgb": 1,
+      "max_rgb": 1
+    },
+    {
+      "mesh": "Cliff_Pier",
+      "domain": "CORNER",
+      "type": "FLOAT_COLOR",
+      "min_rgb": 1,
+      "max_rgb": 1
+    },
+    {
+      "mesh": "Garden_TreeTrunks",
+      "domain": "CORNER",
+      "type": "FLOAT_COLOR",
+      "min_rgb": 1,
+      "max_rgb": 1
+    },
+    {
+      "mesh": "Garden_TreeCanopies",
+      "domain": "CORNER",
+      "type": "FLOAT_COLOR",
+      "min_rgb": 1,
+      "max_rgb": 1
+    },
+    {
+      "mesh": "Garden_CanopyLeafEdges",
+      "domain": "CORNER",
+      "type": "FLOAT_COLOR",
+      "min_rgb": 1,
+      "max_rgb": 1
+    },
+    {
+      "mesh": "MoonDial_Sculpture",
+      "domain": "CORNER",
+      "type": "FLOAT_COLOR",
+      "min_rgb": 1,
+      "max_rgb": 1
+    },
+    {
+      "mesh": "Garden_CreepingMeadowLeaves",
+      "domain": "CORNER",
+      "type": "FLOAT_COLOR",
+      "min_rgb": 0.7800002098083496,
+      "max_rgb": 0.9999865293502808
+    },
+    {
+      "mesh": "Garden_FeatherFerns",
+      "domain": "CORNER",
+      "type": "FLOAT_COLOR",
+      "min_rgb": 0.7922948002815247,
+      "max_rgb": 0.9799466729164124
+    },
+    {
+      "mesh": "Garden_LavenderAndSeedHeads",
+      "domain": "CORNER",
+      "type": "FLOAT_COLOR",
+      "min_rgb": 1,
+      "max_rgb": 1
+    },
+    {
+      "mesh": "Garden_Wildflowers",
+      "domain": "CORNER",
+      "type": "FLOAT_COLOR",
+      "min_rgb": 1,
+      "max_rgb": 1
+    },
+    {
+      "mesh": "Garden_GrassTufts",
+      "domain": "CORNER",
+      "type": "FLOAT_COLOR",
+      "min_rgb": 0.7800004482269287,
+      "max_rgb": 0.9999986290931702
+    },
+    {
+      "mesh": "Garden_MushroomsAndPebbles",
+      "domain": "CORNER",
+      "type": "FLOAT_COLOR",
+      "min_rgb": 1,
+      "max_rgb": 1
+    },
+    {
+      "mesh": "Cabin_ClimbingIvy",
+      "domain": "CORNER",
+      "type": "FLOAT_COLOR",
+      "min_rgb": 1,
+      "max_rgb": 1
+    },
+    {
+      "mesh": "Garden_StoryDetails",
+      "domain": "CORNER",
+      "type": "FLOAT_COLOR",
+      "min_rgb": 1,
+      "max_rgb": 1
+    }
+  ],
+  "changed_meshes": [
+    "Garden_FeatherFerns",
+    "Garden_LavenderAndSeedHeads"
+  ],
+  "unchanged_non_target_fingerprints": {
+    "Island_Strata": "d485ad41fcfef1d79826f9b820c70bf7f6dc9d1c13a91fd3acd06f4b8e97d00e",
+    "Island_Meadow": "1477dbb1ee8e3addbc0bded179878c458732fb2e0050eafe576792ea967070c5",
+    "Island_CliffGardens": "d44792429b330d1bd04a57bbf1dbc2dc7511b919584cd638454af600c6d4eb61",
+    "Island_BrassMeridian": "2a25af8b61ee27c6888faf214ac9b00458157df957b2ef0c54e4b636879fd707",
+    "Garden_Walkways": "fb88a6bb205a2e959a3bd5c0cf90ef51b27f73dae6f7b7426ccd10d175135d63",
+    "Garden_HeroBoulders": "8598090dfe5e9631e3fc4a7b6613b475d5fd60a35d58f7a0a1de785a09be115c",
+    "Observatory_StoneAndBrass": "d84cb8a67c27e6e17e5bc6c75918b6c0c11388aaeafd3651355d7cfd1ad8ef80",
+    "Cabin_PlasterAndFoundation": "bb055f8506e865199921107c0272af48d7e18a20a9f3ea39b031d1d8684ea582",
+    "Cabin_IndividualShingles": "49ee3e2daafceb9d820c01f7cd4393846f3f766be4040e81ca790bf76e88ac00",
+    "Cabin_ReadingWindow_Glow": "ab1a7c34c69f1488eddc16bc1f2474bfa3eb47b05b708045b1e43e6d8d129738",
+    "Cabin_DoorAndAccessories": "bb6370c29761c1a3f53201a1b79a946709faf7916c513bbe837f5752698328b5",
+    "Cabin_Timber": "6b4753a38d3c5632fd99eb234bc5a13e7f756069754769a221563e070fb40d08",
+    "LampBase_A": "b12276dd00aa8fc4cd9ae7162f06e60ffadedbc2cbc26f7ca9cca547cd872f85",
+    "LampBase_B": "aff87264784cc2160fc7fa3745a3b75d416e3d6896cc20f8b9bc0bc20f43f57c",
+    "LampBase_C": "794643c1f016ae5077e4a32bd949d8e2a50e4116cc9c17532adac633d228561c",
+    "Garden_Bench": "b47aef82086ab8c111bdc1490d042f7079c99e3c82cbc4651cb4a2bbd16a0b05",
+    "Cliff_Pier": "f32f42fd688fad5ca5888284cc115842ff5c63a33548fb8a20fe77d158c4c06c",
+    "Garden_TreeTrunks": "55ef6562d9e78b8c4fb71966c21af47168254b80a21a20d11fb540f0e235ec9e",
+    "Garden_TreeCanopies": "bdca462568abd3f5268f18b2cd3464a4f43672e0af56044c58d870fb7d65e93c",
+    "Garden_CanopyLeafEdges": "027691d0f675892afba7eca4d7cb091d3a396318303d437cb6eb18ed3083983d",
+    "MoonDial_Sculpture": "c8131421be778ac3231cb9d1c72e12e5b74aafc5e4365c0bc9dd8b9223bdc05c",
+    "Garden_CreepingMeadowLeaves": "c5a4cdde1aa9b54c6397607216a8f99c149105e9428617613b306a0f3dc09558",
+    "Garden_Wildflowers": "4bf728222820f5e95c226bd387cac61cc73d1c34d16afaaf3dbc2c1dc070a6c4",
+    "Garden_GrassTufts": "d2dcaaf0429d6fd60ebfef3415baab25cf7186ff64d80b9e0c45689821be1e48",
+    "Garden_MushroomsAndPebbles": "e036db1693ff0b8e5ff45f2a62168c707ec3a9ac42b79c73052aff139dd60418",
+    "Cabin_ClimbingIvy": "a0f0b4fafe63f9914c2a2e7470ace0d5a65802a588c08def1f5e5da766b2663d",
+    "Garden_StoryDetails": "a3b3ea3c093ff6965a8c47c039bcdc94fce0f7d49f1c48817e4fc46bf12fa532"
+  },
+  "anchors_frozen": {
+    "Anchor_Lamp_A": [
+      [
+        1,
+        0,
+        0,
+        -4.5
+      ],
+      [
+        0,
+        1,
+        0,
+        2
+      ],
+      [
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1
+      ]
+    ],
+    "Anchor_Lamp_B": [
+      [
+        1,
+        0,
+        0,
+        1.7999999523162842
+      ],
+      [
+        0,
+        1,
+        0,
+        -3.4000000953674316
+      ],
+      [
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1
+      ]
+    ],
+    "Anchor_Lamp_C": [
+      [
+        1,
+        0,
+        0,
+        4.699999809265137
+      ],
+      [
+        0,
+        1,
+        0,
+        2.4000000953674316
+      ],
+      [
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1
+      ]
+    ],
+    "Anchor_LampHead_A": [
+      [
+        1,
+        0,
+        0,
+        -4.5
+      ],
+      [
+        0,
+        1,
+        0,
+        2
+      ],
+      [
+        0,
+        0,
+        1,
+        1.850000023841858
+      ],
+      [
+        0,
+        0,
+        0,
+        1
+      ]
+    ],
+    "Anchor_LampHead_B": [
+      [
+        1,
+        0,
+        0,
+        1.7999999523162842
+      ],
+      [
+        0,
+        1,
+        0,
+        -3.4000000953674316
+      ],
+      [
+        0,
+        0,
+        1,
+        1.850000023841858
+      ],
+      [
+        0,
+        0,
+        0,
+        1
+      ]
+    ],
+    "Anchor_LampHead_C": [
+      [
+        1,
+        0,
+        0,
+        4.699999809265137
+      ],
+      [
+        0,
+        1,
+        0,
+        2.4000000953674316
+      ],
+      [
+        0,
+        0,
+        1,
+        1.850000023841858
+      ],
+      [
+        0,
+        0,
+        0,
+        1
+      ]
+    ],
+    "Anchor_Target_Path": [
+      [
+        1,
+        0,
+        0,
+        -1.7999999523162842
+      ],
+      [
+        0,
+        1,
+        0,
+        3.200000047683716
+      ],
+      [
+        0,
+        0,
+        1,
+        0.07999999821186066
+      ],
+      [
+        0,
+        0,
+        0,
+        1
+      ]
+    ],
+    "Anchor_Target_Bench": [
+      [
+        1,
+        0,
+        0,
+        -5.800000190734863
+      ],
+      [
+        0,
+        1,
+        0,
+        -0.15000000596046448
+      ],
+      [
+        0,
+        0,
+        1,
+        0.10000000149011612
+      ],
+      [
+        0,
+        0,
+        0,
+        1
+      ]
+    ],
+    "Anchor_Target_Window": [
+      [
+        1,
+        0,
+        0,
+        -4.099999904632568
+      ],
+      [
+        0,
+        1,
+        0,
+        -3.049999952316284
+      ],
+      [
+        0,
+        0,
+        1,
+        1.600000023841858
+      ],
+      [
+        0,
+        0,
+        0,
+        1
+      ]
+    ],
+    "Anchor_Target_Dock": [
+      [
+        1,
+        0,
+        0,
+        6.900000095367432
+      ],
+      [
+        0,
+        1,
+        0,
+        3.3499999046325684
+      ],
+      [
+        0,
+        0,
+        1,
+        0.11999999731779099
+      ],
+      [
+        0,
+        0,
+        0,
+        1
+      ]
+    ],
+    "Anchor_Cabin": [
+      [
+        1,
+        0,
+        0,
+        -4.099999904632568
+      ],
+      [
+        0,
+        1,
+        0,
+        -4.050000190734863
+      ],
+      [
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1
+      ]
+    ],
+    "Anchor_StarAltar": [
+      [
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        -0.3499999940395355
+      ],
+      [
+        0,
+        0,
+        1,
+        0.07999999821186066
+      ],
+      [
+        0,
+        0,
+        0,
+        1
+      ]
+    ],
+    "Anchor_Moon": [
+      [
+        1,
+        0,
+        0,
+        3.299999952316284
+      ],
+      [
+        0,
+        1,
+        0,
+        -5.400000095367432
+      ],
+      [
+        0,
+        0,
+        1,
+        1.7999999523162842
+      ],
+      [
+        0,
+        0,
+        0,
+        1
+      ]
+    ],
+    "Anchor_PlayerSpawn": [
+      [
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        5.599999904632568
+      ],
+      [
+        0,
+        0,
+        1,
+        0.10000000149011612
+      ],
+      [
+        0,
+        0,
+        0,
+        1
+      ]
+    ]
+  },
+  "design_changes": [
+    "68 frozen lavender roots: curved fine stem, 27 staggered miniature five-lobed corollas per retained plant, tapering spike.",
+    "Fern roots and directions recovered from frozen stem graph: curved rachis, alternate narrow pinnae with convex midrib and downturned ends.",
+    "Two target meshes only. No grass density, world lighting, shader, collider, texture or non-target geometry changes."
+  ],
+  "lavender": [
+    {
+      "index": 0,
+      "root_unity": [
+        -4.600184440612793,
+        0.019999999552965164,
+        -2.0668492317199707
+      ],
+      "height": 0.3805587701499462,
+      "flower_count": 27,
+      "retained": true,
+      "tries": [
+        {
+          "bend_scale": 1,
+          "blocked": {}
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "root_unity": [
+        -2.848633289337158,
+        0.05720480903983116,
+        -4.132003307342529
+      ],
+      "height": 0.4705807901918888,
+      "flower_count": 27,
+      "retained": true,
+      "tries": [
+        {
+          "bend_scale": 1,
+          "blocked": {}
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "root_unity": [
+        -6.91197395324707,
+        0.047246091067790985,
+        5.6220316886901855
+      ],
+      "height": 0.4231434836983681,
+      "flower_count": 27,
+      "retained": true,
+      "tries": [
+        {
+          "bend_scale": 1,
+          "blocked": {}
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "root_unity": [
+        1.4179314374923706,
+        0.044881466776132584,
+        5.807121276855469
+      ],
+      "height": 0.4361959658563137,
+      "flower_count": 27,
+      "retained": true,
+      "tries": [
+        {
+          "bend_scale": 1,
+          "blocked": {}
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "root_unity": [
+        6.369263648986816,
+        0.04886733368039131,
+        0.879452109336853
+      ],
+      "height": 0.32025886699557304,
+      "flower_count": 27,
+      "retained": true,
+      "tries": [
+        {
+          "bend_scale": 1,
+          "blocked": {}
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "root_unity": [
+        -1.2976956367492676,
+        0.025889096781611443,
+        3.3092048168182373
+      ],
+      "height": 0.4916875381022692,
+      "flower_count": 27,
+      "retained": true,
+      "tries": [
+        {
+          "bend_scale": 1,
+          "blocked": {}
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "root_unity": [
+        -5.202301025390625,
+        0.034964799880981445,
+        -0.9194378852844238
+      ],
+      "height": 0.46286046504974365,
+      "flower_count": 27,
+      "retained": true,
+      "tries": [
+        {
+          "bend_scale": 1,
+          "blocked": {}
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "root_unity": [
+        -3.6555490493774414,
+        0.022914813831448555,
+        -4.1176676750183105
+      ],
+      "height": 0.313124967738986,
+      "flower_count": 27,
+      "retained": true,
+      "tries": [
+        {
+          "bend_scale": 1,
+          "blocked": {}
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "root_unity": [
+        5.7912750244140625,
+        0.023410147055983543,
+        -1.2395490407943726
+      ],
+      "height": 0.49673723615705967,
+      "flower_count": 27,
+      "retained": true,
+      "tries": [
+        {
+          "bend_scale": 1,
+          "blocked": {}
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "root_unity": [
+        -6.602558135986328,
+        0.00370610854588449,
+        4.850630283355713
+      ],
+      "height": 0.3005370090249926,
+      "flower_count": 27,
+      "retained": true,
+      "tries": [
+        {
+          "bend_scale": 1,
+          "blocked": {}
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "root_unity": [
+        1.7082159519195557,
+        0.06360864639282227,
+        4.859713554382324
+      ],
+      "height": 0.3542443513870239,
+      "flower_count": 27,
+      "retained": true,
+      "tries": [
+        {
+          "bend_scale": 1,
+          "blocked": {}
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "root_unity": [
+        6.206121444702148,
+        0.04027952253818512,
+        1.0332523584365845
+      ],
+      "height": 0.5464959591627121,
+      "flower_count": 27,
+      "retained": true,
+      "tries": [
+        {
+          "bend_scale": 1,
+          "blocked": {}
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "root_unity": [
+        -1.2459125518798828,
+        0.031515806913375854,
+        4.246419906616211
+      ],
+      "height": 0.4306069314479828,
+      "flower_count": 27,
+      "retained": true,
+      "tries": [
+        {
+          "bend_scale": 1,
+          "blocked": {}
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "root_unity": [
+        -6.280765056610107,
+        0.05417626351118088,
+        -2.1842989921569824
+      ],
+      "height": 0.4434734955430031,
+      "flower_count": 27,
+      "retained": true,
+      "tries": [
+        {
+          "bend_scale": 1,
+          "blocked": {}
+        }
+      ]
+    },
+    {
+      "index": 14,
+      "root_unity": [
+        -2.779470443725586,
+        0.037263840436935425,
+        -2.755748987197876
+      ],
+      "height": 0.3676166534423828,
+      "flower_count": 27,
+      "retained": true,
+      "tries": [
+        {
+          "bend_scale": 1,
+          "blocked": {}
+        }
+      ]
+    },
+    {
+      "index": 15,
+      "root_unity": [
+        1.9685183763504028,
+        0.020403051748871803,
+        -4.58912992477417
+      ],
+      "height": 0.3843607362359762,
+      "flower_count": 27,
+      "retained": true,
+      "tries": [
+        {
+          "bend_scale": 1,
+          "blocked": {}
+        }
+      ]
+    },
+    {
+      "index": 16,
+      "root_unity": [
+        -7.134896278381348,
+        0.02083127573132515,
+        4.801670551300049
+      ],
+      "height": 0.3004087917506695,
+      "flower_count": 27,
+      "retained": true,
+      "tries": [
+        {
+          "bend_scale": 1,
+          "blocked": {}
+        }
+      ]
+    },
+    {
+      "index": 17,
+      "root_unity": [
+        2.132810592651367,
+        0.05721910297870636,
+        4.719810962677002
+      ],
+      "height": 0.36987222731113434,
+      "flower_count": 27,
+      "retained": true,
+      "tries": [
+        {
+          "bend_scale": 1,
+          "blocked": {}
+        }
+      ]
+    },
+    {
+      "index": 18,
+      "root_unity": [
+        7.130869388580322,
+        0.046621911227703094,
+        1.9415172338485718
+      ],
+      "height": 0.39101655036211014,
+      "flower_count": 27,
+      "retained": true,
+      "tries": [
+        {
+          "bend_scale": 1,
+          "blocked": {}
+        }
+      ]
+    },
+    {
+      "index": 19,
+      "root_unity": [
+        -2.050440788269043,
+        0.07425785064697266,
+        4.503500461578369
+      ],
+      "height": 0.5084412693977356,
+      "flower_count": 27,
+      "retained": true,
+      "tries": [
+        {
+          "bend_scale": 1,
+          "blocked": {}
+        }
+      ]
+    },
+    {
+      "index": 20,
+      "root_unity": [
+        -4.560454845428467,
+        0.019999999552965164,
+        -1.395027756690979
+      ],
+      "height": 0.42155836150050163,
+      "flower_count": 27,
+      "retained": true,
+      "tries": [
+        {
+          "bend_scale": 1,
+          "blocked": {}
+        }
+      ]
+    },
+    {
+      "index": 21,
+      "root_unity": [
+        -3.7812681198120117,
+        0.052774783223867416,
+        -2.612011194229126
+      ],
+      "height": 0.46411240473389626,
+      "flower_count": 27,
+      "retained": true,
+      "tries": [
+        {
+          "bend_scale": 1,
+          "blocked": {}
+        }
+      ]
+    },
+    {
+      "index": 22,
+      "root_unity": [
+        1.1488018035888672,
+        0.01931500993669033,
+        -6.124104976654053
+      ],
+      "height": 0.5137568656355143,
+      "flower_count": 27,
+      "retained": true,
+      "tries": [
+        {
+          "bend_scale": 1,
+          "blocked": {}
+        }
+      ]
+    },
+    {
+      "index": 23,
+      "root_unity": [
+        6.286518573760986,
+        0.048824213445186615,
+        -0.9282177090644836
+      ],
+      "height": 0.4494558945298195,
+      "flower_count": 27,
+      "retained": true,
+      "tries": [
+        {
+          "bend_scale": 1,
+          "blocked": {}
+        }
+      ]
+    },
+    {
+      "index": 24,
+      "root_unity": [
+        -6.847618103027344,
+        0.005910293664783239,
+        4.721742630004883
+      ],
+      "height": 0.4276509420014918,
+      "flower_count": 27,
+      "retained": true,
+      "tries": [
+        {
+          "bend_scale": 1,
+          "blocked": {}
+        }
+      ]
+    },
+    {
+      "index": 25,
+      "root_unity": [
+        2.3555850982666016,
+        0.019999999552965164,
+        6.018022537231445
+      ],
+      "height": 0.4131855480372906,
+      "flower_count": 27,
+      "retained": true,
+      "tries": [
+        {
+          "bend_scale": 1,
+          "blocked": {}
+        }
+      ]
+    },
+    {
+      "index": 26,
+      "root_unity": [
+        7.218449592590332,
+        0.09344042837619781,
+        0.8175429105758667
+      ],
+      "height": 0.3698950260877609,
+      "flower_count": 27,
+      "retained": true,
+      "tries": [
+        {
+          "bend_scale": 1,
+          "blocked": {}
+        }
+      ]
+    },
+    {
+      "index": 27,
+      "root_unity": [
+        -2.166198253631592,
+        0.08655136823654175,
+        3.8590590953826904
+      ],
+      "height": 0.4427878260612488,
+      "flower_count": 27,
+      "retained": true,
+      "tries": [
+        {
+          "bend_scale": 1,
+          "blocked": {}
+        }
+      ]
+    },
+    {
+      "index": 28,
+      "root_unity": [
+        -5.494142055511475,
+        0.048841577023267746,
+        -1.060938835144043
+      ],
+      "height": 0.3029183931648731,
+      "flower_count": 27,
+      "retained": true,
+      "tries": [
+        {
+          "bend_scale": 1,
+          "blocked": {}
+        }
+      ]
+    },
+    {
+      "index": 29,
+      "root_unity": [
+        -3.25488018989563,
+        0.04334313049912453,
+        -2.523575782775879
+      ],
+      "height": 0.483210738748312,
+      "flower_count": 27,
+      "retained": true,
+      "tries": [
+        {
+          "bend_scale": 1,
+          "blocked": {}
+        }
+      ]
+    },
+    {
+      "index": 30,
+      "root_unity": [
+        1.924633502960205,
+        0.0540604442358017,
+        -5.720195293426514
+      ],
+      "height": 0.4169241338968277,
+      "flower_count": 27,
+      "retained": true,
+      "tries": [
+        {
+          "bend_scale": 1,
+          "blocked": {}
+        }
+      ]
+    },
+    {
+      "index": 31,
+      "root_unity": [
+        4.929046630859375,
+        0.014372163452208042,
+        -0.3220042288303375
+      ],
+      "height": 0.39372102078050375,
+      "flower_count": 27,
+      "retained": true,
+      "tries": [
+        {
+          "bend_scale": 1,
+          "blocked": {}
+        }
+      ]
+    },
+    {
+      "index": 32,
+      "root_unity": [
+        -6.576316833496094,
+        0.05861446633934975,
+        5.9738335609436035
+      ],
+      "height": 0.34862392768263817,
+      "flower_count": 27,
+      "retained": true,
+      "tries": [
+        {
+          "bend_scale": 1,
+          "blocked": {}
+        }
+      ]
+    },
+    {
+      "index": 33,
+      "root_unity": [
+        1.2430493831634521,
+        0.03703906014561653,
+        5.756561756134033
+      ],
+      "height": 0.31220708414912224,
+      "flower_count": 27,
+      "retained": true,
+      "tries": [
+        {
+          "bend_scale": 1,
+          "blocked": {}
+        }
+      ]
+    },
+    {
+      "index": 34,
+      "root_unity": [
+        7.210165023803711,
+        0.09307581931352615,
+        0.8407225012779236
+      ],
+      "height": 0.43756698817014694,
+      "flower_count": 27,
+      "retained": true,
+      "tries": [
+        {
+          "bend_scale": 1,
+          "blocked": {}
+        }
+      ]
+    },
+    {
+      "index": 35,
+      "root_unity": [
+        -1.956402063369751,
+        0.050666723400354385,
+        3.0478708744049072
+      ],
+      "height": 0.47922345623373985,
+      "flower_count": 27,
+      "retained": true,
+      "tries": [
+        {
+          "bend_scale": 1,
+          "blocked": {}
+        }
+      ]
+    },
+    {
+      "index": 36,
+      "root_unity": [
+        -6.244048118591309,
+        0.052675195038318634,
+        -2.1573140621185303
+      ],
+      "height": 0.36661794036626816,
+      "flower_count": 27,
+      "retained": true,
+      "tries": [
+        {
+          "bend_scale": 1,
+          "blocked": {}
+        }
+      ]
+    },
+    {
+      "index": 37,
+      "root_unity": [
+        -3.808664321899414,
+        0.034016840159893036,
+        -3.1616439819335938
+      ],
+      "height": 0.5490951612591743,
+      "flower_count": 27,
+      "retained": true,
+      "tries": [
+        {
+          "bend_scale": 1,
+          "blocked": {}
+        }
+      ]
+    },
+    {
+      "index": 38,
+      "root_unity": [
+        1.8874017000198364,
+        0.03520701825618744,
+        -5.08733606338501
+      ],
+      "height": 0.5452627688646317,
+      "flower_count": 27,
+      "retained": true,
+      "tries": [
+        {
+          "bend_scale": 1,
+          "blocked": {}
+        }
+      ]
+    },
+    {
+      "index": 39,
+      "root_unity": [
+        4.880598068237305,
+        0.019999999552965164,
+        -0.7037216424942017
+      ],
+      "height": 0.5533935241401196,
+      "flower_count": 27,
+      "retained": true,
+      "tries": [
+        {
+          "bend_scale": 1,
+          "blocked": {}
+        }
+      ]
+    },
+    {
+      "index": 40,
+      "root_unity": [
+        -6.74777889251709,
+        0.047537073493003845,
+        5.640932083129883
+      ],
+      "height": 0.4355904310941696,
+      "flower_count": 27,
+      "retained": true,
+      "tries": [
+        {
+          "bend_scale": 1,
+          "blocked": {}
+        }
+      ]
+    },
+    {
+      "index": 41,
+      "root_unity": [
+        2.235539197921753,
+        0.0565914511680603,
+        4.7333855628967285
+      ],
+      "height": 0.4459990859031677,
+      "flower_count": 27,
+      "retained": true,
+      "tries": [
+        {
+          "bend_scale": 1,
+          "blocked": {}
+        }
+      ]
+    },
+    {
+      "index": 42,
+      "root_unity": [
+        6.937923908233643,
+        0.08434464037418365,
+        0.48734334111213684
+      ],
+      "height": 0.5206646174192429,
+      "flower_count": 27,
+      "retained": true,
+      "tries": [
+        {
+          "bend_scale": 1,
+          "blocked": {}
+        }
+      ]
+    },
+    {
+      "index": 43,
+      "root_unity": [
+        -1.878404974937439,
+        0.07323558628559113,
+        3.9904775619506836
+      ],
+      "height": 0.523674950003624,
+      "flower_count": 27,
+      "retained": true,
+      "tries": [
+        {
+          "bend_scale": 1,
+          "blocked": {}
+        }
+      ]
+    },
+    {
+      "index": 44,
+      "root_unity": [
+        -4.627631664276123,
+        0.019999999552965164,
+        -2.3052804470062256
+      ],
+      "height": 0.5287794880568981,
+      "flower_count": 27,
+      "retained": true,
+      "tries": [
+        {
+          "bend_scale": 1,
+          "blocked": {}
+        }
+      ]
+    },
+    {
+      "index": 45,
+      "root_unity": [
+        -4.322641372680664,
+        0.048292625695466995,
+        -3.20392107963562
+      ],
+      "height": 0.3463503532111645,
+      "flower_count": 27,
+      "retained": true,
+      "tries": [
+        {
+          "bend_scale": 1,
+          "blocked": {}
+        }
+      ]
+    },
+    {
+      "index": 46,
+      "root_unity": [
+        1.1796801090240479,
+        0.03915020078420639,
+        -4.718870162963867
+      ],
+      "height": 0.40455345064401627,
+      "flower_count": 27,
+      "retained": true,
+      "tries": [
+        {
+          "bend_scale": 1,
+          "blocked": {}
+        }
+      ]
+    },
+    {
+      "index": 47,
+      "root_unity": [
+        4.621245861053467,
+        0.01890554465353489,
+        -0.012015930376946926
+      ],
+      "height": 0.4435358103364706,
+      "flower_count": 27,
+      "retained": true,
+      "tries": [
+        {
+          "bend_scale": 1,
+          "blocked": {}
+        }
+      ]
+    },
+    {
+      "index": 48,
+      "root_unity": [
+        -6.30946159362793,
+        0.04691420868039131,
+        5.79838752746582
+      ],
+      "height": 0.32118527218699455,
+      "flower_count": 27,
+      "retained": true,
+      "tries": [
+        {
+          "bend_scale": 1,
+          "blocked": {}
+        }
+      ]
+    },
+    {
+      "index": 49,
+      "root_unity": [
+        1.5345888137817383,
+        0.06245465949177742,
+        5.315431594848633
+      ],
+      "height": 0.38720590993762016,
+      "flower_count": 27,
+      "retained": true,
+      "tries": [
+        {
+          "bend_scale": 1,
+          "blocked": {}
+        }
+      ]
+    },
+    {
+      "index": 50,
+      "root_unity": [
+        6.091888427734375,
+        0.04199603572487831,
+        1.4384843111038208
+      ],
+      "height": 0.40997638925909996,
+      "flower_count": 27,
+      "retained": true,
+      "tries": [
+        {
+          "bend_scale": 1,
+          "blocked": {}
+        }
+      ]
+    },
+    {
+      "index": 51,
+      "root_unity": [
+        -2.258424997329712,
+        0.019999999552965164,
+        3.01202130317688
+      ],
+      "height": 0.34871498867869377,
+      "flower_count": 27,
+      "retained": true,
+      "tries": [
+        {
+          "bend_scale": 1,
+          "blocked": {}
+        }
+      ]
+    },
+    {
+      "index": 52,
+      "root_unity": [
+        -5.665069580078125,
+        0.04883133992552757,
+        -1.4950276613235474
+      ],
+      "height": 0.3871326483786106,
+      "flower_count": 27,
+      "retained": true,
+      "tries": [
+        {
+          "bend_scale": 1,
+          "blocked": {}
+        }
+      ]
+    },
+    {
+      "index": 53,
+      "root_unity": [
+        -4.2838215827941895,
+        0.04245702922344208,
+        -3.4165947437286377
+      ],
+      "height": 0.4289868026971817,
+      "flower_count": 27,
+      "retained": true,
+      "tries": [
+        {
+          "bend_scale": 1,
+          "blocked": {}
+        }
+      ]
+    },
+    {
+      "index": 54,
+      "root_unity": [
+        2.3714585304260254,
+        0.07349488884210587,
+        5.614021301269531
+      ],
+      "height": 0.3239680454134941,
+      "flower_count": 27,
+      "retained": true,
+      "tries": [
+        {
+          "bend_scale": 1,
+          "blocked": {}
+        }
+      ]
+    },
+    {
+      "index": 55,
+      "root_unity": [
+        6.404327392578125,
+        0.04333703592419624,
+        1.9474499225616455
+      ],
+      "height": 0.36154602095484734,
+      "flower_count": 27,
+      "retained": true,
+      "tries": [
+        {
+          "bend_scale": 1,
+          "blocked": {}
+        }
+      ]
+    },
+    {
+      "index": 56,
+      "root_unity": [
+        -1.4936290979385376,
+        0.04790716990828514,
+        4.095272541046143
+      ],
+      "height": 0.5044233836233616,
+      "flower_count": 27,
+      "retained": true,
+      "tries": [
+        {
+          "bend_scale": 1,
+          "blocked": {}
+        }
+      ]
+    },
+    {
+      "index": 57,
+      "root_unity": [
+        -5.82783317565918,
+        0.06051318347454071,
+        -1.1108193397521973
+      ],
+      "height": 0.4919515997171402,
+      "flower_count": 27,
+      "retained": true,
+      "tries": [
+        {
+          "bend_scale": 1,
+          "blocked": {}
+        }
+      ]
+    },
+    {
+      "index": 58,
+      "root_unity": [
+        -3.6503756046295166,
+        0.019602550193667412,
+        -3.7559444904327393
+      ],
+      "height": 0.45626230724155903,
+      "flower_count": 27,
+      "retained": true,
+      "tries": [
+        {
+          "bend_scale": 1,
+          "blocked": {}
+        }
+      ]
+    },
+    {
+      "index": 59,
+      "root_unity": [
+        5.934286594390869,
+        0.042097266763448715,
+        -0.44034355878829956
+      ],
+      "height": 0.4967918433248997,
+      "flower_count": 27,
+      "retained": true,
+      "tries": [
+        {
+          "bend_scale": 1,
+          "blocked": {}
+        }
+      ]
+    },
+    {
+      "index": 60,
+      "root_unity": [
+        -6.322505474090576,
+        -0.0006892451783642173,
+        4.866762638092041
+      ],
+      "height": 0.52503410668578,
+      "flower_count": 27,
+      "retained": true,
+      "tries": [
+        {
+          "bend_scale": 1,
+          "blocked": {}
+        }
+      ]
+    },
+    {
+      "index": 61,
+      "root_unity": [
+        1.8287705183029175,
+        0.06697490811347961,
+        5.727752208709717
+      ],
+      "height": 0.4818279445171356,
+      "flower_count": 27,
+      "retained": true,
+      "tries": [
+        {
+          "bend_scale": 1,
+          "blocked": {}
+        }
+      ]
+    },
+    {
+      "index": 62,
+      "root_unity": [
+        5.950323581695557,
+        0.03661260008811951,
+        1.1716349124908447
+      ],
+      "height": 0.4987511932849884,
+      "flower_count": 27,
+      "retained": true,
+      "tries": [
+        {
+          "bend_scale": 1,
+          "blocked": {}
+        }
+      ]
+    },
+    {
+      "index": 63,
+      "root_unity": [
+        -1.814867615699768,
+        0.07073600590229034,
+        4.195806503295898
+      ],
+      "height": 0.3845357447862625,
+      "flower_count": 27,
+      "retained": true,
+      "tries": [
+        {
+          "bend_scale": 1,
+          "blocked": {}
+        }
+      ]
+    },
+    {
+      "index": 64,
+      "root_unity": [
+        -6.56131649017334,
+        0.061284564435482025,
+        -1.434598445892334
+      ],
+      "height": 0.34218544512987137,
+      "flower_count": 27,
+      "retained": true,
+      "tries": [
+        {
+          "bend_scale": 1,
+          "blocked": {}
+        }
+      ]
+    },
+    {
+      "index": 65,
+      "root_unity": [
+        -4.382066249847412,
+        0.0521593913435936,
+        -3.006481409072876
+      ],
+      "height": 0.5428107753396034,
+      "flower_count": 27,
+      "retained": true,
+      "tries": [
+        {
+          "bend_scale": 1,
+          "blocked": {}
+        }
+      ]
+    },
+    {
+      "index": 66,
+      "root_unity": [
+        2.303096294403076,
+        0.017803387716412544,
+        -4.474862098693848
+      ],
+      "height": 0.45465455763041973,
+      "flower_count": 27,
+      "retained": true,
+      "tries": [
+        {
+          "bend_scale": 1,
+          "blocked": {}
+        }
+      ]
+    },
+    {
+      "index": 67,
+      "root_unity": [
+        5.647041320800781,
+        0.02965409867465496,
+        -0.6686822175979614
+      ],
+      "height": 0.4324601162225008,
+      "flower_count": 27,
+      "retained": true,
+      "tries": [
+        {
+          "bend_scale": 1,
+          "blocked": {}
+        }
+      ]
+    }
+  ],
+  "ferns": [
+    {
+      "index": 0,
+      "root_unity": [
+        -1.921491026878357,
+        0.0821959599852562,
+        7.640132904052734
+      ],
+      "original_length": 0.35240011518345943,
+      "retained": true,
+      "tries": [
+        {
+          "extent": 1,
+          "blocked": {}
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "root_unity": [
+        -1.921491026878357,
+        0.0821959599852562,
+        7.640132904052734
+      ],
+      "original_length": 0.4182092564047598,
+      "retained": true,
+      "tries": [
+        {
+          "extent": 1,
+          "blocked": {}
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "root_unity": [
+        -1.921491026878357,
+        0.0821959599852562,
+        7.640132904052734
+      ],
+      "original_length": 0.4266923315694851,
+      "retained": true,
+      "tries": [
+        {
+          "extent": 1,
+          "blocked": {}
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "root_unity": [
+        -1.921491026878357,
+        0.0821959599852562,
+        7.640132904052734
+      ],
+      "original_length": 0.43261145249950633,
+      "retained": true,
+      "tries": [
+        {
+          "extent": 1,
+          "blocked": {}
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "root_unity": [
+        0.3908464312553406,
+        0.0426756888628006,
+        -8.187637329101562
+      ],
+      "original_length": 0.5186966703475083,
+      "retained": true,
+      "tries": [
+        {
+          "extent": 1,
+          "blocked": {}
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "root_unity": [
+        0.3908464312553406,
+        0.0426756888628006,
+        -8.187637329101562
+      ],
+      "original_length": 0.37749498371547746,
+      "retained": true,
+      "tries": [
+        {
+          "extent": 1,
+          "blocked": {}
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "root_unity": [
+        0.3908464312553406,
+        0.0426756888628006,
+        -8.187637329101562
+      ],
+      "original_length": 0.3351528443240426,
+      "retained": true,
+      "tries": [
+        {
+          "extent": 1,
+          "blocked": {}
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "root_unity": [
+        0.3908464312553406,
+        0.0426756888628006,
+        -8.187637329101562
+      ],
+      "original_length": 0.4857937498607138,
+      "retained": true,
+      "tries": [
+        {
+          "extent": 1,
+          "blocked": {}
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "root_unity": [
+        1.9850938320159912,
+        0.06554755568504333,
+        4.906425476074219
+      ],
+      "original_length": 0.46899736305015427,
+      "retained": true,
+      "tries": [
+        {
+          "extent": 1,
+          "blocked": {}
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "root_unity": [
+        1.9850938320159912,
+        0.06554755568504333,
+        4.906425476074219
+      ],
+      "original_length": 0.3748786315116412,
+      "retained": true,
+      "tries": [
+        {
+          "extent": 1,
+          "blocked": {}
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "root_unity": [
+        1.9850938320159912,
+        0.06554755568504333,
+        4.906425476074219
+      ],
+      "original_length": 0.5210977949324326,
+      "retained": true,
+      "tries": [
+        {
+          "extent": 1,
+          "blocked": {}
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "root_unity": [
+        1.9850938320159912,
+        0.06554755568504333,
+        4.906425476074219
+      ],
+      "original_length": 0.4056359048969689,
+      "retained": true,
+      "tries": [
+        {
+          "extent": 1,
+          "blocked": {}
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "root_unity": [
+        1.8139652013778687,
+        0.05961760878562927,
+        4.722323894500732
+      ],
+      "original_length": 0.5327072046852824,
+      "retained": true,
+      "tries": [
+        {
+          "extent": 1,
+          "blocked": {}
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "root_unity": [
+        1.8139652013778687,
+        0.05961760878562927,
+        4.722323894500732
+      ],
+      "original_length": 0.38252843442776163,
+      "retained": true,
+      "tries": [
+        {
+          "extent": 1,
+          "blocked": {}
+        }
+      ]
+    },
+    {
+      "index": 14,
+      "root_unity": [
+        1.8139652013778687,
+        0.05961760878562927,
+        4.722323894500732
+      ],
+      "original_length": 0.5060765019525373,
+      "retained": true,
+      "tries": [
+        {
+          "extent": 1,
+          "blocked": {}
+        }
+      ]
+    },
+    {
+      "index": 15,
+      "root_unity": [
+        1.8139652013778687,
+        0.05961760878562927,
+        4.722323894500732
+      ],
+      "original_length": 0.3631843058124484,
+      "retained": true,
+      "tries": [
+        {
+          "extent": 1,
+          "blocked": {}
+        }
+      ]
+    },
+    {
+      "index": 16,
+      "root_unity": [
+        5.306491374969482,
+        0.020488515496253967,
+        -0.9050730466842651
+      ],
+      "original_length": 0.32914682283662117,
+      "retained": true,
+      "tries": [
+        {
+          "extent": 1,
+          "blocked": {}
+        }
+      ]
+    },
+    {
+      "index": 17,
+      "root_unity": [
+        5.306491374969482,
+        0.020488515496253967,
+        -0.9050730466842651
+      ],
+      "original_length": 0.37953227168162007,
+      "retained": true,
+      "tries": [
+        {
+          "extent": 1,
+          "blocked": {}
+        }
+      ]
+    },
+    {
+      "index": 18,
+      "root_unity": [
+        5.306491374969482,
+        0.020488515496253967,
+        -0.9050730466842651
+      ],
+      "original_length": 0.44276457223653637,
+      "retained": true,
+      "tries": [
+        {
+          "extent": 1,
+          "blocked": {}
+        }
+      ]
+    },
+    {
+      "index": 19,
+      "root_unity": [
+        5.306491374969482,
+        0.020488515496253967,
+        -0.9050730466842651
+      ],
+      "original_length": 0.465921773797039,
+      "retained": true,
+      "tries": [
+        {
+          "extent": 1,
+          "blocked": {}
+        }
+      ]
+    },
+    {
+      "index": 20,
+      "root_unity": [
+        -3.4457454681396484,
+        0.0572216734290123,
+        -6.976595878601074
+      ],
+      "original_length": 0.33648212636484576,
+      "retained": true,
+      "tries": [
+        {
+          "extent": 1,
+          "blocked": {}
+        }
+      ]
+    },
+    {
+      "index": 21,
+      "root_unity": [
+        -3.4457454681396484,
+        0.0572216734290123,
+        -6.976595878601074
+      ],
+      "original_length": 0.3653187526807367,
+      "retained": true,
+      "tries": [
+        {
+          "extent": 1,
+          "blocked": {}
+        }
+      ]
+    },
+    {
+      "index": 22,
+      "root_unity": [
+        -3.4457454681396484,
+        0.0572216734290123,
+        -6.976595878601074
+      ],
+      "original_length": 0.5073093537419082,
+      "retained": true,
+      "tries": [
+        {
+          "extent": 1,
+          "blocked": {}
+        }
+      ]
+    },
+    {
+      "index": 23,
+      "root_unity": [
+        -3.4457454681396484,
+        0.0572216734290123,
+        -6.976595878601074
+      ],
+      "original_length": 0.3377739961362992,
+      "retained": true,
+      "tries": [
+        {
+          "extent": 1,
+          "blocked": {}
+        }
+      ]
+    },
+    {
+      "index": 24,
+      "root_unity": [
+        -7.785991668701172,
+        0.025228232145309448,
+        -1.5768885612487793
+      ],
+      "original_length": 0.3633215078228198,
+      "retained": true,
+      "tries": [
+        {
+          "extent": 1,
+          "blocked": {}
+        }
+      ]
+    },
+    {
+      "index": 25,
+      "root_unity": [
+        -7.785991668701172,
+        0.025228232145309448,
+        -1.5768885612487793
+      ],
+      "original_length": 0.3495826191493712,
+      "retained": true,
+      "tries": [
+        {
+          "extent": 1,
+          "blocked": {}
+        }
+      ]
+    },
+    {
+      "index": 26,
+      "root_unity": [
+        -7.785991668701172,
+        0.025228232145309448,
+        -1.5768885612487793
+      ],
+      "original_length": 0.43935320459966537,
+      "retained": true,
+      "tries": [
+        {
+          "extent": 1,
+          "blocked": {}
+        }
+      ]
+    },
+    {
+      "index": 27,
+      "root_unity": [
+        -7.785991668701172,
+        0.025228232145309448,
+        -1.5768885612487793
+      ],
+      "original_length": 0.3414999612280927,
+      "retained": true,
+      "tries": [
+        {
+          "extent": 1,
+          "blocked": {}
+        }
+      ]
+    },
+    {
+      "index": 28,
+      "root_unity": [
+        0.1312294900417328,
+        0.07600373029708862,
+        7.448554039001465
+      ],
+      "original_length": 0.4498414561983181,
+      "retained": true,
+      "tries": [
+        {
+          "extent": 1,
+          "blocked": {}
+        }
+      ]
+    },
+    {
+      "index": 29,
+      "root_unity": [
+        0.1312294900417328,
+        0.07600373029708862,
+        7.448554039001465
+      ],
+      "original_length": 0.48908860027270296,
+      "retained": true,
+      "tries": [
+        {
+          "extent": 1,
+          "blocked": {}
+        }
+      ]
+    },
+    {
+      "index": 30,
+      "root_unity": [
+        0.1312294900417328,
+        0.07600373029708862,
+        7.448554039001465
+      ],
+      "original_length": 0.4979298304486296,
+      "retained": true,
+      "tries": [
+        {
+          "extent": 1,
+          "blocked": {}
+        }
+      ]
+    },
+    {
+      "index": 31,
+      "root_unity": [
+        0.1312294900417328,
+        0.07600373029708862,
+        7.448554039001465
+      ],
+      "original_length": 0.4497406432933019,
+      "retained": true,
+      "tries": [
+        {
+          "extent": 1,
+          "blocked": {}
+        }
+      ]
+    },
+    {
+      "index": 32,
+      "root_unity": [
+        -0.6450223922729492,
+        0.062310174107551575,
+        7.484103202819824
+      ],
+      "original_length": 0.3271767191262988,
+      "retained": true,
+      "tries": [
+        {
+          "extent": 1,
+          "blocked": {}
+        }
+      ]
+    },
+    {
+      "index": 33,
+      "root_unity": [
+        -0.6450223922729492,
+        0.062310174107551575,
+        7.484103202819824
+      ],
+      "original_length": 0.48287206659634463,
+      "retained": true,
+      "tries": [
+        {
+          "extent": 1,
+          "blocked": {}
+        }
+      ]
+    },
+    {
+      "index": 34,
+      "root_unity": [
+        -0.6450223922729492,
+        0.062310174107551575,
+        7.484103202819824
+      ],
+      "original_length": 0.3626984871764923,
+      "retained": true,
+      "tries": [
+        {
+          "extent": 1,
+          "blocked": {}
+        }
+      ]
+    },
+    {
+      "index": 35,
+      "root_unity": [
+        -0.6450223922729492,
+        0.062310174107551575,
+        7.484103202819824
+      ],
+      "original_length": 0.5281381504549015,
+      "retained": true,
+      "tries": [
+        {
+          "extent": 1,
+          "blocked": {}
+        }
+      ]
+    },
+    {
+      "index": 36,
+      "root_unity": [
+        -0.5890705585479736,
+        0.05972457677125931,
+        6.0571722984313965
+      ],
+      "original_length": 0.4030837063226705,
+      "retained": true,
+      "tries": [
+        {
+          "extent": 1,
+          "blocked": {}
+        }
+      ]
+    },
+    {
+      "index": 37,
+      "root_unity": [
+        -0.5890705585479736,
+        0.05972457677125931,
+        6.0571722984313965
+      ],
+      "original_length": 0.3494444267269681,
+      "retained": true,
+      "tries": [
+        {
+          "extent": 1,
+          "blocked": {}
+        }
+      ]
+    },
+    {
+      "index": 38,
+      "root_unity": [
+        -0.5890705585479736,
+        0.05972457677125931,
+        6.0571722984313965
+      ],
+      "original_length": 0.4786703793711058,
+      "retained": true,
+      "tries": [
+        {
+          "extent": 1,
+          "blocked": {}
+        }
+      ]
+    },
+    {
+      "index": 39,
+      "root_unity": [
+        -0.5890705585479736,
+        0.05972457677125931,
+        6.0571722984313965
+      ],
+      "original_length": 0.5221316315845906,
+      "retained": true,
+      "tries": [
+        {
+          "extent": 1,
+          "blocked": {}
+        }
+      ]
+    },
+    {
+      "index": 40,
+      "root_unity": [
+        -5.687521934509277,
+        0.07909490168094635,
+        -4.218045711517334
+      ],
+      "original_length": 0.4550343469920166,
+      "retained": true,
+      "tries": [
+        {
+          "extent": 1,
+          "blocked": {}
+        }
+      ]
+    },
+    {
+      "index": 41,
+      "root_unity": [
+        -5.687521934509277,
+        0.07909490168094635,
+        -4.218045711517334
+      ],
+      "original_length": 0.5094827034946499,
+      "retained": true,
+      "tries": [
+        {
+          "extent": 1,
+          "blocked": {}
+        }
+      ]
+    },
+    {
+      "index": 42,
+      "root_unity": [
+        -5.687521934509277,
+        0.07909490168094635,
+        -4.218045711517334
+      ],
+      "original_length": 0.5045150251015493,
+      "retained": true,
+      "tries": [
+        {
+          "extent": 1,
+          "blocked": {}
+        }
+      ]
+    },
+    {
+      "index": 43,
+      "root_unity": [
+        -5.687521934509277,
+        0.07909490168094635,
+        -4.218045711517334
+      ],
+      "original_length": 0.4073474450761388,
+      "retained": true,
+      "tries": [
+        {
+          "extent": 1,
+          "blocked": {}
+        }
+      ]
+    },
+    {
+      "index": 44,
+      "root_unity": [
+        4.609893798828125,
+        0.019999999552965164,
+        -2.868104934692383
+      ],
+      "original_length": 0.5487661680426592,
+      "retained": false,
+      "tries": [
+        {
+          "extent": 1,
+          "blocked": {
+            "Cliff_Pier": 179
+          }
+        },
+        {
+          "extent": 0.88,
+          "blocked": {
+            "Cliff_Pier": 169
+          }
+        },
+        {
+          "extent": 0.72,
+          "blocked": {
+            "Cliff_Pier": 138
+          }
+        },
+        {
+          "extent": 0.55,
+          "blocked": {
+            "Cliff_Pier": 95
+          }
+        }
+      ]
+    },
+    {
+      "index": 45,
+      "root_unity": [
+        4.609893798828125,
+        0.019999999552965164,
+        -2.868104934692383
+      ],
+      "original_length": 0.4531032581703771,
+      "retained": true,
+      "tries": [
+        {
+          "extent": 1,
+          "blocked": {}
+        }
+      ]
+    },
+    {
+      "index": 46,
+      "root_unity": [
+        4.609893798828125,
+        0.019999999552965164,
+        -2.868104934692383
+      ],
+      "original_length": 0.3255174836443376,
+      "retained": true,
+      "tries": [
+        {
+          "extent": 1,
+          "blocked": {}
+        }
+      ]
+    },
+    {
+      "index": 47,
+      "root_unity": [
+        4.609893798828125,
+        0.019999999552965164,
+        -2.868104934692383
+      ],
+      "original_length": 0.4929101842869736,
+      "retained": true,
+      "tries": [
+        {
+          "extent": 1,
+          "blocked": {}
+        }
+      ]
+    },
+    {
+      "index": 48,
+      "root_unity": [
+        -5.965013027191162,
+        0.050527483224868774,
+        -3.5118560791015625
+      ],
+      "original_length": 0.541781379968722,
+      "retained": true,
+      "tries": [
+        {
+          "extent": 1,
+          "blocked": {}
+        }
+      ]
+    },
+    {
+      "index": 49,
+      "root_unity": [
+        -5.965013027191162,
+        0.050527483224868774,
+        -3.5118560791015625
+      ],
+      "original_length": 0.34750910723131934,
+      "retained": true,
+      "tries": [
+        {
+          "extent": 1,
+          "blocked": {}
+        }
+      ]
+    },
+    {
+      "index": 50,
+      "root_unity": [
+        -5.965013027191162,
+        0.050527483224868774,
+        -3.5118560791015625
+      ],
+      "original_length": 0.48203577390368707,
+      "retained": true,
+      "tries": [
+        {
+          "extent": 1,
+          "blocked": {}
+        }
+      ]
+    },
+    {
+      "index": 51,
+      "root_unity": [
+        -5.965013027191162,
+        0.050527483224868774,
+        -3.5118560791015625
+      ],
+      "original_length": 0.37127691974730265,
+      "retained": true,
+      "tries": [
+        {
+          "extent": 1,
+          "blocked": {}
+        }
+      ]
+    },
+    {
+      "index": 52,
+      "root_unity": [
+        7.468791961669922,
+        0.03087802231311798,
+        2.3902745246887207
+      ],
+      "original_length": 0.5410077218397724,
+      "retained": true,
+      "tries": [
+        {
+          "extent": 1,
+          "blocked": {}
+        }
+      ]
+    },
+    {
+      "index": 53,
+      "root_unity": [
+        7.468791961669922,
+        0.03087802231311798,
+        2.3902745246887207
+      ],
+      "original_length": 0.40226722193178904,
+      "retained": true,
+      "tries": [
+        {
+          "extent": 1,
+          "blocked": {}
+        }
+      ]
+    },
+    {
+      "index": 54,
+      "root_unity": [
+        7.468791961669922,
+        0.03087802231311798,
+        2.3902745246887207
+      ],
+      "original_length": 0.36799426046048817,
+      "retained": true,
+      "tries": [
+        {
+          "extent": 1,
+          "blocked": {}
+        }
+      ]
+    },
+    {
+      "index": 55,
+      "root_unity": [
+        7.468791961669922,
+        0.03087802231311798,
+        2.3902745246887207
+      ],
+      "original_length": 0.34330283450515137,
+      "retained": true,
+      "tries": [
+        {
+          "extent": 1,
+          "blocked": {}
+        }
+      ]
+    },
+    {
+      "index": 56,
+      "root_unity": [
+        1.2455039024353027,
+        0.02020484209060669,
+        6.996400356292725
+      ],
+      "original_length": 0.31174510398343014,
+      "retained": true,
+      "tries": [
+        {
+          "extent": 1,
+          "blocked": {}
+        }
+      ]
+    },
+    {
+      "index": 57,
+      "root_unity": [
+        1.2455039024353027,
+        0.02020484209060669,
+        6.996400356292725
+      ],
+      "original_length": 0.45476610283260477,
+      "retained": true,
+      "tries": [
+        {
+          "extent": 1,
+          "blocked": {}
+        }
+      ]
+    },
+    {
+      "index": 58,
+      "root_unity": [
+        1.2455039024353027,
+        0.02020484209060669,
+        6.996400356292725
+      ],
+      "original_length": 0.3319073291543187,
+      "retained": true,
+      "tries": [
+        {
+          "extent": 1,
+          "blocked": {}
+        }
+      ]
+    },
+    {
+      "index": 59,
+      "root_unity": [
+        1.2455039024353027,
+        0.02020484209060669,
+        6.996400356292725
+      ],
+      "original_length": 0.49679517719586375,
+      "retained": true,
+      "tries": [
+        {
+          "extent": 1,
+          "blocked": {}
+        }
+      ]
+    },
+    {
+      "index": 60,
+      "root_unity": [
+        -0.6507756114006042,
+        0.021885832771658897,
+        -5.336634635925293
+      ],
+      "original_length": 0.33592876711295494,
+      "retained": true,
+      "tries": [
+        {
+          "extent": 1,
+          "blocked": {}
+        }
+      ]
+    },
+    {
+      "index": 61,
+      "root_unity": [
+        -0.6507756114006042,
+        0.021885832771658897,
+        -5.336634635925293
+      ],
+      "original_length": 0.449403764108555,
+      "retained": false,
+      "tries": [
+        {
+          "extent": 1,
+          "blocked": {
+            "Garden_HeroBoulders": 27
+          }
+        },
+        {
+          "extent": 0.88,
+          "blocked": {
+            "Garden_HeroBoulders": 18
+          }
+        },
+        {
+          "extent": 0.72,
+          "blocked": {
+            "Garden_HeroBoulders": 11
+          }
+        },
+        {
+          "extent": 0.55,
+          "blocked": {
+            "Garden_HeroBoulders": 2
+          }
+        }
+      ]
+    },
+    {
+      "index": 62,
+      "retained": false,
+      "reason": "frozen partial frond omitted"
+    },
+    {
+      "index": 63,
+      "root_unity": [
+        -0.6507756114006042,
+        0.021885832771658897,
+        -5.336634635925293
+      ],
+      "original_length": 0.47120133918214835,
+      "retained": true,
+      "tries": [
+        {
+          "extent": 1,
+          "blocked": {}
+        }
+      ]
+    },
+    {
+      "index": 64,
+      "root_unity": [
+        -1.7379395961761475,
+        0.031459808349609375,
+        -5.549996852874756
+      ],
+      "original_length": 0.48540266845363605,
+      "retained": true,
+      "tries": [
+        {
+          "extent": 1,
+          "blocked": {
+            "Garden_HeroBoulders": 33
+          }
+        },
+        {
+          "extent": 0.88,
+          "blocked": {
+            "Garden_HeroBoulders": 23
+          }
+        },
+        {
+          "extent": 0.72,
+          "blocked": {
+            "Garden_HeroBoulders": 7
+          }
+        },
+        {
+          "extent": 0.55,
+          "blocked": {}
+        }
+      ]
+    },
+    {
+      "index": 65,
+      "root_unity": [
+        -1.7379395961761475,
+        0.031459808349609375,
+        -5.549996852874756
+      ],
+      "original_length": 0.4999792825329449,
+      "retained": true,
+      "tries": [
+        {
+          "extent": 1,
+          "blocked": {
+            "Garden_HeroBoulders": 48
+          }
+        },
+        {
+          "extent": 0.88,
+          "blocked": {
+            "Garden_HeroBoulders": 41
+          }
+        },
+        {
+          "extent": 0.72,
+          "blocked": {
+            "Garden_HeroBoulders": 21
+          }
+        },
+        {
+          "extent": 0.55,
+          "blocked": {}
+        }
+      ]
+    },
+    {
+      "index": 66,
+      "root_unity": [
+        -1.7379395961761475,
+        0.031459808349609375,
+        -5.549996852874756
+      ],
+      "original_length": 0.3580372662795962,
+      "retained": true,
+      "tries": [
+        {
+          "extent": 1,
+          "blocked": {}
+        }
+      ]
+    },
+    {
+      "index": 67,
+      "root_unity": [
+        -1.7379395961761475,
+        0.031459808349609375,
+        -5.549996852874756
+      ],
+      "original_length": 0.32044873378877625,
+      "retained": true,
+      "tries": [
+        {
+          "extent": 1,
+          "blocked": {}
+        }
+      ]
+    },
+    {
+      "index": 68,
+      "root_unity": [
+        -3.9799118041992188,
+        0.0707440972328186,
+        -5.691150665283203
+      ],
+      "original_length": 0.4803032379185756,
+      "retained": true,
+      "tries": [
+        {
+          "extent": 1,
+          "blocked": {}
+        }
+      ]
+    },
+    {
+      "index": 69,
+      "root_unity": [
+        -3.9799118041992188,
+        0.0707440972328186,
+        -5.691150665283203
+      ],
+      "original_length": 0.5202321423840568,
+      "retained": true,
+      "tries": [
+        {
+          "extent": 1,
+          "blocked": {}
+        }
+      ]
+    },
+    {
+      "index": 70,
+      "root_unity": [
+        -3.9799118041992188,
+        0.0707440972328186,
+        -5.691150665283203
+      ],
+      "original_length": 0.353503453258551,
+      "retained": true,
+      "tries": [
+        {
+          "extent": 1,
+          "blocked": {}
+        }
+      ]
+    },
+    {
+      "index": 71,
+      "root_unity": [
+        -3.9799118041992188,
+        0.0707440972328186,
+        -5.691150665283203
+      ],
+      "original_length": 0.41466542591883704,
+      "retained": true,
+      "tries": [
+        {
+          "extent": 1,
+          "blocked": {}
+        }
+      ]
+    },
+    {
+      "index": 72,
+      "root_unity": [
+        -4.354358673095703,
+        0.020000001415610313,
+        -2.3442981243133545
+      ],
+      "original_length": 0.4758808956343419,
+      "retained": true,
+      "tries": [
+        {
+          "extent": 1,
+          "blocked": {}
+        }
+      ]
+    },
+    {
+      "index": 73,
+      "root_unity": [
+        -4.354358673095703,
+        0.020000001415610313,
+        -2.3442981243133545
+      ],
+      "original_length": 0.45746268244399885,
+      "retained": true,
+      "tries": [
+        {
+          "extent": 1,
+          "blocked": {}
+        }
+      ]
+    },
+    {
+      "index": 74,
+      "root_unity": [
+        -4.354358673095703,
+        0.020000001415610313,
+        -2.3442981243133545
+      ],
+      "original_length": 0.4675372578712533,
+      "retained": true,
+      "tries": [
+        {
+          "extent": 1,
+          "blocked": {}
+        }
+      ]
+    },
+    {
+      "index": 75,
+      "root_unity": [
+        -4.354358673095703,
+        0.020000001415610313,
+        -2.3442981243133545
+      ],
+      "original_length": 0.378019345507343,
+      "retained": true,
+      "tries": [
+        {
+          "extent": 1,
+          "blocked": {}
+        }
+      ]
+    },
+    {
+      "index": 76,
+      "root_unity": [
+        3.2259182929992676,
+        0.015113912522792816,
+        -3.9109859466552734
+      ],
+      "original_length": 0.35480329166370034,
+      "retained": true,
+      "tries": [
+        {
+          "extent": 1,
+          "blocked": {}
+        }
+      ]
+    },
+    {
+      "index": 77,
+      "root_unity": [
+        3.2259182929992676,
+        0.015113912522792816,
+        -3.9109859466552734
+      ],
+      "original_length": 0.4509256088410181,
+      "retained": true,
+      "tries": [
+        {
+          "extent": 1,
+          "blocked": {}
+        }
+      ]
+    },
+    {
+      "index": 78,
+      "root_unity": [
+        3.2259182929992676,
+        0.015113912522792816,
+        -3.9109859466552734
+      ],
+      "original_length": 0.3549238063644565,
+      "retained": true,
+      "tries": [
+        {
+          "extent": 1,
+          "blocked": {}
+        }
+      ]
+    },
+    {
+      "index": 79,
+      "root_unity": [
+        3.2259182929992676,
+        0.015113912522792816,
+        -3.9109859466552734
+      ],
+      "original_length": 0.5067921327392885,
+      "retained": true,
+      "tries": [
+        {
+          "extent": 1,
+          "blocked": {}
+        }
+      ]
+    },
+    {
+      "index": 80,
+      "root_unity": [
+        -0.510226845741272,
+        0.0696619302034378,
+        7.237949371337891
+      ],
+      "original_length": 0.48755949709044555,
+      "retained": true,
+      "tries": [
+        {
+          "extent": 1,
+          "blocked": {}
+        }
+      ]
+    },
+    {
+      "index": 81,
+      "root_unity": [
+        -0.510226845741272,
+        0.0696619302034378,
+        7.237949371337891
+      ],
+      "original_length": 0.47450607884378765,
+      "retained": true,
+      "tries": [
+        {
+          "extent": 1,
+          "blocked": {}
+        }
+      ]
+    },
+    {
+      "index": 82,
+      "root_unity": [
+        -0.510226845741272,
+        0.0696619302034378,
+        7.237949371337891
+      ],
+      "original_length": 0.412771816289286,
+      "retained": true,
+      "tries": [
+        {
+          "extent": 1,
+          "blocked": {}
+        }
+      ]
+    },
+    {
+      "index": 83,
+      "root_unity": [
+        -0.510226845741272,
+        0.0696619302034378,
+        7.237949371337891
+      ],
+      "original_length": 0.3387743729338579,
+      "retained": true,
+      "tries": [
+        {
+          "extent": 1,
+          "blocked": {}
+        }
+      ]
+    },
+    {
+      "index": 84,
+      "root_unity": [
+        -6.447126388549805,
+        0.056104302406311035,
+        -3.6972198486328125
+      ],
+      "original_length": 0.40592298590903697,
+      "retained": true,
+      "tries": [
+        {
+          "extent": 1,
+          "blocked": {}
+        }
+      ]
+    },
+    {
+      "index": 85,
+      "root_unity": [
+        -6.447126388549805,
+        0.056104302406311035,
+        -3.6972198486328125
+      ],
+      "original_length": 0.40499863269933467,
+      "retained": true,
+      "tries": [
+        {
+          "extent": 1,
+          "blocked": {}
+        }
+      ]
+    },
+    {
+      "index": 86,
+      "root_unity": [
+        -6.447126388549805,
+        0.056104302406311035,
+        -3.6972198486328125
+      ],
+      "original_length": 0.4704206651009144,
+      "retained": true,
+      "tries": [
+        {
+          "extent": 1,
+          "blocked": {}
+        }
+      ]
+    },
+    {
+      "index": 87,
+      "root_unity": [
+        -6.447126388549805,
+        0.056104302406311035,
+        -3.6972198486328125
+      ],
+      "original_length": 0.5427490144481404,
+      "retained": true,
+      "tries": [
+        {
+          "extent": 1,
+          "blocked": {}
+        }
+      ]
+    },
+    {
+      "index": 88,
+      "root_unity": [
+        4.899905204772949,
+        0.047706108540296555,
+        3.964001178741455
+      ],
+      "original_length": 0.5337028423665064,
+      "retained": true,
+      "tries": [
+        {
+          "extent": 1,
+          "blocked": {}
+        }
+      ]
+    },
+    {
+      "index": 89,
+      "root_unity": [
+        4.899905204772949,
+        0.047706108540296555,
+        3.964001178741455
+      ],
+      "original_length": 0.46552263876288064,
+      "retained": true,
+      "tries": [
+        {
+          "extent": 1,
+          "blocked": {}
+        }
+      ]
+    },
+    {
+      "index": 90,
+      "root_unity": [
+        4.899905204772949,
+        0.047706108540296555,
+        3.964001178741455
+      ],
+      "original_length": 0.5118681659030491,
+      "retained": true,
+      "tries": [
+        {
+          "extent": 1,
+          "blocked": {}
+        }
+      ]
+    },
+    {
+      "index": 91,
+      "root_unity": [
+        4.899905204772949,
+        0.047706108540296555,
+        3.964001178741455
+      ],
+      "original_length": 0.4246035351742066,
+      "retained": true,
+      "tries": [
+        {
+          "extent": 1,
+          "blocked": {}
+        }
+      ]
+    },
+    {
+      "index": 92,
+      "root_unity": [
+        3.387145757675171,
+        0.048615649342536926,
+        -6.556369781494141
+      ],
+      "original_length": 0.4122407814439419,
+      "retained": true,
+      "tries": [
+        {
+          "extent": 1,
+          "blocked": {}
+        }
+      ]
+    },
+    {
+      "index": 93,
+      "root_unity": [
+        3.387145757675171,
+        0.048615649342536926,
+        -6.556369781494141
+      ],
+      "original_length": 0.47728482306448056,
+      "retained": true,
+      "tries": [
+        {
+          "extent": 1,
+          "blocked": {}
+        }
+      ]
+    },
+    {
+      "index": 94,
+      "root_unity": [
+        3.387145757675171,
+        0.048615649342536926,
+        -6.556369781494141
+      ],
+      "original_length": 0.46431413600936106,
+      "retained": true,
+      "tries": [
+        {
+          "extent": 1,
+          "blocked": {}
+        }
+      ]
+    },
+    {
+      "index": 95,
+      "root_unity": [
+        3.387145757675171,
+        0.048615649342536926,
+        -6.556369781494141
+      ],
+      "original_length": 0.36775766020778516,
+      "retained": true,
+      "tries": [
+        {
+          "extent": 1,
+          "blocked": {}
+        }
+      ]
+    },
+    {
+      "index": 96,
+      "root_unity": [
+        -0.8152848482131958,
+        0.06264107674360275,
+        6.474748134613037
+      ],
+      "original_length": 0.5344322163850205,
+      "retained": true,
+      "tries": [
+        {
+          "extent": 1,
+          "blocked": {}
+        }
+      ]
+    },
+    {
+      "index": 97,
+      "root_unity": [
+        -0.8152848482131958,
+        0.06264107674360275,
+        6.474748134613037
+      ],
+      "original_length": 0.5038211606508977,
+      "retained": true,
+      "tries": [
+        {
+          "extent": 1,
+          "blocked": {}
+        }
+      ]
+    },
+    {
+      "index": 98,
+      "root_unity": [
+        -0.8152848482131958,
+        0.06264107674360275,
+        6.474748134613037
+      ],
+      "original_length": 0.5088748728851364,
+      "retained": true,
+      "tries": [
+        {
+          "extent": 1,
+          "blocked": {}
+        }
+      ]
+    },
+    {
+      "index": 99,
+      "root_unity": [
+        -0.8152848482131958,
+        0.06264107674360275,
+        6.474748134613037
+      ],
+      "original_length": 0.4112393805712005,
+      "retained": true,
+      "tries": [
+        {
+          "extent": 1,
+          "blocked": {}
+        }
+      ]
+    },
+    {
+      "index": 100,
+      "root_unity": [
+        5.969225883483887,
+        0.05331532284617424,
+        1.8043708801269531
+      ],
+      "original_length": 0.35704456206122054,
+      "retained": true,
+      "tries": [
+        {
+          "extent": 1,
+          "blocked": {}
+        }
+      ]
+    },
+    {
+      "index": 101,
+      "root_unity": [
+        5.969225883483887,
+        0.05331532284617424,
+        1.8043708801269531
+      ],
+      "original_length": 0.3218210448254729,
+      "retained": true,
+      "tries": [
+        {
+          "extent": 1,
+          "blocked": {}
+        }
+      ]
+    },
+    {
+      "index": 102,
+      "root_unity": [
+        5.969225883483887,
+        0.05331532284617424,
+        1.8043708801269531
+      ],
+      "original_length": 0.33323015706778375,
+      "retained": true,
+      "tries": [
+        {
+          "extent": 1,
+          "blocked": {}
+        }
+      ]
+    },
+    {
+      "index": 103,
+      "root_unity": [
+        5.969225883483887,
+        0.05331532284617424,
+        1.8043708801269531
+      ],
+      "original_length": 0.5322633800546036,
+      "retained": true,
+      "tries": [
+        {
+          "extent": 1,
+          "blocked": {}
+        }
+      ]
+    },
+    {
+      "index": 104,
+      "root_unity": [
+        3.912980556488037,
+        0.02902105823159218,
+        -4.21658992767334
+      ],
+      "original_length": 0.4722495733393473,
+      "retained": true,
+      "tries": [
+        {
+          "extent": 1,
+          "blocked": {}
+        }
+      ]
+    },
+    {
+      "index": 105,
+      "root_unity": [
+        3.912980556488037,
+        0.02902105823159218,
+        -4.21658992767334
+      ],
+      "original_length": 0.5324284000199806,
+      "retained": true,
+      "tries": [
+        {
+          "extent": 1,
+          "blocked": {}
+        }
+      ]
+    },
+    {
+      "index": 106,
+      "root_unity": [
+        3.912980556488037,
+        0.02902105823159218,
+        -4.21658992767334
+      ],
+      "original_length": 0.5438110300453882,
+      "retained": true,
+      "tries": [
+        {
+          "extent": 1,
+          "blocked": {}
+        }
+      ]
+    },
+    {
+      "index": 107,
+      "root_unity": [
+        3.912980556488037,
+        0.02902105823159218,
+        -4.21658992767334
+      ],
+      "original_length": 0.44670956936602735,
+      "retained": true,
+      "tries": [
+        {
+          "extent": 1,
+          "blocked": {}
+        }
+      ]
+    },
+    {
+      "index": 108,
+      "root_unity": [
+        5.458823204040527,
+        0.011136483401060104,
+        0.3043215870857239
+      ],
+      "original_length": 0.5272081492181132,
+      "retained": true,
+      "tries": [
+        {
+          "extent": 1,
+          "blocked": {}
+        }
+      ]
+    },
+    {
+      "index": 109,
+      "root_unity": [
+        5.458823204040527,
+        0.011136483401060104,
+        0.3043215870857239
+      ],
+      "original_length": 0.4832847996279824,
+      "retained": true,
+      "tries": [
+        {
+          "extent": 1,
+          "blocked": {}
+        }
+      ]
+    },
+    {
+      "index": 110,
+      "root_unity": [
+        5.458823204040527,
+        0.011136483401060104,
+        0.3043215870857239
+      ],
+      "original_length": 0.44905950169965975,
+      "retained": true,
+      "tries": [
+        {
+          "extent": 1,
+          "blocked": {}
+        }
+      ]
+    },
+    {
+      "index": 111,
+      "root_unity": [
+        5.458823204040527,
+        0.011136483401060104,
+        0.3043215870857239
+      ],
+      "original_length": 0.39855029678071324,
+      "retained": true,
+      "tries": [
+        {
+          "extent": 1,
+          "blocked": {}
+        }
+      ]
+    },
+    {
+      "index": 112,
+      "root_unity": [
+        2.28889536857605,
+        0.04250632971525192,
+        4.312618255615234
+      ],
+      "original_length": 0.33089758934909314,
+      "retained": true,
+      "tries": [
+        {
+          "extent": 1,
+          "blocked": {}
+        }
+      ]
+    },
+    {
+      "index": 113,
+      "root_unity": [
+        2.28889536857605,
+        0.04250632971525192,
+        4.312618255615234
+      ],
+      "original_length": 0.3968076139973308,
+      "retained": true,
+      "tries": [
+        {
+          "extent": 1,
+          "blocked": {}
+        }
+      ]
+    },
+    {
+      "index": 114,
+      "root_unity": [
+        2.28889536857605,
+        0.04250632971525192,
+        4.312618255615234
+      ],
+      "original_length": 0.4997653284745845,
+      "retained": true,
+      "tries": [
+        {
+          "extent": 1,
+          "blocked": {}
+        }
+      ]
+    },
+    {
+      "index": 115,
+      "root_unity": [
+        2.28889536857605,
+        0.04250632971525192,
+        4.312618255615234
+      ],
+      "original_length": 0.4606950365146176,
+      "retained": true,
+      "tries": [
+        {
+          "extent": 1,
+          "blocked": {}
+        }
+      ]
+    },
+    {
+      "index": 116,
+      "root_unity": [
+        -4.62788200378418,
+        0.019999999552965164,
+        -1.4716852903366089
+      ],
+      "original_length": 0.3533054195784745,
+      "retained": true,
+      "tries": [
+        {
+          "extent": 1,
+          "blocked": {}
+        }
+      ]
+    },
+    {
+      "index": 117,
+      "root_unity": [
+        -4.62788200378418,
+        0.019999999552965164,
+        -1.4716852903366089
+      ],
+      "original_length": 0.5462027517873117,
+      "retained": true,
+      "tries": [
+        {
+          "extent": 1,
+          "blocked": {}
+        }
+      ]
+    },
+    {
+      "index": 118,
+      "root_unity": [
+        -4.62788200378418,
+        0.019999999552965164,
+        -1.4716852903366089
+      ],
+      "original_length": 0.4783313357421432,
+      "retained": true,
+      "tries": [
+        {
+          "extent": 1,
+          "blocked": {}
+        }
+      ]
+    },
+    {
+      "index": 119,
+      "root_unity": [
+        -4.62788200378418,
+        0.019999999552965164,
+        -1.4716852903366089
+      ],
+      "original_length": 0.4519452903883691,
+      "retained": true,
+      "tries": [
+        {
+          "extent": 1,
+          "blocked": {}
+        }
+      ]
+    },
+    {
+      "index": 120,
+      "root_unity": [
+        -5.91402006149292,
+        0.019999999552965164,
+        4.099168300628662
+      ],
+      "original_length": 0.4130872457001084,
+      "retained": true,
+      "tries": [
+        {
+          "extent": 1,
+          "blocked": {}
+        }
+      ]
+    },
+    {
+      "index": 121,
+      "root_unity": [
+        -5.91402006149292,
+        0.019999999552965164,
+        4.099168300628662
+      ],
+      "original_length": 0.4068015522763048,
+      "retained": true,
+      "tries": [
+        {
+          "extent": 1,
+          "blocked": {}
+        }
+      ]
+    },
+    {
+      "index": 122,
+      "root_unity": [
+        -5.91402006149292,
+        0.019999999552965164,
+        4.099168300628662
+      ],
+      "original_length": 0.5396855469733153,
+      "retained": true,
+      "tries": [
+        {
+          "extent": 1,
+          "blocked": {}
+        }
+      ]
+    },
+    {
+      "index": 123,
+      "root_unity": [
+        -5.91402006149292,
+        0.019999999552965164,
+        4.099168300628662
+      ],
+      "original_length": 0.4994161233875306,
+      "retained": true,
+      "tries": [
+        {
+          "extent": 1,
+          "blocked": {}
+        }
+      ]
+    },
+    {
+      "index": 124,
+      "root_unity": [
+        -2.519331932067871,
+        0.046096399426460266,
+        -5.5151495933532715
+      ],
+      "original_length": 0.42239809609401696,
+      "retained": true,
+      "tries": [
+        {
+          "extent": 1,
+          "blocked": {}
+        }
+      ]
+    },
+    {
+      "index": 125,
+      "root_unity": [
+        -2.519331932067871,
+        0.046096399426460266,
+        -5.5151495933532715
+      ],
+      "original_length": 0.34093290808187643,
+      "retained": true,
+      "tries": [
+        {
+          "extent": 1,
+          "blocked": {}
+        }
+      ]
+    },
+    {
+      "index": 126,
+      "root_unity": [
+        -2.519331932067871,
+        0.046096399426460266,
+        -5.5151495933532715
+      ],
+      "original_length": 0.4961321418842673,
+      "retained": true,
+      "tries": [
+        {
+          "extent": 1,
+          "blocked": {}
+        }
+      ]
+    },
+    {
+      "index": 127,
+      "root_unity": [
+        -2.519331932067871,
+        0.046096399426460266,
+        -5.5151495933532715
+      ],
+      "original_length": 0.46665795306035035,
+      "retained": true,
+      "tries": [
+        {
+          "extent": 1,
+          "blocked": {}
+        }
+      ]
+    },
+    {
+      "index": 128,
+      "root_unity": [
+        -0.6892258524894714,
+        0.058677807450294495,
+        8.092449188232422
+      ],
+      "original_length": 0.4806418385748608,
+      "retained": true,
+      "tries": [
+        {
+          "extent": 1,
+          "blocked": {}
+        }
+      ]
+    },
+    {
+      "index": 129,
+      "root_unity": [
+        -0.6892258524894714,
+        0.058677807450294495,
+        8.092449188232422
+      ],
+      "original_length": 0.3449719196397345,
+      "retained": true,
+      "tries": [
+        {
+          "extent": 1,
+          "blocked": {}
+        }
+      ]
+    },
+    {
+      "index": 130,
+      "root_unity": [
+        -0.6892258524894714,
+        0.058677807450294495,
+        8.092449188232422
+      ],
+      "original_length": 0.41894256914903405,
+      "retained": true,
+      "tries": [
+        {
+          "extent": 1,
+          "blocked": {}
+        }
+      ]
+    },
+    {
+      "index": 131,
+      "root_unity": [
+        -0.6892258524894714,
+        0.058677807450294495,
+        8.092449188232422
+      ],
+      "original_length": 0.3859659063774731,
+      "retained": true,
+      "tries": [
+        {
+          "extent": 1,
+          "blocked": {}
+        }
+      ]
+    }
+  ],
+  "omitted_old_orphan_fern_segments": 12,
+  "obstacle_projection_checks": {
+    "Garden_LavenderAndSeedHeads": {},
+    "Garden_FeatherFerns": {}
+  },
+  "obstacle_test_scope": "Every generated vertex projected against actual frozen Hero, walkways, observatory and pier; conservative whole-plant/frond shrink or omission. No runtime collision claim.",
+  "materials_changed": [],
+  "materials_added": [],
+  "renderer_count_change": 0,
+  "textures_byte_identical": {
+    "meadow-watercolor.png": true,
+    "meadow-normal.png": true
+  },
+  "files": [
+    "island.blend",
+    "island.fbx",
+    "island.glb",
+    "textures/meadow-watercolor.png",
+    "textures/meadow-normal.png"
+  ],
+  "sha256": {
+    "island.blend": "83f5daaa9eebe304a03e2822b102a497c12b8d3010a9736a62f49970afd46812",
+    "island.fbx": "afc45e86b5186beb2668cfbbba66a46352ee2d3e1e58a96fb7638bea4490bdad",
+    "island.glb": "54927298efae1fdc1cbaf91cbec1f00a5bbb814b48c053f2ccd10cb39aa89a83",
+    "textures/meadow-watercolor.png": "889c373c911c8fd5e4be519cbbc957436909b380481d1de22051bb22ef0d3c7f",
+    "textures/meadow-normal.png": "bbaf18fc6dd0f38e7d0e3fba17b98ae72fd55d47597971ffcc712460b2c321bc"
+  },
+  "baseline_sha256": {
+    "island.blend": "c40dcb462a3890026017c4a945525c6f4b2881044433b050c392a405c4687f82",
+    "island.fbx": "91c6d643698c414d0582d86aa42ebfaa1e470124dddd7faa7852860877806f64",
+    "island.glb": "18190a8eba2489bcbb445671df8a93a77b8dd6464f7352dbb393105b03f9c89f",
+    "gray-path-context.png": "3e48380c870f513e3df8a3453361388ab730b3f4e7a1ca385dec615fc5a2ae84",
+    "gray-rock-low.png": "6114c9342a47e1f9d13243c0ef271da353bbf47a7d57820c7f8710216837f8ef",
+    "textures/meadow-watercolor.png": "889c373c911c8fd5e4be519cbbc957436909b380481d1de22051bb22ef0d3c7f",
+    "textures/meadow-normal.png": "bbaf18fc6dd0f38e7d0e3fba17b98ae72fd55d47597971ffcc712460b2c321bc",
+    "color-path-context.png": "63060d4e284add5c4b29923af52dec2bc03e42c72f1c7c30ff4134d222a1924c",
+    "color-rock-low.png": "9f1ab10159e1b8ee88bdef6ba392e8360130a7e3e65308c946969e2eba108fef"
+  },
+  "verification_pending": false,
+  "verification_file": "interchange-verification.json",
+  "adoption": {
+    "game": "v11",
+    "status": "Adopted after format/preservation checks, fixed-camera review and integrated Windows/Web QA.",
+    "nativeQA": "../../verification/run-029-v11/runtime-results.json",
+    "webQA": "../../verification/web-012-v11/runtime-results.json",
+    "fixedReview": "../../verification/v11-plants-candidate/decision.json",
+    "dynamicLimit": "No exhaustive dynamic foliage or all-angle visual acceptance.",
+    "aestheticObjectiveAchieved": false
+  }
+}

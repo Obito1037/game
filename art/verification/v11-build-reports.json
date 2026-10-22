@@ -1,0 +1,68 @@
+{
+  "revision": "v11",
+  "recordedUTC": "2026-10-21T03:10:11.782Z",
+  "native": {
+    "status": "completed",
+    "buildId": "build_45ae373ba8b1",
+    "result": "Succeeded",
+    "platform": "StandaloneWindows64",
+    "outputPath": "C:/Users/20665/Desktop/game/builds/candidates/v11/windows/BorrowedLight.exe",
+    "totalSizeBytes": 162149593,
+    "buildTimeMs": 27114,
+    "buildStartedAt": "2026-10-20T18:47:04.4797058Z",
+    "buildEndedAt": "2026-10-20T18:47:31.5945236Z",
+    "totalWarnings": 1,
+    "totalErrors": 0,
+    "errors": [],
+    "warnings": [
+      {
+        "message": "Pipeline: No RuntimePipelineConfig asset found (Project Settings > Pipeline > Runtime). Pipeline will be disabled in Player builds."
+      }
+    ]
+  },
+  "web": {
+    "status": "completed",
+    "buildId": "build_afad10959a97",
+    "result": "Succeeded",
+    "platform": "WebGL",
+    "outputPath": "C:/Users/20665/Desktop/game/builds/candidates/v11/web",
+    "totalSizeBytes": 4736459,
+    "buildTimeMs": 46247,
+    "buildStartedAt": "2026-10-20T19:07:53.2070746Z",
+    "buildEndedAt": "2026-10-20T19:08:39.4546271Z",
+    "totalWarnings": 1,
+    "totalErrors": 0,
+    "errors": [],
+    "warnings": [
+      {
+        "message": "Pipeline: No RuntimePipelineConfig asset found (Project Settings > Pipeline > Runtime). Pipeline will be disabled in Player builds."
+      }
+    ],
+    "payload": {
+      "bytes": 53227613,
+      "directoryBytes": 57964072,
+      "files": [
+        {
+          "name": "36149c4fe0cdca54f6f1623149d7ab4f.data.gz",
+          "bytes": 41502715,
+          "sha256": "B9BB170DFB6545B7A8CDB4F46DF6803BB58A309B68C779CAD763A3496620156D"
+        },
+        {
+          "name": "56b2089fd931dfe1dbeb6d645b39149e.wasm.gz",
+          "bytes": 11609435,
+          "sha256": "3D4136B9F6E4B2825D773115F0C3D33D5F9F2AAF97C91013477B6158C1B5FF5E"
+        },
+        {
+          "name": "b281874b7c5b6a62e898db90eddbb667.framework.js.gz",
+          "bytes": 88480,
+          "sha256": "B62192AB199052DFF72E0937E59C17FB88A89060F77797ADC0E4B1BE68C4CAAD"
+        },
+        {
+          "name": "b383042eecdb32cf1a4cc50727f416ac.loader.js",
+          "bytes": 26983,
+          "sha256": "D1269CBC542379F361EA5277E6B6ADD6D8588345C60AE45F658CE02A51199995"
+        }
+      ]
+    }
+  }
+}

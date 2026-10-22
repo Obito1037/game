@@ -1,0 +1,69 @@
+{
+  "reviewer": "reference_research",
+  "reviewed": true,
+  "accepted": true,
+  "acceptedForLimitedStaticScope": true,
+  "isReleaseDecision": false,
+  "candidateGame": "v13",
+  "candidateWorld": "world-v12",
+  "candidateBuildId": "build_217b8e11531f",
+  "baselineBuildId": "build_07b75c9c9302",
+  "firstCandidateBuildId": "build_616eb888fe19",
+  "summary": "建议在所审五个固定机位的静态范围采用修正版。左阔叶与金树的冠顶现在能完整阅读，主路径左上叶量回到画内；右树补回可辨的中下部叶团体积，路径与全岛不再像首版裸杆。分枝支撑和叶团空隙保留，木屋、月亮及正常路径金环仍清楚。右树近景的分段叶束和宽尖叶简化仍存在，不代表完整树木自然度或整体美术目标完成。",
+  "personallyViewedCurrentOriginals": [
+    "path-current.png",
+    "island-current.png",
+    "left-tree-current.png",
+    "gold-tree-current.png",
+    "right-pine-current.png"
+  ],
+  "comparisonBasis": "本次亲看修正版五张完整原始 PNG，对照此前已逐张看过的基线五张和首版五张 current 原图；首版独立记录见 ../v13-trees-candidate/independent-review.json。没有重新把复拍图当动态录像。",
+  "views": [
+    {
+      "view": "path",
+      "judgment": "主要构图问题已缓解，可采用",
+      "improvements": "左树压低后，分层叶量重新进入左上画面；金树保留分枝与高低叶团，未重新盖住金环。右树的中下部现在有绿色体积，较首版的裸杆和细丝枝圈明显改善。木屋圆窗、三角屋顶、月亮及路线仍好读。",
+      "limits": "正常路径仍会裁切外围树冠，不声称该机位展示每棵树的完整形态；右树叶团仍偏简化。"
+    },
+    {
+      "view": "island",
+      "judgment": "首版右侧体量损失得到补救",
+      "improvements": "左树和金树高度更收敛，分叉叶团仍有立体关系；右侧重新读得到树冠体量，较首版几乎消失的细枝杆更平衡。小屋、观测台和码头继续是清楚的主体。",
+      "limits": "整体树冠仍比旧版浓密扁盖更开放、绿量更轻，是树形取舍；远景不能替代近景叶片质量判断。"
+    },
+    {
+      "view": "left-tree",
+      "judgment": "冠顶裁切问题解决，分层支撑改善保留",
+      "improvements": "完整冠顶回到画内，能看清高低错开的叶团和支撑分枝。较旧版水平叶棚更有体积，较首版过高叶团更便于判断完整轮廓；木屋圆窗、屋顶和月亮仍可读。",
+      "limits": "近景仍可辨简化枝干与重复的薄叶单元；局部叶片与屋面重叠不等于完成全部遮挡角度验收。"
+    },
+    {
+      "view": "gold-tree",
+      "judgment": "冠顶回到画内，金环可读性保持",
+      "improvements": "上冠现在基本完整收进机位，分枝支撑和不对称叶团比旧平棚自然；首版金环与灯头更清楚的收益仍保留，没有重新形成沿金环顶缘的厚叶墙。",
+      "limits": "最上方枝叶靠近画框，留白不宽；叶团仍由简化叶片组成，不是精细植物写实。"
+    },
+    {
+      "view": "right-pine",
+      "judgment": "主要阻断消除，仍有明确形态不足",
+      "improvements": "中下部由细丝枝条变成有体积的绿色叶束，能沿主干读到连续树冠；侧缘保留不规则空隙和可见枝条，没有恢复原版密集等距的叶片圆盘塔。完整树尖可见。",
+      "limits": "近景仍有分段叶束和偏宽尖叶，针叶轮廓的细腻自然度未完成。此机位金环仍被树干与部分叶团遮挡，不能宣称所有机位金环完整；正常路径金环保持清晰。"
+    }
+  ],
+  "priorBlockingIssues": {
+    "broadleafAndGoldCloseViewCrownCropping": "本次固定近景已解决",
+    "bareConiferInPathAndIsland": "已补回足够静态体量，首版主要阻断消除",
+    "newMainPathCabinMoonOrRingObstruction": "所审正常路径未见新的主要阻断",
+    "allAngleNaturalTreeAppearance": "未验收，不作完成声明"
+  },
+  "limits": [
+    "只判断五张修正版静态原图及此前看过的基线、首版原图；不以 manifest、导入通过或三角面数代替美术判断。",
+    "此建议不等于根代理的最终 decision，也不代表正式发布、正常游戏流程、碰撞或性能验收。",
+    "没有观看动态风摆、连续行走或动态闪烁录像，不推断 FPS 或渲染开销。",
+    "固定时间不会冻结全部时域 AO 或随机项，不声称三次采集逐像素相同。",
+    "右树近景仍有分段叶束与宽尖叶简化，部分角度金环仍会被树木遮挡。",
+    "参考截图本身没有成熟树冠，不能据此宣称复刻参考树形；整体视觉超过参考的目标尚未达成。",
+    "未改根代理 decision、模型、材质、源码或页面，未启动浏览器、Unity、Blender或渲染程序。"
+  ],
+  "aestheticObjectiveAchieved": false
+}

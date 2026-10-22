@@ -1,0 +1,47 @@
+{
+  "candidate": "web-012-v11",
+  "baseline": "web-013-v10-current-host",
+  "candidateDimensions": [
+    1440,
+    900
+  ],
+  "baselineDimensions": [
+    1440,
+    900
+  ],
+  "candidateViews": [
+    {
+      "view": "menu",
+      "medianIntervalFps": 30.411324646335657,
+      "allSamplesForeground": true
+    },
+    {
+      "view": "ending",
+      "medianIntervalFps": 30.3252103016859,
+      "allSamplesForeground": true
+    },
+    {
+      "view": "walking",
+      "medianIntervalFps": 21.447535351655592,
+      "allSamplesForeground": true
+    }
+  ],
+  "baselineViews": [
+    {
+      "view": "menu",
+      "medianIntervalFps": 45.82182857432154,
+      "allSamplesForeground": true
+    },
+    {
+      "view": "ending",
+      "medianIntervalFps": 26.57766353451828,
+      "allSamplesForeground": true
+    },
+    {
+      "view": "walking",
+      "medianIntervalFps": 19.885347308870557,
+      "allSamplesForeground": true
+    }
+  ],
+  "interpretation": "Both current-host browser sessions show lower walking metrics than the older v10 session. These short, separately timed samples do not isolate geometry cost, prove a speedup, or identify the cause of host variation. Web performance remains limited here; Windows fullscreen is the primary delivery."
+}

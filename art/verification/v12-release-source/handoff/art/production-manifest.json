@@ -1,0 +1,1093 @@
+{
+  "project": "Borrowed Light / 借光岛",
+  "objective": "制作基于 Blender 的高质量可玩游戏，参考 littleprince.dev；完整验收目标是整体视觉体验比参考站更惊艳。目前此审美目标尚未达成。",
+  "reference": {
+    "url": "https://littleprince.dev/",
+    "authorPost": "https://x.com/Saccc_c/status/2110694725640474759",
+    "originalArticle": "https://x.com/i/article/2110601994578866176",
+    "captureMethod": "Isolated Edge session, 1440x900, actual entry / chapter menu / chapter-one gameplay",
+    "screenshots": [
+      "reference/littleprince-entry.png",
+      "reference/littleprince-started.png",
+      "reference/littleprince-gameplay.png"
+    ],
+    "sourceAssetReuse": false
+  },
+  "authoring": {
+    "scene": "generated/world-v10/island.blend",
+    "sceneScript": "blender/build_island_v10.py",
+    "character": "generated/character-v9/traveler.blend",
+    "characterScript": "blender/build_traveler_v9.py",
+    "audioScript": "blender/build_audio.py",
+    "engine": "Unity 6000.3.26f1 / URP",
+    "primaryScene": "GameProject/Assets/BorrowedLight/Scenes/BorrowedLight.unity",
+    "characterDependencies": [
+      "generated/character-v8/",
+      "generated/character-v7/",
+      "generated/character-v6/",
+      "generated/character-v5/"
+    ],
+    "sceneDependencies": [
+      "generated/world-v8/",
+      "generated/world-v7/",
+      "generated/world-v6/"
+    ]
+  },
+  "resources": [
+    {
+      "name": "Island and traveler models",
+      "source": "Locally authored Blender Python geometry",
+      "type": "original AI-assisted production"
+    },
+    {
+      "name": "Meadow watercolor texture",
+      "source": "Local Blender production",
+      "type": "original AI-assisted production"
+    },
+    {
+      "name": "Night Letters score and lantern chime",
+      "source": "Original additive synthesis; no sampled recordings",
+      "type": "original AI-assisted production"
+    },
+    {
+      "name": "Watercolor nebula sky",
+      "source": "Built-in image_gen; prompt, SHA256 and provenance in generated/sky/manifest.json",
+      "type": "original AI-generated bitmap"
+    },
+    {
+      "name": "Weathered wood, mossy stone, plaster and tiles",
+      "source": "Original world-coordinate procedural PBR shader, using official URP lighting",
+      "type": "original AI-assisted production"
+    },
+    {
+      "name": "Noto Serif CJK SC",
+      "source": "https://github.com/notofonts/noto-cjk",
+      "license": "SIL Open Font License 1.1",
+      "licenseFile": "GameProject/Assets/BorrowedLight/Resources/Fonts/LICENSE.txt",
+      "modification": "Renamed subset: BorrowedLight Story Serif; 247920 bytes; canonical full source retained; tools/font-subset/build_subset.py; OFL and SUBSET-NOTICE included."
+    },
+    {
+      "name": "StoneV10 original colour texture",
+      "source": "Built-in image_gen; generated/stone-v10/manifest.json",
+      "type": "original AI-generated bitmap; triplanar artistic relief, not measured PBR",
+      "sha256": "17613BDBD49E1D48A99D5B2B3687ABED4DE6D8E19006E25D78ED07FB588D8CF5"
+    },
+    {
+      "name": "GroundDetailV12 original earth detail",
+      "source": "Built-in image_gen",
+      "type": "original AI-generated bitmap; grayscale relative albedo modulation only",
+      "original": "art/generated/ground-v12/earth-detail-original.png",
+      "prompt": "art/generated/ground-v12/prompt.txt",
+      "manifest": "art/generated/ground-v12/manifest.json",
+      "sha256": "483D36A325CA6B05BBB8580DD3E238AF866F331D762976CB0064569FD7925F1B"
+    }
+  ],
+  "verification": {
+    "blenderInterchange": "art/generated/world-v10/interchange-verification.json",
+    "windowsRuntime": "art/verification/run-032-v12/runtime-results.json",
+    "webRuntime": "art/verification/web-013-v12/runtime-results.json",
+    "artifactIdentity": [
+      "art/verification/run-032-v12/build-evidence.json",
+      "art/verification/web-013-v12/artifact-identity.json"
+    ],
+    "fixedGrassComparison": [
+      "art/verification/v12-grass-refined/decision.json",
+      "art/verification/v12-grass-refined/capture-condition-comparison.json",
+      "art/verification/v12-grass-refined/unity-import-comparison.json"
+    ],
+    "fixedGroundComparison": [
+      "art/verification/v12-ground-detail-refined/decision.json",
+      "art/verification/v12-ground-detail-refined/ground-detail-study.json"
+    ],
+    "groundRuntime": {
+      "native": {
+        "log": "art/verification/run-032-v12/player.log",
+        "records": 1,
+        "shader": "BorrowedLight/GroundDetail",
+        "strength": 0.3499999940395355,
+        "normalScale": 0.2199999988079071,
+        "tileMetres": 1.7999999523162842
+      },
+      "web": {
+        "log": "art/verification/web-013-v12/browser-console.txt",
+        "records": 2,
+        "shader": "BorrowedLight/GroundDetail",
+        "strength": 0.3499999940395355,
+        "normalScale": 0.2199999988079071,
+        "tileMetres": 1.7999999523162842
+      }
+    },
+    "nativeDisplayComparison": "art/verification/v12-native-display-comparison.json",
+    "webPerformanceContext": "art/verification/v12-web-performance-context.json",
+    "performance": "Intel(R) Iris(R) Xe Graphics原生全屏 1440×900短样本：菜单60、总览60、漫步视角46.5、近景50、末段45.9 FPS。当前主机顺序对照(art/verification/v12-native-display-comparison.json)：v11/RGBA32-v12/最终v12的漫步样本分别为42.7/37.5/46.5，近景58.6/50.9/50 FPS；不能因果归因全部差异，也不是A/B/A或全程行走测试。网页1440×900前台区间指标中位：漫步视角38.71、结尾51.96 FPS；各6/6个样本，间隔500/500ms。网页历史对照范围见art/verification/v12-web-performance-context.json：没有当前v11网页重测或隔离纹理A/B，不能据历史数字宣称版本提速。固定材质诊断不测性能；这些数据不是持续行走平均、全程最低或独立渲染帧计数，不支持跨版本性能收益结论。",
+    "finalVisualComparison": "草形审查：保留原来的低层覆盖，草叶根部收细并略有弯曲；路径、左暖灯和前景岩石附近未重现上一候选的大块裸地。匍匐叶更贴近地面，宽底刷毛感减轻。采用 world-v10 进入正常游戏检查。\n地面审查：采用 0.35 的柔和地面细节：踏石之间和岩石、暖灯周围增加了土壤与落叶层次，相比 0.55 更克制，路线仍然清楚。灯旁近景仍有均匀碎纹和铺毯感，属于局部改善，进入正常游戏和 WebGL 检查。\n采用参数来自detail-soft的实际记录：强度0.35，平铺1.80m，原法线0.22。Windows细节纹理的导入优化另行审查：Windows 地面细节采用 1024×1024 DXT1 导入：正常路径层次与路线可读性基本保留，近景最细颗粒略软，未见明显方块、接缝或大块糊平。仅限固定画面质量采用，性能结论另见正常游戏记录；Web 保持 1254×1254 RGBA32。；原RGBA32对照不作为压缩画面的替代验收。这只是局部改善，整体视觉比参考网站更惊艳的目标仍未达成。",
+    "limits": [
+      "高草近景仍有折线和扁平叶面，改善幅度有限。",
+      "静态对照不验证动态风摆、移动闪烁或帧率。",
+      "地面细节另行独立对照，草地截图尚未启用新地面。",
+      "整体视觉超过参考网站的目标尚未达到。",
+      "灯旁和贴地近景仍有较均匀的细碎平面纹理。",
+      "这是颜色细节，未增加真实几何或新的凹凸法线。",
+      "本机 Windows 与 WebGL 正常运行及短样本检查已完成；动态闪烁、全部机位和长期最低帧率未做完整验收。",
+      "原始像素均值归一不保证屏幕或 mip 过滤后亮度均值完全一致。",
+      "最细颗粒与纤维略软，灯旁近景仍有均匀铺毯感。",
+      "引擎导入进行了缩小和有损块压缩；原PNG与Resources PNG字节未改。",
+      "仅此Windows导入配置已做固定画面对照，Web仍使用原RGBA32配置。",
+      "静态图不证明帧率提升或动态无闪烁。",
+      "固定时间不冻结全部时域AO/渲染随机项，不声称逐像素重复。",
+      "本版没有新行走录像验收，v10步态视频只作历史参考；静态材质对照不覆盖动态闪烁/全部机位。",
+      "各视角原生短样本不能排除性能回退，需要同主机同条件的版本比较，不能以功能QA通过代替。",
+      "character-v9继承的GLB零面积下睑/嘴线端点法线限制保留；游戏使用FBX。"
+    ],
+    "currentVisualReview": "verification/visual-review-v12.html",
+    "sourceAudit": "verification/v12-release-source/source-audit.json"
+  },
+  "buildIds": {
+    "windows": "build_c217a6ee8275",
+    "web": "build_5b89ba634913"
+  },
+  "disclosure": "../AI-使用与素材来源.zh-CN.txt",
+  "geometry": {
+    "travelerFbxSHA256": "70069F12265EF5C0B713A94CE2B20F3D305DDE339FC8B2F0487C436091BB4D71",
+    "travelerTriangles": 77132,
+    "travelerSkinnedMeshes": 28,
+    "worldFbxSHA256": "273418CD01A41E95CA5B63050EAC812190511EF0D4577E860E2E6527110BA7A2",
+    "islandTriangles": 505782
+  },
+  "themeSources": "reference/dark-sky-theme-sources.zh-CN.txt",
+  "revision": "v12",
+  "webPayload": {
+    "bytes": 59156240,
+    "directoryBytes": 63892699,
+    "files": [
+      {
+        "name": "11a960c5bd714675b2b68a7660fc0cf2.wasm.gz",
+        "bytes": 11617508,
+        "sha256": "30B6953C3C16B88AA95314FFD68227E2FE57B58C1CC4801FDA6180B85DC47E4F"
+      },
+      {
+        "name": "5e2f7d5097266c1767dcde8e57a224c2.data.gz",
+        "bytes": 47423267,
+        "sha256": "646A407E7E5A1DEFFAEBB6E483F52A869F726204AACCFD4C149BA9609666EC5A"
+      },
+      {
+        "name": "aaf0ca52e4a9c1b1aa9be92064634f84.framework.js.gz",
+        "bytes": 88482,
+        "sha256": "9C0516779E5D4E2E782E4D49A183F9A93CB56871A45ADAE30FD756E53FAC00B5"
+      },
+      {
+        "name": "b383042eecdb32cf1a4cc50727f416ac.loader.js",
+        "bytes": 26983,
+        "sha256": "D1269CBC542379F361EA5277E6B6ADD6D8588345C60AE45F658CE02A51199995"
+      }
+    ]
+  },
+  "delivery": {
+    "stagingOnly": false,
+    "releaseReady": true,
+    "package": "../builds/BorrowedLight-Windows.zip",
+    "packageVerification": "verification/v12-package-verification.json",
+    "releaseHTTPVerification": "verification/v12-release-http-verification.json",
+    "previousStableWindowsArchive": "../builds/archive/BorrowedLight-v11-Windows.zip",
+    "previousStableWebArchive": "../builds/archive/BorrowedLight-v11-Web/",
+    "windowsCandidate": "builds/candidates/v12/windows/BorrowedLight.exe",
+    "webCandidate": "builds/candidates/v12/web",
+    "packageVerificationPassed": true,
+    "releaseHTTPVerified": true,
+    "visualReviewPageVerified": true,
+    "packageBytes": 75553186,
+    "packageSHA256": "6B03683B947CFC646EB2D088B77692611D7C0EE8C83556D0D1D623FA499C6C79",
+    "currentWindowsArchive": "../builds/archive/BorrowedLight-v12-Windows.zip",
+    "previousStableWebArchivePresent": true
+  },
+  "aestheticObjectiveAchieved": false,
+  "historicalEvidence": {
+    "v10GaitVideo": {
+      "review": "verification/web-v10-gait-video/review.json",
+      "scope": "v10 historical limited-scope video only; not current v11 dynamic acceptance."
+    },
+    "v11ConcurrentNativeRun": {
+      "session": "verification/run-026-v11/",
+      "scope": "Historical run affected by parallel Blender work; current evidence: run-029-v11"
+    },
+    "v11ResizedNativeRun": {
+      "session": "verification/run-027-v11/",
+      "scope": "Window changed from 1440x900 to 1078x672 mid-run; not used for cross-version performance comparison."
+    }
+  },
+  "sourceAudit": {
+    "baseline": "art/verification/v11-release-source/source-files.json",
+    "baselineTrackedCount": 16,
+    "allowedChangedExisting": [
+      "GameProject/Assets/BorrowedLight/Runtime/WorldDirector.cs"
+    ],
+    "allowedAdded": [
+      "GameProject/Assets/BorrowedLight/Runtime/GroundDetailStudy.cs",
+      "GameProject/Assets/BorrowedLight/Runtime/GroundDetailStudy.cs.meta",
+      "GameProject/Assets/BorrowedLight/Shaders/GroundDetail.shader",
+      "GameProject/Assets/BorrowedLight/Shaders/GroundDetail.shader.meta",
+      "GameProject/Assets/BorrowedLight/Resources/Textures/GroundDetailV12.png",
+      "GameProject/Assets/BorrowedLight/Resources/Textures/GroundDetailV12.png.meta",
+      "GameProject/Assets/BorrowedLight/Resources/Materials/GroundDetailV12.mat",
+      "GameProject/Assets/BorrowedLight/Resources/Materials/GroundDetailV12.mat.meta"
+    ],
+    "inventoryRoots": [
+      "GameProject/Assets/BorrowedLight/Runtime",
+      "GameProject/Assets/BorrowedLight/Shaders",
+      "GameProject/Assets/BorrowedLight/Resources/Materials",
+      "GameProject/Assets/BorrowedLight/Resources/Textures"
+    ],
+    "inventoryExtensions": [
+      ".cs",
+      ".shader",
+      ".hlsl",
+      ".mat",
+      ".png",
+      ".meta"
+    ],
+    "inventoryExtraFiles": [
+      "GameProject/Assets/BorrowedLight/Editor/BorrowedLightBuilder.cs",
+      "GameProject/Assets/BorrowedLight/Resources/Models/Island.fbx.meta",
+      "GameProject/Assets/BorrowedLight/Resources/Models/Traveler.fbx.meta"
+    ],
+    "inventoryFiles": [
+      "GameProject/Assets/BorrowedLight/Editor/BorrowedLightBuilder.cs",
+      "GameProject/Assets/BorrowedLight/Resources/Materials/CelestialSky.mat",
+      "GameProject/Assets/BorrowedLight/Resources/Materials/CelestialSky.mat.meta",
+      "GameProject/Assets/BorrowedLight/Resources/Materials/CloudVeil.mat",
+      "GameProject/Assets/BorrowedLight/Resources/Materials/CloudVeil.mat.meta",
+      "GameProject/Assets/BorrowedLight/Resources/Materials/Firefly.mat",
+      "GameProject/Assets/BorrowedLight/Resources/Materials/Firefly.mat.meta",
+      "GameProject/Assets/BorrowedLight/Resources/Materials/FoliageMatte.mat",
+      "GameProject/Assets/BorrowedLight/Resources/Materials/FoliageMatte.mat.meta",
+      "GameProject/Assets/BorrowedLight/Resources/Materials/FoliageMatteNormal.mat",
+      "GameProject/Assets/BorrowedLight/Resources/Materials/FoliageMatteNormal.mat.meta",
+      "GameProject/Assets/BorrowedLight/Resources/Materials/FoliagePaint.mat",
+      "GameProject/Assets/BorrowedLight/Resources/Materials/FoliagePaint.mat.meta",
+      "GameProject/Assets/BorrowedLight/Resources/Materials/FoliagePaintStudyFixed20.mat",
+      "GameProject/Assets/BorrowedLight/Resources/Materials/FoliagePaintStudyFixed20.mat.meta",
+      "GameProject/Assets/BorrowedLight/Resources/Materials/FoliagePaintStudyLegacy40.mat",
+      "GameProject/Assets/BorrowedLight/Resources/Materials/FoliagePaintStudyLegacy40.mat.meta",
+      "GameProject/Assets/BorrowedLight/Resources/Materials/FoliageTinted.mat",
+      "GameProject/Assets/BorrowedLight/Resources/Materials/FoliageTinted.mat.meta",
+      "GameProject/Assets/BorrowedLight/Resources/Materials/FoliageTintedStudyFixed20.mat",
+      "GameProject/Assets/BorrowedLight/Resources/Materials/FoliageTintedStudyFixed20.mat.meta",
+      "GameProject/Assets/BorrowedLight/Resources/Materials/FoliageTintedStudyLegacy40.mat",
+      "GameProject/Assets/BorrowedLight/Resources/Materials/FoliageTintedStudyLegacy40.mat.meta",
+      "GameProject/Assets/BorrowedLight/Resources/Materials/GroundDetailV12.mat",
+      "GameProject/Assets/BorrowedLight/Resources/Materials/GroundDetailV12.mat.meta",
+      "GameProject/Assets/BorrowedLight/Resources/Materials/LightVeil.mat",
+      "GameProject/Assets/BorrowedLight/Resources/Materials/LightVeil.mat.meta",
+      "GameProject/Assets/BorrowedLight/Resources/Materials/MoonPaint.mat",
+      "GameProject/Assets/BorrowedLight/Resources/Materials/MoonPaint.mat.meta",
+      "GameProject/Assets/BorrowedLight/Resources/Materials/PaintedRockV10.mat",
+      "GameProject/Assets/BorrowedLight/Resources/Materials/PaintedRockV10.mat.meta",
+      "GameProject/Assets/BorrowedLight/Resources/Materials/PaintedSurface.mat",
+      "GameProject/Assets/BorrowedLight/Resources/Materials/PaintedSurface.mat.meta",
+      "GameProject/Assets/BorrowedLight/Resources/Materials/PaintedTinted.mat",
+      "GameProject/Assets/BorrowedLight/Resources/Materials/PaintedTinted.mat.meta",
+      "GameProject/Assets/BorrowedLight/Resources/Materials/Starfield.mat",
+      "GameProject/Assets/BorrowedLight/Resources/Materials/Starfield.mat.meta",
+      "GameProject/Assets/BorrowedLight/Resources/Models/Island.fbx.meta",
+      "GameProject/Assets/BorrowedLight/Resources/Models/Traveler.fbx.meta",
+      "GameProject/Assets/BorrowedLight/Resources/Textures/GroundDetailV12.png",
+      "GameProject/Assets/BorrowedLight/Resources/Textures/GroundDetailV12.png.meta",
+      "GameProject/Assets/BorrowedLight/Resources/Textures/Meadow.png",
+      "GameProject/Assets/BorrowedLight/Resources/Textures/Meadow.png.meta",
+      "GameProject/Assets/BorrowedLight/Resources/Textures/MeadowNormal.png",
+      "GameProject/Assets/BorrowedLight/Resources/Textures/MeadowNormal.png.meta",
+      "GameProject/Assets/BorrowedLight/Resources/Textures/Nebula.png",
+      "GameProject/Assets/BorrowedLight/Resources/Textures/Nebula.png.meta",
+      "GameProject/Assets/BorrowedLight/Resources/Textures/StoneV10.png",
+      "GameProject/Assets/BorrowedLight/Resources/Textures/StoneV10.png.meta",
+      "GameProject/Assets/BorrowedLight/Runtime/CelestialStarField.cs",
+      "GameProject/Assets/BorrowedLight/Runtime/CelestialStarField.cs.meta",
+      "GameProject/Assets/BorrowedLight/Runtime/GameLogic.cs",
+      "GameProject/Assets/BorrowedLight/Runtime/GameLogic.cs.meta",
+      "GameProject/Assets/BorrowedLight/Runtime/GroundDetailStudy.cs",
+      "GameProject/Assets/BorrowedLight/Runtime/GroundDetailStudy.cs.meta",
+      "GameProject/Assets/BorrowedLight/Runtime/LampPuzzle.cs",
+      "GameProject/Assets/BorrowedLight/Runtime/LampPuzzle.cs.meta",
+      "GameProject/Assets/BorrowedLight/Runtime/StoryData.cs",
+      "GameProject/Assets/BorrowedLight/Runtime/StoryData.cs.meta",
+      "GameProject/Assets/BorrowedLight/Runtime/StoryHUD.cs",
+      "GameProject/Assets/BorrowedLight/Runtime/StoryHUD.cs.meta",
+      "GameProject/Assets/BorrowedLight/Runtime/TravelerMotor.cs",
+      "GameProject/Assets/BorrowedLight/Runtime/TravelerMotor.cs.meta",
+      "GameProject/Assets/BorrowedLight/Runtime/WorldAtmosphere.cs",
+      "GameProject/Assets/BorrowedLight/Runtime/WorldAtmosphere.cs.meta",
+      "GameProject/Assets/BorrowedLight/Runtime/WorldDirector.cs",
+      "GameProject/Assets/BorrowedLight/Runtime/WorldDirector.cs.meta",
+      "GameProject/Assets/BorrowedLight/Runtime/WorldMaterialStudy.cs",
+      "GameProject/Assets/BorrowedLight/Runtime/WorldMaterialStudy.cs.meta",
+      "GameProject/Assets/BorrowedLight/Runtime/WorldVisualDiagnostics.cs",
+      "GameProject/Assets/BorrowedLight/Runtime/WorldVisualDiagnostics.cs.meta",
+      "GameProject/Assets/BorrowedLight/Shaders/CelestialSky.shader",
+      "GameProject/Assets/BorrowedLight/Shaders/CelestialSky.shader.meta",
+      "GameProject/Assets/BorrowedLight/Shaders/CloudVeil.shader",
+      "GameProject/Assets/BorrowedLight/Shaders/CloudVeil.shader.meta",
+      "GameProject/Assets/BorrowedLight/Shaders/Firefly.shader",
+      "GameProject/Assets/BorrowedLight/Shaders/Firefly.shader.meta",
+      "GameProject/Assets/BorrowedLight/Shaders/FoliagePaint.shader",
+      "GameProject/Assets/BorrowedLight/Shaders/FoliagePaint.shader.meta",
+      "GameProject/Assets/BorrowedLight/Shaders/FoliageSurface.hlsl",
+      "GameProject/Assets/BorrowedLight/Shaders/FoliageSurface.hlsl.meta",
+      "GameProject/Assets/BorrowedLight/Shaders/GroundDetail.shader",
+      "GameProject/Assets/BorrowedLight/Shaders/GroundDetail.shader.meta",
+      "GameProject/Assets/BorrowedLight/Shaders/LightVeil.shader",
+      "GameProject/Assets/BorrowedLight/Shaders/LightVeil.shader.meta",
+      "GameProject/Assets/BorrowedLight/Shaders/MoonPaint.shader",
+      "GameProject/Assets/BorrowedLight/Shaders/MoonPaint.shader.meta",
+      "GameProject/Assets/BorrowedLight/Shaders/PaintedSurface.shader",
+      "GameProject/Assets/BorrowedLight/Shaders/PaintedSurface.shader.meta",
+      "GameProject/Assets/BorrowedLight/Shaders/Starfield.shader",
+      "GameProject/Assets/BorrowedLight/Shaders/Starfield.shader.meta"
+    ],
+    "files": [
+      {
+        "source": "GameProject/Assets/BorrowedLight/Editor/BorrowedLightBuilder.cs",
+        "baselineSHA256": "A8BDC71794058D0DFC66E6B8A7D3E2B4E3C33EDD661363EB2F873A188B78F2BE",
+        "sha256": "A8BDC71794058D0DFC66E6B8A7D3E2B4E3C33EDD661363EB2F873A188B78F2BE",
+        "status": "unchanged",
+        "allowed": true
+      },
+      {
+        "source": "GameProject/Assets/BorrowedLight/Resources/Materials/CelestialSky.mat",
+        "baselineSHA256": null,
+        "sha256": "DF5A464D1822BD92D3E0B4C5D67AD7EC7F2A5F4996E10A19C6DA57035827AF1D",
+        "status": "unbaselined-existing",
+        "allowed": true
+      },
+      {
+        "source": "GameProject/Assets/BorrowedLight/Resources/Materials/CelestialSky.mat.meta",
+        "baselineSHA256": null,
+        "sha256": "C91290CE2C6B9CD081B6A0204BB4283BC9CDB8F90E5E200FD7120B387E682F48",
+        "status": "unbaselined-existing",
+        "allowed": true
+      },
+      {
+        "source": "GameProject/Assets/BorrowedLight/Resources/Materials/CloudVeil.mat",
+        "baselineSHA256": null,
+        "sha256": "B2055FF8D6F205512531417F4E7FDE64829BCA59083D1FCE5F24F7D9B059D2A9",
+        "status": "unbaselined-existing",
+        "allowed": true
+      },
+      {
+        "source": "GameProject/Assets/BorrowedLight/Resources/Materials/CloudVeil.mat.meta",
+        "baselineSHA256": null,
+        "sha256": "9BF8DFDB8DA5334CDC66EE189A13C138C0C65063C0423B8901EF17221FE41A3C",
+        "status": "unbaselined-existing",
+        "allowed": true
+      },
+      {
+        "source": "GameProject/Assets/BorrowedLight/Resources/Materials/Firefly.mat",
+        "baselineSHA256": null,
+        "sha256": "5486CF707FA7154D0791D7608C200A7F1B1628C36260A2AF2472967F11A0170F",
+        "status": "unbaselined-existing",
+        "allowed": true
+      },
+      {
+        "source": "GameProject/Assets/BorrowedLight/Resources/Materials/Firefly.mat.meta",
+        "baselineSHA256": null,
+        "sha256": "3FCB1006859365FFCF4AA8F25AD37A9D5D3BDF4B51D1F34C1D95453B3FEFC894",
+        "status": "unbaselined-existing",
+        "allowed": true
+      },
+      {
+        "source": "GameProject/Assets/BorrowedLight/Resources/Materials/FoliageMatte.mat",
+        "baselineSHA256": null,
+        "sha256": "A103A1327D71705855B52CF1DF68F70B67A36FDDB99377448DDC54100DBD109F",
+        "status": "unbaselined-existing",
+        "allowed": true
+      },
+      {
+        "source": "GameProject/Assets/BorrowedLight/Resources/Materials/FoliageMatte.mat.meta",
+        "baselineSHA256": null,
+        "sha256": "039973F5B0F37140267831409CD69AF7696A26FEF44E5B506552CC5E306BC51E",
+        "status": "unbaselined-existing",
+        "allowed": true
+      },
+      {
+        "source": "GameProject/Assets/BorrowedLight/Resources/Materials/FoliageMatteNormal.mat",
+        "baselineSHA256": null,
+        "sha256": "FABDD4083ECFC439F4B83E018B9A82253A25FAC67779EF01E337FA380CF628AC",
+        "status": "unbaselined-existing",
+        "allowed": true
+      },
+      {
+        "source": "GameProject/Assets/BorrowedLight/Resources/Materials/FoliageMatteNormal.mat.meta",
+        "baselineSHA256": null,
+        "sha256": "AA88B201695D82E8ECD02FF5F538F03369C7DA00B6CC2D37CDD10221BE5E4957",
+        "status": "unbaselined-existing",
+        "allowed": true
+      },
+      {
+        "source": "GameProject/Assets/BorrowedLight/Resources/Materials/FoliagePaint.mat",
+        "baselineSHA256": null,
+        "sha256": "B2EE111A1CB2669EA33696E5F0049D38FED0B3354CF4E9DE408699B88C3810AA",
+        "status": "unbaselined-existing",
+        "allowed": true
+      },
+      {
+        "source": "GameProject/Assets/BorrowedLight/Resources/Materials/FoliagePaint.mat.meta",
+        "baselineSHA256": null,
+        "sha256": "7C9C8B5427E13F23FF727EF212D8C11CA4AB2D92813A5123A704EFA62B1A1469",
+        "status": "unbaselined-existing",
+        "allowed": true
+      },
+      {
+        "source": "GameProject/Assets/BorrowedLight/Resources/Materials/FoliagePaintStudyFixed20.mat",
+        "baselineSHA256": null,
+        "sha256": "9D7D5F25350C838D67DC1A1CE65B5A4B5FAF0640398E2429AA3DCA402D41F558",
+        "status": "unbaselined-existing",
+        "allowed": true
+      },
+      {
+        "source": "GameProject/Assets/BorrowedLight/Resources/Materials/FoliagePaintStudyFixed20.mat.meta",
+        "baselineSHA256": null,
+        "sha256": "7B289ABC9BD9054DAF77FC6FA6138EE153A352B192FCCF782DCB4D1EEB27A10A",
+        "status": "unbaselined-existing",
+        "allowed": true
+      },
+      {
+        "source": "GameProject/Assets/BorrowedLight/Resources/Materials/FoliagePaintStudyLegacy40.mat",
+        "baselineSHA256": null,
+        "sha256": "64FEFA9ECF176905DFE8059703C37E78FF86E59F14711712AFF9C665C4BA728C",
+        "status": "unbaselined-existing",
+        "allowed": true
+      },
+      {
+        "source": "GameProject/Assets/BorrowedLight/Resources/Materials/FoliagePaintStudyLegacy40.mat.meta",
+        "baselineSHA256": null,
+        "sha256": "2AD4088C38BB789C3DC43ABDF8A556442635733AD5B4705AF382BF13A59C9348",
+        "status": "unbaselined-existing",
+        "allowed": true
+      },
+      {
+        "source": "GameProject/Assets/BorrowedLight/Resources/Materials/FoliageTinted.mat",
+        "baselineSHA256": null,
+        "sha256": "E2F30380FB8AAF10B3C8D8A2D3FC93D640CA2B91BAAA8DE107573898BE425833",
+        "status": "unbaselined-existing",
+        "allowed": true
+      },
+      {
+        "source": "GameProject/Assets/BorrowedLight/Resources/Materials/FoliageTinted.mat.meta",
+        "baselineSHA256": null,
+        "sha256": "FCE4B4C8C0568606E27A7034576A0EC5F74D851FA5089F8587B67076F510F5A8",
+        "status": "unbaselined-existing",
+        "allowed": true
+      },
+      {
+        "source": "GameProject/Assets/BorrowedLight/Resources/Materials/FoliageTintedStudyFixed20.mat",
+        "baselineSHA256": null,
+        "sha256": "343451DDAD18FFEA69594B57EB8D5117099540FDF3DC8A6B2F03031E37B55BFB",
+        "status": "unbaselined-existing",
+        "allowed": true
+      },
+      {
+        "source": "GameProject/Assets/BorrowedLight/Resources/Materials/FoliageTintedStudyFixed20.mat.meta",
+        "baselineSHA256": null,
+        "sha256": "87CB390467CCA928CE3DAC66115A2B57112AD4141EA152E1AF1FBED37EF19121",
+        "status": "unbaselined-existing",
+        "allowed": true
+      },
+      {
+        "source": "GameProject/Assets/BorrowedLight/Resources/Materials/FoliageTintedStudyLegacy40.mat",
+        "baselineSHA256": null,
+        "sha256": "1415C31F94A0C2597459957395002DB06665EB243E36500B3626E873D930114A",
+        "status": "unbaselined-existing",
+        "allowed": true
+      },
+      {
+        "source": "GameProject/Assets/BorrowedLight/Resources/Materials/FoliageTintedStudyLegacy40.mat.meta",
+        "baselineSHA256": null,
+        "sha256": "0AB5DB30C2580A24C257E34D77ACB514B006088A4501F8229DD35F380E71F82E",
+        "status": "unbaselined-existing",
+        "allowed": true
+      },
+      {
+        "source": "GameProject/Assets/BorrowedLight/Resources/Materials/GroundDetailV12.mat",
+        "baselineSHA256": null,
+        "sha256": "B740379C4A87841E29FC55359E2B642398FF6B4AB469FFBCDFA7D705C6CE8C64",
+        "status": "added",
+        "allowed": true
+      },
+      {
+        "source": "GameProject/Assets/BorrowedLight/Resources/Materials/GroundDetailV12.mat.meta",
+        "baselineSHA256": null,
+        "sha256": "998D606B3D8E377E45E82BB76ACEF1618445AD2BDDDC3649A64D571F2C6727CA",
+        "status": "added",
+        "allowed": true
+      },
+      {
+        "source": "GameProject/Assets/BorrowedLight/Resources/Materials/LightVeil.mat",
+        "baselineSHA256": null,
+        "sha256": "306959AF2901E573F5D189141BD5262C26600EC26E59CBF5E0BF62D4A47E475D",
+        "status": "unbaselined-existing",
+        "allowed": true
+      },
+      {
+        "source": "GameProject/Assets/BorrowedLight/Resources/Materials/LightVeil.mat.meta",
+        "baselineSHA256": null,
+        "sha256": "B60CFD7BE64281B1126F6EDB012560E17432879EC93AC32498E51BDC506EE720",
+        "status": "unbaselined-existing",
+        "allowed": true
+      },
+      {
+        "source": "GameProject/Assets/BorrowedLight/Resources/Materials/MoonPaint.mat",
+        "baselineSHA256": null,
+        "sha256": "ACED7FD0A0F2DC1AF8956C346C64982F01B0610999624DC12C65B6A11DC53D24",
+        "status": "unbaselined-existing",
+        "allowed": true
+      },
+      {
+        "source": "GameProject/Assets/BorrowedLight/Resources/Materials/MoonPaint.mat.meta",
+        "baselineSHA256": null,
+        "sha256": "D8F24471E3CCF80087E362EF9B52475EF7388365BE126CB3D1AA0B518A22E012",
+        "status": "unbaselined-existing",
+        "allowed": true
+      },
+      {
+        "source": "GameProject/Assets/BorrowedLight/Resources/Materials/PaintedRockV10.mat",
+        "baselineSHA256": "6A7866AC6CB1529870969B82746DA2AC766121C3598812C16B28CE5FB1490F3E",
+        "sha256": "6A7866AC6CB1529870969B82746DA2AC766121C3598812C16B28CE5FB1490F3E",
+        "status": "unchanged",
+        "allowed": true
+      },
+      {
+        "source": "GameProject/Assets/BorrowedLight/Resources/Materials/PaintedRockV10.mat.meta",
+        "baselineSHA256": null,
+        "sha256": "8BF391B0A0168C99CBBA0EAF29DE5BE548246D0C649BAE72E30493494320FE70",
+        "status": "unbaselined-existing",
+        "allowed": true
+      },
+      {
+        "source": "GameProject/Assets/BorrowedLight/Resources/Materials/PaintedSurface.mat",
+        "baselineSHA256": null,
+        "sha256": "227274DD816900094FCEFA36C472E4A59EED61BD67876C823EFFE7594932E6D8",
+        "status": "unbaselined-existing",
+        "allowed": true
+      },
+      {
+        "source": "GameProject/Assets/BorrowedLight/Resources/Materials/PaintedSurface.mat.meta",
+        "baselineSHA256": null,
+        "sha256": "724F2DB379A4FAFA55D42FF7C36CC04659F2406FD21EEDA17C1456848CFCE58B",
+        "status": "unbaselined-existing",
+        "allowed": true
+      },
+      {
+        "source": "GameProject/Assets/BorrowedLight/Resources/Materials/PaintedTinted.mat",
+        "baselineSHA256": null,
+        "sha256": "8A3A5031AAC685653CFEB8526AE7879AC2E44F80142B65D8E6F768E63914372C",
+        "status": "unbaselined-existing",
+        "allowed": true
+      },
+      {
+        "source": "GameProject/Assets/BorrowedLight/Resources/Materials/PaintedTinted.mat.meta",
+        "baselineSHA256": null,
+        "sha256": "76E73566E843F4D03C01AB8859ABFA9EAF4E5FB3AE60AC00FE9AE1BCD1D6E837",
+        "status": "unbaselined-existing",
+        "allowed": true
+      },
+      {
+        "source": "GameProject/Assets/BorrowedLight/Resources/Materials/Starfield.mat",
+        "baselineSHA256": null,
+        "sha256": "C66ED69B98956823C530F9D7B2EFE4986DE204FCC3245A2673E349A4A369D2A4",
+        "status": "unbaselined-existing",
+        "allowed": true
+      },
+      {
+        "source": "GameProject/Assets/BorrowedLight/Resources/Materials/Starfield.mat.meta",
+        "baselineSHA256": null,
+        "sha256": "BE019FB7BA4484F200708612A9839349C962ABCFC263599E3B9E3C93830BFEAC",
+        "status": "unbaselined-existing",
+        "allowed": true
+      },
+      {
+        "source": "GameProject/Assets/BorrowedLight/Resources/Models/Island.fbx.meta",
+        "baselineSHA256": "ED40B40FE52BBFEB6009F1792C1B0A714C77B4F8AE8ECBA345F6A091535766AF",
+        "sha256": "ED40B40FE52BBFEB6009F1792C1B0A714C77B4F8AE8ECBA345F6A091535766AF",
+        "status": "unchanged",
+        "allowed": true
+      },
+      {
+        "source": "GameProject/Assets/BorrowedLight/Resources/Models/Traveler.fbx.meta",
+        "baselineSHA256": "1D61D3065894AD590DD356D5970F87888D5A5C2FE87768A233E40542577A240B",
+        "sha256": "1D61D3065894AD590DD356D5970F87888D5A5C2FE87768A233E40542577A240B",
+        "status": "unchanged",
+        "allowed": true
+      },
+      {
+        "source": "GameProject/Assets/BorrowedLight/Resources/Textures/GroundDetailV12.png",
+        "baselineSHA256": null,
+        "sha256": "483D36A325CA6B05BBB8580DD3E238AF866F331D762976CB0064569FD7925F1B",
+        "status": "added",
+        "allowed": true
+      },
+      {
+        "source": "GameProject/Assets/BorrowedLight/Resources/Textures/GroundDetailV12.png.meta",
+        "baselineSHA256": null,
+        "sha256": "A672FCCD21B3CF12682D1C89915E40574ED7FA2C826F56A050711090A2556833",
+        "status": "added",
+        "allowed": true
+      },
+      {
+        "source": "GameProject/Assets/BorrowedLight/Resources/Textures/Meadow.png",
+        "baselineSHA256": null,
+        "sha256": "889C373C911C8FD5E4BE519CBBC957436909B380481D1DE22051BB22EF0D3C7F",
+        "status": "unbaselined-existing",
+        "allowed": true
+      },
+      {
+        "source": "GameProject/Assets/BorrowedLight/Resources/Textures/Meadow.png.meta",
+        "baselineSHA256": null,
+        "sha256": "5363B6EF9D15A4558C419FFD52584B0C94D31009C2E09026A821C3E77D57E1D6",
+        "status": "unbaselined-existing",
+        "allowed": true
+      },
+      {
+        "source": "GameProject/Assets/BorrowedLight/Resources/Textures/MeadowNormal.png",
+        "baselineSHA256": null,
+        "sha256": "BBAF18FC6DD0F38E7D0E3FBA17B98AE72FD55D47597971FFCC712460B2C321BC",
+        "status": "unbaselined-existing",
+        "allowed": true
+      },
+      {
+        "source": "GameProject/Assets/BorrowedLight/Resources/Textures/MeadowNormal.png.meta",
+        "baselineSHA256": null,
+        "sha256": "B340A9EB5B56A20FEFAD1F837D6D78FDD9B4803ED8E10E0AFA6EC9A9DFBE09AA",
+        "status": "unbaselined-existing",
+        "allowed": true
+      },
+      {
+        "source": "GameProject/Assets/BorrowedLight/Resources/Textures/Nebula.png",
+        "baselineSHA256": null,
+        "sha256": "6BE6B09C7DC09940FC8B9B616EA0688008AEA433DE90C6076E31784E16AC187B",
+        "status": "unbaselined-existing",
+        "allowed": true
+      },
+      {
+        "source": "GameProject/Assets/BorrowedLight/Resources/Textures/Nebula.png.meta",
+        "baselineSHA256": null,
+        "sha256": "CB1F6D1B6D016CAB79C47714BE024C2E238E0C4385659160A2A49EED3AB8986F",
+        "status": "unbaselined-existing",
+        "allowed": true
+      },
+      {
+        "source": "GameProject/Assets/BorrowedLight/Resources/Textures/StoneV10.png",
+        "baselineSHA256": null,
+        "sha256": "17613BDBD49E1D48A99D5B2B3687ABED4DE6D8E19006E25D78ED07FB588D8CF5",
+        "status": "unbaselined-existing",
+        "allowed": true
+      },
+      {
+        "source": "GameProject/Assets/BorrowedLight/Resources/Textures/StoneV10.png.meta",
+        "baselineSHA256": "B0B701914F29F3CE63FC1006EE7AC8986B30552748879F5C90022430D79674DC",
+        "sha256": "B0B701914F29F3CE63FC1006EE7AC8986B30552748879F5C90022430D79674DC",
+        "status": "unchanged",
+        "allowed": true
+      },
+      {
+        "source": "GameProject/Assets/BorrowedLight/Runtime/CelestialStarField.cs",
+        "baselineSHA256": "0DD28669B31DBF1C07C1D00EDA809ED4A9E7A8FD9E9F5803E4CB44BBE6574916",
+        "sha256": "0DD28669B31DBF1C07C1D00EDA809ED4A9E7A8FD9E9F5803E4CB44BBE6574916",
+        "status": "unchanged",
+        "allowed": true
+      },
+      {
+        "source": "GameProject/Assets/BorrowedLight/Runtime/CelestialStarField.cs.meta",
+        "baselineSHA256": null,
+        "sha256": "05CD5964E4785BA4F0A168AEC51C1071F12B6ACD09F74BAE12D98C2EDC1E9098",
+        "status": "unbaselined-existing",
+        "allowed": true
+      },
+      {
+        "source": "GameProject/Assets/BorrowedLight/Runtime/GameLogic.cs",
+        "baselineSHA256": null,
+        "sha256": "6640648136FEAD1F1EC0C6AB697620C81773B95CC5C9A1E29E408428EB1000E0",
+        "status": "unbaselined-existing",
+        "allowed": true
+      },
+      {
+        "source": "GameProject/Assets/BorrowedLight/Runtime/GameLogic.cs.meta",
+        "baselineSHA256": null,
+        "sha256": "0103FED21D67DBDA00037854A1FB4E2D89A00DB087A984A413987DB018CFDCF3",
+        "status": "unbaselined-existing",
+        "allowed": true
+      },
+      {
+        "source": "GameProject/Assets/BorrowedLight/Runtime/GroundDetailStudy.cs",
+        "baselineSHA256": null,
+        "sha256": "90CF33C9FD91AFD01F88134C3FFA7B8210F21C1361A9066D4C6686D973D35FF0",
+        "status": "added",
+        "allowed": true
+      },
+      {
+        "source": "GameProject/Assets/BorrowedLight/Runtime/GroundDetailStudy.cs.meta",
+        "baselineSHA256": null,
+        "sha256": "E5C730E3FE9F006F431E66815603ADD99890C531F9E5E08604A22D6B86A7A899",
+        "status": "added",
+        "allowed": true
+      },
+      {
+        "source": "GameProject/Assets/BorrowedLight/Runtime/LampPuzzle.cs",
+        "baselineSHA256": null,
+        "sha256": "448DC40514C6560FAACD9542D1C15D7016C747F4A04C62CFAEA3E87861C87345",
+        "status": "unbaselined-existing",
+        "allowed": true
+      },
+      {
+        "source": "GameProject/Assets/BorrowedLight/Runtime/LampPuzzle.cs.meta",
+        "baselineSHA256": null,
+        "sha256": "6F0952BF205F3AE25E09136DAE055942371910C02F5E8BD9FE90CC0141D16D89",
+        "status": "unbaselined-existing",
+        "allowed": true
+      },
+      {
+        "source": "GameProject/Assets/BorrowedLight/Runtime/StoryData.cs",
+        "baselineSHA256": null,
+        "sha256": "4992E01080C25B6865395DB65C35A39C6E5471E5B26BC73AE1C80E7777556F37",
+        "status": "unbaselined-existing",
+        "allowed": true
+      },
+      {
+        "source": "GameProject/Assets/BorrowedLight/Runtime/StoryData.cs.meta",
+        "baselineSHA256": null,
+        "sha256": "B26045D7322164824D11D7106CBFE492F925D6ADA86AD13DF75D151A4E54EF99",
+        "status": "unbaselined-existing",
+        "allowed": true
+      },
+      {
+        "source": "GameProject/Assets/BorrowedLight/Runtime/StoryHUD.cs",
+        "baselineSHA256": "BBD0E50EB13C16676DFC445DC30EFBC16C4DE3A4D908E288B716A4C5B46F27F3",
+        "sha256": "BBD0E50EB13C16676DFC445DC30EFBC16C4DE3A4D908E288B716A4C5B46F27F3",
+        "status": "unchanged",
+        "allowed": true
+      },
+      {
+        "source": "GameProject/Assets/BorrowedLight/Runtime/StoryHUD.cs.meta",
+        "baselineSHA256": null,
+        "sha256": "3F19BC75D953AA828718C2D842BF36019C9572C3D2FBAF6BA489A3FBBDCC0C78",
+        "status": "unbaselined-existing",
+        "allowed": true
+      },
+      {
+        "source": "GameProject/Assets/BorrowedLight/Runtime/TravelerMotor.cs",
+        "baselineSHA256": "5E9188F28E35B3C30EFDDBD4D0BB9EB6055575EFF7C4B2AE5AEB86A75C56F611",
+        "sha256": "5E9188F28E35B3C30EFDDBD4D0BB9EB6055575EFF7C4B2AE5AEB86A75C56F611",
+        "status": "unchanged",
+        "allowed": true
+      },
+      {
+        "source": "GameProject/Assets/BorrowedLight/Runtime/TravelerMotor.cs.meta",
+        "baselineSHA256": null,
+        "sha256": "C10A545AE4C9D2649EF680949538D43FF69F5160FF4B488190D9D3BB9A0D90E4",
+        "status": "unbaselined-existing",
+        "allowed": true
+      },
+      {
+        "source": "GameProject/Assets/BorrowedLight/Runtime/WorldAtmosphere.cs",
+        "baselineSHA256": "9E860E01F0DE0F088599900B3B5F882A6A0A5AAD8F40E6EF043B65BF33F5716F",
+        "sha256": "9E860E01F0DE0F088599900B3B5F882A6A0A5AAD8F40E6EF043B65BF33F5716F",
+        "status": "unchanged",
+        "allowed": true
+      },
+      {
+        "source": "GameProject/Assets/BorrowedLight/Runtime/WorldAtmosphere.cs.meta",
+        "baselineSHA256": null,
+        "sha256": "EBF354AB77220FFCF291D9320D47530480A7F0C1488B598C09B96C2429BF53E4",
+        "status": "unbaselined-existing",
+        "allowed": true
+      },
+      {
+        "source": "GameProject/Assets/BorrowedLight/Runtime/WorldDirector.cs",
+        "baselineSHA256": "46BBCA67DCB08BD48F15A30FF66F075EE1B269C6F0641CB0CE7A78054F049A63",
+        "sha256": "1C9A304201F4676911AAA0928C3042E541A7B9D1EBB1955BCBACE2313D9B9593",
+        "status": "modified",
+        "allowed": true
+      },
+      {
+        "source": "GameProject/Assets/BorrowedLight/Runtime/WorldDirector.cs.meta",
+        "baselineSHA256": null,
+        "sha256": "D425127490EA7B1A48161E4FE274A88D7B79F0612A382E13B3521A1064EACF9E",
+        "status": "unbaselined-existing",
+        "allowed": true
+      },
+      {
+        "source": "GameProject/Assets/BorrowedLight/Runtime/WorldMaterialStudy.cs",
+        "baselineSHA256": "5009A62C5A25C13569EB021263C1B7BB5DBFB3ABEBB81F7A3FB6D91856CEEDEE",
+        "sha256": "5009A62C5A25C13569EB021263C1B7BB5DBFB3ABEBB81F7A3FB6D91856CEEDEE",
+        "status": "unchanged",
+        "allowed": true
+      },
+      {
+        "source": "GameProject/Assets/BorrowedLight/Runtime/WorldMaterialStudy.cs.meta",
+        "baselineSHA256": null,
+        "sha256": "5C460FA926AC81B2163A8B043F230F93466F68389B0D56AA16D955E7C3A23C3F",
+        "status": "unbaselined-existing",
+        "allowed": true
+      },
+      {
+        "source": "GameProject/Assets/BorrowedLight/Runtime/WorldVisualDiagnostics.cs",
+        "baselineSHA256": "2F32161169DD27FA04A42C279B6E8703707878E74ED4FD732078C77BE1713104",
+        "sha256": "2F32161169DD27FA04A42C279B6E8703707878E74ED4FD732078C77BE1713104",
+        "status": "unchanged",
+        "allowed": true
+      },
+      {
+        "source": "GameProject/Assets/BorrowedLight/Runtime/WorldVisualDiagnostics.cs.meta",
+        "baselineSHA256": null,
+        "sha256": "B583BBCAF2643FB1C5BF0BC829B842EF44249619CF6AD0FB7256301271C056A8",
+        "status": "unbaselined-existing",
+        "allowed": true
+      },
+      {
+        "source": "GameProject/Assets/BorrowedLight/Shaders/CelestialSky.shader",
+        "baselineSHA256": null,
+        "sha256": "E9B73F36E86A5427D7851D496D59A9C16C34081D17037F834C8C1AE2FB53EDD3",
+        "status": "unbaselined-existing",
+        "allowed": true
+      },
+      {
+        "source": "GameProject/Assets/BorrowedLight/Shaders/CelestialSky.shader.meta",
+        "baselineSHA256": null,
+        "sha256": "F021C1FA7F9A9D2E18A6F2D47FEC053B99D26E453593712868D524E46FE28223",
+        "status": "unbaselined-existing",
+        "allowed": true
+      },
+      {
+        "source": "GameProject/Assets/BorrowedLight/Shaders/CloudVeil.shader",
+        "baselineSHA256": null,
+        "sha256": "62FF05A983BFCE95F2FDEC5C259EC8612FEC9C97FC3C2350DEB71F359992C8B7",
+        "status": "unbaselined-existing",
+        "allowed": true
+      },
+      {
+        "source": "GameProject/Assets/BorrowedLight/Shaders/CloudVeil.shader.meta",
+        "baselineSHA256": null,
+        "sha256": "1368F01A19D857782DD60C22D75CAAA4D923590DBC237C5AA25F2C7C4A83AE0D",
+        "status": "unbaselined-existing",
+        "allowed": true
+      },
+      {
+        "source": "GameProject/Assets/BorrowedLight/Shaders/Firefly.shader",
+        "baselineSHA256": null,
+        "sha256": "1307DAED3CC11140374C244C7B247BFD46A8C8492869ED3077AC4D8228DCCED4",
+        "status": "unbaselined-existing",
+        "allowed": true
+      },
+      {
+        "source": "GameProject/Assets/BorrowedLight/Shaders/Firefly.shader.meta",
+        "baselineSHA256": null,
+        "sha256": "13E61E0C529719966F13E010DF6E74D95A915C61D7483DDA4EEEEA7625DDB98C",
+        "status": "unbaselined-existing",
+        "allowed": true
+      },
+      {
+        "source": "GameProject/Assets/BorrowedLight/Shaders/FoliagePaint.shader",
+        "baselineSHA256": "476A08A84695E3826A2FF452714E928DD4AA958B927226B0671EC85ED32FE9F8",
+        "sha256": "476A08A84695E3826A2FF452714E928DD4AA958B927226B0671EC85ED32FE9F8",
+        "status": "unchanged",
+        "allowed": true
+      },
+      {
+        "source": "GameProject/Assets/BorrowedLight/Shaders/FoliagePaint.shader.meta",
+        "baselineSHA256": null,
+        "sha256": "6620E14AC4CBF6D5D27616A539CA12EDA29DDFB413146C5CC16BD3591B0054CE",
+        "status": "unbaselined-existing",
+        "allowed": true
+      },
+      {
+        "source": "GameProject/Assets/BorrowedLight/Shaders/FoliageSurface.hlsl",
+        "baselineSHA256": "BE618753F3F05A449E66E8BC4D3F1092C8DD2E1F9AD79CBB23D68387F7501181",
+        "sha256": "BE618753F3F05A449E66E8BC4D3F1092C8DD2E1F9AD79CBB23D68387F7501181",
+        "status": "unchanged",
+        "allowed": true
+      },
+      {
+        "source": "GameProject/Assets/BorrowedLight/Shaders/FoliageSurface.hlsl.meta",
+        "baselineSHA256": null,
+        "sha256": "5369CF80AA926654A2F224D7C1A693D3D6A50A0F1263FE723AF1F716BC463038",
+        "status": "unbaselined-existing",
+        "allowed": true
+      },
+      {
+        "source": "GameProject/Assets/BorrowedLight/Shaders/GroundDetail.shader",
+        "baselineSHA256": null,
+        "sha256": "508425C2D8357743B05D679DBFD32D81B8F78092BB6E7984F3BC68D4A34196B7",
+        "status": "added",
+        "allowed": true
+      },
+      {
+        "source": "GameProject/Assets/BorrowedLight/Shaders/GroundDetail.shader.meta",
+        "baselineSHA256": null,
+        "sha256": "52CF593C8C3D5B2A142AF67B7CF7A78D7D77C7898747C128B0DAAF1460CECB7E",
+        "status": "added",
+        "allowed": true
+      },
+      {
+        "source": "GameProject/Assets/BorrowedLight/Shaders/LightVeil.shader",
+        "baselineSHA256": null,
+        "sha256": "090BA435CF08C56AD25464A64B3FB7607501FD610FECC017FB093BC33491F084",
+        "status": "unbaselined-existing",
+        "allowed": true
+      },
+      {
+        "source": "GameProject/Assets/BorrowedLight/Shaders/LightVeil.shader.meta",
+        "baselineSHA256": null,
+        "sha256": "4C45AD237203A627E9CEF433A6B4C1A257DFBF02BCBB19DE19C329F7F24240FF",
+        "status": "unbaselined-existing",
+        "allowed": true
+      },
+      {
+        "source": "GameProject/Assets/BorrowedLight/Shaders/MoonPaint.shader",
+        "baselineSHA256": null,
+        "sha256": "B8FE85B44D7AFD04B8D135EC4003CDC073CF4EFBE0415E68884CD680A6804A80",
+        "status": "unbaselined-existing",
+        "allowed": true
+      },
+      {
+        "source": "GameProject/Assets/BorrowedLight/Shaders/MoonPaint.shader.meta",
+        "baselineSHA256": null,
+        "sha256": "DA8F13724E35B2DF0592B43E33C126DCFC1894E99FFE6A2CA44A120AEA9A1D50",
+        "status": "unbaselined-existing",
+        "allowed": true
+      },
+      {
+        "source": "GameProject/Assets/BorrowedLight/Shaders/PaintedSurface.shader",
+        "baselineSHA256": "90C59D9DD108EE401EB938F0296F6CBB2902541CF5B7BF3EDBA6A2B83D596258",
+        "sha256": "90C59D9DD108EE401EB938F0296F6CBB2902541CF5B7BF3EDBA6A2B83D596258",
+        "status": "unchanged",
+        "allowed": true
+      },
+      {
+        "source": "GameProject/Assets/BorrowedLight/Shaders/PaintedSurface.shader.meta",
+        "baselineSHA256": null,
+        "sha256": "39B09F3E3B9C9F5DB52A15853287F4099D0CB689ABD7A27020AD0D46E7F1D728",
+        "status": "unbaselined-existing",
+        "allowed": true
+      },
+      {
+        "source": "GameProject/Assets/BorrowedLight/Shaders/Starfield.shader",
+        "baselineSHA256": "29C8BE3CA176D2DE557D5CA2F7443BE367D28ABC0FD203A2B91F999C5036DD91",
+        "sha256": "29C8BE3CA176D2DE557D5CA2F7443BE367D28ABC0FD203A2B91F999C5036DD91",
+        "status": "unchanged",
+        "allowed": true
+      },
+      {
+        "source": "GameProject/Assets/BorrowedLight/Shaders/Starfield.shader.meta",
+        "baselineSHA256": null,
+        "sha256": "4C289E61886071A7EB80777D6E2CD93F96C829C276E592B7A300A2658716E289",
+        "status": "unbaselined-existing",
+        "allowed": true
+      }
+    ],
+    "allChangesWithinScope": true,
+    "scope": "Only tracked WorldDirector may change; eight explicit ground additions are required. Other pre-existing current files without a v11 snapshot are labelled unbaselined-existing, never asserted unchanged from v11."
+  },
+  "scope": {
+    "summary": "v12采用world-v10（505,782三角）：仅Garden_GrassTufts和Garden_CreepingMeadowLeaves更新；其余27个网格、14个锚点以及世界原有材质和Meadow两张贴图保留。新增GroundDetail shader、诊断Runtime及原创图像资源，并修改WorldDirector的地面材质接入；本版不能描述为游戏源码全部未改。角色保持冻结character-v9。",
+    "grass": {
+      "decision": "art/verification/v12-grass-refined/decision.json",
+      "asset": "art/generated/world-v10/asset-manifest.json",
+      "targets": [
+        "Garden_CreepingMeadowLeaves",
+        "Garden_GrassTufts"
+      ]
+    },
+    "ground": {
+      "decision": "art/verification/v12-ground-detail-refined/decision.json",
+      "study": "art/verification/v12-ground-detail-refined/ground-detail-study.json",
+      "manifest": "art/generated/ground-v12/manifest.json",
+      "selectedVariant": "detail-soft",
+      "strength": 0.3499999940395355,
+      "tileMetres": 1.7999999523162842,
+      "normalScale": 0.2199999988079071,
+      "runtime": {
+        "native": {
+          "log": "art/verification/run-032-v12/player.log",
+          "records": 1,
+          "shader": "BorrowedLight/GroundDetail",
+          "strength": 0.3499999940395355,
+          "normalScale": 0.2199999988079071,
+          "tileMetres": 1.7999999523162842
+        },
+        "web": {
+          "log": "art/verification/web-013-v12/browser-console.txt",
+          "records": 2,
+          "shader": "BorrowedLight/GroundDetail",
+          "strength": 0.3499999940395355,
+          "normalScale": 0.2199999988079071,
+          "tileMetres": 1.7999999523162842
+        }
+      },
+      "import": {
+        "meta": "GameProject/Assets/BorrowedLight/Resources/Textures/GroundDetailV12.png.meta",
+        "sha256": "A672FCCD21B3CF12682D1C89915E40574ED7FA2C826F56A050711090A2556833",
+        "standalone": {
+          "platform": "Standalone",
+          "overridden": 1,
+          "format": 10,
+          "maxTextureSize": 1024,
+          "compression": 2,
+          "compressionQuality": 100,
+          "crunched": 0
+        },
+        "web": {
+          "platform": "WebGL",
+          "overridden": 1,
+          "format": 4,
+          "maxTextureSize": 2048,
+          "compression": 0,
+          "compressionQuality": 50,
+          "crunched": 0
+        },
+        "compressionReview": {
+          "decision": "art/verification/v12-ground-compression/decision.json",
+          "study": "art/verification/v12-ground-compression/ground-detail-study.json",
+          "captureComparison": "art/verification/v12-ground-compression/capture-condition-comparison.json",
+          "buildEvidence": "art/verification/v12-ground-compression/build-evidence.json",
+          "windowsBuild": "build_c217a6ee8275",
+          "detailMap": {
+            "name": "GroundDetailV12",
+            "format": "DXT1",
+            "graphicsFormat": "RGBA_DXT1_SRGB",
+            "width": 1024,
+            "height": 1024,
+            "mipCount": 11,
+            "aniso": 4,
+            "filter": "Trilinear",
+            "wrap": "Repeat"
+          },
+          "summary": "Windows 地面细节采用 1024×1024 DXT1 导入：正常路径层次与路线可读性基本保留，近景最细颗粒略软，未见明显方块、接缝或大块糊平。仅限固定画面质量采用，性能结论另见正常游戏记录；Web 保持 1254×1254 RGBA32。",
+          "limits": [
+            "最细颗粒与纤维略软，灯旁近景仍有均匀铺毯感。",
+            "引擎导入进行了缩小和有损块压缩；原PNG与Resources PNG字节未改。",
+            "仅此Windows导入配置已做固定画面对照，Web仍使用原RGBA32配置。",
+            "静态图不证明帧率提升或动态无闪烁。",
+            "整体视觉超过参考网站的目标尚未达到。"
+          ],
+          "scope": "Native importer-only review; original PNG bytes unchanged. Original ground adoption remains the separate RGBA32 static comparison. No claim of zero rendering cost."
+        }
+      }
+    },
+    "limits": [
+      "高草近景仍有折线和扁平叶面，改善幅度有限。",
+      "静态对照不验证动态风摆、移动闪烁或帧率。",
+      "地面细节另行独立对照，草地截图尚未启用新地面。",
+      "整体视觉超过参考网站的目标尚未达到。",
+      "灯旁和贴地近景仍有较均匀的细碎平面纹理。",
+      "这是颜色细节，未增加真实几何或新的凹凸法线。",
+      "本机 Windows 与 WebGL 正常运行及短样本检查已完成；动态闪烁、全部机位和长期最低帧率未做完整验收。",
+      "原始像素均值归一不保证屏幕或 mip 过滤后亮度均值完全一致。",
+      "最细颗粒与纤维略软，灯旁近景仍有均匀铺毯感。",
+      "引擎导入进行了缩小和有损块压缩；原PNG与Resources PNG字节未改。",
+      "仅此Windows导入配置已做固定画面对照，Web仍使用原RGBA32配置。",
+      "静态图不证明帧率提升或动态无闪烁。",
+      "固定时间不冻结全部时域AO/渲染随机项，不声称逐像素重复。",
+      "本版没有新行走录像验收，v10步态视频只作历史参考；静态材质对照不覆盖动态闪烁/全部机位。",
+      "各视角原生短样本不能排除性能回退，需要同主机同条件的版本比较，不能以功能QA通过代替。",
+      "character-v9继承的GLB零面积下睑/嘴线端点法线限制保留；游戏使用FBX。"
+    ]
+  }
+}

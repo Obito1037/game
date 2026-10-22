@@ -1,0 +1,649 @@
+{
+  "version": 5,
+  "source": "art\\generated\\character-v4\\traveler.blend",
+  "source_sha256": "1cbfdc1c3f6bde73aa3b5a9911a5012bf6f7b554e834bd1f4c7c5d52dbea6985",
+  "source_script_sha256": "98709764e13ac4947cc17c577566b523c01ec595907dc56312b96e31c2e6e306",
+  "triangles": 53956,
+  "mesh_renderers": 62,
+  "armatures": 4,
+  "bones": 12,
+  "frozen_neutral_geometry_max_deviation_m": 7.028863677424642E-08,
+  "preserved_pivots_world": {
+    "TravelerRoot": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "Arm_L": [
+      -0.16529999673366547,
+      0.0,
+      0.9298182129859924
+    ],
+    "Arm_R": [
+      0.16529999673366547,
+      0.0,
+      0.9298182129859924
+    ],
+    "Lantern": [
+      0.24011999368667603,
+      -0.05939999967813492,
+      0.6440322399139404
+    ],
+    "Body": [
+      0.0,
+      0.0,
+      0.7649999856948853
+    ],
+    "Head": [
+      0.0,
+      0.0,
+      1.0099999904632568
+    ],
+    "Blink_L": [
+      -0.04416000097990036,
+      -0.10009864717721939,
+      1.157599925994873
+    ],
+    "Blink_R": [
+      0.04416000097990036,
+      -0.10009864717721939,
+      1.157599925994873
+    ],
+    "Leg_L": [
+      -0.07220999896526337,
+      0.0,
+      0.6311110854148865
+    ],
+    "Leg_R": [
+      0.07220999896526337,
+      0.0,
+      0.6311110854148865
+    ],
+    "ScarfTail": [
+      0.03915000334382057,
+      0.06750000268220901,
+      0.9654545187950134
+    ]
+  },
+  "rigs": [
+    {
+      "object": "Arm_L_SkinRig",
+      "parent": "Arm_L",
+      "bones": [
+        {
+          "name": "UpperArm_L",
+          "parent": null,
+          "head_world": [
+            -0.16529999673366547,
+            0.0,
+            0.9298182129859924
+          ],
+          "tail_world": [
+            -0.20600000023841858,
+            -0.004000000189989805,
+            0.8059999942779541
+          ],
+          "lateral_axis_bone_local": [
+            -0.949993371963501,
+            -0.3121231198310852,
+            0.009579181671142578
+          ]
+        },
+        {
+          "name": "Elbow_L",
+          "parent": "UpperArm_L",
+          "head_world": [
+            -0.20600000023841858,
+            -0.004000000189989805,
+            0.8059999942779541
+          ],
+          "tail_world": [
+            -0.23100000619888306,
+            -0.0494999997317791,
+            0.6669999957084656
+          ],
+          "lateral_axis_bone_local": [
+            -0.9842080473899841,
+            -0.16848787665367126,
+            0.05428142845630646
+          ]
+        }
+      ]
+    },
+    {
+      "object": "Leg_L_SkinRig",
+      "parent": "Leg_L",
+      "bones": [
+        {
+          "name": "Thigh_L",
+          "parent": null,
+          "head_world": [
+            -0.07220999896526337,
+            0.0,
+            0.6311110854148865
+          ],
+          "tail_world": [
+            -0.07220999896526337,
+            0.006000000052154064,
+            0.39800000190734863
+          ],
+          "lateral_axis_bone_local": [
+            -1.0,
+            -7.105427357601002E-15,
+            -1.5099581673894136E-07
+          ]
+        },
+        {
+          "name": "Knee_L",
+          "parent": "Thigh_L",
+          "head_world": [
+            -0.07220999896526337,
+            0.006000000052154064,
+            0.39800000190734863
+          ],
+          "tail_world": [
+            -0.07220999896526337,
+            0.008999999612569809,
+            0.0899999737739563
+          ],
+          "lateral_axis_bone_local": [
+            -1.0,
+            1.4210854715202004E-14,
+            1.5099581673894136E-07
+          ]
+        },
+        {
+          "name": "Ankle_L",
+          "parent": "Knee_L",
+          "head_world": [
+            -0.07220999896526337,
+            0.008999999612569809,
+            0.0899999737739563
+          ],
+          "tail_world": [
+            -0.07220999896526337,
+            -0.10100000351667404,
+            0.04000002145767212
+          ],
+          "lateral_axis_bone_local": [
+            -1.0,
+            7.105427357601002E-15,
+            1.5099581673894136E-07
+          ]
+        },
+        {
+          "name": "HipAnchor_L",
+          "parent": null,
+          "head_world": [
+            -0.07220999896526337,
+            0.0,
+            0.6311110854148865
+          ],
+          "tail_world": [
+            -0.07220999896526337,
+            0.0,
+            0.7161110639572144
+          ],
+          "lateral_axis_bone_local": [
+            1.0000001192092896,
+            0.0,
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "object": "Arm_R_SkinRig",
+      "parent": "Arm_R",
+      "bones": [
+        {
+          "name": "UpperArm_R",
+          "parent": null,
+          "head_world": [
+            0.16529999673366547,
+            0.0,
+            0.9298182129859924
+          ],
+          "tail_world": [
+            0.20600000023841858,
+            -0.004000000189989805,
+            0.8059999942779541
+          ],
+          "lateral_axis_bone_local": [
+            -0.949993371963501,
+            0.3121231198310852,
+            -0.009579181671142578
+          ]
+        },
+        {
+          "name": "Elbow_R",
+          "parent": "UpperArm_R",
+          "head_world": [
+            0.20600000023841858,
+            -0.004000000189989805,
+            0.8059999942779541
+          ],
+          "tail_world": [
+            0.23100000619888306,
+            -0.0494999997317791,
+            0.6669999957084656
+          ],
+          "lateral_axis_bone_local": [
+            -0.9842080473899841,
+            0.16848787665367126,
+            -0.05428142845630646
+          ]
+        }
+      ]
+    },
+    {
+      "object": "Leg_R_SkinRig",
+      "parent": "Leg_R",
+      "bones": [
+        {
+          "name": "Thigh_R",
+          "parent": null,
+          "head_world": [
+            0.07220999896526337,
+            0.0,
+            0.6311110854148865
+          ],
+          "tail_world": [
+            0.07220999896526337,
+            0.006000000052154064,
+            0.39800000190734863
+          ],
+          "lateral_axis_bone_local": [
+            -1.0,
+            -7.105427357601002E-15,
+            -1.5099581673894136E-07
+          ]
+        },
+        {
+          "name": "Knee_R",
+          "parent": "Thigh_R",
+          "head_world": [
+            0.07220999896526337,
+            0.006000000052154064,
+            0.39800000190734863
+          ],
+          "tail_world": [
+            0.07220999896526337,
+            0.008999999612569809,
+            0.0899999737739563
+          ],
+          "lateral_axis_bone_local": [
+            -1.0,
+            1.4210854715202004E-14,
+            1.5099581673894136E-07
+          ]
+        },
+        {
+          "name": "Ankle_R",
+          "parent": "Knee_R",
+          "head_world": [
+            0.07220999896526337,
+            0.008999999612569809,
+            0.0899999737739563
+          ],
+          "tail_world": [
+            0.07220999896526337,
+            -0.10100000351667404,
+            0.04000002145767212
+          ],
+          "lateral_axis_bone_local": [
+            -1.0,
+            7.105427357601002E-15,
+            1.5099581673894136E-07
+          ]
+        },
+        {
+          "name": "HipAnchor_R",
+          "parent": null,
+          "head_world": [
+            0.07220999896526337,
+            0.0,
+            0.6311110854148865
+          ],
+          "tail_world": [
+            0.07220999896526337,
+            0.0,
+            0.7161110639572144
+          ],
+          "lateral_axis_bone_local": [
+            1.0000001192092896,
+            0.0,
+            0.0
+          ]
+        }
+      ]
+    }
+  ],
+  "weights": [
+    {
+      "mesh": "Arm_L_Cape_SeaMistBinding",
+      "rig": "Arm_L_SkinRig",
+      "bones": [
+        "UpperArm_L",
+        "Elbow_L"
+      ],
+      "vertices": 217,
+      "blended_vertices": 0
+    },
+    {
+      "mesh": "Arm_L_Face_Fingernails",
+      "rig": "Arm_L_SkinRig",
+      "bones": [
+        "UpperArm_L",
+        "Elbow_L"
+      ],
+      "vertices": 208,
+      "blended_vertices": 0
+    },
+    {
+      "mesh": "Arm_L_Face_NoseCream",
+      "rig": "Arm_L_SkinRig",
+      "bones": [
+        "UpperArm_L",
+        "Elbow_L"
+      ],
+      "vertices": 208,
+      "blended_vertices": 0
+    },
+    {
+      "mesh": "Arm_L_Face_PorcelainCream",
+      "rig": "Arm_L_SkinRig",
+      "bones": [
+        "UpperArm_L",
+        "Elbow_L"
+      ],
+      "vertices": 662,
+      "blended_vertices": 0
+    },
+    {
+      "mesh": "Arm_L_Face_RoseCheeks",
+      "rig": "Arm_L_SkinRig",
+      "bones": [
+        "UpperArm_L",
+        "Elbow_L"
+      ],
+      "vertices": 32,
+      "blended_vertices": 0
+    },
+    {
+      "mesh": "Arm_L_Gloves_OatKnit",
+      "rig": "Arm_L_SkinRig",
+      "bones": [
+        "UpperArm_L",
+        "Elbow_L"
+      ],
+      "vertices": 175,
+      "blended_vertices": 0
+    },
+    {
+      "mesh": "Arm_L_Stitches_PaleFlax",
+      "rig": "Arm_L_SkinRig",
+      "bones": [
+        "UpperArm_L",
+        "Elbow_L"
+      ],
+      "vertices": 80,
+      "blended_vertices": 0
+    },
+    {
+      "mesh": "Sleeve_L",
+      "rig": "Arm_L_SkinRig",
+      "bones": [
+        "UpperArm_L",
+        "Elbow_L"
+      ],
+      "vertices": 418,
+      "blended_vertices": 88
+    },
+    {
+      "mesh": "BootSole_L",
+      "rig": "Leg_L_SkinRig",
+      "bones": [
+        "Thigh_L",
+        "Knee_L",
+        "Ankle_L",
+        "HipAnchor_L"
+      ],
+      "vertices": 58,
+      "blended_vertices": 0
+    },
+    {
+      "mesh": "BootUpper_L",
+      "rig": "Leg_L_SkinRig",
+      "bones": [
+        "Thigh_L",
+        "Knee_L",
+        "Ankle_L",
+        "HipAnchor_L"
+      ],
+      "vertices": 115,
+      "blended_vertices": 32
+    },
+    {
+      "mesh": "Leg_L_Boots_HoneyLeather",
+      "rig": "Leg_L_SkinRig",
+      "bones": [
+        "Thigh_L",
+        "Knee_L",
+        "Ankle_L",
+        "HipAnchor_L"
+      ],
+      "vertices": 315,
+      "blended_vertices": 108
+    },
+    {
+      "mesh": "Leg_L_Hood_DuskBlue",
+      "rig": "Leg_L_SkinRig",
+      "bones": [
+        "Thigh_L",
+        "Knee_L",
+        "Ankle_L",
+        "HipAnchor_L"
+      ],
+      "vertices": 45,
+      "blended_vertices": 15
+    },
+    {
+      "mesh": "Leg_L_Lantern_BrushedBrass",
+      "rig": "Leg_L_SkinRig",
+      "bones": [
+        "Thigh_L",
+        "Knee_L",
+        "Ankle_L",
+        "HipAnchor_L"
+      ],
+      "vertices": 312,
+      "blended_vertices": 208
+    },
+    {
+      "mesh": "Trouser_L",
+      "rig": "Leg_L_SkinRig",
+      "bones": [
+        "Thigh_L",
+        "Knee_L",
+        "Ankle_L",
+        "HipAnchor_L"
+      ],
+      "vertices": 99,
+      "blended_vertices": 31
+    },
+    {
+      "mesh": "Arm_R_Cape_SeaMistBinding",
+      "rig": "Arm_R_SkinRig",
+      "bones": [
+        "UpperArm_R",
+        "Elbow_R"
+      ],
+      "vertices": 217,
+      "blended_vertices": 0
+    },
+    {
+      "mesh": "Arm_R_Face_Fingernails",
+      "rig": "Arm_R_SkinRig",
+      "bones": [
+        "UpperArm_R",
+        "Elbow_R"
+      ],
+      "vertices": 208,
+      "blended_vertices": 0
+    },
+    {
+      "mesh": "Arm_R_Face_NoseCream",
+      "rig": "Arm_R_SkinRig",
+      "bones": [
+        "UpperArm_R",
+        "Elbow_R"
+      ],
+      "vertices": 208,
+      "blended_vertices": 0
+    },
+    {
+      "mesh": "Arm_R_Face_PorcelainCream",
+      "rig": "Arm_R_SkinRig",
+      "bones": [
+        "UpperArm_R",
+        "Elbow_R"
+      ],
+      "vertices": 662,
+      "blended_vertices": 0
+    },
+    {
+      "mesh": "Arm_R_Face_RoseCheeks",
+      "rig": "Arm_R_SkinRig",
+      "bones": [
+        "UpperArm_R",
+        "Elbow_R"
+      ],
+      "vertices": 32,
+      "blended_vertices": 0
+    },
+    {
+      "mesh": "Arm_R_Gloves_OatKnit",
+      "rig": "Arm_R_SkinRig",
+      "bones": [
+        "UpperArm_R",
+        "Elbow_R"
+      ],
+      "vertices": 175,
+      "blended_vertices": 0
+    },
+    {
+      "mesh": "Arm_R_Stitches_PaleFlax",
+      "rig": "Arm_R_SkinRig",
+      "bones": [
+        "UpperArm_R",
+        "Elbow_R"
+      ],
+      "vertices": 80,
+      "blended_vertices": 0
+    },
+    {
+      "mesh": "Sleeve_R",
+      "rig": "Arm_R_SkinRig",
+      "bones": [
+        "UpperArm_R",
+        "Elbow_R"
+      ],
+      "vertices": 418,
+      "blended_vertices": 89
+    },
+    {
+      "mesh": "BootSole_R",
+      "rig": "Leg_R_SkinRig",
+      "bones": [
+        "Thigh_R",
+        "Knee_R",
+        "Ankle_R",
+        "HipAnchor_R"
+      ],
+      "vertices": 58,
+      "blended_vertices": 0
+    },
+    {
+      "mesh": "BootUpper_R",
+      "rig": "Leg_R_SkinRig",
+      "bones": [
+        "Thigh_R",
+        "Knee_R",
+        "Ankle_R",
+        "HipAnchor_R"
+      ],
+      "vertices": 115,
+      "blended_vertices": 32
+    },
+    {
+      "mesh": "Leg_R_Boots_HoneyLeather",
+      "rig": "Leg_R_SkinRig",
+      "bones": [
+        "Thigh_R",
+        "Knee_R",
+        "Ankle_R",
+        "HipAnchor_R"
+      ],
+      "vertices": 315,
+      "blended_vertices": 108
+    },
+    {
+      "mesh": "Leg_R_Hood_DuskBlue",
+      "rig": "Leg_R_SkinRig",
+      "bones": [
+        "Thigh_R",
+        "Knee_R",
+        "Ankle_R",
+        "HipAnchor_R"
+      ],
+      "vertices": 45,
+      "blended_vertices": 15
+    },
+    {
+      "mesh": "Leg_R_Lantern_BrushedBrass",
+      "rig": "Leg_R_SkinRig",
+      "bones": [
+        "Thigh_R",
+        "Knee_R",
+        "Ankle_R",
+        "HipAnchor_R"
+      ],
+      "vertices": 312,
+      "blended_vertices": 208
+    },
+    {
+      "mesh": "Trouser_R",
+      "rig": "Leg_R_SkinRig",
+      "bones": [
+        "Thigh_R",
+        "Knee_R",
+        "Ankle_R",
+        "HipAnchor_R"
+      ],
+      "vertices": 99,
+      "blended_vertices": 32
+    }
+  ],
+  "lantern_parent_contract": "Lantern remains below Arm_R, now bone-parented to Elbow_R; hand and lantern share identical rigid forearm transform.",
+  "motor_contract": "Preserve imported bind rotations. Compute joint-local lateral axis from the actor world right vector at Bind; bind * AngleAxis(degrees, axis).",
+  "blink_contract": "Unchanged v4: Blink_L/R localScale=(.001,.001,1) open, (1,1,1) closed.",
+  "axes": {
+    "authoring_up": "+Z",
+    "authoring_forward": "-Y",
+    "unity_up": "+Y",
+    "unity_forward": "+Z"
+  },
+  "sha256": {
+    "traveler.fbx": "60a8c0b5df7de6fbdd9f09bfa2931fd462bc538e50ad54e33370724c7e58d25e",
+    "traveler.glb": "160abe8a588207695498450f07c1327a5fcb3f5c98c2410ec6638d50d8c4f759",
+    "traveler.blend": "0195778ac8610c0e561763e41e5e9ed5c7717e903c402d23c7d922a64a1e4c8d"
+  },
+  "final_previews": [
+    "render-gait-front.png",
+    "render-gait-side.png"
+  ],
+  "independent_verification": "frozen-export-verification.json",
+  "gait_verification": "gait-verification.json",
+  "runtime_motor_sha256": "5e9188f28e35b3c30efddbd4d0bb9eb6055575eff7c4b2ae5aeb86a75c56f611"
+}

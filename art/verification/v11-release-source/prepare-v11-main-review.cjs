@@ -1,0 +1,20 @@
+const fs=require('node:fs'),path=require('node:path'),assert=require('node:assert/strict');
+const root=path.resolve(__dirname,'..'),dir=path.join(root,'art/verification');
+const read=p=>JSON.parse(fs.readFileSync(path.join(dir,p),'utf8').replace(/^\uFEFF/,''));
+const native=read('run-029-v11/runtime-results.json'),web=read('web-012-v11/runtime-results.json');
+assert(native.puzzleCompleted&&web.passed,'Normal game checks must pass');
+let html=fs.readFileSync(path.join(dir,'visual-review-v11-plants.html'),'utf8');
+const figure=(file,title,caption,reference=false)=>{
+ const bytes=fs.readFileSync(path.resolve(dir,file));assert(bytes.readUInt32BE(16)===1440&&bytes.readUInt32BE(20)===900);
+ return `<figure><div class="card-top"><span class="source ${reference?'reference':'ours'}">${reference?'参考 / Saccc_c':'本作 / 正常游戏截图'}</span><span class="resolution">1440 × 900 · 原图</span></div><a class="picture" href="${file}" data-title="${title}"><img src="${file}" alt="${title}" loading="lazy"><span class="image-state">正在载入原图…</span></a><figcaption><strong>${title}</strong>${caption}<div class="file">${file}</div></figcaption></figure>`;
+};
+const section=`<section><div class="section-head"><h2>01 / 参考与 v11 正常游戏</h2><p class="section-note">不同作品、日夜与构图；不是受控 A/B</p></div><div class="grid">${figure('../reference/littleprince-gameplay.png','参考网站 · 实际游玩画面','Saccc_c 原网站截图，仅供本地研究；人物、草地与环境的自然层次仍是本作需要追赶的部分。',true)}${figure('run-029-v11/07-walking.png','借光岛 v11 · 实机漫步视角','Windows 当前候选的完整原始截图。新花穗与蕨叶改善了局部形态，整体视觉超过参考的目标尚未达到。')}</div><p class="section-note"><a href="https://littleprince.dev/">参考原网站</a> · <a href="https://x.com/Saccc_c/status/2110694725640474759">原推文</a> · <a href="run-029-v11/runtime-results.json">Windows 正常检查</a> · <a href="web-012-v11/runtime-results.json">网页实际键盘通关</a> · <a href="v11-native-display-comparison.json">同分辨率短样本与限制</a></p></section>`;
+html=html.replace(/<h2>0([123]) \/ /g,(_,n)=>'<h2>0'+(Number(n)+1)+' / ');
+html=html.replace('</header>','</header>\n'+section);
+html=html.replace(/<title>[^<]*<\/title>/,'<title>借光岛 v11 · 实机与植被对照</title>').replace(/<h1>[^<]*<\/h1>/,'<h1>借光岛 v11 · 实机与植被对照</h1>');
+html=html.replace('本页仅呈现三组固定机位原图与已有审查结论；不是正常游戏通关、动态风摆或性能验收，也不证明整体视觉优于参考作品。','首组展示参考与本版正常游戏，随后三组展示固定机位植物对照。Windows 与网页通关记录另附；静态图不证明全部动态效果或整体视觉优于参考。');
+html=html.replaceAll('采用此形态进入正常游戏回归。','此形态已通过本次 Windows 与网页正常游戏检查。');
+html=html.replaceAll('另做正常游戏检查。','运行记录另见本页 Windows 与网页检查链接。');
+const draft=path.join(dir,'v11-release-draft');fs.mkdirSync(draft,{recursive:true});
+fs.writeFileSync(path.join(draft,'visual-review.html'),html);
+console.log(JSON.stringify({staged:'v11-release-draft/visual-review.html',images:8,normalNative:'run-029-v11',normalWeb:'web-012-v11'}));

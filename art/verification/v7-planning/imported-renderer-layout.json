@@ -1,0 +1,1003 @@
+[
+  {
+    "asset": "Assets/BorrowedLight/Resources/Models/Island.fbx",
+    "name": "Cabin_ClimbingIvy",
+    "mesh": "Cabin_ClimbingIvy",
+    "vertices": 1178,
+    "submeshes": 4,
+    "materials": [
+      "BI_leaf_gold",
+      "BI_stem",
+      "BI_leaf_light",
+      "BI_leaf"
+    ]
+  },
+  {
+    "asset": "Assets/BorrowedLight/Resources/Models/Island.fbx",
+    "name": "Cabin_DoorAndAccessories",
+    "mesh": "Cabin_DoorAndAccessories",
+    "vertices": 1560,
+    "submeshes": 7,
+    "materials": [
+      "BI_wood",
+      "BI_wood_light",
+      "BI_brass_light",
+      "BI_stone",
+      "BI_stone_dark",
+      "BI_paper",
+      "BI_window_honey"
+    ]
+  },
+  {
+    "asset": "Assets/BorrowedLight/Resources/Models/Island.fbx",
+    "name": "Cabin_IndividualShingles",
+    "mesh": "Cabin_IndividualShingles",
+    "vertices": 1968,
+    "submeshes": 3,
+    "materials": [
+      "BI_roof",
+      "BI_roof_dark",
+      "BI_roof_light"
+    ]
+  },
+  {
+    "asset": "Assets/BorrowedLight/Resources/Models/Island.fbx",
+    "name": "Cabin_PlasterAndFoundation",
+    "mesh": "Cabin_PlasterAndFoundation",
+    "vertices": 222,
+    "submeshes": 5,
+    "materials": [
+      "BI_stone_dark",
+      "BI_plaster",
+      "BI_plaster_light",
+      "BI_stone",
+      "BI_rock_dark"
+    ]
+  },
+  {
+    "asset": "Assets/BorrowedLight/Resources/Models/Island.fbx",
+    "name": "Cabin_ReadingWindow_Glow",
+    "mesh": "Cabin_ReadingWindow_Glow",
+    "vertices": 48,
+    "submeshes": 1,
+    "materials": [
+      "BI_window_honey"
+    ]
+  },
+  {
+    "asset": "Assets/BorrowedLight/Resources/Models/Island.fbx",
+    "name": "Cabin_Timber",
+    "mesh": "Cabin_Timber",
+    "vertices": 960,
+    "submeshes": 4,
+    "materials": [
+      "BI_wood_light",
+      "BI_wood",
+      "BI_wood_cut",
+      "BI_roof_dark"
+    ]
+  },
+  {
+    "asset": "Assets/BorrowedLight/Resources/Models/Island.fbx",
+    "name": "Cliff_Pier",
+    "mesh": "Cliff_Pier",
+    "vertices": 5220,
+    "submeshes": 6,
+    "materials": [
+      "BI_wood",
+      "BI_metal_dark",
+      "BI_wood_light",
+      "BI_wood_cut",
+      "BI_paper",
+      "BI_brass"
+    ]
+  },
+  {
+    "asset": "Assets/BorrowedLight/Resources/Models/Island.fbx",
+    "name": "Garden_Bench",
+    "mesh": "Garden_Bench",
+    "vertices": 864,
+    "submeshes": 5,
+    "materials": [
+      "BI_wood_light",
+      "BI_wood_cut",
+      "BI_metal_dark",
+      "BI_flower_coral",
+      "BI_flower_cream"
+    ]
+  },
+  {
+    "asset": "Assets/BorrowedLight/Resources/Models/Island.fbx",
+    "name": "Garden_CanopyLeafEdges",
+    "mesh": "Garden_CanopyLeafEdges",
+    "vertices": 1836,
+    "submeshes": 3,
+    "materials": [
+      "BI_leaf",
+      "BI_leaf_light",
+      "BI_leaf_gold"
+    ]
+  },
+  {
+    "asset": "Assets/BorrowedLight/Resources/Models/Island.fbx",
+    "name": "Garden_CreepingMeadowLeaves",
+    "mesh": "Garden_CreepingMeadowLeaves",
+    "vertices": 47916,
+    "submeshes": 3,
+    "materials": [
+      "BI_leaf_meadow_olive",
+      "BI_leaf_ground_sage",
+      "BI_leaf_ground_lime"
+    ]
+  },
+  {
+    "asset": "Assets/BorrowedLight/Resources/Models/Island.fbx",
+    "name": "Garden_FeatherFerns",
+    "mesh": "Garden_FeatherFerns",
+    "vertices": 27284,
+    "submeshes": 4,
+    "materials": [
+      "BI_stem",
+      "BI_leaf",
+      "BI_grass_sage",
+      "BI_leaf_light"
+    ]
+  },
+  {
+    "asset": "Assets/BorrowedLight/Resources/Models/Island.fbx",
+    "name": "Garden_GrassTufts",
+    "mesh": "Garden_GrassTufts",
+    "vertices": 243982,
+    "submeshes": 5,
+    "materials": [
+      "BI_leaf_meadow_olive",
+      "BI_leaf_meadow_young",
+      "BI_leaf_meadow_dry",
+      "BI_leaf",
+      "BI_leaf_meadow_deep"
+    ]
+  },
+  {
+    "asset": "Assets/BorrowedLight/Resources/Models/Island.fbx",
+    "name": "Garden_HeroBoulders",
+    "mesh": "Garden_HeroBoulders",
+    "vertices": 2582,
+    "submeshes": 2,
+    "materials": [
+      "BI_stone_path_warm",
+      "BI_stone_path_slate"
+    ]
+  },
+  {
+    "asset": "Assets/BorrowedLight/Resources/Models/Island.fbx",
+    "name": "Garden_LavenderAndSeedHeads",
+    "mesh": "Garden_LavenderAndSeedHeads",
+    "vertices": 26052,
+    "submeshes": 2,
+    "materials": [
+      "BI_stem",
+      "BI_flower_lilac"
+    ]
+  },
+  {
+    "asset": "Assets/BorrowedLight/Resources/Models/Island.fbx",
+    "name": "Garden_MushroomsAndPebbles",
+    "mesh": "Garden_MushroomsAndPebbles",
+    "vertices": 11496,
+    "submeshes": 6,
+    "materials": [
+      "BI_paper",
+      "BI_mushroom",
+      "BI_mushroom_spot",
+      "BI_rock_blue",
+      "BI_stone_dark",
+      "BI_stone"
+    ]
+  },
+  {
+    "asset": "Assets/BorrowedLight/Resources/Models/Island.fbx",
+    "name": "Garden_StoryDetails",
+    "mesh": "Garden_StoryDetails",
+    "vertices": 2376,
+    "submeshes": 7,
+    "materials": [
+      "BI_wood",
+      "BI_wood_cut",
+      "BI_wood_light",
+      "BI_metal_dark",
+      "BI_sea_glass",
+      "BI_brass",
+      "BI_brass_light"
+    ]
+  },
+  {
+    "asset": "Assets/BorrowedLight/Resources/Models/Island.fbx",
+    "name": "Garden_TreeCanopies",
+    "mesh": "Garden_TreeCanopies",
+    "vertices": 131868,
+    "submeshes": 5,
+    "materials": [
+      "BI_leaf_light",
+      "BI_leaf_dark",
+      "BI_leaf",
+      "BI_leaf_blue",
+      "BI_leaf_gold"
+    ]
+  },
+  {
+    "asset": "Assets/BorrowedLight/Resources/Models/Island.fbx",
+    "name": "Garden_TreeTrunks",
+    "mesh": "Garden_TreeTrunks",
+    "vertices": 4720,
+    "submeshes": 2,
+    "materials": [
+      "BI_wood",
+      "BI_wood_light"
+    ]
+  },
+  {
+    "asset": "Assets/BorrowedLight/Resources/Models/Island.fbx",
+    "name": "Garden_Walkways",
+    "mesh": "Garden_Walkways",
+    "vertices": 2317,
+    "submeshes": 3,
+    "materials": [
+      "BI_stone_path_warm",
+      "BI_stone_path_ochre",
+      "BI_stone_path_slate"
+    ]
+  },
+  {
+    "asset": "Assets/BorrowedLight/Resources/Models/Island.fbx",
+    "name": "Garden_Wildflowers",
+    "mesh": "Garden_Wildflowers",
+    "vertices": 32756,
+    "submeshes": 7,
+    "materials": [
+      "BI_stem",
+      "BI_leaf_light",
+      "BI_flower_cream",
+      "BI_brass_light",
+      "BI_flower_coral",
+      "BI_flower_lilac",
+      "BI_flower_blue"
+    ]
+  },
+  {
+    "asset": "Assets/BorrowedLight/Resources/Models/Island.fbx",
+    "name": "Island_BrassMeridian",
+    "mesh": "Island_BrassMeridian",
+    "vertices": 6632,
+    "submeshes": 2,
+    "materials": [
+      "BI_brass",
+      "BI_brass_light"
+    ]
+  },
+  {
+    "asset": "Assets/BorrowedLight/Resources/Models/Island.fbx",
+    "name": "Island_CliffGardens",
+    "mesh": "Island_CliffGardens",
+    "vertices": 7888,
+    "submeshes": 5,
+    "materials": [
+      "BI_stone_dark",
+      "BI_moss",
+      "BI_rock_blue",
+      "BI_rock_light",
+      "BI_brass"
+    ]
+  },
+  {
+    "asset": "Assets/BorrowedLight/Resources/Models/Island.fbx",
+    "name": "Island_Meadow",
+    "mesh": "Island_Meadow",
+    "vertices": 3457,
+    "submeshes": 1,
+    "materials": [
+      "BI_grass"
+    ]
+  },
+  {
+    "asset": "Assets/BorrowedLight/Resources/Models/Island.fbx",
+    "name": "Island_Strata",
+    "mesh": "Island_Strata",
+    "vertices": 4520,
+    "submeshes": 4,
+    "materials": [
+      "BI_rock_blue",
+      "BI_rock_dark",
+      "BI_rock",
+      "BI_rock_light"
+    ]
+  },
+  {
+    "asset": "Assets/BorrowedLight/Resources/Models/Island.fbx",
+    "name": "LampBase_A",
+    "mesh": "LampBase_A",
+    "vertices": 1584,
+    "submeshes": 4,
+    "materials": [
+      "BI_stone_dark",
+      "BI_brass",
+      "BI_metal_dark",
+      "BI_brass_light"
+    ]
+  },
+  {
+    "asset": "Assets/BorrowedLight/Resources/Models/Island.fbx",
+    "name": "LampBase_B",
+    "mesh": "LampBase_B",
+    "vertices": 1584,
+    "submeshes": 4,
+    "materials": [
+      "BI_stone_dark",
+      "BI_brass",
+      "BI_metal_dark",
+      "BI_brass_light"
+    ]
+  },
+  {
+    "asset": "Assets/BorrowedLight/Resources/Models/Island.fbx",
+    "name": "LampBase_C",
+    "mesh": "LampBase_C",
+    "vertices": 1584,
+    "submeshes": 4,
+    "materials": [
+      "BI_stone_dark",
+      "BI_brass",
+      "BI_metal_dark",
+      "BI_brass_light"
+    ]
+  },
+  {
+    "asset": "Assets/BorrowedLight/Resources/Models/Island.fbx",
+    "name": "MoonDial_Sculpture",
+    "mesh": "MoonDial_Sculpture",
+    "vertices": 4172,
+    "submeshes": 4,
+    "materials": [
+      "BI_stone_dark",
+      "BI_brass",
+      "BI_brass_light",
+      "BI_star_warm"
+    ]
+  },
+  {
+    "asset": "Assets/BorrowedLight/Resources/Models/Island.fbx",
+    "name": "Observatory_StoneAndBrass",
+    "mesh": "Observatory_StoneAndBrass",
+    "vertices": 9361,
+    "submeshes": 8,
+    "materials": [
+      "BI_stone_dark",
+      "BI_stone",
+      "BI_stone_light",
+      "BI_brass",
+      "BI_brass_light",
+      "BI_metal_dark",
+      "BI_quartz",
+      "BI_star_warm"
+    ]
+  },
+  {
+    "asset": "Assets/BorrowedLight/Resources/Models/Traveler.fbx",
+    "name": "Arm_L_Cape_SeaMistBinding",
+    "mesh": "Arm_L_Cape_SeaMistBinding",
+    "vertices": 437,
+    "submeshes": 1,
+    "materials": [
+      "Traveler_Cape_SeaMistBinding"
+    ]
+  },
+  {
+    "asset": "Assets/BorrowedLight/Resources/Models/Traveler.fbx",
+    "name": "Arm_L_Face_Fingernails",
+    "mesh": "Arm_L_Face_Fingernails",
+    "vertices": 300,
+    "submeshes": 1,
+    "materials": [
+      "Traveler_Face_Fingernails"
+    ]
+  },
+  {
+    "asset": "Assets/BorrowedLight/Resources/Models/Traveler.fbx",
+    "name": "Arm_L_Face_NoseCream",
+    "mesh": "Arm_L_Face_NoseCream",
+    "vertices": 300,
+    "submeshes": 1,
+    "materials": [
+      "Traveler_Face_NoseCream"
+    ]
+  },
+  {
+    "asset": "Assets/BorrowedLight/Resources/Models/Traveler.fbx",
+    "name": "Arm_L_Face_PorcelainCream",
+    "mesh": "Arm_L_Face_PorcelainCream",
+    "vertices": 764,
+    "submeshes": 1,
+    "materials": [
+      "Traveler_Face_PorcelainCream"
+    ]
+  },
+  {
+    "asset": "Assets/BorrowedLight/Resources/Models/Traveler.fbx",
+    "name": "Arm_L_Face_RoseCheeks",
+    "mesh": "Arm_L_Face_RoseCheeks",
+    "vertices": 96,
+    "submeshes": 1,
+    "materials": [
+      "Traveler_Face_RoseCheeks"
+    ]
+  },
+  {
+    "asset": "Assets/BorrowedLight/Resources/Models/Traveler.fbx",
+    "name": "Arm_L_Gloves_OatKnit",
+    "mesh": "Arm_L_Gloves_OatKnit",
+    "vertices": 191,
+    "submeshes": 1,
+    "materials": [
+      "Traveler_Gloves_OatKnit"
+    ]
+  },
+  {
+    "asset": "Assets/BorrowedLight/Resources/Models/Traveler.fbx",
+    "name": "Arm_L_Stitches_PaleFlax",
+    "mesh": "Arm_L_Stitches_PaleFlax",
+    "vertices": 190,
+    "submeshes": 1,
+    "materials": [
+      "Traveler_Stitches_PaleFlax"
+    ]
+  },
+  {
+    "asset": "Assets/BorrowedLight/Resources/Models/Traveler.fbx",
+    "name": "Arm_R_Cape_SeaMistBinding",
+    "mesh": "Arm_R_Cape_SeaMistBinding",
+    "vertices": 402,
+    "submeshes": 1,
+    "materials": [
+      "Traveler_Cape_SeaMistBinding"
+    ]
+  },
+  {
+    "asset": "Assets/BorrowedLight/Resources/Models/Traveler.fbx",
+    "name": "Arm_R_Face_Fingernails",
+    "mesh": "Arm_R_Face_Fingernails",
+    "vertices": 300,
+    "submeshes": 1,
+    "materials": [
+      "Traveler_Face_Fingernails"
+    ]
+  },
+  {
+    "asset": "Assets/BorrowedLight/Resources/Models/Traveler.fbx",
+    "name": "Arm_R_Face_NoseCream",
+    "mesh": "Arm_R_Face_NoseCream",
+    "vertices": 300,
+    "submeshes": 1,
+    "materials": [
+      "Traveler_Face_NoseCream"
+    ]
+  },
+  {
+    "asset": "Assets/BorrowedLight/Resources/Models/Traveler.fbx",
+    "name": "Arm_R_Face_PorcelainCream",
+    "mesh": "Arm_R_Face_PorcelainCream",
+    "vertices": 764,
+    "submeshes": 1,
+    "materials": [
+      "Traveler_Face_PorcelainCream"
+    ]
+  },
+  {
+    "asset": "Assets/BorrowedLight/Resources/Models/Traveler.fbx",
+    "name": "Arm_R_Face_RoseCheeks",
+    "mesh": "Arm_R_Face_RoseCheeks",
+    "vertices": 96,
+    "submeshes": 1,
+    "materials": [
+      "Traveler_Face_RoseCheeks"
+    ]
+  },
+  {
+    "asset": "Assets/BorrowedLight/Resources/Models/Traveler.fbx",
+    "name": "Arm_R_Gloves_OatKnit",
+    "mesh": "Arm_R_Gloves_OatKnit",
+    "vertices": 191,
+    "submeshes": 1,
+    "materials": [
+      "Traveler_Gloves_OatKnit"
+    ]
+  },
+  {
+    "asset": "Assets/BorrowedLight/Resources/Models/Traveler.fbx",
+    "name": "Arm_R_Stitches_PaleFlax",
+    "mesh": "Arm_R_Stitches_PaleFlax",
+    "vertices": 190,
+    "submeshes": 1,
+    "materials": [
+      "Traveler_Stitches_PaleFlax"
+    ]
+  },
+  {
+    "asset": "Assets/BorrowedLight/Resources/Models/Traveler.fbx",
+    "name": "BootSole_L",
+    "mesh": "BootSole_L",
+    "vertices": 110,
+    "submeshes": 1,
+    "materials": [
+      "Traveler_Boots_DarkSole"
+    ]
+  },
+  {
+    "asset": "Assets/BorrowedLight/Resources/Models/Traveler.fbx",
+    "name": "BootSole_R",
+    "mesh": "BootSole_R",
+    "vertices": 110,
+    "submeshes": 1,
+    "materials": [
+      "Traveler_Boots_DarkSole"
+    ]
+  },
+  {
+    "asset": "Assets/BorrowedLight/Resources/Models/Traveler.fbx",
+    "name": "BootUpper_L",
+    "mesh": "BootUpper_L",
+    "vertices": 185,
+    "submeshes": 1,
+    "materials": [
+      "Traveler_Boots_WornChestnut"
+    ]
+  },
+  {
+    "asset": "Assets/BorrowedLight/Resources/Models/Traveler.fbx",
+    "name": "BootUpper_R",
+    "mesh": "BootUpper_R",
+    "vertices": 186,
+    "submeshes": 1,
+    "materials": [
+      "Traveler_Boots_WornChestnut"
+    ]
+  },
+  {
+    "asset": "Assets/BorrowedLight/Resources/Models/Traveler.fbx",
+    "name": "Leg_L_Boots_HoneyLeather",
+    "mesh": "Leg_L_Boots_HoneyLeather",
+    "vertices": 776,
+    "submeshes": 1,
+    "materials": [
+      "Traveler_Boots_HoneyLeather"
+    ]
+  },
+  {
+    "asset": "Assets/BorrowedLight/Resources/Models/Traveler.fbx",
+    "name": "Leg_L_Hood_DuskBlue",
+    "mesh": "Leg_L_Hood_DuskBlue",
+    "vertices": 120,
+    "submeshes": 1,
+    "materials": [
+      "Traveler_Hood_DuskBlue"
+    ]
+  },
+  {
+    "asset": "Assets/BorrowedLight/Resources/Models/Traveler.fbx",
+    "name": "Leg_L_Lantern_BrushedBrass",
+    "mesh": "Leg_L_Lantern_BrushedBrass",
+    "vertices": 450,
+    "submeshes": 1,
+    "materials": [
+      "Traveler_Lantern_BrushedBrass"
+    ]
+  },
+  {
+    "asset": "Assets/BorrowedLight/Resources/Models/Traveler.fbx",
+    "name": "Leg_R_Boots_HoneyLeather",
+    "mesh": "Leg_R_Boots_HoneyLeather",
+    "vertices": 827,
+    "submeshes": 1,
+    "materials": [
+      "Traveler_Boots_HoneyLeather"
+    ]
+  },
+  {
+    "asset": "Assets/BorrowedLight/Resources/Models/Traveler.fbx",
+    "name": "Leg_R_Hood_DuskBlue",
+    "mesh": "Leg_R_Hood_DuskBlue",
+    "vertices": 120,
+    "submeshes": 1,
+    "materials": [
+      "Traveler_Hood_DuskBlue"
+    ]
+  },
+  {
+    "asset": "Assets/BorrowedLight/Resources/Models/Traveler.fbx",
+    "name": "Leg_R_Lantern_BrushedBrass",
+    "mesh": "Leg_R_Lantern_BrushedBrass",
+    "vertices": 450,
+    "submeshes": 1,
+    "materials": [
+      "Traveler_Lantern_BrushedBrass"
+    ]
+  },
+  {
+    "asset": "Assets/BorrowedLight/Resources/Models/Traveler.fbx",
+    "name": "Sleeve_L",
+    "mesh": "Sleeve_L",
+    "vertices": 598,
+    "submeshes": 1,
+    "materials": [
+      "Traveler_Coat_WashedBlue"
+    ]
+  },
+  {
+    "asset": "Assets/BorrowedLight/Resources/Models/Traveler.fbx",
+    "name": "Sleeve_R",
+    "mesh": "Sleeve_R",
+    "vertices": 594,
+    "submeshes": 1,
+    "materials": [
+      "Traveler_Coat_WashedBlue"
+    ]
+  },
+  {
+    "asset": "Assets/BorrowedLight/Resources/Models/Traveler.fbx",
+    "name": "Lantern_Heart",
+    "mesh": "Lantern_Heart",
+    "vertices": 92,
+    "submeshes": 1,
+    "materials": [
+      "Traveler_Lantern_WarmHeart"
+    ]
+  },
+  {
+    "asset": "Assets/BorrowedLight/Resources/Models/Traveler.fbx",
+    "name": "Lantern_Lantern_BrushedBrass",
+    "mesh": "Lantern_Lantern_BrushedBrass",
+    "vertices": 312,
+    "submeshes": 1,
+    "materials": [
+      "Traveler_Lantern_BrushedBrass"
+    ]
+  },
+  {
+    "asset": "Assets/BorrowedLight/Resources/Models/Traveler.fbx",
+    "name": "Lantern_Lantern_GoldEdges",
+    "mesh": "Lantern_Lantern_GoldEdges",
+    "vertices": 711,
+    "submeshes": 1,
+    "materials": [
+      "Traveler_Lantern_GoldEdges"
+    ]
+  },
+  {
+    "asset": "Assets/BorrowedLight/Resources/Models/Traveler.fbx",
+    "name": "Lantern_OpalGlass",
+    "mesh": "Lantern_OpalGlass",
+    "vertices": 121,
+    "submeshes": 1,
+    "materials": [
+      "Traveler_Lantern_AmberGlass"
+    ]
+  },
+  {
+    "asset": "Assets/BorrowedLight/Resources/Models/Traveler.fbx",
+    "name": "Body_Boots_HoneyLeather",
+    "mesh": "Body_Boots_HoneyLeather",
+    "vertices": 88,
+    "submeshes": 1,
+    "materials": [
+      "Traveler_Boots_HoneyLeather"
+    ]
+  },
+  {
+    "asset": "Assets/BorrowedLight/Resources/Models/Traveler.fbx",
+    "name": "Body_Cape_DeepOceanLining",
+    "mesh": "Body_Cape_DeepOceanLining",
+    "vertices": 360,
+    "submeshes": 1,
+    "materials": [
+      "Traveler_Cape_DeepOceanLining"
+    ]
+  },
+  {
+    "asset": "Assets/BorrowedLight/Resources/Models/Traveler.fbx",
+    "name": "Body_Cape_SeaMistBinding",
+    "mesh": "Body_Cape_SeaMistBinding",
+    "vertices": 1882,
+    "submeshes": 1,
+    "materials": [
+      "Traveler_Cape_SeaMistBinding"
+    ]
+  },
+  {
+    "asset": "Assets/BorrowedLight/Resources/Models/Traveler.fbx",
+    "name": "Body_Hood_DuskBlue",
+    "mesh": "Body_Hood_DuskBlue",
+    "vertices": 324,
+    "submeshes": 1,
+    "materials": [
+      "Traveler_Hood_DuskBlue"
+    ]
+  },
+  {
+    "asset": "Assets/BorrowedLight/Resources/Models/Traveler.fbx",
+    "name": "Body_Lantern_GoldEdges",
+    "mesh": "Body_Lantern_GoldEdges",
+    "vertices": 284,
+    "submeshes": 1,
+    "materials": [
+      "Traveler_Lantern_GoldEdges"
+    ]
+  },
+  {
+    "asset": "Assets/BorrowedLight/Resources/Models/Traveler.fbx",
+    "name": "Body_Scarf_EdgeHoney",
+    "mesh": "Body_Scarf_EdgeHoney",
+    "vertices": 232,
+    "submeshes": 1,
+    "materials": [
+      "Traveler_Scarf_EdgeHoney"
+    ]
+  },
+  {
+    "asset": "Assets/BorrowedLight/Resources/Models/Traveler.fbx",
+    "name": "Body_Stitches_PaleFlax",
+    "mesh": "Body_Stitches_PaleFlax",
+    "vertices": 934,
+    "submeshes": 1,
+    "materials": [
+      "Traveler_Stitches_PaleFlax"
+    ]
+  },
+  {
+    "asset": "Assets/BorrowedLight/Resources/Models/Traveler.fbx",
+    "name": "Brooch_AmberStone",
+    "mesh": "Brooch_AmberStone",
+    "vertices": 59,
+    "submeshes": 1,
+    "materials": [
+      "Traveler_Lantern_AmberGlass"
+    ]
+  },
+  {
+    "asset": "Assets/BorrowedLight/Resources/Models/Traveler.fbx",
+    "name": "Cloak_Outer",
+    "mesh": "Cloak_Outer",
+    "vertices": 528,
+    "submeshes": 1,
+    "materials": [
+      "Traveler_Cape_TwilightTeal"
+    ]
+  },
+  {
+    "asset": "Assets/BorrowedLight/Resources/Models/Traveler.fbx",
+    "name": "Satchel_Body",
+    "mesh": "Satchel_Body",
+    "vertices": 64,
+    "submeshes": 1,
+    "materials": [
+      "Traveler_Boots_WornChestnut"
+    ]
+  },
+  {
+    "asset": "Assets/BorrowedLight/Resources/Models/Traveler.fbx",
+    "name": "Satchel_Clasp",
+    "mesh": "Satchel_Clasp",
+    "vertices": 64,
+    "submeshes": 1,
+    "materials": [
+      "Traveler_Lantern_BrushedBrass"
+    ]
+  },
+  {
+    "asset": "Assets/BorrowedLight/Resources/Models/Traveler.fbx",
+    "name": "Scarf_Collar",
+    "mesh": "Scarf_Collar",
+    "vertices": 412,
+    "submeshes": 1,
+    "materials": [
+      "Traveler_Scarf_HarvestGold"
+    ]
+  },
+  {
+    "asset": "Assets/BorrowedLight/Resources/Models/Traveler.fbx",
+    "name": "TailoredTunic",
+    "mesh": "TailoredTunic",
+    "vertices": 1236,
+    "submeshes": 1,
+    "materials": [
+      "Traveler_Coat_WashedBlue"
+    ]
+  },
+  {
+    "asset": "Assets/BorrowedLight/Resources/Models/Traveler.fbx",
+    "name": "Blink_L_ClosedLash",
+    "mesh": "Blink_L_ClosedLash",
+    "vertices": 64,
+    "submeshes": 1,
+    "materials": [
+      "Traveler_Hair_Indigo"
+    ]
+  },
+  {
+    "asset": "Assets/BorrowedLight/Resources/Models/Traveler.fbx",
+    "name": "Blink_L_LidCover",
+    "mesh": "Blink_L_LidCover",
+    "vertices": 193,
+    "submeshes": 1,
+    "materials": [
+      "Traveler_Face_PorcelainCream"
+    ]
+  },
+  {
+    "asset": "Assets/BorrowedLight/Resources/Models/Traveler.fbx",
+    "name": "Blink_R_ClosedLash",
+    "mesh": "Blink_R_ClosedLash",
+    "vertices": 63,
+    "submeshes": 1,
+    "materials": [
+      "Traveler_Hair_Indigo"
+    ]
+  },
+  {
+    "asset": "Assets/BorrowedLight/Resources/Models/Traveler.fbx",
+    "name": "Blink_R_LidCover",
+    "mesh": "Blink_R_LidCover",
+    "vertices": 193,
+    "submeshes": 1,
+    "materials": [
+      "Traveler_Face_PorcelainCream"
+    ]
+  },
+  {
+    "asset": "Assets/BorrowedLight/Resources/Models/Traveler.fbx",
+    "name": "Head_Eye_AmberRim",
+    "mesh": "Head_Eye_AmberRim",
+    "vertices": 646,
+    "submeshes": 1,
+    "materials": [
+      "Traveler_Eye_AmberRim"
+    ]
+  },
+  {
+    "asset": "Assets/BorrowedLight/Resources/Models/Traveler.fbx",
+    "name": "Head_Eye_Catchlight",
+    "mesh": "Head_Eye_Catchlight",
+    "vertices": 230,
+    "submeshes": 1,
+    "materials": [
+      "Traveler_Eye_Catchlight"
+    ]
+  },
+  {
+    "asset": "Assets/BorrowedLight/Resources/Models/Traveler.fbx",
+    "name": "Head_Eye_Chestnut",
+    "mesh": "Head_Eye_Chestnut",
+    "vertices": 458,
+    "submeshes": 1,
+    "materials": [
+      "Traveler_Eye_Chestnut"
+    ]
+  },
+  {
+    "asset": "Assets/BorrowedLight/Resources/Models/Traveler.fbx",
+    "name": "Head_Eye_Ivory",
+    "mesh": "Head_Eye_Ivory",
+    "vertices": 258,
+    "submeshes": 1,
+    "materials": [
+      "Traveler_Eye_Ivory"
+    ]
+  },
+  {
+    "asset": "Assets/BorrowedLight/Resources/Models/Traveler.fbx",
+    "name": "Head_Eye_Pupil",
+    "mesh": "Head_Eye_Pupil",
+    "vertices": 370,
+    "submeshes": 1,
+    "materials": [
+      "Traveler_Eye_Pupil"
+    ]
+  },
+  {
+    "asset": "Assets/BorrowedLight/Resources/Models/Traveler.fbx",
+    "name": "Head_Face_NoseCream",
+    "mesh": "Head_Face_NoseCream",
+    "vertices": 371,
+    "submeshes": 1,
+    "materials": [
+      "Traveler_Face_NoseCream"
+    ]
+  },
+  {
+    "asset": "Assets/BorrowedLight/Resources/Models/Traveler.fbx",
+    "name": "Head_Face_PorcelainCream",
+    "mesh": "Head_Face_PorcelainCream",
+    "vertices": 8979,
+    "submeshes": 1,
+    "materials": [
+      "Traveler_Face_PorcelainCream"
+    ]
+  },
+  {
+    "asset": "Assets/BorrowedLight/Resources/Models/Traveler.fbx",
+    "name": "Head_Face_RoseCheeks",
+    "mesh": "Head_Face_RoseCheeks",
+    "vertices": 311,
+    "submeshes": 1,
+    "materials": [
+      "Traveler_Face_RoseCheeks"
+    ]
+  },
+  {
+    "asset": "Assets/BorrowedLight/Resources/Models/Traveler.fbx",
+    "name": "Head_Hair_Indigo",
+    "mesh": "Head_Hair_Indigo",
+    "vertices": 7383,
+    "submeshes": 1,
+    "materials": [
+      "Traveler_Hair_Indigo"
+    ]
+  },
+  {
+    "asset": "Assets/BorrowedLight/Resources/Models/Traveler.fbx",
+    "name": "Head_Hair_MidnightBlue",
+    "mesh": "Head_Hair_MidnightBlue",
+    "vertices": 2354,
+    "submeshes": 1,
+    "materials": [
+      "Traveler_Hair_MidnightBlue"
+    ]
+  },
+  {
+    "asset": "Assets/BorrowedLight/Resources/Models/Traveler.fbx",
+    "name": "QuietSmile",
+    "mesh": "QuietSmile",
+    "vertices": 52,
+    "submeshes": 1,
+    "materials": [
+      "Traveler_Face_SoftLips"
+    ]
+  },
+  {
+    "asset": "Assets/BorrowedLight/Resources/Models/Traveler.fbx",
+    "name": "ScarfTail_Scarf_EdgeHoney",
+    "mesh": "ScarfTail_Scarf_EdgeHoney",
+    "vertices": 694,
+    "submeshes": 1,
+    "materials": [
+      "Traveler_Scarf_EdgeHoney"
+    ]
+  },
+  {
+    "asset": "Assets/BorrowedLight/Resources/Models/Traveler.fbx",
+    "name": "ScarfTail_Scarf_HarvestGold",
+    "mesh": "ScarfTail_Scarf_HarvestGold",
+    "vertices": 292,
+    "submeshes": 1,
+    "materials": [
+      "Traveler_Scarf_HarvestGold"
+    ]
+  },
+  {
+    "asset": "Assets/BorrowedLight/Resources/Models/Traveler.fbx",
+    "name": "Trouser_L",
+    "mesh": "Trouser_L",
+    "vertices": 152,
+    "submeshes": 1,
+    "materials": [
+      "Traveler_Trousers_Ink"
+    ]
+  },
+  {
+    "asset": "Assets/BorrowedLight/Resources/Models/Traveler.fbx",
+    "name": "Trouser_R",
+    "mesh": "Trouser_R",
+    "vertices": 153,
+    "submeshes": 1,
+    "materials": [
+      "Traveler_Trousers_Ink"
+    ]
+  }
+]

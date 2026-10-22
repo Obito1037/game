@@ -1,0 +1,83 @@
+{
+  "date": "2026-10-21",
+  "revision": "v7",
+  "scope": "Asset import, shader setup and CPU star geometry audit plus final native Player acceptance. Web acceptance recorded separately.",
+  "worldFbxSHA256": "37C8534BA4DB23F6FF06773C1799759FA6F2ED9A32E12D8927B6E5A855DDF87F",
+  "travelerFbxSHA256": "878FFD87DB158B5EA3E7833371ED4ADFC155A817BF8BFFD8BA210B7A05531F73",
+  "geometry": {
+    "worldTriangles": 412815,
+    "worldMeshes": 29,
+    "travelerTriangles": 75862,
+    "travelerRenderers": 62,
+    "travelerSkinnedRenderers": 28,
+    "travelerRigidRenderers": 34,
+    "travelerArmatures": 4,
+    "travelerBones": 12
+  },
+  "editorEvidence": "v7-planning/editor-integration.json",
+  "starfieldGeometryEvidence": "v7-planning/starfield-geometry-verification.json",
+  "starfield": {
+    "originalRenderers": 67,
+    "currentRenderers": 1,
+    "stars": 47,
+    "glints": 20,
+    "vertices": 24685,
+    "triangles": 36336,
+    "phaseOffset": 9,
+    "geometryAuditPassed": true,
+    "maxPositionErrorMetres": 9.5367431640625e-7,
+    "scope": "Exact original sphere/cube geometry merged with Float32 phase metadata; drift checked at three times. GPU draw count and performance require the separate browser profile."
+  },
+  "nativeEvidence": {
+    "buildId": "build_99bc9bcdbd43",
+    "path": "run-021-v7/runtime-results.json",
+    "islandStaticBatchRenderersConfirmedInPlayerLog": 25,
+    "soleSamples": 220,
+    "minimumIdleSoleClearanceMetres": 0.001375,
+    "allFunctionalChecksPassed": true
+  },
+  "groundCollisions": {
+    "wholeMeshWhitelist": [
+      "Island_Meadow",
+      "Garden_Walkways"
+    ],
+    "decorativeCreepingLeavesExcluded": true,
+    "observatory": "Preserved dedicated low steps / solid instrument split.",
+    "pier": {
+      "surface": "Continuous BoxCollider at world center (7.55, 0.105, -3.35), size (5.335, 0.13, 1.20), layer 8; bridges 2 cm board gaps.",
+      "rails": "Original triangles outside world height band [-0.20, 0.24] become layer 9 solid rails. Low decorative items do not obstruct the traveler.",
+      "groundRayProbeXs": [
+        6.785,
+        9.59,
+        9.7175
+      ],
+      "groundRayZ": -3.35,
+      "expectedGroundY": 0.17,
+      "deckAndBothRailMotionChecksPassed": true
+    }
+  },
+  "limitations": [
+    "Editor setup evidence was captured at frame 1 and is not a live performance or gait measurement.",
+    "Idle sole checks cover one actual deformed Unity pose, not all moving poses.",
+    "run-017-v7 failed to save in sandbox; run-018-v7 overlapped that failed instance; run-020-v7 used a hidden window and black screenshots. None is used as final visual or performance evidence.",
+    "Independent visual audit still finds sleeve folds too regular and rocks too soft. The overall aesthetic goal is not achieved."
+  ],
+  "webEvidence": {
+    "buildId": "build_391eab7c3886",
+    "normalQA": "web-007-v7/runtime-results.json",
+    "artifactIdentity": "web-007-v7/artifact-identity.json",
+    "gpuQA": "web-v7-gpu-profile/profile-results.json",
+    "observatoryVideo": "web-v7-observatory-video/observatory-approach-time-cut.webm",
+    "allFiveSessionsMatch": true,
+    "normalIntervalFpsMedians": {
+      "menu": 60.44,
+      "ending": 53.8,
+      "walking": 33.46
+    },
+    "profileDrawsPerFrame": 979,
+    "profileFps": 30.6,
+    "starfieldDrawsPerFrame": 1,
+    "starfieldTrianglesPerFrame": 36336,
+    "scope": "Normal QA, GPU interception and video recording are separate sessions. The profile is not an isolated A/B and the video cadence is not engine FPS."
+  }
+}

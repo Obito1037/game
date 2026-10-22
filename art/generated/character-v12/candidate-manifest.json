@@ -1,0 +1,782 @@
+{
+  "revision": "character-v12",
+  "gameCandidate": "v14",
+  "source": "art\\generated\\character-v11\\traveler.blend",
+  "sourceSHA256": "a707e934b666cd861d96ba3287b106aa60499aae0fda071dbbe4b7a66f97d18d",
+  "triangles": 81968,
+  "newPolygons": 0,
+  "meshRenderers": 62,
+  "targets": [
+    "Head_Face_PorcelainCream",
+    "Head_Face_RoseCheeks",
+    "QuietSmile"
+  ],
+  "protectedMeshCount": 59,
+  "meshDifferences": [
+    {
+      "mesh": "Arm_L_Cape_SeaMistBinding",
+      "target": false,
+      "changedVertices": 0,
+      "maximumLocalDisplacementMetres": 0.0,
+      "unchanged": true,
+      "protectedChannelSHA256": "edc755554b354c13fc54721d06974f77e58c7cd3c8c90969181416300f53a96f"
+    },
+    {
+      "mesh": "Arm_L_Face_Fingernails",
+      "target": false,
+      "changedVertices": 0,
+      "maximumLocalDisplacementMetres": 0.0,
+      "unchanged": true,
+      "protectedChannelSHA256": "2c699e6bc41b88cde804ea785e7d88137d985491c6de8d38e0c4a5e81f779af0"
+    },
+    {
+      "mesh": "Arm_L_Face_NoseCream",
+      "target": false,
+      "changedVertices": 0,
+      "maximumLocalDisplacementMetres": 0.0,
+      "unchanged": true,
+      "protectedChannelSHA256": "24d0fe61c158f770d08846aefb0880022dbfe552dec0bcd6bc7d45427b466649"
+    },
+    {
+      "mesh": "Arm_L_Face_PorcelainCream",
+      "target": false,
+      "changedVertices": 0,
+      "maximumLocalDisplacementMetres": 0.0,
+      "unchanged": true,
+      "protectedChannelSHA256": "713a7cd4ebb0adc884454af6671b389216a64597fced152185e21c8a57f2dd66"
+    },
+    {
+      "mesh": "Arm_L_Face_RoseCheeks",
+      "target": false,
+      "changedVertices": 0,
+      "maximumLocalDisplacementMetres": 0.0,
+      "unchanged": true,
+      "protectedChannelSHA256": "aa2c27c86a8b3e0117fbd13b396eaf427c6bbacbf447910e4ed8dedb69cb766d"
+    },
+    {
+      "mesh": "Arm_L_Gloves_OatKnit",
+      "target": false,
+      "changedVertices": 0,
+      "maximumLocalDisplacementMetres": 0.0,
+      "unchanged": true,
+      "protectedChannelSHA256": "c4c1b4aeee9905c64c7df5103d2deebfc053a63f4d14a2ba332952c7bec584eb"
+    },
+    {
+      "mesh": "Arm_L_Stitches_PaleFlax",
+      "target": false,
+      "changedVertices": 0,
+      "maximumLocalDisplacementMetres": 0.0,
+      "unchanged": true,
+      "protectedChannelSHA256": "e4ef32587523d04386d21a31393be29576a4b4c27792b570cdaa60e03d50b8a5"
+    },
+    {
+      "mesh": "Sleeve_L",
+      "target": false,
+      "changedVertices": 0,
+      "maximumLocalDisplacementMetres": 0.0,
+      "unchanged": true,
+      "protectedChannelSHA256": "2daa8e084f9cac8f4cd622898a373aed00cbafe830aee7d8f4aab5f831eb290d"
+    },
+    {
+      "mesh": "Arm_R_Cape_SeaMistBinding",
+      "target": false,
+      "changedVertices": 0,
+      "maximumLocalDisplacementMetres": 0.0,
+      "unchanged": true,
+      "protectedChannelSHA256": "b46dc26ccd9543738a3bf72e7d696c6e83e4ac124140eb8e031c450d28491844"
+    },
+    {
+      "mesh": "Arm_R_Face_Fingernails",
+      "target": false,
+      "changedVertices": 0,
+      "maximumLocalDisplacementMetres": 0.0,
+      "unchanged": true,
+      "protectedChannelSHA256": "5090f552df6dff6256e74ef876f4b5922ae3c3134b7bbbf3fa99ce808819d44a"
+    },
+    {
+      "mesh": "Arm_R_Face_NoseCream",
+      "target": false,
+      "changedVertices": 0,
+      "maximumLocalDisplacementMetres": 0.0,
+      "unchanged": true,
+      "protectedChannelSHA256": "d2a02c8a9eb0ef16f080b685687c004b260be95dc23c912d288f9776e2f862e1"
+    },
+    {
+      "mesh": "Arm_R_Face_PorcelainCream",
+      "target": false,
+      "changedVertices": 0,
+      "maximumLocalDisplacementMetres": 0.0,
+      "unchanged": true,
+      "protectedChannelSHA256": "14e499c2cee0d0d06f48133020e902a7dafe2b93dc2796c547535789dfe489b8"
+    },
+    {
+      "mesh": "Arm_R_Face_RoseCheeks",
+      "target": false,
+      "changedVertices": 0,
+      "maximumLocalDisplacementMetres": 0.0,
+      "unchanged": true,
+      "protectedChannelSHA256": "95fb08f0417545d465fc93356abc2cacfab31b1cb50e08c19a3b6a8a0656d6c0"
+    },
+    {
+      "mesh": "Arm_R_Gloves_OatKnit",
+      "target": false,
+      "changedVertices": 0,
+      "maximumLocalDisplacementMetres": 0.0,
+      "unchanged": true,
+      "protectedChannelSHA256": "f453a00934c92b6bb5e9d2c87c21d3517679d64283e482746fbb3e4ab5fef0ce"
+    },
+    {
+      "mesh": "Arm_R_Stitches_PaleFlax",
+      "target": false,
+      "changedVertices": 0,
+      "maximumLocalDisplacementMetres": 0.0,
+      "unchanged": true,
+      "protectedChannelSHA256": "4b0167b97c8f8c9f40efa09d2fc6abdf36789c158e49e0f0edc5cf27ddbdc69c"
+    },
+    {
+      "mesh": "Lantern_Heart",
+      "target": false,
+      "changedVertices": 0,
+      "maximumLocalDisplacementMetres": 0.0,
+      "unchanged": true,
+      "protectedChannelSHA256": "e03cc595ec2729e4734882c0d83aad2a809f2b69d691c63d94be7b090d71c118"
+    },
+    {
+      "mesh": "Lantern_Lantern_BrushedBrass",
+      "target": false,
+      "changedVertices": 0,
+      "maximumLocalDisplacementMetres": 0.0,
+      "unchanged": true,
+      "protectedChannelSHA256": "5f52b72e250284517df316c0d1c76d923f654fb105b358525347d2cd39be8995"
+    },
+    {
+      "mesh": "Lantern_Lantern_GoldEdges",
+      "target": false,
+      "changedVertices": 0,
+      "maximumLocalDisplacementMetres": 0.0,
+      "unchanged": true,
+      "protectedChannelSHA256": "2297b2b83f09de461ab173a12ef9943433d5de847a48528b6aeb45fa9074f093"
+    },
+    {
+      "mesh": "Lantern_OpalGlass",
+      "target": false,
+      "changedVertices": 0,
+      "maximumLocalDisplacementMetres": 0.0,
+      "unchanged": true,
+      "protectedChannelSHA256": "aadbe1c87a7d7f889b19a33b541ad8e402d883d2122415feb7bbd1b5e4a223cf"
+    },
+    {
+      "mesh": "Sleeve_R",
+      "target": false,
+      "changedVertices": 0,
+      "maximumLocalDisplacementMetres": 0.0,
+      "unchanged": true,
+      "protectedChannelSHA256": "5eee91b64267833dfcdfa364481baa7c13223705144bc401ad91a5025724bbf1"
+    },
+    {
+      "mesh": "Body_Boots_HoneyLeather",
+      "target": false,
+      "changedVertices": 0,
+      "maximumLocalDisplacementMetres": 0.0,
+      "unchanged": true,
+      "protectedChannelSHA256": "46e14f5a9c57dc9681f83201b1dcbd75638247ae6e77511b352320a952cc73ac"
+    },
+    {
+      "mesh": "Body_Cape_DeepOceanLining",
+      "target": false,
+      "changedVertices": 0,
+      "maximumLocalDisplacementMetres": 0.0,
+      "unchanged": true,
+      "protectedChannelSHA256": "cbdaba775abd28d10f05ceab5bc8fc219b510a32b7b4b7f9844b9876acd6241e"
+    },
+    {
+      "mesh": "Body_Cape_SeaMistBinding",
+      "target": false,
+      "changedVertices": 0,
+      "maximumLocalDisplacementMetres": 0.0,
+      "unchanged": true,
+      "protectedChannelSHA256": "37995a8416ad90ee7c04ee1fc1a78b69396144ec3f76990a01ae4302f2643a73"
+    },
+    {
+      "mesh": "Body_Hood_DuskBlue",
+      "target": false,
+      "changedVertices": 0,
+      "maximumLocalDisplacementMetres": 0.0,
+      "unchanged": true,
+      "protectedChannelSHA256": "133a83e1455ef76f6fb04b9efe377123eb965b2f79e959a9e4620daaab955696"
+    },
+    {
+      "mesh": "Body_Lantern_GoldEdges",
+      "target": false,
+      "changedVertices": 0,
+      "maximumLocalDisplacementMetres": 0.0,
+      "unchanged": true,
+      "protectedChannelSHA256": "9302e86aebe48bde5aedf3c94f1eff101aa58a718c9b24bc40cf0883ccecc705"
+    },
+    {
+      "mesh": "Body_Scarf_EdgeHoney",
+      "target": false,
+      "changedVertices": 0,
+      "maximumLocalDisplacementMetres": 0.0,
+      "unchanged": true,
+      "protectedChannelSHA256": "a88525a0e1dc5d8fe9c59c246b443f9e2516d671fe4fc0930af63173127bb906"
+    },
+    {
+      "mesh": "Body_Stitches_PaleFlax",
+      "target": false,
+      "changedVertices": 0,
+      "maximumLocalDisplacementMetres": 0.0,
+      "unchanged": true,
+      "protectedChannelSHA256": "81ea5b03fa8e19ecf5c3650c8b9c9b80708e186703644a6891c6467458394d3d"
+    },
+    {
+      "mesh": "Brooch_AmberStone",
+      "target": false,
+      "changedVertices": 0,
+      "maximumLocalDisplacementMetres": 0.0,
+      "unchanged": true,
+      "protectedChannelSHA256": "ccfb088f5c476ff267b92d08f688220f26b9d7ff41036ec10d762d302e2c702a"
+    },
+    {
+      "mesh": "Cloak_Outer",
+      "target": false,
+      "changedVertices": 0,
+      "maximumLocalDisplacementMetres": 0.0,
+      "unchanged": true,
+      "protectedChannelSHA256": "12855a084116da0edcc649cd78c76982348ed4142fa3c4a86cd266c66bdd62b0"
+    },
+    {
+      "mesh": "Satchel_Body",
+      "target": false,
+      "changedVertices": 0,
+      "maximumLocalDisplacementMetres": 0.0,
+      "unchanged": true,
+      "protectedChannelSHA256": "6bcc2fec3bfcb1ae4f73bdd3afa561a1cfc0e5226c7213eab74ea9322fa20e94"
+    },
+    {
+      "mesh": "Satchel_Clasp",
+      "target": false,
+      "changedVertices": 0,
+      "maximumLocalDisplacementMetres": 0.0,
+      "unchanged": true,
+      "protectedChannelSHA256": "d1cb7eb49f8794bfe1cafe1eb09b0dfa097fbb1d8435217a41973c07426c5030"
+    },
+    {
+      "mesh": "Scarf_Collar",
+      "target": false,
+      "changedVertices": 0,
+      "maximumLocalDisplacementMetres": 0.0,
+      "unchanged": true,
+      "protectedChannelSHA256": "082e6c154841637a9b24ff0e8c2250c49fb7e36e432c9905c538a223ebc49ed7"
+    },
+    {
+      "mesh": "TailoredTunic",
+      "target": false,
+      "changedVertices": 0,
+      "maximumLocalDisplacementMetres": 0.0,
+      "unchanged": true,
+      "protectedChannelSHA256": "306caf64fe744195be4b0b6fab9d15850b1b17ad2287c1b7efc15d9bf40d91aa"
+    },
+    {
+      "mesh": "Blink_L_ClosedLash",
+      "target": false,
+      "changedVertices": 0,
+      "maximumLocalDisplacementMetres": 0.0,
+      "unchanged": true,
+      "protectedChannelSHA256": "e58ea93e8059e5ab51e76fa218abca0234c5ed60c491e0ca3e425427a8de4520"
+    },
+    {
+      "mesh": "Blink_L_LidCover",
+      "target": false,
+      "changedVertices": 0,
+      "maximumLocalDisplacementMetres": 0.0,
+      "unchanged": true,
+      "protectedChannelSHA256": "f687271172200a25cdc64a7a1f7652ee04d7cec098b7530ee406eff0d341880b"
+    },
+    {
+      "mesh": "Blink_R_ClosedLash",
+      "target": false,
+      "changedVertices": 0,
+      "maximumLocalDisplacementMetres": 0.0,
+      "unchanged": true,
+      "protectedChannelSHA256": "913e6ed9c593de4a672483f090002031beb8c34169a9f3bc9a2a9b2b68aa16c8"
+    },
+    {
+      "mesh": "Blink_R_LidCover",
+      "target": false,
+      "changedVertices": 0,
+      "maximumLocalDisplacementMetres": 0.0,
+      "unchanged": true,
+      "protectedChannelSHA256": "6e0e049829e81302d16ba303e3ab1271d6115644103d59d4e061e648b7656656"
+    },
+    {
+      "mesh": "Head_Eye_AmberRim",
+      "target": false,
+      "changedVertices": 0,
+      "maximumLocalDisplacementMetres": 0.0,
+      "unchanged": true,
+      "protectedChannelSHA256": "d345ba710339f80822ace30023bdbf21fdb0c7995f7cf63c2c69014c21907e44"
+    },
+    {
+      "mesh": "Head_Eye_Catchlight",
+      "target": false,
+      "changedVertices": 0,
+      "maximumLocalDisplacementMetres": 0.0,
+      "unchanged": true,
+      "protectedChannelSHA256": "49a16b419b81ce46818f0de05977dc0c05a478e54fc0f504785ee66941a7b3e7"
+    },
+    {
+      "mesh": "Head_Eye_Chestnut",
+      "target": false,
+      "changedVertices": 0,
+      "maximumLocalDisplacementMetres": 0.0,
+      "unchanged": true,
+      "protectedChannelSHA256": "2e5625737bdf7ea2ac4f0aedbe90d4000c1ddd16139c9b6f8a3a741624eca21b"
+    },
+    {
+      "mesh": "Head_Eye_Ivory",
+      "target": false,
+      "changedVertices": 0,
+      "maximumLocalDisplacementMetres": 0.0,
+      "unchanged": true,
+      "protectedChannelSHA256": "1ae6036bb54c676c887adfe9ca2825f392db4ce6ea37e02a5ec34bfff8f6565f"
+    },
+    {
+      "mesh": "Head_Eye_Pupil",
+      "target": false,
+      "changedVertices": 0,
+      "maximumLocalDisplacementMetres": 0.0,
+      "unchanged": true,
+      "protectedChannelSHA256": "f63529887a87d0ee44b64656dc7e5c6164860d5742999db8bb7186d28547551c"
+    },
+    {
+      "mesh": "Head_Face_NoseCream",
+      "target": false,
+      "changedVertices": 0,
+      "maximumLocalDisplacementMetres": 0.0,
+      "unchanged": true,
+      "protectedChannelSHA256": "f0c662bf6eec024962866fa9b45b16a77999c711e8ff0a39649354672f7769d9"
+    },
+    {
+      "mesh": "Head_Face_PorcelainCream",
+      "target": true,
+      "changedVertices": 1722,
+      "maximumLocalDisplacementMetres": 0.0038622766792672327,
+      "unchanged": false,
+      "protectedChannelSHA256": "4c3537a75548c1fd1b0a6b2dd39ba4bf08936be2e8ce4c46fdd3fa1a9df763fe"
+    },
+    {
+      "mesh": "Head_Face_RoseCheeks",
+      "target": true,
+      "changedVertices": 110,
+      "maximumLocalDisplacementMetres": 0.0018429085619375608,
+      "unchanged": false,
+      "protectedChannelSHA256": "83f7f50f21be0884cceb18969ca28dc6ca41f92e7f694ed1f70b8fcb6f853542"
+    },
+    {
+      "mesh": "Head_Hair_Indigo",
+      "target": false,
+      "changedVertices": 0,
+      "maximumLocalDisplacementMetres": 0.0,
+      "unchanged": true,
+      "protectedChannelSHA256": "236953c959ef82deee18f03a4789f4978c43bf01102f10bb64e1fb52fb014766"
+    },
+    {
+      "mesh": "Head_Hair_MidnightBlue",
+      "target": false,
+      "changedVertices": 0,
+      "maximumLocalDisplacementMetres": 0.0,
+      "unchanged": true,
+      "protectedChannelSHA256": "433615d6b68f2079b4920b70f03baa86ca036018e9f46607a2fbc3af97d6b3c2"
+    },
+    {
+      "mesh": "QuietSmile",
+      "target": true,
+      "changedVertices": 114,
+      "maximumLocalDisplacementMetres": 0.002874257830441826,
+      "unchanged": false,
+      "protectedChannelSHA256": "4c81d70abff3b36a42c57ce72f43e167b979c7fee6e69fcdb008334124aed331"
+    },
+    {
+      "mesh": "BootSole_L",
+      "target": false,
+      "changedVertices": 0,
+      "maximumLocalDisplacementMetres": 0.0,
+      "unchanged": true,
+      "protectedChannelSHA256": "b843ab045c6f497246265589b83fa3e4ec9e1c87cb2b13ac8b1a65b129cbf632"
+    },
+    {
+      "mesh": "BootUpper_L",
+      "target": false,
+      "changedVertices": 0,
+      "maximumLocalDisplacementMetres": 0.0,
+      "unchanged": true,
+      "protectedChannelSHA256": "6eb78bbb68da79e34a08e08e3c58a2a43fd4f7ee1fe50e2e545b7e6a48809a42"
+    },
+    {
+      "mesh": "Leg_L_Boots_HoneyLeather",
+      "target": false,
+      "changedVertices": 0,
+      "maximumLocalDisplacementMetres": 0.0,
+      "unchanged": true,
+      "protectedChannelSHA256": "b1d5ee4846ab82a898399c0edc7018b714874471813a2cc8039747abea983e67"
+    },
+    {
+      "mesh": "Leg_L_Hood_DuskBlue",
+      "target": false,
+      "changedVertices": 0,
+      "maximumLocalDisplacementMetres": 0.0,
+      "unchanged": true,
+      "protectedChannelSHA256": "e648e43f34d1b160c3904774f345e96c1b8e5d6af477a762f57e7e6f75a82732"
+    },
+    {
+      "mesh": "Leg_L_Lantern_BrushedBrass",
+      "target": false,
+      "changedVertices": 0,
+      "maximumLocalDisplacementMetres": 0.0,
+      "unchanged": true,
+      "protectedChannelSHA256": "f1b368bb35f21c7843ef7b6e7d9fcccc23a410513e12d4eff1d5909bc2720217"
+    },
+    {
+      "mesh": "Trouser_L",
+      "target": false,
+      "changedVertices": 0,
+      "maximumLocalDisplacementMetres": 0.0,
+      "unchanged": true,
+      "protectedChannelSHA256": "8fa40bcdaf69fe4df1a0624e727b811a5b814d5908342703c9f82557b6225b8a"
+    },
+    {
+      "mesh": "BootSole_R",
+      "target": false,
+      "changedVertices": 0,
+      "maximumLocalDisplacementMetres": 0.0,
+      "unchanged": true,
+      "protectedChannelSHA256": "d3385084b9a7612b2dde7248690780872b105c8ac20a2436a8a65aa3b437187e"
+    },
+    {
+      "mesh": "BootUpper_R",
+      "target": false,
+      "changedVertices": 0,
+      "maximumLocalDisplacementMetres": 0.0,
+      "unchanged": true,
+      "protectedChannelSHA256": "7279fe3fe91e081b3c95efde29f24b6f26f5f688552377c1284975d63daecf0c"
+    },
+    {
+      "mesh": "Leg_R_Boots_HoneyLeather",
+      "target": false,
+      "changedVertices": 0,
+      "maximumLocalDisplacementMetres": 0.0,
+      "unchanged": true,
+      "protectedChannelSHA256": "c5f3a13f734935809d486edde961574bfde5fab4458d3b935d282e337dbbf1b3"
+    },
+    {
+      "mesh": "Leg_R_Hood_DuskBlue",
+      "target": false,
+      "changedVertices": 0,
+      "maximumLocalDisplacementMetres": 0.0,
+      "unchanged": true,
+      "protectedChannelSHA256": "d2f1b3cbb262eb2455bf9374490416bbe1655ffe1b4221581cb3bba58b8aa9fe"
+    },
+    {
+      "mesh": "Leg_R_Lantern_BrushedBrass",
+      "target": false,
+      "changedVertices": 0,
+      "maximumLocalDisplacementMetres": 0.0,
+      "unchanged": true,
+      "protectedChannelSHA256": "123fd00c4511c9b11131c91a5b0716c941784cda09eda86c710d0f91bab24ad2"
+    },
+    {
+      "mesh": "Trouser_R",
+      "target": false,
+      "changedVertices": 0,
+      "maximumLocalDisplacementMetres": 0.0,
+      "unchanged": true,
+      "protectedChannelSHA256": "75a7961a3628f5829597d51874cc47f9ea8ad1b3cf80fd04d5a531ed364eb044"
+    },
+    {
+      "mesh": "ScarfTail_Scarf_EdgeHoney",
+      "target": false,
+      "changedVertices": 0,
+      "maximumLocalDisplacementMetres": 0.0,
+      "unchanged": true,
+      "protectedChannelSHA256": "fc6490c687b912df7a0fd08b57469f9b8b9ac3912551edef663790875207308b"
+    },
+    {
+      "mesh": "ScarfTail_Scarf_HarvestGold",
+      "target": false,
+      "changedVertices": 0,
+      "maximumLocalDisplacementMetres": 0.0,
+      "unchanged": true,
+      "protectedChannelSHA256": "1c75994b6b415422723b6c9bec071822baf096b2b78a7117b09d0b06f6ce3c9b"
+    }
+  ],
+  "mainHead": {
+    "changedVertices": 1722,
+    "maximumCanonicalDisplacementMetres": 0.004286614259932675,
+    "neckEarVerticesPreserved": 758,
+    "neckEarCoordinatesExact": true,
+    "neckEarMaximumNormalVectorRepackingError": 0.0,
+    "eyeLidRibbonsCoordinatesProtected": true,
+    "ringTopologyUnchanged": true,
+    "newPolygons": 0
+  },
+  "nostrils": {
+    "nostrilGrooveVertices": 110,
+    "innerEarVerticesPreserved": 200,
+    "innerEarCoordinatesExact": true
+  },
+  "objectBonePivotContractUnchanged": true,
+  "allMaterialGraphsUnchanged": true,
+  "allTopologyUVColourWeightMaterialChannelsUnchanged": true,
+  "frozenInputsUnchanged": {
+    "art\\generated\\character-v11\\traveler.blend": true,
+    "art\\generated\\character-v11\\traveler.fbx": true,
+    "art\\blender\\build_traveler_v11.py": true,
+    "art\\blender\\traveler_v11_hair.py": true
+  },
+  "shapeMethod": "Authored monotone C1 sagittal control cage; existing mouth rings redirected into lip/closed-crease flow. Broad soft cheek/chin and nose/alar transitions; no added wrinkle, noise, material or polygons.",
+  "mouthWidthMetres": 0.0504,
+  "cage": {
+    "x": [
+      0,
+      0.006,
+      0.012,
+      0.019,
+      0.027,
+      0.04,
+      0.06,
+      0.08,
+      0.103,
+      0.12
+    ],
+    "z": [
+      0.942,
+      0.954,
+      0.972,
+      0.986,
+      0.998,
+      1.0065,
+      1.01,
+      1.0115,
+      1.0147,
+      1.019,
+      1.025,
+      1.033,
+      1.042,
+      1.053,
+      1.065,
+      1.074
+    ],
+    "dy": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        -0.0005,
+        -0.0005,
+        -0.0004,
+        -0.0003,
+        -0.0002,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        -0.0017,
+        -0.0017,
+        -0.0016,
+        -0.0014,
+        -0.0011,
+        -0.0006,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        -0.0022,
+        -0.0022,
+        -0.002,
+        -0.0018,
+        -0.0015,
+        -0.0008,
+        0.0002,
+        0.0003,
+        0,
+        0
+      ],
+      [
+        0.0004,
+        0.0004,
+        0.0005,
+        0.0006,
+        0.0007,
+        0.0008,
+        0.0004,
+        0.0002,
+        0,
+        0
+      ],
+      [
+        -0.0018,
+        -0.0018,
+        -0.0015,
+        -0.0008,
+        0.0006,
+        0.0006,
+        0.0003,
+        0.0002,
+        0,
+        0
+      ],
+      [
+        -0.0005,
+        -0.0005,
+        -0.0004,
+        0.0001,
+        0.0012,
+        0.0005,
+        0.0002,
+        0,
+        0,
+        0
+      ],
+      [
+        0.00115,
+        0.00115,
+        0.001,
+        0.0013,
+        0.0018,
+        0.0005,
+        0.0001,
+        0,
+        0,
+        0
+      ],
+      [
+        -0.0013,
+        -0.0026,
+        -0.002,
+        -0.0008,
+        0.0014,
+        0.0005,
+        0.0001,
+        0,
+        0,
+        0
+      ],
+      [
+        -0.0012,
+        -0.0015,
+        -0.0011,
+        -0.0003,
+        0.0006,
+        0.0002,
+        -0.0002,
+        0,
+        0,
+        0
+      ],
+      [
+        0.0009,
+        -0.0006,
+        -0.0004,
+        0,
+        0.0004,
+        0.0002,
+        -0.0005,
+        -0.0001,
+        0,
+        0
+      ],
+      [
+        -0.0012,
+        0.0007,
+        0.001,
+        -0.0022,
+        0.0009,
+        0.0005,
+        -0.0008,
+        0,
+        0,
+        0
+      ],
+      [
+        -0.0006,
+        -0.0006,
+        -0.0008,
+        -0.0018,
+        0.001,
+        0.0006,
+        -0.0011,
+        0.0002,
+        0,
+        0
+      ],
+      [
+        -0.0011,
+        -0.0012,
+        -0.001,
+        0.0006,
+        0.001,
+        0.0006,
+        -0.0013,
+        0.0002,
+        0,
+        0
+      ],
+      [
+        -0.0012,
+        -0.001,
+        -0.0004,
+        0.0005,
+        0.0007,
+        0.0004,
+        -0.0006,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    ]
+  },
+  "limits": [
+    "Geometry candidate only; not accepted or imported into Unity.",
+    "Source and exported file identities are recorded; source-preservation assertions are not an FBX roundtrip audit.",
+    "Eyes, blink, hair and all 59 non-target mesh states remain frozen v11 data.",
+    "No new GLB or normal-game/performance acceptance."
+  ],
+  "files": {
+    "traveler.blend": {
+      "sha256": "4051bb2a87cb94a28f70dd1fca3f4e48be8e5535d876cd901d08ace47f0938c2",
+      "bytes": 10126281
+    },
+    "traveler.fbx": {
+      "sha256": "47527b4dc9c25e9345fd37eeabeabb0bda6708472181e075386b402f6d34b496",
+      "bytes": 2676316
+    }
+  },
+  "aestheticObjectiveAchieved": false
+}

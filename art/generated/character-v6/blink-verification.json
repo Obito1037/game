@@ -1,0 +1,20 @@
+{
+  "blend": {
+    "passed": true,
+    "eye_vertex_samples": 1618,
+    "minimum_eye_recess_behind_closed_lid_m": 0.0012622997164726257,
+    "failures": []
+  },
+  "fbx": {
+    "passed": true,
+    "eye_vertex_samples": 1618,
+    "minimum_eye_recess_behind_closed_lid_m": 0.0012671351432800293,
+    "failures": []
+  },
+  "glb": {
+    "passed": true,
+    "eye_vertex_samples": 1962,
+    "minimum_eye_recess_behind_closed_lid_m": 0.0012515708804130554,
+    "failures": []
+  }
+}

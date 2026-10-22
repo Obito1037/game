@@ -1,0 +1,145 @@
+借光岛 v7 文档更新草稿
+2026-10-21 · 内部交接用，未作为发布说明生效
+
+状态与使用方式
+
+本稿仅整理文档改动，不修改主文档、生产 manifest 或当前分享包。
+最终原生构建已由主线程确认：build_99bc9bcdbd43，156,996,585 字节，构建耗时 27,660 ms，0 error / 1 warning；实际有效验收目录为 run-021-v7。run-020-v7 的隐藏窗口出现黑屏，不作为有效画面证据。
+Web build_391eab7c3886 正在构建，仍待本轮通关与性能验收；此构建状态为主线程交接时状态，不代表已发布。
+稳定 v6 的 Windows 分享包已保留在 builds/archive/BorrowedLight-v6-Windows.zip，文件大小 64,408,968 字节。它是回退包，不代表 v7 成果。
+v7 是游戏交付修订号；world-v6 与 character-v6 是本轮 Blender 资产目录号。不得把这些目录擅自重命名为 world-v7 / character-v7。
+下文“可写入”表示来源与代码层面已可确定；“待填”只能在最终对应构建验收后填写。功能通过、帧率提高和整体视觉超过参考是不同结论。
+
+一、已经可以确定的新事实
+
+1. 小岛美术
+源文件 art/generated/world-v6/island.blend，生产脚本 art/blender/build_island_v6.py。
+资产包含 412,815 个三角形、29 个网格；这是岛屿模型自身统计，不是游戏全部场景的绘制三角形数。
+本轮细化了弯曲收尖的草叶、低伏圆叶及大岩石的形体与连续顶点色。主要岩石保留 1 个 renderer、2 个材质槽。
+14 个锚点、可行走主地面、步石、观星台及其余非目标网格保留，原地表两张贴图未改。可行走主地面的几何保持，不等于运行时碰撞分类天然正确。
+证据：world-v6/asset-manifest.json、interchange-verification.json。后者包含 BLEND / FBX / GLB 回读、固定几何/锚点、三角预算与顶点颜色核对。
+
+2. 角色美术与导出
+源文件 art/generated/character-v6/traveler.blend，生产脚本 art/blender/build_traveler_v6.py，派生自保留的 character-v5/traveler.blend。
+角色资产 75,862 个三角形、62 个 renderer，其中 28 个为蒙皮网格；4 个骨架对象、12 个命名骨骼、29 种材质。不要将 28 个蒙皮网格写成 28 根骨骼。
+鼻颊、下颌、眼睑和眉毛轮廓做了调整，新增实际几何衣褶。全部 62 个网格包含线性顶点色；Unity 对角色皮肤和衣料采用带顶点色的 PaintedSurface 材质，皮肤使用 Skin 类型。
+已有蒙皮关节、命名/父子关系和绑定矩阵保留；鞋底、手部、灯笼等接触及附件几何保留。角色保持 Blender 自带骨架/权重工作流，不需要 Auto-Rig Pro、Tripo 或 Mixamo。
+证据：character-v6/traveler-manifest.json、frozen-export-verification.json、color-interchange-verification.json、blink-verification.json、gait-verification.json。
+闭眼几何检查与 Blender 理想平面/台阶上的 144 个鞋底姿态样本均有独立记录，但这些不能替代 Unity 行走、真实地面和碰撞验收。
+character-v6/IMPORT-NOTES 中的 SkinPaint 是接入建议名称；最终接入证据使用 BorrowedLight/PaintedSurface、Skin=6，应按实际代码披露。
+
+3. 星空结构调整
+47 个球形星体与 20 个方形闪光的完整几何合并为 1 个 renderer / 1 个子网格，保留 24,685 个顶点与 36,336 个三角形；不是把全场 renderer 减为 1 个。
+保留星数、几何、基础颜色及漂移动作；原先 CPU 更新的漂移改为 shader 顶点计算。专用 shader 保留正向光照与雾，并关闭远景星体的投影及深度法线参与。
+几何验证已通过，包括顶点、法线、切线、UV、三角索引、相位和多时刻位移。最大位置差约 9.54e-7 米。
+证据：GameProject/Assets/BorrowedLight/Runtime/CelestialStarField.cs、Shaders/Starfield.shader，以及 art/verification/v7-planning/starfield-geometry-verification.json。
+此结构更改不能直接证明整版 FPS 提升。合并后失去每颗星独立 CPU 视锥剔除，部分星体可见时会提交整个合并网格；最终浏览器 GPU 记录才可支持实际提交量变化。不得声称逐像素完全相同。
+
+4. 界面可读性
+“声音”“设置”、底部操作提示和漫步切换文字字号统一提高到 18；底部提示采用更清楚的文字颜色。
+这是 StoryHUD 的设计字号，随 UI 缩放变化，不应写成所有窗口上实际显示均为 18 像素。
+此轮没有新增界面文案，无需因字号变化而重新生成字体字形子集。
+
+5. 地面与码头碰撞：原生检查已通过，网页仍待验收
+WorldDirector 将普通可行走地面限定为 Island_Meadow 和 Garden_Walkways，观星台与码头分别构建专用碰撞体；装饰性 Garden_CreepingMeadowLeaves 不再因名字包含 Meadow 被当作地面。
+码头增加连续甲板碰撞面，跨过模型的细小木板缝隙；把护栏/支撑等实体从甲板表面分开处理，避免微小钉头及装饰抬高脚步。
+run-021-v7 的 decorativeLeavesExcluded、pierGroundingWorks、pierRailCollisionWorks 均为 true；木屋、岩石、步石、观星台接地和观星台仪器阻挡检查也为 true。原生可以写成“相关检查通过”；网页仍待对应构建验收，不跨平台推定。
+静止两只鞋底共 220 个采样点，最小净空 0.001375 米，即约 1.4 毫米。此项不覆盖所有动态姿态与路线。
+
+二、PLAY.zh-CN.txt 的具体更新位置
+
+A. “开始游玩”第 4 项中的“压缩游戏数据与代码合计约 43.5 MB”
+该数值属于 v6。最终 Web 构建后按 loader、framework、wasm、data 实际文件字节数重算，明确十进制 MB；载入页图片仍另外说明。未得到新构建前不要更改为推测值。
+第 5 项分享路径保持 builds\BorrowedLight-Windows.zip；只有重新打包并逐项校验后它才代表 v7。归档路径不要替代正常玩家入口。
+
+B. “当前交付与验证范围”中“Windows 修订版构建报告中的运行文件约 143 MiB”
+可替换为“Windows v7 构建报告中的运行文件约 150 MiB；分享时请使用完整压缩包。”其构建报告字节数为 156,996,585。构建运行文件大小与 ZIP 压缩大小分别记录，避免混用；新 ZIP 仍需重新打包与逐项校验。
+
+C. 原生 v6 帧率、鞋底净空与上一轮帧率波动三段
+原文锚点：“v6 修复版的短时采样”“新版角色加入肘、膝、踝”“前一轮 v6 的漫步样本”。
+正式发布时可整体替换为：
+  v7 原生版在上述硬件与窗口设置下完成键盘启动、三章通关、行走、暂停/恢复、返回结尾及重开验证。木屋、岩石、步石、观星台及仪器的碰撞/接地检查通过，装饰叶片地面排除、码头连续甲板及两侧护栏的新增检查通过。
+  本轮短时采样：菜单约 60、俯视约 60、人物近景约 60、密集草地漫步约 46 FPS，巡游末段约 55 FPS。前一轮干净运行的漫步样本约 55 FPS；短时波动原因未证实，这些数值不代表恒定帧率或全程最低帧率，也不能单独证明某项优化的性能收益。
+  角色保留肘、膝、踝蒙皮关节与地形脚步，步速为 1.75 m/s；本轮静止姿态两只鞋底共 220 个采样点，最小净空约 1.4 毫米。这不代表所有动态姿态、地形和行走路线均已逐点验证。
+精确原生样本为 menu 60.0 / overview 60.0 / walking 46.2 / portrait 60.0 / final 55.2 FPS，实际行走距离 2.305 米。保留其运行目录与构建 ID，若之后重建则重新确认这些数据是否仍可对应最终发布。
+run-017-v7 为存档受沙箱限制的未完成运行，run-018-v7 存在并行实例干扰，run-019-v7 在本次碰撞修复前，run-020-v7 隐藏窗口截图黑屏；它们均不作为最终 v7 功能与画面验收。run-019 的干净短时性能样本最多作为明确标注的历史波动参考，不当最终结果。
+
+D. 两段浏览器 v6 通关/性能与日志说明
+原文锚点：“浏览器 v6 在默认音频策略下”“修复版前台三秒采样”。
+以最终 Web 构建重新检查真实键盘三章、刷新续玩、音频恢复、漫步和返回结尾，再写实际结果与前台区间帧率中位数。网页尚未完成新版验收时，不应把 web-006-v6 的约 39 / 44 / 29 FPS 改标为 v7。
+“Unity 滚动平均值含前一视角”“浏览器缓存不代表首次网络加载”“未测最低配置下限”的边界仍适用。
+日志提示需根据新日志更新；“未捕获浏览器异常”和“Unity 日志没有警告”不可互相替代。原有隐藏 shader / 音频提示只有新构建实际消失时才能删除。
+
+E. 验收路径与视觉结论
+将 run-016-v6 替换为 run-021-v7；web-006-v6 等最终网页验收后再替换，并保留“早期记录仍在各目录”。原生 runtime-results.json / player.log 的说明保持准确。
+画面对照仍指向 art\verification\visual-review.html，但必须待该页面更新后再宣称其展示的是最终 v7。
+可补一句：“本轮细化了草叶、岩石、人物脸部与衣褶，并增大常用操作文字；画面是否达到参考目标仍以实机对照和试玩验收为准。”
+当前独立审查仅确认局部改善，提灯侧袖褶在近景显得规则、人物与地景仍有差距；不得写成“人物自然度全面提升”或“已经超过参考”。
+
+F. 发布目录中说明文件的适配
+更新工作区主文档后同步到 Windows / Web 构建目录。Windows ZIP 内的第一启动入口应为 BorrowedLight.exe，并要求保留整个解压目录；工作区的 Open-Borrowed-Light.cmd、源码与 art/tools 目录不在分享 ZIP 内。
+不将 ZIP 内说明写成用户必须运行工作区专用启动器。Web 启动器和本机 Node 服务信息标注为制作工作区入口，公网部署状态仍为“未发布”。
+
+三、AI-使用与素材来源.zh-CN.txt 的具体更新位置
+
+首段贡献披露、天空 image_gen 来源、音乐本地合成、第三方字体和视觉参考段保持事实口径。
+不能把代理完成的建模、程序、脚本与文档改写为参赛者手工完成；用户实际取舍与修改后续按事实追加。
+
+“实机与来源证据”中从 world-v5/interchange-verification.json 开始、到早期版本保留说明之前的内容，建议替换为：
+  art/generated/world-v6/interchange-verification.json：岛屿 BLEND / FBX / GLB 回读，包含不变锚点与可行走模型核对、新草叶/岩石几何、顶点色及局部植物清理验证。
+  art/generated/character-v6/frozen-export-verification.json：角色 FBX / GLB 的中性与屈膝姿态、骨架和附件关系回读验证。
+  art/generated/character-v6/color-interchange-verification.json：62 个角色网格的线性顶点色导出验证。
+  art/generated/character-v6/blink-verification.json：眼球与闭眼覆盖片的几何遮挡检查；范围见报告。
+  art/generated/character-v6/gait-verification.json：Blender 实际蒙皮鞋底在理想平地及台阶的姿态检查，不代替游戏实测。
+  art/generated/world-v6/ 与 art/generated/character-v6/：本轮可编辑源模型及预览；生产脚本为 art/blender/build_island_v6.py 与 art/blender/build_traveler_v6.py。角色脚本读取保留的 character-v5 源模型，继续使用 Blender 自带骨架和权重。
+  art/verification/v7-planning/starfield-geometry-verification.json：星空合并前后几何与漂移的 CPU 比对；不是 GPU 性能报告。
+  早期版本仍保留在原目录，Blender 预览不作为 Unity 实机验收图。
+
+可增加一小段：
+  本轮草叶、岩石、人物面部/衣褶与顶点色仍由本地 Blender Python 脚本生成和修改，没有新增下载的第三方模型或纹理。星空合并、专用 shader、界面文字调整与碰撞修复由 Codex 代理修改本项目代码。所有最终实机与性能结论以对应构建记录为准。
+
+注意：world-v6/IMPORT-NOTES 开头“未覆盖 Unity 资源”描述资产交付当时状态；模型已由主线程导入，主文档不要照抄该句作为最终状态。
+
+四、CONCEPT-48H.zh-CN.txt 的具体更新位置
+
+“为什么适合一个人做”中：
+原文：“本机 i5-13500H / 约16GB / Iris Xe 核显，修订版岛屿约32.5万、角色约5.4万三角形，采用受控后期。”
+替换建议：“本机 i5-13500H / 约16GB / Iris Xe 核显，本轮岛屿模型约41.3万、角色模型约7.6万三角形，采用受控后期。人物保留骨架蒙皮；自然地景与近景细节以实际打包性能为约束。”
+紧接的“性能结论以实际打包记录为准”保留，不把增加面数写成质量保证。
+大方向、单核心机制、单岛三章和原有 48h 排期不变；排期仍是计划，不表示所有时间点均按计划完成，也不把 v7 调优另写成已完成正式参赛提交。
+“画面是否达到比参考更惊艳仍需验收”保留。当前草稿不补写新的比赛规则、截止时间或奖项事实。
+
+五、AGENTS.md 的具体更新位置
+
+仅考虑更新以“- Borrowed Light is built for Windows x64 and WebGL.”开头的交付状态条目；工具版本、Pipeline/Input System 固定版本、Unity 连通检查、代理启动方式、账号/许可说明和 Auto-Rig Pro 状态不改。
+最终两平台验收完成后，用最终 v7 目录替换 v6 原生和网页目录；保留 production-manifest、两个启动器、PLAY 以及 localhost / 未公网发布说明。
+建议在该条末尾追加英文短句：
+  The stable v6 Windows archive is in `builds/archive/BorrowedLight-v6-Windows.zip`. Release v7 uses Blender assets `art/generated/world-v6/` and `art/generated/character-v6/`.
+若只是原生先通过，必须分别标明 native v7 和 browser v6，不能用“v7 released”统称两端。
+
+六、setup/NEXT-STEPS.zh-CN.txt 的具体更新位置
+
+原文锚点：“当前 v6 包含角色肘膝踝蒙皮与地形脚步……”
+最终验收完成后替换建议：
+  当前 v7 包含细化的草叶/岩石、人物面部与几何衣褶、角色与岩石顶点色，以及放大的常用操作文字；保留肘膝踝蒙皮与地形脚步。远景 47 个星体和 20 个闪光合并为 1 个 renderer，实际性能见本轮运行记录。原生验收在 art/verification/run-021-v7/，网页验收在[最终网页目录]。
+  原生检查确认装饰叶片未参与地面碰撞，码头连续甲板接地和两侧护栏阻挡通过；网页结果：[按最终实际结果简述]。
+原文下一句的“整体视觉尚未认定超过参考”仍保留；可具体说明脸部、衣料和自然地景仍在调整。
+首次导入问题、工具使用、实时 MCP 检查和未安装/未配置账号项目保持事实。不得把启动器准备好等同于当前 Editor 一直在线。
+
+七、正式合并这些文案前需要补齐的记录
+
+1. 原生 build_99bc9bcdbd43 已确认，Web build_391eab7c3886 尚待完成；补齐最终网页状态/大小，以及新模型导入 hash 对应关系。
+2. 原生 run-021-v7 的 runtime-results 已核对；正式交付仍需与真实截图、模型和最终构建一并关联。若之后重建，目录与构建关系随之更新。
+3. 最终网页正常通关/存档/音频验收、独立 GPU 记录、实际键鼠步态录像；分别注明测量条件，不将录像或 GPU 探针运行的 FPS 当正常游玩成绩。
+4. 本轮 Unity 日志提示、浏览器异常和已知限制的实际状态。
+5. 最终 Web 四类载荷字节数，新 ZIP 大小/SHA256、条目与运行文件逐项比对；重新核对字体授权与使用说明已随包提供。
+6. 同步主 production-manifest、release-checks 和画面对照；保留 v6 证据，清晰标明 v7 候选何时成为实际交付。
+7. 所有性能提升、行走自然度和参考超越结论仅按证据写。run-019 独立视觉审查仍指出袖褶规则、面部/地景成熟度差距，本稿不会将其改为无条件正面结论。
+
+本稿核对过的本地来源
+PLAY.zh-CN.txt；AI-使用与素材来源.zh-CN.txt；CONCEPT-48H.zh-CN.txt；AGENTS.md；setup/NEXT-STEPS.zh-CN.txt。
+world-v6/asset-manifest.json 与 IMPORT-NOTES.zh-CN.txt；character-v6/traveler-manifest.json 与 IMPORT-NOTES.zh-CN.txt。
+art/verification/v7-planning/editor-integration.json、starfield-geometry-verification.json、starfield-plan.zh-CN.txt、visual-audit.zh-CN.txt。
+art/verification/run-021-v7/runtime-results.json 与 player.log；最终原生构建报告数据由主线程交接确认。
+GameProject/Assets/BorrowedLight/Runtime/WorldDirector.cs、StoryHUD.cs，以及星空/表面 shader 的当前接入代码。
+未运行构建、浏览器、GPU 测量或渲染；未修改上述主文档、模型、manifest 和发布包。

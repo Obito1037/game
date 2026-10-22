@@ -1,0 +1,52 @@
+{
+    "purpose": "Controlled light comparison; staged pose, not gameplay or performance evidence",
+    "images": [
+        "01-fill-023.png",
+        "02-fill-016.png",
+        "03-fill-023-repeat.png"
+    ],
+    "intensities": [
+        0.23000000417232514,
+        0.1599999964237213,
+        0.23000000417232514
+    ],
+    "width": 1440,
+    "height": 900,
+    "cameraPosition": {
+        "x": 1.1061509847640992,
+        "y": 1.229551911354065,
+        "z": -0.9278536438941956
+    },
+    "travelerPosition": {
+        "x": 0.0,
+        "y": 0.10000000149011612,
+        "z": -3.299999952316284
+    },
+    "fillLocalPosition": {
+        "x": 0.0,
+        "y": 1.25,
+        "z": 0.550000011920929
+    },
+    "cameraRotation": {
+        "x": -0.016981717199087144,
+        "y": 0.9732863306999207,
+        "z": -0.07659947872161865,
+        "w": -0.21577265858650208
+    },
+    "travelerRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 1.0
+    },
+    "fieldOfView": 41.33330154418945,
+    "fillRange": 1.100000023841858,
+    "frozenTime": 8.018084526062012,
+    "fillColor": {
+        "r": 1.0,
+        "g": 0.8799999952316284,
+        "b": 0.7400000095367432,
+        "a": 1.0
+    },
+    "cameraAndPoseUnchanged": true
+}

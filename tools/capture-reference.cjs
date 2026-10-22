@@ -1,0 +1,27 @@
+const { chromium } = require('C:/Users/20665/AppData/Local/OpenAI/Codex/runtimes/cua_node/78fb63cda1a9e2b2/bin/node_modules/playwright');
+const fs = require('node:fs');
+const path = require('node:path');
+(async()=>{
+  const out=path.resolve('art/reference');fs.mkdirSync(out,{recursive:true});
+  const browser=await chromium.launchPersistentContext(path.resolve('tools/reference-browser-profile'),{channel:'msedge',headless:true,viewport:{width:1440,height:900},deviceScaleFactor:1,args:['--ignore-certificate-errors','--autoplay-policy=no-user-gesture-required']});
+  const page=await browser.newPage();
+  page.on('console',m=>{if(m.type()==='error') console.log('CONSOLE',m.text().slice(0,300))});
+  await page.goto('https://littleprince.dev/',{waitUntil:'domcontentloaded',timeout:60000});
+  await page.waitForTimeout(5000);
+  console.log('TITLE',await page.title());console.log('BODY',(await page.locator('body').innerText()).slice(0,4000));
+  await page.screenshot({path:path.join(out,'littleprince-entry.png')});
+  fs.writeFileSync(path.join(out,'source-dom.html'),await page.content());
+  console.log('ASSETS',JSON.stringify(await page.locator('img,script').evaluateAll(es=>es.map(e=>({tag:e.tagName,src:e.src,alt:e.alt})))));
+  const start=page.getByText('点击 · 开始旅程',{exact:false});
+  if(await start.count())await start.first().click({force:true});else await page.mouse.click(720,450);
+  await page.waitForTimeout(20000);
+  console.log('AFTER_START',(await page.locator('body').innerText()).slice(0,5000));
+  await page.screenshot({path:path.join(out,'littleprince-started.png')});
+  await page.mouse.click(718,756);
+  await page.waitForTimeout(30000);
+  await page.screenshot({path:path.join(out,'littleprince-gameplay.png')});
+  await page.keyboard.press('Enter');
+  await page.waitForTimeout(3000);
+  await page.screenshot({path:path.join(out,'littleprince-gameplay-2.png')});
+  await browser.close();
+})().catch(e=>{console.error(e);process.exitCode=1});

@@ -1,0 +1,16 @@
+meadow-v9：未采用的实验资产，请勿导入发布资源。
+
+root 已完成三个固定机位 A/B/A；独立原图审查同意保留 v8 地面。结果见 ../../verification/v9-ground-contact-study/review.zh-CN.txt。
+
+meadow-contact.png 为本次已实测候选，冻结 SHA256：
+50bb9aa9c0e10f9689c5d78e219d167e6764f54852e81457cfefe4ed257092fc
+meadow-no-contact.png 为原算法/固定 seed 重新生成的无接触基线，与冻结旧图字节完全相同：
+889c373c911c8fd5e4be519cbbc957436909b380481d1de22051bb22ef0d3c7f
+
+颜色空间审计纠正了初版报告：接触乘法实际作用于 sRGB 编码 RGB，最大 11% 编码暗化并不等于 11% 线性亮度下降。正确的实际线性最大值为 23.0126%。当前 asset-manifest.json 已纠正字段并引用独立 audit_colour_space.py / colour-space-audit.json。asset-manifest.original-encoded.json 保留初版错误口径和原字节，供追溯。
+
+生成脚本与 root-positions.json 为复现已实测候选而保留冻结，其中 maximum_linear_darkening 等旧命名不准确，应解释为编码 RGB 乘数。请以修正 manifest 和独立审计为准；本轮不重跑生成器、不修正候选像素、不继续迭代。
+
+contact-mask.png 仅为离线掩码检查图，root-positions.json 仅为根点提取证据；两者都不进入运行时。没有新增 normal、几何、纹理槽，也没有修改 Unity Resources、原世界贴图或 BLEND。
+
+实机比较为同设置 RGBA32 sRGB 纹理隔离实验。最终导入压缩、WebGL 格式、动态 mip 与性能未验收；不能把本实验当作已整合美术提升。

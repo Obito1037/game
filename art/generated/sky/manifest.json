@@ -1,0 +1,34 @@
+{
+  "asset": "nebula-v1.png",
+  "purpose": "Original painterly 360-degree sky panorama for Unity fairytale game Borrowed Light / 借光岛",
+  "source": {
+    "mode": "built-in",
+    "tool": "image_gen.imagegen",
+    "originalFile": "C:\\Users\\20665\\.codex\\generated_images\\01a15a63-466b-7562-950c-6cced32bf5ca\\exec-c9e77886-384a-4fd1-bcc5-05cca2dffa2c.png",
+    "generatedOnLocalDate": "2026-10-21"
+  },
+  "dimensions": {
+    "width": 1774,
+    "height": 887,
+    "aspectRatio": "2:1",
+    "format": "PNG"
+  },
+  "sha256": "6be6b09c7dc09940fc8b9b616ea0688008aea433de90c6076e31784e16ac187b",
+  "referencesViewed": [
+    {
+      "path": "art/verification/run-002/01-invitation.png",
+      "role": "color and composition reference only; not an edit target"
+    },
+    {
+      "path": "art/reference/littleprince-entry.png",
+      "role": "painterly atmosphere reference only; not an edit target"
+    }
+  ],
+  "prompt": "Use case: stylized-concept\nAsset type: production-ready 360-degree equirectangular sky panorama texture for a Unity fairytale game, a brand new original raster image, not a screenshot or mockup.\nPrimary request: Paint an elegant hand-crafted nocturnal starfield with extremely refined cinematic animated-film background painting quality, softly tangible watercolor paper grain and subtle layered pigment. Output an ultra-wide 2:1 panorama, ideally 2048 x 1024 pixels, full bleed.\nScene/backdrop: Only deep space and abstract nebulous atmosphere, no foreground objects. Deep indigo and ink-blue base, with a restrained diagonal arch of soft teal-green and blue-violet nebula filaments flowing through the upper half of the panorama. Wisps have intricate soft edges, fine atmospheric transitions and depth, never bright photographic Milky Way. Sparse tiny warm-gold stars with varied brightness, mostly pinpoints and a very few delicate soft glints.\nComposition/framing: Designed to wrap gently seamlessly around a skydome: left and right edges have matching dark indigo values and quiet continuous texture. Upper half contains the delicate nebula arc and visual richness; middle-to-lower half remains very calm and dark, with generous negative space, to support a bright miniature floating island and readable titles composited over it later. No hard horizon; lower edge remains space, darker than upper.\nLighting/mood: tranquil, intimate, poetic, luminous but low-contrast; sophisticated painterly atmosphere rather than neon fantasy.\nColor palette: ink navy #06152e, midnight indigo #101e40, understated petrol teal #245256, muted periwinkle and rare amber-gold pinpoints. Beautiful tonal detail in darks.\nMaterials/textures: fine watercolor paper grain and artisanal translucent wash, consistently subtle at game scale.\nConstraints: Absolutely no planet, moon, sun, horizon, mountain, landscape, island, building, figure, animal, symbol, constellation line, text, typography, logo, border, frame or watermark. Do not include a vignette or lens flare. Do not produce a UI, mockup, screenshot or diagram. This is a directly usable sky-only texture.",
+  "review": {
+    "visuallyInspected": true,
+    "findings": "Sky-only original painterly texture. Deep ink-blue lower half, teal and muted violet nebula across upper half, sparse warm star glints, subtle watercolor grain. No planets, moons, terrain, buildings, figures, typography, frame, or watermark. 2:1 output preserved without resizing or editing.",
+    "seamlessness": "Prompted for softly continuous left/right edges. Not guaranteed pixel-perfect seamless; inspect wrap in the final skydome orientation."
+  },
+  "modifications": "Copied original built-in output unchanged; no image post-processing."
+}

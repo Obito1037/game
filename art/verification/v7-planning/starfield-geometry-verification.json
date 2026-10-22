@@ -1,0 +1,45 @@
+{
+    "passed": true,
+    "scope": "Edit-mode CPU geometry audit; not a GPU shader or visual/FPS test.",
+    "originalStars": 47,
+    "originalGlints": 20,
+    "originalRenderers": 67,
+    "expectedVertices": 24685,
+    "actualVertices": 24685,
+    "expectedTriangles": 36336,
+    "actualTriangles": 36336,
+    "actualSubmeshes": 1,
+    "colorComponents": 4,
+    "minimumPhase": 9,
+    "maximumPhase": 55,
+    "colorFormat": "Float32",
+    "positionSamples": 24685,
+    "normalSamples": 24685,
+    "tangentSamples": 24685,
+    "uvSamples": 24685,
+    "phaseSamples": 24685,
+    "triangleIndexSamples": 109008,
+    "movingPositionSamples": 74055,
+    "boundsExtremeSamples": 98740,
+    "maxPositionError": 9.5367431640625e-7,
+    "maxNormalError": 1.7881393432617188e-7,
+    "maxTangentError": 1.7881393432617188e-7,
+    "maxUvError": 0.0,
+    "maxMovingPositionError": 9.5367431640625e-7,
+    "sampleTimes": [
+        0.0,
+        17.5,
+        90.25
+    ],
+    "boundsCenter": {
+        "x": -0.347503662109375,
+        "y": 15.009108543395996,
+        "z": 40.55495071411133
+    },
+    "boundsSize": {
+        "x": 98.38446044921875,
+        "y": 25.712480545043947,
+        "z": 43.89555358886719
+    },
+    "failures": []
+}

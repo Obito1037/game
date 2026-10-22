@@ -1,0 +1,24 @@
+{
+  "buildId": "build_6b2f1936c854",
+  "playerDirectory": "C:\\Users\\20665\\Desktop\\game\\builds\\windows",
+  "capturedBeforeLaunchUtc": "2026-10-21T03:01:30.1164166Z",
+  "files": [
+    {
+      "name": "BorrowedLight.exe",
+      "sha256": "EB143EAD6441B6DD9D7D145ADB85410E9389FB3878899AE537E8C9869CCE38FA"
+    },
+    {
+      "name": "UnityPlayer.dll",
+      "sha256": "851DA827899734E8B3D56F7E4DBBD58210E58E4DAEF504E6B7472B9EE503914B"
+    },
+    {
+      "name": "BorrowedLight_Data/resources.assets",
+      "sha256": "23F9B2215B2A07E3F16DB5958FAA65980A0D2BC0BB80B0352AFE96CB90C94BD9"
+    },
+    {
+      "name": "BorrowedLight_Data/Managed/Assembly-CSharp.dll",
+      "sha256": "A0B45AFA3FB31308711763680549C486B9AEF9790BE7715977A792CCB6B63F51"
+    }
+  ],
+  "scope": "Read-only hashes of the player files immediately before launching this QA session. Runtime acceptance is recorded separately."
+}

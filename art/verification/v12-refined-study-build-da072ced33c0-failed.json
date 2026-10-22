@@ -1,0 +1,35 @@
+{
+  "buildId": "build_da072ced33c0",
+  "status": "completed",
+  "result": "Failed",
+  "buildTimeMs": 9409,
+  "errors": [
+    {
+      "message": "Type '[Assembly-CSharp]BorrowedLight.WorldDirector+GroundDetailRecord' has an extra field 'variantDetailStrengths' of type 'System.Single[]' in the player and thus can't be serialized  (expected 'screenWidth' of type 'System.Int32')"
+    },
+    {
+      "message": "Type '[Assembly-CSharp]BorrowedLight.WorldDirector+GroundDetailRecord' has an extra field 'defaultDetailStrength' of type 'System.Single' in the player and thus can't be serialized  (expected 'authoredLinearLuminanceMean' of type 'System.Double')"
+    },
+    {
+      "message": "Type '[Assembly-CSharp]BorrowedLight.WorldDirector+GroundDetailRecord' has an extra field 'softDetailStrength' of type 'System.Single' in the player and thus can't be serialized  (expected 'authoredLinearLuminanceMean' of type 'System.Double')"
+    },
+    {
+      "message": "Fields serialized in Editor, class 'BorrowedLight.WorldDirector+GroundDetailRecord'\n    'purpose' of type 'System.String'\n    'stagingOnly' of type 'System.Boolean'\n    'allInvariantsPassed' of type 'System.Boolean'\n    'rendererName' of type 'System.String'\n    'meshName' of type 'System.String'\n    'detailResource' of type 'System.String'\n    'originalSHA256' of type 'System.String'\n    'variants' of type 'System.String[]'\n    'screenWidth' of type 'System.Int32'\n    'screenHeight' of type 'System.Int32'\n    'meshVertexCount' of type 'System.Int32'\n    'frozenTime' of type 'System.Single'\n    'night' of type 'System.Single'\n    'tileMetres' of type 'System.Single'\n    'detailStrength' of type 'System.Single'\n    'authoredLinearLuminanceMean' of type 'System.Double'\n    'clampedRatioMean' of type 'System.Double'\n    'baseMap' of type 'BorrowedLight.WorldDirector+GroundTextureIdentity'\n    'baseNormal' of type 'BorrowedLight.WorldDirector+GroundTextureIdentity'\n    'detailMap' of type 'BorrowedLight.WorldDirector+GroundTextureIdentity'\n    'lights' of type 'BorrowedLight.WorldDirector+FaceStudyLight[]'\n    'views' of type 'BorrowedLight.WorldDirector+GroundDetailView[]'\n"
+    },
+    {
+      "message": "Fields serialized in target platform, class 'BorrowedLight.WorldDirector+GroundDetailRecord'\n    'purpose' of type 'System.String'\n    'stagingOnly' of type 'System.Boolean'\n    'allInvariantsPassed' of type 'System.Boolean'\n    'rendererName' of type 'System.String'\n    'meshName' of type 'System.String'\n    'detailResource' of type 'System.String'\n    'originalSHA256' of type 'System.String'\n    'variants' of type 'System.String[]'\n    'variantDetailStrengths' of type 'System.Single[]'\n    'screenWidth' of type 'System.Int32'\n    'screenHeight' of type 'System.Int32'\n    'meshVertexCount' of type 'System.Int32'\n    'frozenTime' of type 'System.Single'\n    'night' of type 'System.Single'\n    'tileMetres' of type 'System.Single'\n    'defaultDetailStrength' of type 'System.Single'\n    'softDetailStrength' of type 'System.Single'\n    'authoredLinearLuminanceMean' of type 'System.Double'\n    'clampedRatioMean' of type 'System.Double'\n    'baseMap' of type 'BorrowedLight.WorldDirector+GroundTextureIdentity'\n    'baseNormal' of type 'BorrowedLight.WorldDirector+GroundTextureIdentity'\n    'detailMap' of type 'BorrowedLight.WorldDirector+GroundTextureIdentity'\n    'lights' of type 'BorrowedLight.WorldDirector+FaceStudyLight[]'\n    'views' of type 'BorrowedLight.WorldDirector+GroundDetailView[]'\n"
+    },
+    {
+      "message": "Error building player because script class layout is incompatible between the editor and the player."
+    }
+  ],
+  "warnings": [
+    {
+      "message": "Pipeline: No RuntimePipelineConfig asset found (Project Settings > Pipeline > Runtime). Pipeline will be disabled in Player builds."
+    },
+    {
+      "message": "You are building a player, but you have uncompiled code changes. This means that any post-processing or importing code you may have changed will not affect this player build."
+    }
+  ],
+  "diagnosis": "Editor retained prior diagnostic class layout while Player compiled new source. Refresh/Editor recompilation required before rebuilding."
+}

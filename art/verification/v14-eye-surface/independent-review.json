@@ -1,0 +1,85 @@
+{
+  "reviewed": true,
+  "isReleaseDecision": false,
+  "aestheticObjectiveAchieved": false,
+  "acceptedForLimitedStaticScope": true,
+  "preferredVariant": "combined",
+  "recommendation": "组合材质在近景有小幅正向收益，可保留为有限静态采用候选；正常距离提升很小，不应称为明显眼神升级。最终采用仍须结合正常模式及眨眼表现判断。",
+  "recordChecked": {
+    "file": "eye-surface-study.json",
+    "completed": true,
+    "failed": false,
+    "allInvariantsPassed": true,
+    "saveRestored": true,
+    "expectedImages": 18,
+    "capturedImages": 18,
+    "width": 1440,
+    "height": 900,
+    "allSamplePNGAndConditionFlagsTrue": true,
+    "conditionFlags": [
+      "pngComplete",
+      "transformsMatch",
+      "lightsMatch",
+      "materialsMatch",
+      "assignmentsMatch",
+      "cameraMatch"
+    ]
+  },
+  "observedImages": [
+    "front-baseline.png",
+    "front-neutral-shader.png",
+    "front-contact-only.png",
+    "front-iris-only.png",
+    "front-combined.png",
+    "gameplay-distance-baseline.png",
+    "gameplay-distance-neutral-shader.png",
+    "gameplay-distance-contact-only.png",
+    "gameplay-distance-iris-only.png",
+    "gameplay-distance-combined.png",
+    "three-quarter-baseline.png",
+    "three-quarter-neutral-shader.png",
+    "three-quarter-contact-only.png",
+    "three-quarter-iris-only.png",
+    "three-quarter-combined.png"
+  ],
+  "neutralShaderAssessment": {
+    "visuallyMatchesBaseline": true,
+    "pixelIdenticalEstablished": false,
+    "evidence": "所看三个机位中，neutral-shader与baseline的眼白亮度、虹膜底色及整体光照肉眼匹配，未见明显色偏、发亮或阴影路径改变。此结论为原图视觉判断，没有做像素差分或所有材质变体等价验证。"
+  },
+  "variantAssessments": [
+    {
+      "variant": "contact-only",
+      "front": "眼白上缘出现窄而柔的灰色过渡，较基线均匀白色贴片略有内嵌感。",
+      "threeQuarter": "近侧眼的上缘衔接更明确，眼角仍有淡出，未见变为厚黑描线。",
+      "gameplayDistance": "差异很小，不能称为明显改善正常距离的眼神或表情。",
+      "limits": "只改变开眼表面色调，不能替代真实睑厚、眼窝和眨眼覆盖。"
+    },
+    {
+      "variant": "iris-only",
+      "front": "虹膜边缘及上下色调有轻微层次，较基线整块棕色圆片稍立体；未见新增随机纹理或杂乱高光。",
+      "threeQuarter": "虹膜轮廓略清楚，但幅度小，原有固定视线与凝视感仍在。",
+      "gameplayDistance": "变化难以直接辨认，不能证明单独这一项有高影响视觉收益。"
+    },
+    {
+      "variant": "combined",
+      "front": "保留柔和上缘衔接和轻微虹膜层次，较基线有小幅正向整合；瞳孔及小高光仍清楚。",
+      "threeQuarter": "近侧眼比基线略有深度，没有明显新增眼周暗圈或厚重黑线。",
+      "gameplayDistance": "保持可读，未见明显变黑、眼白丢失或更呆滞；收益仍很细微。",
+      "judgment": "支持有限静态范围保留此组合，但不应通过继续加深暗带来追求远景差异。"
+    }
+  ],
+  "artifactChecks": {
+    "newObviousDarkEyeRingsObserved": false,
+    "clearlyMoreLifelessObserved": false,
+    "fixedGazeSolved": false,
+    "statement": "所看十五张原图没有看到明显新增的皮肤眼周暗圈或更呆滞表现；原本浅眼睑、固定视线和玩偶感仍然存在。"
+  },
+  "limits": [
+    "亲看十五张列出的原图，未查看三个baseline-repeat；记录条件通过不等于本评审独立证明所有画面逐像素稳定。",
+    "gameplay-distance是固定诊断机位，仍为静态姿势，不是正常玩法、动态或FPS证据。",
+    "没有查看新眼材质与character-v15睑几何、半闭/闭眼或新旧眨眼驱动合用的结果。",
+    "没有运行Unity、渲染、浏览器或性能测试，也没有修改游戏源码。",
+    "整体审美目标尚未完成，没有作整体超过参考作品的判断。"
+  ]
+}

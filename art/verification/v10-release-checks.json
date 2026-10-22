@@ -1,0 +1,62 @@
+{
+  "generatedAtUTC": "2026-10-21T02:24:15.254Z",
+  "revision": "v10",
+  "stagingOnly": false,
+  "runtimeAcceptancePassed": true,
+  "releaseReady": true,
+  "status": "Promoted locally. Native/Web QA, scoped real-input motion review, package and HTTP identity checks passed; overall aesthetic objective remains unachieved.",
+  "windowsBuild": "build_6b2f1936c854",
+  "webBuild": "build_c472c4b76e7c",
+  "windowsQA": "art/verification/run-025-v10/runtime-results.json",
+  "webQA": "art/verification/web-011-v10/runtime-results.json",
+  "nativeArtifactIdentity": "art/verification/run-025-v10/build-evidence.json",
+  "webArtifactIdentity": "art/verification/web-011-v10/artifact-identity.json",
+  "gaitVideo": "art/verification/web-v10-gait-video/capture-manifest.json",
+  "gaitReview": "art/verification/web-v10-gait-video/review.json",
+  "gaitArtifactIdentity": "art/verification/web-v10-gait-video/artifact-identity.json",
+  "fixedDiagnostics": [
+    "v10-stone-study/",
+    "v10-foliage-study/",
+    "v10-silhouette-candidate/"
+  ],
+  "performanceScope": "Intel(R) Iris(R) Xe Graphics / 1440×900 原生短样本：菜单 60、总览 60、漫步视角 47.7、近景 60、末段 47.2 FPS。网页各视角 6×500 ms 前台区间指标中位：停步后的漫步视角 35.09、结尾 53.89。这是短时视角样本，不是持续行走平均、全程最低或独立渲染帧计数；录像帧率不作为游戏 FPS，也不据此宣称版本间性能提升。",
+  "worldFbxSHA256": "91C6D643698C414D0582D86AA42EBFAA1E470124DDDD7FAA7852860877806F64",
+  "travelerFbxSHA256": "70069F12265EF5C0B713A94CE2B20F3D305DDE339FC8B2F0487C436091BB4D71",
+  "webPayloadBytes": 49707097,
+  "packageVerification": "art/verification/v10-package-verification.json",
+  "packageVerificationPassed": true,
+  "releaseHTTPVerification": "art/verification/v10-release-http-verification.json",
+  "releaseHTTPVerified": true,
+  "previousStableWebArchivePresent": true,
+  "visualAcceptance": "固定 A/B 中，主石层理和粗糙感更清楚；角色发缘、肩袖和裤腿轮廓有所改善。植被采用通道同步的 Fixed40，20% 法线混合候选未采用。花草与地面衔接、头发和衣料仍有简化，整体视觉超过参考站的目标尚未证实。",
+  "aestheticObjectiveAchieved": false,
+  "packageSHA256": "5D798DEF22906DBEDBAC2053175C1FF2907A7BD53B7C7683D61C214B6F3FEA9D",
+  "packageBytes": 71817451,
+  "nativeCandidateIdentity": [
+    {
+      "name": "BorrowedLight.exe",
+      "candidateSHA256": "EB143EAD6441B6DD9D7D145ADB85410E9389FB3878899AE537E8C9869CCE38FA",
+      "releaseSHA256": "EB143EAD6441B6DD9D7D145ADB85410E9389FB3878899AE537E8C9869CCE38FA"
+    },
+    {
+      "name": "UnityPlayer.dll",
+      "candidateSHA256": "851DA827899734E8B3D56F7E4DBBD58210E58E4DAEF504E6B7472B9EE503914B",
+      "releaseSHA256": "851DA827899734E8B3D56F7E4DBBD58210E58E4DAEF504E6B7472B9EE503914B"
+    },
+    {
+      "name": "BorrowedLight_Data/resources.assets",
+      "candidateSHA256": "23F9B2215B2A07E3F16DB5958FAA65980A0D2BC0BB80B0352AFE96CB90C94BD9",
+      "releaseSHA256": "23F9B2215B2A07E3F16DB5958FAA65980A0D2BC0BB80B0352AFE96CB90C94BD9"
+    },
+    {
+      "name": "BorrowedLight_Data/Managed/Assembly-CSharp.dll",
+      "candidateSHA256": "A0B45AFA3FB31308711763680549C486B9AEF9790BE7715977A792CCB6B63F51",
+      "releaseSHA256": "A0B45AFA3FB31308711763680549C486B9AEF9790BE7715977A792CCB6B63F51"
+    }
+  ],
+  "previousArchivePreserved": true,
+  "visualReviewPageVerification": "art/verification/v10-review-page-verification.json",
+  "visualReviewPageVerified": true,
+  "independentGaitReview": "art/verification/web-v10-gait-video/review-character.json",
+  "finalizedAtUTC": "2026-10-21T02:30:41.788Z"
+}

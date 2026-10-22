@@ -1,0 +1,48 @@
+{
+  "candidate": "web-013-v12",
+  "historicalBaseline": "web-012-v11",
+  "candidateDimensions": [
+    1440,
+    900
+  ],
+  "historicalDimensions": [
+    1440,
+    900
+  ],
+  "candidateViews": [
+    {
+      "view": "menu",
+      "medianIntervalFps": 61.34510716700272,
+      "allSamplesForeground": true
+    },
+    {
+      "view": "ending",
+      "medianIntervalFps": 51.96482832107752,
+      "allSamplesForeground": true
+    },
+    {
+      "view": "walking",
+      "medianIntervalFps": 38.70979943431537,
+      "allSamplesForeground": true
+    }
+  ],
+  "historicalViews": [
+    {
+      "view": "menu",
+      "medianIntervalFps": 30.411324646335657,
+      "allSamplesForeground": true
+    },
+    {
+      "view": "ending",
+      "medianIntervalFps": 30.3252103016859,
+      "allSamplesForeground": true
+    },
+    {
+      "view": "walking",
+      "medianIntervalFps": 21.447535351655592,
+      "allSamplesForeground": true
+    }
+  ],
+  "scope": "Six 500ms foreground Unity GetMetricsInfo interval readings per view. Different session time/host load; no current v11 Web rerun and no isolated texture A/B. Browser video capture was not running.",
+  "conclusion": "Current v12 passed actual keyboard completion and reload; walking median38.7098, ending51.9648 FPS. Historical v11 walking21.4475 is context only and does not establish a version speedup. Engine diagnostics remain in runtime-results/browser-console."
+}

@@ -1,0 +1,100 @@
+{
+  "fbx": {
+    "passed": true,
+    "errors": [],
+    "sha256": "e4ef4bafc25f56ab5bb6ef9c8f645d04628c2a550fe0d91e8e6f04e3d9fcf879",
+    "triangles": 53956,
+    "mesh_renderers": 62,
+    "bounds_blender": {
+      "min": [
+        -0.27047303318977356,
+        -0.1420000046491623,
+        0.003128967247903347
+      ],
+      "max": [
+        0.4797952175140381,
+        0.2484683394432068,
+        1.304983139038086
+      ]
+    },
+    "verified_pivots": [
+      "Arm_L",
+      "Arm_R",
+      "Blink_L",
+      "Blink_R",
+      "Body",
+      "Head",
+      "Lantern",
+      "Leg_L",
+      "Leg_R",
+      "ScarfTail",
+      "TravelerRoot"
+    ],
+    "maximum_pivot_error_m": 1.862645149230957e-07,
+    "nonfinite_vertices": 0,
+    "invalid_vertex_normals": 0,
+    "degenerate_triangles": 0,
+    "authored_front_mean_normal_y": -0.8795955095972333,
+    "blink_validation": {
+      "Blink_L": {
+        "open_width_m": 6.256252527236938e-05,
+        "open_height_m": 4.1484832763671875e-05,
+        "closed_height_m": 0.04139995574951172
+      },
+      "Blink_R": {
+        "open_width_m": 6.256252527236938e-05,
+        "open_height_m": 4.1484832763671875e-05,
+        "closed_height_m": 0.04139995574951172
+      }
+    }
+  },
+  "glb": {
+    "passed": true,
+    "errors": [],
+    "sha256": "c2ce004bde58b416ba9eb2625d2bc192e56a2f37837b2ff9c97e192d90311cfc",
+    "triangles": 53956,
+    "mesh_renderers": 62,
+    "bounds_blender": {
+      "min": [
+        -0.27047303318977356,
+        -0.1420000046491623,
+        0.00312894769012928
+      ],
+      "max": [
+        0.4797952175140381,
+        0.24846817553043365,
+        1.304983139038086
+      ]
+    },
+    "verified_pivots": [
+      "Arm_L",
+      "Arm_R",
+      "Blink_L",
+      "Blink_R",
+      "Body",
+      "Head",
+      "Lantern",
+      "Leg_L",
+      "Leg_R",
+      "ScarfTail",
+      "TravelerRoot"
+    ],
+    "maximum_pivot_error_m": 0,
+    "nonfinite_vertices": 0,
+    "invalid_vertex_normals": 0,
+    "degenerate_triangles": 0,
+    "authored_front_mean_normal_y": -0.8795944268386515,
+    "blink_validation": {
+      "Blink_L": {
+        "open_width_m": 6.256252527236938e-05,
+        "open_height_m": 4.1484832763671875e-05,
+        "closed_height_m": 0.04139995574951172
+      },
+      "Blink_R": {
+        "open_width_m": 6.256252527236938e-05,
+        "open_height_m": 4.1484832763671875e-05,
+        "closed_height_m": 0.04139995574951172
+      }
+    }
+  }
+}

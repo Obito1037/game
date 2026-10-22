@@ -1,0 +1,30 @@
+{
+  "reviewed": true,
+  "accepted": true,
+  "scope": "Adopt the two plant meshes for integrated gameplay tests, based on six original fixed-camera PNGs reviewed by the root agent. This is not final release acceptance.",
+  "summary": "同机位原图中，紫花由等大的尖柱串变为交错渐小的花冠，蕨叶由黑色硬菱片变为弧形展开的羽叶；完整路径画面也能看到这两处改善。岩脚机位的非目标区域未见明显新增异常。采用此形态进入正常游戏回归。",
+  "reviewedImages": [
+    "../v11-plants-baseline/path-fixed40.png",
+    "path-fixed40.png",
+    "../v11-plants-baseline/lamp-fixed40.png",
+    "lamp-fixed40.png",
+    "../v11-plants-baseline/roots-fixed40.png",
+    "roots-fixed40.png"
+  ],
+  "windowsBuild": "build_45ae373ba8b1",
+  "worldFbxSHA256": "AFC45E86B5186BEB2668CFBBBA66A46352EE2D3E1E58A96FB7638BEA4490BDAD",
+  "trianglesBefore": 412815,
+  "trianglesAfter": 510293,
+  "lightsAndCameraMatch": true,
+  "unchangedNonTargetImportedMeshes": 27,
+  "unchangedAnchors": 14,
+  "limits": [
+    "新花穗更细，远处紫色块面的存在感减弱；本轮选择自然花枝轮廓。",
+    "近景叶片仍有简化，短草的均匀针状分布及地面层次尚未改善。",
+    "场景增加97478个三角面；静态图不能证明其运行成本，另做正常游戏检查。",
+    "三组固定夜景不覆盖全部机位、动态风摆、所有遮挡和光照。",
+    "冻结时间不能冻结全部渲染随机项，不声称逐像素一致。",
+    "整体视觉超过参考网站的目标仍未达到。"
+  ],
+  "aestheticObjectiveAchieved": false
+}

@@ -1,0 +1,34 @@
+[
+  {
+    "pair": [
+      0,
+      1
+    ],
+    "region": [
+      675,
+      245,
+      105,
+      97
+    ],
+    "meanAbsoluteRGBDifference": 9.62068401243659,
+    "maxChannelDifference": 47,
+    "changedPixels": 9401,
+    "pixelCount": 10185
+  },
+  {
+    "pair": [
+      0,
+      2
+    ],
+    "region": [
+      675,
+      245,
+      105,
+      97
+    ],
+    "meanAbsoluteRGBDifference": 0.6847979054164621,
+    "maxChannelDifference": 36,
+    "changedPixels": 5879,
+    "pixelCount": 10185
+  }
+]

@@ -1,0 +1,116 @@
+{
+  "project": "Borrowed Light / 借光岛",
+  "objective": "制作基于 Blender 的高质量可玩游戏，参考 littleprince.dev；完整验收目标是整体视觉体验比参考站更惊艳。目前此审美目标尚未达成。",
+  "reference": {
+    "url": "https://littleprince.dev/",
+    "authorPost": "https://x.com/Saccc_c/status/2110694725640474759",
+    "originalArticle": "https://x.com/i/article/2110601994578866176",
+    "captureMethod": "Isolated Edge session, 1440x900, actual entry / chapter menu / chapter-one gameplay",
+    "screenshots": [
+      "reference/littleprince-entry.png",
+      "reference/littleprince-started.png",
+      "reference/littleprince-gameplay.png"
+    ],
+    "sourceAssetReuse": false
+  },
+  "authoring": {
+    "scene": "generated/world-v7/island.blend",
+    "sceneScript": "blender/build_island_v7.py",
+    "character": "generated/character-v7/traveler.blend",
+    "characterScript": "blender/build_traveler_v7.py",
+    "audioScript": "blender/build_audio.py",
+    "engine": "Unity 6000.3.26f1 / URP",
+    "primaryScene": "GameProject/Assets/BorrowedLight/Scenes/BorrowedLight.unity"
+  },
+  "resources": [
+    {
+      "name": "Island and traveler models",
+      "source": "Locally authored Blender Python geometry",
+      "type": "original AI-assisted production"
+    },
+    {
+      "name": "Meadow watercolor texture",
+      "source": "Local Blender production",
+      "type": "original AI-assisted production"
+    },
+    {
+      "name": "Night Letters score and lantern chime",
+      "source": "Original additive synthesis; no sampled recordings",
+      "type": "original AI-assisted production"
+    },
+    {
+      "name": "Watercolor nebula sky",
+      "source": "Built-in image_gen; prompt, SHA256 and provenance in generated/sky/manifest.json",
+      "type": "original AI-generated bitmap"
+    },
+    {
+      "name": "Weathered wood, mossy stone, plaster and tiles",
+      "source": "Original world-coordinate procedural PBR shader, using official URP lighting",
+      "type": "original AI-assisted production"
+    },
+    {
+      "name": "Noto Serif CJK SC",
+      "source": "https://github.com/notofonts/noto-cjk",
+      "license": "SIL Open Font License 1.1",
+      "licenseFile": "GameProject/Assets/BorrowedLight/Resources/Fonts/LICENSE.txt",
+      "modification": "Renamed subset: BorrowedLight Story Serif; 247920 bytes; canonical full source retained; tools/font-subset/build_subset.py; OFL and SUBSET-NOTICE included."
+    }
+  ],
+  "verification": {
+    "blenderInterchange": "generated/world-v7/interchange-verification.json: BLEND/FBX/GLB passed; 412815 triangles, 29 meshes, 14 unchanged anchors. All 28 non-Hero mesh fingerprints and ground texture bytes match frozen v6; only the four Hero boulders changed. No projected footprint expansion within the recorded tolerance; five plant groups have zero tested intersections. The actual obstacle geometry changed and was tested in Player.",
+    "characterRoundTrip": "generated/character-v7/: only Sleeve_L/R coordinates and derived normals changed. Reopened BLEND preservation confirms 60 other meshes, rigs, pivots, weights, UVs, colors and materials unchanged. Neutral/bent FBX/GLB, colors, blink coverage and 144 ideal-ground sole-pose checks passed. 75862 triangles, 62 renderers including 28 skinned, 4 armatures/12 bones; actual runtime terrain evidence remains separate.",
+    "purePuzzleRules": "independently checked by gameplay implementation agent",
+    "windowsRuntime": "verification/run-022-v8/runtime-results.json: all functional checks passed; movement 2.286m, 220 actual deformed idle-sole samples, minimum clearance .001413m. boulder-approaches.json: all 16 cardinal approaches begin clear and are blocked before the boulder centre; actual Hero surface kinds [7,7]. Iris Xe 1440x900 short samples: menu60, overview60, walking-view53.4, portrait59.9, final52.5 FPS. Not sustained movement averages, minima, guarantees or an isolated performance gain.",
+    "webRuntime": "verification/web-008-v8/runtime-results.json: real-keyboard completion, reload persistence, exploration, ending return and default audio/context-resume checks passed; browser errors=[]. Six foreground samples per view over about3.1s: interval medians ending45.9444, stopped walking-view34.0777. This view is sampled after W release, not during continuous walking. Raw menu median70.0016 exceeds configured target60; retained as an API reading, not a confirmed rendered-frame rate. No independent rendered-frame counter this round. Used WASM151892784/268435456 bytes at one instant. Hidden-shader, INVALID_ENUM and sound-loading engine diagnostics remain. Actual request URLs and subsequent HTTP-byte identity checks are in artifact-identity.json.",
+    "finalVisualComparison": "verification/visual-review.html: original v8 native/Web captures, v7 and reference comparisons, frozen portrait-light A/B and v8 observatory video. Sleeves lose repeated constriction rings; broad boulder planes are more readable. The rocks have more block-like outlines and soft low rims; face, cloth and terrain naturalness remain behind the reference. Overall aesthetic objective remains unachieved.",
+    "shaderChecks": "verification/v8-integration-checks.json: Island and Traveler normals imported; PaintedSurface compiles without shader messages. Only the two Hero materials use kind7 with broad relief0 and mineral relief.0015; actual runtime kinds [7,7]. Skin/cloth and ordinary stone branches retain prior values. Portrait .23/.16/.23 A/B retained .23. Player log confirms25 static-batched renderers and1 starfield renderer. v7 starfield geometry/GPU evidence is historical; no new v8 GPU profile is claimed.",
+    "browserGait": "verification/web-v8-observatory-video/: screenshot-free default-camera actual W4248ms, then stop; completed=true/errors=[]. Reviewed video frames show ascent and both shoes on the upper platform before the instrument, without visible sleeve/arm or trouser/boot separation in this rear-view route. Fine folds are too small here and use native close-up evidence instead. 13.28s time-cut contains byte-identical332 VP8 packets from original30.720-44.000s. Limited route/pose coverage, not a performance measurement. Both sessions requested the four resources subsequently verified against the unchanged candidate files."
+  },
+  "buildIds": {
+    "web": "build_6a2cf444c9a6",
+    "windows": "build_95baec27b2f5"
+  },
+  "disclosure": "../AI-使用与素材来源.zh-CN.txt",
+  "geometry": {
+    "travelerFbxSHA256": "CC87EA03F46CA44CB83F082A8B529E1D93EF118E22BE1D0B7C93ECB9B8094C0D",
+    "travelerTriangles": 75862,
+    "travelerSkinnedMeshes": 28,
+    "worldFbxSHA256": "91C6D643698C414D0582D86AA42EBFAA1E470124DDDD7FAA7852860877806F64",
+    "islandTriangles": 412815
+  },
+  "themeSources": "reference/dark-sky-theme-sources.zh-CN.txt",
+  "revision": "v8",
+  "webPayload": {
+    "bytes": 48736381,
+    "files": [
+      {
+        "name": "1ccb9895fb1e7261fe8984b890c550f3.loader.js",
+        "bytes": 26983,
+        "sha256": "70A97FA0B5AA93028EA7DF9157A7EA12E40875BEB58A5C9787FD40980F4A3CD7"
+      },
+      {
+        "name": "6d036cbf014d12ee2b524333ea2aba14.data.gz",
+        "bytes": 37047979,
+        "sha256": "CA2163B7E7FF718F3C6DD5950782E382AF669368E66FB77E18CDACCD874ECE94"
+      },
+      {
+        "name": "7f75960fd79adf90d0e4f785be29520d.framework.js.gz",
+        "bytes": 88481,
+        "sha256": "925BF1669FE21122791E554192EAFC7B5FC9FED74DC2022BF530BE0094BF4912"
+      },
+      {
+        "name": "96630087373a878d6b80097af1c6ab89.wasm.gz",
+        "bytes": 11572938,
+        "sha256": "62525DAA68BDA9B257C5BB81192264608770FD0529FE8AA1963362E00209D505"
+      }
+    ]
+  },
+  "delivery": {
+    "package": "../builds/BorrowedLight-Windows.zip",
+    "packageVerification": "verification/v8-package-verification.json",
+    "previousStableWindowsArchive": "../builds/archive/BorrowedLight-v7-Windows.zip",
+    "previousStableWebArchive": "../builds/archive/BorrowedLight-v7-Web/",
+    "releaseHTTPVerification": "verification/v8-release-http-verification.json"
+  },
+  "aestheticObjectiveAchieved": false
+}

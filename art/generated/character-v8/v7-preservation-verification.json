@@ -1,0 +1,288 @@
+{
+  "passed": true,
+  "source_sha256": "a1dabf6fe7d6b86c633d329f9f14f91669464f2555cc0675ce4a3ab3d2c25c77",
+  "protected_meshes": [
+    {
+      "mesh": "Arm_L_Cape_SeaMistBinding",
+      "sha256": "edc755554b354c13fc54721d06974f77e58c7cd3c8c90969181416300f53a96f",
+      "exact_match": true
+    },
+    {
+      "mesh": "Arm_L_Face_Fingernails",
+      "sha256": "2c699e6bc41b88cde804ea785e7d88137d985491c6de8d38e0c4a5e81f779af0",
+      "exact_match": true
+    },
+    {
+      "mesh": "Arm_L_Face_NoseCream",
+      "sha256": "24d0fe61c158f770d08846aefb0880022dbfe552dec0bcd6bc7d45427b466649",
+      "exact_match": true
+    },
+    {
+      "mesh": "Arm_L_Face_PorcelainCream",
+      "sha256": "713a7cd4ebb0adc884454af6671b389216a64597fced152185e21c8a57f2dd66",
+      "exact_match": true
+    },
+    {
+      "mesh": "Arm_L_Face_RoseCheeks",
+      "sha256": "aa2c27c86a8b3e0117fbd13b396eaf427c6bbacbf447910e4ed8dedb69cb766d",
+      "exact_match": true
+    },
+    {
+      "mesh": "Arm_L_Gloves_OatKnit",
+      "sha256": "c4c1b4aeee9905c64c7df5103d2deebfc053a63f4d14a2ba332952c7bec584eb",
+      "exact_match": true
+    },
+    {
+      "mesh": "Arm_L_Stitches_PaleFlax",
+      "sha256": "e4ef32587523d04386d21a31393be29576a4b4c27792b570cdaa60e03d50b8a5",
+      "exact_match": true
+    },
+    {
+      "mesh": "Sleeve_L",
+      "sha256": "b4595b8e16a20faafd2f12b9b65540cd96cd84d2cb0e093fd41d1a5cec50b70c",
+      "exact_match": true
+    },
+    {
+      "mesh": "Arm_R_Cape_SeaMistBinding",
+      "sha256": "b46dc26ccd9543738a3bf72e7d696c6e83e4ac124140eb8e031c450d28491844",
+      "exact_match": true
+    },
+    {
+      "mesh": "Arm_R_Face_Fingernails",
+      "sha256": "5090f552df6dff6256e74ef876f4b5922ae3c3134b7bbbf3fa99ce808819d44a",
+      "exact_match": true
+    },
+    {
+      "mesh": "Arm_R_Face_NoseCream",
+      "sha256": "d2a02c8a9eb0ef16f080b685687c004b260be95dc23c912d288f9776e2f862e1",
+      "exact_match": true
+    },
+    {
+      "mesh": "Arm_R_Face_PorcelainCream",
+      "sha256": "14e499c2cee0d0d06f48133020e902a7dafe2b93dc2796c547535789dfe489b8",
+      "exact_match": true
+    },
+    {
+      "mesh": "Arm_R_Face_RoseCheeks",
+      "sha256": "95fb08f0417545d465fc93356abc2cacfab31b1cb50e08c19a3b6a8a0656d6c0",
+      "exact_match": true
+    },
+    {
+      "mesh": "Arm_R_Gloves_OatKnit",
+      "sha256": "f453a00934c92b6bb5e9d2c87c21d3517679d64283e482746fbb3e4ab5fef0ce",
+      "exact_match": true
+    },
+    {
+      "mesh": "Arm_R_Stitches_PaleFlax",
+      "sha256": "4b0167b97c8f8c9f40efa09d2fc6abdf36789c158e49e0f0edc5cf27ddbdc69c",
+      "exact_match": true
+    },
+    {
+      "mesh": "Lantern_Heart",
+      "sha256": "e03cc595ec2729e4734882c0d83aad2a809f2b69d691c63d94be7b090d71c118",
+      "exact_match": true
+    },
+    {
+      "mesh": "Lantern_Lantern_BrushedBrass",
+      "sha256": "5f52b72e250284517df316c0d1c76d923f654fb105b358525347d2cd39be8995",
+      "exact_match": true
+    },
+    {
+      "mesh": "Lantern_Lantern_GoldEdges",
+      "sha256": "2297b2b83f09de461ab173a12ef9943433d5de847a48528b6aeb45fa9074f093",
+      "exact_match": true
+    },
+    {
+      "mesh": "Lantern_OpalGlass",
+      "sha256": "aadbe1c87a7d7f889b19a33b541ad8e402d883d2122415feb7bbd1b5e4a223cf",
+      "exact_match": true
+    },
+    {
+      "mesh": "Sleeve_R",
+      "sha256": "31a584b0a3e7cc45e289c9881aed78845c547674643da626b983700194920999",
+      "exact_match": true
+    },
+    {
+      "mesh": "Body_Boots_HoneyLeather",
+      "sha256": "46e14f5a9c57dc9681f83201b1dcbd75638247ae6e77511b352320a952cc73ac",
+      "exact_match": true
+    },
+    {
+      "mesh": "Body_Cape_DeepOceanLining",
+      "sha256": "cbdaba775abd28d10f05ceab5bc8fc219b510a32b7b4b7f9844b9876acd6241e",
+      "exact_match": true
+    },
+    {
+      "mesh": "Body_Cape_SeaMistBinding",
+      "sha256": "37995a8416ad90ee7c04ee1fc1a78b69396144ec3f76990a01ae4302f2643a73",
+      "exact_match": true
+    },
+    {
+      "mesh": "Body_Hood_DuskBlue",
+      "sha256": "133a83e1455ef76f6fb04b9efe377123eb965b2f79e959a9e4620daaab955696",
+      "exact_match": true
+    },
+    {
+      "mesh": "Body_Lantern_GoldEdges",
+      "sha256": "9302e86aebe48bde5aedf3c94f1eff101aa58a718c9b24bc40cf0883ccecc705",
+      "exact_match": true
+    },
+    {
+      "mesh": "Body_Scarf_EdgeHoney",
+      "sha256": "a88525a0e1dc5d8fe9c59c246b443f9e2516d671fe4fc0930af63173127bb906",
+      "exact_match": true
+    },
+    {
+      "mesh": "Body_Stitches_PaleFlax",
+      "sha256": "81ea5b03fa8e19ecf5c3650c8b9c9b80708e186703644a6891c6467458394d3d",
+      "exact_match": true
+    },
+    {
+      "mesh": "Brooch_AmberStone",
+      "sha256": "ccfb088f5c476ff267b92d08f688220f26b9d7ff41036ec10d762d302e2c702a",
+      "exact_match": true
+    },
+    {
+      "mesh": "Cloak_Outer",
+      "sha256": "12855a084116da0edcc649cd78c76982348ed4142fa3c4a86cd266c66bdd62b0",
+      "exact_match": true
+    },
+    {
+      "mesh": "Satchel_Body",
+      "sha256": "6bcc2fec3bfcb1ae4f73bdd3afa561a1cfc0e5226c7213eab74ea9322fa20e94",
+      "exact_match": true
+    },
+    {
+      "mesh": "Satchel_Clasp",
+      "sha256": "d1cb7eb49f8794bfe1cafe1eb09b0dfa097fbb1d8435217a41973c07426c5030",
+      "exact_match": true
+    },
+    {
+      "mesh": "Scarf_Collar",
+      "sha256": "082e6c154841637a9b24ff0e8c2250c49fb7e36e432c9905c538a223ebc49ed7",
+      "exact_match": true
+    },
+    {
+      "mesh": "TailoredTunic",
+      "sha256": "da843ebac74773770eb565ce3b20317064bc481bf822c68a1178dd5818c1c2ab",
+      "exact_match": true
+    },
+    {
+      "mesh": "Head_Hair_MidnightBlue",
+      "sha256": "e366a9eb87a471da485f5cbdc1677ff26e303c0ebd11f20bae5b54d6ed28e526",
+      "exact_match": true
+    },
+    {
+      "mesh": "BootSole_L",
+      "sha256": "b843ab045c6f497246265589b83fa3e4ec9e1c87cb2b13ac8b1a65b129cbf632",
+      "exact_match": true
+    },
+    {
+      "mesh": "BootUpper_L",
+      "sha256": "6eb78bbb68da79e34a08e08e3c58a2a43fd4f7ee1fe50e2e545b7e6a48809a42",
+      "exact_match": true
+    },
+    {
+      "mesh": "Leg_L_Boots_HoneyLeather",
+      "sha256": "b1d5ee4846ab82a898399c0edc7018b714874471813a2cc8039747abea983e67",
+      "exact_match": true
+    },
+    {
+      "mesh": "Leg_L_Hood_DuskBlue",
+      "sha256": "e648e43f34d1b160c3904774f345e96c1b8e5d6af477a762f57e7e6f75a82732",
+      "exact_match": true
+    },
+    {
+      "mesh": "Leg_L_Lantern_BrushedBrass",
+      "sha256": "f1b368bb35f21c7843ef7b6e7d9fcccc23a410513e12d4eff1d5909bc2720217",
+      "exact_match": true
+    },
+    {
+      "mesh": "Trouser_L",
+      "sha256": "150027e49033a6b22d814a8b7e33c56b4c8f44e2e284b253d7e8635c4f2a8a7b",
+      "exact_match": true
+    },
+    {
+      "mesh": "BootSole_R",
+      "sha256": "d3385084b9a7612b2dde7248690780872b105c8ac20a2436a8a65aa3b437187e",
+      "exact_match": true
+    },
+    {
+      "mesh": "BootUpper_R",
+      "sha256": "7279fe3fe91e081b3c95efde29f24b6f26f5f688552377c1284975d63daecf0c",
+      "exact_match": true
+    },
+    {
+      "mesh": "Leg_R_Boots_HoneyLeather",
+      "sha256": "c5f3a13f734935809d486edde961574bfde5fab4458d3b935d282e337dbbf1b3",
+      "exact_match": true
+    },
+    {
+      "mesh": "Leg_R_Hood_DuskBlue",
+      "sha256": "d2f1b3cbb262eb2455bf9374490416bbe1655ffe1b4221581cb3bba58b8aa9fe",
+      "exact_match": true
+    },
+    {
+      "mesh": "Leg_R_Lantern_BrushedBrass",
+      "sha256": "123fd00c4511c9b11131c91a5b0716c941784cda09eda86c710d0f91bab24ad2",
+      "exact_match": true
+    },
+    {
+      "mesh": "Trouser_R",
+      "sha256": "e4e4c5b1518c14275cd64289e9c2ec2e9e2ad76159bb41accd3d993fd11608c9",
+      "exact_match": true
+    },
+    {
+      "mesh": "ScarfTail_Scarf_EdgeHoney",
+      "sha256": "fc6490c687b912df7a0fd08b57469f9b8b9ac3912551edef663790875207308b",
+      "exact_match": true
+    },
+    {
+      "mesh": "ScarfTail_Scarf_HarvestGold",
+      "sha256": "1c75994b6b415422723b6c9bec071822baf096b2b78a7117b09d0b06f6ce3c9b",
+      "exact_match": true
+    }
+  ],
+  "protected_count": 48,
+  "targets": [
+    "Blink_L_ClosedLash",
+    "Blink_L_LidCover",
+    "Blink_R_ClosedLash",
+    "Blink_R_LidCover",
+    "Head_Eye_AmberRim",
+    "Head_Eye_Catchlight",
+    "Head_Eye_Chestnut",
+    "Head_Eye_Ivory",
+    "Head_Eye_Pupil",
+    "Head_Face_NoseCream",
+    "Head_Face_PorcelainCream",
+    "Head_Face_RoseCheeks",
+    "Head_Hair_Indigo",
+    "QuietSmile"
+  ],
+  "object_bone_pivot_exact_match": true,
+  "object_contract_sha256": "1bc62dfd0fea90af993ed4f211bfb66b98c0111d5d94fe253683c7fede0496fb",
+  "modified_materials": {
+    "Traveler_Eye_Ivory": [
+      0.7,
+      0.695,
+      0.63,
+      1
+    ],
+    "Traveler_Eye_AmberRim": [
+      0.245,
+      0.145,
+      0.076,
+      1
+    ],
+    "Traveler_Eye_Chestnut": [
+      0.21,
+      0.112,
+      0.058,
+      1
+    ]
+  },
+  "triangles": 77132,
+  "mesh_renderers": 62,
+  "scope": "Only listed head/eye/blink meshes and 3 eye material bases may change. All non-target mesh channels, skinning/attachments, other material graphs and object/bone/pivot transforms are exact v7 data."
+}

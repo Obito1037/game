@@ -1,0 +1,27 @@
+{
+  "revision": "v7",
+  "path": "builds/archive/BorrowedLight-v7-Web",
+  "allMatch": true,
+  "files": [
+    {
+      "name": "1ed005219b5b262e3309104f967ff981.loader.js",
+      "sha256": "FF066CAAD4C087C9B2CD0CC45241897EAF6D1A5C6F464F0F3B9B6D78EE08D952",
+      "matches": true
+    },
+    {
+      "name": "7f75960fd79adf90d0e4f785be29520d.framework.js.gz",
+      "sha256": "9F613BB87E78F6ED9AF11574A7AC60F0A68A3C79803D6170CEE72C25363553B4",
+      "matches": true
+    },
+    {
+      "name": "fc6c868bef94f83e6e3a5e3e16e77a6e.data.gz",
+      "sha256": "9D3280058CE6471AE3141D4E848E58A8C49E9B6471A2C32AAA8A2D054E4A4863",
+      "matches": true
+    },
+    {
+      "name": "ff0a1f4de67d7c5203b7c8b90e5b8792.wasm.gz",
+      "sha256": "800018423D4C1F0145B34303ECDA4CD1522E30E212028CF06C53997391905FAE",
+      "matches": true
+    }
+  ]
+}

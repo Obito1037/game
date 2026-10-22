@@ -1,0 +1,3664 @@
+{
+    "purpose": "Tree geometry fixed-camera current/repeat study at five views. Original materials/keywords, ground detail .35, character and lights retained; frozen bind pose/time. NOT normal gameplay, animation acceptance or FPS evidence; temporal AO may differ.",
+    "materialFamily": "tree-geometry",
+    "textureName": "",
+    "textureFormat": "",
+    "width": 1440,
+    "height": 900,
+    "textureWidth": 0,
+    "textureHeight": 0,
+    "frozenTime": 0.0,
+    "night": 1.0,
+    "textureScale": 0.0,
+    "allInvariantsPassed": true,
+    "materialNames": [
+        "BI_leaf — story light",
+        "BI_leaf_light — story light",
+        "BI_leaf_gold — story light",
+        "BI_leaf_dark — story light",
+        "BI_leaf_blue — story light",
+        "BI_wood — story light",
+        "BI_wood_light — story light"
+    ],
+    "lights": [
+        {
+            "name": "Someone is still awake",
+            "type": "Point",
+            "position": {
+                "x": -4.099999904632568,
+                "y": 2.299999952316284,
+                "z": 2.5999999046325685
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "color": {
+                "r": 1.0,
+                "g": 0.7200000286102295,
+                "b": 0.4000000059604645,
+                "a": 1.0
+            },
+            "intensity": 1.25,
+            "range": 4.5
+        },
+        {
+            "name": "Warmth from lamp 0",
+            "type": "Point",
+            "position": {
+                "x": -4.5,
+                "y": 2.049999952316284,
+                "z": -2.0
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "color": {
+                "r": 1.0,
+                "g": 0.6600000262260437,
+                "b": 0.28999999165534975,
+                "a": 1.0
+            },
+            "intensity": 2.0999999046325685,
+            "range": 5.0
+        },
+        {
+            "name": "The light of the moon",
+            "type": "Directional",
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.3104998767375946,
+                "y": -0.28432294726371767,
+                "z": 0.09790023416280747,
+                "w": 0.9017571210861206
+            },
+            "color": {
+                "r": 0.7730000019073486,
+                "g": 0.8159999847412109,
+                "b": 0.8669999837875366,
+                "a": 1.0
+            },
+            "intensity": 0.6200000047683716,
+            "range": 5.0
+        },
+        {
+            "name": "A place that needs light 0",
+            "type": "Point",
+            "position": {
+                "x": -1.7999999523162842,
+                "y": 0.6800000071525574,
+                "z": -3.200000047683716
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "color": {
+                "r": 1.0,
+                "g": 0.7099999785423279,
+                "b": 0.38999998569488528,
+                "a": 1.0
+            },
+            "intensity": 1.600000023841858,
+            "range": 3.5
+        },
+        {
+            "name": "Warmth from lamp 1",
+            "type": "Point",
+            "position": {
+                "x": 1.7999999523162842,
+                "y": 2.049999952316284,
+                "z": 3.4000000953674318
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "color": {
+                "r": 1.0,
+                "g": 0.6600000262260437,
+                "b": 0.28999999165534975,
+                "a": 1.0
+            },
+            "intensity": 2.0999999046325685,
+            "range": 5.0
+        },
+        {
+            "name": "A soft reflection on the traveler",
+            "type": "Point",
+            "position": {
+                "x": 0.0,
+                "y": 1.350000023841858,
+                "z": -2.75
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "color": {
+                "r": 1.0,
+                "g": 0.8799999952316284,
+                "b": 0.7400000095367432,
+                "a": 1.0
+            },
+            "intensity": 0.23000000417232514,
+            "range": 1.100000023841858
+        },
+        {
+            "name": "Blue hour",
+            "type": "Directional",
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.07301944494247437,
+                "y": 0.9069052934646606,
+                "z": -0.1762845367193222,
+                "w": 0.3756524622440338
+            },
+            "color": {
+                "r": 0.3199999928474426,
+                "g": 0.5699999928474426,
+                "b": 0.8500000238418579,
+                "a": 1.0
+            },
+            "intensity": 0.3499999940395355,
+            "range": 5.0
+        },
+        {
+            "name": "The warmth of remembered stories",
+            "type": "Directional",
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.1884319931268692,
+                "y": 0.4133830666542053,
+                "z": -0.08786728233098984,
+                "w": 0.8865028023719788
+            },
+            "color": {
+                "r": 1.0,
+                "g": 0.878000020980835,
+                "b": 0.7409999966621399,
+                "a": 1.0
+            },
+            "intensity": 0.18000000715255738,
+            "range": 5.0
+        },
+        {
+            "name": "A place that needs light 1",
+            "type": "Point",
+            "position": {
+                "x": -5.800000190734863,
+                "y": 0.7000000476837158,
+                "z": 0.15000000596046449
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "color": {
+                "r": 1.0,
+                "g": 0.7099999785423279,
+                "b": 0.38999998569488528,
+                "a": 1.0
+            },
+            "intensity": 1.600000023841858,
+            "range": 3.5
+        },
+        {
+            "name": "A place that needs light 3",
+            "type": "Point",
+            "position": {
+                "x": 6.900000095367432,
+                "y": 0.7200000286102295,
+                "z": -3.3499999046325685
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "color": {
+                "r": 1.0,
+                "g": 0.7099999785423279,
+                "b": 0.38999998569488528,
+                "a": 1.0
+            },
+            "intensity": 1.600000023841858,
+            "range": 3.5
+        },
+        {
+            "name": "A place that needs light 2",
+            "type": "Point",
+            "position": {
+                "x": -4.099999904632568,
+                "y": 2.200000047683716,
+                "z": 3.049999952316284
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "color": {
+                "r": 1.0,
+                "g": 0.7099999785423279,
+                "b": 0.38999998569488528,
+                "a": 1.0
+            },
+            "intensity": 1.600000023841858,
+            "range": 2.5
+        },
+        {
+            "name": "The light we carry",
+            "type": "Point",
+            "position": {
+                "x": -0.2401200532913208,
+                "y": 0.7440321445465088,
+                "z": -3.240600109100342
+            },
+            "rotation": {
+                "x": 0.70710688829422,
+                "y": -5.2683560625155226e-8,
+                "z": 1.053671638828746e-8,
+                "w": -0.7071066498756409
+            },
+            "color": {
+                "r": 1.0,
+                "g": 0.699999988079071,
+                "b": 0.38999998569488528,
+                "a": 1.0
+            },
+            "intensity": 0.5199999809265137,
+            "range": 2.200000047683716
+        },
+        {
+            "name": "Warmth from lamp 2",
+            "type": "Point",
+            "position": {
+                "x": 4.699999809265137,
+                "y": 2.049999952316284,
+                "z": -2.4000000953674318
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "color": {
+                "r": 1.0,
+                "g": 0.6600000262260437,
+                "b": 0.28999999165534975,
+                "a": 1.0
+            },
+            "intensity": 2.0999999046325685,
+            "range": 5.0
+        }
+    ],
+    "views": [
+        {
+            "image": "path-current.png",
+            "variant": "current",
+            "cameraPosition": {
+                "x": 0.0,
+                "y": 1.899999976158142,
+                "z": -8.100000381469727
+            },
+            "cameraRotation": {
+                "x": 0.12218326330184937,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 0.9925075769424439
+            },
+            "fieldOfView": 48.0,
+            "transformsAndLightsUnchanged": true,
+            "lookTarget": {
+                "x": 0.0,
+                "y": 0.699999988079071,
+                "z": -3.299999952316284
+            },
+            "actualPNGWidth": 1440,
+            "actualPNGHeight": 900,
+            "materialsUnchanged": true
+        },
+        {
+            "image": "path-repeat.png",
+            "variant": "repeat",
+            "cameraPosition": {
+                "x": 0.0,
+                "y": 1.899999976158142,
+                "z": -8.100000381469727
+            },
+            "cameraRotation": {
+                "x": 0.12218326330184937,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 0.9925075769424439
+            },
+            "fieldOfView": 48.0,
+            "transformsAndLightsUnchanged": true,
+            "lookTarget": {
+                "x": 0.0,
+                "y": 0.699999988079071,
+                "z": -3.299999952316284
+            },
+            "actualPNGWidth": 1440,
+            "actualPNGHeight": 900,
+            "materialsUnchanged": true
+        },
+        {
+            "image": "island-current.png",
+            "variant": "current",
+            "cameraPosition": {
+                "x": 21.0,
+                "y": 17.0,
+                "z": -26.0
+            },
+            "cameraRotation": {
+                "x": 0.20684106647968293,
+                "y": -0.3454877436161041,
+                "z": 0.07835778594017029,
+                "w": 0.9119841456413269
+            },
+            "fieldOfView": 36.0,
+            "transformsAndLightsUnchanged": true,
+            "lookTarget": {
+                "x": -2.0,
+                "y": 0.4000000059604645,
+                "z": 0.0
+            },
+            "actualPNGWidth": 1440,
+            "actualPNGHeight": 900,
+            "materialsUnchanged": true
+        },
+        {
+            "image": "island-repeat.png",
+            "variant": "repeat",
+            "cameraPosition": {
+                "x": 21.0,
+                "y": 17.0,
+                "z": -26.0
+            },
+            "cameraRotation": {
+                "x": 0.20684106647968293,
+                "y": -0.3454877436161041,
+                "z": 0.07835778594017029,
+                "w": 0.9119841456413269
+            },
+            "fieldOfView": 36.0,
+            "transformsAndLightsUnchanged": true,
+            "lookTarget": {
+                "x": -2.0,
+                "y": 0.4000000059604645,
+                "z": 0.0
+            },
+            "actualPNGWidth": 1440,
+            "actualPNGHeight": 900,
+            "materialsUnchanged": true
+        },
+        {
+            "image": "left-tree-current.png",
+            "variant": "current",
+            "cameraPosition": {
+                "x": -10.600000381469727,
+                "y": 2.799999952316284,
+                "z": -2.5999999046325685
+            },
+            "cameraRotation": {
+                "x": 0.055491987615823749,
+                "y": 0.28244248032569888,
+                "z": -0.016368327662348748,
+                "w": 0.9575379490852356
+            },
+            "fieldOfView": 38.0,
+            "transformsAndLightsUnchanged": true,
+            "lookTarget": {
+                "x": -6.400000095367432,
+                "y": 1.899999976158142,
+                "z": 3.9000000953674318
+            },
+            "actualPNGWidth": 1440,
+            "actualPNGHeight": 900,
+            "materialsUnchanged": true
+        },
+        {
+            "image": "left-tree-repeat.png",
+            "variant": "repeat",
+            "cameraPosition": {
+                "x": -10.600000381469727,
+                "y": 2.799999952316284,
+                "z": -2.5999999046325685
+            },
+            "cameraRotation": {
+                "x": 0.055491987615823749,
+                "y": 0.28244248032569888,
+                "z": -0.016368327662348748,
+                "w": 0.9575379490852356
+            },
+            "fieldOfView": 38.0,
+            "transformsAndLightsUnchanged": true,
+            "lookTarget": {
+                "x": -6.400000095367432,
+                "y": 1.899999976158142,
+                "z": 3.9000000953674318
+            },
+            "actualPNGWidth": 1440,
+            "actualPNGHeight": 900,
+            "materialsUnchanged": true
+        },
+        {
+            "image": "gold-tree-current.png",
+            "variant": "current",
+            "cameraPosition": {
+                "x": -1.2000000476837159,
+                "y": 3.0,
+                "z": 0.4000000059604645
+            },
+            "cameraRotation": {
+                "x": 0.1094585731625557,
+                "y": 0.32661065459251406,
+                "z": -0.0381123311817646,
+                "w": 0.9380254745483398
+            },
+            "fieldOfView": 38.0,
+            "transformsAndLightsUnchanged": true,
+            "lookTarget": {
+                "x": 3.0,
+                "y": 1.399999976158142,
+                "z": 5.699999809265137
+            },
+            "actualPNGWidth": 1440,
+            "actualPNGHeight": 900,
+            "materialsUnchanged": true
+        },
+        {
+            "image": "gold-tree-repeat.png",
+            "variant": "repeat",
+            "cameraPosition": {
+                "x": -1.2000000476837159,
+                "y": 3.0,
+                "z": 0.4000000059604645
+            },
+            "cameraRotation": {
+                "x": 0.1094585731625557,
+                "y": 0.32661065459251406,
+                "z": -0.0381123311817646,
+                "w": 0.9380254745483398
+            },
+            "fieldOfView": 38.0,
+            "transformsAndLightsUnchanged": true,
+            "lookTarget": {
+                "x": 3.0,
+                "y": 1.399999976158142,
+                "z": 5.699999809265137
+            },
+            "actualPNGWidth": 1440,
+            "actualPNGHeight": 900,
+            "materialsUnchanged": true
+        },
+        {
+            "image": "right-pine-current.png",
+            "variant": "current",
+            "cameraPosition": {
+                "x": 9.800000190734864,
+                "y": 3.0,
+                "z": -4.599999904632568
+            },
+            "cameraRotation": {
+                "x": 0.04825703427195549,
+                "y": -0.2730569839477539,
+                "z": 0.013716116547584534,
+                "w": 0.9606888294219971
+            },
+            "fieldOfView": 34.0,
+            "transformsAndLightsUnchanged": true,
+            "lookTarget": {
+                "x": 5.099999904632568,
+                "y": 2.0999999046325685,
+                "z": 3.0
+            },
+            "actualPNGWidth": 1440,
+            "actualPNGHeight": 900,
+            "materialsUnchanged": true
+        },
+        {
+            "image": "right-pine-repeat.png",
+            "variant": "repeat",
+            "cameraPosition": {
+                "x": 9.800000190734864,
+                "y": 3.0,
+                "z": -4.599999904632568
+            },
+            "cameraRotation": {
+                "x": 0.04825703427195549,
+                "y": -0.2730569839477539,
+                "z": 0.013716116547584534,
+                "w": 0.9606888294219971
+            },
+            "fieldOfView": 34.0,
+            "transformsAndLightsUnchanged": true,
+            "lookTarget": {
+                "x": 5.099999904632568,
+                "y": 2.0999999046325685,
+                "z": 3.0
+            },
+            "actualPNGWidth": 1440,
+            "actualPNGHeight": 900,
+            "materialsUnchanged": true
+        }
+    ],
+    "geometryStudy": true,
+    "targetRenderers": [
+        "Garden_CanopyLeafEdges",
+        "Garden_TreeCanopies",
+        "Garden_TreeTrunks"
+    ],
+    "materialConditions": [
+        {
+            "name": "BI_brass — story light",
+            "shader": "Universal Render Pipeline/Lit",
+            "baseMap": "",
+            "normalMap": "",
+            "detailMap": "",
+            "keywords": [],
+            "baseColor": {
+                "r": 0.8094680905342102,
+                "g": 0.6943609714508057,
+                "b": 0.4731205701828003,
+                "a": 1.0
+            },
+            "metallic": 0.7200000286102295,
+            "smoothness": 0.5799999833106995,
+            "normalScale": 1.0,
+            "detailStrength": 1.0,
+            "cull": 2.0,
+            "foliageLegacyAux": 0.0,
+            "foliageNormalUp20": 0.0,
+            "baseTiling": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "baseOffset": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "detailTiling": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "detailOffset": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "doubleSidedGI": false
+        },
+        {
+            "name": "BI_brass_light — story light",
+            "shader": "Universal Render Pipeline/Lit",
+            "baseMap": "",
+            "normalMap": "",
+            "detailMap": "",
+            "keywords": [],
+            "baseColor": {
+                "r": 0.9357409477233887,
+                "g": 0.8378604650497437,
+                "b": 0.5926192998886108,
+                "a": 1.0
+            },
+            "metallic": 0.7200000286102295,
+            "smoothness": 0.5799999833106995,
+            "normalScale": 1.0,
+            "detailStrength": 1.0,
+            "cull": 2.0,
+            "foliageLegacyAux": 0.0,
+            "foliageNormalUp20": 0.0,
+            "baseTiling": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "baseOffset": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "detailTiling": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "detailOffset": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "doubleSidedGI": false
+        },
+        {
+            "name": "BI_flower_blue — story light",
+            "shader": "Universal Render Pipeline/Lit",
+            "baseMap": "",
+            "normalMap": "",
+            "detailMap": "",
+            "keywords": [
+                "_ENVIRONMENTREFLECTIONS_OFF",
+                "_SPECULARHIGHLIGHTS_OFF"
+            ],
+            "baseColor": {
+                "r": 0.5748708844184876,
+                "g": 0.7673755288124085,
+                "b": 0.7977376580238342,
+                "a": 1.0
+            },
+            "metallic": 0.0,
+            "smoothness": 0.0,
+            "normalScale": 1.0,
+            "detailStrength": 1.0,
+            "cull": 0.0,
+            "foliageLegacyAux": 0.0,
+            "foliageNormalUp20": 0.0,
+            "baseTiling": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "baseOffset": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "detailTiling": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "detailOffset": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "doubleSidedGI": true
+        },
+        {
+            "name": "BI_flower_coral — story light",
+            "shader": "Universal Render Pipeline/Lit",
+            "baseMap": "",
+            "normalMap": "",
+            "detailMap": "",
+            "keywords": [
+                "_ENVIRONMENTREFLECTIONS_OFF",
+                "_SPECULARHIGHLIGHTS_OFF"
+            ],
+            "baseColor": {
+                "r": 0.9113204479217529,
+                "g": 0.6262096166610718,
+                "b": 0.5657283067703247,
+                "a": 1.0
+            },
+            "metallic": 0.0,
+            "smoothness": 0.0,
+            "normalScale": 1.0,
+            "detailStrength": 1.0,
+            "cull": 0.0,
+            "foliageLegacyAux": 0.0,
+            "foliageNormalUp20": 0.0,
+            "baseTiling": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "baseOffset": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "detailTiling": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "detailOffset": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "doubleSidedGI": true
+        },
+        {
+            "name": "BI_flower_cream — story light",
+            "shader": "Universal Render Pipeline/Lit",
+            "baseMap": "",
+            "normalMap": "",
+            "detailMap": "",
+            "keywords": [
+                "_ENVIRONMENTREFLECTIONS_OFF",
+                "_SPECULARHIGHLIGHTS_OFF"
+            ],
+            "baseColor": {
+                "r": 0.9776914715766907,
+                "g": 0.921191394329071,
+                "b": 0.7547805905342102,
+                "a": 1.0
+            },
+            "metallic": 0.0,
+            "smoothness": 0.0,
+            "normalScale": 1.0,
+            "detailStrength": 1.0,
+            "cull": 0.0,
+            "foliageLegacyAux": 0.0,
+            "foliageNormalUp20": 0.0,
+            "baseTiling": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "baseOffset": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "detailTiling": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "detailOffset": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "doubleSidedGI": true
+        },
+        {
+            "name": "BI_flower_lilac — story light",
+            "shader": "Universal Render Pipeline/Lit",
+            "baseMap": "",
+            "normalMap": "",
+            "detailMap": "",
+            "keywords": [
+                "_ENVIRONMENTREFLECTIONS_OFF",
+                "_SPECULARHIGHLIGHTS_OFF"
+            ],
+            "baseColor": {
+                "r": 0.7287318110466003,
+                "g": 0.6872170567512512,
+                "b": 0.8266569972038269,
+                "a": 1.0
+            },
+            "metallic": 0.0,
+            "smoothness": 0.0,
+            "normalScale": 1.0,
+            "detailStrength": 1.0,
+            "cull": 0.0,
+            "foliageLegacyAux": 0.0,
+            "foliageNormalUp20": 0.0,
+            "baseTiling": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "baseOffset": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "detailTiling": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "detailOffset": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "doubleSidedGI": true
+        },
+        {
+            "name": "BI_grass — story light",
+            "shader": "BorrowedLight/GroundDetail",
+            "baseMap": "Meadow",
+            "normalMap": "MeadowNormal",
+            "detailMap": "GroundDetailV12",
+            "keywords": [
+                "_ENVIRONMENTREFLECTIONS_OFF",
+                "_NORMALMAP",
+                "_SPECULARHIGHLIGHTS_OFF"
+            ],
+            "baseColor": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0,
+                "a": 1.0
+            },
+            "metallic": 0.0,
+            "smoothness": 0.0,
+            "normalScale": 0.2199999988079071,
+            "detailStrength": 0.3499999940395355,
+            "cull": 0.0,
+            "foliageLegacyAux": 0.0,
+            "foliageNormalUp20": 0.0,
+            "baseTiling": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "baseOffset": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "detailTiling": {
+                "x": 0.5555555820465088,
+                "y": 0.5555555820465088
+            },
+            "detailOffset": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "doubleSidedGI": true
+        },
+        {
+            "name": "BI_grass_sage — story light",
+            "shader": "Universal Render Pipeline/Lit",
+            "baseMap": "",
+            "normalMap": "",
+            "detailMap": "",
+            "keywords": [
+                "_ENVIRONMENTREFLECTIONS_OFF",
+                "_SPECULARHIGHLIGHTS_OFF"
+            ],
+            "baseColor": {
+                "r": 0.5748708844184876,
+                "g": 0.6651850342750549,
+                "b": 0.5168808698654175,
+                "a": 1.0
+            },
+            "metallic": 0.0,
+            "smoothness": 0.0,
+            "normalScale": 1.0,
+            "detailStrength": 1.0,
+            "cull": 0.0,
+            "foliageLegacyAux": 0.0,
+            "foliageNormalUp20": 0.0,
+            "baseTiling": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "baseOffset": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "detailTiling": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "detailOffset": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "doubleSidedGI": true
+        },
+        {
+            "name": "BI_leaf — story light",
+            "shader": "BorrowedLight/FoliagePaint",
+            "baseMap": "",
+            "normalMap": "",
+            "detailMap": "",
+            "keywords": [
+                "_FOLIAGE_VERTEX_COLOR"
+            ],
+            "baseColor": {
+                "r": 0.527112603187561,
+                "g": 0.6499563455581665,
+                "b": 0.4492037892341614,
+                "a": 1.0
+            },
+            "metallic": 0.0,
+            "smoothness": 0.0,
+            "normalScale": 1.0,
+            "detailStrength": 0.0,
+            "cull": 0.0,
+            "foliageLegacyAux": 0.0,
+            "foliageNormalUp20": 0.0,
+            "baseTiling": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "baseOffset": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "detailTiling": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "detailOffset": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "doubleSidedGI": true
+        },
+        {
+            "name": "BI_leaf_blue — story light",
+            "shader": "BorrowedLight/FoliagePaint",
+            "baseMap": "",
+            "normalMap": "",
+            "detailMap": "",
+            "keywords": [
+                "_FOLIAGE_VERTEX_COLOR"
+            ],
+            "baseColor": {
+                "r": 0.5063862204551697,
+                "g": 0.6342527270317078,
+                "b": 0.5838313698768616,
+                "a": 1.0
+            },
+            "metallic": 0.0,
+            "smoothness": 0.0,
+            "normalScale": 1.0,
+            "detailStrength": 0.0,
+            "cull": 0.0,
+            "foliageLegacyAux": 0.0,
+            "foliageNormalUp20": 0.0,
+            "baseTiling": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "baseOffset": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "detailTiling": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "detailOffset": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "doubleSidedGI": true
+        },
+        {
+            "name": "BI_leaf_dark — story light",
+            "shader": "BorrowedLight/FoliagePaint",
+            "baseMap": "",
+            "normalMap": "",
+            "detailMap": "",
+            "keywords": [
+                "_FOLIAGE_VERTEX_COLOR"
+            ],
+            "baseColor": {
+                "r": 0.4235827624797821,
+                "g": 0.5563931465148926,
+                "b": 0.4235827624797821,
+                "a": 1.0
+            },
+            "metallic": 0.0,
+            "smoothness": 0.0,
+            "normalScale": 1.0,
+            "detailStrength": 0.0,
+            "cull": 0.0,
+            "foliageLegacyAux": 0.0,
+            "foliageNormalUp20": 0.0,
+            "baseTiling": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "baseOffset": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "detailTiling": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "detailOffset": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "doubleSidedGI": true
+        },
+        {
+            "name": "BI_leaf_gold — story light",
+            "shader": "BorrowedLight/FoliagePaint",
+            "baseMap": "",
+            "normalMap": "",
+            "detailMap": "",
+            "keywords": [
+                "_FOLIAGE_VERTEX_COLOR"
+            ],
+            "baseColor": {
+                "r": 0.8036309480667114,
+                "g": 0.7673755288124085,
+                "b": 0.527112603187561,
+                "a": 1.0
+            },
+            "metallic": 0.0,
+            "smoothness": 0.0,
+            "normalScale": 1.0,
+            "detailStrength": 0.0,
+            "cull": 0.0,
+            "foliageLegacyAux": 0.0,
+            "foliageNormalUp20": 0.0,
+            "baseTiling": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "baseOffset": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "detailTiling": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "detailOffset": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "doubleSidedGI": true
+        },
+        {
+            "name": "BI_leaf_ground_lime — story light",
+            "shader": "BorrowedLight/FoliagePaint",
+            "baseMap": "",
+            "normalMap": "",
+            "detailMap": "",
+            "keywords": [
+                "_FOLIAGE_VERTEX_COLOR"
+            ],
+            "baseColor": {
+                "r": 0.6499563455581665,
+                "g": 0.7118160128593445,
+                "b": 0.48452913761138918,
+                "a": 1.0
+            },
+            "metallic": 0.0,
+            "smoothness": 0.0,
+            "normalScale": 1.0,
+            "detailStrength": 0.0,
+            "cull": 0.0,
+            "foliageLegacyAux": 0.0,
+            "foliageNormalUp20": 0.0,
+            "baseTiling": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "baseOffset": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "detailTiling": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "detailOffset": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "doubleSidedGI": true
+        },
+        {
+            "name": "BI_leaf_ground_sage — story light",
+            "shader": "BorrowedLight/FoliagePaint",
+            "baseMap": "",
+            "normalMap": "",
+            "detailMap": "",
+            "keywords": [
+                "_FOLIAGE_VERTEX_COLOR"
+            ],
+            "baseColor": {
+                "r": 0.5748708844184876,
+                "g": 0.6651850342750549,
+                "b": 0.4956096410751343,
+                "a": 1.0
+            },
+            "metallic": 0.0,
+            "smoothness": 0.0,
+            "normalScale": 1.0,
+            "detailStrength": 0.0,
+            "cull": 0.0,
+            "foliageLegacyAux": 0.0,
+            "foliageNormalUp20": 0.0,
+            "baseTiling": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "baseOffset": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "detailTiling": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "detailOffset": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "doubleSidedGI": true
+        },
+        {
+            "name": "BI_leaf_light — story light",
+            "shader": "BorrowedLight/FoliagePaint",
+            "baseMap": "",
+            "normalMap": "",
+            "detailMap": "",
+            "keywords": [
+                "_FOLIAGE_VERTEX_COLOR"
+            ],
+            "baseColor": {
+                "r": 0.6499563455581665,
+                "g": 0.741905152797699,
+                "b": 0.5168808698654175,
+                "a": 1.0
+            },
+            "metallic": 0.0,
+            "smoothness": 0.0,
+            "normalScale": 1.0,
+            "detailStrength": 0.0,
+            "cull": 0.0,
+            "foliageLegacyAux": 0.0,
+            "foliageNormalUp20": 0.0,
+            "baseTiling": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "baseOffset": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "detailTiling": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "detailOffset": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "doubleSidedGI": true
+        },
+        {
+            "name": "BI_leaf_meadow_deep — story light",
+            "shader": "BorrowedLight/FoliagePaint",
+            "baseMap": "",
+            "normalMap": "",
+            "detailMap": "",
+            "keywords": [
+                "_FOLIAGE_VERTEX_COLOR"
+            ],
+            "baseColor": {
+                "r": 0.4235827624797821,
+                "g": 0.5116676092147827,
+                "b": 0.3227260112762451,
+                "a": 1.0
+            },
+            "metallic": 0.0,
+            "smoothness": 0.0,
+            "normalScale": 1.0,
+            "detailStrength": 0.0,
+            "cull": 0.0,
+            "foliageLegacyAux": 0.0,
+            "foliageNormalUp20": 0.0,
+            "baseTiling": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "baseOffset": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "detailTiling": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "detailOffset": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "doubleSidedGI": true
+        },
+        {
+            "name": "BI_leaf_meadow_dry — story light",
+            "shader": "BorrowedLight/FoliagePaint",
+            "baseMap": "",
+            "normalMap": "",
+            "detailMap": "",
+            "keywords": [
+                "_FOLIAGE_VERTEX_COLOR"
+            ],
+            "baseColor": {
+                "r": 0.6872170567512512,
+                "g": 0.6421664357185364,
+                "b": 0.4731205701828003,
+                "a": 1.0
+            },
+            "metallic": 0.0,
+            "smoothness": 0.0,
+            "normalScale": 1.0,
+            "detailStrength": 0.0,
+            "cull": 0.0,
+            "foliageLegacyAux": 0.0,
+            "foliageNormalUp20": 0.0,
+            "baseTiling": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "baseOffset": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "detailTiling": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "detailOffset": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "doubleSidedGI": true
+        },
+        {
+            "name": "BI_leaf_meadow_olive — story light",
+            "shader": "BorrowedLight/FoliagePaint",
+            "baseMap": "",
+            "normalMap": "",
+            "detailMap": "",
+            "keywords": [
+                "_FOLIAGE_VERTEX_COLOR"
+            ],
+            "baseColor": {
+                "r": 0.5748708844184876,
+                "g": 0.6421664357185364,
+                "b": 0.41002076864242556,
+                "a": 1.0
+            },
+            "metallic": 0.0,
+            "smoothness": 0.0,
+            "normalScale": 1.0,
+            "detailStrength": 0.0,
+            "cull": 0.0,
+            "foliageLegacyAux": 0.0,
+            "foliageNormalUp20": 0.0,
+            "baseTiling": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "baseOffset": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "detailTiling": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "detailOffset": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "doubleSidedGI": true
+        },
+        {
+            "name": "BI_leaf_meadow_young — story light",
+            "shader": "BorrowedLight/FoliagePaint",
+            "baseMap": "",
+            "normalMap": "",
+            "detailMap": "",
+            "keywords": [
+                "_FOLIAGE_VERTEX_COLOR"
+            ],
+            "baseColor": {
+                "r": 0.6499563455581665,
+                "g": 0.7220273017883301,
+                "b": 0.49010878801345827,
+                "a": 1.0
+            },
+            "metallic": 0.0,
+            "smoothness": 0.0,
+            "normalScale": 1.0,
+            "detailStrength": 0.0,
+            "cull": 0.0,
+            "foliageLegacyAux": 0.0,
+            "foliageNormalUp20": 0.0,
+            "baseTiling": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "baseOffset": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "detailTiling": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "detailOffset": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "doubleSidedGI": true
+        },
+        {
+            "name": "BI_metal_dark — story light",
+            "shader": "Universal Render Pipeline/Lit",
+            "baseMap": "",
+            "normalMap": "",
+            "detailMap": "",
+            "keywords": [],
+            "baseColor": {
+                "r": 0.38109174370765688,
+                "g": 0.5063862204551697,
+                "b": 0.5468541979789734,
+                "a": 1.0
+            },
+            "metallic": 0.7200000286102295,
+            "smoothness": 0.5799999833106995,
+            "normalScale": 1.0,
+            "detailStrength": 1.0,
+            "cull": 2.0,
+            "foliageLegacyAux": 0.0,
+            "foliageNormalUp20": 0.0,
+            "baseTiling": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "baseOffset": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "detailTiling": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "detailOffset": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "doubleSidedGI": false
+        },
+        {
+            "name": "BI_moss — story light",
+            "shader": "Universal Render Pipeline/Lit",
+            "baseMap": "",
+            "normalMap": "",
+            "detailMap": "",
+            "keywords": [
+                "_ENVIRONMENTREFLECTIONS_OFF",
+                "_SPECULARHIGHLIGHTS_OFF"
+            ],
+            "baseColor": {
+                "r": 0.6342527270317078,
+                "g": 0.6872170567512512,
+                "b": 0.4731205701828003,
+                "a": 1.0
+            },
+            "metallic": 0.0,
+            "smoothness": 0.0,
+            "normalScale": 1.0,
+            "detailStrength": 1.0,
+            "cull": 0.0,
+            "foliageLegacyAux": 0.0,
+            "foliageNormalUp20": 0.0,
+            "baseTiling": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "baseOffset": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "detailTiling": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "detailOffset": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "doubleSidedGI": true
+        },
+        {
+            "name": "BI_mushroom — story light",
+            "shader": "Universal Render Pipeline/Lit",
+            "baseMap": "",
+            "normalMap": "",
+            "detailMap": "",
+            "keywords": [],
+            "baseColor": {
+                "r": 0.865041971206665,
+                "g": 0.6342527270317078,
+                "b": 0.527112603187561,
+                "a": 1.0
+            },
+            "metallic": 0.0,
+            "smoothness": 0.17000000178813935,
+            "normalScale": 1.0,
+            "detailStrength": 1.0,
+            "cull": 0.0,
+            "foliageLegacyAux": 0.0,
+            "foliageNormalUp20": 0.0,
+            "baseTiling": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "baseOffset": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "detailTiling": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "detailOffset": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "doubleSidedGI": true
+        },
+        {
+            "name": "BI_mushroom_spot — story light",
+            "shader": "Universal Render Pipeline/Lit",
+            "baseMap": "",
+            "normalMap": "",
+            "detailMap": "",
+            "keywords": [],
+            "baseColor": {
+                "r": 0.9593464732170105,
+                "g": 0.8911432027816773,
+                "b": 0.7353569269180298,
+                "a": 1.0
+            },
+            "metallic": 0.0,
+            "smoothness": 0.17000000178813935,
+            "normalScale": 1.0,
+            "detailStrength": 1.0,
+            "cull": 0.0,
+            "foliageLegacyAux": 0.0,
+            "foliageNormalUp20": 0.0,
+            "baseTiling": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "baseOffset": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "detailTiling": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "detailOffset": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "doubleSidedGI": true
+        },
+        {
+            "name": "BI_paper — story light",
+            "shader": "Universal Render Pipeline/Lit",
+            "baseMap": "",
+            "normalMap": "",
+            "detailMap": "",
+            "keywords": [],
+            "baseColor": {
+                "r": 0.9593464732170105,
+                "g": 0.9162734746932983,
+                "b": 0.791786789894104,
+                "a": 1.0
+            },
+            "metallic": 0.0,
+            "smoothness": 0.17000000178813935,
+            "normalScale": 1.0,
+            "detailStrength": 1.0,
+            "cull": 0.0,
+            "foliageLegacyAux": 0.0,
+            "foliageNormalUp20": 0.0,
+            "baseTiling": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "baseOffset": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "detailTiling": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "detailOffset": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "doubleSidedGI": true
+        },
+        {
+            "name": "BI_plaster — story light",
+            "shader": "BorrowedLight/PaintedSurface",
+            "baseMap": "",
+            "normalMap": "",
+            "detailMap": "",
+            "keywords": [],
+            "baseColor": {
+                "r": 0.9013063907623291,
+                "g": 0.865041971206665,
+                "b": 0.7547805905342102,
+                "a": 1.0
+            },
+            "metallic": 0.0,
+            "smoothness": 0.17000000178813935,
+            "normalScale": 1.0,
+            "detailStrength": 0.0,
+            "cull": 0.0,
+            "foliageLegacyAux": 0.0,
+            "foliageNormalUp20": 0.0,
+            "baseTiling": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "baseOffset": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "detailTiling": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "detailOffset": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "doubleSidedGI": true
+        },
+        {
+            "name": "BI_plaster_light — story light",
+            "shader": "BorrowedLight/PaintedSurface",
+            "baseMap": "",
+            "normalMap": "",
+            "detailMap": "",
+            "keywords": [],
+            "baseColor": {
+                "r": 0.9593464732170105,
+                "g": 0.9260748028755188,
+                "b": 0.8209797739982605,
+                "a": 1.0
+            },
+            "metallic": 0.0,
+            "smoothness": 0.17000000178813935,
+            "normalScale": 1.0,
+            "detailStrength": 0.0,
+            "cull": 0.0,
+            "foliageLegacyAux": 0.0,
+            "foliageNormalUp20": 0.0,
+            "baseTiling": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "baseOffset": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "detailTiling": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "detailOffset": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "doubleSidedGI": true
+        },
+        {
+            "name": "BI_quartz — story light",
+            "shader": "Universal Render Pipeline/Lit",
+            "baseMap": "",
+            "normalMap": "",
+            "detailMap": "",
+            "keywords": [],
+            "baseColor": {
+                "r": 0.679975688457489,
+                "g": 0.8209797739982605,
+                "b": 0.8094680905342102,
+                "a": 1.0
+            },
+            "metallic": 0.0,
+            "smoothness": 0.17000000178813935,
+            "normalScale": 1.0,
+            "detailStrength": 1.0,
+            "cull": 0.0,
+            "foliageLegacyAux": 0.0,
+            "foliageNormalUp20": 0.0,
+            "baseTiling": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "baseOffset": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "detailTiling": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "detailOffset": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "doubleSidedGI": true
+        },
+        {
+            "name": "BI_rock — story light",
+            "shader": "BorrowedLight/PaintedSurface",
+            "baseMap": "",
+            "normalMap": "",
+            "detailMap": "",
+            "keywords": [],
+            "baseColor": {
+                "r": 0.38109174370765688,
+                "g": 0.4956096410751343,
+                "b": 0.5563931465148926,
+                "a": 1.0
+            },
+            "metallic": 0.0,
+            "smoothness": 0.17000000178813935,
+            "normalScale": 1.0,
+            "detailStrength": 0.0,
+            "cull": 0.0,
+            "foliageLegacyAux": 0.0,
+            "foliageNormalUp20": 0.0,
+            "baseTiling": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "baseOffset": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "detailTiling": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "detailOffset": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "doubleSidedGI": true
+        },
+        {
+            "name": "BI_rock_blue — story light",
+            "shader": "BorrowedLight/PaintedSurface",
+            "baseMap": "",
+            "normalMap": "",
+            "detailMap": "",
+            "keywords": [],
+            "baseColor": {
+                "r": 0.4492037892341614,
+                "g": 0.5563931465148926,
+                "b": 0.6342527270317078,
+                "a": 1.0
+            },
+            "metallic": 0.0,
+            "smoothness": 0.17000000178813935,
+            "normalScale": 1.0,
+            "detailStrength": 0.0,
+            "cull": 0.0,
+            "foliageLegacyAux": 0.0,
+            "foliageNormalUp20": 0.0,
+            "baseTiling": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "baseOffset": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "detailTiling": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "detailOffset": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "doubleSidedGI": true
+        },
+        {
+            "name": "BI_rock_dark — story light",
+            "shader": "BorrowedLight/PaintedSurface",
+            "baseMap": "",
+            "normalMap": "",
+            "detailMap": "",
+            "keywords": [],
+            "baseColor": {
+                "r": 0.3035319447517395,
+                "g": 0.39588114619255068,
+                "b": 0.48452913761138918,
+                "a": 1.0
+            },
+            "metallic": 0.0,
+            "smoothness": 0.17000000178813935,
+            "normalScale": 1.0,
+            "detailStrength": 0.0,
+            "cull": 0.0,
+            "foliageLegacyAux": 0.0,
+            "foliageNormalUp20": 0.0,
+            "baseTiling": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "baseOffset": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "detailTiling": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "detailOffset": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "doubleSidedGI": true
+        },
+        {
+            "name": "BI_rock_hero_slate — story light",
+            "shader": "BorrowedLight/PaintedSurface",
+            "baseMap": "StoneV10",
+            "normalMap": "",
+            "detailMap": "",
+            "keywords": [
+                "_PAINT_VERTEX_COLOR",
+                "_ROCK_TEXTURE"
+            ],
+            "baseColor": {
+                "r": 0.601243257522583,
+                "g": 0.6262096166610718,
+                "b": 0.601243257522583,
+                "a": 1.0
+            },
+            "metallic": 0.0,
+            "smoothness": 0.17000000178813935,
+            "normalScale": 1.0,
+            "detailStrength": 0.0,
+            "cull": 0.0,
+            "foliageLegacyAux": 0.0,
+            "foliageNormalUp20": 0.0,
+            "baseTiling": {
+                "x": 0.8999999761581421,
+                "y": 0.8999999761581421
+            },
+            "baseOffset": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "detailTiling": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "detailOffset": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "doubleSidedGI": true
+        },
+        {
+            "name": "BI_rock_hero_warm — story light",
+            "shader": "BorrowedLight/PaintedSurface",
+            "baseMap": "StoneV10",
+            "normalMap": "",
+            "detailMap": "",
+            "keywords": [
+                "_PAINT_VERTEX_COLOR",
+                "_ROCK_TEXTURE"
+            ],
+            "baseColor": {
+                "r": 0.6576276421546936,
+                "g": 0.6382253766059876,
+                "b": 0.5882462859153748,
+                "a": 1.0
+            },
+            "metallic": 0.0,
+            "smoothness": 0.17000000178813935,
+            "normalScale": 1.0,
+            "detailStrength": 0.0,
+            "cull": 0.0,
+            "foliageLegacyAux": 0.0,
+            "foliageNormalUp20": 0.0,
+            "baseTiling": {
+                "x": 0.8999999761581421,
+                "y": 0.8999999761581421
+            },
+            "baseOffset": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "detailTiling": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "detailOffset": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "doubleSidedGI": true
+        },
+        {
+            "name": "BI_rock_light — story light",
+            "shader": "BorrowedLight/PaintedSurface",
+            "baseMap": "",
+            "normalMap": "",
+            "detailMap": "",
+            "keywords": [],
+            "baseColor": {
+                "r": 0.5168808698654175,
+                "g": 0.61803138256073,
+                "b": 0.6651850342750549,
+                "a": 1.0
+            },
+            "metallic": 0.0,
+            "smoothness": 0.17000000178813935,
+            "normalScale": 1.0,
+            "detailStrength": 0.0,
+            "cull": 0.0,
+            "foliageLegacyAux": 0.0,
+            "foliageNormalUp20": 0.0,
+            "baseTiling": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "baseOffset": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "detailTiling": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "detailOffset": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "doubleSidedGI": true
+        },
+        {
+            "name": "BI_roof — story light",
+            "shader": "BorrowedLight/PaintedSurface",
+            "baseMap": "",
+            "normalMap": "",
+            "detailMap": "",
+            "keywords": [],
+            "baseColor": {
+                "r": 0.38109174370765688,
+                "g": 0.5838313698768616,
+                "b": 0.5748708844184876,
+                "a": 1.0
+            },
+            "metallic": 0.0,
+            "smoothness": 0.17000000178813935,
+            "normalScale": 1.0,
+            "detailStrength": 0.0,
+            "cull": 0.0,
+            "foliageLegacyAux": 0.0,
+            "foliageNormalUp20": 0.0,
+            "baseTiling": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "baseOffset": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "detailTiling": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "detailOffset": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "doubleSidedGI": true
+        },
+        {
+            "name": "BI_roof_dark — story light",
+            "shader": "BorrowedLight/PaintedSurface",
+            "baseMap": "",
+            "normalMap": "",
+            "detailMap": "",
+            "keywords": [],
+            "baseColor": {
+                "r": 0.33182990550994875,
+                "g": 0.5063862204551697,
+                "b": 0.5370987057685852,
+                "a": 1.0
+            },
+            "metallic": 0.0,
+            "smoothness": 0.17000000178813935,
+            "normalScale": 1.0,
+            "detailStrength": 0.0,
+            "cull": 0.0,
+            "foliageLegacyAux": 0.0,
+            "foliageNormalUp20": 0.0,
+            "baseTiling": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "baseOffset": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "detailTiling": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "detailOffset": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "doubleSidedGI": true
+        },
+        {
+            "name": "BI_roof_light — story light",
+            "shader": "BorrowedLight/PaintedSurface",
+            "baseMap": "",
+            "normalMap": "",
+            "detailMap": "",
+            "keywords": [],
+            "baseColor": {
+                "r": 0.46135610342025759,
+                "g": 0.6576276421546936,
+                "b": 0.6262096166610718,
+                "a": 1.0
+            },
+            "metallic": 0.0,
+            "smoothness": 0.17000000178813935,
+            "normalScale": 1.0,
+            "detailStrength": 0.0,
+            "cull": 0.0,
+            "foliageLegacyAux": 0.0,
+            "foliageNormalUp20": 0.0,
+            "baseTiling": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "baseOffset": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "detailTiling": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "detailOffset": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "doubleSidedGI": true
+        },
+        {
+            "name": "BI_sea_glass — story light",
+            "shader": "Universal Render Pipeline/Lit",
+            "baseMap": "",
+            "normalMap": "",
+            "detailMap": "",
+            "keywords": [],
+            "baseColor": {
+                "r": 0.5370987057685852,
+                "g": 0.7977376580238342,
+                "b": 0.8094680905342102,
+                "a": 1.0
+            },
+            "metallic": 0.0,
+            "smoothness": 0.17000000178813935,
+            "normalScale": 1.0,
+            "detailStrength": 1.0,
+            "cull": 0.0,
+            "foliageLegacyAux": 0.0,
+            "foliageNormalUp20": 0.0,
+            "baseTiling": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "baseOffset": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "detailTiling": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "detailOffset": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "doubleSidedGI": true
+        },
+        {
+            "name": "BI_star_warm — story light",
+            "shader": "Universal Render Pipeline/Lit",
+            "baseMap": "",
+            "normalMap": "",
+            "detailMap": "",
+            "keywords": [],
+            "baseColor": {
+                "r": 0.9911565184593201,
+                "g": 0.8962438106536865,
+                "b": 0.6342527270317078,
+                "a": 1.0
+            },
+            "metallic": 0.0,
+            "smoothness": 0.17000000178813935,
+            "normalScale": 1.0,
+            "detailStrength": 1.0,
+            "cull": 0.0,
+            "foliageLegacyAux": 0.0,
+            "foliageNormalUp20": 0.0,
+            "baseTiling": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "baseOffset": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "detailTiling": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "detailOffset": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "doubleSidedGI": true
+        },
+        {
+            "name": "BI_stem — story light",
+            "shader": "Universal Render Pipeline/Lit",
+            "baseMap": "",
+            "normalMap": "",
+            "detailMap": "",
+            "keywords": [
+                "_ENVIRONMENTREFLECTIONS_OFF",
+                "_SPECULARHIGHLIGHTS_OFF"
+            ],
+            "baseColor": {
+                "r": 0.43662694096565249,
+                "g": 0.61803138256073,
+                "b": 0.527112603187561,
+                "a": 1.0
+            },
+            "metallic": 0.0,
+            "smoothness": 0.0,
+            "normalScale": 1.0,
+            "detailStrength": 1.0,
+            "cull": 0.0,
+            "foliageLegacyAux": 0.0,
+            "foliageNormalUp20": 0.0,
+            "baseTiling": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "baseOffset": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "detailTiling": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "detailOffset": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "doubleSidedGI": true
+        },
+        {
+            "name": "BI_stone — story light",
+            "shader": "BorrowedLight/PaintedSurface",
+            "baseMap": "",
+            "normalMap": "",
+            "detailMap": "",
+            "keywords": [],
+            "baseColor": {
+                "r": 0.6651850342750549,
+                "g": 0.7220273017883301,
+                "b": 0.7220273017883301,
+                "a": 1.0
+            },
+            "metallic": 0.0,
+            "smoothness": 0.17000000178813935,
+            "normalScale": 1.0,
+            "detailStrength": 0.0,
+            "cull": 0.0,
+            "foliageLegacyAux": 0.0,
+            "foliageNormalUp20": 0.0,
+            "baseTiling": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "baseOffset": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "detailTiling": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "detailOffset": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "doubleSidedGI": true
+        },
+        {
+            "name": "BI_stone_dark — story light",
+            "shader": "BorrowedLight/PaintedSurface",
+            "baseMap": "",
+            "normalMap": "",
+            "detailMap": "",
+            "keywords": [],
+            "baseColor": {
+                "r": 0.5838313698768616,
+                "g": 0.6499563455581665,
+                "b": 0.6576276421546936,
+                "a": 1.0
+            },
+            "metallic": 0.0,
+            "smoothness": 0.17000000178813935,
+            "normalScale": 1.0,
+            "detailStrength": 0.0,
+            "cull": 0.0,
+            "foliageLegacyAux": 0.0,
+            "foliageNormalUp20": 0.0,
+            "baseTiling": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "baseOffset": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "detailTiling": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "detailOffset": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "doubleSidedGI": true
+        },
+        {
+            "name": "BI_stone_light — story light",
+            "shader": "BorrowedLight/PaintedSurface",
+            "baseMap": "",
+            "normalMap": "",
+            "detailMap": "",
+            "keywords": [],
+            "baseColor": {
+                "r": 0.7547805905342102,
+                "g": 0.7857768535614014,
+                "b": 0.7611121535301209,
+                "a": 1.0
+            },
+            "metallic": 0.0,
+            "smoothness": 0.17000000178813935,
+            "normalScale": 1.0,
+            "detailStrength": 0.0,
+            "cull": 0.0,
+            "foliageLegacyAux": 0.0,
+            "foliageNormalUp20": 0.0,
+            "baseTiling": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "baseOffset": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "detailTiling": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "detailOffset": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "doubleSidedGI": true
+        },
+        {
+            "name": "BI_stone_path_ochre — story light",
+            "shader": "BorrowedLight/PaintedSurface",
+            "baseMap": "",
+            "normalMap": "",
+            "detailMap": "",
+            "keywords": [],
+            "baseColor": {
+                "r": 0.6614202857017517,
+                "g": 0.6538065671920776,
+                "b": 0.5969513058662415,
+                "a": 1.0
+            },
+            "metallic": 0.0,
+            "smoothness": 0.17000000178813935,
+            "normalScale": 1.0,
+            "detailStrength": 0.0,
+            "cull": 0.0,
+            "foliageLegacyAux": 0.0,
+            "foliageNormalUp20": 0.0,
+            "baseTiling": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "baseOffset": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "detailTiling": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "detailOffset": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "doubleSidedGI": true
+        },
+        {
+            "name": "BI_stone_path_slate — story light",
+            "shader": "BorrowedLight/PaintedSurface",
+            "baseMap": "",
+            "normalMap": "",
+            "detailMap": "",
+            "keywords": [],
+            "baseColor": {
+                "r": 0.5748708844184876,
+                "g": 0.6221377849578857,
+                "b": 0.601243257522583,
+                "a": 1.0
+            },
+            "metallic": 0.0,
+            "smoothness": 0.17000000178813935,
+            "normalScale": 1.0,
+            "detailStrength": 0.0,
+            "cull": 0.0,
+            "foliageLegacyAux": 0.0,
+            "foliageNormalUp20": 0.0,
+            "baseTiling": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "baseOffset": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "detailTiling": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "detailOffset": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "doubleSidedGI": true
+        },
+        {
+            "name": "BI_stone_path_warm — story light",
+            "shader": "BorrowedLight/PaintedSurface",
+            "baseMap": "",
+            "normalMap": "",
+            "detailMap": "",
+            "keywords": [],
+            "baseColor": {
+                "r": 0.6302477121353149,
+                "g": 0.6382253766059876,
+                "b": 0.5969513058662415,
+                "a": 1.0
+            },
+            "metallic": 0.0,
+            "smoothness": 0.17000000178813935,
+            "normalScale": 1.0,
+            "detailStrength": 0.0,
+            "cull": 0.0,
+            "foliageLegacyAux": 0.0,
+            "foliageNormalUp20": 0.0,
+            "baseTiling": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "baseOffset": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "detailTiling": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "detailOffset": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "doubleSidedGI": true
+        },
+        {
+            "name": "BI_window_honey — story light",
+            "shader": "Universal Render Pipeline/Lit",
+            "baseMap": "",
+            "normalMap": "",
+            "detailMap": "",
+            "keywords": [
+                "_EMISSION"
+            ],
+            "baseColor": {
+                "r": 0.9911565184593201,
+                "g": 0.8094680905342102,
+                "b": 0.48452913761138918,
+                "a": 1.0
+            },
+            "metallic": 0.0,
+            "smoothness": 0.17000000178813935,
+            "normalScale": 1.0,
+            "detailStrength": 1.0,
+            "cull": 0.0,
+            "foliageLegacyAux": 0.0,
+            "foliageNormalUp20": 0.0,
+            "baseTiling": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "baseOffset": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "detailTiling": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "detailOffset": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "doubleSidedGI": true
+        },
+        {
+            "name": "BI_wood — story light",
+            "shader": "BorrowedLight/PaintedSurface",
+            "baseMap": "",
+            "normalMap": "",
+            "detailMap": "",
+            "keywords": [],
+            "baseColor": {
+                "r": 0.5370987057685852,
+                "g": 0.46135610342025759,
+                "b": 0.39588114619255068,
+                "a": 1.0
+            },
+            "metallic": 0.0,
+            "smoothness": 0.17000000178813935,
+            "normalScale": 1.0,
+            "detailStrength": 0.0,
+            "cull": 0.0,
+            "foliageLegacyAux": 0.0,
+            "foliageNormalUp20": 0.0,
+            "baseTiling": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "baseOffset": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "detailTiling": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "detailOffset": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "doubleSidedGI": true
+        },
+        {
+            "name": "BI_wood_cut — story light",
+            "shader": "BorrowedLight/PaintedSurface",
+            "baseMap": "",
+            "normalMap": "",
+            "detailMap": "",
+            "keywords": [],
+            "baseColor": {
+                "r": 0.7857768535614014,
+                "g": 0.6872170567512512,
+                "b": 0.5563931465148926,
+                "a": 1.0
+            },
+            "metallic": 0.0,
+            "smoothness": 0.17000000178813935,
+            "normalScale": 1.0,
+            "detailStrength": 0.0,
+            "cull": 0.0,
+            "foliageLegacyAux": 0.0,
+            "foliageNormalUp20": 0.0,
+            "baseTiling": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "baseOffset": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "detailTiling": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "detailOffset": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "doubleSidedGI": true
+        },
+        {
+            "name": "BI_wood_light — story light",
+            "shader": "BorrowedLight/PaintedSurface",
+            "baseMap": "",
+            "normalMap": "",
+            "detailMap": "",
+            "keywords": [],
+            "baseColor": {
+                "r": 0.6943609714508057,
+                "g": 0.5926192998886108,
+                "b": 0.4731205701828003,
+                "a": 1.0
+            },
+            "metallic": 0.0,
+            "smoothness": 0.17000000178813935,
+            "normalScale": 1.0,
+            "detailStrength": 0.0,
+            "cull": 0.0,
+            "foliageLegacyAux": 0.0,
+            "foliageNormalUp20": 0.0,
+            "baseTiling": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "baseOffset": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "detailTiling": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "detailOffset": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "doubleSidedGI": true
+        },
+        {
+            "name": "Traveler_Boots_DarkSole — story light",
+            "shader": "Universal Render Pipeline/Lit",
+            "baseMap": "",
+            "normalMap": "",
+            "detailMap": "",
+            "keywords": [],
+            "baseColor": {
+                "r": 0.3035319447517395,
+                "g": 0.2527894377708435,
+                "b": 0.2209162414073944,
+                "a": 1.0
+            },
+            "metallic": 0.0,
+            "smoothness": 0.17000000178813935,
+            "normalScale": 1.0,
+            "detailStrength": 1.0,
+            "cull": 0.0,
+            "foliageLegacyAux": 0.0,
+            "foliageNormalUp20": 0.0,
+            "baseTiling": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "baseOffset": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "detailTiling": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "detailOffset": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "doubleSidedGI": true
+        },
+        {
+            "name": "Traveler_Boots_HoneyLeather — story light",
+            "shader": "Universal Render Pipeline/Lit",
+            "baseMap": "",
+            "normalMap": "",
+            "detailMap": "",
+            "keywords": [],
+            "baseColor": {
+                "r": 0.6421664357185364,
+                "g": 0.4956096410751343,
+                "b": 0.35749107599258425,
+                "a": 1.0
+            },
+            "metallic": 0.0,
+            "smoothness": 0.17000000178813935,
+            "normalScale": 1.0,
+            "detailStrength": 1.0,
+            "cull": 0.0,
+            "foliageLegacyAux": 0.0,
+            "foliageNormalUp20": 0.0,
+            "baseTiling": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "baseOffset": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "detailTiling": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "detailOffset": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "doubleSidedGI": true
+        },
+        {
+            "name": "Traveler_Boots_WornChestnut — story light",
+            "shader": "Universal Render Pipeline/Lit",
+            "baseMap": "",
+            "normalMap": "",
+            "detailMap": "",
+            "keywords": [],
+            "baseColor": {
+                "r": 0.5063862204551697,
+                "g": 0.35749107599258425,
+                "b": 0.2527894377708435,
+                "a": 1.0
+            },
+            "metallic": 0.0,
+            "smoothness": 0.17000000178813935,
+            "normalScale": 1.0,
+            "detailStrength": 1.0,
+            "cull": 0.0,
+            "foliageLegacyAux": 0.0,
+            "foliageNormalUp20": 0.0,
+            "baseTiling": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "baseOffset": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "detailTiling": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "detailOffset": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "doubleSidedGI": true
+        },
+        {
+            "name": "Traveler_Cape_DeepOceanLining — story light",
+            "shader": "BorrowedLight/PaintedSurface",
+            "baseMap": "",
+            "normalMap": "",
+            "detailMap": "",
+            "keywords": [
+                "_PAINT_VERTEX_COLOR"
+            ],
+            "baseColor": {
+                "r": 0.17558154463768006,
+                "g": 0.35253891348838808,
+                "b": 0.43662694096565249,
+                "a": 1.0
+            },
+            "metallic": 0.0,
+            "smoothness": 0.09000000357627869,
+            "normalScale": 1.0,
+            "detailStrength": 0.0,
+            "cull": 0.0,
+            "foliageLegacyAux": 0.0,
+            "foliageNormalUp20": 0.0,
+            "baseTiling": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "baseOffset": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "detailTiling": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "detailOffset": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "doubleSidedGI": true
+        },
+        {
+            "name": "Traveler_Cape_SeaMistBinding — story light",
+            "shader": "BorrowedLight/PaintedSurface",
+            "baseMap": "",
+            "normalMap": "",
+            "detailMap": "",
+            "keywords": [
+                "_PAINT_VERTEX_COLOR"
+            ],
+            "baseColor": {
+                "r": 0.373426616191864,
+                "g": 0.6054964065551758,
+                "b": 0.61803138256073,
+                "a": 1.0
+            },
+            "metallic": 0.0,
+            "smoothness": 0.09000000357627869,
+            "normalScale": 1.0,
+            "detailStrength": 0.0,
+            "cull": 0.0,
+            "foliageLegacyAux": 0.0,
+            "foliageNormalUp20": 0.0,
+            "baseTiling": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "baseOffset": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "detailTiling": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "detailOffset": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "doubleSidedGI": true
+        },
+        {
+            "name": "Traveler_Cape_TwilightTeal — story light",
+            "shader": "BorrowedLight/PaintedSurface",
+            "baseMap": "",
+            "normalMap": "",
+            "detailMap": "",
+            "keywords": [
+                "_PAINT_VERTEX_COLOR"
+            ],
+            "baseColor": {
+                "r": 0.2600674033164978,
+                "g": 0.5321354866027832,
+                "b": 0.5784764289855957,
+                "a": 1.0
+            },
+            "metallic": 0.0,
+            "smoothness": 0.09000000357627869,
+            "normalScale": 1.0,
+            "detailStrength": 0.0,
+            "cull": 0.0,
+            "foliageLegacyAux": 0.0,
+            "foliageNormalUp20": 0.0,
+            "baseTiling": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "baseOffset": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "detailTiling": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "detailOffset": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "doubleSidedGI": true
+        },
+        {
+            "name": "Traveler_Coat_WashedBlue — story light",
+            "shader": "BorrowedLight/PaintedSurface",
+            "baseMap": "",
+            "normalMap": "",
+            "detailMap": "",
+            "keywords": [
+                "_PAINT_VERTEX_COLOR"
+            ],
+            "baseColor": {
+                "r": 0.31330406665802,
+                "g": 0.5926192998886108,
+                "b": 0.61803138256073,
+                "a": 1.0
+            },
+            "metallic": 0.0,
+            "smoothness": 0.09000000357627869,
+            "normalScale": 1.0,
+            "detailStrength": 0.0,
+            "cull": 0.0,
+            "foliageLegacyAux": 0.0,
+            "foliageNormalUp20": 0.0,
+            "baseTiling": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "baseOffset": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "detailTiling": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "detailOffset": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "doubleSidedGI": true
+        },
+        {
+            "name": "Traveler_Eye_AmberRim — story light",
+            "shader": "Universal Render Pipeline/Lit",
+            "baseMap": "",
+            "normalMap": "",
+            "detailMap": "",
+            "keywords": [],
+            "baseColor": {
+                "r": 0.5321354866027832,
+                "g": 0.41686996817588808,
+                "b": 0.3055160939693451,
+                "a": 1.0
+            },
+            "metallic": 0.0,
+            "smoothness": 0.3199999928474426,
+            "normalScale": 1.0,
+            "detailStrength": 1.0,
+            "cull": 0.0,
+            "foliageLegacyAux": 0.0,
+            "foliageNormalUp20": 0.0,
+            "baseTiling": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "baseOffset": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "detailTiling": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "detailOffset": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "doubleSidedGI": true
+        },
+        {
+            "name": "Traveler_Eye_Catchlight — story light",
+            "shader": "Universal Render Pipeline/Lit",
+            "baseMap": "",
+            "normalMap": "",
+            "detailMap": "",
+            "keywords": [
+                "_EMISSION"
+            ],
+            "baseColor": {
+                "r": 1.0,
+                "g": 0.9911565184593201,
+                "b": 0.9405249357223511,
+                "a": 1.0
+            },
+            "metallic": 0.0,
+            "smoothness": 0.7200000286102295,
+            "normalScale": 1.0,
+            "detailStrength": 1.0,
+            "cull": 0.0,
+            "foliageLegacyAux": 0.0,
+            "foliageNormalUp20": 0.0,
+            "baseTiling": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "baseOffset": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "detailTiling": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "detailOffset": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "doubleSidedGI": true
+        },
+        {
+            "name": "Traveler_Eye_Chestnut — story light",
+            "shader": "Universal Render Pipeline/Lit",
+            "baseMap": "",
+            "normalMap": "",
+            "detailMap": "",
+            "keywords": [],
+            "baseColor": {
+                "r": 0.4956096410751343,
+                "g": 0.36873388290405276,
+                "b": 0.2671172618865967,
+                "a": 1.0
+            },
+            "metallic": 0.0,
+            "smoothness": 0.3199999928474426,
+            "normalScale": 1.0,
+            "detailStrength": 1.0,
+            "cull": 0.0,
+            "foliageLegacyAux": 0.0,
+            "foliageNormalUp20": 0.0,
+            "baseTiling": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "baseOffset": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "detailTiling": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "detailOffset": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "doubleSidedGI": true
+        },
+        {
+            "name": "Traveler_Eye_Ivory — story light",
+            "shader": "Universal Render Pipeline/Lit",
+            "baseMap": "",
+            "normalMap": "",
+            "detailMap": "",
+            "keywords": [],
+            "baseColor": {
+                "r": 0.8543057441711426,
+                "g": 0.8515938520431519,
+                "b": 0.8152506351470947,
+                "a": 1.0
+            },
+            "metallic": 0.0,
+            "smoothness": 0.18000000715255738,
+            "normalScale": 1.0,
+            "detailStrength": 1.0,
+            "cull": 0.0,
+            "foliageLegacyAux": 0.0,
+            "foliageNormalUp20": 0.0,
+            "baseTiling": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "baseOffset": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "detailTiling": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "detailOffset": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "doubleSidedGI": true
+        },
+        {
+            "name": "Traveler_Eye_Pupil — story light",
+            "shader": "Universal Render Pipeline/Lit",
+            "baseMap": "",
+            "normalMap": "",
+            "detailMap": "",
+            "keywords": [],
+            "baseColor": {
+                "r": 0.11207485944032669,
+                "g": 0.14282560348510743,
+                "b": 0.17923611402511598,
+                "a": 1.0
+            },
+            "metallic": 0.0,
+            "smoothness": 0.5,
+            "normalScale": 1.0,
+            "detailStrength": 1.0,
+            "cull": 0.0,
+            "foliageLegacyAux": 0.0,
+            "foliageNormalUp20": 0.0,
+            "baseTiling": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "baseOffset": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "detailTiling": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "detailOffset": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "doubleSidedGI": true
+        },
+        {
+            "name": "Traveler_Face_Fingernails — story light",
+            "shader": "BorrowedLight/PaintedSurface",
+            "baseMap": "",
+            "normalMap": "",
+            "detailMap": "",
+            "keywords": [
+                "_PAINT_VERTEX_COLOR"
+            ],
+            "baseColor": {
+                "r": 0.9499973654747009,
+                "g": 0.8729804754257202,
+                "b": 0.8006914258003235,
+                "a": 1.0
+            },
+            "metallic": 0.0,
+            "smoothness": 0.20000000298023225,
+            "normalScale": 1.0,
+            "detailStrength": 0.0,
+            "cull": 0.0,
+            "foliageLegacyAux": 0.0,
+            "foliageNormalUp20": 0.0,
+            "baseTiling": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "baseOffset": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "detailTiling": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "detailOffset": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "doubleSidedGI": true
+        },
+        {
+            "name": "Traveler_Face_NoseCream — story light",
+            "shader": "BorrowedLight/PaintedSurface",
+            "baseMap": "",
+            "normalMap": "",
+            "detailMap": "",
+            "keywords": [
+                "_PAINT_VERTEX_COLOR"
+            ],
+            "baseColor": {
+                "r": 0.9452767968177795,
+                "g": 0.8515938520431519,
+                "b": 0.757955014705658,
+                "a": 1.0
+            },
+            "metallic": 0.0,
+            "smoothness": 0.20000000298023225,
+            "normalScale": 1.0,
+            "detailStrength": 0.0,
+            "cull": 0.0,
+            "foliageLegacyAux": 0.0,
+            "foliageNormalUp20": 0.0,
+            "baseTiling": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "baseOffset": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "detailTiling": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "detailOffset": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "doubleSidedGI": true
+        },
+        {
+            "name": "Traveler_Face_PorcelainCream — story light",
+            "shader": "BorrowedLight/PaintedSurface",
+            "baseMap": "",
+            "normalMap": "",
+            "detailMap": "",
+            "keywords": [
+                "_PAINT_VERTEX_COLOR"
+            ],
+            "baseColor": {
+                "r": 0.9357409477233887,
+                "g": 0.8406307697296143,
+                "b": 0.7451512813568115,
+                "a": 1.0
+            },
+            "metallic": 0.0,
+            "smoothness": 0.20000000298023225,
+            "normalScale": 1.0,
+            "detailStrength": 0.0,
+            "cull": 0.0,
+            "foliageLegacyAux": 0.0,
+            "foliageNormalUp20": 0.0,
+            "baseTiling": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "baseOffset": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "detailTiling": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "detailOffset": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "doubleSidedGI": true
+        },
+        {
+            "name": "Traveler_Face_RoseCheeks — story light",
+            "shader": "BorrowedLight/PaintedSurface",
+            "baseMap": "",
+            "normalMap": "",
+            "detailMap": "",
+            "keywords": [
+                "_PAINT_VERTEX_COLOR"
+            ],
+            "baseColor": {
+                "r": 0.9260748028755188,
+                "g": 0.8036309480667114,
+                "b": 0.7287318110466003,
+                "a": 1.0
+            },
+            "metallic": 0.0,
+            "smoothness": 0.20000000298023225,
+            "normalScale": 1.0,
+            "detailStrength": 0.0,
+            "cull": 0.0,
+            "foliageLegacyAux": 0.0,
+            "foliageNormalUp20": 0.0,
+            "baseTiling": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "baseOffset": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "detailTiling": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "detailOffset": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "doubleSidedGI": true
+        },
+        {
+            "name": "Traveler_Face_SoftLips — story light",
+            "shader": "BorrowedLight/PaintedSurface",
+            "baseMap": "",
+            "normalMap": "",
+            "detailMap": "",
+            "keywords": [
+                "_PAINT_VERTEX_COLOR"
+            ],
+            "baseColor": {
+                "r": 0.7673755288124085,
+                "g": 0.5926192998886108,
+                "b": 0.5220286250114441,
+                "a": 1.0
+            },
+            "metallic": 0.0,
+            "smoothness": 0.20000000298023225,
+            "normalScale": 1.0,
+            "detailStrength": 0.0,
+            "cull": 0.0,
+            "foliageLegacyAux": 0.0,
+            "foliageNormalUp20": 0.0,
+            "baseTiling": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "baseOffset": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "detailTiling": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "detailOffset": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "doubleSidedGI": true
+        },
+        {
+            "name": "Traveler_Gloves_OatKnit — story light",
+            "shader": "BorrowedLight/PaintedSurface",
+            "baseMap": "",
+            "normalMap": "",
+            "detailMap": "",
+            "keywords": [
+                "_PAINT_VERTEX_COLOR"
+            ],
+            "baseColor": {
+                "r": 0.6651850342750549,
+                "g": 0.6763172149658203,
+                "b": 0.6138895750045776,
+                "a": 1.0
+            },
+            "metallic": 0.0,
+            "smoothness": 0.09000000357627869,
+            "normalScale": 1.0,
+            "detailStrength": 0.0,
+            "cull": 0.0,
+            "foliageLegacyAux": 0.0,
+            "foliageNormalUp20": 0.0,
+            "baseTiling": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "baseOffset": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "detailTiling": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "detailOffset": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "doubleSidedGI": true
+        },
+        {
+            "name": "Traveler_Hair_Indigo — story light",
+            "shader": "Universal Render Pipeline/Lit",
+            "baseMap": "",
+            "normalMap": "",
+            "detailMap": "",
+            "keywords": [],
+            "baseColor": {
+                "r": 0.21508187055587769,
+                "g": 0.18974819779396058,
+                "b": 0.1931149959564209,
+                "a": 1.0
+            },
+            "metallic": 0.0,
+            "smoothness": 0.17000000178813935,
+            "normalScale": 1.0,
+            "detailStrength": 1.0,
+            "cull": 0.0,
+            "foliageLegacyAux": 0.0,
+            "foliageNormalUp20": 0.0,
+            "baseTiling": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "baseOffset": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "detailTiling": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "detailOffset": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "doubleSidedGI": true
+        },
+        {
+            "name": "Traveler_Hair_MidnightBlue — story light",
+            "shader": "Universal Render Pipeline/Lit",
+            "baseMap": "",
+            "normalMap": "",
+            "detailMap": "",
+            "keywords": [],
+            "baseColor": {
+                "r": 0.34064334630966189,
+                "g": 0.28060415387153628,
+                "b": 0.24269360303878785,
+                "a": 1.0
+            },
+            "metallic": 0.0,
+            "smoothness": 0.17000000178813935,
+            "normalScale": 1.0,
+            "detailStrength": 1.0,
+            "cull": 0.0,
+            "foliageLegacyAux": 0.0,
+            "foliageNormalUp20": 0.0,
+            "baseTiling": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "baseOffset": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "detailTiling": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "detailOffset": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "doubleSidedGI": true
+        },
+        {
+            "name": "Traveler_Hood_DuskBlue — story light",
+            "shader": "BorrowedLight/PaintedSurface",
+            "baseMap": "",
+            "normalMap": "",
+            "detailMap": "",
+            "keywords": [
+                "_PAINT_VERTEX_COLOR"
+            ],
+            "baseColor": {
+                "r": 0.24269360303878785,
+                "g": 0.43662694096565249,
+                "b": 0.5168808698654175,
+                "a": 1.0
+            },
+            "metallic": 0.0,
+            "smoothness": 0.09000000357627869,
+            "normalScale": 1.0,
+            "detailStrength": 0.0,
+            "cull": 0.0,
+            "foliageLegacyAux": 0.0,
+            "foliageNormalUp20": 0.0,
+            "baseTiling": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "baseOffset": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "detailTiling": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "detailOffset": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "doubleSidedGI": true
+        },
+        {
+            "name": "Traveler_Lantern_AmberGlass — story light",
+            "shader": "Universal Render Pipeline/Lit",
+            "baseMap": "",
+            "normalMap": "",
+            "detailMap": "",
+            "keywords": [
+                "_EMISSION"
+            ],
+            "baseColor": {
+                "r": 0.9866952300071716,
+                "g": 0.7857768535614014,
+                "b": 0.4235827624797821,
+                "a": 1.0
+            },
+            "metallic": 0.0,
+            "smoothness": 0.17000000178813935,
+            "normalScale": 1.0,
+            "detailStrength": 1.0,
+            "cull": 0.0,
+            "foliageLegacyAux": 0.0,
+            "foliageNormalUp20": 0.0,
+            "baseTiling": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "baseOffset": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "detailTiling": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "detailOffset": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "doubleSidedGI": true
+        },
+        {
+            "name": "Traveler_Lantern_BrushedBrass — story light",
+            "shader": "Universal Render Pipeline/Lit",
+            "baseMap": "",
+            "normalMap": "",
+            "detailMap": "",
+            "keywords": [],
+            "baseColor": {
+                "r": 0.8209797739982605,
+                "g": 0.6421664357185364,
+                "b": 0.35749107599258425,
+                "a": 1.0
+            },
+            "metallic": 0.7200000286102295,
+            "smoothness": 0.5799999833106995,
+            "normalScale": 1.0,
+            "detailStrength": 1.0,
+            "cull": 2.0,
+            "foliageLegacyAux": 0.0,
+            "foliageNormalUp20": 0.0,
+            "baseTiling": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "baseOffset": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "detailTiling": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "detailOffset": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "doubleSidedGI": false
+        },
+        {
+            "name": "Traveler_Lantern_GoldEdges — story light",
+            "shader": "Universal Render Pipeline/Lit",
+            "baseMap": "",
+            "normalMap": "",
+            "detailMap": "",
+            "keywords": [],
+            "baseColor": {
+                "r": 0.9452767968177795,
+                "g": 0.8036309480667114,
+                "b": 0.5168808698654175,
+                "a": 1.0
+            },
+            "metallic": 0.7200000286102295,
+            "smoothness": 0.5799999833106995,
+            "normalScale": 1.0,
+            "detailStrength": 1.0,
+            "cull": 2.0,
+            "foliageLegacyAux": 0.0,
+            "foliageNormalUp20": 0.0,
+            "baseTiling": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "baseOffset": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "detailTiling": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "detailOffset": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "doubleSidedGI": false
+        },
+        {
+            "name": "Traveler_Lantern_WarmHeart — story light",
+            "shader": "Universal Render Pipeline/Lit",
+            "baseMap": "",
+            "normalMap": "",
+            "detailMap": "",
+            "keywords": [
+                "_EMISSION"
+            ],
+            "baseColor": {
+                "r": 1.0,
+                "g": 0.8911432027816773,
+                "b": 0.5838313698768616,
+                "a": 1.0
+            },
+            "metallic": 0.0,
+            "smoothness": 0.17000000178813935,
+            "normalScale": 1.0,
+            "detailStrength": 1.0,
+            "cull": 0.0,
+            "foliageLegacyAux": 0.0,
+            "foliageNormalUp20": 0.0,
+            "baseTiling": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "baseOffset": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "detailTiling": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "detailOffset": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "doubleSidedGI": true
+        },
+        {
+            "name": "Traveler_Scarf_EdgeHoney — story light",
+            "shader": "BorrowedLight/PaintedSurface",
+            "baseMap": "",
+            "normalMap": "",
+            "detailMap": "",
+            "keywords": [
+                "_PAINT_VERTEX_COLOR"
+            ],
+            "baseColor": {
+                "r": 0.9866952300071716,
+                "g": 0.8433891534805298,
+                "b": 0.527112603187561,
+                "a": 1.0
+            },
+            "metallic": 0.0,
+            "smoothness": 0.09000000357627869,
+            "normalScale": 1.0,
+            "detailStrength": 0.0,
+            "cull": 0.0,
+            "foliageLegacyAux": 0.0,
+            "foliageNormalUp20": 0.0,
+            "baseTiling": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "baseOffset": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "detailTiling": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "detailOffset": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "doubleSidedGI": true
+        },
+        {
+            "name": "Traveler_Scarf_HarvestGold — story light",
+            "shader": "BorrowedLight/PaintedSurface",
+            "baseMap": "",
+            "normalMap": "",
+            "detailMap": "",
+            "keywords": [
+                "_PAINT_VERTEX_COLOR"
+            ],
+            "baseColor": {
+                "r": 0.9260748028755188,
+                "g": 0.7152408361434937,
+                "b": 0.38109174370765688,
+                "a": 1.0
+            },
+            "metallic": 0.0,
+            "smoothness": 0.09000000357627869,
+            "normalScale": 1.0,
+            "detailStrength": 0.0,
+            "cull": 0.0,
+            "foliageLegacyAux": 0.0,
+            "foliageNormalUp20": 0.0,
+            "baseTiling": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "baseOffset": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "detailTiling": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "detailOffset": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "doubleSidedGI": true
+        },
+        {
+            "name": "Traveler_Stitches_PaleFlax — story light",
+            "shader": "Universal Render Pipeline/Lit",
+            "baseMap": "",
+            "normalMap": "",
+            "detailMap": "",
+            "keywords": [],
+            "baseColor": {
+                "r": 0.7977376580238342,
+                "g": 0.8266569972038269,
+                "b": 0.741905152797699,
+                "a": 1.0
+            },
+            "metallic": 0.0,
+            "smoothness": 0.17000000178813935,
+            "normalScale": 1.0,
+            "detailStrength": 1.0,
+            "cull": 0.0,
+            "foliageLegacyAux": 0.0,
+            "foliageNormalUp20": 0.0,
+            "baseTiling": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "baseOffset": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "detailTiling": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "detailOffset": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "doubleSidedGI": true
+        },
+        {
+            "name": "Traveler_Trousers_Ink — story light",
+            "shader": "BorrowedLight/PaintedSurface",
+            "baseMap": "",
+            "normalMap": "",
+            "detailMap": "",
+            "keywords": [
+                "_PAINT_VERTEX_COLOR"
+            ],
+            "baseColor": {
+                "r": 0.20598405599594117,
+                "g": 0.3491900861263275,
+                "b": 0.41002076864242556,
+                "a": 1.0
+            },
+            "metallic": 0.0,
+            "smoothness": 0.09000000357627869,
+            "normalScale": 1.0,
+            "detailStrength": 0.0,
+            "cull": 0.0,
+            "foliageLegacyAux": 0.0,
+            "foliageNormalUp20": 0.0,
+            "baseTiling": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "baseOffset": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "detailTiling": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "detailOffset": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "doubleSidedGI": true
+        }
+    ],
+    "ambientSky": {
+        "r": 0.5,
+        "g": 0.5899999737739563,
+        "b": 0.699999988079071,
+        "a": 1.0
+    },
+    "ambientEquator": {
+        "r": 0.3700000047683716,
+        "g": 0.44999998807907107,
+        "b": 0.5199999809265137,
+        "a": 1.0
+    },
+    "ambientGround": {
+        "r": 0.23000000417232514,
+        "g": 0.2800000011920929,
+        "b": 0.33000001311302187,
+        "a": 1.0
+    },
+    "ambientIntensity": 1.0,
+    "ambientMode": "Trilight",
+    "captureComplete": true,
+    "completed": true,
+    "failed": false,
+    "expectedImageCount": 10,
+    "completedImages": 10,
+    "capturedImageCount": 10,
+    "failure": ""
+}

@@ -1,0 +1,365 @@
+[
+  {
+    "type": "navigation-start",
+    "sinceNavigationMs": 0,
+    "requestedUrl": "http://127.0.0.1:8779/"
+  },
+  {
+    "type": "game-ready",
+    "sinceNavigationMs": 10787,
+    "url": "http://127.0.0.1:8779/",
+    "canvas": {
+      "width": 1440,
+      "height": 900,
+      "cssWidth": 1440,
+      "cssHeight": 900,
+      "cssLeft": 0,
+      "cssTop": 0,
+      "devicePixelRatio": 1,
+      "viewportWidth": 1440,
+      "viewportHeight": 900,
+      "visibility": "visible",
+      "documentFocused": true,
+      "canvasFocused": true
+    }
+  },
+  {
+    "type": "menu-click",
+    "sinceNavigationMs": 10787,
+    "at": [
+      195,
+      566
+    ]
+  },
+  {
+    "type": "game-phase",
+    "sinceNavigationMs": 10818,
+    "phase": 0
+  },
+  {
+    "type": "game-phase",
+    "sinceNavigationMs": 10820,
+    "phase": 1
+  },
+  {
+    "type": "keyboard-press-start",
+    "sinceNavigationMs": 12804,
+    "key": "1",
+    "delayRequestedMs": 90
+  },
+  {
+    "type": "keyboard-press-end",
+    "sinceNavigationMs": 12917,
+    "key": "1"
+  },
+  {
+    "type": "keyboard-press-start",
+    "sinceNavigationMs": 13213,
+    "key": "d",
+    "delayRequestedMs": 90
+  },
+  {
+    "type": "keyboard-press-end",
+    "sinceNavigationMs": 13317,
+    "key": "d"
+  },
+  {
+    "type": "keyboard-press-start",
+    "sinceNavigationMs": 13599,
+    "key": "Enter",
+    "delayRequestedMs": 90
+  },
+  {
+    "type": "game-phase",
+    "sinceNavigationMs": 13622,
+    "phase": 2
+  },
+  {
+    "type": "keyboard-press-end",
+    "sinceNavigationMs": 13709,
+    "key": "Enter"
+  },
+  {
+    "type": "keyboard-press-start",
+    "sinceNavigationMs": 13996,
+    "key": "2",
+    "delayRequestedMs": 90
+  },
+  {
+    "type": "keyboard-press-end",
+    "sinceNavigationMs": 14117,
+    "key": "2"
+  },
+  {
+    "type": "keyboard-press-start",
+    "sinceNavigationMs": 14403,
+    "key": "d",
+    "delayRequestedMs": 90
+  },
+  {
+    "type": "keyboard-press-end",
+    "sinceNavigationMs": 14510,
+    "key": "d"
+  },
+  {
+    "type": "keyboard-press-start",
+    "sinceNavigationMs": 14793,
+    "key": "Enter",
+    "delayRequestedMs": 90
+  },
+  {
+    "type": "game-phase",
+    "sinceNavigationMs": 14813,
+    "phase": 3
+  },
+  {
+    "type": "keyboard-press-end",
+    "sinceNavigationMs": 14909,
+    "key": "Enter"
+  },
+  {
+    "type": "keyboard-press-start",
+    "sinceNavigationMs": 15196,
+    "key": "3",
+    "delayRequestedMs": 90
+  },
+  {
+    "type": "keyboard-press-end",
+    "sinceNavigationMs": 15317,
+    "key": "3"
+  },
+  {
+    "type": "keyboard-press-start",
+    "sinceNavigationMs": 15611,
+    "key": "d",
+    "delayRequestedMs": 90
+  },
+  {
+    "type": "keyboard-press-end",
+    "sinceNavigationMs": 15728,
+    "key": "d"
+  },
+  {
+    "type": "keyboard-press-start",
+    "sinceNavigationMs": 16008,
+    "key": "2",
+    "delayRequestedMs": 90
+  },
+  {
+    "type": "keyboard-press-end",
+    "sinceNavigationMs": 16113,
+    "key": "2"
+  },
+  {
+    "type": "keyboard-press-start",
+    "sinceNavigationMs": 16400,
+    "key": "d",
+    "delayRequestedMs": 90
+  },
+  {
+    "type": "keyboard-press-end",
+    "sinceNavigationMs": 16496,
+    "key": "d"
+  },
+  {
+    "type": "keyboard-press-start",
+    "sinceNavigationMs": 16781,
+    "key": "Space",
+    "delayRequestedMs": 90
+  },
+  {
+    "type": "keyboard-press-end",
+    "sinceNavigationMs": 16898,
+    "key": "Space"
+  },
+  {
+    "type": "keyboard-press-start",
+    "sinceNavigationMs": 17180,
+    "key": "1",
+    "delayRequestedMs": 90
+  },
+  {
+    "type": "keyboard-press-end",
+    "sinceNavigationMs": 17298,
+    "key": "1"
+  },
+  {
+    "type": "keyboard-press-start",
+    "sinceNavigationMs": 17584,
+    "key": "Space",
+    "delayRequestedMs": 90
+  },
+  {
+    "type": "keyboard-press-end",
+    "sinceNavigationMs": 17701,
+    "key": "Space"
+  },
+  {
+    "type": "keyboard-press-start",
+    "sinceNavigationMs": 17989,
+    "key": "Enter",
+    "delayRequestedMs": 90
+  },
+  {
+    "type": "game-phase",
+    "sinceNavigationMs": 18004,
+    "phase": 4
+  },
+  {
+    "type": "keyboard-press-end",
+    "sinceNavigationMs": 18110,
+    "key": "Enter"
+  },
+  {
+    "type": "puzzle-completed",
+    "sinceNavigationMs": 18392,
+    "phases": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "method": "Actual keyboard input"
+  },
+  {
+    "type": "return-to-island-click",
+    "sinceNavigationMs": 24899,
+    "at": [
+      210,
+      634
+    ]
+  },
+  {
+    "type": "right-mouse-orbit-start",
+    "sinceNavigationMs": 31647,
+    "pass": 1,
+    "from": [
+      700,
+      440
+    ],
+    "to": [
+      1300,
+      430
+    ],
+    "deltaX": 600,
+    "nominalYawDeltaDegrees": 78,
+    "nominalSensitivityDegreesPerPixel": 0.13
+  },
+  {
+    "type": "right-mouse-orbit-end",
+    "sinceNavigationMs": 33514,
+    "pass": 1,
+    "actualHeldMs": 1867
+  },
+  {
+    "type": "right-mouse-orbit-start",
+    "sinceNavigationMs": 33867,
+    "pass": 2,
+    "from": [
+      700,
+      440
+    ],
+    "to": [
+      1300,
+      430
+    ],
+    "deltaX": 600,
+    "nominalYawDeltaDegrees": 78,
+    "nominalSensitivityDegreesPerPixel": 0.13
+  },
+  {
+    "type": "right-mouse-orbit-end",
+    "sinceNavigationMs": 35662,
+    "pass": 2,
+    "actualHeldMs": 1795
+  },
+  {
+    "type": "wheel-positive-y",
+    "sinceNavigationMs": 36168,
+    "pulse": 1,
+    "deltaY": 240,
+    "intendedEffect": "Zoom closer; sign corrected from the prior far-camera video"
+  },
+  {
+    "type": "wheel-positive-y",
+    "sinceNavigationMs": 36377,
+    "pulse": 2,
+    "deltaY": 240,
+    "intendedEffect": "Zoom closer; sign corrected from the prior far-camera video"
+  },
+  {
+    "type": "wheel-positive-y",
+    "sinceNavigationMs": 36679,
+    "pulse": 3,
+    "deltaY": 240,
+    "intendedEffect": "Zoom closer; sign corrected from the prior far-camera video"
+  },
+  {
+    "type": "wheel-positive-y",
+    "sinceNavigationMs": 37057,
+    "pulse": 4,
+    "deltaY": 240,
+    "intendedEffect": "Zoom closer; sign corrected from the prior far-camera video"
+  },
+  {
+    "type": "wheel-positive-y",
+    "sinceNavigationMs": 37384,
+    "pulse": 5,
+    "deltaY": 240,
+    "intendedEffect": "Zoom closer; sign corrected from the prior far-camera video"
+  },
+  {
+    "type": "wheel-positive-y",
+    "sinceNavigationMs": 37646,
+    "pulse": 6,
+    "deltaY": 240,
+    "intendedEffect": "Zoom closer; sign corrected from the prior far-camera video"
+  },
+  {
+    "type": "wheel-positive-y",
+    "sinceNavigationMs": 37962,
+    "pulse": 7,
+    "deltaY": 240,
+    "intendedEffect": "Zoom closer; sign corrected from the prior far-camera video"
+  },
+  {
+    "type": "wheel-positive-y",
+    "sinceNavigationMs": 38283,
+    "pulse": 8,
+    "deltaY": 240,
+    "intendedEffect": "Zoom closer; sign corrected from the prior far-camera video"
+  },
+  {
+    "type": "camera-settle-start",
+    "sinceNavigationMs": 38406,
+    "requestedDurationMs": 3000,
+    "nominalTotalYawDegrees": 156,
+    "sourceDistanceClampMinimum": 2.5,
+    "actualCameraStateMeasured": false
+  },
+  {
+    "type": "portrait-window-start",
+    "sinceNavigationMs": 41431,
+    "requestedDurationMs": 15000,
+    "canvas": {
+      "width": 1440,
+      "height": 900,
+      "cssWidth": 1440,
+      "cssHeight": 900,
+      "cssLeft": 0,
+      "cssTop": 0,
+      "devicePixelRatio": 1,
+      "viewportWidth": 1440,
+      "viewportHeight": 900,
+      "visibility": "visible",
+      "documentFocused": true,
+      "canvasFocused": true
+    }
+  },
+  {
+    "type": "portrait-window-end",
+    "sinceNavigationMs": 56438,
+    "durationMs": 15007
+  }
+]

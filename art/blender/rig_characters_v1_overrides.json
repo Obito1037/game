@@ -1,0 +1,8 @@
+{
+ "_note": "Normalised units (character height = 1). Values read from art/verification/characters-v1/<id>/rest_front.png (x = (px-400)/926, z = 0.5 + (500-py)/926).",
+ "postman": {"shoulder_x": 0.09, "elbow_x": 0.17, "wrist_x": 0.25},
+ "abo": {"shoulder_x": 0.11, "elbow_x": 0.19, "wrist_x": 0.275, "armpit_x": 0.13,
+         "leg_r": 0.045, "skirt": true, "hem_z": 0.12},
+ "dengbo": {"shoulder_x": 0.125, "elbow_x": 0.185, "wrist_x": 0.245, "armpit_x": 0.15,
+            "neck_z": 0.79, "head_z": 0.845, "coat": true, "hem_z": 0.32}
+}

@@ -1,0 +1,843 @@
+{
+  "schema": "jieguang.environment.layout.v1",
+  "units": "metres",
+  "up": "Y",
+  "capeOrigin": [
+    7.0,
+    2.4,
+    -21.0
+  ],
+  "source": "art/design/script/07_完整故事与生图提示词（最终版）.md",
+  "anchors": [
+    {
+      "name": "Anchor_PlayerSpawn",
+      "position": [
+        11.4,
+        2.4499999999999997,
+        -24.5
+      ],
+      "forward": [
+        0,
+        0,
+        1
+      ],
+      "kind": "point"
+    },
+    {
+      "name": "Anchor_Lamp_WanFeng",
+      "position": [
+        8.0,
+        6.199999999999999,
+        -16.5
+      ],
+      "forward": [
+        -0.1132915505945328,
+        -0.6141844890503502,
+        -0.7809881164101325
+      ],
+      "kind": "lamp",
+      "height": 3.8
+    },
+    {
+      "name": "Anchor_Lamp_YueChuang",
+      "position": [
+        4.0,
+        6.4,
+        -21.0
+      ],
+      "forward": [
+        0.00044387474138786627,
+        -0.6441596856726014,
+        0.7648909087767937
+      ],
+      "kind": "lamp",
+      "height": 4
+    },
+    {
+      "name": "Anchor_Lamp_GuiHang",
+      "position": [
+        11.0,
+        6.199999999999999,
+        -18.0
+      ],
+      "forward": [
+        -0.40637,
+        -0.68067,
+        -0.60955
+      ],
+      "kind": "lamp",
+      "height": 3.8
+    },
+    {
+      "name": "Target_Path",
+      "position": [
+        5.5,
+        2.4499999999999997,
+        -21.0
+      ],
+      "forward": [
+        0,
+        0,
+        1
+      ],
+      "kind": "target"
+    },
+    {
+      "name": "Target_Bench",
+      "position": [
+        9.0,
+        2.85,
+        -21.0
+      ],
+      "forward": [
+        0,
+        0,
+        1
+      ],
+      "kind": "target"
+    },
+    {
+      "name": "Target_Window",
+      "position": [
+        4.00164,
+        4.02,
+        -18.17393
+      ],
+      "forward": [
+        0.438371,
+        0,
+        -0.898794
+      ],
+      "kind": "target"
+    },
+    {
+      "name": "Target_Pier",
+      "position": [
+        10.0,
+        2.48,
+        -16.0
+      ],
+      "forward": [
+        0,
+        0,
+        1
+      ],
+      "kind": "target"
+    },
+    {
+      "name": "Anchor_FlagpoleHook",
+      "position": [
+        10.0,
+        4.25,
+        -10.5
+      ],
+      "forward": [
+        0,
+        0,
+        -1
+      ],
+      "kind": "hook"
+    },
+    {
+      "name": "NPC_AYing",
+      "position": [
+        9.7,
+        2.48,
+        -12.5
+      ],
+      "forward": [
+        0,
+        0,
+        -1
+      ],
+      "kind": "npc_feet"
+    },
+    {
+      "name": "NPC_Postman",
+      "position": [
+        8.0,
+        2.4094663636957425,
+        -13.0
+      ],
+      "forward": [
+        0,
+        0,
+        -1
+      ],
+      "kind": "npc_feet"
+    },
+    {
+      "name": "NPC_Bench",
+      "position": [
+        9.0,
+        2.85,
+        -20.96
+      ],
+      "forward": [
+        0,
+        0,
+        1
+      ],
+      "kind": "npc_seat"
+    },
+    {
+      "name": "NPC_ABo_Window",
+      "position": [
+        3.41642,
+        2.8899999999999997,
+        -16.97404
+      ],
+      "forward": [
+        0.438371,
+        0,
+        -0.898794
+      ],
+      "kind": "npc_seat"
+    },
+    {
+      "name": "NPC_DengBo_Box",
+      "position": [
+        10.65,
+        3.04,
+        -10.8
+      ],
+      "forward": [
+        0,
+        0,
+        1
+      ],
+      "kind": "npc_seat"
+    },
+    {
+      "name": "Anchor_VillageGate",
+      "position": [
+        -12,
+        8.385504289400219,
+        4
+      ],
+      "forward": [
+        0.37139068,
+        0,
+        -0.92847669
+      ],
+      "kind": "npc_feet"
+    },
+    {
+      "name": "Anchor_GoldenTree",
+      "position": [
+        1.8,
+        2.364035344389671,
+        -21.4
+      ],
+      "forward": [
+        0,
+        0,
+        1
+      ],
+      "kind": "point"
+    },
+    {
+      "name": "Anchor_Boat",
+      "position": [
+        12.2,
+        -0.45,
+        -12.3
+      ],
+      "forward": [
+        0,
+        0,
+        -1
+      ],
+      "kind": "point"
+    },
+    {
+      "name": "Target_Sea",
+      "position": [
+        10,
+        -0.16,
+        19.5
+      ],
+      "forward": [
+        0,
+        0,
+        1
+      ],
+      "kind": "target"
+    },
+    {
+      "name": "NPC_ABo_Door",
+      "position": [
+        6.20143,
+        2.399166154277771,
+        -18.23588
+      ],
+      "forward": [
+        0.438371,
+        0,
+        -0.898794
+      ],
+      "kind": "npc_feet"
+    },
+    {
+      "name": "Cam_Title",
+      "position": [
+        57,
+        44,
+        -73
+      ],
+      "forward": [
+        -62,
+        -39,
+        74
+      ],
+      "kind": "camera",
+      "fov": 45,
+      "lookAt": [
+        -5,
+        5,
+        1
+      ]
+    },
+    {
+      "name": "Cam_Puzzle",
+      "position": [
+        27,
+        18,
+        -45
+      ],
+      "forward": [
+        -20,
+        -13,
+        27
+      ],
+      "kind": "camera",
+      "fov": 43,
+      "lookAt": [
+        7,
+        5,
+        -18
+      ]
+    },
+    {
+      "name": "Cam_Pier",
+      "position": [
+        22,
+        8,
+        -11
+      ],
+      "forward": [
+        -12,
+        -4,
+        -4
+      ],
+      "kind": "camera",
+      "fov": 48,
+      "lookAt": [
+        10,
+        4,
+        -15
+      ]
+    },
+    {
+      "name": "Cam_Village",
+      "position": [
+        12,
+        21,
+        -8
+      ],
+      "forward": [
+        -26,
+        -11,
+        20
+      ],
+      "kind": "camera",
+      "fov": 48,
+      "lookAt": [
+        -14,
+        10,
+        12
+      ]
+    },
+    {
+      "name": "Sky_ScatterZone_Village",
+      "position": [
+        -13,
+        11,
+        11
+      ],
+      "forward": [
+        0,
+        0,
+        1
+      ],
+      "kind": "scatter",
+      "size": [
+        21,
+        5,
+        18
+      ]
+    },
+    {
+      "name": "Sky_ScatterZone_Pier",
+      "position": [
+        10.0,
+        4.4,
+        -14.0
+      ],
+      "forward": [
+        0,
+        0,
+        1
+      ],
+      "kind": "scatter",
+      "size": [
+        3.3,
+        3.5,
+        9
+      ]
+    }
+  ],
+  "houses": [
+    {
+      "name": "VillageHouse_01",
+      "asset": "cottage_teal",
+      "position": [
+        -17.5,
+        8.269083945525665,
+        3.6
+      ],
+      "yaw": 90,
+      "scale": 0.8
+    },
+    {
+      "name": "VillageHouse_02",
+      "asset": "cottage_ochre",
+      "position": [
+        -17.8,
+        8.387678337713668,
+        6.7
+      ],
+      "yaw": 90,
+      "scale": 0.8
+    },
+    {
+      "name": "VillageHouse_03",
+      "asset": "cottage_slate",
+      "position": [
+        -17.8,
+        8.385579217784514,
+        9.9
+      ],
+      "yaw": 90,
+      "scale": 0.8
+    },
+    {
+      "name": "VillageHouse_04",
+      "asset": "cottage_teal",
+      "position": [
+        -17.8,
+        8.379089475142171,
+        13.1
+      ],
+      "yaw": 90,
+      "scale": 0.8
+    },
+    {
+      "name": "VillageHouse_05",
+      "asset": "cottage_ochre",
+      "position": [
+        -16.8,
+        8.376408220631953,
+        16.3
+      ],
+      "yaw": 90,
+      "scale": 0.8
+    },
+    {
+      "name": "VillageHouse_06",
+      "asset": "cottage_slate",
+      "position": [
+        -14,
+        8.388404511990577,
+        18.3
+      ],
+      "yaw": 180,
+      "scale": 0.8
+    },
+    {
+      "name": "VillageHouse_07",
+      "asset": "cottage_teal",
+      "position": [
+        -9,
+        8.026994671509064,
+        3.7
+      ],
+      "yaw": 270,
+      "scale": 0.8
+    },
+    {
+      "name": "VillageHouse_08",
+      "asset": "cottage_ochre",
+      "position": [
+        -9.4,
+        8.368513953392302,
+        7.1
+      ],
+      "yaw": 270,
+      "scale": 0.8
+    },
+    {
+      "name": "VillageHouse_09",
+      "asset": "cottage_slate",
+      "position": [
+        -9.5,
+        8.371062867422317,
+        10.5
+      ],
+      "yaw": 270,
+      "scale": 0.8
+    },
+    {
+      "name": "VillageHouse_10",
+      "asset": "cottage_teal",
+      "position": [
+        -9,
+        8.371509872858411,
+        13.9
+      ],
+      "yaw": 270,
+      "scale": 0.8
+    },
+    {
+      "name": "VillageHouse_11",
+      "asset": "cottage_ochre",
+      "position": [
+        -7.8,
+        8.184994174386041,
+        17.3
+      ],
+      "yaw": 270,
+      "scale": 0.8
+    }
+  ],
+  "props": [
+    {
+      "name": "GrandmotherHouse",
+      "asset": "abode_grandma",
+      "position": [
+        4.0,
+        2.4,
+        -16.3
+      ],
+      "yaw": 154,
+      "scale": 1
+    },
+    {
+      "name": "Bench",
+      "asset": "bench",
+      "position": [
+        9.0,
+        2.4,
+        -21.0
+      ],
+      "yaw": 0,
+      "scale": 1
+    },
+    {
+      "name": "Armillary",
+      "asset": "armillary_platform",
+      "position": [
+        7.0,
+        2.4,
+        -24.0
+      ],
+      "yaw": 0,
+      "scale": 1
+    },
+    {
+      "name": "CrescentMemorial",
+      "asset": "crescent_sculpture",
+      "position": [
+        1.2000000000000002,
+        2.4,
+        -24.6
+      ],
+      "yaw": -20,
+      "scale": 1
+    },
+    {
+      "name": "Flagpole",
+      "asset": "flagpole_blue",
+      "position": [
+        10.0,
+        2.48,
+        -10.2
+      ],
+      "yaw": 180,
+      "scale": 1
+    },
+    {
+      "name": "HarborLantern",
+      "asset": "harbor_lantern",
+      "position": [
+        10.0,
+        3.46,
+        -10.5
+      ],
+      "yaw": 0,
+      "scale": 1
+    },
+    {
+      "name": "KeeperBox",
+      "asset": "dock_crate",
+      "position": [
+        10.65,
+        2.48,
+        -10.8
+      ],
+      "yaw": 0,
+      "scale": 1
+    },
+    {
+      "name": "KeeperKettle",
+      "asset": "dock_kettle",
+      "position": [
+        11.1,
+        2.48,
+        -11.0
+      ],
+      "yaw": 0,
+      "scale": 1
+    },
+    {
+      "name": "Well",
+      "asset": "village_well",
+      "position": [
+        -14.6,
+        8.39908301096802,
+        13
+      ],
+      "yaw": 0,
+      "scale": 1
+    },
+    {
+      "name": "ClothesLine",
+      "asset": "laundry_line",
+      "position": [
+        -15.5,
+        8.383327317661081,
+        5
+      ],
+      "yaw": 90,
+      "scale": 1
+    }
+  ],
+  "paths": [
+    {
+      "name": "CapeVillage",
+      "width": 1.75,
+      "points": [
+        [
+          5.5,
+          2.42,
+          -22.0
+        ],
+        [
+          5.5,
+          2.42,
+          -21.0
+        ],
+        [
+          7.0,
+          2.42,
+          -19.7
+        ],
+        [
+          9.5,
+          2.42,
+          -19.2
+        ],
+        [
+          9.5,
+          2.42,
+          -16.2
+        ],
+        [
+          9.5,
+          2.42,
+          -14.6
+        ],
+        [
+          7.0,
+          2.42,
+          -13.0
+        ],
+        [
+          3,
+          2.747569344586,
+          -11
+        ],
+        [
+          0,
+          3.211889834974863,
+          -8.2
+        ],
+        [
+          -5,
+          4.196495176247559,
+          -5
+        ],
+        [
+          -10,
+          6.140349844722346,
+          -1
+        ],
+        [
+          -12,
+          8.385504289400219,
+          4
+        ],
+        [
+          -13,
+          8.397755927611367,
+          10
+        ],
+        [
+          -12,
+          8.399358010369527,
+          16
+        ],
+        [
+          -9,
+          7.53571062706951,
+          21
+        ],
+        [
+          -3,
+          6.015620994601252,
+          25
+        ]
+      ]
+    },
+    {
+      "name": "OuterCoast",
+      "width": 1.35,
+      "points": [
+        [
+          -12,
+          8.385504289400219,
+          4
+        ],
+        [
+          -18,
+          7.027948696297893,
+          0
+        ],
+        [
+          -20.9,
+          7.9016030211191195,
+          4
+        ],
+        [
+          -21.4,
+          8.334512373439784,
+          11
+        ],
+        [
+          -19.2,
+          8.333681542129616,
+          17
+        ],
+        [
+          -15.5,
+          8.096642037322097,
+          21
+        ],
+        [
+          -9,
+          7.242234436819154,
+          23
+        ],
+        [
+          -3,
+          6.015620994601252,
+          25
+        ]
+      ]
+    },
+    {
+      "name": "CapePier",
+      "width": 1.9,
+      "points": [
+        [
+          5.5,
+          2.4299999999999997,
+          -21.0
+        ],
+        [
+          7.0,
+          2.4299999999999997,
+          -20.0
+        ],
+        [
+          10.0,
+          2.4299999999999997,
+          -19.0
+        ]
+      ]
+    },
+    {
+      "name": "CapeHome",
+      "width": 1.1,
+      "points": [
+        [
+          5.5,
+          2.4299999999999997,
+          -21.0
+        ],
+        [
+          6.4,
+          2.4299999999999997,
+          -18.65
+        ],
+        [
+          5.93841,
+          2.4299999999999997,
+          -17.6966
+        ]
+      ]
+    },
+    {
+      "name": "SpawnLane",
+      "width": 1.3,
+      "points": [
+        [
+          11.4,
+          2.42,
+          -24.5
+        ],
+        [
+          11.4,
+          2.42,
+          -22.5
+        ],
+        [
+          10.8,
+          2.42,
+          -19.8
+        ],
+        [
+          9.5,
+          2.42,
+          -19.2
+        ]
+      ]
+    }
+  ],
+  "lamps": {
+    "narrowAngle": 24,
+    "wideAngle": 60,
+    "wanfengWideAngle": 56
+  },
+  "note": "Offline planned coordinates. Mesh clearance and Unity import verification pending."
+}

@@ -1,0 +1,86 @@
+{
+  "id": "rock_mountain",
+  "source_id": "rock_mountain",
+  "kind": "rock",
+  "source_path": "art/incoming/env-2026-10-22/rock_mountain/岩石山3d模型.glb",
+  "source_sha256": "0ff327a32f946ae1ed32d0316b19bdf6e60003f5ffdadc0474bd30cc57c28d21",
+  "input_component_ranks": [
+    0
+  ],
+  "input_triangles": 1020804,
+  "scale_to_metres": 7.18946855192589,
+  "dimensions_xyz_blender_metres": [
+    4.37052059173584,
+    4.481003761291504,
+    4.5081787109375
+  ],
+  "dimensions_xyz_unity_metres": [
+    4.37052059173584,
+    4.508178594522178,
+    4.481003522872925
+  ],
+  "pivot": "bottom centre of all retained parts; base and trunk share exact world-aligned origin",
+  "axis": "FBX Y-up, -Z forward; metres; baked space transform",
+  "steps": [
+    "manual grouping by connected components and three-view source inspection",
+    "discard presentation-sheet cutaways and duplicate floating study panels",
+    "weld coincident glTF seam vertices while preserving UV loops",
+    "uniform physical scale; bottom-centre pivot",
+    "QEM collapse decimation",
+    "new smart-projected UV atlas; diffuse-colour reprojection from retained high-poly source",
+    "preserve all selected visible object geometry",
+    "remove only buried downward bottom-cap faces",
+    "matte source-colour material"
+  ],
+  "bottom_faces_removed": 20,
+  "textures": [
+    {
+      "path": "art/generated/env-v1/assets/rock_mountain/textures/rock_mountain_BaseColor.png",
+      "sha256": "e00e28afb617ecac60b7dd952149059b659696c71b8d512c9f51523d0cf5181e",
+      "width": 1024,
+      "height": 1024,
+      "color_space": "sRGB"
+    }
+  ],
+  "materials": [
+    {
+      "name": "rock_mountain_Stone",
+      "role": "Stone",
+      "base_color_texture": "art/generated/env-v1/assets/rock_mountain/textures/rock_mountain_BaseColor.png",
+      "roughness": 0.86,
+      "emission_color": [
+        0,
+        0,
+        0
+      ],
+      "emission_strength": 0
+    }
+  ],
+  "lod0": {
+    "fbx": "art/generated/env-v1/assets/rock_mountain/rock_mountain/rock_mountain_LOD0.fbx",
+    "sha256": "a4df4369587681f5e74a2fbe14c42e8e5e69519cc9d5def70a66a3ba3394c6f1",
+    "triangles": 7796,
+    "objects": [
+      {
+        "name": "rock_mountain",
+        "triangles": 7796
+      }
+    ]
+  },
+  "previews": {
+    "front": "art/generated/env-v1/assets/rock_mountain/rock_mountain/previews/processed-front.png",
+    "side": "art/generated/env-v1/assets/rock_mountain/rock_mountain/previews/processed-side.png",
+    "top": "art/generated/env-v1/assets/rock_mountain/rock_mountain/previews/processed-top.png"
+  },
+  "lod1": {
+    "fbx": "art/generated/env-v1/assets/rock_mountain/rock_mountain/rock_mountain_LOD1.fbx",
+    "sha256": "bc9ffc800974d5db8dd97568fa2b92d4ddbdeb5b9a04d6c4e8dceb8d65b88b3f",
+    "triangles": 3093,
+    "ratio": 0.39674191893278604
+  },
+  "review": "Manual front/side/top preview review complete for the first-island environment handoff; source presentation panels removed. Tree foliage remains visibly simplified at close range. Technical checks are recorded separately and do not establish all-surface perfection.",
+  "technical_scope": "Blender offline processing, screenshots, and FBX roundtrip; no Unity import, physics, or performance validation",
+  "known_limits": [
+    "Source stones are connected rock formations; the standalone reef variants are reusable groups rather than individually retopologized stones."
+  ]
+}

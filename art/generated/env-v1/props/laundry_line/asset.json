@@ -1,0 +1,47 @@
+{
+  "asset_id": "laundry_line",
+  "description": "两户木屋间的晾衣绳，三件旧布与木夹；静态占位。",
+  "source": "Original procedural placeholder authored for the final JieGuang script; no legacy game asset reused.",
+  "source_script": "art/blender/env_v1_props.py",
+  "source_script_sha256": "099a96576a12e59be951e42e549714b1cd4429d657633ea47843fcf83625ad1d",
+  "fbx": "art/generated/env-v1/props/laundry_line/laundry_line.fbx",
+  "fbx_sha256": "3b33667e1153b64b6b5efda6674e2dc5f8f6c897fead5d99fdd8e314c86c6f7c",
+  "triangles": 356,
+  "meshes": [
+    {
+      "name": "Structure",
+      "triangles": 356,
+      "materials": [
+        "Wood_Honey",
+        "Cloth_Unbleached",
+        "Wood_Endgrain",
+        "Flag_FadedIndigo"
+      ]
+    }
+  ],
+  "bounds_blender": {
+    "min": [
+      -1.6959999799728394,
+      -0.10795222967863083,
+      0.0
+    ],
+    "max": [
+      1.6959999799728394,
+      0.04600000008940697,
+      2.0
+    ]
+  },
+  "dimensions_metres": [
+    3.392,
+    0.154,
+    2.0
+  ],
+  "coordinates": "Blender Z-up, front -Y; FBX Y-up/-Z; intended Unity point mapping (x,z,-y), confirm after import.",
+  "root_pivot_blender": [
+    0,
+    0,
+    0
+  ],
+  "markers": {},
+  "notes": []
+}

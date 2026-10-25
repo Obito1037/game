@@ -1,0 +1,95 @@
+{
+  "asset_id": "copper_roadlamp",
+  "description": "三盏谜题灯共用铜柱与可旋转遮光灯头；仅在场景实例化三次。",
+  "source": "Original procedural placeholder authored for the final JieGuang script; no legacy game asset reused.",
+  "source_script": "art/blender/env_v1_props.py",
+  "source_script_sha256": "099a96576a12e59be951e42e549714b1cd4429d657633ea47843fcf83625ad1d",
+  "fbx": "art/generated/env-v1/props/copper_roadlamp/copper_roadlamp.fbx",
+  "fbx_sha256": "8580c85b85f02577ad0f4828185bd3a2a4d2f16b51eb82c5b7853b4ce30e68cf",
+  "triangles": 606,
+  "meshes": [
+    {
+      "name": "Structure",
+      "triangles": 348,
+      "materials": [
+        "Copper_Aged",
+        "Gold_WornEdges"
+      ]
+    },
+    {
+      "name": "LampHead",
+      "triangles": 258,
+      "materials": [
+        "Copper_Aged",
+        "Lantern_AmberCore",
+        "Gold_WornEdges"
+      ]
+    }
+  ],
+  "bounds_blender": {
+    "min": [
+      -0.24500000476837158,
+      -0.33500000834465027,
+      -3.799999952316284
+    ],
+    "max": [
+      0.24500000476837158,
+      0.23999999463558197,
+      0.24500000476837158
+    ]
+  },
+  "dimensions_metres": [
+    0.49,
+    0.575,
+    4.045
+  ],
+  "coordinates": "Blender Z-up, front -Y; FBX Y-up/-Z; intended Unity point mapping (x,z,-y), confirm after import.",
+  "root_pivot_blender": [
+    0,
+    0,
+    0
+  ],
+  "markers": {
+    "Marker_Bulb": {
+      "blender_xyz": [
+        0.0,
+        -0.285,
+        0.0
+      ],
+      "unity_xyz": [
+        0.0,
+        0.0,
+        0.285
+      ],
+      "blender_rotation_degrees": [
+        0.0,
+        -0.0,
+        0.0
+      ]
+    },
+    "Marker_Base": {
+      "blender_xyz": [
+        0.0,
+        0.0,
+        -3.8
+      ],
+      "unity_xyz": [
+        0.0,
+        -3.8,
+        -0.0
+      ],
+      "blender_rotation_degrees": [
+        0.0,
+        -0.0,
+        0.0
+      ]
+    }
+  },
+  "notes": [
+    "Root and LampHead origin exactly at swivel. Root placed 3.80m above ground; Structure descends to -3.80m in Blender Z / Unity Y.",
+    "For a 4.0m lamp, scale only Structure along its height by 4/3.8. Leave LampHead at unit scale.",
+    "Default light/hood direction Blender -Y, intended Unity +Z. Rotate LampHead, not Structure.",
+    "No Blender light exported; Claude creates the gameplay spotlight at Marker_Bulb.",
+    "Only 3 lamp instances belong in the island."
+  ]
+}

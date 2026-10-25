@@ -1,0 +1,105 @@
+{
+  "asset_id": "pier_end",
+  "description": "木栈桥模块，板面顶高为0，桩柱向下延伸。",
+  "source": "Original procedural placeholder authored for the final JieGuang script; no legacy game asset reused.",
+  "source_script": "art/blender/env_v1_props.py",
+  "source_script_sha256": "099a96576a12e59be951e42e549714b1cd4429d657633ea47843fcf83625ad1d",
+  "fbx": "art/generated/env-v1/props/pier_end/pier_end.fbx",
+  "fbx_sha256": "2a785ad824e1ade6a7062be1a35e40d70d47d287d916c8d9dbcde8ba293fef94",
+  "triangles": 668,
+  "meshes": [
+    {
+      "name": "Structure",
+      "triangles": 668,
+      "materials": [
+        "Wood_Endgrain",
+        "Wood_Honey",
+        "Wood_DarkBeams",
+        "Wood_Weathered",
+        "Iron_Blackened"
+      ]
+    }
+  ],
+  "bounds_blender": {
+    "min": [
+      -1.2200000286102295,
+      -1.8300000429153442,
+      -3.200000047683716
+    ],
+    "max": [
+      1.2200000286102295,
+      1.8300000429153442,
+      0.13999992609024048
+    ]
+  },
+  "dimensions_metres": [
+    2.44,
+    3.66,
+    3.34
+  ],
+  "coordinates": "Blender Z-up, front -Y; FBX Y-up/-Z; intended Unity point mapping (x,z,-y), confirm after import.",
+  "root_pivot_blender": [
+    0,
+    0,
+    0
+  ],
+  "markers": {
+    "Marker_Entry": {
+      "blender_xyz": [
+        0.0,
+        -1.8,
+        0.0
+      ],
+      "unity_xyz": [
+        0.0,
+        0.0,
+        1.8
+      ],
+      "blender_rotation_degrees": [
+        0.0,
+        -0.0,
+        0.0
+      ]
+    },
+    "Marker_Exit": {
+      "blender_xyz": [
+        0.0,
+        1.8,
+        0.0
+      ],
+      "unity_xyz": [
+        0.0,
+        0.0,
+        -1.8
+      ],
+      "blender_rotation_degrees": [
+        0.0,
+        -0.0,
+        0.0
+      ]
+    }
+  },
+  "notes": [
+    "Deck width 2.40m, deck top at local Z=0. Boards run X, bridge length along Y.",
+    "Add flat deck collision box, avoid tiny gaps catching movement. Piles extend 3.20m below deck.",
+    "Pile extension: all geometry at Z >= -0.40m, X/Y coordinates, topology, markers and deck top retained; only lower pile vertices stretched to Z=-3.20m. At deck Y=2.48m the pile bottom is Y=-0.72m, 0.56m below sea level -0.16m."
+  ],
+  "postprocessing": [
+    {
+      "step": "extend_submerged_piles_v1",
+      "script": "art/blender/env_v1_pier_extend.py",
+      "script_sha256": "00634bb55dd2c60be0b8d65abcda671f61dd539303f462671085f947a621bfeb",
+      "input_sha256": {
+        "blend": "22e706fc90790a18ec139e7c58b844ce41912648879e1710967544b561f44b2c",
+        "fbx": "ea1c1115c6dec1b039dce0d0112e3e2b970dcd4f8c74725d0d816d6f1f8c1382",
+        "asset_json": "1db9f7dfdd48f96cd3f105c539485e6ae7c22f4c5a6f569e2e7196e0c5ab2618"
+      },
+      "changed_vertices": 40,
+      "original_bottom_z": -1.959999918937683,
+      "new_bottom_z": -3.200000047683716,
+      "unchanged_at_or_above_z": -0.4,
+      "deck_and_markers_unchanged": true,
+      "triangles_unchanged": true
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "status": "passed",
+  "results": [
+    {
+      "asset_id": "pier_module",
+      "step": "extend_submerged_piles_v1",
+      "script": "art/blender/env_v1_pier_extend.py",
+      "script_sha256": "00634bb55dd2c60be0b8d65abcda671f61dd539303f462671085f947a621bfeb",
+      "input_sha256": {
+        "blend": "d597b170c64a0f61f46d95749d3cbded8f57bd3766491a05cf636fbd21aeae01",
+        "fbx": "5a5b4ad67f012ece7562531ed71d1516a5847b9373dfe70f098ab2bc66e5c6d7",
+        "asset_json": "cfe4f8ed393a36d3a74607f671ddfc1691d70227d33281599107e964053b2b41"
+      },
+      "changed_vertices": 40,
+      "original_bottom_z": -1.959999918937683,
+      "new_bottom_z": -3.200000047683716,
+      "unchanged_at_or_above_z": -0.4,
+      "deck_and_markers_unchanged": true,
+      "triangles_unchanged": true,
+      "output_fbx_sha256": "cb0b2a5dc182ef7830d7f04d32da095bb5fc6eb2b5ff7e90b1f7e1eb625033d0"
+    },
+    {
+      "asset_id": "pier_end",
+      "step": "extend_submerged_piles_v1",
+      "script": "art/blender/env_v1_pier_extend.py",
+      "script_sha256": "00634bb55dd2c60be0b8d65abcda671f61dd539303f462671085f947a621bfeb",
+      "input_sha256": {
+        "blend": "22e706fc90790a18ec139e7c58b844ce41912648879e1710967544b561f44b2c",
+        "fbx": "ea1c1115c6dec1b039dce0d0112e3e2b970dcd4f8c74725d0d816d6f1f8c1382",
+        "asset_json": "1db9f7dfdd48f96cd3f105c539485e6ae7c22f4c5a6f569e2e7196e0c5ab2618"
+      },
+      "changed_vertices": 40,
+      "original_bottom_z": -1.959999918937683,
+      "new_bottom_z": -3.200000047683716,
+      "unchanged_at_or_above_z": -0.4,
+      "deck_and_markers_unchanged": true,
+      "triangles_unchanged": true,
+      "output_fbx_sha256": "2a785ad824e1ade6a7062be1a35e40d70d47d287d916c8d9dbcde8ba293fef94"
+    }
+  ]
+}

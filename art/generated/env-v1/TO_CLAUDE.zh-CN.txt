@@ -1,0 +1,57 @@
+Claude 接手说明：《借光岛——把星空还给夜晚》环境第一版
+日期：2026-10-22
+
+一、当前状态与接手时机
+
+环境已经在 Unity 中完成 Build、Validate、地面检查与 Capture，交接文档和截图索引已更新。GPT 已结束 Unity 操作并释放使用权，Claude 可以接回。最后活动场景为 JieGuang_Main，未标脏、未运行、未编译，控制台无当前错误。
+
+主资产：GameProject/Assets/JieGuang/Environment/Island.prefab
+环境测试场景：GameProject/Assets/JieGuang/Environment/EnvTest.unity
+详细交接：art/generated/env-v1/HANDOFF.zh-CN.md
+验证与截图目录：art/verification/env-v1/
+结构报告：art/verification/env-v1/validation.json
+地面报告：art/verification/env-v1/ground-checks.json
+四机位截图：01-title.png、02-cape.png、03-pier.png、04-village.png
+
+本轮没有进入 Play 模式运行 JieGuang_Main，没有打包构建。结束检查确认全部 51 个受保护文件哈希未变，详见 art/verification/env-v1/protected-files-after.json。
+
+二、已经验证的交付
+
+- 236 项结构检查通过；13 个地面采样点通过。新增的 3 个脚底/树根锚点按与实际 Layer 8 地面的高度差不超过 0.03 米检查，其余点验证向下射线命中且法线朝上。这不代表完成全路线角色胶囊验证。
+- 最高 LOD 几何合计 380,368 个三角面；同时计入备用 LOD 时为 506,767 个。两个数字都包含天空与海面，天空/海面自身共 770 个三角面。备用 LOD 合计不代表每帧实际绘制量。
+- 35 个 LODGroup；Village_Windows 下有 22 扇可独立控制的村窗。
+- 仅 3 盏谜题 Spot。HarborLantern/HarborLight 另有一盏 Point：初始 intensity=1.2、range=3.5、无阴影。请保留该初始非零强度，GameDirector 会缓存它作为亮度基准。
+- 5 个追加锚点已经齐全：Anchor_VillageGate、Anchor_GoldenTree、Anchor_Boat、Target_Sea、NPC_ABo_Door。位置以当前 prefab 为准。
+- Village_Windows 父节点位于 (-13, 8.4, 10)，移动父节点时保留了全部子窗的世界位置，可供村民/灯光点生成逻辑取得村子中心。
+- Blender FBX 导入产生的 local-X 反射已在 EnvV1Builder.CloneModel 内归一，外层实例布局和剧情锚点没有做第二次镜像。请不要再统一翻转整个 Island、锚点或导入模型实例。村屋合并网格相应处理了负 determinant 的三角绕序。
+- 长椅采用精确网格碰撞，避免原先包围盒挡住照向长椅的灯光射线。
+- 石板路的派生网格为 1,200 个三角面，已经按实际地形贴地；可走地面使用 Layer 8，实体碰撞使用 Layer 9。
+- URP 材质的发光关键词已修复并完成本次场景检查。
+
+三、接回 Unity 后先完成的 P0 联调
+
+1. 在主场景为 GameDirector.IslandPrefab 赋值为当前 Island.prefab。
+   复用现成的 Anchor_Lamp_* / LampHead / Spot 层级，不额外创建谜题灯。LampHead 是可转动节点，Spot 位于其下；灯柱保持竖直。整套环境只应保留这 3 盏谜题 Spot。
+
+2. 处理重复夜空、地球和方向光。
+   当前 GameDirector 总会调用 NightSky.BuildStars / BuildEarth，并创建冷蓝色 Earthlight；环境 prefab 的 Atmosphere/NightSky 已经提供星空和细弧地球，同时有 2 盏暖色方向光。直接叠加会出现重复星空/地球和额外冷光。
+   推荐保留剧情 NightSky：只禁用环境 Atmosphere/NightSky 上的 Renderer。不要禁用整个 Atmosphere，否则会同时影响海面和环境灯光。去掉额外的冷蓝 Earthlight，或者改成暖琥珀色并与现有方向光统一强度；不要保留两套未经协调的照明。
+   所有灯光继续遵守暖琥珀色要求；蓝白色保留给天空中的细弧地球视觉。
+
+3. 同步港灯发光材质与 Point 亮度。
+   目前 SetHarborLamp(true, 0) 只会将 HarborLantern 下 Point 的 intensity 降为 0，Lantern_AmberCore 材质的自发光仍然可见。
+   请缓存港灯各 Renderer 对应材质槽的初始 _EmissionColor，使用按材质槽设置的 MaterialPropertyBlock，随同一 level 同步缩放发光颜色，恢复时还原基准。只处理港灯自身相关槽，不要改共享材质，避免影响其他道具或三盏谜题灯。
+   present=false 可继续通过根节点 SetActive 隐藏；present=true 且 level=0 时，Point 和自发光都应熄灭。
+
+4. 同步海面污染颜色时保留远处过渡。
+   海面 Shader 已提供 _Horizon 颜色属性，Unity 实际材质 HasProperty 检查通过。调整海面颜色时应一并协调 _Horizon；远处海色通过它与天空地平线衔接，避免远海重新出现矩形平面边界。
+
+四、仍需验证与当前限制
+
+- 没有实测 Intel Iris Xe 上 1440×900 的持续 FPS，也没有报告可用于证明性能的 draw call 数据。上述三角面、Renderer 或材质数量不能替代运行时性能测量。
+- 没有做角色胶囊全路线通行、台阶/坡度、门口避障、坐姿落点、角色动画与镜头的完整联调。
+- 没有在主剧情中验证三灯状态切换、全部章节、村窗亮灭、港灯熄灭/恢复、小艇归航和结尾光点。
+- 缺少专用模型的建筑、灯柱、浑天仪等仍包含程序化低模占位；布帘/旗帜等目前是静态表现。补充资产与提示词清单见主 HANDOFF。
+- 四机位静态截图和结构检查证明当前环境交付可检查，不等同于最终游戏、美术或性能验收。
+
+请只在各自授权目录内继续开发。若需要调整 Environment 的接口或资产，先按双方分工协调；不要覆盖或删除旧版 BorrowedLight。

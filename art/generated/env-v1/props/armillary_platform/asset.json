@@ -1,0 +1,50 @@
+{
+  "asset_id": "armillary_platform",
+  "description": "岬角圆形石台上的铜浑天仪：三道清晰铜环、中心小球。",
+  "source": "Original procedural placeholder authored for the final JieGuang script; no legacy game asset reused.",
+  "source_script": "art/blender/env_v1_props.py",
+  "source_script_sha256": "099a96576a12e59be951e42e549714b1cd4429d657633ea47843fcf83625ad1d",
+  "fbx": "art/generated/env-v1/props/armillary_platform/armillary_platform.fbx",
+  "fbx_sha256": "ea5e519d7b331f5dbf5c7985178f51a451d4b1c527aad436e2ea5bc386b58f84",
+  "triangles": 2536,
+  "meshes": [
+    {
+      "name": "Structure",
+      "triangles": 2536,
+      "materials": [
+        "Stone_WarmLimestone",
+        "Stone_SoftGrey",
+        "Copper_Aged",
+        "Gold_WornEdges"
+      ]
+    }
+  ],
+  "bounds_blender": {
+    "min": [
+      -1.2200000286102295,
+      -1.2200000286102295,
+      0.0
+    ],
+    "max": [
+      1.2200000286102295,
+      1.2200000286102295,
+      2.200000047683716
+    ]
+  },
+  "dimensions_metres": [
+    2.44,
+    2.44,
+    2.2
+  ],
+  "coordinates": "Blender Z-up, front -Y; FBX Y-up/-Z; intended Unity point mapping (x,z,-y), confirm after import.",
+  "root_pivot_blender": [
+    0,
+    0,
+    0
+  ],
+  "markers": {},
+  "notes": [
+    "Stone platform radius 1.22m, height .21m; instrument height 2.2m.",
+    "Decorative instrument only; no celestial simulation or interactive mechanics embedded."
+  ]
+}

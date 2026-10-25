@@ -1,0 +1,114 @@
+{
+  "status": "Analytical target-centre geometry only. Actual mesh occlusion requires verification.",
+  "transformRule": "Anchor stays upright; rotate its LampHead child. Forward is world +Z for the spot.",
+  "chapterStates": {
+    "chapter1": [
+      {
+        "anchor": "Anchor_Lamp_WanFeng",
+        "targets": [
+          "Target_Path",
+          "Target_Bench"
+        ],
+        "forward": [
+          -0.1132915505945328,
+          -0.6141844890503502,
+          -0.7809881164101325
+        ],
+        "fullSpotAngleDegrees": 56,
+        "targetOffsetsDegrees": [
+          16.680558270035107,
+          16.680558270035082
+        ],
+        "smallestCentrelineMarginDegrees": 11.319441729964893
+      }
+    ],
+    "chapter2": [
+      {
+        "anchor": "Anchor_Lamp_WanFeng",
+        "targets": [
+          "Target_Path",
+          "Target_Bench"
+        ],
+        "forward": [
+          -0.1132915505945328,
+          -0.6141844890503502,
+          -0.7809881164101325
+        ],
+        "fullSpotAngleDegrees": 56,
+        "targetOffsetsDegrees": [
+          16.680558270035107,
+          16.680558270035082
+        ],
+        "smallestCentrelineMarginDegrees": 11.319441729964893
+      },
+      {
+        "anchor": "Anchor_Lamp_YueChuang",
+        "targets": [
+          "Target_Window"
+        ],
+        "forward": [
+          0.00044387474138786606,
+          -0.6441596856726014,
+          0.7648909087767937
+        ],
+        "fullSpotAngleDegrees": 24,
+        "targetOffsetsDegrees": [
+          0.0
+        ],
+        "smallestCentrelineMarginDegrees": 12.0
+      }
+    ],
+    "chapter3": [
+      {
+        "anchor": "Anchor_Lamp_WanFeng",
+        "targets": [
+          "Target_Path"
+        ],
+        "forward": [
+          -0.39253433598942983,
+          -0.5888015039841447,
+          -0.7065618047809736
+        ],
+        "fullSpotAngleDegrees": 24,
+        "targetOffsetsDegrees": [
+          0.0
+        ],
+        "smallestCentrelineMarginDegrees": 12.0
+      },
+      {
+        "anchor": "Anchor_Lamp_YueChuang",
+        "targets": [
+          "Target_Window",
+          "Target_Pier"
+        ],
+        "forward": [
+          0.36968530065783084,
+          -0.5879847735861571,
+          0.7194488755348534
+        ],
+        "fullSpotAngleDegrees": 60,
+        "targetOffsetsDegrees": [
+          21.68643490041592,
+          21.686434900415904
+        ],
+        "smallestCentrelineMarginDegrees": 8.313565099584078
+      },
+      {
+        "anchor": "Anchor_Lamp_GuiHang",
+        "targets": [
+          "Target_Bench"
+        ],
+        "forward": [
+          -0.40636894679666613,
+          -0.6806679858844157,
+          -0.6095534201949993
+        ],
+        "fullSpotAngleDegrees": 24,
+        "targetOffsetsDegrees": [
+          0.0
+        ],
+        "smallestCentrelineMarginDegrees": 12.0
+      }
+    ]
+  }
+}

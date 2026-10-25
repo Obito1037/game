@@ -1,0 +1,28 @@
+{
+  "source": "Blender offline assembly, not Unity",
+  "unity": false,
+  "blend_sha256": "0ce6e6c6ae971447581aae8723cf82bf4cd865c39bababe1cfd715f39f0b072e",
+  "missingAssets": [],
+  "images": [
+    {
+      "name": "Cam_Title",
+      "width": 1200,
+      "height": 750
+    },
+    {
+      "name": "Cam_Puzzle",
+      "width": 1200,
+      "height": 750
+    },
+    {
+      "name": "Cam_Pier",
+      "width": 1200,
+      "height": 750
+    },
+    {
+      "name": "Cam_Village",
+      "width": 1200,
+      "height": 750
+    }
+  ]
+}

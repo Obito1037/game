@@ -1,0 +1,363 @@
+{
+  "status": "passed",
+  "scope": "Blender FBX reimport and authored round-window/door rays. Unity runtime import and gameplay not tested.",
+  "assets": [
+    {
+      "asset_id": "cottage_teal",
+      "fbx_triangles": 1024,
+      "expected_triangles": 1024,
+      "max_bounds_error_metres": 4.76837158203125e-07,
+      "fbx_sha256_matches": true,
+      "markers": [
+        {
+          "name": "Marker_Door",
+          "exists": true,
+          "error_metres": 2.8312206268310547e-07,
+          "passed": true
+        }
+      ],
+      "special_components_preserved": true,
+      "passed": true
+    },
+    {
+      "asset_id": "cottage_ochre",
+      "fbx_triangles": 1024,
+      "expected_triangles": 1024,
+      "max_bounds_error_metres": 4.76837158203125e-07,
+      "fbx_sha256_matches": true,
+      "markers": [
+        {
+          "name": "Marker_Door",
+          "exists": true,
+          "error_metres": 2.980232238769531e-07,
+          "passed": true
+        }
+      ],
+      "special_components_preserved": true,
+      "passed": true
+    },
+    {
+      "asset_id": "cottage_slate",
+      "fbx_triangles": 1024,
+      "expected_triangles": 1024,
+      "max_bounds_error_metres": 3.5762786865234375e-07,
+      "fbx_sha256_matches": true,
+      "markers": [
+        {
+          "name": "Marker_Door",
+          "exists": true,
+          "error_metres": 2.980232238769531e-07,
+          "passed": true
+        }
+      ],
+      "special_components_preserved": true,
+      "passed": true
+    },
+    {
+      "asset_id": "abode_grandma",
+      "fbx_triangles": 1728,
+      "expected_triangles": 1728,
+      "max_bounds_error_metres": 5.960464477539062e-07,
+      "fbx_sha256_matches": true,
+      "markers": [
+        {
+          "name": "Marker_Window",
+          "exists": true,
+          "error_metres": 3.371747880871523e-07,
+          "passed": true
+        },
+        {
+          "name": "Marker_ABo_Seat",
+          "exists": true,
+          "error_metres": 1.0745380149674383e-07,
+          "passed": true
+        },
+        {
+          "name": "Marker_Entry",
+          "exists": true,
+          "error_metres": 3.427267074584961e-07,
+          "passed": true
+        },
+        {
+          "name": "Marker_Desk",
+          "exists": true,
+          "error_metres": 2.1490760299348766e-07,
+          "passed": true
+        }
+      ],
+      "special_components_preserved": true,
+      "passed": true
+    },
+    {
+      "asset_id": "copper_roadlamp",
+      "fbx_triangles": 606,
+      "expected_triangles": 606,
+      "max_bounds_error_metres": 5.811452865600586e-07,
+      "fbx_sha256_matches": true,
+      "markers": [
+        {
+          "name": "Marker_Bulb",
+          "exists": true,
+          "error_metres": 4.6432393309501476e-08,
+          "passed": true
+        },
+        {
+          "name": "Marker_Base",
+          "exists": true,
+          "error_metres": 6.19098607863827e-07,
+          "passed": true
+        }
+      ],
+      "special_components_preserved": true,
+      "passed": true
+    },
+    {
+      "asset_id": "pier_module",
+      "fbx_triangles": 456,
+      "expected_triangles": 456,
+      "max_bounds_error_metres": 2.384185791015625e-07,
+      "fbx_sha256_matches": true,
+      "markers": [
+        {
+          "name": "Marker_Entry",
+          "exists": true,
+          "error_metres": 2.443810222766373e-07,
+          "passed": true
+        },
+        {
+          "name": "Marker_Exit",
+          "exists": true,
+          "error_metres": 2.443810222766373e-07,
+          "passed": true
+        }
+      ],
+      "special_components_preserved": true,
+      "passed": true
+    },
+    {
+      "asset_id": "pier_end",
+      "fbx_triangles": 668,
+      "expected_triangles": 668,
+      "max_bounds_error_metres": 2.682209014892578e-07,
+      "fbx_sha256_matches": true,
+      "markers": [
+        {
+          "name": "Marker_Entry",
+          "exists": true,
+          "error_metres": 2.932572202620344e-07,
+          "passed": true
+        },
+        {
+          "name": "Marker_Exit",
+          "exists": true,
+          "error_metres": 2.932572202620344e-07,
+          "passed": true
+        }
+      ],
+      "special_components_preserved": true,
+      "passed": true
+    },
+    {
+      "asset_id": "flagpole_blue",
+      "fbx_triangles": 895,
+      "expected_triangles": 895,
+      "max_bounds_error_metres": 2.682209014892578e-07,
+      "fbx_sha256_matches": true,
+      "markers": [
+        {
+          "name": "Marker_FlagpoleHook",
+          "exists": true,
+          "error_metres": 2.980232238769531e-07,
+          "passed": true
+        }
+      ],
+      "special_components_preserved": true,
+      "passed": true
+    },
+    {
+      "asset_id": "harbor_lantern",
+      "fbx_triangles": 436,
+      "expected_triangles": 436,
+      "max_bounds_error_metres": 7.450580596923828e-08,
+      "fbx_sha256_matches": true,
+      "markers": [
+        {
+          "name": "Marker_HangingPoint",
+          "exists": true,
+          "error_metres": 1.287073393537239e-07,
+          "passed": true
+        }
+      ],
+      "special_components_preserved": true,
+      "passed": true
+    },
+    {
+      "asset_id": "bench",
+      "fbx_triangles": 324,
+      "expected_triangles": 324,
+      "max_bounds_error_metres": 1.7881393432617188e-07,
+      "fbx_sha256_matches": true,
+      "markers": [
+        {
+          "name": "Marker_Seat",
+          "exists": true,
+          "error_metres": 7.450580596923828e-08,
+          "passed": true
+        }
+      ],
+      "special_components_preserved": true,
+      "passed": true
+    },
+    {
+      "asset_id": "dock_crate",
+      "fbx_triangles": 180,
+      "expected_triangles": 180,
+      "max_bounds_error_metres": 8.940696716308594e-08,
+      "fbx_sha256_matches": true,
+      "markers": [
+        {
+          "name": "Marker_Seat",
+          "exists": true,
+          "error_metres": 9.123558344237932e-08,
+          "passed": true
+        }
+      ],
+      "special_components_preserved": true,
+      "passed": true
+    },
+    {
+      "asset_id": "dock_kettle",
+      "fbx_triangles": 436,
+      "expected_triangles": 436,
+      "max_bounds_error_metres": 1.0710209608078003e-08,
+      "fbx_sha256_matches": true,
+      "markers": [],
+      "special_components_preserved": true,
+      "passed": true
+    },
+    {
+      "asset_id": "armillary_platform",
+      "fbx_triangles": 2536,
+      "expected_triangles": 2536,
+      "max_bounds_error_metres": 1.9131266526528634e-07,
+      "fbx_sha256_matches": true,
+      "markers": [],
+      "special_components_preserved": true,
+      "passed": true
+    },
+    {
+      "asset_id": "crescent_sculpture",
+      "fbx_triangles": 388,
+      "expected_triangles": 388,
+      "max_bounds_error_metres": 7.494351450532122e-08,
+      "fbx_sha256_matches": true,
+      "markers": [],
+      "special_components_preserved": true,
+      "passed": true
+    },
+    {
+      "asset_id": "village_well",
+      "fbx_triangles": 1156,
+      "expected_triangles": 1156,
+      "max_bounds_error_metres": 4.172325134277344e-07,
+      "fbx_sha256_matches": true,
+      "markers": [],
+      "special_components_preserved": true,
+      "passed": true
+    },
+    {
+      "asset_id": "laundry_line",
+      "fbx_triangles": 356,
+      "expected_triangles": 356,
+      "max_bounds_error_metres": 3.241002559661865e-07,
+      "fbx_sha256_matches": true,
+      "markers": [],
+      "special_components_preserved": true,
+      "passed": true
+    }
+  ],
+  "abode_facade_rays": [
+    {
+      "name": "window_center",
+      "hit": true,
+      "position": [
+        0.8199999928474426,
+        1.4650001525878906,
+        1.6200000047683716
+      ],
+      "normal": [
+        0.0,
+        -1.0,
+        0.0
+      ],
+      "expected_opening": true,
+      "passed": true
+    },
+    {
+      "name": "entry_center",
+      "hit": true,
+      "position": [
+        -1.1299999952316284,
+        1.4650001525878906,
+        1.2000000476837158
+      ],
+      "normal": [
+        0.0,
+        -1.0,
+        0.0
+      ],
+      "expected_opening": true,
+      "passed": true
+    },
+    {
+      "name": "front_left_solid",
+      "hit": true,
+      "position": [
+        -1.850000023841858,
+        -1.625,
+        2.200000047683716
+      ],
+      "normal": [
+        0.0,
+        -1.0,
+        0.0
+      ],
+      "expected_opening": false,
+      "passed": true
+    },
+    {
+      "name": "front_pier_solid",
+      "hit": true,
+      "position": [
+        -0.5299999713897705,
+        -1.6250001192092896,
+        2.200000047683716
+      ],
+      "normal": [
+        0.0,
+        -1.0,
+        0.0
+      ],
+      "expected_opening": false,
+      "passed": true
+    },
+    {
+      "name": "front_below_window",
+      "hit": true,
+      "position": [
+        0.8199999928474426,
+        -1.625,
+        0.5
+      ],
+      "normal": [
+        0.0,
+        -1.0,
+        0.0
+      ],
+      "expected_opening": false,
+      "passed": true
+    }
+  ],
+  "triangle_budget_passed": true,
+  "house_budget_passed": true
+}

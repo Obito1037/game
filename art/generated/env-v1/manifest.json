@@ -1,0 +1,537 @@
+{
+  "schema": "jieguang.environment.manifest.v1",
+  "status": "Unity_prefab_structurally_verified_and_captured",
+  "original_sources": "inventory.json",
+  "processed_sources": "asset-manifest.json",
+  "sources": [
+    {
+      "id": "cottage_teal",
+      "triangles": 1024,
+      "sha256": "942f0d5034a4ecacb3fb1cd2a0874cfa8e1e667554b638e9a4f105e55997fa04",
+      "source": "art/generated/env-v1/props/cottage_teal/cottage_teal.fbx",
+      "source_script": "art/blender/env_v1_props.py",
+      "source_script_sha256": "099a96576a12e59be951e42e549714b1cd4429d657633ea47843fcf83625ad1d",
+      "postprocessing": [],
+      "steps": [
+        "Original procedural low-poly model; modifiers applied; face normals checked.",
+        "Metric FBX Y-up export; Blender FBX roundtrip validation."
+      ]
+    },
+    {
+      "id": "cottage_ochre",
+      "triangles": 1024,
+      "sha256": "69f9b8148407241c3ec338c1eadb92494a495098524f977aa42d7fda3dc3f77b",
+      "source": "art/generated/env-v1/props/cottage_ochre/cottage_ochre.fbx",
+      "source_script": "art/blender/env_v1_props.py",
+      "source_script_sha256": "099a96576a12e59be951e42e549714b1cd4429d657633ea47843fcf83625ad1d",
+      "postprocessing": [],
+      "steps": [
+        "Original procedural low-poly model; modifiers applied; face normals checked.",
+        "Metric FBX Y-up export; Blender FBX roundtrip validation."
+      ]
+    },
+    {
+      "id": "cottage_slate",
+      "triangles": 1024,
+      "sha256": "b674ab4355de3a5b124b12032109dc9758f0be136582077727293c56231c6315",
+      "source": "art/generated/env-v1/props/cottage_slate/cottage_slate.fbx",
+      "source_script": "art/blender/env_v1_props.py",
+      "source_script_sha256": "099a96576a12e59be951e42e549714b1cd4429d657633ea47843fcf83625ad1d",
+      "postprocessing": [],
+      "steps": [
+        "Original procedural low-poly model; modifiers applied; face normals checked.",
+        "Metric FBX Y-up export; Blender FBX roundtrip validation."
+      ]
+    },
+    {
+      "id": "abode_grandma",
+      "triangles": 1728,
+      "sha256": "9d1fe0889835087593d5b1f174ac4069ad8680e74b96b7c011e48f15bd3a8c5d",
+      "source": "art/generated/env-v1/props/abode_grandma/abode_grandma.fbx",
+      "source_script": "art/blender/env_v1_props.py",
+      "source_script_sha256": "099a96576a12e59be951e42e549714b1cd4429d657633ea47843fcf83625ad1d",
+      "postprocessing": [],
+      "steps": [
+        "Original procedural low-poly model; modifiers applied; face normals checked.",
+        "Metric FBX Y-up export; Blender FBX roundtrip validation."
+      ]
+    },
+    {
+      "id": "copper_roadlamp",
+      "triangles": 606,
+      "sha256": "8580c85b85f02577ad0f4828185bd3a2a4d2f16b51eb82c5b7853b4ce30e68cf",
+      "source": "art/generated/env-v1/props/copper_roadlamp/copper_roadlamp.fbx",
+      "source_script": "art/blender/env_v1_props.py",
+      "source_script_sha256": "099a96576a12e59be951e42e549714b1cd4429d657633ea47843fcf83625ad1d",
+      "postprocessing": [],
+      "steps": [
+        "Original procedural low-poly model; modifiers applied; face normals checked.",
+        "Metric FBX Y-up export; Blender FBX roundtrip validation."
+      ]
+    },
+    {
+      "id": "pier_module",
+      "triangles": 456,
+      "sha256": "cb0b2a5dc182ef7830d7f04d32da095bb5fc6eb2b5ff7e90b1f7e1eb625033d0",
+      "source": "art/generated/env-v1/props/pier_module/pier_module.fbx",
+      "source_script": "art/blender/env_v1_props.py",
+      "source_script_sha256": "099a96576a12e59be951e42e549714b1cd4429d657633ea47843fcf83625ad1d",
+      "postprocessing": [
+        {
+          "step": "extend_submerged_piles_v1",
+          "script": "art/blender/env_v1_pier_extend.py",
+          "script_sha256": "00634bb55dd2c60be0b8d65abcda671f61dd539303f462671085f947a621bfeb",
+          "input_sha256": {
+            "blend": "d597b170c64a0f61f46d95749d3cbded8f57bd3766491a05cf636fbd21aeae01",
+            "fbx": "5a5b4ad67f012ece7562531ed71d1516a5847b9373dfe70f098ab2bc66e5c6d7",
+            "asset_json": "cfe4f8ed393a36d3a74607f671ddfc1691d70227d33281599107e964053b2b41"
+          },
+          "changed_vertices": 40,
+          "original_bottom_z": -1.959999918937683,
+          "new_bottom_z": -3.200000047683716,
+          "unchanged_at_or_above_z": -0.4,
+          "deck_and_markers_unchanged": true,
+          "triangles_unchanged": true
+        }
+      ],
+      "steps": [
+        "Original procedural low-poly model; modifiers applied; face normals checked.",
+        "Metric FBX Y-up export; Blender FBX roundtrip validation."
+      ]
+    },
+    {
+      "id": "pier_end",
+      "triangles": 668,
+      "sha256": "2a785ad824e1ade6a7062be1a35e40d70d47d287d916c8d9dbcde8ba293fef94",
+      "source": "art/generated/env-v1/props/pier_end/pier_end.fbx",
+      "source_script": "art/blender/env_v1_props.py",
+      "source_script_sha256": "099a96576a12e59be951e42e549714b1cd4429d657633ea47843fcf83625ad1d",
+      "postprocessing": [
+        {
+          "step": "extend_submerged_piles_v1",
+          "script": "art/blender/env_v1_pier_extend.py",
+          "script_sha256": "00634bb55dd2c60be0b8d65abcda671f61dd539303f462671085f947a621bfeb",
+          "input_sha256": {
+            "blend": "22e706fc90790a18ec139e7c58b844ce41912648879e1710967544b561f44b2c",
+            "fbx": "ea1c1115c6dec1b039dce0d0112e3e2b970dcd4f8c74725d0d816d6f1f8c1382",
+            "asset_json": "1db9f7dfdd48f96cd3f105c539485e6ae7c22f4c5a6f569e2e7196e0c5ab2618"
+          },
+          "changed_vertices": 40,
+          "original_bottom_z": -1.959999918937683,
+          "new_bottom_z": -3.200000047683716,
+          "unchanged_at_or_above_z": -0.4,
+          "deck_and_markers_unchanged": true,
+          "triangles_unchanged": true
+        }
+      ],
+      "steps": [
+        "Original procedural low-poly model; modifiers applied; face normals checked.",
+        "Metric FBX Y-up export; Blender FBX roundtrip validation."
+      ]
+    },
+    {
+      "id": "flagpole_blue",
+      "triangles": 895,
+      "sha256": "bf20fa6d547aa1d17424fdd4fde804471c8926d145b9a48b1a022480a89c8903",
+      "source": "art/generated/env-v1/props/flagpole_blue/flagpole_blue.fbx",
+      "source_script": "art/blender/env_v1_props.py",
+      "source_script_sha256": "099a96576a12e59be951e42e549714b1cd4429d657633ea47843fcf83625ad1d",
+      "postprocessing": [],
+      "steps": [
+        "Original procedural low-poly model; modifiers applied; face normals checked.",
+        "Metric FBX Y-up export; Blender FBX roundtrip validation."
+      ]
+    },
+    {
+      "id": "harbor_lantern",
+      "triangles": 436,
+      "sha256": "2838797eabe43a1f35333844cdfd43030f171044708ae5b4c3c80529b6df9901",
+      "source": "art/generated/env-v1/props/harbor_lantern/harbor_lantern.fbx",
+      "source_script": "art/blender/env_v1_props.py",
+      "source_script_sha256": "099a96576a12e59be951e42e549714b1cd4429d657633ea47843fcf83625ad1d",
+      "postprocessing": [],
+      "steps": [
+        "Original procedural low-poly model; modifiers applied; face normals checked.",
+        "Metric FBX Y-up export; Blender FBX roundtrip validation."
+      ]
+    },
+    {
+      "id": "bench",
+      "triangles": 324,
+      "sha256": "8682056e14fa1745271e2980f5b02d65b78ccef15d4c4c145d671a3d4340b846",
+      "source": "art/generated/env-v1/props/bench/bench.fbx",
+      "source_script": "art/blender/env_v1_props.py",
+      "source_script_sha256": "099a96576a12e59be951e42e549714b1cd4429d657633ea47843fcf83625ad1d",
+      "postprocessing": [],
+      "steps": [
+        "Original procedural low-poly model; modifiers applied; face normals checked.",
+        "Metric FBX Y-up export; Blender FBX roundtrip validation."
+      ]
+    },
+    {
+      "id": "dock_crate",
+      "triangles": 180,
+      "sha256": "420d4f68becb07eead3ab7d09a40278155467f2ce1846de0b58eb06ccc5dcd09",
+      "source": "art/generated/env-v1/props/dock_crate/dock_crate.fbx",
+      "source_script": "art/blender/env_v1_props.py",
+      "source_script_sha256": "099a96576a12e59be951e42e549714b1cd4429d657633ea47843fcf83625ad1d",
+      "postprocessing": [],
+      "steps": [
+        "Original procedural low-poly model; modifiers applied; face normals checked.",
+        "Metric FBX Y-up export; Blender FBX roundtrip validation."
+      ]
+    },
+    {
+      "id": "dock_kettle",
+      "triangles": 436,
+      "sha256": "e36f82147cc443b2e5146e9f2d52aaefeaf77a5d05a55829090722e311b176c3",
+      "source": "art/generated/env-v1/props/dock_kettle/dock_kettle.fbx",
+      "source_script": "art/blender/env_v1_props.py",
+      "source_script_sha256": "099a96576a12e59be951e42e549714b1cd4429d657633ea47843fcf83625ad1d",
+      "postprocessing": [],
+      "steps": [
+        "Original procedural low-poly model; modifiers applied; face normals checked.",
+        "Metric FBX Y-up export; Blender FBX roundtrip validation."
+      ]
+    },
+    {
+      "id": "armillary_platform",
+      "triangles": 2536,
+      "sha256": "ea5e519d7b331f5dbf5c7985178f51a451d4b1c527aad436e2ea5bc386b58f84",
+      "source": "art/generated/env-v1/props/armillary_platform/armillary_platform.fbx",
+      "source_script": "art/blender/env_v1_props.py",
+      "source_script_sha256": "099a96576a12e59be951e42e549714b1cd4429d657633ea47843fcf83625ad1d",
+      "postprocessing": [],
+      "steps": [
+        "Original procedural low-poly model; modifiers applied; face normals checked.",
+        "Metric FBX Y-up export; Blender FBX roundtrip validation."
+      ]
+    },
+    {
+      "id": "crescent_sculpture",
+      "triangles": 388,
+      "sha256": "40cc325897fb78dcadbe78c24d54cf25b24a3ad35e0beebe9262423271732864",
+      "source": "art/generated/env-v1/props/crescent_sculpture/crescent_sculpture.fbx",
+      "source_script": "art/blender/env_v1_props.py",
+      "source_script_sha256": "099a96576a12e59be951e42e549714b1cd4429d657633ea47843fcf83625ad1d",
+      "postprocessing": [],
+      "steps": [
+        "Original procedural low-poly model; modifiers applied; face normals checked.",
+        "Metric FBX Y-up export; Blender FBX roundtrip validation."
+      ]
+    },
+    {
+      "id": "village_well",
+      "triangles": 1156,
+      "sha256": "ee8a9d96dfd8467bb82a3d76fc96523b9bf871acd6701a5eaafb0134b20c753c",
+      "source": "art/generated/env-v1/props/village_well/village_well.fbx",
+      "source_script": "art/blender/env_v1_props.py",
+      "source_script_sha256": "099a96576a12e59be951e42e549714b1cd4429d657633ea47843fcf83625ad1d",
+      "postprocessing": [],
+      "steps": [
+        "Original procedural low-poly model; modifiers applied; face normals checked.",
+        "Metric FBX Y-up export; Blender FBX roundtrip validation."
+      ]
+    },
+    {
+      "id": "laundry_line",
+      "triangles": 356,
+      "sha256": "3b33667e1153b64b6b5efda6674e2dc5f8f6c897fead5d99fdd8e314c86c6f7c",
+      "source": "art/generated/env-v1/props/laundry_line/laundry_line.fbx",
+      "source_script": "art/blender/env_v1_props.py",
+      "source_script_sha256": "099a96576a12e59be951e42e549714b1cd4429d657633ea47843fcf83625ad1d",
+      "postprocessing": [],
+      "steps": [
+        "Original procedural low-poly model; modifiers applied; face normals checked.",
+        "Metric FBX Y-up export; Blender FBX roundtrip validation."
+      ]
+    },
+    {
+      "id": "island_terrain",
+      "triangles": 7028,
+      "source": "art/generated/env-v1/terrain/island_terrain.fbx",
+      "sha256": "ab173885ad6e738525d3a883b589ab141f01f8a5f8fb1eb6c85a93ba9a6dd9eb",
+      "source_script": "art\\blender\\env_v1_terrain.py",
+      "source_script_sha256": "bc66551392c07c03cff7985ce522d28f70ccb28fd30cc207a3e7f14dbb499fd5",
+      "steps": [
+        "Continuous crescent surface and cliff skirt generated from final story layout.",
+        "House pads levelled and walkable stone path geometry generated.",
+        "Metric Y-up FBX export."
+      ]
+    },
+    {
+      "id": "tree_a",
+      "triangles": 11911,
+      "lod1Triangles": 4715,
+      "source": "art/incoming/env-2026-10-22/tree_a/发光树3d模型.glb",
+      "source_sha256": "5aaf0895c26fa75134709d9191de2e5c0d9b5b442adf7aeb052f705fea631916",
+      "sha256": "f69b5d3452db566f118842aed7a3c1a1d529cfd89caccb2185d8dda6a156e2f0",
+      "steps": [
+        "manual grouping by connected components and three-view source inspection",
+        "discard presentation-sheet cutaways and duplicate floating study panels",
+        "weld coincident glTF seam vertices while preserving UV loops",
+        "uniform physical scale; bottom-centre pivot",
+        "QEM collapse decimation",
+        "new smart-projected UV atlas; diffuse-colour reprojection from retained high-poly source",
+        "separate selectable tree base by horizontal cut; preserve co-located trunk/base seam",
+        "remove only buried downward bottom-cap faces",
+        "separate bark / leaf veins / amber fruit materials by UV-colour mask",
+        "tight high-luminance gold mask excludes orange-brown branches from fruit emission"
+      ]
+    },
+    {
+      "id": "tree_a_sapling_01",
+      "triangles": 6410,
+      "lod1Triangles": 2514,
+      "source": "art/incoming/env-2026-10-22/tree_a/发光树3d模型.glb",
+      "source_sha256": "5aaf0895c26fa75134709d9191de2e5c0d9b5b442adf7aeb052f705fea631916",
+      "sha256": "5c4be1fa14500ad60838eac99b0f06284249e7a1d49516a1d461912eeeac0f53",
+      "steps": [
+        "manual grouping by connected components and three-view source inspection",
+        "discard presentation-sheet cutaways and duplicate floating study panels",
+        "weld coincident glTF seam vertices while preserving UV loops",
+        "uniform physical scale; bottom-centre pivot",
+        "QEM collapse decimation",
+        "new smart-projected UV atlas; diffuse-colour reprojection from retained high-poly source",
+        "separate selectable tree base by horizontal cut; preserve co-located trunk/base seam",
+        "remove only buried downward bottom-cap faces",
+        "separate bark / leaf veins / amber fruit materials by UV-colour mask",
+        "tight high-luminance gold mask excludes orange-brown branches from fruit emission"
+      ]
+    },
+    {
+      "id": "tree_a_sapling_02",
+      "triangles": 6411,
+      "lod1Triangles": 2515,
+      "source": "art/incoming/env-2026-10-22/tree_a/发光树3d模型.glb",
+      "source_sha256": "5aaf0895c26fa75134709d9191de2e5c0d9b5b442adf7aeb052f705fea631916",
+      "sha256": "2b2f59283e769fb7a509456ec5acb9d9fbd9b88b039a7b891e4567a50eb64a97",
+      "steps": [
+        "manual grouping by connected components and three-view source inspection",
+        "discard presentation-sheet cutaways and duplicate floating study panels",
+        "weld coincident glTF seam vertices while preserving UV loops",
+        "uniform physical scale; bottom-centre pivot",
+        "QEM collapse decimation",
+        "new smart-projected UV atlas; diffuse-colour reprojection from retained high-poly source",
+        "separate selectable tree base by horizontal cut; preserve co-located trunk/base seam",
+        "remove only buried downward bottom-cap faces",
+        "separate bark / leaf veins / amber fruit materials by UV-colour mask",
+        "tight high-luminance gold mask excludes orange-brown branches from fruit emission"
+      ]
+    },
+    {
+      "id": "tree_b",
+      "triangles": 11966,
+      "lod1Triangles": 4742,
+      "source": "art/incoming/env-2026-10-22/tree_b/发光树3d模型 (1).glb",
+      "source_sha256": "8678da1d1b32d5cda1780acbec45b287837f1cb80c6358494a595c7edaed5a56",
+      "sha256": "be6abb76001b21ad3d79a93911a5ab3e0023421b4352175567515c14b7061fb8",
+      "steps": [
+        "manual grouping by connected components and three-view source inspection",
+        "discard presentation-sheet cutaways and duplicate floating study panels",
+        "weld coincident glTF seam vertices while preserving UV loops",
+        "uniform physical scale; bottom-centre pivot",
+        "QEM collapse decimation",
+        "new smart-projected UV atlas; diffuse-colour reprojection from retained high-poly source",
+        "separate selectable tree base by horizontal cut; preserve co-located trunk/base seam",
+        "remove only buried downward bottom-cap faces",
+        "separate bark / leaf veins / amber fruit materials by UV-colour mask",
+        "tight high-luminance gold mask excludes orange-brown branches from fruit emission",
+        "Add 56-triangle tapered curved wood connector between detached source bough and trunk; LOD1 connector 28 triangles"
+      ]
+    },
+    {
+      "id": "tree_c",
+      "triangles": 11910,
+      "lod1Triangles": 4716,
+      "source": "art/incoming/env-2026-10-22/tree_c/发光树3d模型 (2).glb",
+      "source_sha256": "c6c24b9a3e34863bfe1d9dc61a3addf67b72e4b1d3542586361ff8b48a9b5254",
+      "sha256": "b423c6f3b3f49dc6dfbbca68af40ad59dab6a6e90159333c1e13b8e1b882ae81",
+      "steps": [
+        "manual grouping by connected components and three-view source inspection",
+        "discard presentation-sheet cutaways and duplicate floating study panels",
+        "weld coincident glTF seam vertices while preserving UV loops",
+        "uniform physical scale; bottom-centre pivot",
+        "QEM collapse decimation",
+        "new smart-projected UV atlas; diffuse-colour reprojection from retained high-poly source",
+        "separate selectable tree base by horizontal cut; preserve co-located trunk/base seam",
+        "remove only buried downward bottom-cap faces",
+        "separate bark / leaf veins / amber fruit materials by UV-colour mask",
+        "tight high-luminance gold mask excludes orange-brown branches from fruit emission"
+      ]
+    },
+    {
+      "id": "tree_gold",
+      "triangles": 29911,
+      "lod1Triangles": 11914,
+      "source": "art/incoming/env-2026-10-22/tree_gold/灯光盆景树3d模型.glb",
+      "source_sha256": "09ec05afad23b9a7ce901d2f15b0dd6289c807c30ef675f25d74925856003cec",
+      "sha256": "8fcf04efcda95f5a58b4cae9b77bdad06d8b99981033c39662f3032ab8eed6b8",
+      "steps": [
+        "manual grouping by connected components and three-view source inspection",
+        "discard presentation-sheet cutaways and duplicate floating study panels",
+        "weld coincident glTF seam vertices while preserving UV loops",
+        "uniform physical scale; bottom-centre pivot",
+        "QEM collapse decimation",
+        "new smart-projected UV atlas; diffuse-colour reprojection from retained high-poly source",
+        "separate selectable tree base by horizontal cut; preserve co-located trunk/base seam",
+        "remove only buried downward bottom-cap faces",
+        "separate bark / leaf veins / amber fruit materials by UV-colour mask",
+        "tight high-luminance gold mask excludes orange-brown branches from fruit emission"
+      ]
+    },
+    {
+      "id": "rock_mountain",
+      "triangles": 7796,
+      "lod1Triangles": 3093,
+      "source": "art/incoming/env-2026-10-22/rock_mountain/岩石山3d模型.glb",
+      "source_sha256": "0ff327a32f946ae1ed32d0316b19bdf6e60003f5ffdadc0474bd30cc57c28d21",
+      "sha256": "a4df4369587681f5e74a2fbe14c42e8e5e69519cc9d5def70a66a3ba3394c6f1",
+      "steps": [
+        "manual grouping by connected components and three-view source inspection",
+        "discard presentation-sheet cutaways and duplicate floating study panels",
+        "weld coincident glTF seam vertices while preserving UV loops",
+        "uniform physical scale; bottom-centre pivot",
+        "QEM collapse decimation",
+        "new smart-projected UV atlas; diffuse-colour reprojection from retained high-poly source",
+        "preserve all selected visible object geometry",
+        "remove only buried downward bottom-cap faces",
+        "matte source-colour material"
+      ]
+    },
+    {
+      "id": "rock_mass",
+      "triangles": 7813,
+      "lod1Triangles": 3101,
+      "source": "art/incoming/env-2026-10-22/rock_mass/岩石山体3d模型.glb",
+      "source_sha256": "1713c881cecda46a9f9b94608af4b8ec9f17f6797b5f3b2f8178cd9acec88a06",
+      "sha256": "39d06494aa6283d2e81cd5899cacae07f9fab39a142f1eaf068d0f2dd8b159e5",
+      "steps": [
+        "manual grouping by connected components and three-view source inspection",
+        "discard presentation-sheet cutaways and duplicate floating study panels",
+        "weld coincident glTF seam vertices while preserving UV loops",
+        "uniform physical scale; bottom-centre pivot",
+        "QEM collapse decimation",
+        "new smart-projected UV atlas; diffuse-colour reprojection from retained high-poly source",
+        "preserve all selected visible object geometry",
+        "remove only buried downward bottom-cap faces",
+        "matte source-colour material"
+      ]
+    },
+    {
+      "id": "rock_arch",
+      "triangles": 7800,
+      "lod1Triangles": 3095,
+      "source": "art/incoming/env-2026-10-22/rock_arch/岩石拱门3d模型.glb",
+      "source_sha256": "4c00ba302e1728f7f3f4e6c6a775461f958772c96c975f1a582c15b935be0448",
+      "sha256": "86ff28c799faca070e1cd2c39858a21801e26805f237b6e8cdc2a7743a86baff",
+      "steps": [
+        "manual grouping by connected components and three-view source inspection",
+        "discard presentation-sheet cutaways and duplicate floating study panels",
+        "weld coincident glTF seam vertices while preserving UV loops",
+        "uniform physical scale; bottom-centre pivot",
+        "QEM collapse decimation",
+        "new smart-projected UV atlas; diffuse-colour reprojection from retained high-poly source",
+        "preserve all selected visible object geometry",
+        "remove only buried downward bottom-cap faces",
+        "matte source-colour material"
+      ]
+    },
+    {
+      "id": "rock_cluster",
+      "triangles": 7811,
+      "lod1Triangles": 3099,
+      "source": "art/incoming/env-2026-10-22/rock_cluster/岩石群3d模型.glb",
+      "source_sha256": "e8a33d371a95ca4225d2c23df1a367e62bfa9c0c586dd01b4982ac937937d589",
+      "sha256": "d1a656e174e31e31d7afbf8567b2ccb887fd4d1ce3f1c841f97630caadce0ce7",
+      "steps": [
+        "manual grouping by connected components and three-view source inspection",
+        "discard presentation-sheet cutaways and duplicate floating study panels",
+        "weld coincident glTF seam vertices while preserving UV loops",
+        "uniform physical scale; bottom-centre pivot",
+        "QEM collapse decimation",
+        "new smart-projected UV atlas; diffuse-colour reprojection from retained high-poly source",
+        "preserve all selected visible object geometry",
+        "remove only buried downward bottom-cap faces",
+        "matte source-colour material"
+      ]
+    },
+    {
+      "id": "boat",
+      "triangles": 29816,
+      "lod1Triangles": 0,
+      "source": "art/incoming/env-2026-10-22/boat/木质小艇3d模型.glb",
+      "source_sha256": "69eeff54d79778a86595f53744a7a10a92f666f17a17420ba2c3a0c0879e56cc",
+      "sha256": "596ec4b08700db0437fd2509cdcd6dbad59e5a8f160bf2f92edf93c16d3d8561",
+      "steps": [
+        "manual grouping by connected components and three-view source inspection",
+        "discard presentation-sheet cutaways and duplicate floating study panels",
+        "weld coincident glTF seam vertices while preserving UV loops",
+        "uniform physical scale; bottom-centre pivot",
+        "QEM collapse decimation",
+        "new smart-projected UV atlas; diffuse-colour reprojection from retained high-poly source",
+        "preserve all selected visible object geometry",
+        "preserve boat interior and hull bottom",
+        "matte source-colour material"
+      ]
+    },
+    {
+      "id": "rock_cluster_reef_01",
+      "triangles": 2815,
+      "lod1Triangles": 1101,
+      "source": "art/incoming/env-2026-10-22/rock_cluster/岩石群3d模型.glb",
+      "source_sha256": "e8a33d371a95ca4225d2c23df1a367e62bfa9c0c586dd01b4982ac937937d589",
+      "sha256": "ab539f672c0b451863f37a0e22ff1f6aee16eaf17faa072948871dc162d7a04c",
+      "steps": [
+        "manual grouping by connected components and three-view source inspection",
+        "discard presentation-sheet cutaways and duplicate floating study panels",
+        "weld coincident glTF seam vertices while preserving UV loops",
+        "uniform physical scale; bottom-centre pivot",
+        "QEM collapse decimation",
+        "retain source UV atlas for low-detail far rock variant",
+        "preserve all selected visible object geometry",
+        "remove only buried downward bottom-cap faces",
+        "matte source-colour material"
+      ]
+    },
+    {
+      "id": "rock_cluster_reef_02",
+      "triangles": 2816,
+      "lod1Triangles": 1102,
+      "source": "art/incoming/env-2026-10-22/rock_cluster/岩石群3d模型.glb",
+      "source_sha256": "e8a33d371a95ca4225d2c23df1a367e62bfa9c0c586dd01b4982ac937937d589",
+      "sha256": "d79ad6a9d9f921c23d952b34ee82efa0d6344c064b1868f26ecd6a880d15c4a7",
+      "steps": [
+        "manual grouping by connected components and three-view source inspection",
+        "discard presentation-sheet cutaways and duplicate floating study panels",
+        "weld coincident glTF seam vertices while preserving UV loops",
+        "uniform physical scale; bottom-centre pivot",
+        "QEM collapse decimation",
+        "retain source UV atlas for low-detail far rock variant",
+        "preserve all selected visible object geometry",
+        "remove only buried downward bottom-cap faces",
+        "matte source-colour material"
+      ]
+    }
+  ],
+  "missingAssets": [],
+  "instances": 61,
+  "highestLODInstanceTriangles": 378698,
+  "allLODInstanceTriangles": 505097,
+  "countsExclude": "highestLODInstanceTriangles/allLODInstanceTriangles are Blender source-layout counts; exclude Unity sky/sea and conformed-path subdivision. Actual Unity counts are separately recorded in unityVerification.",
+  "fps": "Not measured. 60 FPS is a target only.",
+  "unityPermission": "User handed Unity over; environment Build/Validate/GroundChecks/Capture completed. GPT has finished Unity operations; Claude may resume.",
+  "unityVerification": {
+    "report": "art/verification/env-v1/validation.json",
+    "checks": 236,
+    "activeLod0Triangles": 380368,
+    "trianglesIncludingBothLods": 506767,
+    "groundReport": "art/verification/env-v1/ground-checks.json",
+    "passedGroundSamples": 13,
+    "captureReport": "art/verification/env-v1/captures.json",
+    "visualReview": "art/verification/env-v1/visual-review.json",
+    "protectedFilesReport": "art/verification/env-v1/protected-files-after.json",
+    "prefab": "GameProject/Assets/JieGuang/Environment/Island.prefab",
+    "scene": "GameProject/Assets/JieGuang/Environment/EnvTest.unity"
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "asset_id": "bench",
+  "description": "路口双人木长椅，坐高0.45m，朝正前方。",
+  "source": "Original procedural placeholder authored for the final JieGuang script; no legacy game asset reused.",
+  "source_script": "art/blender/env_v1_props.py",
+  "source_script_sha256": "099a96576a12e59be951e42e549714b1cd4429d657633ea47843fcf83625ad1d",
+  "fbx": "art/generated/env-v1/props/bench/bench.fbx",
+  "fbx_sha256": "8682056e14fa1745271e2980f5b02d65b78ccef15d4c4c145d671a3d4340b846",
+  "triangles": 324,
+  "meshes": [
+    {
+      "name": "Structure",
+      "triangles": 324,
+      "materials": [
+        "Wood_Endgrain",
+        "Wood_DarkBeams",
+        "Wood_Honey"
+      ]
+    }
+  ],
+  "bounds_blender": {
+    "min": [
+      -0.9800000190734863,
+      -0.2900000214576721,
+      0.0
+    ],
+    "max": [
+      0.9800000190734863,
+      0.29499995708465576,
+      1.0750000476837158
+    ]
+  },
+  "dimensions_metres": [
+    1.96,
+    0.585,
+    1.075
+  ],
+  "coordinates": "Blender Z-up, front -Y; FBX Y-up/-Z; intended Unity point mapping (x,z,-y), confirm after import.",
+  "root_pivot_blender": [
+    0,
+    0,
+    0
+  ],
+  "markers": {
+    "Marker_Seat": {
+      "blender_xyz": [
+        0.0,
+        -0.04,
+        0.45
+      ],
+      "unity_xyz": [
+        0.0,
+        0.45,
+        0.04
+      ],
+      "blender_rotation_degrees": [
+        0.0,
+        -0.0,
+        0.0
+      ]
+    }
+  },
+  "notes": [
+    "Seat marker is contact/hip height, not foot height. Facing Blender -Y."
+  ]
+}

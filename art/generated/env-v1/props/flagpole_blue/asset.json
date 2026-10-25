@@ -1,0 +1,79 @@
+{
+  "asset_id": "flagpole_blue",
+  "description": "细木旗杆、磨白边蓝旗，小光树与一大一小金星；旗杆下部铁钩可挂灯笼。",
+  "source": "Original procedural placeholder authored for the final JieGuang script; no legacy game asset reused.",
+  "source_script": "art/blender/env_v1_props.py",
+  "source_script_sha256": "099a96576a12e59be951e42e549714b1cd4429d657633ea47843fcf83625ad1d",
+  "fbx": "art/generated/env-v1/props/flagpole_blue/flagpole_blue.fbx",
+  "fbx_sha256": "bf20fa6d547aa1d17424fdd4fde804471c8926d145b9a48b1a022480a89c8903",
+  "triangles": 895,
+  "meshes": [
+    {
+      "name": "Structure",
+      "triangles": 416,
+      "materials": [
+        "Wood_Honey",
+        "Iron_Blackened",
+        "Wood_Endgrain",
+        "Cloth_Unbleached"
+      ]
+    },
+    {
+      "name": "FlagFabric",
+      "triangles": 479,
+      "materials": [
+        "Flag_FadedIndigo",
+        "Flag_WeatheredEdge",
+        "Flag_SilverTree",
+        "Gold_WornEdges"
+      ]
+    }
+  ],
+  "bounds_blender": {
+    "min": [
+      -0.11999999731779099,
+      -0.344008207321167,
+      0.0
+    ],
+    "max": [
+      1.3415000438690186,
+      0.11999999731779099,
+      4.970000267028809
+    ]
+  },
+  "dimensions_metres": [
+    1.4615,
+    0.464,
+    4.97
+  ],
+  "coordinates": "Blender Z-up, front -Y; FBX Y-up/-Z; intended Unity point mapping (x,z,-y), confirm after import.",
+  "root_pivot_blender": [
+    0,
+    0,
+    0
+  ],
+  "markers": {
+    "Marker_FlagpoleHook": {
+      "blender_xyz": [
+        0.0,
+        -0.3,
+        1.77
+      ],
+      "unity_xyz": [
+        0.0,
+        1.77,
+        0.3
+      ],
+      "blender_rotation_degrees": [
+        0.0,
+        -0.0,
+        0.0
+      ]
+    }
+  },
+  "notes": [
+    "Flagpole height 4.97m. Hook hanging contact at (0,-.30,1.77), reachable by a child standing on tiptoes.",
+    "One cloth mesh includes faded hem and tree/two-star emblem. Cloth is static placeholder.",
+    "Hook at 1.77m for gameplay accessibility, below exact geometric halfway of mast."
+  ]
+}

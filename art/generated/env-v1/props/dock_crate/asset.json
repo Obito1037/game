@@ -1,0 +1,65 @@
+{
+  "asset_id": "dock_crate",
+  "description": "灯伯旗杆下坐的旧木箱。",
+  "source": "Original procedural placeholder authored for the final JieGuang script; no legacy game asset reused.",
+  "source_script": "art/blender/env_v1_props.py",
+  "source_script_sha256": "099a96576a12e59be951e42e549714b1cd4429d657633ea47843fcf83625ad1d",
+  "fbx": "art/generated/env-v1/props/dock_crate/dock_crate.fbx",
+  "fbx_sha256": "420d4f68becb07eead3ab7d09a40278155467f2ce1846de0b58eb06ccc5dcd09",
+  "triangles": 180,
+  "meshes": [
+    {
+      "name": "Structure",
+      "triangles": 180,
+      "materials": [
+        "Wood_Honey",
+        "Wood_Endgrain"
+      ]
+    }
+  ],
+  "bounds_blender": {
+    "min": [
+      -0.3400000035762787,
+      -0.3375000059604645,
+      0.0
+    ],
+    "max": [
+      0.3400000035762787,
+      0.3375000059604645,
+      0.5600000619888306
+    ]
+  },
+  "dimensions_metres": [
+    0.68,
+    0.675,
+    0.56
+  ],
+  "coordinates": "Blender Z-up, front -Y; FBX Y-up/-Z; intended Unity point mapping (x,z,-y), confirm after import.",
+  "root_pivot_blender": [
+    0,
+    0,
+    0
+  ],
+  "markers": {
+    "Marker_Seat": {
+      "blender_xyz": [
+        0.0,
+        0.0,
+        0.56
+      ],
+      "unity_xyz": [
+        0.0,
+        0.56,
+        -0.0
+      ],
+      "blender_rotation_degrees": [
+        0.0,
+        -0.0,
+        0.0
+      ]
+    }
+  },
+  "notes": [
+    "Top contact .56m; use Marker_Seat for seated NPC offset."
+  ]
+}

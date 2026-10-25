@@ -1,0 +1,86 @@
+{
+  "id": "rock_arch",
+  "source_id": "rock_arch",
+  "kind": "rock",
+  "source_path": "art/incoming/env-2026-10-22/rock_arch/岩石拱门3d模型.glb",
+  "source_sha256": "4c00ba302e1728f7f3f4e6c6a775461f958772c96c975f1a582c15b935be0448",
+  "input_component_ranks": [
+    0
+  ],
+  "input_triangles": 1114662,
+  "scale_to_metres": 6.57551839464883,
+  "dimensions_xyz_blender_metres": [
+    6.007585048675537,
+    4.3114013671875,
+    2.742837429046631
+  ],
+  "dimensions_xyz_unity_metres": [
+    6.007585048675537,
+    2.742837333586067,
+    4.3114013671875
+  ],
+  "pivot": "bottom centre of all retained parts; base and trunk share exact world-aligned origin",
+  "axis": "FBX Y-up, -Z forward; metres; baked space transform",
+  "steps": [
+    "manual grouping by connected components and three-view source inspection",
+    "discard presentation-sheet cutaways and duplicate floating study panels",
+    "weld coincident glTF seam vertices while preserving UV loops",
+    "uniform physical scale; bottom-centre pivot",
+    "QEM collapse decimation",
+    "new smart-projected UV atlas; diffuse-colour reprojection from retained high-poly source",
+    "preserve all selected visible object geometry",
+    "remove only buried downward bottom-cap faces",
+    "matte source-colour material"
+  ],
+  "bottom_faces_removed": 16,
+  "textures": [
+    {
+      "path": "art/generated/env-v1/assets/rock_arch/textures/rock_arch_BaseColor.png",
+      "sha256": "e5be4a2642748d2df3b209c0f679a486d5d0a6896702b6eb9bbc988dae5ddb24",
+      "width": 1024,
+      "height": 1024,
+      "color_space": "sRGB"
+    }
+  ],
+  "materials": [
+    {
+      "name": "rock_arch_Stone",
+      "role": "Stone",
+      "base_color_texture": "art/generated/env-v1/assets/rock_arch/textures/rock_arch_BaseColor.png",
+      "roughness": 0.86,
+      "emission_color": [
+        0,
+        0,
+        0
+      ],
+      "emission_strength": 0
+    }
+  ],
+  "lod0": {
+    "fbx": "art/generated/env-v1/assets/rock_arch/rock_arch/rock_arch_LOD0.fbx",
+    "sha256": "86ff28c799faca070e1cd2c39858a21801e26805f237b6e8cdc2a7743a86baff",
+    "triangles": 7800,
+    "objects": [
+      {
+        "name": "rock_arch",
+        "triangles": 7800
+      }
+    ]
+  },
+  "previews": {
+    "front": "art/generated/env-v1/assets/rock_arch/rock_arch/previews/processed-front.png",
+    "side": "art/generated/env-v1/assets/rock_arch/rock_arch/previews/processed-side.png",
+    "top": "art/generated/env-v1/assets/rock_arch/rock_arch/previews/processed-top.png"
+  },
+  "lod1": {
+    "fbx": "art/generated/env-v1/assets/rock_arch/rock_arch/rock_arch_LOD1.fbx",
+    "sha256": "776eb6e7f824f02853f10739f3efc2059696307fdb67bb7a6fff7d98db888122",
+    "triangles": 3095,
+    "ratio": 0.3967948717948718
+  },
+  "review": "Manual front/side/top preview review complete for the first-island environment handoff; source presentation panels removed. Tree foliage remains visibly simplified at close range. Technical checks are recorded separately and do not establish all-surface perfection.",
+  "technical_scope": "Blender offline processing, screenshots, and FBX roundtrip; no Unity import, physics, or performance validation",
+  "known_limits": [
+    "Source stones are connected rock formations; the standalone reef variants are reusable groups rather than individually retopologized stones."
+  ]
+}

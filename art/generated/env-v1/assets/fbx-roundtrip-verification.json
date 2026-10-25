@@ -1,0 +1,934 @@
+{
+  "checks": [
+    {
+      "id": "tree_a",
+      "level": "lod0",
+      "fbx": "art/generated/env-v1/assets/tree_a/tree_a/tree_a_LOD0.fbx",
+      "sha256": "f69b5d3452db566f118842aed7a3c1a1d529cfd89caccb2185d8dda6a156e2f0",
+      "triangles": 11911,
+      "expected_triangles": 11911,
+      "triangles_match": true,
+      "materials": [
+        "tree_a_Bark",
+        "tree_a_LeafVeins",
+        "tree_a_WarmFruit"
+      ],
+      "bounds_blender": [
+        [
+          -2.0320746898651123,
+          -2.1369760036468506,
+          0.03153654560446739
+        ],
+        [
+          2.0210447311401367,
+          2.133376121520996,
+          4.810133457183838
+        ]
+      ],
+      "dimensions_blender": [
+        4.053119659423828,
+        4.270352363586426,
+        4.778596878051758
+      ],
+      "position_at_bottom_origin": true,
+      "nonfinite_position_components": 0,
+      "nonfinite_uv_components": 0,
+      "meshes_missing_uv": [],
+      "zero_area_triangles_epsilon_1e_10": 0,
+      "boundary_edges": 457,
+      "boundary_note": "Buried bottom caps are intentionally removed; tree/base cut is open at its shared interface. UV seams may be split by FBX. Boundary count is diagnostic, not a closed-manifold claim."
+    },
+    {
+      "id": "tree_a",
+      "level": "lod1",
+      "fbx": "art/generated/env-v1/assets/tree_a/tree_a/tree_a_LOD1.fbx",
+      "sha256": "7c188ad89ff2d9a64fe17292a93b74afe33801ea662c3c4140f5ff8bd91b4608",
+      "triangles": 4715,
+      "expected_triangles": 4715,
+      "triangles_match": true,
+      "materials": [
+        "tree_a_Bark",
+        "tree_a_LeafVeins",
+        "tree_a_WarmFruit"
+      ],
+      "bounds_blender": [
+        [
+          -1.8437528610229492,
+          -1.9905743598937988,
+          0.028111768886446953
+        ],
+        [
+          1.8666026592254639,
+          1.97639000415802,
+          4.749232769012451
+        ]
+      ],
+      "dimensions_blender": [
+        3.710355520248413,
+        3.9669642448425293,
+        4.721120834350586
+      ],
+      "position_at_bottom_origin": true,
+      "nonfinite_position_components": 0,
+      "nonfinite_uv_components": 0,
+      "meshes_missing_uv": [],
+      "zero_area_triangles_epsilon_1e_10": 0,
+      "boundary_edges": 213,
+      "boundary_note": "Buried bottom caps are intentionally removed; tree/base cut is open at its shared interface. UV seams may be split by FBX. Boundary count is diagnostic, not a closed-manifold claim."
+    },
+    {
+      "id": "tree_a_sapling_01",
+      "level": "lod0",
+      "fbx": "art/generated/env-v1/assets/tree_a/tree_a_sapling_01/tree_a_sapling_01_LOD0.fbx",
+      "sha256": "5c4be1fa14500ad60838eac99b0f06284249e7a1d49516a1d461912eeeac0f53",
+      "triangles": 6410,
+      "expected_triangles": 6410,
+      "triangles_match": true,
+      "materials": [
+        "tree_a_sapling_01_Bark",
+        "tree_a_sapling_01_LeafVeins",
+        "tree_a_sapling_01_WarmFruit"
+      ],
+      "bounds_blender": [
+        [
+          -1.2436825037002563,
+          -1.2657874822616577,
+          -0.002783706644549966
+        ],
+        [
+          1.2392064332962036,
+          1.269993543624878,
+          2.804182767868042
+        ]
+      ],
+      "dimensions_blender": [
+        2.48288893699646,
+        2.535780906677246,
+        2.806966543197632
+      ],
+      "position_at_bottom_origin": true,
+      "nonfinite_position_components": 0,
+      "nonfinite_uv_components": 0,
+      "meshes_missing_uv": [],
+      "zero_area_triangles_epsilon_1e_10": 0,
+      "boundary_edges": 262,
+      "boundary_note": "Buried bottom caps are intentionally removed; tree/base cut is open at its shared interface. UV seams may be split by FBX. Boundary count is diagnostic, not a closed-manifold claim."
+    },
+    {
+      "id": "tree_a_sapling_01",
+      "level": "lod1",
+      "fbx": "art/generated/env-v1/assets/tree_a/tree_a_sapling_01/tree_a_sapling_01_LOD1.fbx",
+      "sha256": "311fb6de92e81571b5cbbf572fbf98a7370f66781a9c2501ef88194d283dabb0",
+      "triangles": 2514,
+      "expected_triangles": 2514,
+      "triangles_match": true,
+      "materials": [
+        "tree_a_sapling_01_Bark",
+        "tree_a_sapling_01_LeafVeins",
+        "tree_a_sapling_01_WarmFruit"
+      ],
+      "bounds_blender": [
+        [
+          -1.2307593822479248,
+          -1.2619976997375488,
+          0.0029613433871418238
+        ],
+        [
+          1.1955198049545288,
+          1.2575792074203491,
+          2.795196294784546
+        ]
+      ],
+      "dimensions_blender": [
+        2.426279067993164,
+        2.5195770263671875,
+        2.7922348976135254
+      ],
+      "position_at_bottom_origin": true,
+      "nonfinite_position_components": 0,
+      "nonfinite_uv_components": 0,
+      "meshes_missing_uv": [],
+      "zero_area_triangles_epsilon_1e_10": 0,
+      "boundary_edges": 122,
+      "boundary_note": "Buried bottom caps are intentionally removed; tree/base cut is open at its shared interface. UV seams may be split by FBX. Boundary count is diagnostic, not a closed-manifold claim."
+    },
+    {
+      "id": "tree_a_sapling_02",
+      "level": "lod0",
+      "fbx": "art/generated/env-v1/assets/tree_a/tree_a_sapling_02/tree_a_sapling_02_LOD0.fbx",
+      "sha256": "2b2f59283e769fb7a509456ec5acb9d9fbd9b88b039a7b891e4567a50eb64a97",
+      "triangles": 6411,
+      "expected_triangles": 6411,
+      "triangles_match": true,
+      "materials": [
+        "tree_a_sapling_02_Bark",
+        "tree_a_sapling_02_LeafVeins",
+        "tree_a_sapling_02_WarmFruit"
+      ],
+      "bounds_blender": [
+        [
+          -1.2770880460739136,
+          -1.451035499572754,
+          0.00019136141054332256
+        ],
+        [
+          1.2792102098464966,
+          1.4419429302215576,
+          3.0058584213256836
+        ]
+      ],
+      "dimensions_blender": [
+        2.55629825592041,
+        2.8929784297943115,
+        3.005666971206665
+      ],
+      "position_at_bottom_origin": true,
+      "nonfinite_position_components": 0,
+      "nonfinite_uv_components": 0,
+      "meshes_missing_uv": [],
+      "zero_area_triangles_epsilon_1e_10": 0,
+      "boundary_edges": 173,
+      "boundary_note": "Buried bottom caps are intentionally removed; tree/base cut is open at its shared interface. UV seams may be split by FBX. Boundary count is diagnostic, not a closed-manifold claim."
+    },
+    {
+      "id": "tree_a_sapling_02",
+      "level": "lod1",
+      "fbx": "art/generated/env-v1/assets/tree_a/tree_a_sapling_02/tree_a_sapling_02_LOD1.fbx",
+      "sha256": "20f91246b7e081e20c8fae4628eb36473b5043a3ba5b8be76633036eba7a5f0c",
+      "triangles": 2515,
+      "expected_triangles": 2515,
+      "triangles_match": true,
+      "materials": [
+        "tree_a_sapling_02_Bark",
+        "tree_a_sapling_02_LeafVeins",
+        "tree_a_sapling_02_WarmFruit"
+      ],
+      "bounds_blender": [
+        [
+          -1.2717454433441162,
+          -1.4285818338394165,
+          0.0009744638809934258
+        ],
+        [
+          1.272202968597412,
+          1.4260972738265991,
+          2.9881458282470703
+        ]
+      ],
+      "dimensions_blender": [
+        2.5439484119415283,
+        2.8546791076660156,
+        2.9871714115142822
+      ],
+      "position_at_bottom_origin": true,
+      "nonfinite_position_components": 0,
+      "nonfinite_uv_components": 0,
+      "meshes_missing_uv": [],
+      "zero_area_triangles_epsilon_1e_10": 0,
+      "boundary_edges": 85,
+      "boundary_note": "Buried bottom caps are intentionally removed; tree/base cut is open at its shared interface. UV seams may be split by FBX. Boundary count is diagnostic, not a closed-manifold claim."
+    },
+    {
+      "id": "tree_b",
+      "level": "lod0",
+      "fbx": "art/generated/env-v1/assets/tree_b/tree_b/tree_b_LOD0.fbx",
+      "sha256": "be6abb76001b21ad3d79a93911a5ab3e0023421b4352175567515c14b7061fb8",
+      "triangles": 11966,
+      "expected_triangles": 11966,
+      "triangles_match": true,
+      "materials": [
+        "tree_b_Bark",
+        "tree_b_BarkRepair",
+        "tree_b_LeafVeins",
+        "tree_b_WarmFruit"
+      ],
+      "bounds_blender": [
+        [
+          -2.2273173332214355,
+          -2.99404239654541,
+          0.02176756225526333
+        ],
+        [
+          2.218284845352173,
+          2.992572546005249,
+          4.310244560241699
+        ]
+      ],
+      "dimensions_blender": [
+        4.4456024169921875,
+        5.986615180969238,
+        4.288476943969727
+      ],
+      "position_at_bottom_origin": true,
+      "nonfinite_position_components": 0,
+      "nonfinite_uv_components": 0,
+      "meshes_missing_uv": [],
+      "zero_area_triangles_epsilon_1e_10": 0,
+      "boundary_edges": 821,
+      "boundary_note": "Buried bottom caps are intentionally removed; tree/base cut is open at its shared interface. UV seams may be split by FBX. Boundary count is diagnostic, not a closed-manifold claim."
+    },
+    {
+      "id": "tree_b",
+      "level": "lod1",
+      "fbx": "art/generated/env-v1/assets/tree_b/tree_b/tree_b_LOD1.fbx",
+      "sha256": "59787d69dd079115fa139936aad39aa8880ae05e09652a6f46837dd20b954819",
+      "triangles": 4742,
+      "expected_triangles": 4742,
+      "triangles_match": true,
+      "materials": [
+        "tree_b_Bark.001",
+        "tree_b_BarkRepair",
+        "tree_b_LeafVeins.001",
+        "tree_b_WarmFruit.001"
+      ],
+      "bounds_blender": [
+        [
+          -2.1342060565948486,
+          -2.950883388519287,
+          0.01156570017337799
+        ],
+        [
+          2.2214367389678955,
+          2.9255964756011963,
+          4.282190799713135
+        ]
+      ],
+      "dimensions_blender": [
+        4.355642795562744,
+        5.8764801025390625,
+        4.270625114440918
+      ],
+      "position_at_bottom_origin": true,
+      "nonfinite_position_components": 0,
+      "nonfinite_uv_components": 0,
+      "meshes_missing_uv": [],
+      "zero_area_triangles_epsilon_1e_10": 0,
+      "boundary_edges": 443,
+      "boundary_note": "Buried bottom caps are intentionally removed; tree/base cut is open at its shared interface. UV seams may be split by FBX. Boundary count is diagnostic, not a closed-manifold claim."
+    },
+    {
+      "id": "tree_c",
+      "level": "lod0",
+      "fbx": "art/generated/env-v1/assets/tree_c/tree_c/tree_c_LOD0.fbx",
+      "sha256": "b423c6f3b3f49dc6dfbbca68af40ad59dab6a6e90159333c1e13b8e1b882ae81",
+      "triangles": 11910,
+      "expected_triangles": 11910,
+      "triangles_match": true,
+      "materials": [
+        "tree_c_Bark",
+        "tree_c_LeafVeins",
+        "tree_c_WarmFruit"
+      ],
+      "bounds_blender": [
+        [
+          -2.9249520301818848,
+          -3.233391761779785,
+          0.0028740293346345425
+        ],
+        [
+          2.9241583347320557,
+          3.223261833190918,
+          5.178338050842285
+        ]
+      ],
+      "dimensions_blender": [
+        5.8491106033325195,
+        6.456653594970703,
+        5.175464153289795
+      ],
+      "position_at_bottom_origin": true,
+      "nonfinite_position_components": 0,
+      "nonfinite_uv_components": 0,
+      "meshes_missing_uv": [],
+      "zero_area_triangles_epsilon_1e_10": 0,
+      "boundary_edges": 578,
+      "boundary_note": "Buried bottom caps are intentionally removed; tree/base cut is open at its shared interface. UV seams may be split by FBX. Boundary count is diagnostic, not a closed-manifold claim."
+    },
+    {
+      "id": "tree_c",
+      "level": "lod1",
+      "fbx": "art/generated/env-v1/assets/tree_c/tree_c/tree_c_LOD1.fbx",
+      "sha256": "758661af3436c4d5d56e2465a618d696ee992fe552d4771a38f916af63dd357d",
+      "triangles": 4716,
+      "expected_triangles": 4716,
+      "triangles_match": true,
+      "materials": [
+        "tree_c_Bark",
+        "tree_c_LeafVeins",
+        "tree_c_WarmFruit"
+      ],
+      "bounds_blender": [
+        [
+          -2.7069900035858154,
+          -3.126830577850342,
+          -0.016605542972683907
+        ],
+        [
+          2.703623056411743,
+          3.1625804901123047,
+          4.9863386154174805
+        ]
+      ],
+      "dimensions_blender": [
+        5.410613059997559,
+        6.2894110679626465,
+        5.002943992614746
+      ],
+      "position_at_bottom_origin": true,
+      "nonfinite_position_components": 0,
+      "nonfinite_uv_components": 0,
+      "meshes_missing_uv": [],
+      "zero_area_triangles_epsilon_1e_10": 0,
+      "boundary_edges": 284,
+      "boundary_note": "Buried bottom caps are intentionally removed; tree/base cut is open at its shared interface. UV seams may be split by FBX. Boundary count is diagnostic, not a closed-manifold claim."
+    },
+    {
+      "id": "tree_gold",
+      "level": "lod0",
+      "fbx": "art/generated/env-v1/assets/tree_gold/tree_gold/tree_gold_LOD0.fbx",
+      "sha256": "8fcf04efcda95f5a58b4cae9b77bdad06d8b99981033c39662f3032ab8eed6b8",
+      "triangles": 29911,
+      "expected_triangles": 29911,
+      "triangles_match": true,
+      "materials": [
+        "tree_gold_Bark",
+        "tree_gold_LeafVeins",
+        "tree_gold_WarmFruit"
+      ],
+      "bounds_blender": [
+        [
+          -2.6977651119232178,
+          -2.6782279014587402,
+          0.00396792171522975
+        ],
+        [
+          2.7082040309906006,
+          2.672180652618408,
+          4.997349739074707
+        ]
+      ],
+      "dimensions_blender": [
+        5.405969142913818,
+        5.350408554077148,
+        4.993381977081299
+      ],
+      "position_at_bottom_origin": true,
+      "nonfinite_position_components": 0,
+      "nonfinite_uv_components": 0,
+      "meshes_missing_uv": [],
+      "zero_area_triangles_epsilon_1e_10": 0,
+      "boundary_edges": 981,
+      "boundary_note": "Buried bottom caps are intentionally removed; tree/base cut is open at its shared interface. UV seams may be split by FBX. Boundary count is diagnostic, not a closed-manifold claim."
+    },
+    {
+      "id": "tree_gold",
+      "level": "lod1",
+      "fbx": "art/generated/env-v1/assets/tree_gold/tree_gold/tree_gold_LOD1.fbx",
+      "sha256": "dd6dbe546e882bbfe00532b36e533119798edd6a81a23df30762ddd6102ee7ed",
+      "triangles": 11914,
+      "expected_triangles": 11914,
+      "triangles_match": true,
+      "materials": [
+        "tree_gold_Bark",
+        "tree_gold_LeafVeins",
+        "tree_gold_WarmFruit"
+      ],
+      "bounds_blender": [
+        [
+          -2.6976218223571777,
+          -2.6512551307678223,
+          0.003967922180891037
+        ],
+        [
+          2.6546788215637207,
+          2.6618852615356445,
+          4.994729518890381
+        ]
+      ],
+      "dimensions_blender": [
+        5.352300643920898,
+        5.313140392303467,
+        4.990761756896973
+      ],
+      "position_at_bottom_origin": true,
+      "nonfinite_position_components": 0,
+      "nonfinite_uv_components": 0,
+      "meshes_missing_uv": [],
+      "zero_area_triangles_epsilon_1e_10": 0,
+      "boundary_edges": 488,
+      "boundary_note": "Buried bottom caps are intentionally removed; tree/base cut is open at its shared interface. UV seams may be split by FBX. Boundary count is diagnostic, not a closed-manifold claim."
+    },
+    {
+      "id": "rock_mountain",
+      "level": "lod0",
+      "fbx": "art/generated/env-v1/assets/rock_mountain/rock_mountain/rock_mountain_LOD0.fbx",
+      "sha256": "a4df4369587681f5e74a2fbe14c42e8e5e69519cc9d5def70a66a3ba3394c6f1",
+      "triangles": 7796,
+      "expected_triangles": 7796,
+      "triangles_match": true,
+      "materials": [
+        "rock_mountain_Stone"
+      ],
+      "bounds_blender": [
+        [
+          -2.1812586784362793,
+          -2.2350704669952393,
+          -0.0010538633214309812
+        ],
+        [
+          2.1892619132995605,
+          2.2459332942962646,
+          4.507124900817871
+        ]
+      ],
+      "dimensions_blender": [
+        4.37052059173584,
+        4.481003761291504,
+        4.5081787109375
+      ],
+      "position_at_bottom_origin": true,
+      "nonfinite_position_components": 0,
+      "nonfinite_uv_components": 0,
+      "meshes_missing_uv": [],
+      "zero_area_triangles_epsilon_1e_10": 0,
+      "boundary_edges": 30,
+      "boundary_note": "Buried bottom caps are intentionally removed; tree/base cut is open at its shared interface. UV seams may be split by FBX. Boundary count is diagnostic, not a closed-manifold claim."
+    },
+    {
+      "id": "rock_mountain",
+      "level": "lod1",
+      "fbx": "art/generated/env-v1/assets/rock_mountain/rock_mountain/rock_mountain_LOD1.fbx",
+      "sha256": "bc9ffc800974d5db8dd97568fa2b92d4ddbdeb5b9a04d6c4e8dceb8d65b88b3f",
+      "triangles": 3093,
+      "expected_triangles": 3093,
+      "triangles_match": true,
+      "materials": [
+        "rock_mountain_Stone"
+      ],
+      "bounds_blender": [
+        [
+          -2.16283917427063,
+          -2.2350704669952393,
+          -0.0010538622736930847
+        ],
+        [
+          2.167497158050537,
+          2.232713222503662,
+          4.500467300415039
+        ]
+      ],
+      "dimensions_blender": [
+        4.330336570739746,
+        4.4677839279174805,
+        4.501521110534668
+      ],
+      "position_at_bottom_origin": true,
+      "nonfinite_position_components": 0,
+      "nonfinite_uv_components": 0,
+      "meshes_missing_uv": [],
+      "zero_area_triangles_epsilon_1e_10": 0,
+      "boundary_edges": 25,
+      "boundary_note": "Buried bottom caps are intentionally removed; tree/base cut is open at its shared interface. UV seams may be split by FBX. Boundary count is diagnostic, not a closed-manifold claim."
+    },
+    {
+      "id": "rock_mass",
+      "level": "lod0",
+      "fbx": "art/generated/env-v1/assets/rock_mass/rock_mass/rock_mass_LOD0.fbx",
+      "sha256": "39d06494aa6283d2e81cd5899cacae07f9fab39a142f1eaf068d0f2dd8b159e5",
+      "triangles": 7813,
+      "expected_triangles": 7813,
+      "triangles_match": true,
+      "materials": [
+        "rock_mass_Stone"
+      ],
+      "bounds_blender": [
+        [
+          -2.7587270736694336,
+          -1.885835886001587,
+          -0.0001784474734449759
+        ],
+        [
+          2.7510833740234375,
+          1.8973443508148193,
+          1.878240942955017
+        ]
+      ],
+      "dimensions_blender": [
+        5.509810447692871,
+        3.7831802368164062,
+        1.8784193992614746
+      ],
+      "position_at_bottom_origin": true,
+      "nonfinite_position_components": 0,
+      "nonfinite_uv_components": 0,
+      "meshes_missing_uv": [],
+      "zero_area_triangles_epsilon_1e_10": 0,
+      "boundary_edges": 16,
+      "boundary_note": "Buried bottom caps are intentionally removed; tree/base cut is open at its shared interface. UV seams may be split by FBX. Boundary count is diagnostic, not a closed-manifold claim."
+    },
+    {
+      "id": "rock_mass",
+      "level": "lod1",
+      "fbx": "art/generated/env-v1/assets/rock_mass/rock_mass/rock_mass_LOD1.fbx",
+      "sha256": "28a76386a772176b0d5979e02862e9898c8f872c3944b2332436ac96d83d81b8",
+      "triangles": 3101,
+      "expected_triangles": 3101,
+      "triangles_match": true,
+      "materials": [
+        "rock_mass_Stone"
+      ],
+      "bounds_blender": [
+        [
+          -2.7587270736694336,
+          -1.884215235710144,
+          -0.00017844737158156931
+        ],
+        [
+          2.7273898124694824,
+          1.896083950996399,
+          1.8662043809890747
+        ]
+      ],
+      "dimensions_blender": [
+        5.486116886138916,
+        3.780299186706543,
+        1.8663828372955322
+      ],
+      "position_at_bottom_origin": true,
+      "nonfinite_position_components": 0,
+      "nonfinite_uv_components": 0,
+      "meshes_missing_uv": [],
+      "zero_area_triangles_epsilon_1e_10": 0,
+      "boundary_edges": 16,
+      "boundary_note": "Buried bottom caps are intentionally removed; tree/base cut is open at its shared interface. UV seams may be split by FBX. Boundary count is diagnostic, not a closed-manifold claim."
+    },
+    {
+      "id": "rock_arch",
+      "level": "lod0",
+      "fbx": "art/generated/env-v1/assets/rock_arch/rock_arch/rock_arch_LOD0.fbx",
+      "sha256": "86ff28c799faca070e1cd2c39858a21801e26805f237b6e8cdc2a7743a86baff",
+      "triangles": 7800,
+      "expected_triangles": 7800,
+      "triangles_match": true,
+      "materials": [
+        "rock_arch_Stone"
+      ],
+      "bounds_blender": [
+        [
+          -3.0042295455932617,
+          -2.153428554534912,
+          0.0017599385464563966
+        ],
+        [
+          3.0033555030822754,
+          2.157973051071167,
+          2.7445976734161377
+        ]
+      ],
+      "dimensions_blender": [
+        6.007585048675537,
+        4.3114013671875,
+        2.74283766746521
+      ],
+      "position_at_bottom_origin": true,
+      "nonfinite_position_components": 0,
+      "nonfinite_uv_components": 0,
+      "meshes_missing_uv": [],
+      "zero_area_triangles_epsilon_1e_10": 0,
+      "boundary_edges": 28,
+      "boundary_note": "Buried bottom caps are intentionally removed; tree/base cut is open at its shared interface. UV seams may be split by FBX. Boundary count is diagnostic, not a closed-manifold claim."
+    },
+    {
+      "id": "rock_arch",
+      "level": "lod1",
+      "fbx": "art/generated/env-v1/assets/rock_arch/rock_arch/rock_arch_LOD1.fbx",
+      "sha256": "776eb6e7f824f02853f10739f3efc2059696307fdb67bb7a6fff7d98db888122",
+      "triangles": 3095,
+      "expected_triangles": 3095,
+      "triangles_match": true,
+      "materials": [
+        "rock_arch_Stone"
+      ],
+      "bounds_blender": [
+        [
+          -2.9912283420562744,
+          -2.1393308639526367,
+          0.0017599385464563966
+        ],
+        [
+          3.0018625259399414,
+          2.157973051071167,
+          2.746248483657837
+        ]
+      ],
+      "dimensions_blender": [
+        5.993090629577637,
+        4.297304153442383,
+        2.744488477706909
+      ],
+      "position_at_bottom_origin": true,
+      "nonfinite_position_components": 0,
+      "nonfinite_uv_components": 0,
+      "meshes_missing_uv": [],
+      "zero_area_triangles_epsilon_1e_10": 0,
+      "boundary_edges": 23,
+      "boundary_note": "Buried bottom caps are intentionally removed; tree/base cut is open at its shared interface. UV seams may be split by FBX. Boundary count is diagnostic, not a closed-manifold claim."
+    },
+    {
+      "id": "rock_cluster",
+      "level": "lod0",
+      "fbx": "art/generated/env-v1/assets/rock_cluster/rock_cluster/rock_cluster_LOD0.fbx",
+      "sha256": "d1a656e174e31e31d7afbf8567b2ccb887fd4d1ce3f1c841f97630caadce0ce7",
+      "triangles": 7811,
+      "expected_triangles": 7811,
+      "triangles_match": true,
+      "materials": [
+        "rock_cluster_Stone"
+      ],
+      "bounds_blender": [
+        [
+          -1.7498339414596558,
+          -1.1717426776885986,
+          0.0005628190119750798
+        ],
+        [
+          1.7490679025650024,
+          1.1720668077468872,
+          1.5983448028564453
+        ]
+      ],
+      "dimensions_blender": [
+        3.498901844024658,
+        2.3438096046447754,
+        1.597782015800476
+      ],
+      "position_at_bottom_origin": true,
+      "nonfinite_position_components": 0,
+      "nonfinite_uv_components": 0,
+      "meshes_missing_uv": [],
+      "zero_area_triangles_epsilon_1e_10": 0,
+      "boundary_edges": 11,
+      "boundary_note": "Buried bottom caps are intentionally removed; tree/base cut is open at its shared interface. UV seams may be split by FBX. Boundary count is diagnostic, not a closed-manifold claim."
+    },
+    {
+      "id": "rock_cluster",
+      "level": "lod1",
+      "fbx": "art/generated/env-v1/assets/rock_cluster/rock_cluster/rock_cluster_LOD1.fbx",
+      "sha256": "ed8deccfcf48f273c1dd50e27b2ffb57be96f80ffd8e7f437797f0da3870bc8a",
+      "triangles": 3099,
+      "expected_triangles": 3099,
+      "triangles_match": true,
+      "materials": [
+        "rock_cluster_Stone"
+      ],
+      "bounds_blender": [
+        [
+          -1.7591899633407593,
+          -1.173916220664978,
+          0.0005628190119750798
+        ],
+        [
+          1.760845422744751,
+          1.1720668077468872,
+          1.5961159467697144
+        ]
+      ],
+      "dimensions_blender": [
+        3.5200352668762207,
+        2.3459830284118652,
+        1.5955531597137451
+      ],
+      "position_at_bottom_origin": true,
+      "nonfinite_position_components": 0,
+      "nonfinite_uv_components": 0,
+      "meshes_missing_uv": [],
+      "zero_area_triangles_epsilon_1e_10": 0,
+      "boundary_edges": 11,
+      "boundary_note": "Buried bottom caps are intentionally removed; tree/base cut is open at its shared interface. UV seams may be split by FBX. Boundary count is diagnostic, not a closed-manifold claim."
+    },
+    {
+      "id": "boat",
+      "level": "lod0",
+      "fbx": "art/generated/env-v1/assets/boat/boat/boat_LOD0.fbx",
+      "sha256": "596ec4b08700db0437fd2509cdcd6dbad59e5a8f160bf2f92edf93c16d3d8561",
+      "triangles": 29816,
+      "expected_triangles": 29816,
+      "triangles_match": true,
+      "materials": [
+        "boat_Wood"
+      ],
+      "bounds_blender": [
+        [
+          -0.8552149534225464,
+          -2.50042462348938,
+          0.0006054376717656851
+        ],
+        [
+          0.854935348033905,
+          2.500939130783081,
+          1.4475253820419312
+        ]
+      ],
+      "dimensions_blender": [
+        1.7101502418518066,
+        5.001363754272461,
+        1.4469199180603027
+      ],
+      "position_at_bottom_origin": true,
+      "nonfinite_position_components": 0,
+      "nonfinite_uv_components": 0,
+      "meshes_missing_uv": [],
+      "zero_area_triangles_epsilon_1e_10": 0,
+      "boundary_edges": 0,
+      "boundary_note": "Buried bottom caps are intentionally removed; tree/base cut is open at its shared interface. UV seams may be split by FBX. Boundary count is diagnostic, not a closed-manifold claim."
+    },
+    {
+      "id": "rock_cluster_reef_01",
+      "level": "lod0",
+      "fbx": "art/generated/env-v1/assets/rock_cluster/rock_cluster_reef_01/rock_cluster_reef_01_LOD0.fbx",
+      "sha256": "ab539f672c0b451863f37a0e22ff1f6aee16eaf17faa072948871dc162d7a04c",
+      "triangles": 2815,
+      "expected_triangles": 2815,
+      "triangles_match": true,
+      "materials": [
+        "rock_cluster_reef_01_Stone"
+      ],
+      "bounds_blender": [
+        [
+          -1.1890476942062378,
+          -1.2483669519424438,
+          7.272964285220951e-05
+        ],
+        [
+          1.191124677658081,
+          1.2549259662628174,
+          1.2053005695343018
+        ]
+      ],
+      "dimensions_blender": [
+        2.3801722526550293,
+        2.503293037414551,
+        1.2052278518676758
+      ],
+      "position_at_bottom_origin": true,
+      "nonfinite_position_components": 0,
+      "nonfinite_uv_components": 0,
+      "meshes_missing_uv": [],
+      "zero_area_triangles_epsilon_1e_10": 0,
+      "boundary_edges": 3,
+      "boundary_note": "Buried bottom caps are intentionally removed; tree/base cut is open at its shared interface. UV seams may be split by FBX. Boundary count is diagnostic, not a closed-manifold claim."
+    },
+    {
+      "id": "rock_cluster_reef_01",
+      "level": "lod1",
+      "fbx": "art/generated/env-v1/assets/rock_cluster/rock_cluster_reef_01/rock_cluster_reef_01_LOD1.fbx",
+      "sha256": "1456a88937667ff067e93b127beb11b66d31afe8caca8c843236e96715e90789",
+      "triangles": 1101,
+      "expected_triangles": 1101,
+      "triangles_match": true,
+      "materials": [
+        "rock_cluster_reef_01_Stone"
+      ],
+      "bounds_blender": [
+        [
+          -1.1873594522476196,
+          -1.2483669519424438,
+          7.272964285220951e-05
+        ],
+        [
+          1.1857386827468872,
+          1.2549259662628174,
+          1.2028725147247314
+        ]
+      ],
+      "dimensions_blender": [
+        2.373098134994507,
+        2.503293037414551,
+        1.2027997970581055
+      ],
+      "position_at_bottom_origin": true,
+      "nonfinite_position_components": 0,
+      "nonfinite_uv_components": 0,
+      "meshes_missing_uv": [],
+      "zero_area_triangles_epsilon_1e_10": 0,
+      "boundary_edges": 3,
+      "boundary_note": "Buried bottom caps are intentionally removed; tree/base cut is open at its shared interface. UV seams may be split by FBX. Boundary count is diagnostic, not a closed-manifold claim."
+    },
+    {
+      "id": "rock_cluster_reef_02",
+      "level": "lod0",
+      "fbx": "art/generated/env-v1/assets/rock_cluster/rock_cluster_reef_02/rock_cluster_reef_02_LOD0.fbx",
+      "sha256": "d79ad6a9d9f921c23d952b34ee82efa0d6344c064b1868f26ecd6a880d15c4a7",
+      "triangles": 2816,
+      "expected_triangles": 2816,
+      "triangles_match": true,
+      "materials": [
+        "rock_cluster_reef_02_Stone"
+      ],
+      "bounds_blender": [
+        [
+          -1.3037629127502441,
+          -1.1159758567810059,
+          -0.0005539893172681332
+        ],
+        [
+          1.301937460899353,
+          1.1136784553527832,
+          1.287648320198059
+        ]
+      ],
+      "dimensions_blender": [
+        2.6057004928588867,
+        2.229654312133789,
+        1.2882022857666016
+      ],
+      "position_at_bottom_origin": true,
+      "nonfinite_position_components": 0,
+      "nonfinite_uv_components": 0,
+      "meshes_missing_uv": [],
+      "zero_area_triangles_epsilon_1e_10": 0,
+      "boundary_edges": 0,
+      "boundary_note": "Buried bottom caps are intentionally removed; tree/base cut is open at its shared interface. UV seams may be split by FBX. Boundary count is diagnostic, not a closed-manifold claim."
+    },
+    {
+      "id": "rock_cluster_reef_02",
+      "level": "lod1",
+      "fbx": "art/generated/env-v1/assets/rock_cluster/rock_cluster_reef_02/rock_cluster_reef_02_LOD1.fbx",
+      "sha256": "016ac53c18ff191e78bcd52255d8f4c62183a982b0741de2a501c02c1e6135ef",
+      "triangles": 1102,
+      "expected_triangles": 1102,
+      "triangles_match": true,
+      "materials": [
+        "rock_cluster_reef_02_Stone"
+      ],
+      "bounds_blender": [
+        [
+          -1.2948315143585205,
+          -1.1188682317733765,
+          -0.0005539893172681332
+        ],
+        [
+          1.3015998601913452,
+          1.1136784553527832,
+          1.2891384363174438
+        ]
+      ],
+      "dimensions_blender": [
+        2.596431255340576,
+        2.232546806335449,
+        1.2896924018859863
+      ],
+      "position_at_bottom_origin": true,
+      "nonfinite_position_components": 0,
+      "nonfinite_uv_components": 0,
+      "meshes_missing_uv": [],
+      "zero_area_triangles_epsilon_1e_10": 0,
+      "boundary_edges": 0,
+      "boundary_note": "Buried bottom caps are intentionally removed; tree/base cut is open at its shared interface. UV seams may be split by FBX. Boundary count is diagnostic, not a closed-manifold claim."
+    }
+  ],
+  "all_triangle_counts_match": true,
+  "all_positions_and_uvs_finite": true,
+  "no_missing_uv": true,
+  "scope": "Blender FBX roundtrip only; does not assert every surface repaired, Unity import, collision, or runtime performance"
+}

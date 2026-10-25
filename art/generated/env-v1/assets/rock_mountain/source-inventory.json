@@ -1,0 +1,152 @@
+{
+  "id": "rock_mountain",
+  "source": "岩石山3d模型.glb",
+  "kind": "rock",
+  "dimension": 4.5,
+  "budget": 8000,
+  "source_path": "art/incoming/env-2026-10-22/rock_mountain/岩石山3d模型.glb",
+  "sha256": "0ff327a32f946ae1ed32d0316b19bdf6e60003f5ffdadc0474bd30cc57c28d21",
+  "source_bytes": 59984884,
+  "coordinate_system": "Blender Z-up, glTF imported with official importer; original glTF Y-up",
+  "units": "Source glTF nominal metres; generated source normalized scale is not trusted",
+  "bounds": {
+    "min": [
+      -0.4109649658203125,
+      -0.489013671875,
+      0.0
+    ],
+    "max": [
+      0.4109649658203125,
+      0.489013671875,
+      0.677520751953125
+    ],
+    "dimensions": [
+      0.821929931640625,
+      0.97802734375,
+      0.677520751953125
+    ]
+  },
+  "object_count": 1,
+  "mesh_count": 1,
+  "triangles": 1880151,
+  "materials": [
+    {
+      "name": "tripo_material_1bcd9a8d-4d45-43c1-9677-76bdfb6a3de9",
+      "images": [
+        {
+          "name": "岩石山3d模型_basecolor.jpg",
+          "size": [
+            4096,
+            4096
+          ],
+          "color_space": "sRGB"
+        }
+      ],
+      "nodes": [],
+      "base_color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "emission_color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emission_strength": 0.0
+    }
+  ],
+  "objects": [
+    {
+      "name": "tripo_node_1bcd9a8d-4d45-43c1-9677-76bdfb6a3de9",
+      "vertices": 1001678,
+      "triangles": 1880151,
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "components": [
+        {
+          "vertices": 544481,
+          "min": [
+            -0.2114715576171875,
+            -0.489013671875,
+            0.03076171875
+          ],
+          "max": [
+            0.4109649658203125,
+            0.11710357666015625,
+            0.65667724609375
+          ],
+          "label": 472490
+        },
+        {
+          "vertices": 196279,
+          "min": [
+            0.0195159912109375,
+            0.12152862548828125,
+            0.0
+          ],
+          "max": [
+            0.3580474853515625,
+            0.460174560546875,
+            0.3420529365539551
+          ],
+          "label": 661332
+        },
+        {
+          "vertices": 186455,
+          "min": [
+            -0.4109649658203125,
+            -0.0033817291259765625,
+            0.32743358612060547
+          ],
+          "max": [
+            -0.039794921875,
+            0.3577880859375,
+            0.677520751953125
+          ],
+          "label": 133509
+        },
+        {
+          "vertices": 74463,
+          "min": [
+            -0.2975921630859375,
+            0.2823486328125,
+            0.44319915771484375
+          ],
+          "max": [
+            -0.032192230224609375,
+            0.489013671875,
+            0.655120849609375
+          ],
+          "label": 223092
+        }
+      ]
+    }
+  ]
+}

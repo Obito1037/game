@@ -1,0 +1,1508 @@
+{
+  "schema_version": 1,
+  "assets": [
+    {
+      "id": "tree_a",
+      "source_id": "tree_a",
+      "kind": "tree",
+      "source_path": "art/incoming/env-2026-10-22/tree_a/发光树3d模型.glb",
+      "source_sha256": "5aaf0895c26fa75134709d9191de2e5c0d9b5b442adf7aeb052f705fea631916",
+      "input_component_ranks": [
+        0,
+        3,
+        5
+      ],
+      "input_triangles": 1346314,
+      "scale_to_metres": 6.858817373103087,
+      "dimensions_xyz_blender_metres": [
+        4.053119659423828,
+        4.270351409912109,
+        4.7785964012146
+      ],
+      "dimensions_xyz_unity_metres": [
+        4.053119421005249,
+        4.778596203774214,
+        4.270351409912109
+      ],
+      "pivot": "bottom centre of all retained parts; base and trunk share exact world-aligned origin",
+      "axis": "FBX Y-up, -Z forward; metres; baked space transform",
+      "steps": [
+        "manual grouping by connected components and three-view source inspection",
+        "discard presentation-sheet cutaways and duplicate floating study panels",
+        "weld coincident glTF seam vertices while preserving UV loops",
+        "uniform physical scale; bottom-centre pivot",
+        "QEM collapse decimation",
+        "new smart-projected UV atlas; diffuse-colour reprojection from retained high-poly source",
+        "separate selectable tree base by horizontal cut; preserve co-located trunk/base seam",
+        "remove only buried downward bottom-cap faces",
+        "separate bark / leaf veins / amber fruit materials by UV-colour mask",
+        "tight high-luminance gold mask excludes orange-brown branches from fruit emission"
+      ],
+      "bottom_faces_removed": 8,
+      "textures": [
+        {
+          "path": "art/generated/env-v1/assets/tree_a/textures/tree_a_BaseColor.png",
+          "sha256": "28e699695d4503913624e94f961201d8a0992ed60b4c57c6978b97a703b648b1",
+          "width": 1024,
+          "height": 1024,
+          "color_space": "sRGB"
+        },
+        {
+          "path": "art/generated/env-v1/assets/tree_a/textures/tree_a_LeafVeins_Emission.001.png",
+          "sha256": "2a431b25d253815a5966effbdce1be994e802904bed7382cc235e3920ef05115",
+          "width": 1024,
+          "height": 1024,
+          "color_space": "Linear / Non-Color"
+        },
+        {
+          "path": "art/generated/env-v1/assets/tree_a/textures/tree_a_WarmFruit_Emission.001.png",
+          "sha256": "9e96d4656c9d220886c758fd535496be0646995c875746a0968f36a476afdf0b",
+          "width": 1024,
+          "height": 1024,
+          "color_space": "Linear / Non-Color"
+        }
+      ],
+      "materials": [
+        {
+          "name": "tree_a_Bark",
+          "role": "Bark",
+          "base_color_texture": "art/generated/env-v1/assets/tree_a/textures/tree_a_BaseColor.png",
+          "roughness": 0.86,
+          "emission_color": [
+            0,
+            0,
+            0
+          ],
+          "emission_strength": 0
+        },
+        {
+          "name": "tree_a_LeafVeins",
+          "role": "LeafVeins",
+          "base_color_texture": "art/generated/env-v1/assets/tree_a/textures/tree_a_BaseColor.png",
+          "roughness": 0.86,
+          "emission_color": [
+            1,
+            0.48,
+            0.13
+          ],
+          "emission_strength": 0.22,
+          "emission_texture": "art/generated/env-v1/assets/tree_a/textures/tree_a_LeafVeins_Emission.001.png"
+        },
+        {
+          "name": "tree_a_WarmFruit",
+          "role": "WarmFruit",
+          "base_color_texture": "art/generated/env-v1/assets/tree_a/textures/tree_a_BaseColor.png",
+          "roughness": 0.86,
+          "emission_color": [
+            1,
+            0.48,
+            0.13
+          ],
+          "emission_strength": 1.35,
+          "emission_texture": "art/generated/env-v1/assets/tree_a/textures/tree_a_WarmFruit_Emission.001.png"
+        }
+      ],
+      "lod0": {
+        "fbx": "art/generated/env-v1/assets/tree_a/tree_a/tree_a_LOD0.fbx",
+        "sha256": "f69b5d3452db566f118842aed7a3c1a1d529cfd89caccb2185d8dda6a156e2f0",
+        "triangles": 11911,
+        "objects": [
+          {
+            "name": "tree_a",
+            "triangles": 11221
+          },
+          {
+            "name": "tree_a_Base",
+            "triangles": 690
+          }
+        ]
+      },
+      "previews": {
+        "front": "art/generated/env-v1/assets/tree_a/tree_a/previews/processed-front.png",
+        "side": "art/generated/env-v1/assets/tree_a/tree_a/previews/processed-side.png",
+        "top": "art/generated/env-v1/assets/tree_a/tree_a/previews/processed-top.png"
+      },
+      "lod1": {
+        "fbx": "art/generated/env-v1/assets/tree_a/tree_a/tree_a_LOD1.fbx",
+        "sha256": "7c188ad89ff2d9a64fe17292a93b74afe33801ea662c3c4140f5ff8bd91b4608",
+        "triangles": 4715,
+        "ratio": 0.39585257325161616
+      },
+      "review": "Manual front/side/top preview review complete for the first-island environment handoff; source presentation panels removed. Tree foliage remains visibly simplified at close range. Technical checks are recorded separately and do not establish all-surface perfection.",
+      "material_face_counts": {
+        "tree_a_Bark": 11684,
+        "tree_a_LeafVeins": 187,
+        "tree_a_WarmFruit": 40
+      },
+      "blend": "art/generated/env-v1/assets/tree_a/tree_a/tree_a_optimized.blend",
+      "technical_scope": "Blender offline processing, screenshots, and FBX roundtrip; no Unity import, physics, or performance validation",
+      "known_limits": [
+        "Leaves and branches remain simplified at the requested low triangle budget.",
+        "Fruit/leaf material masks derive from source colour; artist review remains necessary.",
+        "No per-leaf topology guarantee or animated foliage rig."
+      ]
+    },
+    {
+      "id": "tree_a_sapling_01",
+      "source_id": "tree_a",
+      "kind": "tree",
+      "source_path": "art/incoming/env-2026-10-22/tree_a/发光树3d模型.glb",
+      "source_sha256": "5aaf0895c26fa75134709d9191de2e5c0d9b5b442adf7aeb052f705fea631916",
+      "input_component_ranks": [
+        1
+      ],
+      "input_triangles": 234172,
+      "scale_to_metres": 7.756841003285943,
+      "dimensions_xyz_blender_metres": [
+        2.48288893699646,
+        2.535780429840088,
+        2.8069660663604736
+      ],
+      "dimensions_xyz_unity_metres": [
+        2.48288893699646,
+        2.8069660717155784,
+        2.5357805490493774
+      ],
+      "pivot": "bottom centre of all retained parts; base and trunk share exact world-aligned origin",
+      "axis": "FBX Y-up, -Z forward; metres; baked space transform",
+      "steps": [
+        "manual grouping by connected components and three-view source inspection",
+        "discard presentation-sheet cutaways and duplicate floating study panels",
+        "weld coincident glTF seam vertices while preserving UV loops",
+        "uniform physical scale; bottom-centre pivot",
+        "QEM collapse decimation",
+        "new smart-projected UV atlas; diffuse-colour reprojection from retained high-poly source",
+        "separate selectable tree base by horizontal cut; preserve co-located trunk/base seam",
+        "remove only buried downward bottom-cap faces",
+        "separate bark / leaf veins / amber fruit materials by UV-colour mask",
+        "tight high-luminance gold mask excludes orange-brown branches from fruit emission"
+      ],
+      "bottom_faces_removed": 38,
+      "textures": [
+        {
+          "path": "art/generated/env-v1/assets/tree_a/textures/tree_a_sapling_01_BaseColor.png",
+          "sha256": "6bfd8981134cb15edc8473cf99ee67f3eb483aa9ae4d6ef6cb5b61c8b551adb9",
+          "width": 1024,
+          "height": 1024,
+          "color_space": "sRGB"
+        },
+        {
+          "path": "art/generated/env-v1/assets/tree_a/textures/tree_a_sapling_01_LeafVeins_Emission.001.png",
+          "sha256": "f9965fc3856436e6eb5c658f3e6f13c8ef49a1301ed53bbbf27674578658a52b",
+          "width": 1024,
+          "height": 1024,
+          "color_space": "Linear / Non-Color"
+        },
+        {
+          "path": "art/generated/env-v1/assets/tree_a/textures/tree_a_sapling_01_WarmFruit_Emission.001.png",
+          "sha256": "283e41e9eb2757019a3612c59de2c10c75e8833c115420202ce555ab0ce24d63",
+          "width": 1024,
+          "height": 1024,
+          "color_space": "Linear / Non-Color"
+        }
+      ],
+      "materials": [
+        {
+          "name": "tree_a_sapling_01_Bark",
+          "role": "Bark",
+          "base_color_texture": "art/generated/env-v1/assets/tree_a/textures/tree_a_sapling_01_BaseColor.png",
+          "roughness": 0.86,
+          "emission_color": [
+            0,
+            0,
+            0
+          ],
+          "emission_strength": 0
+        },
+        {
+          "name": "tree_a_sapling_01_LeafVeins",
+          "role": "LeafVeins",
+          "base_color_texture": "art/generated/env-v1/assets/tree_a/textures/tree_a_sapling_01_BaseColor.png",
+          "roughness": 0.86,
+          "emission_color": [
+            1,
+            0.48,
+            0.13
+          ],
+          "emission_strength": 0.22,
+          "emission_texture": "art/generated/env-v1/assets/tree_a/textures/tree_a_sapling_01_LeafVeins_Emission.001.png"
+        },
+        {
+          "name": "tree_a_sapling_01_WarmFruit",
+          "role": "WarmFruit",
+          "base_color_texture": "art/generated/env-v1/assets/tree_a/textures/tree_a_sapling_01_BaseColor.png",
+          "roughness": 0.86,
+          "emission_color": [
+            1,
+            0.48,
+            0.13
+          ],
+          "emission_strength": 1.35,
+          "emission_texture": "art/generated/env-v1/assets/tree_a/textures/tree_a_sapling_01_WarmFruit_Emission.001.png"
+        }
+      ],
+      "lod0": {
+        "fbx": "art/generated/env-v1/assets/tree_a/tree_a_sapling_01/tree_a_sapling_01_LOD0.fbx",
+        "sha256": "5c4be1fa14500ad60838eac99b0f06284249e7a1d49516a1d461912eeeac0f53",
+        "triangles": 6410,
+        "objects": [
+          {
+            "name": "tree_a_sapling_01",
+            "triangles": 6049
+          },
+          {
+            "name": "tree_a_sapling_01_Base",
+            "triangles": 361
+          }
+        ]
+      },
+      "previews": {
+        "front": "art/generated/env-v1/assets/tree_a/tree_a_sapling_01/previews/processed-front.png",
+        "side": "art/generated/env-v1/assets/tree_a/tree_a_sapling_01/previews/processed-side.png",
+        "top": "art/generated/env-v1/assets/tree_a/tree_a_sapling_01/previews/processed-top.png"
+      },
+      "lod1": {
+        "fbx": "art/generated/env-v1/assets/tree_a/tree_a_sapling_01/tree_a_sapling_01_LOD1.fbx",
+        "sha256": "311fb6de92e81571b5cbbf572fbf98a7370f66781a9c2501ef88194d283dabb0",
+        "triangles": 2514,
+        "ratio": 0.3921996879875195
+      },
+      "review": "Manual front/side/top preview review complete for the first-island environment handoff; source presentation panels removed. Tree foliage remains visibly simplified at close range. Technical checks are recorded separately and do not establish all-surface perfection.",
+      "material_face_counts": {
+        "tree_a_sapling_01_Bark": 6191,
+        "tree_a_sapling_01_LeafVeins": 204,
+        "tree_a_sapling_01_WarmFruit": 15
+      },
+      "blend": "art/generated/env-v1/assets/tree_a/tree_a_sapling_01/tree_a_sapling_01_optimized.blend",
+      "technical_scope": "Blender offline processing, screenshots, and FBX roundtrip; no Unity import, physics, or performance validation",
+      "known_limits": [
+        "Leaves and branches remain simplified at the requested low triangle budget.",
+        "Fruit/leaf material masks derive from source colour; artist review remains necessary.",
+        "No per-leaf topology guarantee or animated foliage rig."
+      ]
+    },
+    {
+      "id": "tree_a_sapling_02",
+      "source_id": "tree_a",
+      "kind": "tree",
+      "source_path": "art/incoming/env-2026-10-22/tree_a/发光树3d模型.glb",
+      "source_sha256": "5aaf0895c26fa75134709d9191de2e5c0d9b5b442adf7aeb052f705fea631916",
+      "input_component_ranks": [
+        2
+      ],
+      "input_triangles": 208516,
+      "scale_to_metres": 8.735852305231411,
+      "dimensions_xyz_blender_metres": [
+        2.55629825592041,
+        2.8929779529571533,
+        3.005666732788086
+      ],
+      "dimensions_xyz_unity_metres": [
+        2.55629825592041,
+        3.0056666940363357,
+        2.8929779529571533
+      ],
+      "pivot": "bottom centre of all retained parts; base and trunk share exact world-aligned origin",
+      "axis": "FBX Y-up, -Z forward; metres; baked space transform",
+      "steps": [
+        "manual grouping by connected components and three-view source inspection",
+        "discard presentation-sheet cutaways and duplicate floating study panels",
+        "weld coincident glTF seam vertices while preserving UV loops",
+        "uniform physical scale; bottom-centre pivot",
+        "QEM collapse decimation",
+        "new smart-projected UV atlas; diffuse-colour reprojection from retained high-poly source",
+        "separate selectable tree base by horizontal cut; preserve co-located trunk/base seam",
+        "remove only buried downward bottom-cap faces",
+        "separate bark / leaf veins / amber fruit materials by UV-colour mask",
+        "tight high-luminance gold mask excludes orange-brown branches from fruit emission"
+      ],
+      "bottom_faces_removed": 13,
+      "textures": [
+        {
+          "path": "art/generated/env-v1/assets/tree_a/textures/tree_a_sapling_02_BaseColor.png",
+          "sha256": "4c216bbbeb502bb6451e1ac67aa1d9ff24a7e6b3be1fa90292eb65432bc502be",
+          "width": 1024,
+          "height": 1024,
+          "color_space": "sRGB"
+        },
+        {
+          "path": "art/generated/env-v1/assets/tree_a/textures/tree_a_sapling_02_LeafVeins_Emission.001.png",
+          "sha256": "59d1a1f76be8fa94ffa72f584ed5349aa8c1e65bc2da0d8f2946fe2f4ef1cf7f",
+          "width": 1024,
+          "height": 1024,
+          "color_space": "Linear / Non-Color"
+        },
+        {
+          "path": "art/generated/env-v1/assets/tree_a/textures/tree_a_sapling_02_WarmFruit_Emission.001.png",
+          "sha256": "10a710005225c6df81fc16fcf6686a184822598c55399b896eefae3d2138d5c0",
+          "width": 1024,
+          "height": 1024,
+          "color_space": "Linear / Non-Color"
+        }
+      ],
+      "materials": [
+        {
+          "name": "tree_a_sapling_02_Bark",
+          "role": "Bark",
+          "base_color_texture": "art/generated/env-v1/assets/tree_a/textures/tree_a_sapling_02_BaseColor.png",
+          "roughness": 0.86,
+          "emission_color": [
+            0,
+            0,
+            0
+          ],
+          "emission_strength": 0
+        },
+        {
+          "name": "tree_a_sapling_02_LeafVeins",
+          "role": "LeafVeins",
+          "base_color_texture": "art/generated/env-v1/assets/tree_a/textures/tree_a_sapling_02_BaseColor.png",
+          "roughness": 0.86,
+          "emission_color": [
+            1,
+            0.48,
+            0.13
+          ],
+          "emission_strength": 0.22,
+          "emission_texture": "art/generated/env-v1/assets/tree_a/textures/tree_a_sapling_02_LeafVeins_Emission.001.png"
+        },
+        {
+          "name": "tree_a_sapling_02_WarmFruit",
+          "role": "WarmFruit",
+          "base_color_texture": "art/generated/env-v1/assets/tree_a/textures/tree_a_sapling_02_BaseColor.png",
+          "roughness": 0.86,
+          "emission_color": [
+            1,
+            0.48,
+            0.13
+          ],
+          "emission_strength": 1.35,
+          "emission_texture": "art/generated/env-v1/assets/tree_a/textures/tree_a_sapling_02_WarmFruit_Emission.001.png"
+        }
+      ],
+      "lod0": {
+        "fbx": "art/generated/env-v1/assets/tree_a/tree_a_sapling_02/tree_a_sapling_02_LOD0.fbx",
+        "sha256": "2b2f59283e769fb7a509456ec5acb9d9fbd9b88b039a7b891e4567a50eb64a97",
+        "triangles": 6411,
+        "objects": [
+          {
+            "name": "tree_a_sapling_02",
+            "triangles": 6204
+          },
+          {
+            "name": "tree_a_sapling_02_Base",
+            "triangles": 207
+          }
+        ]
+      },
+      "previews": {
+        "front": "art/generated/env-v1/assets/tree_a/tree_a_sapling_02/previews/processed-front.png",
+        "side": "art/generated/env-v1/assets/tree_a/tree_a_sapling_02/previews/processed-side.png",
+        "top": "art/generated/env-v1/assets/tree_a/tree_a_sapling_02/previews/processed-top.png"
+      },
+      "lod1": {
+        "fbx": "art/generated/env-v1/assets/tree_a/tree_a_sapling_02/tree_a_sapling_02_LOD1.fbx",
+        "sha256": "20f91246b7e081e20c8fae4628eb36473b5043a3ba5b8be76633036eba7a5f0c",
+        "triangles": 2515,
+        "ratio": 0.39229449383871473
+      },
+      "review": "Manual front/side/top preview review complete for the first-island environment handoff; source presentation panels removed. Tree foliage remains visibly simplified at close range. Technical checks are recorded separately and do not establish all-surface perfection.",
+      "material_face_counts": {
+        "tree_a_sapling_02_Bark": 6289,
+        "tree_a_sapling_02_LeafVeins": 96,
+        "tree_a_sapling_02_WarmFruit": 26
+      },
+      "blend": "art/generated/env-v1/assets/tree_a/tree_a_sapling_02/tree_a_sapling_02_optimized.blend",
+      "technical_scope": "Blender offline processing, screenshots, and FBX roundtrip; no Unity import, physics, or performance validation",
+      "known_limits": [
+        "Leaves and branches remain simplified at the requested low triangle budget.",
+        "Fruit/leaf material masks derive from source colour; artist review remains necessary.",
+        "No per-leaf topology guarantee or animated foliage rig."
+      ]
+    },
+    {
+      "id": "tree_b",
+      "source_id": "tree_b",
+      "kind": "tree",
+      "source_path": "art/incoming/env-2026-10-22/tree_b/发光树3d模型 (1).glb",
+      "source_sha256": "8678da1d1b32d5cda1780acbec45b287837f1cb80c6358494a595c7edaed5a56",
+      "input_component_ranks": [
+        0,
+        1,
+        4,
+        5
+      ],
+      "input_triangles": 1434989,
+      "scale_to_metres": 7.4644346144677245,
+      "dimensions_xyz_blender_metres": [
+        4.4456024169921875,
+        5.986615180969238,
+        4.288476943969727
+      ],
+      "dimensions_xyz_unity_metres": [
+        4.445602178573608,
+        4.288477104157209,
+        5.986614942550659
+      ],
+      "pivot": "bottom centre of all retained parts; base and trunk share exact world-aligned origin",
+      "axis": "FBX Y-up, -Z forward; metres; baked space transform",
+      "steps": [
+        "manual grouping by connected components and three-view source inspection",
+        "discard presentation-sheet cutaways and duplicate floating study panels",
+        "weld coincident glTF seam vertices while preserving UV loops",
+        "uniform physical scale; bottom-centre pivot",
+        "QEM collapse decimation",
+        "new smart-projected UV atlas; diffuse-colour reprojection from retained high-poly source",
+        "separate selectable tree base by horizontal cut; preserve co-located trunk/base seam",
+        "remove only buried downward bottom-cap faces",
+        "separate bark / leaf veins / amber fruit materials by UV-colour mask",
+        "tight high-luminance gold mask excludes orange-brown branches from fruit emission",
+        "Add 56-triangle tapered curved wood connector between detached source bough and trunk; LOD1 connector 28 triangles"
+      ],
+      "bottom_faces_removed": 192,
+      "textures": [
+        {
+          "path": "art/generated/env-v1/assets/tree_b/textures/tree_b_BaseColor.png",
+          "sha256": "f4e31e92819edb2fdff425eae8ca18f9193ec2350c957866e7a4e78d2d8a94cf",
+          "width": 1024,
+          "height": 1024,
+          "color_space": "sRGB"
+        },
+        {
+          "path": "art/generated/env-v1/assets/tree_b/textures/tree_b_LeafVeins_Emission.001.png",
+          "sha256": "98f325c28c946b1b517d467b6caaa0966e310681c20dac7d5251a79a51a548a1",
+          "width": 1024,
+          "height": 1024,
+          "color_space": "Linear / Non-Color"
+        },
+        {
+          "path": "art/generated/env-v1/assets/tree_b/textures/tree_b_WarmFruit_Emission.001.png",
+          "sha256": "15b5dacee7ee5125c49d27cfe377024f9f2ab030e2da67472800b6cf3ecdef12",
+          "width": 1024,
+          "height": 1024,
+          "color_space": "Linear / Non-Color"
+        }
+      ],
+      "materials": [
+        {
+          "name": "tree_b_Bark",
+          "role": "Bark",
+          "base_color_texture": "art/generated/env-v1/assets/tree_b/textures/tree_b_BaseColor.png",
+          "roughness": 0.86,
+          "emission_color": [
+            0,
+            0,
+            0
+          ],
+          "emission_strength": 0
+        },
+        {
+          "name": "tree_b_LeafVeins",
+          "role": "LeafVeins",
+          "base_color_texture": "art/generated/env-v1/assets/tree_b/textures/tree_b_BaseColor.png",
+          "roughness": 0.86,
+          "emission_color": [
+            1,
+            0.48,
+            0.13
+          ],
+          "emission_strength": 0.22,
+          "emission_texture": "art/generated/env-v1/assets/tree_b/textures/tree_b_LeafVeins_Emission.001.png"
+        },
+        {
+          "name": "tree_b_WarmFruit",
+          "role": "WarmFruit",
+          "base_color_texture": "art/generated/env-v1/assets/tree_b/textures/tree_b_BaseColor.png",
+          "roughness": 0.86,
+          "emission_color": [
+            1,
+            0.48,
+            0.13
+          ],
+          "emission_strength": 1.35,
+          "emission_texture": "art/generated/env-v1/assets/tree_b/textures/tree_b_WarmFruit_Emission.001.png"
+        },
+        {
+          "name": "tree_b_BarkRepair",
+          "role": "BarkRepair",
+          "base_color": [
+            0.2,
+            0.07,
+            0.026,
+            1
+          ],
+          "roughness": 0.86,
+          "emission_color": [
+            0,
+            0,
+            0
+          ],
+          "emission_strength": 0
+        }
+      ],
+      "lod0": {
+        "fbx": "art/generated/env-v1/assets/tree_b/tree_b/tree_b_LOD0.fbx",
+        "sha256": "be6abb76001b21ad3d79a93911a5ab3e0023421b4352175567515c14b7061fb8",
+        "triangles": 11966,
+        "objects": [
+          {
+            "name": "tree_b",
+            "triangles": 10639
+          },
+          {
+            "name": "tree_b_Base",
+            "triangles": 1271
+          },
+          {
+            "name": "tree_b_BranchRepair",
+            "triangles": 56
+          }
+        ]
+      },
+      "previews": {
+        "front": "art/generated/env-v1/assets/tree_b/tree_b/previews/processed-front.png",
+        "side": "art/generated/env-v1/assets/tree_b/tree_b/previews/processed-side.png",
+        "top": "art/generated/env-v1/assets/tree_b/tree_b/previews/processed-top.png"
+      },
+      "lod1": {
+        "fbx": "art/generated/env-v1/assets/tree_b/tree_b/tree_b_LOD1.fbx",
+        "sha256": "59787d69dd079115fa139936aad39aa8880ae05e09652a6f46837dd20b954819",
+        "triangles": 4742,
+        "ratio": 0.3962894868794919
+      },
+      "review": "Manual front/side/top preview review complete for the first-island environment handoff; source presentation panels removed. Tree foliage remains visibly simplified at close range. Technical checks are recorded separately and do not establish all-surface perfection.",
+      "material_face_counts": {
+        "tree_b_Bark": 11304,
+        "tree_b_LeafVeins": 374,
+        "tree_b_WarmFruit": 232
+      },
+      "blend": "art/generated/env-v1/assets/tree_b/tree_b/tree_b_optimized.blend",
+      "branch_repair": {
+        "start_blender_metres": [
+          1.51667058467865,
+          -0.25934839248657227,
+          2.735668182373047
+        ],
+        "end_blender_metres": [
+          1.6812067031860352,
+          1.2523488998413086,
+          1.7373175621032715
+        ],
+        "lod0_triangles": 56,
+        "note": "Connector intersects original wood surfaces; it does not claim a watertight boolean union."
+      },
+      "technical_scope": "Blender offline processing, screenshots, and FBX roundtrip; no Unity import, physics, or performance validation",
+      "known_limits": [
+        "Leaves and branches remain simplified at the requested low triangle budget.",
+        "Fruit/leaf material masks derive from source colour; artist review remains necessary.",
+        "No per-leaf topology guarantee or animated foliage rig."
+      ]
+    },
+    {
+      "id": "tree_c",
+      "source_id": "tree_c",
+      "kind": "tree",
+      "source_path": "art/incoming/env-2026-10-22/tree_c/发光树3d模型 (2).glb",
+      "source_sha256": "c6c24b9a3e34863bfe1d9dc61a3addf67b72e4b1d3542586361ff8b48a9b5254",
+      "input_component_ranks": [
+        0,
+        5,
+        6,
+        8
+      ],
+      "input_triangles": 1245218,
+      "scale_to_metres": 9.067830344313768,
+      "dimensions_xyz_blender_metres": [
+        5.8491106033325195,
+        6.456652641296387,
+        5.1754631996154785
+      ],
+      "dimensions_xyz_unity_metres": [
+        5.84911036491394,
+        5.175463136518374,
+        6.456652879714966
+      ],
+      "pivot": "bottom centre of all retained parts; base and trunk share exact world-aligned origin",
+      "axis": "FBX Y-up, -Z forward; metres; baked space transform",
+      "steps": [
+        "manual grouping by connected components and three-view source inspection",
+        "discard presentation-sheet cutaways and duplicate floating study panels",
+        "weld coincident glTF seam vertices while preserving UV loops",
+        "uniform physical scale; bottom-centre pivot",
+        "QEM collapse decimation",
+        "new smart-projected UV atlas; diffuse-colour reprojection from retained high-poly source",
+        "separate selectable tree base by horizontal cut; preserve co-located trunk/base seam",
+        "remove only buried downward bottom-cap faces",
+        "separate bark / leaf veins / amber fruit materials by UV-colour mask",
+        "tight high-luminance gold mask excludes orange-brown branches from fruit emission"
+      ],
+      "bottom_faces_removed": 40,
+      "textures": [
+        {
+          "path": "art/generated/env-v1/assets/tree_c/textures/tree_c_BaseColor.png",
+          "sha256": "4b49a2a38ad823c04a71899afc731a44ee749f81c2c438b3ac5117e6123e3b63",
+          "width": 1024,
+          "height": 1024,
+          "color_space": "sRGB"
+        },
+        {
+          "path": "art/generated/env-v1/assets/tree_c/textures/tree_c_LeafVeins_Emission.001.png",
+          "sha256": "8dfb7cdd10ec06b59c9730b18347f96b09cea2a8a01a8092500a8df65756df13",
+          "width": 1024,
+          "height": 1024,
+          "color_space": "Linear / Non-Color"
+        },
+        {
+          "path": "art/generated/env-v1/assets/tree_c/textures/tree_c_WarmFruit_Emission.001.png",
+          "sha256": "a356441faf412fd15bba3114077e749038892bdf3459070e28592d968a5666cb",
+          "width": 1024,
+          "height": 1024,
+          "color_space": "Linear / Non-Color"
+        }
+      ],
+      "materials": [
+        {
+          "name": "tree_c_Bark",
+          "role": "Bark",
+          "base_color_texture": "art/generated/env-v1/assets/tree_c/textures/tree_c_BaseColor.png",
+          "roughness": 0.86,
+          "emission_color": [
+            0,
+            0,
+            0
+          ],
+          "emission_strength": 0
+        },
+        {
+          "name": "tree_c_LeafVeins",
+          "role": "LeafVeins",
+          "base_color_texture": "art/generated/env-v1/assets/tree_c/textures/tree_c_BaseColor.png",
+          "roughness": 0.86,
+          "emission_color": [
+            1,
+            0.48,
+            0.13
+          ],
+          "emission_strength": 0.22,
+          "emission_texture": "art/generated/env-v1/assets/tree_c/textures/tree_c_LeafVeins_Emission.001.png"
+        },
+        {
+          "name": "tree_c_WarmFruit",
+          "role": "WarmFruit",
+          "base_color_texture": "art/generated/env-v1/assets/tree_c/textures/tree_c_BaseColor.png",
+          "roughness": 0.86,
+          "emission_color": [
+            1,
+            0.48,
+            0.13
+          ],
+          "emission_strength": 1.35,
+          "emission_texture": "art/generated/env-v1/assets/tree_c/textures/tree_c_WarmFruit_Emission.001.png"
+        }
+      ],
+      "lod0": {
+        "fbx": "art/generated/env-v1/assets/tree_c/tree_c/tree_c_LOD0.fbx",
+        "sha256": "b423c6f3b3f49dc6dfbbca68af40ad59dab6a6e90159333c1e13b8e1b882ae81",
+        "triangles": 11910,
+        "objects": [
+          {
+            "name": "tree_c",
+            "triangles": 10970
+          },
+          {
+            "name": "tree_c_Base",
+            "triangles": 940
+          }
+        ]
+      },
+      "previews": {
+        "front": "art/generated/env-v1/assets/tree_c/tree_c/previews/processed-front.png",
+        "side": "art/generated/env-v1/assets/tree_c/tree_c/previews/processed-side.png",
+        "top": "art/generated/env-v1/assets/tree_c/tree_c/previews/processed-top.png"
+      },
+      "lod1": {
+        "fbx": "art/generated/env-v1/assets/tree_c/tree_c/tree_c_LOD1.fbx",
+        "sha256": "758661af3436c4d5d56e2465a618d696ee992fe552d4771a38f916af63dd357d",
+        "triangles": 4716,
+        "ratio": 0.3959697732997481
+      },
+      "review": "Manual front/side/top preview review complete for the first-island environment handoff; source presentation panels removed. Tree foliage remains visibly simplified at close range. Technical checks are recorded separately and do not establish all-surface perfection.",
+      "material_face_counts": {
+        "tree_c_Bark": 10738,
+        "tree_c_LeafVeins": 1139,
+        "tree_c_WarmFruit": 33
+      },
+      "blend": "art/generated/env-v1/assets/tree_c/tree_c/tree_c_optimized.blend",
+      "technical_scope": "Blender offline processing, screenshots, and FBX roundtrip; no Unity import, physics, or performance validation",
+      "known_limits": [
+        "Leaves and branches remain simplified at the requested low triangle budget.",
+        "Fruit/leaf material masks derive from source colour; artist review remains necessary.",
+        "No per-leaf topology guarantee or animated foliage rig."
+      ]
+    },
+    {
+      "id": "tree_gold",
+      "source_id": "tree_gold",
+      "kind": "tree",
+      "source_path": "art/incoming/env-2026-10-22/tree_gold/灯光盆景树3d模型.glb",
+      "source_sha256": "09ec05afad23b9a7ce901d2f15b0dd6289c807c30ef675f25d74925856003cec",
+      "input_component_ranks": [
+        0,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        11,
+        13
+      ],
+      "input_triangles": 1315984,
+      "scale_to_metres": 8.122552178870656,
+      "dimensions_xyz_blender_metres": [
+        5.405969142913818,
+        5.350407600402832,
+        4.993381023406982
+      ],
+      "dimensions_xyz_unity_metres": [
+        5.405969142913818,
+        4.993380968924612,
+        5.350407838821411
+      ],
+      "pivot": "bottom centre of all retained parts; base and trunk share exact world-aligned origin",
+      "axis": "FBX Y-up, -Z forward; metres; baked space transform",
+      "steps": [
+        "manual grouping by connected components and three-view source inspection",
+        "discard presentation-sheet cutaways and duplicate floating study panels",
+        "weld coincident glTF seam vertices while preserving UV loops",
+        "uniform physical scale; bottom-centre pivot",
+        "QEM collapse decimation",
+        "new smart-projected UV atlas; diffuse-colour reprojection from retained high-poly source",
+        "separate selectable tree base by horizontal cut; preserve co-located trunk/base seam",
+        "remove only buried downward bottom-cap faces",
+        "separate bark / leaf veins / amber fruit materials by UV-colour mask",
+        "tight high-luminance gold mask excludes orange-brown branches from fruit emission"
+      ],
+      "bottom_faces_removed": 351,
+      "textures": [
+        {
+          "path": "art/generated/env-v1/assets/tree_gold/textures/tree_gold_BaseColor.png",
+          "sha256": "3e50e659d95dbab04e06c75efd5001e7c7812a2c63206ed89081a50e9645c668",
+          "width": 2048,
+          "height": 2048,
+          "color_space": "sRGB"
+        },
+        {
+          "path": "art/generated/env-v1/assets/tree_gold/textures/tree_gold_LeafVeins_Emission.001.png",
+          "sha256": "270fc5874b051c259edef3996c57386355d76c37fc72fb15a68a09296d057f69",
+          "width": 2048,
+          "height": 2048,
+          "color_space": "Linear / Non-Color"
+        },
+        {
+          "path": "art/generated/env-v1/assets/tree_gold/textures/tree_gold_WarmFruit_Emission.001.png",
+          "sha256": "b59b25ffc96cfb46baa04292bd9e967ca1dd94a8101fffc3bac74fc4cdec5228",
+          "width": 2048,
+          "height": 2048,
+          "color_space": "Linear / Non-Color"
+        }
+      ],
+      "materials": [
+        {
+          "name": "tree_gold_Bark",
+          "role": "Bark",
+          "base_color_texture": "art/generated/env-v1/assets/tree_gold/textures/tree_gold_BaseColor.png",
+          "roughness": 0.86,
+          "emission_color": [
+            0,
+            0,
+            0
+          ],
+          "emission_strength": 0
+        },
+        {
+          "name": "tree_gold_LeafVeins",
+          "role": "LeafVeins",
+          "base_color_texture": "art/generated/env-v1/assets/tree_gold/textures/tree_gold_BaseColor.png",
+          "roughness": 0.86,
+          "emission_color": [
+            1,
+            0.48,
+            0.13
+          ],
+          "emission_strength": 0.22,
+          "emission_texture": "art/generated/env-v1/assets/tree_gold/textures/tree_gold_LeafVeins_Emission.001.png"
+        },
+        {
+          "name": "tree_gold_WarmFruit",
+          "role": "WarmFruit",
+          "base_color_texture": "art/generated/env-v1/assets/tree_gold/textures/tree_gold_BaseColor.png",
+          "roughness": 0.86,
+          "emission_color": [
+            1,
+            0.48,
+            0.13
+          ],
+          "emission_strength": 1.35,
+          "emission_texture": "art/generated/env-v1/assets/tree_gold/textures/tree_gold_WarmFruit_Emission.001.png"
+        }
+      ],
+      "lod0": {
+        "fbx": "art/generated/env-v1/assets/tree_gold/tree_gold/tree_gold_LOD0.fbx",
+        "sha256": "8fcf04efcda95f5a58b4cae9b77bdad06d8b99981033c39662f3032ab8eed6b8",
+        "triangles": 29911,
+        "objects": [
+          {
+            "name": "tree_gold",
+            "triangles": 28125
+          },
+          {
+            "name": "tree_gold_Base",
+            "triangles": 1786
+          }
+        ]
+      },
+      "previews": {
+        "front": "art/generated/env-v1/assets/tree_gold/tree_gold/previews/processed-front.png",
+        "side": "art/generated/env-v1/assets/tree_gold/tree_gold/previews/processed-side.png",
+        "top": "art/generated/env-v1/assets/tree_gold/tree_gold/previews/processed-top.png"
+      },
+      "lod1": {
+        "fbx": "art/generated/env-v1/assets/tree_gold/tree_gold/tree_gold_LOD1.fbx",
+        "sha256": "dd6dbe546e882bbfe00532b36e533119798edd6a81a23df30762ddd6102ee7ed",
+        "triangles": 11914,
+        "ratio": 0.39831500117013807
+      },
+      "review": "Manual front/side/top preview review complete for the first-island environment handoff; source presentation panels removed. Tree foliage remains visibly simplified at close range. Technical checks are recorded separately and do not establish all-surface perfection.",
+      "material_face_counts": {
+        "tree_gold_Bark": 26815,
+        "tree_gold_LeafVeins": 2969,
+        "tree_gold_WarmFruit": 127
+      },
+      "blend": "art/generated/env-v1/assets/tree_gold/tree_gold/tree_gold_optimized.blend",
+      "technical_scope": "Blender offline processing, screenshots, and FBX roundtrip; no Unity import, physics, or performance validation",
+      "known_limits": [
+        "Leaves and branches remain simplified at the requested low triangle budget.",
+        "Fruit/leaf material masks derive from source colour; artist review remains necessary.",
+        "No per-leaf topology guarantee or animated foliage rig."
+      ]
+    },
+    {
+      "id": "rock_mountain",
+      "source_id": "rock_mountain",
+      "kind": "rock",
+      "source_path": "art/incoming/env-2026-10-22/rock_mountain/岩石山3d模型.glb",
+      "source_sha256": "0ff327a32f946ae1ed32d0316b19bdf6e60003f5ffdadc0474bd30cc57c28d21",
+      "input_component_ranks": [
+        0
+      ],
+      "input_triangles": 1020804,
+      "scale_to_metres": 7.18946855192589,
+      "dimensions_xyz_blender_metres": [
+        4.37052059173584,
+        4.481003761291504,
+        4.5081787109375
+      ],
+      "dimensions_xyz_unity_metres": [
+        4.37052059173584,
+        4.508178594522178,
+        4.481003522872925
+      ],
+      "pivot": "bottom centre of all retained parts; base and trunk share exact world-aligned origin",
+      "axis": "FBX Y-up, -Z forward; metres; baked space transform",
+      "steps": [
+        "manual grouping by connected components and three-view source inspection",
+        "discard presentation-sheet cutaways and duplicate floating study panels",
+        "weld coincident glTF seam vertices while preserving UV loops",
+        "uniform physical scale; bottom-centre pivot",
+        "QEM collapse decimation",
+        "new smart-projected UV atlas; diffuse-colour reprojection from retained high-poly source",
+        "preserve all selected visible object geometry",
+        "remove only buried downward bottom-cap faces",
+        "matte source-colour material"
+      ],
+      "bottom_faces_removed": 20,
+      "textures": [
+        {
+          "path": "art/generated/env-v1/assets/rock_mountain/textures/rock_mountain_BaseColor.png",
+          "sha256": "e00e28afb617ecac60b7dd952149059b659696c71b8d512c9f51523d0cf5181e",
+          "width": 1024,
+          "height": 1024,
+          "color_space": "sRGB"
+        }
+      ],
+      "materials": [
+        {
+          "name": "rock_mountain_Stone",
+          "role": "Stone",
+          "base_color_texture": "art/generated/env-v1/assets/rock_mountain/textures/rock_mountain_BaseColor.png",
+          "roughness": 0.86,
+          "emission_color": [
+            0,
+            0,
+            0
+          ],
+          "emission_strength": 0
+        }
+      ],
+      "lod0": {
+        "fbx": "art/generated/env-v1/assets/rock_mountain/rock_mountain/rock_mountain_LOD0.fbx",
+        "sha256": "a4df4369587681f5e74a2fbe14c42e8e5e69519cc9d5def70a66a3ba3394c6f1",
+        "triangles": 7796,
+        "objects": [
+          {
+            "name": "rock_mountain",
+            "triangles": 7796
+          }
+        ]
+      },
+      "previews": {
+        "front": "art/generated/env-v1/assets/rock_mountain/rock_mountain/previews/processed-front.png",
+        "side": "art/generated/env-v1/assets/rock_mountain/rock_mountain/previews/processed-side.png",
+        "top": "art/generated/env-v1/assets/rock_mountain/rock_mountain/previews/processed-top.png"
+      },
+      "lod1": {
+        "fbx": "art/generated/env-v1/assets/rock_mountain/rock_mountain/rock_mountain_LOD1.fbx",
+        "sha256": "bc9ffc800974d5db8dd97568fa2b92d4ddbdeb5b9a04d6c4e8dceb8d65b88b3f",
+        "triangles": 3093,
+        "ratio": 0.39674191893278604
+      },
+      "review": "Manual front/side/top preview review complete for the first-island environment handoff; source presentation panels removed. Tree foliage remains visibly simplified at close range. Technical checks are recorded separately and do not establish all-surface perfection.",
+      "technical_scope": "Blender offline processing, screenshots, and FBX roundtrip; no Unity import, physics, or performance validation",
+      "known_limits": [
+        "Source stones are connected rock formations; the standalone reef variants are reusable groups rather than individually retopologized stones."
+      ]
+    },
+    {
+      "id": "rock_mass",
+      "source_id": "rock_mass",
+      "kind": "rock",
+      "source_path": "art/incoming/env-2026-10-22/rock_mass/岩石山体3d模型.glb",
+      "source_sha256": "1713c881cecda46a9f9b94608af4b8ec9f17f6797b5f3b2f8178cd9acec88a06",
+      "input_component_ranks": [
+        0
+      ],
+      "input_triangles": 1017155,
+      "scale_to_metres": 5.707987584721606,
+      "dimensions_xyz_blender_metres": [
+        5.509810447692871,
+        3.7831802368164062,
+        1.8784191608428955
+      ],
+      "dimensions_xyz_unity_metres": [
+        5.509810447692871,
+        1.878419127970119,
+        3.7831801176071167
+      ],
+      "pivot": "bottom centre of all retained parts; base and trunk share exact world-aligned origin",
+      "axis": "FBX Y-up, -Z forward; metres; baked space transform",
+      "steps": [
+        "manual grouping by connected components and three-view source inspection",
+        "discard presentation-sheet cutaways and duplicate floating study panels",
+        "weld coincident glTF seam vertices while preserving UV loops",
+        "uniform physical scale; bottom-centre pivot",
+        "QEM collapse decimation",
+        "new smart-projected UV atlas; diffuse-colour reprojection from retained high-poly source",
+        "preserve all selected visible object geometry",
+        "remove only buried downward bottom-cap faces",
+        "matte source-colour material"
+      ],
+      "bottom_faces_removed": 3,
+      "textures": [
+        {
+          "path": "art/generated/env-v1/assets/rock_mass/textures/rock_mass_BaseColor.png",
+          "sha256": "cc09d0c9cc807ff5bd9052b94825cb4505ffd5bfa01307d102b14757f96e631b",
+          "width": 1024,
+          "height": 1024,
+          "color_space": "sRGB"
+        }
+      ],
+      "materials": [
+        {
+          "name": "rock_mass_Stone",
+          "role": "Stone",
+          "base_color_texture": "art/generated/env-v1/assets/rock_mass/textures/rock_mass_BaseColor.png",
+          "roughness": 0.86,
+          "emission_color": [
+            0,
+            0,
+            0
+          ],
+          "emission_strength": 0
+        }
+      ],
+      "lod0": {
+        "fbx": "art/generated/env-v1/assets/rock_mass/rock_mass/rock_mass_LOD0.fbx",
+        "sha256": "39d06494aa6283d2e81cd5899cacae07f9fab39a142f1eaf068d0f2dd8b159e5",
+        "triangles": 7813,
+        "objects": [
+          {
+            "name": "rock_mass",
+            "triangles": 7813
+          }
+        ]
+      },
+      "previews": {
+        "front": "art/generated/env-v1/assets/rock_mass/rock_mass/previews/processed-front.png",
+        "side": "art/generated/env-v1/assets/rock_mass/rock_mass/previews/processed-side.png",
+        "top": "art/generated/env-v1/assets/rock_mass/rock_mass/previews/processed-top.png"
+      },
+      "lod1": {
+        "fbx": "art/generated/env-v1/assets/rock_mass/rock_mass/rock_mass_LOD1.fbx",
+        "sha256": "28a76386a772176b0d5979e02862e9898c8f872c3944b2332436ac96d83d81b8",
+        "triangles": 3101,
+        "ratio": 0.39690259823371304
+      },
+      "review": "Manual front/side/top preview review complete for the first-island environment handoff; source presentation panels removed. Tree foliage remains visibly simplified at close range. Technical checks are recorded separately and do not establish all-surface perfection.",
+      "technical_scope": "Blender offline processing, screenshots, and FBX roundtrip; no Unity import, physics, or performance validation",
+      "known_limits": [
+        "Source stones are connected rock formations; the standalone reef variants are reusable groups rather than individually retopologized stones."
+      ]
+    },
+    {
+      "id": "rock_arch",
+      "source_id": "rock_arch",
+      "kind": "rock",
+      "source_path": "art/incoming/env-2026-10-22/rock_arch/岩石拱门3d模型.glb",
+      "source_sha256": "4c00ba302e1728f7f3f4e6c6a775461f958772c96c975f1a582c15b935be0448",
+      "input_component_ranks": [
+        0
+      ],
+      "input_triangles": 1114662,
+      "scale_to_metres": 6.57551839464883,
+      "dimensions_xyz_blender_metres": [
+        6.007585048675537,
+        4.3114013671875,
+        2.742837429046631
+      ],
+      "dimensions_xyz_unity_metres": [
+        6.007585048675537,
+        2.742837333586067,
+        4.3114013671875
+      ],
+      "pivot": "bottom centre of all retained parts; base and trunk share exact world-aligned origin",
+      "axis": "FBX Y-up, -Z forward; metres; baked space transform",
+      "steps": [
+        "manual grouping by connected components and three-view source inspection",
+        "discard presentation-sheet cutaways and duplicate floating study panels",
+        "weld coincident glTF seam vertices while preserving UV loops",
+        "uniform physical scale; bottom-centre pivot",
+        "QEM collapse decimation",
+        "new smart-projected UV atlas; diffuse-colour reprojection from retained high-poly source",
+        "preserve all selected visible object geometry",
+        "remove only buried downward bottom-cap faces",
+        "matte source-colour material"
+      ],
+      "bottom_faces_removed": 16,
+      "textures": [
+        {
+          "path": "art/generated/env-v1/assets/rock_arch/textures/rock_arch_BaseColor.png",
+          "sha256": "e5be4a2642748d2df3b209c0f679a486d5d0a6896702b6eb9bbc988dae5ddb24",
+          "width": 1024,
+          "height": 1024,
+          "color_space": "sRGB"
+        }
+      ],
+      "materials": [
+        {
+          "name": "rock_arch_Stone",
+          "role": "Stone",
+          "base_color_texture": "art/generated/env-v1/assets/rock_arch/textures/rock_arch_BaseColor.png",
+          "roughness": 0.86,
+          "emission_color": [
+            0,
+            0,
+            0
+          ],
+          "emission_strength": 0
+        }
+      ],
+      "lod0": {
+        "fbx": "art/generated/env-v1/assets/rock_arch/rock_arch/rock_arch_LOD0.fbx",
+        "sha256": "86ff28c799faca070e1cd2c39858a21801e26805f237b6e8cdc2a7743a86baff",
+        "triangles": 7800,
+        "objects": [
+          {
+            "name": "rock_arch",
+            "triangles": 7800
+          }
+        ]
+      },
+      "previews": {
+        "front": "art/generated/env-v1/assets/rock_arch/rock_arch/previews/processed-front.png",
+        "side": "art/generated/env-v1/assets/rock_arch/rock_arch/previews/processed-side.png",
+        "top": "art/generated/env-v1/assets/rock_arch/rock_arch/previews/processed-top.png"
+      },
+      "lod1": {
+        "fbx": "art/generated/env-v1/assets/rock_arch/rock_arch/rock_arch_LOD1.fbx",
+        "sha256": "776eb6e7f824f02853f10739f3efc2059696307fdb67bb7a6fff7d98db888122",
+        "triangles": 3095,
+        "ratio": 0.3967948717948718
+      },
+      "review": "Manual front/side/top preview review complete for the first-island environment handoff; source presentation panels removed. Tree foliage remains visibly simplified at close range. Technical checks are recorded separately and do not establish all-surface perfection.",
+      "technical_scope": "Blender offline processing, screenshots, and FBX roundtrip; no Unity import, physics, or performance validation",
+      "known_limits": [
+        "Source stones are connected rock formations; the standalone reef variants are reusable groups rather than individually retopologized stones."
+      ]
+    },
+    {
+      "id": "rock_cluster",
+      "source_id": "rock_cluster",
+      "kind": "rock",
+      "source_path": "art/incoming/env-2026-10-22/rock_cluster/岩石群3d模型.glb",
+      "source_sha256": "e8a33d371a95ca4225d2c23df1a367e62bfa9c0c586dd01b4982ac937937d589",
+      "input_component_ranks": [
+        0
+      ],
+      "input_triangles": 1005718,
+      "scale_to_metres": 3.8107389686337054,
+      "dimensions_xyz_blender_metres": [
+        3.498901844024658,
+        2.3438093662261963,
+        1.597781777381897
+      ],
+      "dimensions_xyz_unity_metres": [
+        3.498901844024658,
+        1.597781776159536,
+        2.3438093662261963
+      ],
+      "pivot": "bottom centre of all retained parts; base and trunk share exact world-aligned origin",
+      "axis": "FBX Y-up, -Z forward; metres; baked space transform",
+      "steps": [
+        "manual grouping by connected components and three-view source inspection",
+        "discard presentation-sheet cutaways and duplicate floating study panels",
+        "weld coincident glTF seam vertices while preserving UV loops",
+        "uniform physical scale; bottom-centre pivot",
+        "QEM collapse decimation",
+        "new smart-projected UV atlas; diffuse-colour reprojection from retained high-poly source",
+        "preserve all selected visible object geometry",
+        "remove only buried downward bottom-cap faces",
+        "matte source-colour material"
+      ],
+      "bottom_faces_removed": 5,
+      "textures": [
+        {
+          "path": "art/generated/env-v1/assets/rock_cluster/textures/rock_cluster_BaseColor.png",
+          "sha256": "2c7fc078bfbf4e262af08c33d87e4dc0cf328d778ea7977ff07a851de86998ca",
+          "width": 1024,
+          "height": 1024,
+          "color_space": "sRGB"
+        }
+      ],
+      "materials": [
+        {
+          "name": "rock_cluster_Stone",
+          "role": "Stone",
+          "base_color_texture": "art/generated/env-v1/assets/rock_cluster/textures/rock_cluster_BaseColor.png",
+          "roughness": 0.86,
+          "emission_color": [
+            0,
+            0,
+            0
+          ],
+          "emission_strength": 0
+        }
+      ],
+      "lod0": {
+        "fbx": "art/generated/env-v1/assets/rock_cluster/rock_cluster/rock_cluster_LOD0.fbx",
+        "sha256": "d1a656e174e31e31d7afbf8567b2ccb887fd4d1ce3f1c841f97630caadce0ce7",
+        "triangles": 7811,
+        "objects": [
+          {
+            "name": "rock_cluster",
+            "triangles": 7811
+          }
+        ]
+      },
+      "previews": {
+        "front": "art/generated/env-v1/assets/rock_cluster/rock_cluster/previews/processed-front.png",
+        "side": "art/generated/env-v1/assets/rock_cluster/rock_cluster/previews/processed-side.png",
+        "top": "art/generated/env-v1/assets/rock_cluster/rock_cluster/previews/processed-top.png"
+      },
+      "lod1": {
+        "fbx": "art/generated/env-v1/assets/rock_cluster/rock_cluster/rock_cluster_LOD1.fbx",
+        "sha256": "ed8deccfcf48f273c1dd50e27b2ffb57be96f80ffd8e7f437797f0da3870bc8a",
+        "triangles": 3099,
+        "ratio": 0.39674817564972475
+      },
+      "review": "Manual front/side/top preview review complete for the first-island environment handoff; source presentation panels removed. Tree foliage remains visibly simplified at close range. Technical checks are recorded separately and do not establish all-surface perfection.",
+      "technical_scope": "Blender offline processing, screenshots, and FBX roundtrip; no Unity import, physics, or performance validation",
+      "known_limits": [
+        "Source stones are connected rock formations; the standalone reef variants are reusable groups rather than individually retopologized stones."
+      ]
+    },
+    {
+      "id": "boat",
+      "source_id": "boat",
+      "kind": "boat",
+      "source_path": "art/incoming/env-2026-10-22/boat/木质小艇3d模型.glb",
+      "source_sha256": "69eeff54d79778a86595f53744a7a10a92f666f17a17420ba2c3a0c0879e56cc",
+      "input_component_ranks": [
+        0
+      ],
+      "input_triangles": 1268972,
+      "scale_to_metres": 4.294760157999676,
+      "dimensions_xyz_blender_metres": [
+        1.7101502418518066,
+        5.001363754272461,
+        1.446919560432434
+      ],
+      "dimensions_xyz_unity_metres": [
+        1.7101503014564514,
+        1.4469195171259344,
+        5.001363754272461
+      ],
+      "pivot": "bottom centre of all retained parts; base and trunk share exact world-aligned origin",
+      "axis": "FBX Y-up, -Z forward; metres; baked space transform",
+      "steps": [
+        "manual grouping by connected components and three-view source inspection",
+        "discard presentation-sheet cutaways and duplicate floating study panels",
+        "weld coincident glTF seam vertices while preserving UV loops",
+        "uniform physical scale; bottom-centre pivot",
+        "QEM collapse decimation",
+        "new smart-projected UV atlas; diffuse-colour reprojection from retained high-poly source",
+        "preserve all selected visible object geometry",
+        "preserve boat interior and hull bottom",
+        "matte source-colour material"
+      ],
+      "bottom_faces_removed": 0,
+      "textures": [
+        {
+          "path": "art/generated/env-v1/assets/boat/textures/boat_BaseColor.png",
+          "sha256": "ae82850e9e93be4039c231763eb2d9ac57a0e67119c48542d11e6590f106e690",
+          "width": 2048,
+          "height": 2048,
+          "color_space": "sRGB"
+        }
+      ],
+      "materials": [
+        {
+          "name": "boat_Wood",
+          "role": "Wood",
+          "base_color_texture": "art/generated/env-v1/assets/boat/textures/boat_BaseColor.png",
+          "roughness": 0.86,
+          "emission_color": [
+            0,
+            0,
+            0
+          ],
+          "emission_strength": 0
+        }
+      ],
+      "lod0": {
+        "fbx": "art/generated/env-v1/assets/boat/boat/boat_LOD0.fbx",
+        "sha256": "596ec4b08700db0437fd2509cdcd6dbad59e5a8f160bf2f92edf93c16d3d8561",
+        "triangles": 29816,
+        "objects": [
+          {
+            "name": "boat",
+            "triangles": 29816
+          }
+        ]
+      },
+      "previews": {
+        "front": "art/generated/env-v1/assets/boat/boat/previews/processed-front.png",
+        "side": "art/generated/env-v1/assets/boat/boat/previews/processed-side.png",
+        "top": "art/generated/env-v1/assets/boat/boat/previews/processed-top.png"
+      },
+      "review": "Manual front/side/top preview review complete for the first-island environment handoff; source presentation panels removed. Tree foliage remains visibly simplified at close range. Technical checks are recorded separately and do not establish all-surface perfection.",
+      "technical_scope": "Blender offline processing, screenshots, and FBX roundtrip; no Unity import, physics, or performance validation",
+      "known_limits": [
+        "Static wooden boat; no buoyancy, collision proxy or boarding controls supplied."
+      ]
+    },
+    {
+      "id": "rock_cluster_reef_01",
+      "source_id": "rock_cluster",
+      "kind": "rock",
+      "source_path": "art/incoming/env-2026-10-22/rock_cluster/岩石群3d模型.glb",
+      "source_sha256": "e8a33d371a95ca4225d2c23df1a367e62bfa9c0c586dd01b4982ac937937d589",
+      "input_component_ranks": [
+        1
+      ],
+      "input_triangles": 386138,
+      "scale_to_metres": 4.987215390234994,
+      "dimensions_xyz_blender_metres": [
+        2.3801722526550293,
+        2.5032927989959717,
+        1.2052276134490967
+      ],
+      "dimensions_xyz_unity_metres": [
+        2.380172371864319,
+        1.20522762593464,
+        2.5032927989959717
+      ],
+      "pivot": "bottom centre of all retained parts; base and trunk share exact world-aligned origin",
+      "axis": "FBX Y-up, -Z forward; metres; baked space transform",
+      "steps": [
+        "manual grouping by connected components and three-view source inspection",
+        "discard presentation-sheet cutaways and duplicate floating study panels",
+        "weld coincident glTF seam vertices while preserving UV loops",
+        "uniform physical scale; bottom-centre pivot",
+        "QEM collapse decimation",
+        "retain source UV atlas for low-detail far rock variant",
+        "preserve all selected visible object geometry",
+        "remove only buried downward bottom-cap faces",
+        "matte source-colour material"
+      ],
+      "bottom_faces_removed": 1,
+      "textures": [
+        {
+          "path": "art/generated/env-v1/assets/rock_cluster/textures/rock_cluster_reef_01_BaseColor.png",
+          "sha256": "65dcd45e7387b64b6c9c11247468813bef3d30797bb0bee344a7fb244633008f",
+          "width": 1024,
+          "height": 1024,
+          "color_space": "sRGB"
+        }
+      ],
+      "materials": [
+        {
+          "name": "rock_cluster_reef_01_Stone",
+          "role": "Stone",
+          "base_color_texture": "art/generated/env-v1/assets/rock_cluster/textures/rock_cluster_reef_01_BaseColor.png",
+          "roughness": 0.86,
+          "emission_color": [
+            0,
+            0,
+            0
+          ],
+          "emission_strength": 0
+        }
+      ],
+      "lod0": {
+        "fbx": "art/generated/env-v1/assets/rock_cluster/rock_cluster_reef_01/rock_cluster_reef_01_LOD0.fbx",
+        "sha256": "ab539f672c0b451863f37a0e22ff1f6aee16eaf17faa072948871dc162d7a04c",
+        "triangles": 2815,
+        "objects": [
+          {
+            "name": "rock_cluster_reef_01",
+            "triangles": 2815
+          }
+        ]
+      },
+      "previews": {
+        "front": "art/generated/env-v1/assets/rock_cluster/rock_cluster_reef_01/previews/processed-front.png",
+        "side": "art/generated/env-v1/assets/rock_cluster/rock_cluster_reef_01/previews/processed-side.png",
+        "top": "art/generated/env-v1/assets/rock_cluster/rock_cluster_reef_01/previews/processed-top.png"
+      },
+      "review": "Manual front/side/top preview review complete for the first-island environment handoff; source presentation panels removed. Tree foliage remains visibly simplified at close range. Technical checks are recorded separately and do not establish all-surface perfection.",
+      "lod1": {
+        "fbx": "art/generated/env-v1/assets/rock_cluster/rock_cluster_reef_01/rock_cluster_reef_01_LOD1.fbx",
+        "sha256": "1456a88937667ff067e93b127beb11b66d31afe8caca8c843236e96715e90789",
+        "triangles": 1101,
+        "ratio": 0.3911190053285968
+      },
+      "technical_scope": "Blender offline processing, screenshots, and FBX roundtrip; no Unity import, physics, or performance validation",
+      "known_limits": [
+        "Source stones are connected rock formations; the standalone reef variants are reusable groups rather than individually retopologized stones."
+      ]
+    },
+    {
+      "id": "rock_cluster_reef_02",
+      "source_id": "rock_cluster",
+      "kind": "rock",
+      "source_path": "art/incoming/env-2026-10-22/rock_cluster/岩石群3d模型.glb",
+      "source_sha256": "e8a33d371a95ca4225d2c23df1a367e62bfa9c0c586dd01b4982ac937937d589",
+      "input_component_ranks": [
+        2
+      ],
+      "input_triangles": 369940,
+      "scale_to_metres": 5.374691730709235,
+      "dimensions_xyz_blender_metres": [
+        2.6057004928588867,
+        2.229654312133789,
+        1.2882020473480225
+      ],
+      "dimensions_xyz_unity_metres": [
+        2.605700373649597,
+        1.2882021062541753,
+        2.2296541929244995
+      ],
+      "pivot": "bottom centre of all retained parts; base and trunk share exact world-aligned origin",
+      "axis": "FBX Y-up, -Z forward; metres; baked space transform",
+      "steps": [
+        "manual grouping by connected components and three-view source inspection",
+        "discard presentation-sheet cutaways and duplicate floating study panels",
+        "weld coincident glTF seam vertices while preserving UV loops",
+        "uniform physical scale; bottom-centre pivot",
+        "QEM collapse decimation",
+        "retain source UV atlas for low-detail far rock variant",
+        "preserve all selected visible object geometry",
+        "remove only buried downward bottom-cap faces",
+        "matte source-colour material"
+      ],
+      "bottom_faces_removed": 0,
+      "textures": [
+        {
+          "path": "art/generated/env-v1/assets/rock_cluster/textures/rock_cluster_reef_02_BaseColor.png",
+          "sha256": "65dcd45e7387b64b6c9c11247468813bef3d30797bb0bee344a7fb244633008f",
+          "width": 1024,
+          "height": 1024,
+          "color_space": "sRGB"
+        }
+      ],
+      "materials": [
+        {
+          "name": "rock_cluster_reef_02_Stone",
+          "role": "Stone",
+          "base_color_texture": "art/generated/env-v1/assets/rock_cluster/textures/rock_cluster_reef_02_BaseColor.png",
+          "roughness": 0.86,
+          "emission_color": [
+            0,
+            0,
+            0
+          ],
+          "emission_strength": 0
+        }
+      ],
+      "lod0": {
+        "fbx": "art/generated/env-v1/assets/rock_cluster/rock_cluster_reef_02/rock_cluster_reef_02_LOD0.fbx",
+        "sha256": "d79ad6a9d9f921c23d952b34ee82efa0d6344c064b1868f26ecd6a880d15c4a7",
+        "triangles": 2816,
+        "objects": [
+          {
+            "name": "rock_cluster_reef_02",
+            "triangles": 2816
+          }
+        ]
+      },
+      "previews": {
+        "front": "art/generated/env-v1/assets/rock_cluster/rock_cluster_reef_02/previews/processed-front.png",
+        "side": "art/generated/env-v1/assets/rock_cluster/rock_cluster_reef_02/previews/processed-side.png",
+        "top": "art/generated/env-v1/assets/rock_cluster/rock_cluster_reef_02/previews/processed-top.png"
+      },
+      "review": "Manual front/side/top preview review complete for the first-island environment handoff; source presentation panels removed. Tree foliage remains visibly simplified at close range. Technical checks are recorded separately and do not establish all-surface perfection.",
+      "lod1": {
+        "fbx": "art/generated/env-v1/assets/rock_cluster/rock_cluster_reef_02/rock_cluster_reef_02_LOD1.fbx",
+        "sha256": "016ac53c18ff191e78bcd52255d8f4c62183a982b0741de2a501c02c1e6135ef",
+        "triangles": 1102,
+        "ratio": 0.3913352272727273
+      },
+      "technical_scope": "Blender offline processing, screenshots, and FBX roundtrip; no Unity import, physics, or performance validation",
+      "known_limits": [
+        "Source stones are connected rock formations; the standalone reef variants are reusable groups rather than individually retopologized stones."
+      ]
+    }
+  ],
+  "offline_summary": {
+    "source_files": 9,
+    "source_triangles": 17155606,
+    "optimized_assets": 13,
+    "main_source_ids_completed": [
+      "boat",
+      "rock_arch",
+      "rock_cluster",
+      "rock_mass",
+      "rock_mountain",
+      "tree_a",
+      "tree_b",
+      "tree_c",
+      "tree_gold"
+    ],
+    "all_file_hashes_match": true,
+    "all_budgets_pass": true,
+    "all_previews_exist": true,
+    "runtime_fps_verified": false,
+    "unity_import_verified": false
+  }
+}

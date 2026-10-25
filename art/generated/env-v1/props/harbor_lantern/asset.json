@@ -1,0 +1,66 @@
+{
+  "asset_id": "harbor_lantern",
+  "description": "旗杆上可挂的大马灯；琥珀光芯单独材质，可由剧情熄灭。",
+  "source": "Original procedural placeholder authored for the final JieGuang script; no legacy game asset reused.",
+  "source_script": "art/blender/env_v1_props.py",
+  "source_script_sha256": "099a96576a12e59be951e42e549714b1cd4429d657633ea47843fcf83625ad1d",
+  "fbx": "art/generated/env-v1/props/harbor_lantern/harbor_lantern.fbx",
+  "fbx_sha256": "2838797eabe43a1f35333844cdfd43030f171044708ae5b4c3c80529b6df9901",
+  "triangles": 436,
+  "meshes": [
+    {
+      "name": "Structure",
+      "triangles": 436,
+      "materials": [
+        "Iron_Blackened",
+        "Lantern_AmberCore",
+        "Copper_Aged"
+      ]
+    }
+  ],
+  "bounds_blender": {
+    "min": [
+      -0.18000000715255737,
+      -0.18000000715255737,
+      0.0
+    ],
+    "max": [
+      0.18000000715255737,
+      0.18000000715255737,
+      0.7929999828338623
+    ]
+  },
+  "dimensions_metres": [
+    0.36,
+    0.36,
+    0.793
+  ],
+  "coordinates": "Blender Z-up, front -Y; FBX Y-up/-Z; intended Unity point mapping (x,z,-y), confirm after import.",
+  "root_pivot_blender": [
+    0,
+    0,
+    0
+  ],
+  "markers": {
+    "Marker_HangingPoint": {
+      "blender_xyz": [
+        0.0,
+        0.0,
+        0.79
+      ],
+      "unity_xyz": [
+        0.0,
+        0.79,
+        -0.0
+      ],
+      "blender_rotation_degrees": [
+        0.0,
+        -0.0,
+        0.0
+      ]
+    }
+  },
+  "notes": [
+    "Base pivot at Z=0, hanging point Z=.79. Light/emission animation handled in Unity."
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "status": "reviewed_offline_layout",
+  "source": "Blender Cycles; not Unity EnvTest",
+  "blend_sha256": "0ce6e6c6ae971447581aae8723cf82bf4cd865c39bababe1cfd715f39f0b072e",
+  "images": [
+    {
+      "name": "Cam_Title",
+      "width": 1200,
+      "height": 750,
+      "sha256": "909f1a509630c9ea822c31b9c028d7cc88d4521ba752d85ef9cc7bac30c0fca9"
+    },
+    {
+      "name": "Cam_Puzzle",
+      "width": 1200,
+      "height": 750,
+      "sha256": "bd99f5ad313444f0725c3977b2da6c5859e5e4127026019e157e6a1e9506fd5b"
+    },
+    {
+      "name": "Cam_Pier",
+      "width": 1200,
+      "height": 750,
+      "sha256": "ea68be3ac2f813a46e3fb35199332b694fb7399aaa61541f400b9f1131429d3d"
+    },
+    {
+      "name": "Cam_Village",
+      "width": 1200,
+      "height": 750,
+      "sha256": "76a0376c83c355de928a099a79ea499627e81178af29ef18db1a62c0ccf51215"
+    }
+  ],
+  "observed": [
+    "Four output views inspected; original finite sea-plane edge removed.",
+    "Title view includes the complete island and a thin blue-white Earth crescent.",
+    "Eleven village houses, warm windows, forest, cape props and pier present.",
+    "Pier camera is a close view: the lower edge of the boat is cropped; use boat asset previews for complete shape inspection."
+  ],
+  "limitations": [
+    "Procedural architecture remains a gameplay placeholder.",
+    "Natural tree leaves retain simplified edges; not a final hero close-up approval.",
+    "Lighting is an offline analogue, not a verified match for URP.",
+    "Unity prefab, screenshots, collision playtest and FPS remain pending explicit editor handover."
+  ]
+}

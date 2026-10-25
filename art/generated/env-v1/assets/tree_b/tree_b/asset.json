@@ -1,0 +1,178 @@
+{
+  "id": "tree_b",
+  "source_id": "tree_b",
+  "kind": "tree",
+  "source_path": "art/incoming/env-2026-10-22/tree_b/发光树3d模型 (1).glb",
+  "source_sha256": "8678da1d1b32d5cda1780acbec45b287837f1cb80c6358494a595c7edaed5a56",
+  "input_component_ranks": [
+    0,
+    1,
+    4,
+    5
+  ],
+  "input_triangles": 1434989,
+  "scale_to_metres": 7.4644346144677245,
+  "dimensions_xyz_blender_metres": [
+    4.4456024169921875,
+    5.986615180969238,
+    4.288476943969727
+  ],
+  "dimensions_xyz_unity_metres": [
+    4.445602178573608,
+    4.288477104157209,
+    5.986614942550659
+  ],
+  "pivot": "bottom centre of all retained parts; base and trunk share exact world-aligned origin",
+  "axis": "FBX Y-up, -Z forward; metres; baked space transform",
+  "steps": [
+    "manual grouping by connected components and three-view source inspection",
+    "discard presentation-sheet cutaways and duplicate floating study panels",
+    "weld coincident glTF seam vertices while preserving UV loops",
+    "uniform physical scale; bottom-centre pivot",
+    "QEM collapse decimation",
+    "new smart-projected UV atlas; diffuse-colour reprojection from retained high-poly source",
+    "separate selectable tree base by horizontal cut; preserve co-located trunk/base seam",
+    "remove only buried downward bottom-cap faces",
+    "separate bark / leaf veins / amber fruit materials by UV-colour mask",
+    "tight high-luminance gold mask excludes orange-brown branches from fruit emission",
+    "Add 56-triangle tapered curved wood connector between detached source bough and trunk; LOD1 connector 28 triangles"
+  ],
+  "bottom_faces_removed": 192,
+  "textures": [
+    {
+      "path": "art/generated/env-v1/assets/tree_b/textures/tree_b_BaseColor.png",
+      "sha256": "f4e31e92819edb2fdff425eae8ca18f9193ec2350c957866e7a4e78d2d8a94cf",
+      "width": 1024,
+      "height": 1024,
+      "color_space": "sRGB"
+    },
+    {
+      "path": "art/generated/env-v1/assets/tree_b/textures/tree_b_LeafVeins_Emission.001.png",
+      "sha256": "98f325c28c946b1b517d467b6caaa0966e310681c20dac7d5251a79a51a548a1",
+      "width": 1024,
+      "height": 1024,
+      "color_space": "Linear / Non-Color"
+    },
+    {
+      "path": "art/generated/env-v1/assets/tree_b/textures/tree_b_WarmFruit_Emission.001.png",
+      "sha256": "15b5dacee7ee5125c49d27cfe377024f9f2ab030e2da67472800b6cf3ecdef12",
+      "width": 1024,
+      "height": 1024,
+      "color_space": "Linear / Non-Color"
+    }
+  ],
+  "materials": [
+    {
+      "name": "tree_b_Bark",
+      "role": "Bark",
+      "base_color_texture": "art/generated/env-v1/assets/tree_b/textures/tree_b_BaseColor.png",
+      "roughness": 0.86,
+      "emission_color": [
+        0,
+        0,
+        0
+      ],
+      "emission_strength": 0
+    },
+    {
+      "name": "tree_b_LeafVeins",
+      "role": "LeafVeins",
+      "base_color_texture": "art/generated/env-v1/assets/tree_b/textures/tree_b_BaseColor.png",
+      "roughness": 0.86,
+      "emission_color": [
+        1,
+        0.48,
+        0.13
+      ],
+      "emission_strength": 0.22,
+      "emission_texture": "art/generated/env-v1/assets/tree_b/textures/tree_b_LeafVeins_Emission.001.png"
+    },
+    {
+      "name": "tree_b_WarmFruit",
+      "role": "WarmFruit",
+      "base_color_texture": "art/generated/env-v1/assets/tree_b/textures/tree_b_BaseColor.png",
+      "roughness": 0.86,
+      "emission_color": [
+        1,
+        0.48,
+        0.13
+      ],
+      "emission_strength": 1.35,
+      "emission_texture": "art/generated/env-v1/assets/tree_b/textures/tree_b_WarmFruit_Emission.001.png"
+    },
+    {
+      "name": "tree_b_BarkRepair",
+      "role": "BarkRepair",
+      "base_color": [
+        0.2,
+        0.07,
+        0.026,
+        1
+      ],
+      "roughness": 0.86,
+      "emission_color": [
+        0,
+        0,
+        0
+      ],
+      "emission_strength": 0
+    }
+  ],
+  "lod0": {
+    "fbx": "art/generated/env-v1/assets/tree_b/tree_b/tree_b_LOD0.fbx",
+    "sha256": "be6abb76001b21ad3d79a93911a5ab3e0023421b4352175567515c14b7061fb8",
+    "triangles": 11966,
+    "objects": [
+      {
+        "name": "tree_b",
+        "triangles": 10639
+      },
+      {
+        "name": "tree_b_Base",
+        "triangles": 1271
+      },
+      {
+        "name": "tree_b_BranchRepair",
+        "triangles": 56
+      }
+    ]
+  },
+  "previews": {
+    "front": "art/generated/env-v1/assets/tree_b/tree_b/previews/processed-front.png",
+    "side": "art/generated/env-v1/assets/tree_b/tree_b/previews/processed-side.png",
+    "top": "art/generated/env-v1/assets/tree_b/tree_b/previews/processed-top.png"
+  },
+  "lod1": {
+    "fbx": "art/generated/env-v1/assets/tree_b/tree_b/tree_b_LOD1.fbx",
+    "sha256": "59787d69dd079115fa139936aad39aa8880ae05e09652a6f46837dd20b954819",
+    "triangles": 4742,
+    "ratio": 0.3962894868794919
+  },
+  "review": "Manual front/side/top preview review complete for the first-island environment handoff; source presentation panels removed. Tree foliage remains visibly simplified at close range. Technical checks are recorded separately and do not establish all-surface perfection.",
+  "material_face_counts": {
+    "tree_b_Bark": 11304,
+    "tree_b_LeafVeins": 374,
+    "tree_b_WarmFruit": 232
+  },
+  "blend": "art/generated/env-v1/assets/tree_b/tree_b/tree_b_optimized.blend",
+  "branch_repair": {
+    "start_blender_metres": [
+      1.51667058467865,
+      -0.25934839248657227,
+      2.735668182373047
+    ],
+    "end_blender_metres": [
+      1.6812067031860352,
+      1.2523488998413086,
+      1.7373175621032715
+    ],
+    "lod0_triangles": 56,
+    "note": "Connector intersects original wood surfaces; it does not claim a watertight boolean union."
+  },
+  "technical_scope": "Blender offline processing, screenshots, and FBX roundtrip; no Unity import, physics, or performance validation",
+  "known_limits": [
+    "Leaves and branches remain simplified at the requested low triangle budget.",
+    "Fruit/leaf material masks derive from source colour; artist review remains necessary.",
+    "No per-leaf topology guarantee or animated foliage rig."
+  ]
+}

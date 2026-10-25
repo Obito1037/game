@@ -1,0 +1,88 @@
+{
+  "asset_id": "cottage_teal",
+  "description": "坡上村子可复用木屋；独立暖琥珀窗，两扇窗可分别亮灭。",
+  "source": "Original procedural placeholder authored for the final JieGuang script; no legacy game asset reused.",
+  "source_script": "art/blender/env_v1_props.py",
+  "source_script_sha256": "099a96576a12e59be951e42e549714b1cd4429d657633ea47843fcf83625ad1d",
+  "fbx": "art/generated/env-v1/props/cottage_teal/cottage_teal.fbx",
+  "fbx_sha256": "942f0d5034a4ecacb3fb1cd2a0874cfa8e1e667554b638e9a4f105e55997fa04",
+  "triangles": 1024,
+  "meshes": [
+    {
+      "name": "Structure",
+      "triangles": 1000,
+      "materials": [
+        "Stone_SoftGrey",
+        "Wall_WarmIvory",
+        "Wood_DarkBeams",
+        "Wood_Endgrain",
+        "Wood_Honey",
+        "Copper_Aged",
+        "Stone_WarmLimestone",
+        "Roof_AgedTeal",
+        "Roof_TealHighlight"
+      ]
+    },
+    {
+      "name": "Window_00",
+      "triangles": 12,
+      "materials": [
+        "Window_AmberEmission"
+      ]
+    },
+    {
+      "name": "Window_01",
+      "triangles": 12,
+      "materials": [
+        "Window_AmberEmission"
+      ]
+    }
+  ],
+  "bounds_blender": {
+    "min": [
+      -1.871727705001831,
+      -1.7949999570846558,
+      0.0
+    ],
+    "max": [
+      1.871727705001831,
+      1.6616840362548828,
+      3.634999990463257
+    ]
+  },
+  "dimensions_metres": [
+    3.7435,
+    3.4567,
+    3.635
+  ],
+  "coordinates": "Blender Z-up, front -Y; FBX Y-up/-Z; intended Unity point mapping (x,z,-y), confirm after import.",
+  "root_pivot_blender": [
+    0,
+    0,
+    0
+  ],
+  "markers": {
+    "Marker_Door": {
+      "blender_xyz": [
+        -0.62,
+        -1.755,
+        0.22
+      ],
+      "unity_xyz": [
+        -0.62,
+        0.22,
+        1.755
+      ],
+      "blender_rotation_degrees": [
+        0.0,
+        -0.0,
+        0.0
+      ]
+    }
+  },
+  "notes": [
+    "Village window mesh names start Window_; reparent to Village_Windows preserving world transform.",
+    "Village cottages are exterior shells; no interior navigation.",
+    "Front is Blender -Y; intended Unity +Z."
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "id": "rock_cluster",
+  "source_id": "rock_cluster",
+  "kind": "rock",
+  "source_path": "art/incoming/env-2026-10-22/rock_cluster/岩石群3d模型.glb",
+  "source_sha256": "e8a33d371a95ca4225d2c23df1a367e62bfa9c0c586dd01b4982ac937937d589",
+  "input_component_ranks": [
+    0
+  ],
+  "input_triangles": 1005718,
+  "scale_to_metres": 3.8107389686337054,
+  "dimensions_xyz_blender_metres": [
+    3.498901844024658,
+    2.3438093662261963,
+    1.597781777381897
+  ],
+  "dimensions_xyz_unity_metres": [
+    3.498901844024658,
+    1.597781776159536,
+    2.3438093662261963
+  ],
+  "pivot": "bottom centre of all retained parts; base and trunk share exact world-aligned origin",
+  "axis": "FBX Y-up, -Z forward; metres; baked space transform",
+  "steps": [
+    "manual grouping by connected components and three-view source inspection",
+    "discard presentation-sheet cutaways and duplicate floating study panels",
+    "weld coincident glTF seam vertices while preserving UV loops",
+    "uniform physical scale; bottom-centre pivot",
+    "QEM collapse decimation",
+    "new smart-projected UV atlas; diffuse-colour reprojection from retained high-poly source",
+    "preserve all selected visible object geometry",
+    "remove only buried downward bottom-cap faces",
+    "matte source-colour material"
+  ],
+  "bottom_faces_removed": 5,
+  "textures": [
+    {
+      "path": "art/generated/env-v1/assets/rock_cluster/textures/rock_cluster_BaseColor.png",
+      "sha256": "2c7fc078bfbf4e262af08c33d87e4dc0cf328d778ea7977ff07a851de86998ca",
+      "width": 1024,
+      "height": 1024,
+      "color_space": "sRGB"
+    }
+  ],
+  "materials": [
+    {
+      "name": "rock_cluster_Stone",
+      "role": "Stone",
+      "base_color_texture": "art/generated/env-v1/assets/rock_cluster/textures/rock_cluster_BaseColor.png",
+      "roughness": 0.86,
+      "emission_color": [
+        0,
+        0,
+        0
+      ],
+      "emission_strength": 0
+    }
+  ],
+  "lod0": {
+    "fbx": "art/generated/env-v1/assets/rock_cluster/rock_cluster/rock_cluster_LOD0.fbx",
+    "sha256": "d1a656e174e31e31d7afbf8567b2ccb887fd4d1ce3f1c841f97630caadce0ce7",
+    "triangles": 7811,
+    "objects": [
+      {
+        "name": "rock_cluster",
+        "triangles": 7811
+      }
+    ]
+  },
+  "previews": {
+    "front": "art/generated/env-v1/assets/rock_cluster/rock_cluster/previews/processed-front.png",
+    "side": "art/generated/env-v1/assets/rock_cluster/rock_cluster/previews/processed-side.png",
+    "top": "art/generated/env-v1/assets/rock_cluster/rock_cluster/previews/processed-top.png"
+  },
+  "lod1": {
+    "fbx": "art/generated/env-v1/assets/rock_cluster/rock_cluster/rock_cluster_LOD1.fbx",
+    "sha256": "ed8deccfcf48f273c1dd50e27b2ffb57be96f80ffd8e7f437797f0da3870bc8a",
+    "triangles": 3099,
+    "ratio": 0.39674817564972475
+  },
+  "review": "Manual front/side/top preview review complete for the first-island environment handoff; source presentation panels removed. Tree foliage remains visibly simplified at close range. Technical checks are recorded separately and do not establish all-surface perfection.",
+  "technical_scope": "Blender offline processing, screenshots, and FBX roundtrip; no Unity import, physics, or performance validation",
+  "known_limits": [
+    "Source stones are connected rock formations; the standalone reef variants are reusable groups rather than individually retopologized stones."
+  ]
+}

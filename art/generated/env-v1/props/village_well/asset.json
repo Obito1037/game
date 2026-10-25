@@ -1,0 +1,53 @@
+{
+  "asset_id": "village_well",
+  "description": "坡上村子石井，开口井沿、木摇柄和小蓝绿瓦顶。",
+  "source": "Original procedural placeholder authored for the final JieGuang script; no legacy game asset reused.",
+  "source_script": "art/blender/env_v1_props.py",
+  "source_script_sha256": "099a96576a12e59be951e42e549714b1cd4429d657633ea47843fcf83625ad1d",
+  "fbx": "art/generated/env-v1/props/village_well/village_well.fbx",
+  "fbx_sha256": "ee8a9d96dfd8467bb82a3d76fc96523b9bf871acd6701a5eaafb0134b20c753c",
+  "triangles": 1156,
+  "meshes": [
+    {
+      "name": "Structure",
+      "triangles": 1156,
+      "materials": [
+        "Stone_SoftGrey",
+        "Stone_WarmLimestone",
+        "Wood_Honey",
+        "Wood_Endgrain",
+        "Iron_Blackened",
+        "Cloth_Unbleached",
+        "Roof_AgedTeal",
+        "Roof_TealHighlight"
+      ]
+    }
+  ],
+  "bounds_blender": {
+    "min": [
+      -1.187611699104309,
+      -0.9866840243339539,
+      -0.029999999329447746
+    ],
+    "max": [
+      1.187611699104309,
+      0.9866840243339539,
+      2.7950000762939453
+    ]
+  },
+  "dimensions_metres": [
+    2.3752,
+    1.9734,
+    2.825
+  ],
+  "coordinates": "Blender Z-up, front -Y; FBX Y-up/-Z; intended Unity point mapping (x,z,-y), confirm after import.",
+  "root_pivot_blender": [
+    0,
+    0,
+    0
+  ],
+  "markers": {},
+  "notes": [
+    "Open well geometry extends .03m below ground, pivot remains ground Z=0."
+  ]
+}

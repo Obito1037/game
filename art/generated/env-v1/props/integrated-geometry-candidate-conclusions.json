@@ -1,0 +1,39 @@
+{
+  "status": "accepted_candidates_pending_complete_scene_recheck",
+  "scope": "Earlier valid candidate rays against the partial saved mesh scene. Not Unity verification. Later mixed-revision low-base vertex data was discarded.",
+  "original_wanfeng_occlusion": {
+    "original_cape_position": [0.6,3.8,6],
+    "blocker": "GrandmotherHouse roof/eave",
+    "first_hit_world": [6.9021148682,4.9537763596,-16.9939575195],
+    "distance_before_target": 4.9277983822
+  },
+  "accepted_wanfeng": {
+    "cape_position": [1.0,3.8,4.5],
+    "path_ray_clear": true,
+    "bench_ray_reaches_receiver": true,
+    "paved_edge_to_base": 0.385,
+    "actual_terrain_y": 2.382850647,
+    "expected_base_y": 2.4
+  },
+  "accepted_tree_positions_before_parent_extra_sink": [
+    {"name":"LightTree_08","world_xz":[-13.2,-1.5],"center_path_probes_blocked":0,"base_aabb_xz_size":[3.4549732,2.8870211],"conservative_empty_aabb_corner_max_gap":0.5444002,"parent_selected_sink":0.30},
+    {"name":"LightTree_10","world_xz":[-4.8,-9],"center_path_probes_blocked":0,"base_aabb_xz_size":[2.1154680,2.2813692],"conservative_empty_aabb_corner_max_gap":0.3035777,"parent_selected_sink":0.20}
+  ],
+  "rejected_tree_positions": [
+    {"name":"LightTree_08","world_xz":[-5.5,0],"reason":"Base spans the shore dropoff; conservative bounding corner gap reaches 4.1956m. Bounding corners are not exact occupied mesh points."},
+    {"name":"LightTree_10","world_xz":[-1.4,-5.8],"reason":"Two 1.45m-high traveller probes still hit the mesh; conservative base corner gap .877m."}
+  ],
+  "other_partial_scene_results": {
+    "window_real_aperture_and_desk_checks_passed":11,
+    "window_checks_total":11,
+    "window_marker_error_metres":0.000004721,
+    "all_12_house_nine_point_footprints_within_10cm":true,
+    "maximum_house_ground_penetration":0.087729,
+    "maximum_house_ground_gap":0.097551,
+    "cape_home_flag":"One 15cm limestone doorstep, not a blocking wall.",
+    "pier_flag":"Several exact centerline probes land in deliberate 1.3cm board/module gaps; plus/minus 6cm probes hit contiguous neighboring boards at Y=2.48. Unity needs continuous deck collision boxes.",
+    "camera_flag":"Title and puzzle lines to tested points clear. Pier/village views of the window are blocked by the house itself; those cameras do not focus on the window."
+  },
+  "missing_natural_assets_in_partial_scene":["tree_gold","tree_c","rock_mass","rock_cluster","rock_mountain","rock_arch","boat"],
+  "next_step":"Wait for parent to save complete island_offline.blend, then run env_v1_geometry_check.py once with --threads 2."
+}

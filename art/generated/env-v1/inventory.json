@@ -1,0 +1,1912 @@
+{
+  "schema_version": 1,
+  "design_basis": "art/design/script/07_完整故事与生图提示词（最终版）.md",
+  "assets": [
+    {
+      "id": "tree_a",
+      "source": "发光树3d模型.glb",
+      "kind": "tree",
+      "dimension": 4.8,
+      "budget": 12000,
+      "source_path": "art/incoming/env-2026-10-22/tree_a/发光树3d模型.glb",
+      "sha256": "5aaf0895c26fa75134709d9191de2e5c0d9b5b442adf7aeb052f705fea631916",
+      "source_bytes": 63514300,
+      "coordinate_system": "Blender Z-up, glTF imported with official importer; original glTF Y-up",
+      "units": "Source glTF nominal metres; generated source normalized scale is not trusted",
+      "bounds": {
+        "min": [
+          -0.3094940185546875,
+          -0.4918975830078125,
+          0.0
+        ],
+        "max": [
+          0.3094940185546875,
+          0.4918975830078125,
+          0.724517822265625
+        ],
+        "dimensions": [
+          0.618988037109375,
+          0.983795166015625,
+          0.724517822265625
+        ]
+      },
+      "object_count": 1,
+      "mesh_count": 1,
+      "triangles": 1898376,
+      "materials": [
+        {
+          "name": "tripo_material_40a82a25-3c8b-4512-a366-298ac03815d0",
+          "images": [
+            {
+              "name": "发光树3d模型_basecolor.jpg",
+              "size": [
+                4096,
+                4096
+              ],
+              "color_space": "sRGB"
+            }
+          ],
+          "nodes": [],
+          "base_color": [
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929,
+            1.0
+          ],
+          "emission_color": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "emission_strength": 0.0
+        }
+      ],
+      "objects": [
+        {
+          "name": "tripo_node_40a82a25-3c8b-4512-a366-298ac03815d0",
+          "vertices": 1100710,
+          "triangles": 1898376,
+          "matrix_world": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "components": [
+            {
+              "vertices": 612886,
+              "min": [
+                -0.3094940185546875,
+                -0.4250335693359375,
+                0.0
+              ],
+              "max": [
+                0.2618255615234375,
+                0.09732818603515625,
+                0.6998291015625
+              ],
+              "label": 237470
+            },
+            {
+              "vertices": 134726,
+              "min": [
+                -0.134521484375,
+                0.173583984375,
+                0.00372314453125
+              ],
+              "max": [
+                0.191314697265625,
+                0.4918975830078125,
+                0.36469483375549316
+              ],
+              "label": 410647
+            },
+            {
+              "vertices": 120180,
+              "min": [
+                -0.12038421630859375,
+                0.181793212890625,
+                0.3811054229736328
+              ],
+              "max": [
+                0.2098236083984375,
+                0.4735565185546875,
+                0.724517822265625
+              ],
+              "label": 363548
+            },
+            {
+              "vertices": 118213,
+              "min": [
+                -0.0886383056640625,
+                -0.4918975830078125,
+                0.3682551383972168
+              ],
+              "max": [
+                0.3094940185546875,
+                -0.011732101440429688,
+                0.5611724853515625
+              ],
+              "label": 914687
+            },
+            {
+              "vertices": 60730,
+              "min": [
+                -0.1971588134765625,
+                -0.013216018676757812,
+                0.01397705078125
+              ],
+              "max": [
+                -0.020549774169921875,
+                0.2378387451171875,
+                0.2308349609375
+              ],
+              "label": 175967
+            },
+            {
+              "vertices": 53975,
+              "min": [
+                -0.2816925048828125,
+                -0.3890533447265625,
+                0.3347892761230469
+              ],
+              "max": [
+                -0.06870269775390625,
+                -0.173828125,
+                0.5158538818359375
+              ],
+              "label": 168297
+            }
+          ]
+        }
+      ],
+      "previews": {
+        "front": "art/generated/env-v1/assets/tree_a/previews/source-front.png",
+        "side": "art/generated/env-v1/assets/tree_a/previews/source-side.png",
+        "top": "art/generated/env-v1/assets/tree_a/previews/source-top.png"
+      },
+      "visual_review": {
+        "status": "source three-view inspection complete",
+        "reviewed_views": [
+          "front",
+          "side",
+          "top"
+        ],
+        "story_role": "村子下面缓坡的银绿色光树林",
+        "source_orientation": "Broad presentation silhouette is visible from Blender +X (source-side.png); not a physical in-game orientation",
+        "problems": [
+          "一个 GLB 包含主对象、两个其他角度/尺寸的展示模型和独立局部放大图；不能整体作为单一游戏道具导入。",
+          "包围盒被展示板的悬浮对象扩大，源尺度不是可信的米制实物尺寸。",
+          "单张 4096x4096 BaseColor 烘焙了材质外观；没有独立发光/法线贴图。",
+          "细节几何远高于整岛预算，必须减面并重新检查轮廓。",
+          "部分树冠/果实是合法的独立连通域，不能把所有小连通域当碎片删除。",
+          "树根、地面石块及苔草粘连；底座需要独立对象；局部放大果实图应舍弃。"
+        ],
+        "repair_plan": "人工按三视图指定连通域组，删除展示性悬浮剖面，保留可用独立形体。调整轴心/物理尺寸；分级减面后再次检查。",
+        "limits": "三张外观图不证明水密性、每个细节的正确性或 Unity 碰撞/运行效果。"
+      }
+    },
+    {
+      "id": "tree_b",
+      "source": "发光树3d模型 (1).glb",
+      "kind": "tree",
+      "dimension": 4.3,
+      "budget": 12000,
+      "source_path": "art/incoming/env-2026-10-22/tree_b/发光树3d模型 (1).glb",
+      "sha256": "8678da1d1b32d5cda1780acbec45b287837f1cb80c6358494a595c7edaed5a56",
+      "source_bytes": 62974544,
+      "coordinate_system": "Blender Z-up, glTF imported with official importer; original glTF Y-up",
+      "units": "Source glTF nominal metres; generated source normalized scale is not trusted",
+      "bounds": {
+        "min": [
+          -0.432373046875,
+          -0.48992919921875,
+          0.0
+        ],
+        "max": [
+          0.432373046875,
+          0.48992919921875,
+          0.666168212890625
+        ],
+        "dimensions": [
+          0.86474609375,
+          0.9798583984375,
+          0.666168212890625
+        ]
+      },
+      "object_count": 1,
+      "mesh_count": 1,
+      "triangles": 1940539,
+      "materials": [
+        {
+          "name": "tripo_material_6fe6eca8-f264-48c8-a6a3-c1aad79badfd",
+          "images": [
+            {
+              "name": "发光树3d模型_basecolor.jpg",
+              "size": [
+                4096,
+                4096
+              ],
+              "color_space": "sRGB"
+            }
+          ],
+          "nodes": [],
+          "base_color": [
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929,
+            1.0
+          ],
+          "emission_color": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "emission_strength": 0.0
+        }
+      ],
+      "objects": [
+        {
+          "name": "tripo_node_6fe6eca8-f264-48c8-a6a3-c1aad79badfd",
+          "vertices": 1051475,
+          "triangles": 1940539,
+          "matrix_world": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "components": [
+            {
+              "vertices": 573045,
+              "min": [
+                -0.2461090087890625,
+                -0.48992919921875,
+                0.0
+              ],
+              "max": [
+                0.432373046875,
+                0.10253143310546875,
+                0.5760650634765625
+              ],
+              "label": 801930
+            },
+            {
+              "vertices": 185510,
+              "min": [
+                -0.35772705078125,
+                -0.46722412109375,
+                0.1755218505859375
+              ],
+              "max": [
+                -0.036838531494140625,
+                0.10692596435546875,
+                0.540985107421875
+              ],
+              "label": 402567
+            },
+            {
+              "vertices": 138308,
+              "min": [
+                -0.397613525390625,
+                0.1707916259765625,
+                0.3891334533691406
+              ],
+              "max": [
+                -0.1125030517578125,
+                0.482147216796875,
+                0.666168212890625
+              ],
+              "label": 344959
+            },
+            {
+              "vertices": 132778,
+              "min": [
+                -0.432373046875,
+                0.1811065673828125,
+                0.1009674072265625
+              ],
+              "max": [
+                -0.13238525390625,
+                0.48992919921875,
+                0.371917724609375
+              ],
+              "label": 144078
+            },
+            {
+              "vertices": 14264,
+              "min": [
+                -0.34271240234375,
+                -0.1617889404296875,
+                0.29874420166015625
+              ],
+              "max": [
+                -0.2452850341796875,
+                -0.059612274169921875,
+                0.41123199462890625
+              ],
+              "label": 53086
+            },
+            {
+              "vertices": 7570,
+              "min": [
+                -0.366729736328125,
+                -0.186187744140625,
+                0.21080780029296875
+              ],
+              "max": [
+                -0.2999267578125,
+                -0.10411834716796875,
+                0.28054046630859375
+              ],
+              "label": 32634
+            }
+          ]
+        }
+      ],
+      "previews": {
+        "front": "art/generated/env-v1/assets/tree_b/previews/source-front.png",
+        "side": "art/generated/env-v1/assets/tree_b/previews/source-side.png",
+        "top": "art/generated/env-v1/assets/tree_b/previews/source-top.png"
+      },
+      "visual_review": {
+        "status": "source three-view inspection complete",
+        "reviewed_views": [
+          "front",
+          "side",
+          "top"
+        ],
+        "story_role": "村子下面缓坡的银绿色光树林",
+        "source_orientation": "Broad presentation silhouette is visible from Blender +X (source-side.png); not a physical in-game orientation",
+        "problems": [
+          "一个 GLB 包含主对象、两个其他角度/尺寸的展示模型和独立局部放大图；不能整体作为单一游戏道具导入。",
+          "包围盒被展示板的悬浮对象扩大，源尺度不是可信的米制实物尺寸。",
+          "单张 4096x4096 BaseColor 烘焙了材质外观；没有独立发光/法线贴图。",
+          "细节几何远高于整岛预算，必须减面并重新检查轮廓。",
+          "部分树冠/果实是合法的独立连通域，不能把所有小连通域当碎片删除。",
+          "树根、地面石块及苔草粘连；底座需要独立对象；局部放大果实图应舍弃。"
+        ],
+        "repair_plan": "人工按三视图指定连通域组，删除展示性悬浮剖面，保留可用独立形体。调整轴心/物理尺寸；分级减面后再次检查。",
+        "limits": "三张外观图不证明水密性、每个细节的正确性或 Unity 碰撞/运行效果。"
+      }
+    },
+    {
+      "id": "tree_c",
+      "source": "发光树3d模型 (2).glb",
+      "kind": "tree",
+      "dimension": 5.2,
+      "budget": 12000,
+      "source_path": "art/incoming/env-2026-10-22/tree_c/发光树3d模型 (2).glb",
+      "sha256": "c6c24b9a3e34863bfe1d9dc61a3addf67b72e4b1d3542586361ff8b48a9b5254",
+      "source_bytes": 61270764,
+      "coordinate_system": "Blender Z-up, glTF imported with official importer; original glTF Y-up",
+      "units": "Source glTF nominal metres; generated source normalized scale is not trusted",
+      "bounds": {
+        "min": [
+          -0.4903564453125,
+          -0.468170166015625,
+          0.0
+        ],
+        "max": [
+          0.4903564453125,
+          0.468170166015625,
+          0.786712646484375
+        ],
+        "dimensions": [
+          0.980712890625,
+          0.93634033203125,
+          0.786712646484375
+        ]
+      },
+      "object_count": 1,
+      "mesh_count": 1,
+      "triangles": 1875087,
+      "materials": [
+        {
+          "name": "tripo_material_bb51dba4-35ce-4a26-89f7-ff856184cc0d",
+          "images": [
+            {
+              "name": "发光树3d模型_basecolor.jpg",
+              "size": [
+                4096,
+                4096
+              ],
+              "color_space": "sRGB"
+            }
+          ],
+          "nodes": [],
+          "base_color": [
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929,
+            1.0
+          ],
+          "emission_color": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "emission_strength": 0.0
+        }
+      ],
+      "objects": [
+        {
+          "name": "tripo_node_bb51dba4-35ce-4a26-89f7-ff856184cc0d",
+          "vertices": 1056094,
+          "triangles": 1875087,
+          "matrix_world": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "components": [
+            {
+              "vertices": 647693,
+              "min": [
+                -0.220489501953125,
+                -0.468170166015625,
+                0.14324951171875
+              ],
+              "max": [
+                0.4903564453125,
+                0.173858642578125,
+                0.716705322265625
+              ],
+              "label": 473278
+            },
+            {
+              "vertices": 110098,
+              "min": [
+                -0.4903564453125,
+                0.019622802734375,
+                0.0
+              ],
+              "max": [
+                -0.25445556640625,
+                0.408905029296875,
+                0.26937103271484375
+              ],
+              "label": 25200
+            },
+            {
+              "vertices": 84662,
+              "min": [
+                -0.247344970703125,
+                0.1454315185546875,
+                0.537353515625
+              ],
+              "max": [
+                0.035938262939453125,
+                0.434661865234375,
+                0.786712646484375
+              ],
+              "label": 168407
+            },
+            {
+              "vertices": 65825,
+              "min": [
+                -0.260894775390625,
+                0.20440673828125,
+                0.07135009765625
+              ],
+              "max": [
+                0.1553955078125,
+                0.468170166015625,
+                0.31452178955078125
+              ],
+              "label": 226882
+            },
+            {
+              "vertices": 60974,
+              "min": [
+                -0.160888671875,
+                0.1864013671875,
+                0.29708099365234375
+              ],
+              "max": [
+                0.018835067749023438,
+                0.447357177734375,
+                0.5136184692382812
+              ],
+              "label": 245849
+            },
+            {
+              "vertices": 35012,
+              "min": [
+                -0.21783447265625,
+                -0.1320648193359375,
+                0.5450592041015625
+              ],
+              "max": [
+                -0.028148651123046875,
+                0.041713714599609375,
+                0.66241455078125
+              ],
+              "label": 187311
+            },
+            {
+              "vertices": 21918,
+              "min": [
+                0.353790283203125,
+                -0.1797637939453125,
+                0.5001373291015625
+              ],
+              "max": [
+                0.456268310546875,
+                -0.043933868408203125,
+                0.59075927734375
+              ],
+              "label": 880686
+            },
+            {
+              "vertices": 9268,
+              "min": [
+                -0.1021270751953125,
+                0.2830810546875,
+                0.68804931640625
+              ],
+              "max": [
+                -0.04341888427734375,
+                0.39739990234375,
+                0.744049072265625
+              ],
+              "label": 238792
+            },
+            {
+              "vertices": 8887,
+              "min": [
+                -0.011249542236328125,
+                0.02571868896484375,
+                0.31801605224609375
+              ],
+              "max": [
+                0.05954742431640625,
+                0.11103057861328125,
+                0.3779745101928711
+              ],
+              "label": 433360
+            },
+            {
+              "vertices": 6902,
+              "min": [
+                -0.08306121826171875,
+                0.343109130859375,
+                0.650604248046875
+              ],
+              "max": [
+                -0.013936042785644531,
+                0.423828125,
+                0.696868896484375
+              ],
+              "label": 266844
+            },
+            {
+              "vertices": 4855,
+              "min": [
+                -0.022150039672851562,
+                0.3009033203125,
+                0.4266395568847656
+              ],
+              "max": [
+                0.05168914794921875,
+                0.369110107421875,
+                0.4783172607421875
+              ],
+              "label": 377574
+            }
+          ]
+        }
+      ],
+      "previews": {
+        "front": "art/generated/env-v1/assets/tree_c/previews/source-front.png",
+        "side": "art/generated/env-v1/assets/tree_c/previews/source-side.png",
+        "top": "art/generated/env-v1/assets/tree_c/previews/source-top.png"
+      },
+      "visual_review": {
+        "status": "source three-view inspection complete",
+        "reviewed_views": [
+          "front",
+          "side",
+          "top"
+        ],
+        "story_role": "村子下面缓坡的银绿色光树林",
+        "source_orientation": "Broad presentation silhouette is visible from Blender +X (source-side.png); not a physical in-game orientation",
+        "problems": [
+          "一个 GLB 包含主对象、两个其他角度/尺寸的展示模型和独立局部放大图；不能整体作为单一游戏道具导入。",
+          "包围盒被展示板的悬浮对象扩大，源尺度不是可信的米制实物尺寸。",
+          "单张 4096x4096 BaseColor 烘焙了材质外观；没有独立发光/法线贴图。",
+          "细节几何远高于整岛预算，必须减面并重新检查轮廓。",
+          "部分树冠/果实是合法的独立连通域，不能把所有小连通域当碎片删除。",
+          "树根、地面石块及苔草粘连；底座需要独立对象；局部放大果实图应舍弃。"
+        ],
+        "repair_plan": "人工按三视图指定连通域组，删除展示性悬浮剖面，保留可用独立形体。调整轴心/物理尺寸；分级减面后再次检查。",
+        "limits": "三张外观图不证明水密性、每个细节的正确性或 Unity 碰撞/运行效果。"
+      }
+    },
+    {
+      "id": "tree_gold",
+      "source": "灯光盆景树3d模型.glb",
+      "kind": "tree",
+      "dimension": 5.0,
+      "budget": 30000,
+      "source_path": "art/incoming/env-2026-10-22/tree_gold/灯光盆景树3d模型.glb",
+      "sha256": "09ec05afad23b9a7ce901d2f15b0dd6289c807c30ef675f25d74925856003cec",
+      "source_bytes": 61506880,
+      "coordinate_system": "Blender Z-up, glTF imported with official importer; original glTF Y-up",
+      "units": "Source glTF nominal metres; generated source normalized scale is not trusted",
+      "bounds": {
+        "min": [
+          -0.3462677001953125,
+          -0.4901580810546875,
+          0.0
+        ],
+        "max": [
+          0.3462677001953125,
+          0.4901580810546875,
+          0.694244384765625
+        ],
+        "dimensions": [
+          0.692535400390625,
+          0.980316162109375,
+          0.694244384765625
+        ]
+      },
+      "object_count": 1,
+      "mesh_count": 1,
+      "triangles": 1855237,
+      "materials": [
+        {
+          "name": "tripo_material_d9cd630d-d917-4447-afb9-7cd303f01199",
+          "images": [
+            {
+              "name": "灯光盆景树3d模型_basecolor.jpg",
+              "size": [
+                4096,
+                4096
+              ],
+              "color_space": "sRGB"
+            }
+          ],
+          "nodes": [],
+          "base_color": [
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929,
+            1.0
+          ],
+          "emission_color": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "emission_strength": 0.0
+        }
+      ],
+      "objects": [
+        {
+          "name": "tripo_node_d9cd630d-d917-4447-afb9-7cd303f01199",
+          "vertices": 1057939,
+          "triangles": 1855237,
+          "matrix_world": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "components": [
+            {
+              "vertices": 624071,
+              "min": [
+                -0.2805023193359375,
+                -0.4901580810546875,
+                0.003753662109375
+              ],
+              "max": [
+                0.3462677001953125,
+                0.176025390625,
+                0.61932373046875
+              ],
+              "label": 488137
+            },
+            {
+              "vertices": 127647,
+              "min": [
+                -0.3306121826171875,
+                0.2134552001953125,
+                0.0
+              ],
+              "max": [
+                0.010544776916503906,
+                0.4832916259765625,
+                0.3309307098388672
+              ],
+              "label": 50865
+            },
+            {
+              "vertices": 120729,
+              "min": [
+                -0.3462677001953125,
+                0.171661376953125,
+                0.3725261688232422
+              ],
+              "max": [
+                -0.012747764587402344,
+                0.4901580810546875,
+                0.694244384765625
+              ],
+              "label": 305220
+            },
+            {
+              "vertices": 31708,
+              "min": [
+                -0.00019720196723937988,
+                0.019495010375976562,
+                0.12493896484375
+              ],
+              "max": [
+                0.1436920166015625,
+                0.1844329833984375,
+                0.2638702392578125
+              ],
+              "label": 668499
+            },
+            {
+              "vertices": 28201,
+              "min": [
+                0.1981201171875,
+                -0.3117218017578125,
+                0.32111358642578125
+              ],
+              "max": [
+                0.3331451416015625,
+                -0.16448974609375,
+                0.45851898193359375
+              ],
+              "label": 913942
+            },
+            {
+              "vertices": 19307,
+              "min": [
+                -0.04107666015625,
+                -0.06282806396484375,
+                0.4777679443359375
+              ],
+              "max": [
+                0.07573699951171875,
+                0.05661773681640625,
+                0.59686279296875
+              ],
+              "label": 529289
+            },
+            {
+              "vertices": 18116,
+              "min": [
+                0.0315399169921875,
+                -0.152435302734375,
+                0.4975433349609375
+              ],
+              "max": [
+                0.1416778564453125,
+                -0.0425262451171875,
+                0.608612060546875
+              ],
+              "label": 723203
+            },
+            {
+              "vertices": 16364,
+              "min": [
+                -0.3114776611328125,
+                -0.1874542236328125,
+                0.3697071075439453
+              ],
+              "max": [
+                -0.19061279296875,
+                -0.07085418701171875,
+                0.4730224609375
+              ],
+              "label": 39054
+            },
+            {
+              "vertices": 14856,
+              "min": [
+                -0.1517486572265625,
+                -0.3124542236328125,
+                0.41442108154296875
+              ],
+              "max": [
+                -0.033596038818359375,
+                -0.201995849609375,
+                0.4985504150390625
+              ],
+              "label": 367831
+            },
+            {
+              "vertices": 14233,
+              "min": [
+                -0.04491424560546875,
+                -0.4398040771484375,
+                0.44305419921875
+              ],
+              "max": [
+                0.067352294921875,
+                -0.3329315185546875,
+                0.544708251953125
+              ],
+              "label": 556829
+            },
+            {
+              "vertices": 12598,
+              "min": [
+                -0.2069244384765625,
+                -0.004705905914306641,
+                0.070953369140625
+              ],
+              "max": [
+                -0.08135223388671875,
+                0.1953887939453125,
+                0.26142120361328125
+              ],
+              "label": 281921
+            },
+            {
+              "vertices": 11038,
+              "min": [
+                0.024526596069335938,
+                0.032703399658203125,
+                0.34325695037841797
+              ],
+              "max": [
+                0.1221466064453125,
+                0.1540374755859375,
+                0.42000579833984375
+              ],
+              "label": 702576
+            },
+            {
+              "vertices": 7082,
+              "min": [
+                -0.2418670654296875,
+                0.3298187255859375,
+                0.61761474609375
+              ],
+              "max": [
+                -0.184722900390625,
+                0.4152069091796875,
+                0.687957763671875
+              ],
+              "label": 109756
+            },
+            {
+              "vertices": 6592,
+              "min": [
+                -0.11895751953125,
+                -0.19805908203125,
+                0.094146728515625
+              ],
+              "max": [
+                -0.03969573974609375,
+                -0.11908721923828125,
+                0.1497344970703125
+              ],
+              "label": 306049
+            },
+            {
+              "vertices": 5397,
+              "min": [
+                -0.1401824951171875,
+                0.2259521484375,
+                0.2062835693359375
+              ],
+              "max": [
+                -0.0748443603515625,
+                0.2938690185546875,
+                0.258941650390625
+              ],
+              "label": 364720
+            }
+          ]
+        }
+      ],
+      "previews": {
+        "front": "art/generated/env-v1/assets/tree_gold/previews/source-front.png",
+        "side": "art/generated/env-v1/assets/tree_gold/previews/source-side.png",
+        "top": "art/generated/env-v1/assets/tree_gold/previews/source-top.png"
+      },
+      "visual_review": {
+        "status": "source three-view inspection complete",
+        "reviewed_views": [
+          "front",
+          "side",
+          "top"
+        ],
+        "story_role": "阿婆屋前坡上的金色光树候选；源树本身仍为银绿叶，金色叶缘需独立发光材质表达",
+        "source_orientation": "Broad presentation silhouette is visible from Blender +X (source-side.png); not a physical in-game orientation",
+        "problems": [
+          "一个 GLB 包含主对象、两个其他角度/尺寸的展示模型和独立局部放大图；不能整体作为单一游戏道具导入。",
+          "包围盒被展示板的悬浮对象扩大，源尺度不是可信的米制实物尺寸。",
+          "单张 4096x4096 BaseColor 烘焙了材质外观；没有独立发光/法线贴图。",
+          "细节几何远高于整岛预算，必须减面并重新检查轮廓。",
+          "部分树冠/果实是合法的独立连通域，不能把所有小连通域当碎片删除。",
+          "树根、地面石块及苔草粘连；底座需要独立对象；局部放大果实图应舍弃。"
+        ],
+        "repair_plan": "人工按三视图指定连通域组，删除展示性悬浮剖面，保留可用独立形体。调整轴心/物理尺寸；分级减面后再次检查。",
+        "limits": "三张外观图不证明水密性、每个细节的正确性或 Unity 碰撞/运行效果。"
+      }
+    },
+    {
+      "id": "rock_mountain",
+      "source": "岩石山3d模型.glb",
+      "kind": "rock",
+      "dimension": 4.5,
+      "budget": 8000,
+      "source_path": "art/incoming/env-2026-10-22/rock_mountain/岩石山3d模型.glb",
+      "sha256": "0ff327a32f946ae1ed32d0316b19bdf6e60003f5ffdadc0474bd30cc57c28d21",
+      "source_bytes": 59984884,
+      "coordinate_system": "Blender Z-up, glTF imported with official importer; original glTF Y-up",
+      "units": "Source glTF nominal metres; generated source normalized scale is not trusted",
+      "bounds": {
+        "min": [
+          -0.4109649658203125,
+          -0.489013671875,
+          0.0
+        ],
+        "max": [
+          0.4109649658203125,
+          0.489013671875,
+          0.677520751953125
+        ],
+        "dimensions": [
+          0.821929931640625,
+          0.97802734375,
+          0.677520751953125
+        ]
+      },
+      "object_count": 1,
+      "mesh_count": 1,
+      "triangles": 1880151,
+      "materials": [
+        {
+          "name": "tripo_material_1bcd9a8d-4d45-43c1-9677-76bdfb6a3de9",
+          "images": [
+            {
+              "name": "岩石山3d模型_basecolor.jpg",
+              "size": [
+                4096,
+                4096
+              ],
+              "color_space": "sRGB"
+            }
+          ],
+          "nodes": [],
+          "base_color": [
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929,
+            1.0
+          ],
+          "emission_color": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "emission_strength": 0.0
+        }
+      ],
+      "objects": [
+        {
+          "name": "tripo_node_1bcd9a8d-4d45-43c1-9677-76bdfb6a3de9",
+          "vertices": 1001678,
+          "triangles": 1880151,
+          "matrix_world": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "components": [
+            {
+              "vertices": 544481,
+              "min": [
+                -0.2114715576171875,
+                -0.489013671875,
+                0.03076171875
+              ],
+              "max": [
+                0.4109649658203125,
+                0.11710357666015625,
+                0.65667724609375
+              ],
+              "label": 472490
+            },
+            {
+              "vertices": 196279,
+              "min": [
+                0.0195159912109375,
+                0.12152862548828125,
+                0.0
+              ],
+              "max": [
+                0.3580474853515625,
+                0.460174560546875,
+                0.3420529365539551
+              ],
+              "label": 661332
+            },
+            {
+              "vertices": 186455,
+              "min": [
+                -0.4109649658203125,
+                -0.0033817291259765625,
+                0.32743358612060547
+              ],
+              "max": [
+                -0.039794921875,
+                0.3577880859375,
+                0.677520751953125
+              ],
+              "label": 133509
+            },
+            {
+              "vertices": 74463,
+              "min": [
+                -0.2975921630859375,
+                0.2823486328125,
+                0.44319915771484375
+              ],
+              "max": [
+                -0.032192230224609375,
+                0.489013671875,
+                0.655120849609375
+              ],
+              "label": 223092
+            }
+          ]
+        }
+      ],
+      "previews": {
+        "front": "art/generated/env-v1/assets/rock_mountain/previews/source-front.png",
+        "side": "art/generated/env-v1/assets/rock_mountain/previews/source-side.png",
+        "top": "art/generated/env-v1/assets/rock_mountain/previews/source-top.png"
+      },
+      "visual_review": {
+        "status": "source three-view inspection complete",
+        "reviewed_views": [
+          "front",
+          "side",
+          "top"
+        ],
+        "story_role": "岛岸、山坡和远景礁石的可复用石块组合",
+        "source_orientation": "Broad presentation silhouette is visible from Blender +X (source-side.png); not a physical in-game orientation",
+        "problems": [
+          "一个 GLB 包含主对象、两个其他角度/尺寸的展示模型和独立局部放大图；不能整体作为单一游戏道具导入。",
+          "包围盒被展示板的悬浮对象扩大，源尺度不是可信的米制实物尺寸。",
+          "单张 4096x4096 BaseColor 烘焙了材质外观；没有独立发光/法线贴图。",
+          "细节几何远高于整岛预算，必须减面并重新检查轮廓。",
+          "主岩体内部多块石头相互粘连；拆出的三个展示形体可作为独立石群复用，尚不能声称逐块岩石已人工重拓扑。",
+          "局部放大示意图背面为不自然的大平面，应舍弃。"
+        ],
+        "repair_plan": "人工按三视图指定连通域组，删除展示性悬浮剖面，保留可用独立形体。调整轴心/物理尺寸；分级减面后再次检查。",
+        "limits": "三张外观图不证明水密性、每个细节的正确性或 Unity 碰撞/运行效果。"
+      }
+    },
+    {
+      "id": "rock_mass",
+      "source": "岩石山体3d模型.glb",
+      "kind": "rock",
+      "dimension": 4.0,
+      "budget": 8000,
+      "source_path": "art/incoming/env-2026-10-22/rock_mass/岩石山体3d模型.glb",
+      "sha256": "1713c881cecda46a9f9b94608af4b8ec9f17f6797b5f3b2f8178cd9acec88a06",
+      "source_bytes": 60683956,
+      "coordinate_system": "Blender Z-up, glTF imported with official importer; original glTF Y-up",
+      "units": "Source glTF nominal metres; generated source normalized scale is not trusted",
+      "bounds": {
+        "min": [
+          -0.3847503662109375,
+          -0.48541259765625,
+          0.0
+        ],
+        "max": [
+          0.3847503662109375,
+          0.48541259765625,
+          0.5867919921875
+        ],
+        "dimensions": [
+          0.769500732421875,
+          0.9708251953125,
+          0.5867919921875
+        ]
+      },
+      "object_count": 1,
+      "mesh_count": 1,
+      "triangles": 1903630,
+      "materials": [
+        {
+          "name": "tripo_material_32eb5df3-bbb0-4e5d-96d5-0f9a52fcea32",
+          "images": [
+            {
+              "name": "岩石山体3d模型_basecolor.jpg",
+              "size": [
+                4096,
+                4096
+              ],
+              "color_space": "sRGB"
+            }
+          ],
+          "nodes": [],
+          "base_color": [
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929,
+            1.0
+          ],
+          "emission_color": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "emission_strength": 0.0
+        }
+      ],
+      "objects": [
+        {
+          "name": "tripo_node_32eb5df3-bbb0-4e5d-96d5-0f9a52fcea32",
+          "vertices": 1027919,
+          "triangles": 1903630,
+          "matrix_world": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "components": [
+            {
+              "vertices": 547852,
+              "min": [
+                -0.3847503662109375,
+                -0.48541259765625,
+                0.215545654296875
+              ],
+              "max": [
+                0.2768707275390625,
+                0.4781494140625,
+                0.545654296875
+              ],
+              "label": 555579
+            },
+            {
+              "vertices": 197870,
+              "min": [
+                -0.04000091552734375,
+                -0.482208251953125,
+                0.00054931640625
+              ],
+              "max": [
+                0.3516998291015625,
+                0.020748138427734375,
+                0.1682586669921875
+              ],
+              "label": 741067
+            },
+            {
+              "vertices": 183611,
+              "min": [
+                -0.05182647705078125,
+                0.03369903564453125,
+                0.0
+              ],
+              "max": [
+                0.3847503662109375,
+                0.483551025390625,
+                0.1528167724609375
+              ],
+              "label": 437966
+            },
+            {
+              "vertices": 98586,
+              "min": [
+                -0.3419036865234375,
+                0.24530029296875,
+                0.36632537841796875
+              ],
+              "max": [
+                0.017177581787109375,
+                0.48541259765625,
+                0.5867919921875
+              ],
+              "label": 381453
+            }
+          ]
+        }
+      ],
+      "previews": {
+        "front": "art/generated/env-v1/assets/rock_mass/previews/source-front.png",
+        "side": "art/generated/env-v1/assets/rock_mass/previews/source-side.png",
+        "top": "art/generated/env-v1/assets/rock_mass/previews/source-top.png"
+      },
+      "visual_review": {
+        "status": "source three-view inspection complete",
+        "reviewed_views": [
+          "front",
+          "side",
+          "top"
+        ],
+        "story_role": "岛岸、山坡和远景礁石的可复用石块组合",
+        "source_orientation": "Broad presentation silhouette is visible from Blender +X (source-side.png); not a physical in-game orientation",
+        "problems": [
+          "一个 GLB 包含主对象、两个其他角度/尺寸的展示模型和独立局部放大图；不能整体作为单一游戏道具导入。",
+          "包围盒被展示板的悬浮对象扩大，源尺度不是可信的米制实物尺寸。",
+          "单张 4096x4096 BaseColor 烘焙了材质外观；没有独立发光/法线贴图。",
+          "细节几何远高于整岛预算，必须减面并重新检查轮廓。",
+          "主岩体内部多块石头相互粘连；拆出的三个展示形体可作为独立石群复用，尚不能声称逐块岩石已人工重拓扑。",
+          "局部放大示意图背面为不自然的大平面，应舍弃。"
+        ],
+        "repair_plan": "人工按三视图指定连通域组，删除展示性悬浮剖面，保留可用独立形体。调整轴心/物理尺寸；分级减面后再次检查。",
+        "limits": "三张外观图不证明水密性、每个细节的正确性或 Unity 碰撞/运行效果。"
+      }
+    },
+    {
+      "id": "rock_arch",
+      "source": "岩石拱门3d模型.glb",
+      "kind": "rock",
+      "dimension": 6.0,
+      "budget": 8000,
+      "source_path": "art/incoming/env-2026-10-22/rock_arch/岩石拱门3d模型.glb",
+      "sha256": "4c00ba302e1728f7f3f4e6c6a775461f958772c96c975f1a582c15b935be0448",
+      "source_bytes": 59721048,
+      "coordinate_system": "Blender Z-up, glTF imported with official importer; original glTF Y-up",
+      "units": "Source glTF nominal metres; generated source normalized scale is not trusted",
+      "bounds": {
+        "min": [
+          -0.327423095703125,
+          -0.48974609375,
+          0.0
+        ],
+        "max": [
+          0.327423095703125,
+          0.48974609375,
+          0.659454345703125
+        ],
+        "dimensions": [
+          0.65484619140625,
+          0.9794921875,
+          0.659454345703125
+        ]
+      },
+      "object_count": 1,
+      "mesh_count": 1,
+      "triangles": 1916702,
+      "materials": [
+        {
+          "name": "tripo_material_c964783c-38b6-4cb1-bcc9-eb37652a7dc4",
+          "images": [
+            {
+              "name": "岩石拱门3d模型_basecolor.jpg",
+              "size": [
+                4096,
+                4096
+              ],
+              "color_space": "sRGB"
+            }
+          ],
+          "nodes": [],
+          "base_color": [
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929,
+            1.0
+          ],
+          "emission_color": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "emission_strength": 0.0
+        }
+      ],
+      "objects": [
+        {
+          "name": "tripo_node_c964783c-38b6-4cb1-bcc9-eb37652a7dc4",
+          "vertices": 994609,
+          "triangles": 1916702,
+          "matrix_world": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "components": [
+            {
+              "vertices": 578057,
+              "min": [
+                -0.327423095703125,
+                -0.429412841796875,
+                0.24268341064453125
+              ],
+              "max": [
+                0.327423095703125,
+                0.483062744140625,
+                0.659454345703125
+              ],
+              "label": 627877
+            },
+            {
+              "vertices": 183682,
+              "min": [
+                -0.1842498779296875,
+                -0.48974609375,
+                0.000701904296875
+              ],
+              "max": [
+                0.27154541015625,
+                -0.047626495361328125,
+                0.20745086669921875
+              ],
+              "label": 129964
+            },
+            {
+              "vertices": 161298,
+              "min": [
+                -0.2757568359375,
+                -0.082855224609375,
+                0.0
+              ],
+              "max": [
+                0.2368011474609375,
+                0.296478271484375,
+                0.21172332763671875
+              ],
+              "label": 520017
+            },
+            {
+              "vertices": 71572,
+              "min": [
+                -0.15557861328125,
+                0.27496337890625,
+                0.014739990234375
+              ],
+              "max": [
+                0.1754608154296875,
+                0.48974609375,
+                0.2084503173828125
+              ],
+              "label": 706650
+            }
+          ]
+        }
+      ],
+      "previews": {
+        "front": "art/generated/env-v1/assets/rock_arch/previews/source-front.png",
+        "side": "art/generated/env-v1/assets/rock_arch/previews/source-side.png",
+        "top": "art/generated/env-v1/assets/rock_arch/previews/source-top.png"
+      },
+      "visual_review": {
+        "status": "source three-view inspection complete",
+        "reviewed_views": [
+          "front",
+          "side",
+          "top"
+        ],
+        "story_role": "岛岸、山坡和远景礁石的可复用石块组合",
+        "source_orientation": "Broad presentation silhouette is visible from Blender +X (source-side.png); not a physical in-game orientation",
+        "problems": [
+          "一个 GLB 包含主对象、两个其他角度/尺寸的展示模型和独立局部放大图；不能整体作为单一游戏道具导入。",
+          "包围盒被展示板的悬浮对象扩大，源尺度不是可信的米制实物尺寸。",
+          "单张 4096x4096 BaseColor 烘焙了材质外观；没有独立发光/法线贴图。",
+          "细节几何远高于整岛预算，必须减面并重新检查轮廓。",
+          "主岩体内部多块石头相互粘连；拆出的三个展示形体可作为独立石群复用，尚不能声称逐块岩石已人工重拓扑。",
+          "局部放大示意图背面为不自然的大平面，应舍弃。"
+        ],
+        "repair_plan": "人工按三视图指定连通域组，删除展示性悬浮剖面，保留可用独立形体。调整轴心/物理尺寸；分级减面后再次检查。",
+        "limits": "三张外观图不证明水密性、每个细节的正确性或 Unity 碰撞/运行效果。"
+      }
+    },
+    {
+      "id": "rock_cluster",
+      "source": "岩石群3d模型.glb",
+      "kind": "rock",
+      "dimension": 3.5,
+      "budget": 8000,
+      "source_path": "art/incoming/env-2026-10-22/rock_cluster/岩石群3d模型.glb",
+      "sha256": "e8a33d371a95ca4225d2c23df1a367e62bfa9c0c586dd01b4982ac937937d589",
+      "source_bytes": 62077196,
+      "coordinate_system": "Blender Z-up, glTF imported with official importer; original glTF Y-up",
+      "units": "Source glTF nominal metres; generated source normalized scale is not trusted",
+      "bounds": {
+        "min": [
+          -0.37164306640625,
+          -0.4910125732421875,
+          0.0
+        ],
+        "max": [
+          0.37164306640625,
+          0.4910125732421875,
+          0.681243896484375
+        ],
+        "dimensions": [
+          0.7432861328125,
+          0.982025146484375,
+          0.681243896484375
+        ]
+      },
+      "object_count": 1,
+      "mesh_count": 1,
+      "triangles": 1948662,
+      "materials": [
+        {
+          "name": "tripo_material_36f4fc0c-0b5c-4538-af7d-80fbbb175df2",
+          "images": [
+            {
+              "name": "岩石群3d模型_basecolor.jpg",
+              "size": [
+                4096,
+                4096
+              ],
+              "color_space": "sRGB"
+            }
+          ],
+          "nodes": [],
+          "base_color": [
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929,
+            1.0
+          ],
+          "emission_color": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "emission_strength": 0.0
+        }
+      ],
+      "objects": [
+        {
+          "name": "tripo_node_36f4fc0c-0b5c-4538-af7d-80fbbb175df2",
+          "vertices": 1019706,
+          "triangles": 1948662,
+          "matrix_world": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "components": [
+            {
+              "vertices": 526534,
+              "min": [
+                -0.37164306640625,
+                -0.4910125732421875,
+                0.2535552978515625
+              ],
+              "max": [
+                0.2427978515625,
+                0.4274444580078125,
+                0.67279052734375
+              ],
+              "label": 499518
+            },
+            {
+              "vertices": 201299,
+              "min": [
+                -0.143310546875,
+                -0.4829864501953125,
+                0.00238037109375
+              ],
+              "max": [
+                0.35797119140625,
+                -0.006207466125488281,
+                0.24381256103515625
+              ],
+              "label": 541426
+            },
+            {
+              "vertices": 193374,
+              "min": [
+                -0.043060302734375,
+                0.0002753734588623047,
+                0.0
+              ],
+              "max": [
+                0.37164306640625,
+                0.4840240478515625,
+                0.23967742919921875
+              ],
+              "label": 886413
+            },
+            {
+              "vertices": 98499,
+              "min": [
+                -0.30548095703125,
+                0.2495269775390625,
+                0.442169189453125
+              ],
+              "max": [
+                -0.02187347412109375,
+                0.4910125732421875,
+                0.681243896484375
+              ],
+              "label": 299371
+            }
+          ]
+        }
+      ],
+      "previews": {
+        "front": "art/generated/env-v1/assets/rock_cluster/previews/source-front.png",
+        "side": "art/generated/env-v1/assets/rock_cluster/previews/source-side.png",
+        "top": "art/generated/env-v1/assets/rock_cluster/previews/source-top.png"
+      },
+      "visual_review": {
+        "status": "source three-view inspection complete",
+        "reviewed_views": [
+          "front",
+          "side",
+          "top"
+        ],
+        "story_role": "岛岸、山坡和远景礁石的可复用石块组合",
+        "source_orientation": "Broad presentation silhouette is visible from Blender +X (source-side.png); not a physical in-game orientation",
+        "problems": [
+          "一个 GLB 包含主对象、两个其他角度/尺寸的展示模型和独立局部放大图；不能整体作为单一游戏道具导入。",
+          "包围盒被展示板的悬浮对象扩大，源尺度不是可信的米制实物尺寸。",
+          "单张 4096x4096 BaseColor 烘焙了材质外观；没有独立发光/法线贴图。",
+          "细节几何远高于整岛预算，必须减面并重新检查轮廓。",
+          "主岩体内部多块石头相互粘连；拆出的三个展示形体可作为独立石群复用，尚不能声称逐块岩石已人工重拓扑。",
+          "局部放大示意图背面为不自然的大平面，应舍弃。"
+        ],
+        "repair_plan": "人工按三视图指定连通域组，删除展示性悬浮剖面，保留可用独立形体。调整轴心/物理尺寸；分级减面后再次检查。",
+        "limits": "三张外观图不证明水密性、每个细节的正确性或 Unity 碰撞/运行效果。"
+      }
+    },
+    {
+      "id": "boat",
+      "source": "木质小艇3d模型.glb",
+      "kind": "boat",
+      "dimension": 5.0,
+      "budget": 30000,
+      "source_path": "art/incoming/env-2026-10-22/boat/木质小艇3d模型.glb",
+      "sha256": "69eeff54d79778a86595f53744a7a10a92f666f17a17420ba2c3a0c0879e56cc",
+      "source_bytes": 60349732,
+      "coordinate_system": "Blender Z-up, glTF imported with official importer; original glTF Y-up",
+      "units": "Source glTF nominal metres; generated source normalized scale is not trusted",
+      "bounds": {
+        "min": [
+          -0.3238372802734375,
+          -0.487030029296875,
+          0.0
+        ],
+        "max": [
+          0.3238372802734375,
+          0.487030029296875,
+          0.605194091796875
+        ],
+        "dimensions": [
+          0.647674560546875,
+          0.97406005859375,
+          0.605194091796875
+        ]
+      },
+      "object_count": 1,
+      "mesh_count": 1,
+      "triangles": 1937222,
+      "materials": [
+        {
+          "name": "tripo_material_14c12381-4fa9-40d8-957f-31143772f89d",
+          "images": [
+            {
+              "name": "木质小艇3d模型_basecolor.jpg",
+              "size": [
+                4096,
+                4096
+              ],
+              "color_space": "sRGB"
+            }
+          ],
+          "nodes": [],
+          "base_color": [
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929,
+            1.0
+          ],
+          "emission_color": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "emission_strength": 0.0
+        }
+      ],
+      "objects": [
+        {
+          "name": "tripo_node_14c12381-4fa9-40d8-957f-31143772f89d",
+          "vertices": 1011634,
+          "triangles": 1937222,
+          "matrix_world": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "components": [
+            {
+              "vertices": 660942,
+              "min": [
+                -0.3238372802734375,
+                -0.487030029296875,
+                0.26824951171875
+              ],
+              "max": [
+                0.3238372802734375,
+                0.487030029296875,
+                0.605194091796875
+              ],
+              "label": 907024
+            },
+            {
+              "vertices": 170008,
+              "min": [
+                -0.06882476806640625,
+                -0.459197998046875,
+                0.003753662109375
+              ],
+              "max": [
+                0.2055206298828125,
+                0.033588409423828125,
+                0.16424560546875
+              ],
+              "label": 794797
+            },
+            {
+              "vertices": 156006,
+              "min": [
+                -0.181365966796875,
+                0.03763580322265625,
+                0.012237548828125
+              ],
+              "max": [
+                0.25018310546875,
+                0.306243896484375,
+                0.2098541259765625
+              ],
+              "label": 878930
+            },
+            {
+              "vertices": 24678,
+              "min": [
+                -0.05388641357421875,
+                0.29974365234375,
+                0.0
+              ],
+              "max": [
+                0.122650146484375,
+                0.384368896484375,
+                0.1156768798828125
+              ],
+              "label": 641807
+            }
+          ]
+        }
+      ],
+      "previews": {
+        "front": "art/generated/env-v1/assets/boat/previews/source-front.png",
+        "side": "art/generated/env-v1/assets/boat/previews/source-side.png",
+        "top": "art/generated/env-v1/assets/boat/previews/source-top.png"
+      },
+      "visual_review": {
+        "status": "source three-view inspection complete",
+        "reviewed_views": [
+          "front",
+          "side",
+          "top"
+        ],
+        "story_role": "采光船/码头小木艇",
+        "source_orientation": "Broad presentation silhouette is visible from Blender +X (source-side.png); not a physical in-game orientation",
+        "problems": [
+          "一个 GLB 包含主对象、两个其他角度/尺寸的展示模型和独立局部放大图；不能整体作为单一游戏道具导入。",
+          "包围盒被展示板的悬浮对象扩大，源尺度不是可信的米制实物尺寸。",
+          "单张 4096x4096 BaseColor 烘焙了材质外观；没有独立发光/法线贴图。",
+          "细节几何远高于整岛预算，必须减面并重新检查轮廓。",
+          "底部两个小模型与局部船帮剖面属于展示图；只保留主船。",
+          "船首/船尾有缆绳，细长边和木板局部可能在极限减面下失真。"
+        ],
+        "repair_plan": "人工按三视图指定连通域组，删除展示性悬浮剖面，保留可用独立形体。调整轴心/物理尺寸；分级减面后再次检查。",
+        "limits": "三张外观图不证明水密性、每个细节的正确性或 Unity 碰撞/运行效果。"
+      }
+    }
+  ],
+  "source_totals": {
+    "files": 9,
+    "triangles": 17155606,
+    "bytes": 552083304
+  }
+}

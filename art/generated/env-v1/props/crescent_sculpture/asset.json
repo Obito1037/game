@@ -1,0 +1,46 @@
+{
+  "asset_id": "crescent_sculpture",
+  "description": "金色月牙纪念雕塑，真实弯月轮廓；与屋前金色光树相伴。",
+  "source": "Original procedural placeholder authored for the final JieGuang script; no legacy game asset reused.",
+  "source_script": "art/blender/env_v1_props.py",
+  "source_script_sha256": "099a96576a12e59be951e42e549714b1cd4429d657633ea47843fcf83625ad1d",
+  "fbx": "art/generated/env-v1/props/crescent_sculpture/crescent_sculpture.fbx",
+  "fbx_sha256": "40cc325897fb78dcadbe78c24d54cf25b24a3ad35e0beebe9262423271732864",
+  "triangles": 388,
+  "meshes": [
+    {
+      "name": "Structure",
+      "triangles": 388,
+      "materials": [
+        "Gold_WornEdges",
+        "Stone_WarmLimestone",
+        "Copper_Aged"
+      ]
+    }
+  ],
+  "bounds_blender": {
+    "min": [
+      -1.0199999809265137,
+      -0.46000000834465027,
+      0.0
+    ],
+    "max": [
+      0.5055952668190002,
+      0.46000000834465027,
+      2.319992780685425
+    ]
+  },
+  "dimensions_metres": [
+    1.5256,
+    0.92,
+    2.32
+  ],
+  "coordinates": "Blender Z-up, front -Y; FBX Y-up/-Z; intended Unity point mapping (x,z,-y), confirm after import.",
+  "root_pivot_blender": [
+    0,
+    0,
+    0
+  ],
+  "markers": {},
+  "notes": []
+}

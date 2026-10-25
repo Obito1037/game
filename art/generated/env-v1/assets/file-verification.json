@@ -1,0 +1,606 @@
+{
+  "checks": [
+    {
+      "path": "art/incoming/env-2026-10-22/tree_a/发光树3d模型.glb",
+      "role": "source",
+      "sha256_match": true
+    },
+    {
+      "path": "art/incoming/env-2026-10-22/tree_b/发光树3d模型 (1).glb",
+      "role": "source",
+      "sha256_match": true
+    },
+    {
+      "path": "art/incoming/env-2026-10-22/tree_c/发光树3d模型 (2).glb",
+      "role": "source",
+      "sha256_match": true
+    },
+    {
+      "path": "art/incoming/env-2026-10-22/tree_gold/灯光盆景树3d模型.glb",
+      "role": "source",
+      "sha256_match": true
+    },
+    {
+      "path": "art/incoming/env-2026-10-22/rock_mountain/岩石山3d模型.glb",
+      "role": "source",
+      "sha256_match": true
+    },
+    {
+      "path": "art/incoming/env-2026-10-22/rock_mass/岩石山体3d模型.glb",
+      "role": "source",
+      "sha256_match": true
+    },
+    {
+      "path": "art/incoming/env-2026-10-22/rock_arch/岩石拱门3d模型.glb",
+      "role": "source",
+      "sha256_match": true
+    },
+    {
+      "path": "art/incoming/env-2026-10-22/rock_cluster/岩石群3d模型.glb",
+      "role": "source",
+      "sha256_match": true
+    },
+    {
+      "path": "art/incoming/env-2026-10-22/boat/木质小艇3d模型.glb",
+      "role": "source",
+      "sha256_match": true
+    },
+    {
+      "path": "art/generated/env-v1/assets/tree_a/tree_a/tree_a_LOD0.fbx",
+      "role": "lod0",
+      "sha256_match": true
+    },
+    {
+      "path": "art/generated/env-v1/assets/tree_a/tree_a/tree_a_LOD1.fbx",
+      "role": "lod1",
+      "sha256_match": true
+    },
+    {
+      "path": "art/generated/env-v1/assets/tree_a/textures/tree_a_BaseColor.png",
+      "role": "texture",
+      "sha256_match": true
+    },
+    {
+      "path": "art/generated/env-v1/assets/tree_a/textures/tree_a_LeafVeins_Emission.001.png",
+      "role": "texture",
+      "sha256_match": true
+    },
+    {
+      "path": "art/generated/env-v1/assets/tree_a/textures/tree_a_WarmFruit_Emission.001.png",
+      "role": "texture",
+      "sha256_match": true
+    },
+    {
+      "asset": "tree_a",
+      "role": "triangle_budget",
+      "actual": 11911,
+      "limit": 12000,
+      "passed": true
+    },
+    {
+      "path": "art/generated/env-v1/assets/tree_a/tree_a/previews/processed-front.png",
+      "role": "preview_front",
+      "exists": true
+    },
+    {
+      "path": "art/generated/env-v1/assets/tree_a/tree_a/previews/processed-side.png",
+      "role": "preview_side",
+      "exists": true
+    },
+    {
+      "path": "art/generated/env-v1/assets/tree_a/tree_a/previews/processed-top.png",
+      "role": "preview_top",
+      "exists": true
+    },
+    {
+      "path": "art/generated/env-v1/assets/tree_a/tree_a_sapling_01/tree_a_sapling_01_LOD0.fbx",
+      "role": "lod0",
+      "sha256_match": true
+    },
+    {
+      "path": "art/generated/env-v1/assets/tree_a/tree_a_sapling_01/tree_a_sapling_01_LOD1.fbx",
+      "role": "lod1",
+      "sha256_match": true
+    },
+    {
+      "path": "art/generated/env-v1/assets/tree_a/textures/tree_a_sapling_01_BaseColor.png",
+      "role": "texture",
+      "sha256_match": true
+    },
+    {
+      "path": "art/generated/env-v1/assets/tree_a/textures/tree_a_sapling_01_LeafVeins_Emission.001.png",
+      "role": "texture",
+      "sha256_match": true
+    },
+    {
+      "path": "art/generated/env-v1/assets/tree_a/textures/tree_a_sapling_01_WarmFruit_Emission.001.png",
+      "role": "texture",
+      "sha256_match": true
+    },
+    {
+      "asset": "tree_a_sapling_01",
+      "role": "triangle_budget",
+      "actual": 6410,
+      "limit": 12000,
+      "passed": true
+    },
+    {
+      "path": "art/generated/env-v1/assets/tree_a/tree_a_sapling_01/previews/processed-front.png",
+      "role": "preview_front",
+      "exists": true
+    },
+    {
+      "path": "art/generated/env-v1/assets/tree_a/tree_a_sapling_01/previews/processed-side.png",
+      "role": "preview_side",
+      "exists": true
+    },
+    {
+      "path": "art/generated/env-v1/assets/tree_a/tree_a_sapling_01/previews/processed-top.png",
+      "role": "preview_top",
+      "exists": true
+    },
+    {
+      "path": "art/generated/env-v1/assets/tree_a/tree_a_sapling_02/tree_a_sapling_02_LOD0.fbx",
+      "role": "lod0",
+      "sha256_match": true
+    },
+    {
+      "path": "art/generated/env-v1/assets/tree_a/tree_a_sapling_02/tree_a_sapling_02_LOD1.fbx",
+      "role": "lod1",
+      "sha256_match": true
+    },
+    {
+      "path": "art/generated/env-v1/assets/tree_a/textures/tree_a_sapling_02_BaseColor.png",
+      "role": "texture",
+      "sha256_match": true
+    },
+    {
+      "path": "art/generated/env-v1/assets/tree_a/textures/tree_a_sapling_02_LeafVeins_Emission.001.png",
+      "role": "texture",
+      "sha256_match": true
+    },
+    {
+      "path": "art/generated/env-v1/assets/tree_a/textures/tree_a_sapling_02_WarmFruit_Emission.001.png",
+      "role": "texture",
+      "sha256_match": true
+    },
+    {
+      "asset": "tree_a_sapling_02",
+      "role": "triangle_budget",
+      "actual": 6411,
+      "limit": 12000,
+      "passed": true
+    },
+    {
+      "path": "art/generated/env-v1/assets/tree_a/tree_a_sapling_02/previews/processed-front.png",
+      "role": "preview_front",
+      "exists": true
+    },
+    {
+      "path": "art/generated/env-v1/assets/tree_a/tree_a_sapling_02/previews/processed-side.png",
+      "role": "preview_side",
+      "exists": true
+    },
+    {
+      "path": "art/generated/env-v1/assets/tree_a/tree_a_sapling_02/previews/processed-top.png",
+      "role": "preview_top",
+      "exists": true
+    },
+    {
+      "path": "art/generated/env-v1/assets/tree_b/tree_b/tree_b_LOD0.fbx",
+      "role": "lod0",
+      "sha256_match": true
+    },
+    {
+      "path": "art/generated/env-v1/assets/tree_b/tree_b/tree_b_LOD1.fbx",
+      "role": "lod1",
+      "sha256_match": true
+    },
+    {
+      "path": "art/generated/env-v1/assets/tree_b/textures/tree_b_BaseColor.png",
+      "role": "texture",
+      "sha256_match": true
+    },
+    {
+      "path": "art/generated/env-v1/assets/tree_b/textures/tree_b_LeafVeins_Emission.001.png",
+      "role": "texture",
+      "sha256_match": true
+    },
+    {
+      "path": "art/generated/env-v1/assets/tree_b/textures/tree_b_WarmFruit_Emission.001.png",
+      "role": "texture",
+      "sha256_match": true
+    },
+    {
+      "asset": "tree_b",
+      "role": "triangle_budget",
+      "actual": 11966,
+      "limit": 12000,
+      "passed": true
+    },
+    {
+      "path": "art/generated/env-v1/assets/tree_b/tree_b/previews/processed-front.png",
+      "role": "preview_front",
+      "exists": true
+    },
+    {
+      "path": "art/generated/env-v1/assets/tree_b/tree_b/previews/processed-side.png",
+      "role": "preview_side",
+      "exists": true
+    },
+    {
+      "path": "art/generated/env-v1/assets/tree_b/tree_b/previews/processed-top.png",
+      "role": "preview_top",
+      "exists": true
+    },
+    {
+      "path": "art/generated/env-v1/assets/tree_c/tree_c/tree_c_LOD0.fbx",
+      "role": "lod0",
+      "sha256_match": true
+    },
+    {
+      "path": "art/generated/env-v1/assets/tree_c/tree_c/tree_c_LOD1.fbx",
+      "role": "lod1",
+      "sha256_match": true
+    },
+    {
+      "path": "art/generated/env-v1/assets/tree_c/textures/tree_c_BaseColor.png",
+      "role": "texture",
+      "sha256_match": true
+    },
+    {
+      "path": "art/generated/env-v1/assets/tree_c/textures/tree_c_LeafVeins_Emission.001.png",
+      "role": "texture",
+      "sha256_match": true
+    },
+    {
+      "path": "art/generated/env-v1/assets/tree_c/textures/tree_c_WarmFruit_Emission.001.png",
+      "role": "texture",
+      "sha256_match": true
+    },
+    {
+      "asset": "tree_c",
+      "role": "triangle_budget",
+      "actual": 11910,
+      "limit": 12000,
+      "passed": true
+    },
+    {
+      "path": "art/generated/env-v1/assets/tree_c/tree_c/previews/processed-front.png",
+      "role": "preview_front",
+      "exists": true
+    },
+    {
+      "path": "art/generated/env-v1/assets/tree_c/tree_c/previews/processed-side.png",
+      "role": "preview_side",
+      "exists": true
+    },
+    {
+      "path": "art/generated/env-v1/assets/tree_c/tree_c/previews/processed-top.png",
+      "role": "preview_top",
+      "exists": true
+    },
+    {
+      "path": "art/generated/env-v1/assets/tree_gold/tree_gold/tree_gold_LOD0.fbx",
+      "role": "lod0",
+      "sha256_match": true
+    },
+    {
+      "path": "art/generated/env-v1/assets/tree_gold/tree_gold/tree_gold_LOD1.fbx",
+      "role": "lod1",
+      "sha256_match": true
+    },
+    {
+      "path": "art/generated/env-v1/assets/tree_gold/textures/tree_gold_BaseColor.png",
+      "role": "texture",
+      "sha256_match": true
+    },
+    {
+      "path": "art/generated/env-v1/assets/tree_gold/textures/tree_gold_LeafVeins_Emission.001.png",
+      "role": "texture",
+      "sha256_match": true
+    },
+    {
+      "path": "art/generated/env-v1/assets/tree_gold/textures/tree_gold_WarmFruit_Emission.001.png",
+      "role": "texture",
+      "sha256_match": true
+    },
+    {
+      "asset": "tree_gold",
+      "role": "triangle_budget",
+      "actual": 29911,
+      "limit": 30000,
+      "passed": true
+    },
+    {
+      "path": "art/generated/env-v1/assets/tree_gold/tree_gold/previews/processed-front.png",
+      "role": "preview_front",
+      "exists": true
+    },
+    {
+      "path": "art/generated/env-v1/assets/tree_gold/tree_gold/previews/processed-side.png",
+      "role": "preview_side",
+      "exists": true
+    },
+    {
+      "path": "art/generated/env-v1/assets/tree_gold/tree_gold/previews/processed-top.png",
+      "role": "preview_top",
+      "exists": true
+    },
+    {
+      "path": "art/generated/env-v1/assets/rock_mountain/rock_mountain/rock_mountain_LOD0.fbx",
+      "role": "lod0",
+      "sha256_match": true
+    },
+    {
+      "path": "art/generated/env-v1/assets/rock_mountain/rock_mountain/rock_mountain_LOD1.fbx",
+      "role": "lod1",
+      "sha256_match": true
+    },
+    {
+      "path": "art/generated/env-v1/assets/rock_mountain/textures/rock_mountain_BaseColor.png",
+      "role": "texture",
+      "sha256_match": true
+    },
+    {
+      "asset": "rock_mountain",
+      "role": "triangle_budget",
+      "actual": 7796,
+      "limit": 8000,
+      "passed": true
+    },
+    {
+      "path": "art/generated/env-v1/assets/rock_mountain/rock_mountain/previews/processed-front.png",
+      "role": "preview_front",
+      "exists": true
+    },
+    {
+      "path": "art/generated/env-v1/assets/rock_mountain/rock_mountain/previews/processed-side.png",
+      "role": "preview_side",
+      "exists": true
+    },
+    {
+      "path": "art/generated/env-v1/assets/rock_mountain/rock_mountain/previews/processed-top.png",
+      "role": "preview_top",
+      "exists": true
+    },
+    {
+      "path": "art/generated/env-v1/assets/rock_mass/rock_mass/rock_mass_LOD0.fbx",
+      "role": "lod0",
+      "sha256_match": true
+    },
+    {
+      "path": "art/generated/env-v1/assets/rock_mass/rock_mass/rock_mass_LOD1.fbx",
+      "role": "lod1",
+      "sha256_match": true
+    },
+    {
+      "path": "art/generated/env-v1/assets/rock_mass/textures/rock_mass_BaseColor.png",
+      "role": "texture",
+      "sha256_match": true
+    },
+    {
+      "asset": "rock_mass",
+      "role": "triangle_budget",
+      "actual": 7813,
+      "limit": 8000,
+      "passed": true
+    },
+    {
+      "path": "art/generated/env-v1/assets/rock_mass/rock_mass/previews/processed-front.png",
+      "role": "preview_front",
+      "exists": true
+    },
+    {
+      "path": "art/generated/env-v1/assets/rock_mass/rock_mass/previews/processed-side.png",
+      "role": "preview_side",
+      "exists": true
+    },
+    {
+      "path": "art/generated/env-v1/assets/rock_mass/rock_mass/previews/processed-top.png",
+      "role": "preview_top",
+      "exists": true
+    },
+    {
+      "path": "art/generated/env-v1/assets/rock_arch/rock_arch/rock_arch_LOD0.fbx",
+      "role": "lod0",
+      "sha256_match": true
+    },
+    {
+      "path": "art/generated/env-v1/assets/rock_arch/rock_arch/rock_arch_LOD1.fbx",
+      "role": "lod1",
+      "sha256_match": true
+    },
+    {
+      "path": "art/generated/env-v1/assets/rock_arch/textures/rock_arch_BaseColor.png",
+      "role": "texture",
+      "sha256_match": true
+    },
+    {
+      "asset": "rock_arch",
+      "role": "triangle_budget",
+      "actual": 7800,
+      "limit": 8000,
+      "passed": true
+    },
+    {
+      "path": "art/generated/env-v1/assets/rock_arch/rock_arch/previews/processed-front.png",
+      "role": "preview_front",
+      "exists": true
+    },
+    {
+      "path": "art/generated/env-v1/assets/rock_arch/rock_arch/previews/processed-side.png",
+      "role": "preview_side",
+      "exists": true
+    },
+    {
+      "path": "art/generated/env-v1/assets/rock_arch/rock_arch/previews/processed-top.png",
+      "role": "preview_top",
+      "exists": true
+    },
+    {
+      "path": "art/generated/env-v1/assets/rock_cluster/rock_cluster/rock_cluster_LOD0.fbx",
+      "role": "lod0",
+      "sha256_match": true
+    },
+    {
+      "path": "art/generated/env-v1/assets/rock_cluster/rock_cluster/rock_cluster_LOD1.fbx",
+      "role": "lod1",
+      "sha256_match": true
+    },
+    {
+      "path": "art/generated/env-v1/assets/rock_cluster/textures/rock_cluster_BaseColor.png",
+      "role": "texture",
+      "sha256_match": true
+    },
+    {
+      "asset": "rock_cluster",
+      "role": "triangle_budget",
+      "actual": 7811,
+      "limit": 8000,
+      "passed": true
+    },
+    {
+      "path": "art/generated/env-v1/assets/rock_cluster/rock_cluster/previews/processed-front.png",
+      "role": "preview_front",
+      "exists": true
+    },
+    {
+      "path": "art/generated/env-v1/assets/rock_cluster/rock_cluster/previews/processed-side.png",
+      "role": "preview_side",
+      "exists": true
+    },
+    {
+      "path": "art/generated/env-v1/assets/rock_cluster/rock_cluster/previews/processed-top.png",
+      "role": "preview_top",
+      "exists": true
+    },
+    {
+      "path": "art/generated/env-v1/assets/boat/boat/boat_LOD0.fbx",
+      "role": "lod0",
+      "sha256_match": true
+    },
+    {
+      "path": "art/generated/env-v1/assets/boat/textures/boat_BaseColor.png",
+      "role": "texture",
+      "sha256_match": true
+    },
+    {
+      "asset": "boat",
+      "role": "triangle_budget",
+      "actual": 29816,
+      "limit": 30000,
+      "passed": true
+    },
+    {
+      "path": "art/generated/env-v1/assets/boat/boat/previews/processed-front.png",
+      "role": "preview_front",
+      "exists": true
+    },
+    {
+      "path": "art/generated/env-v1/assets/boat/boat/previews/processed-side.png",
+      "role": "preview_side",
+      "exists": true
+    },
+    {
+      "path": "art/generated/env-v1/assets/boat/boat/previews/processed-top.png",
+      "role": "preview_top",
+      "exists": true
+    },
+    {
+      "path": "art/generated/env-v1/assets/rock_cluster/rock_cluster_reef_01/rock_cluster_reef_01_LOD0.fbx",
+      "role": "lod0",
+      "sha256_match": true
+    },
+    {
+      "path": "art/generated/env-v1/assets/rock_cluster/rock_cluster_reef_01/rock_cluster_reef_01_LOD1.fbx",
+      "role": "lod1",
+      "sha256_match": true
+    },
+    {
+      "path": "art/generated/env-v1/assets/rock_cluster/textures/rock_cluster_reef_01_BaseColor.png",
+      "role": "texture",
+      "sha256_match": true
+    },
+    {
+      "asset": "rock_cluster_reef_01",
+      "role": "triangle_budget",
+      "actual": 2815,
+      "limit": 3000,
+      "passed": true
+    },
+    {
+      "path": "art/generated/env-v1/assets/rock_cluster/rock_cluster_reef_01/previews/processed-front.png",
+      "role": "preview_front",
+      "exists": true
+    },
+    {
+      "path": "art/generated/env-v1/assets/rock_cluster/rock_cluster_reef_01/previews/processed-side.png",
+      "role": "preview_side",
+      "exists": true
+    },
+    {
+      "path": "art/generated/env-v1/assets/rock_cluster/rock_cluster_reef_01/previews/processed-top.png",
+      "role": "preview_top",
+      "exists": true
+    },
+    {
+      "path": "art/generated/env-v1/assets/rock_cluster/rock_cluster_reef_02/rock_cluster_reef_02_LOD0.fbx",
+      "role": "lod0",
+      "sha256_match": true
+    },
+    {
+      "path": "art/generated/env-v1/assets/rock_cluster/rock_cluster_reef_02/rock_cluster_reef_02_LOD1.fbx",
+      "role": "lod1",
+      "sha256_match": true
+    },
+    {
+      "path": "art/generated/env-v1/assets/rock_cluster/textures/rock_cluster_reef_02_BaseColor.png",
+      "role": "texture",
+      "sha256_match": true
+    },
+    {
+      "asset": "rock_cluster_reef_02",
+      "role": "triangle_budget",
+      "actual": 2816,
+      "limit": 3000,
+      "passed": true
+    },
+    {
+      "path": "art/generated/env-v1/assets/rock_cluster/rock_cluster_reef_02/previews/processed-front.png",
+      "role": "preview_front",
+      "exists": true
+    },
+    {
+      "path": "art/generated/env-v1/assets/rock_cluster/rock_cluster_reef_02/previews/processed-side.png",
+      "role": "preview_side",
+      "exists": true
+    },
+    {
+      "path": "art/generated/env-v1/assets/rock_cluster/rock_cluster_reef_02/previews/processed-top.png",
+      "role": "preview_top",
+      "exists": true
+    }
+  ],
+  "summary": {
+    "source_files": 9,
+    "source_triangles": 17155606,
+    "optimized_assets": 13,
+    "main_source_ids_completed": [
+      "boat",
+      "rock_arch",
+      "rock_cluster",
+      "rock_mass",
+      "rock_mountain",
+      "tree_a",
+      "tree_b",
+      "tree_c",
+      "tree_gold"
+    ],
+    "all_file_hashes_match": true,
+    "all_budgets_pass": true,
+    "all_previews_exist": true,
+    "runtime_fps_verified": false,
+    "unity_import_verified": false
+  }
+}

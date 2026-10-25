@@ -1,0 +1,139 @@
+{
+  "id": "tree_a_sapling_01",
+  "source_id": "tree_a",
+  "kind": "tree",
+  "source_path": "art/incoming/env-2026-10-22/tree_a/发光树3d模型.glb",
+  "source_sha256": "5aaf0895c26fa75134709d9191de2e5c0d9b5b442adf7aeb052f705fea631916",
+  "input_component_ranks": [
+    1
+  ],
+  "input_triangles": 234172,
+  "scale_to_metres": 7.756841003285943,
+  "dimensions_xyz_blender_metres": [
+    2.48288893699646,
+    2.535780429840088,
+    2.8069660663604736
+  ],
+  "dimensions_xyz_unity_metres": [
+    2.48288893699646,
+    2.8069660717155784,
+    2.5357805490493774
+  ],
+  "pivot": "bottom centre of all retained parts; base and trunk share exact world-aligned origin",
+  "axis": "FBX Y-up, -Z forward; metres; baked space transform",
+  "steps": [
+    "manual grouping by connected components and three-view source inspection",
+    "discard presentation-sheet cutaways and duplicate floating study panels",
+    "weld coincident glTF seam vertices while preserving UV loops",
+    "uniform physical scale; bottom-centre pivot",
+    "QEM collapse decimation",
+    "new smart-projected UV atlas; diffuse-colour reprojection from retained high-poly source",
+    "separate selectable tree base by horizontal cut; preserve co-located trunk/base seam",
+    "remove only buried downward bottom-cap faces",
+    "separate bark / leaf veins / amber fruit materials by UV-colour mask",
+    "tight high-luminance gold mask excludes orange-brown branches from fruit emission"
+  ],
+  "bottom_faces_removed": 38,
+  "textures": [
+    {
+      "path": "art/generated/env-v1/assets/tree_a/textures/tree_a_sapling_01_BaseColor.png",
+      "sha256": "6bfd8981134cb15edc8473cf99ee67f3eb483aa9ae4d6ef6cb5b61c8b551adb9",
+      "width": 1024,
+      "height": 1024,
+      "color_space": "sRGB"
+    },
+    {
+      "path": "art/generated/env-v1/assets/tree_a/textures/tree_a_sapling_01_LeafVeins_Emission.001.png",
+      "sha256": "f9965fc3856436e6eb5c658f3e6f13c8ef49a1301ed53bbbf27674578658a52b",
+      "width": 1024,
+      "height": 1024,
+      "color_space": "Linear / Non-Color"
+    },
+    {
+      "path": "art/generated/env-v1/assets/tree_a/textures/tree_a_sapling_01_WarmFruit_Emission.001.png",
+      "sha256": "283e41e9eb2757019a3612c59de2c10c75e8833c115420202ce555ab0ce24d63",
+      "width": 1024,
+      "height": 1024,
+      "color_space": "Linear / Non-Color"
+    }
+  ],
+  "materials": [
+    {
+      "name": "tree_a_sapling_01_Bark",
+      "role": "Bark",
+      "base_color_texture": "art/generated/env-v1/assets/tree_a/textures/tree_a_sapling_01_BaseColor.png",
+      "roughness": 0.86,
+      "emission_color": [
+        0,
+        0,
+        0
+      ],
+      "emission_strength": 0
+    },
+    {
+      "name": "tree_a_sapling_01_LeafVeins",
+      "role": "LeafVeins",
+      "base_color_texture": "art/generated/env-v1/assets/tree_a/textures/tree_a_sapling_01_BaseColor.png",
+      "roughness": 0.86,
+      "emission_color": [
+        1,
+        0.48,
+        0.13
+      ],
+      "emission_strength": 0.22,
+      "emission_texture": "art/generated/env-v1/assets/tree_a/textures/tree_a_sapling_01_LeafVeins_Emission.001.png"
+    },
+    {
+      "name": "tree_a_sapling_01_WarmFruit",
+      "role": "WarmFruit",
+      "base_color_texture": "art/generated/env-v1/assets/tree_a/textures/tree_a_sapling_01_BaseColor.png",
+      "roughness": 0.86,
+      "emission_color": [
+        1,
+        0.48,
+        0.13
+      ],
+      "emission_strength": 1.35,
+      "emission_texture": "art/generated/env-v1/assets/tree_a/textures/tree_a_sapling_01_WarmFruit_Emission.001.png"
+    }
+  ],
+  "lod0": {
+    "fbx": "art/generated/env-v1/assets/tree_a/tree_a_sapling_01/tree_a_sapling_01_LOD0.fbx",
+    "sha256": "5c4be1fa14500ad60838eac99b0f06284249e7a1d49516a1d461912eeeac0f53",
+    "triangles": 6410,
+    "objects": [
+      {
+        "name": "tree_a_sapling_01",
+        "triangles": 6049
+      },
+      {
+        "name": "tree_a_sapling_01_Base",
+        "triangles": 361
+      }
+    ]
+  },
+  "previews": {
+    "front": "art/generated/env-v1/assets/tree_a/tree_a_sapling_01/previews/processed-front.png",
+    "side": "art/generated/env-v1/assets/tree_a/tree_a_sapling_01/previews/processed-side.png",
+    "top": "art/generated/env-v1/assets/tree_a/tree_a_sapling_01/previews/processed-top.png"
+  },
+  "lod1": {
+    "fbx": "art/generated/env-v1/assets/tree_a/tree_a_sapling_01/tree_a_sapling_01_LOD1.fbx",
+    "sha256": "311fb6de92e81571b5cbbf572fbf98a7370f66781a9c2501ef88194d283dabb0",
+    "triangles": 2514,
+    "ratio": 0.3921996879875195
+  },
+  "review": "Manual front/side/top preview review complete for the first-island environment handoff; source presentation panels removed. Tree foliage remains visibly simplified at close range. Technical checks are recorded separately and do not establish all-surface perfection.",
+  "material_face_counts": {
+    "tree_a_sapling_01_Bark": 6191,
+    "tree_a_sapling_01_LeafVeins": 204,
+    "tree_a_sapling_01_WarmFruit": 15
+  },
+  "blend": "art/generated/env-v1/assets/tree_a/tree_a_sapling_01/tree_a_sapling_01_optimized.blend",
+  "technical_scope": "Blender offline processing, screenshots, and FBX roundtrip; no Unity import, physics, or performance validation",
+  "known_limits": [
+    "Leaves and branches remain simplified at the requested low triangle budget.",
+    "Fruit/leaf material masks derive from source colour; artist review remains necessary.",
+    "No per-leaf topology guarantee or animated foliage rig."
+  ]
+}

@@ -1,0 +1,1779 @@
+{
+  "status": "review_findings",
+  "source_sha256": "a5229dcb104f81e28424ab983bbeaea42e644c8e64a48a834ffa6c810ef46c3a",
+  "scope": "Read-only numerical review of layout.py and prop metadata. No Unity use, no layout modifications. Geometric clearances are analytical estimates, not runtime collision tests.",
+  "bindings": [
+    {
+      "anchor": "Target_Window",
+      "prop": "GrandmotherHouse",
+      "marker": "Marker_Window",
+      "actual_world": [
+        3.18,
+        4.02,
+        -17.985
+      ],
+      "actual_cape_local": [
+        -3.82,
+        1.6199999999999997,
+        3.0150000000000006
+      ],
+      "planned_world": [
+        3.18,
+        4.02,
+        -17.985
+      ],
+      "offset_metres": 0.0,
+      "delta_planned_minus_actual": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "anchor": "NPC_ABo_Window",
+      "prop": "GrandmotherHouse",
+      "marker": "Marker_ABo_Seat",
+      "actual_world": [
+        3.18,
+        2.8899999999999997,
+        -16.650000000000002
+      ],
+      "actual_cape_local": [
+        -3.82,
+        0.48999999999999977,
+        4.349999999999998
+      ],
+      "planned_world": [
+        3.18,
+        2.8899999999999997,
+        -16.65
+      ],
+      "offset_metres": 3.552713678800501e-15,
+      "delta_planned_minus_actual": [
+        0.0,
+        0.0,
+        3.552713678800501e-15
+      ]
+    },
+    {
+      "anchor": "Anchor_FlagpoleHook",
+      "prop": "Flagpole",
+      "marker": "Marker_FlagpoleHook",
+      "actual_world": [
+        10.0,
+        4.25,
+        -10.5
+      ],
+      "actual_cape_local": [
+        3.0,
+        1.85,
+        10.5
+      ],
+      "planned_world": [
+        10.0,
+        4.25,
+        -10.5
+      ],
+      "offset_metres": 0.0,
+      "delta_planned_minus_actual": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "anchor": "NPC_DengBo_Box",
+      "prop": "KeeperBox",
+      "marker": "Marker_Seat",
+      "actual_world": [
+        10.65,
+        3.04,
+        -10.8
+      ],
+      "actual_cape_local": [
+        3.6500000000000004,
+        0.6400000000000001,
+        10.2
+      ],
+      "planned_world": [
+        10.65,
+        3.04,
+        -10.8
+      ],
+      "offset_metres": 0.0,
+      "delta_planned_minus_actual": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "anchor": "NPC_Bench",
+      "prop": "Bench",
+      "marker": "Marker_Seat",
+      "actual_world": [
+        9.0,
+        2.85,
+        -20.96
+      ],
+      "actual_cape_local": [
+        2.0,
+        0.4500000000000002,
+        0.03999999999999915
+      ],
+      "planned_world": [
+        9.0,
+        2.85,
+        -20.96
+      ],
+      "offset_metres": 0.0,
+      "delta_planned_minus_actual": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  ],
+  "houses": [
+    {
+      "name": "VillageHouse_01",
+      "asset": "cottage_teal",
+      "position": [
+        -17.9,
+        8.233273705779744,
+        3.6
+      ],
+      "wall_footprint": [
+        [
+          -18.959999999999997,
+          4.84
+        ],
+        [
+          -18.959999999999997,
+          2.36
+        ],
+        [
+          -16.84,
+          2.36
+        ],
+        [
+          -16.84,
+          4.84
+        ]
+      ],
+      "footprint_ground_samples": [
+        {
+          "xz": [
+            -18.959999999999997,
+            4.84
+          ],
+          "ground_height": 8.313691957555214,
+          "shore_fraction": 0.4382931461390785
+        },
+        {
+          "xz": [
+            -18.959999999999997,
+            2.36
+          ],
+          "ground_height": 8.233273705779744,
+          "shore_fraction": 0.46702884752700735
+        },
+        {
+          "xz": [
+            -16.84,
+            2.36
+          ],
+          "ground_height": 8.233273705779744,
+          "shore_fraction": 0.26301688525609035
+        },
+        {
+          "xz": [
+            -16.84,
+            4.84
+          ],
+          "ground_height": 8.313691957555214,
+          "shore_fraction": 0.230920101553345
+        }
+      ],
+      "max_ground_above_floor": 0.08041825177546968,
+      "max_floor_above_ground": 0.0,
+      "path_proximity": [
+        {
+          "path": "OuterCoast",
+          "minimum_centerline_to_wall_metres": 0.6489992295835203,
+          "path_half_width": 0.675,
+          "path_surface_overlaps_wall": true,
+          "closest_sample_xz": [
+            -19.5,
+            2.0
+          ]
+        }
+      ]
+    },
+    {
+      "name": "VillageHouse_02",
+      "asset": "cottage_ochre",
+      "position": [
+        -17.8,
+        8.387678337713668,
+        6.7
+      ],
+      "wall_footprint": [
+        [
+          -18.92,
+          8.040000000000001
+        ],
+        [
+          -18.92,
+          5.36
+        ],
+        [
+          -16.68,
+          5.36
+        ],
+        [
+          -16.68,
+          8.040000000000001
+        ]
+      ],
+      "footprint_ground_samples": [
+        {
+          "xz": [
+            -18.92,
+            8.040000000000001
+          ],
+          "ground_height": 8.386585057331757,
+          "shore_fraction": 0.4376972299337107
+        },
+        {
+          "xz": [
+            -18.92,
+            5.36
+          ],
+          "ground_height": 8.387678337713668,
+          "shore_fraction": 0.43191922714154773
+        },
+        {
+          "xz": [
+            -16.68,
+            5.36
+          ],
+          "ground_height": 8.387678337713668,
+          "shore_fraction": 0.21194308099958536
+        },
+        {
+          "xz": [
+            -16.68,
+            8.040000000000001
+          ],
+          "ground_height": 8.386585057331757,
+          "shore_fraction": 0.21428291507979993
+        }
+      ],
+      "max_ground_above_floor": 0.0,
+      "max_floor_above_ground": 0.0010932803819105885,
+      "path_proximity": []
+    },
+    {
+      "name": "VillageHouse_03",
+      "asset": "cottage_slate",
+      "position": [
+        -17.8,
+        8.385579217784514,
+        9.9
+      ],
+      "wall_footprint": [
+        [
+          -18.92,
+          11.0
+        ],
+        [
+          -18.92,
+          8.8
+        ],
+        [
+          -16.68,
+          8.8
+        ],
+        [
+          -16.68,
+          11.0
+        ]
+      ],
+      "footprint_ground_samples": [
+        {
+          "xz": [
+            -18.92,
+            11.0
+          ],
+          "ground_height": 8.384664685131956,
+          "shore_fraction": 0.47882201971116034
+        },
+        {
+          "xz": [
+            -18.92,
+            8.8
+          ],
+          "ground_height": 8.385579217784514,
+          "shore_fraction": 0.4448881192226052
+        },
+        {
+          "xz": [
+            -16.68,
+            8.8
+          ],
+          "ground_height": 8.385579217784514,
+          "shore_fraction": 0.22075001761680452
+        },
+        {
+          "xz": [
+            -16.68,
+            11.0
+          ],
+          "ground_height": 8.384664685131956,
+          "shore_fraction": 0.25233346911226073
+        }
+      ],
+      "max_ground_above_floor": 0.0,
+      "max_floor_above_ground": 0.0009145326525583641,
+      "path_proximity": []
+    },
+    {
+      "name": "VillageHouse_04",
+      "asset": "cottage_teal",
+      "position": [
+        -17.8,
+        8.379089475142171,
+        13.1
+      ],
+      "wall_footprint": [
+        [
+          -18.86,
+          14.34
+        ],
+        [
+          -18.86,
+          11.86
+        ],
+        [
+          -16.740000000000002,
+          11.86
+        ],
+        [
+          -16.740000000000002,
+          14.34
+        ]
+      ],
+      "footprint_ground_samples": [
+        {
+          "xz": [
+            -18.86,
+            14.34
+          ],
+          "ground_height": 8.378942327503127,
+          "shore_fraction": 0.5666588417799436
+        },
+        {
+          "xz": [
+            -18.86,
+            11.86
+          ],
+          "ground_height": 8.379089475142171,
+          "shore_fraction": 0.4918090128580918
+        },
+        {
+          "xz": [
+            -16.740000000000002,
+            11.86
+          ],
+          "ground_height": 8.379089475142171,
+          "shore_fraction": 0.2766038575982425
+        },
+        {
+          "xz": [
+            -16.740000000000002,
+            14.34
+          ],
+          "ground_height": 8.378152818015561,
+          "shore_fraction": 0.3516337585898514
+        }
+      ],
+      "max_ground_above_floor": 0.0,
+      "max_floor_above_ground": 0.0009366571266102852,
+      "path_proximity": []
+    },
+    {
+      "name": "VillageHouse_05",
+      "asset": "cottage_ochre",
+      "position": [
+        -16.8,
+        8.376408220631953,
+        16.3
+      ],
+      "wall_footprint": [
+        [
+          -17.92,
+          17.64
+        ],
+        [
+          -17.92,
+          14.96
+        ],
+        [
+          -15.680000000000001,
+          14.96
+        ],
+        [
+          -15.680000000000001,
+          17.64
+        ]
+      ],
+      "footprint_ground_samples": [
+        {
+          "xz": [
+            -17.92,
+            17.64
+          ],
+          "ground_height": 8.376408220631953,
+          "shore_fraction": 0.6325184362869382
+        },
+        {
+          "xz": [
+            -17.92,
+            14.96
+          ],
+          "ground_height": 8.376408220631953,
+          "shore_fraction": 0.4956854511189594
+        },
+        {
+          "xz": [
+            -15.680000000000001,
+            14.96
+          ],
+          "ground_height": 8.376408220631953,
+          "shore_fraction": 0.26694848772641006
+        },
+        {
+          "xz": [
+            -15.680000000000001,
+            17.64
+          ],
+          "ground_height": 8.386141837008669,
+          "shore_fraction": 0.4053096115011975
+        }
+      ],
+      "max_ground_above_floor": 0.00973361637671566,
+      "max_floor_above_ground": 0.0,
+      "path_proximity": []
+    },
+    {
+      "name": "VillageHouse_06",
+      "asset": "cottage_slate",
+      "position": [
+        -14,
+        8.388404511990577,
+        18.3
+      ],
+      "wall_footprint": [
+        [
+          -12.9,
+          19.42
+        ],
+        [
+          -15.1,
+          19.42
+        ],
+        [
+          -15.1,
+          17.18
+        ],
+        [
+          -12.9,
+          17.18
+        ]
+      ],
+      "footprint_ground_samples": [
+        {
+          "xz": [
+            -12.9,
+            19.42
+          ],
+          "ground_height": 8.388404511990577,
+          "shore_fraction": 0.24587116241442036
+        },
+        {
+          "xz": [
+            -15.1,
+            19.42
+          ],
+          "ground_height": 8.388404511990577,
+          "shore_fraction": 0.4691554410264589
+        },
+        {
+          "xz": [
+            -15.1,
+            17.18
+          ],
+          "ground_height": 8.388404511990577,
+          "shore_fraction": 0.3180482532795542
+        },
+        {
+          "xz": [
+            -12.9,
+            17.18
+          ],
+          "ground_height": 8.388404511990577,
+          "shore_fraction": 0.08824665678799584
+        }
+      ],
+      "max_ground_above_floor": 0.0,
+      "max_floor_above_ground": 0.0,
+      "path_proximity": []
+    },
+    {
+      "name": "VillageHouse_07",
+      "asset": "cottage_teal",
+      "position": [
+        -9,
+        8.026994671509064,
+        3.7
+      ],
+      "wall_footprint": [
+        [
+          -7.9399999999999995,
+          2.46
+        ],
+        [
+          -7.94,
+          4.94
+        ],
+        [
+          -10.06,
+          4.94
+        ],
+        [
+          -10.06,
+          2.46
+        ]
+      ],
+      "footprint_ground_samples": [
+        {
+          "xz": [
+            -7.9399999999999995,
+            2.46
+          ],
+          "ground_height": 8.026994671509064,
+          "shore_fraction": 0.5874478790517522
+        },
+        {
+          "xz": [
+            -7.94,
+            4.94
+          ],
+          "ground_height": 8.052292396093007,
+          "shore_fraction": 0.6369118043627847
+        },
+        {
+          "xz": [
+            -10.06,
+            4.94
+          ],
+          "ground_height": 8.052292396093007,
+          "shore_fraction": 0.43141452619312004
+        },
+        {
+          "xz": [
+            -10.06,
+            2.46
+          ],
+          "ground_height": 8.026994671509064,
+          "shore_fraction": 0.38514812387495434
+        }
+      ],
+      "max_ground_above_floor": 0.025297724583943193,
+      "max_floor_above_ground": 0.0,
+      "path_proximity": []
+    },
+    {
+      "name": "VillageHouse_08",
+      "asset": "cottage_ochre",
+      "position": [
+        -9.4,
+        8.368513953392302,
+        7.1
+      ],
+      "wall_footprint": [
+        [
+          -8.280000000000001,
+          5.76
+        ],
+        [
+          -8.280000000000001,
+          8.44
+        ],
+        [
+          -10.52,
+          8.44
+        ],
+        [
+          -10.52,
+          5.76
+        ]
+      ],
+      "footprint_ground_samples": [
+        {
+          "xz": [
+            -8.280000000000001,
+            5.76
+          ],
+          "ground_height": 8.368513953392302,
+          "shore_fraction": 0.6139947497092926
+        },
+        {
+          "xz": [
+            -8.280000000000001,
+            8.44
+          ],
+          "ground_height": 8.369008992316834,
+          "shore_fraction": 0.6265594334298532
+        },
+        {
+          "xz": [
+            -10.52,
+            8.44
+          ],
+          "ground_height": 8.369008992316834,
+          "shore_fraction": 0.39985357825571305
+        },
+        {
+          "xz": [
+            -10.52,
+            5.76
+          ],
+          "ground_height": 8.368513953392302,
+          "shore_fraction": 0.3943984763150675
+        }
+      ],
+      "max_ground_above_floor": 0.0004950389245319542,
+      "max_floor_above_ground": 0.0,
+      "path_proximity": []
+    },
+    {
+      "name": "VillageHouse_09",
+      "asset": "cottage_slate",
+      "position": [
+        -9.5,
+        8.371062867422317,
+        10.5
+      ],
+      "wall_footprint": [
+        [
+          -8.379999999999999,
+          9.4
+        ],
+        [
+          -8.38,
+          11.6
+        ],
+        [
+          -10.620000000000001,
+          11.6
+        ],
+        [
+          -10.62,
+          9.4
+        ]
+      ],
+      "footprint_ground_samples": [
+        {
+          "xz": [
+            -8.379999999999999,
+            9.4
+          ],
+          "ground_height": 8.371062867422317,
+          "shore_fraction": 0.6138070112013683
+        },
+        {
+          "xz": [
+            -8.38,
+            11.6
+          ],
+          "ground_height": 8.37106289607624,
+          "shore_fraction": 0.5974702405380158
+        },
+        {
+          "xz": [
+            -10.620000000000001,
+            11.6
+          ],
+          "ground_height": 8.37106289607624,
+          "shore_fraction": 0.35853174013120476
+        },
+        {
+          "xz": [
+            -10.62,
+            9.4
+          ],
+          "ground_height": 8.371062867422317,
+          "shore_fraction": 0.38497789030457413
+        }
+      ],
+      "max_ground_above_floor": 2.8653921901877766e-08,
+      "max_floor_above_ground": 0.0,
+      "path_proximity": []
+    },
+    {
+      "name": "VillageHouse_10",
+      "asset": "cottage_teal",
+      "position": [
+        -9,
+        8.371509872858411,
+        13.9
+      ],
+      "wall_footprint": [
+        [
+          -7.9399999999999995,
+          12.66
+        ],
+        [
+          -7.94,
+          15.14
+        ],
+        [
+          -10.06,
+          15.14
+        ],
+        [
+          -10.06,
+          12.66
+        ]
+      ],
+      "footprint_ground_samples": [
+        {
+          "xz": [
+            -7.9399999999999995,
+            12.66
+          ],
+          "ground_height": 8.371509872858411,
+          "shore_fraction": 0.6338606193354882
+        },
+        {
+          "xz": [
+            -7.94,
+            15.14
+          ],
+          "ground_height": 8.35769389519379,
+          "shore_fraction": 0.5728167724685685
+        },
+        {
+          "xz": [
+            -10.06,
+            15.14
+          ],
+          "ground_height": 8.371509872858411,
+          "shore_fraction": 0.3266562571315596
+        },
+        {
+          "xz": [
+            -10.06,
+            12.66
+          ],
+          "ground_height": 8.371509872858411,
+          "shore_fraction": 0.3988326849287063
+        }
+      ],
+      "max_ground_above_floor": 0.0,
+      "max_floor_above_ground": 0.013815977664620505,
+      "path_proximity": []
+    },
+    {
+      "name": "VillageHouse_11",
+      "asset": "cottage_ochre",
+      "position": [
+        -7.8,
+        8.184994174386041,
+        17.3
+      ],
+      "wall_footprint": [
+        [
+          -6.68,
+          15.96
+        ],
+        [
+          -6.68,
+          18.64
+        ],
+        [
+          -8.92,
+          18.64
+        ],
+        [
+          -8.92,
+          15.96
+        ]
+      ],
+      "footprint_ground_samples": [
+        {
+          "xz": [
+            -6.68,
+            15.96
+          ],
+          "ground_height": 8.184994174386041,
+          "shore_fraction": 0.6916513134752148
+        },
+        {
+          "xz": [
+            -6.68,
+            18.64
+          ],
+          "ground_height": 8.184994174386041,
+          "shore_fraction": 0.4759335937430698
+        },
+        {
+          "xz": [
+            -8.92,
+            18.64
+          ],
+          "ground_height": 8.184994174386041,
+          "shore_fraction": 0.23523786213112266
+        },
+        {
+          "xz": [
+            -8.92,
+            15.96
+          ],
+          "ground_height": 8.184994174386041,
+          "shore_fraction": 0.42070260219707994
+        }
+      ],
+      "max_ground_above_floor": 0.0,
+      "max_floor_above_ground": 0.0,
+      "path_proximity": []
+    },
+    {
+      "name": "GrandmotherHouse",
+      "asset": "abode_grandma",
+      "position": [
+        4.0,
+        2.4,
+        -16.3
+      ],
+      "wall_footprint": [
+        [
+          6.0,
+          -14.675
+        ],
+        [
+          2.0,
+          -14.675
+        ],
+        [
+          2.0,
+          -17.925
+        ],
+        [
+          6.0,
+          -17.925
+        ]
+      ],
+      "footprint_ground_samples": [
+        {
+          "xz": [
+            6.0,
+            -14.675
+          ],
+          "ground_height": 2.385691887193814,
+          "shore_fraction": 0.34530316156224683
+        },
+        {
+          "xz": [
+            2.0,
+            -14.675
+          ],
+          "ground_height": 2.4284625430349296,
+          "shore_fraction": 0.05310965027352583
+        },
+        {
+          "xz": [
+            2.0,
+            -17.925
+          ],
+          "ground_height": 2.390745468603769,
+          "shore_fraction": 0.2777068507771996
+        },
+        {
+          "xz": [
+            6.0,
+            -17.925
+          ],
+          "ground_height": 2.398986396190873,
+          "shore_fraction": 0.09190592151430303
+        }
+      ],
+      "max_ground_above_floor": 0.028462543034929677,
+      "max_floor_above_ground": 0.014308112806185935,
+      "path_proximity": [
+        {
+          "path": "CapeVillage",
+          "minimum_centerline_to_wall_metres": 0.19039432764659808,
+          "path_half_width": 0.875,
+          "path_surface_overlaps_wall": true,
+          "closest_sample_xz": [
+            6.175000000000001,
+            -18.0
+          ]
+        },
+        {
+          "path": "CapeHome",
+          "minimum_centerline_to_wall_metres": 0.4800000000000004,
+          "path_half_width": 0.7,
+          "path_surface_overlaps_wall": true,
+          "closest_sample_xz": [
+            5.13,
+            -18.405
+          ]
+        }
+      ]
+    }
+  ],
+  "paths": [
+    {
+      "name": "CapeVillage",
+      "shore_dropoff_samples": [],
+      "steep_samples_over_30_deg": [
+        {
+          "xz": [
+            -10.666666666666666,
+            0.6666666666666667
+          ],
+          "slope_degrees": 32.291482843794896
+        },
+        {
+          "xz": [
+            -10.777777777777779,
+            0.9444444444444444
+          ],
+          "slope_degrees": 30.17553971099828
+        },
+        {
+          "xz": [
+            -10.88888888888889,
+            1.2222222222222223
+          ],
+          "slope_degrees": 30.85885838296046
+        },
+        {
+          "xz": [
+            -11.0,
+            1.5
+          ],
+          "slope_degrees": 35.75088781413939
+        }
+      ],
+      "max_slope_degrees": 35.75088781413939
+    },
+    {
+      "name": "OuterCoast",
+      "shore_dropoff_samples": [
+        {
+          "xz": [
+            -22.0,
+            11.0
+          ],
+          "shore_fraction": 0.7880983354948419,
+          "height": 8.282455016774174
+        },
+        {
+          "xz": [
+            -22.0,
+            11.0
+          ],
+          "shore_fraction": 0.7880983354948419,
+          "height": 8.282455016774174
+        },
+        {
+          "xz": [
+            -21.90909090909091,
+            11.272727272727273
+          ],
+          "shore_fraction": 0.7854222851002023,
+          "height": 8.303893918929926
+        },
+        {
+          "xz": [
+            -21.818181818181817,
+            11.545454545454545
+          ],
+          "shore_fraction": 0.7817292880762212,
+          "height": 8.319588825911296
+        },
+        {
+          "xz": [
+            -20.363636363636363,
+            15.90909090909091
+          ],
+          "shore_fraction": 0.7844801909559094,
+          "height": 8.316735211256205
+        },
+        {
+          "xz": [
+            -20.272727272727273,
+            16.18181818181818
+          ],
+          "shore_fraction": 0.7898497900700377,
+          "height": 8.278069535241393
+        },
+        {
+          "xz": [
+            -20.181818181818183,
+            16.454545454545453
+          ],
+          "shore_fraction": 0.7926230863438486,
+          "height": 8.247616481674969
+        },
+        {
+          "xz": [
+            -20.09090909090909,
+            16.727272727272727
+          ],
+          "shore_fraction": 0.7964094161397759,
+          "height": 8.194768903747077
+        },
+        {
+          "xz": [
+            -20.0,
+            17.0
+          ],
+          "shore_fraction": 0.8037719141635562,
+          "height": 8.057426002183472
+        },
+        {
+          "xz": [
+            -20.0,
+            17.0
+          ],
+          "shore_fraction": 0.8037719141635562,
+          "height": 8.057426002183472
+        },
+        {
+          "xz": [
+            -19.789473684210527,
+            17.210526315789473
+          ],
+          "shore_fraction": 0.7957135808565392,
+          "height": 8.199954027696382
+        },
+        {
+          "xz": [
+            -19.57894736842105,
+            17.42105263157895
+          ],
+          "shore_fraction": 0.7827474130436842,
+          "height": 8.314708268133964
+        }
+      ],
+      "steep_samples_over_30_deg": [
+        {
+          "xz": [
+            -19.235294117647058,
+            1.6470588235294117
+          ],
+          "slope_degrees": 45.04949970660335
+        },
+        {
+          "xz": [
+            -19.41176470588235,
+            1.8823529411764706
+          ],
+          "slope_degrees": 45.57309398027535
+        }
+      ],
+      "max_slope_degrees": 45.57309398027535
+    },
+    {
+      "name": "CapePier",
+      "shore_dropoff_samples": [],
+      "steep_samples_over_30_deg": [],
+      "max_slope_degrees": 0
+    },
+    {
+      "name": "CapeHome",
+      "shore_dropoff_samples": [],
+      "steep_samples_over_30_deg": [],
+      "max_slope_degrees": 0
+    }
+  ],
+  "lights": [
+    {
+      "lamp": "WanFeng",
+      "current_forward": [
+        -0.12404,
+        -0.50433,
+        -0.85456
+      ],
+      "target_angular_offsets_degrees": {
+        "Path": 13.833613400957898,
+        "Bench": 13.833414373326457
+      }
+    },
+    {
+      "lamp": "YueChuang",
+      "current_forward": [
+        -0.82,
+        -2.38,
+        3.015
+      ],
+      "target_angular_offsets_degrees": {
+        "ActualWindow": 0.0,
+        "PlannedWindow": 0.0,
+        "Pier": 55.411792681471034
+      }
+    },
+    {
+      "lamp": "GuiHang",
+      "current_forward": [
+        -0.40637,
+        -0.68067,
+        -0.60955
+      ],
+      "target_angular_offsets_degrees": {
+        "Bench": 0.00023471788811730405,
+        "Pier": 66.66308765471312
+      }
+    }
+  ],
+  "chapter_three_window_pier_pair": {
+    "actual_window_to_pier_angle": 55.411792681471034,
+    "minimum_full_cone_center_targets": 55.411792681471034,
+    "symmetric_bisector_forward": [
+      0.2698504371624402,
+      -0.5955433269345831,
+      0.7566431703960118
+    ],
+    "window_angular_radius_estimate": 8.049591718413621,
+    "minimum_full_cone_including_window_radius_when_aim_optimized": 63.46138439988466,
+    "sixty_degree_cone_centerline_margin": 2.294103659264483
+  },
+  "spawn_platform": {
+    "horizontal_distance_to_armillary_center": 2.4041630560342604,
+    "armillary_platform_radius": 1.22,
+    "spawn_height_above_platform_origin": 0.04999999999999982,
+    "platform_top_height": 0.21,
+    "overlaps_instrument_platform": false
+  },
+  "grandmother_entry_actual_world": [
+    5.13,
+    2.56,
+    -18.405
+  ],
+  "unverified": [
+    "No tree placements are defined in reviewed layout.py, so tree/path and tree/house clearance cannot yet be assessed.",
+    "No actual pier module placements are defined in reviewed layout.py; anchors imply a +Z quay but support connectivity and end margins are not yet measurable.",
+    "Terrain checks sample layout.height, not a mesh raycast.",
+    "House overlap review uses wall rectangles, not exact meshes.",
+    "User has not handed over Unity; no Editor or runtime verification performed."
+  ],
+  "candidate_house_sites": [
+    {
+      "site": {
+        "name": "CandidateHouse_01",
+        "asset": "cottage_teal",
+        "position": [
+          -17.9,
+          8.233273705779744,
+          3.6
+        ],
+        "yaw": 90,
+        "scale": 0.8
+      },
+      "footprint": [
+        [
+          -18.959999999999997,
+          4.84
+        ],
+        [
+          -18.959999999999997,
+          2.36
+        ],
+        [
+          -16.84,
+          2.36
+        ],
+        [
+          -16.84,
+          4.84
+        ]
+      ],
+      "ground_range": 0.08041825177546968,
+      "max_shore_fraction": 0.46702884752700735,
+      "path_conflicts": [
+        {
+          "path": "OuterCoast",
+          "distance_to_wall": 0.6489992295835203,
+          "required": 0.9950000000000001
+        }
+      ]
+    },
+    {
+      "site": {
+        "name": "CandidateHouse_02",
+        "asset": "cottage_ochre",
+        "position": [
+          -17.8,
+          8.387678337713668,
+          6.7
+        ],
+        "yaw": 90,
+        "scale": 0.8
+      },
+      "footprint": [
+        [
+          -18.92,
+          8.040000000000001
+        ],
+        [
+          -18.92,
+          5.36
+        ],
+        [
+          -16.68,
+          5.36
+        ],
+        [
+          -16.68,
+          8.040000000000001
+        ]
+      ],
+      "ground_range": 0.0010932803819105885,
+      "max_shore_fraction": 0.4376972299337107,
+      "path_conflicts": []
+    },
+    {
+      "site": {
+        "name": "CandidateHouse_03",
+        "asset": "cottage_slate",
+        "position": [
+          -17.8,
+          8.385579217784514,
+          9.9
+        ],
+        "yaw": 90,
+        "scale": 0.8
+      },
+      "footprint": [
+        [
+          -18.92,
+          11.0
+        ],
+        [
+          -18.92,
+          8.8
+        ],
+        [
+          -16.68,
+          8.8
+        ],
+        [
+          -16.68,
+          11.0
+        ]
+      ],
+      "ground_range": 0.0009145326525583641,
+      "max_shore_fraction": 0.47882201971116034,
+      "path_conflicts": []
+    },
+    {
+      "site": {
+        "name": "CandidateHouse_04",
+        "asset": "cottage_teal",
+        "position": [
+          -17.8,
+          8.379089475142171,
+          13.1
+        ],
+        "yaw": 90,
+        "scale": 0.8
+      },
+      "footprint": [
+        [
+          -18.86,
+          14.34
+        ],
+        [
+          -18.86,
+          11.86
+        ],
+        [
+          -16.740000000000002,
+          11.86
+        ],
+        [
+          -16.740000000000002,
+          14.34
+        ]
+      ],
+      "ground_range": 0.0009366571266102852,
+      "max_shore_fraction": 0.5666588417799436,
+      "path_conflicts": []
+    },
+    {
+      "site": {
+        "name": "CandidateHouse_05",
+        "asset": "cottage_ochre",
+        "position": [
+          -16.8,
+          8.376408220631953,
+          16.3
+        ],
+        "yaw": 90,
+        "scale": 0.8
+      },
+      "footprint": [
+        [
+          -17.92,
+          17.64
+        ],
+        [
+          -17.92,
+          14.96
+        ],
+        [
+          -15.680000000000001,
+          14.96
+        ],
+        [
+          -15.680000000000001,
+          17.64
+        ]
+      ],
+      "ground_range": 0.00973361637671566,
+      "max_shore_fraction": 0.6325184362869382,
+      "path_conflicts": []
+    },
+    {
+      "site": {
+        "name": "CandidateHouse_06",
+        "asset": "cottage_slate",
+        "position": [
+          -14.0,
+          8.388404511990577,
+          18.3
+        ],
+        "yaw": 180,
+        "scale": 0.8
+      },
+      "footprint": [
+        [
+          -12.9,
+          19.42
+        ],
+        [
+          -15.1,
+          19.42
+        ],
+        [
+          -15.1,
+          17.18
+        ],
+        [
+          -12.9,
+          17.18
+        ]
+      ],
+      "ground_range": 0.0,
+      "max_shore_fraction": 0.4691554410264589,
+      "path_conflicts": []
+    },
+    {
+      "site": {
+        "name": "CandidateHouse_07",
+        "asset": "cottage_teal",
+        "position": [
+          -9.0,
+          8.026994671509064,
+          3.7
+        ],
+        "yaw": 270,
+        "scale": 0.8
+      },
+      "footprint": [
+        [
+          -7.9399999999999995,
+          2.46
+        ],
+        [
+          -7.94,
+          4.94
+        ],
+        [
+          -10.06,
+          4.94
+        ],
+        [
+          -10.06,
+          2.46
+        ]
+      ],
+      "ground_range": 0.025297724583943193,
+      "max_shore_fraction": 0.6369118043627847,
+      "path_conflicts": []
+    },
+    {
+      "site": {
+        "name": "CandidateHouse_08",
+        "asset": "cottage_ochre",
+        "position": [
+          -9.4,
+          8.368513953392302,
+          7.1
+        ],
+        "yaw": 270,
+        "scale": 0.8
+      },
+      "footprint": [
+        [
+          -8.280000000000001,
+          5.76
+        ],
+        [
+          -8.280000000000001,
+          8.44
+        ],
+        [
+          -10.52,
+          8.44
+        ],
+        [
+          -10.52,
+          5.76
+        ]
+      ],
+      "ground_range": 0.0004950389245319542,
+      "max_shore_fraction": 0.6265594334298532,
+      "path_conflicts": []
+    },
+    {
+      "site": {
+        "name": "CandidateHouse_09",
+        "asset": "cottage_slate",
+        "position": [
+          -9.5,
+          8.371062867422317,
+          10.5
+        ],
+        "yaw": 270,
+        "scale": 0.8
+      },
+      "footprint": [
+        [
+          -8.379999999999999,
+          9.4
+        ],
+        [
+          -8.38,
+          11.6
+        ],
+        [
+          -10.620000000000001,
+          11.6
+        ],
+        [
+          -10.62,
+          9.4
+        ]
+      ],
+      "ground_range": 2.8653921901877766e-08,
+      "max_shore_fraction": 0.6138070112013683,
+      "path_conflicts": []
+    },
+    {
+      "site": {
+        "name": "CandidateHouse_10",
+        "asset": "cottage_teal",
+        "position": [
+          -9.0,
+          8.371509872858411,
+          13.9
+        ],
+        "yaw": 270,
+        "scale": 0.8
+      },
+      "footprint": [
+        [
+          -7.9399999999999995,
+          12.66
+        ],
+        [
+          -7.94,
+          15.14
+        ],
+        [
+          -10.06,
+          15.14
+        ],
+        [
+          -10.06,
+          12.66
+        ]
+      ],
+      "ground_range": 0.013815977664620505,
+      "max_shore_fraction": 0.6338606193354882,
+      "path_conflicts": []
+    },
+    {
+      "site": {
+        "name": "CandidateHouse_11",
+        "asset": "cottage_ochre",
+        "position": [
+          -7.8,
+          8.184994174386041,
+          17.3
+        ],
+        "yaw": 270,
+        "scale": 0.8
+      },
+      "footprint": [
+        [
+          -6.68,
+          15.96
+        ],
+        [
+          -6.68,
+          18.64
+        ],
+        [
+          -8.92,
+          18.64
+        ],
+        [
+          -8.92,
+          15.96
+        ]
+      ],
+      "ground_range": 0.0,
+      "max_shore_fraction": 0.6916513134752148,
+      "path_conflicts": []
+    }
+  ],
+  "candidate_pairs_closer_than_60cm": [
+    {
+      "a": "CandidateHouse_01",
+      "b": "CandidateHouse_02",
+      "wall_distance": 0.5200000000000005
+    },
+    {
+      "a": "CandidateHouse_05",
+      "b": "CandidateHouse_06",
+      "wall_distance": 0.5800000000000018
+    }
+  ],
+  "grandmother_yaw154_alternatives": [
+    {
+      "site": {
+        "name": "GrandmotherHouse",
+        "asset": "abode_grandma",
+        "position": [
+          4.0,
+          2.4,
+          -16.3
+        ],
+        "yaw": 154,
+        "scale": 1
+      },
+      "footprint": [
+        [
+          5.085234979066083,
+          -13.9627173811857
+        ],
+        [
+          1.4900587938694154,
+          -15.716201968342009
+        ],
+        [
+          2.9147650209339164,
+          -18.637282618814304
+        ],
+        [
+          6.509941206130584,
+          -16.883798031657992
+        ]
+      ],
+      "ground_range": 0.015272095795613616,
+      "max_shore_fraction": 0.3136232107149102,
+      "path_conflicts": [
+        {
+          "path": "CapeVillage",
+          "distance_to_wall": 0,
+          "required": 1.195
+        },
+        {
+          "path": "CapeHome",
+          "distance_to_wall": 0.7623208633314038,
+          "required": 1.02
+        }
+      ],
+      "x_offset": 0,
+      "markers": {
+        "Marker_Window": [
+          4.001644264374279,
+          4.02,
+          -18.17393230838114
+        ],
+        "Marker_ABo_Seat": [
+          3.41641878341086,
+          2.8899999999999997,
+          -16.974042256571753
+        ],
+        "Marker_Entry": [
+          5.938408536309066,
+          2.56,
+          -17.69660207158809
+        ]
+      },
+      "lamp_floor_distances": {
+        "Anchor_Lamp_WanFeng": 2.3448174852823023,
+        "Anchor_Lamp_YueChuang": 2.6000323811725035,
+        "Anchor_Lamp_GuiHang": 4.6267196593844595
+      },
+      "window_pier_angle": 43.37280455934541
+    },
+    {
+      "site": {
+        "name": "GrandmotherHouse",
+        "asset": "abode_grandma",
+        "position": [
+          3.7,
+          2.4,
+          -16.3
+        ],
+        "yaw": 154,
+        "scale": 1
+      },
+      "footprint": [
+        [
+          4.785234979066084,
+          -13.9627173811857
+        ],
+        [
+          1.1900587938694156,
+          -15.716201968342009
+        ],
+        [
+          2.6147650209339166,
+          -18.637282618814304
+        ],
+        [
+          6.209941206130585,
+          -16.883798031657992
+        ]
+      ],
+      "ground_range": 0.019903123866963135,
+      "max_shore_fraction": 0.2844287081305126,
+      "path_conflicts": [
+        {
+          "path": "CapeVillage",
+          "distance_to_wall": 0.26670418437024046,
+          "required": 1.195
+        },
+        {
+          "path": "CapeHome",
+          "distance_to_wall": 0.8938322073681269,
+          "required": 1.02
+        }
+      ],
+      "x_offset": -0.3,
+      "markers": {
+        "Marker_Window": [
+          3.7016442643742784,
+          4.02,
+          -18.17393230838114
+        ],
+        "Marker_ABo_Seat": [
+          3.11641878341086,
+          2.8899999999999997,
+          -16.974042256571753
+        ],
+        "Marker_Entry": [
+          5.638408536309067,
+          2.56,
+          -17.69660207158809
+        ]
+      },
+      "lamp_floor_distances": {
+        "Anchor_Lamp_WanFeng": 2.6144556991720513,
+        "Anchor_Lamp_YueChuang": 2.7308433616428056,
+        "Anchor_Lamp_GuiHang": 4.918391005487088
+      },
+      "window_pier_angle": 48.01206848809827
+    },
+    {
+      "site": {
+        "name": "GrandmotherHouse",
+        "asset": "abode_grandma",
+        "position": [
+          3.5,
+          2.4,
+          -16.3
+        ],
+        "yaw": 154,
+        "scale": 1
+      },
+      "footprint": [
+        [
+          4.585234979066083,
+          -13.9627173811857
+        ],
+        [
+          0.9900587938694154,
+          -15.716201968342009
+        ],
+        [
+          2.4147650209339164,
+          -18.637282618814304
+        ],
+        [
+          6.009941206130584,
+          -16.883798031657992
+        ]
+      ],
+      "ground_range": 0.02685252670835947,
+      "max_shore_fraction": 0.28512225398269003,
+      "path_conflicts": [
+        {
+          "path": "CapeVillage",
+          "distance_to_wall": 0.45514243870283305,
+          "required": 1.195
+        },
+        {
+          "path": "CapeHome",
+          "distance_to_wall": 0.9815064367259426,
+          "required": 1.02
+        }
+      ],
+      "x_offset": -0.5,
+      "markers": {
+        "Marker_Window": [
+          3.5016442643742782,
+          4.02,
+          -18.17393230838114
+        ],
+        "Marker_ABo_Seat": [
+          2.91641878341086,
+          2.8899999999999997,
+          -16.974042256571753
+        ],
+        "Marker_Entry": [
+          5.438408536309066,
+          2.56,
+          -17.69660207158809
+        ]
+      },
+      "lamp_floor_distances": {
+        "Anchor_Lamp_WanFeng": 2.7942145084318857,
+        "Anchor_Lamp_YueChuang": 2.8185175910006217,
+        "Anchor_Lamp_GuiHang": 5.1133739937935365
+      },
+      "window_pier_angle": 51.07549044317247
+    }
+  ]
+}

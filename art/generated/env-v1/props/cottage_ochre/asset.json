@@ -1,0 +1,88 @@
+{
+  "asset_id": "cottage_ochre",
+  "description": "坡上村子可复用木屋；独立暖琥珀窗，两扇窗可分别亮灭。",
+  "source": "Original procedural placeholder authored for the final JieGuang script; no legacy game asset reused.",
+  "source_script": "art/blender/env_v1_props.py",
+  "source_script_sha256": "099a96576a12e59be951e42e549714b1cd4429d657633ea47843fcf83625ad1d",
+  "fbx": "art/generated/env-v1/props/cottage_ochre/cottage_ochre.fbx",
+  "fbx_sha256": "69f9b8148407241c3ec338c1eadb92494a495098524f977aa42d7fda3dc3f77b",
+  "triangles": 1024,
+  "meshes": [
+    {
+      "name": "Structure",
+      "triangles": 1000,
+      "materials": [
+        "Stone_SoftGrey",
+        "Wall_LightTimber",
+        "Wood_DarkBeams",
+        "Wood_Endgrain",
+        "Wood_Honey",
+        "Copper_Aged",
+        "Stone_WarmLimestone",
+        "Roof_OchreRed",
+        "Roof_RedHighlight"
+      ]
+    },
+    {
+      "name": "Window_00",
+      "triangles": 12,
+      "materials": [
+        "Window_AmberEmission"
+      ]
+    },
+    {
+      "name": "Window_01",
+      "triangles": 12,
+      "materials": [
+        "Window_AmberEmission"
+      ]
+    }
+  ],
+  "bounds_blender": {
+    "min": [
+      -1.9922335147857666,
+      -1.8700000047683716,
+      0.0
+    ],
+    "max": [
+      1.9922335147857666,
+      1.736683964729309,
+      3.5950000286102295
+    ]
+  },
+  "dimensions_metres": [
+    3.9845,
+    3.6067,
+    3.595
+  ],
+  "coordinates": "Blender Z-up, front -Y; FBX Y-up/-Z; intended Unity point mapping (x,z,-y), confirm after import.",
+  "root_pivot_blender": [
+    0,
+    0,
+    0
+  ],
+  "markers": {
+    "Marker_Door": {
+      "blender_xyz": [
+        -0.67,
+        -1.83,
+        0.22
+      ],
+      "unity_xyz": [
+        -0.67,
+        0.22,
+        1.83
+      ],
+      "blender_rotation_degrees": [
+        0.0,
+        -0.0,
+        0.0
+      ]
+    }
+  },
+  "notes": [
+    "Village window mesh names start Window_; reparent to Village_Windows preserving world transform.",
+    "Village cottages are exterior shells; no interior navigation.",
+    "Front is Blender -Y; intended Unity +Z."
+  ]
+}

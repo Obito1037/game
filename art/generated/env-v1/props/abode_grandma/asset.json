@@ -1,0 +1,125 @@
+{
+  "asset_id": "abode_grandma",
+  "description": "阿婆米白木屋、蓝绿瓦、真实开孔圆窗与敞开的门；室内桌椅和摊开的光树簿。",
+  "source": "Original procedural placeholder authored for the final JieGuang script; no legacy game asset reused.",
+  "source_script": "art/blender/env_v1_props.py",
+  "source_script_sha256": "099a96576a12e59be951e42e549714b1cd4429d657633ea47843fcf83625ad1d",
+  "fbx": "art/generated/env-v1/props/abode_grandma/abode_grandma.fbx",
+  "fbx_sha256": "9d1fe0889835087593d5b1f174ac4069ad8680e74b96b7c011e48f15bd3a8c5d",
+  "triangles": 1728,
+  "meshes": [
+    {
+      "name": "Structure",
+      "triangles": 1728,
+      "materials": [
+        "Wood_Honey",
+        "Wall_WarmIvory",
+        "Wood_DarkBeams",
+        "Stone_WarmLimestone",
+        "Wood_Endgrain",
+        "Roof_AgedTeal",
+        "Roof_TealHighlight",
+        "Cloth_Unbleached"
+      ]
+    }
+  ],
+  "bounds_blender": {
+    "min": [
+      -2.3172435760498047,
+      -2.530688762664795,
+      -0.009999975562095642
+    ],
+    "max": [
+      2.3172435760498047,
+      1.9616841077804565,
+      3.944999933242798
+    ]
+  },
+  "dimensions_metres": [
+    4.6345,
+    4.4924,
+    3.955
+  ],
+  "coordinates": "Blender Z-up, front -Y; FBX Y-up/-Z; intended Unity point mapping (x,z,-y), confirm after import.",
+  "root_pivot_blender": [
+    0,
+    0,
+    0
+  ],
+  "markers": {
+    "Marker_Window": {
+      "blender_xyz": [
+        0.82,
+        -1.685,
+        1.62
+      ],
+      "unity_xyz": [
+        0.82,
+        1.62,
+        1.685
+      ],
+      "blender_rotation_degrees": [
+        0.0,
+        -0.0,
+        0.0
+      ]
+    },
+    "Marker_ABo_Seat": {
+      "blender_xyz": [
+        0.82,
+        -0.35,
+        0.49
+      ],
+      "unity_xyz": [
+        0.82,
+        0.49,
+        0.35
+      ],
+      "blender_rotation_degrees": [
+        0.0,
+        -0.0,
+        0.0
+      ]
+    },
+    "Marker_Entry": {
+      "blender_xyz": [
+        -1.13,
+        -2.105,
+        0.16
+      ],
+      "unity_xyz": [
+        -1.13,
+        0.16,
+        2.105
+      ],
+      "blender_rotation_degrees": [
+        0.0,
+        -0.0,
+        0.0
+      ]
+    },
+    "Marker_Desk": {
+      "blender_xyz": [
+        0.82,
+        -0.98,
+        0.84
+      ],
+      "unity_xyz": [
+        0.82,
+        0.84,
+        0.98
+      ],
+      "blender_rotation_degrees": [
+        0.0,
+        -0.0,
+        0.0
+      ]
+    }
+  },
+  "notes": [
+    "Round window has no glass or emissive occluder. Opening diameter 1.10 m.",
+    "Seat marker is hip/contact height 0.49m; facing front Blender -Y.",
+    "Use detailed MeshCollider for window facade if spotlight raycasts matter, not one solid whole-house box.",
+    "Door clear width about .85m; dwelling is a staging interior, no upstairs model."
+  ]
+}

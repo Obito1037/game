@@ -1,0 +1,86 @@
+{
+  "asset_id": "pier_end",
+  "description": "木栈桥模块，板面顶高为0，桩柱向下延伸。",
+  "source": "Original procedural placeholder authored for the final JieGuang script; no legacy game asset reused.",
+  "source_script": "art/blender/env_v1_props.py",
+  "source_script_sha256": "099a96576a12e59be951e42e549714b1cd4429d657633ea47843fcf83625ad1d",
+  "fbx": "art/generated/env-v1/props/pier_end/pier_end.fbx",
+  "fbx_sha256": "ea1c1115c6dec1b039dce0d0112e3e2b970dcd4f8c74725d0d816d6f1f8c1382",
+  "triangles": 668,
+  "meshes": [
+    {
+      "name": "Structure",
+      "triangles": 668,
+      "materials": [
+        "Wood_Endgrain",
+        "Wood_Honey",
+        "Wood_DarkBeams",
+        "Wood_Weathered",
+        "Iron_Blackened"
+      ]
+    }
+  ],
+  "bounds_blender": {
+    "min": [
+      -1.2200000286102295,
+      -1.8300000429153442,
+      -1.959999918937683
+    ],
+    "max": [
+      1.2200000286102295,
+      1.8300000429153442,
+      0.13999992609024048
+    ]
+  },
+  "dimensions_metres": [
+    2.44,
+    3.66,
+    2.1
+  ],
+  "coordinates": "Blender Z-up, front -Y; FBX Y-up/-Z; intended Unity point mapping (x,z,-y), confirm after import.",
+  "root_pivot_blender": [
+    0,
+    0,
+    0
+  ],
+  "markers": {
+    "Marker_Entry": {
+      "blender_xyz": [
+        0.0,
+        -1.8,
+        0.0
+      ],
+      "unity_xyz": [
+        0.0,
+        0.0,
+        1.8
+      ],
+      "blender_rotation_degrees": [
+        0.0,
+        -0.0,
+        0.0
+      ]
+    },
+    "Marker_Exit": {
+      "blender_xyz": [
+        0.0,
+        1.8,
+        0.0
+      ],
+      "unity_xyz": [
+        0.0,
+        0.0,
+        -1.8
+      ],
+      "blender_rotation_degrees": [
+        0.0,
+        -0.0,
+        0.0
+      ]
+    }
+  },
+  "notes": [
+    "Deck width 2.40m, deck top at local Z=0. Boards run X, bridge length along Y.",
+    "Add flat deck collision box, avoid tiny gaps catching movement. Piles extend 1.96m below deck."
+  ]
+}

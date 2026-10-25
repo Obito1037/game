@@ -1,0 +1,1513 @@
+{
+  "version": 1,
+  "asset_count": 16,
+  "triangles_unique_assets": 13237,
+  "units": "metres",
+  "authorship": "Original procedural art created for this project from final design document.",
+  "coordinate_convention": "Blender Z-up/front -Y; FBX Y-up; root is bottom centre except roadlamp (swivel), pier (deck top), and well (ground).",
+  "materials": [
+    {
+      "name": "Cloth_Unbleached",
+      "base_color": [
+        0.6499999761581421,
+        0.6100000143051147,
+        0.4699999988079071,
+        1.0
+      ],
+      "emission_strength": 0.0,
+      "metallic": 0.0,
+      "roughness": 0.6800000071525574
+    },
+    {
+      "name": "Copper_Aged",
+      "base_color": [
+        0.4300000071525574,
+        0.23999999463558197,
+        0.10000000149011612,
+        1.0
+      ],
+      "emission_strength": 0.0,
+      "metallic": 0.6000000238418579,
+      "roughness": 0.41999998688697815
+    },
+    {
+      "name": "Flag_FadedIndigo",
+      "base_color": [
+        0.1599999964237213,
+        0.2800000011920929,
+        0.44999998807907104,
+        1.0
+      ],
+      "emission_strength": 0.0,
+      "metallic": 0.0,
+      "roughness": 0.6800000071525574
+    },
+    {
+      "name": "Flag_SilverTree",
+      "base_color": [
+        0.5299999713897705,
+        0.6399999856948853,
+        0.46000000834465027,
+        1.0
+      ],
+      "emission_strength": 0.0,
+      "metallic": 0.0,
+      "roughness": 0.6800000071525574
+    },
+    {
+      "name": "Flag_WeatheredEdge",
+      "base_color": [
+        0.5799999833106995,
+        0.6100000143051147,
+        0.5899999737739563,
+        1.0
+      ],
+      "emission_strength": 0.0,
+      "metallic": 0.0,
+      "roughness": 0.6800000071525574
+    },
+    {
+      "name": "Gold_WornEdges",
+      "base_color": [
+        0.6700000166893005,
+        0.41999998688697815,
+        0.11999999731779099,
+        1.0
+      ],
+      "emission_strength": 0.0,
+      "metallic": 0.6600000262260437,
+      "roughness": 0.36000001430511475
+    },
+    {
+      "name": "Iron_Blackened",
+      "base_color": [
+        0.11999999731779099,
+        0.14000000059604645,
+        0.14000000059604645,
+        1.0
+      ],
+      "emission_strength": 0.0,
+      "metallic": 0.6200000047683716,
+      "roughness": 0.44999998807907104
+    },
+    {
+      "name": "Lantern_AmberCore",
+      "base_color": [
+        1.0,
+        0.5799999833106995,
+        0.1899999976158142,
+        1.0
+      ],
+      "emission_strength": 2.200000047683716,
+      "metallic": 0.0,
+      "roughness": 0.30000001192092896
+    },
+    {
+      "name": "Material",
+      "base_color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "emission_strength": 0.0,
+      "metallic": 0.0,
+      "roughness": 0.5
+    },
+    {
+      "name": "Roof_AgedTeal",
+      "base_color": [
+        0.11999999731779099,
+        0.3100000023841858,
+        0.3100000023841858,
+        1.0
+      ],
+      "emission_strength": 0.0,
+      "metallic": 0.0,
+      "roughness": 0.6800000071525574
+    },
+    {
+      "name": "Roof_OchreRed",
+      "base_color": [
+        0.46000000834465027,
+        0.20000000298023224,
+        0.12999999523162842,
+        1.0
+      ],
+      "emission_strength": 0.0,
+      "metallic": 0.0,
+      "roughness": 0.6800000071525574
+    },
+    {
+      "name": "Roof_RedHighlight",
+      "base_color": [
+        0.5699999928474426,
+        0.2800000011920929,
+        0.17000000178813934,
+        1.0
+      ],
+      "emission_strength": 0.0,
+      "metallic": 0.0,
+      "roughness": 0.6800000071525574
+    },
+    {
+      "name": "Roof_SlateHighlight",
+      "base_color": [
+        0.3700000047683716,
+        0.4099999964237213,
+        0.4099999964237213,
+        1.0
+      ],
+      "emission_strength": 0.0,
+      "metallic": 0.0,
+      "roughness": 0.6800000071525574
+    },
+    {
+      "name": "Roof_TealHighlight",
+      "base_color": [
+        0.18000000715255737,
+        0.4000000059604645,
+        0.36000001430511475,
+        1.0
+      ],
+      "emission_strength": 0.0,
+      "metallic": 0.0,
+      "roughness": 0.6800000071525574
+    },
+    {
+      "name": "Roof_WarmSlate",
+      "base_color": [
+        0.27000001072883606,
+        0.3199999928474426,
+        0.3499999940395355,
+        1.0
+      ],
+      "emission_strength": 0.0,
+      "metallic": 0.0,
+      "roughness": 0.6800000071525574
+    },
+    {
+      "name": "Stone_SoftGrey",
+      "base_color": [
+        0.36000001430511475,
+        0.36000001430511475,
+        0.3100000023841858,
+        1.0
+      ],
+      "emission_strength": 0.0,
+      "metallic": 0.0,
+      "roughness": 0.6800000071525574
+    },
+    {
+      "name": "Stone_WarmLimestone",
+      "base_color": [
+        0.47999998927116394,
+        0.46000000834465027,
+        0.3700000047683716,
+        1.0
+      ],
+      "emission_strength": 0.0,
+      "metallic": 0.0,
+      "roughness": 0.6800000071525574
+    },
+    {
+      "name": "Wall_LightTimber",
+      "base_color": [
+        0.5699999928474426,
+        0.4399999976158142,
+        0.28999999165534973,
+        1.0
+      ],
+      "emission_strength": 0.0,
+      "metallic": 0.0,
+      "roughness": 0.6800000071525574
+    },
+    {
+      "name": "Wall_WarmIvory",
+      "base_color": [
+        0.7099999785423279,
+        0.6399999856948853,
+        0.47999998927116394,
+        1.0
+      ],
+      "emission_strength": 0.0,
+      "metallic": 0.0,
+      "roughness": 0.6800000071525574
+    },
+    {
+      "name": "Window_AmberEmission",
+      "base_color": [
+        1.0,
+        0.4300000071525574,
+        0.10000000149011612,
+        1.0
+      ],
+      "emission_strength": 1.5,
+      "metallic": 0.0,
+      "roughness": 0.44999998807907104
+    },
+    {
+      "name": "Wood_DarkBeams",
+      "base_color": [
+        0.1899999976158142,
+        0.12999999523162842,
+        0.09000000357627869,
+        1.0
+      ],
+      "emission_strength": 0.0,
+      "metallic": 0.0,
+      "roughness": 0.6800000071525574
+    },
+    {
+      "name": "Wood_Endgrain",
+      "base_color": [
+        0.5299999713897705,
+        0.3400000035762787,
+        0.18000000715255737,
+        1.0
+      ],
+      "emission_strength": 0.0,
+      "metallic": 0.0,
+      "roughness": 0.6800000071525574
+    },
+    {
+      "name": "Wood_Honey",
+      "base_color": [
+        0.36000001430511475,
+        0.20000000298023224,
+        0.10000000149011612,
+        1.0
+      ],
+      "emission_strength": 0.0,
+      "metallic": 0.0,
+      "roughness": 0.6800000071525574
+    },
+    {
+      "name": "Wood_Weathered",
+      "base_color": [
+        0.3100000023841858,
+        0.3199999928474426,
+        0.27000001072883606,
+        1.0
+      ],
+      "emission_strength": 0.0,
+      "metallic": 0.0,
+      "roughness": 0.6800000071525574
+    }
+  ],
+  "assets": [
+    {
+      "asset_id": "cottage_teal",
+      "description": "坡上村子可复用木屋；独立暖琥珀窗，两扇窗可分别亮灭。",
+      "source": "Original procedural placeholder authored for the final JieGuang script; no legacy game asset reused.",
+      "source_script": "art/blender/env_v1_props.py",
+      "source_script_sha256": "099a96576a12e59be951e42e549714b1cd4429d657633ea47843fcf83625ad1d",
+      "fbx": "art/generated/env-v1/props/cottage_teal/cottage_teal.fbx",
+      "fbx_sha256": "942f0d5034a4ecacb3fb1cd2a0874cfa8e1e667554b638e9a4f105e55997fa04",
+      "triangles": 1024,
+      "meshes": [
+        {
+          "name": "Structure",
+          "triangles": 1000,
+          "materials": [
+            "Stone_SoftGrey",
+            "Wall_WarmIvory",
+            "Wood_DarkBeams",
+            "Wood_Endgrain",
+            "Wood_Honey",
+            "Copper_Aged",
+            "Stone_WarmLimestone",
+            "Roof_AgedTeal",
+            "Roof_TealHighlight"
+          ]
+        },
+        {
+          "name": "Window_00",
+          "triangles": 12,
+          "materials": [
+            "Window_AmberEmission"
+          ]
+        },
+        {
+          "name": "Window_01",
+          "triangles": 12,
+          "materials": [
+            "Window_AmberEmission"
+          ]
+        }
+      ],
+      "bounds_blender": {
+        "min": [
+          -1.871727705001831,
+          -1.7949999570846558,
+          0.0
+        ],
+        "max": [
+          1.871727705001831,
+          1.6616840362548828,
+          3.634999990463257
+        ]
+      },
+      "dimensions_metres": [
+        3.7435,
+        3.4567,
+        3.635
+      ],
+      "coordinates": "Blender Z-up, front -Y; FBX Y-up/-Z; intended Unity point mapping (x,z,-y), confirm after import.",
+      "root_pivot_blender": [
+        0,
+        0,
+        0
+      ],
+      "markers": {
+        "Marker_Door": {
+          "blender_xyz": [
+            -0.62,
+            -1.755,
+            0.22
+          ],
+          "unity_xyz": [
+            -0.62,
+            0.22,
+            1.755
+          ],
+          "blender_rotation_degrees": [
+            0.0,
+            -0.0,
+            0.0
+          ]
+        }
+      },
+      "notes": [
+        "Village window mesh names start Window_; reparent to Village_Windows preserving world transform.",
+        "Village cottages are exterior shells; no interior navigation.",
+        "Front is Blender -Y; intended Unity +Z."
+      ]
+    },
+    {
+      "asset_id": "cottage_ochre",
+      "description": "坡上村子可复用木屋；独立暖琥珀窗，两扇窗可分别亮灭。",
+      "source": "Original procedural placeholder authored for the final JieGuang script; no legacy game asset reused.",
+      "source_script": "art/blender/env_v1_props.py",
+      "source_script_sha256": "099a96576a12e59be951e42e549714b1cd4429d657633ea47843fcf83625ad1d",
+      "fbx": "art/generated/env-v1/props/cottage_ochre/cottage_ochre.fbx",
+      "fbx_sha256": "69f9b8148407241c3ec338c1eadb92494a495098524f977aa42d7fda3dc3f77b",
+      "triangles": 1024,
+      "meshes": [
+        {
+          "name": "Structure",
+          "triangles": 1000,
+          "materials": [
+            "Stone_SoftGrey",
+            "Wall_LightTimber",
+            "Wood_DarkBeams",
+            "Wood_Endgrain",
+            "Wood_Honey",
+            "Copper_Aged",
+            "Stone_WarmLimestone",
+            "Roof_OchreRed",
+            "Roof_RedHighlight"
+          ]
+        },
+        {
+          "name": "Window_00",
+          "triangles": 12,
+          "materials": [
+            "Window_AmberEmission"
+          ]
+        },
+        {
+          "name": "Window_01",
+          "triangles": 12,
+          "materials": [
+            "Window_AmberEmission"
+          ]
+        }
+      ],
+      "bounds_blender": {
+        "min": [
+          -1.9922335147857666,
+          -1.8700000047683716,
+          0.0
+        ],
+        "max": [
+          1.9922335147857666,
+          1.736683964729309,
+          3.5950000286102295
+        ]
+      },
+      "dimensions_metres": [
+        3.9845,
+        3.6067,
+        3.595
+      ],
+      "coordinates": "Blender Z-up, front -Y; FBX Y-up/-Z; intended Unity point mapping (x,z,-y), confirm after import.",
+      "root_pivot_blender": [
+        0,
+        0,
+        0
+      ],
+      "markers": {
+        "Marker_Door": {
+          "blender_xyz": [
+            -0.67,
+            -1.83,
+            0.22
+          ],
+          "unity_xyz": [
+            -0.67,
+            0.22,
+            1.83
+          ],
+          "blender_rotation_degrees": [
+            0.0,
+            -0.0,
+            0.0
+          ]
+        }
+      },
+      "notes": [
+        "Village window mesh names start Window_; reparent to Village_Windows preserving world transform.",
+        "Village cottages are exterior shells; no interior navigation.",
+        "Front is Blender -Y; intended Unity +Z."
+      ]
+    },
+    {
+      "asset_id": "cottage_slate",
+      "description": "坡上村子可复用木屋；独立暖琥珀窗，两扇窗可分别亮灭。",
+      "source": "Original procedural placeholder authored for the final JieGuang script; no legacy game asset reused.",
+      "source_script": "art/blender/env_v1_props.py",
+      "source_script_sha256": "099a96576a12e59be951e42e549714b1cd4429d657633ea47843fcf83625ad1d",
+      "fbx": "art/generated/env-v1/props/cottage_slate/cottage_slate.fbx",
+      "fbx_sha256": "b674ab4355de3a5b124b12032109dc9758f0be136582077727293c56231c6315",
+      "triangles": 1024,
+      "meshes": [
+        {
+          "name": "Structure",
+          "triangles": 1000,
+          "materials": [
+            "Stone_SoftGrey",
+            "Wall_WarmIvory",
+            "Wood_DarkBeams",
+            "Wood_Endgrain",
+            "Wood_Honey",
+            "Copper_Aged",
+            "Stone_WarmLimestone",
+            "Roof_WarmSlate",
+            "Roof_SlateHighlight"
+          ]
+        },
+        {
+          "name": "Window_00",
+          "triangles": 12,
+          "materials": [
+            "Window_AmberEmission"
+          ]
+        },
+        {
+          "name": "Window_01",
+          "triangles": 12,
+          "materials": [
+            "Window_AmberEmission"
+          ]
+        }
+      ],
+      "bounds_blender": {
+        "min": [
+          -1.7009305953979492,
+          -1.8700000047683716,
+          0.0
+        ],
+        "max": [
+          1.7009305953979492,
+          1.7366840839385986,
+          3.6649999618530273
+        ]
+      },
+      "dimensions_metres": [
+        3.4019,
+        3.6067,
+        3.665
+      ],
+      "coordinates": "Blender Z-up, front -Y; FBX Y-up/-Z; intended Unity point mapping (x,z,-y), confirm after import.",
+      "root_pivot_blender": [
+        0,
+        0,
+        0
+      ],
+      "markers": {
+        "Marker_Door": {
+          "blender_xyz": [
+            -0.55,
+            -1.83,
+            0.22
+          ],
+          "unity_xyz": [
+            -0.55,
+            0.22,
+            1.83
+          ],
+          "blender_rotation_degrees": [
+            0.0,
+            -0.0,
+            0.0
+          ]
+        }
+      },
+      "notes": [
+        "Village window mesh names start Window_; reparent to Village_Windows preserving world transform.",
+        "Village cottages are exterior shells; no interior navigation.",
+        "Front is Blender -Y; intended Unity +Z."
+      ]
+    },
+    {
+      "asset_id": "abode_grandma",
+      "description": "阿婆米白木屋、蓝绿瓦、真实开孔圆窗与敞开的门；室内桌椅和摊开的光树簿。",
+      "source": "Original procedural placeholder authored for the final JieGuang script; no legacy game asset reused.",
+      "source_script": "art/blender/env_v1_props.py",
+      "source_script_sha256": "099a96576a12e59be951e42e549714b1cd4429d657633ea47843fcf83625ad1d",
+      "fbx": "art/generated/env-v1/props/abode_grandma/abode_grandma.fbx",
+      "fbx_sha256": "9d1fe0889835087593d5b1f174ac4069ad8680e74b96b7c011e48f15bd3a8c5d",
+      "triangles": 1728,
+      "meshes": [
+        {
+          "name": "Structure",
+          "triangles": 1728,
+          "materials": [
+            "Wood_Honey",
+            "Wall_WarmIvory",
+            "Wood_DarkBeams",
+            "Stone_WarmLimestone",
+            "Wood_Endgrain",
+            "Roof_AgedTeal",
+            "Roof_TealHighlight",
+            "Cloth_Unbleached"
+          ]
+        }
+      ],
+      "bounds_blender": {
+        "min": [
+          -2.3172435760498047,
+          -2.530688762664795,
+          -0.009999975562095642
+        ],
+        "max": [
+          2.3172435760498047,
+          1.9616841077804565,
+          3.944999933242798
+        ]
+      },
+      "dimensions_metres": [
+        4.6345,
+        4.4924,
+        3.955
+      ],
+      "coordinates": "Blender Z-up, front -Y; FBX Y-up/-Z; intended Unity point mapping (x,z,-y), confirm after import.",
+      "root_pivot_blender": [
+        0,
+        0,
+        0
+      ],
+      "markers": {
+        "Marker_Window": {
+          "blender_xyz": [
+            0.82,
+            -1.685,
+            1.62
+          ],
+          "unity_xyz": [
+            0.82,
+            1.62,
+            1.685
+          ],
+          "blender_rotation_degrees": [
+            0.0,
+            -0.0,
+            0.0
+          ]
+        },
+        "Marker_ABo_Seat": {
+          "blender_xyz": [
+            0.82,
+            -0.35,
+            0.49
+          ],
+          "unity_xyz": [
+            0.82,
+            0.49,
+            0.35
+          ],
+          "blender_rotation_degrees": [
+            0.0,
+            -0.0,
+            0.0
+          ]
+        },
+        "Marker_Entry": {
+          "blender_xyz": [
+            -1.13,
+            -2.105,
+            0.16
+          ],
+          "unity_xyz": [
+            -1.13,
+            0.16,
+            2.105
+          ],
+          "blender_rotation_degrees": [
+            0.0,
+            -0.0,
+            0.0
+          ]
+        },
+        "Marker_Desk": {
+          "blender_xyz": [
+            0.82,
+            -0.98,
+            0.84
+          ],
+          "unity_xyz": [
+            0.82,
+            0.84,
+            0.98
+          ],
+          "blender_rotation_degrees": [
+            0.0,
+            -0.0,
+            0.0
+          ]
+        }
+      },
+      "notes": [
+        "Round window has no glass or emissive occluder. Opening diameter 1.10 m.",
+        "Seat marker is hip/contact height 0.49m; facing front Blender -Y.",
+        "Use detailed MeshCollider for window facade if spotlight raycasts matter, not one solid whole-house box.",
+        "Door clear width about .85m; dwelling is a staging interior, no upstairs model."
+      ]
+    },
+    {
+      "asset_id": "copper_roadlamp",
+      "description": "三盏谜题灯共用铜柱与可旋转遮光灯头；仅在场景实例化三次。",
+      "source": "Original procedural placeholder authored for the final JieGuang script; no legacy game asset reused.",
+      "source_script": "art/blender/env_v1_props.py",
+      "source_script_sha256": "099a96576a12e59be951e42e549714b1cd4429d657633ea47843fcf83625ad1d",
+      "fbx": "art/generated/env-v1/props/copper_roadlamp/copper_roadlamp.fbx",
+      "fbx_sha256": "8580c85b85f02577ad0f4828185bd3a2a4d2f16b51eb82c5b7853b4ce30e68cf",
+      "triangles": 606,
+      "meshes": [
+        {
+          "name": "Structure",
+          "triangles": 348,
+          "materials": [
+            "Copper_Aged",
+            "Gold_WornEdges"
+          ]
+        },
+        {
+          "name": "LampHead",
+          "triangles": 258,
+          "materials": [
+            "Copper_Aged",
+            "Lantern_AmberCore",
+            "Gold_WornEdges"
+          ]
+        }
+      ],
+      "bounds_blender": {
+        "min": [
+          -0.24500000476837158,
+          -0.33500000834465027,
+          -3.799999952316284
+        ],
+        "max": [
+          0.24500000476837158,
+          0.23999999463558197,
+          0.24500000476837158
+        ]
+      },
+      "dimensions_metres": [
+        0.49,
+        0.575,
+        4.045
+      ],
+      "coordinates": "Blender Z-up, front -Y; FBX Y-up/-Z; intended Unity point mapping (x,z,-y), confirm after import.",
+      "root_pivot_blender": [
+        0,
+        0,
+        0
+      ],
+      "markers": {
+        "Marker_Bulb": {
+          "blender_xyz": [
+            0.0,
+            -0.285,
+            0.0
+          ],
+          "unity_xyz": [
+            0.0,
+            0.0,
+            0.285
+          ],
+          "blender_rotation_degrees": [
+            0.0,
+            -0.0,
+            0.0
+          ]
+        },
+        "Marker_Base": {
+          "blender_xyz": [
+            0.0,
+            0.0,
+            -3.8
+          ],
+          "unity_xyz": [
+            0.0,
+            -3.8,
+            -0.0
+          ],
+          "blender_rotation_degrees": [
+            0.0,
+            -0.0,
+            0.0
+          ]
+        }
+      },
+      "notes": [
+        "Root and LampHead origin exactly at swivel. Root placed 3.80m above ground; Structure descends to -3.80m in Blender Z / Unity Y.",
+        "For a 4.0m lamp, scale only Structure along its height by 4/3.8. Leave LampHead at unit scale.",
+        "Default light/hood direction Blender -Y, intended Unity +Z. Rotate LampHead, not Structure.",
+        "No Blender light exported; Claude creates the gameplay spotlight at Marker_Bulb.",
+        "Only 3 lamp instances belong in the island."
+      ]
+    },
+    {
+      "asset_id": "pier_module",
+      "description": "木栈桥模块，板面顶高为0，桩柱向下延伸。",
+      "source": "Original procedural placeholder authored for the final JieGuang script; no legacy game asset reused.",
+      "source_script": "art/blender/env_v1_props.py",
+      "source_script_sha256": "099a96576a12e59be951e42e549714b1cd4429d657633ea47843fcf83625ad1d",
+      "fbx": "art/generated/env-v1/props/pier_module/pier_module.fbx",
+      "fbx_sha256": "cb0b2a5dc182ef7830d7f04d32da095bb5fc6eb2b5ff7e90b1f7e1eb625033d0",
+      "triangles": 456,
+      "meshes": [
+        {
+          "name": "Structure",
+          "triangles": 456,
+          "materials": [
+            "Wood_Endgrain",
+            "Wood_Honey",
+            "Wood_DarkBeams",
+            "Wood_Weathered",
+            "Iron_Blackened"
+          ]
+        }
+      ],
+      "bounds_blender": {
+        "min": [
+          -1.190000057220459,
+          -1.5299999713897705,
+          -3.200000047683716
+        ],
+        "max": [
+          1.190000057220459,
+          1.5299999713897705,
+          0.13999992609024048
+        ]
+      },
+      "dimensions_metres": [
+        2.38,
+        3.06,
+        3.34
+      ],
+      "coordinates": "Blender Z-up, front -Y; FBX Y-up/-Z; intended Unity point mapping (x,z,-y), confirm after import.",
+      "root_pivot_blender": [
+        0,
+        0,
+        0
+      ],
+      "markers": {
+        "Marker_Entry": {
+          "blender_xyz": [
+            0.0,
+            -1.5,
+            0.0
+          ],
+          "unity_xyz": [
+            0.0,
+            0.0,
+            1.5
+          ],
+          "blender_rotation_degrees": [
+            0.0,
+            -0.0,
+            0.0
+          ]
+        },
+        "Marker_Exit": {
+          "blender_xyz": [
+            0.0,
+            1.5,
+            0.0
+          ],
+          "unity_xyz": [
+            0.0,
+            0.0,
+            -1.5
+          ],
+          "blender_rotation_degrees": [
+            0.0,
+            -0.0,
+            0.0
+          ]
+        }
+      },
+      "notes": [
+        "Deck width 2.40m, deck top at local Z=0. Boards run X, bridge length along Y.",
+        "Add flat deck collision box, avoid tiny gaps catching movement. Piles extend 3.20m below deck.",
+        "Pile extension: all geometry at Z >= -0.40m, X/Y coordinates, topology, markers and deck top retained; only lower pile vertices stretched to Z=-3.20m. At deck Y=2.48m the pile bottom is Y=-0.72m, 0.56m below sea level -0.16m."
+      ],
+      "postprocessing": [
+        {
+          "step": "extend_submerged_piles_v1",
+          "script": "art/blender/env_v1_pier_extend.py",
+          "script_sha256": "00634bb55dd2c60be0b8d65abcda671f61dd539303f462671085f947a621bfeb",
+          "input_sha256": {
+            "blend": "d597b170c64a0f61f46d95749d3cbded8f57bd3766491a05cf636fbd21aeae01",
+            "fbx": "5a5b4ad67f012ece7562531ed71d1516a5847b9373dfe70f098ab2bc66e5c6d7",
+            "asset_json": "cfe4f8ed393a36d3a74607f671ddfc1691d70227d33281599107e964053b2b41"
+          },
+          "changed_vertices": 40,
+          "original_bottom_z": -1.959999918937683,
+          "new_bottom_z": -3.200000047683716,
+          "unchanged_at_or_above_z": -0.4,
+          "deck_and_markers_unchanged": true,
+          "triangles_unchanged": true
+        }
+      ]
+    },
+    {
+      "asset_id": "pier_end",
+      "description": "木栈桥模块，板面顶高为0，桩柱向下延伸。",
+      "source": "Original procedural placeholder authored for the final JieGuang script; no legacy game asset reused.",
+      "source_script": "art/blender/env_v1_props.py",
+      "source_script_sha256": "099a96576a12e59be951e42e549714b1cd4429d657633ea47843fcf83625ad1d",
+      "fbx": "art/generated/env-v1/props/pier_end/pier_end.fbx",
+      "fbx_sha256": "2a785ad824e1ade6a7062be1a35e40d70d47d287d916c8d9dbcde8ba293fef94",
+      "triangles": 668,
+      "meshes": [
+        {
+          "name": "Structure",
+          "triangles": 668,
+          "materials": [
+            "Wood_Endgrain",
+            "Wood_Honey",
+            "Wood_DarkBeams",
+            "Wood_Weathered",
+            "Iron_Blackened"
+          ]
+        }
+      ],
+      "bounds_blender": {
+        "min": [
+          -1.2200000286102295,
+          -1.8300000429153442,
+          -3.200000047683716
+        ],
+        "max": [
+          1.2200000286102295,
+          1.8300000429153442,
+          0.13999992609024048
+        ]
+      },
+      "dimensions_metres": [
+        2.44,
+        3.66,
+        3.34
+      ],
+      "coordinates": "Blender Z-up, front -Y; FBX Y-up/-Z; intended Unity point mapping (x,z,-y), confirm after import.",
+      "root_pivot_blender": [
+        0,
+        0,
+        0
+      ],
+      "markers": {
+        "Marker_Entry": {
+          "blender_xyz": [
+            0.0,
+            -1.8,
+            0.0
+          ],
+          "unity_xyz": [
+            0.0,
+            0.0,
+            1.8
+          ],
+          "blender_rotation_degrees": [
+            0.0,
+            -0.0,
+            0.0
+          ]
+        },
+        "Marker_Exit": {
+          "blender_xyz": [
+            0.0,
+            1.8,
+            0.0
+          ],
+          "unity_xyz": [
+            0.0,
+            0.0,
+            -1.8
+          ],
+          "blender_rotation_degrees": [
+            0.0,
+            -0.0,
+            0.0
+          ]
+        }
+      },
+      "notes": [
+        "Deck width 2.40m, deck top at local Z=0. Boards run X, bridge length along Y.",
+        "Add flat deck collision box, avoid tiny gaps catching movement. Piles extend 3.20m below deck.",
+        "Pile extension: all geometry at Z >= -0.40m, X/Y coordinates, topology, markers and deck top retained; only lower pile vertices stretched to Z=-3.20m. At deck Y=2.48m the pile bottom is Y=-0.72m, 0.56m below sea level -0.16m."
+      ],
+      "postprocessing": [
+        {
+          "step": "extend_submerged_piles_v1",
+          "script": "art/blender/env_v1_pier_extend.py",
+          "script_sha256": "00634bb55dd2c60be0b8d65abcda671f61dd539303f462671085f947a621bfeb",
+          "input_sha256": {
+            "blend": "22e706fc90790a18ec139e7c58b844ce41912648879e1710967544b561f44b2c",
+            "fbx": "ea1c1115c6dec1b039dce0d0112e3e2b970dcd4f8c74725d0d816d6f1f8c1382",
+            "asset_json": "1db9f7dfdd48f96cd3f105c539485e6ae7c22f4c5a6f569e2e7196e0c5ab2618"
+          },
+          "changed_vertices": 40,
+          "original_bottom_z": -1.959999918937683,
+          "new_bottom_z": -3.200000047683716,
+          "unchanged_at_or_above_z": -0.4,
+          "deck_and_markers_unchanged": true,
+          "triangles_unchanged": true
+        }
+      ]
+    },
+    {
+      "asset_id": "flagpole_blue",
+      "description": "细木旗杆、磨白边蓝旗，小光树与一大一小金星；旗杆下部铁钩可挂灯笼。",
+      "source": "Original procedural placeholder authored for the final JieGuang script; no legacy game asset reused.",
+      "source_script": "art/blender/env_v1_props.py",
+      "source_script_sha256": "099a96576a12e59be951e42e549714b1cd4429d657633ea47843fcf83625ad1d",
+      "fbx": "art/generated/env-v1/props/flagpole_blue/flagpole_blue.fbx",
+      "fbx_sha256": "bf20fa6d547aa1d17424fdd4fde804471c8926d145b9a48b1a022480a89c8903",
+      "triangles": 895,
+      "meshes": [
+        {
+          "name": "Structure",
+          "triangles": 416,
+          "materials": [
+            "Wood_Honey",
+            "Iron_Blackened",
+            "Wood_Endgrain",
+            "Cloth_Unbleached"
+          ]
+        },
+        {
+          "name": "FlagFabric",
+          "triangles": 479,
+          "materials": [
+            "Flag_FadedIndigo",
+            "Flag_WeatheredEdge",
+            "Flag_SilverTree",
+            "Gold_WornEdges"
+          ]
+        }
+      ],
+      "bounds_blender": {
+        "min": [
+          -0.11999999731779099,
+          -0.344008207321167,
+          0.0
+        ],
+        "max": [
+          1.3415000438690186,
+          0.11999999731779099,
+          4.970000267028809
+        ]
+      },
+      "dimensions_metres": [
+        1.4615,
+        0.464,
+        4.97
+      ],
+      "coordinates": "Blender Z-up, front -Y; FBX Y-up/-Z; intended Unity point mapping (x,z,-y), confirm after import.",
+      "root_pivot_blender": [
+        0,
+        0,
+        0
+      ],
+      "markers": {
+        "Marker_FlagpoleHook": {
+          "blender_xyz": [
+            0.0,
+            -0.3,
+            1.77
+          ],
+          "unity_xyz": [
+            0.0,
+            1.77,
+            0.3
+          ],
+          "blender_rotation_degrees": [
+            0.0,
+            -0.0,
+            0.0
+          ]
+        }
+      },
+      "notes": [
+        "Flagpole height 4.97m. Hook hanging contact at (0,-.30,1.77), reachable by a child standing on tiptoes.",
+        "One cloth mesh includes faded hem and tree/two-star emblem. Cloth is static placeholder.",
+        "Hook at 1.77m for gameplay accessibility, below exact geometric halfway of mast."
+      ]
+    },
+    {
+      "asset_id": "harbor_lantern",
+      "description": "旗杆上可挂的大马灯；琥珀光芯单独材质，可由剧情熄灭。",
+      "source": "Original procedural placeholder authored for the final JieGuang script; no legacy game asset reused.",
+      "source_script": "art/blender/env_v1_props.py",
+      "source_script_sha256": "099a96576a12e59be951e42e549714b1cd4429d657633ea47843fcf83625ad1d",
+      "fbx": "art/generated/env-v1/props/harbor_lantern/harbor_lantern.fbx",
+      "fbx_sha256": "2838797eabe43a1f35333844cdfd43030f171044708ae5b4c3c80529b6df9901",
+      "triangles": 436,
+      "meshes": [
+        {
+          "name": "Structure",
+          "triangles": 436,
+          "materials": [
+            "Iron_Blackened",
+            "Lantern_AmberCore",
+            "Copper_Aged"
+          ]
+        }
+      ],
+      "bounds_blender": {
+        "min": [
+          -0.18000000715255737,
+          -0.18000000715255737,
+          0.0
+        ],
+        "max": [
+          0.18000000715255737,
+          0.18000000715255737,
+          0.7929999828338623
+        ]
+      },
+      "dimensions_metres": [
+        0.36,
+        0.36,
+        0.793
+      ],
+      "coordinates": "Blender Z-up, front -Y; FBX Y-up/-Z; intended Unity point mapping (x,z,-y), confirm after import.",
+      "root_pivot_blender": [
+        0,
+        0,
+        0
+      ],
+      "markers": {
+        "Marker_HangingPoint": {
+          "blender_xyz": [
+            0.0,
+            0.0,
+            0.79
+          ],
+          "unity_xyz": [
+            0.0,
+            0.79,
+            -0.0
+          ],
+          "blender_rotation_degrees": [
+            0.0,
+            -0.0,
+            0.0
+          ]
+        }
+      },
+      "notes": [
+        "Base pivot at Z=0, hanging point Z=.79. Light/emission animation handled in Unity."
+      ]
+    },
+    {
+      "asset_id": "bench",
+      "description": "路口双人木长椅，坐高0.45m，朝正前方。",
+      "source": "Original procedural placeholder authored for the final JieGuang script; no legacy game asset reused.",
+      "source_script": "art/blender/env_v1_props.py",
+      "source_script_sha256": "099a96576a12e59be951e42e549714b1cd4429d657633ea47843fcf83625ad1d",
+      "fbx": "art/generated/env-v1/props/bench/bench.fbx",
+      "fbx_sha256": "8682056e14fa1745271e2980f5b02d65b78ccef15d4c4c145d671a3d4340b846",
+      "triangles": 324,
+      "meshes": [
+        {
+          "name": "Structure",
+          "triangles": 324,
+          "materials": [
+            "Wood_Endgrain",
+            "Wood_DarkBeams",
+            "Wood_Honey"
+          ]
+        }
+      ],
+      "bounds_blender": {
+        "min": [
+          -0.9800000190734863,
+          -0.2900000214576721,
+          0.0
+        ],
+        "max": [
+          0.9800000190734863,
+          0.29499995708465576,
+          1.0750000476837158
+        ]
+      },
+      "dimensions_metres": [
+        1.96,
+        0.585,
+        1.075
+      ],
+      "coordinates": "Blender Z-up, front -Y; FBX Y-up/-Z; intended Unity point mapping (x,z,-y), confirm after import.",
+      "root_pivot_blender": [
+        0,
+        0,
+        0
+      ],
+      "markers": {
+        "Marker_Seat": {
+          "blender_xyz": [
+            0.0,
+            -0.04,
+            0.45
+          ],
+          "unity_xyz": [
+            0.0,
+            0.45,
+            0.04
+          ],
+          "blender_rotation_degrees": [
+            0.0,
+            -0.0,
+            0.0
+          ]
+        }
+      },
+      "notes": [
+        "Seat marker is contact/hip height, not foot height. Facing Blender -Y."
+      ]
+    },
+    {
+      "asset_id": "dock_crate",
+      "description": "灯伯旗杆下坐的旧木箱。",
+      "source": "Original procedural placeholder authored for the final JieGuang script; no legacy game asset reused.",
+      "source_script": "art/blender/env_v1_props.py",
+      "source_script_sha256": "099a96576a12e59be951e42e549714b1cd4429d657633ea47843fcf83625ad1d",
+      "fbx": "art/generated/env-v1/props/dock_crate/dock_crate.fbx",
+      "fbx_sha256": "420d4f68becb07eead3ab7d09a40278155467f2ce1846de0b58eb06ccc5dcd09",
+      "triangles": 180,
+      "meshes": [
+        {
+          "name": "Structure",
+          "triangles": 180,
+          "materials": [
+            "Wood_Honey",
+            "Wood_Endgrain"
+          ]
+        }
+      ],
+      "bounds_blender": {
+        "min": [
+          -0.3400000035762787,
+          -0.3375000059604645,
+          0.0
+        ],
+        "max": [
+          0.3400000035762787,
+          0.3375000059604645,
+          0.5600000619888306
+        ]
+      },
+      "dimensions_metres": [
+        0.68,
+        0.675,
+        0.56
+      ],
+      "coordinates": "Blender Z-up, front -Y; FBX Y-up/-Z; intended Unity point mapping (x,z,-y), confirm after import.",
+      "root_pivot_blender": [
+        0,
+        0,
+        0
+      ],
+      "markers": {
+        "Marker_Seat": {
+          "blender_xyz": [
+            0.0,
+            0.0,
+            0.56
+          ],
+          "unity_xyz": [
+            0.0,
+            0.56,
+            -0.0
+          ],
+          "blender_rotation_degrees": [
+            0.0,
+            -0.0,
+            0.0
+          ]
+        }
+      },
+      "notes": [
+        "Top contact .56m; use Marker_Seat for seated NPC offset."
+      ]
+    },
+    {
+      "asset_id": "dock_kettle",
+      "description": "灯伯脚边铁皮水壶与一碗热水，简化实体占位。",
+      "source": "Original procedural placeholder authored for the final JieGuang script; no legacy game asset reused.",
+      "source_script": "art/blender/env_v1_props.py",
+      "source_script_sha256": "099a96576a12e59be951e42e549714b1cd4429d657633ea47843fcf83625ad1d",
+      "fbx": "art/generated/env-v1/props/dock_kettle/dock_kettle.fbx",
+      "fbx_sha256": "e36f82147cc443b2e5146e9f2d52aaefeaf77a5d05a55829090722e311b176c3",
+      "triangles": 436,
+      "meshes": [
+        {
+          "name": "Structure",
+          "triangles": 436,
+          "materials": [
+            "Wood_Weathered",
+            "Iron_Blackened",
+            "Wood_Honey",
+            "Cloth_Unbleached"
+          ]
+        }
+      ],
+      "bounds_blender": {
+        "min": [
+          -0.3850000202655792,
+          -0.15000000596046448,
+          0.007500007748603821
+        ],
+        "max": [
+          0.27449625730514526,
+          0.15000000596046448,
+          0.5299999713897705
+        ]
+      },
+      "dimensions_metres": [
+        0.6595,
+        0.3,
+        0.5225
+      ],
+      "coordinates": "Blender Z-up, front -Y; FBX Y-up/-Z; intended Unity point mapping (x,z,-y), confirm after import.",
+      "root_pivot_blender": [
+        0,
+        0,
+        0
+      ],
+      "markers": {},
+      "notes": []
+    },
+    {
+      "asset_id": "armillary_platform",
+      "description": "岬角圆形石台上的铜浑天仪：三道清晰铜环、中心小球。",
+      "source": "Original procedural placeholder authored for the final JieGuang script; no legacy game asset reused.",
+      "source_script": "art/blender/env_v1_props.py",
+      "source_script_sha256": "099a96576a12e59be951e42e549714b1cd4429d657633ea47843fcf83625ad1d",
+      "fbx": "art/generated/env-v1/props/armillary_platform/armillary_platform.fbx",
+      "fbx_sha256": "ea5e519d7b331f5dbf5c7985178f51a451d4b1c527aad436e2ea5bc386b58f84",
+      "triangles": 2536,
+      "meshes": [
+        {
+          "name": "Structure",
+          "triangles": 2536,
+          "materials": [
+            "Stone_WarmLimestone",
+            "Stone_SoftGrey",
+            "Copper_Aged",
+            "Gold_WornEdges"
+          ]
+        }
+      ],
+      "bounds_blender": {
+        "min": [
+          -1.2200000286102295,
+          -1.2200000286102295,
+          0.0
+        ],
+        "max": [
+          1.2200000286102295,
+          1.2200000286102295,
+          2.200000047683716
+        ]
+      },
+      "dimensions_metres": [
+        2.44,
+        2.44,
+        2.2
+      ],
+      "coordinates": "Blender Z-up, front -Y; FBX Y-up/-Z; intended Unity point mapping (x,z,-y), confirm after import.",
+      "root_pivot_blender": [
+        0,
+        0,
+        0
+      ],
+      "markers": {},
+      "notes": [
+        "Stone platform radius 1.22m, height .21m; instrument height 2.2m.",
+        "Decorative instrument only; no celestial simulation or interactive mechanics embedded."
+      ]
+    },
+    {
+      "asset_id": "crescent_sculpture",
+      "description": "金色月牙纪念雕塑，真实弯月轮廓；与屋前金色光树相伴。",
+      "source": "Original procedural placeholder authored for the final JieGuang script; no legacy game asset reused.",
+      "source_script": "art/blender/env_v1_props.py",
+      "source_script_sha256": "099a96576a12e59be951e42e549714b1cd4429d657633ea47843fcf83625ad1d",
+      "fbx": "art/generated/env-v1/props/crescent_sculpture/crescent_sculpture.fbx",
+      "fbx_sha256": "40cc325897fb78dcadbe78c24d54cf25b24a3ad35e0beebe9262423271732864",
+      "triangles": 388,
+      "meshes": [
+        {
+          "name": "Structure",
+          "triangles": 388,
+          "materials": [
+            "Gold_WornEdges",
+            "Stone_WarmLimestone",
+            "Copper_Aged"
+          ]
+        }
+      ],
+      "bounds_blender": {
+        "min": [
+          -1.0199999809265137,
+          -0.46000000834465027,
+          0.0
+        ],
+        "max": [
+          0.5055952668190002,
+          0.46000000834465027,
+          2.319992780685425
+        ]
+      },
+      "dimensions_metres": [
+        1.5256,
+        0.92,
+        2.32
+      ],
+      "coordinates": "Blender Z-up, front -Y; FBX Y-up/-Z; intended Unity point mapping (x,z,-y), confirm after import.",
+      "root_pivot_blender": [
+        0,
+        0,
+        0
+      ],
+      "markers": {},
+      "notes": []
+    },
+    {
+      "asset_id": "village_well",
+      "description": "坡上村子石井，开口井沿、木摇柄和小蓝绿瓦顶。",
+      "source": "Original procedural placeholder authored for the final JieGuang script; no legacy game asset reused.",
+      "source_script": "art/blender/env_v1_props.py",
+      "source_script_sha256": "099a96576a12e59be951e42e549714b1cd4429d657633ea47843fcf83625ad1d",
+      "fbx": "art/generated/env-v1/props/village_well/village_well.fbx",
+      "fbx_sha256": "ee8a9d96dfd8467bb82a3d76fc96523b9bf871acd6701a5eaafb0134b20c753c",
+      "triangles": 1156,
+      "meshes": [
+        {
+          "name": "Structure",
+          "triangles": 1156,
+          "materials": [
+            "Stone_SoftGrey",
+            "Stone_WarmLimestone",
+            "Wood_Honey",
+            "Wood_Endgrain",
+            "Iron_Blackened",
+            "Cloth_Unbleached",
+            "Roof_AgedTeal",
+            "Roof_TealHighlight"
+          ]
+        }
+      ],
+      "bounds_blender": {
+        "min": [
+          -1.187611699104309,
+          -0.9866840243339539,
+          -0.029999999329447746
+        ],
+        "max": [
+          1.187611699104309,
+          0.9866840243339539,
+          2.7950000762939453
+        ]
+      },
+      "dimensions_metres": [
+        2.3752,
+        1.9734,
+        2.825
+      ],
+      "coordinates": "Blender Z-up, front -Y; FBX Y-up/-Z; intended Unity point mapping (x,z,-y), confirm after import.",
+      "root_pivot_blender": [
+        0,
+        0,
+        0
+      ],
+      "markers": {},
+      "notes": [
+        "Open well geometry extends .03m below ground, pivot remains ground Z=0."
+      ]
+    },
+    {
+      "asset_id": "laundry_line",
+      "description": "两户木屋间的晾衣绳，三件旧布与木夹；静态占位。",
+      "source": "Original procedural placeholder authored for the final JieGuang script; no legacy game asset reused.",
+      "source_script": "art/blender/env_v1_props.py",
+      "source_script_sha256": "099a96576a12e59be951e42e549714b1cd4429d657633ea47843fcf83625ad1d",
+      "fbx": "art/generated/env-v1/props/laundry_line/laundry_line.fbx",
+      "fbx_sha256": "3b33667e1153b64b6b5efda6674e2dc5f8f6c897fead5d99fdd8e314c86c6f7c",
+      "triangles": 356,
+      "meshes": [
+        {
+          "name": "Structure",
+          "triangles": 356,
+          "materials": [
+            "Wood_Honey",
+            "Cloth_Unbleached",
+            "Wood_Endgrain",
+            "Flag_FadedIndigo"
+          ]
+        }
+      ],
+      "bounds_blender": {
+        "min": [
+          -1.6959999799728394,
+          -0.10795222967863083,
+          0.0
+        ],
+        "max": [
+          1.6959999799728394,
+          0.04600000008940697,
+          2.0
+        ]
+      },
+      "dimensions_metres": [
+        3.392,
+        0.154,
+        2.0
+      ],
+      "coordinates": "Blender Z-up, front -Y; FBX Y-up/-Z; intended Unity point mapping (x,z,-y), confirm after import.",
+      "root_pivot_blender": [
+        0,
+        0,
+        0
+      ],
+      "markers": {},
+      "notes": []
+    }
+  ]
+}

@@ -1,0 +1,132 @@
+{
+  "scope": "Proposed routes numerical verification. No Unity or collision simulation.",
+  "routes": [
+    {
+      "route": "ProposedCapeVillage",
+      "house_wall_to_path_centerline": 1.7173949971278408,
+      "house_wall_to_paved_edge": 0.8423949971278408,
+      "lamp_distances": [
+        {
+          "name": "Anchor_Lamp_WanFeng",
+          "centerline_to_pole": 1.0378735185190993,
+          "paved_edge_to_base": -0.07712648148090073
+        },
+        {
+          "name": "Anchor_Lamp_YueChuang",
+          "centerline_to_pole": 1.5,
+          "paved_edge_to_base": 0.385
+        },
+        {
+          "name": "Anchor_Lamp_GuiHang",
+          "centerline_to_pole": 1.5000170067063117,
+          "paved_edge_to_base": 0.38501700670631167
+        }
+      ],
+      "max_shore_fraction_including_path_width": 0.7587551196675028,
+      "minimum_ground": 2.3302173325608115,
+      "maximum_ground": 3.2563379141609787,
+      "bench_wall_to_paved_edge": -0.11343545542379962,
+      "armillary_wall_to_paved_edge": 0.405
+    },
+    {
+      "route": "ProposedSpawnLane",
+      "house_wall_to_path_centerline": 3.9730296160427017,
+      "house_wall_to_paved_edge": 3.3230296160427018,
+      "lamp_distances": [
+        {
+          "name": "Anchor_Lamp_WanFeng",
+          "centerline_to_pole": 4.684015371452148,
+          "paved_edge_to_base": 3.794015371452147
+        },
+        {
+          "name": "Anchor_Lamp_YueChuang",
+          "centerline_to_pole": 5.70087712549569,
+          "paved_edge_to_base": 4.810877125495689
+        },
+        {
+          "name": "Anchor_Lamp_GuiHang",
+          "centerline_to_pole": 1.7990578080038977,
+          "paved_edge_to_base": 0.9090578080038976
+        }
+      ],
+      "max_shore_fraction_including_path_width": 0.4049706290188993,
+      "minimum_ground": 2.3803198547558444,
+      "maximum_ground": 2.399999989319401,
+      "bench_wall_to_paved_edge": 0.346811498361303,
+      "armillary_wall_to_paved_edge": 2.5300454543106716
+    }
+  ],
+  "first_house_alternatives": [
+    {
+      "xz": [
+        -17.9,
+        3.6
+      ],
+      "shore": 0.46702884752700735,
+      "paths": [
+        {
+          "path": "OuterCoast",
+          "distance_to_wall": 0.6489992295835203,
+          "required": 0.9950000000000001
+        }
+      ]
+    },
+    {
+      "xz": [
+        -17.5,
+        3.6
+      ],
+      "shore": 0.42854331995580097,
+      "paths": [
+        {
+          "path": "OuterCoast",
+          "distance_to_wall": 0.9681695353268202,
+          "required": 0.9950000000000001
+        }
+      ]
+    },
+    {
+      "xz": [
+        -17.2,
+        3.6
+      ],
+      "shore": 0.39967694780208696,
+      "paths": [
+        {
+          "path": "OuterCoast",
+          "distance_to_wall": 0.9338622982913112,
+          "required": 0.9950000000000001
+        }
+      ]
+    },
+    {
+      "xz": [
+        -17.0,
+        3.4
+      ],
+      "shore": 0.3839203420692529,
+      "paths": [
+        {
+          "path": "OuterCoast",
+          "distance_to_wall": 0.6552861334572665,
+          "required": 0.9950000000000001
+        }
+      ]
+    },
+    {
+      "xz": [
+        -17.5,
+        3.4
+      ],
+      "shore": 0.4320377634178585,
+      "paths": [
+        {
+          "path": "OuterCoast",
+          "distance_to_wall": 0.8480157992913524,
+          "required": 0.9950000000000001
+        }
+      ]
+    }
+  ],
+  "source_layout_sha256": "a5229dcb104f81e28424ab983bbeaea42e644c8e64a48a834ffa6c810ef46c3a"
+}

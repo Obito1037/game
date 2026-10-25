@@ -1,0 +1,46 @@
+{
+  "scope": "只读几何复核后的建议；没有修改布局、Unity或主交接文件。数值为离线几何计算，不是实际碰撞试玩。",
+  "recommended_house_sites_x_z_yaw_scale": [
+    [-17.5,3.6,90,0.8],[-17.8,6.7,90,0.8],[-17.8,9.9,90,0.8],
+    [-17.8,13.1,90,0.8],[-16.8,16.3,90,0.8],[-14.0,18.3,180,0.8],
+    [-9.0,3.7,270,0.8],[-9.4,7.1,270,0.8],[-9.5,10.5,270,0.8],
+    [-9.0,13.9,270,0.8],[-7.8,17.3,270,0.8]
+  ],
+  "house_notes": "维持teal/ochre/slate顺序。墙角的shore fraction均小于0.70，不互相重叠。部分屋之间墙面净距约0.52~0.58m，宜作为不可穿行缝隙。第一栋取-17.5而非初稿-17.9，以免压外环路。需沿用主代理新加平整地基。",
+  "grandmother": {
+    "recommended_yaw": 154,
+    "root_cape_local": [-3,0,4.7],
+    "window_world": [4.0016442644,4.02,-18.1739323084],
+    "seat_world": [3.4164187834,2.89,-16.9740422566],
+    "entry_world": [5.9384085363,2.56,-17.6966020716],
+    "window_to_pier_angle_from_yue_lamp_degrees": 43.3728,
+    "note": "154度同时修复真实圆窗朝向和宽光束余量。需要用实际marker重建Target_Window、NPC_ABo_Window和CapeHome末点，不要保留180度时的坐标。"
+  },
+  "recommended_cape_village_route_x_z": [[-1.5,-1],[-1.5,0],[0,1.3],[2.5,1.8],[2.5,4.8],[2.5,6.4],[0,8]],
+  "route_world_continuation": [[3,-11],[0,-8.2]],
+  "route_notes": "上列前段是CAPE局部坐标。较主代理待审版本仅抬高(0,.8)/(2.5,1.5)，避免道路背边压长椅约.113m。原待审版本与154度屋墙边间距.842m，含全路宽最大shore fraction .759；修订不会向海岸外扩。",
+  "wanfeng_recommendation": {
+    "position_cape_local": [0.6,3.8,6],
+    "reason": "原(1.2,3.8,6)的灯底座与(2.5,6.4)->(0,8)斜路边相交约.077m；左移到.6后净距约.246m。需重算实际灯头朝向。"
+  },
+  "spawn": {
+    "cape_local": [4.4,0.05,-3.5],
+    "spawn_lane_cape_x_z": [[4.4,-3.5],[4.4,-1.5],[3.8,1.2],[2.5,1.5]],
+    "width": 1.3,
+    "checked_max_shore_fraction_with_width": 0.40497,
+    "bench_clearance_from_road_edge": 0.34681,
+    "armillary_clearance_from_road_edge": 2.53005,
+    "note": "末点可延长0.3m接到修订主路(2.5,1.8)。"
+  },
+  "well": {
+    "recommended_world_xz": [-14.6,13],
+    "road_edge_clearance": 0.31643,
+    "reason": "旧候选(-14.1,13)井沿压主路约.177m。"
+  },
+  "remaining_limits": [
+    "当前所读layout没有树实例坐标，无法验证树枝/树干与房屋和路径之间的净距。",
+    "没有已落地的栈桥模块实例列表，因此木桩落点、岸端连接及精确桥端余量还未验证。",
+    "灯锚点的forward用于LampHead；不要用向下倾斜的forward旋转整根Structure灯柱。",
+    "最终仍需获得Unity使用权后核验FBX坐标、碰撞及游戏视角。"
+  ]
+}

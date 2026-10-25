@@ -1,0 +1,1073 @@
+{
+  "status": "passed-offline-integrity",
+  "scope": "Source and output hashes, manifest budgets and staging completeness. Triangle values come from Blender manifests; this is not an independent Unity import or FPS check.",
+  "checks": [
+    {
+      "name": "nine_original_sources",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "original_hash:tree_a",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "three_source_views:tree_a",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "original_hash:tree_b",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "three_source_views:tree_b",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "original_hash:tree_c",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "three_source_views:tree_c",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "original_hash:tree_gold",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "three_source_views:tree_gold",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "original_hash:rock_mountain",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "three_source_views:rock_mountain",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "original_hash:rock_mass",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "three_source_views:rock_mass",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "original_hash:rock_arch",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "three_source_views:rock_arch",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "original_hash:rock_cluster",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "three_source_views:rock_cluster",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "original_hash:boat",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "three_source_views:boat",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "triangles:tree_a",
+      "passed": true,
+      "detail": "11911 <= 12000"
+    },
+    {
+      "name": "fbx_hash:tree_a:lod0",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "fbx_hash:tree_a:lod1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "lod_ratio:tree_a",
+      "passed": true,
+      "detail": "0.3959"
+    },
+    {
+      "name": "texture_size:tree_a:tree_a_BaseColor.png",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "texture_hash:tree_a:tree_a_BaseColor.png",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "texture_size:tree_a:tree_a_LeafVeins_Emission.001.png",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "texture_hash:tree_a:tree_a_LeafVeins_Emission.001.png",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "texture_size:tree_a:tree_a_WarmFruit_Emission.001.png",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "texture_hash:tree_a:tree_a_WarmFruit_Emission.001.png",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "triangles:tree_a_sapling_01",
+      "passed": true,
+      "detail": "6410 <= 12000"
+    },
+    {
+      "name": "fbx_hash:tree_a_sapling_01:lod0",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "fbx_hash:tree_a_sapling_01:lod1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "lod_ratio:tree_a_sapling_01",
+      "passed": true,
+      "detail": "0.3922"
+    },
+    {
+      "name": "texture_size:tree_a_sapling_01:tree_a_sapling_01_BaseColor.png",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "texture_hash:tree_a_sapling_01:tree_a_sapling_01_BaseColor.png",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "texture_size:tree_a_sapling_01:tree_a_sapling_01_LeafVeins_Emission.001.png",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "texture_hash:tree_a_sapling_01:tree_a_sapling_01_LeafVeins_Emission.001.png",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "texture_size:tree_a_sapling_01:tree_a_sapling_01_WarmFruit_Emission.001.png",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "texture_hash:tree_a_sapling_01:tree_a_sapling_01_WarmFruit_Emission.001.png",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "triangles:tree_a_sapling_02",
+      "passed": true,
+      "detail": "6411 <= 12000"
+    },
+    {
+      "name": "fbx_hash:tree_a_sapling_02:lod0",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "fbx_hash:tree_a_sapling_02:lod1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "lod_ratio:tree_a_sapling_02",
+      "passed": true,
+      "detail": "0.3923"
+    },
+    {
+      "name": "texture_size:tree_a_sapling_02:tree_a_sapling_02_BaseColor.png",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "texture_hash:tree_a_sapling_02:tree_a_sapling_02_BaseColor.png",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "texture_size:tree_a_sapling_02:tree_a_sapling_02_LeafVeins_Emission.001.png",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "texture_hash:tree_a_sapling_02:tree_a_sapling_02_LeafVeins_Emission.001.png",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "texture_size:tree_a_sapling_02:tree_a_sapling_02_WarmFruit_Emission.001.png",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "texture_hash:tree_a_sapling_02:tree_a_sapling_02_WarmFruit_Emission.001.png",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "triangles:tree_b",
+      "passed": true,
+      "detail": "11966 <= 12000"
+    },
+    {
+      "name": "fbx_hash:tree_b:lod0",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "fbx_hash:tree_b:lod1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "lod_ratio:tree_b",
+      "passed": true,
+      "detail": "0.3963"
+    },
+    {
+      "name": "texture_size:tree_b:tree_b_BaseColor.png",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "texture_hash:tree_b:tree_b_BaseColor.png",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "texture_size:tree_b:tree_b_LeafVeins_Emission.001.png",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "texture_hash:tree_b:tree_b_LeafVeins_Emission.001.png",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "texture_size:tree_b:tree_b_WarmFruit_Emission.001.png",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "texture_hash:tree_b:tree_b_WarmFruit_Emission.001.png",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "triangles:tree_c",
+      "passed": true,
+      "detail": "11910 <= 12000"
+    },
+    {
+      "name": "fbx_hash:tree_c:lod0",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "fbx_hash:tree_c:lod1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "lod_ratio:tree_c",
+      "passed": true,
+      "detail": "0.3960"
+    },
+    {
+      "name": "texture_size:tree_c:tree_c_BaseColor.png",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "texture_hash:tree_c:tree_c_BaseColor.png",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "texture_size:tree_c:tree_c_LeafVeins_Emission.001.png",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "texture_hash:tree_c:tree_c_LeafVeins_Emission.001.png",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "texture_size:tree_c:tree_c_WarmFruit_Emission.001.png",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "texture_hash:tree_c:tree_c_WarmFruit_Emission.001.png",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "triangles:tree_gold",
+      "passed": true,
+      "detail": "29911 <= 30000"
+    },
+    {
+      "name": "fbx_hash:tree_gold:lod0",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "fbx_hash:tree_gold:lod1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "lod_ratio:tree_gold",
+      "passed": true,
+      "detail": "0.3983"
+    },
+    {
+      "name": "texture_size:tree_gold:tree_gold_BaseColor.png",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "texture_hash:tree_gold:tree_gold_BaseColor.png",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "texture_size:tree_gold:tree_gold_LeafVeins_Emission.001.png",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "texture_hash:tree_gold:tree_gold_LeafVeins_Emission.001.png",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "texture_size:tree_gold:tree_gold_WarmFruit_Emission.001.png",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "texture_hash:tree_gold:tree_gold_WarmFruit_Emission.001.png",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "triangles:rock_mountain",
+      "passed": true,
+      "detail": "7796 <= 8000"
+    },
+    {
+      "name": "fbx_hash:rock_mountain:lod0",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "fbx_hash:rock_mountain:lod1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "lod_ratio:rock_mountain",
+      "passed": true,
+      "detail": "0.3967"
+    },
+    {
+      "name": "texture_size:rock_mountain:rock_mountain_BaseColor.png",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "texture_hash:rock_mountain:rock_mountain_BaseColor.png",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "triangles:rock_mass",
+      "passed": true,
+      "detail": "7813 <= 8000"
+    },
+    {
+      "name": "fbx_hash:rock_mass:lod0",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "fbx_hash:rock_mass:lod1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "lod_ratio:rock_mass",
+      "passed": true,
+      "detail": "0.3969"
+    },
+    {
+      "name": "texture_size:rock_mass:rock_mass_BaseColor.png",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "texture_hash:rock_mass:rock_mass_BaseColor.png",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "triangles:rock_arch",
+      "passed": true,
+      "detail": "7800 <= 8000"
+    },
+    {
+      "name": "fbx_hash:rock_arch:lod0",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "fbx_hash:rock_arch:lod1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "lod_ratio:rock_arch",
+      "passed": true,
+      "detail": "0.3968"
+    },
+    {
+      "name": "texture_size:rock_arch:rock_arch_BaseColor.png",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "texture_hash:rock_arch:rock_arch_BaseColor.png",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "triangles:rock_cluster",
+      "passed": true,
+      "detail": "7811 <= 8000"
+    },
+    {
+      "name": "fbx_hash:rock_cluster:lod0",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "fbx_hash:rock_cluster:lod1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "lod_ratio:rock_cluster",
+      "passed": true,
+      "detail": "0.3967"
+    },
+    {
+      "name": "texture_size:rock_cluster:rock_cluster_BaseColor.png",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "texture_hash:rock_cluster:rock_cluster_BaseColor.png",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "triangles:boat",
+      "passed": true,
+      "detail": "29816 <= 30000"
+    },
+    {
+      "name": "fbx_hash:boat:lod0",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "texture_size:boat:boat_BaseColor.png",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "texture_hash:boat:boat_BaseColor.png",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "triangles:rock_cluster_reef_01",
+      "passed": true,
+      "detail": "2815 <= 3000"
+    },
+    {
+      "name": "fbx_hash:rock_cluster_reef_01:lod0",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "fbx_hash:rock_cluster_reef_01:lod1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "texture_size:rock_cluster_reef_01:rock_cluster_reef_01_BaseColor.png",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "texture_hash:rock_cluster_reef_01:rock_cluster_reef_01_BaseColor.png",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "triangles:rock_cluster_reef_02",
+      "passed": true,
+      "detail": "2816 <= 3000"
+    },
+    {
+      "name": "fbx_hash:rock_cluster_reef_02:lod0",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "fbx_hash:rock_cluster_reef_02:lod1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "texture_size:rock_cluster_reef_02:rock_cluster_reef_02_BaseColor.png",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "texture_hash:rock_cluster_reef_02:rock_cluster_reef_02_BaseColor.png",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "sixteen_props",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "props_roundtrip_verified",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "prop_hash:cottage_teal",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "prop_hash:cottage_ochre",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "prop_hash:cottage_slate",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "prop_hash:abode_grandma",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "prop_hash:copper_roadlamp",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "prop_hash:pier_module",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "prop_hash:pier_end",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "prop_hash:flagpole_blue",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "prop_hash:harbor_lantern",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "prop_hash:bench",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "prop_hash:dock_crate",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "prop_hash:dock_kettle",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "prop_hash:armillary_platform",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "prop_hash:crescent_sculpture",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "prop_hash:village_well",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "prop_hash:laundry_line",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "all_instances_have_models",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "eleven_houses",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "exactly_three_lamps",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "budget_with_allowance_for_sky",
+      "passed": true,
+      "detail": 505097
+    },
+    {
+      "name": "land_boundary_no_self_crossing",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "beam_centres:chapter1:Anchor_Lamp_WanFeng",
+      "passed": true,
+      "detail": 11.319441729964893
+    },
+    {
+      "name": "beam_centres:chapter2:Anchor_Lamp_WanFeng",
+      "passed": true,
+      "detail": 11.319441729964893
+    },
+    {
+      "name": "beam_centres:chapter2:Anchor_Lamp_YueChuang",
+      "passed": true,
+      "detail": 12.0
+    },
+    {
+      "name": "beam_centres:chapter3:Anchor_Lamp_WanFeng",
+      "passed": true,
+      "detail": 12.0
+    },
+    {
+      "name": "beam_centres:chapter3:Anchor_Lamp_YueChuang",
+      "passed": true,
+      "detail": 8.313565099584078
+    },
+    {
+      "name": "beam_centres:chapter3:Anchor_Lamp_GuiHang",
+      "passed": true,
+      "detail": 12.0
+    },
+    {
+      "name": "staged_model:cottage_teal:path",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "staged_model:cottage_ochre:path",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "staged_model:cottage_slate:path",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "staged_model:abode_grandma:path",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "staged_model:copper_roadlamp:path",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "staged_model:pier_module:path",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "staged_model:pier_end:path",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "staged_model:flagpole_blue:path",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "staged_model:harbor_lantern:path",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "staged_model:bench:path",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "staged_model:dock_crate:path",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "staged_model:dock_kettle:path",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "staged_model:armillary_platform:path",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "staged_model:crescent_sculpture:path",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "staged_model:village_well:path",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "staged_model:laundry_line:path",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "staged_model:island_terrain:path",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "staged_model:tree_a:path",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "staged_model:tree_a:lod1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "staged_model:tree_a_sapling_01:path",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "staged_model:tree_a_sapling_01:lod1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "staged_model:tree_a_sapling_02:path",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "staged_model:tree_a_sapling_02:lod1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "staged_model:tree_b:path",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "staged_model:tree_b:lod1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "staged_model:tree_c:path",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "staged_model:tree_c:lod1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "staged_model:tree_gold:path",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "staged_model:tree_gold:lod1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "staged_model:rock_mountain:path",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "staged_model:rock_mountain:lod1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "staged_model:rock_mass:path",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "staged_model:rock_mass:lod1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "staged_model:rock_arch:path",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "staged_model:rock_arch:lod1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "staged_model:rock_cluster:path",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "staged_model:rock_cluster:lod1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "staged_model:boat:path",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "staged_model:rock_cluster_reef_01:path",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "staged_model:rock_cluster_reef_01:lod1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "staged_model:rock_cluster_reef_02:path",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "staged_model:rock_cluster_reef_02:lod1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "finite_anchor:Anchor_PlayerSpawn",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "finite_anchor:Anchor_Lamp_WanFeng",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "finite_anchor:Anchor_Lamp_YueChuang",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "finite_anchor:Anchor_Lamp_GuiHang",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "finite_anchor:Target_Path",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "finite_anchor:Target_Bench",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "finite_anchor:Target_Window",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "finite_anchor:Target_Pier",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "finite_anchor:Anchor_FlagpoleHook",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "finite_anchor:NPC_AYing",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "finite_anchor:NPC_Postman",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "finite_anchor:NPC_Bench",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "finite_anchor:NPC_ABo_Window",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "finite_anchor:NPC_DengBo_Box",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "finite_anchor:Anchor_VillageGate",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "finite_anchor:Anchor_GoldenTree",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "finite_anchor:Anchor_Boat",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "finite_anchor:Target_Sea",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "finite_anchor:NPC_ABo_Door",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "finite_anchor:Cam_Title",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "finite_anchor:Cam_Puzzle",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "finite_anchor:Cam_Pier",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "finite_anchor:Cam_Village",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "finite_anchor:Sky_ScatterZone_Village",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "finite_anchor:Sky_ScatterZone_Pier",
+      "passed": true,
+      "detail": ""
+    }
+  ],
+  "failed": [],
+  "unity": "Separate Unity evidence: art/verification/env-v1/validation.json; this script checks offline assets only."
+}

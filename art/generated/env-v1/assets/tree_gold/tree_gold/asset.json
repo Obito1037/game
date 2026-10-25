@@ -1,0 +1,147 @@
+{
+  "id": "tree_gold",
+  "source_id": "tree_gold",
+  "kind": "tree",
+  "source_path": "art/incoming/env-2026-10-22/tree_gold/灯光盆景树3d模型.glb",
+  "source_sha256": "09ec05afad23b9a7ce901d2f15b0dd6289c807c30ef675f25d74925856003cec",
+  "input_component_ranks": [
+    0,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    11,
+    13
+  ],
+  "input_triangles": 1315984,
+  "scale_to_metres": 8.122552178870656,
+  "dimensions_xyz_blender_metres": [
+    5.405969142913818,
+    5.350407600402832,
+    4.993381023406982
+  ],
+  "dimensions_xyz_unity_metres": [
+    5.405969142913818,
+    4.993380968924612,
+    5.350407838821411
+  ],
+  "pivot": "bottom centre of all retained parts; base and trunk share exact world-aligned origin",
+  "axis": "FBX Y-up, -Z forward; metres; baked space transform",
+  "steps": [
+    "manual grouping by connected components and three-view source inspection",
+    "discard presentation-sheet cutaways and duplicate floating study panels",
+    "weld coincident glTF seam vertices while preserving UV loops",
+    "uniform physical scale; bottom-centre pivot",
+    "QEM collapse decimation",
+    "new smart-projected UV atlas; diffuse-colour reprojection from retained high-poly source",
+    "separate selectable tree base by horizontal cut; preserve co-located trunk/base seam",
+    "remove only buried downward bottom-cap faces",
+    "separate bark / leaf veins / amber fruit materials by UV-colour mask",
+    "tight high-luminance gold mask excludes orange-brown branches from fruit emission"
+  ],
+  "bottom_faces_removed": 351,
+  "textures": [
+    {
+      "path": "art/generated/env-v1/assets/tree_gold/textures/tree_gold_BaseColor.png",
+      "sha256": "3e50e659d95dbab04e06c75efd5001e7c7812a2c63206ed89081a50e9645c668",
+      "width": 2048,
+      "height": 2048,
+      "color_space": "sRGB"
+    },
+    {
+      "path": "art/generated/env-v1/assets/tree_gold/textures/tree_gold_LeafVeins_Emission.001.png",
+      "sha256": "270fc5874b051c259edef3996c57386355d76c37fc72fb15a68a09296d057f69",
+      "width": 2048,
+      "height": 2048,
+      "color_space": "Linear / Non-Color"
+    },
+    {
+      "path": "art/generated/env-v1/assets/tree_gold/textures/tree_gold_WarmFruit_Emission.001.png",
+      "sha256": "b59b25ffc96cfb46baa04292bd9e967ca1dd94a8101fffc3bac74fc4cdec5228",
+      "width": 2048,
+      "height": 2048,
+      "color_space": "Linear / Non-Color"
+    }
+  ],
+  "materials": [
+    {
+      "name": "tree_gold_Bark",
+      "role": "Bark",
+      "base_color_texture": "art/generated/env-v1/assets/tree_gold/textures/tree_gold_BaseColor.png",
+      "roughness": 0.86,
+      "emission_color": [
+        0,
+        0,
+        0
+      ],
+      "emission_strength": 0
+    },
+    {
+      "name": "tree_gold_LeafVeins",
+      "role": "LeafVeins",
+      "base_color_texture": "art/generated/env-v1/assets/tree_gold/textures/tree_gold_BaseColor.png",
+      "roughness": 0.86,
+      "emission_color": [
+        1,
+        0.48,
+        0.13
+      ],
+      "emission_strength": 0.22,
+      "emission_texture": "art/generated/env-v1/assets/tree_gold/textures/tree_gold_LeafVeins_Emission.001.png"
+    },
+    {
+      "name": "tree_gold_WarmFruit",
+      "role": "WarmFruit",
+      "base_color_texture": "art/generated/env-v1/assets/tree_gold/textures/tree_gold_BaseColor.png",
+      "roughness": 0.86,
+      "emission_color": [
+        1,
+        0.48,
+        0.13
+      ],
+      "emission_strength": 1.35,
+      "emission_texture": "art/generated/env-v1/assets/tree_gold/textures/tree_gold_WarmFruit_Emission.001.png"
+    }
+  ],
+  "lod0": {
+    "fbx": "art/generated/env-v1/assets/tree_gold/tree_gold/tree_gold_LOD0.fbx",
+    "sha256": "8fcf04efcda95f5a58b4cae9b77bdad06d8b99981033c39662f3032ab8eed6b8",
+    "triangles": 29911,
+    "objects": [
+      {
+        "name": "tree_gold",
+        "triangles": 28125
+      },
+      {
+        "name": "tree_gold_Base",
+        "triangles": 1786
+      }
+    ]
+  },
+  "previews": {
+    "front": "art/generated/env-v1/assets/tree_gold/tree_gold/previews/processed-front.png",
+    "side": "art/generated/env-v1/assets/tree_gold/tree_gold/previews/processed-side.png",
+    "top": "art/generated/env-v1/assets/tree_gold/tree_gold/previews/processed-top.png"
+  },
+  "lod1": {
+    "fbx": "art/generated/env-v1/assets/tree_gold/tree_gold/tree_gold_LOD1.fbx",
+    "sha256": "dd6dbe546e882bbfe00532b36e533119798edd6a81a23df30762ddd6102ee7ed",
+    "triangles": 11914,
+    "ratio": 0.39831500117013807
+  },
+  "review": "Manual front/side/top preview review complete for the first-island environment handoff; source presentation panels removed. Tree foliage remains visibly simplified at close range. Technical checks are recorded separately and do not establish all-surface perfection.",
+  "material_face_counts": {
+    "tree_gold_Bark": 26815,
+    "tree_gold_LeafVeins": 2969,
+    "tree_gold_WarmFruit": 127
+  },
+  "blend": "art/generated/env-v1/assets/tree_gold/tree_gold/tree_gold_optimized.blend",
+  "technical_scope": "Blender offline processing, screenshots, and FBX roundtrip; no Unity import, physics, or performance validation",
+  "known_limits": [
+    "Leaves and branches remain simplified at the requested low triangle budget.",
+    "Fruit/leaf material masks derive from source colour; artist review remains necessary.",
+    "No per-leaf topology guarantee or animated foliage rig."
+  ]
+}

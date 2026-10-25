@@ -1,0 +1,47 @@
+{
+  "asset_id": "dock_kettle",
+  "description": "灯伯脚边铁皮水壶与一碗热水，简化实体占位。",
+  "source": "Original procedural placeholder authored for the final JieGuang script; no legacy game asset reused.",
+  "source_script": "art/blender/env_v1_props.py",
+  "source_script_sha256": "099a96576a12e59be951e42e549714b1cd4429d657633ea47843fcf83625ad1d",
+  "fbx": "art/generated/env-v1/props/dock_kettle/dock_kettle.fbx",
+  "fbx_sha256": "e36f82147cc443b2e5146e9f2d52aaefeaf77a5d05a55829090722e311b176c3",
+  "triangles": 436,
+  "meshes": [
+    {
+      "name": "Structure",
+      "triangles": 436,
+      "materials": [
+        "Wood_Weathered",
+        "Iron_Blackened",
+        "Wood_Honey",
+        "Cloth_Unbleached"
+      ]
+    }
+  ],
+  "bounds_blender": {
+    "min": [
+      -0.3850000202655792,
+      -0.15000000596046448,
+      0.007500007748603821
+    ],
+    "max": [
+      0.27449625730514526,
+      0.15000000596046448,
+      0.5299999713897705
+    ]
+  },
+  "dimensions_metres": [
+    0.6595,
+    0.3,
+    0.5225
+  ],
+  "coordinates": "Blender Z-up, front -Y; FBX Y-up/-Z; intended Unity point mapping (x,z,-y), confirm after import.",
+  "root_pivot_blender": [
+    0,
+    0,
+    0
+  ],
+  "markers": {},
+  "notes": []
+}

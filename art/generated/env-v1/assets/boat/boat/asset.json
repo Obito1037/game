@@ -1,0 +1,80 @@
+{
+  "id": "boat",
+  "source_id": "boat",
+  "kind": "boat",
+  "source_path": "art/incoming/env-2026-10-22/boat/木质小艇3d模型.glb",
+  "source_sha256": "69eeff54d79778a86595f53744a7a10a92f666f17a17420ba2c3a0c0879e56cc",
+  "input_component_ranks": [
+    0
+  ],
+  "input_triangles": 1268972,
+  "scale_to_metres": 4.294760157999676,
+  "dimensions_xyz_blender_metres": [
+    1.7101502418518066,
+    5.001363754272461,
+    1.446919560432434
+  ],
+  "dimensions_xyz_unity_metres": [
+    1.7101503014564514,
+    1.4469195171259344,
+    5.001363754272461
+  ],
+  "pivot": "bottom centre of all retained parts; base and trunk share exact world-aligned origin",
+  "axis": "FBX Y-up, -Z forward; metres; baked space transform",
+  "steps": [
+    "manual grouping by connected components and three-view source inspection",
+    "discard presentation-sheet cutaways and duplicate floating study panels",
+    "weld coincident glTF seam vertices while preserving UV loops",
+    "uniform physical scale; bottom-centre pivot",
+    "QEM collapse decimation",
+    "new smart-projected UV atlas; diffuse-colour reprojection from retained high-poly source",
+    "preserve all selected visible object geometry",
+    "preserve boat interior and hull bottom",
+    "matte source-colour material"
+  ],
+  "bottom_faces_removed": 0,
+  "textures": [
+    {
+      "path": "art/generated/env-v1/assets/boat/textures/boat_BaseColor.png",
+      "sha256": "ae82850e9e93be4039c231763eb2d9ac57a0e67119c48542d11e6590f106e690",
+      "width": 2048,
+      "height": 2048,
+      "color_space": "sRGB"
+    }
+  ],
+  "materials": [
+    {
+      "name": "boat_Wood",
+      "role": "Wood",
+      "base_color_texture": "art/generated/env-v1/assets/boat/textures/boat_BaseColor.png",
+      "roughness": 0.86,
+      "emission_color": [
+        0,
+        0,
+        0
+      ],
+      "emission_strength": 0
+    }
+  ],
+  "lod0": {
+    "fbx": "art/generated/env-v1/assets/boat/boat/boat_LOD0.fbx",
+    "sha256": "596ec4b08700db0437fd2509cdcd6dbad59e5a8f160bf2f92edf93c16d3d8561",
+    "triangles": 29816,
+    "objects": [
+      {
+        "name": "boat",
+        "triangles": 29816
+      }
+    ]
+  },
+  "previews": {
+    "front": "art/generated/env-v1/assets/boat/boat/previews/processed-front.png",
+    "side": "art/generated/env-v1/assets/boat/boat/previews/processed-side.png",
+    "top": "art/generated/env-v1/assets/boat/boat/previews/processed-top.png"
+  },
+  "review": "Manual front/side/top preview review complete for the first-island environment handoff; source presentation panels removed. Tree foliage remains visibly simplified at close range. Technical checks are recorded separately and do not establish all-surface perfection.",
+  "technical_scope": "Blender offline processing, screenshots, and FBX roundtrip; no Unity import, physics, or performance validation",
+  "known_limits": [
+    "Static wooden boat; no buoyancy, collision proxy or boarding controls supplied."
+  ]
+}

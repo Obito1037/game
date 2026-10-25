@@ -1,0 +1,46 @@
+{
+  "mesh_count": 1,
+  "light_camera_count": 0,
+  "emission_defaults": {
+    "V2_Lamp_AmberGlass_AlwaysVisible": 0.0,
+    "V2_Lamp_LightFruit_Controlled": 0.0
+  },
+  "packed_images": [
+    {
+      "name": "Lamp_Copper_Albedo.png",
+      "size": [
+        512,
+        512
+      ],
+      "packed": true,
+      "bytes": 1221878
+    },
+    {
+      "name": "Lamp_Copper_Height.png",
+      "size": [
+        512,
+        512
+      ],
+      "packed": true,
+      "bytes": 712194
+    },
+    {
+      "name": "Lamp_Copper_MetallicSmoothness.png",
+      "size": [
+        512,
+        512
+      ],
+      "packed": true,
+      "bytes": 582303
+    },
+    {
+      "name": "Lamp_Copper_Roughness.png",
+      "size": [
+        512,
+        512
+      ],
+      "packed": true,
+      "bytes": 622186
+    }
+  ]
+}

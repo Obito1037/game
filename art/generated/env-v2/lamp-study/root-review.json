@@ -1,0 +1,58 @@
+{
+  "candidate": "d",
+  "review_scope": "two independent lamp assets, six Blender offline renders",
+  "reviewer": "root",
+  "image_count": 6,
+  "images": [
+    {
+      "path": "candidate-d/copper_roadlamp/neutral-off.png",
+      "sha256": "8ec62b6b1cd1c5f543faed0f1ed758d209e9689b63a18cd53aa863a3cd897e1b",
+      "reviewer": "root",
+      "evidence": "Root explicitly stated personal viewing of this image in its task message."
+    },
+    {
+      "path": "candidate-d/copper_roadlamp/night-on.png",
+      "sha256": "c9011d163f6f070d94d92ae4efedd99852607f86d8b5c88eaf622aad0dc171bc",
+      "reviewer": "root",
+      "evidence": "Root explicitly stated personal viewing of this image in its task message."
+    },
+    {
+      "path": "candidate-d/copper_roadlamp/night-off.png",
+      "sha256": "5e53363178a33cc9d771446a87e7fdec05e5d74de414d03724b5a76684a5679a",
+      "reviewer": "root",
+      "evidence": "Root explicitly stated personal viewing of this image in its task message."
+    },
+    {
+      "path": "candidate-d/harbor_lantern/neutral-off.png",
+      "sha256": "00f06e7198991fbf1ea2ef8b0092f73a5fcd0ec532ab85eb878aede4c88b8129",
+      "reviewer": "root",
+      "evidence": "Root explicitly stated personal viewing of this image in its task message."
+    },
+    {
+      "path": "candidate-d/harbor_lantern/night-on.png",
+      "sha256": "f610e2a56df925e1a60fe4198a92ef0a6fc734ba01f74c4e22f8b7ba676305c2",
+      "reviewer": "root",
+      "evidence": "Root explicitly stated personal viewing of this image in its task message."
+    },
+    {
+      "path": "candidate-d/harbor_lantern/night-off.png",
+      "sha256": "b8bf89e2955a88f1f733488ab310472b8bedda14b7cd9c7cd0d3efd80a19b915",
+      "reviewer": "root",
+      "evidence": "Root explicitly stated personal viewing of this image in its task message."
+    }
+  ],
+  "decision": "Accepted as offline candidates for later Unity visual review; not integrated and not full-island quality approval.",
+  "observations": [
+    "Roadlamp blotches and liquid-like reflections significantly reduced.",
+    "Harbor glass outline/reflection remains weak at night.",
+    "Light fruit remains a simplified single core."
+  ],
+  "not_verified": [
+    "Unity/URP material appearance",
+    "real gameplay emission binding and per-slot control",
+    "full-island quality",
+    "gameplay lighting and shadow behavior",
+    "FPS or WebGL"
+  ],
+  "supersedes": "Harbor pending-review status in earlier manifest.json / REVIEW.html reflects the state before this explicit root review. This record is the later review decision."
+}

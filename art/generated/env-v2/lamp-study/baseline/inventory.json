@@ -1,0 +1,520 @@
+[
+  {
+    "asset": "copper_roadlamp",
+    "source": "art\\generated\\env-v1\\props\\copper_roadlamp\\copper_roadlamp.blend",
+    "source_sha256": "36d73c203ee1004f66955c4c45fb8b3a558905936fd503ae916284c3e774095b",
+    "fbx_sha256": "8580c85b85f02577ad0f4828185bd3a2a4d2f16b51eb82c5b7853b4ce30e68cf",
+    "triangles": 606,
+    "objects": {
+      "LampHead": {
+        "type": "MESH",
+        "parent": "copper_roadlamp",
+        "matrix_world": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "triangles": 258,
+        "materials": [
+          "Copper_Aged",
+          "Lantern_AmberCore",
+          "Gold_WornEdges"
+        ],
+        "uv_layers": [
+          "UVMap"
+        ],
+        "world_bounds": [
+          [
+            -0.24500000476837158,
+            -0.33500000834465027,
+            -0.24500000476837158
+          ],
+          [
+            0.24500000476837158,
+            0.11999999731779099,
+            0.24500000476837158
+          ]
+        ]
+      },
+      "Marker_Base": {
+        "type": "EMPTY",
+        "parent": "copper_roadlamp",
+        "matrix_world": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            -3.799999952316284
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "location": [
+          0.0,
+          0.0,
+          -3.799999952316284
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "Marker_Bulb": {
+        "type": "EMPTY",
+        "parent": "copper_roadlamp",
+        "matrix_world": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            -0.2849999964237213
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "location": [
+          0.0,
+          -0.2849999964237213,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "Structure": {
+        "type": "MESH",
+        "parent": "copper_roadlamp",
+        "matrix_world": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "triangles": 348,
+        "materials": [
+          "Copper_Aged",
+          "Gold_WornEdges"
+        ],
+        "uv_layers": [
+          "UVMap"
+        ],
+        "world_bounds": [
+          [
+            -0.23999999463558197,
+            -0.23999999463558197,
+            -3.799999952316284
+          ],
+          [
+            0.23999999463558197,
+            0.23999999463558197,
+            0.0
+          ]
+        ]
+      },
+      "copper_roadlamp": {
+        "type": "EMPTY",
+        "parent": null,
+        "matrix_world": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      }
+    },
+    "materials": {
+      "Copper_Aged": {
+        "Base Color": [
+          0.4300000071525574,
+          0.23999999463558197,
+          0.10000000149011612,
+          1.0
+        ],
+        "Metallic": 0.6000000238418579,
+        "Roughness": 0.41999998688697815,
+        "Emission Color": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "Emission Strength": 0.0,
+        "Transmission Weight": 0.0,
+        "IOR": 1.5
+      },
+      "Gold_WornEdges": {
+        "Base Color": [
+          0.6700000166893005,
+          0.41999998688697815,
+          0.11999999731779099,
+          1.0
+        ],
+        "Metallic": 0.6600000262260437,
+        "Roughness": 0.36000001430511475,
+        "Emission Color": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "Emission Strength": 0.0,
+        "Transmission Weight": 0.0,
+        "IOR": 1.5
+      },
+      "Lantern_AmberCore": {
+        "Base Color": [
+          1.0,
+          0.5799999833106995,
+          0.1899999976158142,
+          1.0
+        ],
+        "Metallic": 0.0,
+        "Roughness": 0.30000001192092896,
+        "Emission Color": [
+          1.0,
+          0.5799999833106995,
+          0.1899999976158142,
+          1.0
+        ],
+        "Emission Strength": 2.200000047683716,
+        "Transmission Weight": 0.0,
+        "IOR": 1.5
+      }
+    }
+  },
+  {
+    "asset": "harbor_lantern",
+    "source": "art\\generated\\env-v1\\props\\harbor_lantern\\harbor_lantern.blend",
+    "source_sha256": "f70d8aad0178c7f002377287d096fb98770ed5659eb008236c2fcb219b2cff1f",
+    "fbx_sha256": "2838797eabe43a1f35333844cdfd43030f171044708ae5b4c3c80529b6df9901",
+    "triangles": 436,
+    "objects": {
+      "Marker_HangingPoint": {
+        "type": "EMPTY",
+        "parent": "harbor_lantern",
+        "matrix_world": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.7900000214576721
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "location": [
+          0.0,
+          0.0,
+          0.7900000214576721
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "Structure": {
+        "type": "MESH",
+        "parent": "harbor_lantern",
+        "matrix_world": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "triangles": 436,
+        "materials": [
+          "Iron_Blackened",
+          "Lantern_AmberCore",
+          "Copper_Aged"
+        ],
+        "uv_layers": [
+          "UVMap"
+        ],
+        "world_bounds": [
+          [
+            -0.18000000715255737,
+            -0.18000000715255737,
+            0.0
+          ],
+          [
+            0.18000000715255737,
+            0.18000000715255737,
+            0.7929999828338623
+          ]
+        ]
+      },
+      "harbor_lantern": {
+        "type": "EMPTY",
+        "parent": null,
+        "matrix_world": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      }
+    },
+    "materials": {
+      "Iron_Blackened": {
+        "Base Color": [
+          0.11999999731779099,
+          0.14000000059604645,
+          0.14000000059604645,
+          1.0
+        ],
+        "Metallic": 0.6200000047683716,
+        "Roughness": 0.44999998807907104,
+        "Emission Color": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "Emission Strength": 0.0,
+        "Transmission Weight": 0.0,
+        "IOR": 1.5
+      },
+      "Lantern_AmberCore": {
+        "Base Color": [
+          1.0,
+          0.5799999833106995,
+          0.1899999976158142,
+          1.0
+        ],
+        "Metallic": 0.0,
+        "Roughness": 0.30000001192092896,
+        "Emission Color": [
+          1.0,
+          0.5799999833106995,
+          0.1899999976158142,
+          1.0
+        ],
+        "Emission Strength": 2.200000047683716,
+        "Transmission Weight": 0.0,
+        "IOR": 1.5
+      },
+      "Copper_Aged": {
+        "Base Color": [
+          0.4300000071525574,
+          0.23999999463558197,
+          0.10000000149011612,
+          1.0
+        ],
+        "Metallic": 0.6000000238418579,
+        "Roughness": 0.41999998688697815,
+        "Emission Color": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "Emission Strength": 0.0,
+        "Transmission Weight": 0.0,
+        "IOR": 1.5
+      }
+    }
+  }
+]

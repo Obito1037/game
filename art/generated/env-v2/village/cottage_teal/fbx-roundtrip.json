@@ -1,0 +1,95 @@
+{
+  "asset_id": "cottage_teal",
+  "triangles": 1478,
+  "checks": {
+    "mesh_names_exact": true,
+    "total_triangles_exact": true,
+    "per_mesh_triangles_exact": true,
+    "structure_9_material_slots_exact": true,
+    "bounds_within_1micrometre": true,
+    "marker_matrix_within_1micrometre": true,
+    "bidirectional_vertices_within_1micrometre": true,
+    "wood_uv0_exists": true,
+    "root_exists": true
+  },
+  "geometry_errors": {
+    "Structure": {
+      "forward_max_m": 6.419616624953051e-07,
+      "reverse_max_m": 6.419616624953051e-07
+    },
+    "Window_00": {
+      "forward_max_m": 4.2981520209650625e-07,
+      "reverse_max_m": 4.2981520209650625e-07
+    },
+    "Window_01": {
+      "forward_max_m": 4.2981520209650625e-07,
+      "reverse_max_m": 4.2981520209650625e-07
+    }
+  },
+  "bounds": {
+    "min": [
+      -1.871727705001831,
+      -1.7949999570846558,
+      -2.26459746954788e-07
+    ],
+    "max": [
+      1.871727705001831,
+      1.661684513092041,
+      3.635000228881836
+    ]
+  },
+  "window_matrices": {
+    "Window_00": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        0.7440000176429749
+      ],
+      [
+        0.0,
+        1.0,
+        1.6292068494294654e-07,
+        -1.3629997968673706
+      ],
+      [
+        0.0,
+        -1.6292068494294654e-07,
+        1.0,
+        1.4000002145767212
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "Window_01": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        1.6292068494294654e-07,
+        1.3630002737045288
+      ],
+      [
+        0.0,
+        -1.6292068494294654e-07,
+        1.0,
+        1.399999737739563
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  }
+}

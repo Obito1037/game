@@ -1,0 +1,85 @@
+{
+  "before": "911edcd9522cbef6900ec0e29d92084ccf8dc6a6addcf8a88c491aa7c3b06435",
+  "after": "49ee19d445c83dd62c39a64f1e2b589c3adc509b401f8028672429f048a72d6b",
+  "lod0_geometry_uv_color_slots_identical": false,
+  "lod0_changed_components": {
+    "LeafPetioles_LOD0": [],
+    "MainWood_LOD0": [],
+    "SecondaryWood_LOD0": [],
+    "SilverGreenLeaves_LOD0": [],
+    "SparseWarmFruit_LOD0": [
+      "polygons",
+      "uv"
+    ]
+  },
+  "lod0_oriented_faces_uv_slots_smoothing_identical": true,
+  "lod0_canonical_changed_objects": [],
+  "png_dimensions": {
+    "candidate-lod1-neutral-whole.png": [
+      1000,
+      1000
+    ],
+    "candidate-neutral-canopy.png": [
+      1000,
+      1000
+    ],
+    "candidate-neutral-forks.png": [
+      1000,
+      1000
+    ],
+    "candidate-neutral-side.png": [
+      1000,
+      1000
+    ],
+    "candidate-neutral-underside.png": [
+      1000,
+      1000
+    ],
+    "candidate-neutral-whole.png": [
+      1000,
+      1000
+    ],
+    "candidate-night-canopy.png": [
+      1000,
+      1000
+    ],
+    "candidate-night-whole.png": [
+      1000,
+      1000
+    ],
+    "reference-neutral-canopy.png": [
+      1000,
+      1000
+    ],
+    "reference-neutral-whole.png": [
+      1000,
+      1000
+    ],
+    "reference-night-canopy.png": [
+      1000,
+      1000
+    ],
+    "reference-night-whole.png": [
+      1000,
+      1000
+    ]
+  },
+  "html_missing_local_links": [],
+  "manifest_hash_matches": {
+    "art\\generated\\env-v2\\vegetation-geometry\\candidate-lod1-neutral-whole.png": true,
+    "art\\generated\\env-v2\\vegetation-geometry\\candidate-neutral-canopy.png": true,
+    "art\\generated\\env-v2\\vegetation-geometry\\candidate-neutral-forks.png": true,
+    "art\\generated\\env-v2\\vegetation-geometry\\candidate-neutral-side.png": true,
+    "art\\generated\\env-v2\\vegetation-geometry\\candidate-neutral-underside.png": true,
+    "art\\generated\\env-v2\\vegetation-geometry\\candidate-neutral-whole.png": true,
+    "art\\generated\\env-v2\\vegetation-geometry\\candidate-night-canopy.png": true,
+    "art\\generated\\env-v2\\vegetation-geometry\\candidate-night-whole.png": true,
+    "art\\generated\\env-v2\\vegetation-geometry\\gold_lighttree_geometry_candidate.blend": true,
+    "art\\generated\\env-v2\\vegetation-geometry\\gold_lighttree_geometry_LOD0.fbx": true,
+    "art\\generated\\env-v2\\vegetation-geometry\\gold_lighttree_geometry_LOD1.fbx": true,
+    "art\\generated\\env-v2\\vegetation-geometry\\reference-neutral-canopy.png": true,
+    "art\\generated\\env-v2\\vegetation-geometry\\reference-neutral-whole.png": true,
+    "art\\generated\\env-v2\\vegetation-geometry\\reference-night-canopy.png": true,
+    "art\\generated\\env-v2\\vegetation-geometry\\reference-night-whole.png": true
+  }
+}

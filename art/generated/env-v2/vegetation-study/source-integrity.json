@@ -1,0 +1,102 @@
+{
+  "Scope": "Read-only v1 blends and texture files",
+  "AllPassed": true,
+  "Checks": [
+    {
+      "Path": "art\\generated\\env-v1\\assets\\tree_a\\tree_a\\tree_a_optimized.blend",
+      "Expected": "6a9d4e84383d431a694c28000b814427ba8ffa7a84a494085ee39c1ba30e0aaf",
+      "Actual": "6a9d4e84383d431a694c28000b814427ba8ffa7a84a494085ee39c1ba30e0aaf",
+      "Passed": true
+    },
+    {
+      "Path": "art\\generated\\env-v1\\assets\\tree_b\\tree_b\\tree_b_optimized.blend",
+      "Expected": "4d16ae4573b4e835aa30a59cf95a0a2c68b3de7c72e542b1e765f5dea0c88b97",
+      "Actual": "4d16ae4573b4e835aa30a59cf95a0a2c68b3de7c72e542b1e765f5dea0c88b97",
+      "Passed": true
+    },
+    {
+      "Path": "art\\generated\\env-v1\\assets\\tree_c\\tree_c\\tree_c_optimized.blend",
+      "Expected": "dae296341c740f99ee3f8ff140af8942169a381258540362e5e0b21023bb40a1",
+      "Actual": "dae296341c740f99ee3f8ff140af8942169a381258540362e5e0b21023bb40a1",
+      "Passed": true
+    },
+    {
+      "Path": "art\\generated\\env-v1\\assets\\tree_gold\\tree_gold\\tree_gold_optimized.blend",
+      "Expected": "33403d20b0e6fd72feaa87b69d9191ef3685c61d735e8afd8fd0e289b69ad772",
+      "Actual": "33403d20b0e6fd72feaa87b69d9191ef3685c61d735e8afd8fd0e289b69ad772",
+      "Passed": true
+    },
+    {
+      "Path": "C:\\Users\\20665\\Desktop\\game\\art\\generated\\env-v1\\assets\\tree_a\\tree_a\\..\\textures\\tree_a_BaseColor.png",
+      "Expected": "28e699695d4503913624e94f961201d8a0992ed60b4c57c6978b97a703b648b1",
+      "Actual": "28e699695d4503913624e94f961201d8a0992ed60b4c57c6978b97a703b648b1",
+      "Passed": true
+    },
+    {
+      "Path": "C:\\Users\\20665\\Desktop\\game\\art\\generated\\env-v1\\assets\\tree_a\\tree_a\\..\\textures\\tree_a_WarmFruit_Emission.001.png",
+      "Expected": "9e96d4656c9d220886c758fd535496be0646995c875746a0968f36a476afdf0b",
+      "Actual": "9e96d4656c9d220886c758fd535496be0646995c875746a0968f36a476afdf0b",
+      "Passed": true
+    },
+    {
+      "Path": "C:\\Users\\20665\\Desktop\\game\\art\\generated\\env-v1\\assets\\tree_a\\tree_a\\..\\textures\\tree_a_LeafVeins_Emission.001.png",
+      "Expected": "2a431b25d253815a5966effbdce1be994e802904bed7382cc235e3920ef05115",
+      "Actual": "2a431b25d253815a5966effbdce1be994e802904bed7382cc235e3920ef05115",
+      "Passed": true
+    },
+    {
+      "Path": "C:\\Users\\20665\\Desktop\\game\\art\\generated\\env-v1\\assets\\tree_b\\tree_b\\..\\textures\\tree_b_BaseColor.png",
+      "Expected": "f4e31e92819edb2fdff425eae8ca18f9193ec2350c957866e7a4e78d2d8a94cf",
+      "Actual": "f4e31e92819edb2fdff425eae8ca18f9193ec2350c957866e7a4e78d2d8a94cf",
+      "Passed": true
+    },
+    {
+      "Path": "C:\\Users\\20665\\Desktop\\game\\art\\generated\\env-v1\\assets\\tree_b\\tree_b\\..\\textures\\tree_b_WarmFruit_Emission.001.png",
+      "Expected": "15b5dacee7ee5125c49d27cfe377024f9f2ab030e2da67472800b6cf3ecdef12",
+      "Actual": "15b5dacee7ee5125c49d27cfe377024f9f2ab030e2da67472800b6cf3ecdef12",
+      "Passed": true
+    },
+    {
+      "Path": "C:\\Users\\20665\\Desktop\\game\\art\\generated\\env-v1\\assets\\tree_b\\tree_b\\..\\textures\\tree_b_LeafVeins_Emission.001.png",
+      "Expected": "98f325c28c946b1b517d467b6caaa0966e310681c20dac7d5251a79a51a548a1",
+      "Actual": "98f325c28c946b1b517d467b6caaa0966e310681c20dac7d5251a79a51a548a1",
+      "Passed": true
+    },
+    {
+      "Path": "C:\\Users\\20665\\Desktop\\game\\art\\generated\\env-v1\\assets\\tree_c\\tree_c\\..\\textures\\tree_c_BaseColor.png",
+      "Expected": "4b49a2a38ad823c04a71899afc731a44ee749f81c2c438b3ac5117e6123e3b63",
+      "Actual": "4b49a2a38ad823c04a71899afc731a44ee749f81c2c438b3ac5117e6123e3b63",
+      "Passed": true
+    },
+    {
+      "Path": "C:\\Users\\20665\\Desktop\\game\\art\\generated\\env-v1\\assets\\tree_c\\tree_c\\..\\textures\\tree_c_LeafVeins_Emission.001.png",
+      "Expected": "8dfb7cdd10ec06b59c9730b18347f96b09cea2a8a01a8092500a8df65756df13",
+      "Actual": "8dfb7cdd10ec06b59c9730b18347f96b09cea2a8a01a8092500a8df65756df13",
+      "Passed": true
+    },
+    {
+      "Path": "C:\\Users\\20665\\Desktop\\game\\art\\generated\\env-v1\\assets\\tree_c\\tree_c\\..\\textures\\tree_c_WarmFruit_Emission.001.png",
+      "Expected": "a356441faf412fd15bba3114077e749038892bdf3459070e28592d968a5666cb",
+      "Actual": "a356441faf412fd15bba3114077e749038892bdf3459070e28592d968a5666cb",
+      "Passed": true
+    },
+    {
+      "Path": "C:\\Users\\20665\\Desktop\\game\\art\\generated\\env-v1\\assets\\tree_gold\\tree_gold\\..\\textures\\tree_gold_BaseColor.png",
+      "Expected": "3e50e659d95dbab04e06c75efd5001e7c7812a2c63206ed89081a50e9645c668",
+      "Actual": "3e50e659d95dbab04e06c75efd5001e7c7812a2c63206ed89081a50e9645c668",
+      "Passed": true
+    },
+    {
+      "Path": "C:\\Users\\20665\\Desktop\\game\\art\\generated\\env-v1\\assets\\tree_gold\\tree_gold\\..\\textures\\tree_gold_LeafVeins_Emission.001.png",
+      "Expected": "270fc5874b051c259edef3996c57386355d76c37fc72fb15a68a09296d057f69",
+      "Actual": "270fc5874b051c259edef3996c57386355d76c37fc72fb15a68a09296d057f69",
+      "Passed": true
+    },
+    {
+      "Path": "C:\\Users\\20665\\Desktop\\game\\art\\generated\\env-v1\\assets\\tree_gold\\tree_gold\\..\\textures\\tree_gold_WarmFruit_Emission.001.png",
+      "Expected": "b59b25ffc96cfb46baa04292bd9e967ca1dd94a8101fffc3bac74fc4cdec5228",
+      "Actual": "b59b25ffc96cfb46baa04292bd9e967ca1dd94a8101fffc3bac74fc4cdec5228",
+      "Passed": true
+    }
+  ]
+}

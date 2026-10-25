@@ -1,0 +1,16 @@
+{
+ "id": "A05_lamp_post",
+ "source": "art\\incoming\\tripo-v2-2026-10-22\\tripo_convert_2866ae60-b9d2-4cd5-856d-e2c711288339.glb",
+ "source_sha256": "50d21ceee2066e389d9c2f3b8cec334d3923e9603fe87d8333ca1b4f37c81c6d",
+ "tris_before": 1886783,
+ "tris_after": 3000,
+ "size_m": [
+  0.556,
+  0.55,
+  3.4
+ ],
+ "textures": {
+  "albedo": "A05_lamp_post_albedo.jpg"
+ },
+ "materials": 1
+}

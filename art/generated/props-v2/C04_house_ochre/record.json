@@ -1,0 +1,16 @@
+{
+ "id": "C04_house_ochre",
+ "source": "art\\incoming\\tripo-v2-2026-10-22\\tripo_convert_1747daa6-e17c-4299-ab1e-1e2a1412144f.glb",
+ "source_sha256": "c4d5cd81e738d477587f1c4b30a519fc32d920532ee910dc6b52017ad8621dd3",
+ "tris_before": 22684,
+ "tris_after": 7998,
+ "size_m": [
+  3.179,
+  3.517,
+  5.0
+ ],
+ "textures": {
+  "albedo": "C04_house_ochre_albedo.jpg"
+ },
+ "materials": 1
+}

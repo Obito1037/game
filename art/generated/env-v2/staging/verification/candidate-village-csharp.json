@@ -1,0 +1,45 @@
+{
+  "utc": "2026-10-22T21:41:09.0007784Z",
+  "exitCode": 0,
+  "outputDll": "C:\\Users\\20665\\AppData\\Local\\Temp\\EnvV2IntegratedVillage_7ecc746e8c1e4b019453ac31e5b9b1ae.dll",
+  "diagnostics": [],
+  "scope": "Offline C# joint compile only; no Unity Editor execution, Shader, physics or rendered validation.",
+  "sources": [
+    {
+      "path": "C:\\Users\\20665\\Desktop\\game\\art\\generated\\env-v2\\staging\\Editor\\EnvV2CandidateBuilder.cs",
+      "sha256": "62ac2841e06ec11cfbc52f02ff3fc17d672a4d49b0229dfd228c60547a5c1cd9"
+    },
+    {
+      "path": "C:\\Users\\20665\\Desktop\\game\\art\\generated\\env-v2\\staging\\Editor\\EnvV2HouseSurfaceBuilder.cs",
+      "sha256": "0cae4e4f366af3d9f6421138a9b2a30c3c6348057c946b2b922b461798881b38"
+    },
+    {
+      "path": "C:\\Users\\20665\\Desktop\\game\\art\\generated\\env-v2\\staging\\Editor\\EnvV2LookBuilder.cs",
+      "sha256": "e0e5d738bd3832cf4bdf580962adefab20f57939a6fd45116e83b3a88cd25275"
+    },
+    {
+      "path": "C:\\Users\\20665\\Desktop\\game\\art\\generated\\env-v2\\staging\\Editor\\EnvV2MeadowBuilder.cs",
+      "sha256": "03842b5c7a79937604bc8fa90f44c7611d5ca34604d9eaf0befb053a79b7ec3e"
+    },
+    {
+      "path": "C:\\Users\\20665\\Desktop\\game\\art\\generated\\env-v2\\staging\\Editor\\EnvV2ShoreMapBuilder.cs",
+      "sha256": "3915a1e5b087d4cc1b0eac231dde86abac553abe8065bc5b531b49ae99013eb6"
+    },
+    {
+      "path": "C:\\Users\\20665\\Desktop\\game\\art\\generated\\env-v2\\staging\\Editor\\EnvV2SurfaceBuilder.cs",
+      "sha256": "79900675104c64613a16a239268c83066f78bd2f4f249bd6965c94a2b5445b50"
+    },
+    {
+      "path": "C:\\Users\\20665\\Desktop\\game\\art\\generated\\env-v2\\staging\\Editor\\EnvV2VillageBuilder.cs",
+      "sha256": "cc7a2a3c8a5deaeb9c3393269f0322bce445ef06a88c05e7d97f71ff241f1602"
+    },
+    {
+      "path": "C:\\Users\\20665\\Desktop\\game\\art\\generated\\env-v2\\staging\\Runtime\\EnvironmentLookLibrary.cs",
+      "sha256": "0f06317cb5561565b5c9e2d2634dfd14f58b9b62b81076ad2eae556b30af60a7"
+    },
+    {
+      "path": "C:\\Users\\20665\\Desktop\\game\\art\\generated\\env-v2\\staging\\Runtime\\EnvironmentLookRig.cs",
+      "sha256": "130a56f9bdea840cbaef4659723ecb6042223904f4446b78440851f45bf5a8d2"
+    }
+  ]
+}

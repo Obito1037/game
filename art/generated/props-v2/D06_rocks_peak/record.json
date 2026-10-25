@@ -1,0 +1,16 @@
+{
+ "id": "D06_rocks_peak",
+ "source": "art\\incoming\\tripo-v2-2026-10-22\\tripo_convert_33498d3f-2caa-4676-b648-9e56b4d80a6b.glb",
+ "source_sha256": "a72a9d61c805e46c9d5fb00213cb9069e2fe154b5fcd21d261d1dda539f47131",
+ "tris_before": 89423,
+ "tris_after": 5000,
+ "size_m": [
+  2.684,
+  2.715,
+  3.5
+ ],
+ "textures": {
+  "albedo": "D06_rocks_peak_albedo.jpg"
+ },
+ "materials": 1
+}

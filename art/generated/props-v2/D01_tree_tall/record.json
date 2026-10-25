@@ -1,0 +1,16 @@
+{
+ "id": "D01_tree_tall",
+ "source": "art\\incoming\\tripo-v2-2026-10-22\\tripo_convert_63850bf4-5abe-4bc1-96d1-a12a2ac7098b.glb",
+ "source_sha256": "140776267a8afbe2f7b5e016b90668fd2cc816306b0461dffa0d7f8a5db4ed87",
+ "tris_before": 102646,
+ "tris_after": 11999,
+ "size_m": [
+  2.549,
+  3.298,
+  6.0
+ ],
+ "textures": {
+  "albedo": "D01_tree_tall_albedo.jpg"
+ },
+ "materials": 1
+}

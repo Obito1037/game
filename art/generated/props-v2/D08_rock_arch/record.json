@@ -1,0 +1,16 @@
+{
+ "id": "D08_rock_arch",
+ "source": "art\\incoming\\tripo-v2-2026-10-22\\tripo_convert_a70fc732-bb3d-4676-93a1-46aa0569522d.glb",
+ "source_sha256": "17b44905ceb460dde7e480853928004058a83f005273b4afa976bf2b1f44ffb9",
+ "tris_before": 89942,
+ "tris_after": 7999,
+ "size_m": [
+  2.893,
+  6.0,
+  3.52
+ ],
+ "textures": {
+  "albedo": "D08_rock_arch_albedo.jpg"
+ },
+ "materials": 1
+}

@@ -1,0 +1,252 @@
+{
+  "source": "original analytic mesh; no imported/reference geometry or textures",
+  "story": "07 line 261; v2 art prompt A04",
+  "units": "meters; Blender Z up; FBX -Z forward/Y up",
+  "root_pivot": [
+    0,
+    0,
+    0
+  ],
+  "bloom_center_blender": [
+    0.04699999839067459,
+    0.00800000037997961,
+    0.1809999942779541
+  ],
+  "bloom_axis_blender": [
+    0.2500488758087158,
+    -0.17003323137760162,
+    0.9531863331794739
+  ],
+  "petal_count": 6,
+  "leaf_count": 2,
+  "open_corolla_diameter_m": 0.25,
+  "material_slots": [
+    "A04_Petals_CreamGold",
+    "A04_FineGoldEdges",
+    "A04_SingleAmberHeart",
+    "A04_Twig_WarmBrown",
+    "A04_Leaves_SilverGreen"
+  ],
+  "components": [
+    {
+      "name": "Petal_01",
+      "vertex_first": 0,
+      "vertex_count": 98,
+      "face_first": 0,
+      "face_count": 192
+    },
+    {
+      "name": "Petal_02",
+      "vertex_first": 98,
+      "vertex_count": 98,
+      "face_first": 192,
+      "face_count": 192
+    },
+    {
+      "name": "Petal_03",
+      "vertex_first": 196,
+      "vertex_count": 98,
+      "face_first": 384,
+      "face_count": 192
+    },
+    {
+      "name": "Petal_04",
+      "vertex_first": 294,
+      "vertex_count": 98,
+      "face_first": 576,
+      "face_count": 192
+    },
+    {
+      "name": "Petal_05",
+      "vertex_first": 392,
+      "vertex_count": 98,
+      "face_first": 768,
+      "face_count": 192
+    },
+    {
+      "name": "Petal_06",
+      "vertex_first": 490,
+      "vertex_count": 98,
+      "face_first": 960,
+      "face_count": 192
+    },
+    {
+      "name": "AttachmentTwig",
+      "vertex_first": 588,
+      "vertex_count": 50,
+      "face_first": 1152,
+      "face_count": 96
+    },
+    {
+      "name": "LeafStalk_Left",
+      "vertex_first": 638,
+      "vertex_count": 20,
+      "face_first": 1248,
+      "face_count": 36
+    },
+    {
+      "name": "LeafStalk_Right",
+      "vertex_first": 658,
+      "vertex_count": 20,
+      "face_first": 1284,
+      "face_count": 36
+    },
+    {
+      "name": "SilverLeaf_Left",
+      "vertex_first": 678,
+      "vertex_count": 50,
+      "face_first": 1320,
+      "face_count": 96
+    },
+    {
+      "name": "SilverLeaf_Right",
+      "vertex_first": 728,
+      "vertex_count": 50,
+      "face_first": 1416,
+      "face_count": 96
+    },
+    {
+      "name": "Calyx_00",
+      "vertex_first": 778,
+      "vertex_count": 26,
+      "face_first": 1512,
+      "face_count": 48
+    },
+    {
+      "name": "Calyx_01",
+      "vertex_first": 804,
+      "vertex_count": 26,
+      "face_first": 1560,
+      "face_count": 48
+    },
+    {
+      "name": "Calyx_02",
+      "vertex_first": 830,
+      "vertex_count": 26,
+      "face_first": 1608,
+      "face_count": 48
+    },
+    {
+      "name": "Calyx_03",
+      "vertex_first": 856,
+      "vertex_count": 26,
+      "face_first": 1656,
+      "face_count": 48
+    },
+    {
+      "name": "Calyx_04",
+      "vertex_first": 882,
+      "vertex_count": 26,
+      "face_first": 1704,
+      "face_count": 48
+    },
+    {
+      "name": "SingleAmberHeart",
+      "vertex_first": 908,
+      "vertex_count": 62,
+      "face_first": 1752,
+      "face_count": 120
+    }
+  ],
+  "poses": {
+    "closed": {
+      "vertices": 970,
+      "triangles": 1872,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "degenerate_triangles": 0,
+      "finite": true,
+      "bounds_min": [
+        -0.0820000022649765,
+        -0.03909850865602493,
+        -0.0008593438542447984
+      ],
+      "bounds_max": [
+        0.11100000143051147,
+        0.033883027732372284,
+        0.2940649688243866
+      ]
+    },
+    "half": {
+      "vertices": 970,
+      "triangles": 1872,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "degenerate_triangles": 0,
+      "finite": true,
+      "bounds_min": [
+        -0.0820000022649765,
+        -0.06978518515825272,
+        -0.0008593438542447984
+      ],
+      "bounds_max": [
+        0.1313660442829132,
+        0.06415063142776489,
+        0.26681792736053467
+      ]
+    },
+    "open": {
+      "vertices": 970,
+      "triangles": 1872,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "degenerate_triangles": 0,
+      "finite": true,
+      "bounds_min": [
+        -0.0820000022649765,
+        -0.11338884383440018,
+        -0.0008593438542447984
+      ],
+      "bounds_max": [
+        0.17412534356117249,
+        0.11624142527580261,
+        0.24821195006370544
+      ]
+    }
+  },
+  "shape_keys": [
+    "ClosedBud (basis)",
+    "HalfOpen",
+    "Open"
+  ],
+  "unity_verified": false,
+  "scene_attached": false,
+  "camera": {
+    "position": [
+      0.36000001430511475,
+      -0.5199999809265137,
+      0.47999998927116394
+    ],
+    "rotation_quaternion": [
+      0.8259984850883484,
+      0.4923499524593353,
+      0.14051643013954163,
+      0.2357395589351654
+    ],
+    "target": [
+      0.03500000014901161,
+      0.003000000026077032,
+      0.1469999998807907
+    ],
+    "ortho_scale": 0.35499998927116394,
+    "resolution": [
+      900,
+      900
+    ]
+  },
+  "files": {
+    "A04_petal_albedo.png": "f2cd069cea1787ffc34e57ea021d8cb8705667590e21f8e03a9f0bfdbb209fd6",
+    "first_flower_A04.blend": "3eb616d996fc48363f34bd28c49df4ccac2d907d149bb015fe6a34a0adb0f9ca",
+    "first_flower_A04.fbx": "8499709cf564a72614835a7d2d01270a4c62b814ced48798a0364347e9fdfe78",
+    "neutral-closed.png": "b946064e25da382f981b66b67b1202ed7a65e1b8723aa589943d8229dc3bd335",
+    "neutral-half.png": "32b23d90637f2f3b3923ba2eb322145b3b4570d5d0d9de77cb454ecb68affcb5",
+    "neutral-open.png": "05a2c4ad1a1c5cca335e276ddfb1d42fff2205ce2f01ae1b9a4fb270fe7257b0",
+    "neutral-side-thickness.png": "bea8d78d638e2180bd949c78e5e40a7d6b3ad5a22b867888a0b7aa3504a7b5af",
+    "night-open.png": "9f9b21f388507b28790d3036c1f7ffb99c4bffc8b7dcf91db08cca305c62a267"
+  },
+  "lighting": {
+    "neutral": "3 white area lights 20/8/18W; world strength .5; no emissive asset materials",
+    "night": "same camera/exposure; warm/cool/warm area 2.4/.7/1.7W; dark blue world .2; only amber heart emission strength 2.0; no compositor bloom",
+    "note": "Blender study, not Unity runtime material verification"
+  }
+}

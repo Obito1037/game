@@ -1,0 +1,439 @@
+{
+  "status": "offline-candidate-not-imported",
+  "source_blend": "art/generated/env-v1/props/abode_grandma/abode_grandma.blend",
+  "source_sha256": "ab602083217b40ea7ce961b1f3f35a10506e8780f3f9887197e19912280054a4",
+  "source_metadata": "art/generated/env-v1/props/abode_grandma/asset.json",
+  "script_sha256": "089238d99f1ac6be7530b282aa1023325818d4b0e17d397552c665a751c1714e",
+  "baseline_triangles": 1728,
+  "candidate_triangles": 11925,
+  "budget": 12000,
+  "baseline_bounds_blender": {
+    "min": [
+      -2.3172435760498047,
+      -2.530688762664795,
+      -0.009999975562095642
+    ],
+    "max": [
+      2.3172435760498047,
+      1.9616841077804565,
+      3.944999933242798
+    ]
+  },
+  "candidate_bounds_blender": {
+    "min": [
+      -2.3172435760498047,
+      -2.530688762664795,
+      -0.009999975562095642
+    ],
+    "max": [
+      2.3172435760498047,
+      1.9616841077804565,
+      3.9230000972747803
+    ]
+  },
+  "markers_before": {
+    "Marker_Window": {
+      "location": [
+        0.8199999928474426,
+        -1.684999942779541,
+        1.6200000047683716
+      ],
+      "quaternion": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "Marker_ABo_Seat": {
+      "location": [
+        0.8199999928474426,
+        -0.3499999940395355,
+        0.49000000953674316
+      ],
+      "quaternion": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "Marker_Entry": {
+      "location": [
+        -1.1299999952316284,
+        -2.1050000190734863,
+        0.1599999964237213
+      ],
+      "quaternion": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "Marker_Desk": {
+      "location": [
+        0.8199999928474426,
+        -0.9800000190734863,
+        0.8399999737739563
+      ],
+      "quaternion": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  },
+  "markers_after": {
+    "Marker_Window": {
+      "location": [
+        0.8199999928474426,
+        -1.684999942779541,
+        1.6200000047683716
+      ],
+      "quaternion": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "Marker_ABo_Seat": {
+      "location": [
+        0.8199999928474426,
+        -0.3499999940395355,
+        0.49000000953674316
+      ],
+      "quaternion": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "Marker_Entry": {
+      "location": [
+        -1.1299999952316284,
+        -2.1050000190734863,
+        0.1599999964237213
+      ],
+      "quaternion": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "Marker_Desk": {
+      "location": [
+        0.8199999928474426,
+        -0.9800000190734863,
+        0.8399999737739563
+      ],
+      "quaternion": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  },
+  "checks": [
+    {
+      "name": "triangle_budget_12000",
+      "passed": true,
+      "detail": 11925
+    },
+    {
+      "name": "marker_exact_Marker_Window",
+      "passed": true,
+      "detail": {
+        "location": [
+          0.8199999928474426,
+          -1.684999942779541,
+          1.6200000047683716
+        ],
+        "quaternion": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "marker_exact_Marker_ABo_Seat",
+      "passed": true,
+      "detail": {
+        "location": [
+          0.8199999928474426,
+          -0.3499999940395355,
+          0.49000000953674316
+        ],
+        "quaternion": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "marker_exact_Marker_Entry",
+      "passed": true,
+      "detail": {
+        "location": [
+          -1.1299999952316284,
+          -2.1050000190734863,
+          0.1599999964237213
+        ],
+        "quaternion": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "marker_exact_Marker_Desk",
+      "passed": true,
+      "detail": {
+        "location": [
+          0.8199999928474426,
+          -0.9800000190734863,
+          0.8399999737739563
+        ],
+        "quaternion": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "original_source_unchanged",
+      "passed": true,
+      "detail": "ab602083217b40ea7ce961b1f3f35a10506e8780f3f9887197e19912280054a4"
+    },
+    {
+      "name": "bounds_envelope_X",
+      "passed": true,
+      "detail": {
+        "before": [
+          -2.3172435760498047,
+          2.3172435760498047
+        ],
+        "after": [
+          -2.3172435760498047,
+          2.3172435760498047
+        ]
+      }
+    },
+    {
+      "name": "bounds_envelope_Y",
+      "passed": true,
+      "detail": {
+        "before": [
+          -2.530688762664795,
+          1.9616841077804565
+        ],
+        "after": [
+          -2.530688762664795,
+          1.9616841077804565
+        ]
+      }
+    },
+    {
+      "name": "bounds_envelope_Z",
+      "passed": true,
+      "detail": {
+        "before": [
+          -0.009999975562095642,
+          3.944999933242798
+        ],
+        "after": [
+          -0.009999975562095642,
+          3.9230000972747803
+        ]
+      }
+    },
+    {
+      "name": "aperture_clear_window_center",
+      "passed": true,
+      "detail": {
+        "origin": [
+          0.82,
+          -3,
+          1.62
+        ],
+        "length": 1.9,
+        "hit": null
+      }
+    },
+    {
+      "name": "aperture_clear_window_left",
+      "passed": true,
+      "detail": {
+        "origin": [
+          0.52,
+          -3,
+          1.62
+        ],
+        "length": 1.9,
+        "hit": null
+      }
+    },
+    {
+      "name": "aperture_clear_window_right",
+      "passed": true,
+      "detail": {
+        "origin": [
+          1.12,
+          -3,
+          1.62
+        ],
+        "length": 1.9,
+        "hit": null
+      }
+    },
+    {
+      "name": "aperture_clear_window_top",
+      "passed": true,
+      "detail": {
+        "origin": [
+          0.82,
+          -3,
+          1.95
+        ],
+        "length": 1.9,
+        "hit": null
+      }
+    },
+    {
+      "name": "aperture_clear_entry",
+      "passed": true,
+      "detail": {
+        "origin": [
+          -1.13,
+          -3,
+          1.1
+        ],
+        "length": 1.9,
+        "hit": null
+      }
+    },
+    {
+      "name": "all_meshes_have_uv",
+      "passed": true,
+      "detail": null
+    }
+  ],
+  "mesh_objects": 15,
+  "material_count": 26,
+  "files": [
+    {
+      "path": "art/generated/env-v2/props/abode_grandma/abode_grandma_v2_candidate.blend",
+      "bytes": 1751271,
+      "sha256": "3635fb0cf76b8b20d23996fb8aa865926ffc51ecee49027b188b6dd25f770528"
+    },
+    {
+      "path": "art/generated/env-v2/props/abode_grandma/abode_grandma_v2_candidate.fbx",
+      "bytes": 296252,
+      "sha256": "c9c3e2d44959b306c3bd9535abb1ce368482ea1355bde54f3bc93e7785eceedc"
+    },
+    {
+      "path": "art/generated/env-v2/props/abode_grandma/after-front.png",
+      "bytes": 1138272,
+      "sha256": "4c60c775f6f2ee4b53bab1c9abe615e04fc40d368213d3b4ddb940831acccd87"
+    },
+    {
+      "path": "art/generated/env-v2/props/abode_grandma/after-side.png",
+      "bytes": 1115721,
+      "sha256": "8c6835d734305a9c350ef53df1f65d014cde355606763f5a9a99fd330dcb8aba"
+    },
+    {
+      "path": "art/generated/env-v2/props/abode_grandma/after-window.png",
+      "bytes": 1226396,
+      "sha256": "57b90d49ec27ff095c38921d844fe14bd166d616fcfdaad6eed69e555cb51e80"
+    },
+    {
+      "path": "art/generated/env-v2/props/abode_grandma/before-front.png",
+      "bytes": 1072903,
+      "sha256": "af11632fe78219688a942fc5c2f7e3bba2ac226f32d4f86bf6b87a678b792f36"
+    },
+    {
+      "path": "art/generated/env-v2/props/abode_grandma/before-side.png",
+      "bytes": 1058848,
+      "sha256": "883a5f7fcef8a8ea655ab00b70ffd76bc36e24e4f10f2d6a4df799f93daa0d76"
+    },
+    {
+      "path": "art/generated/env-v2/props/abode_grandma/before-window.png",
+      "bytes": 1128065,
+      "sha256": "cf2641e673d3a6d6f0d5fff4c048636473100818e153a628b939271d8bd4d1fa"
+    }
+  ],
+  "render_views": {
+    "front": {
+      "camera": [
+        7,
+        -10,
+        6
+      ],
+      "look": [
+        0,
+        -0.1,
+        1.85
+      ],
+      "scale": 7.5
+    },
+    "side": {
+      "camera": [
+        -8,
+        -7,
+        5.0
+      ],
+      "look": [
+        0,
+        0,
+        1.8
+      ],
+      "scale": 7.4
+    },
+    "window": {
+      "camera": [
+        3.2,
+        -7.3,
+        3.0
+      ],
+      "look": [
+        0.45,
+        -1.1,
+        1.9
+      ],
+      "scale": 5.25
+    }
+  },
+  "render_resolution": [
+    1000,
+    1000
+  ],
+  "render_lighting": "Identical neutral studio setup before/after; not night in-game rendering.",
+  "changes": [
+    "Retained baseline structure, genuine circular opening, open doorway, desk, book and seat.",
+    "Replaced old flat roof and narrow raised grid lines with overlapping curved clay tiles.",
+    "Added sea-facing attic exterior recess within original height envelope, timber eaves and low tin chimney.",
+    "Added staggered whitewashed siding, sparse nail heads, uneven stone foot and restrained metal hardware.",
+    "Smart-projected UVs generated for every mesh; no external texture was used."
+  ],
+  "limits": [
+    "Not imported into Unity; prior FBX axis workaround must be tested before substitution.",
+    "Attic is exterior visual geometry only: no walkable upstairs, ladder or new interior navigation.",
+    "No wood grain / clay / plaster PBR maps yet; previews use material colors and actual geometry.",
+    "5 local aperture rays are only a geometry sanity check, not complete spotlight/camera/capsule validation.",
+    "New attic window is unlit; gameplay visibility/emission hookup requires owner integration.",
+    "All original Marker transforms remain fixed; future integration must verify actual prefab anchors and colliders."
+  ]
+}

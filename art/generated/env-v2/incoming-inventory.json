@@ -1,0 +1,3119 @@
+{
+  "schema_version": 1,
+  "created_utc": "2026-10-22T17:49:26.498504+00:00",
+  "scope": "Read-only filesystem audit; no Blender reimport, no Unity operations, no benchmark asset download.",
+  "v2_drop_directory": "C:/Users/20665/Downloads/借光岛_v2模型",
+  "v2_drop_directory_exists": false,
+  "downloads_files_scanned": 114,
+  "nearby_v2_candidates": [],
+  "old_source_models": [
+    {
+      "path": "C:/Users/20665/Downloads/发光树3d模型 (1).glb",
+      "format": "glb",
+      "bytes": 62974544,
+      "sha256": "8678da1d1b32d5cda1780acbec45b287837f1cb80c6358494a595c7edaed5a56",
+      "glb_version": 2,
+      "mesh_count": 1,
+      "material_count": 1,
+      "embedded_image_count": 1,
+      "source_triangle_count_from_glb_accessors": 1940539,
+      "axis": "glTF Y-up; dimensions not remeasured in Blender in this audit",
+      "role": "v1 source; not a new v2 model",
+      "existing_derived_assets": [
+        "tree_b"
+      ]
+    },
+    {
+      "path": "C:/Users/20665/Downloads/发光树3d模型 (2).glb",
+      "format": "glb",
+      "bytes": 61270764,
+      "sha256": "c6c24b9a3e34863bfe1d9dc61a3addf67b72e4b1d3542586361ff8b48a9b5254",
+      "glb_version": 2,
+      "mesh_count": 1,
+      "material_count": 1,
+      "embedded_image_count": 1,
+      "source_triangle_count_from_glb_accessors": 1875087,
+      "axis": "glTF Y-up; dimensions not remeasured in Blender in this audit",
+      "role": "v1 source; not a new v2 model",
+      "existing_derived_assets": [
+        "tree_c"
+      ]
+    },
+    {
+      "path": "C:/Users/20665/Downloads/发光树3d模型.glb",
+      "format": "glb",
+      "bytes": 63514300,
+      "sha256": "5aaf0895c26fa75134709d9191de2e5c0d9b5b442adf7aeb052f705fea631916",
+      "glb_version": 2,
+      "mesh_count": 1,
+      "material_count": 1,
+      "embedded_image_count": 1,
+      "source_triangle_count_from_glb_accessors": 1898376,
+      "axis": "glTF Y-up; dimensions not remeasured in Blender in this audit",
+      "role": "v1 source; not a new v2 model",
+      "existing_derived_assets": [
+        "tree_a",
+        "tree_a_sapling_01",
+        "tree_a_sapling_02"
+      ]
+    },
+    {
+      "path": "C:/Users/20665/Downloads/岩石山3d模型.glb",
+      "format": "glb",
+      "bytes": 59984884,
+      "sha256": "0ff327a32f946ae1ed32d0316b19bdf6e60003f5ffdadc0474bd30cc57c28d21",
+      "glb_version": 2,
+      "mesh_count": 1,
+      "material_count": 1,
+      "embedded_image_count": 1,
+      "source_triangle_count_from_glb_accessors": 1880151,
+      "axis": "glTF Y-up; dimensions not remeasured in Blender in this audit",
+      "role": "v1 source; not a new v2 model",
+      "existing_derived_assets": [
+        "rock_mountain"
+      ]
+    },
+    {
+      "path": "C:/Users/20665/Downloads/岩石山体3d模型.glb",
+      "format": "glb",
+      "bytes": 60683956,
+      "sha256": "1713c881cecda46a9f9b94608af4b8ec9f17f6797b5f3b2f8178cd9acec88a06",
+      "glb_version": 2,
+      "mesh_count": 1,
+      "material_count": 1,
+      "embedded_image_count": 1,
+      "source_triangle_count_from_glb_accessors": 1903630,
+      "axis": "glTF Y-up; dimensions not remeasured in Blender in this audit",
+      "role": "v1 source; not a new v2 model",
+      "existing_derived_assets": [
+        "rock_mass"
+      ]
+    },
+    {
+      "path": "C:/Users/20665/Downloads/岩石拱门3d模型.glb",
+      "format": "glb",
+      "bytes": 59721048,
+      "sha256": "4c00ba302e1728f7f3f4e6c6a775461f958772c96c975f1a582c15b935be0448",
+      "glb_version": 2,
+      "mesh_count": 1,
+      "material_count": 1,
+      "embedded_image_count": 1,
+      "source_triangle_count_from_glb_accessors": 1916702,
+      "axis": "glTF Y-up; dimensions not remeasured in Blender in this audit",
+      "role": "v1 source; not a new v2 model",
+      "existing_derived_assets": [
+        "rock_arch"
+      ]
+    },
+    {
+      "path": "C:/Users/20665/Downloads/岩石群3d模型.glb",
+      "format": "glb",
+      "bytes": 62077196,
+      "sha256": "e8a33d371a95ca4225d2c23df1a367e62bfa9c0c586dd01b4982ac937937d589",
+      "glb_version": 2,
+      "mesh_count": 1,
+      "material_count": 1,
+      "embedded_image_count": 1,
+      "source_triangle_count_from_glb_accessors": 1948662,
+      "axis": "glTF Y-up; dimensions not remeasured in Blender in this audit",
+      "role": "v1 source; not a new v2 model",
+      "existing_derived_assets": [
+        "rock_cluster",
+        "rock_cluster_reef_01",
+        "rock_cluster_reef_02"
+      ]
+    },
+    {
+      "path": "C:/Users/20665/Downloads/木质小艇3d模型.glb",
+      "format": "glb",
+      "bytes": 60349732,
+      "sha256": "69eeff54d79778a86595f53744a7a10a92f666f17a17420ba2c3a0c0879e56cc",
+      "glb_version": 2,
+      "mesh_count": 1,
+      "material_count": 1,
+      "embedded_image_count": 1,
+      "source_triangle_count_from_glb_accessors": 1937222,
+      "axis": "glTF Y-up; dimensions not remeasured in Blender in this audit",
+      "role": "v1 source; not a new v2 model",
+      "existing_derived_assets": [
+        "boat"
+      ]
+    },
+    {
+      "path": "C:/Users/20665/Downloads/灯光盆景树3d模型.glb",
+      "format": "glb",
+      "bytes": 61506880,
+      "sha256": "09ec05afad23b9a7ce901d2f15b0dd6289c807c30ef675f25d74925856003cec",
+      "glb_version": 2,
+      "mesh_count": 1,
+      "material_count": 1,
+      "embedded_image_count": 1,
+      "source_triangle_count_from_glb_accessors": 1855237,
+      "axis": "glTF Y-up; dimensions not remeasured in Blender in this audit",
+      "role": "v1 source; not a new v2 model",
+      "existing_derived_assets": [
+        "tree_gold"
+      ]
+    }
+  ],
+  "old_concept_references": [
+    {
+      "path": "C:/Users/20665/Downloads/%E5%80%9F%E5%85%89%E5%B2%9B_Tripo%E7%94%9F%E6%A8%A1%E5%8F%82%E8%80%83%E5%9B%BE_%E5%89%A9%E4%BD%9910%E9%A1%B9/README_资产清单与使用说明.txt",
+      "format": "txt",
+      "bytes": 717,
+      "sha256": "8f983c388ae7d2a8e048530578f8c05f5974fe938979def9b32d3858d71f0e64"
+    },
+    {
+      "path": "C:/Users/20665/Downloads/%E5%80%9F%E5%85%89%E5%B2%9B_Tripo%E7%94%9F%E6%A8%A1%E5%8F%82%E8%80%83%E5%9B%BE_%E5%89%A9%E4%BD%9910%E9%A1%B9/T02_金色光树_主树.png",
+      "format": "png",
+      "bytes": 2897752,
+      "sha256": "8607d6dbde62c138b36d1d12f2914fa1d9f32262c5e79ded625bec7bea179582",
+      "pixel_dimensions": [
+        1448,
+        1086
+      ]
+    },
+    {
+      "path": "C:/Users/20665/Downloads/%E5%80%9F%E5%85%89%E5%B2%9B_Tripo%E7%94%9F%E6%A8%A1%E5%8F%82%E8%80%83%E5%9B%BE_%E5%89%A9%E4%BD%9910%E9%A1%B9/T03A_光树林树木变体A.png",
+      "format": "png",
+      "bytes": 2920392,
+      "sha256": "594e4e8e0565dce055dd7dad06519345650ddaf5e86122dc48a7f2dfad81776b",
+      "pixel_dimensions": [
+        1448,
+        1086
+      ]
+    },
+    {
+      "path": "C:/Users/20665/Downloads/%E5%80%9F%E5%85%89%E5%B2%9B_Tripo%E7%94%9F%E6%A8%A1%E5%8F%82%E8%80%83%E5%9B%BE_%E5%89%A9%E4%BD%9910%E9%A1%B9/T03B_光树林树木变体B.png",
+      "format": "png",
+      "bytes": 2797953,
+      "sha256": "4273dd14e2907fcdf1f5e963e75ebbc04544767df5eceac1dcd84568de443ae8",
+      "pixel_dimensions": [
+        1448,
+        1086
+      ]
+    },
+    {
+      "path": "C:/Users/20665/Downloads/%E5%80%9F%E5%85%89%E5%B2%9B_Tripo%E7%94%9F%E6%A8%A1%E5%8F%82%E8%80%83%E5%9B%BE_%E5%89%A9%E4%BD%9910%E9%A1%B9/T03C_光树林树木变体C.png",
+      "format": "png",
+      "bytes": 2649117,
+      "sha256": "43fc946a8ad12c145934cc4966e515ac2e2b5b1481f8f706df07f50d95922611",
+      "pixel_dimensions": [
+        1448,
+        1086
+      ]
+    },
+    {
+      "path": "C:/Users/20665/Downloads/%E5%80%9F%E5%85%89%E5%B2%9B_Tripo%E7%94%9F%E6%A8%A1%E5%8F%82%E8%80%83%E5%9B%BE_%E5%89%A9%E4%BD%9910%E9%A1%B9/T04A_岩石变体A_低矮岩堆.png",
+      "format": "png",
+      "bytes": 2545360,
+      "sha256": "ae9f170c8c53328f2930bce8a76c92a9b1a086eeccbfadd4065ac5e56ed2c202",
+      "pixel_dimensions": [
+        1448,
+        1086
+      ]
+    },
+    {
+      "path": "C:/Users/20665/Downloads/%E5%80%9F%E5%85%89%E5%B2%9B_Tripo%E7%94%9F%E6%A8%A1%E5%8F%82%E8%80%83%E5%9B%BE_%E5%89%A9%E4%BD%9910%E9%A1%B9/T04B_岩石变体B_尖峰岩堆.png",
+      "format": "png",
+      "bytes": 2492775,
+      "sha256": "1a95e2ab7f1164e24938b97ff1a9033e0a1aee7d7f469efcd22c0160897bc6c1",
+      "pixel_dimensions": [
+        1448,
+        1086
+      ]
+    },
+    {
+      "path": "C:/Users/20665/Downloads/%E5%80%9F%E5%85%89%E5%B2%9B_Tripo%E7%94%9F%E6%A8%A1%E5%8F%82%E8%80%83%E5%9B%BE_%E5%89%A9%E4%BD%9910%E9%A1%B9/T04C_岩石变体C_平坦岩台.png",
+      "format": "png",
+      "bytes": 2431520,
+      "sha256": "7a1d49d46f3a5c759f030a2ea93f00a86f75e5c6d5390f8a947e3852a875f8f3",
+      "pixel_dimensions": [
+        1448,
+        1086
+      ]
+    },
+    {
+      "path": "C:/Users/20665/Downloads/%E5%80%9F%E5%85%89%E5%B2%9B_Tripo%E7%94%9F%E6%A8%A1%E5%8F%82%E8%80%83%E5%9B%BE_%E5%89%A9%E4%BD%9910%E9%A1%B9/T04D_岩石变体D_天然岩洞.png",
+      "format": "png",
+      "bytes": 2439250,
+      "sha256": "b6758aab53cc52fb5c18565f91ee4c16eb4e98f262191fd6207b6d3adde0406a",
+      "pixel_dimensions": [
+        1448,
+        1086
+      ]
+    },
+    {
+      "path": "C:/Users/20665/Downloads/%E5%80%9F%E5%85%89%E5%B2%9B_Tripo%E7%94%9F%E6%A8%A1%E5%8F%82%E8%80%83%E5%9B%BE_%E5%89%A9%E4%BD%9910%E9%A1%B9/T04E_岩石变体E_陡峭岩柱.png",
+      "format": "png",
+      "bytes": 2365741,
+      "sha256": "99fa30eb47c1009bb7c5edb6f2d176b1c353feda40c6c7bb594788e884c8bbd2",
+      "pixel_dimensions": [
+        1448,
+        1086
+      ]
+    },
+    {
+      "path": "C:/Users/20665/Downloads/%E5%80%9F%E5%85%89%E5%B2%9B_Tripo%E7%94%9F%E6%A8%A1%E5%8F%82%E8%80%83%E5%9B%BE_%E5%89%A9%E4%BD%9910%E9%A1%B9/T05_码头木船.png",
+      "format": "png",
+      "bytes": 2084564,
+      "sha256": "9f04ec435fa3eeb76e9caa6e78460804ff90d607955843cb9f9f1978fe48f59f",
+      "pixel_dimensions": [
+        1448,
+        1086
+      ]
+    }
+  ],
+  "existing_environment_models": [
+    {
+      "path": "C:/Users/20665/Desktop/game/GameProject/Assets/JieGuang/Environment/Models/Natural/boat/boat_LOD0.fbx",
+      "format": "fbx",
+      "bytes": 996748,
+      "sha256": "596ec4b08700db0437fd2509cdcd6dbad59e5a8f160bf2f92edf93c16d3d8561",
+      "asset_id": "boat",
+      "dimensions_unity_xyz_metres": [
+        1.7101503014564514,
+        1.4469195171259344,
+        5.001363754272461
+      ],
+      "authoring_metadata": "art/generated/env-v1/asset-manifest.json"
+    },
+    {
+      "path": "C:/Users/20665/Desktop/game/GameProject/Assets/JieGuang/Environment/Models/Natural/rock_arch/rock_arch_LOD0.fbx",
+      "format": "fbx",
+      "bytes": 304956,
+      "sha256": "86ff28c799faca070e1cd2c39858a21801e26805f237b6e8cdc2a7743a86baff",
+      "asset_id": "rock_arch",
+      "dimensions_unity_xyz_metres": [
+        6.007585048675537,
+        2.742837333586067,
+        4.3114013671875
+      ],
+      "authoring_metadata": "art/generated/env-v1/asset-manifest.json"
+    },
+    {
+      "path": "C:/Users/20665/Desktop/game/GameProject/Assets/JieGuang/Environment/Models/Natural/rock_arch/rock_arch_LOD1.fbx",
+      "format": "fbx",
+      "bytes": 138988,
+      "sha256": "776eb6e7f824f02853f10739f3efc2059696307fdb67bb7a6fff7d98db888122",
+      "asset_id": "rock_arch",
+      "dimensions_unity_xyz_metres": [
+        6.007585048675537,
+        2.742837333586067,
+        4.3114013671875
+      ],
+      "authoring_metadata": "art/generated/env-v1/asset-manifest.json"
+    },
+    {
+      "path": "C:/Users/20665/Desktop/game/GameProject/Assets/JieGuang/Environment/Models/Natural/rock_cluster/rock_cluster_LOD0.fbx",
+      "format": "fbx",
+      "bytes": 303116,
+      "sha256": "d1a656e174e31e31d7afbf8567b2ccb887fd4d1ce3f1c841f97630caadce0ce7",
+      "asset_id": "rock_cluster",
+      "dimensions_unity_xyz_metres": [
+        3.498901844024658,
+        1.597781776159536,
+        2.3438093662261963
+      ],
+      "authoring_metadata": "art/generated/env-v1/asset-manifest.json"
+    },
+    {
+      "path": "C:/Users/20665/Desktop/game/GameProject/Assets/JieGuang/Environment/Models/Natural/rock_cluster/rock_cluster_LOD1.fbx",
+      "format": "fbx",
+      "bytes": 136780,
+      "sha256": "ed8deccfcf48f273c1dd50e27b2ffb57be96f80ffd8e7f437797f0da3870bc8a",
+      "asset_id": "rock_cluster",
+      "dimensions_unity_xyz_metres": [
+        3.498901844024658,
+        1.597781776159536,
+        2.3438093662261963
+      ],
+      "authoring_metadata": "art/generated/env-v1/asset-manifest.json"
+    },
+    {
+      "path": "C:/Users/20665/Desktop/game/GameProject/Assets/JieGuang/Environment/Models/Natural/rock_cluster/rock_cluster_reef_01_LOD0.fbx",
+      "format": "fbx",
+      "bytes": 108284,
+      "sha256": "ab539f672c0b451863f37a0e22ff1f6aee16eaf17faa072948871dc162d7a04c",
+      "asset_id": "rock_cluster_reef_01",
+      "dimensions_unity_xyz_metres": [
+        2.380172371864319,
+        1.20522762593464,
+        2.5032927989959717
+      ],
+      "authoring_metadata": "art/generated/env-v1/asset-manifest.json"
+    },
+    {
+      "path": "C:/Users/20665/Desktop/game/GameProject/Assets/JieGuang/Environment/Models/Natural/rock_cluster/rock_cluster_reef_01_LOD1.fbx",
+      "format": "fbx",
+      "bytes": 56156,
+      "sha256": "1456a88937667ff067e93b127beb11b66d31afe8caca8c843236e96715e90789",
+      "asset_id": "rock_cluster_reef_01",
+      "dimensions_unity_xyz_metres": [
+        2.380172371864319,
+        1.20522762593464,
+        2.5032927989959717
+      ],
+      "authoring_metadata": "art/generated/env-v1/asset-manifest.json"
+    },
+    {
+      "path": "C:/Users/20665/Desktop/game/GameProject/Assets/JieGuang/Environment/Models/Natural/rock_cluster/rock_cluster_reef_02_LOD0.fbx",
+      "format": "fbx",
+      "bytes": 108636,
+      "sha256": "d79ad6a9d9f921c23d952b34ee82efa0d6344c064b1868f26ecd6a880d15c4a7",
+      "asset_id": "rock_cluster_reef_02",
+      "dimensions_unity_xyz_metres": [
+        2.605700373649597,
+        1.2882021062541753,
+        2.2296541929244995
+      ],
+      "authoring_metadata": "art/generated/env-v1/asset-manifest.json"
+    },
+    {
+      "path": "C:/Users/20665/Desktop/game/GameProject/Assets/JieGuang/Environment/Models/Natural/rock_cluster/rock_cluster_reef_02_LOD1.fbx",
+      "format": "fbx",
+      "bytes": 56332,
+      "sha256": "016ac53c18ff191e78bcd52255d8f4c62183a982b0741de2a501c02c1e6135ef",
+      "asset_id": "rock_cluster_reef_02",
+      "dimensions_unity_xyz_metres": [
+        2.605700373649597,
+        1.2882021062541753,
+        2.2296541929244995
+      ],
+      "authoring_metadata": "art/generated/env-v1/asset-manifest.json"
+    },
+    {
+      "path": "C:/Users/20665/Desktop/game/GameProject/Assets/JieGuang/Environment/Models/Natural/rock_mass/rock_mass_LOD0.fbx",
+      "format": "fbx",
+      "bytes": 308764,
+      "sha256": "39d06494aa6283d2e81cd5899cacae07f9fab39a142f1eaf068d0f2dd8b159e5",
+      "asset_id": "rock_mass",
+      "dimensions_unity_xyz_metres": [
+        5.509810447692871,
+        1.878419127970119,
+        3.7831801176071167
+      ],
+      "authoring_metadata": "art/generated/env-v1/asset-manifest.json"
+    },
+    {
+      "path": "C:/Users/20665/Desktop/game/GameProject/Assets/JieGuang/Environment/Models/Natural/rock_mass/rock_mass_LOD1.fbx",
+      "format": "fbx",
+      "bytes": 136380,
+      "sha256": "28a76386a772176b0d5979e02862e9898c8f872c3944b2332436ac96d83d81b8",
+      "asset_id": "rock_mass",
+      "dimensions_unity_xyz_metres": [
+        5.509810447692871,
+        1.878419127970119,
+        3.7831801176071167
+      ],
+      "authoring_metadata": "art/generated/env-v1/asset-manifest.json"
+    },
+    {
+      "path": "C:/Users/20665/Desktop/game/GameProject/Assets/JieGuang/Environment/Models/Natural/rock_mountain/rock_mountain_LOD0.fbx",
+      "format": "fbx",
+      "bytes": 309372,
+      "sha256": "a4df4369587681f5e74a2fbe14c42e8e5e69519cc9d5def70a66a3ba3394c6f1",
+      "asset_id": "rock_mountain",
+      "dimensions_unity_xyz_metres": [
+        4.37052059173584,
+        4.508178594522178,
+        4.481003522872925
+      ],
+      "authoring_metadata": "art/generated/env-v1/asset-manifest.json"
+    },
+    {
+      "path": "C:/Users/20665/Desktop/game/GameProject/Assets/JieGuang/Environment/Models/Natural/rock_mountain/rock_mountain_LOD1.fbx",
+      "format": "fbx",
+      "bytes": 140524,
+      "sha256": "bc9ffc800974d5db8dd97568fa2b92d4ddbdeb5b9a04d6c4e8dceb8d65b88b3f",
+      "asset_id": "rock_mountain",
+      "dimensions_unity_xyz_metres": [
+        4.37052059173584,
+        4.508178594522178,
+        4.481003522872925
+      ],
+      "authoring_metadata": "art/generated/env-v1/asset-manifest.json"
+    },
+    {
+      "path": "C:/Users/20665/Desktop/game/GameProject/Assets/JieGuang/Environment/Models/Natural/tree_a/tree_a_LOD0.fbx",
+      "format": "fbx",
+      "bytes": 565180,
+      "sha256": "f69b5d3452db566f118842aed7a3c1a1d529cfd89caccb2185d8dda6a156e2f0",
+      "asset_id": "tree_a",
+      "dimensions_unity_xyz_metres": [
+        4.053119421005249,
+        4.778596203774214,
+        4.270351409912109
+      ],
+      "authoring_metadata": "art/generated/env-v1/asset-manifest.json"
+    },
+    {
+      "path": "C:/Users/20665/Desktop/game/GameProject/Assets/JieGuang/Environment/Models/Natural/tree_a/tree_a_LOD1.fbx",
+      "format": "fbx",
+      "bytes": 241708,
+      "sha256": "7c188ad89ff2d9a64fe17292a93b74afe33801ea662c3c4140f5ff8bd91b4608",
+      "asset_id": "tree_a",
+      "dimensions_unity_xyz_metres": [
+        4.053119421005249,
+        4.778596203774214,
+        4.270351409912109
+      ],
+      "authoring_metadata": "art/generated/env-v1/asset-manifest.json"
+    },
+    {
+      "path": "C:/Users/20665/Desktop/game/GameProject/Assets/JieGuang/Environment/Models/Natural/tree_a/tree_a_sapling_01_LOD0.fbx",
+      "format": "fbx",
+      "bytes": 298780,
+      "sha256": "5c4be1fa14500ad60838eac99b0f06284249e7a1d49516a1d461912eeeac0f53",
+      "asset_id": "tree_a_sapling_01",
+      "dimensions_unity_xyz_metres": [
+        2.48288893699646,
+        2.8069660717155784,
+        2.5357805490493774
+      ],
+      "authoring_metadata": "art/generated/env-v1/asset-manifest.json"
+    },
+    {
+      "path": "C:/Users/20665/Desktop/game/GameProject/Assets/JieGuang/Environment/Models/Natural/tree_a/tree_a_sapling_01_LOD1.fbx",
+      "format": "fbx",
+      "bytes": 137292,
+      "sha256": "311fb6de92e81571b5cbbf572fbf98a7370f66781a9c2501ef88194d283dabb0",
+      "asset_id": "tree_a_sapling_01",
+      "dimensions_unity_xyz_metres": [
+        2.48288893699646,
+        2.8069660717155784,
+        2.5357805490493774
+      ],
+      "authoring_metadata": "art/generated/env-v1/asset-manifest.json"
+    },
+    {
+      "path": "C:/Users/20665/Desktop/game/GameProject/Assets/JieGuang/Environment/Models/Natural/tree_a/tree_a_sapling_02_LOD0.fbx",
+      "format": "fbx",
+      "bytes": 296396,
+      "sha256": "2b2f59283e769fb7a509456ec5acb9d9fbd9b88b039a7b891e4567a50eb64a97",
+      "asset_id": "tree_a_sapling_02",
+      "dimensions_unity_xyz_metres": [
+        2.55629825592041,
+        3.0056666940363357,
+        2.8929779529571533
+      ],
+      "authoring_metadata": "art/generated/env-v1/asset-manifest.json"
+    },
+    {
+      "path": "C:/Users/20665/Desktop/game/GameProject/Assets/JieGuang/Environment/Models/Natural/tree_a/tree_a_sapling_02_LOD1.fbx",
+      "format": "fbx",
+      "bytes": 137132,
+      "sha256": "20f91246b7e081e20c8fae4628eb36473b5043a3ba5b8be76633036eba7a5f0c",
+      "asset_id": "tree_a_sapling_02",
+      "dimensions_unity_xyz_metres": [
+        2.55629825592041,
+        3.0056666940363357,
+        2.8929779529571533
+      ],
+      "authoring_metadata": "art/generated/env-v1/asset-manifest.json"
+    },
+    {
+      "path": "C:/Users/20665/Desktop/game/GameProject/Assets/JieGuang/Environment/Models/Natural/tree_b/tree_b_LOD0.fbx",
+      "format": "fbx",
+      "bytes": 535148,
+      "sha256": "be6abb76001b21ad3d79a93911a5ab3e0023421b4352175567515c14b7061fb8",
+      "asset_id": "tree_b",
+      "dimensions_unity_xyz_metres": [
+        4.445602178573608,
+        4.288477104157209,
+        5.986614942550659
+      ],
+      "authoring_metadata": "art/generated/env-v1/asset-manifest.json"
+    },
+    {
+      "path": "C:/Users/20665/Desktop/game/GameProject/Assets/JieGuang/Environment/Models/Natural/tree_b/tree_b_LOD1.fbx",
+      "format": "fbx",
+      "bytes": 243404,
+      "sha256": "59787d69dd079115fa139936aad39aa8880ae05e09652a6f46837dd20b954819",
+      "asset_id": "tree_b",
+      "dimensions_unity_xyz_metres": [
+        4.445602178573608,
+        4.288477104157209,
+        5.986614942550659
+      ],
+      "authoring_metadata": "art/generated/env-v1/asset-manifest.json"
+    },
+    {
+      "path": "C:/Users/20665/Desktop/game/GameProject/Assets/JieGuang/Environment/Models/Natural/tree_c/tree_c_LOD0.fbx",
+      "format": "fbx",
+      "bytes": 566668,
+      "sha256": "b423c6f3b3f49dc6dfbbca68af40ad59dab6a6e90159333c1e13b8e1b882ae81",
+      "asset_id": "tree_c",
+      "dimensions_unity_xyz_metres": [
+        5.84911036491394,
+        5.175463136518374,
+        6.456652879714966
+      ],
+      "authoring_metadata": "art/generated/env-v1/asset-manifest.json"
+    },
+    {
+      "path": "C:/Users/20665/Desktop/game/GameProject/Assets/JieGuang/Environment/Models/Natural/tree_c/tree_c_LOD1.fbx",
+      "format": "fbx",
+      "bytes": 245100,
+      "sha256": "758661af3436c4d5d56e2465a618d696ee992fe552d4771a38f916af63dd357d",
+      "asset_id": "tree_c",
+      "dimensions_unity_xyz_metres": [
+        5.84911036491394,
+        5.175463136518374,
+        6.456652879714966
+      ],
+      "authoring_metadata": "art/generated/env-v1/asset-manifest.json"
+    },
+    {
+      "path": "C:/Users/20665/Desktop/game/GameProject/Assets/JieGuang/Environment/Models/Natural/tree_gold/tree_gold_LOD0.fbx",
+      "format": "fbx",
+      "bytes": 1298460,
+      "sha256": "8fcf04efcda95f5a58b4cae9b77bdad06d8b99981033c39662f3032ab8eed6b8",
+      "asset_id": "tree_gold",
+      "dimensions_unity_xyz_metres": [
+        5.405969142913818,
+        4.993380968924612,
+        5.350407838821411
+      ],
+      "authoring_metadata": "art/generated/env-v1/asset-manifest.json"
+    },
+    {
+      "path": "C:/Users/20665/Desktop/game/GameProject/Assets/JieGuang/Environment/Models/Natural/tree_gold/tree_gold_LOD1.fbx",
+      "format": "fbx",
+      "bytes": 570316,
+      "sha256": "dd6dbe546e882bbfe00532b36e533119798edd6a81a23df30762ddd6102ee7ed",
+      "asset_id": "tree_gold",
+      "dimensions_unity_xyz_metres": [
+        5.405969142913818,
+        4.993380968924612,
+        5.350407838821411
+      ],
+      "authoring_metadata": "art/generated/env-v1/asset-manifest.json"
+    },
+    {
+      "path": "C:/Users/20665/Desktop/game/GameProject/Assets/JieGuang/Environment/Models/Props/abode_grandma.fbx",
+      "format": "fbx",
+      "bytes": 52268,
+      "sha256": "9d1fe0889835087593d5b1f174ac4069ad8680e74b96b7c011e48f15bd3a8c5d",
+      "asset_id": "abode_grandma",
+      "authored_triangles": 1728,
+      "dimensions_blender_xyz_metres": [
+        4.6345,
+        4.4924,
+        3.955
+      ],
+      "authoring_metadata": "art/generated/env-v1/props/abode_grandma/asset.json"
+    },
+    {
+      "path": "C:/Users/20665/Desktop/game/GameProject/Assets/JieGuang/Environment/Models/Props/armillary_platform.fbx",
+      "format": "fbx",
+      "bytes": 58572,
+      "sha256": "ea5e519d7b331f5dbf5c7985178f51a451d4b1c527aad436e2ea5bc386b58f84",
+      "asset_id": "armillary_platform",
+      "authored_triangles": 2536,
+      "dimensions_blender_xyz_metres": [
+        2.44,
+        2.44,
+        2.2
+      ],
+      "authoring_metadata": "art/generated/env-v1/props/armillary_platform/asset.json"
+    },
+    {
+      "path": "C:/Users/20665/Desktop/game/GameProject/Assets/JieGuang/Environment/Models/Props/bench.fbx",
+      "format": "fbx",
+      "bytes": 27196,
+      "sha256": "8682056e14fa1745271e2980f5b02d65b78ccef15d4c4c145d671a3d4340b846",
+      "asset_id": "bench",
+      "authored_triangles": 324,
+      "dimensions_blender_xyz_metres": [
+        1.96,
+        0.585,
+        1.075
+      ],
+      "authoring_metadata": "art/generated/env-v1/props/bench/asset.json"
+    },
+    {
+      "path": "C:/Users/20665/Desktop/game/GameProject/Assets/JieGuang/Environment/Models/Props/copper_roadlamp.fbx",
+      "format": "fbx",
+      "bytes": 30956,
+      "sha256": "8580c85b85f02577ad0f4828185bd3a2a4d2f16b51eb82c5b7853b4ce30e68cf",
+      "asset_id": "copper_roadlamp",
+      "authored_triangles": 606,
+      "dimensions_blender_xyz_metres": [
+        0.49,
+        0.575,
+        4.045
+      ],
+      "authoring_metadata": "art/generated/env-v1/props/copper_roadlamp/asset.json"
+    },
+    {
+      "path": "C:/Users/20665/Desktop/game/GameProject/Assets/JieGuang/Environment/Models/Props/cottage_ochre.fbx",
+      "format": "fbx",
+      "bytes": 47724,
+      "sha256": "69f9b8148407241c3ec338c1eadb92494a495098524f977aa42d7fda3dc3f77b",
+      "asset_id": "cottage_ochre",
+      "authored_triangles": 1024,
+      "dimensions_blender_xyz_metres": [
+        3.9845,
+        3.6067,
+        3.595
+      ],
+      "authoring_metadata": "art/generated/env-v1/props/cottage_ochre/asset.json"
+    },
+    {
+      "path": "C:/Users/20665/Desktop/game/GameProject/Assets/JieGuang/Environment/Models/Props/cottage_slate.fbx",
+      "format": "fbx",
+      "bytes": 47740,
+      "sha256": "b674ab4355de3a5b124b12032109dc9758f0be136582077727293c56231c6315",
+      "asset_id": "cottage_slate",
+      "authored_triangles": 1024,
+      "dimensions_blender_xyz_metres": [
+        3.4019,
+        3.6067,
+        3.665
+      ],
+      "authoring_metadata": "art/generated/env-v1/props/cottage_slate/asset.json"
+    },
+    {
+      "path": "C:/Users/20665/Desktop/game/GameProject/Assets/JieGuang/Environment/Models/Props/cottage_teal.fbx",
+      "format": "fbx",
+      "bytes": 47516,
+      "sha256": "942f0d5034a4ecacb3fb1cd2a0874cfa8e1e667554b638e9a4f105e55997fa04",
+      "asset_id": "cottage_teal",
+      "authored_triangles": 1024,
+      "dimensions_blender_xyz_metres": [
+        3.7435,
+        3.4567,
+        3.635
+      ],
+      "authoring_metadata": "art/generated/env-v1/props/cottage_teal/asset.json"
+    },
+    {
+      "path": "C:/Users/20665/Desktop/game/GameProject/Assets/JieGuang/Environment/Models/Props/crescent_sculpture.fbx",
+      "format": "fbx",
+      "bytes": 23372,
+      "sha256": "40cc325897fb78dcadbe78c24d54cf25b24a3ad35e0beebe9262423271732864",
+      "asset_id": "crescent_sculpture",
+      "authored_triangles": 388,
+      "dimensions_blender_xyz_metres": [
+        1.5256,
+        0.92,
+        2.32
+      ],
+      "authoring_metadata": "art/generated/env-v1/props/crescent_sculpture/asset.json"
+    },
+    {
+      "path": "C:/Users/20665/Desktop/game/GameProject/Assets/JieGuang/Environment/Models/Props/dock_crate.fbx",
+      "format": "fbx",
+      "bytes": 20108,
+      "sha256": "420d4f68becb07eead3ab7d09a40278155467f2ce1846de0b58eb06ccc5dcd09",
+      "asset_id": "dock_crate",
+      "authored_triangles": 180,
+      "dimensions_blender_xyz_metres": [
+        0.68,
+        0.675,
+        0.56
+      ],
+      "authoring_metadata": "art/generated/env-v1/props/dock_crate/asset.json"
+    },
+    {
+      "path": "C:/Users/20665/Desktop/game/GameProject/Assets/JieGuang/Environment/Models/Props/dock_kettle.fbx",
+      "format": "fbx",
+      "bytes": 26348,
+      "sha256": "e36f82147cc443b2e5146e9f2d52aaefeaf77a5d05a55829090722e311b176c3",
+      "asset_id": "dock_kettle",
+      "authored_triangles": 436,
+      "dimensions_blender_xyz_metres": [
+        0.6595,
+        0.3,
+        0.5225
+      ],
+      "authoring_metadata": "art/generated/env-v1/props/dock_kettle/asset.json"
+    },
+    {
+      "path": "C:/Users/20665/Desktop/game/GameProject/Assets/JieGuang/Environment/Models/Props/flagpole_blue.fbx",
+      "format": "fbx",
+      "bytes": 43308,
+      "sha256": "bf20fa6d547aa1d17424fdd4fde804471c8926d145b9a48b1a022480a89c8903",
+      "asset_id": "flagpole_blue",
+      "authored_triangles": 895,
+      "dimensions_blender_xyz_metres": [
+        1.4615,
+        0.464,
+        4.97
+      ],
+      "authoring_metadata": "art/generated/env-v1/props/flagpole_blue/asset.json"
+    },
+    {
+      "path": "C:/Users/20665/Desktop/game/GameProject/Assets/JieGuang/Environment/Models/Props/harbor_lantern.fbx",
+      "format": "fbx",
+      "bytes": 25628,
+      "sha256": "2838797eabe43a1f35333844cdfd43030f171044708ae5b4c3c80529b6df9901",
+      "asset_id": "harbor_lantern",
+      "authored_triangles": 436,
+      "dimensions_blender_xyz_metres": [
+        0.36,
+        0.36,
+        0.793
+      ],
+      "authoring_metadata": "art/generated/env-v1/props/harbor_lantern/asset.json"
+    },
+    {
+      "path": "C:/Users/20665/Desktop/game/GameProject/Assets/JieGuang/Environment/Models/Props/laundry_line.fbx",
+      "format": "fbx",
+      "bytes": 25900,
+      "sha256": "3b33667e1153b64b6b5efda6674e2dc5f8f6c897fead5d99fdd8e314c86c6f7c",
+      "asset_id": "laundry_line",
+      "authored_triangles": 356,
+      "dimensions_blender_xyz_metres": [
+        3.392,
+        0.154,
+        2.0
+      ],
+      "authoring_metadata": "art/generated/env-v1/props/laundry_line/asset.json"
+    },
+    {
+      "path": "C:/Users/20665/Desktop/game/GameProject/Assets/JieGuang/Environment/Models/Props/pier_end.fbx",
+      "format": "fbx",
+      "bytes": 32300,
+      "sha256": "2a785ad824e1ade6a7062be1a35e40d70d47d287d916c8d9dbcde8ba293fef94",
+      "asset_id": "pier_end",
+      "authored_triangles": 668,
+      "dimensions_blender_xyz_metres": [
+        2.44,
+        3.66,
+        3.34
+      ],
+      "authoring_metadata": "art/generated/env-v1/props/pier_end/asset.json"
+    },
+    {
+      "path": "C:/Users/20665/Desktop/game/GameProject/Assets/JieGuang/Environment/Models/Props/pier_module.fbx",
+      "format": "fbx",
+      "bytes": 27244,
+      "sha256": "cb0b2a5dc182ef7830d7f04d32da095bb5fc6eb2b5ff7e90b1f7e1eb625033d0",
+      "asset_id": "pier_module",
+      "authored_triangles": 456,
+      "dimensions_blender_xyz_metres": [
+        2.38,
+        3.06,
+        3.34
+      ],
+      "authoring_metadata": "art/generated/env-v1/props/pier_module/asset.json"
+    },
+    {
+      "path": "C:/Users/20665/Desktop/game/GameProject/Assets/JieGuang/Environment/Models/Props/village_well.fbx",
+      "format": "fbx",
+      "bytes": 40780,
+      "sha256": "ee8a9d96dfd8467bb82a3d76fc96523b9bf871acd6701a5eaafb0134b20c753c",
+      "asset_id": "village_well",
+      "authored_triangles": 1156,
+      "dimensions_blender_xyz_metres": [
+        2.3752,
+        1.9734,
+        2.825
+      ],
+      "authoring_metadata": "art/generated/env-v1/props/village_well/asset.json"
+    },
+    {
+      "path": "C:/Users/20665/Desktop/game/GameProject/Assets/JieGuang/Environment/Models/Terrain/island_terrain.fbx",
+      "format": "fbx",
+      "bytes": 179228,
+      "sha256": "ab173885ad6e738525d3a883b589ab141f01f8a5f8fb1eb6c85a93ba9a6dd9eb"
+    }
+  ],
+  "existing_environment_textures": [
+    {
+      "path": "C:/Users/20665/Desktop/game/GameProject/Assets/JieGuang/Environment/Textures/boat/boat_BaseColor.png",
+      "format": "png",
+      "bytes": 4921540,
+      "sha256": "ae82850e9e93be4039c231763eb2d9ac57a0e67119c48542d11e6590f106e690",
+      "pixel_dimensions": [
+        2048,
+        2048
+      ]
+    },
+    {
+      "path": "C:/Users/20665/Desktop/game/GameProject/Assets/JieGuang/Environment/Textures/rock_arch/rock_arch_BaseColor.png",
+      "format": "png",
+      "bytes": 1999518,
+      "sha256": "e5be4a2642748d2df3b209c0f679a486d5d0a6896702b6eb9bbc988dae5ddb24",
+      "pixel_dimensions": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "path": "C:/Users/20665/Desktop/game/GameProject/Assets/JieGuang/Environment/Textures/rock_cluster/rock_cluster_BaseColor.png",
+      "format": "png",
+      "bytes": 1978352,
+      "sha256": "2c7fc078bfbf4e262af08c33d87e4dc0cf328d778ea7977ff07a851de86998ca",
+      "pixel_dimensions": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "path": "C:/Users/20665/Desktop/game/GameProject/Assets/JieGuang/Environment/Textures/rock_cluster/rock_cluster_reef_01_BaseColor.png",
+      "format": "png",
+      "bytes": 2096587,
+      "sha256": "65dcd45e7387b64b6c9c11247468813bef3d30797bb0bee344a7fb244633008f",
+      "pixel_dimensions": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "path": "C:/Users/20665/Desktop/game/GameProject/Assets/JieGuang/Environment/Textures/rock_cluster/rock_cluster_reef_02_BaseColor.png",
+      "format": "png",
+      "bytes": 2096587,
+      "sha256": "65dcd45e7387b64b6c9c11247468813bef3d30797bb0bee344a7fb244633008f",
+      "pixel_dimensions": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "path": "C:/Users/20665/Desktop/game/GameProject/Assets/JieGuang/Environment/Textures/rock_mass/rock_mass_BaseColor.png",
+      "format": "png",
+      "bytes": 1927867,
+      "sha256": "cc09d0c9cc807ff5bd9052b94825cb4505ffd5bfa01307d102b14757f96e631b",
+      "pixel_dimensions": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "path": "C:/Users/20665/Desktop/game/GameProject/Assets/JieGuang/Environment/Textures/rock_mountain/rock_mountain_BaseColor.png",
+      "format": "png",
+      "bytes": 2007619,
+      "sha256": "e00e28afb617ecac60b7dd952149059b659696c71b8d512c9f51523d0cf5181e",
+      "pixel_dimensions": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "path": "C:/Users/20665/Desktop/game/GameProject/Assets/JieGuang/Environment/Textures/tree_a/tree_a_BaseColor.png",
+      "format": "png",
+      "bytes": 1907881,
+      "sha256": "28e699695d4503913624e94f961201d8a0992ed60b4c57c6978b97a703b648b1",
+      "pixel_dimensions": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "path": "C:/Users/20665/Desktop/game/GameProject/Assets/JieGuang/Environment/Textures/tree_a/tree_a_LeafVeins_Emission.001.png",
+      "format": "png",
+      "bytes": 301811,
+      "sha256": "2a431b25d253815a5966effbdce1be994e802904bed7382cc235e3920ef05115",
+      "pixel_dimensions": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "path": "C:/Users/20665/Desktop/game/GameProject/Assets/JieGuang/Environment/Textures/tree_a/tree_a_LeafVeins_Emission.png",
+      "format": "png",
+      "bytes": 301811,
+      "sha256": "2a431b25d253815a5966effbdce1be994e802904bed7382cc235e3920ef05115",
+      "pixel_dimensions": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "path": "C:/Users/20665/Desktop/game/GameProject/Assets/JieGuang/Environment/Textures/tree_a/tree_a_sapling_01_BaseColor.png",
+      "format": "png",
+      "bytes": 1779688,
+      "sha256": "6bfd8981134cb15edc8473cf99ee67f3eb483aa9ae4d6ef6cb5b61c8b551adb9",
+      "pixel_dimensions": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "path": "C:/Users/20665/Desktop/game/GameProject/Assets/JieGuang/Environment/Textures/tree_a/tree_a_sapling_01_LeafVeins_Emission.001.png",
+      "format": "png",
+      "bytes": 273951,
+      "sha256": "f9965fc3856436e6eb5c658f3e6f13c8ef49a1301ed53bbbf27674578658a52b",
+      "pixel_dimensions": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "path": "C:/Users/20665/Desktop/game/GameProject/Assets/JieGuang/Environment/Textures/tree_a/tree_a_sapling_01_LeafVeins_Emission.png",
+      "format": "png",
+      "bytes": 273951,
+      "sha256": "f9965fc3856436e6eb5c658f3e6f13c8ef49a1301ed53bbbf27674578658a52b",
+      "pixel_dimensions": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "path": "C:/Users/20665/Desktop/game/GameProject/Assets/JieGuang/Environment/Textures/tree_a/tree_a_sapling_01_WarmFruit_Emission.001.png",
+      "format": "png",
+      "bytes": 42344,
+      "sha256": "283e41e9eb2757019a3612c59de2c10c75e8833c115420202ce555ab0ce24d63",
+      "pixel_dimensions": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "path": "C:/Users/20665/Desktop/game/GameProject/Assets/JieGuang/Environment/Textures/tree_a/tree_a_sapling_01_WarmFruit_Emission.png",
+      "format": "png",
+      "bytes": 219797,
+      "sha256": "661ea7831a52150a50ced3b0bd00dc15a64e26691bba0d849840d5ae235d849b",
+      "pixel_dimensions": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "path": "C:/Users/20665/Desktop/game/GameProject/Assets/JieGuang/Environment/Textures/tree_a/tree_a_sapling_02_BaseColor.png",
+      "format": "png",
+      "bytes": 1758770,
+      "sha256": "4c216bbbeb502bb6451e1ac67aa1d9ff24a7e6b3be1fa90292eb65432bc502be",
+      "pixel_dimensions": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "path": "C:/Users/20665/Desktop/game/GameProject/Assets/JieGuang/Environment/Textures/tree_a/tree_a_sapling_02_LeafVeins_Emission.001.png",
+      "format": "png",
+      "bytes": 291351,
+      "sha256": "59d1a1f76be8fa94ffa72f584ed5349aa8c1e65bc2da0d8f2946fe2f4ef1cf7f",
+      "pixel_dimensions": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "path": "C:/Users/20665/Desktop/game/GameProject/Assets/JieGuang/Environment/Textures/tree_a/tree_a_sapling_02_LeafVeins_Emission.png",
+      "format": "png",
+      "bytes": 291351,
+      "sha256": "59d1a1f76be8fa94ffa72f584ed5349aa8c1e65bc2da0d8f2946fe2f4ef1cf7f",
+      "pixel_dimensions": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "path": "C:/Users/20665/Desktop/game/GameProject/Assets/JieGuang/Environment/Textures/tree_a/tree_a_sapling_02_WarmFruit_Emission.001.png",
+      "format": "png",
+      "bytes": 45616,
+      "sha256": "10a710005225c6df81fc16fcf6686a184822598c55399b896eefae3d2138d5c0",
+      "pixel_dimensions": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "path": "C:/Users/20665/Desktop/game/GameProject/Assets/JieGuang/Environment/Textures/tree_a/tree_a_sapling_02_WarmFruit_Emission.png",
+      "format": "png",
+      "bytes": 225874,
+      "sha256": "1bcd12d7e172323a75412e45e0585add1b723fa3578fb5a3aa453ae7a1ccdb49",
+      "pixel_dimensions": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "path": "C:/Users/20665/Desktop/game/GameProject/Assets/JieGuang/Environment/Textures/tree_a/tree_a_WarmFruit_Emission.001.png",
+      "format": "png",
+      "bytes": 43440,
+      "sha256": "9e96d4656c9d220886c758fd535496be0646995c875746a0968f36a476afdf0b",
+      "pixel_dimensions": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "path": "C:/Users/20665/Desktop/game/GameProject/Assets/JieGuang/Environment/Textures/tree_a/tree_a_WarmFruit_Emission.png",
+      "format": "png",
+      "bytes": 266882,
+      "sha256": "de2c7ab369490632a38224c930598890e9d15ddcbdaa777e476e7affc80f5b7e",
+      "pixel_dimensions": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "path": "C:/Users/20665/Desktop/game/GameProject/Assets/JieGuang/Environment/Textures/tree_b/tree_b_BaseColor.png",
+      "format": "png",
+      "bytes": 1989846,
+      "sha256": "f4e31e92819edb2fdff425eae8ca18f9193ec2350c957866e7a4e78d2d8a94cf",
+      "pixel_dimensions": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "path": "C:/Users/20665/Desktop/game/GameProject/Assets/JieGuang/Environment/Textures/tree_b/tree_b_LeafVeins_Emission.001.png",
+      "format": "png",
+      "bytes": 192187,
+      "sha256": "98f325c28c946b1b517d467b6caaa0966e310681c20dac7d5251a79a51a548a1",
+      "pixel_dimensions": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "path": "C:/Users/20665/Desktop/game/GameProject/Assets/JieGuang/Environment/Textures/tree_b/tree_b_LeafVeins_Emission.png",
+      "format": "png",
+      "bytes": 192187,
+      "sha256": "98f325c28c946b1b517d467b6caaa0966e310681c20dac7d5251a79a51a548a1",
+      "pixel_dimensions": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "path": "C:/Users/20665/Desktop/game/GameProject/Assets/JieGuang/Environment/Textures/tree_b/tree_b_WarmFruit_Emission.001.png",
+      "format": "png",
+      "bytes": 86446,
+      "sha256": "15b5dacee7ee5125c49d27cfe377024f9f2ab030e2da67472800b6cf3ecdef12",
+      "pixel_dimensions": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "path": "C:/Users/20665/Desktop/game/GameProject/Assets/JieGuang/Environment/Textures/tree_b/tree_b_WarmFruit_Emission.png",
+      "format": "png",
+      "bytes": 241636,
+      "sha256": "950e36bf979530253d4162f48daee332adccfae45c10593379fa33d06a852d1a",
+      "pixel_dimensions": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "path": "C:/Users/20665/Desktop/game/GameProject/Assets/JieGuang/Environment/Textures/tree_c/tree_c_BaseColor.png",
+      "format": "png",
+      "bytes": 1852472,
+      "sha256": "4b49a2a38ad823c04a71899afc731a44ee749f81c2c438b3ac5117e6123e3b63",
+      "pixel_dimensions": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "path": "C:/Users/20665/Desktop/game/GameProject/Assets/JieGuang/Environment/Textures/tree_c/tree_c_LeafVeins_Emission.001.png",
+      "format": "png",
+      "bytes": 475095,
+      "sha256": "8dfb7cdd10ec06b59c9730b18347f96b09cea2a8a01a8092500a8df65756df13",
+      "pixel_dimensions": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "path": "C:/Users/20665/Desktop/game/GameProject/Assets/JieGuang/Environment/Textures/tree_c/tree_c_LeafVeins_Emission.png",
+      "format": "png",
+      "bytes": 475095,
+      "sha256": "8dfb7cdd10ec06b59c9730b18347f96b09cea2a8a01a8092500a8df65756df13",
+      "pixel_dimensions": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "path": "C:/Users/20665/Desktop/game/GameProject/Assets/JieGuang/Environment/Textures/tree_c/tree_c_WarmFruit_Emission.001.png",
+      "format": "png",
+      "bytes": 38894,
+      "sha256": "a356441faf412fd15bba3114077e749038892bdf3459070e28592d968a5666cb",
+      "pixel_dimensions": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "path": "C:/Users/20665/Desktop/game/GameProject/Assets/JieGuang/Environment/Textures/tree_c/tree_c_WarmFruit_Emission.png",
+      "format": "png",
+      "bytes": 225491,
+      "sha256": "0e12e6296944621a2afa033cb862a941f9d522e158ba6aa15099aab39284fcd4",
+      "pixel_dimensions": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "path": "C:/Users/20665/Desktop/game/GameProject/Assets/JieGuang/Environment/Textures/tree_gold/tree_gold_BaseColor.png",
+      "format": "png",
+      "bytes": 3791561,
+      "sha256": "3e50e659d95dbab04e06c75efd5001e7c7812a2c63206ed89081a50e9645c668",
+      "pixel_dimensions": [
+        2048,
+        2048
+      ]
+    },
+    {
+      "path": "C:/Users/20665/Desktop/game/GameProject/Assets/JieGuang/Environment/Textures/tree_gold/tree_gold_LeafVeins_Emission.001.png",
+      "format": "png",
+      "bytes": 1819211,
+      "sha256": "270fc5874b051c259edef3996c57386355d76c37fc72fb15a68a09296d057f69",
+      "pixel_dimensions": [
+        2048,
+        2048
+      ]
+    },
+    {
+      "path": "C:/Users/20665/Desktop/game/GameProject/Assets/JieGuang/Environment/Textures/tree_gold/tree_gold_LeafVeins_Emission.png",
+      "format": "png",
+      "bytes": 1819211,
+      "sha256": "270fc5874b051c259edef3996c57386355d76c37fc72fb15a68a09296d057f69",
+      "pixel_dimensions": [
+        2048,
+        2048
+      ]
+    },
+    {
+      "path": "C:/Users/20665/Desktop/game/GameProject/Assets/JieGuang/Environment/Textures/tree_gold/tree_gold_WarmFruit_Emission.001.png",
+      "format": "png",
+      "bytes": 103390,
+      "sha256": "b59b25ffc96cfb46baa04292bd9e967ca1dd94a8101fffc3bac74fc4cdec5228",
+      "pixel_dimensions": [
+        2048,
+        2048
+      ]
+    },
+    {
+      "path": "C:/Users/20665/Desktop/game/GameProject/Assets/JieGuang/Environment/Textures/tree_gold/tree_gold_WarmFruit_Emission.png",
+      "format": "png",
+      "bytes": 390201,
+      "sha256": "da6eced18313bec80e9286eec02c3139552acc879dd400995c9a9a879d8f8912",
+      "pixel_dimensions": [
+        2048,
+        2048
+      ]
+    }
+  ],
+  "existing_environment_materials": [
+    {
+      "path": "C:/Users/20665/Desktop/game/GameProject/Assets/JieGuang/Environment/Generated/Materials/boat_Wood.mat",
+      "format": "mat",
+      "bytes": 3829,
+      "sha256": "978af18fe0db8c82254b94d646cbfc66374cdf80984ff5bbd41f9d25282b4220",
+      "nonzero_texture_guids": [
+        "271af17616f863f4d89c4be8ecb40628"
+      ],
+      "has_any_texture_reference": true,
+      "_BaseColor": "r: 1, g: 1, b: 1, a: 1",
+      "_EmissionColor": "r: 0, g: 0, b: 0, a: 1",
+      "_Metallic": "0",
+      "_Smoothness": "0.13999999",
+      "_BumpScale": "1"
+    },
+    {
+      "path": "C:/Users/20665/Desktop/game/GameProject/Assets/JieGuang/Environment/Generated/Materials/Cliff_BlueSlate.mat",
+      "format": "mat",
+      "bytes": 3791,
+      "sha256": "2a26814bad3a70a5584df9fc6e53d5e379b1106d5b1bae0defe215b3069161bf",
+      "nonzero_texture_guids": [],
+      "has_any_texture_reference": false,
+      "_BaseColor": "r: 0.16, g: 0.205, b: 0.235, a: 1",
+      "_EmissionColor": "r: 0, g: 0, b: 0, a: 1",
+      "_Metallic": "0",
+      "_Smoothness": "0.13999999",
+      "_BumpScale": "1"
+    },
+    {
+      "path": "C:/Users/20665/Desktop/game/GameProject/Assets/JieGuang/Environment/Generated/Materials/Cliff_SoftSlate.mat",
+      "format": "mat",
+      "bytes": 3790,
+      "sha256": "4a2c5ace8fedaf64052c4f5b8ff2e28fb7403af61767a00de72177ebdcaf0882",
+      "nonzero_texture_guids": [],
+      "has_any_texture_reference": false,
+      "_BaseColor": "r: 0.24, g: 0.265, b: 0.27, a: 1",
+      "_EmissionColor": "r: 0, g: 0, b: 0, a: 1",
+      "_Metallic": "0",
+      "_Smoothness": "0.13999999",
+      "_BumpScale": "1"
+    },
+    {
+      "path": "C:/Users/20665/Desktop/game/GameProject/Assets/JieGuang/Environment/Generated/Materials/Cloth_Unbleached.mat",
+      "format": "mat",
+      "bytes": 3785,
+      "sha256": "3503c66873cf03d639ce08c43c41cc1593270ca7821801952d9fdee93951bc87",
+      "nonzero_texture_guids": [],
+      "has_any_texture_reference": false,
+      "_BaseColor": "r: 0.65, g: 0.61, b: 0.47, a: 1",
+      "_EmissionColor": "r: 0, g: 0, b: 0, a: 1",
+      "_Metallic": "0",
+      "_Smoothness": "0.32",
+      "_BumpScale": "1"
+    },
+    {
+      "path": "C:/Users/20665/Desktop/game/GameProject/Assets/JieGuang/Environment/Generated/Materials/Copper_Aged.mat",
+      "format": "mat",
+      "bytes": 3787,
+      "sha256": "054dad3a05d352214e86b40849b806cd4962b966b4500fb4621cd0107f6a184c",
+      "nonzero_texture_guids": [],
+      "has_any_texture_reference": false,
+      "_BaseColor": "r: 0.43, g: 0.24, b: 0.1, a: 1",
+      "_EmissionColor": "r: 0, g: 0, b: 0, a: 1",
+      "_Metallic": "0.6",
+      "_Smoothness": "0.58000004",
+      "_BumpScale": "1"
+    },
+    {
+      "path": "C:/Users/20665/Desktop/game/GameProject/Assets/JieGuang/Environment/Generated/Materials/Flag_FadedIndigo.mat",
+      "format": "mat",
+      "bytes": 3784,
+      "sha256": "51f9cbc27a6b3a5c6f1a0df11cb397cff80bbcd414556d79de0ae8bf0e33d976",
+      "nonzero_texture_guids": [],
+      "has_any_texture_reference": false,
+      "_BaseColor": "r: 0.16, g: 0.28, b: 0.45, a: 1",
+      "_EmissionColor": "r: 0, g: 0, b: 0, a: 1",
+      "_Metallic": "0",
+      "_Smoothness": "0.32",
+      "_BumpScale": "1"
+    },
+    {
+      "path": "C:/Users/20665/Desktop/game/GameProject/Assets/JieGuang/Environment/Generated/Materials/Flag_SilverTree.mat",
+      "format": "mat",
+      "bytes": 3783,
+      "sha256": "7ee9bf816e8e8721a39a441879544c7c36d06ed01994f2db1784c75385995fff",
+      "nonzero_texture_guids": [],
+      "has_any_texture_reference": false,
+      "_BaseColor": "r: 0.53, g: 0.64, b: 0.46, a: 1",
+      "_EmissionColor": "r: 0, g: 0, b: 0, a: 1",
+      "_Metallic": "0",
+      "_Smoothness": "0.32",
+      "_BumpScale": "1"
+    },
+    {
+      "path": "C:/Users/20665/Desktop/game/GameProject/Assets/JieGuang/Environment/Generated/Materials/Flag_WeatheredEdge.mat",
+      "format": "mat",
+      "bytes": 3786,
+      "sha256": "9eaa38eb31eb3d446c02bfe2e124bc15b3451b91085d2fc3d6b5ccf52171e63e",
+      "nonzero_texture_guids": [],
+      "has_any_texture_reference": false,
+      "_BaseColor": "r: 0.58, g: 0.61, b: 0.59, a: 1",
+      "_EmissionColor": "r: 0, g: 0, b: 0, a: 1",
+      "_Metallic": "0",
+      "_Smoothness": "0.32",
+      "_BumpScale": "1"
+    },
+    {
+      "path": "C:/Users/20665/Desktop/game/GameProject/Assets/JieGuang/Environment/Generated/Materials/Gold_WornEdges.mat",
+      "format": "mat",
+      "bytes": 3786,
+      "sha256": "0101034a44f9aecc5a061b2c902b1c665fc9282b950acc8e159764bf5dd7692a",
+      "nonzero_texture_guids": [],
+      "has_any_texture_reference": false,
+      "_BaseColor": "r: 0.67, g: 0.42, b: 0.12, a: 1",
+      "_EmissionColor": "r: 0, g: 0, b: 0, a: 1",
+      "_Metallic": "0.66",
+      "_Smoothness": "0.64",
+      "_BumpScale": "1"
+    },
+    {
+      "path": "C:/Users/20665/Desktop/game/GameProject/Assets/JieGuang/Environment/Generated/Materials/Ground_Earth.mat",
+      "format": "mat",
+      "bytes": 3786,
+      "sha256": "4c47141b1b090cb642e7d534dd77811673dbaa054650c65ef3e221c258b5477e",
+      "nonzero_texture_guids": [],
+      "has_any_texture_reference": false,
+      "_BaseColor": "r: 0.32, g: 0.25, b: 0.17, a: 1",
+      "_EmissionColor": "r: 0, g: 0, b: 0, a: 1",
+      "_Metallic": "0",
+      "_Smoothness": "0.13999999",
+      "_BumpScale": "1"
+    },
+    {
+      "path": "C:/Users/20665/Desktop/game/GameProject/Assets/JieGuang/Environment/Generated/Materials/Ground_Moss.mat",
+      "format": "mat",
+      "bytes": 3786,
+      "sha256": "b6ce30cb12c6bd0cf576afde8731eb95cc74ef8a913dcd7739885d9bfe163dd4",
+      "nonzero_texture_guids": [],
+      "has_any_texture_reference": false,
+      "_BaseColor": "r: 0.17, g: 0.235, b: 0.17, a: 1",
+      "_EmissionColor": "r: 0, g: 0, b: 0, a: 1",
+      "_Metallic": "0",
+      "_Smoothness": "0.13999999",
+      "_BumpScale": "1"
+    },
+    {
+      "path": "C:/Users/20665/Desktop/game/GameProject/Assets/JieGuang/Environment/Generated/Materials/Ground_Sage.mat",
+      "format": "mat",
+      "bytes": 3785,
+      "sha256": "48aa82315fd890b456e34b9ebbe3437d0ff0551922448d41c86826194cc10926",
+      "nonzero_texture_guids": [],
+      "has_any_texture_reference": false,
+      "_BaseColor": "r: 0.25, g: 0.29, b: 0.19, a: 1",
+      "_EmissionColor": "r: 0, g: 0, b: 0, a: 1",
+      "_Metallic": "0",
+      "_Smoothness": "0.13999999",
+      "_BumpScale": "1"
+    },
+    {
+      "path": "C:/Users/20665/Desktop/game/GameProject/Assets/JieGuang/Environment/Generated/Materials/Iron_Blackened.mat",
+      "format": "mat",
+      "bytes": 3786,
+      "sha256": "d54534741271d8e83638e18da349392cd8a307a4ca850d572c7e71aef54f423a",
+      "nonzero_texture_guids": [],
+      "has_any_texture_reference": false,
+      "_BaseColor": "r: 0.12, g: 0.14, b: 0.14, a: 1",
+      "_EmissionColor": "r: 0, g: 0, b: 0, a: 1",
+      "_Metallic": "0.62",
+      "_Smoothness": "0.55",
+      "_BumpScale": "1"
+    },
+    {
+      "path": "C:/Users/20665/Desktop/game/GameProject/Assets/JieGuang/Environment/Generated/Materials/Lantern_AmberCore.mat",
+      "format": "mat",
+      "bytes": 3805,
+      "sha256": "d6b92774c21cd68da67241a8ea6ef7e7ae9733813fbfde92d1037e82946fcf1b",
+      "nonzero_texture_guids": [],
+      "has_any_texture_reference": false,
+      "_BaseColor": "r: 1, g: 0.58, b: 0.19, a: 1",
+      "_EmissionColor": "r: 2.2, g: 1.276, b: 0.418, a: 2.2",
+      "_Metallic": "0",
+      "_Smoothness": "0.7",
+      "_BumpScale": "1"
+    },
+    {
+      "path": "C:/Users/20665/Desktop/game/GameProject/Assets/JieGuang/Environment/Generated/Materials/Material.mat",
+      "format": "mat",
+      "bytes": 3772,
+      "sha256": "04e433838b4e25f533dac6576ad11a4df994394f61a936930a9c725f8859c8cf",
+      "nonzero_texture_guids": [],
+      "has_any_texture_reference": false,
+      "_BaseColor": "r: 0.8, g: 0.8, b: 0.8, a: 1",
+      "_EmissionColor": "r: 0, g: 0, b: 0, a: 1",
+      "_Metallic": "0",
+      "_Smoothness": "0.5",
+      "_BumpScale": "1"
+    },
+    {
+      "path": "C:/Users/20665/Desktop/game/GameProject/Assets/JieGuang/Environment/Generated/Materials/NightSea.mat",
+      "format": "mat",
+      "bytes": 934,
+      "sha256": "ecf1fadb554d2428649a2c881ca8d03515c3d1af3fbd062d141755d52adb75f2",
+      "nonzero_texture_guids": [],
+      "has_any_texture_reference": false
+    },
+    {
+      "path": "C:/Users/20665/Desktop/game/GameProject/Assets/JieGuang/Environment/Generated/Materials/NightSky.mat",
+      "format": "mat",
+      "bytes": 970,
+      "sha256": "ee77116edda57619d38bd395401d16de2982cc73917251444ebc75d0e303b1ae",
+      "nonzero_texture_guids": [],
+      "has_any_texture_reference": false
+    },
+    {
+      "path": "C:/Users/20665/Desktop/game/GameProject/Assets/JieGuang/Environment/Generated/Materials/Path_WarmStone.mat",
+      "format": "mat",
+      "bytes": 3788,
+      "sha256": "b5c9c53ce48521b5b698888f77af7b89e4f3c70f82f11fe8358e3777ea6b4830",
+      "nonzero_texture_guids": [],
+      "has_any_texture_reference": false,
+      "_BaseColor": "r: 0.48, g: 0.44, b: 0.36, a: 1",
+      "_EmissionColor": "r: 0, g: 0, b: 0, a: 1",
+      "_Metallic": "0",
+      "_Smoothness": "0.13999999",
+      "_BumpScale": "1"
+    },
+    {
+      "path": "C:/Users/20665/Desktop/game/GameProject/Assets/JieGuang/Environment/Generated/Materials/Path_WeatheredStone.mat",
+      "format": "mat",
+      "bytes": 3793,
+      "sha256": "1ea0c3ab215386b73a4ef3d26d4c785f1d94d17d18965d0c208a9e75f57c490b",
+      "nonzero_texture_guids": [],
+      "has_any_texture_reference": false,
+      "_BaseColor": "r: 0.42, g: 0.44, b: 0.4, a: 1",
+      "_EmissionColor": "r: 0, g: 0, b: 0, a: 1",
+      "_Metallic": "0",
+      "_Smoothness": "0.13999999",
+      "_BumpScale": "1"
+    },
+    {
+      "path": "C:/Users/20665/Desktop/game/GameProject/Assets/JieGuang/Environment/Generated/Materials/rock_arch_Stone.mat",
+      "format": "mat",
+      "bytes": 3834,
+      "sha256": "dfe2a2dd69f5ea59444e6cba75b72ea92b268650389ade68415b9dd90205306a",
+      "nonzero_texture_guids": [
+        "b327b9509fc5ed94ea354f32906e4236"
+      ],
+      "has_any_texture_reference": true,
+      "_BaseColor": "r: 1, g: 1, b: 1, a: 1",
+      "_EmissionColor": "r: 0, g: 0, b: 0, a: 1",
+      "_Metallic": "0",
+      "_Smoothness": "0.13999999",
+      "_BumpScale": "1"
+    },
+    {
+      "path": "C:/Users/20665/Desktop/game/GameProject/Assets/JieGuang/Environment/Generated/Materials/rock_cluster_reef_01_Stone.mat",
+      "format": "mat",
+      "bytes": 3846,
+      "sha256": "8e0b3dee179c733a4b3340747c698accf0cf73ce593a1d0594016c2f59e9dd1d",
+      "nonzero_texture_guids": [
+        "b93738066ffb0e74fae8b1682b550cdd"
+      ],
+      "has_any_texture_reference": true,
+      "_BaseColor": "r: 1, g: 1, b: 1, a: 1",
+      "_EmissionColor": "r: 0, g: 0, b: 0, a: 1",
+      "_Metallic": "0",
+      "_Smoothness": "0.13999999",
+      "_BumpScale": "1"
+    },
+    {
+      "path": "C:/Users/20665/Desktop/game/GameProject/Assets/JieGuang/Environment/Generated/Materials/rock_cluster_reef_02_Stone.mat",
+      "format": "mat",
+      "bytes": 3846,
+      "sha256": "01737393b7be335c03975d6905308dc82cfeef63f3613e91bcd105146c673c72",
+      "nonzero_texture_guids": [
+        "2c9f58d3215f1b54ca2df2b41dacb54a"
+      ],
+      "has_any_texture_reference": true,
+      "_BaseColor": "r: 1, g: 1, b: 1, a: 1",
+      "_EmissionColor": "r: 0, g: 0, b: 0, a: 1",
+      "_Metallic": "0",
+      "_Smoothness": "0.13999999",
+      "_BumpScale": "1"
+    },
+    {
+      "path": "C:/Users/20665/Desktop/game/GameProject/Assets/JieGuang/Environment/Generated/Materials/rock_cluster_Stone.mat",
+      "format": "mat",
+      "bytes": 3838,
+      "sha256": "922b77fc93872b3cc2fa99b710a0f65da6cfdfd1ba2955a0fb30960d1af01c9b",
+      "nonzero_texture_guids": [
+        "d48111957894d644fac3dc9f6833b43e"
+      ],
+      "has_any_texture_reference": true,
+      "_BaseColor": "r: 1, g: 1, b: 1, a: 1",
+      "_EmissionColor": "r: 0, g: 0, b: 0, a: 1",
+      "_Metallic": "0",
+      "_Smoothness": "0.13999999",
+      "_BumpScale": "1"
+    },
+    {
+      "path": "C:/Users/20665/Desktop/game/GameProject/Assets/JieGuang/Environment/Generated/Materials/rock_mass_Stone.mat",
+      "format": "mat",
+      "bytes": 3835,
+      "sha256": "bd64353d82a71690201fd834bcb90acd0ab33fa72b873b1920908de097a1c518",
+      "nonzero_texture_guids": [
+        "9b8e4118c4cf5054789e7cca4e995ce4"
+      ],
+      "has_any_texture_reference": true,
+      "_BaseColor": "r: 1, g: 1, b: 1, a: 1",
+      "_EmissionColor": "r: 0, g: 0, b: 0, a: 1",
+      "_Metallic": "0",
+      "_Smoothness": "0.13999999",
+      "_BumpScale": "1"
+    },
+    {
+      "path": "C:/Users/20665/Desktop/game/GameProject/Assets/JieGuang/Environment/Generated/Materials/rock_mountain_Stone.mat",
+      "format": "mat",
+      "bytes": 3839,
+      "sha256": "3d108d9f69fff60eed26159f4d086cf382a9f4e4ce540662d0379cd8b4cae326",
+      "nonzero_texture_guids": [
+        "2b052ffc1c39d2d47bed37d5a5a3ba1d"
+      ],
+      "has_any_texture_reference": true,
+      "_BaseColor": "r: 1, g: 1, b: 1, a: 1",
+      "_EmissionColor": "r: 0, g: 0, b: 0, a: 1",
+      "_Metallic": "0",
+      "_Smoothness": "0.13999999",
+      "_BumpScale": "1"
+    },
+    {
+      "path": "C:/Users/20665/Desktop/game/GameProject/Assets/JieGuang/Environment/Generated/Materials/Roof_AgedTeal.mat",
+      "format": "mat",
+      "bytes": 3781,
+      "sha256": "7a565cf3e3d0dd14827a345f485d3572af5fba17abf259de4e81b0cbcc01c147",
+      "nonzero_texture_guids": [],
+      "has_any_texture_reference": false,
+      "_BaseColor": "r: 0.12, g: 0.31, b: 0.31, a: 1",
+      "_EmissionColor": "r: 0, g: 0, b: 0, a: 1",
+      "_Metallic": "0",
+      "_Smoothness": "0.32",
+      "_BumpScale": "1"
+    },
+    {
+      "path": "C:/Users/20665/Desktop/game/GameProject/Assets/JieGuang/Environment/Generated/Materials/Roof_OchreRed.mat",
+      "format": "mat",
+      "bytes": 3780,
+      "sha256": "5deb589dcf6c343d1cb619ee8cea86edda2de90f523ef1598ec7381413c96c22",
+      "nonzero_texture_guids": [],
+      "has_any_texture_reference": false,
+      "_BaseColor": "r: 0.46, g: 0.2, b: 0.13, a: 1",
+      "_EmissionColor": "r: 0, g: 0, b: 0, a: 1",
+      "_Metallic": "0",
+      "_Smoothness": "0.32",
+      "_BumpScale": "1"
+    },
+    {
+      "path": "C:/Users/20665/Desktop/game/GameProject/Assets/JieGuang/Environment/Generated/Materials/Roof_RedHighlight.mat",
+      "format": "mat",
+      "bytes": 3785,
+      "sha256": "482bf1f58628017e9505459956143fe8eae8faac410e6632b088df4867efaf01",
+      "nonzero_texture_guids": [],
+      "has_any_texture_reference": false,
+      "_BaseColor": "r: 0.57, g: 0.28, b: 0.17, a: 1",
+      "_EmissionColor": "r: 0, g: 0, b: 0, a: 1",
+      "_Metallic": "0",
+      "_Smoothness": "0.32",
+      "_BumpScale": "1"
+    },
+    {
+      "path": "C:/Users/20665/Desktop/game/GameProject/Assets/JieGuang/Environment/Generated/Materials/Roof_SlateHighlight.mat",
+      "format": "mat",
+      "bytes": 3787,
+      "sha256": "42d417e226badfea13f6c20cb89b4f86c69a1bd3b82cb3ce0bffd1bf7fabc3c9",
+      "nonzero_texture_guids": [],
+      "has_any_texture_reference": false,
+      "_BaseColor": "r: 0.37, g: 0.41, b: 0.41, a: 1",
+      "_EmissionColor": "r: 0, g: 0, b: 0, a: 1",
+      "_Metallic": "0",
+      "_Smoothness": "0.32",
+      "_BumpScale": "1"
+    },
+    {
+      "path": "C:/Users/20665/Desktop/game/GameProject/Assets/JieGuang/Environment/Generated/Materials/Roof_TealHighlight.mat",
+      "format": "mat",
+      "bytes": 3785,
+      "sha256": "e191b3b44ba53f8855bfa4fc72b16b12d4667178211ddb5a4047fcf0fa9d88ce",
+      "nonzero_texture_guids": [],
+      "has_any_texture_reference": false,
+      "_BaseColor": "r: 0.18, g: 0.4, b: 0.36, a: 1",
+      "_EmissionColor": "r: 0, g: 0, b: 0, a: 1",
+      "_Metallic": "0",
+      "_Smoothness": "0.32",
+      "_BumpScale": "1"
+    },
+    {
+      "path": "C:/Users/20665/Desktop/game/GameProject/Assets/JieGuang/Environment/Generated/Materials/Roof_WarmSlate.mat",
+      "format": "mat",
+      "bytes": 3783,
+      "sha256": "e2337d08d717c1c5cb0edc3ea63348fd371ab49a04d799d3d004665778bd6b9b",
+      "nonzero_texture_guids": [],
+      "has_any_texture_reference": false,
+      "_BaseColor": "r: 0.27, g: 0.32, b: 0.35, a: 1",
+      "_EmissionColor": "r: 0, g: 0, b: 0, a: 1",
+      "_Metallic": "0",
+      "_Smoothness": "0.32",
+      "_BumpScale": "1"
+    },
+    {
+      "path": "C:/Users/20665/Desktop/game/GameProject/Assets/JieGuang/Environment/Generated/Materials/Shore_Sand.mat",
+      "format": "mat",
+      "bytes": 3782,
+      "sha256": "23ddfebe4cb831e7660a581feb547cabf57b17d49a638ab20dc082cc69f853ce",
+      "nonzero_texture_guids": [],
+      "has_any_texture_reference": false,
+      "_BaseColor": "r: 0.4, g: 0.4, b: 0.3, a: 1",
+      "_EmissionColor": "r: 0, g: 0, b: 0, a: 1",
+      "_Metallic": "0",
+      "_Smoothness": "0.13999999",
+      "_BumpScale": "1"
+    },
+    {
+      "path": "C:/Users/20665/Desktop/game/GameProject/Assets/JieGuang/Environment/Generated/Materials/Stone_SoftGrey.mat",
+      "format": "mat",
+      "bytes": 3782,
+      "sha256": "c366c33f495a1e904599d1d0c2d4d9e5b39352cca58752931d20bd3e9fbb5c8d",
+      "nonzero_texture_guids": [],
+      "has_any_texture_reference": false,
+      "_BaseColor": "r: 0.36, g: 0.36, b: 0.31, a: 1",
+      "_EmissionColor": "r: 0, g: 0, b: 0, a: 1",
+      "_Metallic": "0",
+      "_Smoothness": "0.32",
+      "_BumpScale": "1"
+    },
+    {
+      "path": "C:/Users/20665/Desktop/game/GameProject/Assets/JieGuang/Environment/Generated/Materials/Stone_WarmLimestone.mat",
+      "format": "mat",
+      "bytes": 3788,
+      "sha256": "f3bf11a0562291dd4e9dcc7260c1a6f0d2f4c11e52f8844fb474e3f63025c1cc",
+      "nonzero_texture_guids": [],
+      "has_any_texture_reference": false,
+      "_BaseColor": "r: 0.48, g: 0.46, b: 0.37, a: 1",
+      "_EmissionColor": "r: 0, g: 0, b: 0, a: 1",
+      "_Metallic": "0",
+      "_Smoothness": "0.32",
+      "_BumpScale": "1"
+    },
+    {
+      "path": "C:/Users/20665/Desktop/game/GameProject/Assets/JieGuang/Environment/Generated/Materials/tree_a_Bark.mat",
+      "format": "mat",
+      "bytes": 3830,
+      "sha256": "c12e2da45827f10f8d9c3d4939a343cdc6a7ff33310af3dddb74e3de765a507d",
+      "nonzero_texture_guids": [
+        "455cafeb3cd935148b964d6845c0359b"
+      ],
+      "has_any_texture_reference": true,
+      "_BaseColor": "r: 1, g: 1, b: 1, a: 1",
+      "_EmissionColor": "r: 0, g: 0, b: 0, a: 1",
+      "_Metallic": "0",
+      "_Smoothness": "0.13999999",
+      "_BumpScale": "1"
+    },
+    {
+      "path": "C:/Users/20665/Desktop/game/GameProject/Assets/JieGuang/Environment/Generated/Materials/tree_a_LeafVeins.mat",
+      "format": "mat",
+      "bytes": 3915,
+      "sha256": "92aee9af11727cc2badbc004d8e3621c2c0bbd6b0714ca2892c9edba634c261e",
+      "nonzero_texture_guids": [
+        "39fa44963089cf5459b6179a9446a66a",
+        "455cafeb3cd935148b964d6845c0359b"
+      ],
+      "has_any_texture_reference": true,
+      "_BaseColor": "r: 1, g: 1, b: 1, a: 1",
+      "_EmissionColor": "r: 0.22, g: 0.22, b: 0.22, a: 0.22",
+      "_Metallic": "0",
+      "_Smoothness": "0.13999999",
+      "_BumpScale": "1"
+    },
+    {
+      "path": "C:/Users/20665/Desktop/game/GameProject/Assets/JieGuang/Environment/Generated/Materials/tree_a_sapling_01_Bark.mat",
+      "format": "mat",
+      "bytes": 3842,
+      "sha256": "2140f71d63ca4144e54ffce76d26f2df8fa6b4151390e6cac975ea2242cd47bf",
+      "nonzero_texture_guids": [
+        "c7b031e6eadf9f849a50f055087f4cef"
+      ],
+      "has_any_texture_reference": true,
+      "_BaseColor": "r: 1, g: 1, b: 1, a: 1",
+      "_EmissionColor": "r: 0, g: 0, b: 0, a: 1",
+      "_Metallic": "0",
+      "_Smoothness": "0.13999999",
+      "_BumpScale": "1"
+    },
+    {
+      "path": "C:/Users/20665/Desktop/game/GameProject/Assets/JieGuang/Environment/Generated/Materials/tree_a_sapling_01_LeafVeins.mat",
+      "format": "mat",
+      "bytes": 3925,
+      "sha256": "3ad9c64f934336ad5f826498f312cfe6671de500ca490e5587013db25e87ea49",
+      "nonzero_texture_guids": [
+        "c7b031e6eadf9f849a50f055087f4cef",
+        "cfc92e692708cb244bd54024705cb34f"
+      ],
+      "has_any_texture_reference": true,
+      "_BaseColor": "r: 1, g: 1, b: 1, a: 1",
+      "_EmissionColor": "r: 0.22, g: 0.22, b: 0.22, a: 0.22",
+      "_Metallic": "0",
+      "_Smoothness": "0.13999999",
+      "_BumpScale": "1"
+    },
+    {
+      "path": "C:/Users/20665/Desktop/game/GameProject/Assets/JieGuang/Environment/Generated/Materials/tree_a_sapling_01_WarmFruit.mat",
+      "format": "mat",
+      "bytes": 3925,
+      "sha256": "7bc22a527fd49bb2d0b047f0442b6560454044ca510bc5e465fa011d38d7c883",
+      "nonzero_texture_guids": [
+        "1354be290165a154f911894d47e6379c",
+        "c7b031e6eadf9f849a50f055087f4cef"
+      ],
+      "has_any_texture_reference": true,
+      "_BaseColor": "r: 1, g: 1, b: 1, a: 1",
+      "_EmissionColor": "r: 1.35, g: 1.35, b: 1.35, a: 1.35",
+      "_Metallic": "0",
+      "_Smoothness": "0.13999999",
+      "_BumpScale": "1"
+    },
+    {
+      "path": "C:/Users/20665/Desktop/game/GameProject/Assets/JieGuang/Environment/Generated/Materials/tree_a_sapling_02_Bark.mat",
+      "format": "mat",
+      "bytes": 3843,
+      "sha256": "8a5037672128ac440085f98ee68d3e9dc7eb4412d887ec44cebe89f6633b5d9d",
+      "nonzero_texture_guids": [
+        "c3f2b2bd011f37f45b9f4e109f8c123a"
+      ],
+      "has_any_texture_reference": true,
+      "_BaseColor": "r: 1, g: 1, b: 1, a: 1",
+      "_EmissionColor": "r: 0, g: 0, b: 0, a: 1",
+      "_Metallic": "0",
+      "_Smoothness": "0.13999999",
+      "_BumpScale": "1"
+    },
+    {
+      "path": "C:/Users/20665/Desktop/game/GameProject/Assets/JieGuang/Environment/Generated/Materials/tree_a_sapling_02_LeafVeins.mat",
+      "format": "mat",
+      "bytes": 3926,
+      "sha256": "d63f0262a3b46fd9ebe9d1cadaa86e8743491c828c3723efae39d20cf578be36",
+      "nonzero_texture_guids": [
+        "c07f4c0c5a9453e4da3b49c9369140a3",
+        "c3f2b2bd011f37f45b9f4e109f8c123a"
+      ],
+      "has_any_texture_reference": true,
+      "_BaseColor": "r: 1, g: 1, b: 1, a: 1",
+      "_EmissionColor": "r: 0.22, g: 0.22, b: 0.22, a: 0.22",
+      "_Metallic": "0",
+      "_Smoothness": "0.13999999",
+      "_BumpScale": "1"
+    },
+    {
+      "path": "C:/Users/20665/Desktop/game/GameProject/Assets/JieGuang/Environment/Generated/Materials/tree_a_sapling_02_WarmFruit.mat",
+      "format": "mat",
+      "bytes": 3924,
+      "sha256": "4008df8f6ed44f736b04cc4ec3b493f3df77d6329f641ad9376e35a62df16cae",
+      "nonzero_texture_guids": [
+        "16359bbf0869e0a4f96924445ea3ebd4",
+        "c3f2b2bd011f37f45b9f4e109f8c123a"
+      ],
+      "has_any_texture_reference": true,
+      "_BaseColor": "r: 1, g: 1, b: 1, a: 1",
+      "_EmissionColor": "r: 1.35, g: 1.35, b: 1.35, a: 1.35",
+      "_Metallic": "0",
+      "_Smoothness": "0.13999999",
+      "_BumpScale": "1"
+    },
+    {
+      "path": "C:/Users/20665/Desktop/game/GameProject/Assets/JieGuang/Environment/Generated/Materials/tree_a_WarmFruit.mat",
+      "format": "mat",
+      "bytes": 3914,
+      "sha256": "2798ccd112a1e238f2ddf56c1ffd7f176c8355a1c3412522afe6caad2648fa9f",
+      "nonzero_texture_guids": [
+        "418ecac5b417039499e869c1912c6fba",
+        "455cafeb3cd935148b964d6845c0359b"
+      ],
+      "has_any_texture_reference": true,
+      "_BaseColor": "r: 1, g: 1, b: 1, a: 1",
+      "_EmissionColor": "r: 1.35, g: 1.35, b: 1.35, a: 1.35",
+      "_Metallic": "0",
+      "_Smoothness": "0.13999999",
+      "_BumpScale": "1"
+    },
+    {
+      "path": "C:/Users/20665/Desktop/game/GameProject/Assets/JieGuang/Environment/Generated/Materials/tree_b_Bark.mat",
+      "format": "mat",
+      "bytes": 3831,
+      "sha256": "ca5fcb31f0ef796af38b15688415e014f8c42390608627a5b7d35b3266ed293d",
+      "nonzero_texture_guids": [
+        "a02e630da3a33174bb3edece8b4d5028"
+      ],
+      "has_any_texture_reference": true,
+      "_BaseColor": "r: 1, g: 1, b: 1, a: 1",
+      "_EmissionColor": "r: 0, g: 0, b: 0, a: 1",
+      "_Metallic": "0",
+      "_Smoothness": "0.13999999",
+      "_BumpScale": "1"
+    },
+    {
+      "path": "C:/Users/20665/Desktop/game/GameProject/Assets/JieGuang/Environment/Generated/Materials/tree_b_BarkRepair.mat",
+      "format": "mat",
+      "bytes": 3791,
+      "sha256": "739eee055c186c22583a5b02bb17222c79f2416304eae12639ee762c76f78766",
+      "nonzero_texture_guids": [],
+      "has_any_texture_reference": false,
+      "_BaseColor": "r: 0.2, g: 0.07, b: 0.026, a: 1",
+      "_EmissionColor": "r: 0, g: 0, b: 0, a: 1",
+      "_Metallic": "0",
+      "_Smoothness": "0.13999999",
+      "_BumpScale": "1"
+    },
+    {
+      "path": "C:/Users/20665/Desktop/game/GameProject/Assets/JieGuang/Environment/Generated/Materials/tree_b_LeafVeins.mat",
+      "format": "mat",
+      "bytes": 3914,
+      "sha256": "99ffad104e40cd07ef77dc9814d2ced71277ddb63b4c717da283aaecc655523f",
+      "nonzero_texture_guids": [
+        "a02e630da3a33174bb3edece8b4d5028",
+        "dda31bac90dc3c1478c6ab1955327c7c"
+      ],
+      "has_any_texture_reference": true,
+      "_BaseColor": "r: 1, g: 1, b: 1, a: 1",
+      "_EmissionColor": "r: 0.22, g: 0.22, b: 0.22, a: 0.22",
+      "_Metallic": "0",
+      "_Smoothness": "0.13999999",
+      "_BumpScale": "1"
+    },
+    {
+      "path": "C:/Users/20665/Desktop/game/GameProject/Assets/JieGuang/Environment/Generated/Materials/tree_b_WarmFruit.mat",
+      "format": "mat",
+      "bytes": 3915,
+      "sha256": "a2442d07f7ef008043d118c5392fb5bf8d24c3fe250c3fd4fe299889811a2dd0",
+      "nonzero_texture_guids": [
+        "22007310a90127147b10a482f650cdff",
+        "a02e630da3a33174bb3edece8b4d5028"
+      ],
+      "has_any_texture_reference": true,
+      "_BaseColor": "r: 1, g: 1, b: 1, a: 1",
+      "_EmissionColor": "r: 1.35, g: 1.35, b: 1.35, a: 1.35",
+      "_Metallic": "0",
+      "_Smoothness": "0.13999999",
+      "_BumpScale": "1"
+    },
+    {
+      "path": "C:/Users/20665/Desktop/game/GameProject/Assets/JieGuang/Environment/Generated/Materials/tree_c_Bark.mat",
+      "format": "mat",
+      "bytes": 3831,
+      "sha256": "586378f1f930f1d53acd09809cc54b8b392b6c98c266f729631da8576582d861",
+      "nonzero_texture_guids": [
+        "eb4119ff015d2d94cbd6b6a1cd2c0501"
+      ],
+      "has_any_texture_reference": true,
+      "_BaseColor": "r: 1, g: 1, b: 1, a: 1",
+      "_EmissionColor": "r: 0, g: 0, b: 0, a: 1",
+      "_Metallic": "0",
+      "_Smoothness": "0.13999999",
+      "_BumpScale": "1"
+    },
+    {
+      "path": "C:/Users/20665/Desktop/game/GameProject/Assets/JieGuang/Environment/Generated/Materials/tree_c_LeafVeins.mat",
+      "format": "mat",
+      "bytes": 3914,
+      "sha256": "9e5d3422d5390e6116c7f32ffa92e616f24612a1b1199ca3307284a6b7467799",
+      "nonzero_texture_guids": [
+        "b01d2b8ab89993b4389daf9514111f7e",
+        "eb4119ff015d2d94cbd6b6a1cd2c0501"
+      ],
+      "has_any_texture_reference": true,
+      "_BaseColor": "r: 1, g: 1, b: 1, a: 1",
+      "_EmissionColor": "r: 0.22, g: 0.22, b: 0.22, a: 0.22",
+      "_Metallic": "0",
+      "_Smoothness": "0.13999999",
+      "_BumpScale": "1"
+    },
+    {
+      "path": "C:/Users/20665/Desktop/game/GameProject/Assets/JieGuang/Environment/Generated/Materials/tree_c_WarmFruit.mat",
+      "format": "mat",
+      "bytes": 3914,
+      "sha256": "1c2e3ee80099fd37fe47a605a463627bb392f08bb3a8a71944437097aaeb9884",
+      "nonzero_texture_guids": [
+        "4ffdfe5a3e8c5ba42a2f645247461812",
+        "eb4119ff015d2d94cbd6b6a1cd2c0501"
+      ],
+      "has_any_texture_reference": true,
+      "_BaseColor": "r: 1, g: 1, b: 1, a: 1",
+      "_EmissionColor": "r: 1.35, g: 1.35, b: 1.35, a: 1.35",
+      "_Metallic": "0",
+      "_Smoothness": "0.13999999",
+      "_BumpScale": "1"
+    },
+    {
+      "path": "C:/Users/20665/Desktop/game/GameProject/Assets/JieGuang/Environment/Generated/Materials/tree_gold_Bark.mat",
+      "format": "mat",
+      "bytes": 3835,
+      "sha256": "c7559bd2aaa39a57f5ed6be7278740b559f7af44f6fb9bd3b94745452ff54198",
+      "nonzero_texture_guids": [
+        "db75bc69102abe5428063e326ad62369"
+      ],
+      "has_any_texture_reference": true,
+      "_BaseColor": "r: 1, g: 1, b: 1, a: 1",
+      "_EmissionColor": "r: 0, g: 0, b: 0, a: 1",
+      "_Metallic": "0",
+      "_Smoothness": "0.13999999",
+      "_BumpScale": "1"
+    },
+    {
+      "path": "C:/Users/20665/Desktop/game/GameProject/Assets/JieGuang/Environment/Generated/Materials/tree_gold_LeafVeins.mat",
+      "format": "mat",
+      "bytes": 3918,
+      "sha256": "e7dd5a33f8a64c6a4c8e58183bd6dae032b3cec24b3355df16cccfff737e2589",
+      "nonzero_texture_guids": [
+        "452db09f82891904692fa4b6193b0280",
+        "db75bc69102abe5428063e326ad62369"
+      ],
+      "has_any_texture_reference": true,
+      "_BaseColor": "r: 1, g: 1, b: 1, a: 1",
+      "_EmissionColor": "r: 0.22, g: 0.22, b: 0.22, a: 0.22",
+      "_Metallic": "0",
+      "_Smoothness": "0.13999999",
+      "_BumpScale": "1"
+    },
+    {
+      "path": "C:/Users/20665/Desktop/game/GameProject/Assets/JieGuang/Environment/Generated/Materials/tree_gold_WarmFruit.mat",
+      "format": "mat",
+      "bytes": 3918,
+      "sha256": "850e3765a42d73afb8955929af6e9d5f9fe18f61ff00dc70118e007df8fdeb6f",
+      "nonzero_texture_guids": [
+        "3260ad09f97fcdb448454594f469089e",
+        "db75bc69102abe5428063e326ad62369"
+      ],
+      "has_any_texture_reference": true,
+      "_BaseColor": "r: 1, g: 1, b: 1, a: 1",
+      "_EmissionColor": "r: 1.35, g: 1.35, b: 1.35, a: 1.35",
+      "_Metallic": "0",
+      "_Smoothness": "0.13999999",
+      "_BumpScale": "1"
+    },
+    {
+      "path": "C:/Users/20665/Desktop/game/GameProject/Assets/JieGuang/Environment/Generated/Materials/Wall_LightTimber.mat",
+      "format": "mat",
+      "bytes": 3785,
+      "sha256": "23db9cc09cc402ae8dc2125c52ccd446283c770e6d62a5ab52bc5bfccbab4f8a",
+      "nonzero_texture_guids": [],
+      "has_any_texture_reference": false,
+      "_BaseColor": "r: 0.57, g: 0.44, b: 0.29, a: 1",
+      "_EmissionColor": "r: 0, g: 0, b: 0, a: 1",
+      "_Metallic": "0",
+      "_Smoothness": "0.32",
+      "_BumpScale": "1"
+    },
+    {
+      "path": "C:/Users/20665/Desktop/game/GameProject/Assets/JieGuang/Environment/Generated/Materials/Wall_WarmIvory.mat",
+      "format": "mat",
+      "bytes": 3783,
+      "sha256": "4efd85d29e66c287f859ae34c7a2516cc259939409401616a2e93557850b0849",
+      "nonzero_texture_guids": [],
+      "has_any_texture_reference": false,
+      "_BaseColor": "r: 0.71, g: 0.64, b: 0.48, a: 1",
+      "_EmissionColor": "r: 0, g: 0, b: 0, a: 1",
+      "_Metallic": "0",
+      "_Smoothness": "0.32",
+      "_BumpScale": "1"
+    },
+    {
+      "path": "C:/Users/20665/Desktop/game/GameProject/Assets/JieGuang/Environment/Generated/Materials/Window_AmberEmission.mat",
+      "format": "mat",
+      "bytes": 3806,
+      "sha256": "9818e339a2520f2641cd275feea0e9309e40890c79faa67f14560f6facdc8fa4",
+      "nonzero_texture_guids": [],
+      "has_any_texture_reference": false,
+      "_BaseColor": "r: 1, g: 0.43, b: 0.1, a: 1",
+      "_EmissionColor": "r: 1.5, g: 0.645, b: 0.15, a: 1.5",
+      "_Metallic": "0",
+      "_Smoothness": "0.55",
+      "_BumpScale": "1"
+    },
+    {
+      "path": "C:/Users/20665/Desktop/game/GameProject/Assets/JieGuang/Environment/Generated/Materials/Wood_DarkBeams.mat",
+      "format": "mat",
+      "bytes": 3782,
+      "sha256": "7a305f980b3a00690d983831071dfaf2420118244e9fd502a090ca22b61c4bd2",
+      "nonzero_texture_guids": [],
+      "has_any_texture_reference": false,
+      "_BaseColor": "r: 0.19, g: 0.13, b: 0.09, a: 1",
+      "_EmissionColor": "r: 0, g: 0, b: 0, a: 1",
+      "_Metallic": "0",
+      "_Smoothness": "0.32",
+      "_BumpScale": "1"
+    },
+    {
+      "path": "C:/Users/20665/Desktop/game/GameProject/Assets/JieGuang/Environment/Generated/Materials/Wood_Endgrain.mat",
+      "format": "mat",
+      "bytes": 3782,
+      "sha256": "213f655f49a3978bb05cfa8c906850277f77632b2abd15d8abd2b85c57cdc298",
+      "nonzero_texture_guids": [],
+      "has_any_texture_reference": false,
+      "_BaseColor": "r: 0.53, g: 0.34, b: 0.18, a: 1",
+      "_EmissionColor": "r: 0, g: 0, b: 0, a: 1",
+      "_Metallic": "0",
+      "_Smoothness": "0.32",
+      "_BumpScale": "1"
+    },
+    {
+      "path": "C:/Users/20665/Desktop/game/GameProject/Assets/JieGuang/Environment/Generated/Materials/Wood_Honey.mat",
+      "format": "mat",
+      "bytes": 3776,
+      "sha256": "9944e08d917896268764900f804c28b511b1196bb21f6877aba148f1e657552d",
+      "nonzero_texture_guids": [],
+      "has_any_texture_reference": false,
+      "_BaseColor": "r: 0.36, g: 0.2, b: 0.1, a: 1",
+      "_EmissionColor": "r: 0, g: 0, b: 0, a: 1",
+      "_Metallic": "0",
+      "_Smoothness": "0.32",
+      "_BumpScale": "1"
+    },
+    {
+      "path": "C:/Users/20665/Desktop/game/GameProject/Assets/JieGuang/Environment/Generated/Materials/Wood_Weathered.mat",
+      "format": "mat",
+      "bytes": 3782,
+      "sha256": "43e70243aec6d7969944954e7c35e3a4d5cea611af7f43f8afcdd3235057e977",
+      "nonzero_texture_guids": [],
+      "has_any_texture_reference": false,
+      "_BaseColor": "r: 0.31, g: 0.32, b: 0.27, a: 1",
+      "_EmissionColor": "r: 0, g: 0, b: 0, a: 1",
+      "_Metallic": "0",
+      "_Smoothness": "0.32",
+      "_BumpScale": "1"
+    }
+  ],
+  "required_v2_assets": [
+    {
+      "id": "A01",
+      "label": "阿婆木屋",
+      "owner": "GPT 环境",
+      "provided_v2_files": [],
+      "status": "new-v2-source-not-found",
+      "expected_filename": "v2_A01_grandma_house.fbx",
+      "existing_fallback": "abode_grandma",
+      "suggested_action": "程序化升级或替换；当前无阁楼，圆窗和门必须保持锚点"
+    },
+    {
+      "id": "A02",
+      "label": "书桌组合",
+      "owner": "GPT 环境",
+      "provided_v2_files": [],
+      "status": "new-v2-source-not-found",
+      "expected_filename": "v2_A02_desk_set.fbx",
+      "existing_fallback": "abode_grandma 中内置桌椅书本",
+      "suggested_action": "程序化补纸页、墨水瓶、陶罐、披肩；不挡圆窗"
+    },
+    {
+      "id": "A03",
+      "label": "金色光树",
+      "owner": "GPT 环境",
+      "provided_v2_files": [],
+      "status": "new-v2-source-not-found",
+      "expected_filename": "v2_A03_golden_tree.fbx",
+      "existing_fallback": "tree_gold",
+      "suggested_action": "现树可用，硬边与重建粘连需美术改进；新高质量单树可替换"
+    },
+    {
+      "id": "A04",
+      "label": "第一朵花",
+      "owner": "GPT 环境",
+      "provided_v2_files": [],
+      "status": "new-v2-source-not-found",
+      "expected_filename": "v2_A04_first_flower.fbx",
+      "existing_fallback": "环境目录无独立花模型",
+      "suggested_action": "可原创程序化；终章启用由 Claude 接口控制"
+    },
+    {
+      "id": "A05",
+      "label": "路灯灯柱",
+      "owner": "GPT 环境",
+      "provided_v2_files": [],
+      "status": "new-v2-source-not-found",
+      "expected_filename": "v2_A05_lamp_post.fbx",
+      "existing_fallback": "copper_roadlamp 内含",
+      "suggested_action": "程序化倒角、铜锈、手柄，不移动灯轴"
+    },
+    {
+      "id": "A06",
+      "label": "路灯灯头",
+      "owner": "GPT 环境",
+      "provided_v2_files": [],
+      "status": "new-v2-source-not-found",
+      "expected_filename": "v2_A06_lamp_head.fbx",
+      "existing_fallback": "copper_roadlamp 内含",
+      "suggested_action": "程序化修边与铜材质，保留 LampHead 转轴和 +Z 光向"
+    },
+    {
+      "id": "A07",
+      "label": "宽罩与窄罩",
+      "owner": "GPT 环境",
+      "provided_v2_files": [],
+      "status": "new-v2-source-not-found",
+      "expected_filename": "v2_A07_shade_wide.fbx / v2_A07_shade_narrow.fbx",
+      "existing_fallback": "copper_roadlamp 非两件独立资产",
+      "suggested_action": "可程序化分件；形态切换需 Claude 协调"
+    },
+    {
+      "id": "A08",
+      "label": "长椅",
+      "owner": "GPT 环境",
+      "provided_v2_files": [],
+      "status": "new-v2-source-not-found",
+      "expected_filename": "v2_A08_bench.fbx",
+      "existing_fallback": "bench",
+      "suggested_action": "程序化细化木板、磨损并保留坐面"
+    },
+    {
+      "id": "A09",
+      "label": "路口大石头",
+      "owner": "GPT 环境",
+      "provided_v2_files": [],
+      "status": "new-v2-source-not-found",
+      "expected_filename": "v2_A09_boulder.fbx",
+      "existing_fallback": "rock_cluster 复用",
+      "suggested_action": "现资产可复用，修粗糙度与地面接触"
+    },
+    {
+      "id": "A10",
+      "label": "浑天仪石台",
+      "owner": "GPT 环境",
+      "provided_v2_files": [],
+      "status": "new-v2-source-not-found",
+      "expected_filename": "v2_A10_armillary.fbx",
+      "existing_fallback": "armillary_platform",
+      "suggested_action": "程序化倒角、铜环刻度和底座细节"
+    },
+    {
+      "id": "A11",
+      "label": "月牙雕塑",
+      "owner": "GPT 环境",
+      "provided_v2_files": [],
+      "status": "new-v2-source-not-found",
+      "expected_filename": "v2_A11_crescent.fbx",
+      "existing_fallback": "crescent_sculpture",
+      "suggested_action": "程序化细化，保持原创轮廓"
+    },
+    {
+      "id": "A12",
+      "label": "栈桥直段",
+      "owner": "GPT 环境",
+      "provided_v2_files": [],
+      "status": "new-v2-source-not-found",
+      "expected_filename": "v2_A12_pier_segment.fbx",
+      "existing_fallback": "pier_module",
+      "suggested_action": "程序化木纹、板缝、桩绳；连续碰撞保持"
+    },
+    {
+      "id": "A13",
+      "label": "栈桥平台",
+      "owner": "GPT 环境",
+      "provided_v2_files": [],
+      "status": "new-v2-source-not-found",
+      "expected_filename": "v2_A13_pier_end.fbx",
+      "existing_fallback": "pier_end",
+      "suggested_action": "同栈桥直段；不得缩窄 NPC 路径"
+    },
+    {
+      "id": "A14",
+      "label": "旗杆",
+      "owner": "GPT 环境",
+      "provided_v2_files": [],
+      "status": "new-v2-source-not-found",
+      "expected_filename": "v2_A14_flagpole.fbx",
+      "existing_fallback": "flagpole_blue 含旗面",
+      "suggested_action": "分离旗面与杆，保留铁钩世界坐标"
+    },
+    {
+      "id": "A15",
+      "label": "蓝旗图案与旗面",
+      "owner": "GPT 环境",
+      "provided_v2_files": [],
+      "status": "new-v2-source-not-found",
+      "expected_filename": "v2_A15_flag.png",
+      "existing_fallback": "flagpole_blue 几何图案",
+      "suggested_action": "可原创程序化布面/图案；不是现有 PNG 贴图"
+    },
+    {
+      "id": "A16",
+      "label": "港灯",
+      "owner": "GPT 环境",
+      "provided_v2_files": [],
+      "status": "new-v2-source-not-found",
+      "expected_filename": "v2_A16_harbor_lantern.fbx",
+      "existing_fallback": "harbor_lantern",
+      "suggested_action": "程序化铜玻璃细化，保留 HarborLight 与熄灯接口"
+    },
+    {
+      "id": "C01",
+      "label": "采光船",
+      "owner": "GPT 环境",
+      "provided_v2_files": [],
+      "status": "new-v2-source-not-found",
+      "expected_filename": "v2_C01_light_ship.fbx",
+      "existing_fallback": "ReturningBoat 复用 boat",
+      "suggested_action": "现小艇不具备 7m 采光船轮廓；优先建原创新船或用户 Tripo"
+    },
+    {
+      "id": "C02",
+      "label": "码头小艇",
+      "owner": "GPT 环境",
+      "provided_v2_files": [],
+      "status": "new-v2-source-not-found",
+      "expected_filename": "v2_C02_rowboat.fbx",
+      "existing_fallback": "boat",
+      "suggested_action": "可复用现木艇；修中性材质和水线"
+    },
+    {
+      "id": "C03",
+      "label": "蓝绿瓦村屋",
+      "owner": "GPT 环境",
+      "provided_v2_files": [],
+      "status": "new-v2-source-not-found",
+      "expected_filename": "v2_C03_house_teal.fbx",
+      "existing_fallback": "cottage_teal",
+      "suggested_action": "可程序化升级三种屋顶和窗木纹"
+    },
+    {
+      "id": "C04",
+      "label": "赭红瓦村屋",
+      "owner": "GPT 环境",
+      "provided_v2_files": [],
+      "status": "new-v2-source-not-found",
+      "expected_filename": null,
+      "existing_fallback": "cottage_ochre",
+      "suggested_action": "同 C03，轮廓应有差异"
+    },
+    {
+      "id": "C05",
+      "label": "灰瓦村屋",
+      "owner": "GPT 环境",
+      "provided_v2_files": [],
+      "status": "new-v2-source-not-found",
+      "expected_filename": null,
+      "existing_fallback": "cottage_slate",
+      "suggested_action": "同 C03，保留独立可控窗"
+    },
+    {
+      "id": "C06",
+      "label": "水井",
+      "owner": "GPT 环境",
+      "provided_v2_files": [],
+      "status": "new-v2-source-not-found",
+      "expected_filename": "v2_C06_well.fbx",
+      "existing_fallback": "village_well",
+      "suggested_action": "可程序化细化井石、木架和绳桶"
+    },
+    {
+      "id": "C07",
+      "label": "晾衣绳",
+      "owner": "GPT 环境",
+      "provided_v2_files": [],
+      "status": "new-v2-source-not-found",
+      "expected_filename": "v2_C07_laundry.fbx",
+      "existing_fallback": "laundry_line",
+      "suggested_action": "可程序化布曲面与微风摆动"
+    },
+    {
+      "id": "C08",
+      "label": "村口老光树",
+      "owner": "GPT 环境",
+      "provided_v2_files": [],
+      "status": "new-v2-source-not-found",
+      "expected_filename": "v2_C08_village_tree.fbx",
+      "existing_fallback": "tree_b 等复用",
+      "suggested_action": "可先改材质与树簇，独立英雄轮廓缺失"
+    },
+    {
+      "id": "D01",
+      "label": "高挑光树",
+      "owner": "GPT 环境",
+      "provided_v2_files": [],
+      "status": "new-v2-source-not-found",
+      "expected_filename": "v2_D01_tree_tall.fbx",
+      "existing_fallback": "tree_a",
+      "suggested_action": "现树复用；需修叶簇硬边"
+    },
+    {
+      "id": "D02",
+      "label": "圆冠光树",
+      "owner": "GPT 环境",
+      "provided_v2_files": [],
+      "status": "new-v2-source-not-found",
+      "expected_filename": null,
+      "existing_fallback": "tree_b",
+      "suggested_action": "现树复用；需修叶簇硬边"
+    },
+    {
+      "id": "D03",
+      "label": "坡地老树",
+      "owner": "GPT 环境",
+      "provided_v2_files": [],
+      "status": "new-v2-source-not-found",
+      "expected_filename": null,
+      "existing_fallback": "tree_c",
+      "suggested_action": "现树复用；根部接地"
+    },
+    {
+      "id": "D04",
+      "label": "光树树苗",
+      "owner": "GPT 环境",
+      "provided_v2_files": [],
+      "status": "new-v2-source-not-found",
+      "expected_filename": null,
+      "existing_fallback": "tree_a_sapling_01 / 02",
+      "suggested_action": "现树苗复用；支撑杆可程序化"
+    },
+    {
+      "id": "D05",
+      "label": "低矮岩堆",
+      "owner": "GPT 环境",
+      "provided_v2_files": [],
+      "status": "new-v2-source-not-found",
+      "expected_filename": "v2_D05_rocks_low.fbx",
+      "existing_fallback": "rock_cluster",
+      "suggested_action": "现石材复用，不是新模型"
+    },
+    {
+      "id": "D06",
+      "label": "尖峰岩堆",
+      "owner": "GPT 环境",
+      "provided_v2_files": [],
+      "status": "new-v2-source-not-found",
+      "expected_filename": null,
+      "existing_fallback": "rock_mountain",
+      "suggested_action": "现石材近似，不是逐参考精确轮廓"
+    },
+    {
+      "id": "D07",
+      "label": "平坦岩台",
+      "owner": "GPT 环境",
+      "provided_v2_files": [],
+      "status": "new-v2-source-not-found",
+      "expected_filename": null,
+      "existing_fallback": "rock_mass 近似",
+      "suggested_action": "可程序化重塑轮廓，当前非专用平坦台"
+    },
+    {
+      "id": "D08",
+      "label": "海岸岩拱",
+      "owner": "GPT 环境",
+      "provided_v2_files": [],
+      "status": "new-v2-source-not-found",
+      "expected_filename": null,
+      "existing_fallback": "rock_arch",
+      "suggested_action": "现岩拱复用"
+    },
+    {
+      "id": "D09",
+      "label": "陡峭岩柱",
+      "owner": "GPT 环境",
+      "provided_v2_files": [],
+      "status": "new-v2-source-not-found",
+      "expected_filename": null,
+      "existing_fallback": "无独立专用模型",
+      "suggested_action": "可程序化不规则柱，不必等用户"
+    },
+    {
+      "id": "D10",
+      "label": "海岸礁石",
+      "owner": "GPT 环境",
+      "provided_v2_files": [],
+      "status": "new-v2-source-not-found",
+      "expected_filename": null,
+      "existing_fallback": "rock_cluster_reef_01 / 02",
+      "suggested_action": "现礁石复用"
+    },
+    {
+      "id": "B01",
+      "label": "手提灯笼",
+      "owner": "Claude 道具/剧情",
+      "provided_v2_files": [],
+      "status": "new-v2-source-not-found",
+      "expected_filename": "v2_B01_lantern.fbx",
+      "existing_fallback": "未深入审计 Claude 所有运行时生成对象，不能据 Environment 缺失判定游戏缺失",
+      "suggested_action": "由 Claude 管理；新源未到货"
+    },
+    {
+      "id": "B02",
+      "label": "光果",
+      "owner": "Claude 道具/剧情",
+      "provided_v2_files": [],
+      "status": "new-v2-source-not-found",
+      "expected_filename": "v2_B02_light_fruit.fbx",
+      "existing_fallback": "未深入审计 Claude 所有运行时生成对象，不能据 Environment 缺失判定游戏缺失",
+      "suggested_action": "由 Claude 管理；新源未到货"
+    },
+    {
+      "id": "B03",
+      "label": "萤火虫信",
+      "owner": "Claude 道具/剧情",
+      "provided_v2_files": [],
+      "status": "new-v2-source-not-found",
+      "expected_filename": "v2_B03_firefly_letter.fbx",
+      "existing_fallback": "未深入审计 Claude 所有运行时生成对象，不能据 Environment 缺失判定游戏缺失",
+      "suggested_action": "由 Claude 管理；新源未到货"
+    },
+    {
+      "id": "B04",
+      "label": "木杖",
+      "owner": "Claude 道具/剧情",
+      "provided_v2_files": [],
+      "status": "new-v2-source-not-found",
+      "expected_filename": "v2_B04_cane.fbx",
+      "existing_fallback": "未深入审计 Claude 所有运行时生成对象，不能据 Environment 缺失判定游戏缺失",
+      "suggested_action": "由 Claude 管理；新源未到货"
+    },
+    {
+      "id": "T01",
+      "label": "草地",
+      "owner": "GPT 环境",
+      "provided_v2_files": [],
+      "status": "new-v2-source-not-found",
+      "expected_filename": null,
+      "existing_fallback": "旧材质/程序化 Shader 可作基础；未找到该 v2 独立图",
+      "suggested_action": "可原创程序化纹理/网格/Shader，不应阻塞迭代；用户新图到货后再验收"
+    },
+    {
+      "id": "T02",
+      "label": "石板路",
+      "owner": "GPT 环境",
+      "provided_v2_files": [],
+      "status": "new-v2-source-not-found",
+      "expected_filename": null,
+      "existing_fallback": "旧材质/程序化 Shader 可作基础；未找到该 v2 独立图",
+      "suggested_action": "可原创程序化纹理/网格/Shader，不应阻塞迭代；用户新图到货后再验收"
+    },
+    {
+      "id": "T03",
+      "label": "泥土路",
+      "owner": "GPT 环境",
+      "provided_v2_files": [],
+      "status": "new-v2-source-not-found",
+      "expected_filename": null,
+      "existing_fallback": "旧材质/程序化 Shader 可作基础；未找到该 v2 独立图",
+      "suggested_action": "可原创程序化纹理/网格/Shader，不应阻塞迭代；用户新图到货后再验收"
+    },
+    {
+      "id": "T04",
+      "label": "海岸崖壁",
+      "owner": "GPT 环境",
+      "provided_v2_files": [],
+      "status": "new-v2-source-not-found",
+      "expected_filename": null,
+      "existing_fallback": "旧材质/程序化 Shader 可作基础；未找到该 v2 独立图",
+      "suggested_action": "可原创程序化纹理/网格/Shader，不应阻塞迭代；用户新图到货后再验收"
+    },
+    {
+      "id": "T05",
+      "label": "旧木板",
+      "owner": "GPT 环境",
+      "provided_v2_files": [],
+      "status": "new-v2-source-not-found",
+      "expected_filename": null,
+      "existing_fallback": "旧材质/程序化 Shader 可作基础；未找到该 v2 独立图",
+      "suggested_action": "可原创程序化纹理/网格/Shader，不应阻塞迭代；用户新图到货后再验收"
+    },
+    {
+      "id": "T06",
+      "label": "三色屋顶陶瓦",
+      "owner": "GPT 环境",
+      "provided_v2_files": [],
+      "status": "new-v2-source-not-found",
+      "expected_filename": null,
+      "existing_fallback": "旧材质/程序化 Shader 可作基础；未找到该 v2 独立图",
+      "suggested_action": "可原创程序化纹理/网格/Shader，不应阻塞迭代；用户新图到货后再验收"
+    },
+    {
+      "id": "V01",
+      "label": "草叶卡",
+      "owner": "GPT 环境",
+      "provided_v2_files": [],
+      "status": "new-v2-source-not-found",
+      "expected_filename": null,
+      "existing_fallback": "旧材质/程序化 Shader 可作基础；未找到该 v2 独立图",
+      "suggested_action": "可原创程序化纹理/网格/Shader，不应阻塞迭代；用户新图到货后再验收"
+    },
+    {
+      "id": "V02",
+      "label": "野花卡",
+      "owner": "GPT 环境",
+      "provided_v2_files": [],
+      "status": "new-v2-source-not-found",
+      "expected_filename": null,
+      "existing_fallback": "旧材质/程序化 Shader 可作基础；未找到该 v2 独立图",
+      "suggested_action": "可原创程序化纹理/网格/Shader，不应阻塞迭代；用户新图到货后再验收"
+    },
+    {
+      "id": "V03",
+      "label": "蕨与灌木卡",
+      "owner": "GPT 环境",
+      "provided_v2_files": [],
+      "status": "new-v2-source-not-found",
+      "expected_filename": null,
+      "existing_fallback": "旧材质/程序化 Shader 可作基础；未找到该 v2 独立图",
+      "suggested_action": "可原创程序化纹理/网格/Shader，不应阻塞迭代；用户新图到货后再验收"
+    },
+    {
+      "id": "V04",
+      "label": "光树叶簇卡",
+      "owner": "GPT 环境",
+      "provided_v2_files": [],
+      "status": "new-v2-source-not-found",
+      "expected_filename": null,
+      "existing_fallback": "旧材质/程序化 Shader 可作基础；未找到该 v2 独立图",
+      "suggested_action": "可原创程序化纹理/网格/Shader，不应阻塞迭代；用户新图到货后再验收"
+    },
+    {
+      "id": "S01",
+      "label": "全景夜空",
+      "owner": "GPT 环境",
+      "provided_v2_files": [],
+      "status": "new-v2-source-not-found",
+      "expected_filename": null,
+      "existing_fallback": "旧材质/程序化 Shader 可作基础；未找到该 v2 独立图",
+      "suggested_action": "可原创程序化纹理/网格/Shader，不应阻塞迭代；用户新图到货后再验收"
+    },
+    {
+      "id": "S02",
+      "label": "细弧地球",
+      "owner": "GPT 环境",
+      "provided_v2_files": [],
+      "status": "new-v2-source-not-found",
+      "expected_filename": null,
+      "existing_fallback": "旧材质/程序化 Shader 可作基础；未找到该 v2 独立图",
+      "suggested_action": "可原创程序化纹理/网格/Shader，不应阻塞迭代；用户新图到货后再验收"
+    },
+    {
+      "id": "S03",
+      "label": "远海岛影",
+      "owner": "GPT 环境",
+      "provided_v2_files": [],
+      "status": "new-v2-source-not-found",
+      "expected_filename": null,
+      "existing_fallback": "旧材质/程序化 Shader 可作基础；未找到该 v2 独立图",
+      "suggested_action": "可原创程序化纹理/网格/Shader，不应阻塞迭代；用户新图到货后再验收"
+    },
+    {
+      "id": "U01",
+      "label": "UI 2D 图",
+      "owner": "Claude UI",
+      "provided_v2_files": [],
+      "status": "new-v2-source-not-found",
+      "expected_filename": null,
+      "existing_fallback": "不审计 Claude 当前 UI 图形",
+      "suggested_action": "新图未到货；交由 Claude 接入，不能导入对标截图"
+    },
+    {
+      "id": "U02",
+      "label": "UI 2D 图",
+      "owner": "Claude UI",
+      "provided_v2_files": [],
+      "status": "new-v2-source-not-found",
+      "expected_filename": null,
+      "existing_fallback": "不审计 Claude 当前 UI 图形",
+      "suggested_action": "新图未到货；交由 Claude 接入，不能导入对标截图"
+    },
+    {
+      "id": "U03",
+      "label": "UI 2D 图",
+      "owner": "Claude UI",
+      "provided_v2_files": [],
+      "status": "new-v2-source-not-found",
+      "expected_filename": null,
+      "existing_fallback": "不审计 Claude 当前 UI 图形",
+      "suggested_action": "新图未到货；交由 Claude 接入，不能导入对标截图"
+    },
+    {
+      "id": "U04",
+      "label": "UI 2D 图",
+      "owner": "Claude UI",
+      "provided_v2_files": [],
+      "status": "new-v2-source-not-found",
+      "expected_filename": null,
+      "existing_fallback": "不审计 Claude 当前 UI 图形",
+      "suggested_action": "新图未到货；交由 Claude 接入，不能导入对标截图"
+    },
+    {
+      "id": "U05",
+      "label": "UI 2D 图",
+      "owner": "Claude UI",
+      "provided_v2_files": [],
+      "status": "new-v2-source-not-found",
+      "expected_filename": null,
+      "existing_fallback": "不审计 Claude 当前 UI 图形",
+      "suggested_action": "新图未到货；交由 Claude 接入，不能导入对标截图"
+    },
+    {
+      "id": "U06",
+      "label": "UI 2D 图",
+      "owner": "Claude UI",
+      "provided_v2_files": [],
+      "status": "new-v2-source-not-found",
+      "expected_filename": null,
+      "existing_fallback": "不审计 Claude 当前 UI 图形",
+      "suggested_action": "新图未到货；交由 Claude 接入，不能导入对标截图"
+    },
+    {
+      "id": "U07",
+      "label": "UI 2D 图",
+      "owner": "Claude UI",
+      "provided_v2_files": [],
+      "status": "new-v2-source-not-found",
+      "expected_filename": null,
+      "existing_fallback": "不审计 Claude 当前 UI 图形",
+      "suggested_action": "新图未到货；交由 Claude 接入，不能导入对标截图"
+    },
+    {
+      "id": "U08",
+      "label": "UI 2D 图",
+      "owner": "Claude UI",
+      "provided_v2_files": [],
+      "status": "new-v2-source-not-found",
+      "expected_filename": null,
+      "existing_fallback": "不审计 Claude 当前 UI 图形",
+      "suggested_action": "新图未到货；交由 Claude 接入，不能导入对标截图"
+    },
+    {
+      "id": "U09",
+      "label": "UI 2D 图",
+      "owner": "Claude UI",
+      "provided_v2_files": [],
+      "status": "new-v2-source-not-found",
+      "expected_filename": null,
+      "existing_fallback": "不审计 Claude 当前 UI 图形",
+      "suggested_action": "新图未到货；交由 Claude 接入，不能导入对标截图"
+    },
+    {
+      "id": "U10",
+      "label": "UI 2D 图",
+      "owner": "Claude UI",
+      "provided_v2_files": [],
+      "status": "new-v2-source-not-found",
+      "expected_filename": null,
+      "existing_fallback": "不审计 Claude 当前 UI 图形",
+      "suggested_action": "新图未到货；交由 Claude 接入，不能导入对标截图"
+    },
+    {
+      "id": "U11",
+      "label": "UI 2D 图",
+      "owner": "Claude UI",
+      "provided_v2_files": [],
+      "status": "new-v2-source-not-found",
+      "expected_filename": null,
+      "existing_fallback": "不审计 Claude 当前 UI 图形",
+      "suggested_action": "新图未到货；交由 Claude 接入，不能导入对标截图"
+    },
+    {
+      "id": "U12",
+      "label": "UI 2D 图",
+      "owner": "Claude UI",
+      "provided_v2_files": [],
+      "status": "new-v2-source-not-found",
+      "expected_filename": null,
+      "existing_fallback": "不审计 Claude 当前 UI 图形",
+      "suggested_action": "新图未到货；交由 Claude 接入，不能导入对标截图"
+    },
+    {
+      "id": "U13",
+      "label": "UI 2D 图",
+      "owner": "Claude UI",
+      "provided_v2_files": [],
+      "status": "new-v2-source-not-found",
+      "expected_filename": null,
+      "existing_fallback": "不审计 Claude 当前 UI 图形",
+      "suggested_action": "新图未到货；交由 Claude 接入，不能导入对标截图"
+    },
+    {
+      "id": "P01",
+      "label": "可选人物重做",
+      "owner": "Claude 人物",
+      "provided_v2_files": [],
+      "status": "new-v2-source-not-found",
+      "expected_filename": null,
+      "existing_fallback": "已有 v1 人物属 Claude 范围",
+      "suggested_action": "新源未到货；不得覆写 Claude 人物"
+    },
+    {
+      "id": "P02",
+      "label": "可选人物重做",
+      "owner": "Claude 人物",
+      "provided_v2_files": [],
+      "status": "new-v2-source-not-found",
+      "expected_filename": null,
+      "existing_fallback": "已有 v1 人物属 Claude 范围",
+      "suggested_action": "新源未到货；不得覆写 Claude 人物"
+    },
+    {
+      "id": "P03",
+      "label": "可选人物重做",
+      "owner": "Claude 人物",
+      "provided_v2_files": [],
+      "status": "new-v2-source-not-found",
+      "expected_filename": null,
+      "existing_fallback": "已有 v1 人物属 Claude 范围",
+      "suggested_action": "新源未到货；不得覆写 Claude 人物"
+    },
+    {
+      "id": "P04",
+      "label": "可选人物重做",
+      "owner": "Claude 人物",
+      "provided_v2_files": [],
+      "status": "new-v2-source-not-found",
+      "expected_filename": null,
+      "existing_fallback": "已有 v1 人物属 Claude 范围",
+      "suggested_action": "新源未到货；不得覆写 Claude 人物"
+    },
+    {
+      "id": "P05",
+      "label": "可选人物重做",
+      "owner": "Claude 人物",
+      "provided_v2_files": [],
+      "status": "new-v2-source-not-found",
+      "expected_filename": null,
+      "existing_fallback": "已有 v1 人物属 Claude 范围",
+      "suggested_action": "新源未到货；不得覆写 Claude 人物"
+    }
+  ],
+  "anchor_contract_source": "GameProject/Assets/JieGuang/Environment/scene-input.json",
+  "anchor_contract_source_sha256": "b6db99153735c3971212dcd486dc5d9f46cc1f47cc70155c924df357bf9ee70e",
+  "anchors_preserve_exactly": [
+    {
+      "name": "Anchor_PlayerSpawn",
+      "position": [
+        11.4,
+        2.4499999999999997,
+        -24.5
+      ],
+      "forward": [
+        0,
+        0,
+        1
+      ],
+      "kind": "point"
+    },
+    {
+      "name": "Anchor_Lamp_WanFeng",
+      "position": [
+        8.0,
+        6.199999999999999,
+        -16.5
+      ],
+      "forward": [
+        -0.1132915505945328,
+        -0.6141844890503502,
+        -0.7809881164101325
+      ],
+      "kind": "lamp",
+      "height": 3.8
+    },
+    {
+      "name": "Anchor_Lamp_YueChuang",
+      "position": [
+        4.0,
+        6.4,
+        -21.0
+      ],
+      "forward": [
+        0.00044387474138786627,
+        -0.6441596856726014,
+        0.7648909087767937
+      ],
+      "kind": "lamp",
+      "height": 4
+    },
+    {
+      "name": "Anchor_Lamp_GuiHang",
+      "position": [
+        11.0,
+        6.199999999999999,
+        -18.0
+      ],
+      "forward": [
+        -0.40637,
+        -0.68067,
+        -0.60955
+      ],
+      "kind": "lamp",
+      "height": 3.8
+    },
+    {
+      "name": "Target_Path",
+      "position": [
+        5.5,
+        2.4499999999999997,
+        -21.0
+      ],
+      "forward": [
+        0,
+        0,
+        1
+      ],
+      "kind": "target"
+    },
+    {
+      "name": "Target_Bench",
+      "position": [
+        9.0,
+        2.85,
+        -21.0
+      ],
+      "forward": [
+        0,
+        0,
+        1
+      ],
+      "kind": "target"
+    },
+    {
+      "name": "Target_Window",
+      "position": [
+        4.00164,
+        4.02,
+        -18.17393
+      ],
+      "forward": [
+        0.438371,
+        0,
+        -0.898794
+      ],
+      "kind": "target"
+    },
+    {
+      "name": "Target_Pier",
+      "position": [
+        10.0,
+        2.48,
+        -16.0
+      ],
+      "forward": [
+        0,
+        0,
+        1
+      ],
+      "kind": "target"
+    },
+    {
+      "name": "Anchor_FlagpoleHook",
+      "position": [
+        10.0,
+        4.25,
+        -10.5
+      ],
+      "forward": [
+        0,
+        0,
+        -1
+      ],
+      "kind": "hook"
+    },
+    {
+      "name": "NPC_AYing",
+      "position": [
+        9.7,
+        2.48,
+        -12.5
+      ],
+      "forward": [
+        0,
+        0,
+        -1
+      ],
+      "kind": "npc_feet"
+    },
+    {
+      "name": "NPC_Postman",
+      "position": [
+        8.0,
+        2.4094663636957425,
+        -13.0
+      ],
+      "forward": [
+        0,
+        0,
+        -1
+      ],
+      "kind": "npc_feet"
+    },
+    {
+      "name": "NPC_Bench",
+      "position": [
+        9.0,
+        2.85,
+        -20.96
+      ],
+      "forward": [
+        0,
+        0,
+        1
+      ],
+      "kind": "npc_seat"
+    },
+    {
+      "name": "NPC_ABo_Window",
+      "position": [
+        3.41642,
+        2.8899999999999997,
+        -16.97404
+      ],
+      "forward": [
+        0.438371,
+        0,
+        -0.898794
+      ],
+      "kind": "npc_seat"
+    },
+    {
+      "name": "NPC_DengBo_Box",
+      "position": [
+        10.65,
+        3.04,
+        -10.8
+      ],
+      "forward": [
+        0,
+        0,
+        1
+      ],
+      "kind": "npc_seat"
+    },
+    {
+      "name": "Anchor_VillageGate",
+      "position": [
+        -12,
+        8.385504289400219,
+        4
+      ],
+      "forward": [
+        0.37139068,
+        0,
+        -0.92847669
+      ],
+      "kind": "npc_feet"
+    },
+    {
+      "name": "Anchor_GoldenTree",
+      "position": [
+        1.8,
+        2.364035344389671,
+        -21.4
+      ],
+      "forward": [
+        0,
+        0,
+        1
+      ],
+      "kind": "point"
+    },
+    {
+      "name": "Anchor_Boat",
+      "position": [
+        12.2,
+        -0.45,
+        -12.3
+      ],
+      "forward": [
+        0,
+        0,
+        -1
+      ],
+      "kind": "point"
+    },
+    {
+      "name": "Target_Sea",
+      "position": [
+        10,
+        -0.16,
+        19.5
+      ],
+      "forward": [
+        0,
+        0,
+        1
+      ],
+      "kind": "target"
+    },
+    {
+      "name": "NPC_ABo_Door",
+      "position": [
+        6.20143,
+        2.399166154277771,
+        -18.23588
+      ],
+      "forward": [
+        0.438371,
+        0,
+        -0.898794
+      ],
+      "kind": "npc_feet"
+    },
+    {
+      "name": "Cam_Title",
+      "position": [
+        57,
+        44,
+        -73
+      ],
+      "forward": [
+        -62,
+        -39,
+        74
+      ],
+      "kind": "camera",
+      "fov": 45,
+      "lookAt": [
+        -5,
+        5,
+        1
+      ]
+    },
+    {
+      "name": "Cam_Puzzle",
+      "position": [
+        27,
+        18,
+        -45
+      ],
+      "forward": [
+        -20,
+        -13,
+        27
+      ],
+      "kind": "camera",
+      "fov": 43,
+      "lookAt": [
+        7,
+        5,
+        -18
+      ]
+    },
+    {
+      "name": "Cam_Pier",
+      "position": [
+        22,
+        8,
+        -11
+      ],
+      "forward": [
+        -12,
+        -4,
+        -4
+      ],
+      "kind": "camera",
+      "fov": 48,
+      "lookAt": [
+        10,
+        4,
+        -15
+      ]
+    },
+    {
+      "name": "Cam_Village",
+      "position": [
+        12,
+        21,
+        -8
+      ],
+      "forward": [
+        -26,
+        -11,
+        20
+      ],
+      "kind": "camera",
+      "fov": 48,
+      "lookAt": [
+        -14,
+        10,
+        12
+      ]
+    },
+    {
+      "name": "Sky_ScatterZone_Village",
+      "position": [
+        -13,
+        11,
+        11
+      ],
+      "forward": [
+        0,
+        0,
+        1
+      ],
+      "kind": "scatter",
+      "size": [
+        21,
+        5,
+        18
+      ]
+    },
+    {
+      "name": "Sky_ScatterZone_Pier",
+      "position": [
+        10.0,
+        4.4,
+        -14.0
+      ],
+      "forward": [
+        0,
+        0,
+        1
+      ],
+      "kind": "scatter",
+      "size": [
+        3.3,
+        3.5,
+        9
+      ]
+    }
+  ],
+  "limits": [
+    "Missing v2 drop folder is observed now, not proof user has not generated models online.",
+    "Existing source dimensions are authoring metadata, not a new Blender measurement.",
+    "File bytes / hash verify presence and identity, not visual quality or Unity rendering.",
+    "No FPS or gameplay claims are made."
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "checks": {
+    "one_structure_mesh": true,
+    "triangles_exact": true,
+    "material_slots_exact": true,
+    "bounds_within_1micrometre": true,
+    "root_marker_names_exact": true,
+    "root_marker_matrices_within_1micrometre": true,
+    "vertices_within_1micrometre": true,
+    "uv0_exists": true
+  },
+  "all_pass": true,
+  "triangles": 324,
+  "bounds": {
+    "min": [
+      -0.9800000190734863,
+      -0.28999996185302734,
+      -3.5842553813836275e-08
+    ],
+    "max": [
+      0.9800000190734863,
+      0.2950001358985901,
+      1.0750000476837158
+    ]
+  },
+  "maximum_vertex_errors_m": {
+    "Structure": 1.7881393432617188e-07
+  }
+}

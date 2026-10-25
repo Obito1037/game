@@ -1,0 +1,48 @@
+{
+  "source_sha256": "36d73c203ee1004f66955c4c45fb8b3a558905936fd503ae916284c3e774095b",
+  "source_unchanged": true,
+  "before_triangles": 606,
+  "after_triangles": 830,
+  "added_triangles": 224,
+  "checks": [
+    {
+      "object": "LampHead",
+      "matrix_unchanged": true,
+      "parent_unchanged": true,
+      "original_vertices_prefix_identical": true,
+      "original_faces_prefix_identical": true
+    },
+    {
+      "object": "Marker_Base",
+      "matrix_unchanged": true,
+      "parent_unchanged": true,
+      "original_vertices_prefix_identical": true,
+      "original_faces_prefix_identical": true
+    },
+    {
+      "object": "Marker_Bulb",
+      "matrix_unchanged": true,
+      "parent_unchanged": true,
+      "original_vertices_prefix_identical": true,
+      "original_faces_prefix_identical": true
+    },
+    {
+      "object": "Structure",
+      "matrix_unchanged": true,
+      "parent_unchanged": true,
+      "original_vertices_prefix_identical": true,
+      "original_faces_prefix_identical": true
+    },
+    {
+      "object": "copper_roadlamp",
+      "matrix_unchanged": true,
+      "parent_unchanged": true,
+      "original_vertices_prefix_identical": true,
+      "original_faces_prefix_identical": true
+    }
+  ],
+  "fbx_sha256": "7b31bd5400e163b3624153e6265237d5121d2e943bf4533edc949741ed6727c8",
+  "blend_sha256": "7f98763dd82fe4ed7ec5ce546a4cb8d759c756ccd659d16dbeef912d7e4fa349",
+  "default_emission": 0,
+  "Unity_tested": false
+}

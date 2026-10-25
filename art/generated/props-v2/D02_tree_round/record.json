@@ -1,0 +1,16 @@
+{
+ "id": "D02_tree_round",
+ "source": "art\\incoming\\tripo-v2-2026-10-22\\tripo_convert_1a44fe4c-731e-4711-9289-b7e41abe47ce.glb",
+ "source_sha256": "7cf3e8048b38346312f02a9a34cecba76e7dfede8b34a809868d3a2283ae51a1",
+ "tris_before": 119840,
+ "tris_after": 12000,
+ "size_m": [
+  3.422,
+  3.827,
+  4.5
+ ],
+ "textures": {
+  "albedo": "D02_tree_round_albedo.jpg"
+ },
+ "materials": 1
+}

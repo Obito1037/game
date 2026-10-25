@@ -1,0 +1,16 @@
+{
+ "id": "C06_well",
+ "source": "art\\incoming\\tripo-v2-2026-10-22\\tripo_convert_52efb8f7-9398-4b55-9054-c73cd729d201.glb",
+ "source_sha256": "ac7b9802827646383e8641fb2c9e9953059e09eceee8b65cbd56a0fadc5c030d",
+ "tris_before": 93683,
+ "tris_after": 4000,
+ "size_m": [
+  1.869,
+  1.786,
+  2.4
+ ],
+ "textures": {
+  "albedo": "C06_well_albedo.jpg"
+ },
+ "materials": 1
+}

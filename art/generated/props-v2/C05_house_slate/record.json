@@ -1,0 +1,16 @@
+{
+ "id": "C05_house_slate",
+ "source": "art\\incoming\\tripo-v2-2026-10-22\\tripo_convert_05c45125-7bf6-4bb1-93f2-63b667790019.glb",
+ "source_sha256": "d314635853935efe16204926bb51c2b6f0b34af0dfd0c085f0bed0f5d7b9dbd2",
+ "tris_before": 23297,
+ "tris_after": 8000,
+ "size_m": [
+  3.555,
+  5.0,
+  3.308
+ ],
+ "textures": {
+  "albedo": "C05_house_slate_albedo.jpg"
+ },
+ "materials": 1
+}

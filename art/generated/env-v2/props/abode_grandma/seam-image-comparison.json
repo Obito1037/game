@@ -1,0 +1,58 @@
+{
+  "camera": "window",
+  "image_size": [
+    1000,
+    1000
+  ],
+  "metric_note": "Dark-pixel counts in four fixed defect ROIs only; visual review separately checks retained eave/contact shadows. Read-only pixel analysis; no PNG edits.",
+  "defects": [
+    {
+      "name": "attic_left",
+      "bbox_inclusive": [
+        260,
+        208,
+        272,
+        220
+      ],
+      "threshold_max_rgb": 0.095,
+      "before_dark_pixels": 43,
+      "after_dark_pixels": 0
+    },
+    {
+      "name": "attic_right",
+      "bbox_inclusive": [
+        353,
+        215,
+        365,
+        227
+      ],
+      "threshold_max_rgb": 0.095,
+      "before_dark_pixels": 43,
+      "after_dark_pixels": 0
+    },
+    {
+      "name": "roof_left",
+      "bbox_inclusive": [
+        37,
+        304,
+        52,
+        318
+      ],
+      "threshold_max_rgb": 0.095,
+      "before_dark_pixels": 40,
+      "after_dark_pixels": 0
+    },
+    {
+      "name": "roof_right",
+      "bbox_inclusive": [
+        668,
+        349,
+        683,
+        363
+      ],
+      "threshold_max_rgb": 0.095,
+      "before_dark_pixels": 41,
+      "after_dark_pixels": 0
+    }
+  ]
+}

@@ -1,0 +1,149 @@
+{
+  "blend_sha256": "cbe3a20385af55f0c03d4dc5929db336825cf3ee2ee04fd626c32af0c75178a5",
+  "materials": [
+    {
+      "name": "V2_Lamp_AgedCopper",
+      "principled_defaults": {
+        "Base Color": [
+          0.47999998927116394,
+          0.25999999046325684,
+          0.10999999940395355,
+          1.0
+        ],
+        "Metallic": 0.699999988079071,
+        "Roughness": 0.46000000834465027,
+        "Transmission Weight": 0.0,
+        "IOR": 1.5,
+        "Coat Weight": 0.0,
+        "Coat Roughness": 0.029999999329447746,
+        "Emission Color": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "Emission Strength": 0.0,
+        "Subsurface Weight": 0.0,
+        "Subsurface Scale": 0.05000000074505806
+      },
+      "linked_inputs": [
+        "Base Color",
+        "Metallic",
+        "Roughness",
+        "Normal"
+      ],
+      "images": [
+        {
+          "name": "Lamp_Copper_Albedo.png",
+          "colorspace": "sRGB"
+        },
+        {
+          "name": "Lamp_Copper_Roughness.png",
+          "colorspace": "Non-Color"
+        },
+        {
+          "name": "Lamp_Copper_Height.png",
+          "colorspace": "Non-Color"
+        },
+        {
+          "name": "Lamp_Copper_MetallicSmoothness.png",
+          "colorspace": "Non-Color"
+        }
+      ],
+      "bumps": [
+        {
+          "strength": 0.05999999865889549,
+          "distance": 0.0001500000071246177
+        }
+      ]
+    },
+    {
+      "name": "V2_Lamp_AmberGlass_AlwaysVisible",
+      "principled_defaults": {
+        "Base Color": [
+          0.9800000190734863,
+          0.9649999737739563,
+          0.9399999976158142,
+          1.0
+        ],
+        "Metallic": 0.0,
+        "Roughness": 0.05999999865889549,
+        "Transmission Weight": 1.0,
+        "IOR": 1.0399999618530273,
+        "Coat Weight": 0.03999999910593033,
+        "Coat Roughness": 0.20000000298023224,
+        "Emission Color": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "Emission Strength": 0.0,
+        "Subsurface Weight": 0.0,
+        "Subsurface Scale": 0.05000000074505806
+      },
+      "linked_inputs": [],
+      "images": [],
+      "bumps": []
+    },
+    {
+      "name": "V2_Lamp_LightFruit_Controlled",
+      "principled_defaults": {
+        "Base Color": [
+          0.949999988079071,
+          0.4699999988079071,
+          0.08500000089406967,
+          1.0
+        ],
+        "Metallic": 0.0,
+        "Roughness": 0.3400000035762787,
+        "Transmission Weight": 0.0,
+        "IOR": 1.5,
+        "Coat Weight": 0.0,
+        "Coat Roughness": 0.029999999329447746,
+        "Emission Color": [
+          1.0,
+          0.4300000071525574,
+          0.08500000089406967,
+          1.0
+        ],
+        "Emission Strength": 0.0,
+        "Subsurface Weight": 0.05999999865889549,
+        "Subsurface Scale": 0.019999999552965164
+      },
+      "linked_inputs": [],
+      "images": [],
+      "bumps": []
+    },
+    {
+      "name": "V2_Lamp_RubbedCopper",
+      "principled_defaults": {
+        "Base Color": [
+          0.47999998927116394,
+          0.28999999165534973,
+          0.11999999731779099,
+          1.0
+        ],
+        "Metallic": 0.5799999833106995,
+        "Roughness": 0.6200000047683716,
+        "Transmission Weight": 0.0,
+        "IOR": 1.5,
+        "Coat Weight": 0.0,
+        "Coat Roughness": 0.029999999329447746,
+        "Emission Color": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "Emission Strength": 0.0,
+        "Subsurface Weight": 0.0,
+        "Subsurface Scale": 0.05000000074505806
+      },
+      "linked_inputs": [],
+      "images": [],
+      "bumps": []
+    }
+  ],
+  "note": "Defaults on linked inputs do not override their image links. These are Blender parameters, not an automatic URP material conversion."
+}

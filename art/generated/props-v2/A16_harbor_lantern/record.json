@@ -1,0 +1,16 @@
+{
+ "id": "A16_harbor_lantern",
+ "source": "art\\incoming\\tripo-v2-2026-10-22\\tripo_convert_aede95ca-536b-4191-8f00-9a75af6366f1.glb",
+ "source_sha256": "3fe9637169821e4e778c81716e937d62501db6e9da1846147ab22f33bc984e99",
+ "tris_before": 94150,
+ "tris_after": 2999,
+ "size_m": [
+  0.337,
+  0.333,
+  0.6
+ ],
+ "textures": {
+  "albedo": "A16_harbor_lantern_albedo.jpg"
+ },
+ "materials": 1
+}

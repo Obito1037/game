@@ -1,0 +1,16 @@
+{
+ "id": "D03_tree_rock",
+ "source": "art\\incoming\\tripo-v2-2026-10-22\\tripo_convert_aecd4846-87ca-42ea-a649-4422572d5c6b.glb",
+ "source_sha256": "9b22a7a6d89a3c91be98363d6c70f10705eb4ae9d4972ebc0439ff4204ae4607",
+ "tris_before": 153197,
+ "tris_after": 14000,
+ "size_m": [
+  3.395,
+  4.064,
+  5.0
+ ],
+ "textures": {
+  "albedo": "D03_tree_rock_albedo.jpg"
+ },
+ "materials": 1
+}

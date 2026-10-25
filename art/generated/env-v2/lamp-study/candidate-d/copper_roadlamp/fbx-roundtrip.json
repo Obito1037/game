@@ -1,0 +1,55 @@
+{
+  "fresh_process": true,
+  "fbx_sha256": "283f2425476c17fe8660e5bb73eb4bbad15d9ae6d23502e6cb17459783f59f0e",
+  "checks": [
+    {
+      "object": "LampHead",
+      "parent_same": true,
+      "matrix_max_delta": 1.6292068494294654e-07,
+      "vertices": 258,
+      "triangles": 482,
+      "boundary_edges": 16,
+      "nonmanifold_edges": 16,
+      "degenerate_triangles": 0,
+      "finite": true,
+      "triangles_same": true,
+      "materials_same": true,
+      "world_point_error_bidirectional": 6.664001972467304e-08,
+      "uv0_loop_count_same": true,
+      "uv0_max_delta": 0.0
+    },
+    {
+      "object": "Marker_Base",
+      "parent_same": true,
+      "matrix_max_delta": 6.190986141518806e-07
+    },
+    {
+      "object": "Marker_Bulb",
+      "parent_same": true,
+      "matrix_max_delta": 1.6292068494294654e-07
+    },
+    {
+      "object": "Structure",
+      "parent_same": true,
+      "matrix_max_delta": 1.6292068494294654e-07,
+      "vertices": 192,
+      "triangles": 348,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "degenerate_triangles": 0,
+      "finite": true,
+      "triangles_same": true,
+      "materials_same": true,
+      "world_point_error_bidirectional": 6.258487701416016e-07,
+      "uv0_loop_count_same": true,
+      "uv0_max_delta": 0.0
+    },
+    {
+      "object": "copper_roadlamp",
+      "parent_same": true,
+      "matrix_max_delta": 1.6292068494294654e-07
+    }
+  ],
+  "passed": true,
+  "Unity_tested": false
+}

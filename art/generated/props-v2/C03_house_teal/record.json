@@ -1,0 +1,16 @@
+{
+ "id": "C03_house_teal",
+ "source": "art\\incoming\\tripo-v2-2026-10-22\\tripo_convert_193f5a99-e17f-48bc-8aa5-6bdbe5a31e8b.glb",
+ "source_sha256": "b04a6fb178d914bcf45dc4b011a9a48d081c56a77da50ecd117b9f017f60e2af",
+ "tris_before": 25502,
+ "tris_after": 8000,
+ "size_m": [
+  4.196,
+  4.165,
+  4.5
+ ],
+ "textures": {
+  "albedo": "C03_house_teal_albedo.jpg"
+ },
+ "materials": 1
+}

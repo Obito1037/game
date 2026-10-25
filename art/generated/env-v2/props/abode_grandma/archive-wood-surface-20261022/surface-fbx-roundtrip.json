@@ -1,0 +1,122 @@
+{
+  "blend_sha256": "ff97756b95267d27bfb8e09c6fa628f341b3f8cfd7061ba5a78353a1ffb85c6f",
+  "fbx_sha256": "6b73a6fbd1c6eeff882eaf410acdea45d3814be160755e92df5db2754131facc",
+  "packed_images_reopened": [
+    {
+      "name": "wood_albedo_v1.png",
+      "size": [
+        1254,
+        1254
+      ],
+      "packed_bytes": 2990400
+    }
+  ],
+  "checks": [
+    {
+      "object": "Structure",
+      "triangles": 1292,
+      "loop_count": 2580,
+      "fbx_uv_exact_to_1e_6": true,
+      "found": true
+    },
+    {
+      "object": "V2_WallBoard",
+      "triangles": 2636,
+      "loop_count": 5664,
+      "fbx_uv_exact_to_1e_6": true,
+      "found": true
+    },
+    {
+      "object": "V2_SidingNail",
+      "triangles": 608,
+      "loop_count": 1140,
+      "fbx_uv_exact_to_1e_6": true,
+      "found": true
+    },
+    {
+      "object": "V2_Eave",
+      "triangles": 572,
+      "loop_count": 1248,
+      "fbx_uv_exact_to_1e_6": true,
+      "found": true
+    },
+    {
+      "object": "V2_Fieldstone",
+      "triangles": 1320,
+      "loop_count": 2880,
+      "fbx_uv_exact_to_1e_6": true,
+      "found": true
+    },
+    {
+      "object": "V2_OverlappingClayTile",
+      "triangles": 3600,
+      "loop_count": 7200,
+      "fbx_uv_exact_to_1e_6": true,
+      "found": true
+    },
+    {
+      "object": "V2_RidgeCap",
+      "triangles": 280,
+      "loop_count": 480,
+      "fbx_uv_exact_to_1e_6": true,
+      "found": true
+    },
+    {
+      "object": "V2_ExposedRafter",
+      "triangles": 440,
+      "loop_count": 960,
+      "fbx_uv_exact_to_1e_6": true,
+      "found": true
+    },
+    {
+      "object": "V2_Attic",
+      "triangles": 464,
+      "loop_count": 1008,
+      "fbx_uv_exact_to_1e_6": true,
+      "found": true
+    },
+    {
+      "object": "V2_Dormer",
+      "triangles": 337,
+      "loop_count": 627,
+      "fbx_uv_exact_to_1e_6": true,
+      "found": true
+    },
+    {
+      "object": "V2_TinFlue",
+      "triangles": 44,
+      "loop_count": 72,
+      "fbx_uv_exact_to_1e_6": true,
+      "found": true
+    },
+    {
+      "object": "V2_Flue",
+      "triangles": 144,
+      "loop_count": 240,
+      "fbx_uv_exact_to_1e_6": true,
+      "found": true
+    },
+    {
+      "object": "V2_DoorHinge",
+      "triangles": 88,
+      "loop_count": 192,
+      "fbx_uv_exact_to_1e_6": true,
+      "found": true
+    },
+    {
+      "object": "V2_RoundWindowHinge",
+      "triangles": 56,
+      "loop_count": 96,
+      "fbx_uv_exact_to_1e_6": true,
+      "found": true
+    },
+    {
+      "object": "V2_DoorPull",
+      "triangles": 44,
+      "loop_count": 96,
+      "fbx_uv_exact_to_1e_6": true,
+      "found": true
+    }
+  ],
+  "all_passed": true
+}

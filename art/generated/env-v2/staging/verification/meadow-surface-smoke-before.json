@@ -1,0 +1,234 @@
+{
+  "schema": "jieguang-offline-hlsl-probe-v1",
+  "timestampUtc": "2026-10-22T19:31:27.1498412Z",
+  "scriptSha256": "260CB4A9D4B852A7026E75B49188E980FD91A6C15DECFE2998D3F1562DA717E1",
+  "smokeOnly": true,
+  "elapsedSeconds": 25.607,
+  "compiler": {
+    "path": "C:/Windows/System32/D3DCompiler_47.dll",
+    "flags": 4096,
+    "sha256": "6B3DEE26A3FA46ADCE2FD1C543B0A3605C5DE16B636BD42341ADE6F1D7A27A44",
+    "fileVersion": "10.0.26100.9168 (WinBuild.160101.0800)"
+  },
+  "platform": "D3D11",
+  "shaderTarget": 35,
+  "shaderModelProfiles": [
+    "vs_4_0",
+    "ps_4_0"
+  ],
+  "sources": [
+    {
+      "path": "C:\\Users\\20665\\Desktop\\game\\art\\generated\\env-v2\\staging\\Shaders\\Meadow.shader",
+      "sha256": "DAC2CDF8B0D5580C9FBB15DE91AB5E6229DD74088F197FBD6D1E69D3B96CACF0"
+    },
+    {
+      "path": "C:\\Users\\20665\\Desktop\\game\\art\\generated\\env-v2\\staging\\Shaders\\TerrainSurface.shader",
+      "sha256": "2D8037D1290794033F096B767F3A86229228979ECA909783F097CE53F553EECB"
+    }
+  ],
+  "passCount": 16,
+  "successCount": 16,
+  "failureCount": 0,
+  "scope": "Independent D3DCompile HLSL check only. Not Unity import/ShaderLab or GLSL/WebGL compilation; no rendering.",
+  "fixtureAdjustments": [
+    "Extract HLSLINCLUDE and each HLSLPROGRAM; strip Unity pragmas; select keywords manually.",
+    "Expand actual package includes in memory with separate guards; missing inactive private-platform packages become conditional #error.",
+    "Unused library declaration PopMarker() becomes PopMarker(unused) in memory for native FXC; disk package files untouched.",
+    "For selected static FOG_* variants, define the matching FOG_*_KEYWORD_DECLARED metadata manually.",
+    "Respect vertex-only and fragment-only multi_compile keywords for each stage. No DOTS/XR/native-half coverage."
+  ],
+  "results": [
+    {
+      "shader": "Meadow",
+      "pass": "MeadowForward",
+      "variant": "Base",
+      "stage": "vertex",
+      "entry": "MeadowVertex",
+      "profile": "vs_4_0",
+      "keywords": [],
+      "hresult": 0,
+      "bytecodeBytes": 8996,
+      "diagnostics": ""
+    },
+    {
+      "shader": "Meadow",
+      "pass": "MeadowForward",
+      "variant": "Base",
+      "stage": "fragment",
+      "entry": "MeadowFragment",
+      "profile": "ps_4_0",
+      "keywords": [],
+      "hresult": 0,
+      "bytecodeBytes": 8544,
+      "diagnostics": ""
+    },
+    {
+      "shader": "Meadow",
+      "pass": "MeadowShadowCaster",
+      "variant": "Base",
+      "stage": "vertex",
+      "entry": "MeadowShadowVertex",
+      "profile": "vs_4_0",
+      "keywords": [],
+      "hresult": 0,
+      "bytecodeBytes": 9388,
+      "diagnostics": ""
+    },
+    {
+      "shader": "Meadow",
+      "pass": "MeadowShadowCaster",
+      "variant": "Base",
+      "stage": "fragment",
+      "entry": "MeadowDepthFragment",
+      "profile": "ps_4_0",
+      "keywords": [],
+      "hresult": 0,
+      "bytecodeBytes": 4864,
+      "diagnostics": ""
+    },
+    {
+      "shader": "Meadow",
+      "pass": "MeadowDepthOnly",
+      "variant": "Base",
+      "stage": "vertex",
+      "entry": "MeadowVertex",
+      "profile": "vs_4_0",
+      "keywords": [],
+      "hresult": 0,
+      "bytecodeBytes": 8996,
+      "diagnostics": ""
+    },
+    {
+      "shader": "Meadow",
+      "pass": "MeadowDepthOnly",
+      "variant": "Base",
+      "stage": "fragment",
+      "entry": "MeadowDepthFragment",
+      "profile": "ps_4_0",
+      "keywords": [],
+      "hresult": 0,
+      "bytecodeBytes": 4864,
+      "diagnostics": ""
+    },
+    {
+      "shader": "Meadow",
+      "pass": "MeadowDepthNormals",
+      "variant": "Base",
+      "stage": "vertex",
+      "entry": "MeadowVertex",
+      "profile": "vs_4_0",
+      "keywords": [],
+      "hresult": 0,
+      "bytecodeBytes": 8996,
+      "diagnostics": ""
+    },
+    {
+      "shader": "Meadow",
+      "pass": "MeadowDepthNormals",
+      "variant": "Base",
+      "stage": "fragment",
+      "entry": "MeadowNormalsFragment",
+      "profile": "ps_4_0",
+      "keywords": [],
+      "hresult": 0,
+      "bytecodeBytes": 5252,
+      "diagnostics": ""
+    },
+    {
+      "shader": "TerrainSurface",
+      "pass": "TerrainSurfaceForward",
+      "variant": "Base",
+      "stage": "vertex",
+      "entry": "SurfaceVertex",
+      "profile": "vs_4_0",
+      "keywords": [],
+      "hresult": 0,
+      "bytecodeBytes": 6844,
+      "diagnostics": ""
+    },
+    {
+      "shader": "TerrainSurface",
+      "pass": "TerrainSurfaceForward",
+      "variant": "Base",
+      "stage": "fragment",
+      "entry": "SurfaceFragment",
+      "profile": "ps_4_0",
+      "keywords": [],
+      "hresult": 0,
+      "bytecodeBytes": 26092,
+      "diagnostics": ""
+    },
+    {
+      "shader": "TerrainSurface",
+      "pass": "TerrainSurfaceShadowCaster",
+      "variant": "Base",
+      "stage": "vertex",
+      "entry": "SurfaceShadowVertex",
+      "profile": "vs_4_0",
+      "keywords": [],
+      "hresult": 0,
+      "bytecodeBytes": 7236,
+      "diagnostics": ""
+    },
+    {
+      "shader": "TerrainSurface",
+      "pass": "TerrainSurfaceShadowCaster",
+      "variant": "Base",
+      "stage": "fragment",
+      "entry": "SurfaceDepthFragment",
+      "profile": "ps_4_0",
+      "keywords": [],
+      "hresult": 0,
+      "bytecodeBytes": 528,
+      "diagnostics": ""
+    },
+    {
+      "shader": "TerrainSurface",
+      "pass": "TerrainSurfaceDepthOnly",
+      "variant": "Base",
+      "stage": "vertex",
+      "entry": "SurfaceVertex",
+      "profile": "vs_4_0",
+      "keywords": [],
+      "hresult": 0,
+      "bytecodeBytes": 6844,
+      "diagnostics": ""
+    },
+    {
+      "shader": "TerrainSurface",
+      "pass": "TerrainSurfaceDepthOnly",
+      "variant": "Base",
+      "stage": "fragment",
+      "entry": "SurfaceDepthFragment",
+      "profile": "ps_4_0",
+      "keywords": [],
+      "hresult": 0,
+      "bytecodeBytes": 528,
+      "diagnostics": ""
+    },
+    {
+      "shader": "TerrainSurface",
+      "pass": "TerrainSurfaceDepthNormals",
+      "variant": "Base",
+      "stage": "vertex",
+      "entry": "SurfaceVertex",
+      "profile": "vs_4_0",
+      "keywords": [],
+      "hresult": 0,
+      "bytecodeBytes": 6844,
+      "diagnostics": ""
+    },
+    {
+      "shader": "TerrainSurface",
+      "pass": "TerrainSurfaceDepthNormals",
+      "variant": "Base",
+      "stage": "fragment",
+      "entry": "SurfaceNormalsFragment",
+      "profile": "ps_4_0",
+      "keywords": [],
+      "hresult": 0,
+      "bytecodeBytes": 19044,
+      "diagnostics": ""
+    }
+  ]
+}

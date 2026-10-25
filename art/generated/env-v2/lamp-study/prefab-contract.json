@@ -1,0 +1,866 @@
+{
+  "source": "GameProject\\Assets\\JieGuang\\Environment\\Island.prefab",
+  "sha256": "d17154fd0cf79cf55e65225dbb517626216c80be2a3741dcc3bc53eabff1ae45",
+  "observed_offline": true,
+  "spot_count": 3,
+  "objects": [
+    {
+      "name": "ColumnCollision",
+      "path": "Island/Anchor_Lamp_GuiHang/Structure/ColumnCollision",
+      "local_position": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "local_rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 1.0
+      },
+      "local_scale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "world_position": [
+        11.0,
+        6.199999809265137,
+        -18.0
+      ],
+      "world_forward": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "light": null
+    },
+    {
+      "name": "LOD0",
+      "path": "Island/Props/HarborLantern/LOD0",
+      "local_position": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "local_rotation": {
+        "x": -0.7071068,
+        "y": -0.0,
+        "z": 0.0,
+        "w": 0.7071067
+      },
+      "local_scale": {
+        "x": -1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "world_position": [
+        10.0,
+        3.4600000381469727,
+        -10.5
+      ],
+      "world_forward": [
+        0.0,
+        1.0,
+        -1.3435887069590535e-07
+      ],
+      "light": null
+    },
+    {
+      "name": "LampHead",
+      "path": "Island/Anchor_Lamp_WanFeng/LampHead",
+      "local_position": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "local_rotation": {
+        "x": -0.023366177,
+        "y": 0.94337064,
+        "z": -0.32384068,
+        "w": -0.06806731
+      },
+      "local_scale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "world_position": [
+        8.0,
+        6.199999809265137,
+        -16.5
+      ],
+      "world_forward": [
+        -0.11329155415296555,
+        -0.6141844391822815,
+        -0.7809881567955017
+      ],
+      "light": null
+    },
+    {
+      "name": "LampHead",
+      "path": "Island/Anchor_Lamp_YueChuang/LampHead",
+      "local_position": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "local_rotation": {
+        "x": 0.3428622,
+        "y": 0.00027256802,
+        "z": -9.9483375e-05,
+        "w": 0.9393857
+      },
+      "local_scale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "world_position": [
+        4.0,
+        6.400000095367432,
+        -21.0
+      ],
+      "world_forward": [
+        0.0004438748292159289,
+        -0.644159734249115,
+        0.7648909091949463
+      ],
+      "light": null
+    },
+    {
+      "name": "Structure",
+      "path": "Island/Props/HarborLantern/LOD0/Structure",
+      "local_position": {
+        "x": -0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "local_rotation": {
+        "x": 0.0,
+        "y": -0.0,
+        "z": -0.0,
+        "w": 1.0
+      },
+      "local_scale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "world_position": [
+        10.0,
+        3.4600000381469727,
+        -10.5
+      ],
+      "world_forward": [
+        0.0,
+        1.0,
+        -1.3435887069590535e-07
+      ],
+      "light": null
+    },
+    {
+      "name": "ColumnCollision",
+      "path": "Island/Anchor_Lamp_WanFeng/Structure/ColumnCollision",
+      "local_position": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "local_rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 1.0
+      },
+      "local_scale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "world_position": [
+        8.0,
+        6.199999809265137,
+        -16.5
+      ],
+      "world_forward": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "light": null
+    },
+    {
+      "name": "HarborLantern",
+      "path": "Island/Props/HarborLantern",
+      "local_position": {
+        "x": 10.0,
+        "y": 3.46,
+        "z": -10.5
+      },
+      "local_rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 1.0
+      },
+      "local_scale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "world_position": [
+        10.0,
+        3.4600000381469727,
+        -10.5
+      ],
+      "world_forward": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "light": null
+    },
+    {
+      "name": "Anchor_Lamp_YueChuang",
+      "path": "Island/Anchor_Lamp_YueChuang",
+      "local_position": {
+        "x": 4.0,
+        "y": 6.4,
+        "z": -21.0
+      },
+      "local_rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 1.0
+      },
+      "local_scale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "world_position": [
+        4.0,
+        6.400000095367432,
+        -21.0
+      ],
+      "world_forward": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "light": null
+    },
+    {
+      "name": "CopperColumn",
+      "path": "Island/Anchor_Lamp_GuiHang/Structure/CopperColumn",
+      "local_position": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "local_rotation": {
+        "x": -0.7071068,
+        "y": -0.0,
+        "z": -0.0,
+        "w": 0.7071067
+      },
+      "local_scale": {
+        "x": -1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "world_position": [
+        11.0,
+        6.199999809265137,
+        -18.0
+      ],
+      "world_forward": [
+        0.0,
+        1.0,
+        -1.3435887069590535e-07
+      ],
+      "light": null
+    },
+    {
+      "name": "Anchor_Lamp_GuiHang",
+      "path": "Island/Anchor_Lamp_GuiHang",
+      "local_position": {
+        "x": 11.0,
+        "y": 6.2,
+        "z": -18.0
+      },
+      "local_rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 1.0
+      },
+      "local_scale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "world_position": [
+        11.0,
+        6.199999809265137,
+        -18.0
+      ],
+      "world_forward": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "light": null
+    },
+    {
+      "name": "Structure",
+      "path": "Island/Anchor_Lamp_WanFeng/Structure",
+      "local_position": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "local_rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 1.0
+      },
+      "local_scale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "world_position": [
+        8.0,
+        6.199999809265137,
+        -16.5
+      ],
+      "world_forward": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "light": null
+    },
+    {
+      "name": "CopperHood",
+      "path": "Island/Anchor_Lamp_GuiHang/LampHead/CopperHood",
+      "local_position": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "local_rotation": {
+        "x": -0.7071068,
+        "y": -0.0,
+        "z": -0.0,
+        "w": 0.7071067
+      },
+      "local_scale": {
+        "x": -1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "world_position": [
+        11.0,
+        6.199999809265137,
+        -18.0
+      ],
+      "world_forward": [
+        -0.37757012248039246,
+        0.7325900197029114,
+        -0.5663504004478455
+      ],
+      "light": null
+    },
+    {
+      "name": "ColumnCollision",
+      "path": "Island/Anchor_Lamp_YueChuang/Structure/ColumnCollision",
+      "local_position": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "local_rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 1.0
+      },
+      "local_scale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "world_position": [
+        4.0,
+        6.400000095367432,
+        -21.0
+      ],
+      "world_forward": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "light": null
+    },
+    {
+      "name": "Structure",
+      "path": "Island/Anchor_Lamp_YueChuang/Structure",
+      "local_position": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "local_rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 1.0
+      },
+      "local_scale": {
+        "x": 1.0,
+        "y": 1.0526316,
+        "z": 1.0
+      },
+      "world_position": [
+        4.0,
+        6.400000095367432,
+        -21.0
+      ],
+      "world_forward": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "light": null
+    },
+    {
+      "name": "CopperHood",
+      "path": "Island/Anchor_Lamp_WanFeng/LampHead/CopperHood",
+      "local_position": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "local_rotation": {
+        "x": -0.7071068,
+        "y": -0.0,
+        "z": -0.0,
+        "w": 0.7071067
+      },
+      "local_scale": {
+        "x": -1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "world_position": [
+        8.0,
+        6.199999809265137,
+        -16.5
+      ],
+      "world_forward": [
+        -0.08817184716463089,
+        0.7891625761985779,
+        -0.6078225374221802
+      ],
+      "light": null
+    },
+    {
+      "name": "Spot",
+      "path": "Island/Anchor_Lamp_YueChuang/LampHead/Spot",
+      "local_position": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.29
+      },
+      "local_rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 1.0
+      },
+      "local_scale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "world_position": [
+        4.000128746032715,
+        6.213193893432617,
+        -20.778181076049805
+      ],
+      "world_forward": [
+        0.0004438748292159289,
+        -0.644159734249115,
+        0.7648909091949463
+      ],
+      "light": {
+        "m_Type": "0",
+        "m_Intensity": "16",
+        "m_Range": "18",
+        "m_SpotAngle": "24"
+      }
+    },
+    {
+      "name": "Spot",
+      "path": "Island/Anchor_Lamp_WanFeng/LampHead/Spot",
+      "local_position": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.29
+      },
+      "local_rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 1.0
+      },
+      "local_scale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "world_position": [
+        7.9671454429626465,
+        6.021886348724365,
+        -16.726486206054688
+      ],
+      "world_forward": [
+        -0.11329155415296555,
+        -0.6141844391822815,
+        -0.7809881567955017
+      ],
+      "light": {
+        "m_Type": "0",
+        "m_Intensity": "16",
+        "m_Range": "18",
+        "m_SpotAngle": "56"
+      }
+    },
+    {
+      "name": "Anchor_Lamp_WanFeng",
+      "path": "Island/Anchor_Lamp_WanFeng",
+      "local_position": {
+        "x": 8.0,
+        "y": 6.2,
+        "z": -16.5
+      },
+      "local_rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 1.0
+      },
+      "local_scale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "world_position": [
+        8.0,
+        6.199999809265137,
+        -16.5
+      ],
+      "world_forward": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "light": null
+    },
+    {
+      "name": "Structure",
+      "path": "Island/Anchor_Lamp_GuiHang/Structure",
+      "local_position": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "local_rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 1.0
+      },
+      "local_scale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "world_position": [
+        11.0,
+        6.199999809265137,
+        -18.0
+      ],
+      "world_forward": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "light": null
+    },
+    {
+      "name": "CopperHood",
+      "path": "Island/Anchor_Lamp_YueChuang/LampHead/CopperHood",
+      "local_position": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "local_rotation": {
+        "x": -0.7071068,
+        "y": -0.0,
+        "z": -0.0,
+        "w": 0.7071067
+      },
+      "local_scale": {
+        "x": -1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "world_position": [
+        4.0,
+        6.400000095367432,
+        -21.0
+      ],
+      "world_forward": [
+        0.0003738130326382816,
+        0.7648911476135254,
+        0.6441594958305359
+      ],
+      "light": null
+    },
+    {
+      "name": "Marker_HangingPoint",
+      "path": "Island/Props/HarborLantern/LOD0/Marker_HangingPoint",
+      "local_position": {
+        "x": -0.0,
+        "y": 0.0,
+        "z": 0.79
+      },
+      "local_rotation": {
+        "x": 0.0,
+        "y": -0.0,
+        "z": -0.0,
+        "w": 1.0
+      },
+      "local_scale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "world_position": [
+        10.0,
+        4.25,
+        -10.5
+      ],
+      "world_forward": [
+        0.0,
+        1.0,
+        -1.3435887069590535e-07
+      ],
+      "light": null
+    },
+    {
+      "name": "LampHead",
+      "path": "Island/Anchor_Lamp_GuiHang/LampHead",
+      "local_position": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "local_rotation": {
+        "x": -0.105962284,
+        "y": 0.8908126,
+        "z": -0.3499672,
+        "w": -0.26971823
+      },
+      "local_scale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "world_position": [
+        11.0,
+        6.199999809265137,
+        -18.0
+      ],
+      "world_forward": [
+        -0.4063701331615448,
+        -0.6806703209877014,
+        -0.6095501184463501
+      ],
+      "light": null
+    },
+    {
+      "name": "HarborLight",
+      "path": "Island/Props/HarborLantern/HarborLight",
+      "local_position": {
+        "x": 0.0,
+        "y": 0.38,
+        "z": 0.0
+      },
+      "local_rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 1.0
+      },
+      "local_scale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "world_position": [
+        10.0,
+        3.8400001525878906,
+        -10.5
+      ],
+      "world_forward": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "light": {
+        "m_Type": "2",
+        "m_Intensity": "1.2",
+        "m_Range": "3.5",
+        "m_SpotAngle": "30"
+      }
+    },
+    {
+      "name": "CopperColumn",
+      "path": "Island/Anchor_Lamp_WanFeng/Structure/CopperColumn",
+      "local_position": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "local_rotation": {
+        "x": -0.7071068,
+        "y": -0.0,
+        "z": -0.0,
+        "w": 0.7071067
+      },
+      "local_scale": {
+        "x": -1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "world_position": [
+        8.0,
+        6.199999809265137,
+        -16.5
+      ],
+      "world_forward": [
+        0.0,
+        1.0,
+        -1.3435887069590535e-07
+      ],
+      "light": null
+    },
+    {
+      "name": "CopperColumn",
+      "path": "Island/Anchor_Lamp_YueChuang/Structure/CopperColumn",
+      "local_position": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "local_rotation": {
+        "x": -0.7071068,
+        "y": -0.0,
+        "z": -0.0,
+        "w": 0.7071067
+      },
+      "local_scale": {
+        "x": -1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "world_position": [
+        4.0,
+        6.400000095367432,
+        -21.0
+      ],
+      "world_forward": [
+        0.0,
+        1.0,
+        -1.2764091650296905e-07
+      ],
+      "light": null
+    },
+    {
+      "name": "Spot",
+      "path": "Island/Anchor_Lamp_GuiHang/LampHead/Spot",
+      "local_position": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.29
+      },
+      "local_rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 1.0
+      },
+      "local_scale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "world_position": [
+        10.882152557373047,
+        6.002605438232422,
+        -18.176769256591797
+      ],
+      "world_forward": [
+        -0.4063701331615448,
+        -0.6806703209877014,
+        -0.6095501184463501
+      ],
+      "light": {
+        "m_Type": "0",
+        "m_Intensity": "16",
+        "m_Range": "18",
+        "m_SpotAngle": "24"
+      }
+    },
+    {
+      "name": "Anchor_FlagpoleHook",
+      "path": "Island/Anchor_FlagpoleHook",
+      "local_position": {
+        "x": 10.0,
+        "y": 4.25,
+        "z": -10.5
+      },
+      "local_rotation": {
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0,
+        "w": 0.0
+      },
+      "local_scale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "world_position": [
+        10.0,
+        4.25,
+        -10.5
+      ],
+      "world_forward": [
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "light": null
+    }
+  ],
+  "note": "Parsed serialized prefab local matrices; no Unity Editor or runtime query."
+}

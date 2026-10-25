@@ -1,0 +1,16 @@
+<!doctype html><html lang="zh-CN"><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>阿婆屋候选：离线前后对照</title>
+<style>body{background:#111d29;color:#eadfc8;font:16px/1.7 system-ui;margin:2rem auto;max-width:1500px;padding:0 1rem}h1{font-size:26px}p{max-width:1000px}.row{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin:24px 0}figure{margin:0}img{width:100%;display:block}figcaption{padding:8px;color:#cfc4ac}a{color:#d9be7e}@media(max-width:700px){.row{grid-template-columns:1fr}}</style>
+<h1>阿婆木屋：木材与共面黑块的两轮对照</h1><p>当前最终版 11,925 三角面。第一轮只改 164 个木构件 UV 与表面，原创木纹图实测 1254×1254；第二轮仅把新增装饰的共面搭接错开 1.5–6 毫米。原 Structure、四 Marker、尺寸与碰撞映射保持。所有图片为相同三个机位与中性棚灯，全部 1000×1000；未在 Unity 验证夜景。</p>
+<h2>第一轮：平色材质 → 顺木纹表面</h2>
+<p><a href="surface-manifest.json">表面与 UV 数据</a> · <a href="manifest.json">几何与 Marker 数据</a> · <a href="README.zh-CN.md">接入说明</a> · <a href="archive-flat-materials-20261022/REVIEW.html">上一轮造型对照（归档）</a></p>
+<div class="row"><figure><img src="material-before-front.png"><figcaption>前视：原平色材质</figcaption></figure><figure><img src="material-after-front.png"><figcaption>前视：顺木纹 UV 与四色共享材质</figcaption></figure></div>
+<div class="row"><figure><img src="material-before-side.png"><figcaption>侧视：原平色材质</figcaption></figure><figure><img src="material-after-side.png"><figcaption>侧视：横向板与竖向门柱</figcaption></figure></div>
+<div class="row"><figure><img src="material-before-window.png"><figcaption>圆窗近景：原平色材质</figcaption></figure><figure><img src="material-after-window.png"><figcaption>圆窗近景：弯曲木框与墙板纹理</figcaption></figure></div>
+<h2>第二轮：共面搭接 → 合理错层（当前最终版）</h2>
+<p>像素反投射证实每处黑方块命中两个重叠面，排除缺面。只移动两个新增装饰网格的 1,672 个顶点，0 新增面；其余 13 网格、UV0、四 Marker 与包围盒逐值保持。四处固定黑块 ROI 暗像素 43/43/40/41 → 全部 0；正常檐下、窗内与木梁阴影保留。</p>
+<div class="row"><figure><img src="seam-before-window.png"><figcaption>修正前：屋檐与阁楼窗上角黑方块</figcaption></figure><figure><img src="seam-after-window.png"><figcaption>当前：解除共面，保留正常阴影</figcaption></figure></div>
+<div class="row"><figure><img src="seam-before-front.png"><figcaption>修正前：前视</figcaption></figure><figure><img src="seam-after-front.png"><figcaption>当前：前视</figcaption></figure></div>
+<div class="row"><figure><img src="seam-before-side.png"><figcaption>修正前：侧视</figcaption></figure><figure><img src="seam-after-side.png"><figcaption>当前：侧视</figcaption></figure></div>
+<p><a href="SEAM-REVIEW.zh-CN.md">诊断与修正说明</a> · <a href="seam-manifest.json">逐顶点改动与最终文件 SHA</a> · <a href="seam-fbx-roundtrip.json">最新 FBX 回导检查</a></p>
+<p>局限：屋瓦、石脚、金属仍为颜色材质；无专用木端面、法线或 AO 图。本轮只确认离线材质与共面黑块改善，不代表完整模型、整岛画质或帧率验收。</p>
+</html>

@@ -1,0 +1,1374 @@
+{
+  "status": "offline-cliff-candidate-not-imported",
+  "source_blend": "art/generated/env-v1/terrain/island_terrain.blend",
+  "source_blend_sha256": "6a1199426194e50c46007fcb4ae25d0c49fb4fdf8fd1239e7597748133929f90",
+  "source_script_sha256": "bc66551392c07c03cff7985ce522d28f70ccb28fd30cc207a3e7f14dbb499fd5",
+  "candidate_script_sha256": "e22d16eb18c8f530c70c453129651779cc4a5bed4ca738aa3b1886e81f6c4a31",
+  "diagnosis": "Original edge_ids used only both longitudinal sides, skipping 23 interior vertices at each end. Two end chords cannot seal the raised terrain end profiles. Exact topology mismatch persists independently of material and normals.",
+  "before": {
+    "topology": {
+      "vertices": 726,
+      "faces": 484,
+      "triangles": 968,
+      "boundary_edges": 484,
+      "nonmanifold_edges_including_open_rims": 484,
+      "edges_with_more_than_two_faces": 0,
+      "wire_edges": 0,
+      "zero_area_faces": 0
+    },
+    "seams": {
+      "ground_boundary_edges": 288,
+      "cliff_boundary_edges": 484,
+      "exact_shared_top_edges": 240,
+      "ground_boundary_edges_without_cliff_partner": 48,
+      "ground_unmatched_segments_blender": [
+        [
+          [
+            12.93419,
+            27.04798,
+            0.32
+          ],
+          [
+            12.93968,
+            27.04398,
+            0.75617
+          ]
+        ],
+        [
+          [
+            12.93968,
+            27.04398,
+            0.75617
+          ],
+          [
+            12.94516,
+            27.03998,
+            1.85611
+          ]
+        ],
+        [
+          [
+            12.94516,
+            27.03998,
+            1.85611
+          ],
+          [
+            12.95064,
+            27.03598,
+            2.33005
+          ]
+        ],
+        [
+          [
+            12.95064,
+            27.03598,
+            2.33005
+          ],
+          [
+            12.95613,
+            27.03199,
+            2.34473
+          ]
+        ],
+        [
+          [
+            12.95613,
+            27.03199,
+            2.34473
+          ],
+          [
+            12.96161,
+            27.02799,
+            2.35768
+          ]
+        ],
+        [
+          [
+            12.96161,
+            27.02799,
+            2.35768
+          ],
+          [
+            12.9671,
+            27.02399,
+            2.36891
+          ]
+        ],
+        [
+          [
+            12.9671,
+            27.02399,
+            2.36891
+          ],
+          [
+            12.97258,
+            27.01999,
+            2.37841
+          ]
+        ],
+        [
+          [
+            12.97258,
+            27.01999,
+            2.37841
+          ],
+          [
+            12.97806,
+            27.01599,
+            2.38618
+          ]
+        ],
+        [
+          [
+            12.97806,
+            27.01599,
+            2.38618
+          ],
+          [
+            12.98355,
+            27.012,
+            2.39223
+          ]
+        ],
+        [
+          [
+            12.98355,
+            27.012,
+            2.39223
+          ],
+          [
+            12.98903,
+            27.008,
+            2.39655
+          ]
+        ],
+        [
+          [
+            12.98903,
+            27.008,
+            2.39655
+          ],
+          [
+            12.99452,
+            27.004,
+            2.39914
+          ]
+        ],
+        [
+          [
+            12.99452,
+            27.004,
+            2.39914
+          ],
+          [
+            13.0,
+            27.0,
+            2.4
+          ]
+        ],
+        [
+          [
+            13.0,
+            27.0,
+            2.4
+          ],
+          [
+            13.00548,
+            26.996,
+            2.39914
+          ]
+        ],
+        [
+          [
+            13.00548,
+            26.996,
+            2.39914
+          ],
+          [
+            13.01097,
+            26.992,
+            2.39655
+          ]
+        ],
+        [
+          [
+            13.01097,
+            26.992,
+            2.39655
+          ],
+          [
+            13.01645,
+            26.988,
+            2.39223
+          ]
+        ],
+        [
+          [
+            13.01645,
+            26.988,
+            2.39223
+          ],
+          [
+            13.02194,
+            26.98401,
+            2.38618
+          ]
+        ],
+        [
+          [
+            13.02194,
+            26.98401,
+            2.38618
+          ],
+          [
+            13.02742,
+            26.98001,
+            2.37841
+          ]
+        ],
+        [
+          [
+            13.02742,
+            26.98001,
+            2.37841
+          ],
+          [
+            13.0329,
+            26.97601,
+            2.36891
+          ]
+        ],
+        [
+          [
+            13.0329,
+            26.97601,
+            2.36891
+          ],
+          [
+            13.03839,
+            26.97201,
+            2.35768
+          ]
+        ],
+        [
+          [
+            13.03839,
+            26.97201,
+            2.35768
+          ],
+          [
+            13.04387,
+            26.96801,
+            2.34473
+          ]
+        ],
+        [
+          [
+            13.04387,
+            26.96801,
+            2.34473
+          ],
+          [
+            13.04936,
+            26.96402,
+            2.33005
+          ]
+        ],
+        [
+          [
+            13.04936,
+            26.96402,
+            2.33005
+          ],
+          [
+            13.05484,
+            26.96002,
+            1.85611
+          ]
+        ],
+        [
+          [
+            13.05484,
+            26.96002,
+            1.85611
+          ],
+          [
+            13.06032,
+            26.95602,
+            0.75617
+          ]
+        ],
+        [
+          [
+            13.06032,
+            26.95602,
+            0.75617
+          ],
+          [
+            13.06581,
+            26.95202,
+            0.32
+          ]
+        ],
+        [
+          [
+            13.96001,
+            -23.92889,
+            0.32
+          ],
+          [
+            13.96334,
+            -23.93482,
+            0.44156
+          ]
+        ],
+        [
+          [
+            13.96334,
+            -23.93482,
+            0.44156
+          ],
+          [
+            13.96667,
+            -23.94074,
+            0.77195
+          ]
+        ],
+        [
+          [
+            13.96667,
+            -23.94074,
+            0.77195
+          ],
+          [
+            13.97001,
+            -23.94667,
+            0.9298
+          ]
+        ],
+        [
+          [
+            13.97001,
+            -23.94667,
+            0.9298
+          ],
+          [
+            13.97334,
+            -23.95259,
+            0.94453
+          ]
+        ],
+        [
+          [
+            13.97334,
+            -23.95259,
+            0.94453
+          ],
+          [
+            13.97667,
+            -23.95852,
+            0.95753
+          ]
+        ],
+        [
+          [
+            13.97667,
+            -23.95852,
+            0.95753
+          ],
+          [
+            13.98,
+            -23.96445,
+            0.9688
+          ]
+        ],
+        [
+          [
+            13.98,
+            -23.96445,
+            0.9688
+          ],
+          [
+            13.98334,
+            -23.97037,
+            0.97833
+          ]
+        ],
+        [
+          [
+            13.98334,
+            -23.97037,
+            0.97833
+          ],
+          [
+            13.98667,
+            -23.9763,
+            0.98613
+          ]
+        ],
+        [
+          [
+            13.98667,
+            -23.9763,
+            0.98613
+          ],
+          [
+            13.99,
+            -23.98222,
+            0.9922
+          ]
+        ],
+        [
+          [
+            13.99,
+            -23.98222,
+            0.9922
+          ],
+          [
+            13.99333,
+            -23.98815,
+            0.99653
+          ]
+        ],
+        [
+          [
+            13.99333,
+            -23.98815,
+            0.99653
+          ],
+          [
+            13.99667,
+            -23.99407,
+            0.99913
+          ]
+        ],
+        [
+          [
+            13.99667,
+            -23.99407,
+            0.99913
+          ],
+          [
+            14.0,
+            -24.0,
+            1.0
+          ]
+        ],
+        [
+          [
+            14.0,
+            -24.0,
+            1.0
+          ],
+          [
+            14.00333,
+            -24.00593,
+            0.99913
+          ]
+        ],
+        [
+          [
+            14.00333,
+            -24.00593,
+            0.99913
+          ],
+          [
+            14.00667,
+            -24.01185,
+            0.99653
+          ]
+        ],
+        [
+          [
+            14.00667,
+            -24.01185,
+            0.99653
+          ],
+          [
+            14.01,
+            -24.01778,
+            0.9922
+          ]
+        ],
+        [
+          [
+            14.01,
+            -24.01778,
+            0.9922
+          ],
+          [
+            14.01333,
+            -24.0237,
+            0.98613
+          ]
+        ],
+        [
+          [
+            14.01333,
+            -24.0237,
+            0.98613
+          ],
+          [
+            14.01666,
+            -24.02963,
+            0.97833
+          ]
+        ],
+        [
+          [
+            14.01666,
+            -24.02963,
+            0.97833
+          ],
+          [
+            14.02,
+            -24.03555,
+            0.9688
+          ]
+        ],
+        [
+          [
+            14.02,
+            -24.03555,
+            0.9688
+          ],
+          [
+            14.02333,
+            -24.04148,
+            0.95753
+          ]
+        ],
+        [
+          [
+            14.02333,
+            -24.04148,
+            0.95753
+          ],
+          [
+            14.02666,
+            -24.04741,
+            0.94453
+          ]
+        ],
+        [
+          [
+            14.02666,
+            -24.04741,
+            0.94453
+          ],
+          [
+            14.02999,
+            -24.05333,
+            0.9298
+          ]
+        ],
+        [
+          [
+            14.02999,
+            -24.05333,
+            0.9298
+          ],
+          [
+            14.03333,
+            -24.05926,
+            0.77195
+          ]
+        ],
+        [
+          [
+            14.03333,
+            -24.05926,
+            0.77195
+          ],
+          [
+            14.03666,
+            -24.06518,
+            0.44156
+          ]
+        ],
+        [
+          [
+            14.03666,
+            -24.06518,
+            0.44156
+          ],
+          [
+            14.03999,
+            -24.07111,
+            0.32
+          ]
+        ]
+      ],
+      "cliff_top_chords_not_ground_boundary": 2,
+      "cliff_unmatched_top_chords_blender": [
+        [
+          [
+            12.93419,
+            27.04798,
+            0.32
+          ],
+          [
+            13.06581,
+            26.95202,
+            0.32
+          ]
+        ],
+        [
+          [
+            13.96001,
+            -23.92889,
+            0.32
+          ],
+          [
+            14.03999,
+            -24.07111,
+            0.32
+          ]
+        ]
+      ],
+      "after_weld_combined_open_edges": 292,
+      "comparison_tolerance_metres": 1e-05
+    },
+    "normals": {
+      "min_radial_dot": -0.8257953897118568,
+      "mean_radial_dot": 0.46924577618745966,
+      "caveat": "Concave coastline cannot be certified by one radial center; topology seam evidence is independent."
+    }
+  },
+  "after": {
+    "topology": {
+      "vertices": 2592,
+      "faces": 2304,
+      "triangles": 4608,
+      "boundary_edges": 576,
+      "nonmanifold_edges_including_open_rims": 576,
+      "edges_with_more_than_two_faces": 0,
+      "wire_edges": 0,
+      "zero_area_faces": 0
+    },
+    "seams": {
+      "ground_boundary_edges": 288,
+      "cliff_boundary_edges": 576,
+      "exact_shared_top_edges": 288,
+      "ground_boundary_edges_without_cliff_partner": 0,
+      "ground_unmatched_segments_blender": [],
+      "cliff_top_chords_not_ground_boundary": 0,
+      "cliff_unmatched_top_chords_blender": [],
+      "after_weld_combined_open_edges": 288,
+      "comparison_tolerance_metres": 1e-05
+    },
+    "normals": {
+      "min_radial_dot": -0.9944596290588379,
+      "mean_radial_dot": 0.4520287345008253,
+      "caveat": "Concave coastline cannot be certified by one radial center; topology seam evidence is independent."
+    }
+  },
+  "source_end_gap_witnesses": [
+    {
+      "chord": [
+        [
+          12.93419,
+          27.04798,
+          0.32
+        ],
+        [
+          13.06581,
+          26.95202,
+          0.32
+        ]
+      ],
+      "omitted_points": 23,
+      "maximum_height_gap": 2.080000102519989,
+      "samples": [
+        {
+          "point": [
+            13.060322761535645,
+            26.95602035522461,
+            0.7561712265014648
+          ],
+          "height_above_chord": 0.4361712336540222
+        },
+        {
+          "point": [
+            13.054839134216309,
+            26.960018157958984,
+            1.8561068773269653
+          ],
+          "height_above_chord": 1.5361068844795227
+        },
+        {
+          "point": [
+            13.049355506896973,
+            26.96401596069336,
+            2.330048084259033
+          ],
+          "height_above_chord": 2.0100480914115906
+        },
+        {
+          "point": [
+            13.043871879577637,
+            26.968013763427734,
+            2.344729423522949
+          ],
+          "height_above_chord": 2.0247294306755066
+        },
+        {
+          "point": [
+            13.038387298583984,
+            26.972013473510742,
+            2.3576834201812744
+          ],
+          "height_above_chord": 2.037683427333832
+        },
+        {
+          "point": [
+            13.032903671264648,
+            26.976011276245117,
+            2.368910312652588
+          ],
+          "height_above_chord": 2.0489103198051453
+        },
+        {
+          "point": [
+            13.027420043945312,
+            26.980009078979492,
+            2.3784098625183105
+          ],
+          "height_above_chord": 2.058409869670868
+        },
+        {
+          "point": [
+            13.02193546295166,
+            26.984006881713867,
+            2.3861823081970215
+          ],
+          "height_above_chord": 2.066182315349579
+        },
+        {
+          "point": [
+            13.016451835632324,
+            26.988004684448242,
+            2.3922276496887207
+          ],
+          "height_above_chord": 2.072227656841278
+        },
+        {
+          "point": [
+            13.010968208312988,
+            26.99200439453125,
+            2.396545648574829
+          ],
+          "height_above_chord": 2.0765456557273865
+        },
+        {
+          "point": [
+            13.005483627319336,
+            26.996002197265625,
+            2.3991363048553467
+          ],
+          "height_above_chord": 2.079136312007904
+        },
+        {
+          "point": [
+            13.0,
+            27.0,
+            2.4000000953674316
+          ],
+          "height_above_chord": 2.080000102519989
+        },
+        {
+          "point": [
+            12.994516372680664,
+            27.003997802734375,
+            2.3991363048553467
+          ],
+          "height_above_chord": 2.079136312007904
+        },
+        {
+          "point": [
+            12.989031791687012,
+            27.00799560546875,
+            2.396545648574829
+          ],
+          "height_above_chord": 2.0765456557273865
+        },
+        {
+          "point": [
+            12.983548164367676,
+            27.011995315551758,
+            2.3922276496887207
+          ],
+          "height_above_chord": 2.072227656841278
+        },
+        {
+          "point": [
+            12.97806453704834,
+            27.015993118286133,
+            2.3861823081970215
+          ],
+          "height_above_chord": 2.066182315349579
+        },
+        {
+          "point": [
+            12.972579956054688,
+            27.019990921020508,
+            2.3784098625183105
+          ],
+          "height_above_chord": 2.058409869670868
+        },
+        {
+          "point": [
+            12.967096328735352,
+            27.023988723754883,
+            2.368910312652588
+          ],
+          "height_above_chord": 2.0489103198051453
+        },
+        {
+          "point": [
+            12.961612701416016,
+            27.027986526489258,
+            2.3576834201812744
+          ],
+          "height_above_chord": 2.037683427333832
+        },
+        {
+          "point": [
+            12.956128120422363,
+            27.031986236572266,
+            2.344729423522949
+          ],
+          "height_above_chord": 2.0247294306755066
+        },
+        {
+          "point": [
+            12.950644493103027,
+            27.03598403930664,
+            2.330048084259033
+          ],
+          "height_above_chord": 2.0100480914115906
+        },
+        {
+          "point": [
+            12.945160865783691,
+            27.039981842041016,
+            1.8561068773269653
+          ],
+          "height_above_chord": 1.5361068844795227
+        },
+        {
+          "point": [
+            12.939677238464355,
+            27.04397964477539,
+            0.7561712265014648
+          ],
+          "height_above_chord": 0.4361712336540222
+        }
+      ]
+    },
+    {
+      "chord": [
+        [
+          13.96001,
+          -23.92889,
+          0.32
+        ],
+        [
+          14.03999,
+          -24.07111,
+          0.32
+        ]
+      ],
+      "omitted_points": 23,
+      "maximum_height_gap": 0.6800000071525574,
+      "samples": [
+        {
+          "point": [
+            14.036661148071289,
+            -24.065181732177734,
+            0.44155699014663696
+          ],
+          "height_above_chord": 0.12155699729919434
+        },
+        {
+          "point": [
+            14.03332805633545,
+            -24.05925750732422,
+            0.771946132183075
+          ],
+          "height_above_chord": 0.4519461393356323
+        },
+        {
+          "point": [
+            14.02999496459961,
+            -24.05333137512207,
+            0.9298009276390076
+          ],
+          "height_above_chord": 0.6098009347915649
+        },
+        {
+          "point": [
+            14.026662826538086,
+            -24.047405242919922,
+            0.9445340633392334
+          ],
+          "height_above_chord": 0.6245340704917908
+        },
+        {
+          "point": [
+            14.023329734802246,
+            -24.041479110717773,
+            0.9575338959693909
+          ],
+          "height_above_chord": 0.6375339031219482
+        },
+        {
+          "point": [
+            14.019996643066406,
+            -24.035554885864258,
+            0.96880042552948
+          ],
+          "height_above_chord": 0.6488004326820374
+        },
+        {
+          "point": [
+            14.016664505004883,
+            -24.02962875366211,
+            0.978333592414856
+          ],
+          "height_above_chord": 0.6583335995674133
+        },
+        {
+          "point": [
+            14.013331413269043,
+            -24.02370262145996,
+            0.9861335158348083
+          ],
+          "height_above_chord": 0.6661335229873657
+        },
+        {
+          "point": [
+            14.009998321533203,
+            -24.017776489257812,
+            0.9922000765800476
+          ],
+          "height_above_chord": 0.672200083732605
+        },
+        {
+          "point": [
+            14.006665229797363,
+            -24.011852264404297,
+            0.9965333938598633
+          ],
+          "height_above_chord": 0.6765334010124207
+        },
+        {
+          "point": [
+            14.00333309173584,
+            -24.00592613220215,
+            0.9991333484649658
+          ],
+          "height_above_chord": 0.6791333556175232
+        },
+        {
+          "point": [
+            14.0,
+            -24.0,
+            1.0
+          ],
+          "height_above_chord": 0.6800000071525574
+        },
+        {
+          "point": [
+            13.99666690826416,
+            -23.99407386779785,
+            0.9991333484649658
+          ],
+          "height_above_chord": 0.6791333556175232
+        },
+        {
+          "point": [
+            13.993334770202637,
+            -23.988147735595703,
+            0.9965333938598633
+          ],
+          "height_above_chord": 0.6765334010124207
+        },
+        {
+          "point": [
+            13.990001678466797,
+            -23.982223510742188,
+            0.9922000765800476
+          ],
+          "height_above_chord": 0.672200083732605
+        },
+        {
+          "point": [
+            13.986668586730957,
+            -23.97629737854004,
+            0.9861335158348083
+          ],
+          "height_above_chord": 0.6661335229873657
+        },
+        {
+          "point": [
+            13.983335494995117,
+            -23.97037124633789,
+            0.978333592414856
+          ],
+          "height_above_chord": 0.6583335995674133
+        },
+        {
+          "point": [
+            13.980003356933594,
+            -23.964445114135742,
+            0.96880042552948
+          ],
+          "height_above_chord": 0.6488004326820374
+        },
+        {
+          "point": [
+            13.976670265197754,
+            -23.958520889282227,
+            0.9575338959693909
+          ],
+          "height_above_chord": 0.6375339031219482
+        },
+        {
+          "point": [
+            13.973337173461914,
+            -23.952594757080078,
+            0.9445340633392334
+          ],
+          "height_above_chord": 0.6245340704917908
+        },
+        {
+          "point": [
+            13.97000503540039,
+            -23.94666862487793,
+            0.9298009276390076
+          ],
+          "height_above_chord": 0.6098009347915649
+        },
+        {
+          "point": [
+            13.96667194366455,
+            -23.94074249267578,
+            0.771946132183075
+          ],
+          "height_above_chord": 0.4519461393356323
+        },
+        {
+          "point": [
+            13.963338851928711,
+            -23.934818267822266,
+            0.44155699014663696
+          ],
+          "height_above_chord": 0.12155699729919434
+        }
+      ]
+    }
+  ],
+  "frozen_meshes": {
+    "IslandGround": {
+      "vertices": 3025,
+      "polygons": 5760,
+      "triangles": 5760,
+      "vertex_sha256": "c40dca0e585ef66baf27af8a9ca0f6844a4dc4a571e329d103b7d850d1d56e88",
+      "vertex_topology_sha256": "6b26c73cfecd48d5742957d3140af0494e48be0933c5172e9bf97bc584d466d9",
+      "world_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "StonePaths": {
+      "vertices": 600,
+      "polygons": 150,
+      "triangles": 300,
+      "vertex_sha256": "b24e106254478782eada093ba1fed4fd3552deef29a7bc9df5cd5243cb754e9f",
+      "vertex_topology_sha256": "232d00c4bb7b04dcc7f2fd84e27b0c7c3f7b838baf2805f1bb254812b759ad9d",
+      "world_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    }
+  },
+  "checks": [
+    {
+      "name": "IslandGround_exact_frozen",
+      "passed": true,
+      "detail": {
+        "vertices": 3025,
+        "polygons": 5760,
+        "triangles": 5760,
+        "vertex_sha256": "c40dca0e585ef66baf27af8a9ca0f6844a4dc4a571e329d103b7d850d1d56e88",
+        "vertex_topology_sha256": "6b26c73cfecd48d5742957d3140af0494e48be0933c5172e9bf97bc584d466d9",
+        "world_matrix": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      }
+    },
+    {
+      "name": "StonePaths_exact_frozen",
+      "passed": true,
+      "detail": {
+        "vertices": 600,
+        "polygons": 150,
+        "triangles": 300,
+        "vertex_sha256": "b24e106254478782eada093ba1fed4fd3552deef29a7bc9df5cd5243cb754e9f",
+        "vertex_topology_sha256": "232d00c4bb7b04dcc7f2fd84e27b0c7c3f7b838baf2805f1bb254812b759ad9d",
+        "world_matrix": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      }
+    },
+    {
+      "name": "source_blend_unchanged",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "all_ground_boundary_edges_have_exact_partner",
+      "passed": true,
+      "detail": 288
+    },
+    {
+      "name": "no_spanning_top_chords",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "only_submerged_combined_open_rim",
+      "passed": true,
+      "detail": {
+        "combined_open_edges": 288,
+        "expected_bottom_edges": 288
+      }
+    },
+    {
+      "name": "no_nonmanifold_branch_or_wire",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "no_zero_area_faces",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "added_triangles_at_most_8000",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "top_vertices_exact",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "bottom_rim_below_water",
+      "passed": true,
+      "detail": null
+    }
+  ],
+  "shared_rim_vertex_count": 288,
+  "cliff_ring_count": 9,
+  "new_triangles": 4608,
+  "added_triangles": 3640,
+  "max_planar_outward_displacement_metres": 0.7585011943297254,
+  "bottom_rim_description": "Open solely below sea level at approximately -1.8m Blender Z / Unity Y; hidden lower skirt from source -3.4m removed. Not a closed printable solid.",
+  "render_views": {
+    "cape-tip": {
+      "camera": [
+        14,
+        38,
+        6
+      ],
+      "look": [
+        12.9,
+        26.0,
+        0.8
+      ],
+      "scale": 8.5,
+      "clay": true
+    },
+    "cape-oblique": {
+      "camera": [
+        25,
+        38,
+        10
+      ],
+      "look": [
+        10,
+        24,
+        0.6
+      ],
+      "scale": 18,
+      "clay": false
+    },
+    "village-coast": {
+      "camera": [
+        -37,
+        -8,
+        15
+      ],
+      "look": [
+        -19,
+        -9,
+        2
+      ],
+      "scale": 22,
+      "clay": false
+    }
+  },
+  "render_resolution": [
+    1200,
+    900
+  ],
+  "render_scope": "Offline exact-camera before/after; cape-tip uses a uniform gray material override as a geometry diagnostic.",
+  "files": [
+    {
+      "path": "art/generated/env-v2/terrain/coastal_cliff_v2_candidate.blend",
+      "bytes": 1209179,
+      "sha256": "f2b638d5a54daee2fe88a1f09752572c5648586f2fd8f2059696ab521ee6df3e"
+    },
+    {
+      "path": "art/generated/env-v2/terrain/coastal_cliff_v2_candidate.fbx",
+      "bytes": 152428,
+      "sha256": "5c3ec132751fcd45a48cdb0f6b27ebc0cf5ea7234ed9656b0857f0c5041fb14c"
+    },
+    {
+      "path": "art/generated/env-v2/terrain/after-cape-oblique.png",
+      "bytes": 1122058,
+      "sha256": "9a89aaa68d4eec67578f3bfa9e971f3fd5a3906111dac3a0cd40d43daa9332e7"
+    },
+    {
+      "path": "art/generated/env-v2/terrain/after-cape-tip.png",
+      "bytes": 1069474,
+      "sha256": "3e2557e72b2d19135961e4d729e7d40b858d405bca566257f92a8829c9769b05"
+    },
+    {
+      "path": "art/generated/env-v2/terrain/after-village-coast.png",
+      "bytes": 1088484,
+      "sha256": "c4141cda139e9324708fc656839eae7725b5def0e38a8272f371b03dcc6e2d03"
+    },
+    {
+      "path": "art/generated/env-v2/terrain/before-cape-oblique.png",
+      "bytes": 1109063,
+      "sha256": "a5148fc0c136944b8765275c8458d76528d77d10b4f725aa3948f81a90753843"
+    },
+    {
+      "path": "art/generated/env-v2/terrain/before-cape-tip.png",
+      "bytes": 1061206,
+      "sha256": "2633a87be21f03670e0312e9585c907cda0dc92e64eb5a53c62d8fe3bd0c03ca"
+    },
+    {
+      "path": "art/generated/env-v2/terrain/before-village-coast.png",
+      "bytes": 1089826,
+      "sha256": "f7b724c22d0258f66962e8ad321b80d6d4abff530e69e934d6a3be4eb659ed25"
+    }
+  ],
+  "limits": [
+    "Only CoastalCliff visual mesh exported; no ground, path, markers, layout, collision or Unity project altered.",
+    "Old ground collision remains exact; visual cliff bulges by up to the reported outward amount. A wall collision following the former cliff could disagree by that amount; do not silently claim collision parity.",
+    "Smooth shading and uneven strata improve broad silhouette but do not replace rock PBR detail. Night lighting, Unity import normals, actual gameplay raycasts and FPS remain unverified.",
+    "This repairs a demonstrable endpoint gap; it does not prove every black pixel in the historical Unity image had the same cause."
+  ],
+  "variant": "A",
+  "executed_script_snapshot": "art/generated/env-v2/terrain/candidate-a-source.py",
+  "executed_script_snapshot_sha256": "e22d16eb18c8f530c70c453129651779cc4a5bed4ca738aa3b1886e81f6c4a31",
+  "visual_review": {
+    "reviewed": true,
+    "result": "A fills the actual opening but preserves an undesirable narrow raised end profile because ground is frozen; use as strict repair evidence, not the preferred silhouette."
+  }
+}

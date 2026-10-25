@@ -1,0 +1,16 @@
+{
+ "id": "C01_light_ship",
+ "source": "art\\incoming\\tripo-v2-2026-10-22\\tripo_convert_c72dc2a3-52af-48b9-ab81-c77cd343b29f.glb",
+ "source_sha256": "aec015c35092dee3d9c5189fe318d9d7b5a34a581d5e7b53bd639a565de181a6",
+ "tris_before": 31298,
+ "tris_after": 14999,
+ "size_m": [
+  2.759,
+  7.0,
+  5.439
+ ],
+ "textures": {
+  "albedo": "C01_light_ship_albedo.jpg"
+ },
+ "materials": 1
+}

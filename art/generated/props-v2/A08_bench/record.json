@@ -1,0 +1,16 @@
+{
+ "id": "A08_bench",
+ "source": "art\\incoming\\tripo-v2-2026-10-22\\tripo_convert_50647509-a890-45ac-82d7-b8ecb04149e1.glb",
+ "source_sha256": "244e965c1cffbaaec2c2601e307df85755b37626c2215b769a5a6410f47776f1",
+ "tris_before": 1906400,
+ "tris_after": 3999,
+ "size_m": [
+  0.915,
+  1.8,
+  0.995
+ ],
+ "textures": {
+  "albedo": "A08_bench_albedo.jpg"
+ },
+ "materials": 1
+}

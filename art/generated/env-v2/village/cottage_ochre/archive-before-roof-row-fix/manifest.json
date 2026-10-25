@@ -1,0 +1,1430 @@
+{
+  "asset_id": "cottage_ochre",
+  "status": "offline-candidate-awaiting-visual-review",
+  "source": "art\\generated\\env-v1\\props\\cottage_ochre\\cottage_ochre.blend",
+  "source_sha256": "52cf92dd1461c467d59a4d93e785bbf6b0d0d1c79ae47641b945ddd410e6a769",
+  "before_triangles": 1024,
+  "after_triangles": 1518,
+  "additional_triangles": 494,
+  "structure_triangles": 1494,
+  "before_bounds": {
+    "min": [
+      -1.9922335147857666,
+      -1.8700000047683716,
+      0.0
+    ],
+    "max": [
+      1.9922335147857666,
+      1.736683964729309,
+      3.5950000286102295
+    ]
+  },
+  "after_bounds": {
+    "min": [
+      -1.9922335147857666,
+      -1.8700000047683716,
+      0.0
+    ],
+    "max": [
+      1.9922335147857666,
+      1.736683964729309,
+      3.5950000286102295
+    ]
+  },
+  "before_interface": {
+    "root": {
+      "cottage_ochre": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "markers": {
+      "Marker_Door": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -0.6700000166893005
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -1.8300000429153442
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.2199999988079071
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "windows": {
+      "Window_00": {
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.8040000200271606
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            -1.437999963760376
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            1.399999976158142
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "local_matrix": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.8040000200271606
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            -1.437999963760376
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            1.399999976158142
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "hash": "dd7a208d817ffaf5b7ef5699d16d03883610e9e15a58349d0f2ce484730c5d36",
+        "bounds": {
+          "min": [
+            0.4690000116825104,
+            -1.4555000066757202,
+            0.9850000143051147
+          ],
+          "max": [
+            1.1390000581741333,
+            -1.4204999208450317,
+            1.8149999380111694
+          ]
+        },
+        "parent": "cottage_ochre"
+      },
+      "Window_01": {
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            1.437999963760376
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            1.399999976158142
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "local_matrix": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            1.437999963760376
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            1.399999976158142
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "hash": "25156db35a06f126e09ce8f2a5909f910cb7a263013c047866380f1af1b444ee",
+        "bounds": {
+          "min": [
+            -0.4000000059604645,
+            1.4204999208450317,
+            1.0149999856948853
+          ],
+          "max": [
+            0.4000000059604645,
+            1.4555000066757202,
+            1.784999966621399
+          ]
+        },
+        "parent": "cottage_ochre"
+      }
+    }
+  },
+  "after_interface": {
+    "root": {
+      "cottage_ochre": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "markers": {
+      "Marker_Door": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -0.6700000166893005
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -1.8300000429153442
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.2199999988079071
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "windows": {
+      "Window_00": {
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.8040000200271606
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            -1.437999963760376
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            1.399999976158142
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "local_matrix": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.8040000200271606
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            -1.437999963760376
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            1.399999976158142
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "hash": "dd7a208d817ffaf5b7ef5699d16d03883610e9e15a58349d0f2ce484730c5d36",
+        "bounds": {
+          "min": [
+            0.4690000116825104,
+            -1.4555000066757202,
+            0.9850000143051147
+          ],
+          "max": [
+            1.1390000581741333,
+            -1.4204999208450317,
+            1.8149999380111694
+          ]
+        },
+        "parent": "cottage_ochre"
+      },
+      "Window_01": {
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            1.437999963760376
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            1.399999976158142
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "local_matrix": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            1.437999963760376
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            1.399999976158142
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "hash": "25156db35a06f126e09ce8f2a5909f910cb7a263013c047866380f1af1b444ee",
+        "bounds": {
+          "min": [
+            -0.4000000059604645,
+            1.4204999208450317,
+            1.0149999856948853
+          ],
+          "max": [
+            0.4000000059604645,
+            1.4555000066757202,
+            1.784999966621399
+          ]
+        },
+        "parent": "cottage_ochre"
+      }
+    }
+  },
+  "checks": {
+    "windows_root_markers_exact": true,
+    "original_material_slots_exact": true,
+    "bounds_exact_within_1micrometre": true,
+    "base_walls_door_step_vertices_preserved": true,
+    "added_triangles_le_700": true,
+    "window_renderer_count_2": true,
+    "wood_V_inside_image": true,
+    "source_sha_unchanged": true
+  },
+  "changes": [
+    {
+      "component": 2,
+      "action": "resolve_post_plinth_coplanar_faces",
+      "vertices": 4,
+      "old_lower_z": 0.04999992996454239,
+      "new_lower_z": 0.202
+    },
+    {
+      "component": 3,
+      "action": "resolve_post_plinth_coplanar_faces",
+      "vertices": 4,
+      "old_lower_z": 0.04999992996454239,
+      "new_lower_z": 0.202
+    },
+    {
+      "component": 4,
+      "action": "resolve_post_plinth_coplanar_faces",
+      "vertices": 4,
+      "old_lower_z": 0.04999992996454239,
+      "new_lower_z": 0.202
+    },
+    {
+      "component": 5,
+      "action": "resolve_post_plinth_coplanar_faces",
+      "vertices": 4,
+      "old_lower_z": 0.04999992996454239,
+      "new_lower_z": 0.202
+    },
+    {
+      "component": 6,
+      "action": "replace",
+      "reason": "front_siding_strip"
+    },
+    {
+      "component": 7,
+      "action": "replace",
+      "reason": "front_siding_strip"
+    },
+    {
+      "component": 8,
+      "action": "replace",
+      "reason": "front_siding_strip"
+    },
+    {
+      "component": 9,
+      "action": "replace",
+      "reason": "front_siding_strip"
+    },
+    {
+      "component": 10,
+      "action": "replace",
+      "reason": "front_siding_strip"
+    },
+    {
+      "component": 11,
+      "action": "replace",
+      "reason": "front_siding_strip"
+    },
+    {
+      "component": 15,
+      "action": "resolve_lintel_post_end_coplanarity",
+      "end_extension_metres": 0.002
+    },
+    {
+      "component": 20,
+      "action": "trim_depth_only",
+      "delta_y": -0.003
+    },
+    {
+      "component": 21,
+      "action": "trim_depth_only",
+      "delta_y": -0.003
+    },
+    {
+      "component": 23,
+      "action": "trim_depth_only",
+      "delta_y": -0.006
+    },
+    {
+      "component": 25,
+      "action": "trim_depth_only",
+      "delta_y": 0.08
+    },
+    {
+      "component": 26,
+      "action": "trim_depth_only",
+      "delta_y": 0.08
+    },
+    {
+      "component": 27,
+      "action": "trim_depth_only",
+      "delta_y": 0.083
+    },
+    {
+      "component": 28,
+      "action": "trim_depth_only",
+      "delta_y": 0.083
+    },
+    {
+      "component": 29,
+      "action": "trim_depth_only",
+      "delta_y": 0.08
+    },
+    {
+      "component": 30,
+      "action": "trim_depth_only",
+      "delta_y": 0.08600000000000001
+    },
+    {
+      "component": 31,
+      "action": "trim_depth_only",
+      "delta_y": 0.2
+    },
+    {
+      "component": 37,
+      "action": "replace",
+      "reason": "roof_grid"
+    },
+    {
+      "component": 38,
+      "action": "replace",
+      "reason": "roof_grid"
+    },
+    {
+      "component": 39,
+      "action": "replace",
+      "reason": "roof_grid"
+    },
+    {
+      "component": 40,
+      "action": "replace",
+      "reason": "roof_grid"
+    },
+    {
+      "component": 41,
+      "action": "replace",
+      "reason": "roof_grid"
+    },
+    {
+      "component": 42,
+      "action": "replace",
+      "reason": "roof_grid"
+    },
+    {
+      "component": 43,
+      "action": "replace",
+      "reason": "roof_grid"
+    },
+    {
+      "component": 44,
+      "action": "replace",
+      "reason": "roof_grid"
+    },
+    {
+      "component": 45,
+      "action": "replace",
+      "reason": "roof_grid"
+    },
+    {
+      "component": 46,
+      "action": "replace",
+      "reason": "roof_grid"
+    },
+    {
+      "component": 49,
+      "action": "replace",
+      "reason": "roof_grid"
+    },
+    {
+      "component": 50,
+      "action": "replace",
+      "reason": "roof_grid"
+    },
+    {
+      "component": 51,
+      "action": "replace",
+      "reason": "roof_grid"
+    },
+    {
+      "component": 52,
+      "action": "replace",
+      "reason": "roof_grid"
+    },
+    {
+      "component": 53,
+      "action": "replace",
+      "reason": "roof_grid"
+    },
+    {
+      "component": 54,
+      "action": "replace",
+      "reason": "roof_grid"
+    },
+    {
+      "component": 55,
+      "action": "replace",
+      "reason": "roof_grid"
+    },
+    {
+      "component": 56,
+      "action": "replace",
+      "reason": "roof_grid"
+    },
+    {
+      "component": 57,
+      "action": "replace",
+      "reason": "roof_grid"
+    },
+    {
+      "component": 58,
+      "action": "replace",
+      "reason": "roof_grid"
+    },
+    {
+      "component": 65,
+      "action": "replace",
+      "reason": "solid_chimney_cap"
+    }
+  ],
+  "uv": {
+    "components": [
+      {
+        "component": 1,
+        "materials": [
+          "Wall_LightTimber"
+        ],
+        "wood_faces": 6,
+        "size": [
+          3.3499999046325684,
+          2.799999952316284,
+          2.2799998745322227
+        ]
+      },
+      {
+        "component": 2,
+        "materials": [
+          "Wood_DarkBeams"
+        ],
+        "wood_faces": 6,
+        "size": [
+          0.13000011444091797,
+          0.12999987602233887,
+          2.227999821305275
+        ]
+      },
+      {
+        "component": 3,
+        "materials": [
+          "Wood_DarkBeams"
+        ],
+        "wood_faces": 6,
+        "size": [
+          0.13000011444091797,
+          0.12999987602233887,
+          2.227999821305275
+        ]
+      },
+      {
+        "component": 4,
+        "materials": [
+          "Wood_DarkBeams"
+        ],
+        "wood_faces": 6,
+        "size": [
+          0.13000011444091797,
+          0.12999987602233887,
+          2.227999821305275
+        ]
+      },
+      {
+        "component": 5,
+        "materials": [
+          "Wood_DarkBeams"
+        ],
+        "wood_faces": 6,
+        "size": [
+          0.13000011444091797,
+          0.12999987602233887,
+          2.227999821305275
+        ]
+      },
+      {
+        "component": 6,
+        "materials": [
+          "Wood_Honey"
+        ],
+        "wood_faces": 6,
+        "size": [
+          0.7500000596046448,
+          0.06999993324279785,
+          1.7600000128149986
+        ]
+      },
+      {
+        "component": 7,
+        "materials": [
+          "Wood_DarkBeams"
+        ],
+        "wood_faces": 6,
+        "size": [
+          0.08999991416931152,
+          0.09999990463256836,
+          1.949999950826168
+        ]
+      },
+      {
+        "component": 8,
+        "materials": [
+          "Wood_DarkBeams"
+        ],
+        "wood_faces": 6,
+        "size": [
+          0.09000001847743988,
+          0.09999990463256836,
+          1.949999950826168
+        ]
+      },
+      {
+        "component": 9,
+        "materials": [
+          "Wood_DarkBeams"
+        ],
+        "wood_faces": 6,
+        "size": [
+          0.9139999747276306,
+          0.11999988555908203,
+          0.11999988555908203
+        ]
+      },
+      {
+        "component": 12,
+        "materials": [
+          "Wood_DarkBeams"
+        ],
+        "wood_faces": 6,
+        "size": [
+          0.07999998331069946,
+          0.07999992370605469,
+          0.9900000095367432
+        ]
+      },
+      {
+        "component": 13,
+        "materials": [
+          "Wood_DarkBeams"
+        ],
+        "wood_faces": 6,
+        "size": [
+          0.07999992370605469,
+          0.07999992370605469,
+          0.9900000095367432
+        ]
+      },
+      {
+        "component": 14,
+        "materials": [
+          "Wood_DarkBeams"
+        ],
+        "wood_faces": 6,
+        "size": [
+          0.8299999535083771,
+          0.07999992370605469,
+          0.07999998331069946
+        ]
+      },
+      {
+        "component": 15,
+        "materials": [
+          "Wood_DarkBeams"
+        ],
+        "wood_faces": 6,
+        "size": [
+          0.8299999535083771,
+          0.07999992370605469,
+          0.07999992370605469
+        ]
+      },
+      {
+        "component": 16,
+        "materials": [
+          "Wood_DarkBeams"
+        ],
+        "wood_faces": 6,
+        "size": [
+          0.04700005054473877,
+          0.07999992370605469,
+          0.8299999237060547
+        ]
+      },
+      {
+        "component": 17,
+        "materials": [
+          "Wood_DarkBeams"
+        ],
+        "wood_faces": 6,
+        "size": [
+          0.6700000464916229,
+          0.07999992370605469,
+          0.04699993133544922
+        ]
+      },
+      {
+        "component": 18,
+        "materials": [
+          "Wood_Endgrain"
+        ],
+        "wood_faces": 6,
+        "size": [
+          0.89000004529953,
+          0.2799999713897705,
+          0.09500002861022949
+        ]
+      },
+      {
+        "component": 19,
+        "materials": [
+          "Wood_DarkBeams"
+        ],
+        "wood_faces": 6,
+        "size": [
+          0.07999998331069946,
+          0.07999992370605469,
+          0.9300000667572021
+        ]
+      },
+      {
+        "component": 20,
+        "materials": [
+          "Wood_DarkBeams"
+        ],
+        "wood_faces": 6,
+        "size": [
+          0.07999998331069946,
+          0.07999992370605469,
+          0.9300000667572021
+        ]
+      },
+      {
+        "component": 21,
+        "materials": [
+          "Wood_DarkBeams"
+        ],
+        "wood_faces": 6,
+        "size": [
+          0.9599999785423279,
+          0.07999992370605469,
+          0.07999998331069946
+        ]
+      },
+      {
+        "component": 22,
+        "materials": [
+          "Wood_DarkBeams"
+        ],
+        "wood_faces": 6,
+        "size": [
+          0.9599999785423279,
+          0.07999992370605469,
+          0.07999992370605469
+        ]
+      },
+      {
+        "component": 23,
+        "materials": [
+          "Wood_DarkBeams"
+        ],
+        "wood_faces": 6,
+        "size": [
+          0.04699999839067459,
+          0.07999992370605469,
+          0.7699999809265137
+        ]
+      },
+      {
+        "component": 24,
+        "materials": [
+          "Wood_DarkBeams"
+        ],
+        "wood_faces": 6,
+        "size": [
+          0.800000011920929,
+          0.07999992370605469,
+          0.04699993133544922
+        ]
+      },
+      {
+        "component": 25,
+        "materials": [
+          "Wood_Endgrain"
+        ],
+        "wood_faces": 6,
+        "size": [
+          1.0199999809265137,
+          0.2799999713897705,
+          0.09500002861022949
+        ]
+      },
+      {
+        "component": 26,
+        "materials": [
+          "Wall_LightTimber"
+        ],
+        "wood_faces": 5,
+        "size": [
+          3.3499999046325684,
+          0.11000001430511475,
+          1.0
+        ]
+      },
+      {
+        "component": 27,
+        "materials": [
+          "Wall_LightTimber"
+        ],
+        "wood_faces": 5,
+        "size": [
+          3.3499999046325684,
+          0.11000001430511475,
+          1.0
+        ]
+      },
+      {
+        "component": 28,
+        "materials": [
+          "Wood_DarkBeams"
+        ],
+        "wood_faces": 6,
+        "size": [
+          0.12999999523162842,
+          0.12999987602233887,
+          1.0
+        ]
+      },
+      {
+        "component": 34,
+        "materials": [
+          "Wood_Honey"
+        ],
+        "wood_faces": 8,
+        "size": [
+          2.029466927051544,
+          0.13336801528930664,
+          1.214798927307129
+        ]
+      },
+      {
+        "component": 35,
+        "materials": [
+          "Wood_Honey"
+        ],
+        "wood_faces": 8,
+        "size": [
+          2.029466927051544,
+          0.13336801528930664,
+          1.214798927307129
+        ]
+      },
+      {
+        "component": 36,
+        "materials": [
+          "Wood_Honey"
+        ],
+        "wood_faces": 8,
+        "size": [
+          2.029466927051544,
+          0.13336801528930664,
+          1.214798927307129
+        ]
+      },
+      {
+        "component": 37,
+        "materials": [
+          "Wood_Honey"
+        ],
+        "wood_faces": 8,
+        "size": [
+          2.029466927051544,
+          0.13336801528930664,
+          1.214798927307129
+        ]
+      },
+      {
+        "component": 87,
+        "materials": [
+          "Wall_LightTimber"
+        ],
+        "wood_faces": 3,
+        "size": [
+          3.2100000381469727,
+          0.013437271118164062,
+          0.35099999606609344
+        ]
+      },
+      {
+        "component": 88,
+        "materials": [
+          "Wall_LightTimber"
+        ],
+        "wood_faces": 3,
+        "size": [
+          3.2100000381469727,
+          0.013727188110351562,
+          0.35100001096725464
+        ]
+      },
+      {
+        "component": 89,
+        "materials": [
+          "Wall_LightTimber"
+        ],
+        "wood_faces": 3,
+        "size": [
+          3.2100000381469727,
+          0.012278079986572266,
+          0.35100001096725464
+        ]
+      },
+      {
+        "component": 90,
+        "materials": [
+          "Wall_LightTimber"
+        ],
+        "wood_faces": 3,
+        "size": [
+          3.2100000381469727,
+          0.011150598526000977,
+          0.3510000705718994
+        ]
+      },
+      {
+        "component": 91,
+        "materials": [
+          "Wall_LightTimber"
+        ],
+        "wood_faces": 3,
+        "size": [
+          3.2100000381469727,
+          0.012123703956604004,
+          0.3510000705718994
+        ]
+      },
+      {
+        "component": 92,
+        "materials": [
+          "Wall_LightTimber"
+        ],
+        "wood_faces": 3,
+        "size": [
+          3.2100000381469727,
+          0.01170492172241211,
+          0.3509998321533203
+        ]
+      },
+      {
+        "component": 93,
+        "materials": [
+          "Wall_LightTimber"
+        ],
+        "wood_faces": 3,
+        "size": [
+          3.2100000381469727,
+          0.01034080982208252,
+          0.35099999606609344
+        ]
+      },
+      {
+        "component": 94,
+        "materials": [
+          "Wall_LightTimber"
+        ],
+        "wood_faces": 3,
+        "size": [
+          3.2100000381469727,
+          0.01167440414428711,
+          0.35100001096725464
+        ]
+      },
+      {
+        "component": 95,
+        "materials": [
+          "Wall_LightTimber"
+        ],
+        "wood_faces": 3,
+        "size": [
+          3.2100000381469727,
+          0.012275934219360352,
+          0.35100001096725464
+        ]
+      },
+      {
+        "component": 96,
+        "materials": [
+          "Wall_LightTimber"
+        ],
+        "wood_faces": 3,
+        "size": [
+          3.2100000381469727,
+          0.012290120124816895,
+          0.3510000705718994
+        ]
+      },
+      {
+        "component": 97,
+        "materials": [
+          "Wall_LightTimber"
+        ],
+        "wood_faces": 3,
+        "size": [
+          3.2100000381469727,
+          0.013018131256103516,
+          0.3510000705718994
+        ]
+      },
+      {
+        "component": 98,
+        "materials": [
+          "Wall_LightTimber"
+        ],
+        "wood_faces": 3,
+        "size": [
+          3.2100000381469727,
+          0.012377023696899414,
+          0.3509998321533203
+        ]
+      },
+      {
+        "component": 99,
+        "materials": [
+          "Wall_LightTimber"
+        ],
+        "wood_faces": 3,
+        "size": [
+          0.01380932331085205,
+          2.6600000858306885,
+          0.35099999606609344
+        ]
+      },
+      {
+        "component": 100,
+        "materials": [
+          "Wall_LightTimber"
+        ],
+        "wood_faces": 3,
+        "size": [
+          0.011099815368652344,
+          2.6600000858306885,
+          0.35100001096725464
+        ]
+      },
+      {
+        "component": 101,
+        "materials": [
+          "Wall_LightTimber"
+        ],
+        "wood_faces": 3,
+        "size": [
+          0.012237191200256348,
+          2.6600000858306885,
+          0.35100001096725464
+        ]
+      },
+      {
+        "component": 102,
+        "materials": [
+          "Wall_LightTimber"
+        ],
+        "wood_faces": 3,
+        "size": [
+          0.013428568840026855,
+          2.6600000858306885,
+          0.3510000705718994
+        ]
+      },
+      {
+        "component": 103,
+        "materials": [
+          "Wall_LightTimber"
+        ],
+        "wood_faces": 3,
+        "size": [
+          0.01047968864440918,
+          2.6600000858306885,
+          0.3510000705718994
+        ]
+      },
+      {
+        "component": 104,
+        "materials": [
+          "Wall_LightTimber"
+        ],
+        "wood_faces": 3,
+        "size": [
+          0.011515498161315918,
+          2.6600000858306885,
+          0.3509998321533203
+        ]
+      },
+      {
+        "component": 105,
+        "materials": [
+          "Wall_LightTimber"
+        ],
+        "wood_faces": 3,
+        "size": [
+          0.013203978538513184,
+          2.6600000858306885,
+          0.35099999606609344
+        ]
+      },
+      {
+        "component": 106,
+        "materials": [
+          "Wall_LightTimber"
+        ],
+        "wood_faces": 3,
+        "size": [
+          0.01301419734954834,
+          2.6600000858306885,
+          0.35100001096725464
+        ]
+      },
+      {
+        "component": 107,
+        "materials": [
+          "Wall_LightTimber"
+        ],
+        "wood_faces": 3,
+        "size": [
+          0.012334585189819336,
+          2.6600000858306885,
+          0.35100001096725464
+        ]
+      },
+      {
+        "component": 108,
+        "materials": [
+          "Wall_LightTimber"
+        ],
+        "wood_faces": 3,
+        "size": [
+          0.0138319730758667,
+          2.6600000858306885,
+          0.3510000705718994
+        ]
+      },
+      {
+        "component": 109,
+        "materials": [
+          "Wall_LightTimber"
+        ],
+        "wood_faces": 3,
+        "size": [
+          0.013043045997619629,
+          2.6600000858306885,
+          0.3510000705718994
+        ]
+      },
+      {
+        "component": 110,
+        "materials": [
+          "Wall_LightTimber"
+        ],
+        "wood_faces": 3,
+        "size": [
+          0.01068270206451416,
+          2.6600000858306885,
+          0.3509998321533203
+        ]
+      },
+      {
+        "component": 129,
+        "materials": [
+          "Wood_DarkBeams"
+        ],
+        "wood_faces": 1,
+        "size": [
+          0.25999999046325684,
+          0.28999999165534973,
+          0.0
+        ]
+      }
+    ],
+    "component_count": 55,
+    "u_metres": 1.0,
+    "v_metres": 4.9,
+    "v_range": [
+      0.04842388025790153,
+      0.9564069133214941
+    ],
+    "grain_axis_in_texture": "V"
+  },
+  "materials": [
+    "Stone_SoftGrey",
+    "Wall_LightTimber",
+    "Wood_DarkBeams",
+    "Wood_Endgrain",
+    "Wood_Honey",
+    "Copper_Aged",
+    "Stone_WarmLimestone",
+    "Roof_OchreRed",
+    "Roof_RedHighlight"
+  ],
+  "texture_sha256": "2507398730afcf58404ccfe7e75debefb688d760945f212250702e6d938c3fc1",
+  "texture_dimensions": [
+    1254,
+    1254
+  ],
+  "collider_contract": "Original independent Unity SolidCollision BoxCollider and its transform/center/size must remain unchanged. Source door/wall/plinth/step vertices preserved; roof/trim visuals only are edited.",
+  "render_views": {
+    "front": {
+      "camera": [
+        6.2,
+        -9.0,
+        6.0
+      ],
+      "look": [
+        0,
+        0,
+        1.8
+      ],
+      "scale": 6.2
+    },
+    "back": {
+      "camera": [
+        -6.2,
+        9.0,
+        5.5
+      ],
+      "look": [
+        0,
+        0,
+        1.8
+      ],
+      "scale": 6.2
+    }
+  },
+  "render_resolution": [
+    900,
+    900
+  ],
+  "files": [
+    {
+      "path": "art\\generated\\env-v2\\village\\cottage_ochre\\cottage_ochre_v2_candidate.blend",
+      "bytes": 3815711,
+      "sha256": "e00731595ae1f30f516491fb98a494fe49ee5ace4d623b574f5cf677f8977c35"
+    },
+    {
+      "path": "art\\generated\\env-v2\\village\\cottage_ochre\\cottage_ochre_v2_candidate.fbx",
+      "bytes": 65628,
+      "sha256": "e3f28e245eada3f460a7b8560e1be169c846b02ab15dc807469a1a2f945c303f"
+    },
+    {
+      "path": "art\\generated\\env-v2\\village\\cottage_ochre\\after-neutral-back.png",
+      "bytes": 1008151,
+      "sha256": "5a218dccb2f75534acc493c28a1c6233b1a1354039e9ff82607c952297f14e56"
+    },
+    {
+      "path": "art\\generated\\env-v2\\village\\cottage_ochre\\after-neutral-front.png",
+      "bytes": 1034900,
+      "sha256": "8095a4d415a6c108ab4664578726b6dfef1531122d0538208cfd7ae631a80524"
+    },
+    {
+      "path": "art\\generated\\env-v2\\village\\cottage_ochre\\after-night-back.png",
+      "bytes": 975269,
+      "sha256": "195420788c613a4748ef2af91d49bb21434726c4c261b30d5aee308236afd2b8"
+    },
+    {
+      "path": "art\\generated\\env-v2\\village\\cottage_ochre\\after-night-front.png",
+      "bytes": 1042036,
+      "sha256": "7ff190de090f35aaf20733515654bca12bb3e2d3e241e709f169d8503b57fb36"
+    },
+    {
+      "path": "art\\generated\\env-v2\\village\\cottage_ochre\\before-neutral-back.png",
+      "bytes": 910486,
+      "sha256": "dd9ecae47fb927b2b66898e9acfa46001c4a7b8c80bef64c711ed2335d63fa39"
+    },
+    {
+      "path": "art\\generated\\env-v2\\village\\cottage_ochre\\before-neutral-front.png",
+      "bytes": 976095,
+      "sha256": "8650a684993b9a2297d4a63920d754d6b362bc0dd6297a92b431b8e7ec0cc38d"
+    },
+    {
+      "path": "art\\generated\\env-v2\\village\\cottage_ochre\\before-night-back.png",
+      "bytes": 881965,
+      "sha256": "bb88c4a25a979cb8345001a15bed49ff46cae1d071c0a3e9c69e6b68fdb7b1b6"
+    },
+    {
+      "path": "art\\generated\\env-v2\\village\\cottage_ochre\\before-night-front.png",
+      "bytes": 976008,
+      "sha256": "42c894b770c8f8511f6c3cd347760c2965ee3db3ef3921b3a211fc9239c9872b"
+    }
+  ],
+  "script_sha256": "66cbfd73a9be53c3be785ec86e10f8bca80147a39eab1d77494e4a85550873c4"
+}

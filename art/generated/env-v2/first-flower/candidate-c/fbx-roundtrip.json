@@ -1,0 +1,126 @@
+{
+  "fbx_sha256": "df7a825797221681457b9c86350c861b5d32cfd0c80a082216a208fe573ac24d",
+  "fresh_process": true,
+  "single_mesh": true,
+  "shape_key_count": 3,
+  "materials": [
+    "A04_Petals_CreamGold",
+    "A04_FineGoldEdges",
+    "A04_SingleAmberHeart",
+    "A04_Twig_WarmBrown",
+    "A04_Leaves_SilverGreen"
+  ],
+  "max_uv_error": 0,
+  "poses": {
+    "Basis": {
+      "vertices": 1010,
+      "triangles": 1968,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "degenerate_triangles": 0,
+      "finite": true,
+      "bounds_min": [
+        -0.0820000022649765,
+        -0.03941923379898071,
+        -0.0008593432721681893
+      ],
+      "bounds_max": [
+        0.12300000339746475,
+        0.03392121195793152,
+        0.29826679825782776
+      ],
+      "key_name": "Basis",
+      "max_world_vertex_error_m": 4.842877388000488e-08
+    },
+    "HalfOpen": {
+      "vertices": 1010,
+      "triangles": 1968,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "degenerate_triangles": 0,
+      "finite": true,
+      "bounds_min": [
+        -0.0820000022649765,
+        -0.07108869403600693,
+        -0.0008593432721681893
+      ],
+      "bounds_max": [
+        0.13186892867088318,
+        0.06427300721406937,
+        0.27009105682373047
+      ],
+      "key_name": "HalfOpen",
+      "max_world_vertex_error_m": 4.470348358154297e-08
+    },
+    "Open": {
+      "vertices": 1010,
+      "triangles": 1968,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "degenerate_triangles": 0,
+      "finite": true,
+      "bounds_min": [
+        -0.0820000022649765,
+        -0.11854156106710434,
+        -0.0008593432721681893
+      ],
+      "bounds_max": [
+        0.17942366003990173,
+        0.11441827565431595,
+        0.2685718834400177
+      ],
+      "key_name": "Open",
+      "max_world_vertex_error_m": 5.3726900748371916e-08
+    }
+  },
+  "markers": {
+    "Marker_AttachRoot": {
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "max_error_m": 0.0
+    },
+    "Marker_BloomCenter": {
+      "position": [
+        0.04699999839067459,
+        0.008000030182301998,
+        0.1809999942779541
+      ],
+      "max_error_m": 2.9802322387695312e-08
+    }
+  },
+  "object_scale": [
+    1.0,
+    1.0,
+    1.0
+  ],
+  "object_world_matrix": [
+    [
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      1.0,
+      1.6292067073209182e-07,
+      0.0
+    ],
+    [
+      0.0,
+      -1.6292067073209182e-07,
+      1.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "unity_import_verified": false
+}

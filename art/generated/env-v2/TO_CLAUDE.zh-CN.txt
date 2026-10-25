@@ -1,0 +1,41 @@
+环境第二版临时移交 Claude（2026-10-22）
+
+最新用户指令：“现在任务暂时交给claude接手”。GPT 已停止开发及 Unity 操作，由 Claude 继续；请不要等 GPT 继续导入。本文件为共享工作区交接记录，不表示已通过外部消息发送或 Claude 已阅读。
+
+当前事实
+- 可用环境仍为 V1：GameProject/Assets/JieGuang/Environment/Island.prefab 与 EnvTest.unity。刚复核 SHA 与交付时一致，分别 d17154fd0cf79cf55e65225dbb517626216c80be2a3741dcc3bc53eabff1ae45、d143b02085311099fdcc73c1229ce925fd206dc4120efab30fc2c1f6dd089652。
+- V2 全部在 art/generated/env-v2/ 离线区。没有导入 ModelsV2、生成 IslandV2、运行本轮 Unity 或产生 V2 整岛截图；没有主线、FPS或WebGL通过结论。
+- 没有改你的游戏代码、主场景、ProjectSettings、Packages、AGENTS 或 BorrowedLight。
+- 唯一故事仍是07最终版，不用01DOCX。GPT6-追加要求.md的五个锚点已在V1落实，坐点骨盆/三灯Head+Spot/ReturningBoat/HarborLantern/22独立村窗/Layer8和9合同保留，详见HANDOFF。
+
+最先阅读
+1. art/generated/env-v2/HANDOFF.zh-CN.md —— 当前资产状态、验证范围、剩余问题。
+2. art/generated/env-v2/staging/CANDIDATE-INTEGRATION.zh-CN.md —— 自有候选导入表和显式执行顺序。
+3. art/design/v2/benchmark/REQUESTS-FOR-CLAUDE.zh-CN.md —— 你负责的主场景、天空、相机、谜题、UI与叙事问题。C06/C08刚补充真实光芯槽控制合同。
+
+候选生成器已接线的范围
+- 阿婆屋11925面：真门窗洞、原4Marker；方向木纹、曲瓦/阁楼外观、共面黑块修正。没有可进入阁楼。
+- 地形B：补48条遗漏边界对应破口；只改可走范围外186地面顶点，旧StonePaths保留。
+- 3款村屋每栋1478面，全村新增4994；重建可见主体合批，保留22窗和11个房屋BoxCollider。
+- 草地/地表/海面/天空/章节Look源候选。受限DX11 HLSL检查不是Unity/ShaderLab/WebGL验证。
+- 新接入的栈桥和长椅：pier-bench/。只改UV和四个独立CoastalWood材质，真实3段桥+1椅共1692面，新增0。保留所有TRS/Marker、原桥面Box以及长椅MeshCollider的旧sharedMesh。备用pier_end不加入岛。
+- 输入共7个FBX、2张原创贴图（实际1254平方像素）；准确来源/目标路径见整合文档，不能把灯具或花误算已接入。
+- 最新8个Editor+2个Runtime源联合离线C#编译exit0、无诊断：staging/verification/candidate-coastal-csharp.json。CandidateBuilder SHA b01068926b8b4427c30b8738b2ad0b2fa8a6e67687ba46d8fe01604768f3f254；PierBenchBuilder SHA eef78c6e5efaf2fd8658746d59e39ed776b3abb048ba05d1f37ffbfa4d1242bd。源码复核无确定阻塞，不等于运行时检查已过。
+
+独立候选，尚未接线
+- first-flower/candidate-c/first_flower_A04.fbx：1968面、5槽、闭合/半开/开放。不要沿用旧球体0.22缩放；米制根scale1，镜头瞄Marker_BloomCenter。两段形变公式、尾声直达和材质合同见first-flower/HANDOFF.zh-CN.md；不能HalfOpen/Open同时100。真实金树枝头附着点尚未选定，不提供虚构位置。
+- lamp-study/candidate-d/：路灯830面/盏（三灯增672），港灯788面（增352）。root已看两件中性/亮/灭共6图，接受离线候选；玻璃夜景偏弱、光芯简化，未达最终美术。FBX/UV回读及四张512²原创铜图已验证，具体文件/槽/参数/SHA见lamp-study/HANDOFF.zh-CN.md、manifest.json、root-review.json。
+- 灯具重要接线：真实LampPost复用Head时bulb未赋值；MaterialKit只改slot0。旧发光芯slot1，新光果slot3，应按V2_Lamp_LightFruit_Controlled名字识别并逐实例逐槽控制。玻璃V2_Lamp_AmberGlass_AlwaysVisible永不自发光、保留实体。新果默认emission0，不能缓存0再乘level；设置明确非零亮态基准。港灯原Point1.2仍供Boot缓存；只关Light不等于果核灭。不要共享材质串灯，不增加第四个Spot，不改原Head轴/Spot位置。
+- 树材质B和独立金树几何研究已拒绝，不能自动接入。旗帜只有flag-study只读盘点，继续用旧旗，没有新风动代码或模型。
+
+Claude 下一步
+1. 先按AGENTS运行unity status --json、pipeline list --json确认当前Editor，不进入JieGuang_Main Play，不打包。
+2. 仅复制整合表中的Environment自有文件，先解决真实编译/Shader导入问题。
+3. 执行EnvV2CandidateBuilder.BuildCandidate，逐项读candidate-integration-report。碰撞/锚点/朝向或逐面匹配失败必须调查，不能放宽阈值掩盖差异。
+4. 执行CaptureCandidate，审原样基线/冻结基线/候选同机位15图；候选输出只在Candidates/IslandV2.prefab和EnvV2Test，别覆盖旧Island。
+5. 再处理REQUESTS中的主线接入/唯一天空/相机后期/宽光双目标/每槽亮灭。最后核查磁盘主场景IslandPrefab是否仍fileID:0，不能把EnvTest截图当主线实机。
+
+对标研究收口
+真实浏览器已完成参考第一章坐椅看日落并离章，83-departure-held.png是第二章高亮的地图，尚未进入第二章。80坐姿/夕阳、81起身、82按住启程提示、83地图均保留；82实际1076×637，其余按逐图索引核验。音频未实听、性能未测、不是全游戏通关；不复制参考素材/文案/构图到借光岛。索引与拆解仅供内部研究。
+
+入口：REVIEW.html（较早精选）；新增单独看pier-bench/REVIEW.html、lamp-study/REVIEW.html。所有目前候选图是Blender单件研究，V2主线游戏效果仍待真实验证。

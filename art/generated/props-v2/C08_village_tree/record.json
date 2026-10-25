@@ -1,0 +1,16 @@
+{
+ "id": "C08_village_tree",
+ "source": "art\\incoming\\tripo-v2-2026-10-22\\tripo_convert_48c3ca59-ca18-4509-8e62-ad07bf3d6321.glb",
+ "source_sha256": "d395ed101749b5e1fb5d6279f1a1b22385838900d9764423a69baa2ac01130af",
+ "tris_before": 118545,
+ "tris_after": 20000,
+ "size_m": [
+  6.169,
+  7.171,
+  8.0
+ ],
+ "textures": {
+  "albedo": "C08_village_tree_albedo.jpg"
+ },
+ "materials": 1
+}

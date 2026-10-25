@@ -1,0 +1,16 @@
+{
+ "id": "A06_lamp_head",
+ "source": "art\\incoming\\tripo-v2-2026-10-22\\tripo_convert_b205d846-cb41-46b9-bad4-05b4524c8685.glb",
+ "source_sha256": "2a8d4d940823bd2201fa6b9bac3dc280899287cfb2436ede9b512980af403a9f",
+ "tris_before": 1882136,
+ "tris_after": 3998,
+ "size_m": [
+  0.276,
+  0.6,
+  0.5
+ ],
+ "textures": {
+  "albedo": "A06_lamp_head_albedo.jpg"
+ },
+ "materials": 1
+}

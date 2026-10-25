@@ -1,0 +1,238 @@
+{
+  "status": "not-approved-for-integration-slot-only-tint-insufficient",
+  "script_sha256": "4bb6bea227a84752d420e8ed2014f1493f7c215ac634452b93effb0c3c3047a0",
+  "assets": [
+    {
+      "asset": "tree_a",
+      "source_sha256": "6a9d4e84383d431a694c28000b814427ba8ffa7a84a494085ee39c1ba30e0aaf",
+      "source_unchanged": true,
+      "geometry_uv_slots_exact": true,
+      "geometry_and_slots_sha256": "c4368897b7d209bbcbd3f71bca889e0b89763d8e58ec3cdc01ecdf8a2c95667e",
+      "changes": [
+        {
+          "material": "tree_a_LeafVeins",
+          "base_tint": [
+            0.77,
+            1.04,
+            1.02,
+            1
+          ],
+          "emission_strength": 0.03500000014901161,
+          "roughness": 0.8600000143051147,
+          "emission_map": "Original RGB mask unchanged; no unmasked leaf emission."
+        },
+        {
+          "material": "tree_a_WarmFruit",
+          "base_tint": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "emission_strength": 0.75,
+          "roughness": 0.8600000143051147,
+          "emission_map": "Original RGB mask unchanged; no unmasked leaf emission."
+        }
+      ],
+      "views": {
+        "whole": {
+          "position": [
+            2.7553858757019043,
+            -13.806305885314941,
+            5.180023193359375
+          ],
+          "look": [
+            -0.005514979362487793,
+            -0.0017993450164794922,
+            2.4191224575042725
+          ],
+          "scale": 5.738425254821777
+        },
+        "canopy": {
+          "position": [
+            4.103530406951904,
+            -13.678434371948242,
+            4.619617938995361
+          ],
+          "look": [
+            0,
+            0,
+            3.251774211004377
+          ],
+          "scale": 3.8256168365478516
+        }
+      },
+      "night_rig": {
+        "ambient_color": [
+          0.055,
+          0.085,
+          0.16
+        ],
+        "ambient_strength": 0.45,
+        "warm_lamp_color": [
+          1,
+          0.55,
+          0.24
+        ],
+        "warm_lamp_watts": 240,
+        "warm_lamp_position": [
+          3,
+          -4,
+          3.2
+        ]
+      },
+      "files": [
+        {
+          "path": "art\\generated\\env-v2\\vegetation-study\\tree_a\\A-current-canopy.png",
+          "sha256": "76ae0e2af58affc88d2f1012fe0883d24ca40f971a7923eae5327003d3d77aaa",
+          "bytes": 1304767
+        },
+        {
+          "path": "art\\generated\\env-v2\\vegetation-study\\tree_a\\A-current-whole.png",
+          "sha256": "7a08a3a92df14de08edfa12a27b6c3d4edcacc6668ff7f3db2a3e9cc8f5c9daf",
+          "bytes": 1176606
+        },
+        {
+          "path": "art\\generated\\env-v2\\vegetation-study\\tree_a\\B-controlled-canopy.png",
+          "sha256": "de210baad639eae7125ad9bdaeb528c20c4fe418618e234ffae33642a9eb0e50",
+          "bytes": 1298843
+        },
+        {
+          "path": "art\\generated\\env-v2\\vegetation-study\\tree_a\\B-controlled-whole.png",
+          "sha256": "df981f6daecb1bcb935a587aca4f165aed9b00bc62fd181f9de50541004d10e7",
+          "bytes": 1171903
+        },
+        {
+          "path": "art\\generated\\env-v2\\vegetation-study\\tree_a\\tree_a_A-current_study.blend",
+          "sha256": "20c6fc7609db264c2a83a121de4a305d0081eceba6580540f5920d36c382f7eb",
+          "bytes": 2050800
+        },
+        {
+          "path": "art\\generated\\env-v2\\vegetation-study\\tree_a\\tree_a_B-controlled_study.blend",
+          "sha256": "f7c2566d2c3c0cc6912e1078fe131b1bc4c5c3ded93f463a81e19718ca2ead7a",
+          "bytes": 2053648
+        }
+      ]
+    },
+    {
+      "asset": "tree_gold",
+      "source_sha256": "33403d20b0e6fd72feaa87b69d9191ef3685c61d735e8afd8fd0e289b69ad772",
+      "source_unchanged": true,
+      "geometry_uv_slots_exact": true,
+      "geometry_and_slots_sha256": "25a48c2921a56680d2834fd389c2929ad260cab936cf8b17ac7eef5e13c74af8",
+      "changes": [
+        {
+          "material": "tree_gold_LeafVeins",
+          "base_tint": [
+            0.9,
+            1.02,
+            0.88,
+            1
+          ],
+          "emission_strength": 0.07500000298023224,
+          "roughness": 0.8600000143051147,
+          "emission_map": "Original RGB mask unchanged; no unmasked leaf emission."
+        },
+        {
+          "material": "tree_gold_WarmFruit",
+          "base_tint": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "emission_strength": 0.8999999761581421,
+          "roughness": 0.8600000143051147,
+          "emission_map": "Original RGB mask unchanged; no unmasked leaf emission."
+        }
+      ],
+      "views": {
+        "whole": {
+          "position": [
+            3.126357316970825,
+            -15.608711242675781,
+            5.621796607971191
+          ],
+          "look": [
+            0.005219459533691406,
+            -0.0030230283737182617,
+            2.5006587505340576
+          ],
+          "scale": 6.4871629714965815
+        },
+        "canopy": {
+          "position": [
+            4.638950347900391,
+            -15.463168144226074,
+            4.9418158531188965
+          ],
+          "look": [
+            0,
+            0,
+            3.3954989464581016
+          ],
+          "scale": 4.324775314331055
+        }
+      },
+      "night_rig": {
+        "ambient_color": [
+          0.055,
+          0.085,
+          0.16
+        ],
+        "ambient_strength": 0.45,
+        "warm_lamp_color": [
+          1,
+          0.55,
+          0.24
+        ],
+        "warm_lamp_watts": 240,
+        "warm_lamp_position": [
+          3,
+          -4,
+          3.2
+        ]
+      },
+      "files": [
+        {
+          "path": "art\\generated\\env-v2\\vegetation-study\\tree_gold\\A-current-canopy.png",
+          "sha256": "07dc5333ee914a2ce694c6c6fee2c95b65f7e328cbad23424bb97cd9e3db08c0",
+          "bytes": 1395997
+        },
+        {
+          "path": "art\\generated\\env-v2\\vegetation-study\\tree_gold\\A-current-whole.png",
+          "sha256": "cb25c96b6f36234dae3add740c87e980863300dbb452267c1fefb8b2875756c7",
+          "bytes": 1260840
+        },
+        {
+          "path": "art\\generated\\env-v2\\vegetation-study\\tree_gold\\B-controlled-canopy.png",
+          "sha256": "4e4bd431ef674f771c39452aafcb1fc16c1f231ab72a94631227c9d9cea1508a",
+          "bytes": 1376409
+        },
+        {
+          "path": "art\\generated\\env-v2\\vegetation-study\\tree_gold\\B-controlled-whole.png",
+          "sha256": "9763358df56de606d8a29e0940f7dfbec89cf1904a4706289a04607fc816e876",
+          "bytes": 1248035
+        },
+        {
+          "path": "art\\generated\\env-v2\\vegetation-study\\tree_gold\\tree_gold_A-current_study.blend",
+          "sha256": "a5488b1f2bf439fe0aa8cffc4b877f948dce81393e68d86e199367a980ca3318",
+          "bytes": 4365871
+        },
+        {
+          "path": "art\\generated\\env-v2\\vegetation-study\\tree_gold\\tree_gold_B-controlled_study.blend",
+          "sha256": "788b23ce144bb5a37912dad968dea9b38845f992b6cb7b99140011fcd1b15f20",
+          "bytes": 4368719
+        }
+      ]
+    }
+  ],
+  "limitations": [
+    "No geometry or silhouette improvement is claimed.",
+    "Original RGB emission masks are retained and weakened; this does not isolate actual leaf backs or gold leaf edges.",
+    "This Blender night rig is a controlled comparison, not a reproduction or verification of the Unity night scene.",
+    "No PNG pixel edits; no Unity assets, colliders, anchors or gameplay files were modified."
+  ],
+  "visual_review": "All A/B whole and canopy images reviewed. Isolated bright patches reduce; overall foliage remains orange. No Unity helper or promotion.",
+  "render_script_snapshot": "art/generated/env-v2/vegetation-study/initial-study-script.py"
+}

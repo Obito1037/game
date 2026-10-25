@@ -1,0 +1,25 @@
+{
+  "preferred_candidate_for_runtime_evaluation": "B",
+  "A_checks": [
+    11,
+    11
+  ],
+  "B_checks": [
+    16,
+    16
+  ],
+  "source_ground_unmatched_edges": 48,
+  "source_wrong_end_chords": 2,
+  "after_exact_ground_cliff_shared_edges": 288,
+  "changed_ground_vertices_B": 186,
+  "unchanged_ground_vertices_B": 2839,
+  "minimum_anchor_clearance_B": 2.1142535555402437,
+  "minimum_road_clearance_B": 1.7863416679998423,
+  "minimum_building_clearance_B": 9.205950872560376,
+  "minimum_outside_boundary_clearance_B": 0.13454770432065666,
+  "maximum_height_reduction_B": 2.080000102519989,
+  "cliff_triangles": 4608,
+  "added_cliff_triangles": 3640,
+  "requires_unity_collision_revalidation": true,
+  "known_remaining_art_issue": "The tall, broad gray shore slopes are mostly material index 4 polygons on IslandGround, not CoastalCliff. Correcting a cliff-only skirt cannot reshape all of those slopes."
+}

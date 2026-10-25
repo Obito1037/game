@@ -1,0 +1,21 @@
+{
+  "fresh_process": true,
+  "blend_sha256": "e2c28b2283ebc6597dc142a16189d09b452306c48b332c1fb8004e67ecea60aa",
+  "triangles": 1968,
+  "basis": "ClosedBud",
+  "default_weights": {
+    "HalfOpen": 0,
+    "Open": 0
+  },
+  "packed_image": {
+    "name": "A04_OriginalPetalGradient",
+    "size": [
+      256,
+      128
+    ],
+    "bytes": 37109
+  },
+  "mesh_objects": 1,
+  "camera_or_light_objects": 0,
+  "neutral_heart_emission": 0.0
+}

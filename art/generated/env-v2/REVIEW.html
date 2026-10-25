@@ -1,0 +1,28 @@
+<!doctype html><html lang="zh-CN"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>借光岛 · 环境第二版离线候选</title>
+<style>body{margin:0;background:#16232b;color:#e7e7dc;font:16px/1.65 system-ui}main{max-width:1300px;margin:auto;padding:32px}h1{font-size:30px;margin-bottom:8px}h2{font-size:23px;margin-top:40px}a{color:#b6d9dc}p{max-width:1000px}.state{border-left:3px solid #d5b771;padding:10px 18px;background:#22343d}.pair{display:grid;grid-template-columns:1fr 1fr;gap:20px}figure{margin:0}img{display:block;width:100%;height:auto;background:#111a20}figcaption{padding:8px 0;color:#c6c8bf}.links{display:flex;gap:20px;flex-wrap:wrap}.reject{border-color:#d89a86}@media(max-width:700px){.pair{grid-template-columns:1fr}main{padding:18px}}</style>
+<main><h1>借光岛 · 环境第二版离线候选</h1>
+<p class="state">状态：按用户最新指令，GPT 已暂停并移交 Claude。第二版尚未进入 Unity，整岛画面、人物实机和性能未验证；原 Island.prefab 保持第一版。下列是 Blender 对照，不是游戏截图。最新接入说明见 <a href="TO_CLAUDE.zh-CN.txt">给 Claude 的交接</a>；新增 <a href="pier-bench/REVIEW.html">栈桥/长椅对照</a>、<a href="lamp-study/REVIEW.html">灯具 d 研究</a>。</p>
+<nav class="links"><a href="HANDOFF.zh-CN.md">当前交接与五个补充锚点</a><a href="staging/CANDIDATE-INTEGRATION.zh-CN.md">候选整合步骤</a><a href="../../design/v2/benchmark/side-by-side.html">参考研究（内部）</a></nav>
+<h2>阿婆木屋：结构、木纹和共面黑块修正</h2>
+<p>同机位、同灯光。新增瓦片与阁楼外观；164 个木构件按木纹方向铺 UV。四个 Marker、真门窗洞和尺寸合同保留，最新模型 11,925 三角面。阁楼没有可进入的室内，屋瓦与石脚材质仍需提升。</p>
+<div class="pair"><figure><img src="props/abode_grandma/before-front.png" alt="原木屋的相同正面视角"><figcaption>第一版模型</figcaption></figure><figure><img src="props/abode_grandma/seam-after-front.png" alt="修正结构木纹和共面黑块后的阿婆屋候选"><figcaption>最新离线候选，尚未导入 Unity</figcaption></figure></div>
+<p><a href="props/abode_grandma/REVIEW.html">查看正面 / 侧面 / 圆窗近景及各阶段</a> · <a href="props/abode_grandma/SEAM-REVIEW.zh-CN.md">黑块定位证据</a></p>
+<h2>三款村屋：曲瓦、木纹与暖窗结构</h2>
+<p>相同机位、灯光与分辨率。保留原门窗和尺寸，修正共面黑块；每栋新增 454 三角面，11 栋共增 4,994。两扇窗保持独立，候选整合器重建主体合批；未修改现有 Unity 岛。</p>
+<div class="pair"><figure><img src="village/cottage_slate/before-night-front.png" alt="第一版灰瓦村屋的夜景"><figcaption>第一版灰瓦村屋</figcaption></figure><figure><img src="village/cottage_slate/after-night-front.png" alt="木纹曲瓦及接缝修正后的灰瓦村屋候选"><figcaption>离线候选，900×900 Blender 渲染</figcaption></figure></div>
+<p><a href="village/REVIEW.html">三款村屋的24张前后图</a> · <a href="village/VILLAGE-INTEGRATION.zh-CN.md">22扇窗与碰撞保护契约</a></p>
+<h2>终章第一朵花：独立模型与开花形态</h2>
+<p>同一件原创模型的闭合与开放形态展示，非游戏前后对比。1,968 三角面、花冠直径 0.25 米、5 个材质槽；闭合/半开/开放的 FBX 往返与插值样本检查通过。还没有挂接真实金树或替换剧情球体，接入需要使用花心标记对焦。</p>
+<div class="pair"><figure><img src="first-flower/candidate-c/neutral-closed.png" alt="原创第一朵花的闭合花苞"><figcaption>闭合：HalfOpen=0，Open=0</figcaption></figure><figure><img src="first-flower/candidate-c/neutral-open.png" alt="六片奶油金花瓣开放形态"><figcaption>开放：HalfOpen=0，Open=100</figcaption></figure></div>
+<p><a href="first-flower/REVIEW.html">侧面厚度、夜景及全部形态</a> · <a href="first-flower/HANDOFF.zh-CN.md">材质、形变与剧情接入接口</a></p>
+<h2>岬角海岸：实际几何破口修复</h2>
+<p>相同灰色诊断材质排除光照和贴图干扰。B 候选补齐崖壁水线连接，并修正可走范围外的端部形状；原石板路与可走范围内顶点保留。Unity 碰撞和地表着色效果待验。</p>
+<div class="pair"><figure><img src="terrain/candidate-b/before-cape-tip.png" alt="原岬角地面与崖壁端部裂口"><figcaption>原地形</figcaption></figure><figure><img src="terrain/candidate-b/after-cape-tip.png" alt="修复边界后的岬角候选"><figcaption>地形 B 候选</figcaption></figure></div>
+<p><a href="terrain/DIAGNOSIS-AND-REPAIR.zh-CN.md">几何诊断与保护范围</a></p>
+<h2>光树：拒绝仅调叶脉颜色的方案</h2>
+<p class="state reject">未接入。普通树 A 的 LeafVeins 仅占 1.067% 表面积，大多数叶面与树皮共用 Bark 槽。下图虽然收敛了少数亮斑，整冠色彩和尖硬轮廓没有达标，不能当作银绿树林已经完成。</p>
+<div class="pair"><figure><img src="vegetation-study/tree_a/A-current-whole.png" alt="当前普通光树的受控夜景"><figcaption>A：当前材质</figcaption></figure><figure><img src="vegetation-study/tree_a/B-controlled-whole.png" alt="只改变叶脉与果子材质的受控方案"><figcaption>B：局部调色，已拒绝作为整树升级</figcaption></figure></div>
+<p><a href="vegetation-study/REVIEW.html">完整材质 / 分组研究</a> · <a href="textures/tile-review.html">原创贴图平铺检查</a></p>
+<h2>待实测的整岛改动</h2><p>草地与野花、地表混合材质、海岸距离图、柔和海面、地球细弧和五章光照后期均有独立源候选。限定 DX11 HLSL 检查通过不代表 Unity 导入或 WebGL 已通过。获得当前 Unity 交接后，先生成独立 IslandV2 与 EnvV2Test，检查相同机位 1440×900，再决定是否升级正式环境。</p>
+</main></html>

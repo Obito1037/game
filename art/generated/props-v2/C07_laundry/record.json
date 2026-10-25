@@ -1,0 +1,16 @@
+{
+ "id": "C07_laundry",
+ "source": "art\\incoming\\tripo-v2-2026-10-22\\tripo_convert_9bd12163-a6dd-4d54-8945-bfafa43e5281.glb",
+ "source_sha256": "803268e02b9f6da8040d4b86ee9d31512b74103d9e694d7a1c738401ac0353b0",
+ "tris_before": 103551,
+ "tris_after": 3000,
+ "size_m": [
+  0.614,
+  4.0,
+  2.812
+ ],
+ "textures": {
+  "albedo": "C07_laundry_albedo.jpg"
+ },
+ "materials": 1
+}

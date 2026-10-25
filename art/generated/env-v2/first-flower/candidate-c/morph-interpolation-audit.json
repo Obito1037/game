@@ -1,0 +1,347 @@
+{
+  "scope": "9 piecewise-linear samples; positive closed component volumes do not prove absence of all self/inter-petal intersections",
+  "samples": [
+    {
+      "bloom_t": 0.0,
+      "half_open_weight_percent": 0.0,
+      "open_weight_percent": 0,
+      "geometry": {
+        "vertices": 1010,
+        "triangles": 1968,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "degenerate_triangles": 0,
+        "finite": true,
+        "bounds_min": [
+          -0.0820000022649765,
+          -0.039419274777173996,
+          -0.0008593438542447984
+        ],
+        "bounds_max": [
+          0.12300000339746475,
+          0.033921170979738235,
+          0.29826679825782776
+        ]
+      },
+      "component_signed_volumes_m3": {
+        "Petal_01": 1.0261542533816318e-05,
+        "Petal_02": 1.0679971438927691e-05,
+        "Petal_03": 9.791785341217718e-06,
+        "Petal_04": 1.0425875227416687e-05,
+        "Petal_05": 1.0588718793188198e-05,
+        "Petal_06": 9.728707881662366e-06,
+        "AttachmentTwig": 8.294522912066782e-06,
+        "LeafStalk_Left": 1.8280074730083382e-07,
+        "LeafStalk_Right": 1.5828182318526154e-07,
+        "SilverLeaf_Left": 2.0682595571428855e-06,
+        "SilverLeaf_Right": 1.6618226685675512e-06,
+        "FlowerReceptacle": 2.1102411160382056e-06,
+        "SingleAmberHeart": 3.2916694752578115e-06
+      }
+    },
+    {
+      "bloom_t": 0.125,
+      "half_open_weight_percent": 25.0,
+      "open_weight_percent": 0,
+      "geometry": {
+        "vertices": 1010,
+        "triangles": 1968,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "degenerate_triangles": 0,
+        "finite": true,
+        "bounds_min": [
+          -0.0820000022649765,
+          -0.04407287389039993,
+          -0.0008593438542447984
+        ],
+        "bounds_max": [
+          0.12300000339746475,
+          0.03715351223945618,
+          0.2903884947299957
+        ]
+      },
+      "component_signed_volumes_m3": {
+        "Petal_01": 8.949608855961013e-06,
+        "Petal_02": 9.257817021656132e-06,
+        "Petal_03": 8.635435750104873e-06,
+        "Petal_04": 9.057897183297378e-06,
+        "Petal_05": 9.19043778289825e-06,
+        "Petal_06": 8.598816016433603e-06,
+        "AttachmentTwig": 8.294522912066782e-06,
+        "LeafStalk_Left": 1.8280074730083382e-07,
+        "LeafStalk_Right": 1.5828182318526154e-07,
+        "SilverLeaf_Left": 2.0682595571428855e-06,
+        "SilverLeaf_Right": 1.6618226685675512e-06,
+        "FlowerReceptacle": 2.1102411160382056e-06,
+        "SingleAmberHeart": 3.2916694752578115e-06
+      }
+    },
+    {
+      "bloom_t": 0.25,
+      "half_open_weight_percent": 50.0,
+      "open_weight_percent": 0,
+      "geometry": {
+        "vertices": 1010,
+        "triangles": 1968,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "degenerate_triangles": 0,
+        "finite": true,
+        "bounds_min": [
+          -0.0820000022649765,
+          -0.05005892366170883,
+          -0.0008593438542447984
+        ],
+        "bounds_max": [
+          0.12300000339746475,
+          0.04232887923717499,
+          0.283603310585022
+        ]
+      },
+      "component_signed_volumes_m3": {
+        "Petal_01": 8.169035052074669e-06,
+        "Petal_02": 8.412069311848971e-06,
+        "Petal_03": 7.9521951170299e-06,
+        "Petal_04": 8.226587656411447e-06,
+        "Petal_05": 8.363957426556675e-06,
+        "Petal_06": 7.944121761969033e-06,
+        "AttachmentTwig": 8.294522912066782e-06,
+        "LeafStalk_Left": 1.8280074730083382e-07,
+        "LeafStalk_Right": 1.5828182318526154e-07,
+        "SilverLeaf_Left": 2.0682595571428855e-06,
+        "SilverLeaf_Right": 1.6618226685675512e-06,
+        "FlowerReceptacle": 2.1102411160382056e-06,
+        "SingleAmberHeart": 3.2916694752578115e-06
+      }
+    },
+    {
+      "bloom_t": 0.375,
+      "half_open_weight_percent": 75.0,
+      "open_weight_percent": 0,
+      "geometry": {
+        "vertices": 1010,
+        "triangles": 1968,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "degenerate_triangles": 0,
+        "finite": true,
+        "bounds_min": [
+          -0.0820000022649765,
+          -0.05903654173016548,
+          -0.0008593438542447984
+        ],
+        "bounds_max": [
+          0.12300000339746475,
+          0.050384391099214554,
+          0.27683883905410767
+        ]
+      },
+      "component_signed_volumes_m3": {
+        "Petal_01": 8.249023643756617e-06,
+        "Petal_02": 8.469115875836658e-06,
+        "Petal_03": 8.074422186941932e-06,
+        "Petal_04": 8.260348100123474e-06,
+        "Petal_05": 8.436148618333472e-06,
+        "Petal_06": 8.097095963780637e-06,
+        "AttachmentTwig": 8.294522912066782e-06,
+        "LeafStalk_Left": 1.8280074730083382e-07,
+        "LeafStalk_Right": 1.5828182318526154e-07,
+        "SilverLeaf_Left": 2.0682595571428855e-06,
+        "SilverLeaf_Right": 1.6618226685675512e-06,
+        "FlowerReceptacle": 2.1102411160382056e-06,
+        "SingleAmberHeart": 3.2916694752578115e-06
+      }
+    },
+    {
+      "bloom_t": 0.5,
+      "half_open_weight_percent": 100.0,
+      "open_weight_percent": 0,
+      "geometry": {
+        "vertices": 1010,
+        "triangles": 1968,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "degenerate_triangles": 0,
+        "finite": true,
+        "bounds_min": [
+          -0.0820000022649765,
+          -0.07108873128890991,
+          -0.0008593438542447984
+        ],
+        "bounds_max": [
+          0.13186892867088318,
+          0.06427296251058578,
+          0.27009105682373047
+        ]
+      },
+      "component_signed_volumes_m3": {
+        "Petal_01": 9.518757264237454e-06,
+        "Petal_02": 9.755337312383644e-06,
+        "Petal_03": 9.334449553590843e-06,
+        "Petal_04": 9.48763254352003e-06,
+        "Petal_05": 9.73392818252409e-06,
+        "Petal_06": 9.390328190232259e-06,
+        "AttachmentTwig": 8.294522912066782e-06,
+        "LeafStalk_Left": 1.8280074730083382e-07,
+        "LeafStalk_Right": 1.5828182318526154e-07,
+        "SilverLeaf_Left": 2.0682595571428855e-06,
+        "SilverLeaf_Right": 1.6618226685675512e-06,
+        "FlowerReceptacle": 2.1102411160382056e-06,
+        "SingleAmberHeart": 3.2916694752578115e-06
+      }
+    },
+    {
+      "bloom_t": 0.625,
+      "half_open_weight_percent": 75.0,
+      "open_weight_percent": 25.0,
+      "geometry": {
+        "vertices": 1010,
+        "triangles": 1968,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "degenerate_triangles": 0,
+        "finite": true,
+        "bounds_min": [
+          -0.0820000022649765,
+          -0.08256593346595764,
+          -0.0008593438542447984
+        ],
+        "bounds_max": [
+          0.14358073472976685,
+          0.07650735229253769,
+          0.2695827782154083
+        ]
+      },
+      "component_signed_volumes_m3": {
+        "Petal_01": 1.0878905706594258e-05,
+        "Petal_02": 1.1085461214185854e-05,
+        "Petal_03": 1.071484768057467e-05,
+        "Petal_04": 1.0760291353227128e-05,
+        "Petal_05": 1.1217733097415814e-05,
+        "Petal_06": 1.06658369121021e-05,
+        "AttachmentTwig": 8.294522912066782e-06,
+        "LeafStalk_Left": 1.8280074730083382e-07,
+        "LeafStalk_Right": 1.5828182318526154e-07,
+        "SilverLeaf_Left": 2.0682595571428855e-06,
+        "SilverLeaf_Right": 1.6618226685675512e-06,
+        "FlowerReceptacle": 2.1102411160382056e-06,
+        "SingleAmberHeart": 3.2916694752578115e-06
+      }
+    },
+    {
+      "bloom_t": 0.75,
+      "half_open_weight_percent": 50.0,
+      "open_weight_percent": 50.0,
+      "geometry": {
+        "vertices": 1010,
+        "triangles": 1968,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "degenerate_triangles": 0,
+        "finite": true,
+        "bounds_min": [
+          -0.0820000022649765,
+          -0.09455782175064087,
+          -0.0008593438542447984
+        ],
+        "bounds_max": [
+          0.15552838146686554,
+          0.08890867233276367,
+          0.2690744996070862
+        ]
+      },
+      "component_signed_volumes_m3": {
+        "Petal_01": 1.2717946225348128e-05,
+        "Petal_02": 1.2878468947088648e-05,
+        "Petal_03": 1.2587171852327753e-05,
+        "Petal_04": 1.249347646192315e-05,
+        "Petal_05": 1.320022622364192e-05,
+        "Petal_06": 1.240623944451467e-05,
+        "AttachmentTwig": 8.294522912066782e-06,
+        "LeafStalk_Left": 1.8280074730083382e-07,
+        "LeafStalk_Right": 1.5828182318526154e-07,
+        "SilverLeaf_Left": 2.0682595571428855e-06,
+        "SilverLeaf_Right": 1.6618226685675512e-06,
+        "FlowerReceptacle": 2.1102411160382056e-06,
+        "SingleAmberHeart": 3.2916694752578115e-06
+      }
+    },
+    {
+      "bloom_t": 0.875,
+      "half_open_weight_percent": 25.0,
+      "open_weight_percent": 75.0,
+      "geometry": {
+        "vertices": 1010,
+        "triangles": 1968,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "degenerate_triangles": 0,
+        "finite": true,
+        "bounds_min": [
+          -0.0820000022649765,
+          -0.1065497100353241,
+          -0.0008593438542447984
+        ],
+        "bounds_max": [
+          0.16747601330280304,
+          0.10166345536708832,
+          0.2687668204307556
+        ]
+      },
+      "component_signed_volumes_m3": {
+        "Petal_01": 1.508870236803054e-05,
+        "Petal_02": 1.5180118351160524e-05,
+        "Petal_03": 1.5010669933091476e-05,
+        "Petal_04": 1.4734806447619375e-05,
+        "Petal_05": 1.5737997547009736e-05,
+        "Petal_06": 1.4661370294375906e-05,
+        "AttachmentTwig": 8.294522912066782e-06,
+        "LeafStalk_Left": 1.8280074730083382e-07,
+        "LeafStalk_Right": 1.5828182318526154e-07,
+        "SilverLeaf_Left": 2.0682595571428855e-06,
+        "SilverLeaf_Right": 1.6618226685675512e-06,
+        "FlowerReceptacle": 2.1102411160382056e-06,
+        "SingleAmberHeart": 3.2916694752578115e-06
+      }
+    },
+    {
+      "bloom_t": 1.0,
+      "half_open_weight_percent": 0.0,
+      "open_weight_percent": 100.0,
+      "geometry": {
+        "vertices": 1010,
+        "triangles": 1968,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "degenerate_triangles": 0,
+        "finite": true,
+        "bounds_min": [
+          -0.0820000022649765,
+          -0.11854159832000732,
+          -0.0008593438542447984
+        ],
+        "bounds_max": [
+          0.17942366003990173,
+          0.11441823840141296,
+          0.2685719132423401
+        ]
+      },
+      "component_signed_volumes_m3": {
+        "Petal_01": 1.804409194847868e-05,
+        "Petal_02": 1.803611388133397e-05,
+        "Petal_03": 1.804467731833283e-05,
+        "Petal_04": 1.753199029077707e-05,
+        "Petal_05": 1.8887727585672105e-05,
+        "Petal_06": 1.7481012304978543e-05,
+        "AttachmentTwig": 8.294522912066782e-06,
+        "LeafStalk_Left": 1.8280074730083382e-07,
+        "LeafStalk_Right": 1.5828182318526154e-07,
+        "SilverLeaf_Left": 2.0682595571428855e-06,
+        "SilverLeaf_Right": 1.6618226685675512e-06,
+        "FlowerReceptacle": 2.1102411160382056e-06,
+        "SingleAmberHeart": 3.2916694752578115e-06
+      }
+    }
+  ]
+}

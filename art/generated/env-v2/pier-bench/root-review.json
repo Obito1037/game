@@ -1,0 +1,24 @@
+{
+  "status": "accepted-as-offline-surface-candidates-not-unity-adoption",
+  "reviewer": "root",
+  "evidence_source": "Explicit parent-agent message confirming the five images below were actually viewed.",
+  "images_viewed": [
+    "pier_module/before-night-surface.png",
+    "pier_module/after-night-surface.png",
+    "bench/before-neutral-surface.png",
+    "bench/after-neutral-surface.png",
+    "bench/after-night-whole.png"
+  ],
+  "accepted_improvement": "Wood grain and material readability improve the existing plain-color planks, piles and bench while retaining their geometry and interface contracts.",
+  "additional_triangles": 0,
+  "source_and_candidate_triangles": {"pier_module": 456, "pier_end": 668, "bench": 324},
+  "actual_island_instances": {"pier_module": 3, "pier_end": 0, "bench": 1},
+  "actual_island_visual_triangles_before_and_after": 1692,
+  "limitations": [
+    "Acceptance is limited to the offline surface candidate; Unity adoption and runtime appearance are not established.",
+    "No claim that root viewed the pier_end images or all 24 images.",
+    "Wood remains relatively clean, with fine grain that may compete with plank seams.",
+    "End caps reuse the original wood image; no dedicated annual rings, normal map or new wear/nail geometry.",
+    "Three repeated bridge sections, distant texture filtering, actual night lighting, passage and seating require Unity review."
+  ]
+}

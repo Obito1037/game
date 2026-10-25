@@ -1,0 +1,16 @@
+{
+ "id": "C02_rowboat",
+ "source": "art\\incoming\\tripo-v2-2026-10-22\\tripo_convert_daaa44a5-97ea-4aba-9d10-7f05e47fcd5c.glb",
+ "source_sha256": "06dc7bc9dbd3d500b9135377e4a67034e1cf987bf68d119a00e0263b035ba90e",
+ "tris_before": 21136,
+ "tris_after": 5000,
+ "size_m": [
+  3.2,
+  1.648,
+  1.032
+ ],
+ "textures": {
+  "albedo": "C02_rowboat_albedo.jpg"
+ },
+ "materials": 1
+}

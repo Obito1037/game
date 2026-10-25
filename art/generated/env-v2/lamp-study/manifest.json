@@ -1,0 +1,166 @@
+{
+  "asset_family": "A05-A07 controlled surface/core study",
+  "current_offline_candidate": "candidate-d",
+  "root_review": "Roadlamp D neutral/on/off reviewed; accepted as offline material candidate only. Harbor D pending independent root review.",
+  "script": "art/blender/env_v2_lamp_study.py",
+  "script_sha256": "377d28f5afa25ed329c8703bf6f7656929817a8d1f8613136b9f1e05a32891df",
+  "source_inventory": "baseline/inventory.json",
+  "interface_audit": "INTERFACE-AUDIT.zh-CN.md",
+  "triangles": {
+    "roadlamp_each": 830,
+    "three_roadlamps": 2490,
+    "harbor_lantern": 788,
+    "three_roads_added": 672,
+    "harbor_added": 352
+  },
+  "default_emission": 0,
+  "Unity_imported": false,
+  "gameplay_connected": false,
+  "files": [
+    {
+      "path": "candidate-d/copper_roadlamp/blend-reopen.json",
+      "bytes": 837,
+      "sha256": "8766dcc94c9d9c37c9fbb43c2f92f6d6e554ad12438078b700001bcb085c7f1b"
+    },
+    {
+      "path": "candidate-d/copper_roadlamp/copper_roadlamp_v2_candidate.blend",
+      "bytes": 2923791,
+      "sha256": "cbe3a20385af55f0c03d4dc5929db336825cf3ee2ee04fd626c32af0c75178a5"
+    },
+    {
+      "path": "candidate-d/copper_roadlamp/copper_roadlamp_v2_candidate.fbx",
+      "bytes": 1186140,
+      "sha256": "283f2425476c17fe8660e5bb73eb4bbad15d9ae6d23502e6cb17459783f59f0e"
+    },
+    {
+      "path": "candidate-d/copper_roadlamp/fbx-roundtrip.json",
+      "bytes": 1518,
+      "sha256": "f435a37255ad74a5079c9b05355dfcd3cad6c5fd3813c61edf98033aa559ee31"
+    },
+    {
+      "path": "candidate-d/copper_roadlamp/geometry.json",
+      "bytes": 184623,
+      "sha256": "2b87c183fdf6c9246e50d6f171c7123102217c6f5ae6d74d8a4d7cf448c3eece"
+    },
+    {
+      "path": "candidate-d/copper_roadlamp/material-specs.json",
+      "bytes": 3986,
+      "sha256": "d1ed3f8be5af0742c8e273b035e3f3a0981b22db21769b50a26bf4c6f8ae9c95"
+    },
+    {
+      "path": "candidate-d/copper_roadlamp/neutral-full.png",
+      "bytes": 824961,
+      "sha256": "f63a8e9cee07299edb3c8fa298ed4606b8a49aa9e6928377275ef1c3efa28c8c"
+    },
+    {
+      "path": "candidate-d/copper_roadlamp/neutral-off.png",
+      "bytes": 865887,
+      "sha256": "8ec62b6b1cd1c5f543faed0f1ed758d209e9689b63a18cd53aa863a3cd897e1b"
+    },
+    {
+      "path": "candidate-d/copper_roadlamp/night-off.png",
+      "bytes": 826343,
+      "sha256": "5e53363178a33cc9d771446a87e7fdec05e5d74de414d03724b5a76684a5679a"
+    },
+    {
+      "path": "candidate-d/copper_roadlamp/night-on.png",
+      "bytes": 828806,
+      "sha256": "c9011d163f6f070d94d92ae4efedd99852607f86d8b5c88eaf622aad0dc171bc"
+    },
+    {
+      "path": "candidate-d/copper_roadlamp/render-conditions.json",
+      "bytes": 5880,
+      "sha256": "03fb6b97b0bda767e0133e94a2d7e1571fac39eb7e87edbfde53d80dde963b34"
+    },
+    {
+      "path": "candidate-d/copper_roadlamp/shield-ray-study.json",
+      "bytes": 2388,
+      "sha256": "b4375998b568d8170fb7bc8dfdec8747692f6fe6bbf4a1c18eabc42b8d1deb20"
+    },
+    {
+      "path": "candidate-d/copper_roadlamp/validation.json",
+      "bytes": 1500,
+      "sha256": "ae1d9043223e954256dbc0a374fc4853507e36529fb0f1519242a1384bb75443"
+    },
+    {
+      "path": "candidate-d/harbor_lantern/blend-reopen.json",
+      "bytes": 837,
+      "sha256": "364e67d964d744b6b37d6a890c166c739c48b6f8dc578cfc7da045cecb88f6a2"
+    },
+    {
+      "path": "candidate-d/harbor_lantern/fbx-roundtrip.json",
+      "bytes": 920,
+      "sha256": "17147e9c2a270fb22317524bdd41f8669fc5662a111f63d0ddbaa2dfa2d142d5"
+    },
+    {
+      "path": "candidate-d/harbor_lantern/geometry.json",
+      "bytes": 177165,
+      "sha256": "8337c2d1865f99ea6252c4c6b82e97cd5571bbe3fda384d529b8da99f8321bd4"
+    },
+    {
+      "path": "candidate-d/harbor_lantern/harbor_lantern_v2_candidate.blend",
+      "bytes": 2918149,
+      "sha256": "e65730fdfffb2dc07fdb20ab7a8f5cb6efde0eeb1bcbf6296a09d55dbe3e4825"
+    },
+    {
+      "path": "candidate-d/harbor_lantern/harbor_lantern_v2_candidate.fbx",
+      "bytes": 1182924,
+      "sha256": "a74893796f7c937690708edac4a537d079fc3e34eb0f9db010ddcead1fa3c8d8"
+    },
+    {
+      "path": "candidate-d/harbor_lantern/material-specs.json",
+      "bytes": 3987,
+      "sha256": "6c1b43a925c4c49b67f70dd5d1d475a5a45a6ff4fd8a2f966bab950db995d301"
+    },
+    {
+      "path": "candidate-d/harbor_lantern/neutral-off.png",
+      "bytes": 854283,
+      "sha256": "00f06e7198991fbf1ea2ef8b0092f73a5fcd0ec532ab85eb878aede4c88b8129"
+    },
+    {
+      "path": "candidate-d/harbor_lantern/night-off.png",
+      "bytes": 813196,
+      "sha256": "b8bf89e2955a88f1f733488ab310472b8bedda14b7cd9c7cd0d3efd80a19b915"
+    },
+    {
+      "path": "candidate-d/harbor_lantern/night-on.png",
+      "bytes": 813708,
+      "sha256": "f610e2a56df925e1a60fe4198a92ef0a6fc734ba01f74c4e22f8b7ba676305c2"
+    },
+    {
+      "path": "candidate-d/harbor_lantern/render-conditions.json",
+      "bytes": 4450,
+      "sha256": "1ee0806423be320faccd52585abf2e7159a0b5eab79358d15087be74feb02d49"
+    },
+    {
+      "path": "candidate-d/harbor_lantern/validation.json",
+      "bytes": 1136,
+      "sha256": "0bff12c4a13066d82f499ecc4aa8e3a1ddc921937349926f1aabe027b50f448c"
+    },
+    {
+      "path": "candidate-d/textures/Lamp_Copper_Albedo.png",
+      "bytes": 644808,
+      "sha256": "b3be9dd8637abc45963800ab40566f5d268d7788e261f0e0ff3a974b52434bb6"
+    },
+    {
+      "path": "candidate-d/textures/Lamp_Copper_Height.png",
+      "bytes": 712194,
+      "sha256": "c449fc055fff63ee2cf2e70a73f50b55073d6b2dcde58eb489930bc7094bba72"
+    },
+    {
+      "path": "candidate-d/textures/Lamp_Copper_MetallicSmoothness.png",
+      "bytes": 496552,
+      "sha256": "49f1240c2727a58dac1b0fc6c5bcbd7c532b7e382ac19f41d4122c40e73694d8"
+    },
+    {
+      "path": "candidate-d/textures/Lamp_Copper_Roughness.png",
+      "bytes": 497390,
+      "sha256": "818cc1f2e853e97ce33810f64774ab4130dc7668fcc2012cad1b9f1dac7ac8c2"
+    }
+  ],
+  "history": {
+    "a": "rejected: large patina patches",
+    "b": "superseded: thick glass and floating bail",
+    "c": "root rejected material: blotches and liquid-like interior reflection; geometry kept in d"
+  }
+}

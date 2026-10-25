@@ -1,0 +1,5100 @@
+{
+  "status": "offline-cliff-candidate-not-imported",
+  "variant": "B",
+  "source_blend": "art/generated/env-v1/terrain/island_terrain.blend",
+  "source_blend_sha256": "6a1199426194e50c46007fcb4ae25d0c49fb4fdf8fd1239e7597748133929f90",
+  "source_script_sha256": "bc66551392c07c03cff7985ce522d28f70ccb28fd30cc207a3e7f14dbb499fd5",
+  "candidate_script_sha256": "58d07323b429fd15e87e9e9e0aae268ae58d9bc1a2b1fb36359cceca19788901",
+  "diagnosis": "Original edge_ids used only both longitudinal sides, skipping 23 interior vertices at each end. Two end chords cannot seal the raised terrain end profiles. Exact topology mismatch persists independently of material and normals.",
+  "before": {
+    "topology": {
+      "vertices": 726,
+      "faces": 484,
+      "triangles": 968,
+      "boundary_edges": 484,
+      "nonmanifold_edges_including_open_rims": 484,
+      "edges_with_more_than_two_faces": 0,
+      "wire_edges": 0,
+      "zero_area_faces": 0
+    },
+    "seams": {
+      "ground_boundary_edges": 288,
+      "cliff_boundary_edges": 484,
+      "exact_shared_top_edges": 240,
+      "ground_boundary_edges_without_cliff_partner": 48,
+      "ground_unmatched_segments_blender": [
+        [
+          [
+            12.93419,
+            27.04798,
+            0.32
+          ],
+          [
+            12.93968,
+            27.04398,
+            0.75617
+          ]
+        ],
+        [
+          [
+            12.93968,
+            27.04398,
+            0.75617
+          ],
+          [
+            12.94516,
+            27.03998,
+            1.85611
+          ]
+        ],
+        [
+          [
+            12.94516,
+            27.03998,
+            1.85611
+          ],
+          [
+            12.95064,
+            27.03598,
+            2.33005
+          ]
+        ],
+        [
+          [
+            12.95064,
+            27.03598,
+            2.33005
+          ],
+          [
+            12.95613,
+            27.03199,
+            2.34473
+          ]
+        ],
+        [
+          [
+            12.95613,
+            27.03199,
+            2.34473
+          ],
+          [
+            12.96161,
+            27.02799,
+            2.35768
+          ]
+        ],
+        [
+          [
+            12.96161,
+            27.02799,
+            2.35768
+          ],
+          [
+            12.9671,
+            27.02399,
+            2.36891
+          ]
+        ],
+        [
+          [
+            12.9671,
+            27.02399,
+            2.36891
+          ],
+          [
+            12.97258,
+            27.01999,
+            2.37841
+          ]
+        ],
+        [
+          [
+            12.97258,
+            27.01999,
+            2.37841
+          ],
+          [
+            12.97806,
+            27.01599,
+            2.38618
+          ]
+        ],
+        [
+          [
+            12.97806,
+            27.01599,
+            2.38618
+          ],
+          [
+            12.98355,
+            27.012,
+            2.39223
+          ]
+        ],
+        [
+          [
+            12.98355,
+            27.012,
+            2.39223
+          ],
+          [
+            12.98903,
+            27.008,
+            2.39655
+          ]
+        ],
+        [
+          [
+            12.98903,
+            27.008,
+            2.39655
+          ],
+          [
+            12.99452,
+            27.004,
+            2.39914
+          ]
+        ],
+        [
+          [
+            12.99452,
+            27.004,
+            2.39914
+          ],
+          [
+            13.0,
+            27.0,
+            2.4
+          ]
+        ],
+        [
+          [
+            13.0,
+            27.0,
+            2.4
+          ],
+          [
+            13.00548,
+            26.996,
+            2.39914
+          ]
+        ],
+        [
+          [
+            13.00548,
+            26.996,
+            2.39914
+          ],
+          [
+            13.01097,
+            26.992,
+            2.39655
+          ]
+        ],
+        [
+          [
+            13.01097,
+            26.992,
+            2.39655
+          ],
+          [
+            13.01645,
+            26.988,
+            2.39223
+          ]
+        ],
+        [
+          [
+            13.01645,
+            26.988,
+            2.39223
+          ],
+          [
+            13.02194,
+            26.98401,
+            2.38618
+          ]
+        ],
+        [
+          [
+            13.02194,
+            26.98401,
+            2.38618
+          ],
+          [
+            13.02742,
+            26.98001,
+            2.37841
+          ]
+        ],
+        [
+          [
+            13.02742,
+            26.98001,
+            2.37841
+          ],
+          [
+            13.0329,
+            26.97601,
+            2.36891
+          ]
+        ],
+        [
+          [
+            13.0329,
+            26.97601,
+            2.36891
+          ],
+          [
+            13.03839,
+            26.97201,
+            2.35768
+          ]
+        ],
+        [
+          [
+            13.03839,
+            26.97201,
+            2.35768
+          ],
+          [
+            13.04387,
+            26.96801,
+            2.34473
+          ]
+        ],
+        [
+          [
+            13.04387,
+            26.96801,
+            2.34473
+          ],
+          [
+            13.04936,
+            26.96402,
+            2.33005
+          ]
+        ],
+        [
+          [
+            13.04936,
+            26.96402,
+            2.33005
+          ],
+          [
+            13.05484,
+            26.96002,
+            1.85611
+          ]
+        ],
+        [
+          [
+            13.05484,
+            26.96002,
+            1.85611
+          ],
+          [
+            13.06032,
+            26.95602,
+            0.75617
+          ]
+        ],
+        [
+          [
+            13.06032,
+            26.95602,
+            0.75617
+          ],
+          [
+            13.06581,
+            26.95202,
+            0.32
+          ]
+        ],
+        [
+          [
+            13.96001,
+            -23.92889,
+            0.32
+          ],
+          [
+            13.96334,
+            -23.93482,
+            0.44156
+          ]
+        ],
+        [
+          [
+            13.96334,
+            -23.93482,
+            0.44156
+          ],
+          [
+            13.96667,
+            -23.94074,
+            0.77195
+          ]
+        ],
+        [
+          [
+            13.96667,
+            -23.94074,
+            0.77195
+          ],
+          [
+            13.97001,
+            -23.94667,
+            0.9298
+          ]
+        ],
+        [
+          [
+            13.97001,
+            -23.94667,
+            0.9298
+          ],
+          [
+            13.97334,
+            -23.95259,
+            0.94453
+          ]
+        ],
+        [
+          [
+            13.97334,
+            -23.95259,
+            0.94453
+          ],
+          [
+            13.97667,
+            -23.95852,
+            0.95753
+          ]
+        ],
+        [
+          [
+            13.97667,
+            -23.95852,
+            0.95753
+          ],
+          [
+            13.98,
+            -23.96445,
+            0.9688
+          ]
+        ],
+        [
+          [
+            13.98,
+            -23.96445,
+            0.9688
+          ],
+          [
+            13.98334,
+            -23.97037,
+            0.97833
+          ]
+        ],
+        [
+          [
+            13.98334,
+            -23.97037,
+            0.97833
+          ],
+          [
+            13.98667,
+            -23.9763,
+            0.98613
+          ]
+        ],
+        [
+          [
+            13.98667,
+            -23.9763,
+            0.98613
+          ],
+          [
+            13.99,
+            -23.98222,
+            0.9922
+          ]
+        ],
+        [
+          [
+            13.99,
+            -23.98222,
+            0.9922
+          ],
+          [
+            13.99333,
+            -23.98815,
+            0.99653
+          ]
+        ],
+        [
+          [
+            13.99333,
+            -23.98815,
+            0.99653
+          ],
+          [
+            13.99667,
+            -23.99407,
+            0.99913
+          ]
+        ],
+        [
+          [
+            13.99667,
+            -23.99407,
+            0.99913
+          ],
+          [
+            14.0,
+            -24.0,
+            1.0
+          ]
+        ],
+        [
+          [
+            14.0,
+            -24.0,
+            1.0
+          ],
+          [
+            14.00333,
+            -24.00593,
+            0.99913
+          ]
+        ],
+        [
+          [
+            14.00333,
+            -24.00593,
+            0.99913
+          ],
+          [
+            14.00667,
+            -24.01185,
+            0.99653
+          ]
+        ],
+        [
+          [
+            14.00667,
+            -24.01185,
+            0.99653
+          ],
+          [
+            14.01,
+            -24.01778,
+            0.9922
+          ]
+        ],
+        [
+          [
+            14.01,
+            -24.01778,
+            0.9922
+          ],
+          [
+            14.01333,
+            -24.0237,
+            0.98613
+          ]
+        ],
+        [
+          [
+            14.01333,
+            -24.0237,
+            0.98613
+          ],
+          [
+            14.01666,
+            -24.02963,
+            0.97833
+          ]
+        ],
+        [
+          [
+            14.01666,
+            -24.02963,
+            0.97833
+          ],
+          [
+            14.02,
+            -24.03555,
+            0.9688
+          ]
+        ],
+        [
+          [
+            14.02,
+            -24.03555,
+            0.9688
+          ],
+          [
+            14.02333,
+            -24.04148,
+            0.95753
+          ]
+        ],
+        [
+          [
+            14.02333,
+            -24.04148,
+            0.95753
+          ],
+          [
+            14.02666,
+            -24.04741,
+            0.94453
+          ]
+        ],
+        [
+          [
+            14.02666,
+            -24.04741,
+            0.94453
+          ],
+          [
+            14.02999,
+            -24.05333,
+            0.9298
+          ]
+        ],
+        [
+          [
+            14.02999,
+            -24.05333,
+            0.9298
+          ],
+          [
+            14.03333,
+            -24.05926,
+            0.77195
+          ]
+        ],
+        [
+          [
+            14.03333,
+            -24.05926,
+            0.77195
+          ],
+          [
+            14.03666,
+            -24.06518,
+            0.44156
+          ]
+        ],
+        [
+          [
+            14.03666,
+            -24.06518,
+            0.44156
+          ],
+          [
+            14.03999,
+            -24.07111,
+            0.32
+          ]
+        ]
+      ],
+      "cliff_top_chords_not_ground_boundary": 2,
+      "cliff_unmatched_top_chords_blender": [
+        [
+          [
+            12.93419,
+            27.04798,
+            0.32
+          ],
+          [
+            13.06581,
+            26.95202,
+            0.32
+          ]
+        ],
+        [
+          [
+            13.96001,
+            -23.92889,
+            0.32
+          ],
+          [
+            14.03999,
+            -24.07111,
+            0.32
+          ]
+        ]
+      ],
+      "after_weld_combined_open_edges": 292,
+      "comparison_tolerance_metres": 1e-05
+    },
+    "normals": {
+      "min_radial_dot": -0.8257953897118568,
+      "mean_radial_dot": 0.46924577618745966,
+      "caveat": "Concave coastline cannot be certified by one radial center; topology seam evidence is independent."
+    }
+  },
+  "after": {
+    "topology": {
+      "vertices": 2592,
+      "faces": 2304,
+      "triangles": 4608,
+      "boundary_edges": 576,
+      "nonmanifold_edges_including_open_rims": 576,
+      "edges_with_more_than_two_faces": 0,
+      "wire_edges": 0,
+      "zero_area_faces": 0
+    },
+    "seams": {
+      "ground_boundary_edges": 288,
+      "cliff_boundary_edges": 576,
+      "exact_shared_top_edges": 288,
+      "ground_boundary_edges_without_cliff_partner": 0,
+      "ground_unmatched_segments_blender": [],
+      "cliff_top_chords_not_ground_boundary": 0,
+      "cliff_unmatched_top_chords_blender": [],
+      "after_weld_combined_open_edges": 288,
+      "comparison_tolerance_metres": 1e-05
+    },
+    "normals": {
+      "min_radial_dot": -0.9581300020217896,
+      "mean_radial_dot": 0.4805370622272815,
+      "caveat": "Concave coastline cannot be certified by one radial center; topology seam evidence is independent."
+    }
+  },
+  "source_end_gap_witnesses": [
+    {
+      "chord": [
+        [
+          12.93419,
+          27.04798,
+          0.32
+        ],
+        [
+          13.06581,
+          26.95202,
+          0.32
+        ]
+      ],
+      "omitted_points": 23,
+      "maximum_height_gap": 2.080000102519989,
+      "samples": [
+        {
+          "point": [
+            13.060322761535645,
+            26.95602035522461,
+            0.7561712265014648
+          ],
+          "height_above_chord": 0.4361712336540222
+        },
+        {
+          "point": [
+            13.054839134216309,
+            26.960018157958984,
+            1.8561068773269653
+          ],
+          "height_above_chord": 1.5361068844795227
+        },
+        {
+          "point": [
+            13.049355506896973,
+            26.96401596069336,
+            2.330048084259033
+          ],
+          "height_above_chord": 2.0100480914115906
+        },
+        {
+          "point": [
+            13.043871879577637,
+            26.968013763427734,
+            2.344729423522949
+          ],
+          "height_above_chord": 2.0247294306755066
+        },
+        {
+          "point": [
+            13.038387298583984,
+            26.972013473510742,
+            2.3576834201812744
+          ],
+          "height_above_chord": 2.037683427333832
+        },
+        {
+          "point": [
+            13.032903671264648,
+            26.976011276245117,
+            2.368910312652588
+          ],
+          "height_above_chord": 2.0489103198051453
+        },
+        {
+          "point": [
+            13.027420043945312,
+            26.980009078979492,
+            2.3784098625183105
+          ],
+          "height_above_chord": 2.058409869670868
+        },
+        {
+          "point": [
+            13.02193546295166,
+            26.984006881713867,
+            2.3861823081970215
+          ],
+          "height_above_chord": 2.066182315349579
+        },
+        {
+          "point": [
+            13.016451835632324,
+            26.988004684448242,
+            2.3922276496887207
+          ],
+          "height_above_chord": 2.072227656841278
+        },
+        {
+          "point": [
+            13.010968208312988,
+            26.99200439453125,
+            2.396545648574829
+          ],
+          "height_above_chord": 2.0765456557273865
+        },
+        {
+          "point": [
+            13.005483627319336,
+            26.996002197265625,
+            2.3991363048553467
+          ],
+          "height_above_chord": 2.079136312007904
+        },
+        {
+          "point": [
+            13.0,
+            27.0,
+            2.4000000953674316
+          ],
+          "height_above_chord": 2.080000102519989
+        },
+        {
+          "point": [
+            12.994516372680664,
+            27.003997802734375,
+            2.3991363048553467
+          ],
+          "height_above_chord": 2.079136312007904
+        },
+        {
+          "point": [
+            12.989031791687012,
+            27.00799560546875,
+            2.396545648574829
+          ],
+          "height_above_chord": 2.0765456557273865
+        },
+        {
+          "point": [
+            12.983548164367676,
+            27.011995315551758,
+            2.3922276496887207
+          ],
+          "height_above_chord": 2.072227656841278
+        },
+        {
+          "point": [
+            12.97806453704834,
+            27.015993118286133,
+            2.3861823081970215
+          ],
+          "height_above_chord": 2.066182315349579
+        },
+        {
+          "point": [
+            12.972579956054688,
+            27.019990921020508,
+            2.3784098625183105
+          ],
+          "height_above_chord": 2.058409869670868
+        },
+        {
+          "point": [
+            12.967096328735352,
+            27.023988723754883,
+            2.368910312652588
+          ],
+          "height_above_chord": 2.0489103198051453
+        },
+        {
+          "point": [
+            12.961612701416016,
+            27.027986526489258,
+            2.3576834201812744
+          ],
+          "height_above_chord": 2.037683427333832
+        },
+        {
+          "point": [
+            12.956128120422363,
+            27.031986236572266,
+            2.344729423522949
+          ],
+          "height_above_chord": 2.0247294306755066
+        },
+        {
+          "point": [
+            12.950644493103027,
+            27.03598403930664,
+            2.330048084259033
+          ],
+          "height_above_chord": 2.0100480914115906
+        },
+        {
+          "point": [
+            12.945160865783691,
+            27.039981842041016,
+            1.8561068773269653
+          ],
+          "height_above_chord": 1.5361068844795227
+        },
+        {
+          "point": [
+            12.939677238464355,
+            27.04397964477539,
+            0.7561712265014648
+          ],
+          "height_above_chord": 0.4361712336540222
+        }
+      ]
+    },
+    {
+      "chord": [
+        [
+          13.96001,
+          -23.92889,
+          0.32
+        ],
+        [
+          14.03999,
+          -24.07111,
+          0.32
+        ]
+      ],
+      "omitted_points": 23,
+      "maximum_height_gap": 0.6800000071525574,
+      "samples": [
+        {
+          "point": [
+            14.036661148071289,
+            -24.065181732177734,
+            0.44155699014663696
+          ],
+          "height_above_chord": 0.12155699729919434
+        },
+        {
+          "point": [
+            14.03332805633545,
+            -24.05925750732422,
+            0.771946132183075
+          ],
+          "height_above_chord": 0.4519461393356323
+        },
+        {
+          "point": [
+            14.02999496459961,
+            -24.05333137512207,
+            0.9298009276390076
+          ],
+          "height_above_chord": 0.6098009347915649
+        },
+        {
+          "point": [
+            14.026662826538086,
+            -24.047405242919922,
+            0.9445340633392334
+          ],
+          "height_above_chord": 0.6245340704917908
+        },
+        {
+          "point": [
+            14.023329734802246,
+            -24.041479110717773,
+            0.9575338959693909
+          ],
+          "height_above_chord": 0.6375339031219482
+        },
+        {
+          "point": [
+            14.019996643066406,
+            -24.035554885864258,
+            0.96880042552948
+          ],
+          "height_above_chord": 0.6488004326820374
+        },
+        {
+          "point": [
+            14.016664505004883,
+            -24.02962875366211,
+            0.978333592414856
+          ],
+          "height_above_chord": 0.6583335995674133
+        },
+        {
+          "point": [
+            14.013331413269043,
+            -24.02370262145996,
+            0.9861335158348083
+          ],
+          "height_above_chord": 0.6661335229873657
+        },
+        {
+          "point": [
+            14.009998321533203,
+            -24.017776489257812,
+            0.9922000765800476
+          ],
+          "height_above_chord": 0.672200083732605
+        },
+        {
+          "point": [
+            14.006665229797363,
+            -24.011852264404297,
+            0.9965333938598633
+          ],
+          "height_above_chord": 0.6765334010124207
+        },
+        {
+          "point": [
+            14.00333309173584,
+            -24.00592613220215,
+            0.9991333484649658
+          ],
+          "height_above_chord": 0.6791333556175232
+        },
+        {
+          "point": [
+            14.0,
+            -24.0,
+            1.0
+          ],
+          "height_above_chord": 0.6800000071525574
+        },
+        {
+          "point": [
+            13.99666690826416,
+            -23.99407386779785,
+            0.9991333484649658
+          ],
+          "height_above_chord": 0.6791333556175232
+        },
+        {
+          "point": [
+            13.993334770202637,
+            -23.988147735595703,
+            0.9965333938598633
+          ],
+          "height_above_chord": 0.6765334010124207
+        },
+        {
+          "point": [
+            13.990001678466797,
+            -23.982223510742188,
+            0.9922000765800476
+          ],
+          "height_above_chord": 0.672200083732605
+        },
+        {
+          "point": [
+            13.986668586730957,
+            -23.97629737854004,
+            0.9861335158348083
+          ],
+          "height_above_chord": 0.6661335229873657
+        },
+        {
+          "point": [
+            13.983335494995117,
+            -23.97037124633789,
+            0.978333592414856
+          ],
+          "height_above_chord": 0.6583335995674133
+        },
+        {
+          "point": [
+            13.980003356933594,
+            -23.964445114135742,
+            0.96880042552948
+          ],
+          "height_above_chord": 0.6488004326820374
+        },
+        {
+          "point": [
+            13.976670265197754,
+            -23.958520889282227,
+            0.9575338959693909
+          ],
+          "height_above_chord": 0.6375339031219482
+        },
+        {
+          "point": [
+            13.973337173461914,
+            -23.952594757080078,
+            0.9445340633392334
+          ],
+          "height_above_chord": 0.6245340704917908
+        },
+        {
+          "point": [
+            13.97000503540039,
+            -23.94666862487793,
+            0.9298009276390076
+          ],
+          "height_above_chord": 0.6098009347915649
+        },
+        {
+          "point": [
+            13.96667194366455,
+            -23.94074249267578,
+            0.771946132183075
+          ],
+          "height_above_chord": 0.4519461393356323
+        },
+        {
+          "point": [
+            13.963338851928711,
+            -23.934818267822266,
+            0.44155699014663696
+          ],
+          "height_above_chord": 0.12155699729919434
+        }
+      ]
+    }
+  ],
+  "frozen_meshes": {
+    "IslandGround": {
+      "vertices": 3025,
+      "polygons": 5760,
+      "triangles": 5760,
+      "vertex_sha256": "c40dca0e585ef66baf27af8a9ca0f6844a4dc4a571e329d103b7d850d1d56e88",
+      "vertex_topology_sha256": "6b26c73cfecd48d5742957d3140af0494e48be0933c5172e9bf97bc584d466d9",
+      "world_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "StonePaths": {
+      "vertices": 600,
+      "polygons": 150,
+      "triangles": 300,
+      "vertex_sha256": "b24e106254478782eada093ba1fed4fd3552deef29a7bc9df5cd5243cb754e9f",
+      "vertex_topology_sha256": "232d00c4bb7b04dcc7f2fd84e27b0c7c3f7b838baf2805f1bb254812b759ad9d",
+      "world_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    }
+  },
+  "checks": [
+    {
+      "name": "only_declared_ground_vertices_changed",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "ground_topology_exact",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "changes_outside_boundary",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "anchor_1m_protected",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "paths_1m_protected",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "building_foundations_protected",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "StonePaths_exact_frozen",
+      "passed": true,
+      "detail": {
+        "vertices": 600,
+        "polygons": 150,
+        "triangles": 300,
+        "vertex_sha256": "b24e106254478782eada093ba1fed4fd3552deef29a7bc9df5cd5243cb754e9f",
+        "vertex_topology_sha256": "232d00c4bb7b04dcc7f2fd84e27b0c7c3f7b838baf2805f1bb254812b759ad9d",
+        "world_matrix": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      }
+    },
+    {
+      "name": "source_blend_unchanged",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "all_ground_boundary_edges_have_exact_partner",
+      "passed": true,
+      "detail": 288
+    },
+    {
+      "name": "no_spanning_top_chords",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "only_submerged_combined_open_rim",
+      "passed": true,
+      "detail": {
+        "combined_open_edges": 288,
+        "expected_bottom_edges": 288
+      }
+    },
+    {
+      "name": "no_nonmanifold_branch_or_wire",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "no_zero_area_faces",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "added_triangles_at_most_8000",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "top_vertices_exact",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "bottom_rim_below_water",
+      "passed": true,
+      "detail": null
+    }
+  ],
+  "coastline_vertex_changes": [
+    {
+      "vertex_index": 1,
+      "before_blender_xyz": [
+        12.939677238464355,
+        27.04397964477539,
+        0.7561712265014648
+      ],
+      "after_blender_xyz": [
+        12.939677238464355,
+        27.04397964477539,
+        0.3209136128425598
+      ],
+      "delta_height_metres": -0.43525761365890503,
+      "signed_distance_to_walkable_boundary_metres": -1.22437537237593,
+      "nearest_anchor": "Anchor_PlayerSpawn",
+      "nearest_anchor_planar_distance_metres": 2.973623952868062,
+      "distance_to_path_surface_planar_metres": 2.7386102846027036,
+      "nearest_house": "GrandmotherHouse",
+      "clearance_from_house_bounding_circle_metres": 10.449562705862558
+    },
+    {
+      "vertex_index": 2,
+      "before_blender_xyz": [
+        12.945160865783691,
+        27.039981842041016,
+        1.8561068773269653
+      ],
+      "after_blender_xyz": [
+        12.945160865783691,
+        27.039981842041016,
+        0.3226635754108429
+      ],
+      "delta_height_metres": -1.5334433019161224,
+      "signed_distance_to_walkable_boundary_metres": -1.2242293551532786,
+      "nearest_anchor": "Anchor_PlayerSpawn",
+      "nearest_anchor_planar_distance_metres": 2.9730507467322624,
+      "distance_to_path_surface_planar_metres": 2.7366624474076686,
+      "nearest_house": "GrandmotherHouse",
+      "clearance_from_house_bounding_circle_metres": 10.449998569325356
+    },
+    {
+      "vertex_index": 3,
+      "before_blender_xyz": [
+        12.950644493103027,
+        27.03598403930664,
+        2.330048084259033
+      ],
+      "after_blender_xyz": [
+        12.950644493103027,
+        27.03598403930664,
+        0.3228278160095215
+      ],
+      "delta_height_metres": -2.0072202682495117,
+      "signed_distance_to_walkable_boundary_metres": -1.2240827848863582,
+      "nearest_anchor": "Anchor_PlayerSpawn",
+      "nearest_anchor_planar_distance_metres": 2.972492950405427,
+      "distance_to_path_surface_planar_metres": 2.7347300489705546,
+      "nearest_house": "GrandmotherHouse",
+      "clearance_from_house_bounding_circle_metres": 10.450437694159936
+    },
+    {
+      "vertex_index": 4,
+      "before_blender_xyz": [
+        12.956128120422363,
+        27.031986236572266,
+        2.344729423522949
+      ],
+      "after_blender_xyz": [
+        12.956128120422363,
+        27.031986236572266,
+        0.32225438952445984
+      ],
+      "delta_height_metres": -2.0224750339984894,
+      "signed_distance_to_walkable_boundary_metres": -1.2239383033033344,
+      "nearest_anchor": "Anchor_PlayerSpawn",
+      "nearest_anchor_planar_distance_metres": 2.97195061267568,
+      "distance_to_path_surface_planar_metres": 2.732813220190321,
+      "nearest_house": "GrandmotherHouse",
+      "clearance_from_house_bounding_circle_metres": 10.450880352963864
+    },
+    {
+      "vertex_index": 5,
+      "before_blender_xyz": [
+        12.961612701416016,
+        27.027986526489258,
+        2.3576834201812744
+      ],
+      "after_blender_xyz": [
+        12.961612701416016,
+        27.027986526489258,
+        0.3217397928237915
+      ],
+      "delta_height_metres": -2.035943627357483,
+      "signed_distance_to_walkable_boundary_metres": -1.2237901517965535,
+      "nearest_anchor": "Anchor_PlayerSpawn",
+      "nearest_anchor_planar_distance_metres": 2.971422458212716,
+      "distance_to_path_surface_planar_metres": 2.730910400559983,
+      "nearest_house": "GrandmotherHouse",
+      "clearance_from_house_bounding_circle_metres": 10.45132518092025
+    },
+    {
+      "vertex_index": 6,
+      "before_blender_xyz": [
+        12.967096328735352,
+        27.023988723754883,
+        2.368910312652588
+      ],
+      "after_blender_xyz": [
+        12.967096328735352,
+        27.023988723754883,
+        0.3212873935699463
+      ],
+      "delta_height_metres": -2.0476229190826416,
+      "signed_distance_to_walkable_boundary_metres": -1.2236451607314767,
+      "nearest_anchor": "Anchor_PlayerSpawn",
+      "nearest_anchor_planar_distance_metres": 2.9709108619864,
+      "distance_to_path_surface_planar_metres": 2.72902454607986,
+      "nearest_house": "GrandmotherHouse",
+      "clearance_from_house_bounding_circle_metres": 10.45177408803452
+    },
+    {
+      "vertex_index": 7,
+      "before_blender_xyz": [
+        12.972579956054688,
+        27.019990921020508,
+        2.3784098625183105
+      ],
+      "after_blender_xyz": [
+        12.972579956054688,
+        27.019990921020508,
+        0.3208996653556824
+      ],
+      "delta_height_metres": -2.057510197162628,
+      "signed_distance_to_walkable_boundary_metres": -1.2234991294372917,
+      "nearest_anchor": "Anchor_PlayerSpawn",
+      "nearest_anchor_planar_distance_metres": 2.9704146285863198,
+      "distance_to_path_surface_planar_metres": 2.7271543696578786,
+      "nearest_house": "GrandmotherHouse",
+      "clearance_from_house_bounding_circle_metres": 10.452226528156418
+    },
+    {
+      "vertex_index": 8,
+      "before_blender_xyz": [
+        12.97806453704834,
+        27.015993118286133,
+        2.3861823081970215
+      ],
+      "after_blender_xyz": [
+        12.97806453704834,
+        27.015993118286133,
+        0.3205788731575012
+      ],
+      "delta_height_metres": -2.0656034350395203,
+      "signed_distance_to_walkable_boundary_metres": -1.223353153794927,
+      "nearest_anchor": "Anchor_PlayerSpawn",
+      "nearest_anchor_planar_distance_metres": 2.969934367793685,
+      "distance_to_path_surface_planar_metres": 2.7253000347953353,
+      "nearest_house": "GrandmotherHouse",
+      "clearance_from_house_bounding_circle_metres": 10.452682773812665
+    },
+    {
+      "vertex_index": 9,
+      "before_blender_xyz": [
+        12.983548164367676,
+        27.011995315551758,
+        2.3922276496887207
+      ],
+      "after_blender_xyz": [
+        12.983548164367676,
+        27.011995315551758,
+        0.32032713294029236
+      ],
+      "delta_height_metres": -2.0719005167484283,
+      "signed_distance_to_walkable_boundary_metres": -1.2232086591223228,
+      "nearest_anchor": "Anchor_PlayerSpawn",
+      "nearest_anchor_planar_distance_metres": 2.969469083733944,
+      "distance_to_path_surface_planar_metres": 2.723461114252504,
+      "nearest_house": "GrandmotherHouse",
+      "clearance_from_house_bounding_circle_metres": 10.453141460326798
+    },
+    {
+      "vertex_index": 10,
+      "before_blender_xyz": [
+        12.989031791687012,
+        27.00799560546875,
+        2.396545648574829
+      ],
+      "after_blender_xyz": [
+        12.989031791687012,
+        27.00799560546875,
+        0.3201459050178528
+      ],
+      "delta_height_metres": -2.0763997435569763,
+      "signed_distance_to_walkable_boundary_metres": -1.2230600049932367,
+      "nearest_anchor": "Anchor_PlayerSpawn",
+      "nearest_anchor_planar_distance_metres": 2.9690175387647266,
+      "distance_to_path_surface_planar_metres": 2.721636018652519,
+      "nearest_house": "GrandmotherHouse",
+      "clearance_from_house_bounding_circle_metres": 10.453602314606782
+    },
+    {
+      "vertex_index": 11,
+      "before_blender_xyz": [
+        12.994516372680664,
+        27.003997802734375,
+        2.3991363048553467
+      ],
+      "after_blender_xyz": [
+        12.994516372680664,
+        27.003997802734375,
+        0.3200365900993347
+      ],
+      "delta_height_metres": -2.079099714756012,
+      "signed_distance_to_walkable_boundary_metres": -1.2229155366081115,
+      "nearest_anchor": "Anchor_PlayerSpawn",
+      "nearest_anchor_planar_distance_metres": 2.968583634383034,
+      "distance_to_path_surface_planar_metres": 2.719828808162099,
+      "nearest_house": "GrandmotherHouse",
+      "clearance_from_house_bounding_circle_metres": 10.454068064865591
+    },
+    {
+      "vertex_index": 12,
+      "before_blender_xyz": [
+        13.0,
+        27.0,
+        2.4000000953674316
+      ],
+      "after_blender_xyz": [
+        13.0,
+        27.0,
+        0.3199999928474426
+      ],
+      "delta_height_metres": -2.080000102519989,
+      "signed_distance_to_walkable_boundary_metres": -1.2227695034821613,
+      "nearest_anchor": "Anchor_PlayerSpawn",
+      "nearest_anchor_planar_distance_metres": 2.968164607105279,
+      "distance_to_path_surface_planar_metres": 2.7180370075528835,
+      "nearest_house": "GrandmotherHouse",
+      "clearance_from_house_bounding_circle_metres": 10.454536800779163
+    },
+    {
+      "vertex_index": 13,
+      "before_blender_xyz": [
+        13.005483627319336,
+        26.996002197265625,
+        2.3991363048553467
+      ],
+      "after_blender_xyz": [
+        13.005483627319336,
+        26.996002197265625,
+        0.3200365900993347
+      ],
+      "delta_height_metres": -2.079099714756012,
+      "signed_distance_to_walkable_boundary_metres": -1.2226229653992362,
+      "nearest_anchor": "Anchor_PlayerSpawn",
+      "nearest_anchor_planar_distance_metres": 2.967761146090662,
+      "distance_to_path_surface_planar_metres": 2.7162608777287898,
+      "nearest_house": "GrandmotherHouse",
+      "clearance_from_house_bounding_circle_metres": 10.45500879487158
+    },
+    {
+      "vertex_index": 14,
+      "before_blender_xyz": [
+        13.010968208312988,
+        26.99200439453125,
+        2.396545648574829
+      ],
+      "after_blender_xyz": [
+        13.010968208312988,
+        26.99200439453125,
+        0.3201459050178528
+      ],
+      "delta_height_metres": -2.0763997435569763,
+      "signed_distance_to_walkable_boundary_metres": -1.2224784697448523,
+      "nearest_anchor": "Anchor_PlayerSpawn",
+      "nearest_anchor_planar_distance_metres": 2.9673735389019718,
+      "distance_to_path_surface_planar_metres": 2.7145009874182926,
+      "nearest_house": "GrandmotherHouse",
+      "clearance_from_house_bounding_circle_metres": 10.455484865258104
+    },
+    {
+      "vertex_index": 15,
+      "before_blender_xyz": [
+        13.016451835632324,
+        26.988004684448242,
+        2.3922276496887207
+      ],
+      "after_blender_xyz": [
+        13.016451835632324,
+        26.988004684448242,
+        0.32032713294029236
+      ],
+      "delta_height_metres": -2.0719005167484283,
+      "signed_distance_to_walkable_boundary_metres": -1.2223319089623932,
+      "nearest_anchor": "Anchor_PlayerSpawn",
+      "nearest_anchor_planar_distance_metres": 2.9669993408711535,
+      "distance_to_path_surface_planar_metres": 2.7127548304627203,
+      "nearest_house": "GrandmotherHouse",
+      "clearance_from_house_bounding_circle_metres": 10.455961737853686
+    },
+    {
+      "vertex_index": 16,
+      "before_blender_xyz": [
+        13.02193546295166,
+        26.984006881713867,
+        2.3861823081970215
+      ],
+      "after_blender_xyz": [
+        13.02193546295166,
+        26.984006881713867,
+        0.3205788731575012
+      ],
+      "delta_height_metres": -2.0656034350395203,
+      "signed_distance_to_walkable_boundary_metres": -1.2221858792549063,
+      "nearest_anchor": "Anchor_PlayerSpawn",
+      "nearest_anchor_planar_distance_metres": 2.9666421735659703,
+      "distance_to_path_surface_planar_metres": 2.7110262919459305,
+      "nearest_house": "GrandmotherHouse",
+      "clearance_from_house_bounding_circle_metres": 10.456443504522236
+    },
+    {
+      "vertex_index": 17,
+      "before_blender_xyz": [
+        13.027420043945312,
+        26.980009078979492,
+        2.3784098625183105
+      ],
+      "after_blender_xyz": [
+        13.027420043945312,
+        26.980009078979492,
+        0.3208996653556824
+      ],
+      "delta_height_metres": -2.057510197162628,
+      "signed_distance_to_walkable_boundary_metres": -1.222039880872068,
+      "nearest_anchor": "Anchor_PlayerSpawn",
+      "nearest_anchor_planar_distance_metres": 2.9663011188177424,
+      "distance_to_path_surface_planar_metres": 2.709313986596154,
+      "nearest_house": "GrandmotherHouse",
+      "clearance_from_house_bounding_circle_metres": 10.456929346397319
+    },
+    {
+      "vertex_index": 18,
+      "before_blender_xyz": [
+        13.032903671264648,
+        26.976011276245117,
+        2.368910312652588
+      ],
+      "after_blender_xyz": [
+        13.032903671264648,
+        26.976011276245117,
+        0.3212873935699463
+      ],
+      "delta_height_metres": -2.0476229190826416,
+      "signed_distance_to_walkable_boundary_metres": -1.2218948894355146,
+      "nearest_anchor": "Anchor_PlayerSpawn",
+      "nearest_anchor_planar_distance_metres": 2.9659749764166894,
+      "distance_to_path_surface_planar_metres": 2.7076172737936623,
+      "nearest_house": "GrandmotherHouse",
+      "clearance_from_house_bounding_circle_metres": 10.457417626390159
+    },
+    {
+      "vertex_index": 19,
+      "before_blender_xyz": [
+        13.038387298583984,
+        26.972013473510742,
+        2.3576834201812744
+      ],
+      "after_blender_xyz": [
+        13.038387298583984,
+        26.972013473510742,
+        0.3217397928237915
+      ],
+      "delta_height_metres": -2.035943627357483,
+      "signed_distance_to_walkable_boundary_metres": -1.2217488196897883,
+      "nearest_anchor": "Anchor_PlayerSpawn",
+      "nearest_anchor_planar_distance_metres": 2.9656643542300407,
+      "distance_to_path_surface_planar_metres": 2.7059364912527037,
+      "nearest_house": "GrandmotherHouse",
+      "clearance_from_house_bounding_circle_metres": 10.45790943531648
+    },
+    {
+      "vertex_index": 20,
+      "before_blender_xyz": [
+        13.043871879577637,
+        26.968013763427734,
+        2.344729423522949
+      ],
+      "after_blender_xyz": [
+        13.043871879577637,
+        26.968013763427734,
+        0.32225438952445984
+      ],
+      "delta_height_metres": -2.0224750339984894,
+      "signed_distance_to_walkable_boundary_metres": -1.2216023055466416,
+      "nearest_anchor": "Anchor_PlayerSpawn",
+      "nearest_anchor_planar_distance_metres": 2.965368131521158,
+      "distance_to_path_surface_planar_metres": 2.7042702911185583,
+      "nearest_house": "GrandmotherHouse",
+      "clearance_from_house_bounding_circle_metres": 10.458403409013412
+    },
+    {
+      "vertex_index": 21,
+      "before_blender_xyz": [
+        13.049355506896973,
+        26.96401596069336,
+        2.330048084259033
+      ],
+      "after_blender_xyz": [
+        13.049355506896973,
+        26.96401596069336,
+        0.3228278160095215
+      ],
+      "delta_height_metres": -2.0072202682495117,
+      "signed_distance_to_walkable_boundary_metres": -1.221456261809339,
+      "nearest_anchor": "Anchor_PlayerSpawn",
+      "nearest_anchor_planar_distance_metres": 2.9650884032298084,
+      "distance_to_path_surface_planar_metres": 2.7026215233242086,
+      "nearest_house": "GrandmotherHouse",
+      "clearance_from_house_bounding_circle_metres": 10.458901729239047
+    },
+    {
+      "vertex_index": 22,
+      "before_blender_xyz": [
+        13.054839134216309,
+        26.960018157958984,
+        1.8561068773269653
+      ],
+      "after_blender_xyz": [
+        13.054839134216309,
+        26.960018157958984,
+        0.3226635754108429
+      ],
+      "delta_height_metres": -1.5334433019161224,
+      "signed_distance_to_walkable_boundary_metres": -1.2213097125695527,
+      "nearest_anchor": "Anchor_PlayerSpawn",
+      "nearest_anchor_planar_distance_metres": 2.9648242894515313,
+      "distance_to_path_surface_planar_metres": 2.700988785392419,
+      "nearest_house": "GrandmotherHouse",
+      "clearance_from_house_bounding_circle_metres": 10.459403031835693
+    },
+    {
+      "vertex_index": 23,
+      "before_blender_xyz": [
+        13.060322761535645,
+        26.95602035522461,
+        0.7561712265014648
+      ],
+      "after_blender_xyz": [
+        13.060322761535645,
+        26.95602035522461,
+        0.3209136128425598
+      ],
+      "delta_height_metres": -0.43525761365890503,
+      "signed_distance_to_walkable_boundary_metres": -1.221165207952096,
+      "nearest_anchor": "Anchor_PlayerSpawn",
+      "nearest_anchor_planar_distance_metres": 2.9645756335146203,
+      "distance_to_path_surface_planar_metres": 2.6993721064105802,
+      "nearest_house": "GrandmotherHouse",
+      "clearance_from_house_bounding_circle_metres": 10.459907861940279
+    },
+    {
+      "vertex_index": 26,
+      "before_blender_xyz": [
+        12.504998207092285,
+        27.065025329589844,
+        0.641377329826355
+      ],
+      "after_blender_xyz": [
+        12.504998207092285,
+        27.065025329589844,
+        0.34700873494148254
+      ],
+      "delta_height_metres": -0.29436859488487244,
+      "signed_distance_to_walkable_boundary_metres": -0.9931763204682714,
+      "nearest_anchor": "Anchor_PlayerSpawn",
+      "nearest_anchor_planar_distance_metres": 2.792915439763844,
+      "distance_to_path_surface_planar_metres": 2.6475361665951636,
+      "nearest_house": "GrandmotherHouse",
+      "clearance_from_house_bounding_circle_metres": 10.192120316755195
+    },
+    {
+      "vertex_index": 27,
+      "before_blender_xyz": [
+        12.537398338317871,
+        27.041831970214844,
+        1.739099144935608
+      ],
+      "after_blender_xyz": [
+        12.537398338317871,
+        27.041831970214844,
+        0.42420050501823425
+      ],
+      "delta_height_metres": -1.3148986399173737,
+      "signed_distance_to_walkable_boundary_metres": -0.9926652133752532,
+      "nearest_anchor": "Anchor_PlayerSpawn",
+      "nearest_anchor_planar_distance_metres": 2.784705683362326,
+      "distance_to_path_surface_planar_metres": 2.630744552088999,
+      "nearest_house": "GrandmotherHouse",
+      "clearance_from_house_bounding_circle_metres": 10.19406487584758
+    },
+    {
+      "vertex_index": 28,
+      "before_blender_xyz": [
+        12.569798469543457,
+        27.018638610839844,
+        2.328457832336426
+      ],
+      "after_blender_xyz": [
+        12.569798469543457,
+        27.018638610839844,
+        0.44789353013038635
+      ],
+      "delta_height_metres": -1.8805643022060394,
+      "signed_distance_to_walkable_boundary_metres": -0.9921556302456501,
+      "nearest_anchor": "Anchor_PlayerSpawn",
+      "nearest_anchor_planar_distance_metres": 2.777043386707669,
+      "distance_to_path_surface_planar_metres": 2.614452396143651,
+      "nearest_house": "GrandmotherHouse",
+      "clearance_from_house_bounding_circle_metres": 10.196124795838427
+    },
+    {
+      "vertex_index": 29,
+      "before_blender_xyz": [
+        12.602198600769043,
+        26.995445251464844,
+        2.343472957611084
+      ],
+      "after_blender_xyz": [
+        12.602198600769043,
+        26.995445251464844,
+        0.4309365451335907
+      ],
+      "delta_height_metres": -1.9125364124774933,
+      "signed_distance_to_walkable_boundary_metres": -0.99164452301007,
+      "nearest_anchor": "Anchor_PlayerSpawn",
+      "nearest_anchor_planar_distance_metres": 2.7699331360538153,
+      "distance_to_path_surface_planar_metres": 2.598669184473577,
+      "nearest_house": "GrandmotherHouse",
+      "clearance_from_house_bounding_circle_metres": 10.19830002478786
+    },
+    {
+      "vertex_index": 30,
+      "before_blender_xyz": [
+        12.634598731994629,
+        26.972251892089844,
+        2.3567214012145996
+      ],
+      "after_blender_xyz": [
+        12.634598731994629,
+        26.972251892089844,
+        0.4155268967151642
+      ],
+      "delta_height_metres": -1.9411945044994354,
+      "signed_distance_to_walkable_boundary_metres": -0.9911349563416082,
+      "nearest_anchor": "Anchor_PlayerSpawn",
+      "nearest_anchor_planar_distance_metres": 2.7633791926926734,
+      "distance_to_path_surface_planar_metres": 2.58340414716713,
+      "nearest_house": "GrandmotherHouse",
+      "clearance_from_house_bounding_circle_metres": 10.200591063643609
+    },
+    {
+      "vertex_index": 31,
+      "before_blender_xyz": [
+        12.666998863220215,
+        26.94905662536621,
+        2.3682034015655518
+      ],
+      "after_blender_xyz": [
+        12.666998863220215,
+        26.94905662536621,
+        0.401809960603714
+      ],
+      "delta_height_metres": -1.9663934409618378,
+      "signed_distance_to_walkable_boundary_metres": -0.9906217581037068,
+      "nearest_anchor": "Anchor_PlayerSpawn",
+      "nearest_anchor_planar_distance_metres": 2.7573838373584985,
+      "distance_to_path_surface_planar_metres": 2.5686646776810016,
+      "nearest_house": "GrandmotherHouse",
+      "clearance_from_house_bounding_circle_metres": 10.202995076114052
+    },
+    {
+      "vertex_index": 32,
+      "before_blender_xyz": [
+        12.6993989944458,
+        26.92586326599121,
+        2.3779191970825195
+      ],
+      "after_blender_xyz": [
+        12.6993989944458,
+        26.92586326599121,
+        0.3899201452732086
+      ],
+      "delta_height_metres": -1.987999051809311,
+      "signed_distance_to_walkable_boundary_metres": -0.9901121918127131,
+      "nearest_anchor": "Anchor_PlayerSpawn",
+      "nearest_anchor_planar_distance_metres": 2.7519540563382807,
+      "distance_to_path_surface_planar_metres": 2.5544636887903804,
+      "nearest_house": "GrandmotherHouse",
+      "clearance_from_house_bounding_circle_metres": 10.205516447364474
+    },
+    {
+      "vertex_index": 33,
+      "before_blender_xyz": [
+        12.731799125671387,
+        26.90266990661621,
+        2.3858683109283447
+      ],
+      "after_blender_xyz": [
+        12.731799125671387,
+        26.90266990661621,
+        0.3799798786640167
+      ],
+      "delta_height_metres": -2.005888432264328,
+      "signed_distance_to_walkable_boundary_metres": -0.9896010681704752,
+      "nearest_anchor": "Anchor_PlayerSpawn",
+      "nearest_anchor_planar_distance_metres": 2.747091706182803,
+      "distance_to_path_surface_planar_metres": 2.540808244785479,
+      "nearest_house": "GrandmotherHouse",
+      "clearance_from_house_bounding_circle_metres": 10.208152613216724
+    },
+    {
+      "vertex_index": 34,
+      "before_blender_xyz": [
+        12.764200210571289,
+        26.87947654724121,
+        2.3920509815216064
+      ],
+      "after_blender_xyz": [
+        12.764200210571289,
+        26.87947654724121,
+        0.37209659814834595
+      ],
+      "delta_height_metres": -2.0199543833732605,
+      "signed_distance_to_walkable_boundary_metres": -0.9890920607501879,
+      "nearest_anchor": "Anchor_PlayerSpawn",
+      "nearest_anchor_planar_distance_metres": 2.7428000002468957,
+      "distance_to_path_surface_planar_metres": 2.5277074584565367,
+      "nearest_house": "GrandmotherHouse",
+      "clearance_from_house_bounding_circle_metres": 10.210904340604158
+    },
+    {
+      "vertex_index": 35,
+      "before_blender_xyz": [
+        12.796600341796875,
+        26.85628318786621,
+        2.3964669704437256
+      ],
+      "after_blender_xyz": [
+        12.796600341796875,
+        26.85628318786621,
+        0.3663613200187683
+      ],
+      "delta_height_metres": -2.0301056504249573,
+      "signed_distance_to_walkable_boundary_metres": -0.9885809523102445,
+      "nearest_anchor": "Anchor_PlayerSpawn",
+      "nearest_anchor_planar_distance_metres": 2.7390809027515486,
+      "distance_to_path_surface_planar_metres": 2.51516945783739,
+      "nearest_house": "GrandmotherHouse",
+      "clearance_from_house_bounding_circle_metres": 10.213770727258714
+    },
+    {
+      "vertex_index": 36,
+      "before_blender_xyz": [
+        12.829000473022461,
+        26.83308982849121,
+        2.3991167545318604
+      ],
+      "after_blender_xyz": [
+        12.829000473022461,
+        26.83308982849121,
+        0.36284294724464417
+      ],
+      "delta_height_metres": -2.036273807287216,
+      "signed_distance_to_walkable_boundary_metres": -0.9880714042938472,
+      "nearest_anchor": "Anchor_PlayerSpawn",
+      "nearest_anchor_planar_distance_metres": 2.7359370973979975,
+      "distance_to_path_surface_planar_metres": 2.5032030686337725,
+      "nearest_house": "GrandmotherHouse",
+      "clearance_from_house_bounding_circle_metres": 10.216751978995735
+    },
+    {
+      "vertex_index": 37,
+      "before_blender_xyz": [
+        12.861400604248047,
+        26.80989646911621,
+        2.4000000953674316
+      ],
+      "after_blender_xyz": [
+        12.861400604248047,
+        26.80989646911621,
+        0.36158573627471924
+      ],
+      "delta_height_metres": -2.0384143590927124,
+      "signed_distance_to_walkable_boundary_metres": -0.9875602957268358,
+      "nearest_anchor": "Anchor_PlayerSpawn",
+      "nearest_anchor_planar_distance_metres": 2.733370569215853,
+      "distance_to_path_surface_planar_metres": 2.491816418324896,
+      "nearest_house": "GrandmotherHouse",
+      "clearance_from_house_bounding_circle_metres": 10.21984802108482
+    },
+    {
+      "vertex_index": 38,
+      "before_blender_xyz": [
+        12.893800735473633,
+        26.78670310974121,
+        2.3991146087646484
+      ],
+      "after_blender_xyz": [
+        12.893800735473633,
+        26.78670310974121,
+        0.36260566115379333
+      ],
+      "delta_height_metres": -2.036508947610855,
+      "signed_distance_to_walkable_boundary_metres": -0.9870491942404586,
+      "nearest_anchor": "Anchor_PlayerSpawn",
+      "nearest_anchor_planar_distance_metres": 2.7313829455110623,
+      "distance_to_path_surface_planar_metres": 2.4810174890729746,
+      "nearest_house": "GrandmotherHouse",
+      "clearance_from_house_bounding_circle_metres": 10.223058775986749
+    },
+    {
+      "vertex_index": 39,
+      "before_blender_xyz": [
+        12.926200866699219,
+        26.763507843017578,
+        2.3964500427246094
+      ],
+      "after_blender_xyz": [
+        12.926200866699219,
+        26.763507843017578,
+        0.3658895194530487
+      ],
+      "delta_height_metres": -2.0305605232715607,
+      "signed_distance_to_walkable_boundary_metres": -0.9865375107701843,
+      "nearest_anchor": "Anchor_PlayerSpawn",
+      "nearest_anchor_planar_distance_metres": 2.729974006067963,
+      "distance_to_path_surface_planar_metres": 2.4708122621337893,
+      "nearest_house": "GrandmotherHouse",
+      "clearance_from_house_bounding_circle_metres": 10.226383053925167
+    },
+    {
+      "vertex_index": 40,
+      "before_blender_xyz": [
+        12.958600997924805,
+        26.740314483642578,
+        2.3919930458068848
+      ],
+      "after_blender_xyz": [
+        12.958600997924805,
+        26.740314483642578,
+        0.3713935315608978
+      ],
+      "delta_height_metres": -2.020599514245987,
+      "signed_distance_to_walkable_boundary_metres": -0.9860264080604424,
+      "nearest_anchor": "Anchor_PlayerSpawn",
+      "nearest_anchor_planar_distance_metres": 2.7291477484205102,
+      "distance_to_path_surface_planar_metres": 2.461211597981925,
+      "nearest_house": "GrandmotherHouse",
+      "clearance_from_house_bounding_circle_metres": 10.229822990925719
+    },
+    {
+      "vertex_index": 41,
+      "before_blender_xyz": [
+        12.99100112915039,
+        26.717121124267578,
+        2.385730504989624
+      ],
+      "after_blender_xyz": [
+        12.99100112915039,
+        26.717121124267578,
+        0.3790501356124878
+      ],
+      "delta_height_metres": -2.0066803693771362,
+      "signed_distance_to_walkable_boundary_metres": -0.9855168547047845,
+      "nearest_anchor": "Anchor_PlayerSpawn",
+      "nearest_anchor_planar_distance_metres": 2.728903041851911,
+      "distance_to_path_surface_planar_metres": 2.4522209566939654,
+      "nearest_house": "GrandmotherHouse",
+      "clearance_from_house_bounding_circle_metres": 10.233377668594068
+    },
+    {
+      "vertex_index": 42,
+      "before_blender_xyz": [
+        13.023401260375977,
+        26.693927764892578,
+        2.3776493072509766
+      ],
+      "after_blender_xyz": [
+        13.023401260375977,
+        26.693927764892578,
+        0.38876932859420776
+      ],
+      "delta_height_metres": -1.9888799786567688,
+      "signed_distance_to_walkable_boundary_metres": -0.9850057367457913,
+      "nearest_anchor": "Anchor_PlayerSpawn",
+      "nearest_anchor_planar_distance_metres": 2.729240217503893,
+      "distance_to_path_surface_planar_metres": 2.443847058702943,
+      "nearest_house": "GrandmotherHouse",
+      "clearance_from_house_bounding_circle_metres": 10.237046720888989
+    },
+    {
+      "vertex_index": 43,
+      "before_blender_xyz": [
+        13.055802345275879,
+        26.670734405517578,
+        2.3677361011505127
+      ],
+      "after_blender_xyz": [
+        13.055802345275879,
+        26.670734405517578,
+        0.4004427492618561
+      ],
+      "delta_height_metres": -1.9672933518886566,
+      "signed_distance_to_walkable_boundary_metres": -0.9844961848671816,
+      "nearest_anchor": "Anchor_PlayerSpawn",
+      "nearest_anchor_planar_distance_metres": 2.7301594090993344,
+      "distance_to_path_surface_planar_metres": 2.436096472015338,
+      "nearest_house": "GrandmotherHouse",
+      "clearance_from_house_bounding_circle_metres": 10.24083061050831
+    },
+    {
+      "vertex_index": 44,
+      "before_blender_xyz": [
+        13.088202476501465,
+        26.647541046142578,
+        2.3559770584106445
+      ],
+      "after_blender_xyz": [
+        13.088202476501465,
+        26.647541046142578,
+        0.4139464497566223
+      ],
+      "delta_height_metres": -1.9420306086540222,
+      "signed_distance_to_walkable_boundary_metres": -0.9839850667638342,
+      "nearest_anchor": "Anchor_PlayerSpawn",
+      "nearest_anchor_planar_distance_metres": 2.73165915630333,
+      "distance_to_path_surface_planar_metres": 2.4289745744510736,
+      "nearest_house": "GrandmotherHouse",
+      "clearance_from_house_bounding_circle_metres": 10.244728411826252
+    },
+    {
+      "vertex_index": 45,
+      "before_blender_xyz": [
+        13.12060260772705,
+        26.624347686767578,
+        2.3423593044281006
+      ],
+      "after_blender_xyz": [
+        13.12060260772705,
+        26.624347686767578,
+        0.4291434586048126
+      ],
+      "delta_height_metres": -1.913215845823288,
+      "signed_distance_to_walkable_boundary_metres": -0.9834755315175614,
+      "nearest_anchor": "Anchor_PlayerSpawn",
+      "nearest_anchor_planar_distance_metres": 2.73373880887281,
+      "distance_to_path_surface_planar_metres": 2.4224871938424037,
+      "nearest_house": "GrandmotherHouse",
+      "clearance_from_house_bounding_circle_metres": 10.248740305061006
+    },
+    {
+      "vertex_index": 46,
+      "before_blender_xyz": [
+        13.153002738952637,
+        26.601152420043945,
+        2.326814651489258
+      ],
+      "after_blender_xyz": [
+        13.153002738952637,
+        26.601152420043945,
+        0.44588255882263184
+      ],
+      "delta_height_metres": -1.880932092666626,
+      "signed_distance_to_walkable_boundary_metres": -0.9829622909583514,
+      "nearest_anchor": "Anchor_PlayerSpawn",
+      "nearest_anchor_planar_distance_metres": 2.7363957376996444,
+      "distance_to_path_surface_planar_metres": 2.416637763036881,
+      "nearest_house": "GrandmotherHouse",
+      "clearance_from_house_bounding_circle_metres": 10.252864529604723
+    },
+    {
+      "vertex_index": 47,
+      "before_blender_xyz": [
+        13.185402870178223,
+        26.577959060668945,
+        1.6030794382095337
+      ],
+      "after_blender_xyz": [
+        13.185402870178223,
+        26.577959060668945,
+        0.4128779470920563
+      ],
+      "delta_height_metres": -1.1902014911174774,
+      "signed_distance_to_walkable_boundary_metres": -0.9824527257849368,
+      "nearest_anchor": "Anchor_PlayerSpawn",
+      "nearest_anchor_planar_distance_metres": 2.739631135085962,
+      "distance_to_path_surface_planar_metres": 2.4114344096524727,
+      "nearest_house": "GrandmotherHouse",
+      "clearance_from_house_bounding_circle_metres": 10.257104582267884
+    },
+    {
+      "vertex_index": 48,
+      "before_blender_xyz": [
+        13.217803001403809,
+        26.554765701293945,
+        0.5206621289253235
+      ],
+      "after_blender_xyz": [
+        13.217803001403809,
+        26.554765701293945,
+        0.3366374969482422
+      ],
+      "delta_height_metres": -0.1840246319770813,
+      "signed_distance_to_walkable_boundary_metres": -0.9819416214639917,
+      "nearest_anchor": "Anchor_PlayerSpawn",
+      "nearest_anchor_planar_distance_metres": 2.7434414770504016,
+      "distance_to_path_surface_planar_metres": 2.406879491333794,
+      "nearest_house": "GrandmotherHouse",
+      "clearance_from_house_bounding_circle_metres": 10.261458142966838
+    },
+    {
+      "vertex_index": 51,
+      "before_blender_xyz": [
+        11.93708324432373,
+        27.108074188232422,
+        0.5674632787704468
+      ],
+      "after_blender_xyz": [
+        11.93708324432373,
+        27.108074188232422,
+        0.40059325098991394
+      ],
+      "delta_height_metres": -0.16687002778053284,
+      "signed_distance_to_walkable_boundary_metres": -0.7038725799399713,
+      "nearest_anchor": "Anchor_PlayerSpawn",
+      "nearest_anchor_planar_distance_metres": 2.6628011363055277,
+      "distance_to_path_surface_planar_metres": 2.648075135233984,
+      "nearest_house": "GrandmotherHouse",
+      "clearance_from_house_bounding_circle_metres": 9.882153787615064
+    },
+    {
+      "vertex_index": 52,
+      "before_blender_xyz": [
+        12.006144523620605,
+        27.05974006652832,
+        1.6514098644256592
+      ],
+      "after_blender_xyz": [
+        12.006144523620605,
+        27.05974006652832,
+        0.7053190469741821
+      ],
+      "delta_height_metres": -0.946090817451477,
+      "signed_distance_to_walkable_boundary_metres": -0.7036889781379032,
+      "nearest_anchor": "Anchor_PlayerSpawn",
+      "nearest_anchor_planar_distance_metres": 2.630528582851795,
+      "distance_to_path_surface_planar_metres": 2.5997409801574296,
+      "nearest_house": "GrandmotherHouse",
+      "clearance_from_house_bounding_circle_metres": 9.884338696841269
+    },
+    {
+      "vertex_index": 53,
+      "before_blender_xyz": [
+        12.07520580291748,
+        27.011404037475586,
+        2.327310085296631
+      ],
+      "after_blender_xyz": [
+        12.07520580291748,
+        27.011404037475586,
+        0.8323371410369873
+      ],
+      "delta_height_metres": -1.4949729442596436,
+      "signed_distance_to_walkable_boundary_metres": -0.7035053813724437,
+      "nearest_anchor": "Anchor_PlayerSpawn",
+      "nearest_anchor_planar_distance_metres": 2.6005871923531725,
+      "distance_to_path_surface_planar_metres": 2.5517629222530385,
+      "nearest_house": "GrandmotherHouse",
+      "clearance_from_house_bounding_circle_metres": 9.887051061799395
+    },
+    {
+      "vertex_index": 54,
+      "before_blender_xyz": [
+        12.144268035888672,
+        26.963069915771484,
+        2.3425660133361816
+      ],
+      "after_blender_xyz": [
+        12.144268035888672,
+        26.963069915771484,
+        0.7720015048980713
+      ],
+      "delta_height_metres": -1.5705645084381104,
+      "signed_distance_to_walkable_boundary_metres": -0.7033217790541206,
+      "nearest_anchor": "Anchor_PlayerSpawn",
+      "nearest_anchor_planar_distance_metres": 2.573062144862955,
+      "distance_to_path_surface_planar_metres": 2.5055664408628355,
+      "nearest_house": "GrandmotherHouse",
+      "clearance_from_house_bounding_circle_metres": 9.890294827216985
+    },
+    {
+      "vertex_index": 55,
+      "before_blender_xyz": [
+        12.213329315185547,
+        26.91473388671875,
+        2.356027126312256
+      ],
+      "after_blender_xyz": [
+        12.213329315185547,
+        26.91473388671875,
+        0.7159035205841064
+      ],
+      "delta_height_metres": -1.6401236057281494,
+      "signed_distance_to_walkable_boundary_metres": -0.7031376307730536,
+      "nearest_anchor": "Anchor_PlayerSpawn",
+      "nearest_anchor_planar_distance_metres": 2.548027667052583,
+      "distance_to_path_surface_planar_metres": 2.461388672993724,
+      "nearest_house": "GrandmotherHouse",
+      "clearance_from_house_bounding_circle_metres": 9.894065344390103
+    },
+    {
+      "vertex_index": 56,
+      "before_blender_xyz": [
+        12.282390594482422,
+        26.86639976501465,
+        2.3676934242248535
+      ],
+      "after_blender_xyz": [
+        12.282390594482422,
+        26.86639976501465,
+        0.6649308800697327
+      ],
+      "delta_height_metres": -1.7027625441551208,
+      "signed_distance_to_walkable_boundary_metres": -0.7029540383927109,
+      "nearest_anchor": "Anchor_PlayerSpawn",
+      "nearest_anchor_planar_distance_metres": 2.5255616403782297,
+      "distance_to_path_surface_planar_metres": 2.419344165739044,
+      "nearest_house": "GrandmotherHouse",
+      "clearance_from_house_bounding_circle_metres": 9.898365295007936
+    },
+    {
+      "vertex_index": 57,
+      "before_blender_xyz": [
+        12.351451873779297,
+        26.818063735961914,
+        2.3775649070739746
+      ],
+      "after_blender_xyz": [
+        12.351451873779297,
+        26.818063735961914,
+        0.619934618473053
+      ],
+      "delta_height_metres": -1.7576302886009216,
+      "signed_distance_to_walkable_boundary_metres": -0.7027688607982895,
+      "nearest_anchor": "Anchor_PlayerSpawn",
+      "nearest_anchor_planar_distance_metres": 2.50572957084006,
+      "distance_to_path_surface_planar_metres": 2.3795419933420487,
+      "nearest_house": "GrandmotherHouse",
+      "clearance_from_house_bounding_circle_metres": 9.903191898281714
+    },
+    {
+      "vertex_index": 58,
+      "before_blender_xyz": [
+        12.420513153076172,
+        26.769729614257812,
+        2.385641574859619
+      ],
+      "after_blender_xyz": [
+        12.420513153076172,
+        26.769729614257812,
+        0.5817102789878845
+      ],
+      "delta_height_metres": -1.8039312958717346,
+      "signed_distance_to_walkable_boundary_metres": -0.7025868369628844,
+      "nearest_anchor": "Anchor_PlayerSpawn",
+      "nearest_anchor_planar_distance_metres": 2.4885980473280855,
+      "distance_to_path_surface_planar_metres": 2.342100548482145,
+      "nearest_house": "GrandmotherHouse",
+      "clearance_from_house_bounding_circle_metres": 9.908546858001008
+    },
+    {
+      "vertex_index": 59,
+      "before_blender_xyz": [
+        12.489574432373047,
+        26.721393585205078,
+        2.391923427581787
+      ],
+      "after_blender_xyz": [
+        12.489574432373047,
+        26.721393585205078,
+        0.5509796142578125
+      ],
+      "delta_height_metres": -1.8409438133239746,
+      "signed_distance_to_walkable_boundary_metres": -0.7024011064475084,
+      "nearest_anchor": "Anchor_PlayerSpawn",
+      "nearest_anchor_planar_distance_metres": 2.474219600868862,
+      "distance_to_path_surface_planar_metres": 2.307130740533332,
+      "nearest_house": "GrandmotherHouse",
+      "clearance_from_house_bounding_circle_metres": 9.914426704733142
+    },
+    {
+      "vertex_index": 60,
+      "before_blender_xyz": [
+        12.558636665344238,
+        26.673059463500977,
+        2.3964104652404785
+      ],
+      "after_blender_xyz": [
+        12.558636665344238,
+        26.673059463500977,
+        0.5283592939376831
+      ],
+      "delta_height_metres": -1.8680511713027954,
+      "signed_distance_to_walkable_boundary_metres": -0.7022196238885245,
+      "nearest_anchor": "Anchor_PlayerSpawn",
+      "nearest_anchor_planar_distance_metres": 2.462646399662776,
+      "distance_to_path_surface_planar_metres": 2.2747507660970667,
+      "nearest_house": "GrandmotherHouse",
+      "clearance_from_house_bounding_circle_metres": 9.920834437592303
+    },
+    {
+      "vertex_index": 61,
+      "before_blender_xyz": [
+        12.627697944641113,
+        26.624723434448242,
+        2.3991026878356934
+      ],
+      "after_blender_xyz": [
+        12.627697944641113,
+        26.624723434448242,
+        0.5143352150917053
+      ],
+      "delta_height_metres": -1.884767472743988,
+      "signed_distance_to_walkable_boundary_metres": -0.7020339023515362,
+      "nearest_anchor": "Anchor_PlayerSpawn",
+      "nearest_anchor_planar_distance_metres": 2.453913762306682,
+      "distance_to_path_surface_planar_metres": 2.2450682314081187,
+      "nearest_house": "GrandmotherHouse",
+      "clearance_from_house_bounding_circle_metres": 9.927765333174776
+    },
+    {
+      "vertex_index": 62,
+      "before_blender_xyz": [
+        12.696759223937988,
+        26.57638931274414,
+        2.4000000953674316
+      ],
+      "after_blender_xyz": [
+        12.696759223937988,
+        26.57638931274414,
+        0.5092191100120544
+      ],
+      "delta_height_metres": -1.8907809853553772,
+      "signed_distance_to_walkable_boundary_metres": -0.7018503078760857,
+      "nearest_anchor": "Anchor_PlayerSpawn",
+      "nearest_anchor_planar_distance_metres": 2.4480560073694373,
+      "distance_to_path_surface_planar_metres": 2.218195590747155,
+      "nearest_house": "GrandmotherHouse",
+      "clearance_from_house_bounding_circle_metres": 9.935221983756659
+    },
+    {
+      "vertex_index": 63,
+      "before_blender_xyz": [
+        12.765820503234863,
+        26.528053283691406,
+        2.399101734161377
+      ],
+      "after_blender_xyz": [
+        12.765820503234863,
+        26.528053283691406,
+        0.5131294131278992
+      ],
+      "delta_height_metres": -1.8859723210334778,
+      "signed_distance_to_walkable_boundary_metres": -0.701666718454276,
+      "nearest_anchor": "Anchor_PlayerSpawn",
+      "nearest_anchor_planar_distance_metres": 2.4450903112118363,
+      "distance_to_path_surface_planar_metres": 2.194232403460691,
+      "nearest_house": "GrandmotherHouse",
+      "clearance_from_house_bounding_circle_metres": 9.943200401139773
+    },
+    {
+      "vertex_index": 64,
+      "before_blender_xyz": [
+        12.834881782531738,
+        26.479719161987305,
+        2.396402597427368
+      ],
+      "after_blender_xyz": [
+        12.834881782531738,
+        26.479719161987305,
+        0.5259708762168884
+      ],
+      "delta_height_metres": -1.8704317212104797,
+      "signed_distance_to_walkable_boundary_metres": -0.7014831128477091,
+      "nearest_anchor": "Anchor_PlayerSpawn",
+      "nearest_anchor_planar_distance_metres": 2.4450306105306505,
+      "distance_to_path_surface_planar_metres": 2.173278410057644,
+      "nearest_house": "GrandmotherHouse",
+      "clearance_from_house_bounding_circle_metres": 9.951703054935889
+    },
+    {
+      "vertex_index": 65,
+      "before_blender_xyz": [
+        12.90394401550293,
+        26.43138313293457,
+        2.391897439956665
+      ],
+      "after_blender_xyz": [
+        12.90394401550293,
+        26.43138313293457,
+        0.5474526882171631
+      ],
+      "delta_height_metres": -1.844444751739502,
+      "signed_distance_to_walkable_boundary_metres": -0.7012989598452682,
+      "nearest_anchor": "Anchor_PlayerSpawn",
+      "nearest_anchor_planar_distance_metres": 2.4478744881966454,
+      "distance_to_path_surface_planar_metres": 2.1554181802644643,
+      "nearest_house": "GrandmotherHouse",
+      "clearance_from_house_bounding_circle_metres": 9.960726125504852
+    },
+    {
+      "vertex_index": 66,
+      "before_blender_xyz": [
+        12.973005294799805,
+        26.38304901123047,
+        2.385579824447632
+      ],
+      "after_blender_xyz": [
+        12.973005294799805,
+        26.38304901123047,
+        0.5771053433418274
+      ],
+      "delta_height_metres": -1.8084744811058044,
+      "signed_distance_to_walkable_boundary_metres": -0.7011153535721676,
+      "nearest_anchor": "Anchor_PlayerSpawn",
+      "nearest_anchor_planar_distance_metres": 2.453613767101942,
+      "distance_to_path_surface_planar_metres": 2.1407320176821267,
+      "nearest_house": "GrandmotherHouse",
+      "clearance_from_house_bounding_circle_metres": 9.970270264886443
+    },
+    {
+      "vertex_index": 67,
+      "before_blender_xyz": [
+        13.04206657409668,
+        26.334712982177734,
+        2.37744402885437
+      ],
+      "after_blender_xyz": [
+        13.04206657409668,
+        26.334712982177734,
+        0.6143240928649902
+      ],
+      "delta_height_metres": -1.7631199359893799,
+      "signed_distance_to_walkable_boundary_metres": -0.7009301898080196,
+      "nearest_anchor": "Anchor_PlayerSpawn",
+      "nearest_anchor_planar_distance_metres": 2.4622257796448137,
+      "distance_to_path_surface_planar_metres": 2.12928242290983,
+      "nearest_house": "GrandmotherHouse",
+      "clearance_from_house_bounding_circle_metres": 9.980332391672494
+    },
+    {
+      "vertex_index": 68,
+      "before_blender_xyz": [
+        13.111127853393555,
+        26.286378860473633,
+        2.3674845695495605
+      ],
+      "after_blender_xyz": [
+        13.111127853393555,
+        26.286378860473633,
+        0.6583917140960693
+      ],
+      "delta_height_metres": -1.7090928554534912,
+      "signed_distance_to_walkable_boundary_metres": -0.7007481668205385,
+      "nearest_anchor": "Anchor_PlayerSpawn",
+      "nearest_anchor_planar_distance_metres": 2.4736833653817007,
+      "distance_to_path_surface_planar_metres": 2.1211253070767007,
+      "nearest_house": "GrandmotherHouse",
+      "clearance_from_house_bounding_circle_metres": 9.99091417109134
+    },
+    {
+      "vertex_index": 69,
+      "before_blender_xyz": [
+        13.18018913269043,
+        26.2380428314209,
+        2.3556950092315674
+      ],
+      "after_blender_xyz": [
+        13.18018913269043,
+        26.2380428314209,
+        0.7085176110267639
+      ],
+      "delta_height_metres": -1.6471773982048035,
+      "signed_distance_to_walkable_boundary_metres": -0.700562427425117,
+      "nearest_anchor": "Anchor_PlayerSpawn",
+      "nearest_anchor_planar_distance_metres": 2.487944479868684,
+      "distance_to_path_surface_planar_metres": 2.1162953485360716,
+      "nearest_house": "GrandmotherHouse",
+      "clearance_from_house_bounding_circle_metres": 10.002011564226056
+    },
+    {
+      "vertex_index": 70,
+      "before_blender_xyz": [
+        13.249250411987305,
+        26.189708709716797,
+        2.3420698642730713
+      ],
+      "after_blender_xyz": [
+        13.249250411987305,
+        26.189708709716797,
+        0.7638471126556396
+      ],
+      "delta_height_metres": -1.5782227516174316,
+      "signed_distance_to_walkable_boundary_metres": -0.7003788514644969,
+      "nearest_anchor": "Anchor_PlayerSpawn",
+      "nearest_anchor_planar_distance_metres": 2.5049638582618554,
+      "distance_to_path_surface_planar_metres": 2.114818556783139,
+      "nearest_house": "GrandmotherHouse",
+      "clearance_from_house_bounding_circle_metres": 10.013625838822385
+    },
+    {
+      "vertex_index": 71,
+      "before_blender_xyz": [
+        13.318312644958496,
+        26.141372680664062,
+        2.3260700702667236
+      ],
+      "after_blender_xyz": [
+        13.318312644958496,
+        26.141372680664062,
+        0.8233577609062195
+      ],
+      "delta_height_metres": -1.5027123093605042,
+      "signed_distance_to_walkable_boundary_metres": -0.7001952380149727,
+      "nearest_anchor": "Anchor_PlayerSpawn",
+      "nearest_anchor_planar_distance_metres": 2.5246839722123435,
+      "distance_to_path_surface_planar_metres": 2.1166994158646824,
+      "nearest_house": "GrandmotherHouse",
+      "clearance_from_house_bounding_circle_metres": 10.025753977259548
+    },
+    {
+      "vertex_index": 72,
+      "before_blender_xyz": [
+        13.387373924255371,
+        26.09303855895996,
+        1.5902214050292969
+      ],
+      "after_blender_xyz": [
+        13.387373924255371,
+        26.09303855895996,
+        0.6817445158958435
+      ],
+      "delta_height_metres": -0.9084768891334534,
+      "signed_distance_to_walkable_boundary_metres": -0.7000116296210849,
+      "nearest_anchor": "Anchor_PlayerSpawn",
+      "nearest_anchor_planar_distance_metres": 2.5470431219673397,
+      "distance_to_path_surface_planar_metres": 2.1219309635113923,
+      "nearest_house": "GrandmotherHouse",
+      "clearance_from_house_bounding_circle_metres": 10.03839572611434
+    },
+    {
+      "vertex_index": 73,
+      "before_blender_xyz": [
+        13.456435203552246,
+        26.044702529907227,
+        0.5171806216239929
+      ],
+      "after_blender_xyz": [
+        13.456435203552246,
+        26.044702529907227,
+        0.3832559883594513
+      ],
+      "delta_height_metres": -0.13392463326454163,
+      "signed_distance_to_walkable_boundary_metres": -0.6998274939715041,
+      "nearest_anchor": "Anchor_PlayerSpawn",
+      "nearest_anchor_planar_distance_metres": 2.571970674350553,
+      "distance_to_path_surface_planar_metres": 2.130486082391909,
+      "nearest_house": "GrandmotherHouse",
+      "clearance_from_house_bounding_circle_metres": 10.051547684369941
+    },
+    {
+      "vertex_index": 76,
+      "before_blender_xyz": [
+        11.265092849731445,
+        27.168102264404297,
+        0.5436357259750366
+      ],
+      "after_blender_xyz": [
+        11.265092849731445,
+        27.168102264404297,
+        0.5133870244026184
+      ],
+      "delta_height_metres": -0.030248701572418213,
+      "signed_distance_to_walkable_boundary_metres": -0.3690105491625383,
+      "nearest_anchor": "Anchor_PlayerSpawn",
+      "nearest_anchor_planar_distance_metres": 2.6715107116622576,
+      "distance_to_path_surface_planar_metres": 2.7081031603695176,
+      "nearest_house": "GrandmotherHouse",
+      "clearance_from_house_bounding_circle_metres": 9.545529436645031
+    },
+    {
+      "vertex_index": 77,
+      "before_blender_xyz": [
+        11.378067970275879,
+        27.089611053466797,
+        1.6203932762145996
+      ],
+      "after_blender_xyz": [
+        11.378067970275879,
+        27.089611053466797,
+        1.4108060598373413
+      ],
+      "delta_height_metres": -0.2095872163772583,
+      "signed_distance_to_walkable_boundary_metres": -0.36918462258982726,
+      "nearest_anchor": "Anchor_PlayerSpawn",
+      "nearest_anchor_planar_distance_metres": 2.58970388312634,
+      "distance_to_path_surface_planar_metres": 2.629612004629458,
+      "nearest_house": "GrandmotherHouse",
+      "clearance_from_house_bounding_circle_metres": 9.543784326950185
+    },
+    {
+      "vertex_index": 78,
+      "before_blender_xyz": [
+        11.491042137145996,
+        27.011117935180664,
+        2.3268864154815674
+      ],
+      "after_blender_xyz": [
+        11.491042137145996,
+        27.011117935180664,
+        1.9513176679611206
+      ],
+      "delta_height_metres": -0.3755687475204468,
+      "signed_distance_to_walkable_boundary_metres": -0.3693560420817509,
+      "nearest_anchor": "Anchor_PlayerSpawn",
+      "nearest_anchor_planar_distance_metres": 2.512767780139607,
+      "distance_to_path_surface_planar_metres": 2.551118837131464,
+      "nearest_house": "GrandmotherHouse",
+      "clearance_from_house_bounding_circle_metres": 9.543484599885522
+    },
+    {
+      "vertex_index": 79,
+      "before_blender_xyz": [
+        11.604016304016113,
+        26.932626724243164,
+        2.342250108718872
+      ],
+      "after_blender_xyz": [
+        11.604016304016113,
+        26.932626724243164,
+        1.9123501777648926
+      ],
+      "delta_height_metres": -0.4298999309539795,
+      "signed_distance_to_walkable_boundary_metres": -0.3695285413937166,
+      "nearest_anchor": "Anchor_PlayerSpawn",
+      "nearest_anchor_planar_distance_metres": 2.44116681946671,
+      "distance_to_path_surface_planar_metres": 2.4726276124859714,
+      "nearest_house": "GrandmotherHouse",
+      "clearance_from_house_bounding_circle_metres": 9.544634148599188
+    },
+    {
+      "vertex_index": 80,
+      "before_blender_xyz": [
+        11.716991424560547,
+        26.85413360595703,
+        2.3557851314544678
+      ],
+      "after_blender_xyz": [
+        11.716991424560547,
+        26.85413360595703,
+        1.8734450340270996
+      ],
+      "delta_height_metres": -0.48234009742736816,
+      "signed_distance_to_walkable_boundary_metres": -0.36970050677638033,
+      "nearest_anchor": "Anchor_PlayerSpawn",
+      "nearest_anchor_planar_distance_metres": 2.3753797139746973,
+      "distance_to_path_surface_planar_metres": 2.394134538405952,
+      "nearest_house": "GrandmotherHouse",
+      "clearance_from_house_bounding_circle_metres": 9.54723040256474
+    },
+    {
+      "vertex_index": 81,
+      "before_blender_xyz": [
+        11.829965591430664,
+        26.7756404876709,
+        2.3675155639648438
+      ],
+      "after_blender_xyz": [
+        11.829965591430664,
+        26.7756404876709,
+        1.8359521627426147
+      ],
+      "delta_height_metres": -0.531563401222229,
+      "signed_distance_to_walkable_boundary_metres": -0.3698730166595749,
+      "nearest_anchor": "Anchor_PlayerSpawn",
+      "nearest_anchor_planar_distance_metres": 2.315903816606172,
+      "distance_to_path_surface_planar_metres": 2.315641383062933,
+      "nearest_house": "GrandmotherHouse",
+      "clearance_from_house_bounding_circle_metres": 9.55127235437453
+    },
+    {
+      "vertex_index": 82,
+      "before_blender_xyz": [
+        11.942939758300781,
+        26.6971492767334,
+        2.37744140625
+      ],
+      "after_blender_xyz": [
+        11.942939758300781,
+        26.6971492767334,
+        1.801176905632019
+      ],
+      "delta_height_metres": -0.576264500617981,
+      "signed_distance_to_walkable_boundary_metres": -0.37004653336803517,
+      "nearest_anchor": "Anchor_PlayerSpawn",
+      "nearest_anchor_planar_distance_metres": 2.2632386234839847,
+      "distance_to_path_surface_planar_metres": 2.237150162780782,
+      "nearest_house": "GrandmotherHouse",
+      "clearance_from_house_bounding_circle_metres": 9.55676128818896
+    },
+    {
+      "vertex_index": 83,
+      "before_blender_xyz": [
+        12.055914878845215,
+        26.618656158447266,
+        2.3855624198913574
+      ],
+      "after_blender_xyz": [
+        12.055914878845215,
+        26.618656158447266,
+        1.7703802585601807
+      ],
+      "delta_height_metres": -0.6151821613311768,
+      "signed_distance_to_walkable_boundary_metres": -0.3702190430125544,
+      "nearest_anchor": "Anchor_PlayerSpawn",
+      "nearest_anchor_planar_distance_metres": 2.2178657677133704,
+      "distance_to_path_surface_planar_metres": 2.1587844583795217,
+      "nearest_house": "GrandmotherHouse",
+      "clearance_from_house_bounding_circle_metres": 9.56369232418089
+    },
+    {
+      "vertex_index": 84,
+      "before_blender_xyz": [
+        12.168889045715332,
+        26.540164947509766,
+        2.391878843307495
+      ],
+      "after_blender_xyz": [
+        12.168889045715332,
+        26.540164947509766,
+        1.744722604751587
+      ],
+      "delta_height_metres": -0.6471562385559082,
+      "signed_distance_to_walkable_boundary_metres": -0.3703909995980934,
+      "nearest_anchor": "Anchor_PlayerSpawn",
+      "nearest_anchor_planar_distance_metres": 2.180243991925325,
+      "distance_to_path_surface_planar_metres": 2.0846344502347716,
+      "nearest_house": "GrandmotherHouse",
+      "clearance_from_house_bounding_circle_metres": 9.572065648554155
+    },
+    {
+      "vertex_index": 85,
+      "before_blender_xyz": [
+        12.28186321258545,
+        26.461671829223633,
+        2.396390676498413
+      ],
+      "after_blender_xyz": [
+        12.28186321258545,
+        26.461671829223633,
+        1.725219488143921
+      ],
+      "delta_height_metres": -0.6711711883544922,
+      "signed_distance_to_walkable_boundary_metres": -0.3705629568130938,
+      "nearest_anchor": "Anchor_PlayerSpawn",
+      "nearest_anchor_planar_distance_metres": 2.1507765642773973,
+      "distance_to_path_surface_planar_metres": 2.017149564901959,
+      "nearest_house": "GrandmotherHouse",
+      "clearance_from_house_bounding_circle_metres": 9.581875587606701
+    },
+    {
+      "vertex_index": 86,
+      "before_blender_xyz": [
+        12.394838333129883,
+        26.383180618286133,
+        2.3990976810455322
+      ],
+      "after_blender_xyz": [
+        12.394838333129883,
+        26.383180618286133,
+        1.7126723527908325
+      ],
+      "delta_height_metres": -0.6864253282546997,
+      "signed_distance_to_walkable_boundary_metres": -0.37073703486164095,
+      "nearest_anchor": "Anchor_PlayerSpawn",
+      "nearest_anchor_planar_distance_metres": 2.129805950472756,
+      "distance_to_path_surface_planar_metres": 1.9570233274440338,
+      "nearest_house": "GrandmotherHouse",
+      "clearance_from_house_bounding_circle_metres": 9.59312298936818
+    },
+    {
+      "vertex_index": 87,
+      "before_blender_xyz": [
+        12.5078125,
+        26.3046875,
+        2.4000000953674316
+      ],
+      "after_blender_xyz": [
+        12.5078125,
+        26.3046875,
+        1.7076412439346313
+      ],
+      "delta_height_metres": -0.6923588514328003,
+      "signed_distance_to_walkable_boundary_metres": -0.37090899234998215,
+      "nearest_anchor": "Anchor_PlayerSpawn",
+      "nearest_anchor_planar_distance_metres": 2.1175803069972674,
+      "distance_to_path_surface_planar_metres": 1.9049485211600654,
+      "nearest_house": "GrandmotherHouse",
+      "clearance_from_house_bounding_circle_metres": 9.605799513171997
+    },
+    {
+      "vertex_index": 88,
+      "before_blender_xyz": [
+        12.620786666870117,
+        26.226194381713867,
+        2.399097442626953
+      ],
+      "after_blender_xyz": [
+        12.620786666870117,
+        26.226194381713867,
+        1.7103354930877686
+      ],
+      "delta_height_metres": -0.6887619495391846,
+      "signed_distance_to_walkable_boundary_metres": -0.37108095548558095,
+      "nearest_anchor": "Anchor_PlayerSpawn",
+      "nearest_anchor_planar_distance_metres": 2.1142535555402437,
+      "distance_to_path_surface_planar_metres": 1.861603059107505,
+      "nearest_house": "GrandmotherHouse",
+      "clearance_from_house_bounding_circle_metres": 9.619903346356429
+    },
+    {
+      "vertex_index": 89,
+      "before_blender_xyz": [
+        12.73376178741455,
+        26.147703170776367,
+        2.3963897228240967
+      ],
+      "after_blender_xyz": [
+        12.73376178741455,
+        26.147703170776367,
+        1.720624327659607
+      ],
+      "delta_height_metres": -0.6757653951644897,
+      "signed_distance_to_walkable_boundary_metres": -0.3712534610991544,
+      "nearest_anchor": "Anchor_PlayerSpawn",
+      "nearest_anchor_planar_distance_metres": 2.1198696306467566,
+      "distance_to_path_surface_planar_metres": 1.8276103428275794,
+      "nearest_house": "GrandmotherHouse",
+      "clearance_from_house_bounding_circle_metres": 9.635431929507806
+    },
+    {
+      "vertex_index": 90,
+      "before_blender_xyz": [
+        12.846735954284668,
+        26.069210052490234,
+        2.3918755054473877
+      ],
+      "after_blender_xyz": [
+        12.846735954284668,
+        26.069210052490234,
+        1.7380553483963013
+      ],
+      "delta_height_metres": -0.6538201570510864,
+      "signed_distance_to_walkable_boundary_metres": -0.37142542021260905,
+      "nearest_anchor": "Anchor_PlayerSpawn",
+      "nearest_anchor_planar_distance_metres": 2.134353807380432,
+      "distance_to_path_surface_planar_metres": 1.8034949883364133,
+      "nearest_house": "GrandmotherHouse",
+      "clearance_from_house_bounding_circle_metres": 9.65237617444129
+    },
+    {
+      "vertex_index": 91,
+      "before_blender_xyz": [
+        12.959710121154785,
+        25.990718841552734,
+        2.385554552078247
+      ],
+      "after_blender_xyz": [
+        12.959710121154785,
+        25.990718841552734,
+        1.7618765830993652
+      ],
+      "delta_height_metres": -0.6236779689788818,
+      "signed_distance_to_walkable_boundary_metres": -0.371599485210482,
+      "nearest_anchor": "Anchor_PlayerSpawn",
+      "nearest_anchor_planar_distance_metres": 2.1575308602823458,
+      "distance_to_path_surface_planar_metres": 1.7896600083640375,
+      "nearest_house": "GrandmotherHouse",
+      "clearance_from_house_bounding_circle_metres": 9.670734097095117
+    },
+    {
+      "vertex_index": 92,
+      "before_blender_xyz": [
+        13.072685241699219,
+        25.9122257232666,
+        2.3774256706237793
+      ],
+      "after_blender_xyz": [
+        13.072685241699219,
+        25.9122257232666,
+        1.791143774986267
+      ],
+      "delta_height_metres": -0.5862818956375122,
+      "signed_distance_to_walkable_boundary_metres": -0.37177144460003464,
+      "nearest_anchor": "Anchor_PlayerSpawn",
+      "nearest_anchor_planar_distance_metres": 2.1891228514363292,
+      "distance_to_path_surface_planar_metres": 1.7863416679998423,
+      "nearest_house": "GrandmotherHouse",
+      "clearance_from_house_bounding_circle_metres": 9.690497209721546
+    },
+    {
+      "vertex_index": 93,
+      "before_blender_xyz": [
+        13.185659408569336,
+        25.8337345123291,
+        2.3674886226654053
+      ],
+      "after_blender_xyz": [
+        13.185659408569336,
+        25.8337345123291,
+        1.8247250318527222
+      ],
+      "delta_height_metres": -0.5427635908126831,
+      "signed_distance_to_walkable_boundary_metres": -0.37194396048755246,
+      "nearest_anchor": "Anchor_PlayerSpawn",
+      "nearest_anchor_planar_distance_metres": 2.228772909974145,
+      "distance_to_path_surface_planar_metres": 1.7936002662182082,
+      "nearest_house": "GrandmotherHouse",
+      "clearance_from_house_bounding_circle_metres": 9.711661236293233
+    },
+    {
+      "vertex_index": 94,
+      "before_blender_xyz": [
+        13.298633575439453,
+        25.75524139404297,
+        2.3557422161102295
+      ],
+      "after_blender_xyz": [
+        13.298633575439453,
+        25.75524139404297,
+        1.8613958358764648
+      ],
+      "delta_height_metres": -0.49434638023376465,
+      "signed_distance_to_walkable_boundary_metres": -0.3721159108573246,
+      "nearest_anchor": "Anchor_PlayerSpawn",
+      "nearest_anchor_planar_distance_metres": 2.27605840355301,
+      "distance_to_path_surface_planar_metres": 1.8113063301715038,
+      "nearest_house": "GrandmotherHouse",
+      "clearance_from_house_bounding_circle_metres": 9.734217456064005
+    },
+    {
+      "vertex_index": 95,
+      "before_blender_xyz": [
+        13.411608695983887,
+        25.676748275756836,
+        2.3421859741210938
+      ],
+      "after_blender_xyz": [
+        13.411608695983887,
+        25.676748275756836,
+        1.8998563289642334
+      ],
+      "delta_height_metres": -0.44232964515686035,
+      "signed_distance_to_walkable_boundary_metres": -0.3722878718658615,
+      "nearest_anchor": "Anchor_PlayerSpawn",
+      "nearest_anchor_planar_distance_metres": 2.3305166364271193,
+      "distance_to_path_surface_planar_metres": 1.8391603468126827,
+      "nearest_house": "GrandmotherHouse",
+      "clearance_from_house_bounding_circle_metres": 9.758160500760427
+    },
+    {
+      "vertex_index": 96,
+      "before_blender_xyz": [
+        13.524582862854004,
+        25.598257064819336,
+        2.3267130851745605
+      ],
+      "after_blender_xyz": [
+        13.524582862854004,
+        25.598257064819336,
+        1.9386802911758423
+      ],
+      "delta_height_metres": -0.38803279399871826,
+      "signed_distance_to_walkable_boundary_metres": -0.3724619438825913,
+      "nearest_anchor": "Anchor_PlayerSpawn",
+      "nearest_anchor_planar_distance_metres": 2.3916568648462,
+      "distance_to_path_surface_planar_metres": 1.8767102389023143,
+      "nearest_house": "GrandmotherHouse",
+      "clearance_from_house_bounding_circle_metres": 9.78348288660983
+    },
+    {
+      "vertex_index": 97,
+      "before_blender_xyz": [
+        13.637557029724121,
+        25.519763946533203,
+        1.612494945526123
+      ],
+      "after_blender_xyz": [
+        13.637557029724121,
+        25.519763946533203,
+        1.3962701559066772
+      ],
+      "delta_height_metres": -0.2162247896194458,
+      "signed_distance_to_walkable_boundary_metres": -0.3726339051607138,
+      "nearest_anchor": "Anchor_PlayerSpawn",
+      "nearest_anchor_planar_distance_metres": 2.4589798422022486,
+      "distance_to_path_surface_planar_metres": 1.9233866073606227,
+      "nearest_house": "GrandmotherHouse",
+      "clearance_from_house_bounding_circle_metres": 9.810174755068726
+    },
+    {
+      "vertex_index": 98,
+      "before_blender_xyz": [
+        13.750532150268555,
+        25.441272735595703,
+        0.5371719002723694
+      ],
+      "after_blender_xyz": [
+        13.750532150268555,
+        25.441272735595703,
+        0.5065273642539978
+      ],
+      "delta_height_metres": -0.030644536018371582,
+      "signed_distance_to_walkable_boundary_metres": -0.37280641165507933,
+      "nearest_anchor": "Anchor_PlayerSpawn",
+      "nearest_anchor_planar_distance_metres": 2.531994733632443,
+      "distance_to_path_surface_planar_metres": 1.9785464586602448,
+      "nearest_house": "GrandmotherHouse",
+      "clearance_from_house_bounding_circle_metres": 9.838231326224705
+    },
+    {
+      "vertex_index": 101,
+      "before_blender_xyz": [
+        10.521775245666504,
+        27.236202239990234,
+        0.5473189949989319
+      ],
+      "after_blender_xyz": [
+        10.521775245666504,
+        27.236202239990234,
+        0.547244668006897
+      ],
+      "delta_height_metres": -7.432699203491211e-05,
+      "signed_distance_to_walkable_boundary_metres": -0.13454770432065666,
+      "nearest_anchor": "Anchor_PlayerSpawn",
+      "nearest_anchor_planar_distance_metres": 2.873687631196578,
+      "distance_to_path_surface_planar_metres": 2.78781890392049,
+      "nearest_house": "GrandmotherHouse",
+      "clearance_from_house_bounding_circle_metres": 9.205950872560376
+    },
+    {
+      "vertex_index": 123,
+      "before_blender_xyz": [
+        14.070817947387695,
+        24.763797760009766,
+        0.5726468563079834
+      ],
+      "after_blender_xyz": [
+        14.070817947387695,
+        24.763797760009766,
+        0.572527289390564
+      ],
+      "delta_height_metres": -0.0001195669174194336,
+      "signed_distance_to_walkable_boundary_metres": -0.14044958588429235,
+      "nearest_anchor": "Anchor_PlayerSpawn",
+      "nearest_anchor_planar_distance_metres": 2.6838144492027256,
+      "distance_to_path_surface_planar_metres": 2.0608659433952665,
+      "nearest_house": "GrandmotherHouse",
+      "clearance_from_house_bounding_circle_metres": 9.627885384729927
+    },
+    {
+      "vertex_index": 2926,
+      "before_blender_xyz": [
+        13.349525451660156,
+        -25.166576385498047,
+        0.48318275809288025
+      ],
+      "after_blender_xyz": [
+        13.349525451660156,
+        -25.166576385498047,
+        0.4132674038410187
+      ],
+      "delta_height_metres": -0.06991535425186157,
+      "signed_distance_to_walkable_boundary_metres": -0.5285377548558184,
+      "nearest_anchor": "Target_Sea",
+      "nearest_anchor_planar_distance_metres": 6.582507777863228,
+      "distance_to_path_surface_planar_metres": 15.924675454660827,
+      "nearest_house": "VillageHouse_11",
+      "clearance_from_house_bounding_circle_metres": 20.115364613249344
+    },
+    {
+      "vertex_index": 2927,
+      "before_blender_xyz": [
+        13.31704044342041,
+        -25.118053436279297,
+        1.016231894493103
+      ],
+      "after_blender_xyz": [
+        13.31704044342041,
+        -25.118053436279297,
+        0.7105111479759216
+      ],
+      "delta_height_metres": -0.3057207465171814,
+      "signed_distance_to_walkable_boundary_metres": -0.5282962673730169,
+      "nearest_anchor": "Target_Sea",
+      "nearest_anchor_planar_distance_metres": 6.524207374691653,
+      "distance_to_path_surface_planar_metres": 15.889569390942983,
+      "nearest_house": "VillageHouse_11",
+      "clearance_from_house_bounding_circle_metres": 20.068028474163267
+    },
+    {
+      "vertex_index": 2928,
+      "before_blender_xyz": [
+        13.284555435180664,
+        -25.069528579711914,
+        1.2988466024398804
+      ],
+      "after_blender_xyz": [
+        13.284555435180664,
+        -25.069528579711914,
+        0.8595252633094788
+      ],
+      "delta_height_metres": -0.4393213391304016,
+      "signed_distance_to_walkable_boundary_metres": -0.5280555724607132,
+      "nearest_anchor": "Target_Sea",
+      "nearest_anchor_planar_distance_metres": 6.465907038810077,
+      "distance_to_path_surface_planar_metres": 15.854599926309035,
+      "nearest_house": "VillageHouse_11",
+      "clearance_from_house_bounding_circle_metres": 20.020743622926418
+    },
+    {
+      "vertex_index": 2929,
+      "before_blender_xyz": [
+        13.252069473266602,
+        -25.021005630493164,
+        1.313829779624939
+      ],
+      "after_blender_xyz": [
+        13.252069473266602,
+        -25.021005630493164,
+        0.8591337203979492
+      ],
+      "delta_height_metres": -0.45469605922698975,
+      "signed_distance_to_walkable_boundary_metres": -0.5278132785567781,
+      "nearest_anchor": "Target_Sea",
+      "nearest_anchor_planar_distance_metres": 6.407609376662186,
+      "distance_to_path_surface_planar_metres": 15.819768168186064,
+      "nearest_house": "VillageHouse_11",
+      "clearance_from_house_bounding_circle_metres": 19.973509703508228
+    },
+    {
+      "vertex_index": 2930,
+      "before_blender_xyz": [
+        13.219584465026855,
+        -24.97248077392578,
+        1.3270506858825684
+      ],
+      "after_blender_xyz": [
+        13.219584465026855,
+        -24.97248077392578,
+        0.8585897088050842
+      ],
+      "delta_height_metres": -0.46846097707748413,
+      "signed_distance_to_walkable_boundary_metres": -0.5275725821869469,
+      "nearest_anchor": "Target_Sea",
+      "nearest_anchor_planar_distance_metres": 6.3493125843818286,
+      "distance_to_path_surface_planar_metres": 15.785076289362637,
+      "nearest_house": "VillageHouse_11",
+      "clearance_from_house_bounding_circle_metres": 19.926328317052636
+    },
+    {
+      "vertex_index": 2931,
+      "before_blender_xyz": [
+        13.18709945678711,
+        -24.92395782470703,
+        1.3385101556777954
+      ],
+      "after_blender_xyz": [
+        13.18709945678711,
+        -24.92395782470703,
+        0.8580191135406494
+      ],
+      "delta_height_metres": -0.480491042137146,
+      "signed_distance_to_walkable_boundary_metres": -0.5273310977689571,
+      "nearest_anchor": "Target_Sea",
+      "nearest_anchor_planar_distance_metres": 6.2910191874359285,
+      "distance_to_path_surface_planar_metres": 15.750524906653117,
+      "nearest_house": "VillageHouse_11",
+      "clearance_from_house_bounding_circle_metres": 19.879200479930756
+    },
+    {
+      "vertex_index": 2932,
+      "before_blender_xyz": [
+        13.154614448547363,
+        -24.87543296813965,
+        1.3482087850570679
+      ],
+      "after_blender_xyz": [
+        13.154614448547363,
+        -24.87543296813965,
+        0.857524037361145
+      ],
+      "delta_height_metres": -0.49068474769592285,
+      "signed_distance_to_walkable_boundary_metres": -0.5270914533866669,
+      "nearest_anchor": "Target_Sea",
+      "nearest_anchor_planar_distance_metres": 6.232725838350151,
+      "distance_to_path_surface_planar_metres": 15.716113809860039,
+      "nearest_house": "VillageHouse_11",
+      "clearance_from_house_bounding_circle_metres": 19.832127302332054
+    },
+    {
+      "vertex_index": 2933,
+      "before_blender_xyz": [
+        13.1221284866333,
+        -24.826908111572266,
+        1.356147289276123
+      ],
+      "after_blender_xyz": [
+        13.1221284866333,
+        -24.826908111572266,
+        0.857200562953949
+      ],
+      "delta_height_metres": -0.4989467263221741,
+      "signed_distance_to_walkable_boundary_metres": -0.5268499676379205,
+      "nearest_anchor": "Target_Sea",
+      "nearest_anchor_planar_distance_metres": 6.1744340830336455,
+      "distance_to_path_surface_planar_metres": 15.681844494513914,
+      "nearest_house": "VillageHouse_11",
+      "clearance_from_house_bounding_circle_metres": 19.785105700140402
+    },
+    {
+      "vertex_index": 2934,
+      "before_blender_xyz": [
+        13.089643478393555,
+        -24.778385162353516,
+        1.3623262643814087
+      ],
+      "after_blender_xyz": [
+        13.089643478393555,
+        -24.778385162353516,
+        0.8571197986602783
+      ],
+      "delta_height_metres": -0.5052064657211304,
+      "signed_distance_to_walkable_boundary_metres": -0.5266084701892054,
+      "nearest_anchor": "Target_Sea",
+      "nearest_anchor_planar_distance_metres": 6.1161463059663905,
+      "distance_to_path_surface_planar_metres": 15.64771844351673,
+      "nearest_house": "VillageHouse_11",
+      "clearance_from_house_bounding_circle_metres": 19.73814064328289
+    },
+    {
+      "vertex_index": 2935,
+      "before_blender_xyz": [
+        13.057158470153809,
+        -24.729860305786133,
+        1.3667463064193726
+      ],
+      "after_blender_xyz": [
+        13.057158470153809,
+        -24.729860305786133,
+        0.8573352098464966
+      ],
+      "delta_height_metres": -0.509411096572876,
+      "signed_distance_to_walkable_boundary_metres": -0.5263677819979394,
+      "nearest_anchor": "Target_Sea",
+      "nearest_anchor_planar_distance_metres": 6.0578590798622685,
+      "distance_to_path_surface_planar_metres": 15.613736464063418,
+      "nearest_house": "VillageHouse_11",
+      "clearance_from_house_bounding_circle_metres": 19.691227236710116
+    },
+    {
+      "vertex_index": 2936,
+      "before_blender_xyz": [
+        13.024672508239746,
+        -24.681337356567383,
+        1.369408130645752
+      ],
+      "after_blender_xyz": [
+        13.024672508239746,
+        -24.681337356567383,
+        0.8578881025314331
+      ],
+      "delta_height_metres": -0.5115200281143188,
+      "signed_distance_to_walkable_boundary_metres": -0.5261254967723195,
+      "nearest_anchor": "Target_Sea",
+      "nearest_anchor_planar_distance_metres": 5.999574964091694,
+      "distance_to_path_surface_planar_metres": 15.57989814982404,
+      "nearest_house": "VillageHouse_11",
+      "clearance_from_house_bounding_circle_metres": 19.64436978053545
+    },
+    {
+      "vertex_index": 2937,
+      "before_blender_xyz": [
+        12.9921875,
+        -24.6328125,
+        1.3703124523162842
+      ],
+      "after_blender_xyz": [
+        12.9921875,
+        -24.6328125,
+        0.8587902784347534
+      ],
+      "delta_height_metres": -0.5115221738815308,
+      "signed_distance_to_walkable_boundary_metres": -0.5258848000482168,
+      "nearest_anchor": "Target_Sea",
+      "nearest_anchor_planar_distance_metres": 5.941291963480039,
+      "distance_to_path_surface_planar_metres": 15.5462062941082,
+      "nearest_house": "VillageHouse_11",
+      "clearance_from_house_bounding_circle_metres": 19.59756655521873
+    },
+    {
+      "vertex_index": 2938,
+      "before_blender_xyz": [
+        12.959702491760254,
+        -24.584287643432617,
+        1.3694339990615845
+      ],
+      "after_blender_xyz": [
+        12.959702491760254,
+        -24.584287643432617,
+        0.8600298166275024
+      ],
+      "delta_height_metres": -0.509404182434082,
+      "signed_distance_to_walkable_boundary_metres": -0.5256441065006583,
+      "nearest_anchor": "Target_Sea",
+      "nearest_anchor_planar_distance_metres": 5.883011164863259,
+      "distance_to_path_surface_planar_metres": 15.512661416050058,
+      "nearest_house": "VillageHouse_11",
+      "clearance_from_house_bounding_circle_metres": 19.5508200742493
+    },
+    {
+      "vertex_index": 2939,
+      "before_blender_xyz": [
+        12.927216529846191,
+        -24.535764694213867,
+        1.366798758506775
+      ],
+      "after_blender_xyz": [
+        12.927216529846191,
+        -24.535764694213867,
+        0.8616005182266235
+      ],
+      "delta_height_metres": -0.5051982402801514,
+      "signed_distance_to_walkable_boundary_metres": -0.5254026078343154,
+      "nearest_anchor": "Target_Sea",
+      "nearest_anchor_planar_distance_metres": 5.824733780438044,
+      "distance_to_path_surface_planar_metres": 15.479263025765142,
+      "nearest_house": "VillageHouse_11",
+      "clearance_from_house_bounding_circle_metres": 19.50412922314964
+    },
+    {
+      "vertex_index": 2940,
+      "before_blender_xyz": [
+        12.894731521606445,
+        -24.487239837646484,
+        1.3624064922332764
+      ],
+      "after_blender_xyz": [
+        12.894731521606445,
+        -24.487239837646484,
+        0.8634584546089172
+      ],
+      "delta_height_metres": -0.49894803762435913,
+      "signed_distance_to_walkable_boundary_metres": -0.5251619202824982,
+      "nearest_anchor": "Target_Sea",
+      "nearest_anchor_planar_distance_metres": 5.76645743297338,
+      "distance_to_path_surface_planar_metres": 15.446013977134585,
+      "nearest_house": "VillageHouse_11",
+      "clearance_from_house_bounding_circle_metres": 19.457495228257265
+    },
+    {
+      "vertex_index": 2941,
+      "before_blender_xyz": [
+        12.8622465133667,
+        -24.438716888427734,
+        1.3562573194503784
+      ],
+      "after_blender_xyz": [
+        12.8622465133667,
+        -24.438716888427734,
+        0.8655482530593872
+      ],
+      "delta_height_metres": -0.4907090663909912,
+      "signed_distance_to_walkable_boundary_metres": -0.5249204268778308,
+      "nearest_anchor": "Target_Sea",
+      "nearest_anchor_planar_distance_metres": 5.708185328585907,
+      "distance_to_path_surface_planar_metres": 15.41291480195068,
+      "nearest_house": "VillageHouse_11",
+      "clearance_from_house_bounding_circle_metres": 19.410916010430793
+    },
+    {
+      "vertex_index": 2942,
+      "before_blender_xyz": [
+        12.829760551452637,
+        -24.39019203186035,
+        1.3483513593673706
+      ],
+      "after_blender_xyz": [
+        12.829760551452637,
+        -24.39019203186035,
+        0.8677911758422852
+      ],
+      "delta_height_metres": -0.48056018352508545,
+      "signed_distance_to_walkable_boundary_metres": -0.524679986742038,
+      "nearest_anchor": "Target_Sea",
+      "nearest_anchor_planar_distance_metres": 5.649913547495859,
+      "distance_to_path_surface_planar_metres": 15.379964931002851,
+      "nearest_house": "VillageHouse_11",
+      "clearance_from_house_bounding_circle_metres": 19.364393669287143
+    },
+    {
+      "vertex_index": 2943,
+      "before_blender_xyz": [
+        12.79727554321289,
+        -24.34166717529297,
+        1.3386884927749634
+      ],
+      "after_blender_xyz": [
+        12.79727554321289,
+        -24.34166717529297,
+        0.870095431804657
+      ],
+      "delta_height_metres": -0.4685930609703064,
+      "signed_distance_to_walkable_boundary_metres": -0.5244392943039586,
+      "nearest_anchor": "Target_Sea",
+      "nearest_anchor_planar_distance_metres": 5.591644871304934,
+      "distance_to_path_surface_planar_metres": 15.34716734188761,
+      "nearest_house": "VillageHouse_11",
+      "clearance_from_house_bounding_circle_metres": 19.31792848187719
+    },
+    {
+      "vertex_index": 2944,
+      "before_blender_xyz": [
+        12.764790534973145,
+        -24.29314422607422,
+        1.3272686004638672
+      ],
+      "after_blender_xyz": [
+        12.764790534973145,
+        -24.29314422607422,
+        0.8723538517951965
+      ],
+      "delta_height_metres": -0.45491474866867065,
+      "signed_distance_to_walkable_boundary_metres": -0.5241977948976366,
+      "nearest_anchor": "Target_Sea",
+      "nearest_anchor_planar_distance_metres": 5.53338038910923,
+      "distance_to_path_surface_planar_metres": 15.314522518060537,
+      "nearest_house": "VillageHouse_11",
+      "clearance_from_house_bounding_circle_metres": 19.271522746804568
+    },
+    {
+      "vertex_index": 2945,
+      "before_blender_xyz": [
+        12.732305526733398,
+        -24.244619369506836,
+        1.3140919208526611
+      ],
+      "after_blender_xyz": [
+        12.732305526733398,
+        -24.244619369506836,
+        0.874441385269165
+      ],
+      "delta_height_metres": -0.4396505355834961,
+      "signed_distance_to_walkable_boundary_metres": -0.5239571084702763,
+      "nearest_anchor": "Target_Sea",
+      "nearest_anchor_planar_distance_metres": 5.475117099502565,
+      "distance_to_path_surface_planar_metres": 15.282030926655311,
+      "nearest_house": "VillageHouse_11",
+      "clearance_from_house_bounding_circle_metres": 19.22517499797432
+    },
+    {
+      "vertex_index": 2946,
+      "before_blender_xyz": [
+        12.699819564819336,
+        -24.196096420288086,
+        1.2991584539413452
+      ],
+      "after_blender_xyz": [
+        12.699819564819336,
+        -24.196096420288086,
+        0.8762259483337402
+      ],
+      "delta_height_metres": -0.422932505607605,
+      "signed_distance_to_walkable_boundary_metres": -0.5237148176589963,
+      "nearest_anchor": "Target_Sea",
+      "nearest_anchor_planar_distance_metres": 5.416857725833098,
+      "distance_to_path_surface_planar_metres": 15.249692547043512,
+      "nearest_house": "VillageHouse_11",
+      "clearance_from_house_bounding_circle_metres": 19.178883932622814
+    },
+    {
+      "vertex_index": 2947,
+      "before_blender_xyz": [
+        12.66733455657959,
+        -24.147571563720703,
+        1.0196630954742432
+      ],
+      "after_blender_xyz": [
+        12.66733455657959,
+        -24.147571563720703,
+        0.7253134846687317
+      ],
+      "delta_height_metres": -0.2943496108055115,
+      "signed_distance_to_walkable_boundary_metres": -0.523474129775849,
+      "nearest_anchor": "Target_Sea",
+      "nearest_anchor_planar_distance_metres": 5.358600171190022,
+      "distance_to_path_surface_planar_metres": 15.217510874399359,
+      "nearest_house": "VillageHouse_11",
+      "clearance_from_house_bounding_circle_metres": 19.13265159460947
+    },
+    {
+      "vertex_index": 2948,
+      "before_blender_xyz": [
+        12.634849548339844,
+        -24.099048614501953,
+        0.4865046441555023
+      ],
+      "after_blender_xyz": [
+        12.634849548339844,
+        -24.099048614501953,
+        0.4184679687023163
+      ],
+      "delta_height_metres": -0.06803667545318604,
+      "signed_distance_to_walkable_boundary_metres": -0.5232326334401081,
+      "nearest_anchor": "Target_Sea",
+      "nearest_anchor_planar_distance_metres": 5.300347239437437,
+      "distance_to_path_surface_planar_metres": 15.185485373982699,
+      "nearest_house": "VillageHouse_11",
+      "clearance_from_house_bounding_circle_metres": 19.086478096454364
+    },
+    {
+      "vertex_index": 2951,
+      "before_blender_xyz": [
+        13.610270500183105,
+        -24.722265243530273,
+        0.42603743076324463
+      ],
+      "after_blender_xyz": [
+        13.610270500183105,
+        -24.722265243530273,
+        0.3419894874095917
+      ],
+      "delta_height_metres": -0.08404794335365295,
+      "signed_distance_to_walkable_boundary_metres": -0.9914553937462945,
+      "nearest_anchor": "Target_Sea",
+      "nearest_anchor_planar_distance_metres": 6.348709122416708,
+      "distance_to_path_surface_planar_metres": 16.166398897290556,
+      "nearest_house": "VillageHouse_11",
+      "clearance_from_house_bounding_circle_metres": 20.210538614329796
+    },
+    {
+      "vertex_index": 2952,
+      "before_blender_xyz": [
+        13.589512825012207,
+        -24.69048500061035,
+        0.874841570854187
+      ],
+      "after_blender_xyz": [
+        13.589512825012207,
+        -24.69048500061035,
+        0.43079617619514465
+      ],
+      "delta_height_metres": -0.44404539465904236,
+      "signed_distance_to_walkable_boundary_metres": -0.9917294203245962,
+      "nearest_anchor": "Target_Sea",
+      "nearest_anchor_planar_distance_metres": 6.310763658479537,
+      "distance_to_path_surface_planar_metres": 16.14478183111609,
+      "nearest_house": "VillageHouse_11",
+      "clearance_from_house_bounding_circle_metres": 20.180528327962524
+    },
+    {
+      "vertex_index": 2953,
+      "before_blender_xyz": [
+        13.568756103515625,
+        -24.65870475769043,
+        1.151472568511963
+      ],
+      "after_blender_xyz": [
+        13.568756103515625,
+        -24.65870475769043,
+        0.4802492558956146
+      ],
+      "delta_height_metres": -0.6712233126163483,
+      "signed_distance_to_walkable_boundary_metres": -0.9920044978024436,
+      "nearest_anchor": "Target_Sea",
+      "nearest_anchor_planar_distance_metres": 6.272818680927768,
+      "distance_to_path_surface_planar_metres": 16.123229654571148,
+      "nearest_house": "VillageHouse_11",
+      "clearance_from_house_bounding_circle_metres": 20.150542585058716
+    },
+    {
+      "vertex_index": 2954,
+      "before_blender_xyz": [
+        13.547999382019043,
+        -24.626924514770508,
+        1.1668404340744019
+      ],
+      "after_blender_xyz": [
+        13.547999382019043,
+        -24.626924514770508,
+        0.4779457747936249
+      ],
+      "delta_height_metres": -0.688894659280777,
+      "signed_distance_to_walkable_boundary_metres": -0.9922785379290253,
+      "nearest_anchor": "Target_Sea",
+      "nearest_anchor_planar_distance_metres": 6.234874045683646,
+      "distance_to_path_surface_planar_metres": 16.101737889515032,
+      "nearest_house": "VillageHouse_11",
+      "clearance_from_house_bounding_circle_metres": 20.12058199048054
+    },
+    {
+      "vertex_index": 2955,
+      "before_blender_xyz": [
+        13.527242660522461,
+        -24.59514617919922,
+        1.1803958415985107
+      ],
+      "after_blender_xyz": [
+        13.527242660522461,
+        -24.59514617919922,
+        0.47577783465385437
+      ],
+      "delta_height_metres": -0.7046180069446564,
+      "signed_distance_to_walkable_boundary_metres": -0.9925528176664556,
+      "nearest_anchor": "Target_Sea",
+      "nearest_anchor_planar_distance_metres": 6.196931067139516,
+      "distance_to_path_surface_planar_metres": 16.080304920196156,
+      "nearest_house": "VillageHouse_11",
+      "clearance_from_house_bounding_circle_metres": 20.090645967556707
+    },
+    {
+      "vertex_index": 2956,
+      "before_blender_xyz": [
+        13.506485939025879,
+        -24.563365936279297,
+        1.1921446323394775
+      ],
+      "after_blender_xyz": [
+        13.506485939025879,
+        -24.563365936279297,
+        0.47381865978240967
+      ],
+      "delta_height_metres": -0.7183259725570679,
+      "signed_distance_to_walkable_boundary_metres": -0.9928268565339728,
+      "nearest_anchor": "Target_Sea",
+      "nearest_anchor_planar_distance_metres": 6.158986756481631,
+      "distance_to_path_surface_planar_metres": 16.058932799562474,
+      "nearest_house": "VillageHouse_11",
+      "clearance_from_house_bounding_circle_metres": 20.060731987642402
+    },
+    {
+      "vertex_index": 2957,
+      "before_blender_xyz": [
+        13.485729217529297,
+        -24.531585693359375,
+        1.202091932296753
+      ],
+      "after_blender_xyz": [
+        13.485729217529297,
+        -24.531585693359375,
+        0.4721335768699646
+      ],
+      "delta_height_metres": -0.7299583554267883,
+      "signed_distance_to_walkable_boundary_metres": -0.993101915123606,
+      "nearest_anchor": "Target_Sea",
+      "nearest_anchor_planar_distance_metres": 6.121042646962811,
+      "distance_to_path_surface_planar_metres": 16.037624668859902,
+      "nearest_house": "VillageHouse_11",
+      "clearance_from_house_bounding_circle_metres": 20.030842768901334
+    },
+    {
+      "vertex_index": 2958,
+      "before_blender_xyz": [
+        13.464971542358398,
+        -24.499805450439453,
+        1.2102434635162354
+      ],
+      "after_blender_xyz": [
+        13.464971542358398,
+        -24.499805450439453,
+        0.4707778990268707
+      ],
+      "delta_height_metres": -0.7394655644893646,
+      "signed_distance_to_walkable_boundary_metres": -0.9933751574907745,
+      "nearest_anchor": "Target_Sea",
+      "nearest_anchor_planar_distance_metres": 6.083098115249213,
+      "distance_to_path_surface_planar_metres": 16.016376019407403,
+      "nearest_house": "VillageHouse_11",
+      "clearance_from_house_bounding_circle_metres": 20.000979174841955
+    },
+    {
+      "vertex_index": 2959,
+      "before_blender_xyz": [
+        13.444214820861816,
+        -24.46802520751953,
+        1.2166045904159546
+      ],
+      "after_blender_xyz": [
+        13.444214820861816,
+        -24.46802520751953,
+        0.4697960615158081
+      ],
+      "delta_height_metres": -0.7468085289001465,
+      "signed_distance_to_walkable_boundary_metres": -0.9936502442583778,
+      "nearest_anchor": "Target_Sea",
+      "nearest_anchor_planar_distance_metres": 6.0451542577001005,
+      "distance_to_path_surface_planar_metres": 15.995189950373291,
+      "nearest_house": "VillageHouse_11",
+      "clearance_from_house_bounding_circle_metres": 19.97113858561461
+    },
+    {
+      "vertex_index": 2960,
+      "before_blender_xyz": [
+        13.423458099365234,
+        -24.43624496459961,
+        1.22118079662323
+      ],
+      "after_blender_xyz": [
+        13.423458099365234,
+        -24.43624496459961,
+        0.4692227840423584
+      ],
+      "delta_height_metres": -0.7519580125808716,
+      "signed_distance_to_walkable_boundary_metres": -0.9939253298519253,
+      "nearest_anchor": "Target_Sea",
+      "nearest_anchor_planar_distance_metres": 6.007210610825538,
+      "distance_to_path_surface_planar_metres": 15.974066233201864,
+      "nearest_house": "VillageHouse_11",
+      "clearance_from_house_bounding_circle_metres": 19.94132237094522
+    },
+    {
+      "vertex_index": 2961,
+      "before_blender_xyz": [
+        13.402701377868652,
+        -24.404464721679688,
+        1.2239774465560913
+      ],
+      "after_blender_xyz": [
+        13.402701377868652,
+        -24.404464721679688,
+        0.46908190846443176
+      ],
+      "delta_height_metres": -0.7548955380916595,
+      "signed_distance_to_walkable_boundary_metres": -0.9941993501177244,
+      "nearest_anchor": "Target_Sea",
+      "nearest_anchor_planar_distance_metres": 5.969267178642988,
+      "distance_to_path_surface_planar_metres": 15.953004637277223,
+      "nearest_house": "VillageHouse_11",
+      "clearance_from_house_bounding_circle_metres": 19.911532760756753
+    },
+    {
+      "vertex_index": 2962,
+      "before_blender_xyz": [
+        13.38194465637207,
+        -24.372684478759766,
+        1.225000023841858
+      ],
+      "after_blender_xyz": [
+        13.38194465637207,
+        -24.372684478759766,
+        0.4693864583969116
+      ],
+      "delta_height_metres": -0.7556135654449463,
+      "signed_distance_to_walkable_boundary_metres": -0.9944744186764845,
+      "nearest_anchor": "Target_Sea",
+      "nearest_anchor_planar_distance_metres": 5.931323884879644,
+      "distance_to_path_surface_planar_metres": 15.932005887809176,
+      "nearest_house": "VillageHouse_11",
+      "clearance_from_house_bounding_circle_metres": 19.881767726254918
+    },
+    {
+      "vertex_index": 2963,
+      "before_blender_xyz": [
+        13.361187934875488,
+        -24.340904235839844,
+        1.2241154909133911
+      ],
+      "after_blender_xyz": [
+        13.361187934875488,
+        -24.340904235839844,
+        0.4701157212257385
+      ],
+      "delta_height_metres": -0.7539997696876526,
+      "signed_distance_to_walkable_boundary_metres": -0.9947484524646043,
+      "nearest_anchor": "Target_Sea",
+      "nearest_anchor_planar_distance_metres": 5.893380813119688,
+      "distance_to_path_surface_planar_metres": 15.911069754150889,
+      "nearest_house": "VillageHouse_11",
+      "clearance_from_house_bounding_circle_metres": 19.852025398777485
+    },
+    {
+      "vertex_index": 2964,
+      "before_blender_xyz": [
+        13.34043025970459,
+        -24.309125900268555,
+        1.2214620113372803
+      ],
+      "after_blender_xyz": [
+        13.34043025970459,
+        -24.309125900268555,
+        0.4712832570075989
+      ],
+      "delta_height_metres": -0.7501787543296814,
+      "signed_distance_to_walkable_boundary_metres": -0.995021946535615,
+      "nearest_anchor": "Target_Sea",
+      "nearest_anchor_planar_distance_metres": 5.855438944897877,
+      "distance_to_path_surface_planar_metres": 15.89019600874571,
+      "nearest_house": "VillageHouse_11",
+      "clearance_from_house_bounding_circle_metres": 19.82230912355875
+    },
+    {
+      "vertex_index": 2965,
+      "before_blender_xyz": [
+        13.319673538208008,
+        -24.277345657348633,
+        1.2170395851135254
+      ],
+      "after_blender_xyz": [
+        13.319673538208008,
+        -24.277345657348633,
+        0.4728672504425049
+      ],
+      "delta_height_metres": -0.7441723346710205,
+      "signed_distance_to_walkable_boundary_metres": -0.9952959643177597,
+      "nearest_anchor": "Target_Sea",
+      "nearest_anchor_planar_distance_metres": 5.817496418544058,
+      "distance_to_path_surface_planar_metres": 15.86938632606198,
+      "nearest_house": "VillageHouse_11",
+      "clearance_from_house_bounding_circle_metres": 19.792619262276272
+    },
+    {
+      "vertex_index": 2966,
+      "before_blender_xyz": [
+        13.298916816711426,
+        -24.24556541442871,
+        1.2108482122421265
+      ],
+      "after_blender_xyz": [
+        13.298916816711426,
+        -24.24556541442871,
+        0.47483736276626587
+      ],
+      "delta_height_metres": -0.7360108494758606,
+      "signed_distance_to_walkable_boundary_metres": -0.9955710591744509,
+      "nearest_anchor": "Target_Sea",
+      "nearest_anchor_planar_distance_metres": 5.7795539636337585,
+      "distance_to_path_surface_planar_metres": 15.848640485981894,
+      "nearest_house": "VillageHouse_11",
+      "clearance_from_house_bounding_circle_metres": 19.762953001355022
+    },
+    {
+      "vertex_index": 2967,
+      "before_blender_xyz": [
+        13.278160095214844,
+        -24.21378517150879,
+        1.2028878927230835
+      ],
+      "after_blender_xyz": [
+        13.278160095214844,
+        -24.21378517150879,
+        0.4771522879600525
+      ],
+      "delta_height_metres": -0.725735604763031,
+      "signed_distance_to_walkable_boundary_metres": -0.995845090458842,
+      "nearest_anchor": "Target_Sea",
+      "nearest_anchor_planar_distance_metres": 5.741611664632701,
+      "distance_to_path_surface_planar_metres": 15.82795825752568,
+      "nearest_house": "VillageHouse_11",
+      "clearance_from_house_bounding_circle_metres": 19.733311123336904
+    },
+    {
+      "vertex_index": 2968,
+      "before_blender_xyz": [
+        13.257403373718262,
+        -24.182004928588867,
+        1.193158507347107
+      ],
+      "after_blender_xyz": [
+        13.257403373718262,
+        -24.182004928588867,
+        0.4797607362270355
+      ],
+      "delta_height_metres": -0.7133977711200714,
+      "signed_distance_to_walkable_boundary_metres": -0.9961201533389819,
+      "nearest_anchor": "Target_Sea",
+      "nearest_anchor_planar_distance_metres": 5.703669524652332,
+      "distance_to_path_surface_planar_metres": 15.807339890370871,
+      "nearest_house": "VillageHouse_11",
+      "clearance_from_house_bounding_circle_metres": 19.703697342173413
+    },
+    {
+      "vertex_index": 2969,
+      "before_blender_xyz": [
+        13.23664665222168,
+        -24.150224685668945,
+        1.1816601753234863
+      ],
+      "after_blender_xyz": [
+        13.23664665222168,
+        -24.150224685668945,
+        0.48260200023651123
+      ],
+      "delta_height_metres": -0.6990581750869751,
+      "signed_distance_to_walkable_boundary_metres": -0.9963952449713072,
+      "nearest_anchor": "Target_Sea",
+      "nearest_anchor_planar_distance_metres": 5.665727799372472,
+      "distance_to_path_surface_planar_metres": 15.786786118011472,
+      "nearest_house": "VillageHouse_11",
+      "clearance_from_house_bounding_circle_metres": 19.674108839476375
+    },
+    {
+      "vertex_index": 2970,
+      "before_blender_xyz": [
+        13.215889930725098,
+        -24.118444442749023,
+        1.1683928966522217
+      ],
+      "after_blender_xyz": [
+        13.215889930725098,
+        -24.118444442749023,
+        0.48560625314712524
+      ],
+      "delta_height_metres": -0.6827866435050964,
+      "signed_distance_to_walkable_boundary_metres": -0.9966692589616607,
+      "nearest_anchor": "Target_Sea",
+      "nearest_anchor_planar_distance_metres": 5.627786158264354,
+      "distance_to_path_surface_planar_metres": 15.766297193089747,
+      "nearest_house": "VillageHouse_11",
+      "clearance_from_house_bounding_circle_metres": 19.644543644942292
+    },
+    {
+      "vertex_index": 2971,
+      "before_blender_xyz": [
+        13.1951322555542,
+        -24.0866641998291,
+        1.153356671333313
+      ],
+      "after_blender_xyz": [
+        13.1951322555542,
+        -24.0866641998291,
+        0.4886954128742218
+      ],
+      "delta_height_metres": -0.6646612584590912,
+      "signed_distance_to_walkable_boundary_metres": -0.9969435563624841,
+      "nearest_anchor": "Target_Sea",
+      "nearest_anchor_planar_distance_metres": 5.589844261825186,
+      "distance_to_path_surface_planar_metres": 15.745871915179677,
+      "nearest_house": "VillageHouse_11",
+      "clearance_from_house_bounding_circle_metres": 19.615004704888644
+    },
+    {
+      "vertex_index": 2972,
+      "before_blender_xyz": [
+        13.174375534057617,
+        -24.054885864257812,
+        0.8987091183662415
+      ],
+      "after_blender_xyz": [
+        13.174375534057617,
+        -24.054885864257812,
+        0.44174614548683167
+      ],
+      "delta_height_metres": -0.4569629728794098,
+      "signed_distance_to_walkable_boundary_metres": -0.99721679209332,
+      "nearest_anchor": "Target_Sea",
+      "nearest_anchor_planar_distance_metres": 5.551904595547507,
+      "distance_to_path_surface_planar_metres": 15.725512447136893,
+      "nearest_house": "VillageHouse_11",
+      "clearance_from_house_bounding_circle_metres": 19.58549333672498
+    },
+    {
+      "vertex_index": 2973,
+      "before_blender_xyz": [
+        13.153618812561035,
+        -24.02310562133789,
+        0.4472176730632782
+      ],
+      "after_blender_xyz": [
+        13.153618812561035,
+        -24.02310562133789,
+        0.34786325693130493
+      ],
+      "delta_height_metres": -0.09935441613197327,
+      "signed_distance_to_walkable_boundary_metres": -0.9974918501862806,
+      "nearest_anchor": "Target_Sea",
+      "nearest_anchor_planar_distance_metres": 5.513963746342905,
+      "distance_to_path_surface_planar_metres": 15.7052186068488,
+      "nearest_house": "VillageHouse_11",
+      "clearance_from_house_bounding_circle_metres": 19.556005751009007
+    },
+    {
+      "vertex_index": 2976,
+      "before_blender_xyz": [
+        13.835834503173828,
+        -24.350427627563477,
+        0.39157283306121826
+      ],
+      "after_blender_xyz": [
+        13.835834503173828,
+        -24.350427627563477,
+        0.3237234055995941
+      ],
+      "delta_height_metres": -0.06784942746162415,
+      "signed_distance_to_walkable_boundary_metres": -1.3849895818091262,
+      "nearest_anchor": "Target_Sea",
+      "nearest_anchor_planar_distance_metres": 6.183872045542904,
+      "distance_to_path_surface_planar_metres": 16.38575753301571,
+      "nearest_house": "VillageHouse_11",
+      "clearance_from_house_bounding_circle_metres": 20.305838507599233
+    },
+    {
+      "vertex_index": 2977,
+      "before_blender_xyz": [
+        13.82526969909668,
+        -24.33290672302246,
+        0.7689865231513977
+      ],
+      "after_blender_xyz": [
+        13.82526969909668,
+        -24.33290672302246,
+        0.3421120345592499
+      ],
+      "delta_height_metres": -0.4268744885921478,
+      "signed_distance_to_walkable_boundary_metres": -1.3858730477503138,
+      "nearest_anchor": "Target_Sea",
+      "nearest_anchor_planar_distance_metres": 6.163576520320859,
+      "distance_to_path_surface_planar_metres": 16.375112075159933,
+      "nearest_house": "VillageHouse_11",
+      "clearance_from_house_bounding_circle_metres": 20.290370605039566
+    },
+    {
+      "vertex_index": 2978,
+      "before_blender_xyz": [
+        13.814703941345215,
+        -24.315385818481445,
+        1.0258463621139526
+      ],
+      "after_blender_xyz": [
+        13.814703941345215,
+        -24.315385818481445,
+        0.35299190878868103
+      ],
+      "delta_height_metres": -0.6728544533252716,
+      "signed_distance_to_walkable_boundary_metres": -1.3867564451440269,
+      "nearest_anchor": "Target_Sea",
+      "nearest_anchor_planar_distance_metres": 6.143281396048463,
+      "distance_to_path_surface_planar_metres": 16.36448684316584,
+      "nearest_house": "VillageHouse_11",
+      "clearance_from_house_bounding_circle_metres": 20.27490703014073
+    },
+    {
+      "vertex_index": 2979,
+      "before_blender_xyz": [
+        13.804139137268066,
+        -24.29786491394043,
+        1.041495680809021
+      ],
+      "after_blender_xyz": [
+        13.804139137268066,
+        -24.29786491394043,
+        0.3521079123020172
+      ],
+      "delta_height_metres": -0.6893877685070038,
+      "signed_distance_to_walkable_boundary_metres": -1.3876399029831017,
+      "nearest_anchor": "Target_Sea",
+      "nearest_anchor_planar_distance_metres": 6.12298807849063,
+      "distance_to_path_surface_planar_metres": 16.353877211245333,
+      "nearest_house": "VillageHouse_11",
+      "clearance_from_house_bounding_circle_metres": 20.25945316710602
+    },
+    {
+      "vertex_index": 2980,
+      "before_blender_xyz": [
+        13.793574333190918,
+        -24.280344009399414,
+        1.0552740097045898
+      ],
+      "after_blender_xyz": [
+        13.793574333190918,
+        -24.280344009399414,
+        0.351274698972702
+      ],
+      "delta_height_metres": -0.7039993107318878,
+      "signed_distance_to_walkable_boundary_metres": -1.3885233567622008,
+      "nearest_anchor": "Target_Sea",
+      "nearest_anchor_planar_distance_metres": 6.1026956480450885,
+      "distance_to_path_surface_planar_metres": 16.343290678931897,
+      "nearest_house": "VillageHouse_11",
+      "clearance_from_house_bounding_circle_metres": 20.2440076910209
+    },
+    {
+      "vertex_index": 2981,
+      "before_blender_xyz": [
+        13.783008575439453,
+        -24.2628231048584,
+        1.0671955347061157
+      ],
+      "after_blender_xyz": [
+        13.783008575439453,
+        -24.2628231048584,
+        0.35051730275154114
+      ],
+      "delta_height_metres": -0.7166782319545746,
+      "signed_distance_to_walkable_boundary_metres": -1.3894059699515493,
+      "nearest_anchor": "Target_Sea",
+      "nearest_anchor_planar_distance_metres": 6.082403956798394,
+      "distance_to_path_surface_planar_metres": 16.332717948675388,
+      "nearest_house": "VillageHouse_11",
+      "clearance_from_house_bounding_circle_metres": 20.228567927680434
+    },
+    {
+      "vertex_index": 2982,
+      "before_blender_xyz": [
+        13.772443771362305,
+        -24.245302200317383,
+        1.0772745609283447
+      ],
+      "after_blender_xyz": [
+        13.772443771362305,
+        -24.245302200317383,
+        0.3498570919036865
+      ],
+      "delta_height_metres": -0.7274174690246582,
+      "signed_distance_to_walkable_boundary_metres": -1.3902894161654802,
+      "nearest_anchor": "Target_Sea",
+      "nearest_anchor_planar_distance_metres": 6.062113877417741,
+      "distance_to_path_surface_planar_metres": 16.322167460954464,
+      "nearest_house": "VillageHouse_11",
+      "clearance_from_house_bounding_circle_metres": 20.213139948401686
+    },
+    {
+      "vertex_index": 2983,
+      "before_blender_xyz": [
+        13.761878967285156,
+        -24.227781295776367,
+        1.0855250358581543
+      ],
+      "after_blender_xyz": [
+        13.761878967285156,
+        -24.227781295776367,
+        0.34931254386901855
+      ],
+      "delta_height_metres": -0.7362124919891357,
+      "signed_distance_to_walkable_boundary_metres": -1.3911728583419323,
+      "nearest_anchor": "Target_Sea",
+      "nearest_anchor_planar_distance_metres": 6.041824952606172,
+      "distance_to_path_surface_planar_metres": 16.311634581659437,
+      "nearest_house": "VillageHouse_11",
+      "clearance_from_house_bounding_circle_metres": 20.197715692245723
+    },
+    {
+      "vertex_index": 2984,
+      "before_blender_xyz": [
+        13.751313209533691,
+        -24.21026039123535,
+        1.0919610261917114
+      ],
+      "after_blender_xyz": [
+        13.751313209533691,
+        -24.21026039123535,
+        0.348898708820343
+      ],
+      "delta_height_metres": -0.7430623173713684,
+      "signed_distance_to_walkable_boundary_metres": -1.392055504360972,
+      "nearest_anchor": "Target_Sea",
+      "nearest_anchor_planar_distance_metres": 6.021536560525366,
+      "distance_to_path_surface_planar_metres": 16.301119344921286,
+      "nearest_house": "VillageHouse_11",
+      "clearance_from_house_bounding_circle_metres": 20.1823019089336
+    },
+    {
+      "vertex_index": 2985,
+      "before_blender_xyz": [
+        13.740748405456543,
+        -24.192739486694336,
+        1.096596598625183
+      ],
+      "after_blender_xyz": [
+        13.740748405456543,
+        -24.192739486694336,
+        0.348626971244812
+      ],
+      "delta_height_metres": -0.7479696273803711,
+      "signed_distance_to_walkable_boundary_metres": -1.3929389389878934,
+      "nearest_anchor": "Target_Sea",
+      "nearest_anchor_planar_distance_metres": 6.001250136791976,
+      "distance_to_path_surface_planar_metres": 16.2906274048683,
+      "nearest_house": "VillageHouse_11",
+      "clearance_from_house_bounding_circle_metres": 20.166895921197746
+    },
+    {
+      "vertex_index": 2986,
+      "before_blender_xyz": [
+        13.730183601379395,
+        -24.17521858215332,
+        1.0994452238082886
+      ],
+      "after_blender_xyz": [
+        13.730183601379395,
+        -24.17521858215332,
+        0.3485056757926941
+      ],
+      "delta_height_metres": -0.7509395480155945,
+      "signed_distance_to_walkable_boundary_metres": -1.3938223695996994,
+      "nearest_anchor": "Target_Sea",
+      "nearest_anchor_planar_distance_metres": 5.980964585273875,
+      "distance_to_path_surface_planar_metres": 16.280149433910125,
+      "nearest_house": "VillageHouse_11",
+      "clearance_from_house_bounding_circle_metres": 20.15149842010924
+    },
+    {
+      "vertex_index": 2987,
+      "before_blender_xyz": [
+        13.71961784362793,
+        -24.157697677612305,
+        1.1005208492279053
+      ],
+      "after_blender_xyz": [
+        13.71961784362793,
+        -24.157697677612305,
+        0.348539799451828
+      ],
+      "delta_height_metres": -0.7519810497760773,
+      "signed_distance_to_walkable_boundary_metres": -1.3947058175721978,
+      "nearest_anchor": "Target_Sea",
+      "nearest_anchor_planar_distance_metres": 5.960679834878997,
+      "distance_to_path_surface_planar_metres": 16.269692961964168,
+      "nearest_house": "VillageHouse_11",
+      "clearance_from_house_bounding_circle_metres": 20.13610798739681
+    },
+    {
+      "vertex_index": 2988,
+      "before_blender_xyz": [
+        13.709053039550781,
+        -24.140174865722656,
+        1.0996402502059937
+      ],
+      "after_blender_xyz": [
+        13.709053039550781,
+        -24.140174865722656,
+        0.3487231433391571
+      ],
+      "delta_height_metres": -0.7509171068668365,
+      "signed_distance_to_walkable_boundary_metres": -1.3955910980165929,
+      "nearest_anchor": "Target_Sea",
+      "nearest_anchor_planar_distance_metres": 5.9403954121925455,
+      "distance_to_path_surface_planar_metres": 16.259255229969625,
+      "nearest_house": "VillageHouse_11",
+      "clearance_from_house_bounding_circle_metres": 20.120724214988492
+    },
+    {
+      "vertex_index": 2989,
+      "before_blender_xyz": [
+        13.698488235473633,
+        -24.12265396118164,
+        1.0969985723495483
+      ],
+      "after_blender_xyz": [
+        13.698488235473633,
+        -24.12265396118164,
+        0.34906068444252014
+      ],
+      "delta_height_metres": -0.7479378879070282,
+      "signed_distance_to_walkable_boundary_metres": -1.3964745581221822,
+      "nearest_anchor": "Target_Sea",
+      "nearest_anchor_planar_distance_metres": 5.9201134953058325,
+      "distance_to_path_surface_planar_metres": 16.248837185426204,
+      "nearest_house": "VillageHouse_11",
+      "clearance_from_house_bounding_circle_metres": 20.10535227490884
+    },
+    {
+      "vertex_index": 2990,
+      "before_blender_xyz": [
+        13.687922477722168,
+        -24.105133056640625,
+        1.0925956964492798
+      ],
+      "after_blender_xyz": [
+        13.687922477722168,
+        -24.105133056640625,
+        0.3495465815067291
+      ],
+      "delta_height_metres": -0.7430491149425507,
+      "signed_distance_to_walkable_boundary_metres": -1.3973572037407584,
+      "nearest_anchor": "Target_Sea",
+      "nearest_anchor_planar_distance_metres": 5.899832412796526,
+      "distance_to_path_surface_planar_metres": 16.238436999674086,
+      "nearest_house": "VillageHouse_11",
+      "clearance_from_house_bounding_circle_metres": 20.089984744673707
+    },
+    {
+      "vertex_index": 2991,
+      "before_blender_xyz": [
+        13.67735767364502,
+        -24.08761215209961,
+        1.086431622505188
+      ],
+      "after_blender_xyz": [
+        13.67735767364502,
+        -24.08761215209961,
+        0.35017138719558716
+      ],
+      "delta_height_metres": -0.7362602353096008,
+      "signed_distance_to_walkable_boundary_metres": -1.3982406349775633,
+      "nearest_anchor": "Target_Sea",
+      "nearest_anchor_planar_distance_metres": 5.879553065409173,
+      "distance_to_path_surface_planar_metres": 16.228054707163913,
+      "nearest_house": "VillageHouse_11",
+      "clearance_from_house_bounding_circle_metres": 20.074626544704515
+    },
+    {
+      "vertex_index": 2992,
+      "before_blender_xyz": [
+        13.666792869567871,
+        -24.070091247558594,
+        1.0785064697265625
+      ],
+      "after_blender_xyz": [
+        13.666792869567871,
+        -24.070091247558594,
+        0.3509227931499481
+      ],
+      "delta_height_metres": -0.7275836765766144,
+      "signed_distance_to_walkable_boundary_metres": -1.3991240835194485,
+      "nearest_anchor": "Target_Sea",
+      "nearest_anchor_planar_distance_metres": 5.859275064251929,
+      "distance_to_path_surface_planar_metres": 16.217695987268627,
+      "nearest_house": "VillageHouse_11",
+      "clearance_from_house_bounding_circle_metres": 20.059277524625802
+    },
+    {
+      "vertex_index": 2993,
+      "before_blender_xyz": [
+        13.656227111816406,
+        -24.052570343017578,
+        1.0688202381134033
+      ],
+      "after_blender_xyz": [
+        13.656227111816406,
+        -24.052570343017578,
+        0.35178542137145996
+      ],
+      "delta_height_metres": -0.7170348167419434,
+      "signed_distance_to_walkable_boundary_metres": -1.4000075280463953,
+      "nearest_anchor": "Target_Sea",
+      "nearest_anchor_planar_distance_metres": 5.838997688372704,
+      "distance_to_path_surface_planar_metres": 16.20735241221671,
+      "nearest_house": "VillageHouse_11",
+      "clearance_from_house_bounding_circle_metres": 20.043934481028963
+    },
+    {
+      "vertex_index": 2994,
+      "before_blender_xyz": [
+        13.645662307739258,
+        -24.035049438476562,
+        1.0573726892471313
+      ],
+      "after_blender_xyz": [
+        13.645662307739258,
+        -24.035049438476562,
+        0.35274025797843933
+      ],
+      "delta_height_metres": -0.704632431268692,
+      "signed_distance_to_walkable_boundary_metres": -1.4008909685659994,
+      "nearest_anchor": "Target_Sea",
+      "nearest_anchor_planar_distance_metres": 5.818722091591487,
+      "distance_to_path_surface_planar_metres": 16.19702966323383,
+      "nearest_house": "VillageHouse_11",
+      "clearance_from_house_bounding_circle_metres": 20.02860268701394
+    },
+    {
+      "vertex_index": 2995,
+      "before_blender_xyz": [
+        13.63509750366211,
+        -24.017528533935547,
+        1.0441641807556152
+      ],
+      "after_blender_xyz": [
+        13.63509750366211,
+        -24.017528533935547,
+        0.3537657558917999
+      ],
+      "delta_height_metres": -0.6903984248638153,
+      "signed_distance_to_walkable_boundary_metres": -1.4017743838254104,
+      "nearest_anchor": "Target_Sea",
+      "nearest_anchor_planar_distance_metres": 5.798447881394809,
+      "distance_to_path_surface_planar_metres": 16.1867258949334,
+      "nearest_house": "VillageHouse_11",
+      "clearance_from_house_bounding_circle_metres": 20.013276136971015
+    },
+    {
+      "vertex_index": 2996,
+      "before_blender_xyz": [
+        13.624531745910645,
+        -24.00000762939453,
+        1.0291943550109863
+      ],
+      "after_blender_xyz": [
+        13.624531745910645,
+        -24.00000762939453,
+        0.35483741760253906
+      ],
+      "delta_height_metres": -0.6743569374084473,
+      "signed_distance_to_walkable_boundary_metres": -1.4026570089787957,
+      "nearest_anchor": "Target_Sea",
+      "nearest_anchor_planar_distance_metres": 5.778174329663685,
+      "distance_to_path_surface_planar_metres": 16.1764402004281,
+      "nearest_house": "VillageHouse_11",
+      "clearance_from_house_bounding_circle_metres": 19.997959005095062
+    },
+    {
+      "vertex_index": 2997,
+      "before_blender_xyz": [
+        13.613966941833496,
+        -23.982486724853516,
+        0.8189595937728882
+      ],
+      "after_blender_xyz": [
+        13.613966941833496,
+        -23.982486724853516,
+        0.34588778018951416
+      ],
+      "delta_height_metres": -0.473071813583374,
+      "signed_distance_to_walkable_boundary_metres": -1.4035404805106724,
+      "nearest_anchor": "Target_Sea",
+      "nearest_anchor_planar_distance_metres": 5.757902768383739,
+      "distance_to_path_surface_planar_metres": 16.166177333111957,
+      "nearest_house": "VillageHouse_11",
+      "clearance_from_house_bounding_circle_metres": 19.982650460414416
+    },
+    {
+      "vertex_index": 2998,
+      "before_blender_xyz": [
+        13.603402137756348,
+        -23.9649658203125,
+        0.4347970485687256
+      ],
+      "after_blender_xyz": [
+        13.603402137756348,
+        -23.9649658203125,
+        0.3263031840324402
+      ],
+      "delta_height_metres": -0.1084938645362854,
+      "signed_distance_to_walkable_boundary_metres": -1.4044238843503576,
+      "nearest_anchor": "Target_Sea",
+      "nearest_anchor_planar_distance_metres": 5.737632553796705,
+      "distance_to_path_surface_planar_metres": 16.155929781306256,
+      "nearest_house": "VillageHouse_11",
+      "clearance_from_house_bounding_circle_metres": 19.96734992493039
+    },
+    {
+      "vertex_index": 3001,
+      "before_blender_xyz": [
+        14.036661148071289,
+        -24.065181732177734,
+        0.44155699014663696
+      ],
+      "after_blender_xyz": [
+        14.036661148071289,
+        -24.065181732177734,
+        0.3202555179595947
+      ],
+      "delta_height_metres": -0.12130147218704224,
+      "signed_distance_to_walkable_boundary_metres": -1.7100367330487398,
+      "nearest_anchor": "Target_Sea",
+      "nearest_anchor_planar_distance_metres": 6.093891944210199,
+      "distance_to_path_surface_planar_metres": 16.587595953188597,
+      "nearest_house": "VillageHouse_11",
+      "clearance_from_house_bounding_circle_metres": 20.410837338411792
+    },
+    {
+      "vertex_index": 3002,
+      "before_blender_xyz": [
+        14.03332805633545,
+        -24.05925750732422,
+        0.771946132183075
+      ],
+      "after_blender_xyz": [
+        14.03332805633545,
+        -24.05925750732422,
+        0.32078641653060913
+      ],
+      "delta_height_metres": -0.4511597156524658,
+      "signed_distance_to_walkable_boundary_metres": -1.7105342267795591,
+      "nearest_anchor": "Target_Sea",
+      "nearest_anchor_planar_distance_metres": 6.087245971893929,
+      "distance_to_path_surface_planar_metres": 16.584336845283257,
+      "nearest_house": "VillageHouse_11",
+      "clearance_from_house_bounding_circle_metres": 20.405899941153113
+    },
+    {
+      "vertex_index": 3003,
+      "before_blender_xyz": [
+        14.02999496459961,
+        -24.05333137512207,
+        0.9298009276390076
+      ],
+      "after_blender_xyz": [
+        14.02999496459961,
+        -24.05333137512207,
+        0.320860892534256
+      ],
+      "delta_height_metres": -0.6089400351047516,
+      "signed_distance_to_walkable_boundary_metres": -1.7110336659896717,
+      "nearest_anchor": "Target_Sea",
+      "nearest_anchor_planar_distance_metres": 6.08059916605771,
+      "distance_to_path_surface_planar_metres": 16.58107831753202,
+      "nearest_house": "VillageHouse_11",
+      "clearance_from_house_bounding_circle_metres": 20.40096306299073
+    },
+    {
+      "vertex_index": 3004,
+      "before_blender_xyz": [
+        14.026662826538086,
+        -24.047405242919922,
+        0.9445340633392334
+      ],
+      "after_blender_xyz": [
+        14.026662826538086,
+        -24.047405242919922,
+        0.3206977844238281
+      ],
+      "delta_height_metres": -0.6238362789154053,
+      "signed_distance_to_walkable_boundary_metres": -1.7115338300915948,
+      "nearest_anchor": "Target_Sea",
+      "nearest_anchor_planar_distance_metres": 6.073953251080673,
+      "distance_to_path_surface_planar_metres": 16.57782402920388,
+      "nearest_house": "VillageHouse_11",
+      "clearance_from_house_bounding_circle_metres": 20.396030711681675
+    },
+    {
+      "vertex_index": 3005,
+      "before_blender_xyz": [
+        14.023329734802246,
+        -24.041479110717773,
+        0.9575338959693909
+      ],
+      "after_blender_xyz": [
+        14.023329734802246,
+        -24.041479110717773,
+        0.3205462396144867
+      ],
+      "delta_height_metres": -0.6369876563549042,
+      "signed_distance_to_walkable_boundary_metres": -1.7120321421313227,
+      "nearest_anchor": "Target_Sea",
+      "nearest_anchor_planar_distance_metres": 6.067306972430608,
+      "distance_to_path_surface_planar_metres": 16.574571220615834,
+      "nearest_house": "VillageHouse_11",
+      "clearance_from_house_bounding_circle_metres": 20.391095458129424
+    },
+    {
+      "vertex_index": 3006,
+      "before_blender_xyz": [
+        14.019996643066406,
+        -24.035554885864258,
+        0.96880042552948
+      ],
+      "after_blender_xyz": [
+        14.019996643066406,
+        -24.035554885864258,
+        0.3204091191291809
+      ],
+      "delta_height_metres": -0.6483913064002991,
+      "signed_distance_to_walkable_boundary_metres": -1.712530709429865,
+      "nearest_anchor": "Target_Sea",
+      "nearest_anchor_planar_distance_metres": 6.060662689233416,
+      "distance_to_path_surface_planar_metres": 16.571318945542192,
+      "nearest_house": "VillageHouse_11",
+      "clearance_from_house_bounding_circle_metres": 20.38616189427277
+    },
+    {
+      "vertex_index": 3007,
+      "before_blender_xyz": [
+        14.016664505004883,
+        -24.02962875366211,
+        0.978333592414856
+      ],
+      "after_blender_xyz": [
+        14.016664505004883,
+        -24.02962875366211,
+        0.320288747549057
+      ],
+      "delta_height_metres": -0.658044844865799,
+      "signed_distance_to_walkable_boundary_metres": -1.713030923558696,
+      "nearest_anchor": "Target_Sea",
+      "nearest_anchor_planar_distance_metres": 6.054017730092102,
+      "distance_to_path_surface_planar_metres": 16.568070940477018,
+      "nearest_house": "VillageHouse_11",
+      "clearance_from_house_bounding_circle_metres": 20.38123227684214
+    },
+    {
+      "vertex_index": 3008,
+      "before_blender_xyz": [
+        14.013331413269043,
+        -24.02370262145996,
+        0.9861335158348083
+      ],
+      "after_blender_xyz": [
+        14.013331413269043,
+        -24.02370262145996,
+        0.3201873004436493
+      ],
+      "delta_height_metres": -0.6659462153911591,
+      "signed_distance_to_walkable_boundary_metres": -1.7135292002524936,
+      "nearest_anchor": "Target_Sea",
+      "nearest_anchor_planar_distance_metres": 6.047372565880287,
+      "distance_to_path_surface_planar_metres": 16.564825339869994,
+      "nearest_house": "VillageHouse_11",
+      "clearance_from_house_bounding_circle_metres": 20.376300424948955
+    },
+    {
+      "vertex_index": 3009,
+      "before_blender_xyz": [
+        14.009998321533203,
+        -24.017776489257812,
+        0.9922000765800476
+      ],
+      "after_blender_xyz": [
+        14.009998321533203,
+        -24.017776489257812,
+        0.32010647654533386
+      ],
+      "delta_height_metres": -0.6720936000347137,
+      "signed_distance_to_walkable_boundary_metres": -1.7140285839804321,
+      "nearest_anchor": "Target_Sea",
+      "nearest_anchor_planar_distance_metres": 6.040727669543454,
+      "distance_to_path_surface_planar_metres": 16.561579381012738,
+      "nearest_house": "VillageHouse_11",
+      "clearance_from_house_bounding_circle_metres": 20.371369095223372
+    },
+    {
+      "vertex_index": 3010,
+      "before_blender_xyz": [
+        14.006665229797363,
+        -24.011852264404297,
+        0.9965333938598633
+      ],
+      "after_blender_xyz": [
+        14.006665229797363,
+        -24.011852264404297,
+        0.3200477063655853
+      ],
+      "delta_height_metres": -0.676485687494278,
+      "signed_distance_to_walkable_boundary_metres": -1.7145261187951593,
+      "nearest_anchor": "Target_Sea",
+      "nearest_anchor_planar_distance_metres": 6.034084622445642,
+      "distance_to_path_surface_planar_metres": 16.55833579899862,
+      "nearest_house": "VillageHouse_11",
+      "clearance_from_house_bounding_circle_metres": 20.366441381063268
+    },
+    {
+      "vertex_index": 3011,
+      "before_blender_xyz": [
+        14.00333309173584,
+        -24.00592613220215,
+        0.9991333484649658
+      ],
+      "after_blender_xyz": [
+        14.00333309173584,
+        -24.00592613220215,
+        0.32001200318336487
+      ],
+      "delta_height_metres": -0.679121345281601,
+      "signed_distance_to_walkable_boundary_metres": -1.715026341755927,
+      "nearest_anchor": "Target_Sea",
+      "nearest_anchor_planar_distance_metres": 6.027441057370304,
+      "distance_to_path_surface_planar_metres": 16.555098339957855,
+      "nearest_house": "VillageHouse_11",
+      "clearance_from_house_bounding_circle_metres": 20.36151368939928
+    },
+    {
+      "vertex_index": 3012,
+      "before_blender_xyz": [
+        14.0,
+        -24.0,
+        1.0
+      ],
+      "after_blender_xyz": [
+        14.0,
+        -24.0,
+        0.3199999928474426
+      ],
+      "delta_height_metres": -0.6800000071525574,
+      "signed_distance_to_walkable_boundary_metres": -1.715525689229853,
+      "nearest_anchor": "Target_Sea",
+      "nearest_anchor_planar_distance_metres": 6.020797289396148,
+      "distance_to_path_surface_planar_metres": 16.551859603767795,
+      "nearest_house": "VillageHouse_11",
+      "clearance_from_house_bounding_circle_metres": 20.356585100290495
+    },
+    {
+      "vertex_index": 3013,
+      "before_blender_xyz": [
+        13.99666690826416,
+        -23.99407386779785,
+        0.9991333484649658
+      ],
+      "after_blender_xyz": [
+        13.99666690826416,
+        -23.99407386779785,
+        0.32001200318336487
+      ],
+      "delta_height_metres": -0.679121345281601,
+      "signed_distance_to_walkable_boundary_metres": -1.7160250824360055,
+      "nearest_anchor": "Target_Sea",
+      "nearest_anchor_planar_distance_metres": 6.014153793565736,
+      "distance_to_path_surface_planar_metres": 16.548622355852718,
+      "nearest_house": "VillageHouse_11",
+      "clearance_from_house_bounding_circle_metres": 20.351659628373817
+    },
+    {
+      "vertex_index": 3014,
+      "before_blender_xyz": [
+        13.993334770202637,
+        -23.988147735595703,
+        0.9965333938598633
+      ],
+      "after_blender_xyz": [
+        13.993334770202637,
+        -23.988147735595703,
+        0.3200477063655853
+      ],
+      "delta_height_metres": -0.676485687494278,
+      "signed_distance_to_walkable_boundary_metres": -1.7165241567321414,
+      "nearest_anchor": "Target_Sea",
+      "nearest_anchor_planar_distance_metres": 6.0075114438904,
+      "distance_to_path_surface_planar_metres": 16.545391208502178,
+      "nearest_house": "VillageHouse_11",
+      "clearance_from_house_bounding_circle_metres": 20.34673535129539
+    },
+    {
+      "vertex_index": 3015,
+      "before_blender_xyz": [
+        13.990001678466797,
+        -23.982223510742188,
+        0.9922000765800476
+      ],
+      "after_blender_xyz": [
+        13.990001678466797,
+        -23.982223510742188,
+        0.32010647654533386
+      ],
+      "delta_height_metres": -0.6720936000347137,
+      "signed_distance_to_walkable_boundary_metres": -1.7170228082544978,
+      "nearest_anchor": "Target_Sea",
+      "nearest_anchor_planar_distance_metres": 6.000870085253498,
+      "distance_to_path_surface_planar_metres": 16.542158752842326,
+      "nearest_house": "VillageHouse_11",
+      "clearance_from_house_bounding_circle_metres": 20.341810093979852
+    },
+    {
+      "vertex_index": 3016,
+      "before_blender_xyz": [
+        13.986668586730957,
+        -23.97629737854004,
+        0.9861335158348083
+      ],
+      "after_blender_xyz": [
+        13.986668586730957,
+        -23.97629737854004,
+        0.3201873004436493
+      ],
+      "delta_height_metres": -0.6659462153911591,
+      "signed_distance_to_walkable_boundary_metres": -1.7175211241310084,
+      "nearest_anchor": "Target_Sea",
+      "nearest_anchor_planar_distance_metres": 5.994227652665316,
+      "distance_to_path_surface_planar_metres": 16.538927820997078,
+      "nearest_house": "VillageHouse_11",
+      "clearance_from_house_bounding_circle_metres": 20.33688737138567
+    },
+    {
+      "vertex_index": 3017,
+      "before_blender_xyz": [
+        13.983335494995117,
+        -23.97037124633789,
+        0.978333592414856
+      ],
+      "after_blender_xyz": [
+        13.983335494995117,
+        -23.97037124633789,
+        0.320288747549057
+      ],
+      "delta_height_metres": -0.658044844865799,
+      "signed_distance_to_walkable_boundary_metres": -1.7180204577121667,
+      "nearest_anchor": "Target_Sea",
+      "nearest_anchor_planar_distance_metres": 5.987585496391606,
+      "distance_to_path_surface_planar_metres": 16.5357020727576,
+      "nearest_house": "VillageHouse_11",
+      "clearance_from_house_bounding_circle_metres": 20.33196584559285
+    },
+    {
+      "vertex_index": 3018,
+      "before_blender_xyz": [
+        13.980003356933594,
+        -23.964445114135742,
+        0.96880042552948
+      ],
+      "after_blender_xyz": [
+        13.980003356933594,
+        -23.964445114135742,
+        0.3204091191291809
+      ],
+      "delta_height_metres": -0.6483913064002991,
+      "signed_distance_to_walkable_boundary_metres": -1.7185206693760904,
+      "nearest_anchor": "Target_Sea",
+      "nearest_anchor_planar_distance_metres": 5.980944494339716,
+      "distance_to_path_surface_planar_metres": 16.532477819324974,
+      "nearest_house": "VillageHouse_11",
+      "clearance_from_house_bounding_circle_metres": 20.32704283767196
+    },
+    {
+      "vertex_index": 3019,
+      "before_blender_xyz": [
+        13.976670265197754,
+        -23.958520889282227,
+        0.9575338959693909
+      ],
+      "after_blender_xyz": [
+        13.976670265197754,
+        -23.958520889282227,
+        0.3205462396144867
+      ],
+      "delta_height_metres": -0.6369876563549042,
+      "signed_distance_to_walkable_boundary_metres": -1.7190181869734205,
+      "nearest_anchor": "Target_Sea",
+      "nearest_anchor_planar_distance_metres": 5.974304570544051,
+      "distance_to_path_surface_planar_metres": 16.52925317991319,
+      "nearest_house": "VillageHouse_11",
+      "clearance_from_house_bounding_circle_metres": 20.32212412602529
+    },
+    {
+      "vertex_index": 3020,
+      "before_blender_xyz": [
+        13.973337173461914,
+        -23.952594757080078,
+        0.9445340633392334
+      ],
+      "after_blender_xyz": [
+        13.973337173461914,
+        -23.952594757080078,
+        0.3206977844238281
+      ],
+      "delta_height_metres": -0.6238362789154053,
+      "signed_distance_to_walkable_boundary_metres": -1.7195175711101995,
+      "nearest_anchor": "Target_Sea",
+      "nearest_anchor_planar_distance_metres": 5.967663491306392,
+      "distance_to_path_surface_planar_metres": 16.526033764312405,
+      "nearest_house": "VillageHouse_11",
+      "clearance_from_house_bounding_circle_metres": 20.31720468681919
+    },
+    {
+      "vertex_index": 3021,
+      "before_blender_xyz": [
+        13.97000503540039,
+        -23.94666862487793,
+        0.9298009276390076
+      ],
+      "after_blender_xyz": [
+        13.97000503540039,
+        -23.94666862487793,
+        0.320860892534256
+      ],
+      "delta_height_metres": -0.6089400351047516,
+      "signed_distance_to_walkable_boundary_metres": -1.720017693922053,
+      "nearest_anchor": "Target_Sea",
+      "nearest_anchor_planar_distance_metres": 5.9610234925553165,
+      "distance_to_path_surface_planar_metres": 16.522815847088257,
+      "nearest_house": "VillageHouse_11",
+      "clearance_from_house_bounding_circle_metres": 20.31228510614753
+    },
+    {
+      "vertex_index": 3022,
+      "before_blender_xyz": [
+        13.96667194366455,
+        -23.94074249267578,
+        0.771946132183075
+      ],
+      "after_blender_xyz": [
+        13.96667194366455,
+        -23.94074249267578,
+        0.32078641653060913
+      ],
+      "delta_height_metres": -0.4511597156524658,
+      "signed_distance_to_walkable_boundary_metres": -1.720517082418897,
+      "nearest_anchor": "Target_Sea",
+      "nearest_anchor_planar_distance_metres": 5.954383296598403,
+      "distance_to_path_surface_planar_metres": 16.51959850521293,
+      "nearest_house": "VillageHouse_11",
+      "clearance_from_house_bounding_circle_metres": 20.307368652633212
+    },
+    {
+      "vertex_index": 3023,
+      "before_blender_xyz": [
+        13.963338851928711,
+        -23.934818267822266,
+        0.44155699014663696
+      ],
+      "after_blender_xyz": [
+        13.963338851928711,
+        -23.934818267822266,
+        0.3202555179595947
+      ],
+      "delta_height_metres": -0.12130147218704224,
+      "signed_distance_to_walkable_boundary_metres": -1.721014628970463,
+      "nearest_anchor": "Target_Sea",
+      "nearest_anchor_planar_distance_metres": 5.947744826881513,
+      "distance_to_path_surface_planar_metres": 16.516384472477835,
+      "nearest_house": "VillageHouse_11",
+      "clearance_from_house_bounding_circle_metres": 20.302453232521113
+    }
+  ],
+  "protection_rules": {
+    "scene_contract_sha256": "b6db99153735c3971212dcd486dc5d9f46cc1f47cc70155c924df357bf9ee70e",
+    "boundary_rule": "negative signed distance means outside; require <-0.10m",
+    "anchor_protection_metres": 1.0,
+    "road_surface_protection_metres": 1.0,
+    "building_protection": "World bounding circle of source house XY extents, plus 0.30m",
+    "changed_vertices": 186,
+    "core_vertices_unchanged": 2839
+  },
+  "shared_rim_vertex_count": 288,
+  "cliff_ring_count": 9,
+  "new_triangles": 4608,
+  "added_triangles": 3640,
+  "max_planar_outward_displacement_metres": 0.39983855809174423,
+  "bottom_rim_description": "Open solely below sea level at approximately -1.8m Blender Z / Unity Y; hidden lower skirt from source -3.4m removed. Not a closed printable solid.",
+  "render_views": {
+    "cape-tip": {
+      "camera": [
+        14,
+        38,
+        6
+      ],
+      "look": [
+        12.9,
+        26.0,
+        0.8
+      ],
+      "scale": 8.5,
+      "clay": true
+    },
+    "cape-oblique": {
+      "camera": [
+        25,
+        38,
+        10
+      ],
+      "look": [
+        10,
+        24,
+        0.6
+      ],
+      "scale": 18,
+      "clay": false
+    },
+    "village-coast": {
+      "camera": [
+        -37,
+        -8,
+        15
+      ],
+      "look": [
+        -19,
+        -9,
+        2
+      ],
+      "scale": 22,
+      "clay": false
+    }
+  },
+  "render_resolution": [
+    1200,
+    900
+  ],
+  "render_scope": "Offline exact-camera before/after; cape-tip uses a uniform gray material override as a geometry diagnostic.",
+  "files": [
+    {
+      "path": "art/generated/env-v2/terrain/candidate-b/coastal_cliff_v2_candidate.blend",
+      "bytes": 1209179,
+      "sha256": "7812f77a415eec6d93487bc8dac35ef0c0d8f2e8a28bd5b45ef35abe3c88f4bc"
+    },
+    {
+      "path": "art/generated/env-v2/terrain/candidate-b/coastal_cliff_v2_candidate.fbx",
+      "bytes": 271340,
+      "sha256": "5700dc6a8be5111ac31fa42e18a3c4c910ce4312a42829f524466e5210b2278c"
+    },
+    {
+      "path": "art/generated/env-v2/terrain/candidate-b/after-cape-oblique.png",
+      "bytes": 1114457,
+      "sha256": "d29d376bad3a268f2b618bfb9aeb75efaeaf1205164401e29cc6656762709f53"
+    },
+    {
+      "path": "art/generated/env-v2/terrain/candidate-b/after-cape-tip.png",
+      "bytes": 1067810,
+      "sha256": "cdda4e84c62ee3d50db52a93618ca6b742700949785e4b74f0b9659b70bd7525"
+    },
+    {
+      "path": "art/generated/env-v2/terrain/candidate-b/after-village-coast.png",
+      "bytes": 1088832,
+      "sha256": "b1d5593d45521e09c0bc2b0555c13eda817642b2c60b356d85672e2ad711365d"
+    },
+    {
+      "path": "art/generated/env-v2/terrain/candidate-b/before-cape-oblique.png",
+      "bytes": 1109063,
+      "sha256": "ec195abeab01cf2add79f71279636881b188dd5fb712b6f09b5fd59eb999d12c"
+    },
+    {
+      "path": "art/generated/env-v2/terrain/candidate-b/before-cape-tip.png",
+      "bytes": 1061206,
+      "sha256": "0b127b00ac132937c091a7e1dcc2f085eb8e97ef702a31b2322e1e3bf5364f8a"
+    },
+    {
+      "path": "art/generated/env-v2/terrain/candidate-b/before-village-coast.png",
+      "bytes": 1089826,
+      "sha256": "99dc4b8f08309db5c25144b34f8361dfcdd9ad56e3a8270debadfa9b9ae5b94f"
+    }
+  ],
+  "limits": [
+    "FBX exports CoastalCliff and modified IslandGround; changed nonwalkable coast vertices are explicitly listed. Unity ground collision must be independently rechecked.",
+    "No path, markers, layout, collision or Unity project files altered.",
+    "Old ground collision remains exact; visual cliff bulges by up to the reported outward amount. A wall collision following the former cliff could disagree by that amount; do not silently claim collision parity.",
+    "Smooth shading and uneven strata improve broad silhouette but do not replace rock PBR detail. Night lighting, Unity import normals, actual gameplay raycasts and FPS remain unverified.",
+    "This repairs a demonstrable endpoint gap; it does not prove every black pixel in the historical Unity image had the same cause."
+  ],
+  "source_end_gap_witness_note": "Reused exact original source witnesses from A; B modified coastline must not be used to measure the original gap.",
+  "executed_script_snapshot": "art/generated/env-v2/terrain/candidate-b-source.py",
+  "executed_script_snapshot_sha256": "58d07323b429fd15e87e9e9e0aae268ae58d9bc1a2b1fb36359cceca19788901",
+  "visual_review": {
+    "reviewed": true,
+    "result": "B removes the narrow column by lowering only protected-mask-approved, nonwalkable end vertices; remaining broad gray slopes still require further terrain art work."
+  }
+}

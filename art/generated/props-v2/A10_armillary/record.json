@@ -1,0 +1,16 @@
+{
+ "id": "A10_armillary",
+ "source": "art\\incoming\\tripo-v2-2026-10-22\\tripo_convert_7e10203d-f3e9-4274-a7ac-d631ac255d48.glb",
+ "source_sha256": "3b8a8503758428bd2ca4548851630a742b4be2768cb9189c48a1213a9c491be0",
+ "tris_before": 94639,
+ "tris_after": 11999,
+ "size_m": [
+  3.0,
+  2.995,
+  2.751
+ ],
+ "textures": {
+  "albedo": "A10_armillary_albedo.jpg"
+ },
+ "materials": 1
+}

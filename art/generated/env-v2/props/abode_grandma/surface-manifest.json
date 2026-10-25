@@ -1,0 +1,6313 @@
+{
+  "status": "offline-wood-surface-candidate-not-unity-verified",
+  "source_candidate": "art\\generated\\env-v2\\props\\abode_grandma\\archive-flat-materials-20261022\\abode_grandma_v2_candidate.blend",
+  "source_sha256": "3635fb0cf76b8b20d23996fb8aa865926ffc51ecee49027b188b6dd25f770528",
+  "script_sha256": "1c46f1e6969d71a8c8069ffde6e69a1bb3304ce56039b3e6a60bc6f94b3ee9f0",
+  "geometry_sha256_before": "907fdb493006d932e4f64a8a4391bb65fd0b863327796c2717ee8e382cf1b5d5",
+  "geometry_sha256_after": "907fdb493006d932e4f64a8a4391bb65fd0b863327796c2717ee8e382cf1b5d5",
+  "candidate_triangles": 11925,
+  "budget": 12100,
+  "bounds_before": {
+    "min": [
+      -2.3172435760498047,
+      -2.530688762664795,
+      -0.009999975562095642
+    ],
+    "max": [
+      2.3172435760498047,
+      1.9616841077804565,
+      3.9230000972747803
+    ]
+  },
+  "bounds_after": {
+    "min": [
+      -2.3172435760498047,
+      -2.530688762664795,
+      -0.009999975562095642
+    ],
+    "max": [
+      2.3172435760498047,
+      1.9616841077804565,
+      3.9230000972747803
+    ]
+  },
+  "markers_before": {
+    "Marker_Window": {
+      "location": [
+        0.8199999928474426,
+        -1.684999942779541,
+        1.6200000047683716
+      ],
+      "quaternion": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "Marker_ABo_Seat": {
+      "location": [
+        0.8199999928474426,
+        -0.3499999940395355,
+        0.49000000953674316
+      ],
+      "quaternion": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "Marker_Entry": {
+      "location": [
+        -1.1299999952316284,
+        -2.1050000190734863,
+        0.1599999964237213
+      ],
+      "quaternion": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "Marker_Desk": {
+      "location": [
+        0.8199999928474426,
+        -0.9800000190734863,
+        0.8399999737739563
+      ],
+      "quaternion": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  },
+  "markers_after": {
+    "Marker_Window": {
+      "location": [
+        0.8199999928474426,
+        -1.684999942779541,
+        1.6200000047683716
+      ],
+      "quaternion": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "Marker_ABo_Seat": {
+      "location": [
+        0.8199999928474426,
+        -0.3499999940395355,
+        0.49000000953674316
+      ],
+      "quaternion": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "Marker_Entry": {
+      "location": [
+        -1.1299999952316284,
+        -2.1050000190734863,
+        0.1599999964237213
+      ],
+      "quaternion": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "Marker_Desk": {
+      "location": [
+        0.8199999928474426,
+        -0.9800000190734863,
+        0.8399999737739563
+      ],
+      "quaternion": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  },
+  "checks": [
+    {
+      "name": "surface_pass_geometry_exact",
+      "passed": true,
+      "detail": "907fdb493006d932e4f64a8a4391bb65fd0b863327796c2717ee8e382cf1b5d5"
+    },
+    {
+      "name": "surface_pass_markers_exact",
+      "passed": true
+    },
+    {
+      "name": "surface_pass_bounds_exact",
+      "passed": true
+    },
+    {
+      "name": "surface_pass_triangle_count_exact",
+      "passed": true,
+      "detail": 11925
+    },
+    {
+      "name": "wood_uv_components_changed",
+      "passed": true
+    },
+    {
+      "name": "wood_v_does_not_wrap_image_edge",
+      "passed": true,
+      "detail": [
+        0.04540072963937978,
+        0.9579105287743779
+      ]
+    },
+    {
+      "name": "texture_sha_unchanged",
+      "passed": true
+    }
+  ],
+  "uv": {
+    "u_repeat_metres": 1.0,
+    "v_repeat_metres": 4.9,
+    "wood_components": 164,
+    "wood_faces": 3057,
+    "long_side_faces": 2717,
+    "minimum_projected_grain_dot_v": 0.9999998062849045,
+    "v_range": [
+      0.04540072963937978,
+      0.9579105287743779
+    ],
+    "components": [
+      {
+        "object": "Structure",
+        "component": 0,
+        "wood_faces": 6,
+        "materials": [
+          "Wood_Honey"
+        ],
+        "grain_local_axis": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "grain_span_metres": 4.0,
+        "method": "metric_component_axis",
+        "before_uv_range": [
+          [
+            0.013204614631831646,
+            0.6673874855041504
+          ],
+          [
+            0.013204622082412243,
+            0.7045131325721741
+          ]
+        ],
+        "after_uv_range": [
+          [
+            -1.4204124212265015,
+            1.8295875787734985
+          ],
+          [
+            0.1276189535856247,
+            0.9439454674720764
+          ]
+        ],
+        "uv_changed": true
+      },
+      {
+        "object": "Structure",
+        "component": 1,
+        "wood_faces": 6,
+        "materials": [
+          "Wall_WarmIvory"
+        ],
+        "grain_local_axis": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "grain_span_metres": 4.0,
+        "method": "metric_component_axis",
+        "before_uv_range": [
+          [
+            0.013204624876379967,
+            0.704948902130127
+          ],
+          [
+            0.013204620219767094,
+            0.724920392036438
+          ]
+        ],
+        "after_uv_range": [
+          [
+            -2.1894712448120117,
+            2.9105281829833984
+          ],
+          [
+            0.08619245141744614,
+            0.9025189876556396
+          ]
+        ],
+        "uv_changed": true
+      },
+      {
+        "object": "Structure",
+        "component": 2,
+        "wood_faces": 6,
+        "materials": [
+          "Wall_WarmIvory"
+        ],
+        "grain_local_axis": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "grain_span_metres": 3.25,
+        "method": "metric_component_axis",
+        "before_uv_range": [
+          [
+            0.13707149028778076,
+            0.6988043785095215
+          ],
+          [
+            0.013204618357121944,
+            0.675640881061554
+          ]
+        ],
+        "after_uv_range": [
+          [
+            -1.898651123046875,
+            3.201348304748535
+          ],
+          [
+            0.11846575886011124,
+            0.7817310690879822
+          ]
+        ],
+        "uv_changed": true
+      },
+      {
+        "object": "Structure",
+        "component": 3,
+        "wood_faces": 6,
+        "materials": [
+          "Wall_WarmIvory"
+        ],
+        "grain_local_axis": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "grain_span_metres": 3.25,
+        "method": "metric_component_axis",
+        "before_uv_range": [
+          [
+            0.20341365039348602,
+            0.6717778444290161
+          ],
+          [
+            0.20865987241268158,
+            0.675640881061554
+          ]
+        ],
+        "after_uv_range": [
+          [
+            -2.092695713043213,
+            3.0073037147521973
+          ],
+          [
+            0.12483828514814377,
+            0.7881035804748535
+          ]
+        ],
+        "uv_changed": true
+      },
+      {
+        "object": "Structure",
+        "component": 4,
+        "wood_faces": 6,
+        "materials": [
+          "Wall_WarmIvory"
+        ],
+        "grain_local_axis": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "grain_span_metres": 0.440000057220459,
+        "method": "metric_component_axis",
+        "before_uv_range": [
+          [
+            0.09206721186637878,
+            0.891270101070404
+          ],
+          [
+            0.013204623013734818,
+            0.949347734451294
+          ]
+        ],
+        "after_uv_range": [
+          [
+            -2.2389185428619385,
+            2.8610808849334717
+          ],
+          [
+            0.23979595303535461,
+            0.7602040767669678
+          ]
+        ],
+        "uv_changed": true
+      },
+      {
+        "object": "Structure",
+        "component": 5,
+        "wood_faces": 6,
+        "materials": [
+          "Wall_WarmIvory"
+        ],
+        "grain_local_axis": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "grain_span_metres": 0.25999999046325684,
+        "method": "metric_component_axis",
+        "before_uv_range": [
+          [
+            0.3147278428077698,
+            0.9496408700942993
+          ],
+          [
+            0.1708316206932068,
+            0.7220966815948486
+          ]
+        ],
+        "after_uv_range": [
+          [
+            -1.9855529069900513,
+            3.1144464015960693
+          ],
+          [
+            0.23979595303535461,
+            0.7602040767669678
+          ]
+        ],
+        "uv_changed": true
+      },
+      {
+        "object": "Structure",
+        "component": 6,
+        "wood_faces": 6,
+        "materials": [
+          "Wall_WarmIvory"
+        ],
+        "grain_local_axis": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "grain_span_metres": 0.9900000095367432,
+        "method": "metric_component_axis",
+        "before_uv_range": [
+          [
+            0.5682885050773621,
+            0.8480717539787292
+          ],
+          [
+            0.8105814456939697,
+            0.9295434951782227
+          ]
+        ],
+        "after_uv_range": [
+          [
+            -2.503965377807617,
+            2.5960350036621094
+          ],
+          [
+            0.44387751817703247,
+            0.9465714693069458
+          ]
+        ],
+        "uv_changed": true
+      },
+      {
+        "object": "Structure",
+        "component": 7,
+        "wood_faces": 144,
+        "materials": [
+          "Wall_WarmIvory"
+        ],
+        "grain_local_axis": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "grain_span_metres": 2.4000000059604645,
+        "method": "metric_component_axis",
+        "before_uv_range": [
+          [
+            0.013204623013734818,
+            0.7766209244728088
+          ],
+          [
+            0.14738067984580994,
+            0.9117013216018677
+          ]
+        ],
+        "after_uv_range": [
+          [
+            -2.4496195316314697,
+            2.6503803730010986
+          ],
+          [
+            0.1891157478094101,
+            0.826444685459137
+          ]
+        ],
+        "uv_changed": true
+      },
+      {
+        "object": "Structure",
+        "component": 8,
+        "wood_faces": 6,
+        "materials": [
+          "Wood_DarkBeams"
+        ],
+        "grain_local_axis": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "grain_span_metres": 2.039999946951866,
+        "method": "metric_component_axis",
+        "before_uv_range": [
+          [
+            0.13707149028778076,
+            0.8884897232055664
+          ],
+          [
+            0.17696331441402435,
+            0.870880663394928
+          ]
+        ],
+        "after_uv_range": [
+          [
+            -1.6077985763549805,
+            1.8222012519836426
+          ],
+          [
+            0.053335390985012054,
+            0.5112245082855225
+          ]
+        ],
+        "uv_changed": true
+      },
+      {
+        "object": "Structure",
+        "component": 9,
+        "wood_faces": 6,
+        "materials": [
+          "Wood_DarkBeams"
+        ],
+        "grain_local_axis": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "grain_span_metres": 2.039999946951866,
+        "method": "metric_component_axis",
+        "before_uv_range": [
+          [
+            0.34072285890579224,
+            0.8904082775115967
+          ],
+          [
+            0.013204623013734818,
+            0.7875533699989319
+          ]
+        ],
+        "after_uv_range": [
+          [
+            -1.0633232593536377,
+            2.3666765689849854
+          ],
+          [
+            0.441649854183197,
+            0.8579763770103455
+          ]
+        ],
+        "uv_changed": true
+      },
+      {
+        "object": "Structure",
+        "component": 10,
+        "wood_faces": 6,
+        "materials": [
+          "Wood_DarkBeams"
+        ],
+        "grain_local_axis": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "grain_span_metres": 1.1000000834465027,
+        "method": "metric_component_axis",
+        "before_uv_range": [
+          [
+            0.19748173654079437,
+            0.9522348642349243
+          ],
+          [
+            0.5297582149505615,
+            0.963810384273529
+          ]
+        ],
+        "after_uv_range": [
+          [
+            -1.6597031354904175,
+            2.580296516418457
+          ],
+          [
+            0.42902281880378723,
+            0.6535125970840454
+          ]
+        ],
+        "uv_changed": true
+      },
+      {
+        "object": "Structure",
+        "component": 11,
+        "wood_faces": 6,
+        "materials": [
+          "Wood_Honey"
+        ],
+        "grain_local_axis": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "grain_span_metres": 1.960000142455101,
+        "method": "metric_component_axis",
+        "before_uv_range": [
+          [
+            0.5499089360237122,
+            0.9179449677467346
+          ],
+          [
+            0.013204610906541348,
+            0.9164424538612366
+          ]
+        ],
+        "after_uv_range": [
+          [
+            -1.855626106262207,
+            3.667302370071411
+          ],
+          [
+            0.11743972450494766,
+            0.5908163189888
+          ]
+        ],
+        "uv_changed": true
+      },
+      {
+        "object": "Structure",
+        "component": 13,
+        "wood_faces": 240,
+        "materials": [
+          "Wood_Endgrain"
+        ],
+        "grain_local_axis": [
+          -1.6997223628578695e-09,
+          0.0,
+          1.0
+        ],
+        "grain_span_metres": 1.3100001215934753,
+        "method": "bent_round_frame",
+        "before_uv_range": [
+          [
+            0.013204610906541348,
+            0.9215753078460693
+          ],
+          [
+            0.13675706088542938,
+            0.9140293598175049
+          ]
+        ],
+        "after_uv_range": [
+          [
+            0.016489192843437195,
+            0.14648939669132233
+          ],
+          [
+            0.07999999821186066,
+            0.8989999890327454
+          ]
+        ],
+        "uv_changed": true
+      },
+      {
+        "object": "Structure",
+        "component": 14,
+        "wood_faces": 6,
+        "materials": [
+          "Wood_Endgrain"
+        ],
+        "grain_local_axis": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "grain_span_metres": 1.3600000143051147,
+        "method": "metric_component_axis",
+        "before_uv_range": [
+          [
+            0.09206722676753998,
+            0.9525055885314941
+          ],
+          [
+            0.6580176949501038,
+            0.9650070667266846
+          ]
+        ],
+        "after_uv_range": [
+          [
+            -1.3180463314056396,
+            2.4819536209106445
+          ],
+          [
+            0.4642857313156128,
+            0.8382049202919006
+          ]
+        ],
+        "uv_changed": true
+      },
+      {
+        "object": "Structure",
+        "component": 15,
+        "wood_faces": 6,
+        "materials": [
+          "Wood_DarkBeams"
+        ],
+        "grain_local_axis": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "grain_span_metres": 2.5499997586011887,
+        "method": "metric_component_axis",
+        "before_uv_range": [
+          [
+            0.41573283076286316,
+            0.9525408744812012
+          ],
+          [
+            0.013204623013734818,
+            0.981251060962677
+          ]
+        ],
+        "after_uv_range": [
+          [
+            -1.8756985664367676,
+            2.2543015480041504
+          ],
+          [
+            0.1569221168756485,
+            0.6773302555084229
+          ]
+        ],
+        "uv_changed": true
+      },
+      {
+        "object": "Structure",
+        "component": 16,
+        "wood_faces": 6,
+        "materials": [
+          "Wood_DarkBeams"
+        ],
+        "grain_local_axis": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "grain_span_metres": 2.5499997586011887,
+        "method": "metric_component_axis",
+        "before_uv_range": [
+          [
+            0.4808071553707123,
+            0.9814857840538025
+          ],
+          [
+            0.013204623013734818,
+            0.8091064691543579
+          ]
+        ],
+        "after_uv_range": [
+          [
+            -1.6065713167190552,
+            2.5234289169311523
+          ],
+          [
+            0.18340905010700226,
+            0.7038171291351318
+          ]
+        ],
+        "uv_changed": true
+      },
+      {
+        "object": "Structure",
+        "component": 17,
+        "wood_faces": 6,
+        "materials": [
+          "Wood_DarkBeams"
+        ],
+        "grain_local_axis": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "grain_span_metres": 2.5499997586011887,
+        "method": "metric_component_axis",
+        "before_uv_range": [
+          [
+            0.09206719696521759,
+            0.9814857840538025
+          ],
+          [
+            0.30029234290122986,
+            0.8091065287590027
+          ]
+        ],
+        "after_uv_range": [
+          [
+            -1.577895998954773,
+            2.5521039962768555
+          ],
+          [
+            0.3551763594150543,
+            0.8755844831466675
+          ]
+        ],
+        "uv_changed": true
+      },
+      {
+        "object": "Structure",
+        "component": 18,
+        "wood_faces": 6,
+        "materials": [
+          "Wood_DarkBeams"
+        ],
+        "grain_local_axis": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "grain_span_metres": 2.5499997586011887,
+        "method": "metric_component_axis",
+        "before_uv_range": [
+          [
+            0.4489039480686188,
+            0.9814857840538025
+          ],
+          [
+            0.33219558000564575,
+            0.8155484199523926
+          ]
+        ],
+        "after_uv_range": [
+          [
+            -1.6065185070037842,
+            2.523481607437134
+          ],
+          [
+            0.3957884609699249,
+            0.9161965847015381
+          ]
+        ],
+        "uv_changed": true
+      },
+      {
+        "object": "Structure",
+        "component": 19,
+        "wood_faces": 5,
+        "materials": [
+          "Wall_WarmIvory"
+        ],
+        "grain_local_axis": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "grain_span_metres": 4.0,
+        "method": "metric_component_axis",
+        "before_uv_range": [
+          [
+            0.41573286056518555,
+            0.6984454989433289
+          ],
+          [
+            0.013204624876379967,
+            0.5407546162605286
+          ]
+        ],
+        "after_uv_range": [
+          [
+            -2.8647637367248535,
+            4.595236301422119
+          ],
+          [
+            0.07261888682842255,
+            0.8889454007148743
+          ]
+        ],
+        "uv_changed": true
+      },
+      {
+        "object": "Structure",
+        "component": 20,
+        "wood_faces": 5,
+        "materials": [
+          "Wall_WarmIvory"
+        ],
+        "grain_local_axis": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "grain_span_metres": 4.0,
+        "method": "metric_component_axis",
+        "before_uv_range": [
+          [
+            0.360419362783432,
+            0.7007228136062622
+          ],
+          [
+            0.013204622082412243,
+            0.7045132517814636
+          ]
+        ],
+        "after_uv_range": [
+          [
+            -3.613940954208374,
+            3.8460590839385986
+          ],
+          [
+            0.1193234920501709,
+            0.9356500506401062
+          ]
+        ],
+        "uv_changed": true
+      },
+      {
+        "object": "Structure",
+        "component": 21,
+        "wood_faces": 6,
+        "materials": [
+          "Wood_DarkBeams"
+        ],
+        "grain_local_axis": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "grain_span_metres": 1.1800003051757812,
+        "method": "metric_component_axis",
+        "before_uv_range": [
+          [
+            0.23891331255435944,
+            0.9798765778541565
+          ],
+          [
+            0.12582732737064362,
+            0.9424786567687988
+          ]
+        ],
+        "after_uv_range": [
+          [
+            -1.173041582107544,
+            1.2452647686004639
+          ],
+          [
+            0.3268793523311615,
+            0.5676957368850708
+          ]
+        ],
+        "uv_changed": true
+      },
+      {
+        "object": "Structure",
+        "component": 22,
+        "wood_faces": 8,
+        "materials": [
+          "Wood_Honey"
+        ],
+        "grain_local_axis": [
+          0.8752413988113403,
+          1.375257454583334e-07,
+          0.48368629813194275
+        ],
+        "grain_span_metres": 2.6049952263451246,
+        "method": "metric_component_axis",
+        "before_uv_range": [
+          [
+            0.41573286056518555,
+            0.8304643630981445
+          ],
+          [
+            0.48095041513442993,
+            0.9705520272254944
+          ]
+        ],
+        "after_uv_range": [
+          [
+            -2.4834160804748535,
+            4.192904472351074
+          ],
+          [
+            0.10468985140323639,
+            0.6363215446472168
+          ]
+        ],
+        "uv_changed": true
+      },
+      {
+        "object": "Structure",
+        "component": 23,
+        "wood_faces": 8,
+        "materials": [
+          "Wood_Honey"
+        ],
+        "grain_local_axis": [
+          0.8752413988113403,
+          -1.375257454583334e-07,
+          -0.48368629813194275
+        ],
+        "grain_span_metres": 2.6049952263451246,
+        "method": "metric_component_axis",
+        "before_uv_range": [
+          [
+            0.013204623013734818,
+            0.8327041864395142
+          ],
+          [
+            0.013204642571508884,
+            0.9711665511131287
+          ]
+        ],
+        "after_uv_range": [
+          [
+            -3.0190227031707764,
+            3.6572978496551514
+          ],
+          [
+            0.12344903498888016,
+            0.6550807356834412
+          ]
+        ],
+        "uv_changed": true
+      },
+      {
+        "object": "Structure",
+        "component": 24,
+        "wood_faces": 8,
+        "materials": [
+          "Wood_Honey"
+        ],
+        "grain_local_axis": [
+          0.8752413988113403,
+          1.375257454583334e-07,
+          0.48368629813194275
+        ],
+        "grain_span_metres": 2.6049952263451246,
+        "method": "metric_component_axis",
+        "before_uv_range": [
+          [
+            0.04637568071484566,
+            0.857455849647522
+          ],
+          [
+            0.20865988731384277,
+            0.9714133143424988
+          ]
+        ],
+        "after_uv_range": [
+          [
+            -2.984341621398926,
+            3.691978931427002
+          ],
+          [
+            0.15150241553783417,
+            0.6831340789794922
+          ]
+        ],
+        "uv_changed": true
+      },
+      {
+        "object": "Structure",
+        "component": 25,
+        "wood_faces": 8,
+        "materials": [
+          "Wood_Honey"
+        ],
+        "grain_local_axis": [
+          0.8752413988113403,
+          -1.375257454583334e-07,
+          -0.48368629813194275
+        ],
+        "grain_span_metres": 2.6049952263451246,
+        "method": "metric_component_axis",
+        "before_uv_range": [
+          [
+            0.448903888463974,
+            0.8897043466567993
+          ],
+          [
+            0.01320462767034769,
+            0.9709746837615967
+          ]
+        ],
+        "after_uv_range": [
+          [
+            -3.0628581047058105,
+            3.613462448120117
+          ],
+          [
+            0.2183668613433838,
+            0.7499985098838806
+          ]
+        ],
+        "uv_changed": true
+      },
+      {
+        "object": "Structure",
+        "component": 26,
+        "wood_faces": 26,
+        "materials": [
+          "Wood_Endgrain"
+        ],
+        "grain_local_axis": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "grain_span_metres": 1.3300000429153442,
+        "method": "metric_component_axis",
+        "before_uv_range": [
+          [
+            0.13707150518894196,
+            0.8895870447158813
+          ],
+          [
+            0.12582732737064362,
+            0.9392989277839661
+          ]
+        ],
+        "after_uv_range": [
+          [
+            -0.6096315979957581,
+            2.0964012145996094
+          ],
+          [
+            0.44285714626312256,
+            0.8107768893241882
+          ]
+        ],
+        "uv_changed": true
+      },
+      {
+        "object": "Structure",
+        "component": 27,
+        "wood_faces": 6,
+        "materials": [
+          "Wood_Honey"
+        ],
+        "grain_local_axis": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "grain_span_metres": 0.7799999564886093,
+        "method": "metric_component_axis",
+        "before_uv_range": [
+          [
+            0.6633255481719971,
+            0.9793727397918701
+          ],
+          [
+            0.48433130979537964,
+            0.9367279410362244
+          ]
+        ],
+        "after_uv_range": [
+          [
+            -0.8389936089515686,
+            1.6110063791275024
+          ],
+          [
+            0.4928571581840515,
+            0.6661194562911987
+          ]
+        ],
+        "uv_changed": true
+      },
+      {
+        "object": "Structure",
+        "component": 28,
+        "wood_faces": 6,
+        "materials": [
+          "Wood_Honey"
+        ],
+        "grain_local_axis": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "grain_span_metres": 0.7799999564886093,
+        "method": "metric_component_axis",
+        "before_uv_range": [
+          [
+            0.16812948882579803,
+            0.9790084362030029
+          ],
+          [
+            0.12582731246948242,
+            0.9302537441253662
+          ]
+        ],
+        "after_uv_range": [
+          [
+            0.027200084179639816,
+            1.637200117111206
+          ],
+          [
+            0.12240410596132278,
+            0.5071428418159485
+          ]
+        ],
+        "uv_changed": true
+      },
+      {
+        "object": "Structure",
+        "component": 29,
+        "wood_faces": 6,
+        "materials": [
+          "Wood_Honey"
+        ],
+        "grain_local_axis": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "grain_span_metres": 0.7799999564886093,
+        "method": "metric_component_axis",
+        "before_uv_range": [
+          [
+            0.13707149028778076,
+            0.979887843132019
+          ],
+          [
+            0.37170860171318054,
+            0.9390521049499512
+          ]
+        ],
+        "after_uv_range": [
+          [
+            -0.6795815825462341,
+            2.130418300628662
+          ],
+          [
+            0.4928571581840515,
+            0.7750772833824158
+          ]
+        ],
+        "uv_changed": true
+      },
+      {
+        "object": "Structure",
+        "component": 30,
+        "wood_faces": 6,
+        "materials": [
+          "Wood_Honey"
+        ],
+        "grain_local_axis": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "grain_span_metres": 0.7799999564886093,
+        "method": "metric_component_axis",
+        "before_uv_range": [
+          [
+            0.09206721186637878,
+            0.979068398475647
+          ],
+          [
+            0.20865988731384277,
+            0.9302537441253662
+          ]
+        ],
+        "after_uv_range": [
+          [
+            -1.3688795566558838,
+            1.4411203861236572
+          ],
+          [
+            0.13795234262943268,
+            0.5071428418159485
+          ]
+        ],
+        "uv_changed": true
+      },
+      {
+        "object": "Structure",
+        "component": 33,
+        "wood_faces": 6,
+        "materials": [
+          "Wood_Honey"
+        ],
+        "grain_local_axis": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "grain_span_metres": 0.4599999785423279,
+        "method": "metric_component_axis",
+        "before_uv_range": [
+          [
+            0.5499089956283569,
+            0.9500051736831665
+          ],
+          [
+            0.14738066494464874,
+            0.7198387980461121
+          ]
+        ],
+        "after_uv_range": [
+          [
+            0.01345776580274105,
+            1.153457760810852
+          ],
+          [
+            0.18754702806472778,
+            0.5448979735374451
+          ]
+        ],
+        "uv_changed": true
+      },
+      {
+        "object": "Structure",
+        "component": 34,
+        "wood_faces": 6,
+        "materials": [
+          "Wood_Honey"
+        ],
+        "grain_local_axis": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "grain_span_metres": 0.44999998807907104,
+        "method": "metric_component_axis",
+        "before_uv_range": [
+          [
+            0.9176792502403259,
+            0.9851324558258057
+          ],
+          [
+            0.07722659409046173,
+            0.9759184718132019
+          ]
+        ],
+        "after_uv_range": [
+          [
+            0.1430218666791916,
+            1.4830217361450195
+          ],
+          [
+            0.3881707787513733,
+            0.5061224699020386
+          ]
+        ],
+        "uv_changed": true
+      },
+      {
+        "object": "Structure",
+        "component": 35,
+        "wood_faces": 6,
+        "materials": [
+          "Wood_Honey"
+        ],
+        "grain_local_axis": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "grain_span_metres": 0.44999998807907104,
+        "method": "metric_component_axis",
+        "before_uv_range": [
+          [
+            0.013204619288444519,
+            0.9810465574264526
+          ],
+          [
+            0.37170863151550293,
+            0.9594562649726868
+          ]
+        ],
+        "after_uv_range": [
+          [
+            -0.2799590229988098,
+            1.060040831565857
+          ],
+          [
+            0.4192311763763428,
+            0.5110678672790527
+          ]
+        ],
+        "uv_changed": true
+      },
+      {
+        "object": "Structure",
+        "component": 36,
+        "wood_faces": 6,
+        "materials": [
+          "Wood_Honey"
+        ],
+        "grain_local_axis": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "grain_span_metres": 0.7000000476837158,
+        "method": "metric_component_axis",
+        "before_uv_range": [
+          [
+            0.506793737411499,
+            0.9800611138343811
+          ],
+          [
+            0.013204620219767094,
+            0.9379957318305969
+          ]
+        ],
+        "after_uv_range": [
+          [
+            0.11423636972904205,
+            1.4542362689971924
+          ],
+          [
+            0.06122970208525658,
+            0.5066326260566711
+          ]
+        ],
+        "uv_changed": true
+      },
+      {
+        "object": "Structure",
+        "component": 37,
+        "wood_faces": 6,
+        "materials": [
+          "Wood_Honey"
+        ],
+        "grain_local_axis": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "grain_span_metres": 0.44999998807907104,
+        "method": "metric_component_axis",
+        "before_uv_range": [
+          [
+            0.04437180608510971,
+            0.949582576751709
+          ],
+          [
+            0.7462480068206787,
+            0.9867954850196838
+          ]
+        ],
+        "after_uv_range": [
+          [
+            -0.43371352553367615,
+            1.6262863874435425
+          ],
+          [
+            0.4938775599002838,
+            0.8190433382987976
+          ]
+        ],
+        "uv_changed": true
+      },
+      {
+        "object": "Structure",
+        "component": 38,
+        "wood_faces": 6,
+        "materials": [
+          "Wood_Honey"
+        ],
+        "grain_local_axis": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "grain_span_metres": 0.44999998807907104,
+        "method": "metric_component_axis",
+        "before_uv_range": [
+          [
+            0.6014596223831177,
+            0.9814505577087402
+          ],
+          [
+            0.4314378499984741,
+            0.9618692994117737
+          ]
+        ],
+        "after_uv_range": [
+          [
+            -0.19313527643680573,
+            1.8668646812438965
+          ],
+          [
+            0.4938775599002838,
+            0.7061012387275696
+          ]
+        ],
+        "uv_changed": true
+      },
+      {
+        "object": "Structure",
+        "component": 39,
+        "wood_faces": 6,
+        "materials": [
+          "Wood_Honey"
+        ],
+        "grain_local_axis": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "grain_span_metres": 0.7000000476837158,
+        "method": "metric_component_axis",
+        "before_uv_range": [
+          [
+            0.4489039182662964,
+            0.9801826477050781
+          ],
+          [
+            0.5092656016349792,
+            0.9379957318305969
+          ]
+        ],
+        "after_uv_range": [
+          [
+            -0.3336658775806427,
+            1.7263340950012207
+          ],
+          [
+            0.49336734414100647,
+            0.9324419498443604
+          ]
+        ],
+        "uv_changed": true
+      },
+      {
+        "object": "Structure",
+        "component": 40,
+        "wood_faces": 6,
+        "materials": [
+          "Wood_Endgrain"
+        ],
+        "grain_local_axis": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "grain_span_metres": 0.43999993801116943,
+        "method": "metric_component_axis",
+        "before_uv_range": [
+          [
+            0.09206721931695938,
+            0.9785274863243103
+          ],
+          [
+            0.013204620219767094,
+            0.9688870310783386
+          ]
+        ],
+        "after_uv_range": [
+          [
+            -0.5815412998199463,
+            1.4384586811065674
+          ],
+          [
+            0.48367348313331604,
+            0.6703193783760071
+          ]
+        ],
+        "uv_changed": true
+      },
+      {
+        "object": "V2_Attic",
+        "component": 0,
+        "wood_faces": 26,
+        "materials": [
+          "V2_WhitewashedWood_2"
+        ],
+        "grain_local_axis": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "grain_span_metres": 1.0199999809265137,
+        "method": "metric_component_axis",
+        "before_uv_range": [
+          [
+            0.003893176792189479,
+            0.9579586386680603
+          ],
+          [
+            0.003893152577802539,
+            0.9961068034172058
+          ]
+        ],
+        "after_uv_range": [
+          [
+            -3.2408018112182617,
+            4.160885810852051
+          ],
+          [
+            0.4238775670528412,
+            0.7384616136550903
+          ]
+        ],
+        "uv_changed": true
+      },
+      {
+        "object": "V2_Attic",
+        "component": 1,
+        "wood_faces": 26,
+        "materials": [
+          "V2_WhitewashedWood_1"
+        ],
+        "grain_local_axis": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "grain_span_metres": 0.6999998092651367,
+        "method": "metric_component_axis",
+        "before_uv_range": [
+          [
+            0.00398425804451108,
+            0.996015727519989
+          ],
+          [
+            0.00398425804451108,
+            0.9526045322418213
+          ]
+        ],
+        "after_uv_range": [
+          [
+            -1.2443503141403198,
+            2.681649684906006
+          ],
+          [
+            0.12416763603687286,
+            0.5557143092155457
+          ]
+        ],
+        "uv_changed": true
+      },
+      {
+        "object": "V2_Attic",
+        "component": 2,
+        "wood_faces": 26,
+        "materials": [
+          "V2_WhitewashedWood_0"
+        ],
+        "grain_local_axis": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "grain_span_metres": 0.6999998092651367,
+        "method": "metric_component_axis",
+        "before_uv_range": [
+          [
+            0.00398425804451108,
+            0.996015727519989
+          ],
+          [
+            0.00398425804451108,
+            0.9526045322418213
+          ]
+        ],
+        "after_uv_range": [
+          [
+            -1.033766508102417,
+            2.8922336101531982
+          ],
+          [
+            0.06853172928094864,
+            0.5557143092155457
+          ]
+        ],
+        "uv_changed": true
+      },
+      {
+        "object": "V2_Attic",
+        "component": 3,
+        "wood_faces": 6,
+        "materials": [
+          "V2_OldTimber_0"
+        ],
+        "grain_local_axis": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "grain_span_metres": 0.559999942779541,
+        "method": "metric_component_axis",
+        "before_uv_range": [
+          [
+            0.0034435875713825226,
+            0.996556282043457
+          ],
+          [
+            0.00344359059818089,
+            0.9738604426383972
+          ]
+        ],
+        "after_uv_range": [
+          [
+            -1.460885763168335,
+            2.61411452293396
+          ],
+          [
+            0.1759980171918869,
+            0.5530612468719482
+          ]
+        ],
+        "uv_changed": true
+      },
+      {
+        "object": "V2_Attic",
+        "component": 5,
+        "wood_faces": 26,
+        "materials": [
+          "V2_OldTimber_2"
+        ],
+        "grain_local_axis": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "grain_span_metres": 0.6700000762939453,
+        "method": "metric_component_axis",
+        "before_uv_range": [
+          [
+            0.003220392856746912,
+            0.43776148557662964
+          ],
+          [
+            0.003220414975658059,
+            0.9967795610427856
+          ]
+        ],
+        "after_uv_range": [
+          [
+            -1.6564046144485474,
+            2.53259539604187
+          ],
+          [
+            0.4451431930065155,
+            0.5818778872489929
+          ]
+        ],
+        "uv_changed": true
+      },
+      {
+        "object": "V2_Attic",
+        "component": 6,
+        "wood_faces": 26,
+        "materials": [
+          "V2_OldTimber_2"
+        ],
+        "grain_local_axis": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "grain_span_metres": 0.6700000762939453,
+        "method": "metric_component_axis",
+        "before_uv_range": [
+          [
+            0.003220392856746912,
+            0.43776148557662964
+          ],
+          [
+            0.003220414975658059,
+            0.9967795610427856
+          ]
+        ],
+        "after_uv_range": [
+          [
+            -1.5498878955841064,
+            2.6391122341156006
+          ],
+          [
+            0.4939796030521393,
+            0.6770704984664917
+          ]
+        ],
+        "uv_changed": true
+      },
+      {
+        "object": "V2_Attic",
+        "component": 7,
+        "wood_faces": 26,
+        "materials": [
+          "V2_OldTimber_2"
+        ],
+        "grain_local_axis": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "grain_span_metres": 0.6000000238418579,
+        "method": "metric_component_axis",
+        "before_uv_range": [
+          [
+            0.003420500783249736,
+            0.5129860639572144
+          ],
+          [
+            0.0034204961266368628,
+            0.9965795278549194
+          ]
+        ],
+        "after_uv_range": [
+          [
+            -2.6427180767059326,
+            4.376023769378662
+          ],
+          [
+            0.4939796030521393,
+            0.6650037169456482
+          ]
+        ],
+        "uv_changed": true
+      },
+      {
+        "object": "V2_Attic",
+        "component": 8,
+        "wood_faces": 26,
+        "materials": [
+          "V2_OldTimber_2"
+        ],
+        "grain_local_axis": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "grain_span_metres": 0.6000000238418579,
+        "method": "metric_component_axis",
+        "before_uv_range": [
+          [
+            0.003420500783249736,
+            0.5129860639572144
+          ],
+          [
+            0.0034204961266368628,
+            0.9965795278549194
+          ]
+        ],
+        "after_uv_range": [
+          [
+            -3.488678455352783,
+            4.4068756103515625
+          ],
+          [
+            0.4939796030521393,
+            0.667241096496582
+          ]
+        ],
+        "uv_changed": true
+      },
+      {
+        "object": "V2_Attic",
+        "component": 9,
+        "wood_faces": 26,
+        "materials": [
+          "V2_OldTimber_2"
+        ],
+        "grain_local_axis": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "grain_span_metres": 0.559999942779541,
+        "method": "metric_component_axis",
+        "before_uv_range": [
+          [
+            0.003093329956755042,
+            0.41207996010780334
+          ],
+          [
+            0.0030933034140616655,
+            0.9969066381454468
+          ]
+        ],
+        "after_uv_range": [
+          [
+            -2.045520067214966,
+            2.143480062484741
+          ],
+          [
+            0.4060940444469452,
+            0.5203797221183777
+          ]
+        ],
+        "uv_changed": true
+      },
+      {
+        "object": "V2_Attic",
+        "component": 10,
+        "wood_faces": 26,
+        "materials": [
+          "V2_OldTimber_2"
+        ],
+        "grain_local_axis": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "grain_span_metres": 0.5199999809265137,
+        "method": "metric_component_axis",
+        "before_uv_range": [
+          [
+            0.0031395633704960346,
+            0.4849857687950134
+          ],
+          [
+            0.003139523323625326,
+            0.9968604445457458
+          ]
+        ],
+        "after_uv_range": [
+          [
+            -3.3188674449920654,
+            4.138280391693115
+          ],
+          [
+            0.4939796030521393,
+            0.8815269470214844
+          ]
+        ],
+        "uv_changed": true
+      },
+      {
+        "object": "V2_Attic",
+        "component": 11,
+        "wood_faces": 26,
+        "materials": [
+          "V2_OldTimber_1"
+        ],
+        "grain_local_axis": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "grain_span_metres": 0.6999999582767487,
+        "method": "metric_component_axis",
+        "before_uv_range": [
+          [
+            0.004748235456645489,
+            0.9952518343925476
+          ],
+          [
+            0.004748192615807056,
+            0.9733378291130066
+          ]
+        ],
+        "after_uv_range": [
+          [
+            -3.264852285385132,
+            3.8175318241119385
+          ],
+          [
+            0.1439296305179596,
+            0.5238775610923767
+          ]
+        ],
+        "uv_changed": true
+      },
+      {
+        "object": "V2_Dormer",
+        "component": 0,
+        "wood_faces": 1,
+        "materials": [
+          "V2_WhitewashedWood_1"
+        ],
+        "grain_local_axis": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "grain_span_metres": 1.1200000047683716,
+        "method": "metric_component_axis",
+        "before_uv_range": [
+          [
+            0.0013326468179002404,
+            0.2862853407859802
+          ],
+          [
+            0.0013327263295650482,
+            0.9986672401428223
+          ]
+        ],
+        "after_uv_range": [
+          [
+            4.2451300621032715,
+            4.565130233764648
+          ],
+          [
+            0.14321471750736237,
+            0.3717861473560333
+          ]
+        ],
+        "uv_changed": true
+      },
+      {
+        "object": "V2_Dormer",
+        "component": 2,
+        "wood_faces": 26,
+        "materials": [
+          "V2_OldTimber_1"
+        ],
+        "grain_local_axis": [
+          0.8574929237365723,
+          -0.0,
+          0.5144957304000854
+        ],
+        "grain_span_metres": 0.7580236196517944,
+        "method": "metric_component_axis",
+        "before_uv_range": [
+          [
+            0.003487977897748351,
+            0.4750618040561676
+          ],
+          [
+            0.0034879730083048344,
+            0.9965120553970337
+          ]
+        ],
+        "after_uv_range": [
+          [
+            -3.8491852283477783,
+            4.020637512207031
+          ],
+          [
+            0.37012410163879395,
+            0.5248228311538696
+          ]
+        ],
+        "uv_changed": true
+      },
+      {
+        "object": "V2_Dormer",
+        "component": 8,
+        "wood_faces": 26,
+        "materials": [
+          "V2_OldTimber_1"
+        ],
+        "grain_local_axis": [
+          0.8574929237365723,
+          -0.0,
+          -0.5144957304000854
+        ],
+        "grain_span_metres": 0.7580235749483109,
+        "method": "metric_component_axis",
+        "before_uv_range": [
+          [
+            0.003487977897748351,
+            0.4750618040561676
+          ],
+          [
+            0.0034879730083048344,
+            0.9965120553970337
+          ]
+        ],
+        "after_uv_range": [
+          [
+            -3.0738492012023926,
+            4.534034729003906
+          ],
+          [
+            0.20098647475242615,
+            0.5075510740280151
+          ]
+        ],
+        "uv_changed": true
+      },
+      {
+        "object": "V2_Eave",
+        "component": 0,
+        "wood_faces": 26,
+        "materials": [
+          "V2_OldTimber_1"
+        ],
+        "grain_local_axis": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "grain_span_metres": 4.059999942779541,
+        "method": "metric_component_axis",
+        "before_uv_range": [
+          [
+            0.0016873026033863425,
+            0.1345483958721161
+          ],
+          [
+            0.0016872936394065619,
+            0.9983127117156982
+          ]
+        ],
+        "after_uv_range": [
+          [
+            -2.1487033367156982,
+            3.857455253601074
+          ],
+          [
+            0.06370636820793152,
+            0.8922777771949768
+          ]
+        ],
+        "uv_changed": true
+      },
+      {
+        "object": "V2_Eave",
+        "component": 1,
+        "wood_faces": 26,
+        "materials": [
+          "V2_OldTimber_0"
+        ],
+        "grain_local_axis": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "grain_span_metres": 3.8299999237060547,
+        "method": "metric_component_axis",
+        "before_uv_range": [
+          [
+            0.001856518443673849,
+            0.1508631706237793
+          ],
+          [
+            0.0018564811907708645,
+            0.9981434941291809
+          ]
+        ],
+        "after_uv_range": [
+          [
+            -3.078247308731079,
+            3.7029073238372803
+          ],
+          [
+            0.15826575458049774,
+            0.9398983716964722
+          ]
+        ],
+        "uv_changed": true
+      },
+      {
+        "object": "V2_Eave",
+        "component": 2,
+        "wood_faces": 26,
+        "materials": [
+          "V2_OldTimber_2"
+        ],
+        "grain_local_axis": [
+          -0.41905805468559265,
+          -0.0,
+          0.9079594612121582
+        ],
+        "grain_span_metres": 0.42953503131866455,
+        "method": "metric_component_axis",
+        "before_uv_range": [
+          [
+            0.004718445707112551,
+            0.8526410460472107
+          ],
+          [
+            0.00471844058483839,
+            0.9952815175056458
+          ]
+        ],
+        "after_uv_range": [
+          [
+            -1.537476658821106,
+            1.831846833229065
+          ],
+          [
+            0.49295926094055176,
+            0.9275984168052673
+          ]
+        ],
+        "uv_changed": true
+      },
+      {
+        "object": "V2_Eave",
+        "component": 3,
+        "wood_faces": 26,
+        "materials": [
+          "V2_OldTimber_2"
+        ],
+        "grain_local_axis": [
+          -0.41905805468559265,
+          4.835189315599564e-08,
+          0.9079594612121582
+        ],
+        "grain_span_metres": 0.4295350346549469,
+        "method": "metric_component_axis",
+        "before_uv_range": [
+          [
+            0.004718445707112551,
+            0.8526410460472107
+          ],
+          [
+            0.00471844058483839,
+            0.9952815175056458
+          ]
+        ],
+        "after_uv_range": [
+          [
+            -0.7992180585861206,
+            1.5518665313720703
+          ],
+          [
+            0.3619895279407501,
+            0.5070409178733826
+          ]
+        ],
+        "uv_changed": true
+      },
+      {
+        "object": "V2_Eave",
+        "component": 4,
+        "wood_faces": 26,
+        "materials": [
+          "V2_OldTimber_2"
+        ],
+        "grain_local_axis": [
+          -0.41905805468559265,
+          -0.0,
+          0.9079594612121582
+        ],
+        "grain_span_metres": 0.42953503131866455,
+        "method": "metric_component_axis",
+        "before_uv_range": [
+          [
+            0.004718445707112551,
+            0.8526410460472107
+          ],
+          [
+            0.00471844058483839,
+            0.9952815175056458
+          ]
+        ],
+        "after_uv_range": [
+          [
+            -0.6360630989074707,
+            1.2418725490570068
+          ],
+          [
+            0.4469788670539856,
+            0.5346390604972839
+          ]
+        ],
+        "uv_changed": true
+      },
+      {
+        "object": "V2_Eave",
+        "component": 5,
+        "wood_faces": 26,
+        "materials": [
+          "V2_OldTimber_2"
+        ],
+        "grain_local_axis": [
+          -0.41905805468559265,
+          3.942982971238962e-07,
+          0.9079594612121582
+        ],
+        "grain_span_metres": 0.4295350585253175,
+        "method": "metric_component_axis",
+        "before_uv_range": [
+          [
+            0.004718445707112551,
+            0.8526410460472107
+          ],
+          [
+            0.00471844058483839,
+            0.9952815175056458
+          ]
+        ],
+        "after_uv_range": [
+          [
+            -0.841318666934967,
+            1.5097640752792358
+          ],
+          [
+            0.3644116222858429,
+            0.5070409774780273
+          ]
+        ],
+        "uv_changed": true
+      },
+      {
+        "object": "V2_Eave",
+        "component": 6,
+        "wood_faces": 26,
+        "materials": [
+          "V2_OldTimber_2"
+        ],
+        "grain_local_axis": [
+          -0.41905805468559265,
+          3.942982971238962e-07,
+          0.9079594612121582
+        ],
+        "grain_span_metres": 0.4295350585253459,
+        "method": "metric_component_axis",
+        "before_uv_range": [
+          [
+            0.004718445707112551,
+            0.8526410460472107
+          ],
+          [
+            0.00471844058483839,
+            0.9952815175056458
+          ]
+        ],
+        "after_uv_range": [
+          [
+            -1.0278085470199585,
+            2.3415143489837646
+          ],
+          [
+            0.3300844132900238,
+            0.5070409774780273
+          ]
+        ],
+        "uv_changed": true
+      },
+      {
+        "object": "V2_Eave",
+        "component": 7,
+        "wood_faces": 26,
+        "materials": [
+          "V2_OldTimber_0"
+        ],
+        "grain_local_axis": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "grain_span_metres": 3.8299999237060547,
+        "method": "metric_component_axis",
+        "before_uv_range": [
+          [
+            0.001856518443673849,
+            0.1508631706237793
+          ],
+          [
+            0.0018564811907708645,
+            0.9981434941291809
+          ]
+        ],
+        "after_uv_range": [
+          [
+            -2.5375993251800537,
+            4.243555545806885
+          ],
+          [
+            0.1642635017633438,
+            0.9458961486816406
+          ]
+        ],
+        "uv_changed": true
+      },
+      {
+        "object": "V2_Eave",
+        "component": 8,
+        "wood_faces": 26,
+        "materials": [
+          "V2_OldTimber_2"
+        ],
+        "grain_local_axis": [
+          0.41905805468559265,
+          0.0,
+          0.9079594612121582
+        ],
+        "grain_span_metres": 0.42953503131866455,
+        "method": "metric_component_axis",
+        "before_uv_range": [
+          [
+            0.004718445707112551,
+            0.8526410460472107
+          ],
+          [
+            0.00471844058483839,
+            0.9952815175056458
+          ]
+        ],
+        "after_uv_range": [
+          [
+            -1.4888688325881958,
+            1.8804545402526855
+          ],
+          [
+            0.49295926094055176,
+            0.7421475648880005
+          ]
+        ],
+        "uv_changed": true
+      },
+      {
+        "object": "V2_Eave",
+        "component": 9,
+        "wood_faces": 26,
+        "materials": [
+          "V2_OldTimber_2"
+        ],
+        "grain_local_axis": [
+          0.41905805468559265,
+          4.835189315599564e-08,
+          0.9079594612121582
+        ],
+        "grain_span_metres": 0.4295350346549469,
+        "method": "metric_component_axis",
+        "before_uv_range": [
+          [
+            0.004718445707112551,
+            0.8526410460472107
+          ],
+          [
+            0.00471844058483839,
+            0.9952815175056458
+          ]
+        ],
+        "after_uv_range": [
+          [
+            -0.5893555879592896,
+            1.7617290019989014
+          ],
+          [
+            0.49295905232429504,
+            0.8325425386428833
+          ]
+        ],
+        "uv_changed": true
+      },
+      {
+        "object": "V2_Eave",
+        "component": 10,
+        "wood_faces": 26,
+        "materials": [
+          "V2_OldTimber_2"
+        ],
+        "grain_local_axis": [
+          0.41905805468559265,
+          0.0,
+          0.9079594612121582
+        ],
+        "grain_span_metres": 0.42953503131866455,
+        "method": "metric_component_axis",
+        "before_uv_range": [
+          [
+            0.004718445707112551,
+            0.8526410460472107
+          ],
+          [
+            0.00471844058483839,
+            0.9952815175056458
+          ]
+        ],
+        "after_uv_range": [
+          [
+            -0.19463641941547394,
+            1.68329918384552
+          ],
+          [
+            0.49295926094055176,
+            0.8255295157432556
+          ]
+        ],
+        "uv_changed": true
+      },
+      {
+        "object": "V2_Eave",
+        "component": 11,
+        "wood_faces": 26,
+        "materials": [
+          "V2_OldTimber_2"
+        ],
+        "grain_local_axis": [
+          0.41905805468559265,
+          3.942982971238962e-07,
+          0.9079594612121582
+        ],
+        "grain_span_metres": 0.4295350585253175,
+        "method": "metric_component_axis",
+        "before_uv_range": [
+          [
+            0.004718445707112551,
+            0.8526410460472107
+          ],
+          [
+            0.00471844058483839,
+            0.9952815175056458
+          ]
+        ],
+        "after_uv_range": [
+          [
+            -0.48564818501472473,
+            1.8654345273971558
+          ],
+          [
+            0.09307438880205154,
+            0.5070407390594482
+          ]
+        ],
+        "uv_changed": true
+      },
+      {
+        "object": "V2_Eave",
+        "component": 12,
+        "wood_faces": 26,
+        "materials": [
+          "V2_OldTimber_2"
+        ],
+        "grain_local_axis": [
+          0.41905805468559265,
+          3.942982971238962e-07,
+          0.9079594612121582
+        ],
+        "grain_span_metres": 0.4295350585253459,
+        "method": "metric_component_axis",
+        "before_uv_range": [
+          [
+            0.004718445707112551,
+            0.8526410460472107
+          ],
+          [
+            0.00471844058483839,
+            0.9952815175056458
+          ]
+        ],
+        "after_uv_range": [
+          [
+            -1.0344936847686768,
+            2.334829092025757
+          ],
+          [
+            0.49295902252197266,
+            0.6177790760993958
+          ]
+        ],
+        "uv_changed": true
+      },
+      {
+        "object": "V2_ExposedRafter",
+        "component": 0,
+        "wood_faces": 26,
+        "materials": [
+          "V2_OldTimber_1"
+        ],
+        "grain_local_axis": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "grain_span_metres": 0.3238825798034668,
+        "method": "metric_component_axis",
+        "before_uv_range": [
+          [
+            0.004718880169093609,
+            0.9952811598777771
+          ],
+          [
+            0.004718880169093609,
+            0.9761046171188354
+          ]
+        ],
+        "after_uv_range": [
+          [
+            -1.9738142490386963,
+            3.216120958328247
+          ],
+          [
+            0.4671241343021393,
+            0.5332226157188416
+          ]
+        ],
+        "uv_changed": true
+      },
+      {
+        "object": "V2_ExposedRafter",
+        "component": 1,
+        "wood_faces": 26,
+        "materials": [
+          "V2_OldTimber_1"
+        ],
+        "grain_local_axis": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "grain_span_metres": 0.3238825798034668,
+        "method": "metric_component_axis",
+        "before_uv_range": [
+          [
+            0.004718880169093609,
+            0.9952811598777771
+          ],
+          [
+            0.004718880169093609,
+            0.9761046171188354
+          ]
+        ],
+        "after_uv_range": [
+          [
+            -1.3401702642440796,
+            3.1225173473358154
+          ],
+          [
+            0.23299653828144073,
+            0.5080612301826477
+          ]
+        ],
+        "uv_changed": true
+      },
+      {
+        "object": "V2_ExposedRafter",
+        "component": 2,
+        "wood_faces": 26,
+        "materials": [
+          "V2_OldTimber_1"
+        ],
+        "grain_local_axis": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "grain_span_metres": 0.3238825798034668,
+        "method": "metric_component_axis",
+        "before_uv_range": [
+          [
+            0.004718880169093609,
+            0.9952811598777771
+          ],
+          [
+            0.004718880169093609,
+            0.9761046171188354
+          ]
+        ],
+        "after_uv_range": [
+          [
+            -1.646453619003296,
+            2.8162338733673096
+          ],
+          [
+            0.4919387698173523,
+            0.8739184737205505
+          ]
+        ],
+        "uv_changed": true
+      },
+      {
+        "object": "V2_ExposedRafter",
+        "component": 3,
+        "wood_faces": 26,
+        "materials": [
+          "V2_OldTimber_1"
+        ],
+        "grain_local_axis": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "grain_span_metres": 0.3238825798034668,
+        "method": "metric_component_axis",
+        "before_uv_range": [
+          [
+            0.004718880169093609,
+            0.9952811598777771
+          ],
+          [
+            0.004718880169093609,
+            0.9761046171188354
+          ]
+        ],
+        "after_uv_range": [
+          [
+            -1.8627378940582275,
+            2.599949598312378
+          ],
+          [
+            0.2529970705509186,
+            0.5080612301826477
+          ]
+        ],
+        "uv_changed": true
+      },
+      {
+        "object": "V2_ExposedRafter",
+        "component": 4,
+        "wood_faces": 26,
+        "materials": [
+          "V2_OldTimber_1"
+        ],
+        "grain_local_axis": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "grain_span_metres": 0.3238825798034668,
+        "method": "metric_component_axis",
+        "before_uv_range": [
+          [
+            0.004718880169093609,
+            0.9952811598777771
+          ],
+          [
+            0.004718880169093609,
+            0.9761046171188354
+          ]
+        ],
+        "after_uv_range": [
+          [
+            -2.359572410583496,
+            2.830378293991089
+          ],
+          [
+            0.4919387698173523,
+            0.6603721380233765
+          ]
+        ],
+        "uv_changed": true
+      },
+      {
+        "object": "V2_ExposedRafter",
+        "component": 5,
+        "wood_faces": 26,
+        "materials": [
+          "V2_OldTimber_1"
+        ],
+        "grain_local_axis": [
+          0.0,
+          -0.3050519824028015,
+          0.9523357152938843
+        ],
+        "grain_span_metres": 0.3238828182220459,
+        "method": "metric_component_axis",
+        "before_uv_range": [
+          [
+            0.004718880169093609,
+            0.9952811598777771
+          ],
+          [
+            0.004718880169093609,
+            0.9761046171188354
+          ]
+        ],
+        "after_uv_range": [
+          [
+            -2.495523691177368,
+            2.6944172382354736
+          ],
+          [
+            0.4919387996196747,
+            0.6520996689796448
+          ]
+        ],
+        "uv_changed": true
+      },
+      {
+        "object": "V2_ExposedRafter",
+        "component": 6,
+        "wood_faces": 26,
+        "materials": [
+          "V2_OldTimber_1"
+        ],
+        "grain_local_axis": [
+          0.0,
+          -0.3050519526004791,
+          0.9523357152938843
+        ],
+        "grain_span_metres": 0.3238827586174011,
+        "method": "metric_component_axis",
+        "before_uv_range": [
+          [
+            0.004718880169093609,
+            0.9952811598777771
+          ],
+          [
+            0.004718880169093609,
+            0.9761046171188354
+          ]
+        ],
+        "after_uv_range": [
+          [
+            -1.643430471420288,
+            2.8192572593688965
+          ],
+          [
+            0.4919387698173523,
+            0.781295895576477
+          ]
+        ],
+        "uv_changed": true
+      },
+      {
+        "object": "V2_ExposedRafter",
+        "component": 7,
+        "wood_faces": 26,
+        "materials": [
+          "V2_OldTimber_1"
+        ],
+        "grain_local_axis": [
+          0.0,
+          -0.3050520718097687,
+          0.9523356556892395
+        ],
+        "grain_span_metres": 0.3238828778266907,
+        "method": "metric_component_axis",
+        "before_uv_range": [
+          [
+            0.004718880169093609,
+            0.9952811598777771
+          ],
+          [
+            0.004718880169093609,
+            0.9761046171188354
+          ]
+        ],
+        "after_uv_range": [
+          [
+            -2.1585657596588135,
+            2.3041210174560547
+          ],
+          [
+            0.213396355509758,
+            0.5080612301826477
+          ]
+        ],
+        "uv_changed": true
+      },
+      {
+        "object": "V2_ExposedRafter",
+        "component": 8,
+        "wood_faces": 26,
+        "materials": [
+          "V2_OldTimber_1"
+        ],
+        "grain_local_axis": [
+          2.6890577942140226e-07,
+          -0.3050519526004791,
+          0.9523357152938843
+        ],
+        "grain_span_metres": 0.3238828394655968,
+        "method": "metric_component_axis",
+        "before_uv_range": [
+          [
+            0.004718880169093609,
+            0.9952811598777771
+          ],
+          [
+            0.004718880169093609,
+            0.9761046171188354
+          ]
+        ],
+        "after_uv_range": [
+          [
+            -1.768383264541626,
+            2.6943044662475586
+          ],
+          [
+            0.36024343967437744,
+            0.5080612301826477
+          ]
+        ],
+        "uv_changed": true
+      },
+      {
+        "object": "V2_ExposedRafter",
+        "component": 9,
+        "wood_faces": 26,
+        "materials": [
+          "V2_OldTimber_1"
+        ],
+        "grain_local_axis": [
+          0.0,
+          -0.3050519824028015,
+          0.9523357152938843
+        ],
+        "grain_span_metres": 0.3238828778266907,
+        "method": "metric_component_axis",
+        "before_uv_range": [
+          [
+            0.004718880169093609,
+            0.9952811598777771
+          ],
+          [
+            0.004718880169093609,
+            0.9761046171188354
+          ]
+        ],
+        "after_uv_range": [
+          [
+            -2.336405038833618,
+            2.853543519973755
+          ],
+          [
+            0.4919387698173523,
+            0.8931884765625
+          ]
+        ],
+        "uv_changed": true
+      },
+      {
+        "object": "V2_WallBoard",
+        "component": 0,
+        "wood_faces": 26,
+        "materials": [
+          "V2_WhitewashedWood_0"
+        ],
+        "grain_local_axis": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "grain_span_metres": 0.372999906539917,
+        "method": "metric_component_axis",
+        "before_uv_range": [
+          [
+            0.004646098241209984,
+            0.9953539371490479
+          ],
+          [
+            0.004646100103855133,
+            0.932804524898529
+          ]
+        ],
+        "after_uv_range": [
+          [
+            -1.5527870655059814,
+            1.7562129497528076
+          ],
+          [
+            0.4477204978466034,
+            0.5238429307937622
+          ]
+        ],
+        "uv_changed": true
+      },
+      {
+        "object": "V2_WallBoard",
+        "component": 1,
+        "wood_faces": 26,
+        "materials": [
+          "V2_WhitewashedWood_2"
+        ],
+        "grain_local_axis": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "grain_span_metres": 0.21799993515014648,
+        "method": "metric_component_axis",
+        "before_uv_range": [
+          [
+            0.004211203195154667,
+            0.9957887530326843
+          ],
+          [
+            0.0042111873626708984,
+            0.9356516003608704
+          ]
+        ],
+        "after_uv_range": [
+          [
+            -0.8363960981369019,
+            2.4726037979125977
+          ],
+          [
+            0.3811272978782654,
+            0.5161224603652954
+          ]
+        ],
+        "uv_changed": true
+      },
+      {
+        "object": "V2_WallBoard",
+        "component": 2,
+        "wood_faces": 26,
+        "materials": [
+          "V2_WhitewashedWood_0"
+        ],
+        "grain_local_axis": [
+          1.0,
+          1.0233388692487062e-19,
+          3.479352274352814e-17
+        ],
+        "grain_span_metres": 2.388000011444092,
+        "method": "metric_component_axis",
+        "before_uv_range": [
+          [
+            0.002002545865252614,
+            0.19670045375823975
+          ],
+          [
+            0.002002531196922064,
+            0.9979974627494812
+          ]
+        ],
+        "after_uv_range": [
+          [
+            -1.366626501083374,
+            1.942373514175415
+          ],
+          [
+            0.4587898552417755,
+            0.9461368322372437
+          ]
+        ],
+        "uv_changed": true
+      },
+      {
+        "object": "V2_WallBoard",
+        "component": 3,
+        "wood_faces": 6,
+        "materials": [
+          "V2_WhitewashedWood_0"
+        ],
+        "grain_local_axis": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "grain_span_metres": 3.1129997968673706,
+        "method": "metric_component_axis",
+        "before_uv_range": [
+          [
+            0.0019179979572072625,
+            0.17182275652885437
+          ],
+          [
+            0.001917997025884688,
+            0.9980820417404175
+          ]
+        ],
+        "after_uv_range": [
+          [
+            -1.901832938194275,
+            2.1731674671173096
+          ],
+          [
+            0.13459795713424683,
+            0.7699040174484253
+          ]
+        ],
+        "uv_changed": true
+      },
+      {
+        "object": "V2_WallBoard",
+        "component": 4,
+        "wood_faces": 6,
+        "materials": [
+          "V2_WhitewashedWood_1"
+        ],
+        "grain_local_axis": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "grain_span_metres": 3.1129997968673706,
+        "method": "metric_component_axis",
+        "before_uv_range": [
+          [
+            0.0019179979572072625,
+            0.17182275652885437
+          ],
+          [
+            0.001917997025884688,
+            0.9980820417404175
+          ]
+        ],
+        "after_uv_range": [
+          [
+            -1.2197908163070679,
+            2.8552093505859375
+          ],
+          [
+            0.1948675960302353,
+            0.830173671245575
+          ]
+        ],
+        "uv_changed": true
+      },
+      {
+        "object": "V2_WallBoard",
+        "component": 5,
+        "wood_faces": 6,
+        "materials": [
+          "V2_WhitewashedWood_0"
+        ],
+        "grain_local_axis": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "grain_span_metres": 3.8730000257492065,
+        "method": "metric_component_axis",
+        "before_uv_range": [
+          [
+            0.001707139890640974,
+            0.13964828848838806
+          ],
+          [
+            0.001707127201370895,
+            0.998292863368988
+          ]
+        ],
+        "after_uv_range": [
+          [
+            -1.3666883707046509,
+            1.954311490058899
+          ],
+          [
+            0.05091141536831856,
+            0.8413195610046387
+          ]
+        ],
+        "uv_changed": true
+      },
+      {
+        "object": "V2_WallBoard",
+        "component": 6,
+        "wood_faces": 26,
+        "materials": [
+          "V2_WhitewashedWood_3"
+        ],
+        "grain_local_axis": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "grain_span_metres": 0.372999906539917,
+        "method": "metric_component_axis",
+        "before_uv_range": [
+          [
+            0.004646098241209984,
+            0.9953539371490479
+          ],
+          [
+            0.004646100103855133,
+            0.932804524898529
+          ]
+        ],
+        "after_uv_range": [
+          [
+            -1.3877509832382202,
+            1.9212490320205688
+          ],
+          [
+            0.19457417726516724,
+            0.5161224603652954
+          ]
+        ],
+        "uv_changed": true
+      },
+      {
+        "object": "V2_WallBoard",
+        "component": 7,
+        "wood_faces": 26,
+        "materials": [
+          "V2_WhitewashedWood_3"
+        ],
+        "grain_local_axis": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "grain_span_metres": 0.21799993515014648,
+        "method": "metric_component_axis",
+        "before_uv_range": [
+          [
+            0.004211203195154667,
+            0.9957887530326843
+          ],
+          [
+            0.0042111873626708984,
+            0.9356516003608704
+          ]
+        ],
+        "after_uv_range": [
+          [
+            -1.316686749458313,
+            1.992313265800476
+          ],
+          [
+            0.10648339986801147,
+            0.5161224603652954
+          ]
+        ],
+        "uv_changed": true
+      },
+      {
+        "object": "V2_WallBoard",
+        "component": 8,
+        "wood_faces": 26,
+        "materials": [
+          "V2_WhitewashedWood_0"
+        ],
+        "grain_local_axis": [
+          1.0,
+          1.0233388692487062e-19,
+          -6.917770358040584e-17
+        ],
+        "grain_span_metres": 2.388000011444092,
+        "method": "metric_component_axis",
+        "before_uv_range": [
+          [
+            0.002002545865252614,
+            0.19670045375823975
+          ],
+          [
+            0.002002531196922064,
+            0.9979974627494812
+          ]
+        ],
+        "after_uv_range": [
+          [
+            -1.1602705717086792,
+            2.1487293243408203
+          ],
+          [
+            0.12485762685537338,
+            0.6122045516967773
+          ]
+        ],
+        "uv_changed": true
+      },
+      {
+        "object": "V2_WallBoard",
+        "component": 9,
+        "wood_faces": 6,
+        "materials": [
+          "V2_WhitewashedWood_3"
+        ],
+        "grain_local_axis": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "grain_span_metres": 3.1129997968673706,
+        "method": "metric_component_axis",
+        "before_uv_range": [
+          [
+            0.0019179979572072625,
+            0.17182275652885437
+          ],
+          [
+            0.001917997025884688,
+            0.9980820417404175
+          ]
+        ],
+        "after_uv_range": [
+          [
+            -1.1399455070495605,
+            2.9350547790527344
+          ],
+          [
+            0.22365590929985046,
+            0.8589619994163513
+          ]
+        ],
+        "uv_changed": true
+      },
+      {
+        "object": "V2_WallBoard",
+        "component": 10,
+        "wood_faces": 6,
+        "materials": [
+          "V2_WhitewashedWood_2"
+        ],
+        "grain_local_axis": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "grain_span_metres": 3.1129997968673706,
+        "method": "metric_component_axis",
+        "before_uv_range": [
+          [
+            0.0019179979572072625,
+            0.17182275652885437
+          ],
+          [
+            0.001917997025884688,
+            0.9980820417404175
+          ]
+        ],
+        "after_uv_range": [
+          [
+            -1.4514424800872803,
+            2.6235578060150146
+          ],
+          [
+            0.3153371810913086,
+            0.9506432414054871
+          ]
+        ],
+        "uv_changed": true
+      },
+      {
+        "object": "V2_WallBoard",
+        "component": 11,
+        "wood_faces": 6,
+        "materials": [
+          "V2_WhitewashedWood_0"
+        ],
+        "grain_local_axis": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "grain_span_metres": 3.8730000257492065,
+        "method": "metric_component_axis",
+        "before_uv_range": [
+          [
+            0.001707139890640974,
+            0.13964828848838806
+          ],
+          [
+            0.001707127201370895,
+            0.998292863368988
+          ]
+        ],
+        "after_uv_range": [
+          [
+            -1.6051582098007202,
+            1.7158416509628296
+          ],
+          [
+            0.08346065133810043,
+            0.8738688230514526
+          ]
+        ],
+        "uv_changed": true
+      },
+      {
+        "object": "V2_WallBoard",
+        "component": 12,
+        "wood_faces": 26,
+        "materials": [
+          "V2_WhitewashedWood_1"
+        ],
+        "grain_local_axis": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "grain_span_metres": 0.372999906539917,
+        "method": "metric_component_axis",
+        "before_uv_range": [
+          [
+            0.004646098241209984,
+            0.9953539371490479
+          ],
+          [
+            0.004646100103855133,
+            0.932804524898529
+          ]
+        ],
+        "after_uv_range": [
+          [
+            -1.282105565071106,
+            2.0429341793060303
+          ],
+          [
+            0.4838775396347046,
+            0.5805773735046387
+          ]
+        ],
+        "uv_changed": true
+      },
+      {
+        "object": "V2_WallBoard",
+        "component": 13,
+        "wood_faces": 26,
+        "materials": [
+          "V2_WhitewashedWood_3"
+        ],
+        "grain_local_axis": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "grain_span_metres": 0.21799993515014648,
+        "method": "metric_component_axis",
+        "before_uv_range": [
+          [
+            0.004211203195154667,
+            0.9957887530326843
+          ],
+          [
+            0.0042111873626708984,
+            0.9356516003608704
+          ]
+        ],
+        "after_uv_range": [
+          [
+            -0.9926539063453674,
+            2.332385778427124
+          ],
+          [
+            0.3958951234817505,
+            0.5161224603652954
+          ]
+        ],
+        "uv_changed": true
+      },
+      {
+        "object": "V2_WallBoard",
+        "component": 14,
+        "wood_faces": 26,
+        "materials": [
+          "V2_WhitewashedWood_1"
+        ],
+        "grain_local_axis": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "grain_span_metres": 2.388000011444092,
+        "method": "metric_component_axis",
+        "before_uv_range": [
+          [
+            0.002002545865252614,
+            0.19670045375823975
+          ],
+          [
+            0.002002531196922064,
+            0.9979974627494812
+          ]
+        ],
+        "after_uv_range": [
+          [
+            -1.0349839925765991,
+            2.290055751800537
+          ],
+          [
+            0.17034880816936493,
+            0.6576957702636719
+          ]
+        ],
+        "uv_changed": true
+      },
+      {
+        "object": "V2_WallBoard",
+        "component": 15,
+        "wood_faces": 6,
+        "materials": [
+          "V2_WhitewashedWood_3"
+        ],
+        "grain_local_axis": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "grain_span_metres": 3.1129997968673706,
+        "method": "metric_component_axis",
+        "before_uv_range": [
+          [
+            0.0019179979572072625,
+            0.17182275652885437
+          ],
+          [
+            0.001917997025884688,
+            0.9980820417404175
+          ]
+        ],
+        "after_uv_range": [
+          [
+            -1.7508093118667603,
+            2.324190855026245
+          ],
+          [
+            0.2512111961841583,
+            0.8865172863006592
+          ]
+        ],
+        "uv_changed": true
+      },
+      {
+        "object": "V2_WallBoard",
+        "component": 16,
+        "wood_faces": 6,
+        "materials": [
+          "V2_WhitewashedWood_0"
+        ],
+        "grain_local_axis": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "grain_span_metres": 3.1129997968673706,
+        "method": "metric_component_axis",
+        "before_uv_range": [
+          [
+            0.0019179979572072625,
+            0.17182275652885437
+          ],
+          [
+            0.001917997025884688,
+            0.9980820417404175
+          ]
+        ],
+        "after_uv_range": [
+          [
+            -1.0988736152648926,
+            2.9761266708374023
+          ],
+          [
+            0.10208504647016525,
+            0.7373911142349243
+          ]
+        ],
+        "uv_changed": true
+      },
+      {
+        "object": "V2_WallBoard",
+        "component": 17,
+        "wood_faces": 6,
+        "materials": [
+          "V2_WhitewashedWood_3"
+        ],
+        "grain_local_axis": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "grain_span_metres": 3.8730000257492065,
+        "method": "metric_component_axis",
+        "before_uv_range": [
+          [
+            0.001707139890640974,
+            0.13964828848838806
+          ],
+          [
+            0.001707127201370895,
+            0.998292863368988
+          ]
+        ],
+        "after_uv_range": [
+          [
+            -1.1683539152145386,
+            2.1526458263397217
+          ],
+          [
+            0.10011401027441025,
+            0.8905221819877625
+          ]
+        ],
+        "uv_changed": true
+      },
+      {
+        "object": "V2_WallBoard",
+        "component": 18,
+        "wood_faces": 26,
+        "materials": [
+          "V2_WhitewashedWood_0"
+        ],
+        "grain_local_axis": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "grain_span_metres": 0.372999906539917,
+        "method": "metric_component_axis",
+        "before_uv_range": [
+          [
+            0.004646098241209984,
+            0.9953539371490479
+          ],
+          [
+            0.004646100103855133,
+            0.932804524898529
+          ]
+        ],
+        "after_uv_range": [
+          [
+            -1.6721665859222412,
+            1.832254409790039
+          ],
+          [
+            0.4838775396347046,
+            0.9441030621528625
+          ]
+        ],
+        "uv_changed": true
+      },
+      {
+        "object": "V2_WallBoard",
+        "component": 19,
+        "wood_faces": 26,
+        "materials": [
+          "V2_WhitewashedWood_0"
+        ],
+        "grain_local_axis": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "grain_span_metres": 0.21799993515014648,
+        "method": "metric_component_axis",
+        "before_uv_range": [
+          [
+            0.004211203195154667,
+            0.9957887530326843
+          ],
+          [
+            0.0042111873626708984,
+            0.9356516003608704
+          ]
+        ],
+        "after_uv_range": [
+          [
+            -1.0569772720336914,
+            2.447443723678589
+          ],
+          [
+            0.4838775396347046,
+            0.5967485308647156
+          ]
+        ],
+        "uv_changed": true
+      },
+      {
+        "object": "V2_WallBoard",
+        "component": 20,
+        "wood_faces": 26,
+        "materials": [
+          "V2_WhitewashedWood_2"
+        ],
+        "grain_local_axis": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "grain_span_metres": 2.388000011444092,
+        "method": "metric_component_axis",
+        "before_uv_range": [
+          [
+            0.002002545865252614,
+            0.19670045375823975
+          ],
+          [
+            0.002002531196922064,
+            0.9979974627494812
+          ]
+        ],
+        "after_uv_range": [
+          [
+            -1.2325760126113892,
+            2.2718451023101807
+          ],
+          [
+            0.06503710150718689,
+            0.5523840188980103
+          ]
+        ],
+        "uv_changed": true
+      },
+      {
+        "object": "V2_WallBoard",
+        "component": 21,
+        "wood_faces": 6,
+        "materials": [
+          "V2_WhitewashedWood_0"
+        ],
+        "grain_local_axis": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "grain_span_metres": 3.1129997968673706,
+        "method": "metric_component_axis",
+        "before_uv_range": [
+          [
+            0.0019179979572072625,
+            0.17182275652885437
+          ],
+          [
+            0.001917997025884688,
+            0.9980820417404175
+          ]
+        ],
+        "after_uv_range": [
+          [
+            -1.2805895805358887,
+            2.7944107055664062
+          ],
+          [
+            0.1418193131685257,
+            0.7771254181861877
+          ]
+        ],
+        "uv_changed": true
+      },
+      {
+        "object": "V2_WallBoard",
+        "component": 22,
+        "wood_faces": 6,
+        "materials": [
+          "V2_WhitewashedWood_0"
+        ],
+        "grain_local_axis": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "grain_span_metres": 3.1129997968673706,
+        "method": "metric_component_axis",
+        "before_uv_range": [
+          [
+            0.0019179979572072625,
+            0.17182275652885437
+          ],
+          [
+            0.001917997025884688,
+            0.9980820417404175
+          ]
+        ],
+        "after_uv_range": [
+          [
+            -1.9885311126708984,
+            2.0864691734313965
+          ],
+          [
+            0.24615225195884705,
+            0.8814583420753479
+          ]
+        ],
+        "uv_changed": true
+      },
+      {
+        "object": "V2_WallBoard",
+        "component": 23,
+        "wood_faces": 6,
+        "materials": [
+          "V2_WhitewashedWood_3"
+        ],
+        "grain_local_axis": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "grain_span_metres": 3.8730000257492065,
+        "method": "metric_component_axis",
+        "before_uv_range": [
+          [
+            0.001707139890640974,
+            0.13964828848838806
+          ],
+          [
+            0.001707127201370895,
+            0.998292863368988
+          ]
+        ],
+        "after_uv_range": [
+          [
+            -1.3271814584732056,
+            1.9938184022903442
+          ],
+          [
+            0.0606546513736248,
+            0.8510628342628479
+          ]
+        ],
+        "uv_changed": true
+      },
+      {
+        "object": "V2_WallBoard",
+        "component": 24,
+        "wood_faces": 26,
+        "materials": [
+          "V2_WhitewashedWood_1"
+        ],
+        "grain_local_axis": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "grain_span_metres": 0.372999906539917,
+        "method": "metric_component_axis",
+        "before_uv_range": [
+          [
+            0.004646098241209984,
+            0.9953539371490479
+          ],
+          [
+            0.004646100103855133,
+            0.932804524898529
+          ]
+        ],
+        "after_uv_range": [
+          [
+            -1.3833073377609253,
+            2.3756721019744873
+          ],
+          [
+            0.4838775396347046,
+            0.5627198815345764
+          ]
+        ],
+        "uv_changed": true
+      },
+      {
+        "object": "V2_WallBoard",
+        "component": 25,
+        "wood_faces": 26,
+        "materials": [
+          "V2_WhitewashedWood_3"
+        ],
+        "grain_local_axis": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "grain_span_metres": 0.21799993515014648,
+        "method": "metric_component_axis",
+        "before_uv_range": [
+          [
+            0.004211203195154667,
+            0.9957887530326843
+          ],
+          [
+            0.0042111873626708984,
+            0.9356516003608704
+          ]
+        ],
+        "after_uv_range": [
+          [
+            -1.2298518419265747,
+            2.529127597808838
+          ],
+          [
+            0.4838775396347046,
+            0.8552473187446594
+          ]
+        ],
+        "uv_changed": true
+      },
+      {
+        "object": "V2_WallBoard",
+        "component": 26,
+        "wood_faces": 26,
+        "materials": [
+          "V2_WhitewashedWood_1"
+        ],
+        "grain_local_axis": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "grain_span_metres": 0.9798499345779419,
+        "method": "metric_component_axis",
+        "before_uv_range": [
+          [
+            0.00319191487506032,
+            0.5022884011268616
+          ],
+          [
+            0.0031918983440846205,
+            0.9968080520629883
+          ]
+        ],
+        "after_uv_range": [
+          [
+            -1.266176700592041,
+            2.492802858352661
+          ],
+          [
+            0.41305261850357056,
+            0.613021969795227
+          ]
+        ],
+        "uv_changed": true
+      },
+      {
+        "object": "V2_WallBoard",
+        "component": 27,
+        "wood_faces": 26,
+        "materials": [
+          "V2_WhitewashedWood_0"
+        ],
+        "grain_local_axis": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "grain_span_metres": 0.9408502578735352,
+        "method": "metric_component_axis",
+        "before_uv_range": [
+          [
+            0.0032622984144836664,
+            0.5224819779396057
+          ],
+          [
+            0.003262263024225831,
+            0.9967376589775085
+          ]
+        ],
+        "after_uv_range": [
+          [
+            -1.4766807556152344,
+            2.2822988033294678
+          ],
+          [
+            0.4838775396347046,
+            0.9448871612548828
+          ]
+        ],
+        "uv_changed": true
+      },
+      {
+        "object": "V2_WallBoard",
+        "component": 28,
+        "wood_faces": 6,
+        "materials": [
+          "V2_WhitewashedWood_0"
+        ],
+        "grain_local_axis": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "grain_span_metres": 3.1129997968673706,
+        "method": "metric_component_axis",
+        "before_uv_range": [
+          [
+            0.0019179979572072625,
+            0.17182275652885437
+          ],
+          [
+            0.001917997025884688,
+            0.9980820417404175
+          ]
+        ],
+        "after_uv_range": [
+          [
+            -1.9698340892791748,
+            2.10516619682312
+          ],
+          [
+            0.21084535121917725,
+            0.8461514115333557
+          ]
+        ],
+        "uv_changed": true
+      },
+      {
+        "object": "V2_WallBoard",
+        "component": 29,
+        "wood_faces": 6,
+        "materials": [
+          "V2_WhitewashedWood_3"
+        ],
+        "grain_local_axis": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "grain_span_metres": 3.1129997968673706,
+        "method": "metric_component_axis",
+        "before_uv_range": [
+          [
+            0.0019179979572072625,
+            0.17182275652885437
+          ],
+          [
+            0.001917997025884688,
+            0.9980820417404175
+          ]
+        ],
+        "after_uv_range": [
+          [
+            -1.555687427520752,
+            2.519312858581543
+          ],
+          [
+            0.24632929265499115,
+            0.8816353678703308
+          ]
+        ],
+        "uv_changed": true
+      },
+      {
+        "object": "V2_WallBoard",
+        "component": 30,
+        "wood_faces": 6,
+        "materials": [
+          "V2_WhitewashedWood_3"
+        ],
+        "grain_local_axis": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "grain_span_metres": 3.8730000257492065,
+        "method": "metric_component_axis",
+        "before_uv_range": [
+          [
+            0.001707139890640974,
+            0.13964828848838806
+          ],
+          [
+            0.001707127201370895,
+            0.998292863368988
+          ]
+        ],
+        "after_uv_range": [
+          [
+            -0.7888572216033936,
+            2.5321426391601562
+          ],
+          [
+            0.16750235855579376,
+            0.9579105377197266
+          ]
+        ],
+        "uv_changed": true
+      },
+      {
+        "object": "V2_WallBoard",
+        "component": 31,
+        "wood_faces": 26,
+        "materials": [
+          "V2_WhitewashedWood_2"
+        ],
+        "grain_local_axis": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "grain_span_metres": 0.372999906539917,
+        "method": "metric_component_axis",
+        "before_uv_range": [
+          [
+            0.004646098241209984,
+            0.9953539371490479
+          ],
+          [
+            0.004646100103855133,
+            0.932804524898529
+          ]
+        ],
+        "after_uv_range": [
+          [
+            -1.5453205108642578,
+            2.468217611312866
+          ],
+          [
+            0.16582953929901123,
+            0.5161224603652954
+          ]
+        ],
+        "uv_changed": true
+      },
+      {
+        "object": "V2_WallBoard",
+        "component": 32,
+        "wood_faces": 26,
+        "materials": [
+          "V2_WhitewashedWood_0"
+        ],
+        "grain_local_axis": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "grain_span_metres": 0.21799993515014648,
+        "method": "metric_component_axis",
+        "before_uv_range": [
+          [
+            0.004211203195154667,
+            0.9957887530326843
+          ],
+          [
+            0.0042111873626708984,
+            0.9356516003608704
+          ]
+        ],
+        "after_uv_range": [
+          [
+            -1.6861978769302368,
+            2.3273401260375977
+          ],
+          [
+            0.4838775396347046,
+            0.5452448725700378
+          ]
+        ],
+        "uv_changed": true
+      },
+      {
+        "object": "V2_WallBoard",
+        "component": 33,
+        "wood_faces": 26,
+        "materials": [
+          "V2_WhitewashedWood_3"
+        ],
+        "grain_local_axis": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "grain_span_metres": 0.7557655572891235,
+        "method": "metric_component_axis",
+        "before_uv_range": [
+          [
+            0.0036718593910336494,
+            0.6464256048202515
+          ],
+          [
+            0.0036718358751386404,
+            0.9963281154632568
+          ]
+        ],
+        "after_uv_range": [
+          [
+            -1.3979507684707642,
+            2.6155872344970703
+          ],
+          [
+            0.4838775396347046,
+            0.9449548721313477
+          ]
+        ],
+        "uv_changed": true
+      },
+      {
+        "object": "V2_WallBoard",
+        "component": 34,
+        "wood_faces": 26,
+        "materials": [
+          "V2_WhitewashedWood_2"
+        ],
+        "grain_local_axis": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "grain_span_metres": 0.7167654037475586,
+        "method": "metric_component_axis",
+        "before_uv_range": [
+          [
+            0.003779055317863822,
+            0.680625319480896
+          ],
+          [
+            0.0037790359929203987,
+            0.9962209463119507
+          ]
+        ],
+        "after_uv_range": [
+          [
+            -2.0190980434417725,
+            1.994439959526062
+          ],
+          [
+            0.3820320963859558,
+            0.5283107757568359
+          ]
+        ],
+        "uv_changed": true
+      },
+      {
+        "object": "V2_WallBoard",
+        "component": 35,
+        "wood_faces": 6,
+        "materials": [
+          "V2_WhitewashedWood_1"
+        ],
+        "grain_local_axis": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "grain_span_metres": 3.1129997968673706,
+        "method": "metric_component_axis",
+        "before_uv_range": [
+          [
+            0.0019179979572072625,
+            0.17182275652885437
+          ],
+          [
+            0.001917997025884688,
+            0.9980820417404175
+          ]
+        ],
+        "after_uv_range": [
+          [
+            -1.3401273488998413,
+            2.734872817993164
+          ],
+          [
+            0.2935992181301117,
+            0.9289053082466125
+          ]
+        ],
+        "uv_changed": true
+      },
+      {
+        "object": "V2_WallBoard",
+        "component": 36,
+        "wood_faces": 6,
+        "materials": [
+          "V2_WhitewashedWood_3"
+        ],
+        "grain_local_axis": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "grain_span_metres": 3.1129997968673706,
+        "method": "metric_component_axis",
+        "before_uv_range": [
+          [
+            0.0019179979572072625,
+            0.17182275652885437
+          ],
+          [
+            0.001917997025884688,
+            0.9980820417404175
+          ]
+        ],
+        "after_uv_range": [
+          [
+            -1.6337155103683472,
+            2.4412848949432373
+          ],
+          [
+            0.19559279084205627,
+            0.8308988809585571
+          ]
+        ],
+        "uv_changed": true
+      },
+      {
+        "object": "V2_WallBoard",
+        "component": 37,
+        "wood_faces": 6,
+        "materials": [
+          "V2_WhitewashedWood_1"
+        ],
+        "grain_local_axis": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "grain_span_metres": 3.8730000257492065,
+        "method": "metric_component_axis",
+        "before_uv_range": [
+          [
+            0.001707139890640974,
+            0.13964828848838806
+          ],
+          [
+            0.001707127201370895,
+            0.998292863368988
+          ]
+        ],
+        "after_uv_range": [
+          [
+            -1.2013362646102905,
+            2.119663715362549
+          ],
+          [
+            0.08704695850610733,
+            0.8774551153182983
+          ]
+        ],
+        "uv_changed": true
+      },
+      {
+        "object": "V2_WallBoard",
+        "component": 38,
+        "wood_faces": 26,
+        "materials": [
+          "V2_WhitewashedWood_2"
+        ],
+        "grain_local_axis": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "grain_span_metres": 0.372999906539917,
+        "method": "metric_component_axis",
+        "before_uv_range": [
+          [
+            0.004646098241209984,
+            0.9953539371490479
+          ],
+          [
+            0.004646100103855133,
+            0.932804524898529
+          ]
+        ],
+        "after_uv_range": [
+          [
+            -2.0849602222442627,
+            2.183136224746704
+          ],
+          [
+            0.44780197739601135,
+            0.5239244103431702
+          ]
+        ],
+        "uv_changed": true
+      },
+      {
+        "object": "V2_WallBoard",
+        "component": 39,
+        "wood_faces": 26,
+        "materials": [
+          "V2_WhitewashedWood_2"
+        ],
+        "grain_local_axis": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "grain_span_metres": 0.21799993515014648,
+        "method": "metric_component_axis",
+        "before_uv_range": [
+          [
+            0.004211203195154667,
+            0.9957887530326843
+          ],
+          [
+            0.0042111873626708984,
+            0.9356516003608704
+          ]
+        ],
+        "after_uv_range": [
+          [
+            -1.6044784784317017,
+            2.6636178493499756
+          ],
+          [
+            0.13155345618724823,
+            0.5161224603652954
+          ]
+        ],
+        "uv_changed": true
+      },
+      {
+        "object": "V2_WallBoard",
+        "component": 40,
+        "wood_faces": 26,
+        "materials": [
+          "V2_WhitewashedWood_0"
+        ],
+        "grain_local_axis": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "grain_span_metres": 0.6669632196426392,
+        "method": "metric_component_axis",
+        "before_uv_range": [
+          [
+            0.003930201753973961,
+            0.7300569415092468
+          ],
+          [
+            0.003930175676941872,
+            0.9960698485374451
+          ]
+        ],
+        "after_uv_range": [
+          [
+            -1.2833558320999146,
+            2.9847404956817627
+          ],
+          [
+            0.4838775396347046,
+            0.9019792079925537
+          ]
+        ],
+        "uv_changed": true
+      },
+      {
+        "object": "V2_WallBoard",
+        "component": 41,
+        "wood_faces": 26,
+        "materials": [
+          "V2_WhitewashedWood_0"
+        ],
+        "grain_local_axis": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "grain_span_metres": 0.6279630661010742,
+        "method": "metric_component_axis",
+        "before_uv_range": [
+          [
+            0.0040617408230900764,
+            0.7741888165473938
+          ],
+          [
+            0.0040617091581225395,
+            0.9959383010864258
+          ]
+        ],
+        "after_uv_range": [
+          [
+            -1.6880552768707275,
+            2.5800411701202393
+          ],
+          [
+            0.4838775396347046,
+            0.6841633915901184
+          ]
+        ],
+        "uv_changed": true
+      },
+      {
+        "object": "V2_WallBoard",
+        "component": 42,
+        "wood_faces": 6,
+        "materials": [
+          "V2_WhitewashedWood_3"
+        ],
+        "grain_local_axis": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "grain_span_metres": 3.1129997968673706,
+        "method": "metric_component_axis",
+        "before_uv_range": [
+          [
+            0.0019179979572072625,
+            0.17182275652885437
+          ],
+          [
+            0.001917997025884688,
+            0.9980820417404175
+          ]
+        ],
+        "after_uv_range": [
+          [
+            -1.596271276473999,
+            2.478729009628296
+          ],
+          [
+            0.29504716396331787,
+            0.9303532242774963
+          ]
+        ],
+        "uv_changed": true
+      },
+      {
+        "object": "V2_WallBoard",
+        "component": 43,
+        "wood_faces": 6,
+        "materials": [
+          "V2_WhitewashedWood_3"
+        ],
+        "grain_local_axis": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "grain_span_metres": 3.1129997968673706,
+        "method": "metric_component_axis",
+        "before_uv_range": [
+          [
+            0.0019179979572072625,
+            0.17182275652885437
+          ],
+          [
+            0.001917997025884688,
+            0.9980820417404175
+          ]
+        ],
+        "after_uv_range": [
+          [
+            -1.8037651777267456,
+            2.271235227584839
+          ],
+          [
+            0.16786977648735046,
+            0.8031758666038513
+          ]
+        ],
+        "uv_changed": true
+      },
+      {
+        "object": "V2_WallBoard",
+        "component": 44,
+        "wood_faces": 6,
+        "materials": [
+          "V2_WhitewashedWood_1"
+        ],
+        "grain_local_axis": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "grain_span_metres": 3.8730000257492065,
+        "method": "metric_component_axis",
+        "before_uv_range": [
+          [
+            0.001707139890640974,
+            0.13964828848838806
+          ],
+          [
+            0.001707127201370895,
+            0.998292863368988
+          ]
+        ],
+        "after_uv_range": [
+          [
+            -1.320292353630066,
+            2.0007076263427734
+          ],
+          [
+            0.11947550624608994,
+            0.9098836779594421
+          ]
+        ],
+        "uv_changed": true
+      },
+      {
+        "object": "V2_WallBoard",
+        "component": 45,
+        "wood_faces": 26,
+        "materials": [
+          "V2_WhitewashedWood_3"
+        ],
+        "grain_local_axis": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "grain_span_metres": 0.372999906539917,
+        "method": "metric_component_axis",
+        "before_uv_range": [
+          [
+            0.004646098241209984,
+            0.9953539371490479
+          ],
+          [
+            0.004646100103855133,
+            0.932804524898529
+          ]
+        ],
+        "after_uv_range": [
+          [
+            -1.3833348751068115,
+            3.139319896697998
+          ],
+          [
+            0.47968798875808716,
+            0.5558103919029236
+          ]
+        ],
+        "uv_changed": true
+      },
+      {
+        "object": "V2_WallBoard",
+        "component": 46,
+        "wood_faces": 26,
+        "materials": [
+          "V2_WhitewashedWood_0"
+        ],
+        "grain_local_axis": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "grain_span_metres": 0.21799993515014648,
+        "method": "metric_component_axis",
+        "before_uv_range": [
+          [
+            0.004211203195154667,
+            0.9957887530326843
+          ],
+          [
+            0.0042111873626708984,
+            0.9356516003608704
+          ]
+        ],
+        "after_uv_range": [
+          [
+            -2.2150299549102783,
+            2.3076248168945312
+          ],
+          [
+            0.3641861379146576,
+            0.5161224603652954
+          ]
+        ],
+        "uv_changed": true
+      },
+      {
+        "object": "V2_WallBoard",
+        "component": 47,
+        "wood_faces": 26,
+        "materials": [
+          "V2_WhitewashedWood_0"
+        ],
+        "grain_local_axis": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "grain_span_metres": 0.6450001001358032,
+        "method": "metric_component_axis",
+        "before_uv_range": [
+          [
+            0.004002718720585108,
+            0.7542595267295837
+          ],
+          [
+            0.004002723377197981,
+            0.9959972500801086
+          ]
+        ],
+        "after_uv_range": [
+          [
+            -1.685713529586792,
+            2.8369412422180176
+          ],
+          [
+            0.15283283591270447,
+            0.5161224603652954
+          ]
+        ],
+        "uv_changed": true
+      },
+      {
+        "object": "V2_WallBoard",
+        "component": 48,
+        "wood_faces": 26,
+        "materials": [
+          "V2_WhitewashedWood_1"
+        ],
+        "grain_local_axis": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "grain_span_metres": 0.6059999465942383,
+        "method": "metric_component_axis",
+        "before_uv_range": [
+          [
+            0.004141713492572308,
+            0.8015192151069641
+          ],
+          [
+            0.00414168881252408,
+            0.9958583116531372
+          ]
+        ],
+        "after_uv_range": [
+          [
+            -1.9330384731292725,
+            2.589616298675537
+          ],
+          [
+            0.04953186586499214,
+            0.5161224603652954
+          ]
+        ],
+        "uv_changed": true
+      },
+      {
+        "object": "V2_WallBoard",
+        "component": 49,
+        "wood_faces": 6,
+        "materials": [
+          "V2_WhitewashedWood_0"
+        ],
+        "grain_local_axis": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "grain_span_metres": 3.1129997968673706,
+        "method": "metric_component_axis",
+        "before_uv_range": [
+          [
+            0.0019179979572072625,
+            0.17182275652885437
+          ],
+          [
+            0.001917997025884688,
+            0.9980820417404175
+          ]
+        ],
+        "after_uv_range": [
+          [
+            -1.9407973289489746,
+            2.1342029571533203
+          ],
+          [
+            0.0669359639286995,
+            0.7022420763969421
+          ]
+        ],
+        "uv_changed": true
+      },
+      {
+        "object": "V2_WallBoard",
+        "component": 50,
+        "wood_faces": 6,
+        "materials": [
+          "V2_WhitewashedWood_3"
+        ],
+        "grain_local_axis": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "grain_span_metres": 3.1129997968673706,
+        "method": "metric_component_axis",
+        "before_uv_range": [
+          [
+            0.0019179979572072625,
+            0.17182275652885437
+          ],
+          [
+            0.001917997025884688,
+            0.9980820417404175
+          ]
+        ],
+        "after_uv_range": [
+          [
+            -1.6326334476470947,
+            2.4423668384552
+          ],
+          [
+            0.19782622158527374,
+            0.8331323266029358
+          ]
+        ],
+        "uv_changed": true
+      },
+      {
+        "object": "V2_WallBoard",
+        "component": 51,
+        "wood_faces": 6,
+        "materials": [
+          "V2_WhitewashedWood_0"
+        ],
+        "grain_local_axis": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "grain_span_metres": 3.8730000257492065,
+        "method": "metric_component_axis",
+        "before_uv_range": [
+          [
+            0.001707139890640974,
+            0.13964828848838806
+          ],
+          [
+            0.001707127201370895,
+            0.998292863368988
+          ]
+        ],
+        "after_uv_range": [
+          [
+            -0.9632538557052612,
+            2.357746124267578
+          ],
+          [
+            0.1427883356809616,
+            0.933196485042572
+          ]
+        ],
+        "uv_changed": true
+      },
+      {
+        "object": "V2_WallBoard",
+        "component": 52,
+        "wood_faces": 26,
+        "materials": [
+          "V2_WhitewashedWood_2"
+        ],
+        "grain_local_axis": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "grain_span_metres": 0.372999906539917,
+        "method": "metric_component_axis",
+        "before_uv_range": [
+          [
+            0.004646098241209984,
+            0.9953539371490479
+          ],
+          [
+            0.004646100103855133,
+            0.932804524898529
+          ]
+        ],
+        "after_uv_range": [
+          [
+            -1.6481128931045532,
+            3.1291005611419678
+          ],
+          [
+            0.4199810326099396,
+            0.5161224603652954
+          ]
+        ],
+        "uv_changed": true
+      },
+      {
+        "object": "V2_WallBoard",
+        "component": 53,
+        "wood_faces": 26,
+        "materials": [
+          "V2_WhitewashedWood_3"
+        ],
+        "grain_local_axis": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "grain_span_metres": 0.21799993515014648,
+        "method": "metric_component_axis",
+        "before_uv_range": [
+          [
+            0.004211203195154667,
+            0.9957887530326843
+          ],
+          [
+            0.0042111873626708984,
+            0.9356516003608704
+          ]
+        ],
+        "after_uv_range": [
+          [
+            -2.0523555278778076,
+            2.724857807159424
+          ],
+          [
+            0.3000163733959198,
+            0.5161224603652954
+          ]
+        ],
+        "uv_changed": true
+      },
+      {
+        "object": "V2_WallBoard",
+        "component": 54,
+        "wood_faces": 26,
+        "materials": [
+          "V2_WhitewashedWood_2"
+        ],
+        "grain_local_axis": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "grain_span_metres": 0.6452267169952393,
+        "method": "metric_component_axis",
+        "before_uv_range": [
+          [
+            0.004001949448138475,
+            0.7540015578269958
+          ],
+          [
+            0.004001919645816088,
+            0.9959980845451355
+          ]
+        ],
+        "after_uv_range": [
+          [
+            -2.2203211784362793,
+            2.556892156600952
+          ],
+          [
+            0.09632735699415207,
+            0.5161224603652954
+          ]
+        ],
+        "uv_changed": true
+      },
+      {
+        "object": "V2_WallBoard",
+        "component": 55,
+        "wood_faces": 26,
+        "materials": [
+          "V2_WhitewashedWood_0"
+        ],
+        "grain_local_axis": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "grain_span_metres": 0.6062264442443848,
+        "method": "metric_component_axis",
+        "before_uv_range": [
+          [
+            0.004140866920351982,
+            0.8012272119522095
+          ],
+          [
+            0.004140830598771572,
+            0.9958591461181641
+          ]
+        ],
+        "after_uv_range": [
+          [
+            -1.880576491355896,
+            2.896636724472046
+          ],
+          [
+            0.09630061686038971,
+            0.5161224603652954
+          ]
+        ],
+        "uv_changed": true
+      },
+      {
+        "object": "V2_WallBoard",
+        "component": 56,
+        "wood_faces": 6,
+        "materials": [
+          "V2_WhitewashedWood_1"
+        ],
+        "grain_local_axis": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "grain_span_metres": 3.1129997968673706,
+        "method": "metric_component_axis",
+        "before_uv_range": [
+          [
+            0.0019179979572072625,
+            0.17182275652885437
+          ],
+          [
+            0.001917997025884688,
+            0.9980820417404175
+          ]
+        ],
+        "after_uv_range": [
+          [
+            -1.446134328842163,
+            2.628865957260132
+          ],
+          [
+            0.04540073126554489,
+            0.680706799030304
+          ]
+        ],
+        "uv_changed": true
+      },
+      {
+        "object": "V2_WallBoard",
+        "component": 57,
+        "wood_faces": 6,
+        "materials": [
+          "V2_WhitewashedWood_0"
+        ],
+        "grain_local_axis": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "grain_span_metres": 3.1129997968673706,
+        "method": "metric_component_axis",
+        "before_uv_range": [
+          [
+            0.0019179979572072625,
+            0.17182275652885437
+          ],
+          [
+            0.001917997025884688,
+            0.9980820417404175
+          ]
+        ],
+        "after_uv_range": [
+          [
+            -1.9268031120300293,
+            2.1481971740722656
+          ],
+          [
+            0.1496559977531433,
+            0.7849620580673218
+          ]
+        ],
+        "uv_changed": true
+      },
+      {
+        "object": "V2_WallBoard",
+        "component": 58,
+        "wood_faces": 6,
+        "materials": [
+          "V2_WhitewashedWood_3"
+        ],
+        "grain_local_axis": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "grain_span_metres": 3.8730000257492065,
+        "method": "metric_component_axis",
+        "before_uv_range": [
+          [
+            0.001707139890640974,
+            0.13964828848838806
+          ],
+          [
+            0.001707127201370895,
+            0.998292863368988
+          ]
+        ],
+        "after_uv_range": [
+          [
+            -0.8991450071334839,
+            2.7348551750183105
+          ],
+          [
+            0.13954442739486694,
+            0.9299526214599609
+          ]
+        ],
+        "uv_changed": true
+      },
+      {
+        "object": "V2_WallBoard",
+        "component": 59,
+        "wood_faces": 26,
+        "materials": [
+          "V2_WhitewashedWood_2"
+        ],
+        "grain_local_axis": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "grain_span_metres": 0.372999906539917,
+        "method": "metric_component_axis",
+        "before_uv_range": [
+          [
+            0.004646098241209984,
+            0.9953539371490479
+          ],
+          [
+            0.004646100103855133,
+            0.932804524898529
+          ]
+        ],
+        "after_uv_range": [
+          [
+            -2.0571560859680176,
+            2.9746155738830566
+          ],
+          [
+            0.25270676612854004,
+            0.5161224603652954
+          ]
+        ],
+        "uv_changed": true
+      },
+      {
+        "object": "V2_WallBoard",
+        "component": 60,
+        "wood_faces": 26,
+        "materials": [
+          "V2_WhitewashedWood_3"
+        ],
+        "grain_local_axis": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "grain_span_metres": 0.21799993515014648,
+        "method": "metric_component_axis",
+        "before_uv_range": [
+          [
+            0.004211203195154667,
+            0.9957887530326843
+          ],
+          [
+            0.0042111873626708984,
+            0.9356516003608704
+          ]
+        ],
+        "after_uv_range": [
+          [
+            -2.526048421859741,
+            2.505723237991333
+          ],
+          [
+            0.06326715648174286,
+            0.5161224603652954
+          ]
+        ],
+        "uv_changed": true
+      },
+      {
+        "object": "V2_WallBoard",
+        "component": 61,
+        "wood_faces": 26,
+        "materials": [
+          "V2_WhitewashedWood_3"
+        ],
+        "grain_local_axis": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "grain_span_metres": 0.6800857782363892,
+        "method": "metric_component_axis",
+        "before_uv_range": [
+          [
+            0.003888667095452547,
+            0.7163357138633728
+          ],
+          [
+            0.003888664534315467,
+            0.9961113333702087
+          ]
+        ],
+        "after_uv_range": [
+          [
+            -2.0538837909698486,
+            2.9778878688812256
+          ],
+          [
+            0.08494013547897339,
+            0.5161224603652954
+          ]
+        ],
+        "uv_changed": true
+      },
+      {
+        "object": "V2_WallBoard",
+        "component": 62,
+        "wood_faces": 26,
+        "materials": [
+          "V2_WhitewashedWood_0"
+        ],
+        "grain_local_axis": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "grain_span_metres": 0.6410861015319824,
+        "method": "metric_component_axis",
+        "before_uv_range": [
+          [
+            0.004016062710434198,
+            0.7587453722953796
+          ],
+          [
+            0.00401601055637002,
+            0.9959839582443237
+          ]
+        ],
+        "after_uv_range": [
+          [
+            -1.91312575340271,
+            3.1186459064483643
+          ],
+          [
+            0.45638275146484375,
+            0.5872166156768799
+          ]
+        ],
+        "uv_changed": true
+      },
+      {
+        "object": "V2_WallBoard",
+        "component": 63,
+        "wood_faces": 6,
+        "materials": [
+          "V2_WhitewashedWood_1"
+        ],
+        "grain_local_axis": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "grain_span_metres": 3.1129997968673706,
+        "method": "metric_component_axis",
+        "before_uv_range": [
+          [
+            0.0019179979572072625,
+            0.17182275652885437
+          ],
+          [
+            0.001917997025884688,
+            0.9980820417404175
+          ]
+        ],
+        "after_uv_range": [
+          [
+            -1.4698829650878906,
+            2.6051173210144043
+          ],
+          [
+            0.13629329204559326,
+            0.7715993523597717
+          ]
+        ],
+        "uv_changed": true
+      },
+      {
+        "object": "V2_WallBoard",
+        "component": 64,
+        "wood_faces": 6,
+        "materials": [
+          "V2_WhitewashedWood_3"
+        ],
+        "grain_local_axis": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "grain_span_metres": 3.1129997968673706,
+        "method": "metric_component_axis",
+        "before_uv_range": [
+          [
+            0.0019179979572072625,
+            0.17182275652885437
+          ],
+          [
+            0.001917997025884688,
+            0.9980820417404175
+          ]
+        ],
+        "after_uv_range": [
+          [
+            -1.1156980991363525,
+            2.9593021869659424
+          ],
+          [
+            0.23532648384571075,
+            0.870632529258728
+          ]
+        ],
+        "uv_changed": true
+      },
+      {
+        "object": "V2_WallBoard",
+        "component": 65,
+        "wood_faces": 6,
+        "materials": [
+          "V2_WhitewashedWood_0"
+        ],
+        "grain_local_axis": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "grain_span_metres": 3.8730000257492065,
+        "method": "metric_component_axis",
+        "before_uv_range": [
+          [
+            0.001707139890640974,
+            0.13964828848838806
+          ],
+          [
+            0.001707127201370895,
+            0.998292863368988
+          ]
+        ],
+        "after_uv_range": [
+          [
+            -1.8217765092849731,
+            2.1722233295440674
+          ],
+          [
+            0.1563490480184555,
+            0.9467571973800659
+          ]
+        ],
+        "uv_changed": true
+      },
+      {
+        "object": "V2_WallBoard",
+        "component": 66,
+        "wood_faces": 26,
+        "materials": [
+          "V2_WhitewashedWood_2"
+        ],
+        "grain_local_axis": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "grain_span_metres": 0.372999906539917,
+        "method": "metric_component_axis",
+        "before_uv_range": [
+          [
+            0.004646098241209984,
+            0.9953539371490479
+          ],
+          [
+            0.004646100103855133,
+            0.932804524898529
+          ]
+        ],
+        "after_uv_range": [
+          [
+            -1.9486730098724365,
+            3.337658405303955
+          ],
+          [
+            0.4838775396347046,
+            0.7335246205329895
+          ]
+        ],
+        "uv_changed": true
+      },
+      {
+        "object": "V2_WallBoard",
+        "component": 67,
+        "wood_faces": 26,
+        "materials": [
+          "V2_WhitewashedWood_3"
+        ],
+        "grain_local_axis": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "grain_span_metres": 0.21799993515014648,
+        "method": "metric_component_axis",
+        "before_uv_range": [
+          [
+            0.004211203195154667,
+            0.9957887530326843
+          ],
+          [
+            0.0042111873626708984,
+            0.9356516003608704
+          ]
+        ],
+        "after_uv_range": [
+          [
+            -1.943092703819275,
+            3.3432388305664062
+          ],
+          [
+            0.4838775396347046,
+            0.7231341600418091
+          ]
+        ],
+        "uv_changed": true
+      },
+      {
+        "object": "V2_WallBoard",
+        "component": 68,
+        "wood_faces": 26,
+        "materials": [
+          "V2_WhitewashedWood_2"
+        ],
+        "grain_local_axis": [
+          1.0,
+          4.790719398189546e-19,
+          5.462255437728176e-15
+        ],
+        "grain_span_metres": 0.7882784605026254,
+        "method": "metric_component_axis",
+        "before_uv_range": [
+          [
+            0.0035889919381588697,
+            0.6204789280891418
+          ],
+          [
+            0.0035889537539333105,
+            0.9964110851287842
+          ]
+        ],
+        "after_uv_range": [
+          [
+            -2.323176622390747,
+            2.9631550312042236
+          ],
+          [
+            0.1387312263250351,
+            0.5161224603652954
+          ]
+        ],
+        "uv_changed": true
+      },
+      {
+        "object": "V2_WallBoard",
+        "component": 69,
+        "wood_faces": 26,
+        "materials": [
+          "V2_WhitewashedWood_3"
+        ],
+        "grain_local_axis": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "grain_span_metres": 0.7492785453796387,
+        "method": "metric_component_axis",
+        "before_uv_range": [
+          [
+            0.0036890709307044744,
+            0.6518694758415222
+          ],
+          [
+            0.003689065808430314,
+            0.9963108897209167
+          ]
+        ],
+        "after_uv_range": [
+          [
+            -1.863255262374878,
+            3.4230761528015137
+          ],
+          [
+            0.4838775396347046,
+            0.8117162585258484
+          ]
+        ],
+        "uv_changed": true
+      },
+      {
+        "object": "V2_WallBoard",
+        "component": 70,
+        "wood_faces": 6,
+        "materials": [
+          "V2_WhitewashedWood_3"
+        ],
+        "grain_local_axis": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "grain_span_metres": 3.1129997968673706,
+        "method": "metric_component_axis",
+        "before_uv_range": [
+          [
+            0.0019179979572072625,
+            0.17182275652885437
+          ],
+          [
+            0.001917997025884688,
+            0.9980820417404175
+          ]
+        ],
+        "after_uv_range": [
+          [
+            -1.7452795505523682,
+            2.608720541000366
+          ],
+          [
+            0.23747795820236206,
+            0.8727840185165405
+          ]
+        ],
+        "uv_changed": true
+      },
+      {
+        "object": "V2_WallBoard",
+        "component": 71,
+        "wood_faces": 6,
+        "materials": [
+          "V2_WhitewashedWood_1"
+        ],
+        "grain_local_axis": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "grain_span_metres": 3.1129997968673706,
+        "method": "metric_component_axis",
+        "before_uv_range": [
+          [
+            0.0019179979572072625,
+            0.17182275652885437
+          ],
+          [
+            0.001917997025884688,
+            0.9980820417404175
+          ]
+        ],
+        "after_uv_range": [
+          [
+            -1.4519473314285278,
+            2.902052879333496
+          ],
+          [
+            0.23583512008190155,
+            0.8711411952972412
+          ]
+        ],
+        "uv_changed": true
+      },
+      {
+        "object": "V2_WallBoard",
+        "component": 72,
+        "wood_faces": 6,
+        "materials": [
+          "V2_WhitewashedWood_2"
+        ],
+        "grain_local_axis": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "grain_span_metres": 3.8730000257492065,
+        "method": "metric_component_axis",
+        "before_uv_range": [
+          [
+            0.001707139890640974,
+            0.13964828848838806
+          ],
+          [
+            0.001707127201370895,
+            0.998292863368988
+          ]
+        ],
+        "after_uv_range": [
+          [
+            -1.6467019319534302,
+            2.7072982788085938
+          ],
+          [
+            0.13877758383750916,
+            0.9291857481002808
+          ]
+        ],
+        "uv_changed": true
+      },
+      {
+        "object": "V2_WallBoard",
+        "component": 73,
+        "wood_faces": 26,
+        "materials": [
+          "V2_WhitewashedWood_1"
+        ],
+        "grain_local_axis": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "grain_span_metres": 0.372999906539917,
+        "method": "metric_component_axis",
+        "before_uv_range": [
+          [
+            0.004646098241209984,
+            0.9953539371490479
+          ],
+          [
+            0.004646100103855133,
+            0.932804524898529
+          ]
+        ],
+        "after_uv_range": [
+          [
+            -2.1621270179748535,
+            3.3787550926208496
+          ],
+          [
+            0.11544504016637802,
+            0.5161224603652954
+          ]
+        ],
+        "uv_changed": true
+      },
+      {
+        "object": "V2_WallBoard",
+        "component": 74,
+        "wood_faces": 26,
+        "materials": [
+          "V2_WhitewashedWood_1"
+        ],
+        "grain_local_axis": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "grain_span_metres": 0.21799993515014648,
+        "method": "metric_component_axis",
+        "before_uv_range": [
+          [
+            0.004211203195154667,
+            0.9957887530326843
+          ],
+          [
+            0.0042111873626708984,
+            0.9356516003608704
+          ]
+        ],
+        "after_uv_range": [
+          [
+            -2.015702486038208,
+            3.525179624557495
+          ],
+          [
+            0.4838775396347046,
+            0.6268681287765503
+          ]
+        ],
+        "uv_changed": true
+      },
+      {
+        "object": "V2_WallBoard",
+        "component": 75,
+        "wood_faces": 26,
+        "materials": [
+          "V2_WhitewashedWood_3"
+        ],
+        "grain_local_axis": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "grain_span_metres": 0.9630000591278076,
+        "method": "metric_component_axis",
+        "before_uv_range": [
+          [
+            0.0032217740081250668,
+            0.5108143091201782
+          ],
+          [
+            0.0032217560801655054,
+            0.9967783093452454
+          ]
+        ],
+        "after_uv_range": [
+          [
+            -2.206055164337158,
+            3.334826946258545
+          ],
+          [
+            0.4838775396347046,
+            0.9045008420944214
+          ]
+        ],
+        "uv_changed": true
+      },
+      {
+        "object": "V2_WallBoard",
+        "component": 76,
+        "wood_faces": 26,
+        "materials": [
+          "V2_WhitewashedWood_2"
+        ],
+        "grain_local_axis": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "grain_span_metres": 1.1095558404922485,
+        "method": "metric_component_axis",
+        "before_uv_range": [
+          [
+            0.0029978686943650246,
+            0.41337087750434875
+          ],
+          [
+            0.0029978568200021982,
+            0.997002124786377
+          ]
+        ],
+        "after_uv_range": [
+          [
+            -1.9310376644134521,
+            3.609844446182251
+          ],
+          [
+            0.46487200260162354,
+            0.6913119554519653
+          ]
+        ],
+        "uv_changed": true
+      },
+      {
+        "object": "V2_WallBoard",
+        "component": 77,
+        "wood_faces": 26,
+        "materials": [
+          "V2_WhitewashedWood_1"
+        ],
+        "grain_local_axis": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "grain_span_metres": 1.0705561637878418,
+        "method": "metric_component_axis",
+        "before_uv_range": [
+          [
+            0.0030555773992091417,
+            0.4280220866203308
+          ],
+          [
+            0.003055548295378685,
+            0.9969443678855896
+          ]
+        ],
+        "after_uv_range": [
+          [
+            -2.436941385269165,
+            3.103940963745117
+          ],
+          [
+            0.3543725609779358,
+            0.5728533864021301
+          ]
+        ],
+        "uv_changed": true
+      },
+      {
+        "object": "V2_WallBoard",
+        "component": 78,
+        "wood_faces": 6,
+        "materials": [
+          "V2_WhitewashedWood_2"
+        ],
+        "grain_local_axis": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "grain_span_metres": 3.1129997968673706,
+        "method": "metric_component_axis",
+        "before_uv_range": [
+          [
+            0.0019179979572072625,
+            0.17182275652885437
+          ],
+          [
+            0.001917997025884688,
+            0.9980820417404175
+          ]
+        ],
+        "after_uv_range": [
+          [
+            -2.009460210800171,
+            2.7045395374298096
+          ],
+          [
+            0.30268195271492004,
+            0.9379880428314209
+          ]
+        ],
+        "uv_changed": true
+      },
+      {
+        "object": "V2_WallBoard",
+        "component": 79,
+        "wood_faces": 6,
+        "materials": [
+          "V2_WhitewashedWood_1"
+        ],
+        "grain_local_axis": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "grain_span_metres": 3.1129997968673706,
+        "method": "metric_component_axis",
+        "before_uv_range": [
+          [
+            0.0019179979572072625,
+            0.17182275652885437
+          ],
+          [
+            0.001917997025884688,
+            0.9980820417404175
+          ]
+        ],
+        "after_uv_range": [
+          [
+            -1.587793231010437,
+            3.126206636428833
+          ],
+          [
+            0.2288973033428192,
+            0.8642033934593201
+          ]
+        ],
+        "uv_changed": true
+      },
+      {
+        "object": "V2_WallBoard",
+        "component": 80,
+        "wood_faces": 6,
+        "materials": [
+          "V2_WhitewashedWood_1"
+        ],
+        "grain_local_axis": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "grain_span_metres": 3.8730000257492065,
+        "method": "metric_component_axis",
+        "before_uv_range": [
+          [
+            0.001707139890640974,
+            0.13964828848838806
+          ],
+          [
+            0.001707127201370895,
+            0.998292863368988
+          ]
+        ],
+        "after_uv_range": [
+          [
+            -1.8505221605300903,
+            2.8634777069091797
+          ],
+          [
+            0.10270462930202484,
+            0.8931127786636353
+          ]
+        ],
+        "uv_changed": true
+      },
+      {
+        "object": "V2_WallBoard",
+        "component": 81,
+        "wood_faces": 26,
+        "materials": [
+          "V2_WhitewashedWood_2"
+        ],
+        "grain_local_axis": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "grain_span_metres": 0.372999906539917,
+        "method": "metric_component_axis",
+        "before_uv_range": [
+          [
+            0.004646098241209984,
+            0.9953539371490479
+          ],
+          [
+            0.004646100103855133,
+            0.932804524898529
+          ]
+        ],
+        "after_uv_range": [
+          [
+            -2.4234673976898193,
+            3.371971368789673
+          ],
+          [
+            0.303215891122818,
+            0.5161224603652954
+          ]
+        ],
+        "uv_changed": true
+      },
+      {
+        "object": "V2_WallBoard",
+        "component": 82,
+        "wood_faces": 26,
+        "materials": [
+          "V2_WhitewashedWood_0"
+        ],
+        "grain_local_axis": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "grain_span_metres": 0.21799993515014648,
+        "method": "metric_component_axis",
+        "before_uv_range": [
+          [
+            0.004211203195154667,
+            0.9957887530326843
+          ],
+          [
+            0.0042111873626708984,
+            0.9356516003608704
+          ]
+        ],
+        "after_uv_range": [
+          [
+            -2.9071853160858154,
+            2.8882534503936768
+          ],
+          [
+            0.41910943388938904,
+            0.5161224603652954
+          ]
+        ],
+        "uv_changed": true
+      },
+      {
+        "object": "V2_WallBoard",
+        "component": 83,
+        "wood_faces": 26,
+        "materials": [
+          "V2_WhitewashedWood_0"
+        ],
+        "grain_local_axis": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "grain_span_metres": 0.9630000591278076,
+        "method": "metric_component_axis",
+        "before_uv_range": [
+          [
+            0.0032217740081250668,
+            0.5108143091201782
+          ],
+          [
+            0.0032217560801655054,
+            0.9967783093452454
+          ]
+        ],
+        "after_uv_range": [
+          [
+            -2.1129634380340576,
+            3.6824753284454346
+          ],
+          [
+            0.4838775396347046,
+            0.7161540389060974
+          ]
+        ],
+        "uv_changed": true
+      },
+      {
+        "object": "V2_WallBoard",
+        "component": 84,
+        "wood_faces": 26,
+        "materials": [
+          "V2_WhitewashedWood_0"
+        ],
+        "grain_local_axis": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "grain_span_metres": 2.388000011444092,
+        "method": "metric_component_axis",
+        "before_uv_range": [
+          [
+            0.002002545865252614,
+            0.19670045375823975
+          ],
+          [
+            0.002002531196922064,
+            0.9979974627494812
+          ]
+        ],
+        "after_uv_range": [
+          [
+            -2.0888376235961914,
+            3.706601142883301
+          ],
+          [
+            0.40373265743255615,
+            0.8910796046257019
+          ]
+        ],
+        "uv_changed": true
+      },
+      {
+        "object": "V2_WallBoard",
+        "component": 85,
+        "wood_faces": 6,
+        "materials": [
+          "V2_WhitewashedWood_0"
+        ],
+        "grain_local_axis": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "grain_span_metres": 3.1129997968673706,
+        "method": "metric_component_axis",
+        "before_uv_range": [
+          [
+            0.0019179979572072625,
+            0.17182275652885437
+          ],
+          [
+            0.001917997025884688,
+            0.9980820417404175
+          ]
+        ],
+        "after_uv_range": [
+          [
+            -2.114475727081299,
+            2.959524154663086
+          ],
+          [
+            0.22781531512737274,
+            0.8631213903427124
+          ]
+        ],
+        "uv_changed": true
+      },
+      {
+        "object": "V2_WallBoard",
+        "component": 86,
+        "wood_faces": 6,
+        "materials": [
+          "V2_WhitewashedWood_2"
+        ],
+        "grain_local_axis": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "grain_span_metres": 3.1129997968673706,
+        "method": "metric_component_axis",
+        "before_uv_range": [
+          [
+            0.0019179979572072625,
+            0.17182275652885437
+          ],
+          [
+            0.001917997025884688,
+            0.9980820417404175
+          ]
+        ],
+        "after_uv_range": [
+          [
+            -2.192594051361084,
+            2.881405830383301
+          ],
+          [
+            0.2602435052394867,
+            0.8955495953559875
+          ]
+        ],
+        "uv_changed": true
+      },
+      {
+        "object": "V2_WallBoard",
+        "component": 87,
+        "wood_faces": 6,
+        "materials": [
+          "V2_WhitewashedWood_1"
+        ],
+        "grain_local_axis": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "grain_span_metres": 3.8730000257492065,
+        "method": "metric_component_axis",
+        "before_uv_range": [
+          [
+            0.001707139890640974,
+            0.13964828848838806
+          ],
+          [
+            0.001707127201370895,
+            0.998292863368988
+          ]
+        ],
+        "after_uv_range": [
+          [
+            -2.252387523651123,
+            2.8216123580932617
+          ],
+          [
+            0.06124698370695114,
+            0.851655125617981
+          ]
+        ],
+        "uv_changed": true
+      },
+      {
+        "object": "V2_WallBoard",
+        "component": 88,
+        "wood_faces": 6,
+        "materials": [
+          "V2_WhitewashedWood_1"
+        ],
+        "grain_local_axis": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "grain_span_metres": 0.21000003814697266,
+        "method": "metric_component_axis",
+        "before_uv_range": [
+          [
+            0.005314849782735109,
+            0.9625586867332458
+          ],
+          [
+            0.005314863286912441,
+            0.994685173034668
+          ]
+        ],
+        "after_uv_range": [
+          [
+            -1.1427338123321533,
+            2.202266216278076
+          ],
+          [
+            0.4649623930454254,
+            0.5078195333480835
+          ]
+        ],
+        "uv_changed": true
+      }
+    ],
+    "limitations": [
+      "Round frame uses angular V with one intentional lower-frame seam; it is not endgrain texture.",
+      "End caps use the same wood image in a planar projection; dedicated cut-end texture is not supplied.",
+      "The long-axis 4.9m scale deliberately trades some natural grain aspect for avoiding the source V wrap seam."
+    ]
+  },
+  "texture": {
+    "path": "art\\generated\\env-v2\\textures\\wood_albedo_v1.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "sha256": "2507398730afcf58404ccfe7e75debefb688d760945f212250702e6d938c3fc1",
+    "color_space": "sRGB",
+    "grain_axis": "V"
+  },
+  "material_mapping": [
+    {
+      "source_name": "V2_OldTimber_0",
+      "shared_material": "HouseWood_DarkBeam",
+      "tint": [
+        0.25,
+        0.17,
+        0.1
+      ],
+      "roughness": 0.8
+    },
+    {
+      "source_name": "V2_OldTimber_1",
+      "shared_material": "HouseWood_Honey",
+      "tint": [
+        0.46,
+        0.31,
+        0.18
+      ],
+      "roughness": 0.72
+    },
+    {
+      "source_name": "V2_OldTimber_2",
+      "shared_material": "HouseWood_Honey",
+      "tint": [
+        0.46,
+        0.31,
+        0.18
+      ],
+      "roughness": 0.72
+    },
+    {
+      "source_name": "V2_WhitewashedWood_0",
+      "shared_material": "HouseWood_Weathered",
+      "tint": [
+        0.88,
+        0.82,
+        0.7
+      ],
+      "roughness": 0.82
+    },
+    {
+      "source_name": "V2_WhitewashedWood_1",
+      "shared_material": "HouseWood_Whitewashed",
+      "tint": [
+        1.0,
+        0.96,
+        0.86
+      ],
+      "roughness": 0.78
+    },
+    {
+      "source_name": "V2_WhitewashedWood_2",
+      "shared_material": "HouseWood_Whitewashed",
+      "tint": [
+        1.0,
+        0.96,
+        0.86
+      ],
+      "roughness": 0.78
+    },
+    {
+      "source_name": "V2_WhitewashedWood_3",
+      "shared_material": "HouseWood_Weathered",
+      "tint": [
+        0.88,
+        0.82,
+        0.7
+      ],
+      "roughness": 0.82
+    },
+    {
+      "source_name": "Wall_WarmIvory",
+      "shared_material": "HouseWood_Whitewashed",
+      "tint": [
+        1.0,
+        0.96,
+        0.86
+      ],
+      "roughness": 0.78
+    },
+    {
+      "source_name": "Wood_DarkBeams",
+      "shared_material": "HouseWood_DarkBeam",
+      "tint": [
+        0.25,
+        0.17,
+        0.1
+      ],
+      "roughness": 0.8
+    },
+    {
+      "source_name": "Wood_Endgrain",
+      "shared_material": "HouseWood_Honey",
+      "tint": [
+        0.46,
+        0.31,
+        0.18
+      ],
+      "roughness": 0.72
+    },
+    {
+      "source_name": "Wood_Honey",
+      "shared_material": "HouseWood_Honey",
+      "tint": [
+        0.46,
+        0.31,
+        0.18
+      ],
+      "roughness": 0.72
+    }
+  ],
+  "shared_material_count": 4,
+  "render_views": {
+    "front": {
+      "camera": [
+        7,
+        -10,
+        6
+      ],
+      "look": [
+        0,
+        -0.1,
+        1.85
+      ],
+      "scale": 7.5
+    },
+    "side": {
+      "camera": [
+        -8,
+        -7,
+        5.0
+      ],
+      "look": [
+        0,
+        0,
+        1.8
+      ],
+      "scale": 7.4
+    },
+    "window": {
+      "camera": [
+        3.2,
+        -7.3,
+        3.0
+      ],
+      "look": [
+        0.45,
+        -1.1,
+        1.9
+      ],
+      "scale": 5.25
+    }
+  },
+  "render_resolution": [
+    1000,
+    1000
+  ],
+  "before_render_provenance": "Copied immutable prior neutral-studio candidate render, identical geometry/cameras/lighting.",
+  "render_notes": "No height, normal, or AO map is synthesized. Fixed material roughness matches the planned URP helper.",
+  "files": [
+    {
+      "path": "art\\generated\\env-v2\\props\\abode_grandma\\abode_grandma_v2_candidate.blend",
+      "bytes": 4825399,
+      "sha256": "ff97756b95267d27bfb8e09c6fa628f341b3f8cfd7061ba5a78353a1ffb85c6f"
+    },
+    {
+      "path": "art\\generated\\env-v2\\props\\abode_grandma\\abode_grandma_v2_candidate.fbx",
+      "bytes": 312620,
+      "sha256": "6b73a6fbd1c6eeff882eaf410acdea45d3814be160755e92df5db2754131facc"
+    },
+    {
+      "path": "art\\generated\\env-v2\\props\\abode_grandma\\material-after-front.png",
+      "bytes": 1210140,
+      "sha256": "084fc11329c9b0ed8e03a8ec1e5b868469f3bdde599f1215567a2d204b0e5dad"
+    },
+    {
+      "path": "art\\generated\\env-v2\\props\\abode_grandma\\material-after-side.png",
+      "bytes": 1188004,
+      "sha256": "7aa3a88381a14ec55945e7f37100475847aa618064fee19fa3c70f2219e24a5d"
+    },
+    {
+      "path": "art\\generated\\env-v2\\props\\abode_grandma\\material-after-window.png",
+      "bytes": 1353501,
+      "sha256": "ffab3075df646e7e0fd80a65fe04838ded4c85a3fcc6da935a1452f9f67fdcf4"
+    },
+    {
+      "path": "art\\generated\\env-v2\\props\\abode_grandma\\material-before-front.png",
+      "bytes": 1138272,
+      "sha256": "4c60c775f6f2ee4b53bab1c9abe615e04fc40d368213d3b4ddb940831acccd87"
+    },
+    {
+      "path": "art\\generated\\env-v2\\props\\abode_grandma\\material-before-side.png",
+      "bytes": 1115721,
+      "sha256": "8c6835d734305a9c350ef53df1f65d014cde355606763f5a9a99fd330dcb8aba"
+    },
+    {
+      "path": "art\\generated\\env-v2\\props\\abode_grandma\\material-before-window.png",
+      "bytes": 1226396,
+      "sha256": "57b90d49ec27ff095c38921d844fe14bd166d616fcfdaad6eed69e555cb51e80"
+    }
+  ]
+}

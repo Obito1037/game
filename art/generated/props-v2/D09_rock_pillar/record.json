@@ -1,0 +1,16 @@
+{
+ "id": "D09_rock_pillar",
+ "source": "art\\incoming\\tripo-v2-2026-10-22\\tripo_convert_3b7c37e7-fbb6-4b86-917c-3ff8b616ecaf.glb",
+ "source_sha256": "8168a0c55727cf64deff78be4d0b53dfbb7e6eee8ef5adcf17a02bce07f122ee",
+ "tris_before": 92230,
+ "tris_after": 3999,
+ "size_m": [
+  2.068,
+  1.997,
+  5.0
+ ],
+ "textures": {
+  "albedo": "D09_rock_pillar_albedo.jpg"
+ },
+ "materials": 1
+}

@@ -1,0 +1,16 @@
+{
+ "id": "A07_shade_narrow",
+ "source": "art\\incoming\\tripo-v2-2026-10-22\\tripo_convert_127acfc2-9959-45da-b937-3b4d655cced6.glb",
+ "source_sha256": "945360b35c7dc1883d17f24822eb8d04ffe5fe2b6de3315c47c1231794109935",
+ "tris_before": 1958128,
+ "tris_after": 1499,
+ "size_m": [
+  0.167,
+  0.45,
+  0.171
+ ],
+ "textures": {
+  "albedo": "A07_shade_narrow_albedo.jpg"
+ },
+ "materials": 1
+}

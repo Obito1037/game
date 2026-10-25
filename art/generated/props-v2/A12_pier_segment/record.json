@@ -1,0 +1,16 @@
+{
+ "id": "A12_pier_segment",
+ "source": "art\\incoming\\tripo-v2-2026-10-22\\tripo_convert_5df8f2a5-470e-4365-929b-9713c686bfb6.glb",
+ "source_sha256": "bb2a24c7d77b9869ef76674de126377fe8b4af8bd97d6abe42f56b736e760e41",
+ "tris_before": 95558,
+ "tris_after": 2999,
+ "size_m": [
+  3.0,
+  2.071,
+  1.21
+ ],
+ "textures": {
+  "albedo": "A12_pier_segment_albedo.jpg"
+ },
+ "materials": 1
+}

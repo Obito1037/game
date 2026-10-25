@@ -1,0 +1,16 @@
+{
+ "id": "B04_cane",
+ "source": "art\\incoming\\tripo-v2-2026-10-22\\tripo_convert_eec2d603-0e7b-4cc1-98cb-5dfce737b467.glb",
+ "source_sha256": "87aec7309f157d2daba5ade48b91a1c335d62045db4891fe071828ef1ee239ff",
+ "tris_before": 19869,
+ "tris_after": 999,
+ "size_m": [
+  0.167,
+  1.058,
+  1.1
+ ],
+ "textures": {
+  "albedo": "B04_cane_albedo.jpg"
+ },
+ "materials": 1
+}

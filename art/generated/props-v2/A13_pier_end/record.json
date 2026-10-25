@@ -1,0 +1,16 @@
+{
+ "id": "A13_pier_end",
+ "source": "art\\incoming\\tripo-v2-2026-10-22\\tripo_convert_344329a3-b286-42ab-b9a9-34953c5864aa.glb",
+ "source_sha256": "a0d601a496f06a23de305f74acffa01b1b1398d4b71333eed49fa23067092772",
+ "tris_before": 94756,
+ "tris_after": 4999,
+ "size_m": [
+  3.97,
+  4.0,
+  1.618
+ ],
+ "textures": {
+  "albedo": "A13_pier_end_albedo.jpg"
+ },
+ "materials": 1
+}

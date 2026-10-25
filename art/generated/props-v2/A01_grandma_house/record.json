@@ -1,0 +1,16 @@
+{
+ "id": "A01_grandma_house",
+ "source": "art\\incoming\\tripo-v2-2026-10-22\\tripo_convert_299ef313-8f77-4f82-89f9-dbd5b0052d6c.glb",
+ "source_sha256": "bd80ed73f8ede07ab0c274b0ab11266fc1490d0aaa5bab89dbf25d3ecf124f40",
+ "tris_before": 1891989,
+ "tris_after": 15999,
+ "size_m": [
+  5.046,
+  5.304,
+  5.5
+ ],
+ "textures": {
+  "albedo": "A01_grandma_house_albedo.jpg"
+ },
+ "materials": 1
+}

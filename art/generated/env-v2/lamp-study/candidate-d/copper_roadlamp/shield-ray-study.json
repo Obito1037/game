@@ -1,0 +1,103 @@
+{
+  "origin_blender": [
+    0.0,
+    -0.28999999165534973,
+    0.0
+  ],
+  "Unity_Spot_local": [
+    0,
+    0,
+    0.29
+  ],
+  "samples": [
+    {
+      "half_angle_from_forward_degrees": 0,
+      "directions": 32,
+      "blocked_by_metal": 0,
+      "clear": 32,
+      "hit_distance_range": null
+    },
+    {
+      "half_angle_from_forward_degrees": 13,
+      "directions": 32,
+      "blocked_by_metal": 0,
+      "clear": 32,
+      "hit_distance_range": null
+    },
+    {
+      "half_angle_from_forward_degrees": 39,
+      "directions": 32,
+      "blocked_by_metal": 0,
+      "clear": 32,
+      "hit_distance_range": null
+    },
+    {
+      "half_angle_from_forward_degrees": 60,
+      "directions": 32,
+      "blocked_by_metal": 0,
+      "clear": 32,
+      "hit_distance_range": null
+    },
+    {
+      "half_angle_from_forward_degrees": 75,
+      "directions": 32,
+      "blocked_by_metal": 0,
+      "clear": 32,
+      "hit_distance_range": null
+    },
+    {
+      "half_angle_from_forward_degrees": 80,
+      "directions": 32,
+      "blocked_by_metal": 32,
+      "clear": 0,
+      "hit_distance_range": [
+        0.21697206795215607,
+        0.22145354747772217
+      ]
+    },
+    {
+      "half_angle_from_forward_degrees": 90,
+      "directions": 32,
+      "blocked_by_metal": 32,
+      "clear": 0,
+      "hit_distance_range": [
+        0.20288725197315216,
+        0.20686207711696625
+      ]
+    },
+    {
+      "half_angle_from_forward_degrees": 110,
+      "directions": 32,
+      "blocked_by_metal": 32,
+      "clear": 0,
+      "hit_distance_range": [
+        0.19552981853485107,
+        0.1989925503730774
+      ]
+    },
+    {
+      "half_angle_from_forward_degrees": 150,
+      "directions": 32,
+      "blocked_by_metal": 32,
+      "clear": 0,
+      "hit_distance_range": [
+        0.26673582196235657,
+        0.27477577328681946
+      ]
+    },
+    {
+      "half_angle_from_forward_degrees": 180,
+      "directions": 32,
+      "blocked_by_metal": 32,
+      "clear": 0,
+      "hit_distance_range": [
+        0.4099999666213989,
+        0.4099999666213989
+      ]
+    }
+  ],
+  "scope": "Offline geometric intersection only; not Unity shadows, measured photometry, or gameplay verification.",
+  "wide_half_angle": 39,
+  "narrow_half_angle": 13,
+  "hood_geometry_unchanged": true
+}

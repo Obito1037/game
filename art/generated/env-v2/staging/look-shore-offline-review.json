@@ -1,0 +1,48 @@
+{
+  "status": "offline-csharp-compiled-shaders-not-unity-compiled",
+  "unityEditorOperated": false,
+  "assetsImported": false,
+  "globalRenderSettingsWritten": false,
+  "lookRuntimeHasAutomaticUpdateCallbacks": false,
+  "csharpCompile": {
+    "exitCode": 0,
+    "diagnostics": [],
+    "unityVersion": "6000.3.26f1",
+    "localUrpVersion": "17.3.0",
+    "compiler": "C:/Program Files/Unity/Hub/Editor/6000.3.26f1/Editor/Data/DotNetSdkRoslyn/csc.dll",
+    "host": "C:/Program Files/Unity/Hub/Editor/6000.3.26f1/Editor/Data/NetCoreRuntime/dotnet.exe",
+    "output": "C:/Users/20665/AppData/Local/Temp/EnvV2LookShoreCompile_1545ec24d29d4f19980d2af9838bdde6.dll",
+    "sources": [
+      "Runtime/EnvironmentLookLibrary.cs",
+      "Runtime/EnvironmentLookRig.cs",
+      "Editor/EnvV2LookBuilder.cs",
+      "Editor/EnvV2ShoreMapBuilder.cs"
+    ]
+  },
+  "shaderVerification": {
+    "apiSourceReviewed": true,
+    "unityShaderCompile": "not-run",
+    "webglShaderCompile": "not-run",
+    "visualCheck": "not-run",
+    "fps": "not-measured",
+    "shaders": ["Shaders/EnvNightSkyV2.shader", "Shaders/EnvNightSeaV2.shader"]
+  },
+  "shoreMap": {
+    "implementation": "Editor/EnvV2ShoreMapBuilder.cs",
+    "bakeExecuted": false,
+    "source": "passed Island / Terrain / IslandGround and CoastalCliff only",
+    "preferredAlgorithm": "triangle-sea-height intersection",
+    "fallback": "welded actual IslandGround boundary projection, explicitly reported",
+    "encoding": "R8 linear, unsigned world XZ distance divided by 8 metres, clamped to 1",
+    "resolutions": [256, 512],
+    "wrap": "Clamp",
+    "mipChain": true,
+    "worldRect": "min X, min Z, width metres, depth metres"
+  },
+  "pending": [
+    "Unity import and shader error inspection",
+    "Actual scene mesh coast bake and contour warning inspection",
+    "Fixed-camera imagery and moving shoreline/LOD review",
+    "WebGL and sustained frame-time measurement"
+  ]
+}

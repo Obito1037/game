@@ -1,0 +1,353 @@
+{
+  "fresh_process_checks_pass": true,
+  "assets": [
+    {
+      "asset_id": "pier_module",
+      "source_hash_matches": true,
+      "geometry_before_after_hash_identical": true,
+      "source_and_candidate_triangles": 456,
+      "added_triangles": 0,
+      "checks_all_pass": true,
+      "roundtrip_checks_all_pass": true
+    },
+    {
+      "asset_id": "pier_end",
+      "source_hash_matches": true,
+      "geometry_before_after_hash_identical": true,
+      "source_and_candidate_triangles": 668,
+      "added_triangles": 0,
+      "checks_all_pass": true,
+      "roundtrip_checks_all_pass": true
+    },
+    {
+      "asset_id": "bench",
+      "source_hash_matches": true,
+      "geometry_before_after_hash_identical": true,
+      "source_and_candidate_triangles": 324,
+      "added_triangles": 0,
+      "checks_all_pass": true,
+      "roundtrip_checks_all_pass": true
+    }
+  ],
+  "pngs": [
+    {
+      "path": "pier_module\\after-neutral-surface.png",
+      "size": [
+        900,
+        900
+      ],
+      "size_900x900": true
+    },
+    {
+      "path": "pier_module\\after-neutral-whole.png",
+      "size": [
+        900,
+        900
+      ],
+      "size_900x900": true
+    },
+    {
+      "path": "pier_module\\after-night-surface.png",
+      "size": [
+        900,
+        900
+      ],
+      "size_900x900": true
+    },
+    {
+      "path": "pier_module\\after-night-whole.png",
+      "size": [
+        900,
+        900
+      ],
+      "size_900x900": true
+    },
+    {
+      "path": "pier_module\\before-neutral-surface.png",
+      "size": [
+        900,
+        900
+      ],
+      "size_900x900": true
+    },
+    {
+      "path": "pier_module\\before-neutral-whole.png",
+      "size": [
+        900,
+        900
+      ],
+      "size_900x900": true
+    },
+    {
+      "path": "pier_module\\before-night-surface.png",
+      "size": [
+        900,
+        900
+      ],
+      "size_900x900": true
+    },
+    {
+      "path": "pier_module\\before-night-whole.png",
+      "size": [
+        900,
+        900
+      ],
+      "size_900x900": true
+    },
+    {
+      "path": "pier_end\\after-neutral-surface.png",
+      "size": [
+        900,
+        900
+      ],
+      "size_900x900": true
+    },
+    {
+      "path": "pier_end\\after-neutral-whole.png",
+      "size": [
+        900,
+        900
+      ],
+      "size_900x900": true
+    },
+    {
+      "path": "pier_end\\after-night-surface.png",
+      "size": [
+        900,
+        900
+      ],
+      "size_900x900": true
+    },
+    {
+      "path": "pier_end\\after-night-whole.png",
+      "size": [
+        900,
+        900
+      ],
+      "size_900x900": true
+    },
+    {
+      "path": "pier_end\\before-neutral-surface.png",
+      "size": [
+        900,
+        900
+      ],
+      "size_900x900": true
+    },
+    {
+      "path": "pier_end\\before-neutral-whole.png",
+      "size": [
+        900,
+        900
+      ],
+      "size_900x900": true
+    },
+    {
+      "path": "pier_end\\before-night-surface.png",
+      "size": [
+        900,
+        900
+      ],
+      "size_900x900": true
+    },
+    {
+      "path": "pier_end\\before-night-whole.png",
+      "size": [
+        900,
+        900
+      ],
+      "size_900x900": true
+    },
+    {
+      "path": "bench\\after-neutral-surface.png",
+      "size": [
+        900,
+        900
+      ],
+      "size_900x900": true
+    },
+    {
+      "path": "bench\\after-neutral-whole.png",
+      "size": [
+        900,
+        900
+      ],
+      "size_900x900": true
+    },
+    {
+      "path": "bench\\after-night-surface.png",
+      "size": [
+        900,
+        900
+      ],
+      "size_900x900": true
+    },
+    {
+      "path": "bench\\after-night-whole.png",
+      "size": [
+        900,
+        900
+      ],
+      "size_900x900": true
+    },
+    {
+      "path": "bench\\before-neutral-surface.png",
+      "size": [
+        900,
+        900
+      ],
+      "size_900x900": true
+    },
+    {
+      "path": "bench\\before-neutral-whole.png",
+      "size": [
+        900,
+        900
+      ],
+      "size_900x900": true
+    },
+    {
+      "path": "bench\\before-night-surface.png",
+      "size": [
+        900,
+        900
+      ],
+      "size_900x900": true
+    },
+    {
+      "path": "bench\\before-night-whole.png",
+      "size": [
+        900,
+        900
+      ],
+      "size_900x900": true
+    }
+  ],
+  "file_hashes": [
+    {
+      "path": "art\\generated\\env-v2\\pier-bench\\pier_module\\pier_module_v2_candidate.blend",
+      "hash_matches": true
+    },
+    {
+      "path": "art\\generated\\env-v2\\pier-bench\\pier_module\\pier_module_v2_candidate.fbx",
+      "hash_matches": true
+    },
+    {
+      "path": "art\\generated\\env-v2\\pier-bench\\pier_module\\after-neutral-surface.png",
+      "hash_matches": true
+    },
+    {
+      "path": "art\\generated\\env-v2\\pier-bench\\pier_module\\after-neutral-whole.png",
+      "hash_matches": true
+    },
+    {
+      "path": "art\\generated\\env-v2\\pier-bench\\pier_module\\after-night-surface.png",
+      "hash_matches": true
+    },
+    {
+      "path": "art\\generated\\env-v2\\pier-bench\\pier_module\\after-night-whole.png",
+      "hash_matches": true
+    },
+    {
+      "path": "art\\generated\\env-v2\\pier-bench\\pier_module\\before-neutral-surface.png",
+      "hash_matches": true
+    },
+    {
+      "path": "art\\generated\\env-v2\\pier-bench\\pier_module\\before-neutral-whole.png",
+      "hash_matches": true
+    },
+    {
+      "path": "art\\generated\\env-v2\\pier-bench\\pier_module\\before-night-surface.png",
+      "hash_matches": true
+    },
+    {
+      "path": "art\\generated\\env-v2\\pier-bench\\pier_module\\before-night-whole.png",
+      "hash_matches": true
+    },
+    {
+      "path": "art\\generated\\env-v2\\pier-bench\\pier_end\\pier_end_v2_candidate.blend",
+      "hash_matches": true
+    },
+    {
+      "path": "art\\generated\\env-v2\\pier-bench\\pier_end\\pier_end_v2_candidate.fbx",
+      "hash_matches": true
+    },
+    {
+      "path": "art\\generated\\env-v2\\pier-bench\\pier_end\\after-neutral-surface.png",
+      "hash_matches": true
+    },
+    {
+      "path": "art\\generated\\env-v2\\pier-bench\\pier_end\\after-neutral-whole.png",
+      "hash_matches": true
+    },
+    {
+      "path": "art\\generated\\env-v2\\pier-bench\\pier_end\\after-night-surface.png",
+      "hash_matches": true
+    },
+    {
+      "path": "art\\generated\\env-v2\\pier-bench\\pier_end\\after-night-whole.png",
+      "hash_matches": true
+    },
+    {
+      "path": "art\\generated\\env-v2\\pier-bench\\pier_end\\before-neutral-surface.png",
+      "hash_matches": true
+    },
+    {
+      "path": "art\\generated\\env-v2\\pier-bench\\pier_end\\before-neutral-whole.png",
+      "hash_matches": true
+    },
+    {
+      "path": "art\\generated\\env-v2\\pier-bench\\pier_end\\before-night-surface.png",
+      "hash_matches": true
+    },
+    {
+      "path": "art\\generated\\env-v2\\pier-bench\\pier_end\\before-night-whole.png",
+      "hash_matches": true
+    },
+    {
+      "path": "art\\generated\\env-v2\\pier-bench\\bench\\bench_v2_candidate.blend",
+      "hash_matches": true
+    },
+    {
+      "path": "art\\generated\\env-v2\\pier-bench\\bench\\bench_v2_candidate.fbx",
+      "hash_matches": true
+    },
+    {
+      "path": "art\\generated\\env-v2\\pier-bench\\bench\\after-neutral-surface.png",
+      "hash_matches": true
+    },
+    {
+      "path": "art\\generated\\env-v2\\pier-bench\\bench\\after-neutral-whole.png",
+      "hash_matches": true
+    },
+    {
+      "path": "art\\generated\\env-v2\\pier-bench\\bench\\after-night-surface.png",
+      "hash_matches": true
+    },
+    {
+      "path": "art\\generated\\env-v2\\pier-bench\\bench\\after-night-whole.png",
+      "hash_matches": true
+    },
+    {
+      "path": "art\\generated\\env-v2\\pier-bench\\bench\\before-neutral-surface.png",
+      "hash_matches": true
+    },
+    {
+      "path": "art\\generated\\env-v2\\pier-bench\\bench\\before-neutral-whole.png",
+      "hash_matches": true
+    },
+    {
+      "path": "art\\generated\\env-v2\\pier-bench\\bench\\before-night-surface.png",
+      "hash_matches": true
+    },
+    {
+      "path": "art\\generated\\env-v2\\pier-bench\\bench\\before-night-whole.png",
+      "hash_matches": true
+    }
+  ],
+  "original_texture_sha256": "2507398730afcf58404ccfe7e75debefb688d760945f212250702e6d938c3fc1",
+  "texture_hash_matches": true,
+  "source_manifest_hash_matches": true,
+  "scene_input_hash_matches": true,
+  "all_pass": true
+}

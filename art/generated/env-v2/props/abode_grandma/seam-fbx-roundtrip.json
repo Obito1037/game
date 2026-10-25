@@ -1,0 +1,67 @@
+{
+  "blend_sha256": "745fab15a8a60d6fa1a265ea2d87b48ae85610f1c6aaefcd302d535616f33b2f",
+  "fbx_sha256": "2cb7d8c23bc5051bed94fd3318de6fe1d23d540a89650ad0578746d91e02a5a1",
+  "checks": [
+    {
+      "object": "Structure",
+      "uv_loops_triangles_preserved": true
+    },
+    {
+      "object": "V2_WallBoard",
+      "uv_loops_triangles_preserved": true
+    },
+    {
+      "object": "V2_SidingNail",
+      "uv_loops_triangles_preserved": true
+    },
+    {
+      "object": "V2_Eave",
+      "uv_loops_triangles_preserved": true
+    },
+    {
+      "object": "V2_Fieldstone",
+      "uv_loops_triangles_preserved": true
+    },
+    {
+      "object": "V2_OverlappingClayTile",
+      "uv_loops_triangles_preserved": true
+    },
+    {
+      "object": "V2_RidgeCap",
+      "uv_loops_triangles_preserved": true
+    },
+    {
+      "object": "V2_ExposedRafter",
+      "uv_loops_triangles_preserved": true
+    },
+    {
+      "object": "V2_Attic",
+      "uv_loops_triangles_preserved": true
+    },
+    {
+      "object": "V2_Dormer",
+      "uv_loops_triangles_preserved": true
+    },
+    {
+      "object": "V2_TinFlue",
+      "uv_loops_triangles_preserved": true
+    },
+    {
+      "object": "V2_Flue",
+      "uv_loops_triangles_preserved": true
+    },
+    {
+      "object": "V2_DoorHinge",
+      "uv_loops_triangles_preserved": true
+    },
+    {
+      "object": "V2_RoundWindowHinge",
+      "uv_loops_triangles_preserved": true
+    },
+    {
+      "object": "V2_DoorPull",
+      "uv_loops_triangles_preserved": true
+    }
+  ],
+  "all_passed": true
+}

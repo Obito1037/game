@@ -1,0 +1,16 @@
+{
+ "id": "B02_light_fruit",
+ "source": "art\\incoming\\tripo-v2-2026-10-22\\tripo_convert_7e61a664-3dea-45cc-8c91-460dbbc67853.glb",
+ "source_sha256": "83303046b9d92b85e7bd8320d27934e1be3e5b94136b1884eb14c222aa5217e5",
+ "tris_before": 14618,
+ "tris_after": 800,
+ "size_m": [
+  0.059,
+  0.059,
+  0.08
+ ],
+ "textures": {
+  "albedo": "B02_light_fruit_albedo.jpg"
+ },
+ "materials": 1
+}

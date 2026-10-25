@@ -1,0 +1,16 @@
+{
+ "id": "D07_rock_table",
+ "source": "art\\incoming\\tripo-v2-2026-10-22\\tripo_convert_ae455962-ddf1-42fd-97c5-6ee972ed0d6e.glb",
+ "source_sha256": "4193a39b988c02dfdc47d3e0e95eb864694a80be9b051475447495e5299a9440",
+ "tris_before": 90804,
+ "tris_after": 4000,
+ "size_m": [
+  3.359,
+  4.0,
+  0.811
+ ],
+ "textures": {
+  "albedo": "D07_rock_table_albedo.jpg"
+ },
+ "materials": 1
+}

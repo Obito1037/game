@@ -1,0 +1,146 @@
+{
+  "fbx_roundtrip_all_pass": true,
+  "source_blends_unchanged": {
+    "cottage_teal": true,
+    "cottage_ochre": true,
+    "cottage_slate": true
+  },
+  "files_sha_match": {
+    "art\\generated\\env-v2\\village\\cottage_teal\\cottage_teal_v2_candidate.blend": true,
+    "art\\generated\\env-v2\\village\\cottage_teal\\cottage_teal_v2_candidate.fbx": true,
+    "art\\generated\\env-v2\\village\\cottage_teal\\after-neutral-back.png": true,
+    "art\\generated\\env-v2\\village\\cottage_teal\\after-neutral-front.png": true,
+    "art\\generated\\env-v2\\village\\cottage_teal\\after-night-back.png": true,
+    "art\\generated\\env-v2\\village\\cottage_teal\\after-night-front.png": true,
+    "art\\generated\\env-v2\\village\\cottage_teal\\before-neutral-back.png": true,
+    "art\\generated\\env-v2\\village\\cottage_teal\\before-neutral-front.png": true,
+    "art\\generated\\env-v2\\village\\cottage_teal\\before-night-back.png": true,
+    "art\\generated\\env-v2\\village\\cottage_teal\\before-night-front.png": true,
+    "art\\generated\\env-v2\\village\\cottage_ochre\\cottage_ochre_v2_candidate.blend": true,
+    "art\\generated\\env-v2\\village\\cottage_ochre\\cottage_ochre_v2_candidate.fbx": true,
+    "art\\generated\\env-v2\\village\\cottage_ochre\\after-neutral-back.png": true,
+    "art\\generated\\env-v2\\village\\cottage_ochre\\after-neutral-front.png": true,
+    "art\\generated\\env-v2\\village\\cottage_ochre\\after-night-back.png": true,
+    "art\\generated\\env-v2\\village\\cottage_ochre\\after-night-front.png": true,
+    "art\\generated\\env-v2\\village\\cottage_ochre\\before-neutral-back.png": true,
+    "art\\generated\\env-v2\\village\\cottage_ochre\\before-neutral-front.png": true,
+    "art\\generated\\env-v2\\village\\cottage_ochre\\before-night-back.png": true,
+    "art\\generated\\env-v2\\village\\cottage_ochre\\before-night-front.png": true,
+    "art\\generated\\env-v2\\village\\cottage_slate\\cottage_slate_v2_candidate.blend": true,
+    "art\\generated\\env-v2\\village\\cottage_slate\\cottage_slate_v2_candidate.fbx": true,
+    "art\\generated\\env-v2\\village\\cottage_slate\\after-neutral-back.png": true,
+    "art\\generated\\env-v2\\village\\cottage_slate\\after-neutral-front.png": true,
+    "art\\generated\\env-v2\\village\\cottage_slate\\after-night-back.png": true,
+    "art\\generated\\env-v2\\village\\cottage_slate\\after-night-front.png": true,
+    "art\\generated\\env-v2\\village\\cottage_slate\\before-neutral-back.png": true,
+    "art\\generated\\env-v2\\village\\cottage_slate\\before-neutral-front.png": true,
+    "art\\generated\\env-v2\\village\\cottage_slate\\before-night-back.png": true,
+    "art\\generated\\env-v2\\village\\cottage_slate\\before-night-front.png": true
+  },
+  "all_geometry_contract_checks": {
+    "cottage_teal": true,
+    "cottage_ochre": true,
+    "cottage_slate": true
+  },
+  "image_dimensions": {
+    "cottage_teal\\before-neutral-front.png": [
+      900,
+      900
+    ],
+    "cottage_teal\\before-neutral-back.png": [
+      900,
+      900
+    ],
+    "cottage_teal\\before-night-front.png": [
+      900,
+      900
+    ],
+    "cottage_teal\\before-night-back.png": [
+      900,
+      900
+    ],
+    "cottage_teal\\after-neutral-front.png": [
+      900,
+      900
+    ],
+    "cottage_teal\\after-neutral-back.png": [
+      900,
+      900
+    ],
+    "cottage_teal\\after-night-front.png": [
+      900,
+      900
+    ],
+    "cottage_teal\\after-night-back.png": [
+      900,
+      900
+    ],
+    "cottage_ochre\\before-neutral-front.png": [
+      900,
+      900
+    ],
+    "cottage_ochre\\before-neutral-back.png": [
+      900,
+      900
+    ],
+    "cottage_ochre\\before-night-front.png": [
+      900,
+      900
+    ],
+    "cottage_ochre\\before-night-back.png": [
+      900,
+      900
+    ],
+    "cottage_ochre\\after-neutral-front.png": [
+      900,
+      900
+    ],
+    "cottage_ochre\\after-neutral-back.png": [
+      900,
+      900
+    ],
+    "cottage_ochre\\after-night-front.png": [
+      900,
+      900
+    ],
+    "cottage_ochre\\after-night-back.png": [
+      900,
+      900
+    ],
+    "cottage_slate\\before-neutral-front.png": [
+      900,
+      900
+    ],
+    "cottage_slate\\before-neutral-back.png": [
+      900,
+      900
+    ],
+    "cottage_slate\\before-night-front.png": [
+      900,
+      900
+    ],
+    "cottage_slate\\before-night-back.png": [
+      900,
+      900
+    ],
+    "cottage_slate\\after-neutral-front.png": [
+      900,
+      900
+    ],
+    "cottage_slate\\after-neutral-back.png": [
+      900,
+      900
+    ],
+    "cottage_slate\\after-night-front.png": [
+      900,
+      900
+    ],
+    "cottage_slate\\after-night-back.png": [
+      900,
+      900
+    ]
+  },
+  "source_manifest_unchanged": true,
+  "original_texture_unchanged": true,
+  "gallery_missing_local_links": []
+}

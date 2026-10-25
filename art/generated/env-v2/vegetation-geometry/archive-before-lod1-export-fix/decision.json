@@ -1,0 +1,13 @@
+{
+  "status": "rejected-for-production-retained-as-independent-study",
+  "approved_for_integration": false,
+  "candidate": "gold_lighttree_geometry_candidate.blend",
+  "reason": "柔软叶形与银绿薄金边更贴近故事，但树冠呈规则层状托盘，裸枝过多，木干/根系缺少生命感，夜间小果与金边可读性不足；整体完成度未超过原金树。",
+  "independent_visual_review": "第二位只读审阅代理实际查看候选正面、侧面、夜景及原树中性/夜间全景，独立同意拒绝正式替换。",
+  "source_assets_modified": false,
+  "unity_operated": false,
+  "assets_written": false,
+  "old_colliders_preserved_or_verified": false,
+  "automatic_integration_helper_created": false,
+  "technical_checks_are_not_visual_approval": true
+}

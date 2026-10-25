@@ -1,0 +1,2826 @@
+{
+  "status": "offline-visually-recommended-pending-root-unity-review",
+  "scene_input": "art\\generated\\env-v1\\staging\\scene-input.json",
+  "scene_input_sha256": "b6db99153735c3971212dcd486dc5d9f46cc1f47cc70155c924df357bf9ee70e",
+  "source_manifest_sha256": "212fb828b3624aa0a027c8aa47477b6a9402a4b9f5c346a65771ec959c7ee9ed",
+  "assets": [
+    {
+      "asset_id": "pier_end",
+      "status": "offline-surface-candidate-awaiting-visual-review",
+      "source_sha256": "6a12bde83b02d1c72921cebc0d10c1bfa5c45a8e5fe482a1d967577338507908",
+      "source_inspection": "source-inventory.json",
+      "before_triangles": 668,
+      "after_triangles": 668,
+      "additional_triangles": 0,
+      "scene_input_instances": [],
+      "instance_count": 0,
+      "geometry_before_sha256": "a4e50116161dd51e42e58fec54fcff934c136d92bdbf9aad14ec6fe8411aa6d5",
+      "geometry_after_sha256": "a4e50116161dd51e42e58fec54fcff934c136d92bdbf9aad14ec6fe8411aa6d5",
+      "before_bounds": {
+        "min": [
+          -1.2200000286102295,
+          -1.8300000429153442,
+          -3.200000047683716
+        ],
+        "max": [
+          1.2200000286102295,
+          1.8300000429153442,
+          0.13999992609024048
+        ]
+      },
+      "after_bounds": {
+        "min": [
+          -1.2200000286102295,
+          -1.8300000429153442,
+          -3.200000047683716
+        ],
+        "max": [
+          1.2200000286102295,
+          1.8300000429153442,
+          0.13999992609024048
+        ]
+      },
+      "markers_before": {
+        "Marker_Entry": {
+          "world": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              -1.7999999523162842
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              -1.7999999523162842
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "parent": "pier_end"
+        },
+        "Marker_Exit": {
+          "world": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              1.7999999523162842
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              1.7999999523162842
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "parent": "pier_end"
+        },
+        "pier_end": {
+          "world": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "parent": null
+        }
+      },
+      "markers_after": {
+        "Marker_Entry": {
+          "world": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              -1.7999999523162842
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              -1.7999999523162842
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "parent": "pier_end"
+        },
+        "Marker_Exit": {
+          "world": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              1.7999999523162842
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              1.7999999523162842
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "parent": "pier_end"
+        },
+        "pier_end": {
+          "world": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "parent": null
+        }
+      },
+      "checks": {
+        "geometry_indices_slots_smoothing_exact": true,
+        "root_marker_poses_exact": true,
+        "bounds_exact": true,
+        "triangles_exact": true,
+        "protected_deck_or_seat_vertices_exact": true,
+        "source_hash_unchanged": true,
+        "wood_V_does_not_wrap": true
+      },
+      "wood_uv": {
+        "u_metres": 1.0,
+        "v_metres": 4.9,
+        "end_cap_patch_metres": 0.7,
+        "wood_components": [
+          {
+            "object": "Structure",
+            "component": 0,
+            "materials": [
+              "Wood_Endgrain"
+            ],
+            "long_axis": [
+              1.0,
+              0.0,
+              0.0
+            ],
+            "length_m": 2.380000114440918,
+            "side_faces": 4,
+            "end_faces": 2,
+            "changed_uv_corners": 24,
+            "size": [
+              2.380000114440918,
+              0.22699999809265137,
+              0.11999999731779099
+            ]
+          },
+          {
+            "object": "Structure",
+            "component": 1,
+            "materials": [
+              "Wood_Honey"
+            ],
+            "long_axis": [
+              1.0,
+              0.0,
+              0.0
+            ],
+            "length_m": 2.380000114440918,
+            "side_faces": 4,
+            "end_faces": 2,
+            "changed_uv_corners": 24,
+            "size": [
+              2.380000114440918,
+              0.22699999809265137,
+              0.11999999731779099
+            ]
+          },
+          {
+            "object": "Structure",
+            "component": 2,
+            "materials": [
+              "Wood_Honey"
+            ],
+            "long_axis": [
+              1.0,
+              0.0,
+              0.0
+            ],
+            "length_m": 2.380000114440918,
+            "side_faces": 4,
+            "end_faces": 2,
+            "changed_uv_corners": 24,
+            "size": [
+              2.380000114440918,
+              0.22699999809265137,
+              0.11999999731779099
+            ]
+          },
+          {
+            "object": "Structure",
+            "component": 3,
+            "materials": [
+              "Wood_Honey"
+            ],
+            "long_axis": [
+              1.0,
+              0.0,
+              0.0
+            ],
+            "length_m": 2.380000114440918,
+            "side_faces": 4,
+            "end_faces": 2,
+            "changed_uv_corners": 24,
+            "size": [
+              2.380000114440918,
+              0.2269999384880066,
+              0.11999999731779099
+            ]
+          },
+          {
+            "object": "Structure",
+            "component": 4,
+            "materials": [
+              "Wood_Endgrain"
+            ],
+            "long_axis": [
+              1.0,
+              0.0,
+              0.0
+            ],
+            "length_m": 2.380000114440918,
+            "side_faces": 4,
+            "end_faces": 2,
+            "changed_uv_corners": 24,
+            "size": [
+              2.380000114440918,
+              0.22699999809265137,
+              0.11999999731779099
+            ]
+          },
+          {
+            "object": "Structure",
+            "component": 5,
+            "materials": [
+              "Wood_Honey"
+            ],
+            "long_axis": [
+              1.0,
+              0.0,
+              0.0
+            ],
+            "length_m": 2.380000114440918,
+            "side_faces": 4,
+            "end_faces": 2,
+            "changed_uv_corners": 24,
+            "size": [
+              2.380000114440918,
+              0.22699999809265137,
+              0.11999999731779099
+            ]
+          },
+          {
+            "object": "Structure",
+            "component": 6,
+            "materials": [
+              "Wood_Honey"
+            ],
+            "long_axis": [
+              1.0,
+              0.0,
+              0.0
+            ],
+            "length_m": 2.380000114440918,
+            "side_faces": 4,
+            "end_faces": 2,
+            "changed_uv_corners": 24,
+            "size": [
+              2.380000114440918,
+              0.22699999809265137,
+              0.11999999731779099
+            ]
+          },
+          {
+            "object": "Structure",
+            "component": 7,
+            "materials": [
+              "Wood_Honey"
+            ],
+            "long_axis": [
+              1.0,
+              0.0,
+              0.0
+            ],
+            "length_m": 2.380000114440918,
+            "side_faces": 4,
+            "end_faces": 2,
+            "changed_uv_corners": 24,
+            "size": [
+              2.380000114440918,
+              0.22699999809265137,
+              0.11999999731779099
+            ]
+          },
+          {
+            "object": "Structure",
+            "component": 8,
+            "materials": [
+              "Wood_Endgrain"
+            ],
+            "long_axis": [
+              1.0,
+              0.0,
+              0.0
+            ],
+            "length_m": 2.380000114440918,
+            "side_faces": 4,
+            "end_faces": 2,
+            "changed_uv_corners": 24,
+            "size": [
+              2.380000114440918,
+              0.22699999809265137,
+              0.11999999731779099
+            ]
+          },
+          {
+            "object": "Structure",
+            "component": 9,
+            "materials": [
+              "Wood_Honey"
+            ],
+            "long_axis": [
+              1.0,
+              0.0,
+              0.0
+            ],
+            "length_m": 2.380000114440918,
+            "side_faces": 4,
+            "end_faces": 2,
+            "changed_uv_corners": 24,
+            "size": [
+              2.380000114440918,
+              0.22700023651123047,
+              0.11999999731779099
+            ]
+          },
+          {
+            "object": "Structure",
+            "component": 10,
+            "materials": [
+              "Wood_Honey"
+            ],
+            "long_axis": [
+              1.0,
+              0.0,
+              0.0
+            ],
+            "length_m": 2.380000114440918,
+            "side_faces": 4,
+            "end_faces": 2,
+            "changed_uv_corners": 24,
+            "size": [
+              2.380000114440918,
+              0.22700023651123047,
+              0.11999999731779099
+            ]
+          },
+          {
+            "object": "Structure",
+            "component": 11,
+            "materials": [
+              "Wood_Honey"
+            ],
+            "long_axis": [
+              1.0,
+              0.0,
+              0.0
+            ],
+            "length_m": 2.380000114440918,
+            "side_faces": 4,
+            "end_faces": 2,
+            "changed_uv_corners": 24,
+            "size": [
+              2.380000114440918,
+              0.22700023651123047,
+              0.11999999731779099
+            ]
+          },
+          {
+            "object": "Structure",
+            "component": 12,
+            "materials": [
+              "Wood_Endgrain"
+            ],
+            "long_axis": [
+              1.0,
+              0.0,
+              0.0
+            ],
+            "length_m": 2.380000114440918,
+            "side_faces": 4,
+            "end_faces": 2,
+            "changed_uv_corners": 24,
+            "size": [
+              2.380000114440918,
+              0.22700023651123047,
+              0.11999999731779099
+            ]
+          },
+          {
+            "object": "Structure",
+            "component": 13,
+            "materials": [
+              "Wood_Honey"
+            ],
+            "long_axis": [
+              1.0,
+              0.0,
+              0.0
+            ],
+            "length_m": 2.380000114440918,
+            "side_faces": 4,
+            "end_faces": 2,
+            "changed_uv_corners": 24,
+            "size": [
+              2.380000114440918,
+              0.22700023651123047,
+              0.11999999731779099
+            ]
+          },
+          {
+            "object": "Structure",
+            "component": 14,
+            "materials": [
+              "Wood_Honey"
+            ],
+            "long_axis": [
+              1.0,
+              0.0,
+              0.0
+            ],
+            "length_m": 2.380000114440918,
+            "side_faces": 4,
+            "end_faces": 2,
+            "changed_uv_corners": 24,
+            "size": [
+              2.380000114440918,
+              0.22699975967407227,
+              0.11999999731779099
+            ]
+          },
+          {
+            "object": "Structure",
+            "component": 15,
+            "materials": [
+              "Wood_DarkBeams"
+            ],
+            "long_axis": [
+              0.0,
+              1.0,
+              0.0
+            ],
+            "length_m": 3.6600000858306885,
+            "side_faces": 4,
+            "end_faces": 2,
+            "changed_uv_corners": 24,
+            "size": [
+              0.1499999761581421,
+              3.6600000858306885,
+              0.25
+            ]
+          },
+          {
+            "object": "Structure",
+            "component": 16,
+            "materials": [
+              "Wood_Weathered"
+            ],
+            "long_axis": [
+              0.0,
+              0.0,
+              1.0
+            ],
+            "length_m": 3.3399999737739563,
+            "side_faces": 10,
+            "end_faces": 2,
+            "changed_uv_corners": 60,
+            "size": [
+              0.19021129608154297,
+              0.20000004768371582,
+              3.3399999737739563
+            ]
+          },
+          {
+            "object": "Structure",
+            "component": 18,
+            "materials": [
+              "Wood_Weathered"
+            ],
+            "long_axis": [
+              0.0,
+              0.0,
+              1.0
+            ],
+            "length_m": 3.3399999737739563,
+            "side_faces": 10,
+            "end_faces": 2,
+            "changed_uv_corners": 60,
+            "size": [
+              0.19021129608154297,
+              0.19999980926513672,
+              3.3399999737739563
+            ]
+          },
+          {
+            "object": "Structure",
+            "component": 20,
+            "materials": [
+              "Wood_DarkBeams"
+            ],
+            "long_axis": [
+              0.0,
+              1.0,
+              0.0
+            ],
+            "length_m": 3.6600000858306885,
+            "side_faces": 4,
+            "end_faces": 2,
+            "changed_uv_corners": 24,
+            "size": [
+              0.1499999761581421,
+              3.6600000858306885,
+              0.25
+            ]
+          },
+          {
+            "object": "Structure",
+            "component": 21,
+            "materials": [
+              "Wood_Weathered"
+            ],
+            "long_axis": [
+              0.0,
+              0.0,
+              1.0
+            ],
+            "length_m": 3.3399999737739563,
+            "side_faces": 10,
+            "end_faces": 2,
+            "changed_uv_corners": 60,
+            "size": [
+              0.19021129608154297,
+              0.20000004768371582,
+              3.3399999737739563
+            ]
+          },
+          {
+            "object": "Structure",
+            "component": 23,
+            "materials": [
+              "Wood_Weathered"
+            ],
+            "long_axis": [
+              0.0,
+              0.0,
+              1.0
+            ],
+            "length_m": 3.3399999737739563,
+            "side_faces": 10,
+            "end_faces": 2,
+            "changed_uv_corners": 60,
+            "size": [
+              0.19021129608154297,
+              0.19999980926513672,
+              3.3399999737739563
+            ]
+          },
+          {
+            "object": "Structure",
+            "component": 25,
+            "materials": [
+              "Wood_DarkBeams"
+            ],
+            "long_axis": [
+              1.0,
+              0.0,
+              0.0
+            ],
+            "length_m": 0.2799999713897705,
+            "side_faces": 24,
+            "end_faces": 2,
+            "changed_uv_corners": 96,
+            "size": [
+              0.2799999713897705,
+              0.0899999737739563,
+              0.08000000193715096
+            ]
+          },
+          {
+            "object": "Structure",
+            "component": 26,
+            "materials": [
+              "Wood_DarkBeams"
+            ],
+            "long_axis": [
+              1.0,
+              0.0,
+              0.0
+            ],
+            "length_m": 0.2799999713897705,
+            "side_faces": 24,
+            "end_faces": 2,
+            "changed_uv_corners": 96,
+            "size": [
+              0.2799999713897705,
+              0.09000015258789062,
+              0.08000000193715096
+            ]
+          },
+          {
+            "object": "Structure",
+            "component": 27,
+            "materials": [
+              "Wood_DarkBeams"
+            ],
+            "long_axis": [
+              1.0,
+              0.0,
+              0.0
+            ],
+            "length_m": 0.2799999713897705,
+            "side_faces": 24,
+            "end_faces": 2,
+            "changed_uv_corners": 96,
+            "size": [
+              0.2799999713897705,
+              0.0899999737739563,
+              0.08000000193715096
+            ]
+          },
+          {
+            "object": "Structure",
+            "component": 28,
+            "materials": [
+              "Wood_DarkBeams"
+            ],
+            "long_axis": [
+              1.0,
+              0.0,
+              0.0
+            ],
+            "length_m": 0.2799999713897705,
+            "side_faces": 24,
+            "end_faces": 2,
+            "changed_uv_corners": 96,
+            "size": [
+              0.2799999713897705,
+              0.09000015258789062,
+              0.08000000193715096
+            ]
+          }
+        ],
+        "v_range": [
+          0.04164000854975651,
+          0.9279162862132164
+        ],
+        "end_cap_limitation": "Same original wood image in planar end projection; no dedicated annual-ring texture or baked normal map."
+      },
+      "material_mapping": [
+        {
+          "source_name": "Wood_Endgrain",
+          "shared": "CoastalWood_Light",
+          "tint": [
+            0.62,
+            0.57,
+            0.46
+          ],
+          "roughness": 0.88
+        },
+        {
+          "source_name": "Wood_Honey",
+          "shared": "CoastalWood_Brown",
+          "tint": [
+            0.48,
+            0.42,
+            0.33
+          ],
+          "roughness": 0.87
+        },
+        {
+          "source_name": "Wood_DarkBeams",
+          "shared": "CoastalWood_Dark",
+          "tint": [
+            0.26,
+            0.22,
+            0.17
+          ],
+          "roughness": 0.9
+        },
+        {
+          "source_name": "Wood_Weathered",
+          "shared": "CoastalWood_Silver",
+          "tint": [
+            0.38,
+            0.38,
+            0.32
+          ],
+          "roughness": 0.92
+        }
+      ],
+      "texture": {
+        "path": "art\\generated\\env-v2\\textures\\wood_albedo_v1.png",
+        "size": [
+          1254,
+          1254
+        ],
+        "sha256": "2507398730afcf58404ccfe7e75debefb688d760945f212250702e6d938c3fc1"
+      },
+      "protected_plane_z": 0,
+      "protected_plane_vertex_count": 60,
+      "render_resolution": [
+        900,
+        900
+      ],
+      "views": {
+        "whole": {
+          "position": [
+            5.8,
+            -7.6,
+            4.5
+          ],
+          "look": [
+            0,
+            0,
+            -1.3
+          ],
+          "scale": 5.55
+        },
+        "surface": {
+          "position": [
+            4.3,
+            -5.6,
+            5.1
+          ],
+          "look": [
+            0,
+            0,
+            -0.13
+          ],
+          "scale": 5.1
+        }
+      },
+      "surface_limitations": [
+        "No new bitmap, normal or end-ring texture was synthesized.",
+        "Wood_Endgrain is a historical material name: it includes full planks; UVs distinguish actual end caps.",
+        "No geometry, bevels, nail heads, seams or collider changes. Bench already has rounded slats."
+      ],
+      "fbx_roundtrip": {
+        "checks": {
+          "one_structure_mesh": true,
+          "triangles_exact": true,
+          "material_slots_exact": true,
+          "bounds_within_1micrometre": true,
+          "root_marker_names_exact": true,
+          "root_marker_matrices_within_1micrometre": true,
+          "vertices_within_1micrometre": true,
+          "uv0_exists": true
+        },
+        "all_pass": true,
+        "triangles": 668,
+        "bounds": {
+          "min": [
+            -1.2200000286102295,
+            -1.8300000429153442,
+            -3.200000286102295
+          ],
+          "max": [
+            1.2200000286102295,
+            1.8300000429153442,
+            0.14000019431114197
+          ]
+        },
+        "maximum_vertex_errors_m": {
+          "Structure": 5.331201577973843e-07
+        }
+      },
+      "script_sha256": "bbd5624e5f4f69459749c1a66c8b95bfff66ca1d10f9bdc13305f82631aa056d",
+      "files": [
+        {
+          "path": "art\\generated\\env-v2\\pier-bench\\pier_end\\pier_end_v2_candidate.blend",
+          "sha256": "ecfa37917b0b10c14f0f43c6618426103fd7b0b4fc88a679a879f0de9bcc9a23",
+          "bytes": 3626911
+        },
+        {
+          "path": "art\\generated\\env-v2\\pier-bench\\pier_end\\pier_end_v2_candidate.fbx",
+          "sha256": "1ae0b8df913c9c0f1166a4473f8255879c5b044c93b92d18c24f390a58643cba",
+          "bytes": 35084
+        },
+        {
+          "path": "art\\generated\\env-v2\\pier-bench\\pier_end\\after-neutral-surface.png",
+          "sha256": "c4f9ecbf1682be4db68337ec4bb02fe105de9246de55b5cebd1e12be51934fe6",
+          "bytes": 940894
+        },
+        {
+          "path": "art\\generated\\env-v2\\pier-bench\\pier_end\\after-neutral-whole.png",
+          "sha256": "df87bad877ca8efb9989b58223863bdee22e424218e8e96e7ced10833d39ce65",
+          "bytes": 914099
+        },
+        {
+          "path": "art\\generated\\env-v2\\pier-bench\\pier_end\\after-night-surface.png",
+          "sha256": "3a788eed42cd077ecba3f9a69302ce20444cd568fac6beb820b8d5183169f06e",
+          "bytes": 955171
+        },
+        {
+          "path": "art\\generated\\env-v2\\pier-bench\\pier_end\\after-night-whole.png",
+          "sha256": "9422e568372c100f4175e71316d45822a502388a18c576f44b7a4f3961fc9fd1",
+          "bytes": 915416
+        },
+        {
+          "path": "art\\generated\\env-v2\\pier-bench\\pier_end\\before-neutral-surface.png",
+          "sha256": "8f46ec85266a552c78b7b3b58826474a015e2f4c79b4f4c15172a97de173ac63",
+          "bytes": 867595
+        },
+        {
+          "path": "art\\generated\\env-v2\\pier-bench\\pier_end\\before-neutral-whole.png",
+          "sha256": "f77b76a26e97a26a0fcd33625cce3a4a13b6876c632f5b13df44200fcd3c8ad1",
+          "bytes": 860307
+        },
+        {
+          "path": "art\\generated\\env-v2\\pier-bench\\pier_end\\before-night-surface.png",
+          "sha256": "33f3a12985e606e5ee9b5b4a99d4216c6dd91b1c14fbd854f15684d4c371cc6a",
+          "bytes": 880220
+        },
+        {
+          "path": "art\\generated\\env-v2\\pier-bench\\pier_end\\before-night-whole.png",
+          "sha256": "84340e688f6196083dd9e28ea9feeb77b3ebc12f37038f669602118ad6937ff4",
+          "bytes": 862496
+        }
+      ]
+    },
+    {
+      "asset_id": "bench",
+      "status": "offline-surface-candidate-awaiting-visual-review",
+      "source_sha256": "94d03b6d0c4049ffb7e4bb9e4c00886c1481a7903f9cee51c108feb10c814622",
+      "source_inspection": "source-inventory.json",
+      "before_triangles": 324,
+      "after_triangles": 324,
+      "additional_triangles": 0,
+      "scene_input_instances": [
+        {
+          "name": "Bench",
+          "asset": "bench",
+          "position": [
+            9.0,
+            2.4,
+            -21.0
+          ],
+          "yaw": 0,
+          "scale": 1,
+          "group": "Props",
+          "collider": "solid"
+        }
+      ],
+      "instance_count": 1,
+      "geometry_before_sha256": "5c8e7f0018f9d3e9ef04b73046c815eda838d9d0e54b1870a2cd175d0664cf0e",
+      "geometry_after_sha256": "5c8e7f0018f9d3e9ef04b73046c815eda838d9d0e54b1870a2cd175d0664cf0e",
+      "before_bounds": {
+        "min": [
+          -0.9800000190734863,
+          -0.2900000214576721,
+          0.0
+        ],
+        "max": [
+          0.9800000190734863,
+          0.29499995708465576,
+          1.0750000476837158
+        ]
+      },
+      "after_bounds": {
+        "min": [
+          -0.9800000190734863,
+          -0.2900000214576721,
+          0.0
+        ],
+        "max": [
+          0.9800000190734863,
+          0.29499995708465576,
+          1.0750000476837158
+        ]
+      },
+      "markers_before": {
+        "Marker_Seat": {
+          "world": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              -0.03999999910593033
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.44999998807907104
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              -0.03999999910593033
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.44999998807907104
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "parent": "bench"
+        },
+        "bench": {
+          "world": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "parent": null
+        }
+      },
+      "markers_after": {
+        "Marker_Seat": {
+          "world": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              -0.03999999910593033
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.44999998807907104
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              -0.03999999910593033
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.44999998807907104
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "parent": "bench"
+        },
+        "bench": {
+          "world": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "parent": null
+        }
+      },
+      "checks": {
+        "geometry_indices_slots_smoothing_exact": true,
+        "root_marker_poses_exact": true,
+        "bounds_exact": true,
+        "triangles_exact": true,
+        "protected_deck_or_seat_vertices_exact": true,
+        "source_hash_unchanged": true,
+        "wood_V_does_not_wrap": true
+      },
+      "wood_uv": {
+        "u_metres": 1.0,
+        "v_metres": 4.9,
+        "end_cap_patch_metres": 0.7,
+        "wood_components": [
+          {
+            "object": "Structure",
+            "component": 0,
+            "materials": [
+              "Wood_Endgrain"
+            ],
+            "long_axis": [
+              1.0,
+              0.0,
+              0.0
+            ],
+            "length_m": 1.9600000381469727,
+            "side_faces": 24,
+            "end_faces": 2,
+            "changed_uv_corners": 96,
+            "size": [
+              1.9600000381469727,
+              0.18000002205371857,
+              0.07999998331069946
+            ]
+          },
+          {
+            "object": "Structure",
+            "component": 1,
+            "materials": [
+              "Wood_Endgrain"
+            ],
+            "long_axis": [
+              1.0,
+              0.0,
+              0.0
+            ],
+            "length_m": 1.9600000381469727,
+            "side_faces": 24,
+            "end_faces": 2,
+            "changed_uv_corners": 96,
+            "size": [
+              1.9600000381469727,
+              0.18000002205371857,
+              0.07999998331069946
+            ]
+          },
+          {
+            "object": "Structure",
+            "component": 2,
+            "materials": [
+              "Wood_Endgrain"
+            ],
+            "long_axis": [
+              1.0,
+              0.0,
+              0.0
+            ],
+            "length_m": 1.9600000381469727,
+            "side_faces": 24,
+            "end_faces": 2,
+            "changed_uv_corners": 96,
+            "size": [
+              1.9600000381469727,
+              0.18000002205371857,
+              0.07999998331069946
+            ]
+          },
+          {
+            "object": "Structure",
+            "component": 3,
+            "materials": [
+              "Wood_DarkBeams"
+            ],
+            "long_axis": [
+              0.0,
+              0.0,
+              1.0
+            ],
+            "length_m": 0.3799999952316284,
+            "side_faces": 4,
+            "end_faces": 2,
+            "changed_uv_corners": 24,
+            "size": [
+              0.09500002861022949,
+              0.09999999403953552,
+              0.3799999952316284
+            ]
+          },
+          {
+            "object": "Structure",
+            "component": 4,
+            "materials": [
+              "Wood_DarkBeams"
+            ],
+            "long_axis": [
+              0.0,
+              0.0,
+              1.0
+            ],
+            "length_m": 0.3799999952316284,
+            "side_faces": 4,
+            "end_faces": 2,
+            "changed_uv_corners": 24,
+            "size": [
+              0.09500002861022949,
+              0.10000002384185791,
+              0.3799999952316284
+            ]
+          },
+          {
+            "object": "Structure",
+            "component": 5,
+            "materials": [
+              "Wood_Honey"
+            ],
+            "long_axis": [
+              0.0,
+              0.0,
+              1.0
+            ],
+            "length_m": 0.8300000131130219,
+            "side_faces": 4,
+            "end_faces": 2,
+            "changed_uv_corners": 24,
+            "size": [
+              0.10000002384185791,
+              0.1000000387430191,
+              0.8300000131130219
+            ]
+          },
+          {
+            "object": "Structure",
+            "component": 6,
+            "materials": [
+              "Wood_Honey"
+            ],
+            "long_axis": [
+              -1.0179251574982118e-07,
+              0.8418792486190796,
+              0.5396659970283508
+            ],
+            "length_m": 0.4632494275160468,
+            "side_faces": 5,
+            "end_faces": 2,
+            "changed_uv_corners": 30,
+            "size": [
+              0.0779867172241211,
+              0.43002690374851227,
+              0.312441885471344
+            ]
+          },
+          {
+            "object": "Structure",
+            "component": 7,
+            "materials": [
+              "Wood_DarkBeams"
+            ],
+            "long_axis": [
+              0.0,
+              0.0,
+              1.0
+            ],
+            "length_m": 0.3799999952316284,
+            "side_faces": 4,
+            "end_faces": 2,
+            "changed_uv_corners": 24,
+            "size": [
+              0.09500002861022949,
+              0.09999999403953552,
+              0.3799999952316284
+            ]
+          },
+          {
+            "object": "Structure",
+            "component": 8,
+            "materials": [
+              "Wood_DarkBeams"
+            ],
+            "long_axis": [
+              0.0,
+              0.0,
+              1.0
+            ],
+            "length_m": 0.3799999952316284,
+            "side_faces": 4,
+            "end_faces": 2,
+            "changed_uv_corners": 24,
+            "size": [
+              0.09500002861022949,
+              0.10000002384185791,
+              0.3799999952316284
+            ]
+          },
+          {
+            "object": "Structure",
+            "component": 9,
+            "materials": [
+              "Wood_Honey"
+            ],
+            "long_axis": [
+              0.0,
+              0.0,
+              1.0
+            ],
+            "length_m": 0.8300000131130219,
+            "side_faces": 4,
+            "end_faces": 2,
+            "changed_uv_corners": 24,
+            "size": [
+              0.10000002384185791,
+              0.1000000387430191,
+              0.8300000131130219
+            ]
+          },
+          {
+            "object": "Structure",
+            "component": 10,
+            "materials": [
+              "Wood_Honey"
+            ],
+            "long_axis": [
+              -1.0179251574982118e-07,
+              0.8418792486190796,
+              0.5396659970283508
+            ],
+            "length_m": 0.4632494275160468,
+            "side_faces": 5,
+            "end_faces": 2,
+            "changed_uv_corners": 30,
+            "size": [
+              0.0779867172241211,
+              0.43002690374851227,
+              0.312441885471344
+            ]
+          },
+          {
+            "object": "Structure",
+            "component": 11,
+            "materials": [
+              "Wood_Endgrain"
+            ],
+            "long_axis": [
+              1.0,
+              0.0,
+              0.0
+            ],
+            "length_m": 1.9600000381469727,
+            "side_faces": 24,
+            "end_faces": 2,
+            "changed_uv_corners": 96,
+            "size": [
+              1.9600000381469727,
+              0.07999996840953827,
+              0.16999995708465576
+            ]
+          },
+          {
+            "object": "Structure",
+            "component": 12,
+            "materials": [
+              "Wood_Endgrain"
+            ],
+            "long_axis": [
+              1.0,
+              0.0,
+              0.0
+            ],
+            "length_m": 1.9600000381469727,
+            "side_faces": 24,
+            "end_faces": 2,
+            "changed_uv_corners": 96,
+            "size": [
+              1.9600000381469727,
+              0.07999996840953827,
+              0.17000001668930054
+            ]
+          }
+        ],
+        "v_range": [
+          0.19133424249284464,
+          0.8977624164533103
+        ],
+        "end_cap_limitation": "Same original wood image in planar end projection; no dedicated annual-ring texture or baked normal map."
+      },
+      "material_mapping": [
+        {
+          "source_name": "Wood_Endgrain",
+          "shared": "CoastalWood_Light",
+          "tint": [
+            0.62,
+            0.57,
+            0.46
+          ],
+          "roughness": 0.88
+        },
+        {
+          "source_name": "Wood_Honey",
+          "shared": "CoastalWood_Brown",
+          "tint": [
+            0.48,
+            0.42,
+            0.33
+          ],
+          "roughness": 0.87
+        },
+        {
+          "source_name": "Wood_DarkBeams",
+          "shared": "CoastalWood_Dark",
+          "tint": [
+            0.26,
+            0.22,
+            0.17
+          ],
+          "roughness": 0.9
+        },
+        {
+          "source_name": "Wood_Weathered",
+          "shared": "CoastalWood_Silver",
+          "tint": [
+            0.38,
+            0.38,
+            0.32
+          ],
+          "roughness": 0.92
+        }
+      ],
+      "texture": {
+        "path": "art\\generated\\env-v2\\textures\\wood_albedo_v1.png",
+        "size": [
+          1254,
+          1254
+        ],
+        "sha256": "2507398730afcf58404ccfe7e75debefb688d760945f212250702e6d938c3fc1"
+      },
+      "protected_plane_z": 0.45,
+      "protected_plane_vertex_count": 12,
+      "render_resolution": [
+        900,
+        900
+      ],
+      "views": {
+        "whole": {
+          "position": [
+            2.7,
+            -4.4,
+            2.55
+          ],
+          "look": [
+            0,
+            0,
+            0.52
+          ],
+          "scale": 2.55
+        },
+        "surface": {
+          "position": [
+            1.9,
+            -3.6,
+            2.5
+          ],
+          "look": [
+            0,
+            0,
+            0.62
+          ],
+          "scale": 2.15
+        }
+      },
+      "surface_limitations": [
+        "No new bitmap, normal or end-ring texture was synthesized.",
+        "Wood_Endgrain is a historical material name: it includes full planks; UVs distinguish actual end caps.",
+        "No geometry, bevels, nail heads, seams or collider changes. Bench already has rounded slats."
+      ],
+      "fbx_roundtrip": {
+        "checks": {
+          "one_structure_mesh": true,
+          "triangles_exact": true,
+          "material_slots_exact": true,
+          "bounds_within_1micrometre": true,
+          "root_marker_names_exact": true,
+          "root_marker_matrices_within_1micrometre": true,
+          "vertices_within_1micrometre": true,
+          "uv0_exists": true
+        },
+        "all_pass": true,
+        "triangles": 324,
+        "bounds": {
+          "min": [
+            -0.9800000190734863,
+            -0.28999996185302734,
+            -3.5842553813836275e-08
+          ],
+          "max": [
+            0.9800000190734863,
+            0.2950001358985901,
+            1.0750000476837158
+          ]
+        },
+        "maximum_vertex_errors_m": {
+          "Structure": 1.7881393432617188e-07
+        }
+      },
+      "script_sha256": "bbd5624e5f4f69459749c1a66c8b95bfff66ca1d10f9bdc13305f82631aa056d",
+      "files": [
+        {
+          "path": "art\\generated\\env-v2\\pier-bench\\bench\\bench_v2_candidate.blend",
+          "sha256": "3480c1dbb7a7f8c01a50cbcb2e0d8c12136d635e17a487b4eb9e196f98a709c6",
+          "bytes": 3553439
+        },
+        {
+          "path": "art\\generated\\env-v2\\pier-bench\\bench\\bench_v2_candidate.fbx",
+          "sha256": "c5bb3190f178f1b217cdcbc888b329bf8654c78330b7a564cab6f585251f194e",
+          "bytes": 28236
+        },
+        {
+          "path": "art\\generated\\env-v2\\pier-bench\\bench\\after-neutral-surface.png",
+          "sha256": "8697c1841e55ed29a9dc6b22f0ef6dad953593e7992ed25960e974f5dbff4f04",
+          "bytes": 993470
+        },
+        {
+          "path": "art\\generated\\env-v2\\pier-bench\\bench\\after-neutral-whole.png",
+          "sha256": "6f0f13b3c1434fe9482e299adc03d1298d40fb0035aa073dcbb8be114e053da8",
+          "bytes": 936410
+        },
+        {
+          "path": "art\\generated\\env-v2\\pier-bench\\bench\\after-night-surface.png",
+          "sha256": "1cf038ed2fe03f6f0b734b76042fbd6b8b79decc1d7d4f8c84cdca4088f96c88",
+          "bytes": 923103
+        },
+        {
+          "path": "art\\generated\\env-v2\\pier-bench\\bench\\after-night-whole.png",
+          "sha256": "2ef96a0c2e097b8687ea9c5a09eb380219285e937a099ea949c096a933d4e6a2",
+          "bytes": 884247
+        },
+        {
+          "path": "art\\generated\\env-v2\\pier-bench\\bench\\before-neutral-surface.png",
+          "sha256": "43d2a05d1d3e4b1a7aedc77829770bfb4a2369d3c4248b2558cbad49083006ff",
+          "bytes": 883078
+        },
+        {
+          "path": "art\\generated\\env-v2\\pier-bench\\bench\\before-neutral-whole.png",
+          "sha256": "50b645a153ad0dadff2e6e3fe1e1ca914b4eb69b3c0cfb7f9c838ce2c43b6393",
+          "bytes": 863826
+        },
+        {
+          "path": "art\\generated\\env-v2\\pier-bench\\bench\\before-night-surface.png",
+          "sha256": "a51c20e3f31443aa2ff57f6e11909db760046967531105394df60c4aa3c37cbd",
+          "bytes": 850267
+        },
+        {
+          "path": "art\\generated\\env-v2\\pier-bench\\bench\\before-night-whole.png",
+          "sha256": "8fa3b297ccdd309b72d691d265490f7c31c9de5989e7e6eec7633548fce709e4",
+          "bytes": 837312
+        }
+      ]
+    },
+    {
+      "asset_id": "pier_module",
+      "status": "offline-surface-candidate-awaiting-visual-review",
+      "source_sha256": "9932385d5062a004d4d0f01cdf509afbb732cfb1fd7b9de32b4764863a859282",
+      "source_inspection": "source-inventory.json",
+      "before_triangles": 456,
+      "after_triangles": 456,
+      "additional_triangles": 0,
+      "scene_input_instances": [
+        {
+          "name": "PierDeck_01",
+          "asset": "pier_module",
+          "position": [
+            10.0,
+            2.48,
+            -17.5
+          ],
+          "yaw": 0,
+          "scale": 1,
+          "group": "Pier",
+          "collider": "ground"
+        },
+        {
+          "name": "PierDeck_02",
+          "asset": "pier_module",
+          "position": [
+            10.0,
+            2.48,
+            -14.5
+          ],
+          "yaw": 0,
+          "scale": 1,
+          "group": "Pier",
+          "collider": "ground"
+        },
+        {
+          "name": "PierDeck_03",
+          "asset": "pier_module",
+          "position": [
+            10.0,
+            2.48,
+            -11.5
+          ],
+          "yaw": 0,
+          "scale": 1,
+          "group": "Pier",
+          "collider": "ground"
+        }
+      ],
+      "instance_count": 3,
+      "geometry_before_sha256": "2fd4c411007ae5d2a26c89b7f8291b210f4539f03c2581a0d9b6323ed833c20b",
+      "geometry_after_sha256": "2fd4c411007ae5d2a26c89b7f8291b210f4539f03c2581a0d9b6323ed833c20b",
+      "before_bounds": {
+        "min": [
+          -1.190000057220459,
+          -1.5299999713897705,
+          -3.200000047683716
+        ],
+        "max": [
+          1.190000057220459,
+          1.5299999713897705,
+          0.13999992609024048
+        ]
+      },
+      "after_bounds": {
+        "min": [
+          -1.190000057220459,
+          -1.5299999713897705,
+          -3.200000047683716
+        ],
+        "max": [
+          1.190000057220459,
+          1.5299999713897705,
+          0.13999992609024048
+        ]
+      },
+      "markers_before": {
+        "Marker_Entry": {
+          "world": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              -1.5
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              -1.5
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "parent": "pier_module"
+        },
+        "Marker_Exit": {
+          "world": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              1.5
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              1.5
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "parent": "pier_module"
+        },
+        "pier_module": {
+          "world": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "parent": null
+        }
+      },
+      "markers_after": {
+        "Marker_Entry": {
+          "world": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              -1.5
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              -1.5
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "parent": "pier_module"
+        },
+        "Marker_Exit": {
+          "world": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              1.5
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              1.5
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "parent": "pier_module"
+        },
+        "pier_module": {
+          "world": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "parent": null
+        }
+      },
+      "checks": {
+        "geometry_indices_slots_smoothing_exact": true,
+        "root_marker_poses_exact": true,
+        "bounds_exact": true,
+        "triangles_exact": true,
+        "protected_deck_or_seat_vertices_exact": true,
+        "source_hash_unchanged": true,
+        "wood_V_does_not_wrap": true
+      },
+      "wood_uv": {
+        "u_metres": 1.0,
+        "v_metres": 4.9,
+        "end_cap_patch_metres": 0.7,
+        "wood_components": [
+          {
+            "object": "Structure",
+            "component": 0,
+            "materials": [
+              "Wood_Endgrain"
+            ],
+            "long_axis": [
+              1.0,
+              0.0,
+              0.0
+            ],
+            "length_m": 2.380000114440918,
+            "side_faces": 4,
+            "end_faces": 2,
+            "changed_uv_corners": 24,
+            "size": [
+              2.380000114440918,
+              0.2369999885559082,
+              0.11999999731779099
+            ]
+          },
+          {
+            "object": "Structure",
+            "component": 1,
+            "materials": [
+              "Wood_Honey"
+            ],
+            "long_axis": [
+              1.0,
+              0.0,
+              0.0
+            ],
+            "length_m": 2.380000114440918,
+            "side_faces": 4,
+            "end_faces": 2,
+            "changed_uv_corners": 24,
+            "size": [
+              2.380000114440918,
+              0.2369999885559082,
+              0.11999999731779099
+            ]
+          },
+          {
+            "object": "Structure",
+            "component": 2,
+            "materials": [
+              "Wood_Honey"
+            ],
+            "long_axis": [
+              1.0,
+              0.0,
+              0.0
+            ],
+            "length_m": 2.380000114440918,
+            "side_faces": 4,
+            "end_faces": 2,
+            "changed_uv_corners": 24,
+            "size": [
+              2.380000114440918,
+              0.2369999885559082,
+              0.11999999731779099
+            ]
+          },
+          {
+            "object": "Structure",
+            "component": 3,
+            "materials": [
+              "Wood_Honey"
+            ],
+            "long_axis": [
+              1.0,
+              0.0,
+              0.0
+            ],
+            "length_m": 2.380000114440918,
+            "side_faces": 4,
+            "end_faces": 2,
+            "changed_uv_corners": 24,
+            "size": [
+              2.380000114440918,
+              0.2369999885559082,
+              0.11999999731779099
+            ]
+          },
+          {
+            "object": "Structure",
+            "component": 4,
+            "materials": [
+              "Wood_Endgrain"
+            ],
+            "long_axis": [
+              1.0,
+              0.0,
+              0.0
+            ],
+            "length_m": 2.380000114440918,
+            "side_faces": 4,
+            "end_faces": 2,
+            "changed_uv_corners": 24,
+            "size": [
+              2.380000114440918,
+              0.2369999885559082,
+              0.11999999731779099
+            ]
+          },
+          {
+            "object": "Structure",
+            "component": 5,
+            "materials": [
+              "Wood_Honey"
+            ],
+            "long_axis": [
+              1.0,
+              0.0,
+              0.0
+            ],
+            "length_m": 2.380000114440918,
+            "side_faces": 4,
+            "end_faces": 2,
+            "changed_uv_corners": 24,
+            "size": [
+              2.380000114440918,
+              0.2369999885559082,
+              0.11999999731779099
+            ]
+          },
+          {
+            "object": "Structure",
+            "component": 6,
+            "materials": [
+              "Wood_Honey"
+            ],
+            "long_axis": [
+              1.0,
+              0.0,
+              0.0
+            ],
+            "length_m": 2.380000114440918,
+            "side_faces": 4,
+            "end_faces": 2,
+            "changed_uv_corners": 24,
+            "size": [
+              2.380000114440918,
+              0.2369999885559082,
+              0.11999999731779099
+            ]
+          },
+          {
+            "object": "Structure",
+            "component": 7,
+            "materials": [
+              "Wood_Honey"
+            ],
+            "long_axis": [
+              1.0,
+              0.0,
+              0.0
+            ],
+            "length_m": 2.380000114440918,
+            "side_faces": 4,
+            "end_faces": 2,
+            "changed_uv_corners": 24,
+            "size": [
+              2.380000114440918,
+              0.2369999885559082,
+              0.11999999731779099
+            ]
+          },
+          {
+            "object": "Structure",
+            "component": 8,
+            "materials": [
+              "Wood_Endgrain"
+            ],
+            "long_axis": [
+              1.0,
+              0.0,
+              0.0
+            ],
+            "length_m": 2.380000114440918,
+            "side_faces": 4,
+            "end_faces": 2,
+            "changed_uv_corners": 24,
+            "size": [
+              2.380000114440918,
+              0.2369999885559082,
+              0.11999999731779099
+            ]
+          },
+          {
+            "object": "Structure",
+            "component": 9,
+            "materials": [
+              "Wood_Honey"
+            ],
+            "long_axis": [
+              1.0,
+              0.0,
+              0.0
+            ],
+            "length_m": 2.380000114440918,
+            "side_faces": 4,
+            "end_faces": 2,
+            "changed_uv_corners": 24,
+            "size": [
+              2.380000114440918,
+              0.2369999885559082,
+              0.11999999731779099
+            ]
+          },
+          {
+            "object": "Structure",
+            "component": 10,
+            "materials": [
+              "Wood_Honey"
+            ],
+            "long_axis": [
+              1.0,
+              0.0,
+              0.0
+            ],
+            "length_m": 2.380000114440918,
+            "side_faces": 4,
+            "end_faces": 2,
+            "changed_uv_corners": 24,
+            "size": [
+              2.380000114440918,
+              0.2369999885559082,
+              0.11999999731779099
+            ]
+          },
+          {
+            "object": "Structure",
+            "component": 11,
+            "materials": [
+              "Wood_Honey"
+            ],
+            "long_axis": [
+              1.0,
+              0.0,
+              0.0
+            ],
+            "length_m": 2.380000114440918,
+            "side_faces": 4,
+            "end_faces": 2,
+            "changed_uv_corners": 24,
+            "size": [
+              2.380000114440918,
+              0.2369999885559082,
+              0.11999999731779099
+            ]
+          },
+          {
+            "object": "Structure",
+            "component": 12,
+            "materials": [
+              "Wood_DarkBeams"
+            ],
+            "long_axis": [
+              0.0,
+              1.0,
+              0.0
+            ],
+            "length_m": 3.059999942779541,
+            "side_faces": 4,
+            "end_faces": 2,
+            "changed_uv_corners": 24,
+            "size": [
+              0.1499999761581421,
+              3.059999942779541,
+              0.25
+            ]
+          },
+          {
+            "object": "Structure",
+            "component": 13,
+            "materials": [
+              "Wood_Weathered"
+            ],
+            "long_axis": [
+              0.0,
+              0.0,
+              1.0
+            ],
+            "length_m": 3.3399999737739563,
+            "side_faces": 10,
+            "end_faces": 2,
+            "changed_uv_corners": 60,
+            "size": [
+              0.19021129608154297,
+              0.20000004768371582,
+              3.3399999737739563
+            ]
+          },
+          {
+            "object": "Structure",
+            "component": 15,
+            "materials": [
+              "Wood_Weathered"
+            ],
+            "long_axis": [
+              0.0,
+              0.0,
+              1.0
+            ],
+            "length_m": 3.3399999737739563,
+            "side_faces": 10,
+            "end_faces": 2,
+            "changed_uv_corners": 60,
+            "size": [
+              0.19021129608154297,
+              0.19999980926513672,
+              3.3399999737739563
+            ]
+          },
+          {
+            "object": "Structure",
+            "component": 17,
+            "materials": [
+              "Wood_DarkBeams"
+            ],
+            "long_axis": [
+              0.0,
+              1.0,
+              0.0
+            ],
+            "length_m": 3.059999942779541,
+            "side_faces": 4,
+            "end_faces": 2,
+            "changed_uv_corners": 24,
+            "size": [
+              0.1499999761581421,
+              3.059999942779541,
+              0.25
+            ]
+          },
+          {
+            "object": "Structure",
+            "component": 18,
+            "materials": [
+              "Wood_Weathered"
+            ],
+            "long_axis": [
+              0.0,
+              0.0,
+              1.0
+            ],
+            "length_m": 3.3399999737739563,
+            "side_faces": 10,
+            "end_faces": 2,
+            "changed_uv_corners": 60,
+            "size": [
+              0.19021129608154297,
+              0.20000004768371582,
+              3.3399999737739563
+            ]
+          },
+          {
+            "object": "Structure",
+            "component": 20,
+            "materials": [
+              "Wood_Weathered"
+            ],
+            "long_axis": [
+              0.0,
+              0.0,
+              1.0
+            ],
+            "length_m": 3.3399999737739563,
+            "side_faces": 10,
+            "end_faces": 2,
+            "changed_uv_corners": 60,
+            "size": [
+              0.19021129608154297,
+              0.19999980926513672,
+              3.3399999737739563
+            ]
+          }
+        ],
+        "v_range": [
+          0.04164000854975651,
+          0.9313737943993652
+        ],
+        "end_cap_limitation": "Same original wood image in planar end projection; no dedicated annual-ring texture or baked normal map."
+      },
+      "material_mapping": [
+        {
+          "source_name": "Wood_Endgrain",
+          "shared": "CoastalWood_Light",
+          "tint": [
+            0.62,
+            0.57,
+            0.46
+          ],
+          "roughness": 0.88
+        },
+        {
+          "source_name": "Wood_Honey",
+          "shared": "CoastalWood_Brown",
+          "tint": [
+            0.48,
+            0.42,
+            0.33
+          ],
+          "roughness": 0.87
+        },
+        {
+          "source_name": "Wood_DarkBeams",
+          "shared": "CoastalWood_Dark",
+          "tint": [
+            0.26,
+            0.22,
+            0.17
+          ],
+          "roughness": 0.9
+        },
+        {
+          "source_name": "Wood_Weathered",
+          "shared": "CoastalWood_Silver",
+          "tint": [
+            0.38,
+            0.38,
+            0.32
+          ],
+          "roughness": 0.92
+        }
+      ],
+      "texture": {
+        "path": "art\\generated\\env-v2\\textures\\wood_albedo_v1.png",
+        "size": [
+          1254,
+          1254
+        ],
+        "sha256": "2507398730afcf58404ccfe7e75debefb688d760945f212250702e6d938c3fc1"
+      },
+      "protected_plane_z": 0,
+      "protected_plane_vertex_count": 48,
+      "render_resolution": [
+        900,
+        900
+      ],
+      "views": {
+        "whole": {
+          "position": [
+            5.8,
+            -7.6,
+            4.5
+          ],
+          "look": [
+            0,
+            0,
+            -1.3
+          ],
+          "scale": 5.55
+        },
+        "surface": {
+          "position": [
+            4.3,
+            -5.6,
+            5.1
+          ],
+          "look": [
+            0,
+            0,
+            -0.13
+          ],
+          "scale": 4.65
+        }
+      },
+      "surface_limitations": [
+        "No new bitmap, normal or end-ring texture was synthesized.",
+        "Wood_Endgrain is a historical material name: it includes full planks; UVs distinguish actual end caps.",
+        "No geometry, bevels, nail heads, seams or collider changes. Bench already has rounded slats."
+      ],
+      "fbx_roundtrip": {
+        "checks": {
+          "one_structure_mesh": true,
+          "triangles_exact": true,
+          "material_slots_exact": true,
+          "bounds_within_1micrometre": true,
+          "root_marker_names_exact": true,
+          "root_marker_matrices_within_1micrometre": true,
+          "vertices_within_1micrometre": true,
+          "uv0_exists": true
+        },
+        "all_pass": true,
+        "triangles": 456,
+        "bounds": {
+          "min": [
+            -1.190000057220459,
+            -1.5299999713897705,
+            -3.200000286102295
+          ],
+          "max": [
+            1.190000057220459,
+            1.5299999713897705,
+            0.1400001496076584
+          ]
+        },
+        "maximum_vertex_errors_m": {
+          "Structure": 5.331201577973843e-07
+        }
+      },
+      "script_sha256": "bbd5624e5f4f69459749c1a66c8b95bfff66ca1d10f9bdc13305f82631aa056d",
+      "files": [
+        {
+          "path": "art\\generated\\env-v2\\pier-bench\\pier_module\\pier_module_v2_candidate.blend",
+          "sha256": "de7201585139c30d72c01307bee09f602a226877f85bf6a42e81fe3760ad1d5c",
+          "bytes": 3609551
+        },
+        {
+          "path": "art\\generated\\env-v2\\pier-bench\\pier_module\\pier_module_v2_candidate.fbx",
+          "sha256": "1155f4cfa54dea293089377ba08df626596a1aec26a35712c176d279cbd6465f",
+          "bytes": 29180
+        },
+        {
+          "path": "art\\generated\\env-v2\\pier-bench\\pier_module\\after-neutral-surface.png",
+          "sha256": "93bece1a18e7a1df36243c344bb1006b7d26893c685fe0f5b5d582cdbb6b20f3",
+          "bytes": 938815
+        },
+        {
+          "path": "art\\generated\\env-v2\\pier-bench\\pier_module\\after-neutral-whole.png",
+          "sha256": "08c3f5bf111fcb8d5b4df07539a53fbde8520ac3556c52939f29a78b6b49df49",
+          "bytes": 892002
+        },
+        {
+          "path": "art\\generated\\env-v2\\pier-bench\\pier_module\\after-night-surface.png",
+          "sha256": "1c76b27be5076bb1413ba85aaf2c29f32ecd6179b393f5f48509860efb452843",
+          "bytes": 951071
+        },
+        {
+          "path": "art\\generated\\env-v2\\pier-bench\\pier_module\\after-night-whole.png",
+          "sha256": "999bd6e0acc38f7f735f90ac189b743321d79e0873f7d7e7e81a9827cf9efd14",
+          "bytes": 889778
+        },
+        {
+          "path": "art\\generated\\env-v2\\pier-bench\\pier_module\\before-neutral-surface.png",
+          "sha256": "d36c96c5b1001b624fafce9984a0194525df474403bc9529eafd244ea4f540ae",
+          "bytes": 860029
+        },
+        {
+          "path": "art\\generated\\env-v2\\pier-bench\\pier_module\\before-neutral-whole.png",
+          "sha256": "6a6592c0bfba392b671ae8803daa38ddd7dc7228377589560722360fa832c9fe",
+          "bytes": 845917
+        },
+        {
+          "path": "art\\generated\\env-v2\\pier-bench\\pier_module\\before-night-surface.png",
+          "sha256": "97e53fabc37bb21602c1d8922a6ddbcf3dc4e4225ce47a09662dfa0d2ac85e03",
+          "bytes": 869306
+        },
+        {
+          "path": "art\\generated\\env-v2\\pier-bench\\pier_module\\before-night-whole.png",
+          "sha256": "59059a3529d1fd2d35b38e57599c79a4d02762235d51d00867c966a22e87f2ce",
+          "bytes": 844968
+        }
+      ]
+    }
+  ],
+  "instance_counts": {
+    "pier_module": 3,
+    "pier_end": 0,
+    "bench": 1
+  },
+  "added_triangles_actual_island": 0,
+  "budget_actual_island": 1200,
+  "decision": "decision.json",
+  "final_verification": "final-verification.json"
+}

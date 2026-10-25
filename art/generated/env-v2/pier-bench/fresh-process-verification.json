@@ -1,0 +1,83 @@
+{
+  "all_pass": true,
+  "assets": [
+    {
+      "asset_id": "pier_module",
+      "checks": {
+        "original_source_hash_unchanged": true,
+        "all_geometry_matrices_indices_slots_smoothing_exact": true,
+        "all_markers_parents_matrices_exact": true,
+        "bounds_exact": true,
+        "single_original_1254_texture_packed": true,
+        "one_structure_mesh": true,
+        "triangles_exact": true,
+        "material_slots_exact": true,
+        "bounds_within_1micrometre": true,
+        "root_marker_names_exact": true,
+        "root_marker_matrices_within_1micrometre": true,
+        "vertices_within_1micrometre": true,
+        "uv0_exists": true,
+        "uv_corner_sets_both_directions_within_1micrometre": true
+      },
+      "all_pass": true,
+      "uv_maximum_error": 0.0,
+      "vertex_maximum_error_m": {
+        "Structure": 5.331201577973843e-07
+      },
+      "triangles": 456,
+      "fbx_sha256": "1155f4cfa54dea293089377ba08df626596a1aec26a35712c176d279cbd6465f"
+    },
+    {
+      "asset_id": "pier_end",
+      "checks": {
+        "original_source_hash_unchanged": true,
+        "all_geometry_matrices_indices_slots_smoothing_exact": true,
+        "all_markers_parents_matrices_exact": true,
+        "bounds_exact": true,
+        "single_original_1254_texture_packed": true,
+        "one_structure_mesh": true,
+        "triangles_exact": true,
+        "material_slots_exact": true,
+        "bounds_within_1micrometre": true,
+        "root_marker_names_exact": true,
+        "root_marker_matrices_within_1micrometre": true,
+        "vertices_within_1micrometre": true,
+        "uv0_exists": true,
+        "uv_corner_sets_both_directions_within_1micrometre": true
+      },
+      "all_pass": true,
+      "uv_maximum_error": 0.0,
+      "vertex_maximum_error_m": {
+        "Structure": 5.331201577973843e-07
+      },
+      "triangles": 668,
+      "fbx_sha256": "1ae0b8df913c9c0f1166a4473f8255879c5b044c93b92d18c24f390a58643cba"
+    },
+    {
+      "asset_id": "bench",
+      "checks": {
+        "original_source_hash_unchanged": true,
+        "all_geometry_matrices_indices_slots_smoothing_exact": true,
+        "all_markers_parents_matrices_exact": true,
+        "bounds_exact": true,
+        "single_original_1254_texture_packed": true,
+        "one_structure_mesh": true,
+        "triangles_exact": true,
+        "material_slots_exact": true,
+        "bounds_within_1micrometre": true,
+        "root_marker_names_exact": true,
+        "root_marker_matrices_within_1micrometre": true,
+        "vertices_within_1micrometre": true,
+        "uv0_exists": true,
+        "uv_corner_sets_both_directions_within_1micrometre": true
+      },
+      "all_pass": true,
+      "uv_maximum_error": 0.0,
+      "vertex_maximum_error_m": {
+        "Structure": 1.7881393432617188e-07
+      },
+      "triangles": 324,
+      "fbx_sha256": "c5bb3190f178f1b217cdcbc888b329bf8654c78330b7a564cab6f585251f194e"
+    }
+  ]
+}

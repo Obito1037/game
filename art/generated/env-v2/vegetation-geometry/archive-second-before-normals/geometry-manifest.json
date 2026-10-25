@@ -1,0 +1,262 @@
+{
+  "lod0": {
+    "triangles": 23854,
+    "leaves": 242,
+    "bounds": {
+      "min": [
+        -2.563735008239746,
+        -2.310576915740967,
+        0.0
+      ],
+      "max": [
+        2.563735008239746,
+        2.310576915740967,
+        4.778561115264893
+      ]
+    },
+    "objects": [
+      {
+        "name": "MainWood_LOD0",
+        "triangles": 2950
+      },
+      {
+        "name": "SecondaryWood_LOD0",
+        "triangles": 1632
+      },
+      {
+        "name": "LeafPetioles_LOD0",
+        "triangles": 1936
+      },
+      {
+        "name": "SilverGreenLeaves_LOD0",
+        "triangles": 16456
+      },
+      {
+        "name": "SparseWarmFruit_LOD0",
+        "triangles": 880
+      }
+    ]
+  },
+  "lod1": {
+    "triangles": 10128,
+    "leaves": 196,
+    "bounds": {
+      "min": [
+        -2.563735008239746,
+        -2.310576915740967,
+        0.00013237430539447814
+      ],
+      "max": [
+        2.563735008239746,
+        2.310576915740967,
+        4.775589466094971
+      ]
+    },
+    "ratio": 0.42458287918168863
+  },
+  "materials": [
+    "Study_BarkWarmGrey",
+    "Study_SilverGreenBlade",
+    "Study_ThinGoldLeafEdge",
+    "Study_WarmAmberFruit"
+  ],
+  "fruit_count": 11,
+  "first_flower_marker": [
+    -1.5378857851028442,
+    -0.5781846046447754,
+    1.4200915098190308
+  ],
+  "pre_fit_bounds": {
+    "min": [
+      -2.5758490562438965,
+      -2.062392473220825,
+      -9.15553537197411e-05
+    ],
+    "max": [
+      2.5516207218170166,
+      2.5587615966796875,
+      4.778469562530518
+    ]
+  },
+  "fit_scale": [
+    1.0,
+    1.0,
+    1.0
+  ],
+  "source_bounds": {
+    "min": [
+      -2.6977651119232178,
+      -2.678226947784424,
+      0.0039684586226940155
+    ],
+    "max": [
+      2.7082040309906006,
+      2.6721808910369873,
+      4.997349262237549
+    ]
+  },
+  "checks": {
+    "lod0_budget_25000": true,
+    "root_bottom_center": true,
+    "inside_source_horizontal_envelope": true,
+    "inside_source_height": true,
+    "materials_3_to_5": true,
+    "lod1_35_to_47_percent": true
+  },
+  "status": "independent-exploration-not-approved-for-integration",
+  "script_sha256": "72b4c7a59d85e95b8434e2b752e1f36eacf5ad8ef159e9e5fea9c3bbcd91d5ee",
+  "reference_source": "art\\generated\\env-v1\\assets\\tree_gold\\tree_gold\\tree_gold_optimized.blend",
+  "reference_sha256": "33403d20b0e6fd72feaa87b69d9191ef3685c61d735e8afd8fd0e289b69ad772",
+  "source_unchanged": true,
+  "views": {
+    "whole": {
+      "position": [
+        3.126357316970825,
+        -15.608711242675781,
+        5.621796607971191
+      ],
+      "look": [
+        0.005219459533691406,
+        -0.0030230283737182617,
+        2.5006587505340576
+      ],
+      "scale": 6.4871629714965815
+    },
+    "canopy": {
+      "position": [
+        4.638950347900391,
+        -15.463168144226074,
+        4.946316719055176
+      ],
+      "look": [
+        0,
+        0,
+        3.4
+      ],
+      "scale": 4.324775314331055
+    },
+    "side": {
+      "position": [
+        16,
+        0,
+        5.0
+      ],
+      "look": [
+        0,
+        0,
+        2.6
+      ],
+      "scale": 6.4871629714965815
+    },
+    "forks": {
+      "position": [
+        6,
+        -10,
+        3.0
+      ],
+      "look": [
+        0,
+        0,
+        2.4
+      ],
+      "scale": 3.8
+    },
+    "underside": {
+      "position": [
+        1.5,
+        -8,
+        1.0
+      ],
+      "look": [
+        0,
+        0,
+        3.6
+      ],
+      "scale": 4.2
+    }
+  },
+  "render_resolution": [
+    1000,
+    1000
+  ],
+  "night_lighting": "Matches vegetation-study: cold ambient .055/.085/.16 times .45; warm 240W area at (3,-4,3.2), RGB 1/.55/.24; no bloom.",
+  "collision_note": "New original geometry. No original tree collider, navigation footprint or interaction alignment is claimed preserved.",
+  "material_export_note": "Bark procedural grain and per-blade tint are Blender review features; generic FBX material shaders do not reproduce them automatically.",
+  "files": [
+    {
+      "path": "art\\generated\\env-v2\\vegetation-geometry\\candidate-lod1-neutral-whole.png",
+      "bytes": 1209478,
+      "sha256": "f5d33f5a3f90b9bba9325a4ee82cf6215a42dd50d7f0df097356a07b48d463e3"
+    },
+    {
+      "path": "art\\generated\\env-v2\\vegetation-geometry\\candidate-neutral-canopy.png",
+      "bytes": 1328968,
+      "sha256": "850b0c8f3091fa6b6cb4a7af3ef8490ab55e494e88e43945733d2339a4a81879"
+    },
+    {
+      "path": "art\\generated\\env-v2\\vegetation-geometry\\candidate-neutral-forks.png",
+      "bytes": 1319285,
+      "sha256": "120e9bdc5230107c6fab00ee3c0b895c9b0746c335edcbb2be48ad2f71354cdf"
+    },
+    {
+      "path": "art\\generated\\env-v2\\vegetation-geometry\\candidate-neutral-side.png",
+      "bytes": 1171277,
+      "sha256": "71776e5f0a2fc0afbdd443e519928a3d26e6a4d5af6e126379ec702432342044"
+    },
+    {
+      "path": "art\\generated\\env-v2\\vegetation-geometry\\candidate-neutral-underside.png",
+      "bytes": 1265738,
+      "sha256": "b7a573225a909f7800a78b3280a72fbfcd9addabe41955c855048f2a32981c9e"
+    },
+    {
+      "path": "art\\generated\\env-v2\\vegetation-geometry\\candidate-neutral-whole.png",
+      "bytes": 1217458,
+      "sha256": "b7eb2fb7ff89d7c9f564842b1307f92612d792fc55c23cd1eadbef137e46639c"
+    },
+    {
+      "path": "art\\generated\\env-v2\\vegetation-geometry\\candidate-night-canopy.png",
+      "bytes": 1285233,
+      "sha256": "4cc280b4404e01bd019699537fdf6a44f09d5b715f15ecac235eb9030bda5da7"
+    },
+    {
+      "path": "art\\generated\\env-v2\\vegetation-geometry\\candidate-night-whole.png",
+      "bytes": 1118151,
+      "sha256": "136ae448c108d0988e90215082705ebc476ee1aa23f1716163016631d2dd678a"
+    },
+    {
+      "path": "art\\generated\\env-v2\\vegetation-geometry\\gold_lighttree_geometry_candidate.blend",
+      "bytes": 3484477,
+      "sha256": "38c4be7907fdb9766ee81e9dd51404671c5ee2e74c237310b76dcd4bd2c20441"
+    },
+    {
+      "path": "art\\generated\\env-v2\\vegetation-geometry\\gold_lighttree_geometry_LOD0.fbx",
+      "bytes": 723132,
+      "sha256": "85dad75fd72f1fc69570e8ea94023a37da2fcca1ad0d84174dada9f1529828de"
+    },
+    {
+      "path": "art\\generated\\env-v2\\vegetation-geometry\\gold_lighttree_geometry_LOD1.fbx",
+      "bytes": 356092,
+      "sha256": "a4aa5c9ce036e62533bdabb81c6b99f83ef484f9ec10406cf83c5df1966748bc"
+    },
+    {
+      "path": "art\\generated\\env-v2\\vegetation-geometry\\reference-neutral-canopy.png",
+      "bytes": 1619598,
+      "sha256": "7bea09a2d44ba9a6038279882e203b1cd01f4431df4767b119839e218329a761"
+    },
+    {
+      "path": "art\\generated\\env-v2\\vegetation-geometry\\reference-neutral-whole.png",
+      "bytes": 1555333,
+      "sha256": "c59a6df57845507cdb5aa74cf154cecd8e7bf0c2914227eec5be4a9c5593cb97"
+    },
+    {
+      "path": "art\\generated\\env-v2\\vegetation-geometry\\reference-night-canopy.png",
+      "bytes": 1394660,
+      "sha256": "6921bbcb374e06121b9fc4a022c99346463dcbb21a654e68f430f6bd59b304c2"
+    },
+    {
+      "path": "art\\generated\\env-v2\\vegetation-geometry\\reference-night-whole.png",
+      "bytes": 1259648,
+      "sha256": "6bdc63ef4e99a64902565e39edd4e3eea62246313bd3d9937dbc8f51eb6750cd"
+    }
+  ]
+}

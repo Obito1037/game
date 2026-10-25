@@ -1,0 +1,15 @@
+{
+  "status": "recommended-for-root-candidate-review-not-production-approved",
+  "unity_operated": false,
+  "assets_written": false,
+  "source_assets_modified": false,
+  "automatic_candidate_builder_integration": false,
+  "visual_review": "REVIEW.zh-CN.md",
+  "reason": "三款均出现可见的顺纹木材、曲瓦层次、完整窗框和干净石脚/门楣；同机位中性/夜景对照明确改善。背景屋预算适中，保留所有原窗和门接口。",
+  "limitations": [
+    "Unity合批、材料高光、相机/角色碰撞和性能尚未验证。",
+    "瓦石仍为颜色材质；烟囱浅开口；新增瓦片省略被原屋面遮挡的底面。"
+  ],
+  "additional_triangles_per_asset": 454,
+  "additional_triangles_11_instances": 4994
+}

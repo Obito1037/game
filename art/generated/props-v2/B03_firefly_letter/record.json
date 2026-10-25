@@ -1,0 +1,16 @@
+{
+ "id": "B03_firefly_letter",
+ "source": "art\\incoming\\tripo-v2-2026-10-22\\tripo_convert_ca73729e-de07-49b1-94e8-03a4ae300101.glb",
+ "source_sha256": "36f0297bbb7573fd3378582cf4f028949ca33ecc7a07d34cfcc8443664d2c9b0",
+ "tris_before": 22235,
+ "tris_after": 1499,
+ "size_m": [
+  0.081,
+  0.15,
+  0.08
+ ],
+ "textures": {
+  "albedo": "B03_firefly_letter_albedo.jpg"
+ },
+ "materials": 1
+}

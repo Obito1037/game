@@ -1,0 +1,16 @@
+{
+ "id": "D05_rocks_low",
+ "source": "art\\incoming\\tripo-v2-2026-10-22\\tripo_convert_7ef47e9e-65b7-4ffd-ad4e-545d60daf0af.glb",
+ "source_sha256": "36bf92d89cb68526690dfd95ebc16dfb30c59d3caee24399c7f4dc8d37605899",
+ "tris_before": 90244,
+ "tris_after": 5000,
+ "size_m": [
+  2.863,
+  3.0,
+  1.26
+ ],
+ "textures": {
+  "albedo": "D05_rocks_low_albedo.jpg"
+ },
+ "materials": 1
+}

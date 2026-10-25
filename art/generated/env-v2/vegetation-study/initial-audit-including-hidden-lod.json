@@ -1,0 +1,2632 @@
+{
+  "assets": [
+    {
+      "id": "tree_a",
+      "source_blend": "art\\generated\\env-v1\\assets\\tree_a\\tree_a\\tree_a_optimized.blend",
+      "source_sha256": "6a9d4e84383d431a694c28000b814427ba8ffa7a84a494085ee39c1ba30e0aaf",
+      "geometry_and_slots_sha256": "c4368897b7d209bbcbd3f71bca889e0b89763d8e58ec3cdc01ecdf8a2c95667e",
+      "bounds": {
+        "min": [
+          -2.0320746898651123,
+          -2.136975049972534,
+          0.028112081810832024
+        ],
+        "max": [
+          2.0210447311401367,
+          2.133376359939575,
+          4.81013298034668
+        ]
+      },
+      "objects": [
+        {
+          "name": "tree_a",
+          "vertices": 5490,
+          "triangles": 11221,
+          "material_slots": [
+            "tree_a_Bark",
+            "tree_a_LeafVeins",
+            "tree_a_WarmFruit"
+          ]
+        },
+        {
+          "name": "tree_a_Base",
+          "vertices": 458,
+          "triangles": 690,
+          "material_slots": [
+            "tree_a_Bark",
+            "tree_a_LeafVeins",
+            "tree_a_WarmFruit"
+          ]
+        },
+        {
+          "name": "tree_a_Base_LOD1",
+          "vertices": 172,
+          "triangles": 252,
+          "material_slots": [
+            "tree_a_Bark",
+            "tree_a_LeafVeins",
+            "tree_a_WarmFruit"
+          ]
+        },
+        {
+          "name": "tree_a_LOD1",
+          "vertices": 2063,
+          "triangles": 4463,
+          "material_slots": [
+            "tree_a_Bark",
+            "tree_a_LeafVeins",
+            "tree_a_WarmFruit"
+          ]
+        }
+      ],
+      "triangles": 16626,
+      "materials": {
+        "tree_a_Bark": {
+          "polygons": 16319,
+          "triangles": 16319,
+          "surface_area": 115.51224667611223,
+          "centroid_base_rgb": {
+            "mean_rgb": [
+              0.36229970973076114,
+              0.24941889168958278,
+              0.10039182609245405
+            ],
+            "max_rgb": [
+              0.9921569228172302,
+              0.9372549653053284,
+              0.7490196228027344
+            ],
+            "p95_rgb": [
+              0.6509804129600525,
+              0.44705885648727417,
+              0.22352942824363708
+            ],
+            "fraction_max_channel_above_1": 0.0,
+            "fraction_max_channel_above_0_01": 0.9999387217354004
+          },
+          "centroid_emission_rgb": {
+            "mean_rgb": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "max_rgb": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "p95_rgb": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "fraction_max_channel_above_1": 0.0,
+            "fraction_max_channel_above_0_01": 0.0
+          },
+          "principled": {
+            "base_color": [
+              0.800000011920929,
+              0.800000011920929,
+              0.800000011920929,
+              1.0
+            ],
+            "roughness": 0.8600000143051147,
+            "emission_strength": 0.0,
+            "emission_default_color": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "blender_nodes": [
+            {
+              "name": "Principled BSDF",
+              "type": "BSDF_PRINCIPLED"
+            },
+            {
+              "name": "Material Output",
+              "type": "OUTPUT_MATERIAL"
+            },
+            {
+              "name": "Image Texture",
+              "type": "TEX_IMAGE"
+            }
+          ],
+          "unity_read_only": {
+            "path": "GameProject\\Assets\\JieGuang\\Environment\\Generated\\Materials\\tree_a_Bark.mat",
+            "exists": true,
+            "sha256": "c12e2da45827f10f8d9c3d4939a343cdc6a7ff33310af3dddb74e3de765a507d",
+            "_BaseColor": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "_EmissionColor": [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ],
+            "_Smoothness": 0.13999999,
+            "_Cull": 2.0,
+            "_AlphaClip": 0.0,
+            "emission_enabled": false
+          },
+          "images": [
+            {
+              "node": "Image Texture",
+              "name": "tree_a_BaseColor",
+              "size": [
+                1024,
+                1024
+              ],
+              "color_space": "sRGB",
+              "path": "C:\\Users\\20665\\Desktop\\game\\art\\generated\\env-v1\\assets\\tree_a\\tree_a\\..\\textures\\tree_a_BaseColor.png",
+              "file_exists": true,
+              "sha256": "28e699695d4503913624e94f961201d8a0992ed60b4c57c6978b97a703b648b1",
+              "pixel_rgb": {
+                "mean_rgb": [
+                  0.3418014645372174,
+                  0.2521000735921546,
+                  0.12221972365866263
+                ],
+                "max_rgb": [
+                  0.9921569228172302,
+                  0.9686275124549866,
+                  0.8431373238563538
+                ],
+                "p95_rgb": [
+                  0.5882353186607361,
+                  0.4235294461250305,
+                  0.1882353127002716
+                ],
+                "fraction_max_channel_above_1": 0.0,
+                "fraction_max_channel_above_0_01": 0.9999933242797852
+              }
+            }
+          ],
+          "fraction_total_area": 0.9861691406914609,
+          "fraction_total_triangles": 0.9815349452664501
+        },
+        "tree_a_WarmFruit": {
+          "polygons": 52,
+          "triangles": 52,
+          "surface_area": 0.3870377737330273,
+          "centroid_base_rgb": {
+            "mean_rgb": [
+              0.783785865857051,
+              0.5757164657115936,
+              0.1324283622491818
+            ],
+            "max_rgb": [
+              0.9647059440612793,
+              0.7411764860153198,
+              0.19607844948768616
+            ],
+            "p95_rgb": [
+              0.954313787817955,
+              0.7082353115081785,
+              0.1725490242242813
+            ],
+            "fraction_max_channel_above_1": 0.0,
+            "fraction_max_channel_above_0_01": 1.0
+          },
+          "centroid_emission_rgb": {
+            "mean_rgb": [
+              1.350000023841858,
+              0.6458824276924133,
+              0.1747058928012848
+            ],
+            "max_rgb": [
+              1.350000023841858,
+              0.6458824276924133,
+              0.1747058928012848
+            ],
+            "p95_rgb": [
+              1.350000023841858,
+              0.6458824276924133,
+              0.1747058928012848
+            ],
+            "fraction_max_channel_above_1": 1.0,
+            "fraction_max_channel_above_0_01": 1.0
+          },
+          "principled": {
+            "base_color": [
+              0.800000011920929,
+              0.800000011920929,
+              0.800000011920929,
+              1.0
+            ],
+            "roughness": 0.8600000143051147,
+            "emission_strength": 1.350000023841858,
+            "emission_default_color": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "blender_nodes": [
+            {
+              "name": "Principled BSDF",
+              "type": "BSDF_PRINCIPLED"
+            },
+            {
+              "name": "Material Output",
+              "type": "OUTPUT_MATERIAL"
+            },
+            {
+              "name": "Image Texture",
+              "type": "TEX_IMAGE"
+            },
+            {
+              "name": "Image Texture.001",
+              "type": "TEX_IMAGE"
+            }
+          ],
+          "unity_read_only": {
+            "path": "GameProject\\Assets\\JieGuang\\Environment\\Generated\\Materials\\tree_a_WarmFruit.mat",
+            "exists": true,
+            "sha256": "2798ccd112a1e238f2ddf56c1ffd7f176c8355a1c3412522afe6caad2648fa9f",
+            "_BaseColor": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "_EmissionColor": [
+              1.35,
+              1.35,
+              1.35,
+              1.35
+            ],
+            "_Smoothness": 0.13999999,
+            "_Cull": 2.0,
+            "_AlphaClip": 0.0,
+            "emission_enabled": true
+          },
+          "images": [
+            {
+              "node": "Image Texture",
+              "name": "tree_a_BaseColor",
+              "size": [
+                1024,
+                1024
+              ],
+              "color_space": "sRGB",
+              "path": "C:\\Users\\20665\\Desktop\\game\\art\\generated\\env-v1\\assets\\tree_a\\tree_a\\..\\textures\\tree_a_BaseColor.png",
+              "file_exists": true,
+              "sha256": "28e699695d4503913624e94f961201d8a0992ed60b4c57c6978b97a703b648b1",
+              "pixel_rgb": {
+                "mean_rgb": [
+                  0.3418014645372174,
+                  0.2521000735921546,
+                  0.12221972365866263
+                ],
+                "max_rgb": [
+                  0.9921569228172302,
+                  0.9686275124549866,
+                  0.8431373238563538
+                ],
+                "p95_rgb": [
+                  0.5882353186607361,
+                  0.4235294461250305,
+                  0.1882353127002716
+                ],
+                "fraction_max_channel_above_1": 0.0,
+                "fraction_max_channel_above_0_01": 0.9999933242797852
+              }
+            },
+            {
+              "node": "Image Texture.001",
+              "name": "tree_a_WarmFruit_Emission.001",
+              "size": [
+                1024,
+                1024
+              ],
+              "color_space": "Non-Color",
+              "path": "C:\\Users\\20665\\Desktop\\game\\art\\generated\\env-v1\\assets\\tree_a\\tree_a\\..\\textures\\tree_a_WarmFruit_Emission.001.png",
+              "file_exists": true,
+              "sha256": "9e96d4656c9d220886c758fd535496be0646995c875746a0968f36a476afdf0b",
+              "pixel_rgb": {
+                "mean_rgb": [
+                  0.006587982177734375,
+                  0.0031518975604285515,
+                  0.0008525624468234128
+                ],
+                "max_rgb": [
+                  1.0,
+                  0.4784314036369324,
+                  0.12941177189350128
+                ],
+                "p95_rgb": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "fraction_max_channel_above_1": 0.0,
+                "fraction_max_channel_above_0_01": 0.006587982177734375
+              }
+            }
+          ],
+          "fraction_total_area": 0.0033042791541199198,
+          "fraction_total_triangles": 0.0031276314206664262
+        },
+        "tree_a_LeafVeins": {
+          "polygons": 255,
+          "triangles": 255,
+          "surface_area": 1.233002406261221,
+          "centroid_base_rgb": {
+            "mean_rgb": [
+              0.2632526099097495,
+              0.24859670792140212,
+              0.13713187999731186
+            ],
+            "max_rgb": [
+              0.9725490808486938,
+              0.9019608497619629,
+              0.5607843399047852
+            ],
+            "p95_rgb": [
+              0.458823561668396,
+              0.4219608187675475,
+              0.24823530912399286
+            ],
+            "fraction_max_channel_above_1": 0.0,
+            "fraction_max_channel_above_0_01": 1.0
+          },
+          "centroid_emission_rgb": {
+            "mean_rgb": [
+              0.08215025348324037,
+              0.03938854514100753,
+              0.010670973266949695
+            ],
+            "max_rgb": [
+              0.2199999988079071,
+              0.10525491088628769,
+              0.028470588847994804
+            ],
+            "p95_rgb": [
+              0.19601570516824715,
+              0.09395294710993762,
+              0.025278433412313447
+            ],
+            "fraction_max_channel_above_1": 0.0,
+            "fraction_max_channel_above_0_01": 0.8941176470588236
+          },
+          "principled": {
+            "base_color": [
+              0.800000011920929,
+              0.800000011920929,
+              0.800000011920929,
+              1.0
+            ],
+            "roughness": 0.8600000143051147,
+            "emission_strength": 0.2199999988079071,
+            "emission_default_color": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "blender_nodes": [
+            {
+              "name": "Principled BSDF",
+              "type": "BSDF_PRINCIPLED"
+            },
+            {
+              "name": "Material Output",
+              "type": "OUTPUT_MATERIAL"
+            },
+            {
+              "name": "Image Texture",
+              "type": "TEX_IMAGE"
+            },
+            {
+              "name": "Image Texture.001",
+              "type": "TEX_IMAGE"
+            }
+          ],
+          "unity_read_only": {
+            "path": "GameProject\\Assets\\JieGuang\\Environment\\Generated\\Materials\\tree_a_LeafVeins.mat",
+            "exists": true,
+            "sha256": "92aee9af11727cc2badbc004d8e3621c2c0bbd6b0714ca2892c9edba634c261e",
+            "_BaseColor": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "_EmissionColor": [
+              0.22,
+              0.22,
+              0.22,
+              0.22
+            ],
+            "_Smoothness": 0.13999999,
+            "_Cull": 2.0,
+            "_AlphaClip": 0.0,
+            "emission_enabled": true
+          },
+          "images": [
+            {
+              "node": "Image Texture",
+              "name": "tree_a_BaseColor",
+              "size": [
+                1024,
+                1024
+              ],
+              "color_space": "sRGB",
+              "path": "C:\\Users\\20665\\Desktop\\game\\art\\generated\\env-v1\\assets\\tree_a\\tree_a\\..\\textures\\tree_a_BaseColor.png",
+              "file_exists": true,
+              "sha256": "28e699695d4503913624e94f961201d8a0992ed60b4c57c6978b97a703b648b1",
+              "pixel_rgb": {
+                "mean_rgb": [
+                  0.3418014645372174,
+                  0.2521000735921546,
+                  0.12221972365866263
+                ],
+                "max_rgb": [
+                  0.9921569228172302,
+                  0.9686275124549866,
+                  0.8431373238563538
+                ],
+                "p95_rgb": [
+                  0.5882353186607361,
+                  0.4235294461250305,
+                  0.1882353127002716
+                ],
+                "fraction_max_channel_above_1": 0.0,
+                "fraction_max_channel_above_0_01": 0.9999933242797852
+              }
+            },
+            {
+              "node": "Image Texture.001",
+              "name": "tree_a_LeafVeins_Emission.001",
+              "size": [
+                1024,
+                1024
+              ],
+              "color_space": "Non-Color",
+              "path": "C:\\Users\\20665\\Desktop\\game\\art\\generated\\env-v1\\assets\\tree_a\\tree_a\\..\\textures\\tree_a_LeafVeins_Emission.001.png",
+              "file_exists": true,
+              "sha256": "2a431b25d253815a5966effbdce1be994e802904bed7382cc235e3920ef05115",
+              "pixel_rgb": {
+                "mean_rgb": [
+                  0.02982507740820628,
+                  0.014310504752011344,
+                  0.0038759645251360553
+                ],
+                "max_rgb": [
+                  1.0,
+                  0.4784314036369324,
+                  0.12941177189350128
+                ],
+                "p95_rgb": [
+                  0.2823529541492462,
+                  0.13725490868091583,
+                  0.03529411926865578
+                ],
+                "fraction_max_channel_above_1": 0.0,
+                "fraction_max_channel_above_0_01": 0.06525802612304688
+              }
+            }
+          ],
+          "fraction_total_area": 0.010526580154419147,
+          "fraction_total_triangles": 0.015337423312883436
+        }
+      },
+      "scope_note": "Stats use original material slots and nearest texture sample at polygon UV centroids; not a semantic leaf/back/fruit segmentation proof."
+    },
+    {
+      "id": "tree_b",
+      "source_blend": "art\\generated\\env-v1\\assets\\tree_b\\tree_b\\tree_b_optimized.blend",
+      "source_sha256": "4d16ae4573b4e835aa30a59cf95a0a2c68b3de7c72e542b1e765f5dea0c88b97",
+      "geometry_and_slots_sha256": "e08c94ee3bb6756349a4d78808c9e421519592935383aa1fc3b65f61a68e2ded",
+      "bounds": {
+        "min": [
+          -2.2273173332214355,
+          -2.99404239654541,
+          0.011566725559532642
+        ],
+        "max": [
+          2.2214367389678955,
+          2.99257230758667,
+          4.310244560241699
+        ]
+      },
+      "objects": [
+        {
+          "name": "tree_b",
+          "vertices": 5352,
+          "triangles": 10639,
+          "material_slots": [
+            "tree_b_Bark",
+            "tree_b_LeafVeins",
+            "tree_b_WarmFruit"
+          ]
+        },
+        {
+          "name": "tree_b_Base",
+          "vertices": 864,
+          "triangles": 1271,
+          "material_slots": [
+            "tree_b_Bark",
+            "tree_b_LeafVeins",
+            "tree_b_WarmFruit"
+          ]
+        },
+        {
+          "name": "tree_b_BranchRepair",
+          "vertices": 30,
+          "triangles": 56,
+          "material_slots": [
+            "tree_b_BarkRepair"
+          ]
+        },
+        {
+          "name": "tree_b_Base_LOD1",
+          "vertices": 342,
+          "triangles": 484,
+          "material_slots": [
+            "tree_b_Bark.001",
+            "tree_b_LeafVeins.001",
+            "tree_b_WarmFruit.001"
+          ]
+        },
+        {
+          "name": "tree_b_LOD1",
+          "vertices": 2091,
+          "triangles": 4230,
+          "material_slots": [
+            "tree_b_Bark.001",
+            "tree_b_LeafVeins.001",
+            "tree_b_WarmFruit.001"
+          ]
+        },
+        {
+          "name": "tree_b_BranchRepair_LOD1",
+          "vertices": 16,
+          "triangles": 28,
+          "material_slots": [
+            "tree_b_BarkRepair"
+          ]
+        }
+      ],
+      "triangles": 16708,
+      "materials": {
+        "tree_b_Bark": {
+          "polygons": 11304,
+          "triangles": 11304,
+          "surface_area": 78.92786558352873,
+          "centroid_base_rgb": {
+            "mean_rgb": [
+              0.48039634646936824,
+              0.2960503481121527,
+              0.10714236759392495
+            ],
+            "max_rgb": [
+              0.9921569228172302,
+              0.9725490808486938,
+              0.7411764860153198
+            ],
+            "p95_rgb": [
+              0.8862745761871338,
+              0.5372549295425415,
+              0.27843138575553894
+            ],
+            "fraction_max_channel_above_1": 0.0,
+            "fraction_max_channel_above_0_01": 1.0
+          },
+          "centroid_emission_rgb": {
+            "mean_rgb": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "max_rgb": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "p95_rgb": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "fraction_max_channel_above_1": 0.0,
+            "fraction_max_channel_above_0_01": 0.0
+          },
+          "principled": {
+            "base_color": [
+              0.800000011920929,
+              0.800000011920929,
+              0.800000011920929,
+              1.0
+            ],
+            "roughness": 0.8600000143051147,
+            "emission_strength": 0.0,
+            "emission_default_color": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "blender_nodes": [
+            {
+              "name": "Principled BSDF",
+              "type": "BSDF_PRINCIPLED"
+            },
+            {
+              "name": "Material Output",
+              "type": "OUTPUT_MATERIAL"
+            },
+            {
+              "name": "Normal Map",
+              "type": "NORMAL_MAP"
+            },
+            {
+              "name": "Image Texture",
+              "type": "TEX_IMAGE"
+            }
+          ],
+          "unity_read_only": {
+            "path": "GameProject\\Assets\\JieGuang\\Environment\\Generated\\Materials\\tree_b_Bark.mat",
+            "exists": true,
+            "sha256": "ca5fcb31f0ef796af38b15688415e014f8c42390608627a5b7d35b3266ed293d",
+            "_BaseColor": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "_EmissionColor": [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ],
+            "_Smoothness": 0.13999999,
+            "_Cull": 2.0,
+            "_AlphaClip": 0.0,
+            "emission_enabled": false
+          },
+          "images": [
+            {
+              "node": "Image Texture",
+              "name": "tree_b_BaseColor",
+              "size": [
+                1024,
+                1024
+              ],
+              "color_space": "sRGB",
+              "path": "C:\\Users\\20665\\Desktop\\game\\art\\generated\\env-v1\\assets\\tree_b\\tree_b\\..\\textures\\tree_b_BaseColor.png",
+              "file_exists": true,
+              "sha256": "f4e31e92819edb2fdff425eae8ca18f9193ec2350c957866e7a4e78d2d8a94cf",
+              "pixel_rgb": {
+                "mean_rgb": [
+                  0.4222790262125873,
+                  0.2788420421044293,
+                  0.1276259240946369
+                ],
+                "max_rgb": [
+                  0.9921569228172302,
+                  0.9921569228172302,
+                  0.988235354423523
+                ],
+                "p95_rgb": [
+                  0.8823530077934265,
+                  0.5411764979362488,
+                  0.24705883860588074
+                ],
+                "fraction_max_channel_above_1": 0.0,
+                "fraction_max_channel_above_0_01": 1.0
+              }
+            }
+          ],
+          "fraction_total_area": 0.48437460950535227,
+          "fraction_total_triangles": 0.6765621259276993
+        },
+        "tree_b_WarmFruit": {
+          "polygons": 232,
+          "triangles": 232,
+          "surface_area": 1.9545765578513965,
+          "centroid_base_rgb": {
+            "mean_rgb": [
+              0.8729547526815842,
+              0.6539892240844923,
+              0.1280764100214081
+            ],
+            "max_rgb": [
+              0.9921569228172302,
+              0.8392157554626465,
+              0.19607844948768616
+            ],
+            "p95_rgb": [
+              0.9843137860298157,
+              0.8117647767066956,
+              0.19215688109397888
+            ],
+            "fraction_max_channel_above_1": 0.0,
+            "fraction_max_channel_above_0_01": 1.0
+          },
+          "centroid_emission_rgb": {
+            "mean_rgb": [
+              1.350000023841858,
+              0.6458824276924133,
+              0.1747058928012848
+            ],
+            "max_rgb": [
+              1.350000023841858,
+              0.6458824276924133,
+              0.1747058928012848
+            ],
+            "p95_rgb": [
+              1.350000023841858,
+              0.6458824276924133,
+              0.1747058928012848
+            ],
+            "fraction_max_channel_above_1": 1.0,
+            "fraction_max_channel_above_0_01": 1.0
+          },
+          "principled": {
+            "base_color": [
+              0.800000011920929,
+              0.800000011920929,
+              0.800000011920929,
+              1.0
+            ],
+            "roughness": 0.8600000143051147,
+            "emission_strength": 1.350000023841858,
+            "emission_default_color": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "blender_nodes": [
+            {
+              "name": "Principled BSDF",
+              "type": "BSDF_PRINCIPLED"
+            },
+            {
+              "name": "Material Output",
+              "type": "OUTPUT_MATERIAL"
+            },
+            {
+              "name": "Normal Map",
+              "type": "NORMAL_MAP"
+            },
+            {
+              "name": "Image Texture",
+              "type": "TEX_IMAGE"
+            },
+            {
+              "name": "Image Texture.001",
+              "type": "TEX_IMAGE"
+            }
+          ],
+          "unity_read_only": {
+            "path": "GameProject\\Assets\\JieGuang\\Environment\\Generated\\Materials\\tree_b_WarmFruit.mat",
+            "exists": true,
+            "sha256": "a2442d07f7ef008043d118c5392fb5bf8d24c3fe250c3fd4fe299889811a2dd0",
+            "_BaseColor": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "_EmissionColor": [
+              1.35,
+              1.35,
+              1.35,
+              1.35
+            ],
+            "_Smoothness": 0.13999999,
+            "_Cull": 2.0,
+            "_AlphaClip": 0.0,
+            "emission_enabled": true
+          },
+          "images": [
+            {
+              "node": "Image Texture",
+              "name": "tree_b_BaseColor",
+              "size": [
+                1024,
+                1024
+              ],
+              "color_space": "sRGB",
+              "path": "C:\\Users\\20665\\Desktop\\game\\art\\generated\\env-v1\\assets\\tree_b\\tree_b\\..\\textures\\tree_b_BaseColor.png",
+              "file_exists": true,
+              "sha256": "f4e31e92819edb2fdff425eae8ca18f9193ec2350c957866e7a4e78d2d8a94cf",
+              "pixel_rgb": {
+                "mean_rgb": [
+                  0.4222790262125873,
+                  0.2788420421044293,
+                  0.1276259240946369
+                ],
+                "max_rgb": [
+                  0.9921569228172302,
+                  0.9921569228172302,
+                  0.988235354423523
+                ],
+                "p95_rgb": [
+                  0.8823530077934265,
+                  0.5411764979362488,
+                  0.24705883860588074
+                ],
+                "fraction_max_channel_above_1": 0.0,
+                "fraction_max_channel_above_0_01": 1.0
+              }
+            },
+            {
+              "node": "Image Texture.001",
+              "name": "tree_b_WarmFruit_Emission.001",
+              "size": [
+                1024,
+                1024
+              ],
+              "color_space": "sRGB",
+              "path": "C:\\Users\\20665\\Desktop\\game\\art\\generated\\env-v1\\assets\\tree_b\\tree_b\\..\\textures\\tree_b_WarmFruit_Emission.001.png",
+              "file_exists": true,
+              "sha256": "15b5dacee7ee5125c49d27cfe377024f9f2ab030e2da67472800b6cf3ecdef12",
+              "pixel_rgb": {
+                "mean_rgb": [
+                  0.028931617736816406,
+                  0.013841794483312242,
+                  0.0037440919150668606
+                ],
+                "max_rgb": [
+                  1.0,
+                  0.4784314036369324,
+                  0.12941177189350128
+                ],
+                "p95_rgb": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "fraction_max_channel_above_1": 0.0,
+                "fraction_max_channel_above_0_01": 0.028931617736816406
+              }
+            }
+          ],
+          "fraction_total_area": 0.011995095141089944,
+          "fraction_total_triangles": 0.013885563801771606
+        },
+        "tree_b_LeafVeins": {
+          "polygons": 374,
+          "triangles": 374,
+          "surface_area": 1.821182324878464,
+          "centroid_base_rgb": {
+            "mean_rgb": [
+              0.25044564764329136,
+              0.24029570501198105,
+              0.1328195527664082
+            ],
+            "max_rgb": [
+              0.9921569228172302,
+              0.9764706492424011,
+              0.7647059559822083
+            ],
+            "p95_rgb": [
+              0.9347059458494185,
+              0.8380392849445341,
+              0.3543137341737746
+            ],
+            "fraction_max_channel_above_1": 0.0,
+            "fraction_max_channel_above_0_01": 1.0
+          },
+          "centroid_emission_rgb": {
+            "mean_rgb": [
+              0.07167474307162802,
+              0.03435063640584542,
+              0.009289504494206772
+            ],
+            "max_rgb": [
+              0.2199999988079071,
+              0.10525491088628769,
+              0.028470588847994804
+            ],
+            "p95_rgb": [
+              0.2199999988079071,
+              0.10525491088628769,
+              0.028470588847994804
+            ],
+            "fraction_max_channel_above_1": 0.0,
+            "fraction_max_channel_above_0_01": 0.713903743315508
+          },
+          "principled": {
+            "base_color": [
+              0.800000011920929,
+              0.800000011920929,
+              0.800000011920929,
+              1.0
+            ],
+            "roughness": 0.8600000143051147,
+            "emission_strength": 0.2199999988079071,
+            "emission_default_color": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "blender_nodes": [
+            {
+              "name": "Principled BSDF",
+              "type": "BSDF_PRINCIPLED"
+            },
+            {
+              "name": "Material Output",
+              "type": "OUTPUT_MATERIAL"
+            },
+            {
+              "name": "Normal Map",
+              "type": "NORMAL_MAP"
+            },
+            {
+              "name": "Image Texture",
+              "type": "TEX_IMAGE"
+            },
+            {
+              "name": "Image Texture.001",
+              "type": "TEX_IMAGE"
+            }
+          ],
+          "unity_read_only": {
+            "path": "GameProject\\Assets\\JieGuang\\Environment\\Generated\\Materials\\tree_b_LeafVeins.mat",
+            "exists": true,
+            "sha256": "99ffad104e40cd07ef77dc9814d2ced71277ddb63b4c717da283aaecc655523f",
+            "_BaseColor": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "_EmissionColor": [
+              0.22,
+              0.22,
+              0.22,
+              0.22
+            ],
+            "_Smoothness": 0.13999999,
+            "_Cull": 2.0,
+            "_AlphaClip": 0.0,
+            "emission_enabled": true
+          },
+          "images": [
+            {
+              "node": "Image Texture",
+              "name": "tree_b_BaseColor",
+              "size": [
+                1024,
+                1024
+              ],
+              "color_space": "sRGB",
+              "path": "C:\\Users\\20665\\Desktop\\game\\art\\generated\\env-v1\\assets\\tree_b\\tree_b\\..\\textures\\tree_b_BaseColor.png",
+              "file_exists": true,
+              "sha256": "f4e31e92819edb2fdff425eae8ca18f9193ec2350c957866e7a4e78d2d8a94cf",
+              "pixel_rgb": {
+                "mean_rgb": [
+                  0.4222790262125873,
+                  0.2788420421044293,
+                  0.1276259240946369
+                ],
+                "max_rgb": [
+                  0.9921569228172302,
+                  0.9921569228172302,
+                  0.988235354423523
+                ],
+                "p95_rgb": [
+                  0.8823530077934265,
+                  0.5411764979362488,
+                  0.24705883860588074
+                ],
+                "fraction_max_channel_above_1": 0.0,
+                "fraction_max_channel_above_0_01": 1.0
+              }
+            },
+            {
+              "node": "Image Texture.001",
+              "name": "tree_b_LeafVeins_Emission.001",
+              "size": [
+                1024,
+                1024
+              ],
+              "color_space": "sRGB",
+              "path": "C:\\Users\\20665\\Desktop\\game\\art\\generated\\env-v1\\assets\\tree_b\\tree_b\\..\\textures\\tree_b_LeafVeins_Emission.001.png",
+              "file_exists": true,
+              "sha256": "98f325c28c946b1b517d467b6caaa0966e310681c20dac7d5251a79a51a548a1",
+              "pixel_rgb": {
+                "mean_rgb": [
+                  0.018283272263607042,
+                  0.008759671170132322,
+                  0.0023704829379322945
+                ],
+                "max_rgb": [
+                  1.0,
+                  0.4784314036369324,
+                  0.12941177189350128
+                ],
+                "p95_rgb": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "fraction_max_channel_above_1": 0.0,
+                "fraction_max_channel_above_0_01": 0.03677654266357422
+              }
+            }
+          ],
+          "fraction_total_area": 0.011176464369450098,
+          "fraction_total_triangles": 0.022384486473545608
+        },
+        "tree_b_BarkRepair": {
+          "polygons": 40,
+          "triangles": 84,
+          "surface_area": 3.024793539196253,
+          "centroid_base_rgb": {
+            "mean_rgb": [
+              0.20000000298023224,
+              0.07000000029802322,
+              0.026000000536441803
+            ],
+            "max_rgb": [
+              0.20000000298023224,
+              0.07000000029802322,
+              0.026000000536441803
+            ],
+            "p95_rgb": [
+              0.20000000298023224,
+              0.07000000029802322,
+              0.026000000536441803
+            ],
+            "fraction_max_channel_above_1": 0.0,
+            "fraction_max_channel_above_0_01": 1.0
+          },
+          "centroid_emission_rgb": {
+            "mean_rgb": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "max_rgb": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "p95_rgb": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "fraction_max_channel_above_1": 0.0,
+            "fraction_max_channel_above_0_01": 0.0
+          },
+          "principled": {
+            "base_color": [
+              0.20000000298023224,
+              0.07000000029802322,
+              0.026000000536441803,
+              1.0
+            ],
+            "roughness": 0.8600000143051147,
+            "emission_strength": 0.0,
+            "emission_default_color": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "blender_nodes": [
+            {
+              "name": "Principled BSDF",
+              "type": "BSDF_PRINCIPLED"
+            },
+            {
+              "name": "Material Output",
+              "type": "OUTPUT_MATERIAL"
+            }
+          ],
+          "unity_read_only": {
+            "path": "GameProject\\Assets\\JieGuang\\Environment\\Generated\\Materials\\tree_b_BarkRepair.mat",
+            "exists": true,
+            "sha256": "739eee055c186c22583a5b02bb17222c79f2416304eae12639ee762c76f78766",
+            "_BaseColor": [
+              0.2,
+              0.07,
+              0.026,
+              1.0
+            ],
+            "_EmissionColor": [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ],
+            "_Smoothness": 0.13999999,
+            "_Cull": 2.0,
+            "_AlphaClip": 0.0,
+            "emission_enabled": false
+          },
+          "images": [],
+          "fraction_total_area": 0.018562939445409918,
+          "fraction_total_triangles": 0.005027531721331099
+        },
+        "tree_b_Bark.001": {
+          "polygons": 4492,
+          "triangles": 4492,
+          "surface_area": 73.9335583268603,
+          "centroid_base_rgb": {
+            "mean_rgb": [
+              0.48912841192706225,
+              0.2926640997210373,
+              0.10331745044007327
+            ],
+            "max_rgb": [
+              0.9921569228172302,
+              0.9333333969116211,
+              0.6509804129600525
+            ],
+            "p95_rgb": [
+              0.9098039865493774,
+              0.5686274766921997,
+              0.27450981736183167
+            ],
+            "fraction_max_channel_above_1": 0.0,
+            "fraction_max_channel_above_0_01": 1.0
+          },
+          "centroid_emission_rgb": {
+            "mean_rgb": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "max_rgb": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "p95_rgb": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "fraction_max_channel_above_1": 0.0,
+            "fraction_max_channel_above_0_01": 0.0
+          },
+          "principled": {
+            "base_color": [
+              0.800000011920929,
+              0.800000011920929,
+              0.800000011920929,
+              1.0
+            ],
+            "roughness": 0.8600000143051147,
+            "emission_strength": 0.0,
+            "emission_default_color": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "blender_nodes": [
+            {
+              "name": "Principled BSDF",
+              "type": "BSDF_PRINCIPLED"
+            },
+            {
+              "name": "Material Output",
+              "type": "OUTPUT_MATERIAL"
+            },
+            {
+              "name": "Normal Map",
+              "type": "NORMAL_MAP"
+            },
+            {
+              "name": "Image Texture",
+              "type": "TEX_IMAGE"
+            }
+          ],
+          "unity_read_only": {
+            "path": "GameProject\\Assets\\JieGuang\\Environment\\Generated\\Materials\\tree_b_Bark.001.mat",
+            "exists": false
+          },
+          "images": [
+            {
+              "node": "Image Texture",
+              "name": "tree_b_BaseColor.001",
+              "size": [
+                1024,
+                1024
+              ],
+              "color_space": "sRGB",
+              "path": "C:\\Users\\20665\\Desktop\\game\\art\\generated\\env-v1\\assets\\tree_b\\tree_b\\..\\textures\\tree_b_BaseColor.png",
+              "file_exists": true,
+              "sha256": "f4e31e92819edb2fdff425eae8ca18f9193ec2350c957866e7a4e78d2d8a94cf",
+              "pixel_rgb": {
+                "mean_rgb": [
+                  0.4222790262125873,
+                  0.2788420421044293,
+                  0.1276259240946369
+                ],
+                "max_rgb": [
+                  0.9921569228172302,
+                  0.9921569228172302,
+                  0.988235354423523
+                ],
+                "p95_rgb": [
+                  0.8823530077934265,
+                  0.5411764979362488,
+                  0.24705883860588074
+                ],
+                "fraction_max_channel_above_1": 0.0,
+                "fraction_max_channel_above_0_01": 1.0
+              }
+            }
+          ],
+          "fraction_total_area": 0.4537249066492882,
+          "fraction_total_triangles": 0.2688532439549916
+        },
+        "tree_b_LeafVeins.001": {
+          "polygons": 139,
+          "triangles": 139,
+          "surface_area": 1.5857083693845198,
+          "centroid_base_rgb": {
+            "mean_rgb": [
+              0.20995910315633678,
+              0.20222881677553808,
+              0.11005784210032053
+            ],
+            "max_rgb": [
+              0.9921569228172302,
+              0.9333333969116211,
+              0.6627451181411743
+            ],
+            "p95_rgb": [
+              0.6203921794891355,
+              0.6133333563804624,
+              0.3164706021547314
+            ],
+            "fraction_max_channel_above_1": 0.0,
+            "fraction_max_channel_above_0_01": 1.0
+          },
+          "centroid_emission_rgb": {
+            "mean_rgb": [
+              0.050448866035929955,
+              0.024181691587152186,
+              0.006535759919302927
+            ],
+            "max_rgb": [
+              0.2199999988079071,
+              0.10525491088628769,
+              0.028470588847994804
+            ],
+            "p95_rgb": [
+              0.2199999988079071,
+              0.10525491088628769,
+              0.028470588847994804
+            ],
+            "fraction_max_channel_above_1": 0.0,
+            "fraction_max_channel_above_0_01": 0.60431654676259
+          },
+          "principled": {
+            "base_color": [
+              0.800000011920929,
+              0.800000011920929,
+              0.800000011920929,
+              1.0
+            ],
+            "roughness": 0.8600000143051147,
+            "emission_strength": 0.2199999988079071,
+            "emission_default_color": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "blender_nodes": [
+            {
+              "name": "Principled BSDF",
+              "type": "BSDF_PRINCIPLED"
+            },
+            {
+              "name": "Material Output",
+              "type": "OUTPUT_MATERIAL"
+            },
+            {
+              "name": "Normal Map",
+              "type": "NORMAL_MAP"
+            },
+            {
+              "name": "Image Texture",
+              "type": "TEX_IMAGE"
+            },
+            {
+              "name": "Image Texture.001",
+              "type": "TEX_IMAGE"
+            }
+          ],
+          "unity_read_only": {
+            "path": "GameProject\\Assets\\JieGuang\\Environment\\Generated\\Materials\\tree_b_LeafVeins.001.mat",
+            "exists": false
+          },
+          "images": [
+            {
+              "node": "Image Texture",
+              "name": "tree_b_BaseColor.001",
+              "size": [
+                1024,
+                1024
+              ],
+              "color_space": "sRGB",
+              "path": "C:\\Users\\20665\\Desktop\\game\\art\\generated\\env-v1\\assets\\tree_b\\tree_b\\..\\textures\\tree_b_BaseColor.png",
+              "file_exists": true,
+              "sha256": "f4e31e92819edb2fdff425eae8ca18f9193ec2350c957866e7a4e78d2d8a94cf",
+              "pixel_rgb": {
+                "mean_rgb": [
+                  0.4222790262125873,
+                  0.2788420421044293,
+                  0.1276259240946369
+                ],
+                "max_rgb": [
+                  0.9921569228172302,
+                  0.9921569228172302,
+                  0.988235354423523
+                ],
+                "p95_rgb": [
+                  0.8823530077934265,
+                  0.5411764979362488,
+                  0.24705883860588074
+                ],
+                "fraction_max_channel_above_1": 0.0,
+                "fraction_max_channel_above_0_01": 1.0
+              }
+            },
+            {
+              "node": "Image Texture.001",
+              "name": "tree_b_LeafVeins_Emission.002",
+              "size": [
+                1024,
+                1024
+              ],
+              "color_space": "sRGB",
+              "path": "C:\\Users\\20665\\Desktop\\game\\art\\generated\\env-v1\\assets\\tree_b\\tree_b\\..\\textures\\tree_b_LeafVeins_Emission.001.png",
+              "file_exists": true,
+              "sha256": "98f325c28c946b1b517d467b6caaa0966e310681c20dac7d5251a79a51a548a1",
+              "pixel_rgb": {
+                "mean_rgb": [
+                  0.018283272263607042,
+                  0.008759671170132322,
+                  0.0023704829379322945
+                ],
+                "max_rgb": [
+                  1.0,
+                  0.4784314036369324,
+                  0.12941177189350128
+                ],
+                "p95_rgb": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "fraction_max_channel_above_1": 0.0,
+                "fraction_max_channel_above_0_01": 0.03677654266357422
+              }
+            }
+          ],
+          "fraction_total_area": 0.00973137771472036,
+          "fraction_total_triangles": 0.008319367967440747
+        },
+        "tree_b_WarmFruit.001": {
+          "polygons": 83,
+          "triangles": 83,
+          "surface_area": 1.7002981913974509,
+          "centroid_base_rgb": {
+            "mean_rgb": [
+              0.8824474897729345,
+              0.6637845958571836,
+              0.12520671608936357
+            ],
+            "max_rgb": [
+              0.9921569228172302,
+              0.8313726186752319,
+              0.19607844948768616
+            ],
+            "p95_rgb": [
+              0.988235354423523,
+              0.8156863451004028,
+              0.18431372940540314
+            ],
+            "fraction_max_channel_above_1": 0.0,
+            "fraction_max_channel_above_0_01": 1.0
+          },
+          "centroid_emission_rgb": {
+            "mean_rgb": [
+              1.350000023841858,
+              0.6458824276924133,
+              0.1747058928012848
+            ],
+            "max_rgb": [
+              1.350000023841858,
+              0.6458824276924133,
+              0.1747058928012848
+            ],
+            "p95_rgb": [
+              1.350000023841858,
+              0.6458824276924133,
+              0.1747058928012848
+            ],
+            "fraction_max_channel_above_1": 1.0,
+            "fraction_max_channel_above_0_01": 1.0
+          },
+          "principled": {
+            "base_color": [
+              0.800000011920929,
+              0.800000011920929,
+              0.800000011920929,
+              1.0
+            ],
+            "roughness": 0.8600000143051147,
+            "emission_strength": 1.350000023841858,
+            "emission_default_color": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "blender_nodes": [
+            {
+              "name": "Principled BSDF",
+              "type": "BSDF_PRINCIPLED"
+            },
+            {
+              "name": "Material Output",
+              "type": "OUTPUT_MATERIAL"
+            },
+            {
+              "name": "Normal Map",
+              "type": "NORMAL_MAP"
+            },
+            {
+              "name": "Image Texture",
+              "type": "TEX_IMAGE"
+            },
+            {
+              "name": "Image Texture.001",
+              "type": "TEX_IMAGE"
+            }
+          ],
+          "unity_read_only": {
+            "path": "GameProject\\Assets\\JieGuang\\Environment\\Generated\\Materials\\tree_b_WarmFruit.001.mat",
+            "exists": false
+          },
+          "images": [
+            {
+              "node": "Image Texture",
+              "name": "tree_b_BaseColor.001",
+              "size": [
+                1024,
+                1024
+              ],
+              "color_space": "sRGB",
+              "path": "C:\\Users\\20665\\Desktop\\game\\art\\generated\\env-v1\\assets\\tree_b\\tree_b\\..\\textures\\tree_b_BaseColor.png",
+              "file_exists": true,
+              "sha256": "f4e31e92819edb2fdff425eae8ca18f9193ec2350c957866e7a4e78d2d8a94cf",
+              "pixel_rgb": {
+                "mean_rgb": [
+                  0.4222790262125873,
+                  0.2788420421044293,
+                  0.1276259240946369
+                ],
+                "max_rgb": [
+                  0.9921569228172302,
+                  0.9921569228172302,
+                  0.988235354423523
+                ],
+                "p95_rgb": [
+                  0.8823530077934265,
+                  0.5411764979362488,
+                  0.24705883860588074
+                ],
+                "fraction_max_channel_above_1": 0.0,
+                "fraction_max_channel_above_0_01": 1.0
+              }
+            },
+            {
+              "node": "Image Texture.001",
+              "name": "tree_b_WarmFruit_Emission.002",
+              "size": [
+                1024,
+                1024
+              ],
+              "color_space": "sRGB",
+              "path": "C:\\Users\\20665\\Desktop\\game\\art\\generated\\env-v1\\assets\\tree_b\\tree_b\\..\\textures\\tree_b_WarmFruit_Emission.001.png",
+              "file_exists": true,
+              "sha256": "15b5dacee7ee5125c49d27cfe377024f9f2ab030e2da67472800b6cf3ecdef12",
+              "pixel_rgb": {
+                "mean_rgb": [
+                  0.028931617736816406,
+                  0.013841794483312242,
+                  0.0037440919150668606
+                ],
+                "max_rgb": [
+                  1.0,
+                  0.4784314036369324,
+                  0.12941177189350128
+                ],
+                "p95_rgb": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "fraction_max_channel_above_1": 0.0,
+                "fraction_max_channel_above_0_01": 0.028931617736816406
+              }
+            }
+          ],
+          "fraction_total_area": 0.010434607174689242,
+          "fraction_total_triangles": 0.004967680153220014
+        }
+      },
+      "scope_note": "Stats use original material slots and nearest texture sample at polygon UV centroids; not a semantic leaf/back/fruit segmentation proof."
+    },
+    {
+      "id": "tree_c",
+      "source_blend": "art\\generated\\env-v1\\assets\\tree_c\\tree_c\\tree_c_optimized.blend",
+      "source_sha256": "dae296341c740f99ee3f8ff140af8942169a381258540362e5e0b21023bb40a1",
+      "geometry_and_slots_sha256": "b4466178ef73ce0002335df08139e969f97e783f89452389542f4549fa9b381c",
+      "bounds": {
+        "min": [
+          -2.9249520301818848,
+          -3.2333908081054688,
+          -0.016605032607913017
+        ],
+        "max": [
+          2.9241583347320557,
+          3.223262071609497,
+          5.178337574005127
+        ]
+      },
+      "objects": [
+        {
+          "name": "tree_c",
+          "vertices": 5472,
+          "triangles": 10970,
+          "material_slots": [
+            "tree_c_Bark",
+            "tree_c_LeafVeins",
+            "tree_c_WarmFruit"
+          ]
+        },
+        {
+          "name": "tree_c_Base",
+          "vertices": 623,
+          "triangles": 940,
+          "material_slots": [
+            "tree_c_Bark",
+            "tree_c_LeafVeins",
+            "tree_c_WarmFruit"
+          ]
+        },
+        {
+          "name": "tree_c_Base_LOD1",
+          "vertices": 236,
+          "triangles": 352,
+          "material_slots": [
+            "tree_c_Bark",
+            "tree_c_LeafVeins",
+            "tree_c_WarmFruit"
+          ]
+        },
+        {
+          "name": "tree_c_LOD1",
+          "vertices": 2121,
+          "triangles": 4364,
+          "material_slots": [
+            "tree_c_Bark",
+            "tree_c_LeafVeins",
+            "tree_c_WarmFruit"
+          ]
+        }
+      ],
+      "triangles": 16626,
+      "materials": {
+        "tree_c_Bark": {
+          "polygons": 15065,
+          "triangles": 15065,
+          "surface_area": 188.02853502388098,
+          "centroid_base_rgb": {
+            "mean_rgb": [
+              0.3570673687860167,
+              0.2480037621964589,
+              0.12239902276407286
+            ],
+            "max_rgb": [
+              0.9921569228172302,
+              0.9529412388801575,
+              0.7333333492279053
+            ],
+            "p95_rgb": [
+              0.6705882549285889,
+              0.43529415130615234,
+              0.24705883860588074
+            ],
+            "fraction_max_channel_above_1": 0.0,
+            "fraction_max_channel_above_0_01": 1.0
+          },
+          "centroid_emission_rgb": {
+            "mean_rgb": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "max_rgb": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "p95_rgb": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "fraction_max_channel_above_1": 0.0,
+            "fraction_max_channel_above_0_01": 0.0
+          },
+          "principled": {
+            "base_color": [
+              0.800000011920929,
+              0.800000011920929,
+              0.800000011920929,
+              1.0
+            ],
+            "roughness": 0.8600000143051147,
+            "emission_strength": 0.0,
+            "emission_default_color": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "blender_nodes": [
+            {
+              "name": "Principled BSDF",
+              "type": "BSDF_PRINCIPLED"
+            },
+            {
+              "name": "Material Output",
+              "type": "OUTPUT_MATERIAL"
+            },
+            {
+              "name": "Image Texture",
+              "type": "TEX_IMAGE"
+            }
+          ],
+          "unity_read_only": {
+            "path": "GameProject\\Assets\\JieGuang\\Environment\\Generated\\Materials\\tree_c_Bark.mat",
+            "exists": true,
+            "sha256": "586378f1f930f1d53acd09809cc54b8b392b6c98c266f729631da8576582d861",
+            "_BaseColor": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "_EmissionColor": [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ],
+            "_Smoothness": 0.13999999,
+            "_Cull": 2.0,
+            "_AlphaClip": 0.0,
+            "emission_enabled": false
+          },
+          "images": [
+            {
+              "node": "Image Texture",
+              "name": "tree_c_BaseColor",
+              "size": [
+                1024,
+                1024
+              ],
+              "color_space": "sRGB",
+              "path": "C:\\Users\\20665\\Desktop\\game\\art\\generated\\env-v1\\assets\\tree_c\\tree_c\\..\\textures\\tree_c_BaseColor.png",
+              "file_exists": true,
+              "sha256": "4b49a2a38ad823c04a71899afc731a44ee749f81c2c438b3ac5117e6123e3b63",
+              "pixel_rgb": {
+                "mean_rgb": [
+                  0.32779949389047225,
+                  0.24657671315762686,
+                  0.14058380054584596
+                ],
+                "max_rgb": [
+                  0.9921569228172302,
+                  0.9686275124549866,
+                  0.9137255549430847
+                ],
+                "p95_rgb": [
+                  0.5764706134796143,
+                  0.3960784673690796,
+                  0.21568629145622253
+                ],
+                "fraction_max_channel_above_1": 0.0,
+                "fraction_max_channel_above_0_01": 1.0
+              }
+            }
+          ],
+          "fraction_total_area": 0.9415461847938875,
+          "fraction_total_triangles": 0.9061109106219175
+        },
+        "tree_c_LeafVeins": {
+          "polygons": 1514,
+          "triangles": 1514,
+          "surface_area": 11.09291862840928,
+          "centroid_base_rgb": {
+            "mean_rgb": [
+              0.25496154935486726,
+              0.24493487005071565,
+              0.16041133304918861
+            ],
+            "max_rgb": [
+              0.9647059440612793,
+              0.9215686917304993,
+              0.7490196228027344
+            ],
+            "p95_rgb": [
+              0.4131372898817059,
+              0.3960784673690796,
+              0.2562745243310925
+            ],
+            "fraction_max_channel_above_1": 0.0,
+            "fraction_max_channel_above_0_01": 1.0
+          },
+          "centroid_emission_rgb": {
+            "mean_rgb": [
+              0.08676515041839435,
+              0.04163913504937799,
+              0.011269822164047743
+            ],
+            "max_rgb": [
+              0.2199999988079071,
+              0.10525491088628769,
+              0.028470588847994804
+            ],
+            "p95_rgb": [
+              0.18031373620033264,
+              0.08627451956272125,
+              0.02329411916434765
+            ],
+            "fraction_max_channel_above_1": 0.0,
+            "fraction_max_channel_above_0_01": 0.9187582562747688
+          },
+          "principled": {
+            "base_color": [
+              0.800000011920929,
+              0.800000011920929,
+              0.800000011920929,
+              1.0
+            ],
+            "roughness": 0.8600000143051147,
+            "emission_strength": 0.2199999988079071,
+            "emission_default_color": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "blender_nodes": [
+            {
+              "name": "Principled BSDF",
+              "type": "BSDF_PRINCIPLED"
+            },
+            {
+              "name": "Material Output",
+              "type": "OUTPUT_MATERIAL"
+            },
+            {
+              "name": "Image Texture",
+              "type": "TEX_IMAGE"
+            },
+            {
+              "name": "Image Texture.001",
+              "type": "TEX_IMAGE"
+            }
+          ],
+          "unity_read_only": {
+            "path": "GameProject\\Assets\\JieGuang\\Environment\\Generated\\Materials\\tree_c_LeafVeins.mat",
+            "exists": true,
+            "sha256": "9e5d3422d5390e6116c7f32ffa92e616f24612a1b1199ca3307284a6b7467799",
+            "_BaseColor": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "_EmissionColor": [
+              0.22,
+              0.22,
+              0.22,
+              0.22
+            ],
+            "_Smoothness": 0.13999999,
+            "_Cull": 2.0,
+            "_AlphaClip": 0.0,
+            "emission_enabled": true
+          },
+          "images": [
+            {
+              "node": "Image Texture",
+              "name": "tree_c_BaseColor",
+              "size": [
+                1024,
+                1024
+              ],
+              "color_space": "sRGB",
+              "path": "C:\\Users\\20665\\Desktop\\game\\art\\generated\\env-v1\\assets\\tree_c\\tree_c\\..\\textures\\tree_c_BaseColor.png",
+              "file_exists": true,
+              "sha256": "4b49a2a38ad823c04a71899afc731a44ee749f81c2c438b3ac5117e6123e3b63",
+              "pixel_rgb": {
+                "mean_rgb": [
+                  0.32779949389047225,
+                  0.24657671315762686,
+                  0.14058380054584596
+                ],
+                "max_rgb": [
+                  0.9921569228172302,
+                  0.9686275124549866,
+                  0.9137255549430847
+                ],
+                "p95_rgb": [
+                  0.5764706134796143,
+                  0.3960784673690796,
+                  0.21568629145622253
+                ],
+                "fraction_max_channel_above_1": 0.0,
+                "fraction_max_channel_above_0_01": 1.0
+              }
+            },
+            {
+              "node": "Image Texture.001",
+              "name": "tree_c_LeafVeins_Emission.001",
+              "size": [
+                1024,
+                1024
+              ],
+              "color_space": "Non-Color",
+              "path": "C:\\Users\\20665\\Desktop\\game\\art\\generated\\env-v1\\assets\\tree_c\\tree_c\\..\\textures\\tree_c_LeafVeins_Emission.001.png",
+              "file_exists": true,
+              "sha256": "8dfb7cdd10ec06b59c9730b18347f96b09cea2a8a01a8092500a8df65756df13",
+              "pixel_rgb": {
+                "mean_rgb": [
+                  0.062247747096579875,
+                  0.02987585793746428,
+                  0.008091912084835506
+                ],
+                "max_rgb": [
+                  1.0,
+                  0.4784314036369324,
+                  0.12941177189350128
+                ],
+                "p95_rgb": [
+                  0.5254902243614197,
+                  0.250980406999588,
+                  0.06666667014360428
+                ],
+                "fraction_max_channel_above_1": 0.0,
+                "fraction_max_channel_above_0_01": 0.12867355346679688
+              }
+            }
+          ],
+          "fraction_total_area": 0.05554739450308048,
+          "fraction_total_triangles": 0.09106219174786478
+        },
+        "tree_c_WarmFruit": {
+          "polygons": 47,
+          "triangles": 47,
+          "surface_area": 0.5804176531964913,
+          "centroid_base_rgb": {
+            "mean_rgb": [
+              0.8097622496016482,
+              0.5719649817081208,
+              0.14376304504719187
+            ],
+            "max_rgb": [
+              0.960784375667572,
+              0.7333333492279053,
+              0.19215688109397888
+            ],
+            "p95_rgb": [
+              0.9439216315746307,
+              0.7125490367412567,
+              0.19215688109397888
+            ],
+            "fraction_max_channel_above_1": 0.0,
+            "fraction_max_channel_above_0_01": 1.0
+          },
+          "centroid_emission_rgb": {
+            "mean_rgb": [
+              1.350000023841858,
+              0.6458824276924133,
+              0.1747058928012848
+            ],
+            "max_rgb": [
+              1.350000023841858,
+              0.6458824276924133,
+              0.1747058928012848
+            ],
+            "p95_rgb": [
+              1.350000023841858,
+              0.6458824276924133,
+              0.1747058928012848
+            ],
+            "fraction_max_channel_above_1": 1.0,
+            "fraction_max_channel_above_0_01": 1.0
+          },
+          "principled": {
+            "base_color": [
+              0.800000011920929,
+              0.800000011920929,
+              0.800000011920929,
+              1.0
+            ],
+            "roughness": 0.8600000143051147,
+            "emission_strength": 1.350000023841858,
+            "emission_default_color": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "blender_nodes": [
+            {
+              "name": "Principled BSDF",
+              "type": "BSDF_PRINCIPLED"
+            },
+            {
+              "name": "Material Output",
+              "type": "OUTPUT_MATERIAL"
+            },
+            {
+              "name": "Image Texture",
+              "type": "TEX_IMAGE"
+            },
+            {
+              "name": "Image Texture.001",
+              "type": "TEX_IMAGE"
+            }
+          ],
+          "unity_read_only": {
+            "path": "GameProject\\Assets\\JieGuang\\Environment\\Generated\\Materials\\tree_c_WarmFruit.mat",
+            "exists": true,
+            "sha256": "1c2e3ee80099fd37fe47a605a463627bb392f08bb3a8a71944437097aaeb9884",
+            "_BaseColor": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "_EmissionColor": [
+              1.35,
+              1.35,
+              1.35,
+              1.35
+            ],
+            "_Smoothness": 0.13999999,
+            "_Cull": 2.0,
+            "_AlphaClip": 0.0,
+            "emission_enabled": true
+          },
+          "images": [
+            {
+              "node": "Image Texture",
+              "name": "tree_c_BaseColor",
+              "size": [
+                1024,
+                1024
+              ],
+              "color_space": "sRGB",
+              "path": "C:\\Users\\20665\\Desktop\\game\\art\\generated\\env-v1\\assets\\tree_c\\tree_c\\..\\textures\\tree_c_BaseColor.png",
+              "file_exists": true,
+              "sha256": "4b49a2a38ad823c04a71899afc731a44ee749f81c2c438b3ac5117e6123e3b63",
+              "pixel_rgb": {
+                "mean_rgb": [
+                  0.32779949389047225,
+                  0.24657671315762686,
+                  0.14058380054584596
+                ],
+                "max_rgb": [
+                  0.9921569228172302,
+                  0.9686275124549866,
+                  0.9137255549430847
+                ],
+                "p95_rgb": [
+                  0.5764706134796143,
+                  0.3960784673690796,
+                  0.21568629145622253
+                ],
+                "fraction_max_channel_above_1": 0.0,
+                "fraction_max_channel_above_0_01": 1.0
+              }
+            },
+            {
+              "node": "Image Texture.001",
+              "name": "tree_c_WarmFruit_Emission.001",
+              "size": [
+                1024,
+                1024
+              ],
+              "color_space": "Non-Color",
+              "path": "C:\\Users\\20665\\Desktop\\game\\art\\generated\\env-v1\\assets\\tree_c\\tree_c\\..\\textures\\tree_c_WarmFruit_Emission.001.png",
+              "file_exists": true,
+              "sha256": "a356441faf412fd15bba3114077e749038892bdf3459070e28592d968a5666cb",
+              "pixel_rgb": {
+                "mean_rgb": [
+                  0.005832672119140625,
+                  0.00279053350891445,
+                  0.0007548164338118113
+                ],
+                "max_rgb": [
+                  1.0,
+                  0.4784314036369324,
+                  0.12941177189350128
+                ],
+                "p95_rgb": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "fraction_max_channel_above_1": 0.0,
+                "fraction_max_channel_above_0_01": 0.005832672119140625
+              }
+            }
+          ],
+          "fraction_total_area": 0.0029064207030319623,
+          "fraction_total_triangles": 0.0028268976302177314
+        }
+      },
+      "scope_note": "Stats use original material slots and nearest texture sample at polygon UV centroids; not a semantic leaf/back/fruit segmentation proof."
+    },
+    {
+      "id": "tree_gold",
+      "source_blend": "art\\generated\\env-v1\\assets\\tree_gold\\tree_gold\\tree_gold_optimized.blend",
+      "source_sha256": "33403d20b0e6fd72feaa87b69d9191ef3685c61d735e8afd8fd0e289b69ad772",
+      "geometry_and_slots_sha256": "25a48c2921a56680d2834fd389c2929ad260cab936cf8b17ac7eef5e13c74af8",
+      "bounds": {
+        "min": [
+          -2.6977651119232178,
+          -2.678226947784424,
+          0.0039684586226940155
+        ],
+        "max": [
+          2.7082040309906006,
+          2.6721808910369873,
+          4.997349262237549
+        ]
+      },
+      "objects": [
+        {
+          "name": "tree_gold",
+          "vertices": 14023,
+          "triangles": 28125,
+          "material_slots": [
+            "tree_gold_Bark",
+            "tree_gold_LeafVeins",
+            "tree_gold_WarmFruit"
+          ]
+        },
+        {
+          "name": "tree_gold_Base",
+          "vertices": 1198,
+          "triangles": 1786,
+          "material_slots": [
+            "tree_gold_Bark",
+            "tree_gold_LeafVeins",
+            "tree_gold_WarmFruit"
+          ]
+        },
+        {
+          "name": "tree_gold_Base_LOD1",
+          "vertices": 484,
+          "triangles": 689,
+          "material_slots": [
+            "tree_gold_Bark",
+            "tree_gold_LeafVeins",
+            "tree_gold_WarmFruit"
+          ]
+        },
+        {
+          "name": "tree_gold_LOD1",
+          "vertices": 5495,
+          "triangles": 11225,
+          "material_slots": [
+            "tree_gold_Bark",
+            "tree_gold_LeafVeins",
+            "tree_gold_WarmFruit"
+          ]
+        }
+      ],
+      "triangles": 41825,
+      "materials": {
+        "tree_gold_Bark": {
+          "polygons": 37502,
+          "triangles": 37502,
+          "surface_area": 161.6622650422585,
+          "centroid_base_rgb": {
+            "mean_rgb": [
+              0.3656962816017649,
+              0.2926298472726982,
+              0.16610994735219306
+            ],
+            "max_rgb": [
+              0.9921569228172302,
+              0.9764706492424011,
+              0.7254902124404907
+            ],
+            "p95_rgb": [
+              0.7254902124404907,
+              0.5529412031173706,
+              0.3529411852359772
+            ],
+            "fraction_max_channel_above_1": 0.0,
+            "fraction_max_channel_above_0_01": 1.0
+          },
+          "centroid_emission_rgb": {
+            "mean_rgb": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "max_rgb": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "p95_rgb": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "fraction_max_channel_above_1": 0.0,
+            "fraction_max_channel_above_0_01": 0.0
+          },
+          "principled": {
+            "base_color": [
+              0.800000011920929,
+              0.800000011920929,
+              0.800000011920929,
+              1.0
+            ],
+            "roughness": 0.8600000143051147,
+            "emission_strength": 0.0,
+            "emission_default_color": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "blender_nodes": [
+            {
+              "name": "Principled BSDF",
+              "type": "BSDF_PRINCIPLED"
+            },
+            {
+              "name": "Material Output",
+              "type": "OUTPUT_MATERIAL"
+            },
+            {
+              "name": "Image Texture",
+              "type": "TEX_IMAGE"
+            }
+          ],
+          "unity_read_only": {
+            "path": "GameProject\\Assets\\JieGuang\\Environment\\Generated\\Materials\\tree_gold_Bark.mat",
+            "exists": true,
+            "sha256": "c7559bd2aaa39a57f5ed6be7278740b559f7af44f6fb9bd3b94745452ff54198",
+            "_BaseColor": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "_EmissionColor": [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ],
+            "_Smoothness": 0.13999999,
+            "_Cull": 2.0,
+            "_AlphaClip": 0.0,
+            "emission_enabled": false
+          },
+          "images": [
+            {
+              "node": "Image Texture",
+              "name": "tree_gold_BaseColor",
+              "size": [
+                2048,
+                2048
+              ],
+              "color_space": "sRGB",
+              "path": "C:\\Users\\20665\\Desktop\\game\\art\\generated\\env-v1\\assets\\tree_gold\\tree_gold\\..\\textures\\tree_gold_BaseColor.png",
+              "file_exists": true,
+              "sha256": "3e50e659d95dbab04e06c75efd5001e7c7812a2c63206ed89081a50e9645c668",
+              "pixel_rgb": {
+                "mean_rgb": [
+                  0.2854024285238459,
+                  0.23945517561717067,
+                  0.16695339465353176
+                ],
+                "max_rgb": [
+                  0.9921569228172302,
+                  0.9764706492424011,
+                  0.8823530077934265
+                ],
+                "p95_rgb": [
+                  0.4901961088180542,
+                  0.41960787773132324,
+                  0.26274511218070984
+                ],
+                "fraction_max_channel_above_1": 0.0,
+                "fraction_max_channel_above_0_01": 0.9999971389770508
+              }
+            }
+          ],
+          "fraction_total_area": 0.9120391981601011,
+          "fraction_total_triangles": 0.8966407650926479
+        },
+        "tree_gold_LeafVeins": {
+          "polygons": 4144,
+          "triangles": 4144,
+          "surface_area": 14.181438275645633,
+          "centroid_base_rgb": {
+            "mean_rgb": [
+              0.3190391198588125,
+              0.3127574177825658,
+              0.20443070256178228
+            ],
+            "max_rgb": [
+              0.9843137860298157,
+              0.8901961445808411,
+              0.7098039388656616
+            ],
+            "p95_rgb": [
+              0.5333333611488342,
+              0.5137255191802979,
+              0.364705890417099
+            ],
+            "fraction_max_channel_above_1": 0.0,
+            "fraction_max_channel_above_0_01": 1.0
+          },
+          "centroid_emission_rgb": {
+            "mean_rgb": [
+              0.12485321137040442,
+              0.05989895493173513,
+              0.016220399806544303
+            ],
+            "max_rgb": [
+              0.2199999988079071,
+              0.10525491088628769,
+              0.028470588847994804
+            ],
+            "p95_rgb": [
+              0.2199999988079071,
+              0.10525491088628769,
+              0.028470588847994804
+            ],
+            "fraction_max_channel_above_1": 0.0,
+            "fraction_max_channel_above_0_01": 0.9920366795366795
+          },
+          "principled": {
+            "base_color": [
+              0.800000011920929,
+              0.800000011920929,
+              0.800000011920929,
+              1.0
+            ],
+            "roughness": 0.8600000143051147,
+            "emission_strength": 0.2199999988079071,
+            "emission_default_color": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "blender_nodes": [
+            {
+              "name": "Principled BSDF",
+              "type": "BSDF_PRINCIPLED"
+            },
+            {
+              "name": "Material Output",
+              "type": "OUTPUT_MATERIAL"
+            },
+            {
+              "name": "Image Texture",
+              "type": "TEX_IMAGE"
+            },
+            {
+              "name": "Image Texture.001",
+              "type": "TEX_IMAGE"
+            }
+          ],
+          "unity_read_only": {
+            "path": "GameProject\\Assets\\JieGuang\\Environment\\Generated\\Materials\\tree_gold_LeafVeins.mat",
+            "exists": true,
+            "sha256": "e7dd5a33f8a64c6a4c8e58183bd6dae032b3cec24b3355df16cccfff737e2589",
+            "_BaseColor": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "_EmissionColor": [
+              0.22,
+              0.22,
+              0.22,
+              0.22
+            ],
+            "_Smoothness": 0.13999999,
+            "_Cull": 2.0,
+            "_AlphaClip": 0.0,
+            "emission_enabled": true
+          },
+          "images": [
+            {
+              "node": "Image Texture",
+              "name": "tree_gold_BaseColor",
+              "size": [
+                2048,
+                2048
+              ],
+              "color_space": "sRGB",
+              "path": "C:\\Users\\20665\\Desktop\\game\\art\\generated\\env-v1\\assets\\tree_gold\\tree_gold\\..\\textures\\tree_gold_BaseColor.png",
+              "file_exists": true,
+              "sha256": "3e50e659d95dbab04e06c75efd5001e7c7812a2c63206ed89081a50e9645c668",
+              "pixel_rgb": {
+                "mean_rgb": [
+                  0.2854024285238459,
+                  0.23945517561717067,
+                  0.16695339465353176
+                ],
+                "max_rgb": [
+                  0.9921569228172302,
+                  0.9764706492424011,
+                  0.8823530077934265
+                ],
+                "p95_rgb": [
+                  0.4901961088180542,
+                  0.41960787773132324,
+                  0.26274511218070984
+                ],
+                "fraction_max_channel_above_1": 0.0,
+                "fraction_max_channel_above_0_01": 0.9999971389770508
+              }
+            },
+            {
+              "node": "Image Texture.001",
+              "name": "tree_gold_LeafVeins_Emission.001",
+              "size": [
+                2048,
+                2048
+              ],
+              "color_space": "Non-Color",
+              "path": "C:\\Users\\20665\\Desktop\\game\\art\\generated\\env-v1\\assets\\tree_gold\\tree_gold\\..\\textures\\tree_gold_LeafVeins_Emission.001.png",
+              "file_exists": true,
+              "sha256": "270fc5874b051c259edef3996c57386355d76c37fc72fb15a68a09296d057f69",
+              "pixel_rgb": {
+                "mean_rgb": [
+                  0.09106022000125369,
+                  0.043679427879618316,
+                  0.011827746331234845
+                ],
+                "max_rgb": [
+                  1.0,
+                  0.4784314036369324,
+                  0.12941177189350128
+                ],
+                "p95_rgb": [
+                  0.7333333492279053,
+                  0.3529411852359772,
+                  0.0941176563501358
+                ],
+                "fraction_max_channel_above_1": 0.0,
+                "fraction_max_channel_above_0_01": 0.14456844329833984
+              }
+            }
+          ],
+          "fraction_total_area": 0.08000647269352472,
+          "fraction_total_triangles": 0.09907949790794979
+        },
+        "tree_gold_WarmFruit": {
+          "polygons": 179,
+          "triangles": 179,
+          "surface_area": 1.4099337718034803,
+          "centroid_base_rgb": {
+            "mean_rgb": [
+              0.8023442286352872,
+              0.5593822158914704,
+              0.12148100089843712
+            ],
+            "max_rgb": [
+              0.9843137860298157,
+              0.7647059559822083,
+              0.19607844948768616
+            ],
+            "p95_rgb": [
+              0.9498039841651916,
+              0.686274528503418,
+              0.1882353127002716
+            ],
+            "fraction_max_channel_above_1": 0.0,
+            "fraction_max_channel_above_0_01": 1.0
+          },
+          "centroid_emission_rgb": {
+            "mean_rgb": [
+              1.350000023841858,
+              0.6458824276924133,
+              0.1747058928012848
+            ],
+            "max_rgb": [
+              1.350000023841858,
+              0.6458824276924133,
+              0.1747058928012848
+            ],
+            "p95_rgb": [
+              1.350000023841858,
+              0.6458824276924133,
+              0.1747058928012848
+            ],
+            "fraction_max_channel_above_1": 1.0,
+            "fraction_max_channel_above_0_01": 1.0
+          },
+          "principled": {
+            "base_color": [
+              0.800000011920929,
+              0.800000011920929,
+              0.800000011920929,
+              1.0
+            ],
+            "roughness": 0.8600000143051147,
+            "emission_strength": 1.350000023841858,
+            "emission_default_color": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "blender_nodes": [
+            {
+              "name": "Principled BSDF",
+              "type": "BSDF_PRINCIPLED"
+            },
+            {
+              "name": "Material Output",
+              "type": "OUTPUT_MATERIAL"
+            },
+            {
+              "name": "Image Texture",
+              "type": "TEX_IMAGE"
+            },
+            {
+              "name": "Image Texture.001",
+              "type": "TEX_IMAGE"
+            }
+          ],
+          "unity_read_only": {
+            "path": "GameProject\\Assets\\JieGuang\\Environment\\Generated\\Materials\\tree_gold_WarmFruit.mat",
+            "exists": true,
+            "sha256": "850e3765a42d73afb8955929af6e9d5f9fe18f61ff00dc70118e007df8fdeb6f",
+            "_BaseColor": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "_EmissionColor": [
+              1.35,
+              1.35,
+              1.35,
+              1.35
+            ],
+            "_Smoothness": 0.13999999,
+            "_Cull": 2.0,
+            "_AlphaClip": 0.0,
+            "emission_enabled": true
+          },
+          "images": [
+            {
+              "node": "Image Texture",
+              "name": "tree_gold_BaseColor",
+              "size": [
+                2048,
+                2048
+              ],
+              "color_space": "sRGB",
+              "path": "C:\\Users\\20665\\Desktop\\game\\art\\generated\\env-v1\\assets\\tree_gold\\tree_gold\\..\\textures\\tree_gold_BaseColor.png",
+              "file_exists": true,
+              "sha256": "3e50e659d95dbab04e06c75efd5001e7c7812a2c63206ed89081a50e9645c668",
+              "pixel_rgb": {
+                "mean_rgb": [
+                  0.2854024285238459,
+                  0.23945517561717067,
+                  0.16695339465353176
+                ],
+                "max_rgb": [
+                  0.9921569228172302,
+                  0.9764706492424011,
+                  0.8823530077934265
+                ],
+                "p95_rgb": [
+                  0.4901961088180542,
+                  0.41960787773132324,
+                  0.26274511218070984
+                ],
+                "fraction_max_channel_above_1": 0.0,
+                "fraction_max_channel_above_0_01": 0.9999971389770508
+              }
+            },
+            {
+              "node": "Image Texture.001",
+              "name": "tree_gold_WarmFruit_Emission.001",
+              "size": [
+                2048,
+                2048
+              ],
+              "color_space": "Non-Color",
+              "path": "C:\\Users\\20665\\Desktop\\game\\art\\generated\\env-v1\\assets\\tree_gold\\tree_gold\\..\\textures\\tree_gold_WarmFruit_Emission.001.png",
+              "file_exists": true,
+              "sha256": "b59b25ffc96cfb46baa04292bd9e967ca1dd94a8101fffc3bac74fc4cdec5228",
+              "pixel_rgb": {
+                "mean_rgb": [
+                  0.001966714859008789,
+                  0.0009409381505491865,
+                  0.00025451605471360494
+                ],
+                "max_rgb": [
+                  1.0,
+                  0.4784314036369324,
+                  0.12941177189350128
+                ],
+                "p95_rgb": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "fraction_max_channel_above_1": 0.0,
+                "fraction_max_channel_above_0_01": 0.001966714859008789
+              }
+            }
+          ],
+          "fraction_total_area": 0.00795432914637411,
+          "fraction_total_triangles": 0.004279736999402271
+        }
+      },
+      "scope_note": "Stats use original material slots and nearest texture sample at polygon UV centroids; not a semantic leaf/back/fruit segmentation proof."
+    }
+  ],
+  "notes": [
+    "Bark is the actual trunk slot name; it is preserved, not renamed to Trunk.",
+    "tree_b also has a pre-existing BarkRepair slot, which is preserved.",
+    "Existing masks are color-threshold derived; they are not author-painted semantic vein/underside/edge masks."
+  ]
+}

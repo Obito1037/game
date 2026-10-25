@@ -1,0 +1,182 @@
+{
+  "source_unchanged": [
+    {
+      "asset": "copper_roadlamp",
+      "blend_unchanged": true,
+      "fbx_unchanged": true
+    },
+    {
+      "asset": "harbor_lantern",
+      "blend_unchanged": true,
+      "fbx_unchanged": true
+    }
+  ],
+  "d_geometry_compared_with_c": [
+    {
+      "asset": "copper_roadlamp",
+      "checks": [
+        {
+          "object": "LampHead",
+          "matrix_identical_to_c": true,
+          "vertices_identical_to_c": true,
+          "oriented_face_material_multiset_identical_to_c": true,
+          "bounds_identical_to_c": true
+        },
+        {
+          "object": "Marker_Base",
+          "matrix_identical_to_c": true
+        },
+        {
+          "object": "Marker_Bulb",
+          "matrix_identical_to_c": true
+        },
+        {
+          "object": "Structure",
+          "matrix_identical_to_c": true,
+          "vertices_identical_to_c": true,
+          "oriented_face_material_multiset_identical_to_c": true,
+          "bounds_identical_to_c": true
+        },
+        {
+          "object": "copper_roadlamp",
+          "matrix_identical_to_c": true
+        }
+      ]
+    },
+    {
+      "asset": "harbor_lantern",
+      "checks": [
+        {
+          "object": "Marker_HangingPoint",
+          "matrix_identical_to_c": true
+        },
+        {
+          "object": "Structure",
+          "matrix_identical_to_c": true,
+          "vertices_identical_to_c": true,
+          "oriented_face_material_multiset_identical_to_c": true,
+          "bounds_identical_to_c": true
+        },
+        {
+          "object": "harbor_lantern",
+          "matrix_identical_to_c": true
+        }
+      ]
+    }
+  ],
+  "controlled_pairs": [
+    {
+      "asset": "copper_roadlamp",
+      "before": "baseline\\copper_roadlamp\\neutral-off.png",
+      "after": "candidate-d\\copper_roadlamp\\neutral-off.png",
+      "conditions_identical": true,
+      "actual_png_dimensions": [
+        [
+          900,
+          900
+        ],
+        [
+          900,
+          900
+        ]
+      ]
+    },
+    {
+      "asset": "copper_roadlamp",
+      "before": "baseline\\copper_roadlamp\\night-on.png",
+      "after": "candidate-d\\copper_roadlamp\\night-on.png",
+      "conditions_identical": true,
+      "actual_png_dimensions": [
+        [
+          900,
+          900
+        ],
+        [
+          900,
+          900
+        ]
+      ]
+    },
+    {
+      "asset": "copper_roadlamp",
+      "before": "baseline\\copper_roadlamp\\night-off.png",
+      "after": "candidate-d\\copper_roadlamp\\night-off.png",
+      "conditions_identical": true,
+      "actual_png_dimensions": [
+        [
+          900,
+          900
+        ],
+        [
+          900,
+          900
+        ]
+      ]
+    },
+    {
+      "asset": "copper_roadlamp",
+      "before": "baseline\\copper_roadlamp\\neutral-full.png",
+      "after": "candidate-d\\copper_roadlamp\\neutral-full.png",
+      "conditions_identical": true,
+      "actual_png_dimensions": [
+        [
+          900,
+          900
+        ],
+        [
+          900,
+          900
+        ]
+      ]
+    },
+    {
+      "asset": "harbor_lantern",
+      "before": "baseline\\harbor_lantern\\neutral-off.png",
+      "after": "candidate-d\\harbor_lantern\\neutral-off.png",
+      "conditions_identical": true,
+      "actual_png_dimensions": [
+        [
+          900,
+          900
+        ],
+        [
+          900,
+          900
+        ]
+      ]
+    },
+    {
+      "asset": "harbor_lantern",
+      "before": "baseline\\harbor_lantern\\night-on.png",
+      "after": "candidate-d\\harbor_lantern\\night-on.png",
+      "conditions_identical": true,
+      "actual_png_dimensions": [
+        [
+          900,
+          900
+        ],
+        [
+          900,
+          900
+        ]
+      ]
+    },
+    {
+      "asset": "harbor_lantern",
+      "before": "baseline\\harbor_lantern\\night-off.png",
+      "after": "candidate-d\\harbor_lantern\\night-off.png",
+      "conditions_identical": true,
+      "actual_png_dimensions": [
+        [
+          900,
+          900
+        ],
+        [
+          900,
+          900
+        ]
+      ]
+    }
+  ],
+  "Unity_or_performance_tested": false
+}

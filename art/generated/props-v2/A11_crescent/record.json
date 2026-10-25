@@ -1,0 +1,16 @@
+{
+ "id": "A11_crescent",
+ "source": "art\\incoming\\tripo-v2-2026-10-22\\tripo_convert_e04fa7ff-3970-4416-9971-98aa7eee7d3a.glb",
+ "source_sha256": "8b8d6e204165ae3d6cb220cd35837dc2decb9850f3c7c247cedc801b21533ec0",
+ "tris_before": 88498,
+ "tris_after": 4000,
+ "size_m": [
+  0.812,
+  1.433,
+  2.0
+ ],
+ "textures": {
+  "albedo": "A11_crescent_albedo.jpg"
+ },
+ "materials": 1
+}

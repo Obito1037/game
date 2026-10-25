@@ -1,0 +1,16 @@
+{
+ "id": "A14_flagpole",
+ "source": "art\\incoming\\tripo-v2-2026-10-22\\tripo_convert_f0bb4ae6-cade-4d97-9de5-a1b5a31cf674.glb",
+ "source_sha256": "980edb2a04bcbcc81a0d69c2e95ad8904b38dd816a9a90ae2ab029a3f09f7221",
+ "tris_before": 102259,
+ "tris_after": 2499,
+ "size_m": [
+  0.644,
+  0.823,
+  5.5
+ ],
+ "textures": {
+  "albedo": "A14_flagpole_albedo.jpg"
+ },
+ "materials": 1
+}

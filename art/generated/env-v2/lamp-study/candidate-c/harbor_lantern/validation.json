@@ -1,0 +1,35 @@
+{
+  "source_sha256": "f70d8aad0178c7f002377287d096fb98770ed5659eb008236c2fcb219b2cff1f",
+  "source_unchanged": true,
+  "before_triangles": 436,
+  "after_triangles": 788,
+  "added_triangles": 352,
+  "checks": [
+    {
+      "object": "Marker_HangingPoint",
+      "matrix_unchanged": true,
+      "parent_unchanged": true,
+      "original_vertices_prefix_identical": true,
+      "original_faces_prefix_identical": true
+    },
+    {
+      "object": "Structure",
+      "matrix_unchanged": true,
+      "parent_unchanged": true,
+      "original_vertices_prefix_identical": true,
+      "original_non_glass_faces_preserved": true,
+      "expected_glass_caps_replaced": true
+    },
+    {
+      "object": "harbor_lantern",
+      "matrix_unchanged": true,
+      "parent_unchanged": true,
+      "original_vertices_prefix_identical": true,
+      "original_faces_prefix_identical": true
+    }
+  ],
+  "fbx_sha256": "39d21c146df95ec4ac960317560129e2681a3646447b19c23bc2d2836c181481",
+  "blend_sha256": "f4281d61b70a3e2b55b10f8f7fe9f5ff573afcd982b61afa77298ddc245a71e3",
+  "default_emission": 0,
+  "Unity_tested": false
+}

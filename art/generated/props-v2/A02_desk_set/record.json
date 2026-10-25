@@ -1,0 +1,16 @@
+{
+ "id": "A02_desk_set",
+ "source": "art\\incoming\\tripo-v2-2026-10-22\\tripo_convert_dfebad59-5096-4506-96e4-3bae8f91dce4.glb",
+ "source_sha256": "252e5cb76881a4a46e3e9d6ba19c3a19f30bb6521c8f066d134308ad700bee61",
+ "tris_before": 1769157,
+ "tris_after": 4999,
+ "size_m": [
+  1.156,
+  1.2,
+  1.097
+ ],
+ "textures": {
+  "albedo": "A02_desk_set_albedo.jpg"
+ },
+ "materials": 1
+}

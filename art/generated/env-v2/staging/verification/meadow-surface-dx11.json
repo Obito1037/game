@@ -1,0 +1,1336 @@
+{
+  "schema": "jieguang-offline-hlsl-probe-v1",
+  "timestampUtc": "2026-10-22T19:33:08.7506717Z",
+  "scriptSha256": "260CB4A9D4B852A7026E75B49188E980FD91A6C15DECFE2998D3F1562DA717E1",
+  "smokeOnly": false,
+  "elapsedSeconds": 82.342,
+  "compiler": {
+    "sha256": "6B3DEE26A3FA46ADCE2FD1C543B0A3605C5DE16B636BD42341ADE6F1D7A27A44",
+    "path": "C:/Windows/System32/D3DCompiler_47.dll",
+    "fileVersion": "10.0.26100.9168 (WinBuild.160101.0800)",
+    "flags": 4096
+  },
+  "platform": "D3D11",
+  "shaderTarget": 35,
+  "shaderModelProfiles": [
+    "vs_4_0",
+    "ps_4_0"
+  ],
+  "sources": [
+    {
+      "path": "C:\\Users\\20665\\Desktop\\game\\art\\generated\\env-v2\\staging\\Shaders\\Meadow.shader",
+      "sha256": "DAC2CDF8B0D5580C9FBB15DE91AB5E6229DD74088F197FBD6D1E69D3B96CACF0"
+    },
+    {
+      "path": "C:\\Users\\20665\\Desktop\\game\\art\\generated\\env-v2\\staging\\Shaders\\TerrainSurface.shader",
+      "sha256": "2D8037D1290794033F096B767F3A86229228979ECA909783F097CE53F553EECB"
+    }
+  ],
+  "passCount": 92,
+  "successCount": 92,
+  "failureCount": 0,
+  "scope": "Independent D3DCompile HLSL check only. Not Unity import/ShaderLab or GLSL/WebGL compilation; no rendering.",
+  "fixtureAdjustments": [
+    "Extract HLSLINCLUDE and each HLSLPROGRAM; strip Unity pragmas; select keywords manually.",
+    "Expand actual package includes in memory with separate guards; missing inactive private-platform packages become conditional #error.",
+    "Unused library declaration PopMarker() becomes PopMarker(unused) in memory for native FXC; disk package files untouched.",
+    "For selected static FOG_* variants, define the matching FOG_*_KEYWORD_DECLARED metadata manually.",
+    "Respect vertex-only and fragment-only multi_compile keywords for each stage. No DOTS/XR/native-half coverage."
+  ],
+  "results": [
+    {
+      "shader": "Meadow",
+      "pass": "MeadowForward",
+      "variant": "Base",
+      "stage": "vertex",
+      "entry": "MeadowVertex",
+      "profile": "vs_4_0",
+      "keywords": [],
+      "hresult": 0,
+      "bytecodeBytes": 8996,
+      "diagnostics": ""
+    },
+    {
+      "shader": "Meadow",
+      "pass": "MeadowForward",
+      "variant": "Base",
+      "stage": "fragment",
+      "entry": "MeadowFragment",
+      "profile": "ps_4_0",
+      "keywords": [],
+      "hresult": 0,
+      "bytecodeBytes": 8544,
+      "diagnostics": ""
+    },
+    {
+      "shader": "Meadow",
+      "pass": "MeadowForward",
+      "variant": "SingleMainShadow",
+      "stage": "vertex",
+      "entry": "MeadowVertex",
+      "profile": "vs_4_0",
+      "keywords": [
+        "_MAIN_LIGHT_SHADOWS"
+      ],
+      "hresult": 0,
+      "bytecodeBytes": 8996,
+      "diagnostics": ""
+    },
+    {
+      "shader": "Meadow",
+      "pass": "MeadowForward",
+      "variant": "SingleMainShadow",
+      "stage": "fragment",
+      "entry": "MeadowFragment",
+      "profile": "ps_4_0",
+      "keywords": [
+        "_MAIN_LIGHT_SHADOWS"
+      ],
+      "hresult": 0,
+      "bytecodeBytes": 9952,
+      "diagnostics": ""
+    },
+    {
+      "shader": "Meadow",
+      "pass": "MeadowForward",
+      "variant": "CascadePixelLights",
+      "stage": "vertex",
+      "entry": "MeadowVertex",
+      "profile": "vs_4_0",
+      "keywords": [
+        "_MAIN_LIGHT_SHADOWS_CASCADE",
+        "_ADDITIONAL_LIGHTS"
+      ],
+      "hresult": 0,
+      "bytecodeBytes": 9600,
+      "diagnostics": ""
+    },
+    {
+      "shader": "Meadow",
+      "pass": "MeadowForward",
+      "variant": "CascadePixelLights",
+      "stage": "fragment",
+      "entry": "MeadowFragment",
+      "profile": "ps_4_0",
+      "keywords": [
+        "_MAIN_LIGHT_SHADOWS_CASCADE",
+        "_ADDITIONAL_LIGHTS",
+        "_SHADOWS_SOFT"
+      ],
+      "hresult": 0,
+      "bytecodeBytes": 18404,
+      "diagnostics": ""
+    },
+    {
+      "shader": "Meadow",
+      "pass": "MeadowForward",
+      "variant": "ScreenMainShadow",
+      "stage": "vertex",
+      "entry": "MeadowVertex",
+      "profile": "vs_4_0",
+      "keywords": [
+        "_MAIN_LIGHT_SHADOWS_SCREEN",
+        "_ADDITIONAL_LIGHTS"
+      ],
+      "hresult": 0,
+      "bytecodeBytes": 8196,
+      "diagnostics": ""
+    },
+    {
+      "shader": "Meadow",
+      "pass": "MeadowForward",
+      "variant": "ScreenMainShadow",
+      "stage": "fragment",
+      "entry": "MeadowFragment",
+      "profile": "ps_4_0",
+      "keywords": [
+        "_MAIN_LIGHT_SHADOWS_SCREEN",
+        "_ADDITIONAL_LIGHTS"
+      ],
+      "hresult": 0,
+      "bytecodeBytes": 11612,
+      "diagnostics": ""
+    },
+    {
+      "shader": "Meadow",
+      "pass": "MeadowForward",
+      "variant": "ForwardPlus",
+      "stage": "vertex",
+      "entry": "MeadowVertex",
+      "profile": "vs_4_0",
+      "keywords": [
+        "_CLUSTER_LIGHT_LOOP"
+      ],
+      "hresult": 0,
+      "bytecodeBytes": 9148,
+      "diagnostics": ""
+    },
+    {
+      "shader": "Meadow",
+      "pass": "MeadowForward",
+      "variant": "ForwardPlus",
+      "stage": "fragment",
+      "entry": "MeadowFragment",
+      "profile": "ps_4_0",
+      "keywords": [
+        "_CLUSTER_LIGHT_LOOP"
+      ],
+      "hresult": 0,
+      "bytecodeBytes": 13948,
+      "diagnostics": ""
+    },
+    {
+      "shader": "Meadow",
+      "pass": "MeadowForward",
+      "variant": "ForwardPlusCombined",
+      "stage": "vertex",
+      "entry": "MeadowVertex",
+      "profile": "vs_4_0",
+      "keywords": [
+        "_CLUSTER_LIGHT_LOOP",
+        "_MAIN_LIGHT_SHADOWS_CASCADE",
+        "INSTANCING_ON",
+        "FOG_EXP2",
+        "LOD_FADE_CROSSFADE"
+      ],
+      "hresult": 0,
+      "bytecodeBytes": 9060,
+      "diagnostics": ""
+    },
+    {
+      "shader": "Meadow",
+      "pass": "MeadowForward",
+      "variant": "ForwardPlusCombined",
+      "stage": "fragment",
+      "entry": "MeadowFragment",
+      "profile": "ps_4_0",
+      "keywords": [
+        "_CLUSTER_LIGHT_LOOP",
+        "_MAIN_LIGHT_SHADOWS_CASCADE",
+        "_ADDITIONAL_LIGHT_SHADOWS",
+        "_SHADOWS_SOFT_MEDIUM",
+        "_SCREEN_SPACE_OCCLUSION",
+        "INSTANCING_ON",
+        "FOG_EXP2",
+        "LOD_FADE_CROSSFADE"
+      ],
+      "hresult": 0,
+      "bytecodeBytes": 26424,
+      "diagnostics": ""
+    },
+    {
+      "shader": "Meadow",
+      "pass": "MeadowForward",
+      "variant": "VertexAdditionalLights",
+      "stage": "vertex",
+      "entry": "MeadowVertex",
+      "profile": "vs_4_0",
+      "keywords": [
+        "_ADDITIONAL_LIGHTS_VERTEX"
+      ],
+      "hresult": 0,
+      "bytecodeBytes": 10528,
+      "diagnostics": ""
+    },
+    {
+      "shader": "Meadow",
+      "pass": "MeadowForward",
+      "variant": "VertexAdditionalLights",
+      "stage": "fragment",
+      "entry": "MeadowFragment",
+      "profile": "ps_4_0",
+      "keywords": [
+        "_ADDITIONAL_LIGHTS_VERTEX"
+      ],
+      "hresult": 0,
+      "bytecodeBytes": 8592,
+      "diagnostics": ""
+    },
+    {
+      "shader": "Meadow",
+      "pass": "MeadowForward",
+      "variant": "Instanced",
+      "stage": "vertex",
+      "entry": "MeadowVertex",
+      "profile": "vs_4_0",
+      "keywords": [
+        "INSTANCING_ON"
+      ],
+      "hresult": 0,
+      "bytecodeBytes": 8100,
+      "diagnostics": ""
+    },
+    {
+      "shader": "Meadow",
+      "pass": "MeadowForward",
+      "variant": "Instanced",
+      "stage": "fragment",
+      "entry": "MeadowFragment",
+      "profile": "ps_4_0",
+      "keywords": [
+        "INSTANCING_ON"
+      ],
+      "hresult": 0,
+      "bytecodeBytes": 8584,
+      "diagnostics": ""
+    },
+    {
+      "shader": "Meadow",
+      "pass": "MeadowForward",
+      "variant": "FOG_LINEAR",
+      "stage": "vertex",
+      "entry": "MeadowVertex",
+      "profile": "vs_4_0",
+      "keywords": [
+        "FOG_LINEAR"
+      ],
+      "hresult": 0,
+      "bytecodeBytes": 9184,
+      "diagnostics": ""
+    },
+    {
+      "shader": "Meadow",
+      "pass": "MeadowForward",
+      "variant": "FOG_LINEAR",
+      "stage": "fragment",
+      "entry": "MeadowFragment",
+      "profile": "ps_4_0",
+      "keywords": [
+        "FOG_LINEAR"
+      ],
+      "hresult": 0,
+      "bytecodeBytes": 8888,
+      "diagnostics": ""
+    },
+    {
+      "shader": "Meadow",
+      "pass": "MeadowForward",
+      "variant": "FOG_EXP",
+      "stage": "vertex",
+      "entry": "MeadowVertex",
+      "profile": "vs_4_0",
+      "keywords": [
+        "FOG_EXP"
+      ],
+      "hresult": 0,
+      "bytecodeBytes": 9172,
+      "diagnostics": ""
+    },
+    {
+      "shader": "Meadow",
+      "pass": "MeadowForward",
+      "variant": "FOG_EXP",
+      "stage": "fragment",
+      "entry": "MeadowFragment",
+      "profile": "ps_4_0",
+      "keywords": [
+        "FOG_EXP"
+      ],
+      "hresult": 0,
+      "bytecodeBytes": 8928,
+      "diagnostics": ""
+    },
+    {
+      "shader": "Meadow",
+      "pass": "MeadowForward",
+      "variant": "FOG_EXP2",
+      "stage": "vertex",
+      "entry": "MeadowVertex",
+      "profile": "vs_4_0",
+      "keywords": [
+        "FOG_EXP2"
+      ],
+      "hresult": 0,
+      "bytecodeBytes": 9172,
+      "diagnostics": ""
+    },
+    {
+      "shader": "Meadow",
+      "pass": "MeadowForward",
+      "variant": "FOG_EXP2",
+      "stage": "fragment",
+      "entry": "MeadowFragment",
+      "profile": "ps_4_0",
+      "keywords": [
+        "FOG_EXP2"
+      ],
+      "hresult": 0,
+      "bytecodeBytes": 8928,
+      "diagnostics": ""
+    },
+    {
+      "shader": "Meadow",
+      "pass": "MeadowForward",
+      "variant": "LodCrossfade",
+      "stage": "vertex",
+      "entry": "MeadowVertex",
+      "profile": "vs_4_0",
+      "keywords": [
+        "LOD_FADE_CROSSFADE"
+      ],
+      "hresult": 0,
+      "bytecodeBytes": 9044,
+      "diagnostics": ""
+    },
+    {
+      "shader": "Meadow",
+      "pass": "MeadowForward",
+      "variant": "LodCrossfade",
+      "stage": "fragment",
+      "entry": "MeadowFragment",
+      "profile": "ps_4_0",
+      "keywords": [
+        "LOD_FADE_CROSSFADE"
+      ],
+      "hresult": 0,
+      "bytecodeBytes": 8972,
+      "diagnostics": ""
+    },
+    {
+      "shader": "Meadow",
+      "pass": "MeadowShadowCaster",
+      "variant": "Base",
+      "stage": "vertex",
+      "entry": "MeadowShadowVertex",
+      "profile": "vs_4_0",
+      "keywords": [],
+      "hresult": 0,
+      "bytecodeBytes": 9388,
+      "diagnostics": ""
+    },
+    {
+      "shader": "Meadow",
+      "pass": "MeadowShadowCaster",
+      "variant": "Base",
+      "stage": "fragment",
+      "entry": "MeadowDepthFragment",
+      "profile": "ps_4_0",
+      "keywords": [],
+      "hresult": 0,
+      "bytecodeBytes": 4864,
+      "diagnostics": ""
+    },
+    {
+      "shader": "Meadow",
+      "pass": "MeadowShadowCaster",
+      "variant": "Punctual",
+      "stage": "vertex",
+      "entry": "MeadowShadowVertex",
+      "profile": "vs_4_0",
+      "keywords": [
+        "_CASTING_PUNCTUAL_LIGHT_SHADOW"
+      ],
+      "hresult": 0,
+      "bytecodeBytes": 9520,
+      "diagnostics": ""
+    },
+    {
+      "shader": "Meadow",
+      "pass": "MeadowShadowCaster",
+      "variant": "Punctual",
+      "stage": "fragment",
+      "entry": "MeadowDepthFragment",
+      "profile": "ps_4_0",
+      "keywords": [],
+      "hresult": 0,
+      "bytecodeBytes": 4864,
+      "diagnostics": ""
+    },
+    {
+      "shader": "Meadow",
+      "pass": "MeadowShadowCaster",
+      "variant": "Instanced",
+      "stage": "vertex",
+      "entry": "MeadowShadowVertex",
+      "profile": "vs_4_0",
+      "keywords": [
+        "INSTANCING_ON"
+      ],
+      "hresult": 0,
+      "bytecodeBytes": 8472,
+      "diagnostics": ""
+    },
+    {
+      "shader": "Meadow",
+      "pass": "MeadowShadowCaster",
+      "variant": "Instanced",
+      "stage": "fragment",
+      "entry": "MeadowDepthFragment",
+      "profile": "ps_4_0",
+      "keywords": [
+        "INSTANCING_ON"
+      ],
+      "hresult": 0,
+      "bytecodeBytes": 4900,
+      "diagnostics": ""
+    },
+    {
+      "shader": "Meadow",
+      "pass": "MeadowShadowCaster",
+      "variant": "PunctualInstanced",
+      "stage": "vertex",
+      "entry": "MeadowShadowVertex",
+      "profile": "vs_4_0",
+      "keywords": [
+        "_CASTING_PUNCTUAL_LIGHT_SHADOW",
+        "INSTANCING_ON",
+        "LOD_FADE_CROSSFADE"
+      ],
+      "hresult": 0,
+      "bytecodeBytes": 8652,
+      "diagnostics": ""
+    },
+    {
+      "shader": "Meadow",
+      "pass": "MeadowShadowCaster",
+      "variant": "PunctualInstanced",
+      "stage": "fragment",
+      "entry": "MeadowDepthFragment",
+      "profile": "ps_4_0",
+      "keywords": [
+        "INSTANCING_ON",
+        "LOD_FADE_CROSSFADE"
+      ],
+      "hresult": 0,
+      "bytecodeBytes": 6924,
+      "diagnostics": ""
+    },
+    {
+      "shader": "Meadow",
+      "pass": "MeadowDepthOnly",
+      "variant": "Base",
+      "stage": "vertex",
+      "entry": "MeadowVertex",
+      "profile": "vs_4_0",
+      "keywords": [],
+      "hresult": 0,
+      "bytecodeBytes": 8996,
+      "diagnostics": ""
+    },
+    {
+      "shader": "Meadow",
+      "pass": "MeadowDepthOnly",
+      "variant": "Base",
+      "stage": "fragment",
+      "entry": "MeadowDepthFragment",
+      "profile": "ps_4_0",
+      "keywords": [],
+      "hresult": 0,
+      "bytecodeBytes": 4864,
+      "diagnostics": ""
+    },
+    {
+      "shader": "Meadow",
+      "pass": "MeadowDepthOnly",
+      "variant": "Instanced",
+      "stage": "vertex",
+      "entry": "MeadowVertex",
+      "profile": "vs_4_0",
+      "keywords": [
+        "INSTANCING_ON"
+      ],
+      "hresult": 0,
+      "bytecodeBytes": 8100,
+      "diagnostics": ""
+    },
+    {
+      "shader": "Meadow",
+      "pass": "MeadowDepthOnly",
+      "variant": "Instanced",
+      "stage": "fragment",
+      "entry": "MeadowDepthFragment",
+      "profile": "ps_4_0",
+      "keywords": [
+        "INSTANCING_ON"
+      ],
+      "hresult": 0,
+      "bytecodeBytes": 4900,
+      "diagnostics": ""
+    },
+    {
+      "shader": "Meadow",
+      "pass": "MeadowDepthOnly",
+      "variant": "LodCrossfade",
+      "stage": "vertex",
+      "entry": "MeadowVertex",
+      "profile": "vs_4_0",
+      "keywords": [
+        "LOD_FADE_CROSSFADE"
+      ],
+      "hresult": 0,
+      "bytecodeBytes": 9044,
+      "diagnostics": ""
+    },
+    {
+      "shader": "Meadow",
+      "pass": "MeadowDepthOnly",
+      "variant": "LodCrossfade",
+      "stage": "fragment",
+      "entry": "MeadowDepthFragment",
+      "profile": "ps_4_0",
+      "keywords": [
+        "LOD_FADE_CROSSFADE"
+      ],
+      "hresult": 0,
+      "bytecodeBytes": 6888,
+      "diagnostics": ""
+    },
+    {
+      "shader": "Meadow",
+      "pass": "MeadowDepthOnly",
+      "variant": "LodInstanced",
+      "stage": "vertex",
+      "entry": "MeadowVertex",
+      "profile": "vs_4_0",
+      "keywords": [
+        "LOD_FADE_CROSSFADE",
+        "INSTANCING_ON"
+      ],
+      "hresult": 0,
+      "bytecodeBytes": 8148,
+      "diagnostics": ""
+    },
+    {
+      "shader": "Meadow",
+      "pass": "MeadowDepthOnly",
+      "variant": "LodInstanced",
+      "stage": "fragment",
+      "entry": "MeadowDepthFragment",
+      "profile": "ps_4_0",
+      "keywords": [
+        "LOD_FADE_CROSSFADE",
+        "INSTANCING_ON"
+      ],
+      "hresult": 0,
+      "bytecodeBytes": 6924,
+      "diagnostics": ""
+    },
+    {
+      "shader": "Meadow",
+      "pass": "MeadowDepthNormals",
+      "variant": "Base",
+      "stage": "vertex",
+      "entry": "MeadowVertex",
+      "profile": "vs_4_0",
+      "keywords": [],
+      "hresult": 0,
+      "bytecodeBytes": 8996,
+      "diagnostics": ""
+    },
+    {
+      "shader": "Meadow",
+      "pass": "MeadowDepthNormals",
+      "variant": "Base",
+      "stage": "fragment",
+      "entry": "MeadowNormalsFragment",
+      "profile": "ps_4_0",
+      "keywords": [],
+      "hresult": 0,
+      "bytecodeBytes": 5252,
+      "diagnostics": ""
+    },
+    {
+      "shader": "Meadow",
+      "pass": "MeadowDepthNormals",
+      "variant": "OctNormals",
+      "stage": "vertex",
+      "entry": "MeadowVertex",
+      "profile": "vs_4_0",
+      "keywords": [],
+      "hresult": 0,
+      "bytecodeBytes": 8996,
+      "diagnostics": ""
+    },
+    {
+      "shader": "Meadow",
+      "pass": "MeadowDepthNormals",
+      "variant": "OctNormals",
+      "stage": "fragment",
+      "entry": "MeadowNormalsFragment",
+      "profile": "ps_4_0",
+      "keywords": [
+        "_GBUFFER_NORMALS_OCT"
+      ],
+      "hresult": 0,
+      "bytecodeBytes": 5856,
+      "diagnostics": ""
+    },
+    {
+      "shader": "Meadow",
+      "pass": "MeadowDepthNormals",
+      "variant": "Instanced",
+      "stage": "vertex",
+      "entry": "MeadowVertex",
+      "profile": "vs_4_0",
+      "keywords": [
+        "INSTANCING_ON"
+      ],
+      "hresult": 0,
+      "bytecodeBytes": 8100,
+      "diagnostics": ""
+    },
+    {
+      "shader": "Meadow",
+      "pass": "MeadowDepthNormals",
+      "variant": "Instanced",
+      "stage": "fragment",
+      "entry": "MeadowNormalsFragment",
+      "profile": "ps_4_0",
+      "keywords": [
+        "INSTANCING_ON"
+      ],
+      "hresult": 0,
+      "bytecodeBytes": 5292,
+      "diagnostics": ""
+    },
+    {
+      "shader": "Meadow",
+      "pass": "MeadowDepthNormals",
+      "variant": "OctInstanced",
+      "stage": "vertex",
+      "entry": "MeadowVertex",
+      "profile": "vs_4_0",
+      "keywords": [
+        "INSTANCING_ON",
+        "LOD_FADE_CROSSFADE"
+      ],
+      "hresult": 0,
+      "bytecodeBytes": 8148,
+      "diagnostics": ""
+    },
+    {
+      "shader": "Meadow",
+      "pass": "MeadowDepthNormals",
+      "variant": "OctInstanced",
+      "stage": "fragment",
+      "entry": "MeadowNormalsFragment",
+      "profile": "ps_4_0",
+      "keywords": [
+        "_GBUFFER_NORMALS_OCT",
+        "INSTANCING_ON",
+        "LOD_FADE_CROSSFADE"
+      ],
+      "hresult": 0,
+      "bytecodeBytes": 7920,
+      "diagnostics": ""
+    },
+    {
+      "shader": "TerrainSurface",
+      "pass": "TerrainSurfaceForward",
+      "variant": "Base",
+      "stage": "vertex",
+      "entry": "SurfaceVertex",
+      "profile": "vs_4_0",
+      "keywords": [],
+      "hresult": 0,
+      "bytecodeBytes": 6844,
+      "diagnostics": ""
+    },
+    {
+      "shader": "TerrainSurface",
+      "pass": "TerrainSurfaceForward",
+      "variant": "Base",
+      "stage": "fragment",
+      "entry": "SurfaceFragment",
+      "profile": "ps_4_0",
+      "keywords": [],
+      "hresult": 0,
+      "bytecodeBytes": 26092,
+      "diagnostics": ""
+    },
+    {
+      "shader": "TerrainSurface",
+      "pass": "TerrainSurfaceForward",
+      "variant": "SingleMainShadow",
+      "stage": "vertex",
+      "entry": "SurfaceVertex",
+      "profile": "vs_4_0",
+      "keywords": [
+        "_MAIN_LIGHT_SHADOWS"
+      ],
+      "hresult": 0,
+      "bytecodeBytes": 6844,
+      "diagnostics": ""
+    },
+    {
+      "shader": "TerrainSurface",
+      "pass": "TerrainSurfaceForward",
+      "variant": "SingleMainShadow",
+      "stage": "fragment",
+      "entry": "SurfaceFragment",
+      "profile": "ps_4_0",
+      "keywords": [
+        "_MAIN_LIGHT_SHADOWS"
+      ],
+      "hresult": 0,
+      "bytecodeBytes": 27500,
+      "diagnostics": ""
+    },
+    {
+      "shader": "TerrainSurface",
+      "pass": "TerrainSurfaceForward",
+      "variant": "CascadePixelLights",
+      "stage": "vertex",
+      "entry": "SurfaceVertex",
+      "profile": "vs_4_0",
+      "keywords": [
+        "_MAIN_LIGHT_SHADOWS_CASCADE",
+        "_ADDITIONAL_LIGHTS"
+      ],
+      "hresult": 0,
+      "bytecodeBytes": 7448,
+      "diagnostics": ""
+    },
+    {
+      "shader": "TerrainSurface",
+      "pass": "TerrainSurfaceForward",
+      "variant": "CascadePixelLights",
+      "stage": "fragment",
+      "entry": "SurfaceFragment",
+      "profile": "ps_4_0",
+      "keywords": [
+        "_MAIN_LIGHT_SHADOWS_CASCADE",
+        "_ADDITIONAL_LIGHTS",
+        "_SHADOWS_SOFT"
+      ],
+      "hresult": 0,
+      "bytecodeBytes": 36168,
+      "diagnostics": ""
+    },
+    {
+      "shader": "TerrainSurface",
+      "pass": "TerrainSurfaceForward",
+      "variant": "ScreenMainShadow",
+      "stage": "vertex",
+      "entry": "SurfaceVertex",
+      "profile": "vs_4_0",
+      "keywords": [
+        "_MAIN_LIGHT_SHADOWS_SCREEN",
+        "_ADDITIONAL_LIGHTS"
+      ],
+      "hresult": 0,
+      "bytecodeBytes": 6016,
+      "diagnostics": ""
+    },
+    {
+      "shader": "TerrainSurface",
+      "pass": "TerrainSurfaceForward",
+      "variant": "ScreenMainShadow",
+      "stage": "fragment",
+      "entry": "SurfaceFragment",
+      "profile": "ps_4_0",
+      "keywords": [
+        "_MAIN_LIGHT_SHADOWS_SCREEN",
+        "_ADDITIONAL_LIGHTS"
+      ],
+      "hresult": 0,
+      "bytecodeBytes": 29376,
+      "diagnostics": ""
+    },
+    {
+      "shader": "TerrainSurface",
+      "pass": "TerrainSurfaceForward",
+      "variant": "ForwardPlus",
+      "stage": "vertex",
+      "entry": "SurfaceVertex",
+      "profile": "vs_4_0",
+      "keywords": [
+        "_CLUSTER_LIGHT_LOOP"
+      ],
+      "hresult": 0,
+      "bytecodeBytes": 6996,
+      "diagnostics": ""
+    },
+    {
+      "shader": "TerrainSurface",
+      "pass": "TerrainSurfaceForward",
+      "variant": "ForwardPlus",
+      "stage": "fragment",
+      "entry": "SurfaceFragment",
+      "profile": "ps_4_0",
+      "keywords": [
+        "_CLUSTER_LIGHT_LOOP"
+      ],
+      "hresult": 0,
+      "bytecodeBytes": 31948,
+      "diagnostics": ""
+    },
+    {
+      "shader": "TerrainSurface",
+      "pass": "TerrainSurfaceForward",
+      "variant": "ForwardPlusCombined",
+      "stage": "vertex",
+      "entry": "SurfaceVertex",
+      "profile": "vs_4_0",
+      "keywords": [
+        "_CLUSTER_LIGHT_LOOP",
+        "_MAIN_LIGHT_SHADOWS_CASCADE",
+        "INSTANCING_ON",
+        "FOG_EXP2"
+      ],
+      "hresult": 0,
+      "bytecodeBytes": 6832,
+      "diagnostics": ""
+    },
+    {
+      "shader": "TerrainSurface",
+      "pass": "TerrainSurfaceForward",
+      "variant": "ForwardPlusCombined",
+      "stage": "fragment",
+      "entry": "SurfaceFragment",
+      "profile": "ps_4_0",
+      "keywords": [
+        "_CLUSTER_LIGHT_LOOP",
+        "_MAIN_LIGHT_SHADOWS_CASCADE",
+        "_ADDITIONAL_LIGHT_SHADOWS",
+        "_SHADOWS_SOFT_MEDIUM",
+        "_SCREEN_SPACE_OCCLUSION",
+        "INSTANCING_ON",
+        "FOG_EXP2",
+        "_LIGHT_COOKIES"
+      ],
+      "hresult": 0,
+      "bytecodeBytes": 48868,
+      "diagnostics": ""
+    },
+    {
+      "shader": "TerrainSurface",
+      "pass": "TerrainSurfaceForward",
+      "variant": "VertexAdditionalLights",
+      "stage": "vertex",
+      "entry": "SurfaceVertex",
+      "profile": "vs_4_0",
+      "keywords": [
+        "_ADDITIONAL_LIGHTS_VERTEX"
+      ],
+      "hresult": 0,
+      "bytecodeBytes": 8376,
+      "diagnostics": ""
+    },
+    {
+      "shader": "TerrainSurface",
+      "pass": "TerrainSurfaceForward",
+      "variant": "VertexAdditionalLights",
+      "stage": "fragment",
+      "entry": "SurfaceFragment",
+      "profile": "ps_4_0",
+      "keywords": [
+        "_ADDITIONAL_LIGHTS_VERTEX"
+      ],
+      "hresult": 0,
+      "bytecodeBytes": 26140,
+      "diagnostics": ""
+    },
+    {
+      "shader": "TerrainSurface",
+      "pass": "TerrainSurfaceForward",
+      "variant": "Instanced",
+      "stage": "vertex",
+      "entry": "SurfaceVertex",
+      "profile": "vs_4_0",
+      "keywords": [
+        "INSTANCING_ON"
+      ],
+      "hresult": 0,
+      "bytecodeBytes": 5900,
+      "diagnostics": ""
+    },
+    {
+      "shader": "TerrainSurface",
+      "pass": "TerrainSurfaceForward",
+      "variant": "Instanced",
+      "stage": "fragment",
+      "entry": "SurfaceFragment",
+      "profile": "ps_4_0",
+      "keywords": [
+        "INSTANCING_ON"
+      ],
+      "hresult": 0,
+      "bytecodeBytes": 26128,
+      "diagnostics": ""
+    },
+    {
+      "shader": "TerrainSurface",
+      "pass": "TerrainSurfaceForward",
+      "variant": "FOG_LINEAR",
+      "stage": "vertex",
+      "entry": "SurfaceVertex",
+      "profile": "vs_4_0",
+      "keywords": [
+        "FOG_LINEAR"
+      ],
+      "hresult": 0,
+      "bytecodeBytes": 7032,
+      "diagnostics": ""
+    },
+    {
+      "shader": "TerrainSurface",
+      "pass": "TerrainSurfaceForward",
+      "variant": "FOG_LINEAR",
+      "stage": "fragment",
+      "entry": "SurfaceFragment",
+      "profile": "ps_4_0",
+      "keywords": [
+        "FOG_LINEAR"
+      ],
+      "hresult": 0,
+      "bytecodeBytes": 26408,
+      "diagnostics": ""
+    },
+    {
+      "shader": "TerrainSurface",
+      "pass": "TerrainSurfaceForward",
+      "variant": "FOG_EXP",
+      "stage": "vertex",
+      "entry": "SurfaceVertex",
+      "profile": "vs_4_0",
+      "keywords": [
+        "FOG_EXP"
+      ],
+      "hresult": 0,
+      "bytecodeBytes": 7020,
+      "diagnostics": ""
+    },
+    {
+      "shader": "TerrainSurface",
+      "pass": "TerrainSurfaceForward",
+      "variant": "FOG_EXP",
+      "stage": "fragment",
+      "entry": "SurfaceFragment",
+      "profile": "ps_4_0",
+      "keywords": [
+        "FOG_EXP"
+      ],
+      "hresult": 0,
+      "bytecodeBytes": 26448,
+      "diagnostics": ""
+    },
+    {
+      "shader": "TerrainSurface",
+      "pass": "TerrainSurfaceForward",
+      "variant": "FOG_EXP2",
+      "stage": "vertex",
+      "entry": "SurfaceVertex",
+      "profile": "vs_4_0",
+      "keywords": [
+        "FOG_EXP2"
+      ],
+      "hresult": 0,
+      "bytecodeBytes": 7020,
+      "diagnostics": ""
+    },
+    {
+      "shader": "TerrainSurface",
+      "pass": "TerrainSurfaceForward",
+      "variant": "FOG_EXP2",
+      "stage": "fragment",
+      "entry": "SurfaceFragment",
+      "profile": "ps_4_0",
+      "keywords": [
+        "FOG_EXP2"
+      ],
+      "hresult": 0,
+      "bytecodeBytes": 26448,
+      "diagnostics": ""
+    },
+    {
+      "shader": "TerrainSurface",
+      "pass": "TerrainSurfaceForward",
+      "variant": "ForwardCookies",
+      "stage": "vertex",
+      "entry": "SurfaceVertex",
+      "profile": "vs_4_0",
+      "keywords": [
+        "_ADDITIONAL_LIGHTS",
+        "_MAIN_LIGHT_SHADOWS",
+        "INSTANCING_ON"
+      ],
+      "hresult": 0,
+      "bytecodeBytes": 5900,
+      "diagnostics": ""
+    },
+    {
+      "shader": "TerrainSurface",
+      "pass": "TerrainSurfaceForward",
+      "variant": "ForwardCookies",
+      "stage": "fragment",
+      "entry": "SurfaceFragment",
+      "profile": "ps_4_0",
+      "keywords": [
+        "_ADDITIONAL_LIGHTS",
+        "_LIGHT_COOKIES",
+        "_MAIN_LIGHT_SHADOWS",
+        "INSTANCING_ON"
+      ],
+      "hresult": 0,
+      "bytecodeBytes": 32740,
+      "diagnostics": ""
+    },
+    {
+      "shader": "TerrainSurface",
+      "pass": "TerrainSurfaceShadowCaster",
+      "variant": "Base",
+      "stage": "vertex",
+      "entry": "SurfaceShadowVertex",
+      "profile": "vs_4_0",
+      "keywords": [],
+      "hresult": 0,
+      "bytecodeBytes": 7236,
+      "diagnostics": ""
+    },
+    {
+      "shader": "TerrainSurface",
+      "pass": "TerrainSurfaceShadowCaster",
+      "variant": "Base",
+      "stage": "fragment",
+      "entry": "SurfaceDepthFragment",
+      "profile": "ps_4_0",
+      "keywords": [],
+      "hresult": 0,
+      "bytecodeBytes": 528,
+      "diagnostics": ""
+    },
+    {
+      "shader": "TerrainSurface",
+      "pass": "TerrainSurfaceShadowCaster",
+      "variant": "Punctual",
+      "stage": "vertex",
+      "entry": "SurfaceShadowVertex",
+      "profile": "vs_4_0",
+      "keywords": [
+        "_CASTING_PUNCTUAL_LIGHT_SHADOW"
+      ],
+      "hresult": 0,
+      "bytecodeBytes": 7368,
+      "diagnostics": ""
+    },
+    {
+      "shader": "TerrainSurface",
+      "pass": "TerrainSurfaceShadowCaster",
+      "variant": "Punctual",
+      "stage": "fragment",
+      "entry": "SurfaceDepthFragment",
+      "profile": "ps_4_0",
+      "keywords": [],
+      "hresult": 0,
+      "bytecodeBytes": 528,
+      "diagnostics": ""
+    },
+    {
+      "shader": "TerrainSurface",
+      "pass": "TerrainSurfaceShadowCaster",
+      "variant": "Instanced",
+      "stage": "vertex",
+      "entry": "SurfaceShadowVertex",
+      "profile": "vs_4_0",
+      "keywords": [
+        "INSTANCING_ON"
+      ],
+      "hresult": 0,
+      "bytecodeBytes": 6292,
+      "diagnostics": ""
+    },
+    {
+      "shader": "TerrainSurface",
+      "pass": "TerrainSurfaceShadowCaster",
+      "variant": "Instanced",
+      "stage": "fragment",
+      "entry": "SurfaceDepthFragment",
+      "profile": "ps_4_0",
+      "keywords": [
+        "INSTANCING_ON"
+      ],
+      "hresult": 0,
+      "bytecodeBytes": 564,
+      "diagnostics": ""
+    },
+    {
+      "shader": "TerrainSurface",
+      "pass": "TerrainSurfaceShadowCaster",
+      "variant": "PunctualInstanced",
+      "stage": "vertex",
+      "entry": "SurfaceShadowVertex",
+      "profile": "vs_4_0",
+      "keywords": [
+        "_CASTING_PUNCTUAL_LIGHT_SHADOW",
+        "INSTANCING_ON"
+      ],
+      "hresult": 0,
+      "bytecodeBytes": 6424,
+      "diagnostics": ""
+    },
+    {
+      "shader": "TerrainSurface",
+      "pass": "TerrainSurfaceShadowCaster",
+      "variant": "PunctualInstanced",
+      "stage": "fragment",
+      "entry": "SurfaceDepthFragment",
+      "profile": "ps_4_0",
+      "keywords": [
+        "INSTANCING_ON"
+      ],
+      "hresult": 0,
+      "bytecodeBytes": 564,
+      "diagnostics": ""
+    },
+    {
+      "shader": "TerrainSurface",
+      "pass": "TerrainSurfaceDepthOnly",
+      "variant": "Base",
+      "stage": "vertex",
+      "entry": "SurfaceVertex",
+      "profile": "vs_4_0",
+      "keywords": [],
+      "hresult": 0,
+      "bytecodeBytes": 6844,
+      "diagnostics": ""
+    },
+    {
+      "shader": "TerrainSurface",
+      "pass": "TerrainSurfaceDepthOnly",
+      "variant": "Base",
+      "stage": "fragment",
+      "entry": "SurfaceDepthFragment",
+      "profile": "ps_4_0",
+      "keywords": [],
+      "hresult": 0,
+      "bytecodeBytes": 528,
+      "diagnostics": ""
+    },
+    {
+      "shader": "TerrainSurface",
+      "pass": "TerrainSurfaceDepthOnly",
+      "variant": "Instanced",
+      "stage": "vertex",
+      "entry": "SurfaceVertex",
+      "profile": "vs_4_0",
+      "keywords": [
+        "INSTANCING_ON"
+      ],
+      "hresult": 0,
+      "bytecodeBytes": 5900,
+      "diagnostics": ""
+    },
+    {
+      "shader": "TerrainSurface",
+      "pass": "TerrainSurfaceDepthOnly",
+      "variant": "Instanced",
+      "stage": "fragment",
+      "entry": "SurfaceDepthFragment",
+      "profile": "ps_4_0",
+      "keywords": [
+        "INSTANCING_ON"
+      ],
+      "hresult": 0,
+      "bytecodeBytes": 564,
+      "diagnostics": ""
+    },
+    {
+      "shader": "TerrainSurface",
+      "pass": "TerrainSurfaceDepthNormals",
+      "variant": "Base",
+      "stage": "vertex",
+      "entry": "SurfaceVertex",
+      "profile": "vs_4_0",
+      "keywords": [],
+      "hresult": 0,
+      "bytecodeBytes": 6844,
+      "diagnostics": ""
+    },
+    {
+      "shader": "TerrainSurface",
+      "pass": "TerrainSurfaceDepthNormals",
+      "variant": "Base",
+      "stage": "fragment",
+      "entry": "SurfaceNormalsFragment",
+      "profile": "ps_4_0",
+      "keywords": [],
+      "hresult": 0,
+      "bytecodeBytes": 19044,
+      "diagnostics": ""
+    },
+    {
+      "shader": "TerrainSurface",
+      "pass": "TerrainSurfaceDepthNormals",
+      "variant": "OctNormals",
+      "stage": "vertex",
+      "entry": "SurfaceVertex",
+      "profile": "vs_4_0",
+      "keywords": [],
+      "hresult": 0,
+      "bytecodeBytes": 6844,
+      "diagnostics": ""
+    },
+    {
+      "shader": "TerrainSurface",
+      "pass": "TerrainSurfaceDepthNormals",
+      "variant": "OctNormals",
+      "stage": "fragment",
+      "entry": "SurfaceNormalsFragment",
+      "profile": "ps_4_0",
+      "keywords": [
+        "_GBUFFER_NORMALS_OCT"
+      ],
+      "hresult": 0,
+      "bytecodeBytes": 19628,
+      "diagnostics": ""
+    },
+    {
+      "shader": "TerrainSurface",
+      "pass": "TerrainSurfaceDepthNormals",
+      "variant": "Instanced",
+      "stage": "vertex",
+      "entry": "SurfaceVertex",
+      "profile": "vs_4_0",
+      "keywords": [
+        "INSTANCING_ON"
+      ],
+      "hresult": 0,
+      "bytecodeBytes": 5900,
+      "diagnostics": ""
+    },
+    {
+      "shader": "TerrainSurface",
+      "pass": "TerrainSurfaceDepthNormals",
+      "variant": "Instanced",
+      "stage": "fragment",
+      "entry": "SurfaceNormalsFragment",
+      "profile": "ps_4_0",
+      "keywords": [
+        "INSTANCING_ON"
+      ],
+      "hresult": 0,
+      "bytecodeBytes": 19080,
+      "diagnostics": ""
+    },
+    {
+      "shader": "TerrainSurface",
+      "pass": "TerrainSurfaceDepthNormals",
+      "variant": "OctInstanced",
+      "stage": "vertex",
+      "entry": "SurfaceVertex",
+      "profile": "vs_4_0",
+      "keywords": [
+        "INSTANCING_ON"
+      ],
+      "hresult": 0,
+      "bytecodeBytes": 5900,
+      "diagnostics": ""
+    },
+    {
+      "shader": "TerrainSurface",
+      "pass": "TerrainSurfaceDepthNormals",
+      "variant": "OctInstanced",
+      "stage": "fragment",
+      "entry": "SurfaceNormalsFragment",
+      "profile": "ps_4_0",
+      "keywords": [
+        "_GBUFFER_NORMALS_OCT",
+        "INSTANCING_ON"
+      ],
+      "hresult": 0,
+      "bytecodeBytes": 19664,
+      "diagnostics": ""
+    }
+  ]
+}

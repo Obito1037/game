@@ -1,0 +1,35 @@
+{
+  "status": "offline-visually-recommended-pending-root-unity-review",
+  "actual_added_island_triangles": 0,
+  "instance_counts": {
+    "pier_module": 3,
+    "pier_end": 0,
+    "bench": 1
+  },
+  "assets": [
+    "pier_module",
+    "pier_end",
+    "bench"
+  ],
+  "accepted_scope": "UV/material surface improvement only; all authored geometry, markers and bounds unchanged.",
+  "not_claimed": [
+    "Unity imported appearance",
+    "three-module repeat/seam runtime test",
+    "collision or seat playtest",
+    "FPS",
+    "new bevels/nails/wear geometry",
+    "dedicated annual-ring/normal/roughness textures"
+  ],
+  "visual_risks": [
+    "Wood remains relatively clean; no authored dirt edge mask.",
+    "Fine grain can compete with seams; review Unity mipmaps and repeated modules.",
+    "End caps reuse planar wood grain rather than dedicated annual rings."
+  ],
+  "evidence": [
+    "REVIEW.html",
+    "REVIEW.zh-CN.md",
+    "fresh-process-verification.json",
+    "final-verification.json",
+    "INTERFACE-AUDIT.zh-CN.md"
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "utc": "2026-10-22T22:12:06.6570694Z",
+  "decision": "accepted-for-offline-candidate-integration-only",
+  "unityImported": false,
+  "reviewer": "root",
+  "scope": "Read actual Blender before/after images, not game screenshots. No approval of rendered Unity, gameplay or performance.",
+  "pairs": [
+    "cottage_teal/before-neutral-front.png | cottage_teal/after-neutral-front.png",
+    "cottage_ochre/before-neutral-back.png | cottage_ochre/after-neutral-back.png",
+    "cottage_slate/before-night-front.png | cottage_slate/after-night-front.png"
+  ],
+  "observed": [
+    "木纹沿墙板、门和梁方向可读。",
+    "屋瓦从格栅压线变为弧面分块。",
+    "所审三对图的窗角/柱脚黑块消失，正常屋檐阴影仍在。",
+    "暖窗保持独立，赭红背窗由平发光面恢复可见窗框。"
+  ],
+  "limitations": [
+    "叶/草/整岛背景不在这些单物体图中。",
+    "屋瓦/石脚仍是简洁材质，离线与Unity共享瓦材质roughness不完全一致。",
+    "原碰撞保留的运行检查、整岛真实夜景及性能未验证。"
+  ],
+  "sourceFbx": [
+    {
+      "path": "C:\\Users\\20665\\Desktop\\game\\art\\generated\\env-v2\\village\\cottage_teal\\cottage_teal_v2_candidate.fbx",
+      "sha256": "d064c6b801ee79907c1e7784c8d2f2c1826b97732f4bc442e2ecf283169a1eef"
+    },
+    {
+      "path": "C:\\Users\\20665\\Desktop\\game\\art\\generated\\env-v2\\village\\cottage_ochre\\cottage_ochre_v2_candidate.fbx",
+      "sha256": "4d4674aef86b25a4da2b38aed75c3ac4631e7be1f226bceb506e28fde45da9b4"
+    },
+    {
+      "path": "C:\\Users\\20665\\Desktop\\game\\art\\generated\\env-v2\\village\\cottage_slate\\cottage_slate_v2_candidate.fbx",
+      "sha256": "c5c905ca45054cbb365d559dc5f64371f6e2e8e2119a46a7d2863788fcdee2ad"
+    }
+  ],
+  "browserReview": "art/generated/env-v2/village/review-browser.png",
+  "candidateCsharpEvidence": "art/generated/env-v2/staging/verification/candidate-village-csharp.json"
+}

@@ -1,0 +1,113 @@
+{
+  "schema": "jieguang.A04.offline-flower.v1",
+  "updated_utc": "2026-10-22T22:10:22.800008+00:00",
+  "recommended": "candidate-c",
+  "status": "independent_asset_candidate_ready_for_Unity_import_verification_not_story_integrated",
+  "source_script": {
+    "path": "art/blender/env_v2_first_flower.py",
+    "sha256": "6f8a47b43d29ef3673b96af7feaea83d23b2fbafe378233aa18db0965b60a858"
+  },
+  "files": {
+    "candidate-c/A04_petal_albedo.png": {
+      "sha256": "f2cd069cea1787ffc34e57ea021d8cb8705667590e21f8e03a9f0bfdbb209fd6",
+      "bytes": 37109
+    },
+    "candidate-c/asset-report.json": {
+      "sha256": "4b284b59b6c7fe0ec175747a5820dc33303cf26a014327f2ef446450cd26082c",
+      "bytes": 5783
+    },
+    "candidate-c/blend-reopen.json": {
+      "sha256": "6507c6f0ef796f66f9d1d19ac2b489ad39db73ad4e25e587077fd1b501e6763b",
+      "bytes": 452
+    },
+    "candidate-c/fbx-roundtrip.json": {
+      "sha256": "1087b8d1a15ec1b09853f23c3c0ec44cb66ec853b57e6ce75f3c04b32f528b12",
+      "bytes": 2713
+    },
+    "candidate-c/first_flower_A04.blend": {
+      "sha256": "e2c28b2283ebc6597dc142a16189d09b452306c48b332c1fb8004e67ecea60aa",
+      "bytes": 781450
+    },
+    "candidate-c/first_flower_A04.fbx": {
+      "sha256": "df7a825797221681457b9c86350c861b5d32cfd0c80a082216a208fe573ac24d",
+      "bytes": 95804
+    },
+    "candidate-c/morph-interpolation-audit.json": {
+      "sha256": "e045830729346ec92010403a75511cb3278087a6eb8d359bf57cd819a9321239",
+      "bytes": 11574
+    },
+    "candidate-c/neutral-closed.png": {
+      "sha256": "843815cc53f18a5043fc9ef1afad9272907cb3f839488ae183e55bd4f5353a87",
+      "bytes": 800853
+    },
+    "candidate-c/neutral-half.png": {
+      "sha256": "ef98d5242b0d41dc985f391c003968c7bf0037346397db82e96dcd45a2077e0a",
+      "bytes": 796924
+    },
+    "candidate-c/neutral-open.png": {
+      "sha256": "a81ecba8af441c8342d07723b1172b93e98061480b69b806f9448384fe193160",
+      "bytes": 818961
+    },
+    "candidate-c/neutral-side-thickness.png": {
+      "sha256": "3a8de0d4dd6b9651dc1f8071d9c2ae0b403cf774dc204b53ac432a02aff9eea3",
+      "bytes": 817140
+    },
+    "candidate-c/night-open.png": {
+      "sha256": "1d314e4c092ad8e181c946526e12947825b65e53fa94054de96369a88edabd34",
+      "bytes": 830805
+    },
+    "candidate-c/source-geometry.json": {
+      "sha256": "45799ccdae24a4330f8b27bd8b527c581da23425223bc7782f7006fc3bc11afa",
+      "bytes": 239790
+    },
+    "candidate-c/first_flower_A04.fbm/A04_petal_albedo.png": {
+      "sha256": "f2cd069cea1787ffc34e57ea021d8cb8705667590e21f8e03a9f0bfdbb209fd6",
+      "bytes": 37109
+    }
+  },
+  "triangles": 1968,
+  "vertices": 1010,
+  "open_corolla_diameter_m": 0.25,
+  "shape_contract": {
+    "basis": "ClosedBud",
+    "blendshapes": [
+      "HalfOpen",
+      "Open"
+    ],
+    "unity_weight_range": [
+      0,
+      100
+    ],
+    "closed": [
+      0,
+      0
+    ],
+    "half": [
+      100,
+      0
+    ],
+    "open": [
+      0,
+      100
+    ],
+    "interpolation": "t<=.5: [200t,0]; t>.5: [200(1-t),200t-100]"
+  },
+  "material_count": 5,
+  "author_review": "5 saved Cycles renders personally reviewed, neutral/day-night same primary camera",
+  "root_review": "Parent actually viewed open/side/closed/night and accepted candidate-c for independent asset use; not scene approval",
+  "unity_operated": false,
+  "tree_attachment_world_pose": null,
+  "story_code_modified": false,
+  "limitations": [
+    "Leaves remain visibly low-poly at macro scale",
+    "Night branch/leaf values dark",
+    "Small amber heart polygon silhouette",
+    "No Unity import, material or deformation-normal verification",
+    "No claim of complete continuous self-intersection validation"
+  ],
+  "history": {
+    "candidate-a": "rejected: flat/opening silhouette, overbright neutral, bud top gap",
+    "candidate-b": "rejected: petal-root overlap implied extra inner petals, right leaf occluded",
+    "candidate-c": "recommended: root narrowing and lower right leaf, 1968 triangles, fresh FBX/Blend checks passed"
+  }
+}

@@ -1,0 +1,16 @@
+{
+ "id": "B01_lantern",
+ "source": "art\\incoming\\tripo-v2-2026-10-22\\tripo_convert_9a552b1b-d208-4b4d-bb6f-cff8e6dfa450.glb",
+ "source_sha256": "4509667bb4f50dde6908d66d145d46a053a50799ff35e5d72328ddc2a9a1676f",
+ "tris_before": 20582,
+ "tris_after": 3000,
+ "size_m": [
+  0.141,
+  0.156,
+  0.3
+ ],
+ "textures": {
+  "albedo": "B01_lantern_albedo.jpg"
+ },
+ "materials": 1
+}

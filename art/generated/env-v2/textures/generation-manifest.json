@@ -1,0 +1,17 @@
+{
+  "status": "original-generated-candidates-awaiting-tile-and-Unity-validation",
+  "method": "built-in image_gen; imagegen skill",
+  "referenceGameAssetsUsed": false,
+  "assets": [
+    {
+      "file": "meadow_albedo_v1.png",
+      "prompt": "Use case: stylized-concept. Asset type: ORIGINAL seamless tileable square albedo/base-color texture for a warm storybook 3D indie game terrain, 2048x2048 if possible. Primary request: a natural short coastal meadow soil surface seen perfectly orthographic straight down, covering approximately 2 metres square. Dense low moss and fine short silvery sage-green grass clippings, mottled olive-gray earth visible in irregular connected areas, small embedded gray-beige pebbles, a few tiny dry straw fibres. 60 percent fine soft sage moss, 35 percent muted earth, 5 percent subtle tiny stones/fibres, mixed across the whole image. Organic multiscale variation: broad quiet patches, fine granular soil, readable but restrained clumps. A tactile handmade animated-film surface, detailed and credible but soft and not photoreal noisy. Neutral diffuse daylight albedo ONLY: no directional shadows, ambient occlusion, baked highlights, lighting gradients, night tint, or bright glows. Moderate muted natural colors, not vivid lawn green. Edge-to-edge material with no horizon, no perspective, no framing, no isolated object, no path or road, no flowers, no large leaves or stones. Opposite image edges must tile seamlessly, no obvious centre focal point, no obvious repeated motifs, no grid, no text/watermarks. This is a production material texture, NOT a scene or concept landscape. No reference-game images or assets are used.",
+      "source": "C:/Users/20665/.codex/generated_images/01a15a35-69af-7360-ad6d-41efdbf60d8b/exec-f3511e2c-20ff-4687-9413-52217711fd89.png"
+    },
+    {
+      "file": "wood_albedo_v1.png",
+      "prompt": "Use case: stylized-concept. Asset type: original seamless tileable square wood albedo texture for a high-quality warm storybook 3D coastal village game. Create one continuous surface of old pale weathered softwood with fine vertically aligned grain, subtle worn fibres, small restrained knots and softly washed-out grey-beige pores. Surface like lovingly maintained old coastal timber: light warm ivory-gray with subtle desaturated taupe streaks, gentle handmade animated-film material quality, credible but not harsh photoreal contrast. Straight orthographic top-down material scan, approximately one metre square. Neutral evenly diffuse light/albedo only, no directional illumination, no cast shadows, no highlights, no specular shine, no ambient-occlusion baked shading. Edge-to-edge surface, fully seamless on both axes with no central focal motif, modest variation so repetition is not apparent. DO NOT draw individual planks, seams between boards, borders, nails, panels, perspective, vignette, text or any objects. Geometry will provide the planks. Vertically flowing narrow grain covers the whole image; worn edges and grey-blue night lighting will be added in-game. Square image, ideally 2048 pixels. No reference-game assets used.",
+      "source": "C:/Users/20665/.codex/generated_images/01a15a35-69af-7360-ad6d-41efdbf60d8b/exec-deef0d12-ff27-457e-94ea-8b7fc0ae88f4.png"
+    }
+  ]
+}

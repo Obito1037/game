@@ -1,0 +1,1407 @@
+{
+  "asset_id": "cottage_teal",
+  "status": "offline-candidate-awaiting-visual-review",
+  "source": "art\\generated\\env-v1\\props\\cottage_teal\\cottage_teal.blend",
+  "source_sha256": "9f8b73aa32ac02924753ffbe9750da6ccd4d0f46ca3632069933a389d5d94e09",
+  "before_triangles": 1024,
+  "after_triangles": 1478,
+  "additional_triangles": 454,
+  "structure_triangles": 1454,
+  "before_bounds": {
+    "min": [
+      -1.871727705001831,
+      -1.7949999570846558,
+      0.0
+    ],
+    "max": [
+      1.871727705001831,
+      1.6616840362548828,
+      3.634999990463257
+    ]
+  },
+  "after_bounds": {
+    "min": [
+      -1.871727705001831,
+      -1.7949999570846558,
+      0.0
+    ],
+    "max": [
+      1.871727705001831,
+      1.6616840362548828,
+      3.634999990463257
+    ]
+  },
+  "before_interface": {
+    "root": {
+      "cottage_teal": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "markers": {
+      "Marker_Door": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -0.6200000047683716
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -1.7549999952316284
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.2199999988079071
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "windows": {
+      "Window_00": {
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.7440000176429749
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            -1.3630000352859497
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            1.399999976158142
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "local_matrix": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.7440000176429749
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            -1.3630000352859497
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            1.399999976158142
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "hash": "e84f113f783baed3e743d62185163313a173a7a8ff94e9014e1edd9ed1603f95",
+        "bounds": {
+          "min": [
+            0.4090000092983246,
+            -1.380500078201294,
+            0.9850000143051147
+          ],
+          "max": [
+            1.0789999961853027,
+            -1.3454999923706055,
+            1.8149999380111694
+          ]
+        },
+        "parent": "cottage_teal"
+      },
+      "Window_01": {
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            1.3630000352859497
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            1.399999976158142
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "local_matrix": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            1.3630000352859497
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            1.399999976158142
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "hash": "d315e49d4115a564e37198482a09f245bd2bd6169f436e776459d40107e73d99",
+        "bounds": {
+          "min": [
+            -0.4000000059604645,
+            1.3454999923706055,
+            1.0149999856948853
+          ],
+          "max": [
+            0.4000000059604645,
+            1.380500078201294,
+            1.784999966621399
+          ]
+        },
+        "parent": "cottage_teal"
+      }
+    }
+  },
+  "after_interface": {
+    "root": {
+      "cottage_teal": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "markers": {
+      "Marker_Door": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -0.6200000047683716
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -1.7549999952316284
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.2199999988079071
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "windows": {
+      "Window_00": {
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.7440000176429749
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            -1.3630000352859497
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            1.399999976158142
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "local_matrix": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.7440000176429749
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            -1.3630000352859497
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            1.399999976158142
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "hash": "e84f113f783baed3e743d62185163313a173a7a8ff94e9014e1edd9ed1603f95",
+        "bounds": {
+          "min": [
+            0.4090000092983246,
+            -1.380500078201294,
+            0.9850000143051147
+          ],
+          "max": [
+            1.0789999961853027,
+            -1.3454999923706055,
+            1.8149999380111694
+          ]
+        },
+        "parent": "cottage_teal"
+      },
+      "Window_01": {
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            1.3630000352859497
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            1.399999976158142
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "local_matrix": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            1.3630000352859497
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            1.399999976158142
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "hash": "d315e49d4115a564e37198482a09f245bd2bd6169f436e776459d40107e73d99",
+        "bounds": {
+          "min": [
+            -0.4000000059604645,
+            1.3454999923706055,
+            1.0149999856948853
+          ],
+          "max": [
+            0.4000000059604645,
+            1.380500078201294,
+            1.784999966621399
+          ]
+        },
+        "parent": "cottage_teal"
+      }
+    }
+  },
+  "checks": {
+    "windows_root_markers_exact": true,
+    "original_material_slots_exact": true,
+    "bounds_exact_within_1micrometre": true,
+    "base_walls_door_step_vertices_preserved": true,
+    "added_triangles_le_700": true,
+    "window_renderer_count_2": true,
+    "wood_V_inside_image": true,
+    "source_sha_unchanged": true
+  },
+  "changes": [
+    {
+      "component": 6,
+      "action": "replace",
+      "reason": "front_siding_strip"
+    },
+    {
+      "component": 7,
+      "action": "replace",
+      "reason": "front_siding_strip"
+    },
+    {
+      "component": 8,
+      "action": "replace",
+      "reason": "front_siding_strip"
+    },
+    {
+      "component": 9,
+      "action": "replace",
+      "reason": "front_siding_strip"
+    },
+    {
+      "component": 10,
+      "action": "replace",
+      "reason": "front_siding_strip"
+    },
+    {
+      "component": 11,
+      "action": "replace",
+      "reason": "front_siding_strip"
+    },
+    {
+      "component": 20,
+      "action": "trim_depth_only",
+      "delta_y": -0.003
+    },
+    {
+      "component": 21,
+      "action": "trim_depth_only",
+      "delta_y": -0.003
+    },
+    {
+      "component": 23,
+      "action": "trim_depth_only",
+      "delta_y": -0.006
+    },
+    {
+      "component": 25,
+      "action": "trim_depth_only",
+      "delta_y": 0.08
+    },
+    {
+      "component": 26,
+      "action": "trim_depth_only",
+      "delta_y": 0.08
+    },
+    {
+      "component": 27,
+      "action": "trim_depth_only",
+      "delta_y": 0.083
+    },
+    {
+      "component": 28,
+      "action": "trim_depth_only",
+      "delta_y": 0.083
+    },
+    {
+      "component": 29,
+      "action": "trim_depth_only",
+      "delta_y": 0.08
+    },
+    {
+      "component": 30,
+      "action": "trim_depth_only",
+      "delta_y": 0.08600000000000001
+    },
+    {
+      "component": 31,
+      "action": "trim_depth_only",
+      "delta_y": 0.2
+    },
+    {
+      "component": 36,
+      "action": "replace",
+      "reason": "roof_grid"
+    },
+    {
+      "component": 37,
+      "action": "replace",
+      "reason": "roof_grid"
+    },
+    {
+      "component": 38,
+      "action": "replace",
+      "reason": "roof_grid"
+    },
+    {
+      "component": 39,
+      "action": "replace",
+      "reason": "roof_grid"
+    },
+    {
+      "component": 40,
+      "action": "replace",
+      "reason": "roof_grid"
+    },
+    {
+      "component": 41,
+      "action": "replace",
+      "reason": "roof_grid"
+    },
+    {
+      "component": 42,
+      "action": "replace",
+      "reason": "roof_grid"
+    },
+    {
+      "component": 43,
+      "action": "replace",
+      "reason": "roof_grid"
+    },
+    {
+      "component": 44,
+      "action": "replace",
+      "reason": "roof_grid"
+    },
+    {
+      "component": 45,
+      "action": "replace",
+      "reason": "roof_grid"
+    },
+    {
+      "component": 46,
+      "action": "replace",
+      "reason": "roof_grid"
+    },
+    {
+      "component": 48,
+      "action": "replace",
+      "reason": "roof_grid"
+    },
+    {
+      "component": 49,
+      "action": "replace",
+      "reason": "roof_grid"
+    },
+    {
+      "component": 50,
+      "action": "replace",
+      "reason": "roof_grid"
+    },
+    {
+      "component": 51,
+      "action": "replace",
+      "reason": "roof_grid"
+    },
+    {
+      "component": 52,
+      "action": "replace",
+      "reason": "roof_grid"
+    },
+    {
+      "component": 53,
+      "action": "replace",
+      "reason": "roof_grid"
+    },
+    {
+      "component": 54,
+      "action": "replace",
+      "reason": "roof_grid"
+    },
+    {
+      "component": 55,
+      "action": "replace",
+      "reason": "roof_grid"
+    },
+    {
+      "component": 56,
+      "action": "replace",
+      "reason": "roof_grid"
+    },
+    {
+      "component": 57,
+      "action": "replace",
+      "reason": "roof_grid"
+    },
+    {
+      "component": 58,
+      "action": "replace",
+      "reason": "roof_grid"
+    },
+    {
+      "component": 65,
+      "action": "replace",
+      "reason": "solid_chimney_cap"
+    }
+  ],
+  "uv": {
+    "components": [
+      {
+        "component": 1,
+        "materials": [
+          "Wall_WarmIvory"
+        ],
+        "wood_faces": 6,
+        "size": [
+          3.0999999046325684,
+          2.6500000953674316,
+          2.2199999317526817
+        ]
+      },
+      {
+        "component": 2,
+        "materials": [
+          "Wood_DarkBeams"
+        ],
+        "wood_faces": 6,
+        "size": [
+          0.13000011444091797,
+          0.13000011444091797,
+          2.31999983638525
+        ]
+      },
+      {
+        "component": 3,
+        "materials": [
+          "Wood_DarkBeams"
+        ],
+        "wood_faces": 6,
+        "size": [
+          0.13000011444091797,
+          0.13000011444091797,
+          2.31999983638525
+        ]
+      },
+      {
+        "component": 4,
+        "materials": [
+          "Wood_DarkBeams"
+        ],
+        "wood_faces": 6,
+        "size": [
+          0.13000011444091797,
+          0.13000011444091797,
+          2.31999983638525
+        ]
+      },
+      {
+        "component": 5,
+        "materials": [
+          "Wood_DarkBeams"
+        ],
+        "wood_faces": 6,
+        "size": [
+          0.13000011444091797,
+          0.13000011444091797,
+          2.31999983638525
+        ]
+      },
+      {
+        "component": 6,
+        "materials": [
+          "Wood_Honey"
+        ],
+        "wood_faces": 6,
+        "size": [
+          0.75,
+          0.06999993324279785,
+          1.7600000128149986
+        ]
+      },
+      {
+        "component": 7,
+        "materials": [
+          "Wood_DarkBeams"
+        ],
+        "wood_faces": 6,
+        "size": [
+          0.0899999737739563,
+          0.09999990463256836,
+          1.949999950826168
+        ]
+      },
+      {
+        "component": 8,
+        "materials": [
+          "Wood_DarkBeams"
+        ],
+        "wood_faces": 6,
+        "size": [
+          0.09000000357627869,
+          0.09999990463256836,
+          1.949999950826168
+        ]
+      },
+      {
+        "component": 9,
+        "materials": [
+          "Wood_DarkBeams"
+        ],
+        "wood_faces": 6,
+        "size": [
+          0.9100000560283661,
+          0.11999988555908203,
+          0.11999988555908203
+        ]
+      },
+      {
+        "component": 12,
+        "materials": [
+          "Wood_DarkBeams"
+        ],
+        "wood_faces": 6,
+        "size": [
+          0.07999998331069946,
+          0.07999992370605469,
+          0.9900000095367432
+        ]
+      },
+      {
+        "component": 13,
+        "materials": [
+          "Wood_DarkBeams"
+        ],
+        "wood_faces": 6,
+        "size": [
+          0.07999992370605469,
+          0.07999992370605469,
+          0.9900000095367432
+        ]
+      },
+      {
+        "component": 14,
+        "materials": [
+          "Wood_DarkBeams"
+        ],
+        "wood_faces": 6,
+        "size": [
+          0.8300000131130219,
+          0.07999992370605469,
+          0.07999998331069946
+        ]
+      },
+      {
+        "component": 15,
+        "materials": [
+          "Wood_DarkBeams"
+        ],
+        "wood_faces": 6,
+        "size": [
+          0.8300000131130219,
+          0.07999992370605469,
+          0.07999992370605469
+        ]
+      },
+      {
+        "component": 16,
+        "materials": [
+          "Wood_DarkBeams"
+        ],
+        "wood_faces": 6,
+        "size": [
+          0.04700005054473877,
+          0.07999992370605469,
+          0.8299999237060547
+        ]
+      },
+      {
+        "component": 17,
+        "materials": [
+          "Wood_DarkBeams"
+        ],
+        "wood_faces": 6,
+        "size": [
+          0.6699999868869781,
+          0.07999992370605469,
+          0.04699993133544922
+        ]
+      },
+      {
+        "component": 18,
+        "materials": [
+          "Wood_Endgrain"
+        ],
+        "wood_faces": 6,
+        "size": [
+          0.8899999856948853,
+          0.2799999713897705,
+          0.09500002861022949
+        ]
+      },
+      {
+        "component": 19,
+        "materials": [
+          "Wood_DarkBeams"
+        ],
+        "wood_faces": 6,
+        "size": [
+          0.07999998331069946,
+          0.07999992370605469,
+          0.9300000667572021
+        ]
+      },
+      {
+        "component": 20,
+        "materials": [
+          "Wood_DarkBeams"
+        ],
+        "wood_faces": 6,
+        "size": [
+          0.07999998331069946,
+          0.07999992370605469,
+          0.9300000667572021
+        ]
+      },
+      {
+        "component": 21,
+        "materials": [
+          "Wood_DarkBeams"
+        ],
+        "wood_faces": 6,
+        "size": [
+          0.9599999785423279,
+          0.07999992370605469,
+          0.07999998331069946
+        ]
+      },
+      {
+        "component": 22,
+        "materials": [
+          "Wood_DarkBeams"
+        ],
+        "wood_faces": 6,
+        "size": [
+          0.9599999785423279,
+          0.07999992370605469,
+          0.07999992370605469
+        ]
+      },
+      {
+        "component": 23,
+        "materials": [
+          "Wood_DarkBeams"
+        ],
+        "wood_faces": 6,
+        "size": [
+          0.04699999839067459,
+          0.07999992370605469,
+          0.7699999809265137
+        ]
+      },
+      {
+        "component": 24,
+        "materials": [
+          "Wood_DarkBeams"
+        ],
+        "wood_faces": 6,
+        "size": [
+          0.800000011920929,
+          0.07999992370605469,
+          0.04699993133544922
+        ]
+      },
+      {
+        "component": 25,
+        "materials": [
+          "Wood_Endgrain"
+        ],
+        "wood_faces": 6,
+        "size": [
+          1.0199999809265137,
+          0.2799999713897705,
+          0.09500002861022949
+        ]
+      },
+      {
+        "component": 26,
+        "materials": [
+          "Wall_WarmIvory"
+        ],
+        "wood_faces": 5,
+        "size": [
+          3.0999999046325684,
+          0.11000001430511475,
+          1.1000001430511475
+        ]
+      },
+      {
+        "component": 27,
+        "materials": [
+          "Wall_WarmIvory"
+        ],
+        "wood_faces": 5,
+        "size": [
+          3.0999999046325684,
+          0.11000001430511475,
+          1.1000001430511475
+        ]
+      },
+      {
+        "component": 28,
+        "materials": [
+          "Wood_DarkBeams"
+        ],
+        "wood_faces": 6,
+        "size": [
+          0.12999999523162842,
+          0.13000011444091797,
+          1.1000003814697266
+        ]
+      },
+      {
+        "component": 32,
+        "materials": [
+          "Wood_Honey"
+        ],
+        "wood_faces": 8,
+        "size": [
+          1.9134554266929626,
+          0.13336801528930664,
+          1.3094263076782227
+        ]
+      },
+      {
+        "component": 33,
+        "materials": [
+          "Wood_Honey"
+        ],
+        "wood_faces": 8,
+        "size": [
+          1.9134554266929626,
+          0.13336801528930664,
+          1.3094263076782227
+        ]
+      },
+      {
+        "component": 34,
+        "materials": [
+          "Wood_Honey"
+        ],
+        "wood_faces": 8,
+        "size": [
+          1.9134554266929626,
+          0.13336801528930664,
+          1.3094263076782227
+        ]
+      },
+      {
+        "component": 35,
+        "materials": [
+          "Wood_Honey"
+        ],
+        "wood_faces": 8,
+        "size": [
+          1.9134554266929626,
+          0.13336801528930664,
+          1.3094263076782227
+        ]
+      },
+      {
+        "component": 85,
+        "materials": [
+          "Wall_WarmIvory"
+        ],
+        "wood_faces": 3,
+        "size": [
+          2.9600000381469727,
+          0.011357784271240234,
+          0.3410000056028366
+        ]
+      },
+      {
+        "component": 86,
+        "materials": [
+          "Wall_WarmIvory"
+        ],
+        "wood_faces": 3,
+        "size": [
+          2.9600000381469727,
+          0.013130664825439453,
+          0.3410000205039978
+        ]
+      },
+      {
+        "component": 87,
+        "materials": [
+          "Wall_WarmIvory"
+        ],
+        "wood_faces": 3,
+        "size": [
+          2.9600000381469727,
+          0.011973857879638672,
+          0.3410000801086426
+        ]
+      },
+      {
+        "component": 88,
+        "materials": [
+          "Wall_WarmIvory"
+        ],
+        "wood_faces": 3,
+        "size": [
+          2.9600000381469727,
+          0.011053919792175293,
+          0.340999960899353
+        ]
+      },
+      {
+        "component": 89,
+        "materials": [
+          "Wall_WarmIvory"
+        ],
+        "wood_faces": 3,
+        "size": [
+          2.9600000381469727,
+          0.013941526412963867,
+          0.340999960899353
+        ]
+      },
+      {
+        "component": 90,
+        "materials": [
+          "Wall_WarmIvory"
+        ],
+        "wood_faces": 3,
+        "size": [
+          2.9600000381469727,
+          0.011145949363708496,
+          0.340999960899353
+        ]
+      },
+      {
+        "component": 91,
+        "materials": [
+          "Wall_WarmIvory"
+        ],
+        "wood_faces": 3,
+        "size": [
+          2.9600000381469727,
+          0.011233329772949219,
+          0.3410000056028366
+        ]
+      },
+      {
+        "component": 92,
+        "materials": [
+          "Wall_WarmIvory"
+        ],
+        "wood_faces": 3,
+        "size": [
+          2.9600000381469727,
+          0.010047197341918945,
+          0.3410000205039978
+        ]
+      },
+      {
+        "component": 93,
+        "materials": [
+          "Wall_WarmIvory"
+        ],
+        "wood_faces": 3,
+        "size": [
+          2.9600000381469727,
+          0.010281682014465332,
+          0.3410000801086426
+        ]
+      },
+      {
+        "component": 94,
+        "materials": [
+          "Wall_WarmIvory"
+        ],
+        "wood_faces": 3,
+        "size": [
+          2.9600000381469727,
+          0.011023759841918945,
+          0.340999960899353
+        ]
+      },
+      {
+        "component": 95,
+        "materials": [
+          "Wall_WarmIvory"
+        ],
+        "wood_faces": 3,
+        "size": [
+          2.9600000381469727,
+          0.013590693473815918,
+          0.340999960899353
+        ]
+      },
+      {
+        "component": 96,
+        "materials": [
+          "Wall_WarmIvory"
+        ],
+        "wood_faces": 3,
+        "size": [
+          2.9600000381469727,
+          0.013047933578491211,
+          0.340999960899353
+        ]
+      },
+      {
+        "component": 97,
+        "materials": [
+          "Wall_WarmIvory"
+        ],
+        "wood_faces": 3,
+        "size": [
+          0.012673497200012207,
+          2.509999990463257,
+          0.3410000056028366
+        ]
+      },
+      {
+        "component": 98,
+        "materials": [
+          "Wall_WarmIvory"
+        ],
+        "wood_faces": 3,
+        "size": [
+          0.011090517044067383,
+          2.509999990463257,
+          0.3410000205039978
+        ]
+      },
+      {
+        "component": 99,
+        "materials": [
+          "Wall_WarmIvory"
+        ],
+        "wood_faces": 3,
+        "size": [
+          0.011138677597045898,
+          2.509999990463257,
+          0.3410000801086426
+        ]
+      },
+      {
+        "component": 100,
+        "materials": [
+          "Wall_WarmIvory"
+        ],
+        "wood_faces": 3,
+        "size": [
+          0.012135028839111328,
+          2.509999990463257,
+          0.340999960899353
+        ]
+      },
+      {
+        "component": 101,
+        "materials": [
+          "Wall_WarmIvory"
+        ],
+        "wood_faces": 3,
+        "size": [
+          0.010491013526916504,
+          2.509999990463257,
+          0.340999960899353
+        ]
+      },
+      {
+        "component": 102,
+        "materials": [
+          "Wall_WarmIvory"
+        ],
+        "wood_faces": 3,
+        "size": [
+          0.013334155082702637,
+          2.509999990463257,
+          0.340999960899353
+        ]
+      },
+      {
+        "component": 103,
+        "materials": [
+          "Wall_WarmIvory"
+        ],
+        "wood_faces": 3,
+        "size": [
+          0.010704755783081055,
+          2.509999990463257,
+          0.3410000056028366
+        ]
+      },
+      {
+        "component": 104,
+        "materials": [
+          "Wall_WarmIvory"
+        ],
+        "wood_faces": 3,
+        "size": [
+          0.013179779052734375,
+          2.509999990463257,
+          0.3410000205039978
+        ]
+      },
+      {
+        "component": 105,
+        "materials": [
+          "Wall_WarmIvory"
+        ],
+        "wood_faces": 3,
+        "size": [
+          0.012464761734008789,
+          2.509999990463257,
+          0.3410000801086426
+        ]
+      },
+      {
+        "component": 106,
+        "materials": [
+          "Wall_WarmIvory"
+        ],
+        "wood_faces": 3,
+        "size": [
+          0.012024164199829102,
+          2.509999990463257,
+          0.340999960899353
+        ]
+      },
+      {
+        "component": 107,
+        "materials": [
+          "Wall_WarmIvory"
+        ],
+        "wood_faces": 3,
+        "size": [
+          0.010532021522521973,
+          2.509999990463257,
+          0.340999960899353
+        ]
+      },
+      {
+        "component": 108,
+        "materials": [
+          "Wall_WarmIvory"
+        ],
+        "wood_faces": 3,
+        "size": [
+          0.01175844669342041,
+          2.509999990463257,
+          0.340999960899353
+        ]
+      },
+      {
+        "component": 127,
+        "materials": [
+          "Wood_DarkBeams"
+        ],
+        "wood_faces": 1,
+        "size": [
+          0.25999999046325684,
+          0.28999999165534973,
+          0.0
+        ]
+      }
+    ],
+    "component_count": 55,
+    "u_metres": 1.0,
+    "v_metres": 4.9,
+    "v_range": [
+      0.04842388025790153,
+      0.9563903647585787
+    ],
+    "grain_axis_in_texture": "V"
+  },
+  "materials": [
+    "Stone_SoftGrey",
+    "Wall_WarmIvory",
+    "Wood_DarkBeams",
+    "Wood_Endgrain",
+    "Wood_Honey",
+    "Copper_Aged",
+    "Stone_WarmLimestone",
+    "Roof_AgedTeal",
+    "Roof_TealHighlight"
+  ],
+  "texture_sha256": "2507398730afcf58404ccfe7e75debefb688d760945f212250702e6d938c3fc1",
+  "texture_dimensions": [
+    1254,
+    1254
+  ],
+  "collider_contract": "Original independent Unity SolidCollision BoxCollider and its transform/center/size must remain unchanged. Source door/wall/plinth/step vertices preserved; roof/trim visuals only are edited.",
+  "render_views": {
+    "front": {
+      "camera": [
+        6.2,
+        -9.0,
+        6.0
+      ],
+      "look": [
+        0,
+        0,
+        1.8
+      ],
+      "scale": 6.2
+    },
+    "back": {
+      "camera": [
+        -6.2,
+        9.0,
+        5.5
+      ],
+      "look": [
+        0,
+        0,
+        1.8
+      ],
+      "scale": 6.2
+    }
+  },
+  "render_resolution": [
+    900,
+    900
+  ],
+  "files": [
+    {
+      "path": "art\\generated\\env-v2\\village\\cottage_teal\\cottage_teal_v2_candidate.blend",
+      "bytes": 3813475,
+      "sha256": "c780ba2bb80f4a3b27c4b79c9bbbbd4c33b09e6adeb8dd29f0469c09d1372fb8"
+    },
+    {
+      "path": "art\\generated\\env-v2\\village\\cottage_teal\\cottage_teal_v2_candidate.fbx",
+      "bytes": 62300,
+      "sha256": "78eab3a79228b3759b0ab138573d66f21f85573f377daa7e1d166da89bf58c6c"
+    },
+    {
+      "path": "art\\generated\\env-v2\\village\\cottage_teal\\after-neutral-back.png",
+      "bytes": 988668,
+      "sha256": "0a58e804362aabf4c7eb9b41fe3f7b6a3cc1c10d6a8119c1883ead274a6e032e"
+    },
+    {
+      "path": "art\\generated\\env-v2\\village\\cottage_teal\\after-neutral-front.png",
+      "bytes": 1017972,
+      "sha256": "44268c59f08852710ff41f108402976b0a16e44605cb14f518aea6c7872c0b36"
+    },
+    {
+      "path": "art\\generated\\env-v2\\village\\cottage_teal\\after-night-back.png",
+      "bytes": 980558,
+      "sha256": "961815d1a93773f97da7660211daca6300e982494433dc6c6686ead5f07bcaeb"
+    },
+    {
+      "path": "art\\generated\\env-v2\\village\\cottage_teal\\after-night-front.png",
+      "bytes": 1021528,
+      "sha256": "3161a1f82157d1353cce497410be985df77ea09f6d65591cba52aec551ec61de"
+    },
+    {
+      "path": "art\\generated\\env-v2\\village\\cottage_teal\\before-neutral-back.png",
+      "bytes": 903645,
+      "sha256": "17fed056a75884831eb975f6d46497d16c0fd17d29475f2997a5c2de43c20fab"
+    },
+    {
+      "path": "art\\generated\\env-v2\\village\\cottage_teal\\before-neutral-front.png",
+      "bytes": 965879,
+      "sha256": "b47f100c97c9dd7248511630108144e32c557bb932c1134d66501b76aa4eaed4"
+    },
+    {
+      "path": "art\\generated\\env-v2\\village\\cottage_teal\\before-night-back.png",
+      "bytes": 889223,
+      "sha256": "50c498cfc657da5b42c72f305ba87953c63a12376fa723c47f73ad132940c33d"
+    },
+    {
+      "path": "art\\generated\\env-v2\\village\\cottage_teal\\before-night-front.png",
+      "bytes": 955958,
+      "sha256": "661d26e07c0f1a5ead94a21b8e761d4c5378d43c9987dbb525cc28d4bc5ae2b4"
+    }
+  ],
+  "script_sha256": "e1ac8fdd5e8cfe48807f9ff0ed3eedb22feada4870c47b1c1d1a5b67739e1fe6"
+}

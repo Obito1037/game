@@ -1,0 +1,16 @@
+{
+ "id": "D10_reef",
+ "source": "art\\incoming\\tripo-v2-2026-10-22\\tripo_convert_e03e6421-fb59-45cf-98b0-286da4ec1a67.glb",
+ "source_sha256": "37fa7064682139953c10bfe0cfb7424aa71240b91128a2698e7d411d4edc8651",
+ "tris_before": 95823,
+ "tris_after": 2500,
+ "size_m": [
+  1.576,
+  2.0,
+  0.501
+ ],
+ "textures": {
+  "albedo": "D10_reef_albedo.jpg"
+ },
+ "materials": 1
+}

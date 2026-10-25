@@ -1,0 +1,16 @@
+{
+ "id": "A04_first_flower",
+ "source": "art\\incoming\\tripo-v2-2026-10-22\\tripo_convert_40cb8edc-8cc5-458a-b8d0-755858d7e73c.glb",
+ "source_sha256": "5a971e17c2710b51cc4aae7779a58ff66ee59469dffc9f02ea780952a20f3dd8",
+ "tris_before": 1915228,
+ "tris_after": 3000,
+ "size_m": [
+  0.191,
+  0.28,
+  0.262
+ ],
+ "textures": {
+  "albedo": "A04_first_flower_albedo.jpg"
+ },
+ "materials": 1
+}

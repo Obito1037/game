@@ -1,0 +1,16 @@
+{
+ "id": "D04_sapling",
+ "source": "art\\incoming\\tripo-v2-2026-10-22\\tripo_convert_187654d4-ecd6-47f8-bb95-057cef0f7f78.glb",
+ "source_sha256": "27a0fd3748b518a74337bc09b618565f71cbd19b47f999b56a9d4e851400061b",
+ "tris_before": 98614,
+ "tris_after": 2499,
+ "size_m": [
+  0.481,
+  0.552,
+  1.2
+ ],
+ "textures": {
+  "albedo": "D04_sapling_albedo.jpg"
+ },
+ "materials": 1
+}

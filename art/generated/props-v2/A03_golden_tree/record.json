@@ -1,0 +1,16 @@
+{
+ "id": "A03_golden_tree",
+ "source": "art\\incoming\\tripo-v2-2026-10-22\\tripo_convert_c7000543-2b37-4742-83d0-f3baa99df8d5.glb",
+ "source_sha256": "6e5edf06fa1efc1a35f6eee6600615666600d94134fb828bd777b96f874d892b",
+ "tris_before": 1894280,
+ "tris_after": 30000,
+ "size_m": [
+  5.539,
+  6.918,
+  7.0
+ ],
+ "textures": {
+  "albedo": "A03_golden_tree_albedo.jpg"
+ },
+ "materials": 1
+}

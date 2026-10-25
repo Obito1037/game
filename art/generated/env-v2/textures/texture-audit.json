@@ -1,0 +1,56 @@
+{
+  "scope": "Original generated candidates only; read-only Blender float pixel buffers. No reference-game bitmap processed.",
+  "interpretation": "Edge jump ratios are diagnostics, not a visual pass or proof of seamless tiling. Original image sizes are measured, not requested sizes.",
+  "assets": [
+    {
+      "file": "meadow_albedo_v1.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "44cbb021fe261d82ef024c42bc04a16525011234cc9c825f0ecb21e58224c74a",
+      "blender_buffer_rgb_mean": [
+        0.4755650460720062,
+        0.46725529432296753,
+        0.29555827379226685
+      ],
+      "edges": {
+        "left_right": {
+          "wrap_mean_abs_jump": 0.07397817820310593,
+          "ordinary_adjacent_edge_mean": 0.06389643996953964,
+          "ordinary_adjacent_edge_p95": 0.07159428298473357,
+          "wrap_to_mean_ratio": 1.1577824717366476
+        },
+        "bottom_top": {
+          "wrap_mean_abs_jump": 0.07669054716825485,
+          "ordinary_adjacent_edge_mean": 0.06510542333126068,
+          "ordinary_adjacent_edge_p95": 0.07070018798112869,
+          "wrap_to_mean_ratio": 1.177944067394329
+        }
+      }
+    },
+    {
+      "file": "wood_albedo_v1.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "2507398730afcf58404ccfe7e75debefb688d760945f212250702e6d938c3fc1",
+      "blender_buffer_rgb_mean": [
+        0.8230427503585815,
+        0.7691060900688171,
+        0.7003865242004395
+      ],
+      "edges": {
+        "left_right": {
+          "wrap_mean_abs_jump": 0.041740428656339645,
+          "ordinary_adjacent_edge_mean": 0.05026540905237198,
+          "ordinary_adjacent_edge_p95": 0.0688409075140953,
+          "wrap_to_mean_ratio": 0.8304006561022893
+        },
+        "bottom_top": {
+          "wrap_mean_abs_jump": 0.04012572392821312,
+          "ordinary_adjacent_edge_mean": 0.016978871077299118,
+          "ordinary_adjacent_edge_p95": 0.019216107949614522,
+          "wrap_to_mean_ratio": 2.3632739624168253
+        }
+      }
+    }
+  ]
+}

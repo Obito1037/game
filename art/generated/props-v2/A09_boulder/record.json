@@ -1,0 +1,16 @@
+{
+ "id": "A09_boulder",
+ "source": "art\\incoming\\tripo-v2-2026-10-22\\tripo_convert_56ce80d0-2e1a-4221-8304-b9fdcea51d7a.glb",
+ "source_sha256": "0a2f27f3b25a3d1c3916bb8b55f8272b973af90f2709bbeaad15c2cb09e5dc0d",
+ "tris_before": 1970338,
+ "tris_after": 3999,
+ "size_m": [
+  1.8,
+  1.798,
+  1.27
+ ],
+ "textures": {
+  "albedo": "A09_boulder_albedo.jpg"
+ },
+ "materials": 1
+}

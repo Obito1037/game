@@ -1,0 +1,153 @@
+{
+  "results": [
+    {
+      "lod": 0,
+      "triangles": 23854,
+      "mesh_count": 5,
+      "bounds": {
+        "min": [
+          -2.563735008239746,
+          -2.3105762004852295,
+          -1.068566568562801e-08
+        ],
+        "max": [
+          2.563735008239746,
+          2.310577630996704,
+          4.778561115264893
+        ]
+      },
+      "materials": [
+        "Study_BarkWarmGrey",
+        "Study_SilverGreenBlade",
+        "Study_ThinGoldLeafEdge",
+        "Study_WarmAmberFruit"
+      ],
+      "mesh_details": [
+        {
+          "name": "LeafPetioles_LOD0",
+          "triangles": 1936,
+          "uv_layers": [
+            "UVMap"
+          ],
+          "color_attributes": []
+        },
+        {
+          "name": "MainWood_LOD0",
+          "triangles": 2950,
+          "uv_layers": [
+            "UVMap"
+          ],
+          "color_attributes": []
+        },
+        {
+          "name": "SecondaryWood_LOD0",
+          "triangles": 1632,
+          "uv_layers": [
+            "UVMap"
+          ],
+          "color_attributes": []
+        },
+        {
+          "name": "SilverGreenLeaves_LOD0",
+          "triangles": 16456,
+          "uv_layers": [
+            "UVMap"
+          ],
+          "color_attributes": [
+            "BladeTint"
+          ]
+        },
+        {
+          "name": "SparseWarmFruit_LOD0",
+          "triangles": 880,
+          "uv_layers": [
+            "UVMap"
+          ],
+          "color_attributes": []
+        }
+      ],
+      "checks": {
+        "triangle_count": true,
+        "mesh_count_5": true,
+        "root_exists": true,
+        "study_flower_marker_exists": true,
+        "bounds_within_0_1mm": true
+      }
+    },
+    {
+      "lod": 1,
+      "triangles": 10138,
+      "mesh_count": 5,
+      "bounds": {
+        "min": [
+          -2.563735008239746,
+          -2.3105762004852295,
+          0.00013245396257843822
+        ],
+        "max": [
+          2.563735008239746,
+          2.310577630996704,
+          4.775589466094971
+        ]
+      },
+      "materials": [
+        "Study_BarkWarmGrey",
+        "Study_SilverGreenBlade",
+        "Study_ThinGoldLeafEdge",
+        "Study_WarmAmberFruit"
+      ],
+      "mesh_details": [
+        {
+          "name": "LeafPetioles_LOD1",
+          "triangles": 784,
+          "uv_layers": [
+            "UVMap"
+          ],
+          "color_attributes": []
+        },
+        {
+          "name": "MainWood_LOD1",
+          "triangles": 1180,
+          "uv_layers": [
+            "UVMap"
+          ],
+          "color_attributes": []
+        },
+        {
+          "name": "SecondaryWood_LOD1",
+          "triangles": 590,
+          "uv_layers": [
+            "UVMap"
+          ],
+          "color_attributes": []
+        },
+        {
+          "name": "SilverGreenLeaves_LOD1",
+          "triangles": 7056,
+          "uv_layers": [
+            "UVMap"
+          ],
+          "color_attributes": [
+            "BladeTint"
+          ]
+        },
+        {
+          "name": "SparseWarmFruit_LOD1",
+          "triangles": 528,
+          "uv_layers": [
+            "UVMap"
+          ],
+          "color_attributes": []
+        }
+      ],
+      "checks": {
+        "triangle_count": true,
+        "mesh_count_5": true,
+        "root_exists": true,
+        "study_flower_marker_exists": true,
+        "bounds_within_0_1mm": true
+      }
+    }
+  ],
+  "all_pass": true
+}

@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover">
+  <meta name="theme-color" content="#071628">
+  <title>借光岛</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <style>
+    * { box-sizing: border-box; }
+    html, body { margin: 0; width: 100%; height: 100%; overflow: hidden; background: #071628; color: #eee6d5; }
+    body { font-family: "Songti SC", "Noto Serif CJK SC", SimSun, serif; }
+    #unity-canvas { position: fixed; inset: 0; display: block; width: 100vw; height: 100vh; height: 100dvh; outline: none; background: #071628; touch-action: none; }
+    #loading { position: fixed; inset: 0; z-index: 2; display: grid; place-items: center; background: radial-gradient(ellipse at 50% 38%, #142c43 0, #071628 66%); transition: opacity .65s ease; }
+    #loading.leaving { opacity: 0; pointer-events: none; }
+    #loading[hidden] { display: none; }
+    .panel { width: min(330px, 76vw); text-align: center; }
+    .star { color: #dfbd7c; font-size: 20px; margin-bottom: 28px; text-shadow: 0 0 18px #dcb37466; }
+    h1 { margin: 0 0 42px; padding-left: .23em; font-size: clamp(42px, 8vw, 64px); letter-spacing: .23em; font-weight: 400; }
+    .track { height: 2px; background: #304357; overflow: hidden; }
+    #progress { height: 100%; width: 0; background: #dfbd7c; transition: width .2s ease; }
+    #status { min-height: 22px; margin: 18px 0 0; color: #b8c5cc; font: 14px/1.6 system-ui, sans-serif; letter-spacing: .08em; }
+    #retry { margin-top: 24px; padding: 10px 24px; border: 1px solid #a28d62; border-radius: 3px; color: #edce91; background: transparent; font: 15px system-ui, sans-serif; cursor: pointer; }
+    #retry:hover { background: #d8b97918; }
+    #retry:focus-visible { outline: 2px solid #edce91; outline-offset: 4px; }
+    @media (prefers-reduced-motion: reduce) { * { transition: none !important; } }
+  </style>
+</head>
+<body>
+  <canvas id="unity-canvas" width="1600" height="900" tabindex="0" aria-label="借光岛游戏"></canvas>
+  <div id="loading" aria-live="polite">
+    <div class="panel">
+      <div class="star" aria-hidden="true">✦</div>
+      <h1>借光岛</h1>
+      <div class="track" role="progressbar" aria-label="加载进度" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0"><div id="progress"></div></div>
+      <p id="status" role="status">正在抵达小岛……</p>
+      <button id="retry" type="button" hidden>重新试试</button>
+    </div>
+  </div>
+  <script src="Build/{{{ LOADER_FILENAME }}}"></script>
+  <script>
+    'use strict';
+    const canvas = document.getElementById('unity-canvas');
+    const loading = document.getElementById('loading');
+    const status = document.getElementById('status');
+    const progress = document.getElementById('progress');
+    const track = document.querySelector('.track');
+    let failed = false;
+    window.jieGuangPage = { state: 'loading', progress: 0, firstTrustedGesture: null };
+
+    const config = {
+      arguments: [],
+      dataUrl: 'Build/{{{ DATA_FILENAME }}}',
+      frameworkUrl: 'Build/{{{ FRAMEWORK_FILENAME }}}',
+#if USE_THREADS
+      workerUrl: 'Build/{{{ WORKER_FILENAME }}}',
+#endif
+#if USE_WASM
+      codeUrl: 'Build/{{{ CODE_FILENAME }}}',
+#endif
+      streamingAssetsUrl: 'StreamingAssets',
+      companyName: {{{ JSON.stringify(COMPANY_NAME) }}},
+      productName: {{{ JSON.stringify(PRODUCT_NAME) }}},
+      productVersion: {{{ JSON.stringify(PRODUCT_VERSION) }}},
+      autoSyncPersistentDataPath: true,
+      matchWebGLToCanvasSize: true,
+      devicePixelRatio: 1,
+      showBanner(message, type) {
+        if (type === 'error') fail(message);
+        else if (type === 'warning') console.warn(message);
+      }
+    };
+
+    function fail(reason) {
+      failed = true;
+      window.jieGuangPage.state = 'failed';
+      loading.hidden = false;
+      loading.classList.remove('leaving');
+      status.textContent = '暂时没能抵达小岛，请重新试试。';
+      document.getElementById('retry').hidden = false;
+      console.error('[JieGuang] Loading failed:', reason);
+    }
+    document.getElementById('retry').addEventListener('click', () => location.reload());
+
+    // Unity 6000.3's Audio.js already resumes its AudioContext after a browser user
+    // gesture. Keep that normal policy: focus on a real click/key, do not fabricate a
+    // click or create a second context, and never disable browser autoplay protection.
+    function userGesture(event) {
+      if (event.isTrusted && !window.jieGuangPage.firstTrustedGesture)
+        window.jieGuangPage.firstTrustedGesture = { type: event.type, atMs: performance.now() };
+      if (event.target === canvas) canvas.focus({ preventScroll: true });
+    }
+    canvas.addEventListener('pointerdown', userGesture);
+    canvas.addEventListener('keydown', userGesture);
+    canvas.addEventListener('contextmenu', event => event.preventDefault());
+    // A touchpad pinch (Ctrl + wheel) or Ctrl +/-/0 would zoom the whole page while the player
+    // zooms the camera: the canvas then changes size and, for a frame, the picture is drawn
+    // shrunk into a corner with the rest blank. Keep the page at 100%; the game handles the wheel.
+    window.addEventListener('wheel', event => { if (event.ctrlKey) event.preventDefault(); }, { passive: false });
+    window.addEventListener('keydown', event => {
+      if ((event.ctrlKey || event.metaKey) && ['+', '-', '=', '0', 'Add', 'Subtract'].includes(event.key)) event.preventDefault();
+    });
+    ['gesturestart', 'gesturechange', 'gestureend'].forEach(type => document.addEventListener(type, event => event.preventDefault(), { passive: false }));
+    window.addEventListener('keydown', event => {
+      if (document.activeElement === canvas && ['Tab', ' ', 'ArrowUp', 'ArrowDown', 'ArrowLeft', 'ArrowRight'].includes(event.key))
+        event.preventDefault();
+    });
+
+    if (typeof createUnityInstance !== 'function') fail('Unity loader unavailable');
+    else createUnityInstance(canvas, config, value => {
+      const percent = Math.max(0, Math.min(100, Math.round(value * 100)));
+      window.jieGuangPage.progress = percent;
+      progress.style.width = percent + '%';
+      track.setAttribute('aria-valuenow', String(percent));
+      status.textContent = value < .9 ? '正在抵达小岛…… ' + percent + '%' : '小岛就在眼前……';
+    }).then(instance => {
+      window.jieGuangInstance = instance;
+      if (failed) return;
+      window.jieGuangPage.state = 'ready';
+      loading.classList.add('leaving');
+      setTimeout(() => { if (!failed) loading.hidden = true; }, 700);
+      canvas.focus({ preventScroll: true });
+    }).catch(fail);
+  </script>
+</body>
+</html>

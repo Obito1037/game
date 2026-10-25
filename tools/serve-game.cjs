@@ -159,6 +159,20 @@ async function main() {
       const headers = { ...securityHeaders(), 'Content-Length': stat.size };
       if (filename.endsWith('.gz')) { headers['Content-Encoding'] = 'gzip'; uncompressedName = filename.slice(0, -3); }
       else if (filename.endsWith('.br')) { headers['Content-Encoding'] = 'br'; uncompressedName = filename.slice(0, -3); }
+      else if (filename.endsWith('.unityweb')) {
+        // Decompression-fallback builds retain the .unityweb extension. Detect
+        // gzip by its bytes so the browser can decode and stream WASM normally;
+        // leave non-gzip fallback files to Unity's own decoder.
+        const file = await fs.promises.open(filename, 'r');
+        try {
+          const signature = Buffer.alloc(3);
+          await file.read(signature, 0, signature.length, 0);
+          if (signature[0] === 0x1f && signature[1] === 0x8b && signature[2] === 0x08) {
+            headers['Content-Encoding'] = 'gzip';
+            uncompressedName = filename.slice(0, -9);
+          }
+        } finally { await file.close(); }
+      }
       headers['Content-Type'] = MIME_TYPES[path.extname(uncompressedName).toLowerCase()] || 'application/octet-stream';
       if (method === 'HEAD') { response.writeHead(200, headers); response.end(); return; }
       const stream = fs.createReadStream(filename);

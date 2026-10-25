@@ -1,0 +1,647 @@
+{
+  "schema": "jieguang.v2.code-audit.v1",
+  "created_utc": "2026-10-22T17:54:12.517383+00:00",
+  "scope": "Read-only audit of Claude-owned code, shared contracts and story; only this report and REQUESTS markdown are authored",
+  "unity_accessed": false,
+  "playmode_entered": false,
+  "player_prefs_read_or_written": false,
+  "claude_sources_modified": false,
+  "reference_site_observed_by_this_agent": false,
+  "source_snapshot": [
+    {
+      "path": "GameProject/Assets/JieGuang/Scripts/Story/GameDirector.cs",
+      "sha256": "01633a8052e3e691033ae6f387fa4db0f8e5a5ae96ea2170b30c45c1ed9bd21a",
+      "bytes": 46644,
+      "lines": 926,
+      "last_write_utc": "2026-10-22T16:21:57.480004+00:00"
+    },
+    {
+      "path": "GameProject/Assets/JieGuang/Scripts/World/NightSky.cs",
+      "sha256": "184c9120dc2195b473e3c94dc7d754eb25bfa1afefa6cc4207e35ebac5448fb8",
+      "bytes": 7203,
+      "lines": 150,
+      "last_write_utc": "2026-10-22T16:20:31.697683+00:00"
+    },
+    {
+      "path": "GameProject/Assets/JieGuang/Scripts/World/IslandLayout.cs",
+      "sha256": "69f476f0d79d3277de1798c8b8be39ee86faedf9e5bd6c12546ea3c9d15a679f",
+      "bytes": 5976,
+      "lines": 133,
+      "last_write_utc": "2026-10-22T15:53:24.619706+00:00"
+    },
+    {
+      "path": "GameProject/Assets/JieGuang/Scripts/World/LampPost.cs",
+      "sha256": "ffcf50936b2ebe3198351501ee4867afd4bcda13fd77d2c6a90be67104bcc4f6",
+      "bytes": 7389,
+      "lines": 160,
+      "last_write_utc": "2026-10-22T16:20:25.389897+00:00"
+    },
+    {
+      "path": "GameProject/Assets/JieGuang/Scripts/World/WindowGlow.cs",
+      "sha256": "d35d6230a77709b8cfcae42f83c7d41a6efe6f9659dc6845383cc4fe33c02336",
+      "bytes": 1247,
+      "lines": 44,
+      "last_write_utc": "2026-10-22T15:48:49.160210+00:00"
+    },
+    {
+      "path": "GameProject/Assets/JieGuang/Scripts/World/Lantern.cs",
+      "sha256": "3a5c1dab9a1b935ea9d65d13ba291efb989e6ae1b19093ed6c3bdcbcd67ba65c",
+      "bytes": 4610,
+      "lines": 97,
+      "last_write_utc": "2026-10-22T15:50:13.233198+00:00"
+    },
+    {
+      "path": "GameProject/Assets/JieGuang/Scripts/World/Fireflow.cs",
+      "sha256": "b2d528609cfae1e64c034ef70948f0b363845d5e40960e7dfd92f672c96d7edf",
+      "bytes": 3580,
+      "lines": 85,
+      "last_write_utc": "2026-10-22T16:20:29.672422+00:00"
+    },
+    {
+      "path": "GameProject/Assets/JieGuang/Scripts/World/CrowdLights.cs",
+      "sha256": "7a4cee43aad9bdcb055780cb7c97468c23b31ce2288acee84bd863a0be27e67d",
+      "bytes": 3134,
+      "lines": 70,
+      "last_write_utc": "2026-10-22T15:52:22.014136+00:00"
+    },
+    {
+      "path": "GameProject/Assets/JieGuang/Scripts/World/MaterialKit.cs",
+      "sha256": "01b96eb22913e7271d3d93ef6e31ccb4f89ce6ed45cafd3f78d0317dcdb23bea",
+      "bytes": 2787,
+      "lines": 76,
+      "last_write_utc": "2026-10-22T16:20:21.090533+00:00"
+    },
+    {
+      "path": "GameProject/Assets/JieGuang/Scripts/Gameplay/CameraDirector.cs",
+      "sha256": "2aae34ab22c1a03d2922b275f0520bb6c42899735d59771cec94ca65ab014f60",
+      "bytes": 4036,
+      "lines": 105,
+      "last_write_utc": "2026-10-22T15:56:13.485601+00:00"
+    },
+    {
+      "path": "GameProject/Assets/JieGuang/Scripts/Gameplay/PlayerController.cs",
+      "sha256": "c7e40202f1928eee5102ab46e6e36bd0c31ec2633349802a1cf085252f134283",
+      "bytes": 3669,
+      "lines": 89,
+      "last_write_utc": "2026-10-22T16:03:49.056229+00:00"
+    },
+    {
+      "path": "GameProject/Assets/JieGuang/Scripts/Core/LampRules.cs",
+      "sha256": "de6f8dd1c4bb6decaa286cce5c10e49e1ec632a7646fa4d07e8071b58fdd01dc",
+      "bytes": 6427,
+      "lines": 153,
+      "last_write_utc": "2026-10-22T15:46:50.143776+00:00"
+    },
+    {
+      "path": "GameProject/Assets/JieGuang/Scripts/Core/StoryText.cs",
+      "sha256": "276b57878313b91cfa861d15c67359b6a819b31fd4d899c9461aa0284be473bf",
+      "bytes": 15598,
+      "lines": 239,
+      "last_write_utc": "2026-10-22T15:46:18.536948+00:00"
+    },
+    {
+      "path": "GameProject/Assets/JieGuang/Scripts/Core/GameInput.cs",
+      "sha256": "a8fcdffbade45eddd26530bba9c55a9d7c585ed3f7dace925f83a7ebe0d1b23c",
+      "bytes": 1568,
+      "lines": 47,
+      "last_write_utc": "2026-10-22T16:03:29.078124+00:00"
+    },
+    {
+      "path": "GameProject/Assets/JieGuang/Scripts/UI/GameUI.cs",
+      "sha256": "c8eeb95de456f9bf98cc8270033a7207710560e7b4dff2cf44beb4585c433cf0",
+      "bytes": 16413,
+      "lines": 321,
+      "last_write_utc": "2026-10-22T16:22:02.624080+00:00"
+    },
+    {
+      "path": "GameProject/Assets/JieGuang/Scripts/Characters/CharacterActor.cs",
+      "sha256": "28382d1cecdc236c0763b3c6d85c86c5b6833e13402eb6a3e6cbf514a9ae6a15",
+      "bytes": 2736,
+      "lines": 71,
+      "last_write_utc": "2026-10-22T15:28:19.043792+00:00"
+    },
+    {
+      "path": "GameProject/Assets/JieGuang/Editor/JieGuangSceneBuilder.cs",
+      "sha256": "aec52d4b2b95b6ca68830ca00efc9523fb748a14b09186bd17530dcd0cb71a91",
+      "bytes": 4297,
+      "lines": 90,
+      "last_write_utc": "2026-10-22T15:56:31.401175+00:00"
+    },
+    {
+      "path": "GameProject/Assets/JieGuang/Editor/JieGuangAssetSetup.cs",
+      "sha256": "6f778dd4b55715c3af141abb9318f1683aa0df3cb7b24633219711a2fb00172f",
+      "bytes": 9068,
+      "lines": 193,
+      "last_write_utc": "2026-10-22T15:28:07.605648+00:00"
+    },
+    {
+      "path": "GameProject/Assets/JieGuang/Scenes/JieGuang_Main.unity",
+      "sha256": "46f1eb20ccaa06f74a50fda404c7534d232c9dc9e9d06bbd7dffc6c1037ec7ff",
+      "bytes": 5325,
+      "lines": 176,
+      "last_write_utc": "2026-10-22T15:57:54.969965+00:00"
+    },
+    {
+      "path": "GameProject/Assets/JieGuang/Resources/Materials/Base_Additive.mat",
+      "sha256": "a1c1d3a84a765c7a3e6266673c30d9fcd3c5b34382390f9dc70f5b41bd286d1a",
+      "bytes": 2566,
+      "lines": 91,
+      "last_write_utc": "2026-10-22T15:57:53.146400+00:00"
+    },
+    {
+      "path": "GameProject/Assets/JieGuang/Environment/Island.prefab",
+      "sha256": "d17154fd0cf79cf55e65225dbb517626216c80be2a3741dcc3bc53eabff1ae45",
+      "bytes": 1008088,
+      "lines": 34151,
+      "last_write_utc": "2026-10-22T16:58:37.678153+00:00"
+    },
+    {
+      "path": "GameProject/Assets/JieGuang/Environment/Island.prefab.meta",
+      "sha256": "82e496dcf3b8475324810fb0b5b6726fe892bcdae60a4afcb4bcfdb6a7a3ecb7",
+      "bytes": 154,
+      "lines": 7,
+      "last_write_utc": "2026-10-22T16:35:51.925081+00:00"
+    },
+    {
+      "path": "GameProject/Assets/JieGuang/Environment/Editor/EnvV1Builder.cs",
+      "sha256": "b5961804e22847028b68034a738dd9ee2ec2b604ce5ad841b7e9b439992cdc02",
+      "bytes": 71408,
+      "lines": 1102,
+      "last_write_utc": "2026-10-22T16:57:45.790000+00:00"
+    },
+    {
+      "path": "GameProject/Assets/JieGuang/Environment/Shaders/EnvNightSea.shader",
+      "sha256": "6471d7248782a525cdd3260468dbdef948f505b284ff541269bf2e6be1214c34",
+      "bytes": 2180,
+      "lines": 51,
+      "last_write_utc": "2026-10-22T16:13:42.392315+00:00"
+    },
+    {
+      "path": "GameProject/Assets/JieGuang/Environment/Shaders/EnvNightSky.shader",
+      "sha256": "e7512e90ad1971d155d08edbfa5a80d24a8ce7a23327981530c8e477655c3926",
+      "bytes": 3448,
+      "lines": 70,
+      "last_write_utc": "2026-10-22T15:52:34.243251+00:00"
+    },
+    {
+      "path": "GameProject/Assets/Settings/PC_RPAsset.asset",
+      "sha256": "f3bea23f812c2e0c266c71a66e1da4c4677025758aea2dfb9ed60a00e8abcd56",
+      "bytes": 4669,
+      "lines": 143,
+      "last_write_utc": "2026-10-21T07:47:19.565940+00:00"
+    },
+    {
+      "path": "GameProject/Assets/Settings/Mobile_RPAsset.asset",
+      "sha256": "3e1ad0b0d6f5b7f8d4a8897148d9d3005a907ff75903edba98e5e12dd1513b11",
+      "bytes": 4650,
+      "lines": 143,
+      "last_write_utc": "2026-10-21T06:28:42.792288+00:00"
+    },
+    {
+      "path": "GameProject/Library/PackageCache/com.unity.render-pipelines.universal@746735fb06f2/Runtime/UniversalAdditionalCameraData.cs",
+      "sha256": "eec59a0dc83fd98ab60ff2772df296bf2bef40c3a3c05b232aad510034cd4c50",
+      "bytes": 45654,
+      "lines": 1033,
+      "last_write_utc": "2026-09-30T00:43:20+00:00"
+    },
+    {
+      "path": "art/generated/env-v1/layout.json",
+      "sha256": "a40f94bff4bfb72463cf21618eeff1576665c7aae6cb5fcd06398d6789775bba",
+      "bytes": 14073,
+      "lines": 843,
+      "last_write_utc": "2026-10-22T16:31:07.721613+00:00"
+    },
+    {
+      "path": "art/generated/env-v1/puzzle-light-layout.json",
+      "sha256": "ac2177ff83cd36bb8001b9c24ac4c6480cc5c4f32db52de2b59446f098e3a1bb",
+      "bytes": 2967,
+      "lines": 114,
+      "last_write_utc": "2026-10-22T16:31:09.689378+00:00"
+    },
+    {
+      "path": "art/generated/env-v1/HANDOFF.zh-CN.md",
+      "sha256": "ecd39d5e99e3dd9ed7e8ee3da80006fc00c1a96c6f8e1a916655ef2c1cf308f7",
+      "bytes": 12015,
+      "lines": 108,
+      "last_write_utc": "2026-10-22T17:14:20.709905+00:00"
+    },
+    {
+      "path": "art/design/script/07_完整故事与生图提示词（最终版）.md",
+      "sha256": "5317177e1c020825bc272c5d09b65f8bb016af30e409a29b502d6f33d44d9143",
+      "bytes": 44475,
+      "lines": 482,
+      "last_write_utc": "2026-10-22T15:12:26.917106+00:00"
+    },
+    {
+      "path": "art/design/v2/借光岛_第二版_生图与Tripo提示词.md",
+      "sha256": "2c175614180f41b64a8970115a7f4284e1125f9160e8647e4f2f560e1cdb2d36",
+      "bytes": 58867,
+      "lines": 486,
+      "last_write_utc": "2026-10-22T16:54:26.251884+00:00"
+    },
+    {
+      "path": "setup/GPT6-对标小王子-质感优化提示词.md",
+      "sha256": "53091635d057ae24e97804ee308fc711e7efb27207c3ca053d106e69a7b73182",
+      "bytes": 9352,
+      "lines": 83,
+      "last_write_utc": "2026-10-22T17:39:28.626919+00:00"
+    }
+  ],
+  "deterministic_checks": {
+    "main_scene_island_prefab_is_null": true,
+    "round_window_named_gameobjects": 0,
+    "night_sky_named_gameobjects_in_environment": 1,
+    "moon_phase_method": "CPU translation of NightSky.cs lines 103-111 at 256x256; excludes rim/glow and is not a rendered screenshot",
+    "moon_phase_sweep": [
+      {
+        "phase": 0,
+        "occluder_offset": 0.96,
+        "lit_pixels_over_disk_threshold_0_5": 0.6468795965538979,
+        "lit_integral_over_disk_integral": 0.6592223832477585
+      },
+      {
+        "phase": 0.004,
+        "occluder_offset": 0.95296,
+        "lit_pixels_over_disk_threshold_0_5": 0.642361840722841,
+        "lit_integral_over_disk_integral": 0.6547737583023281
+      },
+      {
+        "phase": 0.008,
+        "occluder_offset": 0.94592,
+        "lit_pixels_over_disk_threshold_0_5": 0.6380542130699727,
+        "lit_integral_over_disk_integral": 0.6503114660238035
+      },
+      {
+        "phase": 0.03,
+        "occluder_offset": 0.9072,
+        "lit_pixels_over_disk_threshold_0_5": 0.6135742803109897,
+        "lit_integral_over_disk_integral": 0.6255326812626544
+      },
+      {
+        "phase": 0.05,
+        "occluder_offset": 0.872,
+        "lit_pixels_over_disk_threshold_0_5": 0.5912481613784408,
+        "lit_integral_over_disk_integral": 0.60265615312298
+      },
+      {
+        "phase": 0.07,
+        "occluder_offset": 0.8368,
+        "lit_pixels_over_disk_threshold_0_5": 0.5683441899558731,
+        "lit_integral_over_disk_integral": 0.5794612306419915
+      },
+      {
+        "phase": 0.16,
+        "occluder_offset": 0.6783999999999999,
+        "lit_pixels_over_disk_threshold_0_5": 0.4629123765496953,
+        "lit_integral_over_disk_integral": 0.47161666650166056
+      },
+      {
+        "phase": 0.5,
+        "occluder_offset": 0.07999999999999996,
+        "lit_pixels_over_disk_threshold_0_5": 0.032779995797436436,
+        "lit_integral_over_disk_integral": 0.03440069307657855
+      }
+    ],
+    "moon_wide_light_geometry": {
+      "head_position": [
+        4.0,
+        6.4,
+        -21.0
+      ],
+      "window_position": [
+        4.00164,
+        4.02,
+        -18.17393
+      ],
+      "pier_position": [
+        10.0,
+        2.48,
+        -16.0
+      ],
+      "head_to_target_separation_degrees": 43.37286980083184,
+      "current_full_cone_degrees": 78,
+      "current_half_cone_degrees": 39,
+      "window_inside_from_head": false,
+      "spot_origin_with_0_29_local_z": [
+        4.199112300122542,
+        6.2699132972532725,
+        -20.834073083231214
+      ],
+      "window_offset_from_spot_degrees": 46.64456387529957,
+      "suggested_bisector": [
+        0.36968530065783084,
+        -0.5879847735861571,
+        0.7194488755348534
+      ]
+    }
+  },
+  "baseline_parameters": {
+    "camera_fov": 50,
+    "follow_distance_m": 4.2,
+    "follow_pivot_height_m": 1.25,
+    "follow_decay_lambda": 8,
+    "follow_half_life_seconds": 0.08664339756999316,
+    "shot_decay_lambda": "2*shotSpeed",
+    "walk_speed_mps": 1.6,
+    "walk_blend_threshold_mps": 1.2,
+    "run_speed_mps": 3.2,
+    "title_card_in_seconds": 0.625,
+    "title_card_hold_seconds": 2.4,
+    "title_card_out_seconds": 0.625,
+    "dialogue_characters_per_second": 34,
+    "ui_reference_resolution": [
+      1920,
+      1080
+    ],
+    "dialogue_font_px_at_reference": 32,
+    "objective_font_px_at_reference": 30,
+    "letter_font_px_at_reference": 29,
+    "typewriter_old_line_not_cleared": true
+  },
+  "findings": [
+    {
+      "id": "C01",
+      "priority": "P0",
+      "title": "主场景仍引用灰盒岛",
+      "status": "open_handoff_required",
+      "owner": "Claude; environment cooperation where stated",
+      "evidence_kind": "source/static asset audit",
+      "evidence": "`GameProject/Assets/JieGuang/Scenes/JieGuang_Main.unity:151` 为 `IslandPrefab: {fileID: 0}`；`Scripts/World/IslandLayout.cs:50–58` 在空引用时调用 `GrayboxIsland.Build()`。现有环境 Prefab 的 GUID 为 `a7a9419fcb5d9514797f43ce0d69249b`。",
+      "requested_change": "由 Claude 给主场景的 `GameDirector.IslandPrefab` 赋值。不要为了赋值整场重建而意外重置手工修改；接入后让缺失必需锚点成为可见错误，避免静默退回另一组灰盒坐标。",
+      "acceptance": "实际主场景实例 `UsingGraybox=false`；唯一 `Island` 包含实际村子、35 个旧版 LODGroup 或新版经记录的替代数量；截图 `ours/title.png`、`ours/first-control.png` 确认实际使用新版岛。环境测试场景截图不能替代此项。",
+      "full_notes_zh": "- 证据：`GameProject/Assets/JieGuang/Scenes/JieGuang_Main.unity:151` 为 `IslandPrefab: {fileID: 0}`；`Scripts/World/IslandLayout.cs:50–58` 在空引用时调用 `GrayboxIsland.Build()`。现有环境 Prefab 的 GUID 为 `a7a9419fcb5d9514797f43ce0d69249b`。\n- 要改：由 Claude 给主场景的 `GameDirector.IslandPrefab` 赋值。不要为了赋值整场重建而意外重置手工修改；接入后让缺失必需锚点成为可见错误，避免静默退回另一组灰盒坐标。\n- 验收：实际主场景实例 `UsingGraybox=false`；唯一 `Island` 包含实际村子、35 个旧版 LODGroup 或新版经记录的替代数量；截图 `ours/title.png`、`ours/first-control.png` 确认实际使用新版岛。环境测试场景截图不能替代此项。",
+      "runtime_observed": false,
+      "reference_screenshot": null,
+      "ours_runtime_screenshot": null
+    },
+    {
+      "id": "C02",
+      "priority": "P0",
+      "title": "两套天空和两套灯光没有统一所有权",
+      "status": "open_handoff_required",
+      "owner": "Claude; environment cooperation where stated",
+      "evidence_kind": "source/static asset audit",
+      "evidence": "`Scripts/Story/GameDirector.cs:63–70` 无条件生成剧情 `NightSky` 和 0.12 强度的蓝色 Directional；环境 `Editor/EnvV1Builder.cs:950–977` 另有 NightSky Renderer、内置地球与星星，以及 0.60 / 0.25 的两盏暖色 Directional。当前主场景尚未引用真岛，所以这是接入后必然重复生成的契约问题，不是本次观察到的实机截图。",
+      "requested_change": "只保留一个天空渲染权威，剧情驱动其 `Pollution / EarthPhase / EarthBrightness`。若暂时保留 Claude 天空，仅关闭环境 `Atmosphere/NightSky` Renderer，不要关闭包括海面的整个 Atmosphere。若采用环境新天空，则让剧情调用其适配接口，停止旧 Stars / Earth 的生成。冷蓝环境地光符合新提示词，地球反射的补光不应与实体暖灯混为一谈；统一光照预算，避免叠加三盏 Directional 造成无来源的亮岛。",
+      "acceptance": "同一帧只有一个地球、一套星空；污染 0→1→0 时所有星空都参与渐隐；同机位 `sky-clean / sky-polluted / sky-restored` 三图。不得靠让旧天空永久隐藏来绕过剧情控制。",
+      "full_notes_zh": "- 证据：`Scripts/Story/GameDirector.cs:63–70` 无条件生成剧情 `NightSky` 和 0.12 强度的蓝色 Directional；环境 `Editor/EnvV1Builder.cs:950–977` 另有 NightSky Renderer、内置地球与星星，以及 0.60 / 0.25 的两盏暖色 Directional。当前主场景尚未引用真岛，所以这是接入后必然重复生成的契约问题，不是本次观察到的实机截图。\n- 要改：只保留一个天空渲染权威，剧情驱动其 `Pollution / EarthPhase / EarthBrightness`。若暂时保留 Claude 天空，仅关闭环境 `Atmosphere/NightSky` Renderer，不要关闭包括海面的整个 Atmosphere。若采用环境新天空，则让剧情调用其适配接口，停止旧 Stars / Earth 的生成。冷蓝环境地光符合新提示词，地球反射的补光不应与实体暖灯混为一谈；统一光照预算，避免叠加三盏 Directional 造成无来源的亮岛。\n- 验收：同一帧只有一个地球、一套星空；污染 0→1→0 时所有星空都参与渐隐；同机位 `sky-clean / sky-polluted / sky-restored` 三图。不得靠让旧天空永久隐藏来绕过剧情控制。",
+      "runtime_observed": false,
+      "reference_screenshot": null,
+      "ours_runtime_screenshot": null
+    },
+    {
+      "id": "C03",
+      "priority": "P0",
+      "title": "地球圆缺公式与剧情相反",
+      "status": "open_handoff_required",
+      "owner": "Claude; environment cooperation where stated",
+      "evidence_kind": "source + deterministic calculation",
+      "evidence": "`Scripts/World/NightSky.cs:99–119` 的 `off=Lerp(.02,.9,phase/.5)` 与 `dx=fx+.98-off` 使 phase 越小，遮挡圆偏移越大。按原代码 256² 像素公式复算，phase=0.008 时亮像素占圆盘约 **63.805%**，phase=0.5 时却只有 **3.278%**（阈值 lit>0.5，不含暗面与光晕）。`GameDirector.cs:232` 第三章恰好设为 0.008。这是公式级错误；没有声称已截图测出亮盘比例。",
+      "requested_change": "用真实半球受光投影或单调遮罩，使 `EarthPhase` 明确定义为可见亮盘比例。建议用球面法线与光向量点积，光轴 z 分量设 `2*phase-1`；保留蓝白云纹、低强度暗面和独立薄晕。不要只把公式反过来后仍把错误面积叫作 phase。",
+      "acceptance": "phase=0 / .008 / .03 / .16 / .5 的离屏图和二值面积测试；亮盘面积单调增加，phase=.008 只能是细弧，.5 约为半盘；序章、长夜、终章亮边变化与 07 一致。",
+      "full_notes_zh": "- 证据：`Scripts/World/NightSky.cs:99–119` 的 `off=Lerp(.02,.9,phase/.5)` 与 `dx=fx+.98-off` 使 phase 越小，遮挡圆偏移越大。按原代码 256² 像素公式复算，phase=0.008 时亮像素占圆盘约 **63.805%**，phase=0.5 时却只有 **3.278%**（阈值 lit>0.5，不含暗面与光晕）。`GameDirector.cs:232` 第三章恰好设为 0.008。这是公式级错误；没有声称已截图测出亮盘比例。\n- 要改：用真实半球受光投影或单调遮罩，使 `EarthPhase` 明确定义为可见亮盘比例。建议用球面法线与光向量点积，光轴 z 分量设 `2*phase-1`；保留蓝白云纹、低强度暗面和独立薄晕。不要只把公式反过来后仍把错误面积叫作 phase。\n- 验收：phase=0 / .008 / .03 / .16 / .5 的离屏图和二值面积测试；亮盘面积单调增加，phase=.008 只能是细弧，.5 约为半盘；序章、长夜、终章亮边变化与 07 一致。",
+      "runtime_observed": false,
+      "reference_screenshot": null,
+      "ours_runtime_screenshot": null
+    },
+    {
+      "id": "C04",
+      "priority": "P0",
+      "title": "第三章“窗与码头同时亮”目前只在逻辑里成立",
+      "status": "open_handoff_required",
+      "owner": "Claude; environment cooperation where stated",
+      "evidence_kind": "source + deterministic calculation",
+      "evidence": "`IslandLayout.cs:103` 月窗灯 direction=1 只指向 Target_Pier；`LampPost.cs:9` 宽光整角 78°，半角 39°；`LampRules.cs:47` 却直接判窗与码头双覆盖。按当前冻结锚点，两目标从灯头看夹角 **43.37287°**，圆窗中心在 39° 锥外。`art/generated/env-v1/puzzle-light-layout.json` 已记录双目标角平分线方案。",
+      "requested_change": "让瞄准点依赖灯罩状态：月窗灯 wide + direction=1 时，取窗/码头两条单位方向的角平分线；晚风灯 wide + direction=0 同理取路/椅角平分线。当前布局建议晚风宽光整角 56°、月窗宽光 60°、窄光 24–26°。不要移动既有锚点去迎合灰盒代码。灯光锥中轴和 Shader 可见束必须使用同一方向、角度与原点。",
+      "acceptance": "第一章两个目标、第二章三个目标、第三章四个目标的完整光锥与遮挡检查；中心点在锥内且至少留 5° 边距，拍解谜前后同机位图；要求真实表面照度变化，不能只看 `LampRules.Solved=true`。",
+      "full_notes_zh": "- 证据：`IslandLayout.cs:103` 月窗灯 direction=1 只指向 Target_Pier；`LampPost.cs:9` 宽光整角 78°，半角 39°；`LampRules.cs:47` 却直接判窗与码头双覆盖。按当前冻结锚点，两目标从灯头看夹角 **43.37287°**，圆窗中心在 39° 锥外。`art/generated/env-v1/puzzle-light-layout.json` 已记录双目标角平分线方案。\n- 要改：让瞄准点依赖灯罩状态：月窗灯 wide + direction=1 时，取窗/码头两条单位方向的角平分线；晚风灯 wide + direction=0 同理取路/椅角平分线。当前布局建议晚风宽光整角 56°、月窗宽光 60°、窄光 24–26°。不要移动既有锚点去迎合灰盒代码。灯光锥中轴和 Shader 可见束必须使用同一方向、角度与原点。\n- 验收：第一章两个目标、第二章三个目标、第三章四个目标的完整光锥与遮挡检查；中心点在锥内且至少留 5° 边距，拍解谜前后同机位图；要求真实表面照度变化，不能只看 `LampRules.Solved=true`。",
+      "runtime_observed": false,
+      "reference_screenshot": null,
+      "ours_runtime_screenshot": null
+    },
+    {
+      "id": "C05",
+      "priority": "P0",
+      "title": "相机未启用 URP 后期，新增 Volume 不会自动生效",
+      "status": "open_handoff_required",
+      "owner": "Claude; environment cooperation where stated",
+      "evidence_kind": "source/static asset audit",
+      "evidence": "`CameraDirector.cs:24–36` 只创建 Camera，没有 AdditionalCameraData 或 `renderPostProcessing=true`。安装的 URP `Runtime/UniversalAdditionalCameraData.cs:466` 默认值是 false；在全部 JieGuang 游戏/编辑器代码中没有相关配置。",
+      "requested_change": "创建相机时显式获取 `UniversalAdditionalCameraData`、打开 `renderPostProcessing`，设置能覆盖环境 Volume 的 `volumeLayerMask`（默认层 0 可用），确认 HDR 与 renderer postProcessData。Environment 的章节 Profile 由 GPT 创建，Claude 根据章节切换或调用过渡接口；请不要另建互相覆盖的全局调色。",
+      "acceptance": "真实主相机后期开关 A/B 差异图；走路、对话、解谜均有正确 Profile，UI 不被景深模糊。Iris Xe 和 WebGL 分别记录成本，不将编辑器截图的流畅感当帧率。",
+      "full_notes_zh": "- 证据：`CameraDirector.cs:24–36` 只创建 Camera，没有 AdditionalCameraData 或 `renderPostProcessing=true`。安装的 URP `Runtime/UniversalAdditionalCameraData.cs:466` 默认值是 false；在全部 JieGuang 游戏/编辑器代码中没有相关配置。\n- 要改：创建相机时显式获取 `UniversalAdditionalCameraData`、打开 `renderPostProcessing`，设置能覆盖环境 Volume 的 `volumeLayerMask`（默认层 0 可用），确认 HDR 与 renderer postProcessData。Environment 的章节 Profile 由 GPT 创建，Claude 根据章节切换或调用过渡接口；请不要另建互相覆盖的全局调色。\n- 候选起点：Linear + HDR；Tonemapping Neutral；Bloom intensity .25–.45、threshold .9–1.1；Vignette .08–.14；Filmic grain 0–.025；常态行走关闭景深，人物特写单独启用。最终参数以根代理的环境 Profile 为准。\n- 验收：真实主相机后期开关 A/B 差异图；走路、对话、解谜均有正确 Profile，UI 不被景深模糊。Iris Xe 和 WebGL 分别记录成本，不将编辑器截图的流畅感当帧率。",
+      "runtime_observed": false,
+      "reference_screenshot": null,
+      "ours_runtime_screenshot": null
+    },
+    {
+      "id": "C06",
+      "priority": "P0",
+      "title": "“马灯熄灭”只关灯，不关发光模型",
+      "status": "open_handoff_required",
+      "owner": "Claude; environment cooperation where stated",
+      "evidence_kind": "source/static asset audit",
+      "evidence": "`GameDirector.cs:884–889` 的 SetHarborLamp 只改 Light；第三章 `:477` 调 `SetHarborLamp(true,0)` 保留模型。环境 `Lantern_AmberCore` 是有自发光的材质。",
+      "requested_change": "缓存各 Renderer 材质槽的原始 `_EmissionColor`，通过带 materialIndex 的 MaterialPropertyBlock 乘 level，同时调整 Point；不要修改共享材质。level=0 保留暗掉的玻璃与金属框；最后移走马灯时才隐藏整个对象。",
+      "acceptance": "固定旗杆近景 level=1 / .5 / 0；0 时无暖核、无 Bloom 光晕、Point=0；手提灯笼不受联动。截图必须包含“还差一点”台词帧。",
+      "full_notes_zh": "- 证据：`GameDirector.cs:884–889` 的 SetHarborLamp 只改 Light；第三章 `:477` 调 `SetHarborLamp(true,0)` 保留模型。环境 `Lantern_AmberCore` 是有自发光的材质。\n- 要改：缓存各 Renderer 材质槽的原始 `_EmissionColor`，通过带 materialIndex 的 MaterialPropertyBlock 乘 level，同时调整 Point；不要修改共享材质。level=0 保留暗掉的玻璃与金属框；最后移走马灯时才隐藏整个对象。\n- 验收：固定旗杆近景 level=1 / .5 / 0；0 时无暖核、无 Bloom 光晕、Point=0；手提灯笼不受联动。截图必须包含“还差一点”台词帧。",
+      "runtime_observed": false,
+      "reference_screenshot": null,
+      "ours_runtime_screenshot": null
+    },
+    {
+      "id": "C07",
+      "priority": "P0",
+      "title": "阿婆圆窗没有运行时可控制对象",
+      "status": "open_handoff_required",
+      "owner": "Claude; environment cooperation where stated",
+      "evidence_kind": "source/static asset audit",
+      "evidence": "`GameDirector.cs:77–78,130–135` 查 Target_Window 下的 WindowGlow，再退回名为 RoundWindow 的物体。当前环境 Prefab 只有空的 Target_Window / Marker_Window，没有 RoundWindow；因此 roundWindow 为 null，`Stage` 和第二章 `:365` 的亮灭请求被略过。",
+      "requested_change": "GPT 在环境中给出可独立控制的圆窗/室内光 Renderer，保持看得到阿婆的真正圆孔；Claude 绑定 WindowGlow 或更明确的室内发光控制接口。兼容多个发光材质槽，不能让整栋木屋发亮。",
+      "acceptance": "第二章开始时窗暗，调灯成功后窗内桌面/阿婆变得可读；圆窗孔没有被新的发光圆片堵住，窄光没有照到整面房屋。记录 roundWindow 非空及目标材质槽。",
+      "full_notes_zh": "- 证据：`GameDirector.cs:77–78,130–135` 查 Target_Window 下的 WindowGlow，再退回名为 RoundWindow 的物体。当前环境 Prefab 只有空的 Target_Window / Marker_Window，没有 RoundWindow；因此 roundWindow 为 null，`Stage` 和第二章 `:365` 的亮灭请求被略过。\n- 要改：GPT 在环境中给出可独立控制的圆窗/室内光 Renderer，保持看得到阿婆的真正圆孔；Claude 绑定 WindowGlow 或更明确的室内发光控制接口。兼容多个发光材质槽，不能让整栋木屋发亮。\n- 验收：第二章开始时窗暗，调灯成功后窗内桌面/阿婆变得可读；圆窗孔没有被新的发光圆片堵住，窄光没有照到整面房屋。记录 roundWindow 非空及目标材质槽。",
+      "runtime_observed": false,
+      "reference_screenshot": null,
+      "ours_runtime_screenshot": null
+    },
+    {
+      "id": "C08",
+      "priority": "P1",
+      "title": "三盏实体灯与手提灯笼的发光不完全受状态控制",
+      "status": "open_handoff_required",
+      "owner": "Claude; environment cooperation where stated",
+      "evidence_kind": "source/static asset audit",
+      "evidence": "`LampPost.cs:79,155` 仅在 BuildGraybox 创建 bulb 引用，复用环境 LampHead 时不会绑定；实体灯罩中的发光部分不会随 On 改变。`Lantern.cs:40` 的 Glass 使用常亮 Additive 材质，`:81–84` 只改 Point 和 fruit 发光，Brightness=0 不改 Glass。",
+      "requested_change": "像 C06 一样绑定环境灯头的发光材质槽；手提灯笼的玻璃高亮/加色也按 shown 比例衰减，允许普通反射但不得仍像点亮的灯。序章三盏 Off 时、幕间手提灯熄灭时，都使用同一状态源。",
+      "acceptance": "同曝光近景 On/Off；0 光时无自发光泄漏。幕间黑灯在轮廓可读的前提下保持玻璃内完全无光。",
+      "full_notes_zh": "- 证据：`LampPost.cs:79,155` 仅在 BuildGraybox 创建 bulb 引用，复用环境 LampHead 时不会绑定；实体灯罩中的发光部分不会随 On 改变。`Lantern.cs:40` 的 Glass 使用常亮 Additive 材质，`:81–84` 只改 Point 和 fruit 发光，Brightness=0 不改 Glass。\n- 要改：像 C06 一样绑定环境灯头的发光材质槽；手提灯笼的玻璃高亮/加色也按 shown 比例衰减，允许普通反射但不得仍像点亮的灯。序章三盏 Off 时、幕间手提灯熄灭时，都使用同一状态源。\n- 验收：同曝光近景 On/Off；0 光时无自发光泄漏。幕间黑灯在轮廓可读的前提下保持玻璃内完全无光。",
+      "runtime_observed": false,
+      "reference_screenshot": null,
+      "ours_runtime_screenshot": null
+    },
+    {
+      "id": "C09",
+      "priority": "P1",
+      "title": "海天颜色没有随光污染同步",
+      "status": "open_handoff_required",
+      "owner": "Claude; environment cooperation where stated",
+      "evidence_kind": "source/static asset audit",
+      "evidence": "`NightSky.cs:131–137` 改相机 clear color、雾与环境光，但没有访问环境海面；`Environment/Shaders/EnvNightSea.shader:7,41–43` 使用固定 `_Horizon`、不直接应用 URP 雾。Shader 提供属性不代表剧情已经连接。",
+      "requested_change": "统一章节大气状态，在污染插值时同步海面 `_Horizon` 与天空地平线；考虑海面仍有可辨识的低对比细波。使用实例材质或 PropertyBlock，不改共享资产原色。",
+      "acceptance": "清净/污染状态相同海天线机位，不能出现深蓝海突然接灰白天的硬接缝；相机旋转到其他方向也检查。原始昼夜世界观不变，没有太阳和远方其他岛。",
+      "full_notes_zh": "- 证据：`NightSky.cs:131–137` 改相机 clear color、雾与环境光，但没有访问环境海面；`Environment/Shaders/EnvNightSea.shader:7,41–43` 使用固定 `_Horizon`、不直接应用 URP 雾。Shader 提供属性不代表剧情已经连接。\n- 要改：统一章节大气状态，在污染插值时同步海面 `_Horizon` 与天空地平线；考虑海面仍有可辨识的低对比细波。使用实例材质或 PropertyBlock，不改共享资产原色。\n- 验收：清净/污染状态相同海天线机位，不能出现深蓝海突然接灰白天的硬接缝；相机旋转到其他方向也检查。原始昼夜世界观不变，没有太阳和远方其他岛。",
+      "runtime_observed": false,
+      "reference_screenshot": null,
+      "ours_runtime_screenshot": null
+    },
+    {
+      "id": "C10",
+      "priority": "P1",
+      "title": "可走边界未被控制器消费，NPC 地面查询包含房顶",
+      "status": "open_handoff_required",
+      "owner": "Claude; environment cooperation where stated",
+      "evidence_kind": "source/static asset audit",
+      "evidence": "`PlayerController.cs:59–86` 只有重力 Move，无越界/坠海恢复；游戏代码没有读取 Walkable_Boundary。`GameDirector.cs:760–775` 的 NPC Walk 直接沿端点直线改 Transform，`:900` GroundY 使用除玩家层外的所有层；`CrowdLights.cs:50` 也查询所有层。环境契约已经区分 Layer 8 可走面、Layer 9 房屋/岩石。",
+      "requested_change": "地面探测限定 Layer 8，障碍避让/相机碰撞另用 8|9；NPC 沿石路有序路点行走，并在碰撞前停下或绕行。用陆地与栈桥边界的并集约束玩家，维护最近安全位置，坠海时平滑恢复；不要只用岛的 AABB。保留现有 stepOffset=.35、slopeLimit=48 的实测余量，再用路线验证决定收紧。",
+      "acceptance": "邮差村口→岬角、邮差→椅子、阿萤→玩家完整录像；无穿屋、上屋顶、飞坡。玩家沿全岸/栈桥边缘走一圈，离开边界不永久下坠，仍能进入港桥和村子。此为代码识别的高风险，尚未亲测掉落。",
+      "full_notes_zh": "- 证据：`PlayerController.cs:59–86` 只有重力 Move，无越界/坠海恢复；游戏代码没有读取 Walkable_Boundary。`GameDirector.cs:760–775` 的 NPC Walk 直接沿端点直线改 Transform，`:900` GroundY 使用除玩家层外的所有层；`CrowdLights.cs:50` 也查询所有层。环境契约已经区分 Layer 8 可走面、Layer 9 房屋/岩石。\n- 要改：地面探测限定 Layer 8，障碍避让/相机碰撞另用 8|9；NPC 沿石路有序路点行走，并在碰撞前停下或绕行。用陆地与栈桥边界的并集约束玩家，维护最近安全位置，坠海时平滑恢复；不要只用岛的 AABB。保留现有 stepOffset=.35、slopeLimit=48 的实测余量，再用路线验证决定收紧。\n- 验收：邮差村口→岬角、邮差→椅子、阿萤→玩家完整录像；无穿屋、上屋顶、飞坡。玩家沿全岸/栈桥边缘走一圈，离开边界不永久下坠，仍能进入港桥和村子。此为代码识别的高风险，尚未亲测掉落。",
+      "runtime_observed": false,
+      "reference_screenshot": null,
+      "ours_runtime_screenshot": null
+    },
+    {
+      "id": "C11",
+      "priority": "P1",
+      "title": "停止输入不停止步行动画，速度标定也不一致",
+      "status": "open_handoff_required",
+      "owner": "Claude; environment cooperation where stated",
+      "evidence_kind": "source/static asset audit",
+      "evidence": "`PlayerController.cs:67` InputEnabled=false 时不清 actor.SetMoveSpeed；`GameDirector.cs:399` 到树下停步等多处只关输入；玩家 WalkSpeed=1.6，但 `Editor/JieGuangAssetSetup.cs:75` 玩家步行 BlendTree 阈值为 1.2，所以普通走路已混入跑步。`CharacterActor.cs:53–54` PlayAndWait 只读一个时间点的当前状态长度，没有验证进入目标状态。",
+      "requested_change": "通过统一的控制权切换 API 清除移动目标速度；速度标定要由步态实际脚掌位移决定，先把玩家行走与阈值统一到 1.2–1.6 m/s 中经校准的同一值；加速/减速试验 4/6 m/s²，转向 360–480°/s。动作等待按目标 state hash / normalizedTime 确认，并有超时记录。",
+      "acceptance": "持续按 W 跨入对话、树下停步、章节卡，0.2s 内转待机且不原地迈步；10m 行走两侧脚跟不连续滑动；蹲起、坐下、伸手镜头均完整。数值候选需与人物实际骨架比例验证。",
+      "full_notes_zh": "- 证据：`PlayerController.cs:67` InputEnabled=false 时不清 actor.SetMoveSpeed；`GameDirector.cs:399` 到树下停步等多处只关输入；玩家 WalkSpeed=1.6，但 `Editor/JieGuangAssetSetup.cs:75` 玩家步行 BlendTree 阈值为 1.2，所以普通走路已混入跑步。`CharacterActor.cs:53–54` PlayAndWait 只读一个时间点的当前状态长度，没有验证进入目标状态。\n- 要改：通过统一的控制权切换 API 清除移动目标速度；速度标定要由步态实际脚掌位移决定，先把玩家行走与阈值统一到 1.2–1.6 m/s 中经校准的同一值；加速/减速试验 4/6 m/s²，转向 360–480°/s。动作等待按目标 state hash / normalizedTime 确认，并有超时记录。\n- 验收：持续按 W 跨入对话、树下停步、章节卡，0.2s 内转待机且不原地迈步；10m 行走两侧脚跟不连续滑动；蹲起、坐下、伸手镜头均完整。数值候选需与人物实际骨架比例验证。",
+      "runtime_observed": false,
+      "reference_screenshot": null,
+      "ours_runtime_screenshot": null
+    },
+    {
+      "id": "C12",
+      "priority": "P1",
+      "title": "固定剧情镜头不进行避障，跟随碰撞也会继续插值进墙",
+      "status": "open_handoff_required",
+      "owner": "Claude; environment cooperation where stated",
+      "evidence_kind": "source/static asset audit",
+      "evidence": "`CameraDirector.cs:67–72` shotMode 直接 Lerp 无碰撞；行走 SphereCast 后 `:101` 继续从旧位置 Lerp，不保证当前帧留在障碍前；`GameDirector.cs:881` 对话两侧都堵时退到另一个未经检查的位置。",
+      "requested_change": "剧情镜头使用环境审定机位、过渡路径采样和 SphereCast；跟随被压缩时立即到碰撞安全距离、离墙时慢慢放开；将遮挡修正与审美阻尼分开。现值 FOV50、距离4.2、目标高度1.25 可先保留为基线，试验普通镜头 FOV46–50、半衰期 .12–.18s、对话FOV36–42；禁止用固定FOV改变代替构图检查。",
+      "acceptance": "村屋间转360°、圆窗对话、长椅对话、金树幕间、旗杆挂灯；相机和主角始终在可读侧，人物面部不被树枝/墙遮挡，转场无穿地或急拉近。录制视频才能评价阻尼。",
+      "full_notes_zh": "- 证据：`CameraDirector.cs:67–72` shotMode 直接 Lerp 无碰撞；行走 SphereCast 后 `:101` 继续从旧位置 Lerp，不保证当前帧留在障碍前；`GameDirector.cs:881` 对话两侧都堵时退到另一个未经检查的位置。\n- 要改：剧情镜头使用环境审定机位、过渡路径采样和 SphereCast；跟随被压缩时立即到碰撞安全距离、离墙时慢慢放开；将遮挡修正与审美阻尼分开。现值 FOV50、距离4.2、目标高度1.25 可先保留为基线，试验普通镜头 FOV46–50、半衰期 .12–.18s、对话FOV36–42；禁止用固定FOV改变代替构图检查。\n- 验收：村屋间转360°、圆窗对话、长椅对话、金树幕间、旗杆挂灯；相机和主角始终在可读侧，人物面部不被树枝/墙遮挡，转场无穿地或急拉近。录制视频才能评价阻尼。",
+      "runtime_observed": false,
+      "reference_screenshot": null,
+      "ours_runtime_screenshot": null
+    },
+    {
+      "id": "C13",
+      "priority": "P1",
+      "title": "主角终章亮度不是全岛最淡，萤光不是轮廓材质",
+      "status": "open_handoff_required",
+      "owner": "Claude; environment cooperation where stated",
+      "evidence_kind": "source/static asset audit",
+      "evidence": "`GameDirector.cs:105–108,515` 当前强度阿萤1.4、邮差.7、阿婆.25、灯伯.35、主角.5。`Fireflow.cs:71–82` 所有人用相同强度乘数，主角 Point/.02 发光系数均高于两位老人；`Fireflow.cs:76–77` 给整个材质匀加发光，没有 Fresnel/轮廓遮罩。",
+      "requested_change": "主角终章先试 .12–.18，低于阿婆，保留可读手指轮廓。用材质轮廓项或轻柔背侧补光，不发光到整个脸；人物仍不透明。可将肤色与衣服发光分开，支持所有材质槽，不能仅 `Renderer.material` 第一槽。",
+      "acceptance": "同距离同机位五人亮度并排以及手掌重逢近景；主角最淡但看得清。序章主角身体为0，只有手提灯的环境照射。不要通过过曝阿萤来“拉开差距”。",
+      "full_notes_zh": "- 证据：`GameDirector.cs:105–108,515` 当前强度阿萤1.4、邮差.7、阿婆.25、灯伯.35、主角.5。`Fireflow.cs:71–82` 所有人用相同强度乘数，主角 Point/.02 发光系数均高于两位老人；`Fireflow.cs:76–77` 给整个材质匀加发光，没有 Fresnel/轮廓遮罩。\n- 要改：主角终章先试 .12–.18，低于阿婆，保留可读手指轮廓。用材质轮廓项或轻柔背侧补光，不发光到整个脸；人物仍不透明。可将肤色与衣服发光分开，支持所有材质槽，不能仅 `Renderer.material` 第一槽。\n- 验收：同距离同机位五人亮度并排以及手掌重逢近景；主角最淡但看得清。序章主角身体为0，只有手提灯的环境照射。不要通过过曝阿萤来“拉开差距”。",
+      "runtime_observed": false,
+      "reference_screenshot": null,
+      "ours_runtime_screenshot": null
+    },
+    {
+      "id": "C14",
+      "priority": "P1",
+      "title": "幕间空间与文字冲突，第一朵花仍是球",
+      "status": "open_handoff_required",
+      "owner": "Claude; environment cooperation where stated",
+      "evidence_kind": "source/static asset audit",
+      "evidence": "07:175–197 在阁楼床边收信；`GameDirector.cs:398–415` 人物停在金树下，邮差也直接放到树下，而 `StoryText.cs:138` 仍说“楼下”“床边”。环境 v1 尚无阁楼。`:823–838` EnsureFlower 生成 0.22m Sphere，位置按树根+偏移推测，并未绑定真正最低树枝。",
+      "requested_change": "GPT 补阁楼/可用读信小景及花资产时，由 Claude 做树下熄灯→阁楼读信→下楼重燃的明确转场和动作；在阁楼未完成前，按07允许的全屏幕间卡清楚叙述转场，避免树下画面配床边对白。花由环境新增附着接口/资产接入，保留现有锚点位置契约。",
+      "acceptance": "幕间“楼下”出现时画面空间可解释；灯灭→读信→重新点亮完整录屏；终章特写里是真正有花瓣、花心与枝条连接的小花，没有悬空球。不能删掉信或主角低谷来缩减工作量。",
+      "full_notes_zh": "- 证据：07:175–197 在阁楼床边收信；`GameDirector.cs:398–415` 人物停在金树下，邮差也直接放到树下，而 `StoryText.cs:138` 仍说“楼下”“床边”。环境 v1 尚无阁楼。`:823–838` EnsureFlower 生成 0.22m Sphere，位置按树根+偏移推测，并未绑定真正最低树枝。\n- 要改：GPT 补阁楼/可用读信小景及花资产时，由 Claude 做树下熄灯→阁楼读信→下楼重燃的明确转场和动作；在阁楼未完成前，按07允许的全屏幕间卡清楚叙述转场，避免树下画面配床边对白。花由环境新增附着接口/资产接入，保留现有锚点位置契约。\n- 验收：幕间“楼下”出现时画面空间可解释；灯灭→读信→重新点亮完整录屏；终章特写里是真正有花瓣、花心与枝条连接的小花，没有悬空球。不能删掉信或主角低谷来缩减工作量。",
+      "runtime_observed": false,
+      "reference_screenshot": null,
+      "ours_runtime_screenshot": null
+    },
+    {
+      "id": "C15",
+      "priority": "P1",
+      "title": "UI 缺少信息层级与过渡，文本切换有旧句残留一帧",
+      "status": "open_handoff_required",
+      "owner": "Claude; environment cooperation where stated",
+      "evidence_kind": "source/static asset audit",
+      "evidence": "`GameUI.cs:65–103` 使用固定纯色矩形；章节卡为整屏82%黑底，64px，淡入/出各0.625s、固定2.4s停留；对白32px、34字/s，无整体渐入；`:193–209` 启用对白后先 yield 一帧，未清空 lineText，下一句开始前会保留旧句；调灯面板640×520挤入大量文字。没有章节地图实现。",
+      "requested_change": "先在 SayOne 开始清空 lineText/重置箭头，再做同一套原创纸纹与铜金细线风格，避免照搬对标构图/符号。1920×1080基准：正文30–34px、辅助22–24、说话人28–30；对白宽屏幕65–74%、底部安全边距5%，底板alpha .66–.76；对白淡入 .18–.24s，目标提示淡入 .3s，标题卡 .65s入/2.4s停/.65s出作为基线。UI 的纸纹来自用户自有或新制素材。",
+      "acceptance": "1440×900 与1920×1080的标题、章节卡、最长对白、完整信、调灯、任务提示、尾声八类截图；不能遮住关键灯头/圆窗；对话逐帧录屏无旧字闪现，信纸内容不超出可读区。对标具体图编号待根代理实测填入。",
+      "full_notes_zh": "- 证据：`GameUI.cs:65–103` 使用固定纯色矩形；章节卡为整屏82%黑底，64px，淡入/出各0.625s、固定2.4s停留；对白32px、34字/s，无整体渐入；`:193–209` 启用对白后先 yield 一帧，未清空 lineText，下一句开始前会保留旧句；调灯面板640×520挤入大量文字。没有章节地图实现。\n- 要改：先在 SayOne 开始清空 lineText/重置箭头，再做同一套原创纸纹与铜金细线风格，避免照搬对标构图/符号。1920×1080基准：正文30–34px、辅助22–24、说话人28–30；对白宽屏幕65–74%、底部安全边距5%，底板alpha .66–.76；对白淡入 .18–.24s，目标提示淡入 .3s，标题卡 .65s入/2.4s停/.65s出作为基线。UI 的纸纹来自用户自有或新制素材。\n- 章节地图以借光岛实际地形和六个剧情地点为原创组织，并提供继续进度；若先不制作地图，拆解报告应明确“尚无”，不能把标题卡充作地图完成验收。\n- 验收：1440×900 与1920×1080的标题、章节卡、最长对白、完整信、调灯、任务提示、尾声八类截图；不能遮住关键灯头/圆窗；对话逐帧录屏无旧字闪现，信纸内容不超出可读区。对标具体图编号待根代理实测填入。",
+      "runtime_observed": false,
+      "reference_screenshot": null,
+      "ours_runtime_screenshot": null
+    },
+    {
+      "id": "C16",
+      "priority": "P1",
+      "title": "存档校验、QA隔离与回标题状态未收口",
+      "status": "open_handoff_required",
+      "owner": "Claude; environment cooperation where stated",
+      "evidence_kind": "source/static asset audit",
+      "evidence": "`GameDirector.cs:119–124` debugStart 直接 cast 到 enum；`:187–203` 每个章节开始立即写 `jieguang.chapter`；没有版本/合法范围校验。`:174–175` 每次 Title 累加闭包事件、不解绑；尾声 Esc `:586–590` 回标题前没有清 Objective/Toast，也不重新布置灯、船与人物。",
+      "requested_change": "验证存档只接受1–7中的有效章节，非法值回安全起点；调试跳章使用隔离存储/禁写模式，不能误改用户进度；返回标题清 HUD、清理订阅、明确重置展示状态。输入/事件解绑必须覆盖协程中止路径。保留已有用户存档键，迁移须可恢复。",
+      "acceptance": "无存档、合法每章、非法-1/99、尾声→标题→继续重复三次；每次只启动一条主流程，不残留任务字，不多次回调。QA前后用户真实 `jieguang.chapter` / `debugStart` 不变；不要为了截图清空用户PlayerPrefs。",
+      "full_notes_zh": "- 证据：`GameDirector.cs:119–124` debugStart 直接 cast 到 enum；`:187–203` 每个章节开始立即写 `jieguang.chapter`；没有版本/合法范围校验。`:174–175` 每次 Title 累加闭包事件、不解绑；尾声 Esc `:586–590` 回标题前没有清 Objective/Toast，也不重新布置灯、船与人物。\n- 要改：验证存档只接受1–7中的有效章节，非法值回安全起点；调试跳章使用隔离存储/禁写模式，不能误改用户进度；返回标题清 HUD、清理订阅、明确重置展示状态。输入/事件解绑必须覆盖协程中止路径。保留已有用户存档键，迁移须可恢复。\n- 验收：无存档、合法每章、非法-1/99、尾声→标题→继续重复三次；每次只启动一条主流程，不残留任务字，不多次回调。QA前后用户真实 `jieguang.chapter` / `debugStart` 不变；不要为了截图清空用户PlayerPrefs。",
+      "runtime_observed": false,
+      "reference_screenshot": null,
+      "ours_runtime_screenshot": null
+    },
+    {
+      "id": "C17",
+      "priority": "P2",
+      "title": "场景环境音与章节动态音轨尚未实现",
+      "status": "open_handoff_required",
+      "owner": "Claude; environment cooperation where stated",
+      "evidence_kind": "source/static asset audit",
+      "evidence": "`GameDirector.cs:111–116,841–844` 只播放 NightLetters 循环和铃声；Resources/Audio 也只有 NightLetters.wav、LanternChime.wav。没有风、海浪、脚步或转灯声的播放路径。",
+      "requested_change": "使用自有/有授权音频，新增持续低声海浪与疏风，陆地/栈桥脚步区分，灯头转向轻铜声；幕间降低音乐并保留风声，重燃与挂灯给克制的音色反馈。音量建议以主旋律为0dB相对参考：海浪-12至-18dB、风-18至-24dB；转场交叉淡化1.5–3s，需实际听感校准而非绝对混音标准。",
+      "acceptance": "标题→序章→幕间→挂灯的连续录音，无突然断音/叠播；风浪不盖过铃声，静音设置覆盖全部声源。没有实录前不报告音频已达到对标。",
+      "full_notes_zh": "- 证据：`GameDirector.cs:111–116,841–844` 只播放 NightLetters 循环和铃声；Resources/Audio 也只有 NightLetters.wav、LanternChime.wav。没有风、海浪、脚步或转灯声的播放路径。\n- 要改：使用自有/有授权音频，新增持续低声海浪与疏风，陆地/栈桥脚步区分，灯头转向轻铜声；幕间降低音乐并保留风声，重燃与挂灯给克制的音色反馈。音量建议以主旋律为0dB相对参考：海浪-12至-18dB、风-18至-24dB；转场交叉淡化1.5–3s，需实际听感校准而非绝对混音标准。\n- 验收：标题→序章→幕间→挂灯的连续录音，无突然断音/叠播；风浪不盖过铃声，静音设置覆盖全部声源。没有实录前不报告音频已达到对标。",
+      "runtime_observed": false,
+      "reference_screenshot": null,
+      "ours_runtime_screenshot": null
+    },
+    {
+      "id": "C18",
+      "priority": "P1",
+      "title": "WebGL / Iris Xe 预算不能用源代码目标帧率代替",
+      "status": "open_handoff_required",
+      "owner": "Claude; environment cooperation where stated",
+      "evidence_kind": "source/static asset audit",
+      "evidence": "`GameDirector.cs:56` 只设 targetFrameRate=60；两套RP资产都是每对象附加光上限4（`Assets/Settings/PC_RPAsset.asset:48`、Mobile同位置）。当前剧情除3Spot外，还有人物Point、灯笼、约11个人群Point，环境另有灯；每对象可能抢光。Mobile资源渲染比例.8、附加光阴影关闭；是否当前WebGL使用该质量档需要构建时确认。",
+      "requested_change": "由 Claude 记录实际平台/Quality/URP资产/renderer/相机配置、GPU与帧时间；优先让人群发光点用批次/粒子，只保留影响关键表面的少量Point。管线资产与ProjectSettings不属于GPT改动范围，需要的修改请Claude接手。不要盲目提升附加光数量。",
+      "acceptance": "Iris Xe 1440×900，记录真实输出分辨率、10s预热后至少60s的标题/村子走动/第三章灯光负载帧时间p50/p95/p99、draw call和GPU/CPU瓶颈；另做真实WebGL加载与运行记录。结论限于测过的场景与设备，缺失实测就标未验证。",
+      "full_notes_zh": "- 证据：`GameDirector.cs:56` 只设 targetFrameRate=60；两套RP资产都是每对象附加光上限4（`Assets/Settings/PC_RPAsset.asset:48`、Mobile同位置）。当前剧情除3Spot外，还有人物Point、灯笼、约11个人群Point，环境另有灯；每对象可能抢光。Mobile资源渲染比例.8、附加光阴影关闭；是否当前WebGL使用该质量档需要构建时确认。\n- 要改：由 Claude 记录实际平台/Quality/URP资产/renderer/相机配置、GPU与帧时间；优先让人群发光点用批次/粒子，只保留影响关键表面的少量Point。管线资产与ProjectSettings不属于GPT改动范围，需要的修改请Claude接手。不要盲目提升附加光数量。\n- 验收：Iris Xe 1440×900，记录真实输出分辨率、10s预热后至少60s的标题/村子走动/第三章灯光负载帧时间p50/p95/p99、draw call和GPU/CPU瓶颈；另做真实WebGL加载与运行记录。结论限于测过的场景与设备，缺失实测就标未验证。",
+      "runtime_observed": false,
+      "reference_screenshot": null,
+      "ours_runtime_screenshot": null
+    }
+  ],
+  "counts": {
+    "findings": 18,
+    "P0": 7,
+    "P1": 10,
+    "P2": 1
+  },
+  "limitations": [
+    "No live Unity or player behavior observed.",
+    "No competitor screenshot or timing claim made.",
+    "Runtime appearance, collision, animation and FPS require dedicated verification.",
+    "Current main scene points to graybox; predicted real-Island integration defects cannot be presented as current player screenshots.",
+    "Source snapshots may change after this audit in shared workspace."
+  ],
+  "requests_file": "art/design/v2/benchmark/REQUESTS-FOR-CLAUDE.zh-CN.md"
+}

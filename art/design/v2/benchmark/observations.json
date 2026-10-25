@@ -1,0 +1,1911 @@
+{
+  "schema": "jieguang.benchmark.observations.v1",
+  "updated_utc": "2026-10-22T23:27:59.948565+00:00",
+  "reference_url": "https://littleprince.dev/",
+  "capture_provenance": "Root agent captured and visually reviewed a real landscape browser viewport. Index author independently inspected R42/R44/R45/R47; other new R41-R60 frame observations are attributed to root. The R55 pointerLock value is root-reported read-only DOM evidence, not image inference. No browser or Unity operation by the index author. R61-R80 (20 PNGs) were captured and viewed by root; the current update author independently inspected all 20 saved PNGs. Stable seating is first explicit in R80. R81-R83 were likewise captured/viewed by root and independently reviewed as saved PNGs by this update author. R82 is 1076x637; R81 and R83 are 1440x900.",
+  "viewport": {
+    "w": 1440,
+    "h": 900,
+    "dpr": 1
+  },
+  "policy": "Screenshots internal only. Headers/transfer metadata only; game response bodies/assets not exported or reused.",
+  "timing_rules": [
+    "加载/进章的actualMs是记录到的相对采样时刻，不能当引擎事件时间；文件名秒数仅计划标签。",
+    "截图阻塞造成采样偏差，不能当游戏帧率。",
+    "离散采样只能给状态和时间区间，不能精确断言淡化时长。",
+    "water-interaction-timing.json中的targetMs只是计划；observedMs含事件接收/传输延迟，captureTimestampDeltaMs未做跨时钟校准，三者均不是输入到动作的精确耗时。",
+    "续玩采集与Blender渲染并行，不能用这些帧间差推断正常FPS、角色速度或操作延迟。",
+    "dialogue-timing.json的captureDeltaMs与receiptDeltaMs分开保留，CDP与本地时钟未校准；40前五帧为完整省略号、末帧为新完整短句，没有逐字增长中间串，不估打字速度。",
+    "R41-R53是离散续玩状态，无连续可靠计时；文件名动作与先后不等于成功末态，未观察坐椅完成或首章通关，不能据保存间隔估动画/换镜/提示恢复耗时或FPS。",
+    "R54-R60继续寻找并最终暂停；800ms只是本轮自动化持续点击的请求长度，pointerLock状态来自root只读DOM查询，不证明产品必须长按、相机bug、延迟或FPS。",
+    "R61-R83只记录目标、提示和状态末态；无动作/换镜耗时、FPS或音频测量。Q的1.8s/3.2s是输入请求长度，不是过场延迟；截图等待及窗口变动不计为产品表现。"
+  ],
+  "filename_cautions": {
+    "09-task-updated.png": "任务更新，不是对话。",
+    "07-interaction-prompt.png": "本帧无近距离按键；明确按键证据使用13。",
+    "11-toolshed-interaction.png": "接近视图，不证明拾取。",
+    "03-chapter-enter-04s.png": "实际14945ms，不是4000ms。",
+    "14-item-picked.png": "提示消失但水壶仍在地面，任务未改变；不能据名认定拾取成功。",
+    "16-settings.png": "实际为暂停菜单，仅看见设置入口；不是设置详情面板。",
+    "17-settings-panel.png": "真正的设置面板；区别于16暂停入口。可见控件不等于功能已测试。",
+    "18-settings-keypress-observation.png": "仍在设置面板，不是任务展开；单图不能定位按键未返回的原因。",
+    "24-fill-water-*.png": "文件名毫秒只是目标采样标签；前几帧仍有E打水，后几帧消失但任务尚未变，完整成功末态使用25。",
+    "29-camera-look.png": "前景道具被画面裁切，不单凭此证明几何穿透。",
+    "30-rose-near.png": "人物不可见，道具极近放大；近裁面、避障拉近或角色隐藏等原因未确定。",
+    "31-rose-action.png": "可见持壶伸手姿态，但没有明确水流、完成反馈或对话。",
+    "32-after-rose.png": "任务仍是浇花；文件名after不能证明成功或章节完成。",
+    "33-paused-settings.png": "暂停中的设置页，仍可见语言/控制/音量，不是剧情或任务完成。",
+    "38-rose-sequence-*.png": "数字仅为计划采样标签；04000ms帧确有水流，后帧HUD消失，但不据标签量动作长度。",
+    "39-rose-follow-*.png": "真实固定构图对白；不是任务提示或章节卡。",
+    "40-dialogue-sequence-*.png": "Space之后的对白采样：前五帧省略号，末帧为新的完整短句；没有捕获逐字中间串，时钟未校准。",
+    "41-resume-observation.png": "文件名resume不证明本帧已恢复，也不证明对白或章节结束。",
+    "42-gameplay-after-resume.png": "不证明本帧已经拿起；不是对白截图，不证明整段对白退出过程已连续记录。",
+    "43-glass-interaction.png": "不能把文件名interaction或此中途帧当成稳定持物末态，更不证明罩花成功。",
+    "44-glass-state-later.png": "静帧不证明完整动画无穿插、脚滑或IK接触全程合格；不证明罩子已经放到花上，不量换镜时长。",
+    "45-after-glass.png": "after不等于罩花成功或剧情结束；不能用单帧测交互响应和持续时间。",
+    "46-glass-second-action.png": "这是放回木台的状态，不是给花罩上玻璃罩的成功末态；不据文件名推定任务完成条件。",
+    "47-rose-moving-away.png": "不证明已经到椅子或坐下，也不能根据新目标反推上一步罩花成功；标签可见不证明采用World Space Canvas。",
+    "48-chair-approach.png": "文件名approach不证明到达、坐下或目标完成；没有连续计时。",
+    "49-chair-camera-look.png": "不证明找到可交互坐点、已坐下或章末；不能据截图差推断镜头速度。",
+    "50-chair-camera-look.png": "不是坐下成功末态；无连续可靠计时或FPS。",
+    "51-chair-look-wide.png": "wide文件名不提供准确FOV，不证明坐椅或章节完成。",
+    "52-chair-drag-look.png": "不证明已接近正确交互点、坐下或通关；不测相机阻尼。",
+    "53-chair-walk.png": "walk不等于到达或坐下；首章仍未通关，没有音频实听或性能证据。",
+    "54-chair-search-back.png": "寻找过程，不证明到达坐点、坐下或第一章完成。",
+    "55-camera-focus-observation.png": "自动化输入条件观察不等于产品必须长按800ms，不证明相机bug或输入响应延迟；仍未完成坐椅目标。",
+    "56-locked-camera-look.png": "不据此量相机速度、延迟或阻尼；寻找尚未完成。",
+    "57-chair-locate.png": "locate文件名不是已到达或坐下的证据。",
+    "58-chair-scan.png": "未有坐下末态或第一章完成证据。",
+    "59-chair-scan.png": "仍是寻找过程，不证明目标完成。",
+    "60-pause-after-search.png": "暂停不是坐下成功、结尾或第一章通关；未实听音频、未测FPS。",
+    "65-chair-distance.png": "界面淡入中间帧，不量持续时间。",
+    "70-chair-prompt.png": "文件名不等于本帧存在清晰E按键；明确坐下提示使用74/78。",
+    "75-sit-transition.png": "本帧仍是站姿；不能按sit文件名认定坐下。",
+    "76-sit-later.png": "后续仍为站姿，不是稳定坐下末态。",
+    "79-chair-action.png": "转到椅边的直立中间姿态；稳定坐姿证据为80。",
+    "80-chair-stable.png": "坐椅目标已完成且可起身，但未离开首章、未进次章，不是全游戏通关。",
+    "81-sunset-rise.png": "未离开第一章；不量起身或换镜耗时。",
+    "82-departure-observation.png": "没有离章。外部窗口状态变化原因未定，不归因为游戏缺陷或Q行为。",
+    "83-departure-held.png": "尚未实际进入第二章，不是全游戏通关；输入请求持续时间不是过场或加载耗时。"
+  },
+  "reference_frames": [
+    {
+      "file": "reference/00-title.png",
+      "sha256": "eddb72e1b77c1678a4da8a10a0c3d1347cd5d15bfe46e635a1e99cf44f18a8a6",
+      "pixel_size": [
+        1440,
+        900
+      ],
+      "timing": null,
+      "status": "visually_reviewed_saved_image",
+      "category": "title",
+      "observed_zh": "暗蓝纸纹，左侧大标题，右侧星球插画，底部开始入口。",
+      "not_proven_zh": "插画不等同于实时3D材质。"
+    },
+    {
+      "file": "reference/01-loading-00s.png",
+      "sha256": "4d954ff8b10ebd57cdddeb19f5f269479155d59c1039a59b22adb3f1f948310e",
+      "pixel_size": [
+        1440,
+        900
+      ],
+      "timing": {
+        "event": "start_click",
+        "target_seconds_label_only": 0,
+        "actual_ms": 506
+      },
+      "status": "reviewed_page_metadata",
+      "category": "loading_metadata",
+      "observed_zh": "页面事件记录进度0%。",
+      "not_proven_zh": "该分写代理未单独打开此加载图；观察来自根代理记录的页面事件，100%不是首章全部就绪。"
+    },
+    {
+      "file": "reference/01-loading-01s.png",
+      "sha256": "1d0385d7a102c93dd6fdddbada5275cb5921e62c5a6338313011f55e6f5fd1c4",
+      "pixel_size": [
+        1440,
+        900
+      ],
+      "timing": {
+        "event": "start_click",
+        "target_seconds_label_only": 1,
+        "actual_ms": 1442
+      },
+      "status": "reviewed_page_metadata",
+      "category": "loading_metadata",
+      "observed_zh": "页面事件记录进度1%。",
+      "not_proven_zh": "该分写代理未单独打开此加载图；观察来自根代理记录的页面事件，100%不是首章全部就绪。"
+    },
+    {
+      "file": "reference/01-loading-02s.png",
+      "sha256": "5356df7b5ff41081d5aac123c00361c2cc5c7d82a1befab202b991bef528dbe9",
+      "pixel_size": [
+        1440,
+        900
+      ],
+      "timing": {
+        "event": "start_click",
+        "target_seconds_label_only": 2,
+        "actual_ms": 2591
+      },
+      "status": "reviewed_page_metadata",
+      "category": "loading_metadata",
+      "observed_zh": "页面事件记录进度39%。",
+      "not_proven_zh": "该分写代理未单独打开此加载图；观察来自根代理记录的页面事件，100%不是首章全部就绪。"
+    },
+    {
+      "file": "reference/01-loading-04s.png",
+      "sha256": "fb42341cd4d5d103d67be663481a920c3c6981c22770d497f76a4dc998330b6c",
+      "pixel_size": [
+        1440,
+        900
+      ],
+      "timing": {
+        "event": "start_click",
+        "target_seconds_label_only": 4,
+        "actual_ms": 4668
+      },
+      "status": "reviewed_page_metadata",
+      "category": "loading_metadata",
+      "observed_zh": "页面事件记录进度100%。",
+      "not_proven_zh": "该分写代理未单独打开此加载图；观察来自根代理记录的页面事件，100%不是首章全部就绪。"
+    },
+    {
+      "file": "reference/01-loading-08s.png",
+      "sha256": "5d76787ecf6e38025af7ed53e2a15d063722f58c08185c48b90e41282e51a910",
+      "pixel_size": [
+        1440,
+        900
+      ],
+      "timing": {
+        "event": "start_click",
+        "target_seconds_label_only": 8,
+        "actual_ms": 8114
+      },
+      "status": "visually_reviewed_saved_image",
+      "category": "loading",
+      "observed_zh": "无文字深蓝星空。",
+      "not_proven_zh": "不证明章节完成加载或可操作。"
+    },
+    {
+      "file": "reference/02-chapter-map.png",
+      "sha256": "d0cc55cbdad413bea06e700a90a794663822975c22f987738e8ed8160a1ef7f9",
+      "pixel_size": [
+        1440,
+        900
+      ],
+      "timing": null,
+      "status": "visually_reviewed_saved_image",
+      "category": "chapter_map",
+      "observed_zh": "不规则纸边、八个章节图，当前章节彩色金圈，其余蓝灰；下部说明与进入入口。",
+      "not_proven_zh": "不证明其他章节已游玩。"
+    },
+    {
+      "file": "reference/03-chapter-enter-00s.png",
+      "sha256": "6020fa949150f7c51eaef3126280f6316906093396fd3788bf1d6f12c0962bd3",
+      "pixel_size": [
+        1440,
+        900
+      ],
+      "timing": {
+        "event": "chapter_enter",
+        "target_seconds_label_only": 0,
+        "actual_ms": 488
+      },
+      "status": "visually_reviewed_saved_image",
+      "category": "chapter_transition",
+      "observed_zh": "实际0.488秒仍为地图。",
+      "not_proven_zh": "文件名不是实际时刻。"
+    },
+    {
+      "file": "reference/03-chapter-enter-01s.png",
+      "sha256": "1ea86097b8da98bb4184d66e71bea837e2b5b4c0c64b07180288c5a9a9bf3e6f",
+      "pixel_size": [
+        1440,
+        900
+      ],
+      "timing": {
+        "event": "chapter_enter",
+        "target_seconds_label_only": 1,
+        "actual_ms": 1404
+      },
+      "status": "visually_reviewed_saved_image",
+      "category": "chapter_transition",
+      "observed_zh": "实际1.404秒地图推近，涂抹状蒙版在选中区露出星空。",
+      "not_proven_zh": "不是普通整屏变暗；不推断Shader或缓动参数。"
+    },
+    {
+      "file": "reference/03-chapter-enter-02s.png",
+      "sha256": "0267ddac241449bae8e3fa7f7fc68293917b47855426a7906070337f6df1ed88",
+      "pixel_size": [
+        1440,
+        900
+      ],
+      "timing": {
+        "event": "chapter_enter",
+        "target_seconds_label_only": 2,
+        "actual_ms": 3141
+      },
+      "status": "visually_reviewed_saved_image",
+      "category": "chapter_card",
+      "observed_zh": "实际3.141秒为星空章节卡，左文右图，下方进度7%。",
+      "not_proven_zh": "不是对话/解谜，也不是2秒完成。"
+    },
+    {
+      "file": "reference/03-chapter-enter-04s.png",
+      "sha256": "4bc7bc633044a8a61c1b557859f79622a2a1625ef8015ed1acd09ffe952b1b94",
+      "pixel_size": [
+        1440,
+        900
+      ],
+      "timing": {
+        "event": "chapter_enter",
+        "target_seconds_label_only": 4,
+        "actual_ms": 14945
+      },
+      "status": "visually_reviewed_saved_image",
+      "category": "chapter_card",
+      "observed_zh": "实际14.945秒，章节卡进度30%。",
+      "not_proven_zh": "文件名4秒不是真实时间；截图阻塞不能当游戏掉帧。"
+    },
+    {
+      "file": "reference/03-chapter-enter-08s.png",
+      "sha256": "01814ca9c955db46152b319b9e4b73b9a52b889a5fda0cbf906a1f3f0870bdac",
+      "pixel_size": [
+        1440,
+        900
+      ],
+      "timing": {
+        "event": "chapter_enter",
+        "target_seconds_label_only": 8,
+        "actual_ms": 15183
+      },
+      "status": "visually_reviewed_saved_image",
+      "category": "chapter_card",
+      "observed_zh": "实际15.183秒，章节卡进度38%。",
+      "not_proven_zh": "不证明8秒已可操作。"
+    },
+    {
+      "file": "reference/04-first-gameplay.png",
+      "sha256": "4205a33ad02a9161f331b84ac1459bffe64ab75659fa1138c6f35d87eff26f76",
+      "pixel_size": [
+        1440,
+        900
+      ],
+      "timing": null,
+      "status": "visually_reviewed_saved_image",
+      "category": "first_control_frame",
+      "observed_zh": "蓝天与偏暖照明；角色正面水平居中、约39%画高；草穗、野花、蕨、嵌地石、裸土路；左上任务、底部Shift提示。",
+      "not_proven_zh": "不能确定黄昏、精确FOV、灯数、FPS或移动速度。"
+    },
+    {
+      "file": "reference/05-walking.png",
+      "sha256": "8a953e3f7a287d70b8242081f690c965afa6a54cbec6c0309ac807d07839d4e4",
+      "pixel_size": [
+        1440,
+        900
+      ],
+      "timing": null,
+      "status": "visually_reviewed_saved_image",
+      "category": "walking",
+      "observed_zh": "背面行走姿态；任务更新为具体目标；金色点列与目标标记。",
+      "not_proven_zh": "不证明加减速、脚滑程度或完整布料模拟。"
+    },
+    {
+      "file": "reference/06-interaction-approach.png",
+      "sha256": "267696549350813e3a6e8b1d70f3829401d3c1ae74895d2454c32ce41303ed7d",
+      "pixel_size": [
+        1440,
+        900
+      ],
+      "timing": null,
+      "status": "visually_reviewed_saved_image",
+      "category": "target_approach",
+      "observed_zh": "前景木柱，角色处于阴影，前方亮草坡与目标标记。",
+      "not_proven_zh": "没有近距离按键或完整对话。"
+    },
+    {
+      "file": "reference/07-interaction-prompt.png",
+      "sha256": "020ece606e13550840dc42f46838dc4676cfdb219fc5cf19ae51ff19f9b0fd88",
+      "pixel_size": [
+        1440,
+        900
+      ],
+      "timing": null,
+      "status": "visually_reviewed_saved_image",
+      "category": "target_approach",
+      "observed_zh": "角色走向坡顶，金色路径点与远云层。",
+      "not_proven_zh": "文件名含prompt，但本帧无近距离E键。不是对话。"
+    },
+    {
+      "file": "reference/08-near-object.png",
+      "sha256": "7a80a0caaf093e2f8333ea37e5b40e0339e39296da055f445d9057fd76e2b644",
+      "pixel_size": [
+        1440,
+        900
+      ],
+      "timing": null,
+      "status": "visually_reviewed_saved_image",
+      "category": "target_closeup",
+      "observed_zh": "花、玻璃罩和木道具附近的角色；前景草花、远景低对比云海。",
+      "not_proven_zh": "没有捕获完整自动字幕；不等于事件没有字幕。"
+    },
+    {
+      "file": "reference/09-task-updated.png",
+      "sha256": "93efd1ac67ae1d16992b2a34d421f171dc4c636da56555520521ac9947e71483",
+      "pixel_size": [
+        1440,
+        900
+      ],
+      "timing": null,
+      "status": "visually_reviewed_saved_image",
+      "category": "objective_update",
+      "observed_zh": "左上两层任务：总体目的和下一步。角色在花与木屏障旁。",
+      "not_proven_zh": "只是任务更新，不是对话；不能反推触发方式。"
+    },
+    {
+      "file": "reference/10-return-toolshed.png",
+      "sha256": "fcf0c15426bcbdaaa11df0c7aa50b602eda4ebebe69385ced39e3d12f4e5809d",
+      "pixel_size": [
+        1440,
+        900
+      ],
+      "timing": null,
+      "status": "visually_reviewed_saved_image",
+      "category": "walking_return",
+      "observed_zh": "正面行走、草坡云海、左上两层任务。",
+      "not_proven_zh": "没有近距离交互或拾取。"
+    },
+    {
+      "file": "reference/11-toolshed-interaction.png",
+      "sha256": "3ee1aebc191bfa9102cbeaf0965a32ad526b4874413fe21f84369e0cd4739f1d",
+      "pixel_size": [
+        1440,
+        900
+      ],
+      "timing": null,
+      "status": "visually_reviewed_saved_image",
+      "category": "toolshed_approach",
+      "observed_zh": "工具棚在人物后方；木板、撑杆、藤叶。",
+      "not_proven_zh": "文件名interaction不代表拾取，也无E提示。"
+    },
+    {
+      "file": "reference/12-watercan-approach.png",
+      "sha256": "2ea7b2402f61b320abc54f94f2beedaabd3978fda748a31cc513d29eeff7bdae",
+      "pixel_size": [
+        1440,
+        900
+      ],
+      "timing": null,
+      "status": "visually_reviewed_saved_image",
+      "category": "toolshed_approach",
+      "observed_zh": "侧背面角色靠近工具棚，棚旁水壶可见；路缘草花、阴影细节。",
+      "not_proven_zh": "尚未显示E键或拾取动作。"
+    },
+    {
+      "file": "reference/13-watercan-prompt.png",
+      "sha256": "5a510e064a0a0ef5d0fa3184a3a5146df0ed17dfda12baea84a79eaac8e09b48",
+      "pixel_size": [
+        1440,
+        900
+      ],
+      "timing": null,
+      "status": "visually_reviewed_saved_image",
+      "category": "interaction_prompt",
+      "observed_zh": "人物右侧明确E键与短动作白字；细描边圆角方框、无大底板，左上两行任务继续保留。",
+      "not_proven_zh": "不证明按键后的拾取动画、成功结果、音效或对话；不确定世界空间/屏幕投影实现。"
+    },
+    {
+      "file": "reference/14-item-picked.png",
+      "sha256": "d0c9da45cbf045a96b41eabad97bbbde24cdcbf47655d19b2e54d2269512eb9f",
+      "pixel_size": [
+        1440,
+        900
+      ],
+      "timing": null,
+      "status": "visually_reviewed_saved_image",
+      "category": "interaction_after_input_frame",
+      "observed_zh": "E提示已消失，人物仍在工具棚旁；水壶在脚边地上可见，左上拿水壶的下一步任务仍在。",
+      "not_proven_zh": "文件名item-picked不能证明拾取成功、动作完成或道具已附手；需后续连续帧与事件证据。"
+    },
+    {
+      "file": "reference/15-item-state-later.png",
+      "sha256": "0be0c1d41eeeacf912da523083e79f9fb89d3df96b2f7fb7575786cf1debcfea",
+      "pixel_size": [
+        1440,
+        900
+      ],
+      "timing": null,
+      "status": "visually_reviewed_saved_image",
+      "category": "item_pickup_result",
+      "observed_zh": "人物手中已经拿着水壶；左上任务更新为前往泉眼取水，近身E提示改为放回水壶。",
+      "not_proven_zh": "证明拾取后的持有状态与目标反馈；不证明完整拾取动画、音效、操作延迟或下一步取水已完成。"
+    },
+    {
+      "file": "reference/16-settings.png",
+      "sha256": "69b6db3b23b961903b92aee3dbf89dbd324a890103579bcb7e92d5a778c3db30",
+      "pixel_size": [
+        1440,
+        900
+      ],
+      "timing": null,
+      "status": "visually_reviewed_saved_image",
+      "category": "pause_menu",
+      "observed_zh": "实机画面整体压暗，左侧显示品牌与章节、纵向菜单；继续项金色选中，另有设置、旅程地图、全屏和清除进度入口，底部有Esc返回游戏。",
+      "not_proven_zh": "文件名settings实际是暂停菜单；未打开设置详情，未验证音量/画质功能，也没有测得动画或暂停响应时长。"
+    },
+    {
+      "file": "reference/17-settings-panel.png",
+      "sha256": "0b3b8a1ab06de4c05ce6027863603c76540ca77bf6be4e618b779f364c811e12",
+      "pixel_size": [
+        1440,
+        900
+      ],
+      "timing": null,
+      "status": "visually_reviewed_saved_image",
+      "category": "settings_details",
+      "observed_zh": "暂停侧栏保留，右侧展开八种语言、双列按键说明、鼠标灵敏度及主音量/音乐/音效滑条；中文与设置项金色。",
+      "not_proven_zh": "未调整控件或审听；不证明语言切换、音量、灵敏度实际效果，也未看见画质设置。"
+    },
+    {
+      "file": "reference/18-settings-keypress-observation.png",
+      "sha256": "97e33bca697e5db9e63b0d089d1ab451e7a1a29b34076032d31398f6dc150634",
+      "pixel_size": [
+        1440,
+        900
+      ],
+      "timing": null,
+      "status": "visually_reviewed_saved_image",
+      "category": "settings_after_keypress_observation",
+      "observed_zh": "画面仍停留设置详情，与17结构相同；不是任务卡。",
+      "not_proven_zh": "父代理记录这是Esc/Tab输入后截图，单帧不证明按键正确送达、响应耗时或产品缺陷。"
+    },
+    {
+      "file": "reference/19-objectives-panel.png",
+      "sha256": "da75196d3751b520c7573ed919da7af48e5a903171bdcbd9b6dbb31432cb7eff",
+      "pixel_size": [
+        1440,
+        900
+      ],
+      "timing": null,
+      "status": "visually_reviewed_saved_image",
+      "category": "expanded_objectives",
+      "observed_zh": "左上展开半透明深色金边任务卡：章节背景、章节插图、当前目标/子步骤及未揭示项；画面仍可见人物和泉眼距离标记，底部有Tab收起提示。",
+      "not_proven_zh": "未验证全部步骤的展开逻辑或完成样式；卡片尺寸为截图估计。"
+    },
+    {
+      "file": "reference/20-toward-spring.png",
+      "sha256": "63a3a8078e6fbc8e65a0c8a7363cc68b795fcd65c3f6558c3a09ce734dc08564",
+      "pixel_size": [
+        1440,
+        900
+      ],
+      "timing": null,
+      "status": "visually_reviewed_saved_image",
+      "category": "spring_approach",
+      "observed_zh": "人物持壶侧向迈步，草花与裸土路相接，远方山顶道具与烟柱可见；任务为前往泉眼。",
+      "not_proven_zh": "单帧不能推断速度、足滑或取水成功。"
+    },
+    {
+      "file": "reference/21-spring-approach.png",
+      "sha256": "063d444501fbc8421ff53b6109eda6e157641c9fab0d955bc37f25f76525b9fd",
+      "pixel_size": [
+        1440,
+        900
+      ],
+      "timing": null,
+      "status": "visually_reviewed_saved_image",
+      "category": "spring_approach",
+      "observed_zh": "人物侧面持壶站立，泉池在后方，岸边蕨类与草花成簇，目标金圈在人物附近。",
+      "not_proven_zh": "不证明已接近交互距离或触发取水。"
+    },
+    {
+      "file": "reference/22-spring-nearbank.png",
+      "sha256": "7000982a369649eb42c3175b9e2a33750633f49575e0ecc5ad286d757f9083c1",
+      "pixel_size": [
+        1440,
+        900
+      ],
+      "timing": null,
+      "status": "visually_reviewed_saved_image",
+      "category": "spring_approach",
+      "observed_zh": "泉池与环岸岩石已清楚可见，人物侧面持壶，路缘有蕨、草、花；左上仍为取水任务。",
+      "not_proven_zh": "本帧没有明确E取水提示或成功反馈。"
+    },
+    {
+      "file": "reference/23-spring-bank.png",
+      "sha256": "822562ca5f4ac66f06c2680004b93bf9e9d7472391f1def4ca8c0cee779ab931",
+      "pixel_size": [
+        1440,
+        900
+      ],
+      "timing": null,
+      "status": "visually_reviewed_saved_image",
+      "category": "water_interaction_prompt",
+      "observed_zh": "泉池岸边人物持壶，近身显示E打水；蓝绿水下卵石和岩块可辨，环岸岩石接草花。",
+      "not_proven_zh": "不证明注水动画、液量、音效、反射/折射算法或取水已完成。"
+    },
+    {
+      "file": "reference/24-fill-water-0000ms.png",
+      "sha256": "f85de7c9796261fc350587341cf3c9a098e32458eaacf4ffd73966a0c9c89f89",
+      "pixel_size": [
+        1440,
+        900
+      ],
+      "timing": {
+        "source": "reference/water-interaction-timing.json",
+        "action_start_epoch_ms": 1792697007515,
+        "target_ms_label_only": 0,
+        "observed_ms_includes_transport": 390,
+        "cdp_timestamp_seconds_raw": 1792697007.524545,
+        "clock_caution": "CDP帧时间与本地epoch未做跨时钟校准；不得推断动作时长、输入延迟或FPS。",
+        "capture_timestamp_delta_ms_uncalibrated": 10
+      },
+      "status": "visually_reviewed_saved_image",
+      "category": "water_interaction_process_sample",
+      "observed_zh": "人物背面持壶站在池岸，E打水与取水任务都仍在；池底卵石可辨。",
+      "not_proven_zh": "本帧未证明取水任务完成；文件名时间不是真实动作时刻，成功后的任务反馈见25。"
+    },
+    {
+      "file": "reference/24-fill-water-0250ms.png",
+      "sha256": "da1b140b5eca89485b8e3b279c395b80370ab537ab508a6e8ac5c75469c785ec",
+      "pixel_size": [
+        1440,
+        900
+      ],
+      "timing": {
+        "source": "reference/water-interaction-timing.json",
+        "action_start_epoch_ms": 1792697007515,
+        "target_ms_label_only": 250,
+        "observed_ms_includes_transport": 491,
+        "cdp_timestamp_seconds_raw": 1792697007.599535,
+        "clock_caution": "CDP帧时间与本地epoch未做跨时钟校准；不得推断动作时长、输入延迟或FPS。",
+        "capture_timestamp_delta_ms_uncalibrated": 85
+      },
+      "status": "visually_reviewed_saved_image",
+      "category": "water_interaction_process_sample",
+      "observed_zh": "人物背面持壶站在池岸，E打水与取水任务都仍在；池底卵石可辨。",
+      "not_proven_zh": "本帧未证明取水任务完成；文件名时间不是真实动作时刻，成功后的任务反馈见25。"
+    },
+    {
+      "file": "reference/24-fill-water-0500ms.png",
+      "sha256": "6e1e98f214f400b947a97aaa451e3962ac33b5390dd3abc0a11951a94dbfd790",
+      "pixel_size": [
+        1440,
+        900
+      ],
+      "timing": {
+        "source": "reference/water-interaction-timing.json",
+        "action_start_epoch_ms": 1792697007515,
+        "target_ms_label_only": 500,
+        "observed_ms_includes_transport": 600,
+        "cdp_timestamp_seconds_raw": 1792697007.666226,
+        "clock_caution": "CDP帧时间与本地epoch未做跨时钟校准；不得推断动作时长、输入延迟或FPS。",
+        "capture_timestamp_delta_ms_uncalibrated": 151
+      },
+      "status": "visually_reviewed_saved_image",
+      "category": "water_interaction_process_sample",
+      "observed_zh": "人物背面持壶站在池岸，E打水与取水任务都仍在；池底卵石可辨。",
+      "not_proven_zh": "本帧未证明取水任务完成；文件名时间不是真实动作时刻，成功后的任务反馈见25。"
+    },
+    {
+      "file": "reference/24-fill-water-1000ms.png",
+      "sha256": "9a189b2f6962e08d594b7d31c4ebce1481c16836aa7f46798161c57ec5c08af4",
+      "pixel_size": [
+        1440,
+        900
+      ],
+      "timing": {
+        "source": "reference/water-interaction-timing.json",
+        "action_start_epoch_ms": 1792697007515,
+        "target_ms_label_only": 1000,
+        "observed_ms_includes_transport": 1131,
+        "cdp_timestamp_seconds_raw": 1792697008.107848,
+        "clock_caution": "CDP帧时间与本地epoch未做跨时钟校准；不得推断动作时长、输入延迟或FPS。",
+        "capture_timestamp_delta_ms_uncalibrated": 593
+      },
+      "status": "visually_reviewed_saved_image",
+      "category": "water_interaction_process_sample",
+      "observed_zh": "人物转为侧向，近身E打水提示已不显示；左上仍为取水任务。",
+      "not_proven_zh": "本帧未证明取水任务完成；文件名时间不是真实动作时刻，成功后的任务反馈见25。"
+    },
+    {
+      "file": "reference/24-fill-water-2000ms.png",
+      "sha256": "e35364d0744c623892dbd8a53ea00d7cbae612705727eb8f8659e36a888a819b",
+      "pixel_size": [
+        1440,
+        900
+      ],
+      "timing": {
+        "source": "reference/water-interaction-timing.json",
+        "action_start_epoch_ms": 1792697007515,
+        "target_ms_label_only": 2000,
+        "observed_ms_includes_transport": 2804,
+        "cdp_timestamp_seconds_raw": 1792697008.174545,
+        "clock_caution": "CDP帧时间与本地epoch未做跨时钟校准；不得推断动作时长、输入延迟或FPS。",
+        "capture_timestamp_delta_ms_uncalibrated": 660
+      },
+      "status": "visually_reviewed_saved_image",
+      "category": "water_interaction_process_sample",
+      "observed_zh": "人物转为侧向，近身E打水提示已不显示；左上仍为取水任务。",
+      "not_proven_zh": "本帧未证明取水任务完成；文件名时间不是真实动作时刻，成功后的任务反馈见25。"
+    },
+    {
+      "file": "reference/24-fill-water-4000ms.png",
+      "sha256": "452ec7d6525e981e0c61789a9474f858a4f98294f309dc662a53030497f11ddc",
+      "pixel_size": [
+        1440,
+        900
+      ],
+      "timing": {
+        "source": "reference/water-interaction-timing.json",
+        "action_start_epoch_ms": 1792697007515,
+        "target_ms_label_only": 4000,
+        "observed_ms_includes_transport": 5942,
+        "cdp_timestamp_seconds_raw": 1792697010.782998,
+        "clock_caution": "CDP帧时间与本地epoch未做跨时钟校准；不得推断动作时长、输入延迟或FPS。",
+        "capture_timestamp_delta_ms_uncalibrated": 3268
+      },
+      "status": "visually_reviewed_saved_image",
+      "category": "water_interaction_process_sample",
+      "observed_zh": "人物侧向迈步、手持水壶，E打水已不显示；左上仍是取水任务。",
+      "not_proven_zh": "本帧未证明取水任务完成；文件名时间不是真实动作时刻，成功后的任务反馈见25。"
+    },
+    {
+      "file": "reference/25-water-state-later.png",
+      "sha256": "5be6eb2efca222df8bd9d79988538eb99f9db1e2972bd6aa298217a90618f32c",
+      "pixel_size": [
+        1440,
+        900
+      ],
+      "timing": null,
+      "status": "visually_reviewed_saved_image",
+      "category": "water_interaction_result",
+      "observed_zh": "人物持壶停在泉边，左上目标已改为给玫瑰浇水；右边缘出现玫瑰目标及15米距离，原E打水提示不在。",
+      "not_proven_zh": "确认任务推进，不据此量水壶液量、完整取水动画或精确耗时。"
+    },
+    {
+      "file": "reference/26-return-to-rose.png",
+      "sha256": "8be967c59a5b4a099c70d7a4adb20742d313f27a20a1f64c4cffff8499e96070",
+      "pixel_size": [
+        1440,
+        900
+      ],
+      "timing": null,
+      "status": "visually_reviewed_saved_image",
+      "category": "return_with_can",
+      "observed_zh": "持壶人物的下腿在浅水中，池底卵石仍可见；目标维持浇花，岸边石块与草簇形成过渡。",
+      "not_proven_zh": "不证明水面物理、足步声音或整段离水动作。"
+    },
+    {
+      "file": "reference/27-slope-to-rose.png",
+      "sha256": "5c1f2df1fe5136d31ef8c6e631b5c0d5fc225f4a996c2d0ae77c5f59a6b9f0c8",
+      "pixel_size": [
+        1440,
+        900
+      ],
+      "timing": null,
+      "status": "visually_reviewed_saved_image",
+      "category": "return_with_can",
+      "observed_zh": "人物持壶站在裸土坡上，边缘草花与远方低对比云层分离；目标维持浇花。",
+      "not_proven_zh": "不证明抵达玫瑰或浇水成功。"
+    },
+    {
+      "file": "reference/28-rose-area.png",
+      "sha256": "ac423e5753e5b891191f69b3ca2cf5a529ceeab9bcf623bb38b7029b343ffa85",
+      "pixel_size": [
+        1440,
+        900
+      ],
+      "timing": null,
+      "status": "visually_reviewed_saved_image",
+      "category": "near_object_framing",
+      "observed_zh": "相机更靠近持壶人物，脚部在画面下缘被裁切，后方大片云海；目标维持浇花。",
+      "not_proven_zh": "文件名不证明已经进入玫瑰交互范围。"
+    },
+    {
+      "file": "reference/29-camera-look.png",
+      "sha256": "cae712934c14e7794c1fc536a91633ea9cf9d33a7a50468c7d8ffa68a67a4bd3",
+      "pixel_size": [
+        1440,
+        900
+      ],
+      "timing": null,
+      "status": "visually_reviewed_saved_image",
+      "category": "near_object_crop",
+      "observed_zh": "人物仍可见，近处玻璃罩/木底盘和花盆沿左下画面边缘明显裁切；目标仍是浇花。",
+      "not_proven_zh": "仅能确认构图裁切，不能单凭此断言几何穿透或相机碰撞故障。"
+    },
+    {
+      "file": "reference/30-rose-near.png",
+      "sha256": "a4b4b16bfddfd16f1ce5ace38cb54f6a8b15dbf9d9b29cfc611b46db4702bf41",
+      "pixel_size": [
+        1440,
+        900
+      ],
+      "timing": null,
+      "status": "visually_reviewed_saved_image",
+      "category": "near_object_camera_extreme",
+      "observed_zh": "角色身体不可见，水壶在左下极近放大并大部分被画面裁掉，地面与花填满视野；任务未变。",
+      "not_proven_zh": "无法区分近裁面、避障拉近、角色隐藏机制或观察方向造成；未测连续恢复过程。"
+    },
+    {
+      "file": "reference/31-rose-action.png",
+      "sha256": "9a7a5030f8e3c046d1b4fc1cd697390fffc70baf15ec1e9a91956a8b9bf9e938",
+      "pixel_size": [
+        1440,
+        900
+      ],
+      "timing": null,
+      "status": "visually_reviewed_saved_image",
+      "category": "held_can_action_pose",
+      "observed_zh": "人物在树桩后方正面可见，持壶手向玻璃罩附近伸出；花盆在左，任务仍为浇花。",
+      "not_proven_zh": "看不到明确水流、任务完成或对话，不据文件名认定浇水成功。"
+    },
+    {
+      "file": "reference/32-after-rose.png",
+      "sha256": "8201ae78546a32e875bf8a38a5701772c401689463dad48543ddfc87aa3e2c26",
+      "pixel_size": [
+        1440,
+        900
+      ],
+      "timing": null,
+      "status": "visually_reviewed_saved_image",
+      "category": "held_can_later_pose",
+      "observed_zh": "画面仍为人物伸手持壶与树桩/玻璃罩近景，目标金点在人物左侧，任务保持浇花。",
+      "not_proven_zh": "没有新任务、完成文本或对话；after文件名不证明动作完成或首章通关。"
+    },
+    {
+      "file": "reference/33-paused-settings.png",
+      "sha256": "4309c9404fbde1221f110f9ba03493b99424cdad07477df3b4e9d4fc8a68bf65",
+      "pixel_size": [
+        1440,
+        900
+      ],
+      "timing": null,
+      "status": "visually_reviewed_saved_image",
+      "category": "pause_settings_revisit",
+      "observed_zh": "暂停中的设置页保留左侧导航，语言、按键图、灵敏度及音量滑条可见。",
+      "not_proven_zh": "不是新的任务/剧情状态；未测试功能效果。"
+    },
+    {
+      "file": "reference/34-rose-front.png",
+      "sha256": "2004e6f82c0be4364f7e7eab9e02a6163fc2236036b83b6c3d94045bff3a58e3",
+      "pixel_size": [
+        1440,
+        900
+      ],
+      "timing": null,
+      "status": "visually_reviewed_saved_image",
+      "category": "rose_reapproach",
+      "observed_zh": "人物正面手持水壶，玫瑰区域木屏风在后，当前仍为浇花任务。",
+      "not_proven_zh": "没有E浇水提示或动作完成。"
+    },
+    {
+      "file": "reference/35-rose-approach-side.png",
+      "sha256": "740f8e7679df2450f67a20bfaea7ddbd45e0c1488ece448ad4fd193a7219c6d3",
+      "pixel_size": [
+        1440,
+        900
+      ],
+      "timing": null,
+      "status": "visually_reviewed_saved_image",
+      "category": "rose_reapproach",
+      "observed_zh": "人物背面持壶沿草坡绕行，云海和目标点可见，浇花任务仍在。",
+      "not_proven_zh": "不量移动速度，不证明交互已触发。"
+    },
+    {
+      "file": "reference/36-rose-side.png",
+      "sha256": "877d9a4836bda6172035f14666b6483b4b39302dadc5781728fffc9e6e33884d",
+      "pixel_size": [
+        1440,
+        900
+      ],
+      "timing": null,
+      "status": "visually_reviewed_saved_image",
+      "category": "rose_reapproach",
+      "observed_zh": "人物侧面持壶站在玫瑰与玻璃罩附近，金色目标圈在花旁；任务仍在。",
+      "not_proven_zh": "本帧未显示完整浇水动作或对白。"
+    },
+    {
+      "file": "reference/37-rose-interaction-check.png",
+      "sha256": "1921ad08069e26333f4f5a84460c025eb37ea108bad8c39a578855c5f9210f51",
+      "pixel_size": [
+        1440,
+        900
+      ],
+      "timing": null,
+      "status": "visually_reviewed_saved_image",
+      "category": "watering_prompt",
+      "observed_zh": "人物手持水壶在玫瑰旁，明确出现E浇水；左上仍是当前目标。",
+      "not_proven_zh": "证明可交互提示，不单凭此认定动作完成。"
+    },
+    {
+      "file": "reference/38-rose-sequence-00000ms.png",
+      "sha256": "27b4d7155458ead16df3da63bd29a71abc186d07e3653012a72163c2c09297fc",
+      "pixel_size": [
+        1440,
+        900
+      ],
+      "timing": {
+        "target_ms_label_only": 0,
+        "clock_caution": "仅文件名计划标签，本索引没有对应可靠动作事件时刻。"
+      },
+      "status": "visually_reviewed_saved_image",
+      "category": "watering_action_sample",
+      "observed_zh": "仍有近身E提示与左上目标，人物持壶位于玫瑰旁。",
+      "not_proven_zh": "输入后的早期采样不等同已执行动作。"
+    },
+    {
+      "file": "reference/38-rose-sequence-00500ms.png",
+      "sha256": "0a851c6770aa630ef6e469744b0d645de11c5b951a1efbec9cd38084fb9c5a19",
+      "pixel_size": [
+        1440,
+        900
+      ],
+      "timing": {
+        "target_ms_label_only": 500,
+        "clock_caution": "仅文件名计划标签，本索引没有对应可靠动作事件时刻。"
+      },
+      "status": "visually_reviewed_saved_image",
+      "category": "watering_action_sample",
+      "observed_zh": "人物持壶侧移，近身E不显示，左上目标仍在。",
+      "not_proven_zh": "不量响应时间，不确认完整动作。"
+    },
+    {
+      "file": "reference/38-rose-sequence-01000ms.png",
+      "sha256": "cf693f7291b631596bd4a9a1859aa1026fce64ead41eb83983ce4027836b417e",
+      "pixel_size": [
+        1440,
+        900
+      ],
+      "timing": {
+        "target_ms_label_only": 1000,
+        "clock_caution": "仅文件名计划标签，本索引没有对应可靠动作事件时刻。"
+      },
+      "status": "visually_reviewed_saved_image",
+      "category": "watering_action_sample",
+      "observed_zh": "视野转向草坡与泉池，角色不在画面，左上目标仍在。",
+      "not_proven_zh": "不能据单帧定位近物相机机制。"
+    },
+    {
+      "file": "reference/38-rose-sequence-02000ms.png",
+      "sha256": "55ff7dcf8ffa33db8a356d481e8fdd4ce48699b5db0cc574d84356d4534b8b4b",
+      "pixel_size": [
+        1440,
+        900
+      ],
+      "timing": {
+        "target_ms_label_only": 2000,
+        "clock_caution": "仅文件名计划标签，本索引没有对应可靠动作事件时刻。"
+      },
+      "status": "visually_reviewed_saved_image",
+      "category": "watering_action_sample",
+      "observed_zh": "视野俯向地面，水壶在左下极近放大，角色身体不可见，目标仍在。",
+      "not_proven_zh": "不能据标签推断动画2秒或断言相机故障原因。"
+    },
+    {
+      "file": "reference/38-rose-sequence-04000ms.png",
+      "sha256": "5bcc6397dc5315891f686aaa3493336279e2f7244e7973e73865c2160d99bf0f",
+      "pixel_size": [
+        1440,
+        900
+      ],
+      "timing": {
+        "target_ms_label_only": 4000,
+        "clock_caution": "仅文件名计划标签，本索引没有对应可靠动作事件时刻。"
+      },
+      "status": "visually_reviewed_saved_image",
+      "category": "watering_action_sample",
+      "observed_zh": "俯视人物倾斜水壶，清楚水流落向玫瑰与根部地面；左上目标仍在。",
+      "not_proven_zh": "证明实际浇水动作帧，不量动作持续时间或水流实现。"
+    },
+    {
+      "file": "reference/38-rose-sequence-08000ms.png",
+      "sha256": "9655f3bd8b900346820895c1953a5df732da14295b20d1cb132d321d0b326d4c",
+      "pixel_size": [
+        1440,
+        900
+      ],
+      "timing": {
+        "target_ms_label_only": 8000,
+        "clock_caution": "仅文件名计划标签，本索引没有对应可靠动作事件时刻。"
+      },
+      "status": "visually_reviewed_saved_image",
+      "category": "watering_action_sample",
+      "observed_zh": "人物已立起，画面中左上任务与近身按键均不显示；木屏风和玫瑰仍在。",
+      "not_proven_zh": "未出现对白板，不等于章节通关；不能把8秒当动作时长。"
+    },
+    {
+      "file": "reference/38-rose-sequence-12000ms.png",
+      "sha256": "e495c8d965adde6bab2f37b251a2fc4784bade376cfc3159b207f57a2231dd4c",
+      "pixel_size": [
+        1440,
+        900
+      ],
+      "timing": {
+        "target_ms_label_only": 12000,
+        "clock_caution": "仅文件名计划标签，本索引没有对应可靠动作事件时刻。"
+      },
+      "status": "visually_reviewed_saved_image",
+      "category": "watering_action_sample",
+      "observed_zh": "人物位于木屏风旁，任务与近身按键仍不显示，尚无对白板。",
+      "not_proven_zh": "不量等待时长；后续真实对白见39。"
+    },
+    {
+      "file": "reference/39-rose-follow-00.png",
+      "sha256": "bf952584647d6d7ced4969260313a9fec0cc55430021ba7ae304b13c147ade15",
+      "pixel_size": [
+        1440,
+        900
+      ],
+      "timing": null,
+      "status": "visually_reviewed_saved_image",
+      "category": "dialogue_fixed_shot",
+      "observed_zh": "固定构图中人物位于右侧、玫瑰在左中，水壶放在脚边；底部深色半透明宽板有细金边、左上说话人胶囊、短句和右下金星，探索任务/E提示退去。",
+      "not_proven_zh": "证明实际对白画面；五帧是同一条短句，不证明完整对话结束、精确淡入/打字时长或音频。"
+    },
+    {
+      "file": "reference/39-rose-follow-01.png",
+      "sha256": "285fdedef869ce8f283359871ed6ee721bf4e29300e0dcf83d0398daa5038a05",
+      "pixel_size": [
+        1440,
+        900
+      ],
+      "timing": null,
+      "status": "visually_reviewed_saved_image",
+      "category": "dialogue_fixed_shot",
+      "observed_zh": "固定构图中人物位于右侧、玫瑰在左中，水壶放在脚边；底部深色半透明宽板有细金边、左上说话人胶囊、短句和右下金星，探索任务/E提示退去。",
+      "not_proven_zh": "证明实际对白画面；五帧是同一条短句，不证明完整对话结束、精确淡入/打字时长或音频。"
+    },
+    {
+      "file": "reference/39-rose-follow-02.png",
+      "sha256": "7bc499407dcdd1907c30a79d8eae396d019b7ff73f7e5015c5cf7e08e0db627d",
+      "pixel_size": [
+        1440,
+        900
+      ],
+      "timing": null,
+      "status": "visually_reviewed_saved_image",
+      "category": "dialogue_fixed_shot",
+      "observed_zh": "固定构图中人物位于右侧、玫瑰在左中，水壶放在脚边；底部深色半透明宽板有细金边、左上说话人胶囊、短句和右下金星，探索任务/E提示退去。",
+      "not_proven_zh": "证明实际对白画面；五帧是同一条短句，不证明完整对话结束、精确淡入/打字时长或音频。"
+    },
+    {
+      "file": "reference/39-rose-follow-03.png",
+      "sha256": "071ad591959c3fcbfe349da76d38de8b7f10e69772a17277bb4c95890d70d052",
+      "pixel_size": [
+        1440,
+        900
+      ],
+      "timing": null,
+      "status": "visually_reviewed_saved_image",
+      "category": "dialogue_fixed_shot",
+      "observed_zh": "固定构图中人物位于右侧、玫瑰在左中，水壶放在脚边；底部深色半透明宽板有细金边、左上说话人胶囊、短句和右下金星，探索任务/E提示退去。",
+      "not_proven_zh": "证明实际对白画面；五帧是同一条短句，不证明完整对话结束、精确淡入/打字时长或音频。"
+    },
+    {
+      "file": "reference/39-rose-follow-04.png",
+      "sha256": "8af11b10c5c9264ed28e1c8f1949d3d6a96d52e8680972f3b3b57617d3a80bf1",
+      "pixel_size": [
+        1440,
+        900
+      ],
+      "timing": null,
+      "status": "visually_reviewed_saved_image",
+      "category": "dialogue_fixed_shot",
+      "observed_zh": "固定构图中人物位于右侧、玫瑰在左中，水壶放在脚边；底部深色半透明宽板有细金边、左上说话人胶囊、短句和右下金星，探索任务/E提示退去。",
+      "not_proven_zh": "证明实际对白画面；五帧是同一条短句，不证明完整对话结束、精确淡入/打字时长或音频。"
+    },
+    {
+      "file": "reference/40-dialogue-sequence-0000ms.png",
+      "sha256": "dfa6a3715539229dfb549e95aa2ee777a70e1af30859fc15e784609f4514ee96",
+      "pixel_size": [
+        1440,
+        900
+      ],
+      "timing": {
+        "source": "reference/dialogue-timing.json",
+        "action_start_epoch_ms": 1792701325022,
+        "target_ms_label_only": 0,
+        "capture_delta_ms_uncalibrated": 274,
+        "receipt_delta_ms_includes_transport": 657,
+        "clock_caution": "CDP与本地时钟未校准，非动作耗时或FPS。"
+      },
+      "status": "visually_reviewed_saved_image",
+      "category": "dialogue_progression_sample",
+      "observed_zh": "说话人改为玫瑰，标签字色与小图标偏粉，正文为完整省略号；镜头和深色对白板保持。",
+      "not_proven_zh": "父代理记录Space推进后采样；没有捕获逐字增长中间串，不能据文件名/接收延迟量打字速度、淡入或输入响应。"
+    },
+    {
+      "file": "reference/40-dialogue-sequence-0250ms.png",
+      "sha256": "43ed76efd335146890fd75bfccbddcc46809d8a8312faf89a2aeaa1b82601bfd",
+      "pixel_size": [
+        1440,
+        900
+      ],
+      "timing": {
+        "source": "reference/dialogue-timing.json",
+        "action_start_epoch_ms": 1792701325022,
+        "target_ms_label_only": 250,
+        "capture_delta_ms_uncalibrated": 566,
+        "receipt_delta_ms_includes_transport": 972,
+        "clock_caution": "CDP与本地时钟未校准，非动作耗时或FPS。"
+      },
+      "status": "visually_reviewed_saved_image",
+      "category": "dialogue_progression_sample",
+      "observed_zh": "说话人改为玫瑰，标签字色与小图标偏粉，正文为完整省略号；镜头和深色对白板保持。",
+      "not_proven_zh": "父代理记录Space推进后采样；没有捕获逐字增长中间串，不能据文件名/接收延迟量打字速度、淡入或输入响应。"
+    },
+    {
+      "file": "reference/40-dialogue-sequence-0500ms.png",
+      "sha256": "328fcf39653eb378c89f2dc49673062cb462d201e74392f65b4f32cde2761dab",
+      "pixel_size": [
+        1440,
+        900
+      ],
+      "timing": {
+        "source": "reference/dialogue-timing.json",
+        "action_start_epoch_ms": 1792701325022,
+        "target_ms_label_only": 500,
+        "capture_delta_ms_uncalibrated": 858,
+        "receipt_delta_ms_includes_transport": 1249,
+        "clock_caution": "CDP与本地时钟未校准，非动作耗时或FPS。"
+      },
+      "status": "visually_reviewed_saved_image",
+      "category": "dialogue_progression_sample",
+      "observed_zh": "说话人改为玫瑰，标签字色与小图标偏粉，正文为完整省略号；镜头和深色对白板保持。",
+      "not_proven_zh": "父代理记录Space推进后采样；没有捕获逐字增长中间串，不能据文件名/接收延迟量打字速度、淡入或输入响应。"
+    },
+    {
+      "file": "reference/40-dialogue-sequence-1000ms.png",
+      "sha256": "1ed97bb19f463b59e1a48d30ebdf87f453a126ee2f36bc44de8ca4f9eaed18be",
+      "pixel_size": [
+        1440,
+        900
+      ],
+      "timing": {
+        "source": "reference/dialogue-timing.json",
+        "action_start_epoch_ms": 1792701325022,
+        "target_ms_label_only": 1000,
+        "capture_delta_ms_uncalibrated": 1158,
+        "receipt_delta_ms_includes_transport": 1541,
+        "clock_caution": "CDP与本地时钟未校准，非动作耗时或FPS。"
+      },
+      "status": "visually_reviewed_saved_image",
+      "category": "dialogue_progression_sample",
+      "observed_zh": "说话人改为玫瑰，标签字色与小图标偏粉，正文为完整省略号；镜头和深色对白板保持。",
+      "not_proven_zh": "父代理记录Space推进后采样；没有捕获逐字增长中间串，不能据文件名/接收延迟量打字速度、淡入或输入响应。"
+    },
+    {
+      "file": "reference/40-dialogue-sequence-2000ms.png",
+      "sha256": "5b3f84a73e1423f86053494406c695026f9f3afb2006407ed505919f427cf01f",
+      "pixel_size": [
+        1440,
+        900
+      ],
+      "timing": {
+        "source": "reference/dialogue-timing.json",
+        "action_start_epoch_ms": 1792701325022,
+        "target_ms_label_only": 2000,
+        "capture_delta_ms_uncalibrated": 2008,
+        "receipt_delta_ms_includes_transport": 2361,
+        "clock_caution": "CDP与本地时钟未校准，非动作耗时或FPS。"
+      },
+      "status": "visually_reviewed_saved_image",
+      "category": "dialogue_progression_sample",
+      "observed_zh": "说话人改为玫瑰，标签字色与小图标偏粉，正文为完整省略号；镜头和深色对白板保持。",
+      "not_proven_zh": "父代理记录Space推进后采样；没有捕获逐字增长中间串，不能据文件名/接收延迟量打字速度、淡入或输入响应。"
+    },
+    {
+      "file": "reference/40-dialogue-sequence-4000ms.png",
+      "sha256": "cfcc1120b38b9703fe286cf073e9321a8fe46aa59d502db44b319239b576554c",
+      "pixel_size": [
+        1440,
+        900
+      ],
+      "timing": {
+        "source": "reference/dialogue-timing.json",
+        "action_start_epoch_ms": 1792701325022,
+        "target_ms_label_only": 4000,
+        "capture_delta_ms_uncalibrated": 4058,
+        "receipt_delta_ms_includes_transport": 7785,
+        "clock_caution": "CDP与本地时钟未校准，非动作耗时或FPS。"
+      },
+      "status": "visually_reviewed_saved_image",
+      "category": "dialogue_progression_sample",
+      "observed_zh": "说话人再次变为主角，暖金色标签恢复，正文为新的完整短句；固定构图与对白板保持。",
+      "not_proven_zh": "父代理记录Space推进后采样；没有捕获逐字增长中间串，不能据文件名/接收延迟量打字速度、淡入或输入响应。"
+    },
+    {
+      "file": "reference/41-resume-observation.png",
+      "sha256": "f5d907352a878a766a7477e7044f54c0ff18ba36c3af178261c830eb707ec8a6",
+      "pixel_size": [
+        1440,
+        900
+      ],
+      "timing": null,
+      "status": "visually_reviewed_saved_image",
+      "review_provenance": "Root operator viewed the saved image; index author indexed metadata and root observation only.",
+      "category": "pause_before_resume",
+      "observed_zh": "暂停画面；后续42才恢复到实机交互。",
+      "not_proven_zh": "文件名resume不证明本帧已恢复，也不证明对白或章节结束。"
+    },
+    {
+      "file": "reference/42-gameplay-after-resume.png",
+      "sha256": "ae5587357594835f4c5ccbe9078bde31688f87df4b8d1dfad0f2962a4fda64ee",
+      "pixel_size": [
+        1440,
+        900
+      ],
+      "timing": null,
+      "status": "visually_reviewed_saved_image",
+      "review_provenance": "Root operator and index author independently viewed this saved image.",
+      "category": "glass_pickup_prompt",
+      "observed_zh": "恢复后是可交互实机：人物位于屏风后、玻璃罩在右侧木台，有轻量E拿罩提示，没有底部对白板。",
+      "not_proven_zh": "不证明本帧已经拿起；不是对白截图，不证明整段对白退出过程已连续记录。"
+    },
+    {
+      "file": "reference/43-glass-interaction.png",
+      "sha256": "7b4869b03be24b94e09ae7ae418eb30df9f339c850b1b6004d9ec726e85fb28d",
+      "pixel_size": [
+        1440,
+        900
+      ],
+      "timing": null,
+      "status": "visually_reviewed_saved_image",
+      "review_provenance": "Root operator viewed the saved image; index author indexed metadata and root observation only.",
+      "category": "glass_pickup_in_progress",
+      "observed_zh": "根代理记录按E后的拿取动作中途。",
+      "not_proven_zh": "不能把文件名interaction或此中途帧当成稳定持物末态，更不证明罩花成功。"
+    },
+    {
+      "file": "reference/44-glass-state-later.png",
+      "sha256": "94baa3b50a3e8a0bf93c376596d02177bf424153d1bb026dcc7c8e35a78a2e5d",
+      "pixel_size": [
+        1440,
+        900
+      ],
+      "timing": null,
+      "status": "visually_reviewed_saved_image",
+      "review_provenance": "Root operator and index author independently viewed this saved image.",
+      "category": "glass_two_hand_hold",
+      "observed_zh": "镜头已转为全身持物构图；双手分处透明罩体两侧，手臂弯曲、手位与罩体较贴合，脸、手、物体和花同框，原木台位于身后。",
+      "not_proven_zh": "静帧不证明完整动画无穿插、脚滑或IK接触全程合格；不证明罩子已经放到花上，不量换镜时长。"
+    },
+    {
+      "file": "reference/45-after-glass.png",
+      "sha256": "de0e91f7a6c9fa7313342a82a3742b963be19306b01e5e963d344634fa9a338b",
+      "pixel_size": [
+        1440,
+        900
+      ],
+      "timing": null,
+      "status": "visually_reviewed_saved_image",
+      "review_provenance": "Root operator and index author independently viewed this saved image.",
+      "category": "glass_hold_return_prompt",
+      "observed_zh": "仍是双手持罩姿态，近身E提示变为放回，当前可用动作与持物状态可见。",
+      "not_proven_zh": "after不等于罩花成功或剧情结束；不能用单帧测交互响应和持续时间。"
+    },
+    {
+      "file": "reference/46-glass-second-action.png",
+      "sha256": "a9dbad12e3f98a73e9915781fd21fb6218f4fbd04f59d178275b7ae26d1b6e91",
+      "pixel_size": [
+        1440,
+        900
+      ],
+      "timing": null,
+      "status": "visually_reviewed_saved_image",
+      "review_provenance": "Root operator viewed the saved image; index author indexed metadata and root observation only.",
+      "category": "glass_returned_to_stand",
+      "observed_zh": "根代理第二次按E后，玻璃罩回到木台。",
+      "not_proven_zh": "这是放回木台的状态，不是给花罩上玻璃罩的成功末态；不据文件名推定任务完成条件。"
+    },
+    {
+      "file": "reference/47-rose-moving-away.png",
+      "sha256": "fe29a88f007d0b6c40b1dbd37cd22e865326839c573de7cf4e0b706d2811dba5",
+      "pixel_size": [
+        1440,
+        900
+      ],
+      "timing": null,
+      "status": "visually_reviewed_saved_image",
+      "review_provenance": "Root operator and index author independently viewed this saved image.",
+      "category": "chair_next_objective_visible",
+      "observed_zh": "人物离开交互点，左上HUD出现前往边缘椅子坐下的新目标；世界画面可见椅子距离标签，玻璃罩在后方木台。",
+      "not_proven_zh": "不证明已经到椅子或坐下，也不能根据新目标反推上一步罩花成功；标签可见不证明采用World Space Canvas。"
+    },
+    {
+      "file": "reference/48-chair-approach.png",
+      "sha256": "989bc3085e0d9b4b1f535ed373e6eb93a2cb1cfac4bd4fd1baa5617c806052ce",
+      "pixel_size": [
+        1440,
+        900
+      ],
+      "timing": null,
+      "status": "visually_reviewed_saved_image",
+      "review_provenance": "Root operator viewed the saved image; index author indexed metadata and root observation only.",
+      "category": "chair_search_in_progress",
+      "observed_zh": "根代理实际续玩中寻找椅子的途中画面。",
+      "not_proven_zh": "文件名approach不证明到达、坐下或目标完成；没有连续计时。"
+    },
+    {
+      "file": "reference/49-chair-camera-look.png",
+      "sha256": "75dd1a2184cac7d46712236fb5734fef1acf87d287767f1be73d7f485d7c40db",
+      "pixel_size": [
+        1440,
+        900
+      ],
+      "timing": null,
+      "status": "visually_reviewed_saved_image",
+      "review_provenance": "Root operator viewed the saved image; index author indexed metadata and root observation only.",
+      "category": "chair_search_camera_turn",
+      "observed_zh": "寻找椅子时调整观察方向的过程帧。",
+      "not_proven_zh": "不证明找到可交互坐点、已坐下或章末；不能据截图差推断镜头速度。"
+    },
+    {
+      "file": "reference/50-chair-camera-look.png",
+      "sha256": "f9108dbf77216fbf1c049c87d8c511329ffefe2cd607e90a4a85092dd2578a7b",
+      "pixel_size": [
+        1440,
+        900
+      ],
+      "timing": null,
+      "status": "visually_reviewed_saved_image",
+      "review_provenance": "Root operator viewed the saved image; index author indexed metadata and root observation only.",
+      "category": "chair_search_camera_turn",
+      "observed_zh": "寻找椅子时继续转镜观察。",
+      "not_proven_zh": "不是坐下成功末态；无连续可靠计时或FPS。"
+    },
+    {
+      "file": "reference/51-chair-look-wide.png",
+      "sha256": "9a1d31d29aa9f69c4a8abecd43dd55cc0820b6ad9c13f3a9dcba37a2312ebfe5",
+      "pixel_size": [
+        1440,
+        900
+      ],
+      "timing": null,
+      "status": "visually_reviewed_saved_image",
+      "review_provenance": "Root operator viewed the saved image; index author indexed metadata and root observation only.",
+      "category": "chair_search_wider_view",
+      "observed_zh": "寻找椅子途中较宽范围的观察画面。",
+      "not_proven_zh": "wide文件名不提供准确FOV，不证明坐椅或章节完成。"
+    },
+    {
+      "file": "reference/52-chair-drag-look.png",
+      "sha256": "d65c6103859b7128d908fabf1ab16d9f577a3cd6f1d84eb1e6c0237cd156718a",
+      "pixel_size": [
+        1440,
+        900
+      ],
+      "timing": null,
+      "status": "visually_reviewed_saved_image",
+      "review_provenance": "Root operator viewed the saved image; index author indexed metadata and root observation only.",
+      "category": "chair_search_camera_turn",
+      "observed_zh": "寻找椅子途中继续调整观察方向。",
+      "not_proven_zh": "不证明已接近正确交互点、坐下或通关；不测相机阻尼。"
+    },
+    {
+      "file": "reference/53-chair-walk.png",
+      "sha256": "46e57a5631bded2e1d6d9bb90e5ce88d4a129846d866af0fd25d89b131478f81",
+      "pixel_size": [
+        1440,
+        900
+      ],
+      "timing": null,
+      "status": "visually_reviewed_saved_image",
+      "review_provenance": "Root operator viewed the saved image; index author indexed metadata and root observation only.",
+      "category": "chair_search_walking",
+      "observed_zh": "寻找椅子的行走途中帧。",
+      "not_proven_zh": "walk不等于到达或坐下；首章仍未通关，没有音频实听或性能证据。"
+    },
+    {
+      "file": "reference/54-chair-search-back.png",
+      "sha256": "d79e52417f97a1e39cd70105c54ffbf2df25a58ca6744adda4798273f920aa39",
+      "pixel_size": [
+        1440,
+        900
+      ],
+      "timing": null,
+      "status": "visually_reviewed_saved_image",
+      "review_provenance": "Root operator viewed this image; index author indexed file metadata and the supplied root observation only.",
+      "category": "chair_search_poolside",
+      "observed_zh": "水池附近继续寻找椅子。",
+      "not_proven_zh": "寻找过程，不证明到达坐点、坐下或第一章完成。"
+    },
+    {
+      "file": "reference/55-camera-focus-observation.png",
+      "sha256": "c3c70264328a90b594e1a5964145ed03ac9407eb8b7a9c7d2153f7dcc8acd390",
+      "pixel_size": [
+        1440,
+        900
+      ],
+      "timing": null,
+      "status": "visually_reviewed_saved_image",
+      "review_provenance": "Root operator viewed this image; index author indexed file metadata and the supplied root observation only.",
+      "category": "automation_pointer_lock_observation",
+      "observed_zh": "本轮自动化点击焦点测试附近的画面；root另行只读查询DOM确认pointerLock=true，该值不是从截图推断。",
+      "not_proven_zh": "自动化输入条件观察不等于产品必须长按800ms，不证明相机bug或输入响应延迟；仍未完成坐椅目标。",
+      "input_context": {
+        "source": "Root operator reported read-only DOM inspection and subsequent input observation; not inferred from image",
+        "pointer_lock_before": false,
+        "pointer_lock_after": true,
+        "automation_requested_hold_ms_not_product_requirement": 800,
+        "followup": "Next mouse.move visibly turned the camera",
+        "limitation": "Observed input conditions for this automation run only; no product hold-duration requirement, camera-bug diagnosis or latency measurement."
+      }
+    },
+    {
+      "file": "reference/56-locked-camera-look.png",
+      "sha256": "655090e0deaa44c22a19c996c55f88892fd7c75655637340f5fe6d0f6d24e84f",
+      "pixel_size": [
+        1440,
+        900
+      ],
+      "timing": null,
+      "status": "visually_reviewed_saved_image",
+      "review_provenance": "Root operator viewed this image; index author indexed file metadata and the supplied root observation only.",
+      "category": "chair_search_after_pointer_lock",
+      "observed_zh": "锁定鼠标后继续转镜观察，root记录下一次mouse.move时相机明显转动。",
+      "not_proven_zh": "不据此量相机速度、延迟或阻尼；寻找尚未完成。"
+    },
+    {
+      "file": "reference/57-chair-locate.png",
+      "sha256": "393002b6bfd34191c5481a6395a1141a40b6ce73baa6c6240f7a7ae6cc5fc7f0",
+      "pixel_size": [
+        1440,
+        900
+      ],
+      "timing": null,
+      "status": "visually_reviewed_saved_image",
+      "review_provenance": "Root operator viewed this image; index author indexed file metadata and the supplied root observation only.",
+      "category": "chair_search_after_pointer_lock",
+      "observed_zh": "锁定鼠标后继续观察四周、寻找椅子。",
+      "not_proven_zh": "locate文件名不是已到达或坐下的证据。"
+    },
+    {
+      "file": "reference/58-chair-scan.png",
+      "sha256": "1a4163ec64c3b607f9c217a5af8e9b359e50391fe03e6a2c8356a7db48b5a100",
+      "pixel_size": [
+        1440,
+        900
+      ],
+      "timing": null,
+      "status": "visually_reviewed_saved_image",
+      "review_provenance": "Root operator viewed this image; index author indexed file metadata and the supplied root observation only.",
+      "category": "chair_search_after_pointer_lock",
+      "observed_zh": "锁定鼠标后的寻找与转镜途中。",
+      "not_proven_zh": "未有坐下末态或第一章完成证据。"
+    },
+    {
+      "file": "reference/59-chair-scan.png",
+      "sha256": "53a29f48cc27050d821e831cbbac4437ef7418ab192c0c04dca410261b596989",
+      "pixel_size": [
+        1440,
+        900
+      ],
+      "timing": null,
+      "status": "visually_reviewed_saved_image",
+      "review_provenance": "Root operator viewed this image; index author indexed file metadata and the supplied root observation only.",
+      "category": "chair_search_after_pointer_lock",
+      "observed_zh": "继续转镜寻找椅子。",
+      "not_proven_zh": "仍是寻找过程，不证明目标完成。"
+    },
+    {
+      "file": "reference/60-pause-after-search.png",
+      "sha256": "b43af7d276a8a96e3ced697b2ea065e9863b6f941a6e2e108a17c31931fd7531",
+      "pixel_size": [
+        1440,
+        900
+      ],
+      "timing": null,
+      "status": "visually_reviewed_saved_image",
+      "review_provenance": "Root operator viewed this image; index author indexed file metadata and the supplied root observation only.",
+      "category": "pause_after_unfinished_search",
+      "observed_zh": "本轮寻找后实际打开暂停菜单，root已停止本轮参考试玩。",
+      "not_proven_zh": "暂停不是坐下成功、结尾或第一章通关；未实听音频、未测FPS。"
+    },
+    {
+      "file": "reference/61-objective-progress.png",
+      "sha256": "bd69bb6488b97a08f222b32c433be13396b8f6cedc1128fadb0d53c21da1f3d4",
+      "pixel_size": [
+        1440,
+        900
+      ],
+      "timing": null,
+      "status": "visually_reviewed_saved_image",
+      "review_provenance": "Root operated the reference in a live browser, captured and viewed this frame. This update author independently opened and inspected the saved PNG only; no browser/Unity operation.",
+      "category": "objective_card_offscreen_direction",
+      "observed_zh": "展开目标卡显示当前坐椅步骤；人物立在岩石边，屏幕右侧有金色屏外方向箭头。",
+      "not_proven_zh": "未到椅边。"
+    },
+    {
+      "file": "reference/62-target-turn.png",
+      "sha256": "3a3aae4f817368aed825a9cef1f7fb68445b965e71b60fd64abf40c9cf778cfb",
+      "pixel_size": [
+        1440,
+        900
+      ],
+      "timing": null,
+      "status": "visually_reviewed_saved_image",
+      "review_provenance": "Root operated the reference in a live browser, captured and viewed this frame. This update author independently opened and inspected the saved PNG only; no browser/Unity operation.",
+      "category": "chair_search_turn",
+      "observed_zh": "目标卡收起，人物正面站在池边草岩间；左上仍为坐椅目标。",
+      "not_proven_zh": "转镜不证明坐下。"
+    },
+    {
+      "file": "reference/63-target-direction.png",
+      "sha256": "2cefb539e305aa2004ab838aafeafde34e0abc84f11a4302c8722f6004f27092",
+      "pixel_size": [
+        1440,
+        900
+      ],
+      "timing": null,
+      "status": "visually_reviewed_saved_image",
+      "review_provenance": "Root operated the reference in a live browser, captured and viewed this frame. This update author independently opened and inspected the saved PNG only; no browser/Unity operation.",
+      "category": "chair_distance_label",
+      "observed_zh": "目标卡展开，人物侧身在水边；左侧目标标签明确显示椅子距离27米。",
+      "not_proven_zh": "距离标签不是实测行走速度或真实世界测距。"
+    },
+    {
+      "file": "reference/64-chair-run-approach.png",
+      "sha256": "89896d34c3b3bf877b0fc6c8718e3a9d1ccf4fbebf2681faa2933632a245f48a",
+      "pixel_size": [
+        1440,
+        900
+      ],
+      "timing": null,
+      "status": "visually_reviewed_saved_image",
+      "review_provenance": "Root operated the reference in a live browser, captured and viewed this frame. This update author independently opened and inspected the saved PNG only; no browser/Unity operation.",
+      "category": "chair_approach",
+      "observed_zh": "人物沿草坡向前，花和玻璃罩在右上方，仍处于坐椅目标阶段。",
+      "not_proven_zh": "行走姿态不是到达末态。"
+    },
+    {
+      "file": "reference/65-chair-distance.png",
+      "sha256": "801b77b3cf8d9a82e29419b8f47706de8ccd65b5c7c384698ae835df305ee45d",
+      "pixel_size": [
+        1440,
+        900
+      ],
+      "timing": null,
+      "status": "visually_reviewed_saved_image",
+      "review_provenance": "Root operated the reference in a live browser, captured and viewed this frame. This update author independently opened and inspected the saved PNG only; no browser/Unity operation.",
+      "category": "objective_card_fade_intermediate",
+      "observed_zh": "展开目标卡和常驻目标文字同时半透明可见，是界面淡入过程的中间帧。",
+      "not_proven_zh": "单帧不能量淡入持续时间或归因为UI重叠缺陷。"
+    },
+    {
+      "file": "reference/66-chair-target-later.png",
+      "sha256": "ebbeb536eb38fc930eaf5c06d7519c7431f111162425703954ae07a3176b68bd",
+      "pixel_size": [
+        1440,
+        900
+      ],
+      "timing": null,
+      "status": "visually_reviewed_saved_image",
+      "review_provenance": "Root operated the reference in a live browser, captured and viewed this frame. This update author independently opened and inspected the saved PNG only; no browser/Unity operation.",
+      "category": "chair_distance_label",
+      "observed_zh": "目标卡展开，人物面向坡外，左侧椅子标签明确显示16米。",
+      "not_proven_zh": "没有连续可靠计时。"
+    },
+    {
+      "file": "reference/67-chair-approach.png",
+      "sha256": "0a2e46c914b683bf8be2cf6e826aa8da65b22a28b9e53a23d768e8efff0ac612",
+      "pixel_size": [
+        1440,
+        900
+      ],
+      "timing": null,
+      "status": "visually_reviewed_saved_image",
+      "review_provenance": "Root operated the reference in a live browser, captured and viewed this frame. This update author independently opened and inspected the saved PNG only; no browser/Unity operation.",
+      "category": "chair_distance_label",
+      "observed_zh": "人物沿小路接近边缘椅子，目标标签明确显示8米。",
+      "not_proven_zh": "仍是接近过程。"
+    },
+    {
+      "file": "reference/68-chair-near.png",
+      "sha256": "758b227d9c0601423d2dc8799794e03df3d8d891281bed0906fbef1853d16bea",
+      "pixel_size": [
+        1440,
+        900
+      ],
+      "timing": null,
+      "status": "visually_reviewed_saved_image",
+      "review_provenance": "Root operated the reference in a live browser, captured and viewed this frame. This update author independently opened and inspected the saved PNG only; no browser/Unity operation.",
+      "category": "chair_distance_label",
+      "observed_zh": "椅子已清楚出现在人物前方，标签明确显示3米；目标卡仍展开。",
+      "not_proven_zh": "近距离不等于已坐下。"
+    },
+    {
+      "file": "reference/69-chair-interaction.png",
+      "sha256": "099dc7221894292a94ec493c55da6f49c8af0d1ddf6e7ccdcee2ae68d6c827ad",
+      "pixel_size": [
+        1440,
+        900
+      ],
+      "timing": null,
+      "status": "visually_reviewed_saved_image",
+      "review_provenance": "Root operated the reference in a live browser, captured and viewed this frame. This update author independently opened and inspected the saved PNG only; no browser/Unity operation.",
+      "category": "chair_approach_close",
+      "observed_zh": "人物和椅子在近景同框，椅子前有金色标记，左上任务仍要求坐下。",
+      "not_proven_zh": "文件名interaction不证明已触发坐下。"
+    },
+    {
+      "file": "reference/70-chair-prompt.png",
+      "sha256": "9eec139b102a374cfa50db5a950e5f22f857ba67475b6d06c5a461022b2af86f",
+      "pixel_size": [
+        1440,
+        900
+      ],
+      "timing": null,
+      "status": "visually_reviewed_saved_image",
+      "review_provenance": "Root operated the reference in a live browser, captured and viewed this frame. This update author independently opened and inspected the saved PNG only; no browser/Unity operation.",
+      "category": "chair_approach_close",
+      "observed_zh": "人物从后方靠近椅子，金色目标标记可见。",
+      "not_proven_zh": "文件名prompt不等于本帧有清晰E按键。"
+    },
+    {
+      "file": "reference/71-chair-nearest.png",
+      "sha256": "40e2b5294969987366833a251133852c140f34f348a66c9e597f7fbe34fee59c",
+      "pixel_size": [
+        1440,
+        900
+      ],
+      "timing": null,
+      "status": "visually_reviewed_saved_image",
+      "review_provenance": "Root operated the reference in a live browser, captured and viewed this frame. This update author independently opened and inspected the saved PNG only; no browser/Unity operation.",
+      "category": "chair_approach_close",
+      "observed_zh": "人物走到椅子旁，身体直立，任务尚未切换。",
+      "not_proven_zh": "未出现稳定坐姿。"
+    },
+    {
+      "file": "reference/72-chair-ready.png",
+      "sha256": "61bd1cf70c406ec0b7a257472570f07a63065de3b3730763af331e5fd3de647a",
+      "pixel_size": [
+        1440,
+        900
+      ],
+      "timing": null,
+      "status": "visually_reviewed_saved_image",
+      "review_provenance": "Root operated the reference in a live browser, captured and viewed this frame. This update author independently opened and inspected the saved PNG only; no browser/Unity operation.",
+      "category": "chair_standing_beside",
+      "observed_zh": "人物侧身站在椅子右边，金色标记仍在。",
+      "not_proven_zh": "ready文件名不证明动作成功。"
+    },
+    {
+      "file": "reference/73-chair-e-observation.png",
+      "sha256": "dbe7ec71a8d6f12ee92f0a9bef00b211e3aa6ef92edc113866a0a7d89a1092e2",
+      "pixel_size": [
+        1440,
+        900
+      ],
+      "timing": null,
+      "status": "visually_reviewed_saved_image",
+      "review_provenance": "Root operated the reference in a live browser, captured and viewed this frame. This update author independently opened and inspected the saved PNG only; no browser/Unity operation.",
+      "category": "chair_standing_beside",
+      "observed_zh": "人物仍在椅边侧身站立，左上保持原任务。",
+      "not_proven_zh": "按键观察文件名不是坐下末态。"
+    },
+    {
+      "file": "reference/74-chair-align.png",
+      "sha256": "644fd95b212fb959ebbce449895cfb5fdf19908c409bf9a461c4128e29b4a2c5",
+      "pixel_size": [
+        1440,
+        900
+      ],
+      "timing": null,
+      "status": "visually_reviewed_saved_image",
+      "review_provenance": "Root operated the reference in a live browser, captured and viewed this frame. This update author independently opened and inspected the saved PNG only; no browser/Unity operation.",
+      "category": "sit_interaction_prompt",
+      "observed_zh": "椅边人物直立，画面明确显示E坐下提示，椅子、人物与云海同框。",
+      "not_proven_zh": "提示只证明当前可用动作。"
+    },
+    {
+      "file": "reference/75-sit-transition.png",
+      "sha256": "45c14e160feae77d91c085e41dae108df35a381995c5c394fc2816e007d38647",
+      "pixel_size": [
+        1440,
+        900
+      ],
+      "timing": null,
+      "status": "visually_reviewed_saved_image",
+      "review_provenance": "Root operated the reference in a live browser, captured and viewed this frame. This update author independently opened and inspected the saved PNG only; no browser/Unity operation.",
+      "category": "sit_attempt_still_standing",
+      "observed_zh": "人物仍直立站在椅子右边，尚无坐姿，左上仍是坐椅目标。",
+      "not_proven_zh": "sit-transition文件名不能当作成功坐下。"
+    },
+    {
+      "file": "reference/76-sit-later.png",
+      "sha256": "e59ad4c6bde6dac5344a1db67d489d7042ba20e09442169363144964485edfff",
+      "pixel_size": [
+        1440,
+        900
+      ],
+      "timing": null,
+      "status": "visually_reviewed_saved_image",
+      "review_provenance": "Root operated the reference in a live browser, captured and viewed this frame. This update author independently opened and inspected the saved PNG only; no browser/Unity operation.",
+      "category": "sit_attempt_still_standing",
+      "observed_zh": "后续帧人物仍为直立站姿，任务未改。",
+      "not_proven_zh": "sit-later文件名不能当作坐下完成。"
+    },
+    {
+      "file": "reference/77-chair-side.png",
+      "sha256": "f8acea33160edf055279a338f80b7ce4c72c0d535639e6164a3021a064be5019",
+      "pixel_size": [
+        1440,
+        900
+      ],
+      "timing": null,
+      "status": "visually_reviewed_saved_image",
+      "review_provenance": "Root operated the reference in a live browser, captured and viewed this frame. This update author independently opened and inspected the saved PNG only; no browser/Unity operation.",
+      "category": "chair_side_reposition",
+      "observed_zh": "人物向椅子侧方走动，椅子在左下，仍是定位过程。",
+      "not_proven_zh": "侧移不证明离开或完成章节。"
+    },
+    {
+      "file": "reference/78-chair-range.png",
+      "sha256": "2f1e03fc041f54aa99e89ea1d7c4c52474d9d656dad55f6c2deed8a0c4468638",
+      "pixel_size": [
+        1440,
+        900
+      ],
+      "timing": null,
+      "status": "visually_reviewed_saved_image",
+      "review_provenance": "Root operated the reference in a live browser, captured and viewed this frame. This update author independently opened and inspected the saved PNG only; no browser/Unity operation.",
+      "category": "sit_interaction_prompt",
+      "observed_zh": "人物侧身靠近椅子，E坐下提示清楚可读。",
+      "not_proven_zh": "尚未是坐姿末态。"
+    },
+    {
+      "file": "reference/79-chair-action.png",
+      "sha256": "7bdaea990dc5197a015ffe0b852b88a4ad03ee99dfc61618a6ec57a1585da054",
+      "pixel_size": [
+        1440,
+        900
+      ],
+      "timing": null,
+      "status": "visually_reviewed_saved_image",
+      "review_provenance": "Root operated the reference in a live browser, captured and viewed this frame. This update author independently opened and inspected the saved PNG only; no browser/Unity operation.",
+      "category": "sit_action_intermediate_standing",
+      "observed_zh": "人物已转到椅子旁，仍是直立中间姿态，身体未落在座面上。",
+      "not_proven_zh": "不能把动作中途写成稳定坐下。"
+    },
+    {
+      "file": "reference/80-chair-stable.png",
+      "sha256": "3ccc45d91bd153da6d35babb8bdc68fa5e180a52927d13098be31870743e998c",
+      "pixel_size": [
+        1440,
+        900
+      ],
+      "timing": null,
+      "status": "visually_reviewed_saved_image",
+      "review_provenance": "Root operated the reference in a live browser, captured and viewed this frame. This update author independently opened and inspected the saved PNG only; no browser/Unity operation.",
+      "category": "stable_seated_objective_complete",
+      "observed_zh": "首次明确稳定坐姿：人物与木椅位于左下，镜头让出大片云海，右侧橙粉夕阳；HUD变为可以启程了，情境按键变为E起身，坐椅目标完成。",
+      "not_proven_zh": "截至本帧未离开第一章、未进入次章，不证明全游戏通关；不据离散帧量坐下/换镜/天色变化耗时。"
+    },
+    {
+      "file": "reference/81-sunset-rise.png",
+      "sha256": "df20c35b241543b6f6ddd4a33c4f68e2811d523961e51658f9dd745c02f737fb",
+      "pixel_size": [
+        1440,
+        900
+      ],
+      "timing": null,
+      "status": "visually_reviewed_saved_image",
+      "review_provenance": "Root operated the live browser and captured/viewed this frame; update author independently inspected this saved PNG only.",
+      "category": "stood_up_after_seating",
+      "observed_zh": "root按E后，人物已从椅上站起，夕阳云海与启程目标保留。",
+      "not_proven_zh": "未离开第一章；不量起身或换镜耗时。"
+    },
+    {
+      "file": "reference/82-departure-observation.png",
+      "sha256": "6752694f59a96edb3b46e802f456dd425694246966b48fb53c2b94e33e4e6f9a",
+      "pixel_size": [
+        1076,
+        637
+      ],
+      "timing": null,
+      "status": "visually_reviewed_saved_image",
+      "review_provenance": "Root operated the live browser and captured/viewed this frame; update author independently inspected this saved PNG only.",
+      "category": "departure_prompt_viewport_changed",
+      "observed_zh": "人物仍站在首章椅边，底部出现按住启程提示；该图实际1076×637。",
+      "not_proven_zh": "没有离章。外部窗口状态变化原因未定，不归因为游戏缺陷或Q行为。",
+      "root_reported_capture_context": {
+        "inner_size": [
+          1076,
+          637
+        ],
+        "device_pixel_ratio": 1,
+        "window_size": [
+          1092,
+          788
+        ],
+        "pointer_lock": false,
+        "fullscreen": false,
+        "requested_key": "Q",
+        "requested_hold_seconds": 1.8,
+        "cause_of_window_change": "unknown; no product attribution"
+      }
+    },
+    {
+      "file": "reference/83-departure-held.png",
+      "sha256": "229a541856153efb42cebc2a3a166de601c3dbf3277a1e2f9a389c9af58a76d6",
+      "pixel_size": [
+        1440,
+        900
+      ],
+      "timing": null,
+      "status": "visually_reviewed_saved_image",
+      "review_provenance": "Root operated the live browser and captured/viewed this frame; update author independently inspected this saved PNG only.",
+      "category": "first_chapter_complete_map_return",
+      "observed_zh": "已返回章节地图，第二章国王星球高亮并显示前往拜访；第一章完成且已离章。",
+      "not_proven_zh": "尚未实际进入第二章，不是全游戏通关；输入请求持续时间不是过场或加载耗时。",
+      "root_reported_capture_context": {
+        "restored_browser_viewport": [
+          1440,
+          900
+        ],
+        "focused_by_click": true,
+        "requested_key": "Q",
+        "requested_hold_seconds": 3.2,
+        "note": "Requested input duration is not measured scene-transition latency."
+      }
+    }
+  ],
+  "ours_frames": [
+    {
+      "file": "ours/env-v1-01-title.png",
+      "sha256": "e46399fa4e2fdcc2d469f499e74837d2f0349b778ba0c9d2fec1d59fdcca75c1",
+      "pixel_size": [
+        1440,
+        900
+      ],
+      "capture_type": "EnvTest static environment, not main gameplay",
+      "contains_character_ui_or_live_story": false,
+      "same_camera_as_reference": false,
+      "valid_scope": "环境美术基线；不能证明主游戏接入、动画、FPS或追平。"
+    },
+    {
+      "file": "ours/env-v1-02-cape.png",
+      "sha256": "881c63ab3010d5d8226b502d5e5661f0365f33557ab0b9326080800ea10fb745",
+      "pixel_size": [
+        1440,
+        900
+      ],
+      "capture_type": "EnvTest static environment, not main gameplay",
+      "contains_character_ui_or_live_story": false,
+      "same_camera_as_reference": false,
+      "valid_scope": "环境美术基线；不能证明主游戏接入、动画、FPS或追平。"
+    },
+    {
+      "file": "ours/env-v1-03-pier.png",
+      "sha256": "3e6ce53a19366f3fa49b23c16842b55d2928d7e9f5aa7589264e724b35edef9a",
+      "pixel_size": [
+        1440,
+        900
+      ],
+      "capture_type": "EnvTest static environment, not main gameplay",
+      "contains_character_ui_or_live_story": false,
+      "same_camera_as_reference": false,
+      "valid_scope": "环境美术基线；不能证明主游戏接入、动画、FPS或追平。"
+    },
+    {
+      "file": "ours/env-v1-04-village.png",
+      "sha256": "777cf7d539b85b98402436a97f1e6cc34a6b4b2afd0a82f8d7bd8fd1484fb278",
+      "pixel_size": [
+        1440,
+        900
+      ],
+      "capture_type": "EnvTest static environment, not main gameplay",
+      "contains_character_ui_or_live_story": false,
+      "same_camera_as_reference": false,
+      "valid_scope": "环境美术基线；不能证明主游戏接入、动画、FPS或追平。"
+    }
+  ],
+  "not_observed_or_not_verified": [
+    {
+      "item": "对白完整退出过程与精确打字动效",
+      "reason": "39已观察实际对白，40有说话人与句子切换；42已恢复实机交互，但未连续记录对白收尾/退出过程，也无逐字增长中间串，不能量打字或退出时间。"
+    },
+    {
+      "item": "拾取完整动画与声音",
+      "reason": "15已确认持壶，44/45确认双手持罩与放回提示；43只是中途帧。仍无连续动画、输入延迟、全程接触/穿插检查或录音证据。"
+    },
+    {
+      "item": "完整解谜、过场、结尾",
+      "reason": "首章任务完成并返回章节地图已有R83证据，但完整过场、后续章节解谜与全游戏结尾尚未观察。"
+    },
+    {
+      "item": "音频配器、音量、过渡",
+      "reason": "无审听录音；网络音频类别不能证明听感。"
+    },
+    {
+      "item": "FPS、输入延迟、首次可操作精确时间",
+      "reason": "缺少帧时间与控制权事件戳；续玩期间浏览器与Blender渲染并行，接收延迟和未校准CDP差值不能充作性能结果。"
+    },
+    {
+      "item": "准确FOV、阻尼、速度、后期参数",
+      "reason": "截图只支持构图和视觉估计。"
+    },
+    {
+      "item": "我们同类主游戏截图与追平",
+      "reason": "ours只有静态EnvTest，机位不同，无人物/UI。"
+    },
+    {
+      "item": "设置功能实际效果与菜单返回行为",
+      "reason": "17已打开真实设置详情，18仍停设置；未验证音量、语言、灵敏度、清除进度效果，单帧不用于判定按键功能缺陷。"
+    },
+    {
+      "item": "浇花连续动作细节与后续章节",
+      "reason": "已有水流、对白、R80稳定坐姿、R81起身；R83返回地图且第二章高亮，确认首章完成并离章。尚未实际进入第二章，连续动作细节和后续流程未完整观察。"
+    },
+    {
+      "item": "极近相机裁切的确切原因",
+      "reason": "29前景裁切、30人物不见可观察；缺少相机状态/连续输入，不能定位具体机制。"
+    },
+    {
+      "item": "罩花成功与坐下完整动画",
+      "reason": "46只证明玻璃罩回木台，不能反推罩花成功。74/78有E坐下，75/76/79仍站立，80首次明确稳定坐姿和E起身；坐椅目标完成，但完整动作和换镜过程未连续测量。"
+    }
+  ],
+  "ui_estimates_not_engine_parameters": {
+    "frame": "reference/13-watercan-prompt.png",
+    "key_outline_approx_pixels": [
+      32,
+      34
+    ],
+    "action_text_approx_height_pixels": [
+      20,
+      23
+    ],
+    "method": "1440x900截图目测，不是CSS/引擎属性读取。",
+    "expanded_objectives": {
+      "frame": "reference/19-objectives-panel.png",
+      "approx_bounds_pixels": [
+        61,
+        41,
+        526,
+        317
+      ],
+      "note": "截图目测约465x276px，不是实际Canvas属性。"
+    },
+    "dialogue": {
+      "frame": "reference/39-rose-follow-00.png",
+      "approx_panel_bounds_pixels": [
+        205,
+        672,
+        1235,
+        835
+      ],
+      "approx_speaker_bounds_pixels": [
+        246,
+        648,
+        400,
+        691
+      ],
+      "approx_text_height_pixels": [
+        30,
+        34
+      ],
+      "note": "1440x900截图目测，宽约71.5%、底边约7.2%；不是Canvas属性或alpha读值。"
+    }
+  },
+  "reference_progress": {
+    "through_frame": 83,
+    "indexed_reference_pngs": 112,
+    "new_batch_pngs": 23,
+    "chair_objective_complete": true,
+    "stable_seated_evidence": "reference/80-chair-stable.png",
+    "stood_up_evidence": "reference/81-sunset-rise.png",
+    "left_first_chapter_observed": true,
+    "first_chapter_complete": true,
+    "chapter_map_return_evidence": "reference/83-departure-held.png",
+    "second_chapter_highlighted": true,
+    "entered_second_chapter_observed": false,
+    "whole_game_completed": false,
+    "status_zh": "首章完成并离开，返回地图且第二章高亮；未进入第二章，未全游戏通关。"
+  },
+  "viewport_note": "Historical baseline viewport is 1440x900 DPR1. Use each frame pixel_size as authoritative; R82 is 1076x637, with root-reported external window-state change of unknown cause."
+}

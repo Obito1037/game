@@ -1,0 +1,9 @@
+source=retained procedural cards; no new user V textures found/imported
+revision=balanced-clustered-meadow
+seed=612
+tufts=4849
+flowerTufts=367
+chunks=43
+grassHeight=.18-.35; flowerHeight=.18-.27; flowerFraction=.07; saturation=.78
+windowsDistance=48; webDistance=32; fullDensityDistance=18/12
+ordinary MeshRenderer + alpha cutout; no Terrain Grass dependency

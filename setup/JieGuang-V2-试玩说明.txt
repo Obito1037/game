@@ -1,0 +1,27 @@
+《借光岛》第二版候选试玩
+
+在工作区根目录双击：
+  Open-JieGuang-V2-Candidate.cmd —— Windows 版
+  Open-JieGuang-V2-Web.cmd —— 本地浏览器版
+
+这两个入口读取 setup/jieguang-v2-candidate.json 中通过启动检查的版本。
+浏览器版通过本机服务启动，不要直接双击 WebGL 的 index.html。
+首次进入网页后点击“开始旅程”，让游戏获得键盘焦点并启用声音。
+
+基本操作
+  WASD / 方向键：移动
+  左 Shift：跑动
+  鼠标右键拖动：转动视角
+  鼠标滚轮：拉近、拉远
+  E：附近交互
+  空格 / Enter：继续对白
+  Esc：暂停、返回
+  灯面板中的具体操作以画面键帽提示为准。
+
+当前版本是可试玩候选，整体美术尚未达到参考作品质量。
+详细截图、构建结果、测试条件和剩余问题：
+  art/verification/game-v2-final/README.md
+可直接打开的画面对比页：
+  art/verification/game-v2-final/review.html
+
+旧版稳定入口、资源和验证记录继续保留。

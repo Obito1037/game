@@ -1,0 +1,10 @@
+{
+  "candidate": "jieguang-v2-r10",
+  "windowsExe": "builds/candidates/jieguang-v2-r10/windows/JieGuang.exe",
+  "windowsBuildId": "build_6ea1dda0e4bd",
+  "webRoot": "builds/candidates/jieguang-v2-r10/web",
+  "webBuildId": "build_24563aa4e1b2",
+  "webPort": 8767,
+  "status": "local-playable-candidate-not-final-art-acceptance",
+  "evidence": "art/verification/game-v2-final/README.md"
+}

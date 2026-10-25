@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/JieGuang/Scenes/JieGuang_Main.unity
+    guid: 5c233e45d7446094b908c54f354f127b
+  - enabled: 0
     path: Assets/BorrowedLight/Scenes/BorrowedLight.unity
     guid: cb5182b2119b0b24ba9d64715b48356d
   m_configObjects:

@@ -1,0 +1,266 @@
+{
+    "status": "running",
+    "reason": "",
+    "startedUtc": "2026-10-23T10:53:59.1702702Z",
+    "completedUtc": "",
+    "unityVersion": "6000.3.26f1",
+    "os": "Windows 11  (10.0.26200)",
+    "cpu": "13th Gen Intel(R) Core(TM) i5-13500H",
+    "gpu": "Intel(R) Iris(R) Xe Graphics",
+    "graphicsApi": "Direct3D11",
+    "quality": "PC",
+    "outputDirectory": "C:\\Users\\20665\\Desktop\\game\\art\\verification\\game-v3-flicker-r1\\qa",
+    "cpuThreads": 16,
+    "systemMemoryMb": 16005,
+    "graphicsMemoryMb": 8002,
+    "actualWidth": 1280,
+    "actualHeight": 720,
+    "targetFps": 60,
+    "vSync": 0,
+    "method": "Normal title/map/chapter flow. GameInput keys at >=0.5 s. Diagnostic teleports bypass traversal; no puzzle-state mutation. Automated static/cutscene samples do not establish sustained gameplay performance.",
+    "titleSeen": true,
+    "epilogueClosingSeen": false,
+    "saveRestored": false,
+    "enteredChapters": [
+        1,
+        2
+    ],
+    "completedChapters": [
+        1
+    ],
+    "puzzleSolvedThroughInput": [],
+    "unlockValues": [
+        1
+    ],
+    "epilogueVisited": [],
+    "screenshots": [
+        {
+            "name": "00-title",
+            "path": "C:\\Users\\20665\\Desktop\\game\\art\\verification\\game-v3-flicker-r1\\qa\\00-title.png",
+            "chapter": "Title",
+            "objective": "",
+            "screenWidth": 1280,
+            "screenHeight": 720,
+            "pngWidth": 1280,
+            "pngHeight": 720,
+            "saved": true
+        },
+        {
+            "name": "map-before-1",
+            "path": "C:\\Users\\20665\\Desktop\\game\\art\\verification\\game-v3-flicker-r1\\qa\\map-before-1.png",
+            "chapter": "Title",
+            "objective": "",
+            "screenWidth": 1280,
+            "screenHeight": 720,
+            "pngWidth": 1280,
+            "pngHeight": 720,
+            "saved": true
+        },
+        {
+            "name": "00-intro-01",
+            "path": "C:\\Users\\20665\\Desktop\\game\\art\\verification\\game-v3-flicker-r1\\qa\\00-intro-01.png",
+            "chapter": "Prologue",
+            "objective": "",
+            "screenWidth": 1280,
+            "screenHeight": 720,
+            "pngWidth": 1280,
+            "pngHeight": 720,
+            "saved": true
+        },
+        {
+            "name": "00-intro-02",
+            "path": "C:\\Users\\20665\\Desktop\\game\\art\\verification\\game-v3-flicker-r1\\qa\\00-intro-02.png",
+            "chapter": "Prologue",
+            "objective": "",
+            "screenWidth": 1280,
+            "screenHeight": 720,
+            "pngWidth": 1280,
+            "pngHeight": 720,
+            "saved": true
+        },
+        {
+            "name": "00-intro-03",
+            "path": "C:\\Users\\20665\\Desktop\\game\\art\\verification\\game-v3-flicker-r1\\qa\\00-intro-03.png",
+            "chapter": "Prologue",
+            "objective": "",
+            "screenWidth": 1280,
+            "screenHeight": 720,
+            "pngWidth": 1280,
+            "pngHeight": 720,
+            "saved": true
+        },
+        {
+            "name": "00-intro-04",
+            "path": "C:\\Users\\20665\\Desktop\\game\\art\\verification\\game-v3-flicker-r1\\qa\\00-intro-04.png",
+            "chapter": "Prologue",
+            "objective": "",
+            "screenWidth": 1280,
+            "screenHeight": 720,
+            "pngWidth": 1280,
+            "pngHeight": 720,
+            "saved": true
+        },
+        {
+            "name": "00-intro-05",
+            "path": "C:\\Users\\20665\\Desktop\\game\\art\\verification\\game-v3-flicker-r1\\qa\\00-intro-05.png",
+            "chapter": "Prologue",
+            "objective": "",
+            "screenWidth": 1280,
+            "screenHeight": 720,
+            "pngWidth": 1280,
+            "pngHeight": 720,
+            "saved": true
+        },
+        {
+            "name": "00-intro-06",
+            "path": "C:\\Users\\20665\\Desktop\\game\\art\\verification\\game-v3-flicker-r1\\qa\\00-intro-06.png",
+            "chapter": "Prologue",
+            "objective": "",
+            "screenWidth": 1280,
+            "screenHeight": 720,
+            "pngWidth": 1280,
+            "pngHeight": 720,
+            "saved": true
+        },
+        {
+            "name": "00-intro-07",
+            "path": "C:\\Users\\20665\\Desktop\\game\\art\\verification\\game-v3-flicker-r1\\qa\\00-intro-07.png",
+            "chapter": "Prologue",
+            "objective": "",
+            "screenWidth": 1280,
+            "screenHeight": 720,
+            "pngWidth": 1280,
+            "pngHeight": 720,
+            "saved": true
+        },
+        {
+            "name": "00-intro-08",
+            "path": "C:\\Users\\20665\\Desktop\\game\\art\\verification\\game-v3-flicker-r1\\qa\\00-intro-08.png",
+            "chapter": "Prologue",
+            "objective": "",
+            "screenWidth": 1280,
+            "screenHeight": 720,
+            "pngWidth": 1280,
+            "pngHeight": 720,
+            "saved": true
+        },
+        {
+            "name": "00-intro-09",
+            "path": "C:\\Users\\20665\\Desktop\\game\\art\\verification\\game-v3-flicker-r1\\qa\\00-intro-09.png",
+            "chapter": "Prologue",
+            "objective": "",
+            "screenWidth": 1280,
+            "screenHeight": 720,
+            "pngWidth": 1280,
+            "pngHeight": 720,
+            "saved": true
+        },
+        {
+            "name": "00-intro-10",
+            "path": "C:\\Users\\20665\\Desktop\\game\\art\\verification\\game-v3-flicker-r1\\qa\\00-intro-10.png",
+            "chapter": "Prologue",
+            "objective": "",
+            "screenWidth": 1280,
+            "screenHeight": 720,
+            "pngWidth": 1280,
+            "pngHeight": 720,
+            "saved": true
+        },
+        {
+            "name": "00-intro-11",
+            "path": "C:\\Users\\20665\\Desktop\\game\\art\\verification\\game-v3-flicker-r1\\qa\\00-intro-11.png",
+            "chapter": "Prologue",
+            "objective": "",
+            "screenWidth": 1280,
+            "screenHeight": 720,
+            "pngWidth": 1280,
+            "pngHeight": 720,
+            "saved": true
+        },
+        {
+            "name": "01-normal",
+            "path": "C:\\Users\\20665\\Desktop\\game\\art\\verification\\game-v3-flicker-r1\\qa\\01-normal.png",
+            "chapter": "Prologue",
+            "objective": "",
+            "screenWidth": 1280,
+            "screenHeight": 720,
+            "pngWidth": 1280,
+            "pngHeight": 720,
+            "saved": true
+        },
+        {
+            "name": "01-sharing-light",
+            "path": "C:\\Users\\20665\\Desktop\\game\\art\\verification\\game-v3-flicker-r1\\qa\\01-sharing-light.png",
+            "chapter": "Prologue",
+            "objective": "",
+            "screenWidth": 1280,
+            "screenHeight": 720,
+            "pngWidth": 1280,
+            "pngHeight": 720,
+            "saved": true
+        },
+        {
+            "name": "01-chapter-end-card",
+            "path": "C:\\Users\\20665\\Desktop\\game\\art\\verification\\game-v3-flicker-r1\\qa\\01-chapter-end-card.png",
+            "chapter": "Prologue",
+            "objective": "",
+            "screenWidth": 1280,
+            "screenHeight": 720,
+            "pngWidth": 1280,
+            "pngHeight": 720,
+            "saved": true
+        },
+        {
+            "name": "map-before-2",
+            "path": "C:\\Users\\20665\\Desktop\\game\\art\\verification\\game-v3-flicker-r1\\qa\\map-before-2.png",
+            "chapter": "Prologue",
+            "objective": "",
+            "screenWidth": 1280,
+            "screenHeight": 720,
+            "pngWidth": 1280,
+            "pngHeight": 720,
+            "saved": true
+        },
+        {
+            "name": "02-normal",
+            "path": "C:\\Users\\20665\\Desktop\\game\\art\\verification\\game-v3-flicker-r1\\qa\\02-normal.png",
+            "chapter": "One",
+            "objective": "",
+            "screenWidth": 1280,
+            "screenHeight": 720,
+            "pngWidth": 1280,
+            "pngHeight": 720,
+            "saved": true
+        }
+    ],
+    "errors": [],
+    "frames": [
+        {
+            "scope": "chapter-1 normal rendered frames; static/cutscene/diagnostic travel sample",
+            "samples": 1324,
+            "measuredSeconds": 28.318756103515626,
+            "p50Ms": 17.6940975189209,
+            "p95Ms": 43.24100112915039,
+            "p99Ms": 56.02099609375,
+            "meanFps": 46.75346755981445,
+            "p95EquivalentFps": 23.12619972229004,
+            "cpuMainP50Ms": 2.525599956512451,
+            "gpuP50Ms": 15.149582862854004,
+            "renderScaleMean": 0.7199870347976685
+        },
+        {
+            "scope": "chapter-2 normal rendered frames; static/cutscene/diagnostic travel sample",
+            "samples": 1514,
+            "measuredSeconds": 32.612300872802737,
+            "p50Ms": 19.573200225830079,
+            "p95Ms": 41.721500396728519,
+            "p99Ms": 53.220699310302737,
+            "meanFps": 46.42420196533203,
+            "p95EquivalentFps": 23.96845817565918,
+            "cpuMainP50Ms": 2.5367000102996828,
+            "gpuP50Ms": 17.09161376953125,
+            "renderScaleMean": 0.7199849486351013
+        }
+    ],
+    "limitations": "No manual walking, collision-route coverage, listening test, subjective visual approval, WebGL or ordinary-laptop benchmark. Frame statistics exclude warm-up, captures and teleport settling; samples include scripted normal camera shots."
+}

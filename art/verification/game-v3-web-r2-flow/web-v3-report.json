@@ -1,0 +1,33 @@
+{
+ "url": "http://127.0.0.1:8768/",
+ "state": "ready",
+ "loadSeconds": 3.296,
+ "sizes": [
+  {
+   "t": 228,
+   "s": "1600x900 css 1600x900"
+  }
+ ],
+ "fpsReadings": [
+  35,
+  39.1,
+  52,
+  43.8,
+  65.4,
+  50.6,
+  1,
+  1,
+  1,
+  1,
+  1,
+  1
+ ],
+ "consoleErrorsAndWarnings": [
+  "warning: WebGL: INVALID_ENUM: getInternalformatParameter: invalid internalformat",
+  "warning: WebGL: INVALID_ENUM: getInternalformatParameter: invalid internalformat",
+  "warning: WebGL: INVALID_ENUM: getInternalformatParameter: invalid internalformat",
+  "warning: WebGL: INVALID_ENUM: getInternalformatParameter: invalid internalformat",
+  "warning: WebGL: INVALID_ENUM: getInternalformatParameter: invalid internalformat",
+  "warning: WebGL: INVALID_ENUM: getInternalformatParameter: invalid internalformat"
+ ]
+}

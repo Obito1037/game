@@ -1,0 +1,90 @@
+{
+    "gpu": "Intel(R) Iris(R) Xe Graphics",
+    "method": "Native epilogue fixed camera. Each change is followed by baseline recovery. 3 s settling + 10 s sampling. Diagnostic screenshots and FPS do not establish sustained gameplay or collision coverage.",
+    "walkResult": "",
+    "width": 1600,
+    "height": 900,
+    "samples": [
+        {
+            "name": "A-normal",
+            "frames": 404,
+            "seconds": 10.011777877807618,
+            "meanFps": 40.352474212646487,
+            "p50Ms": 25.403600692749025,
+            "p95Ms": 37.39699935913086,
+            "renderScale": 1.0
+        },
+        {
+            "name": "B-no-SSAO",
+            "frames": 443,
+            "seconds": 10.005143165588379,
+            "meanFps": 44.27722930908203,
+            "p50Ms": 23.135303497314454,
+            "p95Ms": 32.87560272216797,
+            "renderScale": 1.0
+        },
+        {
+            "name": "A2-normal",
+            "frames": 406,
+            "seconds": 10.000550270080567,
+            "meanFps": 40.5977668762207,
+            "p50Ms": 24.850502014160158,
+            "p95Ms": 37.41529846191406,
+            "renderScale": 1.0
+        },
+        {
+            "name": "C-two-cascades",
+            "frames": 418,
+            "seconds": 10.0192232131958,
+            "meanFps": 41.71980285644531,
+            "p50Ms": 24.36460304260254,
+            "p95Ms": 36.62970733642578,
+            "renderScale": 1.0
+        },
+        {
+            "name": "A3-normal",
+            "frames": 405,
+            "seconds": 10.003631591796875,
+            "meanFps": 40.48529815673828,
+            "p50Ms": 25.011898040771486,
+            "p95Ms": 36.938697814941409,
+            "renderScale": 1.0
+        },
+        {
+            "name": "D-no-local-shadows",
+            "frames": 435,
+            "seconds": 10.000995635986329,
+            "meanFps": 43.495670318603519,
+            "p50Ms": 23.868303298950197,
+            "p95Ms": 34.98550033569336,
+            "renderScale": 1.0
+        },
+        {
+            "name": "A4-normal",
+            "frames": 410,
+            "seconds": 10.01113510131836,
+            "meanFps": 40.95439529418945,
+            "p50Ms": 25.06189727783203,
+            "p95Ms": 35.813194274902347,
+            "renderScale": 1.0
+        },
+        {
+            "name": "E-no-meadow",
+            "frames": 279,
+            "seconds": 10.01443099975586,
+            "meanFps": 27.85979461669922,
+            "p50Ms": 31.4635009765625,
+            "p95Ms": 67.3936996459961,
+            "renderScale": 1.0
+        },
+        {
+            "name": "A5-normal",
+            "frames": 274,
+            "seconds": 10.001105308532715,
+            "meanFps": 27.39697265625,
+            "p50Ms": 32.435699462890628,
+            "p95Ms": 64.71260070800781,
+            "renderScale": 1.0
+        }
+    ]
+}

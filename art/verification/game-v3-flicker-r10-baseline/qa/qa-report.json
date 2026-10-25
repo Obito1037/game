@@ -1,0 +1,91 @@
+{
+    "status": "running",
+    "reason": "",
+    "startedUtc": "2026-10-23T10:57:33.1177613Z",
+    "completedUtc": "",
+    "unityVersion": "6000.3.26f1",
+    "os": "Windows 11  (10.0.26200)",
+    "cpu": "13th Gen Intel(R) Core(TM) i5-13500H",
+    "gpu": "Intel(R) Iris(R) Xe Graphics",
+    "graphicsApi": "Direct3D11",
+    "quality": "PC",
+    "outputDirectory": "C:\\Users\\20665\\Desktop\\game\\art\\verification\\game-v3-flicker-r10-baseline\\qa",
+    "cpuThreads": 16,
+    "systemMemoryMb": 16005,
+    "graphicsMemoryMb": 8002,
+    "actualWidth": 1280,
+    "actualHeight": 720,
+    "targetFps": 60,
+    "vSync": 0,
+    "method": "Normal title/map/chapter flow. GameInput keys at >=0.5 s. Diagnostic teleports bypass traversal; no puzzle-state mutation. Automated static/cutscene samples do not establish sustained gameplay performance.",
+    "titleSeen": true,
+    "epilogueClosingSeen": false,
+    "saveRestored": false,
+    "enteredChapters": [
+        1
+    ],
+    "completedChapters": [],
+    "puzzleSolvedThroughInput": [],
+    "unlockValues": [],
+    "epilogueVisited": [],
+    "screenshots": [
+        {
+            "name": "00-title",
+            "path": "C:\\Users\\20665\\Desktop\\game\\art\\verification\\game-v3-flicker-r10-baseline\\qa\\00-title.png",
+            "chapter": "Title",
+            "objective": "",
+            "screenWidth": 1280,
+            "screenHeight": 720,
+            "pngWidth": 1280,
+            "pngHeight": 720,
+            "saved": true
+        },
+        {
+            "name": "map-before-1",
+            "path": "C:\\Users\\20665\\Desktop\\game\\art\\verification\\game-v3-flicker-r10-baseline\\qa\\map-before-1.png",
+            "chapter": "Title",
+            "objective": "",
+            "screenWidth": 1280,
+            "screenHeight": 720,
+            "pngWidth": 1280,
+            "pngHeight": 720,
+            "saved": true
+        },
+        {
+            "name": "01-normal",
+            "path": "C:\\Users\\20665\\Desktop\\game\\art\\verification\\game-v3-flicker-r10-baseline\\qa\\01-normal.png",
+            "chapter": "Prologue",
+            "objective": "",
+            "screenWidth": 1280,
+            "screenHeight": 720,
+            "pngWidth": 1280,
+            "pngHeight": 720,
+            "saved": true
+        },
+        {
+            "name": "01-sharing-light",
+            "path": "C:\\Users\\20665\\Desktop\\game\\art\\verification\\game-v3-flicker-r10-baseline\\qa\\01-sharing-light.png",
+            "chapter": "Prologue",
+            "objective": "",
+            "screenWidth": 1280,
+            "screenHeight": 720,
+            "pngWidth": 1280,
+            "pngHeight": 720,
+            "saved": true
+        }
+    ],
+    "errors": [],
+    "frames": [
+        {
+            "scope": "chapter-1 normal rendered frames; static/cutscene/diagnostic travel sample",
+            "samples": 1134,
+            "measuredSeconds": 24.559778213500978,
+            "p50Ms": 20.263599395751954,
+            "p95Ms": 42.40029525756836,
+            "p99Ms": 51.1156005859375,
+            "meanFps": 46.173057556152347,
+            "p95EquivalentFps": 23.584741592407228
+        }
+    ],
+    "limitations": "No manual walking, collision-route coverage, listening test, subjective visual approval, WebGL or ordinary-laptop benchmark. Frame statistics exclude warm-up, captures and teleport settling; samples include scripted normal camera shots."
+}

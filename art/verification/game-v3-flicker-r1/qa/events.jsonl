@@ -1,0 +1,138 @@
+{"seconds":1.122568130493164,"chapter":"Title","action":"state","objective":"","dialogue":"","detail":"Title|||False|False|False|False|False"}
+{"seconds":6.356720924377441,"chapter":"Title","action":"screenshot","objective":"","dialogue":"","detail":"00-title; saved=True"}
+{"seconds":6.359890937805176,"chapter":"Title","action":"key","objective":"","dialogue":"","detail":"Enter"}
+{"seconds":7.38975715637207,"chapter":"Title","action":"state","objective":"","dialogue":"","detail":"Title|||True|False|False|False|False"}
+{"seconds":8.841148376464844,"chapter":"Title","action":"screenshot","objective":"","dialogue":"","detail":"map-before-1; saved=True"}
+{"seconds":8.849459648132325,"chapter":"Title","action":"key","objective":"","dialogue":"","detail":"Enter"}
+{"seconds":9.890317916870118,"chapter":"Title","action":"state","objective":"","dialogue":"","detail":"Title|||False|False|False|False|False"}
+{"seconds":10.411030769348145,"chapter":"Prologue","action":"state","objective":"","dialogue":"","detail":"Prologue|||False|False|False|False|False"}
+{"seconds":10.414289474487305,"chapter":"Prologue","action":"key","objective":"","dialogue":"","detail":"Space"}
+{"seconds":10.947586059570313,"chapter":"Prologue","action":"key","objective":"","dialogue":"","detail":"Space"}
+{"seconds":11.453300476074219,"chapter":"Prologue","action":"key","objective":"","dialogue":"","detail":"Space"}
+{"seconds":14.864201545715332,"chapter":"Prologue","action":"screenshot","objective":"","dialogue":"","detail":"00-intro-01; saved=True"}
+{"seconds":14.868836402893067,"chapter":"Prologue","action":"key","objective":"","dialogue":"","detail":"Space"}
+{"seconds":15.389008522033692,"chapter":"Prologue","action":"key","objective":"","dialogue":"","detail":"Space"}
+{"seconds":15.89487361907959,"chapter":"Prologue","action":"key","objective":"","dialogue":"","detail":"Space"}
+{"seconds":19.286685943603517,"chapter":"Prologue","action":"screenshot","objective":"","dialogue":"","detail":"00-intro-02; saved=True"}
+{"seconds":19.290714263916017,"chapter":"Prologue","action":"key","objective":"","dialogue":"","detail":"Space"}
+{"seconds":19.794870376586915,"chapter":"Prologue","action":"key","objective":"","dialogue":"","detail":"Space"}
+{"seconds":20.31247329711914,"chapter":"Prologue","action":"key","objective":"","dialogue":"","detail":"Space"}
+{"seconds":20.83350944519043,"chapter":"Prologue","action":"key","objective":"","dialogue":"","detail":"Space"}
+{"seconds":24.256288528442384,"chapter":"Prologue","action":"screenshot","objective":"","dialogue":"","detail":"00-intro-03; saved=True"}
+{"seconds":24.25859260559082,"chapter":"Prologue","action":"key","objective":"","dialogue":"","detail":"Space"}
+{"seconds":24.776588439941408,"chapter":"Prologue","action":"key","objective":"","dialogue":"","detail":"Space"}
+{"seconds":25.310537338256837,"chapter":"Prologue","action":"key","objective":"","dialogue":"","detail":"Space"}
+{"seconds":25.82135009765625,"chapter":"Prologue","action":"key","objective":"","dialogue":"","detail":"Space"}
+{"seconds":29.196128845214845,"chapter":"Prologue","action":"screenshot","objective":"","dialogue":"","detail":"00-intro-04; saved=True"}
+{"seconds":29.198654174804689,"chapter":"Prologue","action":"key","objective":"","dialogue":"","detail":"Space"}
+{"seconds":29.703535079956056,"chapter":"Prologue","action":"key","objective":"","dialogue":"","detail":"Space"}
+{"seconds":30.22677993774414,"chapter":"Prologue","action":"key","objective":"","dialogue":"","detail":"Space"}
+{"seconds":30.730953216552736,"chapter":"Prologue","action":"key","objective":"","dialogue":"","detail":"Space"}
+{"seconds":34.264930725097659,"chapter":"Prologue","action":"screenshot","objective":"","dialogue":"","detail":"00-intro-05; saved=True"}
+{"seconds":34.2669563293457,"chapter":"Prologue","action":"key","objective":"","dialogue":"","detail":"Space"}
+{"seconds":34.79192352294922,"chapter":"Prologue","action":"key","objective":"","dialogue":"","detail":"Space"}
+{"seconds":35.30228042602539,"chapter":"Prologue","action":"key","objective":"","dialogue":"","detail":"Space"}
+{"seconds":35.830833435058597,"chapter":"Prologue","action":"key","objective":"","dialogue":"","detail":"Space"}
+{"seconds":39.25489044189453,"chapter":"Prologue","action":"screenshot","objective":"","dialogue":"","detail":"00-intro-06; saved=True"}
+{"seconds":39.25870895385742,"chapter":"Prologue","action":"key","objective":"","dialogue":"","detail":"Space"}
+{"seconds":39.778907775878909,"chapter":"Prologue","action":"key","objective":"","dialogue":"","detail":"Space"}
+{"seconds":40.30556106567383,"chapter":"Prologue","action":"key","objective":"","dialogue":"","detail":"Space"}
+{"seconds":40.82664489746094,"chapter":"Prologue","action":"key","objective":"","dialogue":"","detail":"Space"}
+{"seconds":44.212303161621097,"chapter":"Prologue","action":"screenshot","objective":"","dialogue":"","detail":"00-intro-07; saved=True"}
+{"seconds":44.21653747558594,"chapter":"Prologue","action":"key","objective":"","dialogue":"","detail":"Space"}
+{"seconds":44.729209899902347,"chapter":"Prologue","action":"key","objective":"","dialogue":"","detail":"Space"}
+{"seconds":45.258575439453128,"chapter":"Prologue","action":"key","objective":"","dialogue":"","detail":"Space"}
+{"seconds":48.66716384887695,"chapter":"Prologue","action":"screenshot","objective":"","dialogue":"","detail":"00-intro-08; saved=True"}
+{"seconds":48.67176818847656,"chapter":"Prologue","action":"key","objective":"","dialogue":"","detail":"Space"}
+{"seconds":49.199398040771487,"chapter":"Prologue","action":"key","objective":"","dialogue":"","detail":"Space"}
+{"seconds":49.711246490478519,"chapter":"Prologue","action":"key","objective":"","dialogue":"","detail":"Space"}
+{"seconds":53.1142692565918,"chapter":"Prologue","action":"screenshot","objective":"","dialogue":"","detail":"00-intro-09; saved=True"}
+{"seconds":53.11848449707031,"chapter":"Prologue","action":"key","objective":"","dialogue":"","detail":"Space"}
+{"seconds":53.63792037963867,"chapter":"Prologue","action":"key","objective":"","dialogue":"","detail":"Space"}
+{"seconds":54.150508880615237,"chapter":"Prologue","action":"key","objective":"","dialogue":"","detail":"Space"}
+{"seconds":57.5970344543457,"chapter":"Prologue","action":"screenshot","objective":"","dialogue":"","detail":"00-intro-10; saved=True"}
+{"seconds":57.601505279541019,"chapter":"Prologue","action":"key","objective":"","dialogue":"","detail":"Space"}
+{"seconds":58.11509323120117,"chapter":"Prologue","action":"key","objective":"","dialogue":"","detail":"Space"}
+{"seconds":58.62730026245117,"chapter":"Prologue","action":"key","objective":"","dialogue":"","detail":"Space"}
+{"seconds":62.002906799316409,"chapter":"Prologue","action":"screenshot","objective":"","dialogue":"","detail":"00-intro-11; saved=True"}
+{"seconds":62.00566101074219,"chapter":"Prologue","action":"key","objective":"","dialogue":"","detail":"Space"}
+{"seconds":62.519622802734378,"chapter":"Prologue","action":"key","objective":"","dialogue":"","detail":"Space"}
+{"seconds":63.03406524658203,"chapter":"Prologue","action":"state","objective":"","dialogue":"","detail":"Prologue|||False|True|False|False|False"}
+{"seconds":63.03529357910156,"chapter":"Prologue","action":"chapter-entered","objective":"","dialogue":"","detail":"1"}
+{"seconds":68.158935546875,"chapter":"Prologue","action":"state","objective":"","dialogue":"","detail":"Prologue|||False|False|False|False|False"}
+{"seconds":70.80976867675781,"chapter":"Prologue","action":"screenshot","objective":"","dialogue":"“小灯笼”这个名字，是阿萤起的。他一直不知道，她为什么这样叫他。","detail":"01-normal; saved=True"}
+{"seconds":70.8209457397461,"chapter":"Prologue","action":"static-sample-start","objective":"","dialogue":"“小灯笼”这个名字，是阿萤起的。他一直不知道，她为什么这样叫他。","detail":"8 seconds; no input/capture/teleport"}
+{"seconds":78.85134887695313,"chapter":"Prologue","action":"static-sample-end","objective":"","dialogue":"“小灯笼”这个名字，是阿萤起的。他一直不知道，她为什么这样叫他。","detail":"8 seconds"}
+{"seconds":78.85393524169922,"chapter":"Prologue","action":"key","objective":"","dialogue":"“小灯笼”这个名字，是阿萤起的。他一直不知道，她为什么这样叫他。","detail":"Space"}
+{"seconds":79.36243438720703,"chapter":"Prologue","action":"state","objective":"","dialogue":"长夜前一天，采光船要出海去远","detail":"Prologue||长夜前一天，采光船要出海去远|False|False|False|False|False"}
+{"seconds":79.3634262084961,"chapter":"Prologue","action":"key","objective":"","dialogue":"长夜前一天，采光船要出海去远","detail":"Space"}
+{"seconds":79.88834381103516,"chapter":"Prologue","action":"state","objective":"","dialogue":"长夜前一天，采光船要出海去远方采光果。全村的人都从坡上下来，挤在港湾的栈桥上送行。","detail":"Prologue||长夜前一天，采光船要出海去远方采光果。全村的人都从坡上下来，挤在港湾的栈桥上送行。|False|False|False|False|False"}
+{"seconds":79.88981628417969,"chapter":"Prologue","action":"key","objective":"","dialogue":"长夜前一天，采光船要出海去远方采光果。全村的人都从坡上下来，挤在港湾的栈桥上送行。","detail":"Space"}
+{"seconds":80.39683532714844,"chapter":"Prologue","action":"state","objective":"","dialogue":"站在船头的，是阿萤。他站在人","detail":"Prologue||站在船头的，是阿萤。他站在人|False|False|False|False|False"}
+{"seconds":80.39801025390625,"chapter":"Prologue","action":"key","objective":"","dialogue":"站在船头的，是阿萤。他站在人","detail":"Space"}
+{"seconds":80.90585327148438,"chapter":"Prologue","action":"state","objective":"","dialogue":"站在船头的，是阿萤。他站在人群最后面。","detail":"Prologue||站在船头的，是阿萤。他站在人群最后面。|False|False|False|False|False"}
+{"seconds":80.90692138671875,"chapter":"Prologue","action":"key","objective":"","dialogue":"站在船头的，是阿萤。他站在人群最后面。","detail":"Space"}
+{"seconds":81.44652557373047,"chapter":"Prologue","action":"state","objective":"","dialogue":"","detail":"Prologue|||False|False|False|False|False"}
+{"seconds":85.57950592041016,"chapter":"Prologue","action":"state","objective":"","dialogue":"我的光分你","detail":"Prologue||我的光分你|False|False|False|False|False"}
+{"seconds":85.58053588867188,"chapter":"Prologue","action":"key","objective":"","dialogue":"我的光分你","detail":"Space"}
+{"seconds":86.09642028808594,"chapter":"Prologue","action":"state","objective":"","dialogue":"我的光分你一半。","detail":"Prologue||我的光分你一半。|False|False|False|False|False"}
+{"seconds":87.43426513671875,"chapter":"Prologue","action":"screenshot","objective":"","dialogue":"我的光分你一半。","detail":"01-sharing-light; saved=True"}
+{"seconds":87.44071960449219,"chapter":"Prologue","action":"key","objective":"","dialogue":"我的光分你一半。","detail":"Space"}
+{"seconds":87.94609069824219,"chapter":"Prologue","action":"key","objective":"","dialogue":"我的光分你一半。","detail":"Space"}
+{"seconds":88.45357513427735,"chapter":"Prologue","action":"key","objective":"","dialogue":"我的光分你一半。","detail":"Space"}
+{"seconds":88.95978546142578,"chapter":"Prologue","action":"key","objective":"","dialogue":"我的光分你一半。","detail":"Space"}
+{"seconds":89.46916198730469,"chapter":"Prologue","action":"key","objective":"","dialogue":"我的光分你一半。","detail":"Space"}
+{"seconds":89.98014831542969,"chapter":"Prologue","action":"key","objective":"","dialogue":"我的光分你一半。","detail":"Space"}
+{"seconds":90.52201080322266,"chapter":"Prologue","action":"state","objective":"","dialogue":"等我回来，我们一起看地球变圆","detail":"Prologue||等我回来，我们一起看地球变圆|False|False|False|False|False"}
+{"seconds":90.5229721069336,"chapter":"Prologue","action":"key","objective":"","dialogue":"等我回来，我们一起看地球变圆","detail":"Space"}
+{"seconds":91.02677917480469,"chapter":"Prologue","action":"state","objective":"","dialogue":"等我回来，我们一起看地球变圆。","detail":"Prologue||等我回来，我们一起看地球变圆。|False|False|False|False|False"}
+{"seconds":91.02841186523438,"chapter":"Prologue","action":"key","objective":"","dialogue":"等我回来，我们一起看地球变圆。","detail":"Space"}
+{"seconds":91.54780578613281,"chapter":"Prologue","action":"state","objective":"","dialogue":"","detail":"Prologue|||False|False|False|False|False"}
+{"seconds":93.64867401123047,"chapter":"Prologue","action":"state","objective":"","dialogue":"他笑着挥手，看着她的","detail":"Prologue||他笑着挥手，看着她的|False|False|False|False|False"}
+{"seconds":93.64976501464844,"chapter":"Prologue","action":"key","objective":"","dialogue":"他笑着挥手，看着她的","detail":"Space"}
+{"seconds":94.15884399414063,"chapter":"Prologue","action":"state","objective":"","dialogue":"他笑着挥手，看着她的光在海面上缩成一颗星。","detail":"Prologue||他笑着挥手，看着她的光在海面上缩成一颗星。|False|False|False|False|False"}
+{"seconds":94.15982055664063,"chapter":"Prologue","action":"key","objective":"","dialogue":"他笑着挥手，看着她的光在海面上缩成一颗星。","detail":"Space"}
+{"seconds":94.66228485107422,"chapter":"Prologue","action":"state","objective":"","dialogue":"连她分给我的光，都比我自己的","detail":"Prologue||连她分给我的光，都比我自己的|False|False|False|False|False"}
+{"seconds":94.66331481933594,"chapter":"Prologue","action":"key","objective":"","dialogue":"连她分给我的光，都比我自己的","detail":"Space"}
+{"seconds":95.17009735107422,"chapter":"Prologue","action":"state","objective":"","dialogue":"连她分给我的光，都比我自己的亮。","detail":"Prologue||连她分给我的光，都比我自己的亮。|False|False|False|False|False"}
+{"seconds":95.17401123046875,"chapter":"Prologue","action":"key","objective":"","dialogue":"连她分给我的光，都比我自己的亮。","detail":"Space"}
+{"seconds":95.69429016113281,"chapter":"Prologue","action":"state","objective":"","dialogue":"","detail":"Prologue|||False|False|False|False|False"}
+{"seconds":97.7311782836914,"chapter":"Prologue","action":"state","objective":"","dialogue":"那天晚上，阿婆把三","detail":"Prologue||那天晚上，阿婆把三|False|False|False|False|False"}
+{"seconds":97.73294830322266,"chapter":"Prologue","action":"key","objective":"","dialogue":"那天晚上，阿婆把三","detail":"Space"}
+{"seconds":98.24801635742188,"chapter":"Prologue","action":"state","objective":"","dialogue":"那天晚上，阿婆把三个铜灯罩放进他手里。","detail":"Prologue||那天晚上，阿婆把三个铜灯罩放进他手里。|False|False|False|False|False"}
+{"seconds":98.24887084960938,"chapter":"Prologue","action":"key","objective":"","dialogue":"那天晚上，阿婆把三个铜灯罩放进他手里。","detail":"Space"}
+{"seconds":98.78285217285156,"chapter":"Prologue","action":"state","objective":"","dialogue":"晚风灯，照小路上从村子走来的","detail":"Prologue||晚风灯，照小路上从村子走来的|False|False|False|False|False"}
+{"seconds":98.78447723388672,"chapter":"Prologue","action":"key","objective":"","dialogue":"晚风灯，照小路上从村子走来的","detail":"Space"}
+{"seconds":99.30256652832031,"chapter":"Prologue","action":"state","objective":"","dialogue":"晚风灯，照小路上从村子走来的人；月窗灯，照我那扇圆窗；归航灯，照码头边等船回来的人。","detail":"Prologue||晚风灯，照小路上从村子走来的人；月窗灯，照我那扇圆窗；归航灯，照码头边等船回来的人。|False|False|False|False|False"}
+{"seconds":99.30442810058594,"chapter":"Prologue","action":"key","objective":"","dialogue":"晚风灯，照小路上从村子走来的人；月窗灯，照我那扇圆窗；归航灯，照码头边等船回来的人。","detail":"Space"}
+{"seconds":99.81300354003906,"chapter":"Prologue","action":"state","objective":"","dialogue":"长夜来了。今年，岬角的灯交","detail":"Prologue||长夜来了。今年，岬角的灯交|False|False|False|False|False"}
+{"seconds":99.81401062011719,"chapter":"Prologue","action":"key","objective":"","dialogue":"长夜来了。今年，岬角的灯交","detail":"Space"}
+{"seconds":100.33161163330078,"chapter":"Prologue","action":"state","objective":"","dialogue":"长夜来了。今年，岬角的灯交给你守。","detail":"Prologue||长夜来了。今年，岬角的灯交给你守。|False|False|False|False|False"}
+{"seconds":100.33275604248047,"chapter":"Prologue","action":"key","objective":"","dialogue":"长夜来了。今年，岬角的灯交给你守。","detail":"Space"}
+{"seconds":100.83914947509766,"chapter":"Prologue","action":"state","objective":"","dialogue":"……因为我上不了船吧。","detail":"Prologue||……因为我上不了船吧。|False|False|False|False|False"}
+{"seconds":100.84012603759766,"chapter":"Prologue","action":"key","objective":"","dialogue":"……因为我上不了船吧。","detail":"Space"}
+{"seconds":101.35283660888672,"chapter":"Prologue","action":"state","objective":"","dialogue":"灯不用你照亮。你只要让它照对","detail":"Prologue||灯不用你照亮。你只要让它照对|False|False|False|False|False"}
+{"seconds":101.3539810180664,"chapter":"Prologue","action":"key","objective":"","dialogue":"灯不用你照亮。你只要让它照对","detail":"Space"}
+{"seconds":101.86139678955078,"chapter":"Prologue","action":"state","objective":"","dialogue":"灯不用你照亮。你只要让它照对地方。","detail":"Prologue||灯不用你照亮。你只要让它照对地方。|False|False|False|False|False"}
+{"seconds":101.86305236816406,"chapter":"Prologue","action":"key","objective":"","dialogue":"灯不用你照亮。你只要让它照对地方。","detail":"Space"}
+{"seconds":102.38331604003906,"chapter":"Prologue","action":"state","objective":"","dialogue":"","detail":"Prologue|||False|False|True|False|False"}
+{"seconds":103.62979125976563,"chapter":"Prologue","action":"screenshot","objective":"","dialogue":"","detail":"01-chapter-end-card; saved=True"}
+{"seconds":103.63302612304688,"chapter":"Prologue","action":"key","objective":"","dialogue":"","detail":"Enter"}
+{"seconds":104.68749237060547,"chapter":"Prologue","action":"state","objective":"","dialogue":"","detail":"Prologue|||False|False|False|False|False"}
+{"seconds":106.25218963623047,"chapter":"Prologue","action":"state","objective":"","dialogue":"","detail":"Prologue|||True|False|False|False|False"}
+{"seconds":106.25344848632813,"chapter":"Prologue","action":"chapter-completed","objective":"","dialogue":"","detail":"unlocked=1"}
+{"seconds":107.18994903564453,"chapter":"Prologue","action":"screenshot","objective":"","dialogue":"","detail":"map-before-2; saved=True"}
+{"seconds":107.1921615600586,"chapter":"Prologue","action":"key","objective":"","dialogue":"","detail":"Enter"}
+{"seconds":108.2035903930664,"chapter":"Prologue","action":"state","objective":"","dialogue":"","detail":"Prologue|||False|False|False|False|False"}
+{"seconds":108.71695709228516,"chapter":"One","action":"state","objective":"","dialogue":"","detail":"One|||False|True|False|False|False"}
+{"seconds":108.71855926513672,"chapter":"One","action":"chapter-entered","objective":"","dialogue":"","detail":"2"}
+{"seconds":113.30896759033203,"chapter":"One","action":"state","objective":"","dialogue":"","detail":"One|||False|False|False|False|False"}
+{"seconds":115.91682434082031,"chapter":"One","action":"screenshot","objective":"","dialogue":"长夜的第一个晚上，晚风灯的灯头歪着，光大半漏到了天上。岬角的夜空被照得发白，进岬角的那","detail":"02-normal; saved=True"}
+{"seconds":115.92169952392578,"chapter":"One","action":"static-sample-start","objective":"","dialogue":"长夜的第一个晚上，晚风灯的灯头歪着，光大半漏到了天上。岬角的夜空被照得发白，进岬角的那","detail":"8 seconds; no input/capture/teleport"}
+{"seconds":123.92684173583985,"chapter":"One","action":"static-sample-end","objective":"","dialogue":"长夜的第一个晚上，晚风灯的灯头歪着，光大半漏到了天上。岬角的夜空被照得发白，进岬角的那段小路却是黑的。","detail":"8 seconds"}
+{"seconds":123.92800903320313,"chapter":"One","action":"key","objective":"","dialogue":"长夜的第一个晚上，晚风灯的灯头歪着，光大半漏到了天上。岬角的夜空被照得发白，进岬角的那段小路却是黑的。","detail":"Space"}
+{"seconds":124.4524917602539,"chapter":"One","action":"state","objective":"","dialogue":"叮——叮——铃声从村子那边一路","detail":"One||叮——叮——铃声从村子那边一路|False|False|False|False|False"}
+{"seconds":124.4535140991211,"chapter":"One","action":"key","objective":"","dialogue":"叮——叮——铃声从村子那边一路","detail":"Space"}
+{"seconds":124.96807861328125,"chapter":"One","action":"state","objective":"","dialogue":"叮——叮——铃声从村子那边一路响过来，在路口停住了。","detail":"One||叮——叮——铃声从村子那边一路响过来，在路口停住了。|False|False|False|False|False"}
+{"seconds":124.96934509277344,"chapter":"One","action":"key","objective":"","dialogue":"叮——叮——铃声从村子那边一路响过来，在路口停住了。","detail":"Space"}
+{"seconds":125.49290466308594,"chapter":"One","action":"state","objective":"","dialogue":"","detail":"One|||False|False|False|False|False"}

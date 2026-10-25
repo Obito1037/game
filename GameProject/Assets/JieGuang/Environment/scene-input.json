@@ -1,0 +1,4058 @@
+{
+  "models": [
+    {
+      "id": "cottage_teal",
+      "path": "Assets/JieGuang/Environment/Models/Props/cottage_teal.fbx",
+      "lod1": "",
+      "kind": "prop"
+    },
+    {
+      "id": "cottage_ochre",
+      "path": "Assets/JieGuang/Environment/Models/Props/cottage_ochre.fbx",
+      "lod1": "",
+      "kind": "prop"
+    },
+    {
+      "id": "cottage_slate",
+      "path": "Assets/JieGuang/Environment/Models/Props/cottage_slate.fbx",
+      "lod1": "",
+      "kind": "prop"
+    },
+    {
+      "id": "abode_grandma",
+      "path": "Assets/JieGuang/Environment/Models/Props/abode_grandma.fbx",
+      "lod1": "",
+      "kind": "prop"
+    },
+    {
+      "id": "copper_roadlamp",
+      "path": "Assets/JieGuang/Environment/Models/Props/copper_roadlamp.fbx",
+      "lod1": "",
+      "kind": "prop"
+    },
+    {
+      "id": "pier_module",
+      "path": "Assets/JieGuang/Environment/Models/Props/pier_module.fbx",
+      "lod1": "",
+      "kind": "prop"
+    },
+    {
+      "id": "pier_end",
+      "path": "Assets/JieGuang/Environment/Models/Props/pier_end.fbx",
+      "lod1": "",
+      "kind": "prop"
+    },
+    {
+      "id": "flagpole_blue",
+      "path": "Assets/JieGuang/Environment/Models/Props/flagpole_blue.fbx",
+      "lod1": "",
+      "kind": "prop"
+    },
+    {
+      "id": "harbor_lantern",
+      "path": "Assets/JieGuang/Environment/Models/Props/harbor_lantern.fbx",
+      "lod1": "",
+      "kind": "prop"
+    },
+    {
+      "id": "bench",
+      "path": "Assets/JieGuang/Environment/Models/Props/bench.fbx",
+      "lod1": "",
+      "kind": "prop"
+    },
+    {
+      "id": "dock_crate",
+      "path": "Assets/JieGuang/Environment/Models/Props/dock_crate.fbx",
+      "lod1": "",
+      "kind": "prop"
+    },
+    {
+      "id": "dock_kettle",
+      "path": "Assets/JieGuang/Environment/Models/Props/dock_kettle.fbx",
+      "lod1": "",
+      "kind": "prop"
+    },
+    {
+      "id": "armillary_platform",
+      "path": "Assets/JieGuang/Environment/Models/Props/armillary_platform.fbx",
+      "lod1": "",
+      "kind": "prop"
+    },
+    {
+      "id": "crescent_sculpture",
+      "path": "Assets/JieGuang/Environment/Models/Props/crescent_sculpture.fbx",
+      "lod1": "",
+      "kind": "prop"
+    },
+    {
+      "id": "village_well",
+      "path": "Assets/JieGuang/Environment/Models/Props/village_well.fbx",
+      "lod1": "",
+      "kind": "prop"
+    },
+    {
+      "id": "laundry_line",
+      "path": "Assets/JieGuang/Environment/Models/Props/laundry_line.fbx",
+      "lod1": "",
+      "kind": "prop"
+    },
+    {
+      "id": "island_terrain",
+      "path": "Assets/JieGuang/Environment/Models/Terrain/island_terrain.fbx",
+      "lod1": "",
+      "kind": "terrain"
+    },
+    {
+      "id": "tree_a",
+      "path": "Assets/JieGuang/Environment/Models/Natural/tree_a/tree_a_LOD0.fbx",
+      "lod1": "Assets/JieGuang/Environment/Models/Natural/tree_a/tree_a_LOD1.fbx",
+      "kind": "tree"
+    },
+    {
+      "id": "tree_a_sapling_01",
+      "path": "Assets/JieGuang/Environment/Models/Natural/tree_a/tree_a_sapling_01_LOD0.fbx",
+      "lod1": "Assets/JieGuang/Environment/Models/Natural/tree_a/tree_a_sapling_01_LOD1.fbx",
+      "kind": "tree"
+    },
+    {
+      "id": "tree_a_sapling_02",
+      "path": "Assets/JieGuang/Environment/Models/Natural/tree_a/tree_a_sapling_02_LOD0.fbx",
+      "lod1": "Assets/JieGuang/Environment/Models/Natural/tree_a/tree_a_sapling_02_LOD1.fbx",
+      "kind": "tree"
+    },
+    {
+      "id": "tree_b",
+      "path": "Assets/JieGuang/Environment/Models/Natural/tree_b/tree_b_LOD0.fbx",
+      "lod1": "Assets/JieGuang/Environment/Models/Natural/tree_b/tree_b_LOD1.fbx",
+      "kind": "tree"
+    },
+    {
+      "id": "tree_c",
+      "path": "Assets/JieGuang/Environment/Models/Natural/tree_c/tree_c_LOD0.fbx",
+      "lod1": "Assets/JieGuang/Environment/Models/Natural/tree_c/tree_c_LOD1.fbx",
+      "kind": "tree"
+    },
+    {
+      "id": "tree_gold",
+      "path": "Assets/JieGuang/Environment/Models/Natural/tree_gold/tree_gold_LOD0.fbx",
+      "lod1": "Assets/JieGuang/Environment/Models/Natural/tree_gold/tree_gold_LOD1.fbx",
+      "kind": "tree"
+    },
+    {
+      "id": "rock_mountain",
+      "path": "Assets/JieGuang/Environment/Models/Natural/rock_mountain/rock_mountain_LOD0.fbx",
+      "lod1": "Assets/JieGuang/Environment/Models/Natural/rock_mountain/rock_mountain_LOD1.fbx",
+      "kind": "rock"
+    },
+    {
+      "id": "rock_mass",
+      "path": "Assets/JieGuang/Environment/Models/Natural/rock_mass/rock_mass_LOD0.fbx",
+      "lod1": "Assets/JieGuang/Environment/Models/Natural/rock_mass/rock_mass_LOD1.fbx",
+      "kind": "rock"
+    },
+    {
+      "id": "rock_arch",
+      "path": "Assets/JieGuang/Environment/Models/Natural/rock_arch/rock_arch_LOD0.fbx",
+      "lod1": "Assets/JieGuang/Environment/Models/Natural/rock_arch/rock_arch_LOD1.fbx",
+      "kind": "rock"
+    },
+    {
+      "id": "rock_cluster",
+      "path": "Assets/JieGuang/Environment/Models/Natural/rock_cluster/rock_cluster_LOD0.fbx",
+      "lod1": "Assets/JieGuang/Environment/Models/Natural/rock_cluster/rock_cluster_LOD1.fbx",
+      "kind": "rock"
+    },
+    {
+      "id": "boat",
+      "path": "Assets/JieGuang/Environment/Models/Natural/boat/boat_LOD0.fbx",
+      "lod1": "",
+      "kind": "boat"
+    },
+    {
+      "id": "rock_cluster_reef_01",
+      "path": "Assets/JieGuang/Environment/Models/Natural/rock_cluster/rock_cluster_reef_01_LOD0.fbx",
+      "lod1": "Assets/JieGuang/Environment/Models/Natural/rock_cluster/rock_cluster_reef_01_LOD1.fbx",
+      "kind": "rock"
+    },
+    {
+      "id": "rock_cluster_reef_02",
+      "path": "Assets/JieGuang/Environment/Models/Natural/rock_cluster/rock_cluster_reef_02_LOD0.fbx",
+      "lod1": "Assets/JieGuang/Environment/Models/Natural/rock_cluster/rock_cluster_reef_02_LOD1.fbx",
+      "kind": "rock"
+    }
+  ],
+  "materials": [
+    {
+      "name": "Cloth_Unbleached",
+      "color": [
+        0.6499999761581421,
+        0.6100000143051147,
+        0.4699999988079071,
+        1.0
+      ],
+      "emission": [
+        0.6499999761581421,
+        0.6100000143051147,
+        0.4699999988079071
+      ],
+      "strength": 0.0,
+      "metallic": 0.0,
+      "roughness": 0.6800000071525574,
+      "texture": "",
+      "emissionTexture": ""
+    },
+    {
+      "name": "Copper_Aged",
+      "color": [
+        0.4300000071525574,
+        0.23999999463558197,
+        0.10000000149011612,
+        1.0
+      ],
+      "emission": [
+        0.4300000071525574,
+        0.23999999463558197,
+        0.10000000149011612
+      ],
+      "strength": 0.0,
+      "metallic": 0.6000000238418579,
+      "roughness": 0.41999998688697815,
+      "texture": "",
+      "emissionTexture": ""
+    },
+    {
+      "name": "Flag_FadedIndigo",
+      "color": [
+        0.1599999964237213,
+        0.2800000011920929,
+        0.44999998807907104,
+        1.0
+      ],
+      "emission": [
+        0.1599999964237213,
+        0.2800000011920929,
+        0.44999998807907104
+      ],
+      "strength": 0.0,
+      "metallic": 0.0,
+      "roughness": 0.6800000071525574,
+      "texture": "",
+      "emissionTexture": ""
+    },
+    {
+      "name": "Flag_SilverTree",
+      "color": [
+        0.5299999713897705,
+        0.6399999856948853,
+        0.46000000834465027,
+        1.0
+      ],
+      "emission": [
+        0.5299999713897705,
+        0.6399999856948853,
+        0.46000000834465027
+      ],
+      "strength": 0.0,
+      "metallic": 0.0,
+      "roughness": 0.6800000071525574,
+      "texture": "",
+      "emissionTexture": ""
+    },
+    {
+      "name": "Flag_WeatheredEdge",
+      "color": [
+        0.5799999833106995,
+        0.6100000143051147,
+        0.5899999737739563,
+        1.0
+      ],
+      "emission": [
+        0.5799999833106995,
+        0.6100000143051147,
+        0.5899999737739563
+      ],
+      "strength": 0.0,
+      "metallic": 0.0,
+      "roughness": 0.6800000071525574,
+      "texture": "",
+      "emissionTexture": ""
+    },
+    {
+      "name": "Gold_WornEdges",
+      "color": [
+        0.6700000166893005,
+        0.41999998688697815,
+        0.11999999731779099,
+        1.0
+      ],
+      "emission": [
+        0.6700000166893005,
+        0.41999998688697815,
+        0.11999999731779099
+      ],
+      "strength": 0.0,
+      "metallic": 0.6600000262260437,
+      "roughness": 0.36000001430511475,
+      "texture": "",
+      "emissionTexture": ""
+    },
+    {
+      "name": "Iron_Blackened",
+      "color": [
+        0.11999999731779099,
+        0.14000000059604645,
+        0.14000000059604645,
+        1.0
+      ],
+      "emission": [
+        0.11999999731779099,
+        0.14000000059604645,
+        0.14000000059604645
+      ],
+      "strength": 0.0,
+      "metallic": 0.6200000047683716,
+      "roughness": 0.44999998807907104,
+      "texture": "",
+      "emissionTexture": ""
+    },
+    {
+      "name": "Lantern_AmberCore",
+      "color": [
+        1.0,
+        0.5799999833106995,
+        0.1899999976158142,
+        1.0
+      ],
+      "emission": [
+        1.0,
+        0.5799999833106995,
+        0.1899999976158142
+      ],
+      "strength": 2.200000047683716,
+      "metallic": 0.0,
+      "roughness": 0.30000001192092896,
+      "texture": "",
+      "emissionTexture": ""
+    },
+    {
+      "name": "Material",
+      "color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "emission": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929
+      ],
+      "strength": 0.0,
+      "metallic": 0.0,
+      "roughness": 0.5,
+      "texture": "",
+      "emissionTexture": ""
+    },
+    {
+      "name": "Roof_AgedTeal",
+      "color": [
+        0.11999999731779099,
+        0.3100000023841858,
+        0.3100000023841858,
+        1.0
+      ],
+      "emission": [
+        0.11999999731779099,
+        0.3100000023841858,
+        0.3100000023841858
+      ],
+      "strength": 0.0,
+      "metallic": 0.0,
+      "roughness": 0.6800000071525574,
+      "texture": "",
+      "emissionTexture": ""
+    },
+    {
+      "name": "Roof_OchreRed",
+      "color": [
+        0.46000000834465027,
+        0.20000000298023224,
+        0.12999999523162842,
+        1.0
+      ],
+      "emission": [
+        0.46000000834465027,
+        0.20000000298023224,
+        0.12999999523162842
+      ],
+      "strength": 0.0,
+      "metallic": 0.0,
+      "roughness": 0.6800000071525574,
+      "texture": "",
+      "emissionTexture": ""
+    },
+    {
+      "name": "Roof_RedHighlight",
+      "color": [
+        0.5699999928474426,
+        0.2800000011920929,
+        0.17000000178813934,
+        1.0
+      ],
+      "emission": [
+        0.5699999928474426,
+        0.2800000011920929,
+        0.17000000178813934
+      ],
+      "strength": 0.0,
+      "metallic": 0.0,
+      "roughness": 0.6800000071525574,
+      "texture": "",
+      "emissionTexture": ""
+    },
+    {
+      "name": "Roof_SlateHighlight",
+      "color": [
+        0.3700000047683716,
+        0.4099999964237213,
+        0.4099999964237213,
+        1.0
+      ],
+      "emission": [
+        0.3700000047683716,
+        0.4099999964237213,
+        0.4099999964237213
+      ],
+      "strength": 0.0,
+      "metallic": 0.0,
+      "roughness": 0.6800000071525574,
+      "texture": "",
+      "emissionTexture": ""
+    },
+    {
+      "name": "Roof_TealHighlight",
+      "color": [
+        0.18000000715255737,
+        0.4000000059604645,
+        0.36000001430511475,
+        1.0
+      ],
+      "emission": [
+        0.18000000715255737,
+        0.4000000059604645,
+        0.36000001430511475
+      ],
+      "strength": 0.0,
+      "metallic": 0.0,
+      "roughness": 0.6800000071525574,
+      "texture": "",
+      "emissionTexture": ""
+    },
+    {
+      "name": "Roof_WarmSlate",
+      "color": [
+        0.27000001072883606,
+        0.3199999928474426,
+        0.3499999940395355,
+        1.0
+      ],
+      "emission": [
+        0.27000001072883606,
+        0.3199999928474426,
+        0.3499999940395355
+      ],
+      "strength": 0.0,
+      "metallic": 0.0,
+      "roughness": 0.6800000071525574,
+      "texture": "",
+      "emissionTexture": ""
+    },
+    {
+      "name": "Stone_SoftGrey",
+      "color": [
+        0.36000001430511475,
+        0.36000001430511475,
+        0.3100000023841858,
+        1.0
+      ],
+      "emission": [
+        0.36000001430511475,
+        0.36000001430511475,
+        0.3100000023841858
+      ],
+      "strength": 0.0,
+      "metallic": 0.0,
+      "roughness": 0.6800000071525574,
+      "texture": "",
+      "emissionTexture": ""
+    },
+    {
+      "name": "Stone_WarmLimestone",
+      "color": [
+        0.47999998927116394,
+        0.46000000834465027,
+        0.3700000047683716,
+        1.0
+      ],
+      "emission": [
+        0.47999998927116394,
+        0.46000000834465027,
+        0.3700000047683716
+      ],
+      "strength": 0.0,
+      "metallic": 0.0,
+      "roughness": 0.6800000071525574,
+      "texture": "",
+      "emissionTexture": ""
+    },
+    {
+      "name": "Wall_LightTimber",
+      "color": [
+        0.5699999928474426,
+        0.4399999976158142,
+        0.28999999165534973,
+        1.0
+      ],
+      "emission": [
+        0.5699999928474426,
+        0.4399999976158142,
+        0.28999999165534973
+      ],
+      "strength": 0.0,
+      "metallic": 0.0,
+      "roughness": 0.6800000071525574,
+      "texture": "",
+      "emissionTexture": ""
+    },
+    {
+      "name": "Wall_WarmIvory",
+      "color": [
+        0.7099999785423279,
+        0.6399999856948853,
+        0.47999998927116394,
+        1.0
+      ],
+      "emission": [
+        0.7099999785423279,
+        0.6399999856948853,
+        0.47999998927116394
+      ],
+      "strength": 0.0,
+      "metallic": 0.0,
+      "roughness": 0.6800000071525574,
+      "texture": "",
+      "emissionTexture": ""
+    },
+    {
+      "name": "Window_AmberEmission",
+      "color": [
+        1.0,
+        0.4300000071525574,
+        0.10000000149011612,
+        1.0
+      ],
+      "emission": [
+        1.0,
+        0.4300000071525574,
+        0.10000000149011612
+      ],
+      "strength": 1.5,
+      "metallic": 0.0,
+      "roughness": 0.44999998807907104,
+      "texture": "",
+      "emissionTexture": ""
+    },
+    {
+      "name": "Wood_DarkBeams",
+      "color": [
+        0.1899999976158142,
+        0.12999999523162842,
+        0.09000000357627869,
+        1.0
+      ],
+      "emission": [
+        0.1899999976158142,
+        0.12999999523162842,
+        0.09000000357627869
+      ],
+      "strength": 0.0,
+      "metallic": 0.0,
+      "roughness": 0.6800000071525574,
+      "texture": "",
+      "emissionTexture": ""
+    },
+    {
+      "name": "Wood_Endgrain",
+      "color": [
+        0.5299999713897705,
+        0.3400000035762787,
+        0.18000000715255737,
+        1.0
+      ],
+      "emission": [
+        0.5299999713897705,
+        0.3400000035762787,
+        0.18000000715255737
+      ],
+      "strength": 0.0,
+      "metallic": 0.0,
+      "roughness": 0.6800000071525574,
+      "texture": "",
+      "emissionTexture": ""
+    },
+    {
+      "name": "Wood_Honey",
+      "color": [
+        0.36000001430511475,
+        0.20000000298023224,
+        0.10000000149011612,
+        1.0
+      ],
+      "emission": [
+        0.36000001430511475,
+        0.20000000298023224,
+        0.10000000149011612
+      ],
+      "strength": 0.0,
+      "metallic": 0.0,
+      "roughness": 0.6800000071525574,
+      "texture": "",
+      "emissionTexture": ""
+    },
+    {
+      "name": "Wood_Weathered",
+      "color": [
+        0.3100000023841858,
+        0.3199999928474426,
+        0.27000001072883606,
+        1.0
+      ],
+      "emission": [
+        0.3100000023841858,
+        0.3199999928474426,
+        0.27000001072883606
+      ],
+      "strength": 0.0,
+      "metallic": 0.0,
+      "roughness": 0.6800000071525574,
+      "texture": "",
+      "emissionTexture": ""
+    },
+    {
+      "name": "Ground_Moss",
+      "color": [
+        0.17000000178813934,
+        0.23499999940395355,
+        0.17000000178813934,
+        1.0
+      ],
+      "emission": [
+        0,
+        0,
+        0
+      ],
+      "strength": 0,
+      "metallic": 0,
+      "roughness": 0.86,
+      "texture": "",
+      "emissionTexture": ""
+    },
+    {
+      "name": "Ground_Sage",
+      "color": [
+        0.25,
+        0.28999999165534973,
+        0.1899999976158142,
+        1.0
+      ],
+      "emission": [
+        0,
+        0,
+        0
+      ],
+      "strength": 0,
+      "metallic": 0,
+      "roughness": 0.86,
+      "texture": "",
+      "emissionTexture": ""
+    },
+    {
+      "name": "Ground_Earth",
+      "color": [
+        0.3199999928474426,
+        0.25,
+        0.17000000178813934,
+        1.0
+      ],
+      "emission": [
+        0,
+        0,
+        0
+      ],
+      "strength": 0,
+      "metallic": 0,
+      "roughness": 0.86,
+      "texture": "",
+      "emissionTexture": ""
+    },
+    {
+      "name": "Cliff_BlueSlate",
+      "color": [
+        0.1599999964237213,
+        0.20499999821186066,
+        0.23499999940395355,
+        1.0
+      ],
+      "emission": [
+        0,
+        0,
+        0
+      ],
+      "strength": 0,
+      "metallic": 0,
+      "roughness": 0.86,
+      "texture": "",
+      "emissionTexture": ""
+    },
+    {
+      "name": "Cliff_SoftSlate",
+      "color": [
+        0.23999999463558197,
+        0.26499998569488525,
+        0.27000001072883606,
+        1.0
+      ],
+      "emission": [
+        0,
+        0,
+        0
+      ],
+      "strength": 0,
+      "metallic": 0,
+      "roughness": 0.86,
+      "texture": "",
+      "emissionTexture": ""
+    },
+    {
+      "name": "Path_WeatheredStone",
+      "color": [
+        0.41999998688697815,
+        0.4399999976158142,
+        0.4000000059604645,
+        1.0
+      ],
+      "emission": [
+        0,
+        0,
+        0
+      ],
+      "strength": 0,
+      "metallic": 0,
+      "roughness": 0.86,
+      "texture": "",
+      "emissionTexture": ""
+    },
+    {
+      "name": "Path_WarmStone",
+      "color": [
+        0.47999998927116394,
+        0.4399999976158142,
+        0.36000001430511475,
+        1.0
+      ],
+      "emission": [
+        0,
+        0,
+        0
+      ],
+      "strength": 0,
+      "metallic": 0,
+      "roughness": 0.86,
+      "texture": "",
+      "emissionTexture": ""
+    },
+    {
+      "name": "Shore_Sand",
+      "color": [
+        0.4000000059604645,
+        0.4000000059604645,
+        0.30000001192092896,
+        1.0
+      ],
+      "emission": [
+        0,
+        0,
+        0
+      ],
+      "strength": 0,
+      "metallic": 0,
+      "roughness": 0.86,
+      "texture": "",
+      "emissionTexture": ""
+    },
+    {
+      "name": "tree_a_Bark",
+      "color": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "emission": [
+        0,
+        0,
+        0
+      ],
+      "strength": 0,
+      "metallic": 0,
+      "roughness": 0.86,
+      "texture": "Assets/JieGuang/Environment/Textures/tree_a/tree_a_BaseColor.png",
+      "emissionTexture": ""
+    },
+    {
+      "name": "tree_a_LeafVeins",
+      "color": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "emission": [
+        1,
+        1,
+        1
+      ],
+      "strength": 0.22,
+      "metallic": 0,
+      "roughness": 0.86,
+      "texture": "Assets/JieGuang/Environment/Textures/tree_a/tree_a_BaseColor.png",
+      "emissionTexture": "Assets/JieGuang/Environment/Textures/tree_a/tree_a_LeafVeins_Emission.001.png"
+    },
+    {
+      "name": "tree_a_WarmFruit",
+      "color": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "emission": [
+        1,
+        1,
+        1
+      ],
+      "strength": 1.35,
+      "metallic": 0,
+      "roughness": 0.86,
+      "texture": "Assets/JieGuang/Environment/Textures/tree_a/tree_a_BaseColor.png",
+      "emissionTexture": "Assets/JieGuang/Environment/Textures/tree_a/tree_a_WarmFruit_Emission.001.png"
+    },
+    {
+      "name": "tree_a_sapling_01_Bark",
+      "color": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "emission": [
+        0,
+        0,
+        0
+      ],
+      "strength": 0,
+      "metallic": 0,
+      "roughness": 0.86,
+      "texture": "Assets/JieGuang/Environment/Textures/tree_a/tree_a_sapling_01_BaseColor.png",
+      "emissionTexture": ""
+    },
+    {
+      "name": "tree_a_sapling_01_LeafVeins",
+      "color": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "emission": [
+        1,
+        1,
+        1
+      ],
+      "strength": 0.22,
+      "metallic": 0,
+      "roughness": 0.86,
+      "texture": "Assets/JieGuang/Environment/Textures/tree_a/tree_a_sapling_01_BaseColor.png",
+      "emissionTexture": "Assets/JieGuang/Environment/Textures/tree_a/tree_a_sapling_01_LeafVeins_Emission.001.png"
+    },
+    {
+      "name": "tree_a_sapling_01_WarmFruit",
+      "color": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "emission": [
+        1,
+        1,
+        1
+      ],
+      "strength": 1.35,
+      "metallic": 0,
+      "roughness": 0.86,
+      "texture": "Assets/JieGuang/Environment/Textures/tree_a/tree_a_sapling_01_BaseColor.png",
+      "emissionTexture": "Assets/JieGuang/Environment/Textures/tree_a/tree_a_sapling_01_WarmFruit_Emission.001.png"
+    },
+    {
+      "name": "tree_a_sapling_02_Bark",
+      "color": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "emission": [
+        0,
+        0,
+        0
+      ],
+      "strength": 0,
+      "metallic": 0,
+      "roughness": 0.86,
+      "texture": "Assets/JieGuang/Environment/Textures/tree_a/tree_a_sapling_02_BaseColor.png",
+      "emissionTexture": ""
+    },
+    {
+      "name": "tree_a_sapling_02_LeafVeins",
+      "color": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "emission": [
+        1,
+        1,
+        1
+      ],
+      "strength": 0.22,
+      "metallic": 0,
+      "roughness": 0.86,
+      "texture": "Assets/JieGuang/Environment/Textures/tree_a/tree_a_sapling_02_BaseColor.png",
+      "emissionTexture": "Assets/JieGuang/Environment/Textures/tree_a/tree_a_sapling_02_LeafVeins_Emission.001.png"
+    },
+    {
+      "name": "tree_a_sapling_02_WarmFruit",
+      "color": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "emission": [
+        1,
+        1,
+        1
+      ],
+      "strength": 1.35,
+      "metallic": 0,
+      "roughness": 0.86,
+      "texture": "Assets/JieGuang/Environment/Textures/tree_a/tree_a_sapling_02_BaseColor.png",
+      "emissionTexture": "Assets/JieGuang/Environment/Textures/tree_a/tree_a_sapling_02_WarmFruit_Emission.001.png"
+    },
+    {
+      "name": "tree_b_Bark",
+      "color": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "emission": [
+        0,
+        0,
+        0
+      ],
+      "strength": 0,
+      "metallic": 0,
+      "roughness": 0.86,
+      "texture": "Assets/JieGuang/Environment/Textures/tree_b/tree_b_BaseColor.png",
+      "emissionTexture": ""
+    },
+    {
+      "name": "tree_b_LeafVeins",
+      "color": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "emission": [
+        1,
+        1,
+        1
+      ],
+      "strength": 0.22,
+      "metallic": 0,
+      "roughness": 0.86,
+      "texture": "Assets/JieGuang/Environment/Textures/tree_b/tree_b_BaseColor.png",
+      "emissionTexture": "Assets/JieGuang/Environment/Textures/tree_b/tree_b_LeafVeins_Emission.001.png"
+    },
+    {
+      "name": "tree_b_WarmFruit",
+      "color": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "emission": [
+        1,
+        1,
+        1
+      ],
+      "strength": 1.35,
+      "metallic": 0,
+      "roughness": 0.86,
+      "texture": "Assets/JieGuang/Environment/Textures/tree_b/tree_b_BaseColor.png",
+      "emissionTexture": "Assets/JieGuang/Environment/Textures/tree_b/tree_b_WarmFruit_Emission.001.png"
+    },
+    {
+      "name": "tree_b_BarkRepair",
+      "color": [
+        0.2,
+        0.07,
+        0.026,
+        1
+      ],
+      "emission": [
+        0,
+        0,
+        0
+      ],
+      "strength": 0,
+      "metallic": 0,
+      "roughness": 0.86,
+      "texture": "",
+      "emissionTexture": ""
+    },
+    {
+      "name": "tree_c_Bark",
+      "color": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "emission": [
+        0,
+        0,
+        0
+      ],
+      "strength": 0,
+      "metallic": 0,
+      "roughness": 0.86,
+      "texture": "Assets/JieGuang/Environment/Textures/tree_c/tree_c_BaseColor.png",
+      "emissionTexture": ""
+    },
+    {
+      "name": "tree_c_LeafVeins",
+      "color": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "emission": [
+        1,
+        1,
+        1
+      ],
+      "strength": 0.22,
+      "metallic": 0,
+      "roughness": 0.86,
+      "texture": "Assets/JieGuang/Environment/Textures/tree_c/tree_c_BaseColor.png",
+      "emissionTexture": "Assets/JieGuang/Environment/Textures/tree_c/tree_c_LeafVeins_Emission.001.png"
+    },
+    {
+      "name": "tree_c_WarmFruit",
+      "color": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "emission": [
+        1,
+        1,
+        1
+      ],
+      "strength": 1.35,
+      "metallic": 0,
+      "roughness": 0.86,
+      "texture": "Assets/JieGuang/Environment/Textures/tree_c/tree_c_BaseColor.png",
+      "emissionTexture": "Assets/JieGuang/Environment/Textures/tree_c/tree_c_WarmFruit_Emission.001.png"
+    },
+    {
+      "name": "tree_gold_Bark",
+      "color": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "emission": [
+        0,
+        0,
+        0
+      ],
+      "strength": 0,
+      "metallic": 0,
+      "roughness": 0.86,
+      "texture": "Assets/JieGuang/Environment/Textures/tree_gold/tree_gold_BaseColor.png",
+      "emissionTexture": ""
+    },
+    {
+      "name": "tree_gold_LeafVeins",
+      "color": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "emission": [
+        1,
+        1,
+        1
+      ],
+      "strength": 0.22,
+      "metallic": 0,
+      "roughness": 0.86,
+      "texture": "Assets/JieGuang/Environment/Textures/tree_gold/tree_gold_BaseColor.png",
+      "emissionTexture": "Assets/JieGuang/Environment/Textures/tree_gold/tree_gold_LeafVeins_Emission.001.png"
+    },
+    {
+      "name": "tree_gold_WarmFruit",
+      "color": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "emission": [
+        1,
+        1,
+        1
+      ],
+      "strength": 1.35,
+      "metallic": 0,
+      "roughness": 0.86,
+      "texture": "Assets/JieGuang/Environment/Textures/tree_gold/tree_gold_BaseColor.png",
+      "emissionTexture": "Assets/JieGuang/Environment/Textures/tree_gold/tree_gold_WarmFruit_Emission.001.png"
+    },
+    {
+      "name": "rock_mountain_Stone",
+      "color": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "emission": [
+        0,
+        0,
+        0
+      ],
+      "strength": 0,
+      "metallic": 0,
+      "roughness": 0.86,
+      "texture": "Assets/JieGuang/Environment/Textures/rock_mountain/rock_mountain_BaseColor.png",
+      "emissionTexture": ""
+    },
+    {
+      "name": "rock_mass_Stone",
+      "color": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "emission": [
+        0,
+        0,
+        0
+      ],
+      "strength": 0,
+      "metallic": 0,
+      "roughness": 0.86,
+      "texture": "Assets/JieGuang/Environment/Textures/rock_mass/rock_mass_BaseColor.png",
+      "emissionTexture": ""
+    },
+    {
+      "name": "rock_arch_Stone",
+      "color": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "emission": [
+        0,
+        0,
+        0
+      ],
+      "strength": 0,
+      "metallic": 0,
+      "roughness": 0.86,
+      "texture": "Assets/JieGuang/Environment/Textures/rock_arch/rock_arch_BaseColor.png",
+      "emissionTexture": ""
+    },
+    {
+      "name": "rock_cluster_Stone",
+      "color": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "emission": [
+        0,
+        0,
+        0
+      ],
+      "strength": 0,
+      "metallic": 0,
+      "roughness": 0.86,
+      "texture": "Assets/JieGuang/Environment/Textures/rock_cluster/rock_cluster_BaseColor.png",
+      "emissionTexture": ""
+    },
+    {
+      "name": "boat_Wood",
+      "color": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "emission": [
+        0,
+        0,
+        0
+      ],
+      "strength": 0,
+      "metallic": 0,
+      "roughness": 0.86,
+      "texture": "Assets/JieGuang/Environment/Textures/boat/boat_BaseColor.png",
+      "emissionTexture": ""
+    },
+    {
+      "name": "rock_cluster_reef_01_Stone",
+      "color": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "emission": [
+        0,
+        0,
+        0
+      ],
+      "strength": 0,
+      "metallic": 0,
+      "roughness": 0.86,
+      "texture": "Assets/JieGuang/Environment/Textures/rock_cluster/rock_cluster_reef_01_BaseColor.png",
+      "emissionTexture": ""
+    },
+    {
+      "name": "rock_cluster_reef_02_Stone",
+      "color": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "emission": [
+        0,
+        0,
+        0
+      ],
+      "strength": 0,
+      "metallic": 0,
+      "roughness": 0.86,
+      "texture": "Assets/JieGuang/Environment/Textures/rock_cluster/rock_cluster_reef_02_BaseColor.png",
+      "emissionTexture": ""
+    }
+  ],
+  "instances": [
+    {
+      "name": "IslandTerrain",
+      "asset": "island_terrain",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "yaw": 0,
+      "scale": 1,
+      "group": "Terrain",
+      "collider": "ground"
+    },
+    {
+      "name": "VillageHouse_01",
+      "asset": "cottage_teal",
+      "position": [
+        -17.5,
+        8.269083945525665,
+        3.6
+      ],
+      "yaw": 90,
+      "scale": 0.8,
+      "group": "Village",
+      "collider": "solid"
+    },
+    {
+      "name": "VillageHouse_02",
+      "asset": "cottage_ochre",
+      "position": [
+        -17.8,
+        8.387678337713668,
+        6.7
+      ],
+      "yaw": 90,
+      "scale": 0.8,
+      "group": "Village",
+      "collider": "solid"
+    },
+    {
+      "name": "VillageHouse_03",
+      "asset": "cottage_slate",
+      "position": [
+        -17.8,
+        8.385579217784514,
+        9.9
+      ],
+      "yaw": 90,
+      "scale": 0.8,
+      "group": "Village",
+      "collider": "solid"
+    },
+    {
+      "name": "VillageHouse_04",
+      "asset": "cottage_teal",
+      "position": [
+        -17.8,
+        8.379089475142171,
+        13.1
+      ],
+      "yaw": 90,
+      "scale": 0.8,
+      "group": "Village",
+      "collider": "solid"
+    },
+    {
+      "name": "VillageHouse_05",
+      "asset": "cottage_ochre",
+      "position": [
+        -16.8,
+        8.376408220631953,
+        16.3
+      ],
+      "yaw": 90,
+      "scale": 0.8,
+      "group": "Village",
+      "collider": "solid"
+    },
+    {
+      "name": "VillageHouse_06",
+      "asset": "cottage_slate",
+      "position": [
+        -14,
+        8.388404511990577,
+        18.3
+      ],
+      "yaw": 180,
+      "scale": 0.8,
+      "group": "Village",
+      "collider": "solid"
+    },
+    {
+      "name": "VillageHouse_07",
+      "asset": "cottage_teal",
+      "position": [
+        -9,
+        8.026994671509064,
+        3.7
+      ],
+      "yaw": 270,
+      "scale": 0.8,
+      "group": "Village",
+      "collider": "solid"
+    },
+    {
+      "name": "VillageHouse_08",
+      "asset": "cottage_ochre",
+      "position": [
+        -9.4,
+        8.368513953392302,
+        7.1
+      ],
+      "yaw": 270,
+      "scale": 0.8,
+      "group": "Village",
+      "collider": "solid"
+    },
+    {
+      "name": "VillageHouse_09",
+      "asset": "cottage_slate",
+      "position": [
+        -9.5,
+        8.371062867422317,
+        10.5
+      ],
+      "yaw": 270,
+      "scale": 0.8,
+      "group": "Village",
+      "collider": "solid"
+    },
+    {
+      "name": "VillageHouse_10",
+      "asset": "cottage_teal",
+      "position": [
+        -9,
+        8.371509872858411,
+        13.9
+      ],
+      "yaw": 270,
+      "scale": 0.8,
+      "group": "Village",
+      "collider": "solid"
+    },
+    {
+      "name": "VillageHouse_11",
+      "asset": "cottage_ochre",
+      "position": [
+        -7.8,
+        8.184994174386041,
+        17.3
+      ],
+      "yaw": 270,
+      "scale": 0.8,
+      "group": "Village",
+      "collider": "solid"
+    },
+    {
+      "name": "GrandmotherHouse",
+      "asset": "abode_grandma",
+      "position": [
+        4.0,
+        2.4,
+        -16.3
+      ],
+      "yaw": 154,
+      "scale": 1,
+      "group": "Props",
+      "collider": "solid"
+    },
+    {
+      "name": "Bench",
+      "asset": "bench",
+      "position": [
+        9.0,
+        2.4,
+        -21.0
+      ],
+      "yaw": 0,
+      "scale": 1,
+      "group": "Props",
+      "collider": "solid"
+    },
+    {
+      "name": "Armillary",
+      "asset": "armillary_platform",
+      "position": [
+        7.0,
+        2.4,
+        -24.0
+      ],
+      "yaw": 0,
+      "scale": 1,
+      "group": "Props",
+      "collider": "solid"
+    },
+    {
+      "name": "CrescentMemorial",
+      "asset": "crescent_sculpture",
+      "position": [
+        1.2000000000000002,
+        2.4,
+        -24.6
+      ],
+      "yaw": -20,
+      "scale": 1,
+      "group": "Props",
+      "collider": "solid"
+    },
+    {
+      "name": "Flagpole",
+      "asset": "flagpole_blue",
+      "position": [
+        10.0,
+        2.48,
+        -10.2
+      ],
+      "yaw": 180,
+      "scale": 1,
+      "group": "Props",
+      "collider": "solid"
+    },
+    {
+      "name": "HarborLantern",
+      "asset": "harbor_lantern",
+      "position": [
+        10.0,
+        3.46,
+        -10.5
+      ],
+      "yaw": 0,
+      "scale": 1,
+      "group": "Props",
+      "collider": "none"
+    },
+    {
+      "name": "KeeperBox",
+      "asset": "dock_crate",
+      "position": [
+        10.65,
+        2.48,
+        -10.8
+      ],
+      "yaw": 0,
+      "scale": 1,
+      "group": "Props",
+      "collider": "solid"
+    },
+    {
+      "name": "KeeperKettle",
+      "asset": "dock_kettle",
+      "position": [
+        11.1,
+        2.48,
+        -11.0
+      ],
+      "yaw": 0,
+      "scale": 1,
+      "group": "Props",
+      "collider": "none"
+    },
+    {
+      "name": "Well",
+      "asset": "village_well",
+      "position": [
+        -14.6,
+        8.39908301096802,
+        13
+      ],
+      "yaw": 0,
+      "scale": 1,
+      "group": "Props",
+      "collider": "solid"
+    },
+    {
+      "name": "ClothesLine",
+      "asset": "laundry_line",
+      "position": [
+        -15.5,
+        8.383327317661081,
+        5
+      ],
+      "yaw": 90,
+      "scale": 1,
+      "group": "Props",
+      "collider": "none"
+    },
+    {
+      "name": "PierDeck_01",
+      "asset": "pier_module",
+      "position": [
+        10.0,
+        2.48,
+        -17.5
+      ],
+      "yaw": 0,
+      "scale": 1,
+      "group": "Pier",
+      "collider": "ground"
+    },
+    {
+      "name": "PierDeck_02",
+      "asset": "pier_module",
+      "position": [
+        10.0,
+        2.48,
+        -14.5
+      ],
+      "yaw": 0,
+      "scale": 1,
+      "group": "Pier",
+      "collider": "ground"
+    },
+    {
+      "name": "PierDeck_03",
+      "asset": "pier_module",
+      "position": [
+        10.0,
+        2.48,
+        -11.5
+      ],
+      "yaw": 0,
+      "scale": 1,
+      "group": "Pier",
+      "collider": "ground"
+    },
+    {
+      "name": "GoldenLightTree",
+      "asset": "tree_gold",
+      "position": [
+        1.8,
+        2.364035344389671,
+        -21.4
+      ],
+      "yaw": 18,
+      "scale": 1,
+      "group": "Forest",
+      "collider": "solid"
+    },
+    {
+      "name": "LightTree_01",
+      "asset": "tree_a",
+      "position": [
+        -1,
+        2.7760200769177157,
+        -14
+      ],
+      "yaw": 0,
+      "scale": 0.76,
+      "group": "Forest",
+      "collider": "solid"
+    },
+    {
+      "name": "LightTree_02",
+      "asset": "tree_b",
+      "position": [
+        -2.2,
+        3.31372980818343,
+        -10.5
+      ],
+      "yaw": 137,
+      "scale": 0.87,
+      "group": "Forest",
+      "collider": "solid"
+    },
+    {
+      "name": "LightTree_03",
+      "asset": "tree_c",
+      "position": [
+        -6,
+        3.7739421727971068,
+        -11.5
+      ],
+      "yaw": 274,
+      "scale": 0.76,
+      "group": "Forest",
+      "collider": "solid"
+    },
+    {
+      "name": "LightTree_04",
+      "asset": "tree_a",
+      "position": [
+        -8,
+        4.364367024539087,
+        -8
+      ],
+      "yaw": 51,
+      "scale": 0.82,
+      "group": "Forest",
+      "collider": "solid"
+    },
+    {
+      "name": "LightTree_05",
+      "asset": "tree_b",
+      "position": [
+        -12,
+        5.245293576039474,
+        -6
+      ],
+      "yaw": 188,
+      "scale": 0.84,
+      "group": "Forest",
+      "collider": "solid"
+    },
+    {
+      "name": "LightTree_06",
+      "asset": "tree_c",
+      "position": [
+        -16,
+        6.10748671931645,
+        -4
+      ],
+      "yaw": 325,
+      "scale": 0.78,
+      "group": "Forest",
+      "collider": "solid"
+    },
+    {
+      "name": "LightTree_07",
+      "asset": "tree_a",
+      "position": [
+        -19,
+        6.852088164675302,
+        -1
+      ],
+      "yaw": 102,
+      "scale": 0.64,
+      "group": "Forest",
+      "collider": "solid"
+    },
+    {
+      "name": "LightTree_08",
+      "asset": "tree_b",
+      "position": [
+        -13.2,
+        6.107237608863289,
+        -1.5
+      ],
+      "yaw": 239,
+      "scale": 0.7,
+      "group": "Forest",
+      "collider": "solid"
+    },
+    {
+      "name": "LightTree_09",
+      "asset": "tree_c",
+      "position": [
+        -6,
+        6.382896176633914,
+        2
+      ],
+      "yaw": 16,
+      "scale": 0.8,
+      "group": "Forest",
+      "collider": "solid"
+    },
+    {
+      "name": "LightTree_10",
+      "asset": "tree_a",
+      "position": [
+        -4.8,
+        3.6209010684266087,
+        -9
+      ],
+      "yaw": 153,
+      "scale": 0.86,
+      "group": "Forest",
+      "collider": "solid"
+    },
+    {
+      "name": "LightTree_11",
+      "asset": "tree_b",
+      "position": [
+        -12.7,
+        5.789983989791135,
+        -3.8
+      ],
+      "yaw": 290,
+      "scale": 0.69,
+      "group": "Forest",
+      "collider": "solid"
+    },
+    {
+      "name": "LightTree_12",
+      "asset": "tree_c",
+      "position": [
+        -11,
+        7.180368689665626,
+        25
+      ],
+      "yaw": 67,
+      "scale": 0.65,
+      "group": "Forest",
+      "collider": "solid"
+    },
+    {
+      "name": "LightTree_13",
+      "asset": "tree_a",
+      "position": [
+        -14.7,
+        8.34993002283571,
+        9
+      ],
+      "yaw": 204,
+      "scale": 0.9,
+      "group": "Forest",
+      "collider": "solid"
+    },
+    {
+      "name": "ShoreRock_01",
+      "asset": "rock_mass",
+      "position": [
+        14,
+        -0.22,
+        -24
+      ],
+      "yaw": 0,
+      "scale": 0.5,
+      "group": "Rocks",
+      "collider": "solid"
+    },
+    {
+      "name": "ShoreRock_02",
+      "asset": "rock_cluster",
+      "position": [
+        16,
+        -0.22,
+        -20
+      ],
+      "yaw": 73,
+      "scale": 0.48,
+      "group": "Rocks",
+      "collider": "solid"
+    },
+    {
+      "name": "ShoreRock_03",
+      "asset": "rock_mountain",
+      "position": [
+        11,
+        -0.22,
+        -27
+      ],
+      "yaw": 146,
+      "scale": 0.47,
+      "group": "Rocks",
+      "collider": "solid"
+    },
+    {
+      "name": "ShoreRock_04",
+      "asset": "rock_mass",
+      "position": [
+        0,
+        -0.22,
+        -24
+      ],
+      "yaw": 219,
+      "scale": 0.4,
+      "group": "Rocks",
+      "collider": "solid"
+    },
+    {
+      "name": "ShoreRock_05",
+      "asset": "rock_cluster",
+      "position": [
+        -7,
+        -0.22,
+        -17
+      ],
+      "yaw": 292,
+      "scale": 0.48,
+      "group": "Rocks",
+      "collider": "solid"
+    },
+    {
+      "name": "ShoreRock_06",
+      "asset": "rock_mountain",
+      "position": [
+        -14,
+        -0.22,
+        -14
+      ],
+      "yaw": 5,
+      "scale": 0.55,
+      "group": "Rocks",
+      "collider": "solid"
+    },
+    {
+      "name": "ShoreRock_07",
+      "asset": "rock_mass",
+      "position": [
+        -22,
+        -0.22,
+        -7
+      ],
+      "yaw": 78,
+      "scale": 0.55,
+      "group": "Rocks",
+      "collider": "solid"
+    },
+    {
+      "name": "ShoreRock_08",
+      "asset": "rock_cluster",
+      "position": [
+        -26,
+        -0.22,
+        2
+      ],
+      "yaw": 151,
+      "scale": 0.58,
+      "group": "Rocks",
+      "collider": "solid"
+    },
+    {
+      "name": "ShoreRock_09",
+      "asset": "rock_mountain",
+      "position": [
+        -25,
+        -0.22,
+        16
+      ],
+      "yaw": 224,
+      "scale": 0.6,
+      "group": "Rocks",
+      "collider": "solid"
+    },
+    {
+      "name": "ShoreRock_10",
+      "asset": "rock_mass",
+      "position": [
+        -19,
+        -0.22,
+        25
+      ],
+      "yaw": 297,
+      "scale": 0.63,
+      "group": "Rocks",
+      "collider": "solid"
+    },
+    {
+      "name": "ShoreRock_11",
+      "asset": "rock_cluster",
+      "position": [
+        -6,
+        -0.22,
+        30
+      ],
+      "yaw": 10,
+      "scale": 0.55,
+      "group": "Rocks",
+      "collider": "solid"
+    },
+    {
+      "name": "ShoreRock_12",
+      "asset": "rock_mountain",
+      "position": [
+        5,
+        -0.22,
+        31
+      ],
+      "yaw": 83,
+      "scale": 0.55,
+      "group": "Rocks",
+      "collider": "solid"
+    },
+    {
+      "name": "ShoreRock_13",
+      "asset": "rock_mass",
+      "position": [
+        13,
+        -0.22,
+        28
+      ],
+      "yaw": 156,
+      "scale": 0.65,
+      "group": "Rocks",
+      "collider": "solid"
+    },
+    {
+      "name": "PostmanWaystone",
+      "asset": "rock_mass",
+      "position": [
+        7.0,
+        2.4406053320694574,
+        -11.6
+      ],
+      "yaw": 47,
+      "scale": 0.22,
+      "group": "Rocks",
+      "collider": "solid"
+    },
+    {
+      "name": "OuterRockArch",
+      "asset": "rock_arch",
+      "position": [
+        19,
+        -0.25,
+        21
+      ],
+      "yaw": 80,
+      "scale": 0.65,
+      "group": "Rocks",
+      "collider": "solid"
+    },
+    {
+      "name": "DistantReef_01",
+      "asset": "rock_cluster_reef_01",
+      "position": [
+        24,
+        -0.16,
+        35
+      ],
+      "yaw": 0,
+      "scale": 0.75,
+      "group": "Rocks",
+      "collider": "none"
+    },
+    {
+      "name": "DistantReef_02",
+      "asset": "rock_cluster_reef_02",
+      "position": [
+        33,
+        -0.16,
+        16
+      ],
+      "yaw": 71,
+      "scale": 0.85,
+      "group": "Rocks",
+      "collider": "none"
+    },
+    {
+      "name": "DistantReef_03",
+      "asset": "rock_cluster_reef_01",
+      "position": [
+        30,
+        -0.16,
+        -25
+      ],
+      "yaw": 142,
+      "scale": 0.95,
+      "group": "Rocks",
+      "collider": "none"
+    },
+    {
+      "name": "DistantReef_04",
+      "asset": "rock_cluster_reef_02",
+      "position": [
+        -31,
+        -0.16,
+        24
+      ],
+      "yaw": 213,
+      "scale": 0.75,
+      "group": "Rocks",
+      "collider": "none"
+    },
+    {
+      "name": "DistantReef_05",
+      "asset": "rock_cluster_reef_01",
+      "position": [
+        -30,
+        -0.16,
+        -12
+      ],
+      "yaw": 284,
+      "scale": 0.85,
+      "group": "Rocks",
+      "collider": "none"
+    },
+    {
+      "name": "DistantReef_06",
+      "asset": "rock_cluster_reef_02",
+      "position": [
+        3,
+        -0.16,
+        40
+      ],
+      "yaw": 355,
+      "scale": 0.95,
+      "group": "Rocks",
+      "collider": "none"
+    },
+    {
+      "name": "ReturningBoat",
+      "asset": "boat",
+      "position": [
+        12.2,
+        -0.45,
+        -12.3
+      ],
+      "yaw": 180,
+      "scale": 0.9,
+      "group": "Props",
+      "collider": "none"
+    }
+  ],
+  "anchors": [
+    {
+      "name": "Anchor_PlayerSpawn",
+      "position": [
+        11.4,
+        2.4499999999999997,
+        -24.5
+      ],
+      "forward": [
+        0,
+        0,
+        1
+      ],
+      "kind": "point"
+    },
+    {
+      "name": "Anchor_Lamp_WanFeng",
+      "position": [
+        8.0,
+        6.199999999999999,
+        -16.5
+      ],
+      "forward": [
+        -0.1132915505945328,
+        -0.6141844890503502,
+        -0.7809881164101325
+      ],
+      "kind": "lamp",
+      "height": 3.8
+    },
+    {
+      "name": "Anchor_Lamp_YueChuang",
+      "position": [
+        4.0,
+        6.4,
+        -21.0
+      ],
+      "forward": [
+        0.00044387474138786627,
+        -0.6441596856726014,
+        0.7648909087767937
+      ],
+      "kind": "lamp",
+      "height": 4
+    },
+    {
+      "name": "Anchor_Lamp_GuiHang",
+      "position": [
+        11.0,
+        6.199999999999999,
+        -18.0
+      ],
+      "forward": [
+        -0.40637,
+        -0.68067,
+        -0.60955
+      ],
+      "kind": "lamp",
+      "height": 3.8
+    },
+    {
+      "name": "Target_Path",
+      "position": [
+        5.5,
+        2.4499999999999997,
+        -21.0
+      ],
+      "forward": [
+        0,
+        0,
+        1
+      ],
+      "kind": "target"
+    },
+    {
+      "name": "Target_Bench",
+      "position": [
+        9.0,
+        2.85,
+        -21.0
+      ],
+      "forward": [
+        0,
+        0,
+        1
+      ],
+      "kind": "target"
+    },
+    {
+      "name": "Target_Window",
+      "position": [
+        4.00164,
+        4.02,
+        -18.17393
+      ],
+      "forward": [
+        0.438371,
+        0,
+        -0.898794
+      ],
+      "kind": "target"
+    },
+    {
+      "name": "Target_Pier",
+      "position": [
+        10.0,
+        2.48,
+        -16.0
+      ],
+      "forward": [
+        0,
+        0,
+        1
+      ],
+      "kind": "target"
+    },
+    {
+      "name": "Anchor_FlagpoleHook",
+      "position": [
+        10.0,
+        4.25,
+        -10.5
+      ],
+      "forward": [
+        0,
+        0,
+        -1
+      ],
+      "kind": "hook"
+    },
+    {
+      "name": "NPC_AYing",
+      "position": [
+        9.7,
+        2.48,
+        -12.5
+      ],
+      "forward": [
+        0,
+        0,
+        -1
+      ],
+      "kind": "npc_feet"
+    },
+    {
+      "name": "NPC_Postman",
+      "position": [
+        8.0,
+        2.4094663636957425,
+        -13.0
+      ],
+      "forward": [
+        0,
+        0,
+        -1
+      ],
+      "kind": "npc_feet"
+    },
+    {
+      "name": "NPC_Bench",
+      "position": [
+        9.0,
+        2.85,
+        -20.96
+      ],
+      "forward": [
+        0,
+        0,
+        1
+      ],
+      "kind": "npc_seat"
+    },
+    {
+      "name": "NPC_ABo_Window",
+      "position": [
+        3.41642,
+        2.8899999999999997,
+        -16.97404
+      ],
+      "forward": [
+        0.438371,
+        0,
+        -0.898794
+      ],
+      "kind": "npc_seat"
+    },
+    {
+      "name": "NPC_DengBo_Box",
+      "position": [
+        10.65,
+        3.04,
+        -10.8
+      ],
+      "forward": [
+        0,
+        0,
+        1
+      ],
+      "kind": "npc_seat"
+    },
+    {
+      "name": "Anchor_VillageGate",
+      "position": [
+        -12,
+        8.385504289400219,
+        4
+      ],
+      "forward": [
+        0.37139068,
+        0,
+        -0.92847669
+      ],
+      "kind": "npc_feet"
+    },
+    {
+      "name": "Anchor_GoldenTree",
+      "position": [
+        1.8,
+        2.364035344389671,
+        -21.4
+      ],
+      "forward": [
+        0,
+        0,
+        1
+      ],
+      "kind": "point"
+    },
+    {
+      "name": "Anchor_Boat",
+      "position": [
+        12.2,
+        -0.45,
+        -12.3
+      ],
+      "forward": [
+        0,
+        0,
+        -1
+      ],
+      "kind": "point"
+    },
+    {
+      "name": "Target_Sea",
+      "position": [
+        10,
+        -0.16,
+        19.5
+      ],
+      "forward": [
+        0,
+        0,
+        1
+      ],
+      "kind": "target"
+    },
+    {
+      "name": "NPC_ABo_Door",
+      "position": [
+        6.20143,
+        2.399166154277771,
+        -18.23588
+      ],
+      "forward": [
+        0.438371,
+        0,
+        -0.898794
+      ],
+      "kind": "npc_feet"
+    },
+    {
+      "name": "Cam_Title",
+      "position": [
+        57,
+        44,
+        -73
+      ],
+      "forward": [
+        -62,
+        -39,
+        74
+      ],
+      "kind": "camera",
+      "fov": 45,
+      "lookAt": [
+        -5,
+        5,
+        1
+      ]
+    },
+    {
+      "name": "Cam_Puzzle",
+      "position": [
+        27,
+        18,
+        -45
+      ],
+      "forward": [
+        -20,
+        -13,
+        27
+      ],
+      "kind": "camera",
+      "fov": 43,
+      "lookAt": [
+        7,
+        5,
+        -18
+      ]
+    },
+    {
+      "name": "Cam_Pier",
+      "position": [
+        22,
+        8,
+        -11
+      ],
+      "forward": [
+        -12,
+        -4,
+        -4
+      ],
+      "kind": "camera",
+      "fov": 48,
+      "lookAt": [
+        10,
+        4,
+        -15
+      ]
+    },
+    {
+      "name": "Cam_Village",
+      "position": [
+        12,
+        21,
+        -8
+      ],
+      "forward": [
+        -26,
+        -11,
+        20
+      ],
+      "kind": "camera",
+      "fov": 48,
+      "lookAt": [
+        -14,
+        10,
+        12
+      ]
+    },
+    {
+      "name": "Sky_ScatterZone_Village",
+      "position": [
+        -13,
+        11,
+        11
+      ],
+      "forward": [
+        0,
+        0,
+        1
+      ],
+      "kind": "scatter",
+      "size": [
+        21,
+        5,
+        18
+      ]
+    },
+    {
+      "name": "Sky_ScatterZone_Pier",
+      "position": [
+        10.0,
+        4.4,
+        -14.0
+      ],
+      "forward": [
+        0,
+        0,
+        1
+      ],
+      "kind": "scatter",
+      "size": [
+        3.3,
+        3.5,
+        9
+      ]
+    }
+  ],
+  "boundary": [
+    {
+      "position": [
+        10.728400137363511,
+        1.957213488317278,
+        -27.09225826875699
+      ]
+    },
+    {
+      "position": [
+        9.992464112252026,
+        1.9341582957896708,
+        -27.125244733079168
+      ]
+    },
+    {
+      "position": [
+        9.227282396469123,
+        1.9158118154855095,
+        -27.16143446744174
+      ]
+    },
+    {
+      "position": [
+        8.454503647178873,
+        1.900962594859135,
+        -27.19795140613374
+      ]
+    },
+    {
+      "position": [
+        7.695769851065745,
+        1.8891251109053624,
+        -27.23149428340855
+      ]
+    },
+    {
+      "position": [
+        6.972691860218403,
+        1.8804279779785549,
+        -27.25818817334088
+      ]
+    },
+    {
+      "position": [
+        6.306797954867141,
+        1.8756483759581564,
+        -27.273374740452727
+      ]
+    },
+    {
+      "position": [
+        5.719435995255067,
+        2.056150569940965,
+        -27.271311072628166
+      ]
+    },
+    {
+      "position": [
+        5.231847531849802,
+        1.884987135730033,
+        -27.2450180259303
+      ]
+    },
+    {
+      "position": [
+        4.808479630406172,
+        1.9202070637316444,
+        -27.17277572878791
+      ]
+    },
+    {
+      "position": [
+        4.390063925690496,
+        1.9478457795186637,
+        -27.033811043330516
+      ]
+    },
+    {
+      "position": [
+        3.9659861244848242,
+        1.9644315685439404,
+        -26.82598699101828
+      ]
+    },
+    {
+      "position": [
+        3.534068470196403,
+        1.9739939563497846,
+        -26.555349552366803
+      ]
+    },
+    {
+      "position": [
+        3.09308151893769,
+        1.979031429578813,
+        -26.22798539190338
+      ]
+    },
+    {
+      "position": [
+        2.642372630558362,
+        1.981041971450036,
+        -25.849838422122843
+      ]
+    },
+    {
+      "position": [
+        2.1815953716946677,
+        1.9810419714500407,
+        -25.42658308908533
+      ]
+    },
+    {
+      "position": [
+        1.7105053965832901,
+        1.981041971450037,
+        -24.963517709187407
+      ]
+    },
+    {
+      "position": [
+        1.2288000923507854,
+        1.981041971450036,
+        -24.465455329952384
+      ]
+    },
+    {
+      "position": [
+        0.735987969143908,
+        1.9810419714500382,
+        -23.936596269724213
+      ]
+    },
+    {
+      "position": [
+        0.23128066909183254,
+        1.980980284805954,
+        -23.3803691705387
+      ]
+    },
+    {
+      "position": [
+        -0.3178826425437933,
+        1.9810419714500382,
+        -22.76442275623516
+      ]
+    },
+    {
+      "position": [
+        -0.8883697426862636,
+        1.9830475389031257,
+        -22.05781838707837
+      ]
+    },
+    {
+      "position": [
+        -1.3887389536681436,
+        1.9892070999339595,
+        -21.32491703167846
+      ]
+    },
+    {
+      "position": [
+        -1.79243604319643,
+        2.000858496868899,
+        -20.631817178096505
+      ]
+    },
+    {
+      "position": [
+        -2.1181845974104414,
+        2.0188434404804942,
+        -19.988999793955127
+      ]
+    },
+    {
+      "position": [
+        -2.383987299223122,
+        2.048586618735828,
+        -19.401976243135884
+      ]
+    },
+    {
+      "position": [
+        -2.6063438472526155,
+        2.0913437716397483,
+        -18.8727736381693
+      ]
+    },
+    {
+      "position": [
+        -2.8000709229079064,
+        2.140965043042208,
+        -18.401105826082556
+      ]
+    },
+    {
+      "position": [
+        -2.9785099995143756,
+        2.196259721245404,
+        -17.985221676501453
+      ]
+    },
+    {
+      "position": [
+        -3.1539654812360656,
+        2.2562058592225105,
+        -17.62253694201742
+      ]
+    },
+    {
+      "position": [
+        -3.3382452704663734,
+        2.3198821954043334,
+        -17.310197936144085
+      ]
+    },
+    {
+      "position": [
+        -3.543167517615426,
+        2.3863070714957777,
+        -17.045707755194496
+      ]
+    },
+    {
+      "position": [
+        -3.7384582306583187,
+        2.4519857489283208,
+        -16.86059194518765
+      ]
+    },
+    {
+      "position": [
+        -3.9491899277761617,
+        2.5179196826813466,
+        -16.737641442909716
+      ]
+    },
+    {
+      "position": [
+        -4.290589022104183,
+        2.605800677657506,
+        -16.595008997982713
+      ]
+    },
+    {
+      "position": [
+        -4.805429526762966,
+        2.7074249368099945,
+        -16.41215330733933
+      ]
+    },
+    {
+      "position": [
+        -5.468002710278414,
+        2.8223074328657383,
+        -16.203444744192836
+      ]
+    },
+    {
+      "position": [
+        -6.255950217446889,
+        2.948145043758395,
+        -15.970899701405155
+      ]
+    },
+    {
+      "position": [
+        -7.1516332243399106,
+        3.069246329075886,
+        -15.707650687987528
+      ]
+    },
+    {
+      "position": [
+        -8.142026804892888,
+        3.1902288818766187,
+        -15.39965944610615
+      ]
+    },
+    {
+      "position": [
+        -9.217931214597453,
+        3.3161784603055353,
+        -15.025938662120108
+      ]
+    },
+    {
+      "position": [
+        -10.372398531455836,
+        3.4466693193087914,
+        -14.557607260972606
+      ]
+    },
+    {
+      "position": [
+        -11.597602502167538,
+        3.581275713832538,
+        -13.956269415484282
+      ]
+    },
+    {
+      "position": [
+        -12.8788049977234,
+        3.719571898822941,
+        -13.172972782465294
+      ]
+    },
+    {
+      "position": [
+        -14.090168859454407,
+        3.861132129226144,
+        -12.243762483393066
+      ]
+    },
+    {
+      "position": [
+        -15.103553246507065,
+        4.011916835795972,
+        -11.333374796262877
+      ]
+    },
+    {
+      "position": [
+        -15.9954962517523,
+        4.1761834690708755,
+        -10.463140195740703
+      ]
+    },
+    {
+      "position": [
+        -16.843244550809448,
+        4.350951813673932,
+        -9.560926454858098
+      ]
+    },
+    {
+      "position": [
+        -17.64765864474593,
+        4.533241654228228,
+        -8.627972500506772
+      ]
+    },
+    {
+      "position": [
+        -18.408308582618282,
+        4.720072775356874,
+        -7.665403653454197
+      ]
+    },
+    {
+      "position": [
+        -19.123716164177168,
+        4.9084649616829505,
+        -6.674307134653803
+      ]
+    },
+    {
+      "position": [
+        -19.7915394978514,
+        5.095437997829541,
+        -5.655742952812431
+      ]
+    },
+    {
+      "position": [
+        -20.40870150409899,
+        5.27801166841974,
+        -4.610712519364319
+      ]
+    },
+    {
+      "position": [
+        -20.971464512781367,
+        5.453205758076637,
+        -3.5400978585001
+      ]
+    },
+    {
+      "position": [
+        -21.475450179299337,
+        5.6180400514233275,
+        -2.44457829848267
+      ]
+    },
+    {
+      "position": [
+        -21.915598511826992,
+        5.769534333082893,
+        -1.3245284851774648
+      ]
+    },
+    {
+      "position": [
+        -22.292259477597817,
+        5.90470838767844,
+        -0.1561671447708255
+      ]
+    },
+    {
+      "position": [
+        -22.599692431700795,
+        6.028600198347105,
+        1.0745797743573142
+      ]
+    },
+    {
+      "position": [
+        -22.827993937188218,
+        6.147666898405541,
+        2.323846875693028
+      ]
+    },
+    {
+      "position": [
+        -22.97860073624814,
+        6.269282449595445,
+        3.559379138552913
+      ]
+    },
+    {
+      "position": [
+        -23.05920761979167,
+        6.422797683475947,
+        4.77889236577676
+      ]
+    },
+    {
+      "position": [
+        -23.07630950742375,
+        6.571554489845083,
+        5.980359405408879
+      ]
+    },
+    {
+      "position": [
+        -23.035417581075812,
+        6.69122672314232,
+        7.161847442324164
+      ]
+    },
+    {
+      "position": [
+        -22.941231870727684,
+        6.775409545131868,
+        8.32145210390552
+      ]
+    },
+    {
+      "position": [
+        -22.797766133495543,
+        6.828240390289906,
+        9.457296421138926
+      ]
+    },
+    {
+      "position": [
+        -22.608424490832824,
+        6.8582102711210755,
+        10.567576510096416
+      ]
+    },
+    {
+      "position": [
+        -22.376027993551553,
+        6.8738784460671365,
+        11.650646188103169
+      ]
+    },
+    {
+      "position": [
+        -22.102784357307247,
+        6.881712977007065,
+        12.70514096465908
+      ]
+    },
+    {
+      "position": [
+        -21.79228527212513,
+        6.885624991735546,
+        13.72066563800808
+      ]
+    },
+    {
+      "position": [
+        -21.440858836912177,
+        6.887421118904095,
+        14.695526841879252
+      ]
+    },
+    {
+      "position": [
+        -21.03942559003697,
+        6.8873680547926375,
+        15.6502954260509
+      ]
+    },
+    {
+      "position": [
+        -20.585629534536253,
+        6.8843347065882785,
+        16.594974456012956
+      ]
+    },
+    {
+      "position": [
+        -20.080374533713222,
+        6.875663876534498,
+        17.526023343064267
+      ]
+    },
+    {
+      "position": [
+        -19.524958661893155,
+        6.85712898777103,
+        18.43979712659941
+      ]
+    },
+    {
+      "position": [
+        -18.92113487712317,
+        6.82345531358759,
+        19.332723592771952
+      ]
+    },
+    {
+      "position": [
+        -18.271132675807213,
+        6.769713526124587,
+        20.201515403353426
+      ]
+    },
+    {
+      "position": [
+        -17.577626563626048,
+        6.69367516888329,
+        21.043402923008593
+      ]
+    },
+    {
+      "position": [
+        -16.84364297935184,
+        6.599014454017015,
+        21.856365344300222
+      ]
+    },
+    {
+      "position": [
+        -16.072406883558763,
+        6.499157526257227,
+        22.639332560188176
+      ]
+    },
+    {
+      "position": [
+        -15.267140736756915,
+        6.408979751453937,
+        23.392330393405487
+      ]
+    },
+    {
+      "position": [
+        -14.424678573675013,
+        6.3134236393688985,
+        24.12316911121303
+      ]
+    },
+    {
+      "position": [
+        -13.540519162353803,
+        6.207011028410841,
+        24.83127528246021
+      ]
+    },
+    {
+      "position": [
+        -12.624803978285039,
+        6.086548830675916,
+        25.505304450939597
+      ]
+    },
+    {
+      "position": [
+        -11.68677318993537,
+        5.9538819413974595,
+        26.144507416028716
+      ]
+    },
+    {
+      "position": [
+        -10.727503935490764,
+        5.81085525580877,
+        26.75313207784551
+      ]
+    },
+    {
+      "position": [
+        -9.749305758142743,
+        5.659313669143229,
+        27.332038390497075
+      ]
+    },
+    {
+      "position": [
+        -8.755378541653247,
+        5.501102076634112,
+        27.879914034235988
+      ]
+    },
+    {
+      "position": [
+        -7.749491587800895,
+        5.338065373514757,
+        28.39401658816934
+      ]
+    },
+    {
+      "position": [
+        -6.735685015626451,
+        5.1720484550185,
+        28.87063414405001
+      ]
+    },
+    {
+      "position": [
+        -5.7179687435934525,
+        5.004896216378661,
+        29.305368737989856
+      ]
+    },
+    {
+      "position": [
+        -4.699978728161758,
+        4.838453552828566,
+        29.69329366297766
+      ]
+    },
+    {
+      "position": [
+        -3.6845303778029055,
+        4.674565359601536,
+        30.028994605942955
+      ]
+    },
+    {
+      "position": [
+        -2.6658205110795743,
+        4.515076531930874,
+        30.309227543872172
+      ]
+    },
+    {
+      "position": [
+        -1.635079394966067,
+        4.356533804379889,
+        30.532128989467086
+      ]
+    },
+    {
+      "position": [
+        -0.6051596823264179,
+        4.194727031416097,
+        30.69639598339284
+      ]
+    },
+    {
+      "position": [
+        0.40946936385084864,
+        4.030365788129222,
+        30.803154723295126
+      ]
+    },
+    {
+      "position": [
+        1.406192551661913,
+        3.864159649609047,
+        30.85713755450188
+      ]
+    },
+    {
+      "position": [
+        2.3822882833036347,
+        3.696818190945269,
+        30.862264584817332
+      ]
+    },
+    {
+      "position": [
+        3.334848256409929,
+        3.529050987227651,
+        30.82179546427823
+      ]
+    },
+    {
+      "position": [
+        4.260743082889029,
+        3.3615676135459216,
+        30.738457780984465
+      ]
+    },
+    {
+      "position": [
+        5.156616323942337,
+        3.1950776449898464,
+        30.614549589916486
+      ]
+    },
+    {
+      "position": [
+        6.01889502876734,
+        3.030290656649139,
+        30.45201663973851
+      ]
+    },
+    {
+      "position": [
+        6.8438088904923555,
+        2.867916223613547,
+        30.252505418234097
+      ]
+    },
+    {
+      "position": [
+        7.627412605964417,
+        2.708663920972822,
+        30.017391982442653
+      ]
+    },
+    {
+      "position": [
+        8.414927308551347,
+        2.5532433238166834,
+        29.74076984232867
+      ]
+    },
+    {
+      "position": [
+        9.23273973308901,
+        2.3961433989481598,
+        29.37532503252968
+      ]
+    },
+    {
+      "position": [
+        9.999750127701851,
+        2.2330830433258266,
+        28.910482276531376
+      ]
+    },
+    {
+      "position": [
+        10.671418197234098,
+        2.0666167272727316,
+        28.386299974500005
+      ]
+    },
+    {
+      "position": [
+        11.260904247916866,
+        1.899298921111943,
+        27.82707687788247
+      ]
+    },
+    {
+      "position": [
+        11.779804033981693,
+        1.7336840951665353,
+        27.252209749023162
+      ]
+    },
+    {
+      "position": [
+        12.237567157211592,
+        1.5723267197595818,
+        26.678278267961094
+      ]
+    },
+    {
+      "position": [
+        12.641660754234644,
+        1.4177812652141306,
+        26.120342628457898
+      ]
+    },
+    {
+      "position": [
+        12.997953414116056,
+        1.2726022018532512,
+        25.59268571084885
+      ]
+    },
+    {
+      "position": [
+        12.113157696995055,
+        1.259191050057229,
+        24.259166141003004
+      ]
+    },
+    {
+      "position": [
+        11.512853134654245,
+        1.386503328106826,
+        24.359402741912476
+      ]
+    },
+    {
+      "position": [
+        10.887432842788408,
+        1.5201793266167778,
+        24.446721732038906
+      ]
+    },
+    {
+      "position": [
+        10.253182077129418,
+        1.6563891092681315,
+        24.51110043616202
+      ]
+    },
+    {
+      "position": [
+        9.627984640972024,
+        1.7914909513936788,
+        24.543293492487905
+      ]
+    },
+    {
+      "position": [
+        9.031706802765902,
+        2.2020094706060203,
+        24.535575025499995
+      ]
+    },
+    {
+      "position": [
+        8.48636098340926,
+        2.4075428367151726,
+        24.483036241987136
+      ]
+    },
+    {
+      "position": [
+        8.015524155799879,
+        2.6113827404949954,
+        24.385670337840693
+      ]
+    },
+    {
+      "position": [
+        7.585072691448654,
+        2.3742423821575644,
+        24.25923015767133
+      ]
+    },
+    {
+      "position": [
+        7.082656838480026,
+        2.620262417223387,
+        24.127862647186973
+      ]
+    },
+    {
+      "position": [
+        6.503413331729868,
+        2.7856676400852267,
+        23.992864952136276
+      ]
+    },
+    {
+      "position": [
+        5.90297997123266,
+        2.951370146616848,
+        23.84485836026149
+      ]
+    },
+    {
+      "position": [
+        5.287828120502108,
+        3.117304165610259,
+        23.681746706379812
+      ]
+    },
+    {
+      "position": [
+        4.6646041393331945,
+        3.2831219786721126,
+        23.50170425605258
+      ]
+    },
+    {
+      "position": [
+        4.040151743590071,
+        3.4482947123110024,
+        23.30320453572177
+      ]
+    },
+    {
+      "position": [
+        3.421531161140809,
+        3.612167367197715,
+        23.08507337814563
+      ]
+    },
+    {
+      "position": [
+        2.8160296705603094,
+        3.7739896258497656,
+        22.84656614920183
+      ]
+    },
+    {
+      "position": [
+        2.2311556361491514,
+        3.9329340444953726,
+        22.587470276704874
+      ]
+    },
+    {
+      "position": [
+        1.6746041267708622,
+        4.309977195208256,
+        22.308233646236786
+      ]
+    },
+    {
+      "position": [
+        1.1541766171882892,
+        4.486353800944162,
+        22.010116380903288
+      ]
+    },
+    {
+      "position": [
+        0.6658205110795741,
+        4.3952008045982645,
+        21.690772456127828
+      ]
+    },
+    {
+      "position": [
+        0.15270167409920088,
+        4.577085149196613,
+        21.333852616279266
+      ]
+    },
+    {
+      "position": [
+        -0.4157620125789814,
+        4.757774135851867,
+        20.93170633702234
+      ]
+    },
+    {
+      "position": [
+        -1.0164062564065475,
+        4.934662954217145,
+        20.491506262010144
+      ]
+    },
+    {
+      "position": [
+        -1.6346853547439202,
+        5.107860939549141,
+        20.018254744838877
+      ]
+    },
+    {
+      "position": [
+        -2.2568741529398437,
+        5.2765501196243605,
+        19.517441745163996
+      ]
+    },
+    {
+      "position": [
+        -2.869621458346752,
+        5.568989272600822,
+        18.995085965764012
+      ]
+    },
+    {
+      "position": [
+        -3.4596062788942925,
+        5.732920611221206,
+        18.45789216505849
+      ]
+    },
+    {
+      "position": [
+        -4.013236805249978,
+        5.894453311528809,
+        17.913534588821154
+      ]
+    },
+    {
+      "position": [
+        -4.516351810064631,
+        6.087347812416489,
+        17.371117583971284
+      ]
+    },
+    {
+      "position": [
+        -4.953899725418664,
+        6.331408823242901,
+        16.84191777128263
+      ]
+    },
+    {
+      "position": [
+        -5.309596578386941,
+        6.567670404658477,
+        16.34059971753978
+      ]
+    },
+    {
+      "position": [
+        -5.575321426324986,
+        6.752758116675336,
+        15.87683088878697
+      ]
+    },
+    {
+      "position": [
+        -5.775104633613456,
+        6.992941250998899,
+        15.427114051038956
+      ]
+    },
+    {
+      "position": [
+        -5.932222746070869,
+        6.965532442298691,
+        14.97177855092294
+      ]
+    },
+    {
+      "position": [
+        -6.0469820206481595,
+        7.0267250987823235,
+        14.518634655699778
+      ]
+    },
+    {
+      "position": [
+        -6.126077140077653,
+        7.0619592778975795,
+        14.067708188102522
+      ]
+    },
+    {
+      "position": [
+        -6.176205287155753,
+        7.077441895398357,
+        13.617929041091019
+      ]
+    },
+    {
+      "position": [
+        -6.203865122876831,
+        7.07839632366441,
+        13.167276407228048
+      ]
+    },
+    {
+      "position": [
+        -6.215203375143883,
+        6.688981944910986,
+        12.71298065117837
+      ]
+    },
+    {
+      "position": [
+        -6.215921762583075,
+        6.710008710386211,
+        12.251754434713511
+      ]
+    },
+    {
+      "position": [
+        -6.2112454654637475,
+        6.732844086529113,
+        11.780025543987044
+      ]
+    },
+    {
+      "position": [
+        -6.2059447803334,
+        6.756909138271601,
+        11.294149018393544
+      ]
+    },
+    {
+      "position": [
+        -6.204395792717458,
+        6.7812600673164605,
+        10.790584269231859
+      ]
+    },
+    {
+      "position": [
+        -6.207714727874869,
+        6.796142956777993,
+        10.27933436199192
+      ]
+    },
+    {
+      "position": [
+        -6.2091369389890545,
+        6.805021561773784,
+        9.761872924229806
+      ]
+    },
+    {
+      "position": [
+        -6.202675710152148,
+        6.810986711042565,
+        9.224353811896835
+      ]
+    },
+    {
+      "position": [
+        -6.188450509167177,
+        6.811109899624986,
+        8.666798489903584
+      ]
+    },
+    {
+      "position": [
+        -6.165196829467421,
+        6.803010806987127,
+        8.098259134416628
+      ]
+    },
+    {
+      "position": [
+        -6.132263499642686,
+        6.783046444718509,
+        7.527506229427815
+      ]
+    },
+    {
+      "position": [
+        -6.089582418924186,
+        6.746893239257956,
+        6.963152557675836
+      ]
+    },
+    {
+      "position": [
+        -6.037695122205875,
+        6.742721403852794,
+        6.413737816813344
+      ]
+    },
+    {
+      "position": [
+        -5.977829417245365,
+        6.640773213753249,
+        5.887774300889906
+      ]
+    },
+    {
+      "position": [
+        -5.912024263751862,
+        6.511910887974116,
+        5.393745861447087
+      ]
+    },
+    {
+      "position": [
+        -5.843302359108078,
+        6.358672875916251,
+        4.94004201319586
+      ]
+    },
+    {
+      "position": [
+        -5.775886272002905,
+        6.186370511758629,
+        4.534795225642686
+      ]
+    },
+    {
+      "position": [
+        -5.707740522402183,
+        6.114248433849223,
+        4.1561671447708255
+      ]
+    },
+    {
+      "position": [
+        -5.6266468585433795,
+        5.9334873312278775,
+        3.7290423740663523
+      ]
+    },
+    {
+      "position": [
+        -5.529179450330298,
+        5.7361673392267365,
+        3.236244965149338
+      ]
+    },
+    {
+      "position": [
+        -5.419160487218634,
+        5.54549221142646,
+        2.7119728585001
+      ]
+    },
+    {
+      "position": [
+        -5.295002199604713,
+        5.376532952347027,
+        2.1662680749198726
+      ]
+    },
+    {
+      "position": [
+        -5.155798465111565,
+        5.199407341047381,
+        1.6088679528124326
+      ]
+    },
+    {
+      "position": [
+        -5.00128383582283,
+        4.80544005882613,
+        1.049307134653803
+      ]
+    },
+    {
+      "position": [
+        -4.831853454418761,
+        4.615002614803377,
+        0.4970008756764188
+      ]
+    },
+    {
+      "position": [
+        -4.648637651550364,
+        4.426960720103745,
+        -0.03869416615989696
+      ]
+    },
+    {
+      "position": [
+        -4.453630449190553,
+        4.244459085356461,
+        -0.5484485451419019
+      ]
+    },
+    {
+      "position": [
+        -4.249874118618071,
+        4.070846908504443,
+        -1.0229709153704087
+      ]
+    },
+    {
+      "position": [
+        -4.041701383122569,
+        3.9097331724866136,
+        -1.4530835370704578
+      ]
+    },
+    {
+      "position": [
+        -3.9098311405455934,
+        3.7130491757858537,
+        -1.7562375166069346
+      ]
+    },
+    {
+      "position": [
+        -3.8758246319062266,
+        3.928729589181753,
+        -1.9340874027198955
+      ]
+    },
+    {
+      "position": [
+        -3.7727678682028323,
+        3.7397211165151307,
+        -2.1502120659971995
+      ]
+    },
+    {
+      "position": [
+        -3.5026014685441638,
+        3.559183862186547,
+        -2.458017739027394
+      ]
+    },
+    {
+      "position": [
+        -3.0783650816988404,
+        3.389844470778798,
+        -2.8259131897317475
+      ]
+    },
+    {
+      "position": [
+        -2.5200102321441507,
+        3.2319388340792026,
+        -3.2328637020419997
+      ]
+    },
+    {
+      "position": [
+        -1.8483667756600894,
+        3.0548067190797266,
+        -3.6673493120124716
+      ]
+    },
+    {
+      "position": [
+        -1.082012745516074,
+        2.953656546957176,
+        -4.125743817113364
+      ]
+    },
+    {
+      "position": [
+        -0.23570099342528827,
+        2.843885280574339,
+        -4.611370070621977
+      ]
+    },
+    {
+      "position": [
+        0.6804295267629654,
+        2.740358274981218,
+        -5.134721692660668
+      ]
+    },
+    {
+      "position": [
+        1.660959392474554,
+        2.6435012752316545,
+        -5.7151761872024744
+      ]
+    },
+    {
+      "position": [
+        2.7038195574057915,
+        2.553740026379498,
+        -6.384465038571764
+      ]
+    },
+    {
+      "position": [
+        3.7384582306583187,
+        2.471500273478588,
+        -7.13940805481235
+      ]
+    },
+    {
+      "position": [
+        4.656593443541352,
+        2.3975862016306313,
+        -7.8906348373981
+      ]
+    },
+    {
+      "position": [
+        5.467874900096003,
+        2.332045115841613,
+        -8.597209471263323
+      ]
+    },
+    {
+      "position": [
+        6.216465481236066,
+        2.2719144596400342,
+        -9.283713057982583
+      ]
+    },
+    {
+      "position": [
+        6.904435925440302,
+        2.200768250477041,
+        -9.940704249424476
+      ]
+    },
+    {
+      "position": [
+        7.533867219204202,
+        2.1336533123281396,
+        -10.558384914658186
+      ]
+    },
+    {
+      "position": [
+        8.106343847252615,
+        2.080670316343247,
+        -11.1272263618307
+      ]
+    },
+    {
+      "position": [
+        8.622413225149048,
+        2.043108441367502,
+        -11.638533016123375
+      ]
+    },
+    {
+      "position": [
+        9.081147560373406,
+        2.023122492670839,
+        -12.085074280118949
+      ]
+    },
+    {
+      "position": [
+        9.47993604319643,
+        2.014534669824412,
+        -12.461932821903494
+      ]
+    },
+    {
+      "position": [
+        9.81466487959407,
+        2.007124087031727,
+        -12.767675560914128
+      ]
+    },
+    {
+      "position": [
+        10.080499372315893,
+        1.9963672446334482,
+        -13.005839020329036
+      ]
+    },
+    {
+      "position": [
+        10.317882642543793,
+        1.9754087855197924,
+        -13.23557724376484
+      ]
+    },
+    {
+      "position": [
+        10.614784145722984,
+        1.9765277075573868,
+        -13.52935305168352
+      ]
+    },
+    {
+      "position": [
+        10.976974993819054,
+        1.9802330299795836,
+        -13.868959285831345
+      ]
+    },
+    {
+      "position": [
+        11.364949907649216,
+        1.9788750174564749,
+        -14.222044670047618
+      ]
+    },
+    {
+      "position": [
+        11.77097608489819,
+        1.977845510096172,
+        -14.59203784636815
+      ]
+    },
+    {
+      "position": [
+        12.187617591268294,
+        1.9774367693763295,
+        -14.983139133136891
+      ]
+    },
+    {
+      "position": [
+        12.607627369441637,
+        1.978173619160132,
+        -15.400161577877157
+      ]
+    },
+    {
+      "position": [
+        13.023816629210458,
+        1.9788009340783215,
+        -15.848403496985503
+      ]
+    },
+    {
+      "position": [
+        13.42889449276656,
+        1.9793440828792488,
+        -16.333539336522083
+      ]
+    },
+    {
+      "position": [
+        13.815263875515175,
+        1.9799046267795808,
+        -16.86151300898172
+      ]
+    },
+    {
+      "position": [
+        14.17475088912432,
+        1.9804405372672977,
+        -17.438411178891705
+      ]
+    },
+    {
+      "position": [
+        14.49823333255679,
+        1.9808642742716545,
+        -18.070279826767646
+      ]
+    },
+    {
+      "position": [
+        14.768152468150198,
+        1.981041971450037,
+        -18.7549819740697
+      ]
+    },
+    {
+      "position": [
+        14.939707523263452,
+        1.981041971450036,
+        -19.490841705149613
+      ]
+    },
+    {
+      "position": [
+        14.994127971058782,
+        1.9810419714500382,
+        -20.268291926213937
+      ]
+    },
+    {
+      "position": [
+        14.949183139781596,
+        1.9810419714500394,
+        -21.06993682665912
+      ]
+    },
+    {
+      "position": [
+        14.822748667452775,
+        1.9810419714500347,
+        -21.879616827702563
+      ]
+    },
+    {
+      "position": [
+        14.632880612080386,
+        1.981041971450036,
+        -22.682256927199596
+      ]
+    },
+    {
+      "position": [
+        14.397717603530877,
+        1.981041971450037,
+        -23.46356553255826
+      ]
+    },
+    {
+      "position": [
+        14.135429406266493,
+        1.9810419714500394,
+        -24.209824711365275
+      ]
+    },
+    {
+      "position": [
+        13.864192455229084,
+        1.9810419714500316,
+        -24.90774173124301
+      ]
+    }
+  ],
+  "boundaryNote": "Main land loop. Separate Pier boundary is generated by builder.",
+  "sourceDesign": "art/design/script/07_完整故事与生图提示词（最终版）.md"
+}

@@ -1,0 +1,73 @@
+{
+  "method": "Original deterministic procedural synthesis; no external recordings or music used.",
+  "seed": 20261022,
+  "sample_rate": 22050,
+  "channels": 2,
+  "bits": 16,
+  "files": [
+    {
+      "name": "SeaWavesV2",
+      "description": "32秒合成海浪，低频涌浪与后沿泡沫分层；可无缝循环",
+      "duration": 32.0,
+      "peak": 0.68,
+      "rms": 0.10019702068537334,
+      "seam_step": 0.01272198730729526,
+      "sha256": "f72f05709d3103ecf7a5eab4b5485a56d8593d0664ad4d97758346870e0e8668"
+    },
+    {
+      "name": "IslandWindV2",
+      "description": "32秒合成海风，低通噪声与缓慢阵风；可无缝循环",
+      "duration": 32.0,
+      "peak": 0.55,
+      "rms": 0.07634799075655048,
+      "seam_step": 0.012590167210083832,
+      "sha256": "53956b57541036d20222c0b36ad135d68bb1af2d0bb418bf5b48e788beb24cc9"
+    },
+    {
+      "name": "NightInsectsV2",
+      "description": "32秒合成夜虫，疏密交替的脉冲虫鸣；可无缝循环",
+      "duration": 32.0,
+      "peak": 0.4,
+      "rms": 0.024768230313972177,
+      "seam_step": 0.0,
+      "sha256": "7dfa19e57596042f046c54ef0f5de71f505d5e2613216472f903f1ac0ed1b3c2"
+    },
+    {
+      "name": "BorrowedLightThemeV2",
+      "description": "原创53.33秒主题：72 BPM，C/Am/F/G和声，毡音拨奏及柔和长音；循环尾音回卷",
+      "duration": 53.333333333333336,
+      "peak": 0.76,
+      "rms": 0.14721553992254635,
+      "seam_step": 0.015120155716946585,
+      "sha256": "2f4252f6805af2a55dfe8a556ccbbcb39b5620173868e98bacc71ac665b97dcb"
+    },
+    {
+      "name": "LampTurnV2",
+      "description": "柔和的铜轴转动轻响",
+      "duration": 0.22,
+      "peak": 0.48,
+      "rms": 0.0828640696791196,
+      "seam_step": 4.439072023649224e-06,
+      "sha256": "0696d043efdf3f268a19a9b1143528902f1e378c572c2e6ec749a660822d5ca0"
+    },
+    {
+      "name": "ShieldSwapV2",
+      "description": "铜灯罩扣合的短促双泛音",
+      "duration": 0.4,
+      "peak": 0.48,
+      "rms": 0.08492802355307834,
+      "seam_step": 2.622150892156476e-07,
+      "sha256": "37a50edcf7a9734d0a29a2f75acb81546876acb6816eed57704b3f382859a0a4"
+    },
+    {
+      "name": "PuzzleSolvedV2",
+      "description": "C大调三音的解谜确认声",
+      "duration": 3.0,
+      "peak": 0.6,
+      "rms": 0.10252496274166267,
+      "seam_step": 0.0,
+      "sha256": "f03552f2f068b2d4cfcfbdd1894bd9d093869b3679899581b7b36a039fddafed"
+    }
+  ],
+  "validation": "Numerical peak/RMS/seam checks only. In-game listening and WebGL autoplay remain manual QA."
+}

@@ -1,0 +1,147 @@
+{
+  "revision": "WebGL r10",
+  "reviewScope": "逐张目检现有8图，读取原始报告及控制台；仅保存本审核，不修改源码、不运行浏览器或追加测试。",
+  "result": "启动与开场导航目检通过，地图和暂停提示排版修复已确认；保留1条网络取消记录，不称浏览器零错误。",
+  "sourceReport": "web-report.json",
+  "sourceConsole": "browser-console.json",
+  "originalStatus": "startup-with-errors",
+  "startedUtc": "2026-10-23T06:52:10.302Z",
+  "completedUtc": "2026-10-23T06:53:43.329Z",
+  "images": [
+    {
+      "file": "00-loading.png",
+      "observed": "深蓝加载页标题借光岛、0%进度可读。"
+    },
+    {
+      "file": "01-title.png",
+      "observed": "标题、岛屿与开始提示正常显示。"
+    },
+    {
+      "file": "02-map-after-title-click.png",
+      "observed": "标题真实点击后进入地图；终章节点标签与选中序章编号明确分离，左下Esc与回到标题同高且有间距。"
+    },
+    {
+      "file": "03-prologue-card.png",
+      "observed": "Enter后出现序章长夜将至卡片、描述、码头缩略图与44%进度。"
+    },
+    {
+      "file": "04-prologue-opening.png",
+      "observed": "序章模型、环境和旁白他不会发光。从生下来就不会。完整显示。"
+    },
+    {
+      "file": "05-prologue-dialogue-input.png",
+      "observed": "两次Space后推进至所以他提着一盏灯笼……这名字是阿萤起的。"
+    },
+    {
+      "file": "06-pause-menu.png",
+      "observed": "Escape打开暂停菜单；底部Esc与返回游戏已同高、间隔清晰，整组居中。"
+    },
+    {
+      "file": "07-resumed-prologue.png",
+      "observed": "再次Escape后暂停层消失，序章第二句旁白与场景恢复。"
+    }
+  ],
+  "pngHeaderCheck": {
+    "count": 8,
+    "width": 1600,
+    "height": 900,
+    "allMatched": true
+  },
+  "verifiedNavigation": "真实标题点击→地图→Enter序章卡与开场→Space推进旁白→Escape暂停→Escape恢复",
+  "uiFixes": {
+    "mapChapterLabelsSeparated": true,
+    "mapEscapeHintAligned": true,
+    "pauseEscapeHintAligned": true
+  },
+  "network": {
+    "originalErrors": [
+      {
+        "type": "requestfailed",
+        "text": "net::ERR_ABORTED",
+        "url": "http://127.0.0.1:8767/Build/879858220c40bcd47d535995be65050a.wasm.unityweb"
+      }
+    ],
+    "sameUrlSuccessfulResponse": [
+      {
+        "url": "http://127.0.0.1:8767/Build/879858220c40bcd47d535995be65050a.wasm.unityweb",
+        "status": 200,
+        "headers": {
+          "cache-control": "no-store",
+          "cross-origin-opener-policy": "same-origin",
+          "content-encoding": "gzip",
+          "cross-origin-resource-policy": "same-origin",
+          "connection": "keep-alive",
+          "x-content-type-options": "nosniff",
+          "cross-origin-embedder-policy": "require-corp",
+          "content-length": "11774196",
+          "keep-alive": "timeout=5",
+          "date": "Fri, 23 Oct 2026 06:52:11 GMT",
+          "content-type": "application/wasm"
+        }
+      }
+    ],
+    "interpretation": "同一wasm地址存在HTTP 200响应，页面ready/progress100，Unity已运行并完成截图中的实际输入流程；取消记录未阻断本次已观察流程，但不删除、改写或否认原始startup-with-errors状态。"
+  },
+  "consoleDiagnostics": {
+    "invalidEnumGetInternalformatParameterWarnings": 6,
+    "unsupportedShaderMessages": [
+      "Hidden/CoreSRP/CoreCopy shader is not supported on this GPU (none of subshaders/fallbacks are suitable)",
+      "Hidden/Universal Render Pipeline/StencilDitherMaskSeed shader is not supported on this GPU (none of subshaders/fallbacks are suitable)",
+      "Hidden/Universal/HDRDebugView shader is not supported on this GPU (none of subshaders/fallbacks are suitable)"
+    ],
+    "soundNotLoadedLengthLogCount": 7,
+    "textureSamplerMismatchMessages": 0
+  },
+  "performance": {
+    "browserVersion": "155.0.4283.62",
+    "renderer": "ANGLE (Intel, Intel(R) Iris(R) Xe Graphics (0x0000A7A0) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+    "canvas": {
+      "width": 1600,
+      "height": 900,
+      "cssWidth": 1600,
+      "cssHeight": 900
+    },
+    "samples": [
+      {
+        "view": "title-before-user-gesture",
+        "elapsedMs": 12015.805000305176,
+        "medianEngineIntervalFps": 78.21352288166364,
+        "minimumEngineIntervalReading": 49.87531171966905,
+        "medianEngineRollingFps": 76.06024558050657,
+        "browserRafP50Ms": 13.770000000000437,
+        "browserRafP95Ms": 21.085000000002765,
+        "engineThirtyFpsObservedInEveryInterval": true,
+        "allSamplesForeground": true
+      },
+      {
+        "view": "prologue-opening",
+        "elapsedMs": 12040.704999923706,
+        "medianEngineIntervalFps": 57.9884022753033,
+        "minimumEngineIntervalReading": 46.28111925896962,
+        "medianEngineRollingFps": 57.66444160093695,
+        "browserRafP50Ms": 14.110000000000582,
+        "browserRafP95Ms": 33.94499999999971,
+        "engineThirtyFpsObservedInEveryInterval": true,
+        "allSamplesForeground": true
+      }
+    ],
+    "limits": "两个约12秒本机样本：标题引擎区间中位78.21/最低49.88 FPS，序章57.99/46.28 FPS。rAF为浏览器回调间隔，不能当引擎FPS；短样本不代表全程或其他设备性能，也不替代原生r10较低测量结果。"
+  },
+  "audio": {
+    "status": "non-silent-signal-observed",
+    "measuredSpanMs": 70609.4450006485,
+    "measuredSamples": 285,
+    "runningSamples": 285,
+    "nonSilentSamples": 285,
+    "medianRunningRms": 0.02330244316141464,
+    "maximumRms": 0.05300047403594303,
+    "listeningVerified": false,
+    "defaultBrowserAutoplayPolicy": true,
+    "limits": "正常点击后70.609秒内285/285样本为运行中的非零WebAudio信号；点击前context已running，不称点击解锁验证。使用零增益analyser旁路，无自动resume或autoplay覆盖；未实听，不能据此验证混音、音色和每项音效。"
+  },
+  "coverageLimits": [
+    "仅浏览器启动、地图、序章开场两句旁白及暂停恢复；不代表Web全章通关、行走或解谜验证。",
+    "本次不扩展美术检查，不修改任何原始测试报告。"
+  ],
+  "completion": "最终只读审核结束，交付主代理打包后停止。"
+}

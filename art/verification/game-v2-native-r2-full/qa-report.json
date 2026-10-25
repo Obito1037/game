@@ -1,0 +1,325 @@
+{
+    "status": "running",
+    "reason": "",
+    "startedUtc": "2026-10-23T02:38:38.1727031Z",
+    "completedUtc": "",
+    "unityVersion": "6000.3.26f1",
+    "os": "Windows 11  (10.0.26200)",
+    "cpu": "13th Gen Intel(R) Core(TM) i5-13500H",
+    "gpu": "Intel(R) Iris(R) Xe Graphics",
+    "graphicsApi": "Direct3D11",
+    "quality": "PC",
+    "outputDirectory": "C:\\Users\\20665\\Desktop\\game\\art\\verification\\game-v2-native-r2-full",
+    "cpuThreads": 16,
+    "systemMemoryMb": 16005,
+    "graphicsMemoryMb": 8002,
+    "actualWidth": 1600,
+    "actualHeight": 900,
+    "targetFps": 60,
+    "vSync": 0,
+    "method": "Normal title/map/chapter flow. GameInput keys at >=0.5 s. Diagnostic teleports bypass traversal; no puzzle-state mutation. Automated static/cutscene samples do not establish sustained gameplay performance.",
+    "titleSeen": true,
+    "epilogueClosingSeen": false,
+    "saveRestored": false,
+    "enteredChapters": [
+        1,
+        2,
+        3,
+        4,
+        5
+    ],
+    "completedChapters": [
+        1,
+        2,
+        3,
+        4
+    ],
+    "puzzleSolvedThroughInput": [
+        2,
+        3,
+        5
+    ],
+    "unlockValues": [
+        1,
+        2,
+        3,
+        4
+    ],
+    "epilogueVisited": [],
+    "screenshots": [
+        {
+            "name": "00-title",
+            "path": "C:\\Users\\20665\\Desktop\\game\\art\\verification\\game-v2-native-r2-full\\00-title.png",
+            "chapter": "Title",
+            "objective": "",
+            "screenWidth": 1600,
+            "screenHeight": 900,
+            "pngWidth": 1600,
+            "pngHeight": 900,
+            "saved": true
+        },
+        {
+            "name": "01-normal",
+            "path": "C:\\Users\\20665\\Desktop\\game\\art\\verification\\game-v2-native-r2-full\\01-normal.png",
+            "chapter": "Prologue",
+            "objective": "",
+            "screenWidth": 1600,
+            "screenHeight": 900,
+            "pngWidth": 1600,
+            "pngHeight": 900,
+            "saved": true
+        },
+        {
+            "name": "01-chapter-end-card",
+            "path": "C:\\Users\\20665\\Desktop\\game\\art\\verification\\game-v2-native-r2-full\\01-chapter-end-card.png",
+            "chapter": "Prologue",
+            "objective": "",
+            "screenWidth": 1600,
+            "screenHeight": 900,
+            "pngWidth": 1600,
+            "pngHeight": 900,
+            "saved": true
+        },
+        {
+            "name": "map-before-2",
+            "path": "C:\\Users\\20665\\Desktop\\game\\art\\verification\\game-v2-native-r2-full\\map-before-2.png",
+            "chapter": "Prologue",
+            "objective": "",
+            "screenWidth": 1600,
+            "screenHeight": 900,
+            "pngWidth": 1600,
+            "pngHeight": 900,
+            "saved": true
+        },
+        {
+            "name": "02-normal",
+            "path": "C:\\Users\\20665\\Desktop\\game\\art\\verification\\game-v2-native-r2-full\\02-normal.png",
+            "chapter": "One",
+            "objective": "",
+            "screenWidth": 1600,
+            "screenHeight": 900,
+            "pngWidth": 1600,
+            "pngHeight": 900,
+            "saved": true
+        },
+        {
+            "name": "02-puzzle-before",
+            "path": "C:\\Users\\20665\\Desktop\\game\\art\\verification\\game-v2-native-r2-full\\02-puzzle-before.png",
+            "chapter": "One",
+            "objective": "让小路和长椅亮起来，别让光漏到天上。",
+            "screenWidth": 1600,
+            "screenHeight": 900,
+            "pngWidth": 1600,
+            "pngHeight": 900,
+            "saved": true
+        },
+        {
+            "name": "02-puzzle-solved",
+            "path": "C:\\Users\\20665\\Desktop\\game\\art\\verification\\game-v2-native-r2-full\\02-puzzle-solved.png",
+            "chapter": "One",
+            "objective": "让小路和长椅亮起来，别让光漏到天上。",
+            "screenWidth": 1600,
+            "screenHeight": 900,
+            "pngWidth": 1600,
+            "pngHeight": 900,
+            "saved": true
+        },
+        {
+            "name": "02-chapter-end-card",
+            "path": "C:\\Users\\20665\\Desktop\\game\\art\\verification\\game-v2-native-r2-full\\02-chapter-end-card.png",
+            "chapter": "One",
+            "objective": "",
+            "screenWidth": 1600,
+            "screenHeight": 900,
+            "pngWidth": 1600,
+            "pngHeight": 900,
+            "saved": true
+        },
+        {
+            "name": "map-before-3",
+            "path": "C:\\Users\\20665\\Desktop\\game\\art\\verification\\game-v2-native-r2-full\\map-before-3.png",
+            "chapter": "One",
+            "objective": "",
+            "screenWidth": 1600,
+            "screenHeight": 900,
+            "pngWidth": 1600,
+            "pngHeight": 900,
+            "saved": true
+        },
+        {
+            "name": "03-normal",
+            "path": "C:\\Users\\20665\\Desktop\\game\\art\\verification\\game-v2-native-r2-full\\03-normal.png",
+            "chapter": "Two",
+            "objective": "",
+            "screenWidth": 1600,
+            "screenHeight": 900,
+            "pngWidth": 1600,
+            "pngHeight": 900,
+            "saved": true
+        },
+        {
+            "name": "03-puzzle-before",
+            "path": "C:\\Users\\20665\\Desktop\\game\\art\\verification\\game-v2-native-r2-full\\03-puzzle-before.png",
+            "chapter": "Two",
+            "objective": "月窗灯换窄罩照窗，同时保持小路与长椅明亮。",
+            "screenWidth": 1600,
+            "screenHeight": 900,
+            "pngWidth": 1600,
+            "pngHeight": 900,
+            "saved": true
+        },
+        {
+            "name": "03-puzzle-solved",
+            "path": "C:\\Users\\20665\\Desktop\\game\\art\\verification\\game-v2-native-r2-full\\03-puzzle-solved.png",
+            "chapter": "Two",
+            "objective": "月窗灯换窄罩照窗，同时保持小路与长椅明亮。",
+            "screenWidth": 1600,
+            "screenHeight": 900,
+            "pngWidth": 1600,
+            "pngHeight": 900,
+            "saved": true
+        },
+        {
+            "name": "03-chapter-end-card",
+            "path": "C:\\Users\\20665\\Desktop\\game\\art\\verification\\game-v2-native-r2-full\\03-chapter-end-card.png",
+            "chapter": "Two",
+            "objective": "",
+            "screenWidth": 1600,
+            "screenHeight": 900,
+            "pngWidth": 1600,
+            "pngHeight": 900,
+            "saved": true
+        },
+        {
+            "name": "map-before-4",
+            "path": "C:\\Users\\20665\\Desktop\\game\\art\\verification\\game-v2-native-r2-full\\map-before-4.png",
+            "chapter": "Two",
+            "objective": "",
+            "screenWidth": 1600,
+            "screenHeight": 900,
+            "pngWidth": 1600,
+            "pngHeight": 900,
+            "saved": true
+        },
+        {
+            "name": "04-normal",
+            "path": "C:\\Users\\20665\\Desktop\\game\\art\\verification\\game-v2-native-r2-full\\04-normal.png",
+            "chapter": "Interlude",
+            "objective": "",
+            "screenWidth": 1600,
+            "screenHeight": 900,
+            "pngWidth": 1600,
+            "pngHeight": 900,
+            "saved": true
+        },
+        {
+            "name": "04-letter",
+            "path": "C:\\Users\\20665\\Desktop\\game\\art\\verification\\game-v2-native-r2-full\\04-letter.png",
+            "chapter": "Interlude",
+            "objective": "",
+            "screenWidth": 1600,
+            "screenHeight": 900,
+            "pngWidth": 1600,
+            "pngHeight": 900,
+            "saved": true
+        },
+        {
+            "name": "map-before-5",
+            "path": "C:\\Users\\20665\\Desktop\\game\\art\\verification\\game-v2-native-r2-full\\map-before-5.png",
+            "chapter": "Interlude",
+            "objective": "",
+            "screenWidth": 1600,
+            "screenHeight": 900,
+            "pngWidth": 1600,
+            "pngHeight": 900,
+            "saved": true
+        },
+        {
+            "name": "05-normal",
+            "path": "C:\\Users\\20665\\Desktop\\game\\art\\verification\\game-v2-native-r2-full\\05-normal.png",
+            "chapter": "Three",
+            "objective": "跑到码头去",
+            "screenWidth": 1600,
+            "screenHeight": 900,
+            "pngWidth": 1600,
+            "pngHeight": 900,
+            "saved": true
+        },
+        {
+            "name": "05-puzzle-before",
+            "path": "C:\\Users\\20665\\Desktop\\game\\art\\verification\\game-v2-native-r2-full\\05-puzzle-before.png",
+            "chapter": "Three",
+            "objective": "照亮小路、长椅、窗和码头——只能有一束宽光。",
+            "screenWidth": 1600,
+            "screenHeight": 900,
+            "pngWidth": 1600,
+            "pngHeight": 900,
+            "saved": true
+        },
+        {
+            "name": "05-puzzle-solved",
+            "path": "C:\\Users\\20665\\Desktop\\game\\art\\verification\\game-v2-native-r2-full\\05-puzzle-solved.png",
+            "chapter": "Three",
+            "objective": "照亮小路、长椅、窗和码头——只能有一束宽光。",
+            "screenWidth": 1600,
+            "screenHeight": 900,
+            "pngWidth": 1600,
+            "pngHeight": 900,
+            "saved": true
+        }
+    ],
+    "errors": [],
+    "frames": [
+        {
+            "scope": "chapter-1 normal rendered frames; static/cutscene/diagnostic travel sample",
+            "samples": 1735,
+            "measuredSeconds": 28.931732177734376,
+            "p50Ms": 16.66699981689453,
+            "p95Ms": 16.69699478149414,
+            "p99Ms": 16.893404006958009,
+            "meanFps": 59.96875762939453,
+            "p95EquivalentFps": 59.89101791381836
+        },
+        {
+            "scope": "chapter-2 normal rendered frames; static/cutscene/diagnostic travel sample",
+            "samples": 3827,
+            "measuredSeconds": 63.819435119628909,
+            "p50Ms": 16.66699981689453,
+            "p95Ms": 16.6897029876709,
+            "p99Ms": 16.8367977142334,
+            "meanFps": 59.96605682373047,
+            "p95EquivalentFps": 59.91718292236328
+        },
+        {
+            "scope": "chapter-3 normal rendered frames; static/cutscene/diagnostic travel sample",
+            "samples": 840,
+            "measuredSeconds": 14.005819320678711,
+            "p50Ms": 16.66699981689453,
+            "p95Ms": 16.69600486755371,
+            "p99Ms": 16.84990119934082,
+            "meanFps": 59.97507095336914,
+            "p95EquivalentFps": 59.894569396972659
+        },
+        {
+            "scope": "chapter-4 normal rendered frames; static/cutscene/diagnostic travel sample",
+            "samples": 982,
+            "measuredSeconds": 16.46228790283203,
+            "p50Ms": 16.66699981689453,
+            "p95Ms": 16.70960235595703,
+            "p99Ms": 17.26959991455078,
+            "meanFps": 59.651493072509769,
+            "p95EquivalentFps": 59.845829010009769
+        },
+        {
+            "scope": "chapter-5 normal rendered frames; static/cutscene/diagnostic travel sample",
+            "samples": 1093,
+            "measuredSeconds": 18.320114135742189,
+            "p50Ms": 16.66699981689453,
+            "p95Ms": 16.759899139404298,
+            "p99Ms": 17.649503707885743,
+            "meanFps": 59.66120529174805,
+            "p95EquivalentFps": 59.666229248046878
+        }
+    ],
+    "limitations": "No manual walking, collision-route coverage, listening test, subjective visual approval, WebGL or ordinary-laptop benchmark. Frame statistics exclude warm-up, captures and teleport settling; samples include scripted normal camera shots."
+}

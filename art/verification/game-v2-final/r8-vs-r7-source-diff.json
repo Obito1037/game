@@ -1,0 +1,56 @@
+{
+  "fromCandidate": "jieguang-v2-r7",
+  "toCandidate": "jieguang-v2-r8",
+  "comparedUtc": "2026-10-23T05:02:08.215Z",
+  "filesCompared": 57,
+  "changed": [
+    {
+      "path": "GameProject/Assets/JieGuang/Editor/IslandV2Builder.cs",
+      "category": "csharp",
+      "beforeSha256": "8304ef26cafa0551e98d90b8d5f914d33b623129e30f4f701c0e0edd6cb08e7c",
+      "afterSha256": "8aca9be014eeb176d9f509548c96a082ff6633270a6e564ea7bacb3991cdab64"
+    },
+    {
+      "path": "GameProject/Assets/JieGuang/Scenes/JieGuang_Main.unity",
+      "category": "main-scene",
+      "beforeSha256": "7899bd5af4a4517f6815b4a9d75efd8886ae74659510c4db452112a256e47ed0",
+      "afterSha256": "132721a685a0af161d4c8fe87c51056b4776b004a205e20fca904306b6b709f7"
+    },
+    {
+      "path": "GameProject/Assets/JieGuang/Scripts/Story/GameDirector.cs",
+      "category": "csharp",
+      "beforeSha256": "cda5d7be6cec64b4b7d8425d5aa2d55a08efe59b58b010f69e9ff8f47f35559a",
+      "afterSha256": "9c659809a05029a90dd8cd2f13b5f621e94fb06d59a01e0106e9e994f5e9b84a"
+    },
+    {
+      "path": "GameProject/Assets/JieGuang/World/IslandV2.prefab",
+      "category": "island-prefab",
+      "beforeSha256": "dd83a3ef4a3d4d6c66ee87e66851a09c04a9f68b6e6a4fc9560c444a601aaa4f",
+      "afterSha256": "76372f7e5e045bc63643351567dcb0cd9cc0925e6b4b90e90c6a5882ca4c8f98"
+    }
+  ],
+  "metaChanged": [],
+  "addedSources": [],
+  "removedSources": [],
+  "exactOldSourceReconstruction": [
+    {
+      "path": "GameProject/Assets/JieGuang/Scripts/Story/GameDirector.cs",
+      "method": "Reverse the single Finale PierOff side offset -0.6f to 0.4f",
+      "reconstructedSha256": "cda5d7be6cec64b4b7d8425d5aa2d55a08efe59b58b010f69e9ff8f47f35559a",
+      "expectedR7Sha256": "cda5d7be6cec64b4b7d8425d5aa2d55a08efe59b58b010f69e9ff8f47f35559a",
+      "matches": true
+    },
+    {
+      "path": "GameProject/Assets/JieGuang/Editor/IslandV2Builder.cs",
+      "method": "Remove only AlignHarborLantern(t) invocation and the new AlignHarborLantern method",
+      "reconstructedSha256": "8304ef26cafa0551e98d90b8d5f914d33b623129e30f4f701c0e0edd6cb08e7c",
+      "expectedR7Sha256": "8304ef26cafa0551e98d90b8d5f914d33b623129e30f4f701c0e0edd6cb08e7c",
+      "matches": true
+    }
+  ],
+  "semanticReview": "r8 changes finale placement and A16 harbor-lantern alignment plus rebuilt prefab/scene. r7 failed finale screenshot remains historical evidence.",
+  "limits": [
+    "Selected file hashes and exact C# reconstruction do not provide a full serialized-asset semantic diff or full art closure.",
+    "Source corrections require r8 native screenshots and full flow validation."
+  ]
+}

@@ -1,0 +1,14 @@
+Loaded terrain runtime audit
+platform=WindowsPlayer; unity=6000.3.26f1
+groundSurface=True; renderer=True; triangles=6336; bounds=Center: (-4.60, 3.60, 1.76), Extents: (20.44, 4.95, 29.90)
+groundShader=JieGuang/GroundSurface; supported=True; passCount=4
+active=True; enabled=True; drawHeightmap=False; instanced=True
+data=IslandTerrain; size=(52.00, 16.00, 72.00); heightRes=257; layers=4
+material=Terrain; shader=Universal Render Pipeline/Terrain/Lit
+shaderSupported=True; passCount=4; keywords=_TERRAIN_INSTANCED_PERPIXEL_NORMAL
+alphamap=256x256; textures=1
+layer0 sum=11056.389; diffuse=T01_grass
+layer1 sum=3214.506; diffuse=T03_dirt
+layer2 sum=679.667; diffuse=T02_stone
+layer3 sum=50585.282; diffuse=T04_cliff
+solidCells=65536/65536; centreHeight=5.003235

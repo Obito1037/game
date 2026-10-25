@@ -1,0 +1,683 @@
+{
+  "schemaVersion": 1,
+  "candidate": "jieguang-v2-r5",
+  "capturedUtc": "2026-10-23T04:05:23.555Z",
+  "windowsBuildId": "build_fe07fc8466d1",
+  "buildStateAtSnapshot": "queued, as reported by root; this manifest is not a build-success report",
+  "hashAlgorithm": "SHA-256",
+  "scope": "All .cs and .shader files recursively under Assets/JieGuang; IslandV2 prefab; JieGuang main scene; custom JieGuang and project PC/Mobile RP/renderer/global assets; package manifest/lock; QualitySettings, ProjectSettings, GraphicsSettings and URPProjectSettings. Companion meta hashes included where present.",
+  "notes": [
+    "Runtime source/resources were reported frozen and rebuilt by root before this snapshot.",
+    "Subsequent WebGL platform switching may change platform-specific fields in ProjectSettings.asset and related project settings. Such changes must be reviewed separately and must not be mistaken for a gameplay source change.",
+    "This is a source/configuration fingerprint, not proof of successful build, running behavior, asset-closure completeness, visual acceptance or performance.",
+    "No Assets/BorrowedLight files were traversed or read.",
+    "Editor screenshots 12/13 precede the T04 shader correction. Screenshot 14 precedes the final CoastalCliff switch to GroundSurface; none establish the exact final frozen native appearance."
+  ],
+  "counts": {
+    "total": 57,
+    "csharp": 35,
+    "shader": 7,
+    "main-scene": 1,
+    "render-settings": 7,
+    "island-prefab": 1,
+    "package-settings": 2,
+    "project-settings": 4
+  },
+  "fileListSha256": "7fa7f9c7caca1516e94eeb1ce19770d488a7b38a9ca67b968986b8c722fe5984",
+  "files": [
+    {
+      "path": "GameProject/Assets/JieGuang/Editor/CharacterLineupTest.cs",
+      "category": "csharp",
+      "bytes": 2185,
+      "modifiedUtc": "2026-10-22T15:38:07.919Z",
+      "sha256": "87d74de377470cbc9d1f2bd57296bcf2f820462c7c0c21011a2eb15ecdbec007",
+      "meta": {
+        "path": "GameProject/Assets/JieGuang/Editor/CharacterLineupTest.cs.meta",
+        "sha256": "cd4ac194754ea9f7d6aba524f99c1b92fcd5986b4588fc76e7a9044e65eac1cf",
+        "guid": "c56edce96adb4574e90e98655ab3ab6d"
+      }
+    },
+    {
+      "path": "GameProject/Assets/JieGuang/Editor/IslandTerrainBuilder.cs",
+      "category": "csharp",
+      "bytes": 49529,
+      "modifiedUtc": "2026-10-23T04:02:06.702Z",
+      "sha256": "94226c00f87de901280670515996f14491431c9a0fac302d401f9984db8f906a",
+      "meta": {
+        "path": "GameProject/Assets/JieGuang/Editor/IslandTerrainBuilder.cs.meta",
+        "sha256": "4942afa8fb0c73b27b9b89da79aef4d5e5026e2bad1643d766d664b5e4f793b5",
+        "guid": "8a397af87ea99f5438e23ec52fead067"
+      }
+    },
+    {
+      "path": "GameProject/Assets/JieGuang/Editor/IslandV2Builder.cs",
+      "category": "csharp",
+      "bytes": 23032,
+      "modifiedUtc": "2026-10-23T03:31:51.555Z",
+      "sha256": "7c22f60f6a29773604ef738b65bccac67803815c060353fa1a2ab0652435173b",
+      "meta": {
+        "path": "GameProject/Assets/JieGuang/Editor/IslandV2Builder.cs.meta",
+        "sha256": "fcf45195117995464dfbe31886908d19559426401cc5c05fb0d3c04820204ff8",
+        "guid": "ec02455328712324091cf28fdf495a27"
+      }
+    },
+    {
+      "path": "GameProject/Assets/JieGuang/Editor/JieGuangAssetSetup.cs",
+      "category": "csharp",
+      "bytes": 9068,
+      "modifiedUtc": "2026-10-22T15:28:07.606Z",
+      "sha256": "6f778dd4b55715c3af141abb9318f1683aa0df3cb7b24633219711a2fb00172f",
+      "meta": {
+        "path": "GameProject/Assets/JieGuang/Editor/JieGuangAssetSetup.cs.meta",
+        "sha256": "834f8c458f05b733fabd017b3190c84fb278d789ad2fb508558f4e0a39a06d4f",
+        "guid": "6fbd42b10987a65468c8c8b67efcc16b"
+      }
+    },
+    {
+      "path": "GameProject/Assets/JieGuang/Editor/JieGuangQualityBuilder.cs",
+      "category": "csharp",
+      "bytes": 7032,
+      "modifiedUtc": "2026-10-23T03:44:44.935Z",
+      "sha256": "d5e9c1212bb3ab23d5dd71e3986b8b6236dd35e1d2cdb95fe279ca862b91a3c6",
+      "meta": {
+        "path": "GameProject/Assets/JieGuang/Editor/JieGuangQualityBuilder.cs.meta",
+        "sha256": "e74c3641646b4ad52306f420834fa27be967b28d0cdb79e2cdb8ee2453e704cd",
+        "guid": "c9e89e51a36e44b49e7835445e2b21b6"
+      }
+    },
+    {
+      "path": "GameProject/Assets/JieGuang/Editor/JieGuangSceneBuilder.cs",
+      "category": "csharp",
+      "bytes": 5020,
+      "modifiedUtc": "2026-10-23T03:44:03.210Z",
+      "sha256": "195577dee1ae2b20d5c8620338879f7331953743eae593a6f5a2398f378e7fa1",
+      "meta": {
+        "path": "GameProject/Assets/JieGuang/Editor/JieGuangSceneBuilder.cs.meta",
+        "sha256": "116e36344948d2ec09cdfd6f759681fc23a85557aabb9a1f2aadadd814d721d6",
+        "guid": "5a5c1ee586210e34891e5797fc359b93"
+      }
+    },
+    {
+      "path": "GameProject/Assets/JieGuang/Environment/Editor/EnvV1Builder.cs",
+      "category": "csharp",
+      "bytes": 71408,
+      "modifiedUtc": "2026-10-22T16:57:45.790Z",
+      "sha256": "b5961804e22847028b68034a738dd9ee2ec2b604ce5ad841b7e9b439992cdc02",
+      "meta": {
+        "path": "GameProject/Assets/JieGuang/Environment/Editor/EnvV1Builder.cs.meta",
+        "sha256": "3a4e83e64f85a224aa870171db72da2abefbba0a174010338c73f8942a572620",
+        "guid": "91525b62546085f40996a44d104f8955"
+      }
+    },
+    {
+      "path": "GameProject/Assets/JieGuang/Environment/Editor/EnvV1GroundChecks.cs",
+      "category": "csharp",
+      "bytes": 15345,
+      "modifiedUtc": "2026-10-22T16:52:59.095Z",
+      "sha256": "f1a0b49d73db91d2cf35a64c3e0b3e43431a6818e24abcac05c7857069f48235",
+      "meta": {
+        "path": "GameProject/Assets/JieGuang/Environment/Editor/EnvV1GroundChecks.cs.meta",
+        "sha256": "4a3bf7db31082a3d9d688b0ad4be3fca070d0bb8f93d41d87536b5d9c31b87be",
+        "guid": "de7febf6e2c309c46aef3932df4a0369"
+      }
+    },
+    {
+      "path": "GameProject/Assets/JieGuang/Environment/Editor/EnvV1PathConformer.cs",
+      "category": "csharp",
+      "bytes": 9212,
+      "modifiedUtc": "2026-10-22T17:03:19.168Z",
+      "sha256": "6222c26110ced9a0a1505e8e665c8f60a8fb229f3a48c337f1765af1e5926e3e",
+      "meta": {
+        "path": "GameProject/Assets/JieGuang/Environment/Editor/EnvV1PathConformer.cs.meta",
+        "sha256": "f3a2261abcf0e9c6e1adaf8b35916fb9b6685716d78e157522cb07b0d03958a7",
+        "guid": "b6ba79ff7a702664ea7a1684aea7a665"
+      }
+    },
+    {
+      "path": "GameProject/Assets/JieGuang/Environment/Shaders/EnvNightSea.shader",
+      "category": "shader",
+      "bytes": 2180,
+      "modifiedUtc": "2026-10-22T16:13:42.392Z",
+      "sha256": "6471d7248782a525cdd3260468dbdef948f505b284ff541269bf2e6be1214c34",
+      "meta": {
+        "path": "GameProject/Assets/JieGuang/Environment/Shaders/EnvNightSea.shader.meta",
+        "sha256": "153fff3d6c80661fe9ad7e86ae2428213fea481c413087fbbc60d7721d21d268",
+        "guid": "29a694a03e6420f408934e119b391b23"
+      }
+    },
+    {
+      "path": "GameProject/Assets/JieGuang/Environment/Shaders/EnvNightSky.shader",
+      "category": "shader",
+      "bytes": 3448,
+      "modifiedUtc": "2026-10-22T15:52:34.243Z",
+      "sha256": "e7512e90ad1971d155d08edbfa5a80d24a8ce7a23327981530c8e477655c3926",
+      "meta": {
+        "path": "GameProject/Assets/JieGuang/Environment/Shaders/EnvNightSky.shader.meta",
+        "sha256": "a4333c20eaffc222834ae6ce5ad030bec872a386b9796991f5a1bbb4d5382d29",
+        "guid": "236114136248a284aa7b7d3465f40396"
+      }
+    },
+    {
+      "path": "GameProject/Assets/JieGuang/Scenes/JieGuang_Main.unity",
+      "category": "main-scene",
+      "bytes": 5392,
+      "modifiedUtc": "2026-10-23T04:02:56.488Z",
+      "sha256": "f40017fa80036043c6f7ffb1747aac6a3d2bf36f78c501db309ca9d5f0614d2b",
+      "meta": {
+        "path": "GameProject/Assets/JieGuang/Scenes/JieGuang_Main.unity.meta",
+        "sha256": "a72932d9526a1c9b6deaf43d199e35037359bad40ed30d3ff4fae9af15ba2903",
+        "guid": "5c233e45d7446094b908c54f354f127b"
+      }
+    },
+    {
+      "path": "GameProject/Assets/JieGuang/Scripts/Characters/CharacterActor.cs",
+      "category": "csharp",
+      "bytes": 2736,
+      "modifiedUtc": "2026-10-22T15:28:19.044Z",
+      "sha256": "28382d1cecdc236c0763b3c6d85c86c5b6833e13402eb6a3e6cbf514a9ae6a15",
+      "meta": {
+        "path": "GameProject/Assets/JieGuang/Scripts/Characters/CharacterActor.cs.meta",
+        "sha256": "fca5f56acb276c0eac83f0e1b71a2fef6401c892975fabfea8fda7c8cb261a27",
+        "guid": "901e1e92ab0fcf943bb12e07976205e5"
+      }
+    },
+    {
+      "path": "GameProject/Assets/JieGuang/Scripts/Characters/LineupPose.cs",
+      "category": "csharp",
+      "bytes": 1069,
+      "modifiedUtc": "2026-10-22T15:38:11.400Z",
+      "sha256": "2f9bf35aa19870ab21bafc877ab8d3d9f016ebdb96897aef9bc09b108ff5c0fe",
+      "meta": {
+        "path": "GameProject/Assets/JieGuang/Scripts/Characters/LineupPose.cs.meta",
+        "sha256": "0b4cdda77c111e7e3f36c9de3e27e49da242bd7762d5faa9db6e5e9010187220",
+        "guid": "0e5160b39f5091344a7c3051b7977f2d"
+      }
+    },
+    {
+      "path": "GameProject/Assets/JieGuang/Scripts/Core/GameInput.cs",
+      "category": "csharp",
+      "bytes": 1568,
+      "modifiedUtc": "2026-10-22T16:03:29.078Z",
+      "sha256": "a8fcdffbade45eddd26530bba9c55a9d7c585ed3f7dace925f83a7ebe0d1b23c",
+      "meta": {
+        "path": "GameProject/Assets/JieGuang/Scripts/Core/GameInput.cs.meta",
+        "sha256": "5ebad786929fe64f9176a91de301df41f57001fa9fde6fb70eb2223c42e9728a",
+        "guid": "c332df42901539749853ffbc37643ed8"
+      }
+    },
+    {
+      "path": "GameProject/Assets/JieGuang/Scripts/Core/IslandSoundscape.cs",
+      "category": "csharp",
+      "bytes": 2636,
+      "modifiedUtc": "2026-10-23T01:58:09.865Z",
+      "sha256": "74119d11fb84437e6bdaaa7812895661149e5331bf51a529cea685feec9977a9",
+      "meta": {
+        "path": "GameProject/Assets/JieGuang/Scripts/Core/IslandSoundscape.cs.meta",
+        "sha256": "c2384a0cfb866d7dfd4724faf0a86b2aa619b89b8ac276acfcac8939b6a33105",
+        "guid": "5f472073fbd6ba446888bac40f50668f"
+      }
+    },
+    {
+      "path": "GameProject/Assets/JieGuang/Scripts/Core/JgQaRunner.cs",
+      "category": "csharp",
+      "bytes": 30462,
+      "modifiedUtc": "2026-10-23T02:57:29.360Z",
+      "sha256": "8b1698706b5701c00281430c02cc13c6381c31478b539a6ee455c22deb2ce1b4",
+      "meta": {
+        "path": "GameProject/Assets/JieGuang/Scripts/Core/JgQaRunner.cs.meta",
+        "sha256": "57404f70c22cc0e43eef477caa9a3bd1a775748a32e367400d286aaf95b1d95b",
+        "guid": "6d60becda5beeda48a397d3813e3a9ef"
+      }
+    },
+    {
+      "path": "GameProject/Assets/JieGuang/Scripts/Core/JgRenderStudy.cs",
+      "category": "csharp",
+      "bytes": 10837,
+      "modifiedUtc": "2026-10-23T03:28:05.167Z",
+      "sha256": "b6a062e4440547177656ce268b9f2db303abbad79f90dd072cb0d521a8cdc3fb",
+      "meta": {
+        "path": "GameProject/Assets/JieGuang/Scripts/Core/JgRenderStudy.cs.meta",
+        "sha256": "7f842c0e84736ba07057a77bb2f1223cc9b0e19f09092572a606ab7243243a07",
+        "guid": "bd78ac481faeedb498e2762255e13825"
+      }
+    },
+    {
+      "path": "GameProject/Assets/JieGuang/Scripts/Core/LampRules.cs",
+      "category": "csharp",
+      "bytes": 6427,
+      "modifiedUtc": "2026-10-22T15:46:50.144Z",
+      "sha256": "de6f8dd1c4bb6decaa286cce5c10e49e1ec632a7646fa4d07e8071b58fdd01dc",
+      "meta": {
+        "path": "GameProject/Assets/JieGuang/Scripts/Core/LampRules.cs.meta",
+        "sha256": "d3dd92017d553eca2563c07c77eb28ae21370c22b10d711f4a85d32ad76c48fe",
+        "guid": "134f3638a7ab37642a0d57e1f02a83f2"
+      }
+    },
+    {
+      "path": "GameProject/Assets/JieGuang/Scripts/Core/StoryText.cs",
+      "category": "csharp",
+      "bytes": 18586,
+      "modifiedUtc": "2026-10-23T00:25:58.546Z",
+      "sha256": "6972da8af89fae467e5ae976cae11fe48f985de42a677bdac65b8270145d3c55",
+      "meta": {
+        "path": "GameProject/Assets/JieGuang/Scripts/Core/StoryText.cs.meta",
+        "sha256": "2721dde00ca28633e05ff2dd107a8b7b43a3401bb467aca9c32013eb8782f33a",
+        "guid": "9f7d2f282d6f6a24d8206c7b7c84e938"
+      }
+    },
+    {
+      "path": "GameProject/Assets/JieGuang/Scripts/Gameplay/CameraDirector.cs",
+      "category": "csharp",
+      "bytes": 4713,
+      "modifiedUtc": "2026-10-23T03:44:04.561Z",
+      "sha256": "e9c7b14e72a3f2fdfbeeffed7b7e55e9e34933e0626df5c569972fc2cfc7b8cd",
+      "meta": {
+        "path": "GameProject/Assets/JieGuang/Scripts/Gameplay/CameraDirector.cs.meta",
+        "sha256": "3a2843f9bea733e110f52c707bd2abfe85e8040026d940fcf9a87bb55feddc09",
+        "guid": "71fa5d5e4cc93024fbd4a6d06cac7699"
+      }
+    },
+    {
+      "path": "GameProject/Assets/JieGuang/Scripts/Gameplay/PlayerController.cs",
+      "category": "csharp",
+      "bytes": 3669,
+      "modifiedUtc": "2026-10-22T16:03:49.056Z",
+      "sha256": "c7e40202f1928eee5102ab46e6e36bd0c31ec2633349802a1cf085252f134283",
+      "meta": {
+        "path": "GameProject/Assets/JieGuang/Scripts/Gameplay/PlayerController.cs.meta",
+        "sha256": "8a848b5c019e1f80a995a80fadfae7f1223c402bbca6f8720c3acc510916e154",
+        "guid": "4f9bdb72ff169b54dad0825f404f09e6"
+      }
+    },
+    {
+      "path": "GameProject/Assets/JieGuang/Scripts/Story/GameDirector.cs",
+      "category": "csharp",
+      "bytes": 59233,
+      "modifiedUtc": "2026-10-23T02:51:37.118Z",
+      "sha256": "c34d8120f2232e0d413d6bb9793e196e25c15bf3d2538b1d29d2dbfbe6424aa4",
+      "meta": {
+        "path": "GameProject/Assets/JieGuang/Scripts/Story/GameDirector.cs.meta",
+        "sha256": "f3c80a6e25fcfa4b282d3afb469d45f7abf9d961cfcf4ada0d8e77107ba52b07",
+        "guid": "5ed2a25f8dae8a645b0527c1b544d3d6"
+      }
+    },
+    {
+      "path": "GameProject/Assets/JieGuang/Scripts/Story/StoryProps.cs",
+      "category": "csharp",
+      "bytes": 4565,
+      "modifiedUtc": "2026-10-23T02:01:34.814Z",
+      "sha256": "bd5b15a4638006186f0ee0e9cb61ba3692a70597d3a37e2251c51c436bc6fce7",
+      "meta": {
+        "path": "GameProject/Assets/JieGuang/Scripts/Story/StoryProps.cs.meta",
+        "sha256": "c0bb8c8b052bb1ddccc2127325abff117cf8f522a25e5c495e3fcf197fb5438b",
+        "guid": "c4c09d7af31b9b94986a0e7323a806a1"
+      }
+    },
+    {
+      "path": "GameProject/Assets/JieGuang/Scripts/UI/GameUI.cs",
+      "category": "csharp",
+      "bytes": 47898,
+      "modifiedUtc": "2026-10-23T03:05:20.121Z",
+      "sha256": "1454f702df6983f9577cf2419ed86f84c363d9a40ebd563fe3ecc25af4ab5b37",
+      "meta": {
+        "path": "GameProject/Assets/JieGuang/Scripts/UI/GameUI.cs.meta",
+        "sha256": "965eb7943362e7821caa60b87b51067dbc6f67e6a079140d92ecdf83cc3847d0",
+        "guid": "f3796b972eb57a545aedba5323912f4a"
+      }
+    },
+    {
+      "path": "GameProject/Assets/JieGuang/Scripts/UI/UiKit.cs",
+      "category": "csharp",
+      "bytes": 15485,
+      "modifiedUtc": "2026-10-23T01:13:15.048Z",
+      "sha256": "fab731ab426eefc79f742db1ae16d0e4e4588059da8c6d9941526d81f6a057f3",
+      "meta": {
+        "path": "GameProject/Assets/JieGuang/Scripts/UI/UiKit.cs.meta",
+        "sha256": "f26fe0c527a491957cc33e85c7cd1df71f47ab4cbfa7127d35e2f325aa24463c",
+        "guid": "e048eab59d121f840a9f8d559f32eecd"
+      }
+    },
+    {
+      "path": "GameProject/Assets/JieGuang/Scripts/World/CrowdLights.cs",
+      "category": "csharp",
+      "bytes": 3134,
+      "modifiedUtc": "2026-10-22T15:52:22.014Z",
+      "sha256": "7a4cee43aad9bdcb055780cb7c97468c23b31ce2288acee84bd863a0be27e67d",
+      "meta": {
+        "path": "GameProject/Assets/JieGuang/Scripts/World/CrowdLights.cs.meta",
+        "sha256": "db841128c0b347522d9048c0ff16fae50cb0e0177fe7fcf55e8ab38a089354ec",
+        "guid": "998ef7d235cdd2c48b8036ae89b2d4d5"
+      }
+    },
+    {
+      "path": "GameProject/Assets/JieGuang/Scripts/World/FallbackLook.cs",
+      "category": "csharp",
+      "bytes": 1623,
+      "modifiedUtc": "2026-10-23T01:55:54.202Z",
+      "sha256": "ca986d263593693ebaaa98aa820f5e07155ab6f8b56eaf9e4f9df1c0aec903c1",
+      "meta": {
+        "path": "GameProject/Assets/JieGuang/Scripts/World/FallbackLook.cs.meta",
+        "sha256": "5edf9231e1f9d39b78a0bc686b4d4e7965da559fcadc42988390c6a8677c7a31",
+        "guid": "9156b5521f0812249b537f4ad3356e3b"
+      }
+    },
+    {
+      "path": "GameProject/Assets/JieGuang/Scripts/World/Fireflow.cs",
+      "category": "csharp",
+      "bytes": 3573,
+      "modifiedUtc": "2026-10-23T03:05:26.494Z",
+      "sha256": "77ecc79001fb5b2762169ce8d69712d21054d4e35b0fcd021858bded02aa0e80",
+      "meta": {
+        "path": "GameProject/Assets/JieGuang/Scripts/World/Fireflow.cs.meta",
+        "sha256": "de3efb16e41bc3283f73a8cefaa69188ffff18af5a545b319d754d35368ca617",
+        "guid": "fe15fb7964984d64eaa54b9c7cff8a0b"
+      }
+    },
+    {
+      "path": "GameProject/Assets/JieGuang/Scripts/World/GrayboxIsland.cs",
+      "category": "csharp",
+      "bytes": 12586,
+      "modifiedUtc": "2026-10-22T16:00:59.394Z",
+      "sha256": "338103f5bdbe67c278827365095d0c5bdc949a61b579683e06cf77eb11ae1c48",
+      "meta": {
+        "path": "GameProject/Assets/JieGuang/Scripts/World/GrayboxIsland.cs.meta",
+        "sha256": "a6ebe4fe62ae7cabc72a155ea5accb5779662625ae0abe17d6e2d3be91192722",
+        "guid": "e74039203e9300049a5702bb7717ed7f"
+      }
+    },
+    {
+      "path": "GameProject/Assets/JieGuang/Scripts/World/IslandFoliageBudget.cs",
+      "category": "csharp",
+      "bytes": 2886,
+      "modifiedUtc": "2026-10-23T01:55:32.176Z",
+      "sha256": "0a49d3062db24fb741bd3c65fa8a279c3fc6b8bd6fe4d1f7abfd3cb4cad8666c",
+      "meta": {
+        "path": "GameProject/Assets/JieGuang/Scripts/World/IslandFoliageBudget.cs.meta",
+        "sha256": "b0880ea5877655868b7e31e2f17077d2cc4175b2805a2eac891dc2134c623330",
+        "guid": "4c8ae4bfca2d015458744a5b8932f13f"
+      }
+    },
+    {
+      "path": "GameProject/Assets/JieGuang/Scripts/World/IslandLayout.cs",
+      "category": "csharp",
+      "bytes": 8157,
+      "modifiedUtc": "2026-10-22T23:30:23.652Z",
+      "sha256": "c571c10a91082db578c80d18dfaf126eba4b054965563953a30f8d79e753472e",
+      "meta": {
+        "path": "GameProject/Assets/JieGuang/Scripts/World/IslandLayout.cs.meta",
+        "sha256": "921d5551d9ed6cb8cf594ffda7ae1d0e7f0a35f969b94d0200c8662fd2e97304",
+        "guid": "1e5505a48db83724fb760e924e72d145"
+      }
+    },
+    {
+      "path": "GameProject/Assets/JieGuang/Scripts/World/LampPost.cs",
+      "category": "csharp",
+      "bytes": 9512,
+      "modifiedUtc": "2026-10-23T03:19:20.188Z",
+      "sha256": "7467b2e94de9c15bd2fd54b83c39f3d908608102ee2ac4991820bf91bc5257a8",
+      "meta": {
+        "path": "GameProject/Assets/JieGuang/Scripts/World/LampPost.cs.meta",
+        "sha256": "e3c53490d8c40a1c1cd7b60f00e016b0b1f10a061f55fdbc237c13d7f67f3324",
+        "guid": "bb107fb4ee1aa6b4d84294b8fd5d3750"
+      }
+    },
+    {
+      "path": "GameProject/Assets/JieGuang/Scripts/World/Lantern.cs",
+      "category": "csharp",
+      "bytes": 6346,
+      "modifiedUtc": "2026-10-23T03:31:52.860Z",
+      "sha256": "4c1fc6ef854df998cad5394e30a81da132c6da207916771ecaf3652bee7dac1a",
+      "meta": {
+        "path": "GameProject/Assets/JieGuang/Scripts/World/Lantern.cs.meta",
+        "sha256": "38ff3723be6761c1d05aef5c4653d7ae1d31e5ebeb6d8c3dbe8c28da9ee30572",
+        "guid": "acd514fc376712f429dbf6c8e721194b"
+      }
+    },
+    {
+      "path": "GameProject/Assets/JieGuang/Scripts/World/MaterialKit.cs",
+      "category": "csharp",
+      "bytes": 3393,
+      "modifiedUtc": "2026-10-23T03:05:23.407Z",
+      "sha256": "589f040fbb3557a2801e54c4f19e86ff0495c00388054b7f93fc5891d6e218b7",
+      "meta": {
+        "path": "GameProject/Assets/JieGuang/Scripts/World/MaterialKit.cs.meta",
+        "sha256": "38347034d4890db7fe56c3a6b5ecdd6df7b0d1b142d29dae3a4b1ffa9c10bf5e",
+        "guid": "fa7275082f2b8a141a85a7d1fc6fe806"
+      }
+    },
+    {
+      "path": "GameProject/Assets/JieGuang/Scripts/World/NightSky.cs",
+      "category": "csharp",
+      "bytes": 13559,
+      "modifiedUtc": "2026-10-23T03:10:02.264Z",
+      "sha256": "d40944aabc2bae43270d160a6e1cdef5225a3e2b2b5c6832b6a66467d93f3766",
+      "meta": {
+        "path": "GameProject/Assets/JieGuang/Scripts/World/NightSky.cs.meta",
+        "sha256": "8bf35f85a790a7bb3a97fafda44c8e0674d1a86bcd5ce78f0ddabeca660af822",
+        "guid": "613d99b630a487b4b99e2259ecf57437"
+      }
+    },
+    {
+      "path": "GameProject/Assets/JieGuang/Scripts/World/TerrainPersistenceProbe.cs",
+      "category": "csharp",
+      "bytes": 4605,
+      "modifiedUtc": "2026-10-23T03:47:07.192Z",
+      "sha256": "d3866dc953433457e83ab773c1ff7a310b30834c21b4e7cf91574176c570a3f1",
+      "meta": {
+        "path": "GameProject/Assets/JieGuang/Scripts/World/TerrainPersistenceProbe.cs.meta",
+        "sha256": "e7e08e79428d7e1eafdecc6edc480197fca464d9894540569afa1bcd90940d34",
+        "guid": "a63a5a7b00102c94887b68bc1d7cbb28"
+      }
+    },
+    {
+      "path": "GameProject/Assets/JieGuang/Scripts/World/WindowGlow.cs",
+      "category": "csharp",
+      "bytes": 1609,
+      "modifiedUtc": "2026-10-23T00:37:40.683Z",
+      "sha256": "45f543ed1c98d0114339f2b8389ebdc3eaf8f80a5a29df54cc4263de8876a589",
+      "meta": {
+        "path": "GameProject/Assets/JieGuang/Scripts/World/WindowGlow.cs.meta",
+        "sha256": "0e345ba5721810e864da604aa03552c759f7f6e27a6e5dc580964d39b2c29b61",
+        "guid": "aa6b93b48cc353d49ad9994f85651a94"
+      }
+    },
+    {
+      "path": "GameProject/Assets/JieGuang/Settings/JieGuang_PC_Renderer.asset",
+      "category": "render-settings",
+      "bytes": 2908,
+      "modifiedUtc": "2026-10-23T04:02:54.667Z",
+      "sha256": "bd46f5fbb7eafd2ada396f137896ce55fe04a94dcfcd9a121a6e3589a6ac1b89",
+      "meta": {
+        "path": "GameProject/Assets/JieGuang/Settings/JieGuang_PC_Renderer.asset.meta",
+        "sha256": "d900c10658caec023a69b221f4ee6a21278c8a9f1a0cb16ceea71dc06e50840f",
+        "guid": "e6340fdf77ad431498f4d0c1e2087296"
+      }
+    },
+    {
+      "path": "GameProject/Assets/JieGuang/Settings/JieGuang_PC_RPAsset.asset",
+      "category": "render-settings",
+      "bytes": 4669,
+      "modifiedUtc": "2026-10-23T04:03:05.629Z",
+      "sha256": "99ce57ece69af472e7fa2e45666947164d2c35bb3ec87647259fc50e1925cb85",
+      "meta": {
+        "path": "GameProject/Assets/JieGuang/Settings/JieGuang_PC_RPAsset.asset.meta",
+        "sha256": "1d77055d6d2f6c5cb5ae28776a5b2efa82aa523e9e1b1a26e4f2ba249ecc8bae",
+        "guid": "c7667180fa99c784d9225c47be99c056"
+      }
+    },
+    {
+      "path": "GameProject/Assets/JieGuang/Shaders/GroundSurface.shader",
+      "category": "shader",
+      "bytes": 10369,
+      "modifiedUtc": "2026-10-23T04:00:11.713Z",
+      "sha256": "317e733e295d07d0d410c6d0d42bbc914e62784ed241d01f53744ef61b0c33a9",
+      "meta": {
+        "path": "GameProject/Assets/JieGuang/Shaders/GroundSurface.shader.meta",
+        "sha256": "1a228c17f62f788e90eb914a3565fae2d5e3139ab65daa151fb6f3022724dfdb",
+        "guid": "f301b73fe71891741aaa010a6fa9168b"
+      }
+    },
+    {
+      "path": "GameProject/Assets/JieGuang/Shaders/MeadowCards.shader",
+      "category": "shader",
+      "bytes": 6813,
+      "modifiedUtc": "2026-10-23T02:07:34.624Z",
+      "sha256": "3360e073a8fff302ffb5ecf6ecf71a7259e9ef81e213ed1a57a685d94840e744",
+      "meta": {
+        "path": "GameProject/Assets/JieGuang/Shaders/MeadowCards.shader.meta",
+        "sha256": "20a6863190a27b7b6d893359a6c82fdffd5a996ce823bd729022a5e6a6132e51",
+        "guid": "332c665aded2e7c44b6c2c6d6cb3ecb6"
+      }
+    },
+    {
+      "path": "GameProject/Assets/JieGuang/Shaders/NightSea.shader",
+      "category": "shader",
+      "bytes": 9574,
+      "modifiedUtc": "2026-10-23T02:55:13.797Z",
+      "sha256": "dbde4a56cc176c88b17864c470abb364b2c5046e5079f5c9ab2823de2e899e84",
+      "meta": {
+        "path": "GameProject/Assets/JieGuang/Shaders/NightSea.shader.meta",
+        "sha256": "72e277d3c4440bc1a4fb913d714ae9c311b8b8894d90003a2d95dd309730decc",
+        "guid": "71f03f179da6c2a438b5ee2886c5f565"
+      }
+    },
+    {
+      "path": "GameProject/Assets/JieGuang/Shaders/NightSkybox.shader",
+      "category": "shader",
+      "bytes": 6831,
+      "modifiedUtc": "2026-10-23T02:55:17.649Z",
+      "sha256": "16ea15d66caeab0d6d62437d1f2e0538350cacca3d5effed87413513aa73ac97",
+      "meta": {
+        "path": "GameProject/Assets/JieGuang/Shaders/NightSkybox.shader.meta",
+        "sha256": "2af1359edf76b70c03ac6da80fb90265cb7e6bd32d9cd867bb21dff3858e0152",
+        "guid": "103c737c0a35aea4f90f460202276665"
+      }
+    },
+    {
+      "path": "GameProject/Assets/JieGuang/Shaders/SoftBeam.shader",
+      "category": "shader",
+      "bytes": 3942,
+      "modifiedUtc": "2026-10-23T03:19:25.090Z",
+      "sha256": "aef8d2c695f15aaa4ee9712ad01ded0302bc5f81d35fe032e9230a7a44b84828",
+      "meta": {
+        "path": "GameProject/Assets/JieGuang/Shaders/SoftBeam.shader.meta",
+        "sha256": "076ddf7e1474cb22d7a069b8267b2f3e9d5dbed363d24d992339f1e97585ad7e",
+        "guid": "24cbaf487f52410e915c9ed0f372f1d6"
+      }
+    },
+    {
+      "path": "GameProject/Assets/JieGuang/World/IslandV2.prefab",
+      "category": "island-prefab",
+      "bytes": 1431352,
+      "modifiedUtc": "2026-10-23T04:02:54.095Z",
+      "sha256": "5ebd53dc7c67b5fef7fa2fc8c64fedf94d867a1bbd63641defe033cce8721606",
+      "meta": {
+        "path": "GameProject/Assets/JieGuang/World/IslandV2.prefab.meta",
+        "sha256": "dfd5b503e7d97a0fd8fabba56c493f5147d6995ed108686cfbba7d1cd5130d51",
+        "guid": "be242726a163c7440907223166bc7f7a"
+      }
+    },
+    {
+      "path": "GameProject/Assets/Settings/Mobile_Renderer.asset",
+      "category": "render-settings",
+      "bytes": 1713,
+      "modifiedUtc": "2025-01-30T19:19:37.000Z",
+      "sha256": "aa93274c9521fa941170becec9e87c5fa36b8587eefd5eeb5c0eed0d1d4b1dbe",
+      "meta": {
+        "path": "GameProject/Assets/Settings/Mobile_Renderer.asset.meta",
+        "sha256": "a148ee2b4987b05b8ff7ae5f9bf84916184f77aefddc821dceb551f5a69f8179",
+        "guid": "65bc7dbf4170f435aa868c779acfb082"
+      }
+    },
+    {
+      "path": "GameProject/Assets/Settings/Mobile_RPAsset.asset",
+      "category": "render-settings",
+      "bytes": 4650,
+      "modifiedUtc": "2026-10-21T06:28:42.792Z",
+      "sha256": "3e1ad0b0d6f5b7f8d4a8897148d9d3005a907ff75903edba98e5e12dd1513b11",
+      "meta": {
+        "path": "GameProject/Assets/Settings/Mobile_RPAsset.asset.meta",
+        "sha256": "53ea46647712c615fd1a3f2e0dddfa8559eeedc649e9a1dbf93ff913de28544c",
+        "guid": "5e6cbd92db86f4b18aec3ed561671858"
+      }
+    },
+    {
+      "path": "GameProject/Assets/Settings/PC_Renderer.asset",
+      "category": "render-settings",
+      "bytes": 3439,
+      "modifiedUtc": "2025-01-30T19:19:37.000Z",
+      "sha256": "3d0b01d8ded3327263b6690be128a3de58d17c514943ae42fe743a3e084a9c79",
+      "meta": {
+        "path": "GameProject/Assets/Settings/PC_Renderer.asset.meta",
+        "sha256": "b5df8ddb2708c6ed4c133a5ff9ee95a75cc20e4ee3ed6181366a61aedbaf31ec",
+        "guid": "f288ae1f4751b564a96ac7587541f7a2"
+      }
+    },
+    {
+      "path": "GameProject/Assets/Settings/PC_RPAsset.asset",
+      "category": "render-settings",
+      "bytes": 4669,
+      "modifiedUtc": "2026-10-23T03:12:10.744Z",
+      "sha256": "f3bea23f812c2e0c266c71a66e1da4c4677025758aea2dfb9ed60a00e8abcd56",
+      "meta": {
+        "path": "GameProject/Assets/Settings/PC_RPAsset.asset.meta",
+        "sha256": "bb469b9b6f318e9e9bed29c3b2e73e79371c04743c6f95dd6603941f1cd3e53e",
+        "guid": "4b83569d67af61e458304325a23e5dfd"
+      }
+    },
+    {
+      "path": "GameProject/Assets/Settings/UniversalRenderPipelineGlobalSettings.asset",
+      "category": "render-settings",
+      "bytes": 26104,
+      "modifiedUtc": "2026-10-23T04:03:05.888Z",
+      "sha256": "5f475ccd82ca0a34b38236ce0c5dff639928f4a7f7ebc6f1a44340ad0af315e5",
+      "meta": {
+        "path": "GameProject/Assets/Settings/UniversalRenderPipelineGlobalSettings.asset.meta",
+        "sha256": "f61661d8bc8dbe531daf09f6211ef978c7ba145c9207c8e76524396ae0722d7c",
+        "guid": "18dc0cd2c080841dea60987a38ce93fa"
+      }
+    },
+    {
+      "path": "GameProject/Packages/manifest.json",
+      "category": "package-settings",
+      "bytes": 470,
+      "modifiedUtc": "2026-10-20T10:17:58.509Z",
+      "sha256": "d90a4b6c3455035c179664996fafc52e378237af4a5f7a39662b3437e3d3cbf4"
+    },
+    {
+      "path": "GameProject/Packages/packages-lock.json",
+      "category": "package-settings",
+      "bytes": 8169,
+      "modifiedUtc": "2026-10-20T10:18:24.683Z",
+      "sha256": "5a9113dc4254d9827a2952a06bee572ff10cbeb898d4f4dc9106ab7791507d75"
+    },
+    {
+      "path": "GameProject/ProjectSettings/GraphicsSettings.asset",
+      "category": "project-settings",
+      "bytes": 2615,
+      "modifiedUtc": "2026-10-23T04:03:05.895Z",
+      "sha256": "6736f33dc62c35b0e7a88e275242080bc7a1d94c91154d18fceb332b661a6bce"
+    },
+    {
+      "path": "GameProject/ProjectSettings/ProjectSettings.asset",
+      "category": "project-settings",
+      "bytes": 25798,
+      "modifiedUtc": "2026-10-23T04:03:05.880Z",
+      "sha256": "c06bb1ebf6739a18ff9cff46196863de85ff00a7a6474183c1ab8512f7703984"
+    },
+    {
+      "path": "GameProject/ProjectSettings/QualitySettings.asset",
+      "category": "project-settings",
+      "bytes": 3723,
+      "modifiedUtc": "2026-10-23T04:02:54.728Z",
+      "sha256": "bd73cfbd757bddd3e7f91a34e42b95a99c3bf027b99d014a5fca43399d69ff07"
+    },
+    {
+      "path": "GameProject/ProjectSettings/URPProjectSettings.asset",
+      "category": "project-settings",
+      "bytes": 461,
+      "modifiedUtc": "2026-10-23T03:11:14.400Z",
+      "sha256": "c317fe22b9488785c0611f0642429922e5d324430d929bffb41648130f30c218"
+    }
+  ]
+}

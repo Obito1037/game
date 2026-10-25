@@ -1,0 +1,32 @@
+Imported Props 离线预算审计（只读）
+
+方法：Blender 4.5.14 background 逐个读取 Unity Props 下全部39个FBX，统计loop_triangles；递归解析IslandV2嵌套prefab的实际FBX依赖计数（包含A01_open替代原版）。未驱动Unity，未改Assets或原模型。
+原始38个Unity FBX的SHA256均匹配art/generated/props-v2产物；10项比旧record.json少1–29面，采用本次FBX读取值。新增A01_open无原record，实际16,253面、使用1次；原A01为15,999面、已不被当前岛使用。
+39个FBX共263,982个唯一三角面；当前岛68个静态实例共495,562面。所有FBX单mesh/单材质槽。39个导入器generateMeshLods=0；Props与Resources/Props直属prefab中LODGroup=0。
+限制：仅静态imported Props；不含人物、动态剧情道具、Terrain、草、旧环境和额外阴影/深度pass。这不是每帧GPU三角数。
+
+最高累计（FBX三角面 × 当前实例 = 累计）：
+D01_tree_tall: 11,999 × 5 = 59,995
+D02_tree_round: 11,971 × 4 = 47,884
+C08_village_tree: 20,000 × 2 = 40,000
+C03_house_teal: 7,999 × 4 = 31,996
+C04_house_ochre: 7,998 × 4 = 31,992
+A03_golden_tree: 30,000 × 1 = 30,000
+D03_tree_rock: 13,992 × 2 = 27,984
+D06_rocks_peak: 5,000 × 5 = 25,000
+D05_rocks_low: 4,999 × 5 = 24,995
+C05_house_slate: 8,000 × 3 = 24,000
+A01_grandma_house_open: 16,253 × 1 = 16,253
+C01_light_ship: 14,996 × 1 = 14,996
+
+试制优先级与保留比例（未实际减面，尚不代表保形通过）：
+1. D05/D06/D07/D09/D10 岩石/礁石：中距保留40–50%，远距20–25%。厚实轮廓比薄树叶易保留。D08岩拱先试60%，保护内孔；A09剧情石近景保留。
+2. C03/C04/C05 村屋：中距50%（约4k/栋），远距25%（约2k/栋）。11栋当前87,988面，中距一档理论减少43,994面。保屋脊/檐口/门窗轮廓；优先处理瓦片凸起及背面细碎面。A01窗和演员契约不动。
+3. C08村口树：中距50%（10k/棵）、远距25%。D01/D02先试60%，D03先试65%，远距约30%。已看预览：D01叶片狭长、C08枝根多；全局collapse可能缺叶/开洞，需专门轮廓对照。
+4. A03金色光树：单件最高30k但仅1株，为关键地标；保近景，远距试60%。A10浑天仪薄环、A06灯头玻璃/转轴、A13木桩绳不列首批。
+建议原件作为LOD0，新增派生中远景LOD，保留碰撞与锚点。上述百分比是保留面数比例。
+
+五类树A03/C08/D01/D02/D03合计205,863面（41.5%）；房屋104,241面（21.0%）；岩石组A09/D05–D10合计90,491面（18.3%）。
+这68个单材质实例不能单独解释Editor 14.7M三角面/2392drawcalls；需先用native Game-only A/B定位阴影、多pass、其他对象和画质成本。以上建议没有帧率承诺。
+
+机器可读计数/哈希：prop-budget-audit.json；复现：audit-prop-budgets.py（Blender background）。

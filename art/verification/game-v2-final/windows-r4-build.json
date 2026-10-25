@@ -1,0 +1,19 @@
+{
+  "status": "completed",
+  "buildId": "build_7d953fb6ece4",
+  "result": "Succeeded",
+  "platform": "StandaloneWindows64",
+  "outputPath": "C:/Users/20665/Desktop/game/builds/candidates/jieguang-v2-r4/windows/JieGuang.exe",
+  "totalSizeBytes": 314269868,
+  "buildTimeMs": 53375,
+  "buildStartedAt": "2026-10-23T10:12:09.6311245Z",
+  "buildEndedAt": "2026-10-23T10:13:03.0063065Z",
+  "totalWarnings": 1,
+  "totalErrors": 0,
+  "errors": [],
+  "warnings": [
+    {
+      "message": "Pipeline: No RuntimePipelineConfig asset found (Project Settings > Pipeline > Runtime). Pipeline will be disabled in Player builds."
+    }
+  ]
+}

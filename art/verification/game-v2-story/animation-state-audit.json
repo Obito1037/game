@@ -1,0 +1,44 @@
+{
+  "controllers": [
+    {
+      "count": 12,
+      "missingStoryStates": [],
+      "controller": "abo.controller"
+    },
+    {
+      "count": 12,
+      "missingStoryStates": [],
+      "controller": "aying.controller"
+    },
+    {
+      "count": 12,
+      "missingStoryStates": [],
+      "controller": "dengbo.controller"
+    },
+    {
+      "count": 12,
+      "missingStoryStates": [],
+      "controller": "postman.controller"
+    },
+    {
+      "count": 12,
+      "missingStoryStates": [],
+      "controller": "xiaodenglong.controller"
+    }
+  ],
+  "scope": "Static state-name coverage only; not retargeting, clip validity or animation playback",
+  "states": [
+    "Idle_Sad",
+    "Kneel_Down",
+    "Kneel_StandUp",
+    "Locomotion",
+    "Point_Forward",
+    "Reach_Out",
+    "Sit_Down",
+    "Sit_Idle",
+    "Sit_Talking",
+    "Sit_Writing",
+    "Talk",
+    "Wave"
+  ]
+}

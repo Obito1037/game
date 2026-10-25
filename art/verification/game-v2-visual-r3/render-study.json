@@ -1,0 +1,7 @@
+{
+    "gpu": "Intel(R) Iris(R) Xe Graphics",
+    "method": "Native epilogue fixed camera. Each change is followed by baseline recovery. 3 s settling + 10 s sampling. Diagnostic screenshots and FPS do not establish sustained gameplay or collision coverage.",
+    "width": 1600,
+    "height": 900,
+    "samples": []
+}

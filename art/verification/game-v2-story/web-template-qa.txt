@@ -1,0 +1,29 @@
+独立 WebGL 模板和浏览器 QA
+
+模板：Assets/WebGLTemplates/JieGuang/index.html（PROJECT:JieGuang）。标题仅“借光岛”。
+资源：该目录的 favicon.svg；无外部图片、字体、网络统计或第三方脚本。
+Unity 标准 LOADER/DATA/FRAMEWORK/CODE/WORKER 和产品信息模板变量；DPR 固定 1。
+canvas 随视口变化，点击获取键盘焦点，方向键/空格/Tab 不滚动页面。
+首个真实点击/按键让浏览器给予音频播放权限；依赖 Unity 6000.3 本机 Audio.js 的标准 audioContext.resume 逻辑，不改浏览器默认 autoplay 策略，不创建第二个 AudioContext。
+window.jieGuangInstance 保存 createUnityInstance 返回值；window.jieGuangPage 记录加载状态和首次可信输入。
+旧 BorrowedLight 模板和所有旧目录未修改。
+
+浏览器 QA 执行（由 root 启动本地服务器以后运行）：
+$env:JG_QA_URL='http://127.0.0.1:8765/'
+$env:JG_QA_OUT='art/verification/game-v2-web-qa'
+node tools/verify-jg-web.cjs
+
+默认真实 Edge 窗口、1600x900、DPR1，新建临时独立 context，不复用旧存档。
+可选 JG_QA_WIDTH / JG_QA_HEIGHT / JG_QA_SAMPLE_MS / JG_BROWSER_CHANNEL / JG_PLAYWRIGHT。
+JG_HEADLESS=1 仅用于启动诊断；不可冒充普通前台性能样本。
+先保存标题，真实鼠标点击标题开始按钮进入地图，真实 Enter 进入序章，再 Space 推进对白。
+输出 web-report.json、browser-console.json 和 7 张阶段截图。重复运行自动建时间子目录。
+脚本不能直接读取 Unity 的章节状态，所以地图/序章截图需人工确认；状态只标为 startup-passed-navigation-needs-visual-review。
+
+性能记录：
+GetMetricsInfo 可用时每500ms记录 fps / movingAverageFps；同时独立记录 requestAnimationFrame 间隔 p50/p95。
+rAF 是浏览器回调频率，不是游戏引擎FPS；不能用它证明 WebGL ≥30FPS。
+engineThirtyFpsObservedInEveryInterval 只描述12秒固定视图样本，不代表普通笔记本或全流程最低帧率。
+音频 Audio context resumed 日志只证明启动恢复；不代表声音听感或全部声部通过。
+
+已做静态 JS 语法检查和本地 Playwright 模块路径存在检查。此子任务未启动浏览器、游戏或 Editor。

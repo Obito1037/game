@@ -1,0 +1,25 @@
+{
+  "status": "completed",
+  "buildId": "build_0c4ae14117f9",
+  "result": "Succeeded",
+  "platform": "WebGL",
+  "outputPath": "C:/Users/20665/Desktop/game/builds/candidates/jieguang-v2-r8/web-r9",
+  "totalSizeBytes": 6135,
+  "buildTimeMs": 103344,
+  "buildStartedAt": "2026-10-23T12:55:38.3162324Z",
+  "buildEndedAt": "2026-10-23T12:57:21.6609309Z",
+  "totalWarnings": 3,
+  "totalErrors": 0,
+  "errors": [],
+  "warnings": [
+    {
+      "message": "Main Object Name 'PC_RPAsset' does not match filename 'JieGuang_PC_RPAsset'"
+    },
+    {
+      "message": "Main Object Name 'PC_RPAsset' does not match filename 'JieGuang_PC_RPAsset'"
+    },
+    {
+      "message": "Pipeline: No RuntimePipelineConfig asset found (Project Settings > Pipeline > Runtime). Pipeline will be disabled in Player builds."
+    }
+  ]
+}

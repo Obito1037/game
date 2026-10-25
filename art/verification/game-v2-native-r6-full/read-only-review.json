@@ -1,0 +1,138 @@
+{
+  "reviewType": "只读自动流程报告与实际截图审核",
+  "buildId": "build_9447140e6e41",
+  "sourceReport": "C:/Users/20665/Desktop/game/art/verification/game-v2-native-r6-full/qa-report.json",
+  "sourceScript": "C:/Users/20665/Desktop/game/art/design/script/07_完整故事与生图提示词（最终版）.md",
+  "conclusion": "正常标题至尾声的自动流程通过；15 张必备图完整且已逐张查看。视觉验收仍有分光方片、邮差及灯伯坐姿穿模、挂灯接钩间隙。不能将流程通过表述为全部视觉要求通过。",
+  "automatedFlow": {
+    "status": "passed-automated-flow",
+    "startedUtc": "2026-10-23T04:18:08.9284025Z",
+    "completedUtc": "2026-10-23T04:24:03.2745583Z",
+    "titleSeen": true,
+    "enteredChapters": [1, 2, 3, 4, 5, 6, 7],
+    "completedChapters": [1, 2, 3, 4, 5, 6, 7],
+    "puzzleSolvedThroughInput": [2, 3, 5],
+    "unlockValues": [1, 2, 3, 4, 5, 6],
+    "epilogueVisited": ["aying", "postman", "abo", "dengbo"],
+    "epilogueClosingSeen": true,
+    "errors": [],
+    "saveRestored": true,
+    "saveBackup": {
+      "jieguang.chapter": {"existed": false, "value": 0},
+      "jieguang.unlocked": {"existed": false, "value": 0},
+      "jieguang.debugStart": {"existed": false, "value": 0}
+    },
+    "saveEvidenceLimit": "备份三键均不存在，qa-report 声明已恢复；本次审核没有读取或改写注册表。",
+    "method": "正常标题、地图与章节连续推进，GameInput 键间隔至少 0.5 秒；解谜经输入完成。交互点采用诊断传送，未变更解谜成功状态。"
+  },
+  "requiredCaptureAudit": {
+    "normalExpected": 7,
+    "beatExpected": 8,
+    "present": 15,
+    "visuallyReviewed": 15,
+    "allReportedSaved": true,
+    "allReportedResolution": [1600, 900],
+    "totalReportedScreenshots": 36,
+    "actualPngFileCheck": "已逐文件确认报告所列 36 张 PNG 存在，并直接读取 PNG 头部尺寸；全部为 1600×900，15 张必备图无缺失。",
+    "captures": [
+      {"name": "01-normal", "kind": "normal", "reviewed": true, "note": "序章人物、场景与对白可见；单帧不验证整段动作。"},
+      {"name": "02-normal", "kind": "normal", "reviewed": true, "note": "第一夜开场镜头正常；截图中的半句处于逐字显示过程，不据此判文本裁切。"},
+      {"name": "03-normal", "kind": "normal", "reviewed": true, "note": "新屋圆窗中可见阿婆和桌子，可与点灯后的相同位置比较。"},
+      {"name": "04-normal", "kind": "normal", "reviewed": true, "note": "第三夜开场环境、主角与旁白可见，未发现此帧新增明确功能故障。"},
+      {"name": "05-normal", "kind": "normal", "reviewed": true, "note": "正常跟随镜头与码头任务提示可读；灯伯远景不能作为坐姿通过证据。"},
+      {"name": "06-normal", "kind": "normal", "reviewed": true, "note": "终章近景人物可辨；大量金色圆形光点是独立效果，不等同于 SharedLight 方片问题。"},
+      {"name": "07-normal", "kind": "normal", "reviewed": true, "note": "尾声自由行走场景与指引可见；自动访问四位 NPC 已记录。"},
+      {"name": "01-sharing-light", "kind": "beat", "reviewed": true, "note": "分光动作时机已捕获，但连接手与灯笼的是明显浅绿色方片带。"},
+      {"name": "02-postman-bench-cane", "kind": "beat", "reviewed": true, "note": "邮差、长凳、拐杖均可见；座板穿入腰/大腿根部。杖在身侧，手未接杖，此静态帧不证明扶杖动作。"},
+      {"name": "03-window-lit-grandmother", "kind": "beat", "reviewed": true, "note": "点亮后新 A01 圆窗内阿婆与桌子可见，没有屋外错位或被整面墙完全遮挡；头顶部高光偏强。"},
+      {"name": "04-folded-letter-prop", "kind": "beat", "reviewed": true, "note": "递信对白已触发；主角左腕附近只有极小褐色翼状物，灯柱遮挡且人物较暗，无法可靠辨认折信外形。不能据此断言 B03 缺失。"},
+      {"name": "05-dengbo-seated", "kind": "beat", "reviewed": true, "note": "灯伯下半身陷入箱子，上身从箱顶穿出，未达到坐在箱面上的视觉要求。"},
+      {"name": "05-lantern-hung", "kind": "beat", "reviewed": true, "note": "主角手中已无灯，灯笼挂起状态成立；提环与旗杆铁钩之间有明显空隙。灯伯陷箱仍可见。"},
+      {"name": "06-reunion-hands", "kind": "beat", "reviewed": true, "note": "两人相对伸手可见，手间仍有空隙。剧本要求放在手旁边，不将未握住判为剧情故障；不能以该图声称触碰或握手已验证。"},
+      {"name": "06-first-flower", "kind": "beat", "reviewed": true, "note": "金树左上树枝附近可见发光花状物，与开花旁白同框；花占比小且大灯柱占据中央，仅能验证静态存在，不能验证绽放动画。"}
+    ],
+    "extraReviewed": [
+      {"name": "04-letter", "note": "信件全文、署名完整落在纸张内，与底部按钮分离；第一段最后句号孤立换行。"},
+      {"name": "05-puzzle-solved", "note": "底部空格、换灯罩、Enter、确认均有间距；任务状态可读，星空可见，薄光束仍存在，未出现 r4 巨亮锥。"}
+    ]
+  },
+  "visualFindings": [
+    {
+      "id": "V01",
+      "priority": "修复",
+      "certainty": "直接观察",
+      "evidence": ["01-sharing-light.png"],
+      "observation": "SharedLight 为大块浅绿色方片连接成带，区别于人物周围已改善的软圆萤光。",
+      "followup": "为该独立分光效果使用软圆 alpha 材质，再捕获同一剧情时机。"
+    },
+    {
+      "id": "V02",
+      "priority": "修复",
+      "certainty": "直接观察",
+      "evidence": ["02-postman-bench-cane.png"],
+      "observation": "长凳座板穿入邮差腰/大腿根部，人物陷入座面。",
+      "followup": "核对实际座面与坐姿骨盆锚点，复验侧面与正面；拐杖靠身侧符合剧本图像要求，但此帧没有验证扶杖过渡动作。"
+    },
+    {
+      "id": "V03",
+      "priority": "修复",
+      "certainty": "直接观察",
+      "evidence": ["05-dengbo-seated.png", "05-lantern-hung.png", "06-reunion-hands.png"],
+      "observation": "灯伯下半身被木箱吞没，上身从箱顶穿出；多个独立剧情时机重复出现。",
+      "followup": "核对灯伯坐姿动画与木箱座面定位，不能只修邮差后将所有坐姿判为通过。"
+    },
+    {
+      "id": "V04",
+      "priority": "修复",
+      "certainty": "直接观察",
+      "evidence": ["05-lantern-hung.png"],
+      "observation": "小灯笼提环悬在旗杆铁钩右侧，画面上有明显空隙，缺少可见悬挂连接。",
+      "followup": "对齐提环与实际钩尖，保留已触发的挂灯剧情状态。"
+    },
+    {
+      "id": "V05",
+      "priority": "小排版瑕疵",
+      "certainty": "直接观察",
+      "evidence": ["04-letter.png"],
+      "observation": "信件第一段的最后句号孤立在下一行；全文与按钮已不存在溢出或遮挡。",
+      "followup": "若调整中文禁则或正文宽度，保持全文仍可完整显示。"
+    },
+    {
+      "id": "E01",
+      "priority": "证据不足",
+      "certainty": "尚未验证",
+      "evidence": ["04-folded-letter-prop.png"],
+      "observation": "已有递信场景截图，但不能可靠辨认萤火虫形折信；不将图名当作道具外观验收。",
+      "followup": "需要相同正常剧情时机中无遮挡、可辨形状的镜头。"
+    }
+  ],
+  "verifiedImprovements": [
+    "新屋圆窗中的阿婆与桌子可见且点灯前后位置一致。",
+    "信件全文、署名与按钮完整且互不遮挡。",
+    "调灯底部换灯罩与确认的键帽/文字间距已分开。",
+    "人物 Fireflow 已呈软圆点；该结论不覆盖独立 SharedLight。",
+    "解谜截图内薄光束仍存在，没有 r4 的巨大过亮光锥。"
+  ],
+  "performanceContext": {
+    "unity": "6000.3.26f1",
+    "os": "Windows 11 (10.0.26200)",
+    "cpu": "13th Gen Intel(R) Core(TM) i5-13500H",
+    "gpu": "Intel(R) Iris(R) Xe Graphics",
+    "graphicsApi": "Direct3D11",
+    "quality": "PC",
+    "resolution": [1600, 900],
+    "targetFps": 60,
+    "vSync": 0,
+    "chapterMeanFps": [59.97994, 59.94962, 59.98441, 59.97215, 59.98470, 59.95258, 59.94017],
+    "chapterP95Ms": [16.68280, 16.68400, 16.67680, 16.69540, 16.67630, 16.68420, 16.70640],
+    "scope": "该轮自动剧情/静态镜头样本，排除了预热、截图与传送稳定阶段。不是全岛持续移动基准，也不是普通笔记本总体性能证明。"
+  },
+  "limits": [
+    "静态截图不验证完整步态、坐下过渡、扶杖过程、花绽放动画或音频实听。",
+    "自动流程使用诊断传送抵达交互点，不能声称手动走遍全岛或覆盖所有碰撞路线。",
+    "另一路 r6 walk 是局部 CharacterController 键盘路径诊断，不属于此轮通关截图，也不是手工全岛验收。",
+    "重逢剧本为手放在旁边，不能把握手作为未经要求的必备动作；图中并未发生触碰。",
+    "未审核 WebGL 运行结果，不将本机原生数据外推为浏览器或其他机器性能。",
+    "本次仅写此审核文件，没有调用 Editor、启动游戏、构建、修改 runtime 或存档。"
+  ]
+}

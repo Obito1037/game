@@ -1,0 +1,342 @@
+[
+  {
+    "type": "log",
+    "text": "[UnityMemory] Configuration Parameters - Can be set up in boot.config\n",
+    "at": 1792735110771
+  },
+  {
+    "type": "log",
+    "text": "    \"memorysetup-allocator-temp-initial-block-size-main=262144\"\n",
+    "at": 1792735110771
+  },
+  {
+    "type": "log",
+    "text": "    \"memorysetup-allocator-temp-initial-block-size-worker=262144\"\n",
+    "at": 1792735110771
+  },
+  {
+    "type": "log",
+    "text": "    \"memorysetup-temp-allocator-size-audio-worker=65536\"\n",
+    "at": 1792735110771
+  },
+  {
+    "type": "log",
+    "text": "    \"memorysetup-remapper-allocator-initial-capacity=32768\"\n",
+    "at": 1792735110771
+  },
+  {
+    "type": "log",
+    "text": "    \"memorysetup-temp-allocator-size-background-worker=32768\"\n",
+    "at": 1792735110771
+  },
+  {
+    "type": "log",
+    "text": "    \"memorysetup-bucket-allocator-granularity=16\"\n",
+    "at": 1792735110771
+  },
+  {
+    "type": "log",
+    "text": "    \"memorysetup-bucket-allocator-bucket-count=8\"\n",
+    "at": 1792735110771
+  },
+  {
+    "type": "log",
+    "text": "    \"memorysetup-bucket-allocator-block-size=4194304\"\n",
+    "at": 1792735110772
+  },
+  {
+    "type": "log",
+    "text": "    \"memorysetup-bucket-allocator-block-count=1\"\n",
+    "at": 1792735110772
+  },
+  {
+    "type": "log",
+    "text": "    \"memorysetup-main-allocator-block-size=16777216\"\n",
+    "at": 1792735110772
+  },
+  {
+    "type": "log",
+    "text": "    \"memorysetup-thread-allocator-block-size=16777216\"\n",
+    "at": 1792735110772
+  },
+  {
+    "type": "log",
+    "text": "    \"memorysetup-gfx-main-allocator-block-size=16777216\"\n",
+    "at": 1792735110772
+  },
+  {
+    "type": "log",
+    "text": "    \"memorysetup-gfx-thread-allocator-block-size=16777216\"\n",
+    "at": 1792735110772
+  },
+  {
+    "type": "log",
+    "text": "    \"memorysetup-cache-allocator-block-size=4194304\"\n",
+    "at": 1792735110772
+  },
+  {
+    "type": "log",
+    "text": "    \"memorysetup-typetree-allocator-block-size=2097152\"\n",
+    "at": 1792735110772
+  },
+  {
+    "type": "log",
+    "text": "    \"memorysetup-profiler-bucket-allocator-granularity=16\"\n",
+    "at": 1792735110772
+  },
+  {
+    "type": "log",
+    "text": "    \"memorysetup-profiler-bucket-allocator-bucket-count=8\"\n",
+    "at": 1792735110772
+  },
+  {
+    "type": "log",
+    "text": "    \"memorysetup-profiler-bucket-allocator-block-size=4194304\"\n",
+    "at": 1792735110772
+  },
+  {
+    "type": "log",
+    "text": "    \"memorysetup-profiler-bucket-allocator-block-count=1\"\n",
+    "at": 1792735110772
+  },
+  {
+    "type": "log",
+    "text": "    \"memorysetup-profiler-allocator-block-size=16777216\"\n",
+    "at": 1792735110772
+  },
+  {
+    "type": "log",
+    "text": "    \"memorysetup-profiler-editor-allocator-block-size=1048576\"\n",
+    "at": 1792735110772
+  },
+  {
+    "type": "log",
+    "text": "    \"memorysetup-temp-allocator-size-main=4194304\"\n",
+    "at": 1792735110772
+  },
+  {
+    "type": "log",
+    "text": "    \"memorysetup-job-temp-allocator-block-size=2097152\"\n",
+    "at": 1792735110772
+  },
+  {
+    "type": "log",
+    "text": "    \"memorysetup-job-temp-allocator-block-size-background=1048576\"\n",
+    "at": 1792735110772
+  },
+  {
+    "type": "log",
+    "text": "    \"memorysetup-job-temp-allocator-reduction-small-platforms=262144\"\n",
+    "at": 1792735110772
+  },
+  {
+    "type": "log",
+    "text": "Input System module state changed to: Initialized.\n",
+    "at": 1792735110841
+  },
+  {
+    "type": "log",
+    "text": "[Physics::Module] Initialized fallback backend.\n",
+    "at": 1792735110842
+  },
+  {
+    "type": "log",
+    "text": "[Physics::Module] Id: 0xdecafbad\n",
+    "at": 1792735110842
+  },
+  {
+    "type": "log",
+    "text": "Loading player data from data.unity3d\n",
+    "at": 1792735110843
+  },
+  {
+    "type": "log",
+    "text": "Initialize engine version: 6000.3.26f1 (de8167e7440c)\n",
+    "at": 1792735110849
+  },
+  {
+    "type": "log",
+    "text": "Creating WebGL 2.0 context.",
+    "at": 1792735110852
+  },
+  {
+    "type": "log",
+    "text": "Renderer: WebKit WebGL\n",
+    "at": 1792735110881
+  },
+  {
+    "type": "log",
+    "text": "Vendor:   WebKit\n",
+    "at": 1792735110881
+  },
+  {
+    "type": "log",
+    "text": "Version:  OpenGL ES 3.0 (WebGL 2.0 (OpenGL ES 3.0 Chromium))\n",
+    "at": 1792735110881
+  },
+  {
+    "type": "log",
+    "text": "GLES:     3\n",
+    "at": 1792735110881
+  },
+  {
+    "type": "log",
+    "text": " EXT_clip_control EXT_color_buffer_float EXT_color_buffer_half_float EXT_conservative_depth EXT_depth_clamp EXT_disjoint_timer_query_webgl2 EXT_float_blend EXT_polygon_offset_clamp EXT_render_snorm EXT_texture_compression_bptc EXT_texture_compression_rgtc EXT_texture_filter_anisotropic EXT_texture_mirror_clamp_to_edge EXT_texture_norm16 KHR_parallel_shader_compile NV_shader_noperspective_interpolation OES_draw_buffers_indexed OES_sample_variables OES_shader_multisample_interpolation OES_texture_float_linear OVR_multiview2 WEBGL_blend_func_extended WEBGL_clip_cull_distance WEBGL_compressed_texture_s3tc WEBGL_compressed_texture_s3tc_srgb WEBGL_debug_renderer_info WEBGL_debug_shaders WEBGL_lose_context WEBGL_multi_draw WEBGL_polygon_mode WEBGL_provoking_vertex WEBGL_stencil_texturing GL_EXT_clip_control GL_EXT_color_buffer_float GL_EXT_color_buffer_half_float GL_EXT_conservative_depth GL_EXT_depth_clamp GL_EXT_disjoint_timer_query_webgl2 GL_EXT_float_blend GL_EXT_polygon_offset_clamp GL_EXT_render_snorm GL_EXT_\n",
+    "at": 1792735110881
+  },
+  {
+    "type": "log",
+    "text": "texture_compression_bptc GL_EXT_texture_compression_rgtc GL_EXT_texture_filter_anisotropic GL_EXT_texture_mirror_clamp_to_edge GL_EXT_texture_norm16 GL_KHR_parallel_shader_compile GL_NV_shader_noperspective_interpolation GL_OES_draw_buffers_indexed GL_OES_sample_variables GL_OES_shader_multisample_interpolation GL_OES_texture_float_linear GL_OVR_multiview2 GL_WEBGL_blend_func_extended GL_WEBGL_clip_cull_distance GL_WEBGL_compressed_texture_s3tc GL_WEBGL_compressed_texture_s3tc_srgb GL_WEBGL_debug_renderer_info GL_WEBGL_debug_shaders GL_WEBGL_lose_context GL_WEBGL_multi_draw GL_WEBGL_polygon_mode GL_WEBGL_provoking_vertex GL_WEBGL_stencil_texturing\n",
+    "at": 1792735110881
+  },
+  {
+    "type": "warning",
+    "text": "WebGL: INVALID_ENUM: getInternalformatParameter: invalid internalformat",
+    "at": 1792735110885
+  },
+  {
+    "type": "warning",
+    "text": "WebGL: INVALID_ENUM: getInternalformatParameter: invalid internalformat",
+    "at": 1792735110885
+  },
+  {
+    "type": "warning",
+    "text": "WebGL: INVALID_ENUM: getInternalformatParameter: invalid internalformat",
+    "at": 1792735110885
+  },
+  {
+    "type": "warning",
+    "text": "WebGL: INVALID_ENUM: getInternalformatParameter: invalid internalformat",
+    "at": 1792735110885
+  },
+  {
+    "type": "warning",
+    "text": "WebGL: INVALID_ENUM: getInternalformatParameter: invalid internalformat",
+    "at": 1792735110885
+  },
+  {
+    "type": "warning",
+    "text": "WebGL: INVALID_ENUM: getInternalformatParameter: invalid internalformat",
+    "at": 1792735110885
+  },
+  {
+    "type": "log",
+    "text": "OPENGL LOG: Creating OpenGL ES 3.0 graphics device ; Context level  <OpenGL ES 3.0> ; Context handle 1\n",
+    "at": 1792735110890
+  },
+  {
+    "type": "log",
+    "text": "[Physics::Module] Selected backend.\n",
+    "at": 1792735111018
+  },
+  {
+    "type": "log",
+    "text": "[Physics::Module] Name: PhysX\n",
+    "at": 1792735111018
+  },
+  {
+    "type": "log",
+    "text": "[Physics::Module] Id: 0xf2b8ea05\n",
+    "at": 1792735111018
+  },
+  {
+    "type": "log",
+    "text": "[Physics::Module] SDK Version: 4.1.2\n",
+    "at": 1792735111018
+  },
+  {
+    "type": "log",
+    "text": "[Physics::Module] Integration Version: 1.0.0\n",
+    "at": 1792735111018
+  },
+  {
+    "type": "log",
+    "text": "[Physics::Module] Threading Mode: Single-Threaded\n",
+    "at": 1792735111018
+  },
+  {
+    "type": "log",
+    "text": "ERROR: Shader ",
+    "at": 1792735111111
+  },
+  {
+    "type": "log",
+    "text": "Hidden/CoreSRP/CoreCopy shader is not supported on this GPU (none of subshaders/fallbacks are suitable)\n",
+    "at": 1792735111111
+  },
+  {
+    "type": "log",
+    "text": "ERROR: Shader ",
+    "at": 1792735111112
+  },
+  {
+    "type": "log",
+    "text": "Hidden/Universal Render Pipeline/StencilDitherMaskSeed shader is not supported on this GPU (none of subshaders/fallbacks are suitable)\n",
+    "at": 1792735111112
+  },
+  {
+    "type": "log",
+    "text": "ERROR: Shader ",
+    "at": 1792735111127
+  },
+  {
+    "type": "log",
+    "text": "Hidden/Universal/HDRDebugView shader is not supported on this GPU (none of subshaders/fallbacks are suitable)\n",
+    "at": 1792735111127
+  },
+  {
+    "type": "log",
+    "text": "Input System initialize...\n",
+    "at": 1792735111188
+  },
+  {
+    "type": "log",
+    "text": "UnloadTime: 0.950000 ms\n",
+    "at": 1792735111910
+  },
+  {
+    "type": "log",
+    "text": "Audio context resumed after 1.022 seconds.",
+    "at": 1792735111994
+  },
+  {
+    "type": "log",
+    "text": "[UnityCache] 'http://127.0.0.1:8767/Build/a5596b833a35ce2625350581b1671ff0.data.unityweb' successfully downloaded and stored in the browser cache",
+    "at": 1792735113867
+  },
+  {
+    "type": "log",
+    "text": "Trying to get length of sound which is not loaded yet.",
+    "at": 1792735114371
+  },
+  {
+    "type": "log",
+    "text": "Trying to get length of sound which is not loaded yet.",
+    "at": 1792735114372
+  },
+  {
+    "type": "log",
+    "text": "Trying to get length of sound which is not loaded yet.",
+    "at": 1792735114372
+  },
+  {
+    "type": "log",
+    "text": "Trying to get length of sound which is not loaded yet.",
+    "at": 1792735114373
+  },
+  {
+    "type": "log",
+    "text": "Trying to get length of sound which is not loaded yet.",
+    "at": 1792735114373
+  },
+  {
+    "type": "log",
+    "text": "Trying to get length of sound which is not loaded yet.",
+    "at": 1792735114373
+  },
+  {
+    "type": "log",
+    "text": "Trying to get length of sound which is not loaded yet.",
+    "at": 1792735114373
+  }
+]

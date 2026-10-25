@@ -1,0 +1,25 @@
+{
+    "status": "built-not-yet-visually-reviewed",
+    "utc": "2026-10-22T16:58:38.6076889Z",
+    "scope": "Environment-only prefab and additive EnvTest save. No player build. No performance claim.",
+    "prefab": "Assets/JieGuang/Environment/Island.prefab",
+    "renderingMetricsNote": "meshRenderers and materials are object/asset inventory counts, not draw-call counts. Draw calls are not measured by this validator.",
+    "activeLod0Triangles": 0,
+    "trianglesIncludingBothLods": 0,
+    "skyAndSeaTriangles": 0,
+    "meshRenderers": 0,
+    "materials": 0,
+    "lodGroups": 0,
+    "groundColliders": 0,
+    "solidColliders": 0,
+    "windows": 0,
+    "spotlights": 0,
+    "checks": [],
+    "warnings": [
+        "Blender duplicate material suffix mapped: tree_b_Bark.001 -> tree_b_Bark",
+        "Blender duplicate material suffix mapped: tree_b_LeafVeins.001 -> tree_b_LeafVeins",
+        "Blender duplicate material suffix mapped: tree_b_WarmFruit.001 -> tree_b_WarmFruit"
+    ],
+    "imports": [],
+    "markerComparisons": []
+}

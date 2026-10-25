@@ -1,0 +1,63 @@
+{
+    "status": "failed",
+    "reason": "No state progression for 120 s: Prologue|||False|False|False|False|False",
+    "startedUtc": "2026-10-23T02:36:33.0128787Z",
+    "completedUtc": "2026-10-23T02:38:42.6838794Z",
+    "unityVersion": "6000.3.26f1",
+    "os": "Windows 11  (10.0.26200)",
+    "cpu": "13th Gen Intel(R) Core(TM) i5-13500H",
+    "gpu": "Intel(R) Iris(R) Xe Graphics",
+    "graphicsApi": "Direct3D11",
+    "quality": "PC",
+    "outputDirectory": "C:\\Users\\20665\\Desktop\\game\\art\\verification\\game-v2-native-r2",
+    "cpuThreads": 16,
+    "systemMemoryMb": 16005,
+    "graphicsMemoryMb": 8002,
+    "actualWidth": 1600,
+    "actualHeight": 900,
+    "targetFps": 60,
+    "vSync": 0,
+    "method": "Normal title/map/chapter flow. GameInput keys at >=0.5 s. Diagnostic teleports bypass traversal; no puzzle-state mutation. Automated static/cutscene samples do not establish sustained gameplay performance.",
+    "titleSeen": true,
+    "epilogueClosingSeen": false,
+    "saveRestored": true,
+    "enteredChapters": [],
+    "completedChapters": [],
+    "puzzleSolvedThroughInput": [],
+    "unlockValues": [],
+    "epilogueVisited": [],
+    "screenshots": [
+        {
+            "name": "00-title",
+            "path": "C:\\Users\\20665\\Desktop\\game\\art\\verification\\game-v2-native-r2\\00-title.png",
+            "chapter": "Title",
+            "objective": "",
+            "screenWidth": 1600,
+            "screenHeight": 900,
+            "pngWidth": 1600,
+            "pngHeight": 900,
+            "saved": true
+        },
+        {
+            "name": "failure-stalled",
+            "path": "C:\\Users\\20665\\Desktop\\game\\art\\verification\\game-v2-native-r2\\failure-stalled.png",
+            "chapter": "Prologue",
+            "objective": "",
+            "screenWidth": 1600,
+            "screenHeight": 900,
+            "pngWidth": 1600,
+            "pngHeight": 900,
+            "saved": true
+        }
+    ],
+    "errors": [
+        {
+            "type": "Exception",
+            "message": "PlayerPrefsException: Could not store preference value",
+            "stack": "UnityEngine.PlayerPrefs.SetInt (System.String key, System.Int32 value) (at <9eb5f512edf84b29b73cbc699a604447>:0)\nJieGuang.GameDirector+<PlayChapter>d__73.MoveNext () (at <007a7f502766433a9e74672938b10233>:0)\nUnityEngine.SetupCoroutine.InvokeMoveNext (System.Collections.IEnumerator enumerator, System.IntPtr returnValueAddress) (at <9eb5f512edf84b29b73cbc699a604447>:0)\n",
+            "seconds": 8.763484001159668
+        }
+    ],
+    "frames": [],
+    "limitations": "No manual walking, collision-route coverage, listening test, subjective visual approval, WebGL or ordinary-laptop benchmark. Frame statistics exclude warm-up, captures and teleport settling; samples include scripted normal camera shots."
+}

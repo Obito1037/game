@@ -1,0 +1,55 @@
+{
+  "utc": "2026-10-22T17:14:20.669426+00:00",
+  "status": "manually-reviewed-with-limitations",
+  "scope": "Four actual Unity EnvTest editor renders inspected by the assistant; no gameplay, final art-quality, or runtime-performance acceptance.",
+  "images": [
+    {
+      "file": "01-title.png",
+      "width": 1440,
+      "height": 900,
+      "sha256": "e46399fa4e2fdcc2d469f499e74837d2f0349b778ba0c9d2fec1d59fdcca75c1",
+      "manual_observation": "全岛、村子、岬角和蓝白细弧地球可见；远景整体偏暗，作为布局验收图。"
+    },
+    {
+      "file": "02-cape.png",
+      "width": 1440,
+      "height": 900,
+      "sha256": "881c63ab3010d5d8226b502d5e5661f0365f33557ab0b9326080800ea10fb745",
+      "manual_observation": "圆窗、三灯、长椅、浑天仪、月牙雕塑和栈桥可见；道具仍有低模占位感。"
+    },
+    {
+      "file": "03-pier.png",
+      "width": 1440,
+      "height": 900,
+      "sha256": "3e6ce53a19366f3fa49b23c16842b55d2928d7e9f5aa7589264e724b35edef9a",
+      "manual_observation": "栈桥、港灯、船可见；小船下缘被构图裁切，阿婆屋背面偏暗。"
+    },
+    {
+      "file": "04-village.png",
+      "width": 1440,
+      "height": 900,
+      "sha256": "777cf7d539b85b98402436a97f1e6cc34a6b4b2afd0a82f8d7bd8fd1484fb278",
+      "manual_observation": "三色屋顶、亮窗与光树林可见；树叶有硬边，地形/建筑美术仍可改善。"
+    }
+  ],
+  "artifact_sha256": {
+    "GameProject/Assets/JieGuang/Environment/Island.prefab": "d17154fd0cf79cf55e65225dbb517626216c80be2a3741dcc3bc53eabff1ae45",
+    "GameProject/Assets/JieGuang/Environment/EnvTest.unity": "d143b02085311099fdcc73c1229ce925fd206dc4120efab30fc2c1f6dd089652"
+  },
+  "structural_checks": 236,
+  "ground_samples": 13,
+  "protected_files_unchanged": 51,
+  "final_editor_observation": {
+    "active_scene": "Assets/JieGuang/Scenes/JieGuang_Main.unity",
+    "dirty": false,
+    "playing": false,
+    "compiling": false,
+    "console_errors": 0
+  },
+  "limitations": [
+    "No FPS or draw-call measurement.",
+    "No character capsule or full-story playthrough.",
+    "Placeholder buildings and props remain.",
+    "Capture is static, not gameplay rendering evidence."
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "checkedUtc": "2026-10-23T06:58:34.890Z",
+  "scope": "Static local links, referenced image paths, and inline JavaScript syntax only. No browser, rendering, game run, performance test, or additional image review.",
+  "readmeSha256": "867d2eb9d63d1f36ca2c8806dcc74f3530f89bb69460e96e0b16703821221205",
+  "htmlSha256": "d2ec07167a3e31aa26c547d5ce364ddea92edb48da9e5bef9eeaca0a5d376597",
+  "readmeLinks": 36,
+  "htmlLinks": 45,
+  "uniqueImagePaths": 32,
+  "inlineScriptSyntax": "valid",
+  "missing": [],
+  "status": "passed",
+  "historicalRenderReport": "review-render-check.json applies only to archived review-r8-web-r9.html, not the updated r10 page."
+}

@@ -1,0 +1,11 @@
+{
+  "candidate": "web-r9",
+  "decision": "rendering-restored",
+  "buildId": "build_0c4ae14117f9",
+  "controlledChange": "Rebuilt while Editor activeBuildTarget was already WebGL. The 57 native source/configuration files and their metadata were unchanged from r8.",
+  "preprocessingEvidence": "../game-v2-web-r8-render-diagnostic/r9-build-context.log includes Mobile_RPAsset and JieGuang_PC_RPAsset; r8 included PC only.",
+  "diagnostic": { "file": "gl-diagnostic.json", "drawCallsChecked": 24755, "failedPrograms": 0 },
+  "normalBrowserEvidence": "../game-v2-web-r9/read-only-review.json",
+  "limits": "The GL instrumentation was removed for the separate normal browser timing test. It diagnoses this startup scene, not every draw or chapter in the game. Web r9 retains two UI layout defects subsequently fixed in source for r10.",
+  "prevention": "Explicitly switch and verify the Editor active target before invoking a cross-platform build. Check actual scene screenshots and GPU warnings, not just the Unity build result."
+}

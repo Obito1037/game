@@ -1,0 +1,37 @@
+{
+  "status": "captured-and-visually-reviewed",
+  "utc": "2026-10-22T16:58:39.2425374Z",
+  "scope": "Four fixed offscreen editor renders of the saved additive EnvTest scene with its own night RenderSettings. Camera.scene restricts culling; previous active scene is restored and never saved. No runtime frame-time measurement or gameplay validation.",
+  "isolationCaveat": "Saved EnvTest was opened additively and made active for its RenderSettings; camera.scene restricted rendering to it. Other scenes were neither saved nor played. Complete exclusion of other-scene realtime-light influence was not independently measured.",
+  "images": [
+    {
+      "file": "01-title.png",
+      "camera": "Cam_Title",
+      "renderMethod": "RenderPipeline.StandardRequest",
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "file": "02-cape.png",
+      "camera": "Cam_Puzzle",
+      "renderMethod": "RenderPipeline.StandardRequest",
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "file": "03-pier.png",
+      "camera": "Cam_Pier",
+      "renderMethod": "RenderPipeline.StandardRequest",
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "file": "04-village.png",
+      "camera": "Cam_Village",
+      "renderMethod": "RenderPipeline.StandardRequest",
+      "width": 1440,
+      "height": 900
+    }
+  ],
+  "visualReview": "visual-review.json"
+}

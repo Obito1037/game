@@ -1,0 +1,47 @@
+{
+  "fromCandidate": "jieguang-v2-r6",
+  "toCandidate": "jieguang-v2-r7",
+  "comparedUtc": "2026-10-23T04:39:45.307Z",
+  "filesCompared": 57,
+  "changed": [
+    {
+      "path": "GameProject/Assets/JieGuang/Editor/IslandV2Builder.cs",
+      "category": "csharp",
+      "beforeSha256": "7c22f60f6a29773604ef738b65bccac67803815c060353fa1a2ab0652435173b",
+      "afterSha256": "8304ef26cafa0551e98d90b8d5f914d33b623129e30f4f701c0e0edd6cb08e7c"
+    },
+    {
+      "path": "GameProject/Assets/JieGuang/Scenes/JieGuang_Main.unity",
+      "category": "main-scene",
+      "beforeSha256": "f40017fa80036043c6f7ffb1747aac6a3d2bf36f78c501db309ca9d5f0614d2b",
+      "afterSha256": "7899bd5af4a4517f6815b4a9d75efd8886ae74659510c4db452112a256e47ed0"
+    },
+    {
+      "path": "GameProject/Assets/JieGuang/Scripts/Story/GameDirector.cs",
+      "category": "csharp",
+      "beforeSha256": "c34d8120f2232e0d413d6bb9793e196e25c15bf3d2538b1d29d2dbfbe6424aa4",
+      "afterSha256": "cda5d7be6cec64b4b7d8425d5aa2d55a08efe59b58b010f69e9ff8f47f35559a"
+    },
+    {
+      "path": "GameProject/Assets/JieGuang/Scripts/Story/StoryProps.cs",
+      "category": "csharp",
+      "beforeSha256": "bd5b15a4638006186f0ee0e9cb61ba3692a70597d3a37e2251c51c436bc6fce7",
+      "afterSha256": "bf59b614ca5c0126da50e5b60942a449835da9e1cf89219751cb74539a75a666"
+    },
+    {
+      "path": "GameProject/Assets/JieGuang/World/IslandV2.prefab",
+      "category": "island-prefab",
+      "beforeSha256": "5ebd53dc7c67b5fef7fa2fc8c64fedf94d867a1bbd63641defe033cce8721606",
+      "afterSha256": "dd83a3ef4a3d4d6c66ee87e66851a09c04a9f68b6e6a4fc9560c444a601aaa4f"
+    }
+  ],
+  "metaChanged": [],
+  "addedSources": [],
+  "removedSources": [],
+  "semanticReview": "r7 intentionally changes story visuals and rebuilt prefab/scene; unlike r6-vs-r5, this is not only a diagnostic route adjustment.",
+  "limits": [
+    "Hash differences identify changed selected files; no complete serialized-asset semantic diff is implied.",
+    "This selected scope omits other art dependencies and material assets.",
+    "Source changes do not prove the corresponding visual fix passed; r7 native walkthrough and full chapter QA remain required."
+  ]
+}

@@ -1,0 +1,8 @@
+Terrain data is edited in place; no CopySerialized.
+asset=Assets/JieGuang/World/Terrain/MeshV2/IslandTerrain.asset
+alphaTextures=1; maxSampleDifference=0.001961
+layer0: intended=11056.645; retained=11056.389
+layer1: intended=3214.229; retained=3214.506
+layer2: intended=679.662; retained=679.667
+layer3: intended=50584.813; retained=50585.282
+alpha=SplatAlpha 0; persistent=True; path=Assets/JieGuang/World/Terrain/MeshV2/IslandTerrain.asset

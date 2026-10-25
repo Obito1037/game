@@ -1,0 +1,10 @@
+{
+  "processId": 28460,
+  "method": "Windows GPU Engine utilization counter, three one-second samples; only 3D engines exceeding 8% printed. No concurrent build or Editor play.",
+  "observations": [
+    {"gameGpuPercent":67.7,"gameViewerServerGpuPercent":8.9},
+    {"gameGpuPercent":68.9,"gameViewerServerGpuPercent":12.8},
+    {"gameGpuPercent":67.9,"gameViewerServerGpuPercent":8.7}
+  ],
+  "limits": "No high Chrome 3D sample observed in this short window; background programs still exist. Counters are per-engine and must not be summed as total GPU utilization."
+}

@@ -1,0 +1,17 @@
+{
+  "candidate": "web-r8",
+  "decision": "rejected-rendering-failure",
+  "evidence": ["../game-v2-web-r8/01-title.png", "../game-v2-web-r8/04-prologue-opening.png", "gl-diagnostic.json", "shader-stripping-r8.json"],
+  "finding": "Four failing WebGL programs require a sampler2DShadow for _AdditionalLightsShadowmapTexture but bind SRGB8_ALPHA8 (35907), 16x16, TEXTURE_COMPARE_MODE=NONE. Main-light shadow is valid DEPTH_COMPONENT16 (33189), 1024x1024, compare mode 34894. These programs also contain Forward+ features unavailable in the Mobile runtime profile.",
+  "editorReflectionAfterBuild": {
+    "activeTarget": "WebGL",
+    "quality": 1,
+    "currentWebPipelineEnumeration": ["Assets/Settings/Mobile_RPAsset.asset", "Assets/JieGuang/Settings/JieGuang_PC_RPAsset.asset"],
+    "cachedShaderSupportedFeaturesCount": 1,
+    "cachedShaderSupportedFeatures": "MainLight, MainLightShadows, AdditionalLightShadows, SoftShadows, MixedLighting, TerrainHoles, ScreenSpaceOcclusion, LightLayers, ReflectionProbeBlending, ReflectionProbeBoxProjection, ForwardPlus, MainLightShadowsCascade, AdditionalLightsKeepOffVariants, LightCookies, LODCrossFade, AutoSHMode, DataDrivenLensFlare, ScreenSpaceLensFlare, ReflectionProbeAtlas"
+  },
+  "hypothesis": "The build request switched from Windows to WebGL without explicitly switching the active Editor target before the build. URP preprocessing read the previous active target and retained PC-only variants. The cached feature list after the build contains PC only, while a fresh Web target enumeration contains both Mobile and PC.",
+  "nextControlledCheck": "Rebuild from already-active WebGL into a new output directory with runtime code, materials, and render configuration unchanged.",
+  "performance": "Do not use r8 browser ~60 FPS samples as performance acceptance: most scene geometry did not render.",
+  "audio": "70.57 seconds of non-silent audio-graph samples were observed; this is not a listening test. UI navigation and pause worked, but the build is not approved for play."
+}

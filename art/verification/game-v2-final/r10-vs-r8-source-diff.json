@@ -1,0 +1,11 @@
+{
+  "before": "r8-source-manifest.json",
+  "after": "r10-source-manifest.json",
+  "changed": [
+    {
+      "path": "GameProject/Assets/JieGuang/Scripts/UI/GameUI.cs",
+      "before": "1454f702df6983f9577cf2419ed86f84c363d9a40ebd563fe3ecc25af4ab5b37",
+      "after": "658fb4a2eefa234a1c74cf971dedcb195cf42711545013636671e3b569f854b6"
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "buildId": "build_a68184bd1ea9",
+  "reviewType": "r8 原生截图定向只读复验",
+  "conclusion": "自动全章流程及本轮定向视觉复验通过。r7 的主角站箱回归已消失；A16 大灯已对齐实际铁钩。此结论不代表全部美术、动画、步行路线或 WebGL 均已验收。",
+  "flow": {
+    "status": "passed-automated-flow",
+    "startedUtc": "2026-10-23T05:01:39.8518984Z",
+    "completedUtc": "2026-10-23T05:07:33.646551Z",
+    "titleSeen": true,
+    "enteredChapters": [1, 2, 3, 4, 5, 6, 7],
+    "completedChapters": [1, 2, 3, 4, 5, 6, 7],
+    "puzzleSolvedThroughInput": [2, 3, 5],
+    "unlockValues": [1, 2, 3, 4, 5, 6],
+    "epilogueVisited": ["aying", "postman", "abo", "dengbo"],
+    "epilogueClosingSeen": true,
+    "errors": [],
+    "saveRestored": true,
+    "backupAllThreeKeysAbsent": true,
+    "process63660ExitedAtReview": true
+  },
+  "captureCheck": {
+    "total": 36,
+    "fileExistenceAndPngHeaderSizeChecked": true,
+    "resolution": [1600, 900],
+    "requiredNormal": 7,
+    "requiredBeat": 8,
+    "missingRequired": [],
+    "visuallyReviewedThisPass": [
+      "01-sharing-light", "02-postman-bench-cane", "03-window-lit-grandmother",
+      "04-letter", "05-dengbo-seated", "05-lantern-hung", "05-puzzle-solved",
+      "06-normal", "06-reunion-hands"
+    ]
+  },
+  "targetedChecks": [
+    {
+      "target": "终章主角落点",
+      "result": "本镜头通过",
+      "evidence": ["06-normal.png", "06-reunion-hands.png"],
+      "observation": "主角已离开灯伯木箱。重逢时双方双脚均在栈桥板面，两人伸手高度恢复接近。没有 r7 明显的上下错层；仍是伸手相对，未发生握手。"
+    },
+    {
+      "target": "A16 大灯挂点",
+      "result": "本镜头通过",
+      "evidence": ["05-dengbo-seated.png"],
+      "observation": "大灯处于实际钩下，顶部环与钩的可见轮廓相接，未再漂在旗杆另一侧。"
+    },
+    {
+      "target": "小灯挂点及灯伯坐姿",
+      "result": "保持修复",
+      "evidence": ["05-lantern-hung.png", "06-normal.png", "06-reunion-hands.png"],
+      "observation": "小灯仍连接到铁钩；箱顶位于灯伯臀部下方，未复现 r6 上身从箱顶穿出的半身吞没问题。"
+    },
+    {
+      "target": "分光与邮差坐姿/拐杖",
+      "result": "保持修复",
+      "evidence": ["01-sharing-light.png", "02-postman-bench-cane.png"],
+      "observation": "分光保持软圆光点；邮差大腿在座板上方，拐杖在座板前方，未见穿板。不把静态靠杖称为扶杖动画。"
+    },
+    {
+      "target": "窗内人物与 UI",
+      "result": "保持修复",
+      "evidence": ["03-window-lit-grandmother.png", "04-letter.png", "05-puzzle-solved.png"],
+      "observation": "圆窗内阿婆可见；信件全文、署名、按钮分离；换灯罩/确认键帽不重叠。原信件孤立句号仍在，属于已记录的小排版瑕疵。"
+    }
+  ],
+  "newConfirmedRegressionsInReviewedImages": [],
+  "performance": {
+    "cpu": "13th Gen Intel(R) Core(TM) i5-13500H",
+    "gpu": "Intel(R) Iris(R) Xe Graphics",
+    "api": "Direct3D11",
+    "quality": "PC",
+    "resolution": [1600, 900],
+    "targetFps": 60,
+    "vSync": 0,
+    "chapterMeanFpsRange": [59.93925, 59.97499],
+    "chapterP95MsRange": [16.70180, 16.72490],
+    "scope": "该轮自动剧情/静态镜头样本，排除预热、截图及传送稳定阶段；不是全岛持续移动或其他机器/WebGL 的性能证明。"
+  },
+  "limits": [
+    "36 张文件均已验证存在与实际尺寸；此次只对上列 9 张进行视觉复验，不将其余文件存在当作视觉通过。",
+    "自动流程以诊断传送抵达交互点，不代表手工全岛走测或全部碰撞覆盖。",
+    "静态图不验证完整步态、动作过渡、扶杖、花绽放或音频实听。",
+    "r6 中折信外形可辨识度等未复验问题保持原有证据边界。",
+    "本轮仅写此审核 JSON，未操作 Editor、游戏进程、构建、runtime 或存档。"
+  ]
+}

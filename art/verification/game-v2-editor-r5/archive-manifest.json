@@ -1,0 +1,47 @@
+{
+  "version": "r5 Editor intermediate studies; 12/13 before T04 shader correction, 14 before final CoastalCliff material change",
+  "captureEnvironment": "Unity Editor, supplied by root; not WindowsPlayer or WebGL",
+  "archivedUtc": "2026-10-23T04:00:44.164Z",
+  "status": "local visual improvements only; final native/build/performance validation pending",
+  "limits": [
+    "Two fixed still images only; no motion, collision, runtime stability, FPS or build result established.",
+    "Horizontal T04 texture banding remains visible.",
+    "Images are retained unchanged. 12/13 precede the T04 shader correction; 14 precedes the final CoastalCliff change to GroundSurface, so none establish the final frozen native appearance."
+  ],
+  "files": [
+    {
+      "filename": "12-r5-editor-coast.png",
+      "source": "GameProject/Assets/Temp/jg-v2takeover/12-r5-editor-coast.png",
+      "archive": "art/verification/game-v2-editor-r5/12-r5-editor-coast.png",
+      "sourceModifiedUtc": "2026-10-23T03:52:32.104Z",
+      "sizeBytes": 1129319,
+      "width": 1600,
+      "height": 900,
+      "sha256": "e33afe0ce065441ce63f81dabfc0a4c833ad4bfc29ea37aae311f52632e68fb0",
+      "copyMatches": true
+    },
+    {
+      "filename": "13-r5-editor-house.png",
+      "source": "GameProject/Assets/Temp/jg-v2takeover/13-r5-editor-house.png",
+      "archive": "art/verification/game-v2-editor-r5/13-r5-editor-house.png",
+      "sourceModifiedUtc": "2026-10-23T03:53:23.053Z",
+      "sizeBytes": 2059559,
+      "width": 1600,
+      "height": 900,
+      "sha256": "b073b2faa35197228464023c06009582b7b128f38f3343284afbd1d74be0be89",
+      "copyMatches": true
+    },
+    {
+      "filename": "14-r5-editor-coast-soft-rock.png",
+      "stage": "After first soft-rock shader change, before final CoastalCliff uses GroundSurface",
+      "source": "GameProject/Assets/Temp/jg-v2takeover/14-r5-editor-coast-soft-rock.png",
+      "archive": "art/verification/game-v2-editor-r5/14-r5-editor-coast-soft-rock.png",
+      "sourceModifiedUtc": "2026-10-23T04:01:16.607Z",
+      "sizeBytes": 1080406,
+      "width": 1600,
+      "height": 900,
+      "sha256": "7a6effa0fa4f098a3a1fcaffd9c90ebaad7bc3975a729b54a33cb818f200a059",
+      "copyMatches": true
+    }
+  ]
+}

@@ -1,0 +1,446 @@
+{
+ "raise_arms": {
+  "max_stretch": 6.805,
+  "p999_stretch": 1.856,
+  "min_compress": 0.106,
+  "regions": {
+   "head": {
+    "stretched_gt1.6": 65,
+    "compressed_lt0.4": 86,
+    "verts": 10234
+   },
+   "torso": {
+    "stretched_gt1.6": 16,
+    "compressed_lt0.4": 0,
+    "verts": 2732
+   },
+   "arm": {
+    "stretched_gt1.6": 77,
+    "compressed_lt0.4": 10,
+    "verts": 8061
+   },
+   "leg": {
+    "stretched_gt1.6": 0,
+    "compressed_lt0.4": 0,
+    "verts": 4794
+   }
+  },
+  "worst_verts": [
+   [
+    23052,
+    [
+     0.128,
+     0.027,
+     1.14
+    ],
+    6.8
+   ],
+   [
+    23051,
+    [
+     0.126,
+     0.027,
+     1.141
+    ],
+    6.8
+   ],
+   [
+    10669,
+    [
+     -0.126,
+     0.038,
+     1.142
+    ],
+    5.95
+   ],
+   [
+    10668,
+    [
+     -0.128,
+     0.038,
+     1.14
+    ],
+    5.95
+   ],
+   [
+    23055,
+    [
+     0.128,
+     0.038,
+     1.14
+    ],
+    5.84
+   ]
+  ]
+ },
+ "arms_down": {
+  "max_stretch": 8.202,
+  "p999_stretch": 2.161,
+  "min_compress": 0.461,
+  "regions": {
+   "head": {
+    "stretched_gt1.6": 241,
+    "compressed_lt0.4": 0,
+    "verts": 10234
+   },
+   "torso": {
+    "stretched_gt1.6": 20,
+    "compressed_lt0.4": 0,
+    "verts": 2732
+   },
+   "arm": {
+    "stretched_gt1.6": 80,
+    "compressed_lt0.4": 0,
+    "verts": 8061
+   },
+   "leg": {
+    "stretched_gt1.6": 0,
+    "compressed_lt0.4": 0,
+    "verts": 4794
+   }
+  },
+  "worst_verts": [
+   [
+    23051,
+    [
+     0.126,
+     0.027,
+     1.141
+    ],
+    8.2
+   ],
+   [
+    23052,
+    [
+     0.128,
+     0.027,
+     1.14
+    ],
+    8.2
+   ],
+   [
+    10668,
+    [
+     -0.128,
+     0.038,
+     1.14
+    ],
+    7.34
+   ],
+   [
+    10669,
+    [
+     -0.126,
+     0.038,
+     1.142
+    ],
+    7.34
+   ],
+   [
+    23054,
+    [
+     0.126,
+     0.038,
+     1.142
+    ],
+    7.22
+   ]
+  ]
+ },
+ "bend_legs": {
+  "max_stretch": 3.133,
+  "p999_stretch": 2.33,
+  "min_compress": 0.161,
+  "regions": {
+   "head": {
+    "stretched_gt1.6": 16,
+    "compressed_lt0.4": 8,
+    "verts": 10234
+   },
+   "torso": {
+    "stretched_gt1.6": 126,
+    "compressed_lt0.4": 26,
+    "verts": 2732
+   },
+   "arm": {
+    "stretched_gt1.6": 145,
+    "compressed_lt0.4": 45,
+    "verts": 8061
+   },
+   "leg": {
+    "stretched_gt1.6": 8,
+    "compressed_lt0.4": 42,
+    "verts": 4794
+   }
+  },
+  "worst_verts": [
+   [
+    8054,
+    [
+     -0.125,
+     0.009,
+     0.717
+    ],
+    3.13
+   ],
+   [
+    9699,
+    [
+     -0.124,
+     0.007,
+     0.732
+    ],
+    3.13
+   ],
+   [
+    21079,
+    [
+     0.125,
+     0.009,
+     0.717
+    ],
+    3.13
+   ],
+   [
+    21265,
+    [
+     0.124,
+     0.007,
+     0.732
+    ],
+    3.13
+   ],
+   [
+    8071,
+    [
+     -0.113,
+     0.062,
+     0.715
+    ],
+    3.11
+   ]
+  ]
+ },
+ "turn_torso": {
+  "max_stretch": 8.596,
+  "p999_stretch": 2.18,
+  "min_compress": 0.141,
+  "regions": {
+   "head": {
+    "stretched_gt1.6": 167,
+    "compressed_lt0.4": 0,
+    "verts": 10234
+   },
+   "torso": {
+    "stretched_gt1.6": 48,
+    "compressed_lt0.4": 0,
+    "verts": 2732
+   },
+   "arm": {
+    "stretched_gt1.6": 104,
+    "compressed_lt0.4": 2,
+    "verts": 8061
+   },
+   "leg": {
+    "stretched_gt1.6": 0,
+    "compressed_lt0.4": 0,
+    "verts": 4794
+   }
+  },
+  "worst_verts": [
+   [
+    23051,
+    [
+     0.126,
+     0.027,
+     1.141
+    ],
+    8.6
+   ],
+   [
+    23052,
+    [
+     0.128,
+     0.027,
+     1.14
+    ],
+    8.6
+   ],
+   [
+    23054,
+    [
+     0.126,
+     0.038,
+     1.142
+    ],
+    7.81
+   ],
+   [
+    23055,
+    [
+     0.128,
+     0.038,
+     1.14
+    ],
+    7.81
+   ],
+   [
+    23089,
+    [
+     0.126,
+     0.05,
+     1.14
+    ],
+    7.65
+   ]
+  ]
+ },
+ "walk_stride": {
+  "max_stretch": 8.205,
+  "p999_stretch": 2.142,
+  "min_compress": 0.375,
+  "regions": {
+   "head": {
+    "stretched_gt1.6": 233,
+    "compressed_lt0.4": 0,
+    "verts": 10234
+   },
+   "torso": {
+    "stretched_gt1.6": 40,
+    "compressed_lt0.4": 0,
+    "verts": 2732
+   },
+   "arm": {
+    "stretched_gt1.6": 101,
+    "compressed_lt0.4": 2,
+    "verts": 8061
+   },
+   "leg": {
+    "stretched_gt1.6": 0,
+    "compressed_lt0.4": 0,
+    "verts": 4794
+   }
+  },
+  "worst_verts": [
+   [
+    23051,
+    [
+     0.126,
+     0.027,
+     1.141
+    ],
+    8.2
+   ],
+   [
+    23052,
+    [
+     0.128,
+     0.027,
+     1.14
+    ],
+    8.2
+   ],
+   [
+    10668,
+    [
+     -0.128,
+     0.038,
+     1.14
+    ],
+    7.34
+   ],
+   [
+    10669,
+    [
+     -0.126,
+     0.038,
+     1.142
+    ],
+    7.34
+   ],
+   [
+    23054,
+    [
+     0.126,
+     0.038,
+     1.142
+    ],
+    7.11
+   ]
+  ]
+ },
+ "sit": {
+  "max_stretch": 8.202,
+  "p999_stretch": 2.991,
+  "min_compress": 0.188,
+  "regions": {
+   "head": {
+    "stretched_gt1.6": 251,
+    "compressed_lt0.4": 0,
+    "verts": 10234
+   },
+   "torso": {
+    "stretched_gt1.6": 122,
+    "compressed_lt0.4": 28,
+    "verts": 2732
+   },
+   "arm": {
+    "stretched_gt1.6": 244,
+    "compressed_lt0.4": 46,
+    "verts": 8061
+   },
+   "leg": {
+    "stretched_gt1.6": 12,
+    "compressed_lt0.4": 11,
+    "verts": 4794
+   }
+  },
+  "worst_verts": [
+   [
+    23052,
+    [
+     0.128,
+     0.027,
+     1.14
+    ],
+    8.2
+   ],
+   [
+    23051,
+    [
+     0.126,
+     0.027,
+     1.141
+    ],
+    8.2
+   ],
+   [
+    10668,
+    [
+     -0.128,
+     0.038,
+     1.14
+    ],
+    7.34
+   ],
+   [
+    10669,
+    [
+     -0.126,
+     0.038,
+     1.142
+    ],
+    7.34
+   ],
+   [
+    23055,
+    [
+     0.128,
+     0.038,
+     1.14
+    ],
+    7.22
+   ]
+  ]
+ }
+}

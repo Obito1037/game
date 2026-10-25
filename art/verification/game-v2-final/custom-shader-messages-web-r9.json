@@ -1,0 +1,28 @@
+{
+  "method": "ShaderUtil.GetShaderMessages after the successful WebGL r9 build; this does not replace browser rendering checks.",
+  "output": null,
+  "diagnostics": [],
+  "success": true,
+  "result": [
+    {
+      "path": "Assets/JieGuang/Shaders/GroundSurface.shader",
+      "messages": []
+    },
+    {
+      "path": "Assets/JieGuang/Shaders/MeadowCards.shader",
+      "messages": []
+    },
+    {
+      "path": "Assets/JieGuang/Shaders/NightSea.shader",
+      "messages": []
+    },
+    {
+      "path": "Assets/JieGuang/Shaders/NightSkybox.shader",
+      "messages": []
+    },
+    {
+      "path": "Assets/JieGuang/Shaders/SoftBeam.shader",
+      "messages": []
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "status": "completed",
+  "buildId": "build_9447140e6e41",
+  "result": "Succeeded",
+  "platform": "StandaloneWindows64",
+  "outputPath": "C:/Users/20665/Desktop/game/builds/candidates/jieguang-v2-r6/windows/JieGuang.exe",
+  "totalSizeBytes": 314433652,
+  "buildTimeMs": 17069,
+  "buildStartedAt": "2026-10-23T11:14:45.5966233Z",
+  "buildEndedAt": "2026-10-23T11:15:02.6658784Z",
+  "totalWarnings": 3,
+  "totalErrors": 0,
+  "errors": [],
+  "warnings": [
+    {
+      "message": "Main Object Name 'PC_RPAsset' does not match filename 'JieGuang_PC_RPAsset'"
+    },
+    {
+      "message": "Main Object Name 'PC_RPAsset' does not match filename 'JieGuang_PC_RPAsset'"
+    },
+    {
+      "message": "Pipeline: No RuntimePipelineConfig asset found (Project Settings > Pipeline > Runtime). Pipeline will be disabled in Player builds."
+    }
+  ]
+}

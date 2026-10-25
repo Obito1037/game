@@ -1,0 +1,63 @@
+{
+  "buildId": "build_a64043b98a79",
+  "reviewType": "r7 原生截图只读复验；详细历史见 r6 read-only-review.json",
+  "conclusion": "自动全章流程通过。r6 四项定向视觉修复均在 r7 截图中得到改善确认，拐杖未再穿座板；但终章主角落点新增踩上灯伯木箱的问题，重逢镜头未通过。",
+  "flow": {
+    "status": "passed-automated-flow",
+    "startedUtc": "2026-10-23T04:41:57.4230053Z",
+    "completedUtc": "2026-10-23T04:47:51.1225185Z",
+    "enteredChapters": [1, 2, 3, 4, 5, 6, 7],
+    "completedChapters": [1, 2, 3, 4, 5, 6, 7],
+    "puzzleSolvedThroughInput": [2, 3, 5],
+    "unlockValues": [1, 2, 3, 4, 5, 6],
+    "epilogueVisited": ["aying", "postman", "abo", "dengbo"],
+    "epilogueClosingSeen": true,
+    "errors": [],
+    "saveRestored": true,
+    "backupAllThreeKeysAbsent": true,
+    "process71156ExitedAtReview": true
+  },
+  "captureCheck": {
+    "total": 36,
+    "fileExistenceAndPngHeaderSizeChecked": true,
+    "resolution": [1600, 900],
+    "requiredNormal": 7,
+    "requiredBeat": 8,
+    "missingRequired": [],
+    "visuallyReviewedThisPass": [
+      "01-sharing-light", "02-postman-bench-cane", "03-window-lit-grandmother",
+      "04-letter", "05-dengbo-seated", "05-lantern-hung", "06-reunion-hands"
+    ]
+  },
+  "targetedFixes": [
+    {"id": "V01", "result": "本镜头通过", "image": "01-sharing-light.png", "observation": "连接手与灯笼的分光已为软圆绿色光点，原方片带消失。"},
+    {"id": "V02", "result": "本镜头通过", "image": "02-postman-bench-cane.png", "observation": "邮差大腿落在座板上方，腰部不再被座板切入；拐杖已在座板前方，未见穿板。没有验证握杖或扶杖动画。"},
+    {"id": "V03", "result": "本镜头通过", "image": "06-reunion-hands.png", "observation": "灯伯侧面可见坐姿弯腿，箱面在臀部下方，原半身吞入箱子的现象消失。05-dengbo-seated 前景道具遮挡腿部，因此采用此侧面作补充证据。"},
+    {"id": "V04", "result": "本镜头通过", "image": "05-lantern-hung.png", "observation": "小灯笼提环已与旗杆钩的可见轮廓相接，原来明显的横向悬空间隙消失。"}
+  ],
+  "newRegression": {
+    "id": "R7-FINALE-BOX",
+    "priority": "需要修复并重新截取终章",
+    "image": "06-reunion-hands.png",
+    "observation": "主角双脚位于灯伯木箱顶面，身体显著高于站在栈桥上的阿萤，两人伸手高度错开。r6 同镜头主角站在板面。",
+    "sourceDiagnosis": "GameDirector.Finale 第 746 行以新 Anchor_FlagpoleHook 加 PierOff(.4,0,-1.3) 计算主角落点；PlaceAt 经 GroundY 向下射线采用第一个碰撞面，落点现在与 KeeperBox 重叠而落在箱顶。QA 没有终章专用传送分支，因此此问题来自正常剧情摆位。",
+    "sourceDiagnosisCertainty": "代码与画面共同支持；具体坐标仍应由主代理在 Editor 实测。",
+    "suggestion": "只调整 Finale 的主角起点以避开箱体，并复核两人同一板面与手部高度；无需更改全局 GroundY。"
+  },
+  "followupSourceChange": "审核完成后经主代理明确授权，仅将 Finale 起点 PierOff 的 side 从 .4 改为 -.6，供 r8 构建复验；此源码改动不改变 r7 审核拒绝终章的结论，未在本报告中声称修复已验证。",
+  "otherChecks": [
+    "圆窗阿婆保持可见。",
+    "信件全文、署名与按钮仍完整分离；r6 已记录的孤立句号仍在。",
+    "折信外形可辨识度等旧限制保留在 r6 报告，本轮未宣称全部视觉或全部动画通过。"
+  ],
+  "performance": {
+    "chapterMeanFpsRange": [59.95073, 59.98203],
+    "chapterP95MsRange": [16.67890, 16.68610],
+    "scope": "同一原生 PC 1600×900 自动剧情/静态镜头样本，排除预热、截图与传送稳定阶段；不证明全岛手动移动或其他机器性能。完整机器信息见 qa-report.json。"
+  },
+  "limits": [
+    "自动流程用诊断传送抵达交互点，不是手工全岛走测。",
+    "静态图片不验证完整步态、动作过渡、花绽放或音频实听。",
+    "审核阶段只读文件与截图并新写审核 JSON；其后单行源码修复单独记录于 followupSourceChange。未操作 Editor、游戏进程、构建或存档。"
+  ]
+}

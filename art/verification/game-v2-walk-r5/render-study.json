@@ -1,0 +1,8 @@
+{
+    "gpu": "Intel(R) Iris(R) Xe Graphics",
+    "method": "Diagnostic start placement on pier, then ordinary GameInput.Hold -> PlayerController -> CharacterController movement over A12/A13 seam and back. No position writes after start. Limited route only; not manual input or whole-island collision coverage.",
+    "walkResult": "out=False; back=True; minimumRootY=2.490",
+    "width": 1600,
+    "height": 900,
+    "samples": []
+}

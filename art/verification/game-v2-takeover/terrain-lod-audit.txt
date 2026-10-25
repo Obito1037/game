@@ -1,0 +1,14 @@
+
+PREFAB GameProject/Assets/JieGuang/Environment/Island.prefab
+RENDERER 6276802296482299082 Island/Terrain/IslandTerrain/LOD0/StonePaths enabled=1
+RENDERER 5008786698503304324 Island/Terrain/IslandTerrain/LOD0/IslandGround enabled=1
+RENDERER 889005099365905081 Island/Terrain/IslandTerrain/LOD0/CoastalCliff enabled=1
+TOTAL LOD GROUPS=35; GROUPS REFERENCING TERRAIN RENDERERS=0
+
+PREFAB GameProject/Assets/JieGuang/World/IslandV2.prefab
+RENDERER 3341484179466080835 IslandV2/Terrain/IslandTerrain/LOD0/StonePaths enabled=0
+RENDERER 3329581231305571023 IslandV2/Terrain/IslandTerrain/LOD0/IslandGround enabled=0
+RENDERER 6763761329865638703 IslandV2/Terrain/IslandTerrain/LOD0/CoastalCliff enabled=1
+TOTAL LOD GROUPS=35; GROUPS REFERENCING TERRAIN RENDERERS=0
+
+Conclusion: the IslandTerrain subtree has only LOD0, no LOD1 and no LODGroup references to its ground/path/cliff renderers. Disabling a supposed terrain parent LODGroup cannot resolve the green wall. No runtime toggle or Unity operation performed.

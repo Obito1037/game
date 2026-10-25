@@ -1,0 +1,454 @@
+{"seconds":0.942406415939331,"chapter":"Title","action":"state","objective":"","dialogue":"","detail":"Title|||False|False|False|False|False"}
+{"seconds":5.145098686218262,"chapter":"Title","action":"screenshot","objective":"","dialogue":"","detail":"00-title; saved=True"}
+{"seconds":5.147652626037598,"chapter":"Title","action":"key","objective":"","dialogue":"","detail":"Enter"}
+{"seconds":6.163206100463867,"chapter":"Title","action":"state","objective":"","dialogue":"","detail":"Title|||True|False|False|False|False"}
+{"seconds":7.5483503341674809,"chapter":"Title","action":"screenshot","objective":"","dialogue":"","detail":"map-before-1; saved=True"}
+{"seconds":7.553570747375488,"chapter":"Title","action":"key","objective":"","dialogue":"","detail":"Enter"}
+{"seconds":8.581085205078125,"chapter":"Title","action":"state","objective":"","dialogue":"","detail":"Title|||False|False|False|False|False"}
+{"seconds":9.09844970703125,"chapter":"Prologue","action":"state","objective":"","dialogue":"","detail":"Prologue|||False|True|False|False|False"}
+{"seconds":9.099935531616211,"chapter":"Prologue","action":"chapter-entered","objective":"","dialogue":"","detail":"1"}
+{"seconds":13.749971389770508,"chapter":"Prologue","action":"state","objective":"","dialogue":"","detail":"Prologue|||False|False|False|False|False"}
+{"seconds":15.30148696899414,"chapter":"Prologue","action":"state","objective":"","dialogue":"他不会发光。从","detail":"Prologue||他不会发光。从|False|False|False|False|False"}
+{"seconds":16.86879539489746,"chapter":"Prologue","action":"screenshot","objective":"","dialogue":"他不会发光。从生下来就不会。","detail":"01-normal; saved=True"}
+{"seconds":16.872051239013673,"chapter":"Prologue","action":"static-sample-start","objective":"","dialogue":"他不会发光。从生下来就不会。","detail":"8 seconds; no input/capture/teleport"}
+{"seconds":24.87339973449707,"chapter":"Prologue","action":"static-sample-end","objective":"","dialogue":"他不会发光。从生下来就不会。","detail":"8 seconds"}
+{"seconds":24.874509811401368,"chapter":"Prologue","action":"key","objective":"","dialogue":"他不会发光。从生下来就不会。","detail":"Space"}
+{"seconds":25.3905029296875,"chapter":"Prologue","action":"state","objective":"","dialogue":"所以他提着一盏灯笼。村里的孩子","detail":"Prologue||所以他提着一盏灯笼。村里的孩子|False|False|False|False|False"}
+{"seconds":25.391435623168947,"chapter":"Prologue","action":"key","objective":"","dialogue":"所以他提着一盏灯笼。村里的孩子","detail":"Space"}
+{"seconds":25.907066345214845,"chapter":"Prologue","action":"state","objective":"","dialogue":"所以他提着一盏灯笼。村里的孩子都叫他“小灯笼”。这名字是阿萤起的。","detail":"Prologue||所以他提着一盏灯笼。村里的孩子都叫他“小灯笼”。这名字是阿萤起的。|False|False|False|False|False"}
+{"seconds":25.90789794921875,"chapter":"Prologue","action":"key","objective":"","dialogue":"所以他提着一盏灯笼。村里的孩子都叫他“小灯笼”。这名字是阿萤起的。","detail":"Space"}
+{"seconds":26.42371368408203,"chapter":"Prologue","action":"state","objective":"","dialogue":"长夜前一天，采光船要出海去远方","detail":"Prologue||长夜前一天，采光船要出海去远方|False|False|False|False|False"}
+{"seconds":26.424427032470704,"chapter":"Prologue","action":"key","objective":"","dialogue":"长夜前一天，采光船要出海去远方","detail":"Space"}
+{"seconds":26.940507888793947,"chapter":"Prologue","action":"state","objective":"","dialogue":"长夜前一天，采光船要出海去远方采光果。全村的人都从坡上下来，挤在港湾的栈桥上送行。","detail":"Prologue||长夜前一天，采光船要出海去远方采光果。全村的人都从坡上下来，挤在港湾的栈桥上送行。|False|False|False|False|False"}
+{"seconds":26.941234588623048,"chapter":"Prologue","action":"key","objective":"","dialogue":"长夜前一天，采光船要出海去远方采光果。全村的人都从坡上下来，挤在港湾的栈桥上送行。","detail":"Space"}
+{"seconds":27.458181381225587,"chapter":"Prologue","action":"state","objective":"","dialogue":"站在船头的，是阿萤。他站在人群","detail":"Prologue||站在船头的，是阿萤。他站在人群|False|False|False|False|False"}
+{"seconds":27.459096908569337,"chapter":"Prologue","action":"key","objective":"","dialogue":"站在船头的，是阿萤。他站在人群","detail":"Space"}
+{"seconds":27.975278854370118,"chapter":"Prologue","action":"state","objective":"","dialogue":"站在船头的，是阿萤。他站在人群最后面。","detail":"Prologue||站在船头的，是阿萤。他站在人群最后面。|False|False|False|False|False"}
+{"seconds":27.976476669311525,"chapter":"Prologue","action":"key","objective":"","dialogue":"站在船头的，是阿萤。他站在人群最后面。","detail":"Space"}
+{"seconds":28.49201774597168,"chapter":"Prologue","action":"state","objective":"","dialogue":"","detail":"Prologue|||False|False|False|False|False"}
+{"seconds":32.62744140625,"chapter":"Prologue","action":"state","objective":"","dialogue":"我的光分你一","detail":"Prologue||我的光分你一|False|False|False|False|False"}
+{"seconds":32.62919235229492,"chapter":"Prologue","action":"key","objective":"","dialogue":"我的光分你一","detail":"Space"}
+{"seconds":33.14421463012695,"chapter":"Prologue","action":"state","objective":"","dialogue":"我的光分你一半。","detail":"Prologue||我的光分你一半。|False|False|False|False|False"}
+{"seconds":34.512939453125,"chapter":"Prologue","action":"screenshot","objective":"","dialogue":"我的光分你一半。","detail":"01-sharing-light; saved=True"}
+{"seconds":34.516475677490237,"chapter":"Prologue","action":"key","objective":"","dialogue":"我的光分你一半。","detail":"Space"}
+{"seconds":35.029685974121097,"chapter":"Prologue","action":"key","objective":"","dialogue":"我的光分你一半。","detail":"Space"}
+{"seconds":35.54612350463867,"chapter":"Prologue","action":"key","objective":"","dialogue":"我的光分你一半。","detail":"Space"}
+{"seconds":36.06317138671875,"chapter":"Prologue","action":"key","objective":"","dialogue":"我的光分你一半。","detail":"Space"}
+{"seconds":36.57969665527344,"chapter":"Prologue","action":"key","objective":"","dialogue":"我的光分你一半。","detail":"Space"}
+{"seconds":37.096458435058597,"chapter":"Prologue","action":"key","objective":"","dialogue":"我的光分你一半。","detail":"Space"}
+{"seconds":37.61317825317383,"chapter":"Prologue","action":"state","objective":"","dialogue":"等我回来，我们一起看地球变圆。","detail":"Prologue||等我回来，我们一起看地球变圆。|False|False|False|False|False"}
+{"seconds":37.61400604248047,"chapter":"Prologue","action":"key","objective":"","dialogue":"等我回来，我们一起看地球变圆。","detail":"Space"}
+{"seconds":38.130252838134769,"chapter":"Prologue","action":"state","objective":"","dialogue":"","detail":"Prologue|||False|False|False|False|False"}
+{"seconds":40.19749450683594,"chapter":"Prologue","action":"state","objective":"","dialogue":"他笑着挥手，看着她的","detail":"Prologue||他笑着挥手，看着她的|False|False|False|False|False"}
+{"seconds":40.198402404785159,"chapter":"Prologue","action":"key","objective":"","dialogue":"他笑着挥手，看着她的","detail":"Space"}
+{"seconds":40.71418762207031,"chapter":"Prologue","action":"state","objective":"","dialogue":"他笑着挥手，看着她的光在海面上缩成一颗星。","detail":"Prologue||他笑着挥手，看着她的光在海面上缩成一颗星。|False|False|False|False|False"}
+{"seconds":40.71495056152344,"chapter":"Prologue","action":"key","objective":"","dialogue":"他笑着挥手，看着她的光在海面上缩成一颗星。","detail":"Space"}
+{"seconds":41.23085021972656,"chapter":"Prologue","action":"state","objective":"","dialogue":"连她分给我的光，都比我自己的","detail":"Prologue||连她分给我的光，都比我自己的|False|False|False|False|False"}
+{"seconds":41.231658935546878,"chapter":"Prologue","action":"key","objective":"","dialogue":"连她分给我的光，都比我自己的","detail":"Space"}
+{"seconds":41.74867248535156,"chapter":"Prologue","action":"state","objective":"","dialogue":"连她分给我的光，都比我自己的亮。","detail":"Prologue||连她分给我的光，都比我自己的亮。|False|False|False|False|False"}
+{"seconds":41.75098419189453,"chapter":"Prologue","action":"key","objective":"","dialogue":"连她分给我的光，都比我自己的亮。","detail":"Space"}
+{"seconds":42.264827728271487,"chapter":"Prologue","action":"state","objective":"","dialogue":"","detail":"Prologue|||False|False|False|False|False"}
+{"seconds":44.33274459838867,"chapter":"Prologue","action":"state","objective":"","dialogue":"那天晚上，阿婆把三个","detail":"Prologue||那天晚上，阿婆把三个|False|False|False|False|False"}
+{"seconds":44.33346939086914,"chapter":"Prologue","action":"key","objective":"","dialogue":"那天晚上，阿婆把三个","detail":"Space"}
+{"seconds":44.84950637817383,"chapter":"Prologue","action":"state","objective":"","dialogue":"那天晚上，阿婆把三个铜灯罩放进他手里。","detail":"Prologue||那天晚上，阿婆把三个铜灯罩放进他手里。|False|False|False|False|False"}
+{"seconds":44.85023880004883,"chapter":"Prologue","action":"key","objective":"","dialogue":"那天晚上，阿婆把三个铜灯罩放进他手里。","detail":"Space"}
+{"seconds":45.3665657043457,"chapter":"Prologue","action":"state","objective":"","dialogue":"晚风灯，照小路上从村子走来的","detail":"Prologue||晚风灯，照小路上从村子走来的|False|False|False|False|False"}
+{"seconds":45.36966323852539,"chapter":"Prologue","action":"key","objective":"","dialogue":"晚风灯，照小路上从村子走来的","detail":"Space"}
+{"seconds":45.88380813598633,"chapter":"Prologue","action":"state","objective":"","dialogue":"晚风灯，照小路上从村子走来的人；月窗灯，照我那扇圆窗；归航灯，照码头边等船回来的人。","detail":"Prologue||晚风灯，照小路上从村子走来的人；月窗灯，照我那扇圆窗；归航灯，照码头边等船回来的人。|False|False|False|False|False"}
+{"seconds":45.885154724121097,"chapter":"Prologue","action":"key","objective":"","dialogue":"晚风灯，照小路上从村子走来的人；月窗灯，照我那扇圆窗；归航灯，照码头边等船回来的人。","detail":"Space"}
+{"seconds":46.40099334716797,"chapter":"Prologue","action":"state","objective":"","dialogue":"长夜来了。今年，岬角的灯交给","detail":"Prologue||长夜来了。今年，岬角的灯交给|False|False|False|False|False"}
+{"seconds":46.402767181396487,"chapter":"Prologue","action":"key","objective":"","dialogue":"长夜来了。今年，岬角的灯交给","detail":"Space"}
+{"seconds":46.91682815551758,"chapter":"Prologue","action":"state","objective":"","dialogue":"长夜来了。今年，岬角的灯交给你守。","detail":"Prologue||长夜来了。今年，岬角的灯交给你守。|False|False|False|False|False"}
+{"seconds":46.91787338256836,"chapter":"Prologue","action":"key","objective":"","dialogue":"长夜来了。今年，岬角的灯交给你守。","detail":"Space"}
+{"seconds":47.43354797363281,"chapter":"Prologue","action":"state","objective":"","dialogue":"……因为我上不了船吧。","detail":"Prologue||……因为我上不了船吧。|False|False|False|False|False"}
+{"seconds":47.43422317504883,"chapter":"Prologue","action":"key","objective":"","dialogue":"……因为我上不了船吧。","detail":"Space"}
+{"seconds":47.95017623901367,"chapter":"Prologue","action":"state","objective":"","dialogue":"灯不用你照亮。你只要让它照对","detail":"Prologue||灯不用你照亮。你只要让它照对|False|False|False|False|False"}
+{"seconds":47.95103073120117,"chapter":"Prologue","action":"key","objective":"","dialogue":"灯不用你照亮。你只要让它照对","detail":"Space"}
+{"seconds":48.46721649169922,"chapter":"Prologue","action":"state","objective":"","dialogue":"灯不用你照亮。你只要让它照对地方。","detail":"Prologue||灯不用你照亮。你只要让它照对地方。|False|False|False|False|False"}
+{"seconds":48.46816635131836,"chapter":"Prologue","action":"key","objective":"","dialogue":"灯不用你照亮。你只要让它照对地方。","detail":"Space"}
+{"seconds":48.98365020751953,"chapter":"Prologue","action":"state","objective":"","dialogue":"","detail":"Prologue|||False|False|True|False|False"}
+{"seconds":50.20330047607422,"chapter":"Prologue","action":"screenshot","objective":"","dialogue":"","detail":"01-chapter-end-card; saved=True"}
+{"seconds":50.205894470214847,"chapter":"Prologue","action":"key","objective":"","dialogue":"","detail":"Enter"}
+{"seconds":51.234493255615237,"chapter":"Prologue","action":"state","objective":"","dialogue":"","detail":"Prologue|||False|False|False|False|False"}
+{"seconds":52.78581237792969,"chapter":"Prologue","action":"state","objective":"","dialogue":"","detail":"Prologue|||True|False|False|False|False"}
+{"seconds":52.78654861450195,"chapter":"Prologue","action":"chapter-completed","objective":"","dialogue":"","detail":"unlocked=1"}
+{"seconds":53.65380859375,"chapter":"Prologue","action":"screenshot","objective":"","dialogue":"","detail":"map-before-2; saved=True"}
+{"seconds":53.656639099121097,"chapter":"Prologue","action":"key","objective":"","dialogue":"","detail":"Enter"}
+{"seconds":54.68653106689453,"chapter":"Prologue","action":"state","objective":"","dialogue":"","detail":"Prologue|||False|False|False|False|False"}
+{"seconds":55.196895599365237,"chapter":"One","action":"state","objective":"","dialogue":"","detail":"One|||False|True|False|False|False"}
+{"seconds":55.19871520996094,"chapter":"One","action":"chapter-entered","objective":"","dialogue":"","detail":"2"}
+{"seconds":59.84916305541992,"chapter":"One","action":"state","objective":"","dialogue":"","detail":"One|||False|False|False|False|False"}
+{"seconds":62.45016098022461,"chapter":"One","action":"screenshot","objective":"","dialogue":"长夜的第一个晚上，晚风灯的灯头歪着，光大半漏到了天上。岬角的夜空被照得发白，进岬角的那段小路却","detail":"02-normal; saved=True"}
+{"seconds":62.45242691040039,"chapter":"One","action":"static-sample-start","objective":"","dialogue":"长夜的第一个晚上，晚风灯的灯头歪着，光大半漏到了天上。岬角的夜空被照得发白，进岬角的那段小路却","detail":"8 seconds; no input/capture/teleport"}
+{"seconds":70.46917724609375,"chapter":"One","action":"static-sample-end","objective":"","dialogue":"长夜的第一个晚上，晚风灯的灯头歪着，光大半漏到了天上。岬角的夜空被照得发白，进岬角的那段小路却是黑的。","detail":"8 seconds"}
+{"seconds":70.47013854980469,"chapter":"One","action":"key","objective":"","dialogue":"长夜的第一个晚上，晚风灯的灯头歪着，光大半漏到了天上。岬角的夜空被照得发白，进岬角的那段小路却是黑的。","detail":"Space"}
+{"seconds":70.98567962646485,"chapter":"One","action":"state","objective":"","dialogue":"叮——叮——铃声从村子那边一路","detail":"One||叮——叮——铃声从村子那边一路|False|False|False|False|False"}
+{"seconds":70.98651123046875,"chapter":"One","action":"key","objective":"","dialogue":"叮——叮——铃声从村子那边一路","detail":"Space"}
+{"seconds":71.50274658203125,"chapter":"One","action":"state","objective":"","dialogue":"叮——叮——铃声从村子那边一路响过来，在路口停住了。","detail":"One||叮——叮——铃声从村子那边一路响过来，在路口停住了。|False|False|False|False|False"}
+{"seconds":71.50352478027344,"chapter":"One","action":"key","objective":"","dialogue":"叮——叮——铃声从村子那边一路响过来，在路口停住了。","detail":"Space"}
+{"seconds":72.0196533203125,"chapter":"One","action":"state","objective":"","dialogue":"","detail":"One|||False|False|False|False|False"}
+{"seconds":104.58073425292969,"chapter":"One","action":"state","objective":"路口有人停下了，过去看看","dialogue":"","detail":"One|路口有人停下了，过去看看||False|False|False|False|False"}
+{"seconds":104.58331298828125,"chapter":"One","action":"diagnostic-teleport","objective":"路口有人停下了，过去看看","dialogue":"","detail":"(7.924, 2.362, -14.135)"}
+{"seconds":104.5840072631836,"chapter":"One","action":"key","objective":"路口有人停下了，过去看看","dialogue":"","detail":"E"}
+{"seconds":105.09774017333985,"chapter":"One","action":"state","objective":"路口有人停下了，过去看看","dialogue":"是阿婆家的小灯笼吧？","detail":"One|路口有人停下了，过去看看|是阿婆家的小灯笼吧？|False|False|False|False|False"}
+{"seconds":105.09934997558594,"chapter":"One","action":"key","objective":"路口有人停下了，过去看看","dialogue":"是阿婆家的小灯笼吧？","detail":"Space"}
+{"seconds":105.61430358886719,"chapter":"One","action":"state","objective":"路口有人停下了，过去看看","dialogue":"爷爷今晚有点走不动，这段路太黑","detail":"One|路口有人停下了，过去看看|爷爷今晚有点走不动，这段路太黑|False|False|False|False|False"}
+{"seconds":105.61507415771485,"chapter":"One","action":"key","objective":"路口有人停下了，过去看看","dialogue":"爷爷今晚有点走不动，这段路太黑","detail":"Space"}
+{"seconds":106.13150024414063,"chapter":"One","action":"state","objective":"路口有人停下了，过去看看","dialogue":"爷爷今晚有点走不动，这段路太黑。你帮爷爷看看那盏灯？","detail":"One|路口有人停下了，过去看看|爷爷今晚有点走不动，这段路太黑。你帮爷爷看看那盏灯？|False|False|False|False|False"}
+{"seconds":106.13294219970703,"chapter":"One","action":"key","objective":"路口有人停下了，过去看看","dialogue":"爷爷今晚有点走不动，这段路太黑。你帮爷爷看看那盏灯？","detail":"Space"}
+{"seconds":106.64837646484375,"chapter":"One","action":"state","objective":"让小路和长椅亮起来，别让光漏到天上。","dialogue":"","detail":"One|让小路和长椅亮起来，别让光漏到天上。||False|False|False|False|False"}
+{"seconds":106.65000915527344,"chapter":"One","action":"key","objective":"让小路和长椅亮起来，别让光漏到天上。","dialogue":"","detail":"Tab"}
+{"seconds":107.16509246826172,"chapter":"One","action":"state","objective":"让小路和长椅亮起来，别让光漏到天上。","dialogue":"","detail":"One|让小路和长椅亮起来，别让光漏到天上。||False|False|False|False|True"}
+{"seconds":107.49981689453125,"chapter":"One","action":"screenshot","objective":"让小路和长椅亮起来，别让光漏到天上。","dialogue":"","detail":"02-puzzle-before; saved=True"}
+{"seconds":107.50294494628906,"chapter":"One","action":"key","objective":"让小路和长椅亮起来，别让光漏到天上。","dialogue":"","detail":"D"}
+{"seconds":108.01604461669922,"chapter":"One","action":"key","objective":"让小路和长椅亮起来，别让光漏到天上。","dialogue":"","detail":"Space"}
+{"seconds":108.53255462646485,"chapter":"One","action":"puzzle-evaluated","objective":"让小路和长椅亮起来，别让光漏到天上。","dialogue":"","detail":"solved=True; covered=Path, Bench; skyLoss=1"}
+{"seconds":108.85150909423828,"chapter":"One","action":"screenshot","objective":"让小路和长椅亮起来，别让光漏到天上。","dialogue":"","detail":"02-puzzle-solved; saved=True"}
+{"seconds":108.8540267944336,"chapter":"One","action":"key","objective":"让小路和长椅亮起来，别让光漏到天上。","dialogue":"","detail":"Enter"}
+{"seconds":109.88258361816406,"chapter":"One","action":"state","objective":"","dialogue":"","detail":"One|||False|False|False|False|False"}
+{"seconds":124.35821533203125,"chapter":"One","action":"state","objective":"","dialogue":"我年","detail":"One||我年|False|False|False|False|False"}
+{"seconds":124.3592758178711,"chapter":"One","action":"key","objective":"","dialogue":"我年","detail":"Space"}
+{"seconds":124.87544250488281,"chapter":"One","action":"state","objective":"","dialogue":"我年轻时也不会发光，走得也比谁都慢。跟我一起学送信的，后来都去做了更了不起的事。可这条路，只有我一直在走。","detail":"One||我年轻时也不会发光，走得也比谁都慢。跟我一起学送信的，后来都去做了更了不起的事。可这条路，只有我一直在走。|False|False|False|False|False"}
+{"seconds":126.2432861328125,"chapter":"One","action":"screenshot","objective":"","dialogue":"我年轻时也不会发光，走得也比谁都慢。跟我一起学送信的，后来都去做了更了不起的事。可这条路，只有我一直在走。","detail":"02-postman-bench-cane; saved=True"}
+{"seconds":126.24601745605469,"chapter":"One","action":"key","objective":"","dialogue":"我年轻时也不会发光，走得也比谁都慢。跟我一起学送信的，后来都去做了更了不起的事。可这条路，只有我一直在走。","detail":"Space"}
+{"seconds":126.75946044921875,"chapter":"One","action":"state","objective":"","dialogue":"有一年长夜，我的灯在半路灭了，","detail":"One||有一年长夜，我的灯在半路灭了，|False|False|False|False|False"}
+{"seconds":126.76042175292969,"chapter":"One","action":"key","objective":"","dialogue":"有一年长夜，我的灯在半路灭了，","detail":"Space"}
+{"seconds":127.27610778808594,"chapter":"One","action":"state","objective":"","dialogue":"有一年长夜，我的灯在半路灭了，只好摸着石头走。走到天快亮，把最后一封信塞进门缝，坐在台阶上一低头——邮包上的露水，亮了。","detail":"One||有一年长夜，我的灯在半路灭了，只好摸着石头走。走到天快亮，把最后一封信塞进门缝，坐在台阶上一低头——邮包上的露水，亮了。|False|False|False|False|False"}
+{"seconds":127.27685546875,"chapter":"One","action":"key","objective":"","dialogue":"有一年长夜，我的灯在半路灭了，只好摸着石头走。走到天快亮，把最后一封信塞进门缝，坐在台阶上一低头——邮包上的露水，亮了。","detail":"Space"}
+{"seconds":127.79287719726563,"chapter":"One","action":"state","objective":"","dialogue":"我自己都不知道它是什么时候来的","detail":"One||我自己都不知道它是什么时候来的|False|False|False|False|False"}
+{"seconds":127.79354858398438,"chapter":"One","action":"key","objective":"","dialogue":"我自己都不知道它是什么时候来的","detail":"Space"}
+{"seconds":128.3098602294922,"chapter":"One","action":"state","objective":"","dialogue":"我自己都不知道它是什么时候来的。大概是走着走着，就来了吧。","detail":"One||我自己都不知道它是什么时候来的。大概是走着走着，就来了吧。|False|False|False|False|False"}
+{"seconds":128.31063842773438,"chapter":"One","action":"key","objective":"","dialogue":"我自己都不知道它是什么时候来的。大概是走着走着，就来了吧。","detail":"Space"}
+{"seconds":128.8265380859375,"chapter":"One","action":"state","objective":"","dialogue":"下回长夜，这条路就交给你了。","detail":"One||下回长夜，这条路就交给你了。|False|False|False|False|False"}
+{"seconds":128.8271942138672,"chapter":"One","action":"key","objective":"","dialogue":"下回长夜，这条路就交给你了。","detail":"Space"}
+{"seconds":129.34344482421876,"chapter":"One","action":"state","objective":"","dialogue":"这条路那么长，我走不了那么远。","detail":"One||这条路那么长，我走不了那么远。|False|False|False|False|False"}
+{"seconds":129.34571838378907,"chapter":"One","action":"key","objective":"","dialogue":"这条路那么长，我走不了那么远。","detail":"Space"}
+{"seconds":129.8603057861328,"chapter":"One","action":"key","objective":"","dialogue":"这条路那么长，我走不了那么远。","detail":"Space"}
+{"seconds":130.3775177001953,"chapter":"One","action":"state","objective":"","dialogue":"那就先走到长椅这儿。路是一段一","detail":"One||那就先走到长椅这儿。路是一段一|False|False|False|False|False"}
+{"seconds":130.37950134277345,"chapter":"One","action":"key","objective":"","dialogue":"那就先走到长椅这儿。路是一段一","detail":"Space"}
+{"seconds":130.89370727539063,"chapter":"One","action":"state","objective":"","dialogue":"那就先走到长椅这儿。路是一段一段走的。","detail":"One||那就先走到长椅这儿。路是一段一段走的。|False|False|False|False|False"}
+{"seconds":130.89453125,"chapter":"One","action":"key","objective":"","dialogue":"那就先走到长椅这儿。路是一段一段走的。","detail":"Space"}
+{"seconds":131.41078186035157,"chapter":"One","action":"state","objective":"","dialogue":"","detail":"One|||False|False|True|False|False"}
+{"seconds":132.6470947265625,"chapter":"One","action":"screenshot","objective":"","dialogue":"","detail":"02-chapter-end-card; saved=True"}
+{"seconds":132.65162658691407,"chapter":"One","action":"key","objective":"","dialogue":"","detail":"Enter"}
+{"seconds":133.68043518066407,"chapter":"One","action":"state","objective":"","dialogue":"","detail":"One|||False|False|False|False|False"}
+{"seconds":135.23062133789063,"chapter":"One","action":"state","objective":"","dialogue":"","detail":"One|||True|False|False|False|False"}
+{"seconds":135.23153686523438,"chapter":"One","action":"chapter-completed","objective":"","dialogue":"","detail":"unlocked=2"}
+{"seconds":136.08212280273438,"chapter":"One","action":"screenshot","objective":"","dialogue":"","detail":"map-before-3; saved=True"}
+{"seconds":136.08486938476563,"chapter":"One","action":"key","objective":"","dialogue":"","detail":"Enter"}
+{"seconds":137.11502075195313,"chapter":"One","action":"state","objective":"","dialogue":"","detail":"One|||False|False|False|False|False"}
+{"seconds":137.62344360351563,"chapter":"Two","action":"state","objective":"","dialogue":"","detail":"Two|||False|True|False|False|False"}
+{"seconds":137.62550354003907,"chapter":"Two","action":"chapter-entered","objective":"","dialogue":"","detail":"3"}
+{"seconds":142.27603149414063,"chapter":"Two","action":"state","objective":"","dialogue":"","detail":"Two|||False|False|False|False|False"}
+{"seconds":144.88156127929688,"chapter":"Two","action":"screenshot","objective":"","dialogue":"长夜的第二个晚上，阿婆的圆窗是黑的。","detail":"03-normal; saved=True"}
+{"seconds":144.88424682617188,"chapter":"Two","action":"static-sample-start","objective":"","dialogue":"长夜的第二个晚上，阿婆的圆窗是黑的。","detail":"8 seconds; no input/capture/teleport"}
+{"seconds":152.8850860595703,"chapter":"Two","action":"static-sample-end","objective":"","dialogue":"长夜的第二个晚上，阿婆的圆窗是黑的。","detail":"8 seconds"}
+{"seconds":152.88681030273438,"chapter":"Two","action":"key","objective":"","dialogue":"长夜的第二个晚上，阿婆的圆窗是黑的。","detail":"Space"}
+{"seconds":153.4023895263672,"chapter":"Two","action":"state","objective":"","dialogue":"每年长夜，阿婆都坐在窗边，把岛","detail":"Two||每年长夜，阿婆都坐在窗边，把岛|False|False|False|False|False"}
+{"seconds":153.4043426513672,"chapter":"Two","action":"key","objective":"","dialogue":"每年长夜，阿婆都坐在窗边，把岛","detail":"Space"}
+{"seconds":153.91883850097657,"chapter":"Two","action":"state","objective":"","dialogue":"每年长夜，阿婆都坐在窗边，把岛上每一棵光树记进一本厚本子。今年光不够了，她自己的光也太淡，看不清字。","detail":"Two||每年长夜，阿婆都坐在窗边，把岛上每一棵光树记进一本厚本子。今年光不够了，她自己的光也太淡，看不清字。|False|False|False|False|False"}
+{"seconds":153.91964721679688,"chapter":"Two","action":"key","objective":"","dialogue":"每年长夜，阿婆都坐在窗边，把岛上每一棵光树记进一本厚本子。今年光不够了，她自己的光也太淡，看不清字。","detail":"Space"}
+{"seconds":154.4356689453125,"chapter":"Two","action":"state","objective":"","dialogue":"路口也要光，晚风灯一个照不过来","detail":"Two||路口也要光，晚风灯一个照不过来|False|False|False|False|False"}
+{"seconds":154.43653869628907,"chapter":"Two","action":"key","objective":"","dialogue":"路口也要光，晚风灯一个照不过来","detail":"Space"}
+{"seconds":154.9527130126953,"chapter":"Two","action":"state","objective":"","dialogue":"路口也要光，晚风灯一个照不过来。","detail":"Two||路口也要光，晚风灯一个照不过来。|False|False|False|False|False"}
+{"seconds":154.9535369873047,"chapter":"Two","action":"key","objective":"","dialogue":"路口也要光，晚风灯一个照不过来。","detail":"Space"}
+{"seconds":155.46958923339845,"chapter":"Two","action":"state","objective":"月窗灯换窄罩照窗，同时保持小路与长椅明亮。","dialogue":"","detail":"Two|月窗灯换窄罩照窗，同时保持小路与长椅明亮。||False|False|False|False|False"}
+{"seconds":155.47109985351563,"chapter":"Two","action":"key","objective":"月窗灯换窄罩照窗，同时保持小路与长椅明亮。","dialogue":"","detail":"Tab"}
+{"seconds":155.98609924316407,"chapter":"Two","action":"state","objective":"月窗灯换窄罩照窗，同时保持小路与长椅明亮。","dialogue":"","detail":"Two|月窗灯换窄罩照窗，同时保持小路与长椅明亮。||False|False|False|False|True"}
+{"seconds":156.32029724121095,"chapter":"Two","action":"screenshot","objective":"月窗灯换窄罩照窗，同时保持小路与长椅明亮。","dialogue":"","detail":"03-puzzle-before; saved=True"}
+{"seconds":156.32308959960938,"chapter":"Two","action":"key","objective":"月窗灯换窄罩照窗，同时保持小路与长椅明亮。","dialogue":"","detail":"Digit2"}
+{"seconds":156.8365020751953,"chapter":"Two","action":"key","objective":"月窗灯换窄罩照窗，同时保持小路与长椅明亮。","dialogue":"","detail":"D"}
+{"seconds":157.35313415527345,"chapter":"Two","action":"key","objective":"月窗灯换窄罩照窗，同时保持小路与长椅明亮。","dialogue":"","detail":"Space"}
+{"seconds":157.87039184570313,"chapter":"Two","action":"puzzle-evaluated","objective":"月窗灯换窄罩照窗，同时保持小路与长椅明亮。","dialogue":"","detail":"solved=True; covered=Path, Bench, Window; skyLoss=1"}
+{"seconds":158.20364379882813,"chapter":"Two","action":"screenshot","objective":"月窗灯换窄罩照窗，同时保持小路与长椅明亮。","dialogue":"","detail":"03-puzzle-solved; saved=True"}
+{"seconds":158.20729064941407,"chapter":"Two","action":"key","objective":"月窗灯换窄罩照窗，同时保持小路与长椅明亮。","dialogue":"","detail":"Enter"}
+{"seconds":159.2366485595703,"chapter":"Two","action":"state","objective":"","dialogue":"","detail":"Two|||False|False|False|False|False"}
+{"seconds":160.270263671875,"chapter":"Two","action":"key","objective":"","dialogue":"","detail":"Space"}
+{"seconds":160.78701782226563,"chapter":"Two","action":"state","objective":"","dialogue":"照得正好。进来吧。","detail":"Two||照得正好。进来吧。|False|False|False|False|False"}
+{"seconds":162.17247009277345,"chapter":"Two","action":"screenshot","objective":"","dialogue":"照得正好。进来吧。","detail":"03-window-lit-grandmother; saved=True"}
+{"seconds":162.1759033203125,"chapter":"Two","action":"key","objective":"","dialogue":"照得正好。进来吧。","detail":"Space"}
+{"seconds":162.6873321533203,"chapter":"Two","action":"state","objective":"","dialogue":"","detail":"Two|||False|False|False|False|False"}
+{"seconds":164.23843383789063,"chapter":"Two","action":"state","objective":"","dialogue":"这座岛原来是光秃秃的石头，","detail":"Two||这座岛原来是光秃秃的石头，|False|False|False|False|False"}
+{"seconds":164.2393035888672,"chapter":"Two","action":"key","objective":"","dialogue":"这座岛原来是光秃秃的石头，","detail":"Space"}
+{"seconds":164.75575256347657,"chapter":"Two","action":"state","objective":"","dialogue":"这座岛原来是光秃秃的石头，没有林子，也没有村子。我们那一代年轻人从海边一筐一筐背土，在石头上凿坑种树。","detail":"Two||这座岛原来是光秃秃的石头，没有林子，也没有村子。我们那一代年轻人从海边一筐一筐背土，在石头上凿坑种树。|False|False|False|False|False"}
+{"seconds":164.75672912597657,"chapter":"Two","action":"key","objective":"","dialogue":"这座岛原来是光秃秃的石头，没有林子，也没有村子。我们那一代年轻人从海边一筐一筐背土，在石头上凿坑种树。","detail":"Space"}
+{"seconds":165.272705078125,"chapter":"Two","action":"state","objective":"","dialogue":"第一年，种下三百棵，一棵都没活","detail":"Two||第一年，种下三百棵，一棵都没活|False|False|False|False|False"}
+{"seconds":165.27345275878907,"chapter":"Two","action":"key","objective":"","dialogue":"第一年，种下三百棵，一棵都没活","detail":"Space"}
+{"seconds":165.78927612304688,"chapter":"Two","action":"state","objective":"","dialogue":"第一年，种下三百棵，一棵都没活。第二年，活了三棵。就是岬角上立着金色月牙的那个地方。","detail":"Two||第一年，种下三百棵，一棵都没活。第二年，活了三棵。就是岬角上立着金色月牙的那个地方。|False|False|False|False|False"}
+{"seconds":165.79010009765626,"chapter":"Two","action":"key","objective":"","dialogue":"第一年，种下三百棵，一棵都没活。第二年，活了三棵。就是岬角上立着金色月牙的那个地方。","detail":"Space"}
+{"seconds":166.30601501464845,"chapter":"Two","action":"state","objective":"","dialogue":"有了三棵，就知道这里能活。有了","detail":"Two||有了三棵，就知道这里能活。有了|False|False|False|False|False"}
+{"seconds":166.3071746826172,"chapter":"Two","action":"key","objective":"","dialogue":"有了三棵，就知道这里能活。有了","detail":"Space"}
+{"seconds":166.82293701171876,"chapter":"Two","action":"state","objective":"","dialogue":"有了三棵，就知道这里能活。有了树，才有光果；有了光果，坡上才住得下人。","detail":"Two||有了三棵，就知道这里能活。有了树，才有光果；有了光果，坡上才住得下人。|False|False|False|False|False"}
+{"seconds":166.82411193847657,"chapter":"Two","action":"key","objective":"","dialogue":"有了三棵，就知道这里能活。有了树，才有光果；有了光果，坡上才住得下人。","detail":"Space"}
+{"seconds":167.33999633789063,"chapter":"Two","action":"state","objective":"","dialogue":"阿婆，你那时候……种得好吗？","detail":"Two||阿婆，你那时候……种得好吗？|False|False|False|False|False"}
+{"seconds":167.3414764404297,"chapter":"Two","action":"key","objective":"","dialogue":"阿婆，你那时候……种得好吗？","detail":"Space"}
+{"seconds":167.85643005371095,"chapter":"Two","action":"state","objective":"","dialogue":"不好。我是那一拨里种得最差的。","detail":"Two||不好。我是那一拨里种得最差的。|False|False|False|False|False"}
+{"seconds":167.85716247558595,"chapter":"Two","action":"key","objective":"","dialogue":"不好。我是那一拨里种得最差的。","detail":"Space"}
+{"seconds":168.37359619140626,"chapter":"Two","action":"state","objective":"","dialogue":"不好。我是那一拨里种得最差的。我最好的朋友叫阿槿，种什么活什么。我种十棵，死九棵。","detail":"Two||不好。我是那一拨里种得最差的。我最好的朋友叫阿槿，种什么活什么。我种十棵，死九棵。|False|False|False|False|False"}
+{"seconds":168.37435913085938,"chapter":"Two","action":"key","objective":"","dialogue":"不好。我是那一拨里种得最差的。我最好的朋友叫阿槿，种什么活什么。我种十棵，死九棵。","detail":"Space"}
+{"seconds":168.88987731933595,"chapter":"Two","action":"state","objective":"","dialogue":"她对我可好了，种完自己那片就跑","detail":"Two||她对我可好了，种完自己那片就跑|False|False|False|False|False"}
+{"seconds":168.8905487060547,"chapter":"Two","action":"key","objective":"","dialogue":"她对我可好了，种完自己那片就跑","detail":"Space"}
+{"seconds":169.40731811523438,"chapter":"Two","action":"state","objective":"","dialogue":"她对我可好了，种完自己那片就跑来帮我。可她越帮我，我越难受，总觉得她是光，我是光旁边的影子。","detail":"Two||她对我可好了，种完自己那片就跑来帮我。可她越帮我，我越难受，总觉得她是光，我是光旁边的影子。|False|False|False|False|False"}
+{"seconds":169.40936279296876,"chapter":"Two","action":"key","objective":"","dialogue":"她对我可好了，种完自己那片就跑来帮我。可她越帮我，我越难受，总觉得她是光，我是光旁边的影子。","detail":"Space"}
+{"seconds":169.92361450195313,"chapter":"Two","action":"state","objective":"","dialogue":"后来才明白，影子也能种树。有的","detail":"Two||后来才明白，影子也能种树。有的|False|False|False|False|False"}
+{"seconds":169.92440795898438,"chapter":"Two","action":"key","objective":"","dialogue":"后来才明白，影子也能种树。有的","detail":"Space"}
+{"seconds":170.4413299560547,"chapter":"Two","action":"state","objective":"","dialogue":"后来才明白，影子也能种树。有的树三年开花，有的树十年。树不跟树比，谁先开花。它只管，把根扎下去。","detail":"Two||后来才明白，影子也能种树。有的树三年开花，有的树十年。树不跟树比，谁先开花。它只管，把根扎下去。|False|False|False|False|False"}
+{"seconds":170.44403076171876,"chapter":"Two","action":"key","objective":"","dialogue":"后来才明白，影子也能种树。有的树三年开花，有的树十年。树不跟树比，谁先开花。它只管，把根扎下去。","detail":"Space"}
+{"seconds":170.95742797851563,"chapter":"Two","action":"state","objective":"","dialogue":"那天晚上，阿婆念，他写，把这一","detail":"Two||那天晚上，阿婆念，他写，把这一|False|False|False|False|False"}
+{"seconds":170.95816040039063,"chapter":"Two","action":"key","objective":"","dialogue":"那天晚上，阿婆念，他写，把这一","detail":"Space"}
+{"seconds":171.474609375,"chapter":"Two","action":"state","objective":"","dialogue":"那天晚上，阿婆念，他写，把这一年的光树记完了。","detail":"Two||那天晚上，阿婆念，他写，把这一年的光树记完了。|False|False|False|False|False"}
+{"seconds":171.4752960205078,"chapter":"Two","action":"key","objective":"","dialogue":"那天晚上，阿婆念，他写，把这一年的光树记完了。","detail":"Space"}
+{"seconds":171.99127197265626,"chapter":"Two","action":"state","objective":"","dialogue":"我种的第一片树，一棵都没活。屋","detail":"Two||我种的第一片树，一棵都没活。屋|False|False|False|False|False"}
+{"seconds":171.99205017089845,"chapter":"Two","action":"key","objective":"","dialogue":"我种的第一片树，一棵都没活。屋","detail":"Space"}
+{"seconds":172.50836181640626,"chapter":"Two","action":"state","objective":"","dialogue":"我种的第一片树，一棵都没活。屋前那棵金色的，是你出生那年种的。十二年了，还没开过花。我不急。","detail":"Two||我种的第一片树，一棵都没活。屋前那棵金色的，是你出生那年种的。十二年了，还没开过花。我不急。|False|False|False|False|False"}
+{"seconds":172.5103302001953,"chapter":"Two","action":"key","objective":"","dialogue":"我种的第一片树，一棵都没活。屋前那棵金色的，是你出生那年种的。十二年了，还没开过花。我不急。","detail":"Space"}
+{"seconds":173.0254364013672,"chapter":"Two","action":"state","objective":"","dialogue":"他每天从那棵树下走过，借着它的","detail":"Two||他每天从那棵树下走过，借着它的|False|False|False|False|False"}
+{"seconds":173.0264892578125,"chapter":"Two","action":"key","objective":"","dialogue":"他每天从那棵树下走过，借着它的","detail":"Space"}
+{"seconds":173.54217529296876,"chapter":"Two","action":"state","objective":"","dialogue":"他每天从那棵树下走过，借着它的光进门、出门。原来，有人为他种了一棵树。","detail":"Two||他每天从那棵树下走过，借着它的光进门、出门。原来，有人为他种了一棵树。|False|False|False|False|False"}
+{"seconds":173.54290771484376,"chapter":"Two","action":"key","objective":"","dialogue":"他每天从那棵树下走过，借着它的光进门、出门。原来，有人为他种了一棵树。","detail":"Space"}
+{"seconds":174.0589599609375,"chapter":"Two","action":"state","objective":"","dialogue":"阿婆，你为什么让我守灯？阿萤她","detail":"Two||阿婆，你为什么让我守灯？阿萤她|False|False|False|False|False"}
+{"seconds":174.06033325195313,"chapter":"Two","action":"key","objective":"","dialogue":"阿婆，你为什么让我守灯？阿萤她","detail":"Space"}
+{"seconds":174.57569885253907,"chapter":"Two","action":"state","objective":"","dialogue":"阿婆，你为什么让我守灯？阿萤她们，都比我……","detail":"Two||阿婆，你为什么让我守灯？阿萤她们，都比我……|False|False|False|False|False"}
+{"seconds":174.5771942138672,"chapter":"Two","action":"key","objective":"","dialogue":"阿婆，你为什么让我守灯？阿萤她们，都比我……","detail":"Space"}
+{"seconds":175.09268188476563,"chapter":"Two","action":"state","objective":"","dialogue":"等你守完这个长夜，就知道了。","detail":"Two||等你守完这个长夜，就知道了。|False|False|False|False|False"}
+{"seconds":175.0936279296875,"chapter":"Two","action":"key","objective":"","dialogue":"等你守完这个长夜，就知道了。","detail":"Space"}
+{"seconds":175.61001586914063,"chapter":"Two","action":"state","objective":"","dialogue":"","detail":"Two|||False|False|True|False|False"}
+{"seconds":176.82806396484376,"chapter":"Two","action":"screenshot","objective":"","dialogue":"","detail":"03-chapter-end-card; saved=True"}
+{"seconds":176.83021545410157,"chapter":"Two","action":"key","objective":"","dialogue":"","detail":"Enter"}
+{"seconds":177.8600311279297,"chapter":"Two","action":"state","objective":"","dialogue":"","detail":"Two|||False|False|False|False|False"}
+{"seconds":179.41197204589845,"chapter":"Two","action":"state","objective":"","dialogue":"","detail":"Two|||True|False|False|False|False"}
+{"seconds":179.41268920898438,"chapter":"Two","action":"chapter-completed","objective":"","dialogue":"","detail":"unlocked=3"}
+{"seconds":180.27967834472657,"chapter":"Two","action":"screenshot","objective":"","dialogue":"","detail":"map-before-4; saved=True"}
+{"seconds":180.2827911376953,"chapter":"Two","action":"key","objective":"","dialogue":"","detail":"Enter"}
+{"seconds":181.3124237060547,"chapter":"Two","action":"state","objective":"","dialogue":"","detail":"Two|||False|False|False|False|False"}
+{"seconds":181.830810546875,"chapter":"Interlude","action":"state","objective":"","dialogue":"","detail":"Interlude|||False|True|False|False|False"}
+{"seconds":181.83157348632813,"chapter":"Interlude","action":"chapter-entered","objective":"","dialogue":"","detail":"4"}
+{"seconds":186.4823760986328,"chapter":"Interlude","action":"state","objective":"","dialogue":"","detail":"Interlude|||False|False|False|False|False"}
+{"seconds":189.0513458251953,"chapter":"Interlude","action":"screenshot","objective":"","dialogue":"长夜的第三个晚上，采光船没有按时回来。","detail":"04-normal; saved=True"}
+{"seconds":189.055419921875,"chapter":"Interlude","action":"static-sample-start","objective":"","dialogue":"长夜的第三个晚上，采光船没有按时回来。","detail":"8 seconds; no input/capture/teleport"}
+{"seconds":197.0728759765625,"chapter":"Interlude","action":"static-sample-end","objective":"","dialogue":"长夜的第三个晚上，采光船没有按时回来。","detail":"8 seconds"}
+{"seconds":197.07525634765626,"chapter":"Interlude","action":"key","objective":"","dialogue":"长夜的第三个晚上，采光船没有按时回来。","detail":"Space"}
+{"seconds":197.5897979736328,"chapter":"Interlude","action":"state","objective":"","dialogue":"全村的人都挤在港湾的栈桥上，举","detail":"Interlude||全村的人都挤在港湾的栈桥上，举|False|False|False|False|False"}
+{"seconds":197.5909881591797,"chapter":"Interlude","action":"key","objective":"","dialogue":"全村的人都挤在港湾的栈桥上，举","detail":"Space"}
+{"seconds":198.10633850097657,"chapter":"Interlude","action":"state","objective":"","dialogue":"全村的人都挤在港湾的栈桥上，举着灯望着海。一盏盏灯从村子一直连到码头，像一条从山坡上流下来的光河。","detail":"Interlude||全村的人都挤在港湾的栈桥上，举着灯望着海。一盏盏灯从村子一直连到码头，像一条从山坡上流下来的光河。|False|False|False|False|False"}
+{"seconds":198.10708618164063,"chapter":"Interlude","action":"key","objective":"","dialogue":"全村的人都挤在港湾的栈桥上，举着灯望着海。一盏盏灯从村子一直连到码头，像一条从山坡上流下来的光河。","detail":"Space"}
+{"seconds":198.62306213378907,"chapter":"Interlude","action":"state","objective":"","dialogue":"要是阿萤姐姐在就好了。她最亮了","detail":"Interlude||要是阿萤姐姐在就好了。她最亮了|False|False|False|False|False"}
+{"seconds":198.6239013671875,"chapter":"Interlude","action":"key","objective":"","dialogue":"要是阿萤姐姐在就好了。她最亮了","detail":"Space"}
+{"seconds":199.14004516601563,"chapter":"Interlude","action":"state","objective":"","dialogue":"要是阿萤姐姐在就好了。她最亮了，船一定看得见。","detail":"Interlude||要是阿萤姐姐在就好了。她最亮了，船一定看得见。|False|False|False|False|False"}
+{"seconds":199.14073181152345,"chapter":"Interlude","action":"key","objective":"","dialogue":"要是阿萤姐姐在就好了。她最亮了，船一定看得见。","detail":"Space"}
+{"seconds":199.6568145751953,"chapter":"Interlude","action":"state","objective":"","dialogue":"小灯笼守的灯也很亮的。","detail":"Interlude||小灯笼守的灯也很亮的。|False|False|False|False|False"}
+{"seconds":199.6575469970703,"chapter":"Interlude","action":"key","objective":"","dialogue":"小灯笼守的灯也很亮的。","detail":"Space"}
+{"seconds":200.17381286621095,"chapter":"Interlude","action":"state","objective":"","dialogue":"他知道，大家是好意。可正因为大","detail":"Interlude||他知道，大家是好意。可正因为大|False|False|False|False|False"}
+{"seconds":200.1748046875,"chapter":"Interlude","action":"key","objective":"","dialogue":"他知道，大家是好意。可正因为大","detail":"Space"}
+{"seconds":200.690185546875,"chapter":"Interlude","action":"state","objective":"","dialogue":"他知道，大家是好意。可正因为大家都这么好，他才更难受。","detail":"Interlude||他知道，大家是好意。可正因为大家都这么好，他才更难受。|False|False|False|False|False"}
+{"seconds":200.6909942626953,"chapter":"Interlude","action":"key","objective":"","dialogue":"他知道，大家是好意。可正因为大家都这么好，他才更难受。","detail":"Space"}
+{"seconds":201.20709228515626,"chapter":"Interlude","action":"state","objective":"一个人走回岬角，到金色光树下","dialogue":"","detail":"Interlude|一个人走回岬角，到金色光树下||False|False|False|False|False"}
+{"seconds":201.2082061767578,"chapter":"Interlude","action":"diagnostic-teleport","objective":"一个人走回岬角，到金色光树下","dialogue":"","detail":"(4.084, 2.379, -22.138)"}
+{"seconds":201.7236785888672,"chapter":"Interlude","action":"state","objective":"","dialogue":"走到金色光树下，他打开灯笼，对","detail":"Interlude||走到金色光树下，他打开灯笼，对|False|False|False|False|False"}
+{"seconds":201.72447204589845,"chapter":"Interlude","action":"key","objective":"","dialogue":"走到金色光树下，他打开灯笼，对","detail":"Space"}
+{"seconds":202.24063110351563,"chapter":"Interlude","action":"state","objective":"","dialogue":"走到金色光树下，他打开灯笼，对着光果轻轻吹了一口气。","detail":"Interlude||走到金色光树下，他打开灯笼，对着光果轻轻吹了一口气。|False|False|False|False|False"}
+{"seconds":202.2415313720703,"chapter":"Interlude","action":"key","objective":"","dialogue":"走到金色光树下，他打开灯笼，对着光果轻轻吹了一口气。","detail":"Space"}
+{"seconds":202.75787353515626,"chapter":"Interlude","action":"state","objective":"","dialogue":"光灭了。","detail":"Interlude||光灭了。|False|False|False|False|False"}
+{"seconds":202.7597198486328,"chapter":"Interlude","action":"key","objective":"","dialogue":"光灭了。","detail":"Space"}
+{"seconds":203.27447509765626,"chapter":"Interlude","action":"state","objective":"","dialogue":"反正我也照不亮谁。","detail":"Interlude||反正我也照不亮谁。|False|False|False|False|False"}
+{"seconds":203.27529907226563,"chapter":"Interlude","action":"key","objective":"","dialogue":"反正我也照不亮谁。","detail":"Space"}
+{"seconds":203.79122924804688,"chapter":"Interlude","action":"key","objective":"","dialogue":"反正我也照不亮谁。","detail":"Space"}
+{"seconds":204.2940216064453,"chapter":"Interlude","action":"key","objective":"","dialogue":"反正我也照不亮谁。","detail":"Space"}
+{"seconds":204.810302734375,"chapter":"Interlude","action":"key","objective":"","dialogue":"反正我也照不亮谁。","detail":"Space"}
+{"seconds":205.32725524902345,"chapter":"Interlude","action":"state","objective":"","dialogue":"不","detail":"Interlude||不|False|False|False|False|False"}
+{"seconds":205.32920837402345,"chapter":"Interlude","action":"key","objective":"","dialogue":"不","detail":"Space"}
+{"seconds":205.84375,"chapter":"Interlude","action":"state","objective":"","dialogue":"不知道过了多久，楼下传来一声铃响。邮差爷爷从码头一路走回岬角，把一封折成萤火虫形状的信放在床边。","detail":"Interlude||不知道过了多久，楼下传来一声铃响。邮差爷爷从码头一路走回岬角，把一封折成萤火虫形状的信放在床边。|False|False|False|False|False"}
+{"seconds":205.84478759765626,"chapter":"Interlude","action":"key","objective":"","dialogue":"不知道过了多久，楼下传来一声铃响。邮差爷爷从码头一路走回岬角，把一封折成萤火虫形状的信放在床边。","detail":"Space"}
+{"seconds":206.3606414794922,"chapter":"Interlude","action":"state","objective":"","dialogue":"阿萤临走那天塞给我的。她说，长","detail":"Interlude||阿萤临走那天塞给我的。她说，长|False|False|False|False|False"}
+{"seconds":207.7674102783203,"chapter":"Interlude","action":"screenshot","objective":"","dialogue":"阿萤临走那天塞给我的。她说，长夜第三天晚上再交给你。她说，那时候你大概会需要。","detail":"04-folded-letter-prop; saved=True"}
+{"seconds":207.77044677734376,"chapter":"Interlude","action":"key","objective":"","dialogue":"阿萤临走那天塞给我的。她说，长夜第三天晚上再交给你。她说，那时候你大概会需要。","detail":"Space"}
+{"seconds":208.28309631347657,"chapter":"Interlude","action":"state","objective":"","dialogue":"","detail":"Interlude|||False|False|False|True|False"}
+{"seconds":209.6365203857422,"chapter":"Interlude","action":"screenshot","objective":"","dialogue":"","detail":"04-letter; saved=True"}
+{"seconds":209.64398193359376,"chapter":"Interlude","action":"key","objective":"","dialogue":"","detail":"Enter"}
+{"seconds":210.6690673828125,"chapter":"Interlude","action":"state","objective":"","dialogue":"","detail":"Interlude|||False|False|False|False|False"}
+{"seconds":211.18621826171876,"chapter":"Interlude","action":"state","objective":"","dialogue":"港湾里，","detail":"Interlude||港湾里，|False|False|False|False|False"}
+{"seconds":211.18853759765626,"chapter":"Interlude","action":"key","objective":"","dialogue":"港湾里，","detail":"Space"}
+{"seconds":211.7026824951172,"chapter":"Interlude","action":"state","objective":"","dialogue":"港湾里，大家心急，把灯都举向天和海。整片天被照得白蒙蒙的，一颗星也看不见。","detail":"Interlude||港湾里，大家心急，把灯都举向天和海。整片天被照得白蒙蒙的，一颗星也看不见。|False|False|False|False|False"}
+{"seconds":211.70347595214845,"chapter":"Interlude","action":"key","objective":"","dialogue":"港湾里，大家心急，把灯都举向天和海。整片天被照得白蒙蒙的，一颗星也看不见。","detail":"Space"}
+{"seconds":212.21958923339845,"chapter":"Interlude","action":"state","objective":"","dialogue":"海上的人，是靠星星认路的。","detail":"Interlude||海上的人，是靠星星认路的。|False|False|False|False|False"}
+{"seconds":212.22035217285157,"chapter":"Interlude","action":"key","objective":"","dialogue":"海上的人，是靠星星认路的。","detail":"Space"}
+{"seconds":212.73666381835938,"chapter":"Interlude","action":"state","objective":"","dialogue":"他捡起那盏灭了的灯笼，捧在手心","detail":"Interlude||他捡起那盏灭了的灯笼，捧在手心|False|False|False|False|False"}
+{"seconds":212.7373809814453,"chapter":"Interlude","action":"key","objective":"","dialogue":"他捡起那盏灭了的灯笼，捧在手心","detail":"Space"}
+{"seconds":213.25387573242188,"chapter":"Interlude","action":"state","objective":"","dialogue":"他捡起那盏灭了的灯笼，捧在手心里轻轻摇了摇。光果醒了。小铃叮地响了一声。","detail":"Interlude||他捡起那盏灭了的灯笼，捧在手心里轻轻摇了摇。光果醒了。小铃叮地响了一声。|False|False|False|False|False"}
+{"seconds":213.2546844482422,"chapter":"Interlude","action":"key","objective":"","dialogue":"他捡起那盏灭了的灯笼，捧在手心里轻轻摇了摇。光果醒了。小铃叮地响了一声。","detail":"Space"}
+{"seconds":213.77101135253907,"chapter":"Interlude","action":"state","objective":"","dialogue":"","detail":"Interlude|||False|False|False|False|False"}
+{"seconds":214.28836059570313,"chapter":"Interlude","action":"state","objective":"","dialogue":"","detail":"Interlude|||True|False|False|False|False"}
+{"seconds":214.29063415527345,"chapter":"Interlude","action":"chapter-completed","objective":"","dialogue":"","detail":"unlocked=4"}
+{"seconds":215.1561737060547,"chapter":"Interlude","action":"screenshot","objective":"","dialogue":"","detail":"map-before-5; saved=True"}
+{"seconds":215.1600341796875,"chapter":"Interlude","action":"key","objective":"","dialogue":"","detail":"Enter"}
+{"seconds":216.18881225585938,"chapter":"Interlude","action":"state","objective":"","dialogue":"","detail":"Interlude|||False|False|False|False|False"}
+{"seconds":216.70553588867188,"chapter":"Three","action":"state","objective":"","dialogue":"","detail":"Three|||False|True|False|False|False"}
+{"seconds":216.70640563964845,"chapter":"Three","action":"chapter-entered","objective":"","dialogue":"","detail":"5"}
+{"seconds":221.35693359375,"chapter":"Three","action":"state","objective":"","dialogue":"","detail":"Three|||False|False|False|False|False"}
+{"seconds":221.87364196777345,"chapter":"Three","action":"state","objective":"跑到码头去","dialogue":"","detail":"Three|跑到码头去||False|False|False|False|False"}
+{"seconds":223.45956420898438,"chapter":"Three","action":"screenshot","objective":"跑到码头去","dialogue":"","detail":"05-normal; saved=True"}
+{"seconds":223.46484375,"chapter":"Three","action":"static-sample-start","objective":"跑到码头去","dialogue":"","detail":"8 seconds; no input/capture/teleport"}
+{"seconds":231.47988891601563,"chapter":"Three","action":"static-sample-end","objective":"跑到码头去","dialogue":"","detail":"8 seconds"}
+{"seconds":231.4813232421875,"chapter":"Three","action":"diagnostic-teleport","objective":"跑到码头去","dialogue":"","detail":"(10.002, 2.480, -19.000)"}
+{"seconds":231.9966278076172,"chapter":"Three","action":"state","objective":"","dialogue":"大家能不能先把灯放低一点！天太","detail":"Three||大家能不能先把灯放低一点！天太|False|False|False|False|False"}
+{"seconds":231.99807739257813,"chapter":"Three","action":"key","objective":"","dialogue":"大家能不能先把灯放低一点！天太","detail":"Space"}
+{"seconds":232.51344299316407,"chapter":"Three","action":"state","objective":"","dialogue":"大家能不能先把灯放低一点！天太亮了，船看不见星星。","detail":"Three||大家能不能先把灯放低一点！天太亮了，船看不见星星。|False|False|False|False|False"}
+{"seconds":232.5156707763672,"chapter":"Three","action":"key","objective":"","dialogue":"大家能不能先把灯放低一点！天太亮了，船看不见星星。","detail":"Space"}
+{"seconds":233.0307159423828,"chapter":"Three","action":"state","objective":"","dialogue":"听小灯笼的，他守了三天灯，他知","detail":"Three||听小灯笼的，他守了三天灯，他知|False|False|False|False|False"}
+{"seconds":233.03182983398438,"chapter":"Three","action":"key","objective":"","dialogue":"听小灯笼的，他守了三天灯，他知","detail":"Space"}
+{"seconds":233.54750061035157,"chapter":"Three","action":"state","objective":"","dialogue":"听小灯笼的，他守了三天灯，他知道。","detail":"Three||听小灯笼的，他守了三天灯，他知道。|False|False|False|False|False"}
+{"seconds":233.5482635498047,"chapter":"Three","action":"key","objective":"","dialogue":"听小灯笼的，他守了三天灯，他知道。","detail":"Space"}
+{"seconds":234.06396484375,"chapter":"Three","action":"state","objective":"","dialogue":"码头上的灯一盏一盏放低，村子里","detail":"Three||码头上的灯一盏一盏放低，村子里|False|False|False|False|False"}
+{"seconds":234.06488037109376,"chapter":"Three","action":"key","objective":"","dialogue":"码头上的灯一盏一盏放低，村子里","detail":"Space"}
+{"seconds":234.5813751220703,"chapter":"Three","action":"state","objective":"","dialogue":"码头上的灯一盏一盏放低，村子里的窗也一扇扇拉上了帘子。头顶的夜空一点点黑了回来。","detail":"Three||码头上的灯一盏一盏放低，村子里的窗也一扇扇拉上了帘子。头顶的夜空一点点黑了回来。|False|False|False|False|False"}
+{"seconds":234.5827178955078,"chapter":"Three","action":"key","objective":"","dialogue":"码头上的灯一盏一盏放低，村子里的窗也一扇扇拉上了帘子。头顶的夜空一点点黑了回来。","detail":"Space"}
+{"seconds":235.09805297851563,"chapter":"Three","action":"state","objective":"","dialogue":"可岬角的光果只够三盏灯了。小路","detail":"Three||可岬角的光果只够三盏灯了。小路|False|False|False|False|False"}
+{"seconds":235.09877014160157,"chapter":"Three","action":"key","objective":"","dialogue":"可岬角的光果只够三盏灯了。小路","detail":"Space"}
+{"seconds":235.61505126953126,"chapter":"Three","action":"state","objective":"","dialogue":"可岬角的光果只够三盏灯了。小路、长椅、阿婆的窗、码头——四个地方，三盏灯，只能有一束宽光。","detail":"Three||可岬角的光果只够三盏灯了。小路、长椅、阿婆的窗、码头——四个地方，三盏灯，只能有一束宽光。|False|False|False|False|False"}
+{"seconds":235.61575317382813,"chapter":"Three","action":"key","objective":"","dialogue":"可岬角的光果只够三盏灯了。小路、长椅、阿婆的窗、码头——四个地方，三盏灯，只能有一束宽光。","detail":"Space"}
+{"seconds":236.1319122314453,"chapter":"Three","action":"state","objective":"去栈桥尽头找灯伯","dialogue":"","detail":"Three|去栈桥尽头找灯伯||False|False|False|False|False"}
+{"seconds":236.1328125,"chapter":"Three","action":"diagnostic-teleport","objective":"去栈桥尽头找灯伯","dialogue":"","detail":"(10.650, 2.480, -9.700)"}
+{"seconds":236.13330078125,"chapter":"Three","action":"key","objective":"去栈桥尽头找灯伯","dialogue":"","detail":"E"}
+{"seconds":236.64871215820313,"chapter":"Three","action":"state","objective":"去栈桥尽头找灯伯","dialogue":"我跟老伴儿守这码头，守了大半辈","detail":"Three|去栈桥尽头找灯伯|我跟老伴儿守这码头，守了大半辈|False|False|False|False|False"}
+{"seconds":236.65003967285157,"chapter":"Three","action":"key","objective":"去栈桥尽头找灯伯","dialogue":"我跟老伴儿守这码头，守了大半辈","detail":"Space"}
+{"seconds":237.16526794433595,"chapter":"Three","action":"state","objective":"去栈桥尽头找灯伯","dialogue":"我跟老伴儿守这码头，守了大半辈子。每天早上她升旗，每天晚上我挂灯。旗是她缝的。","detail":"Three|去栈桥尽头找灯伯|我跟老伴儿守这码头，守了大半辈子。每天早上她升旗，每天晚上我挂灯。旗是她缝的。|False|False|False|False|False"}
+{"seconds":237.16603088378907,"chapter":"Three","action":"key","objective":"去栈桥尽头找灯伯","dialogue":"我跟老伴儿守这码头，守了大半辈子。每天早上她升旗，每天晚上我挂灯。旗是她缝的。","detail":"Space"}
+{"seconds":237.6820831298828,"chapter":"Three","action":"state","objective":"去栈桥尽头找灯伯","dialogue":"她走以后，我照旧升旗，照旧挂灯","detail":"Three|去栈桥尽头找灯伯|她走以后，我照旧升旗，照旧挂灯|False|False|False|False|False"}
+{"seconds":237.6828155517578,"chapter":"Three","action":"key","objective":"去栈桥尽头找灯伯","dialogue":"她走以后，我照旧升旗，照旧挂灯","detail":"Space"}
+{"seconds":238.19895935058595,"chapter":"Three","action":"state","objective":"去栈桥尽头找灯伯","dialogue":"她走以后，我照旧升旗，照旧挂灯。有人问我图个什么，那盏马灯又不是岛上最亮的灯，坡上随便一扇窗都比它亮。","detail":"Three|去栈桥尽头找灯伯|她走以后，我照旧升旗，照旧挂灯。有人问我图个什么，那盏马灯又不是岛上最亮的灯，坡上随便一扇窗都比它亮。|False|False|False|False|False"}
+{"seconds":238.1996612548828,"chapter":"Three","action":"key","objective":"去栈桥尽头找灯伯","dialogue":"她走以后，我照旧升旗，照旧挂灯。有人问我图个什么，那盏马灯又不是岛上最亮的灯，坡上随便一扇窗都比它亮。","detail":"Space"}
+{"seconds":238.71563720703126,"chapter":"Three","action":"state","objective":"去栈桥尽头找灯伯","dialogue":"可灯不用最亮。要一直亮着，让船","detail":"Three|去栈桥尽头找灯伯|可灯不用最亮。要一直亮着，让船|False|False|False|False|False"}
+{"seconds":240.1011199951172,"chapter":"Three","action":"screenshot","objective":"去栈桥尽头找灯伯","dialogue":"可灯不用最亮。要一直亮着，让船认得它。","detail":"05-dengbo-seated; saved=True"}
+{"seconds":240.10360717773438,"chapter":"Three","action":"key","objective":"去栈桥尽头找灯伯","dialogue":"可灯不用最亮。要一直亮着，让船认得它。","detail":"Space"}
+{"seconds":240.6161346435547,"chapter":"Three","action":"state","objective":"照亮小路、长椅、窗和码头——只能有一束宽光。","dialogue":"","detail":"Three|照亮小路、长椅、窗和码头——只能有一束宽光。||False|False|False|False|False"}
+{"seconds":240.61695861816407,"chapter":"Three","action":"key","objective":"照亮小路、长椅、窗和码头——只能有一束宽光。","dialogue":"","detail":"Tab"}
+{"seconds":241.13287353515626,"chapter":"Three","action":"state","objective":"照亮小路、长椅、窗和码头——只能有一束宽光。","dialogue":"","detail":"Three|照亮小路、长椅、窗和码头——只能有一束宽光。||False|False|False|False|True"}
+{"seconds":241.48504638671876,"chapter":"Three","action":"screenshot","objective":"照亮小路、长椅、窗和码头——只能有一束宽光。","dialogue":"","detail":"05-puzzle-before; saved=True"}
+{"seconds":241.4873504638672,"chapter":"Three","action":"key","objective":"照亮小路、长椅、窗和码头——只能有一束宽光。","dialogue":"","detail":"Digit3"}
+{"seconds":241.99990844726563,"chapter":"Three","action":"key","objective":"照亮小路、长椅、窗和码头——只能有一束宽光。","dialogue":"","detail":"D"}
+{"seconds":242.5164794921875,"chapter":"Three","action":"key","objective":"照亮小路、长椅、窗和码头——只能有一束宽光。","dialogue":"","detail":"Digit2"}
+{"seconds":243.0332489013672,"chapter":"Three","action":"key","objective":"照亮小路、长椅、窗和码头——只能有一束宽光。","dialogue":"","detail":"D"}
+{"seconds":243.54995727539063,"chapter":"Three","action":"key","objective":"照亮小路、长椅、窗和码头——只能有一束宽光。","dialogue":"","detail":"Space"}
+{"seconds":244.0666046142578,"chapter":"Three","action":"key","objective":"照亮小路、长椅、窗和码头——只能有一束宽光。","dialogue":"","detail":"Digit1"}
+{"seconds":244.5831756591797,"chapter":"Three","action":"key","objective":"照亮小路、长椅、窗和码头——只能有一束宽光。","dialogue":"","detail":"Space"}
+{"seconds":245.1004638671875,"chapter":"Three","action":"puzzle-evaluated","objective":"照亮小路、长椅、窗和码头——只能有一束宽光。","dialogue":"","detail":"solved=True; covered=All; skyLoss=1"}
+{"seconds":245.43490600585938,"chapter":"Three","action":"screenshot","objective":"照亮小路、长椅、窗和码头——只能有一束宽光。","dialogue":"","detail":"05-puzzle-solved; saved=True"}
+{"seconds":245.43829345703126,"chapter":"Three","action":"key","objective":"照亮小路、长椅、窗和码头——只能有一束宽光。","dialogue":"","detail":"Enter"}
+{"seconds":246.46791076660157,"chapter":"Three","action":"state","objective":"","dialogue":"","detail":"Three|||False|False|False|False|False"}
+{"seconds":246.98495483398438,"chapter":"Three","action":"state","objective":"","dialogue":"可旗杆","detail":"Three||可旗杆|False|False|False|False|False"}
+{"seconds":246.98699951171876,"chapter":"Three","action":"key","objective":"","dialogue":"可旗杆","detail":"Space"}
+{"seconds":247.5017547607422,"chapter":"Three","action":"state","objective":"","dialogue":"可旗杆上的马灯，在他调灯的时候，最后一点光熄了。灯伯把手贴在玻璃上，想分一点自己的光进去。","detail":"Three||可旗杆上的马灯，在他调灯的时候，最后一点光熄了。灯伯把手贴在玻璃上，想分一点自己的光进去。|False|False|False|False|False"}
+{"seconds":247.50277709960938,"chapter":"Three","action":"key","objective":"","dialogue":"可旗杆上的马灯，在他调灯的时候，最后一点光熄了。灯伯把手贴在玻璃上，想分一点自己的光进去。","detail":"Space"}
+{"seconds":248.01841735839845,"chapter":"Three","action":"state","objective":"","dialogue":"不够。还差一点。","detail":"Three||不够。还差一点。|False|False|False|False|False"}
+{"seconds":248.01919555664063,"chapter":"Three","action":"key","objective":"","dialogue":"不够。还差一点。","detail":"Space"}
+{"seconds":248.5354461669922,"chapter":"Three","action":"state","objective":"","dialogue":"他低头看着自己的灯笼。上面挂","detail":"Three||他低头看着自己的灯笼。上面挂|False|False|False|False|False"}
+{"seconds":248.5374298095703,"chapter":"Three","action":"key","objective":"","dialogue":"他低头看着自己的灯笼。上面挂","detail":"Space"}
+{"seconds":249.05245971679688,"chapter":"Three","action":"state","objective":"","dialogue":"他低头看着自己的灯笼。上面挂着邮差爷爷的小铃，里面还留着阿萤分给他的光。那是他唯一的光。","detail":"Three||他低头看着自己的灯笼。上面挂着邮差爷爷的小铃，里面还留着阿萤分给他的光。那是他唯一的光。|False|False|False|False|False"}
+{"seconds":249.05450439453126,"chapter":"Three","action":"key","objective":"","dialogue":"他低头看着自己的灯笼。上面挂着邮差爷爷的小铃，里面还留着阿萤分给他的光。那是他唯一的光。","detail":"Space"}
+{"seconds":249.5690155029297,"chapter":"Three","action":"state","objective":"","dialogue":"可现在，最暗的地方，是旗杆上","detail":"Three||可现在，最暗的地方，是旗杆上|False|False|False|False|False"}
+{"seconds":249.57069396972657,"chapter":"Three","action":"key","objective":"","dialogue":"可现在，最暗的地方，是旗杆上","detail":"Space"}
+{"seconds":250.0858154296875,"chapter":"Three","action":"state","objective":"","dialogue":"可现在，最暗的地方，是旗杆上。","detail":"Three||可现在，最暗的地方，是旗杆上。|False|False|False|False|False"}
+{"seconds":250.0866241455078,"chapter":"Three","action":"key","objective":"","dialogue":"可现在，最暗的地方，是旗杆上。","detail":"Space"}
+{"seconds":250.60287475585938,"chapter":"Three","action":"state","objective":"最暗的地方，是旗杆上","dialogue":"","detail":"Three|最暗的地方，是旗杆上||False|False|False|False|False"}
+{"seconds":250.60382080078126,"chapter":"Three","action":"diagnostic-teleport","objective":"最暗的地方，是旗杆上","dialogue":"","detail":"(9.997, 2.480, -10.698)"}
+{"seconds":250.6044921875,"chapter":"Three","action":"key","objective":"最暗的地方，是旗杆上","dialogue":"","detail":"E"}
+{"seconds":251.11985778808595,"chapter":"Three","action":"state","objective":"","dialogue":"","detail":"Three|||False|False|False|False|False"}
+{"seconds":252.6716766357422,"chapter":"Three","action":"state","objective":"","dialogue":"那只是一","detail":"Three||那只是一|False|False|False|False|False"}
+{"seconds":252.6725311279297,"chapter":"Three","action":"key","objective":"","dialogue":"那只是一","detail":"Space"}
+{"seconds":253.18838500976563,"chapter":"Three","action":"state","objective":"","dialogue":"那只是一盏小小的灯笼。可今晚的天，被全岛的人一盏一盏收回了黑色；在那么干净的黑夜里，哪怕只有一点点光，海上也看得见。","detail":"Three||那只是一盏小小的灯笼。可今晚的天，被全岛的人一盏一盏收回了黑色；在那么干净的黑夜里，哪怕只有一点点光，海上也看得见。|False|False|False|False|False"}
+{"seconds":253.18905639648438,"chapter":"Three","action":"key","objective":"","dialogue":"那只是一盏小小的灯笼。可今晚的天，被全岛的人一盏一盏收回了黑色；在那么干净的黑夜里，哪怕只有一点点光，海上也看得见。","detail":"Space"}
+{"seconds":253.7052001953125,"chapter":"Three","action":"state","objective":"","dialogue":"他退后两步，站在旗杆的影子里","detail":"Three||他退后两步，站在旗杆的影子里|False|False|False|False|False"}
+{"seconds":255.0733642578125,"chapter":"Three","action":"screenshot","objective":"","dialogue":"他退后两步，站在旗杆的影子里，手里什么都没有了。远远地，海上传来了一声船铃。","detail":"05-lantern-hung; saved=True"}
+{"seconds":255.07644653320313,"chapter":"Three","action":"key","objective":"","dialogue":"他退后两步，站在旗杆的影子里，手里什么都没有了。远远地，海上传来了一声船铃。","detail":"Space"}
+{"seconds":255.5892333984375,"chapter":"Three","action":"state","objective":"","dialogue":"","detail":"Three|||False|False|True|False|False"}
+{"seconds":256.8243103027344,"chapter":"Three","action":"screenshot","objective":"","dialogue":"","detail":"05-chapter-end-card; saved=True"}
+{"seconds":256.8291320800781,"chapter":"Three","action":"key","objective":"","dialogue":"","detail":"Enter"}
+{"seconds":257.86090087890627,"chapter":"Three","action":"state","objective":"","dialogue":"","detail":"Three|||False|False|False|False|False"}
+{"seconds":259.41278076171877,"chapter":"Three","action":"state","objective":"","dialogue":"","detail":"Three|||True|False|False|False|False"}
+{"seconds":259.4145202636719,"chapter":"Three","action":"chapter-completed","objective":"","dialogue":"","detail":"unlocked=5"}
+{"seconds":260.2798767089844,"chapter":"Three","action":"screenshot","objective":"","dialogue":"","detail":"map-before-6; saved=True"}
+{"seconds":260.28326416015627,"chapter":"Three","action":"key","objective":"","dialogue":"","detail":"Enter"}
+{"seconds":261.312744140625,"chapter":"Three","action":"state","objective":"","dialogue":"","detail":"Three|||False|False|False|False|False"}
+{"seconds":261.8235168457031,"chapter":"Finale","action":"state","objective":"","dialogue":"","detail":"Finale|||False|True|False|False|False"}
+{"seconds":261.8243408203125,"chapter":"Finale","action":"chapter-entered","objective":"","dialogue":"","detail":"6"}
+{"seconds":266.4762878417969,"chapter":"Finale","action":"state","objective":"","dialogue":"","detail":"Finale|||False|False|False|False|False"}
+{"seconds":268.027587890625,"chapter":"Finale","action":"state","objective":"","dialogue":"码头上","detail":"Finale||码头上|False|False|False|False|False"}
+{"seconds":269.5948791503906,"chapter":"Finale","action":"screenshot","objective":"","dialogue":"码头上的人都在往栈桥边涌。没有人回头看他。","detail":"06-normal; saved=True"}
+{"seconds":269.59796142578127,"chapter":"Finale","action":"static-sample-start","objective":"","dialogue":"码头上的人都在往栈桥边涌。没有人回头看他。","detail":"8 seconds; no input/capture/teleport"}
+{"seconds":277.6148681640625,"chapter":"Finale","action":"static-sample-end","objective":"","dialogue":"码头上的人都在往栈桥边涌。没有人回头看他。","detail":"8 seconds"}
+{"seconds":277.6156921386719,"chapter":"Finale","action":"key","objective":"","dialogue":"码头上的人都在往栈桥边涌。没有人回头看他。","detail":"Space"}
+{"seconds":278.1317443847656,"chapter":"Finale","action":"state","objective":"","dialogue":"在完全的黑暗里，他第一次看见了","detail":"Finale||在完全的黑暗里，他第一次看见了|False|False|False|False|False"}
+{"seconds":278.13250732421877,"chapter":"Finale","action":"key","objective":"","dialogue":"在完全的黑暗里，他第一次看见了","detail":"Space"}
+{"seconds":278.64849853515627,"chapter":"Finale","action":"state","objective":"","dialogue":"在完全的黑暗里，他第一次看见了自己的手：手指的边缘，有一层很淡很淡的光，浅浅的琥珀色，像清晨窗玻璃上的一口哈气。","detail":"Finale||在完全的黑暗里，他第一次看见了自己的手：手指的边缘，有一层很淡很淡的光，浅浅的琥珀色，像清晨窗玻璃上的一口哈气。|False|False|False|False|False"}
+{"seconds":278.64923095703127,"chapter":"Finale","action":"key","objective":"","dialogue":"在完全的黑暗里，他第一次看见了自己的手：手指的边缘，有一层很淡很淡的光，浅浅的琥珀色，像清晨窗玻璃上的一口哈气。","detail":"Space"}
+{"seconds":279.16510009765627,"chapter":"Finale","action":"state","objective":"","dialogue":"他在发光。是岛上最淡的那一种。","detail":"Finale||他在发光。是岛上最淡的那一种。|False|False|False|False|False"}
+{"seconds":279.1658020019531,"chapter":"Finale","action":"key","objective":"","dialogue":"他在发光。是岛上最淡的那一种。","detail":"Space"}
+{"seconds":279.6818542480469,"chapter":"Finale","action":"state","objective":"","dialogue":"他在发光。是岛上最淡的那一种。可那是他自己的光。","detail":"Finale||他在发光。是岛上最淡的那一种。可那是他自己的光。|False|False|False|False|False"}
+{"seconds":279.68267822265627,"chapter":"Finale","action":"key","objective":"","dialogue":"他在发光。是岛上最淡的那一种。可那是他自己的光。","detail":"Space"}
+{"seconds":280.1988220214844,"chapter":"Finale","action":"state","objective":"","dialogue":"原来，光是给出去，才长出来的。","detail":"Finale||原来，光是给出去，才长出来的。|False|False|False|False|False"}
+{"seconds":280.1999816894531,"chapter":"Finale","action":"key","objective":"","dialogue":"原来，光是给出去，才长出来的。","detail":"Space"}
+{"seconds":280.7158508300781,"chapter":"Finale","action":"key","objective":"","dialogue":"原来，光是给出去，才长出来的。","detail":"Space"}
+{"seconds":281.2335510253906,"chapter":"Finale","action":"state","objective":"","dialogue":"","detail":"Finale|||False|False|False|False|False"}
+{"seconds":287.9532165527344,"chapter":"Finale","action":"state","objective":"","dialogue":"我听见铃铛，就知道是你在守","detail":"Finale||我听见铃铛，就知道是你在守|False|False|False|False|False"}
+{"seconds":287.95404052734377,"chapter":"Finale","action":"key","objective":"","dialogue":"我听见铃铛，就知道是你在守","detail":"Space"}
+{"seconds":288.4699401855469,"chapter":"Finale","action":"state","objective":"","dialogue":"我听见铃铛，就知道是你在守灯。","detail":"Finale||我听见铃铛，就知道是你在守灯。|False|False|False|False|False"}
+{"seconds":288.4707946777344,"chapter":"Finale","action":"key","objective":"","dialogue":"我听见铃铛，就知道是你在守灯。","detail":"Space"}
+{"seconds":288.98675537109377,"chapter":"Finale","action":"state","objective":"","dialogue":"她低头看见了他的手。她没有大","detail":"Finale||她低头看见了他的手。她没有大|False|False|False|False|False"}
+{"seconds":290.3551025390625,"chapter":"Finale","action":"screenshot","objective":"","dialogue":"她低头看见了他的手。她没有大喊，只是笑了，把自己的手轻轻放在他的手旁边。一只亮得像春天，一只淡得像一口哈气。","detail":"06-reunion-hands; saved=True"}
+{"seconds":290.3583984375,"chapter":"Finale","action":"key","objective":"","dialogue":"她低头看见了他的手。她没有大喊，只是笑了，把自己的手轻轻放在他的手旁边。一只亮得像春天，一只淡得像一口哈气。","detail":"Space"}
+{"seconds":290.871337890625,"chapter":"Finale","action":"state","objective":"","dialogue":"我还是最暗的。","detail":"Finale||我还是最暗的。|False|False|False|False|False"}
+{"seconds":290.8720703125,"chapter":"Finale","action":"key","objective":"","dialogue":"我还是最暗的。","detail":"Space"}
+{"seconds":291.3882141113281,"chapter":"Finale","action":"state","objective":"","dialogue":"嗯。可是我在海上，只认得这一盏","detail":"Finale||嗯。可是我在海上，只认得这一盏|False|False|False|False|False"}
+{"seconds":291.3895263671875,"chapter":"Finale","action":"key","objective":"","dialogue":"嗯。可是我在海上，只认得这一盏","detail":"Space"}
+{"seconds":291.90478515625,"chapter":"Finale","action":"state","objective":"","dialogue":"嗯。可是我在海上，只认得这一盏。","detail":"Finale||嗯。可是我在海上，只认得这一盏。|False|False|False|False|False"}
+{"seconds":291.90557861328127,"chapter":"Finale","action":"key","objective":"","dialogue":"嗯。可是我在海上，只认得这一盏。","detail":"Space"}
+{"seconds":292.421875,"chapter":"Finale","action":"state","objective":"","dialogue":"小灯笼这个名字，你是不是一直不","detail":"Finale||小灯笼这个名字，你是不是一直不|False|False|False|False|False"}
+{"seconds":292.42279052734377,"chapter":"Finale","action":"key","objective":"","dialogue":"小灯笼这个名字，你是不是一直不","detail":"Space"}
+{"seconds":292.93853759765627,"chapter":"Finale","action":"state","objective":"","dialogue":"小灯笼这个名字，你是不是一直不喜欢？我起这个名字，是因为每次天黑，我都先找你的灯。","detail":"Finale||小灯笼这个名字，你是不是一直不喜欢？我起这个名字，是因为每次天黑，我都先找你的灯。|False|False|False|False|False"}
+{"seconds":292.9393615722656,"chapter":"Finale","action":"key","objective":"","dialogue":"小灯笼这个名字，你是不是一直不喜欢？我起这个名字，是因为每次天黑，我都先找你的灯。","detail":"Space"}
+{"seconds":293.45306396484377,"chapter":"Finale","action":"state","objective":"","dialogue":"小路上，邮差爷爷的铃响了；岬","detail":"Finale||小路上，邮差爷爷的铃响了；岬|False|False|False|False|False"}
+{"seconds":293.4542236328125,"chapter":"Finale","action":"key","objective":"","dialogue":"小路上，邮差爷爷的铃响了；岬","detail":"Space"}
+{"seconds":293.9697265625,"chapter":"Finale","action":"state","objective":"","dialogue":"小路上，邮差爷爷的铃响了；岬角上，阿婆的窗亮着；旗杆下，灯伯站起身，准备天亮升旗。","detail":"Finale||小路上，邮差爷爷的铃响了；岬角上，阿婆的窗亮着；旗杆下，灯伯站起身，准备天亮升旗。|False|False|False|False|False"}
+{"seconds":293.9705505371094,"chapter":"Finale","action":"key","objective":"","dialogue":"小路上，邮差爷爷的铃响了；岬角上，阿婆的窗亮着；旗杆下，灯伯站起身，准备天亮升旗。","detail":"Space"}
+{"seconds":294.48663330078127,"chapter":"Finale","action":"state","objective":"","dialogue":"阿婆屋前，那棵金色的光树，在最","detail":"Finale||阿婆屋前，那棵金色的光树，在最|False|False|False|False|False"}
+{"seconds":294.4880676269531,"chapter":"Finale","action":"key","objective":"","dialogue":"阿婆屋前，那棵金色的光树，在最","detail":"Space"}
+{"seconds":295.00384521484377,"chapter":"Finale","action":"state","objective":"","dialogue":"阿婆屋前，那棵金色的光树，在最低的一根斜枝上，开出了第一朵花。","detail":"Finale||阿婆屋前，那棵金色的光树，在最低的一根斜枝上，开出了第一朵花。|False|False|False|False|False"}
+{"seconds":296.3889465332031,"chapter":"Finale","action":"screenshot","objective":"","dialogue":"阿婆屋前，那棵金色的光树，在最低的一根斜枝上，开出了第一朵花。","detail":"06-first-flower; saved=True"}
+{"seconds":296.3924865722656,"chapter":"Finale","action":"key","objective":"","dialogue":"阿婆屋前，那棵金色的光树，在最低的一根斜枝上，开出了第一朵花。","detail":"Space"}
+{"seconds":296.90447998046877,"chapter":"Finale","action":"state","objective":"","dialogue":"你看，这棵树开花了。不早，也不","detail":"Finale||你看，这棵树开花了。不早，也不|False|False|False|False|False"}
+{"seconds":296.9058837890625,"chapter":"Finale","action":"key","objective":"","dialogue":"你看，这棵树开花了。不早，也不","detail":"Space"}
+{"seconds":297.42095947265627,"chapter":"Finale","action":"state","objective":"","dialogue":"你看，这棵树开花了。不早，也不晚。","detail":"Finale||你看，这棵树开花了。不早，也不晚。|False|False|False|False|False"}
+{"seconds":297.42181396484377,"chapter":"Finale","action":"key","objective":"","dialogue":"你看，这棵树开花了。不早，也不晚。","detail":"Space"}
+{"seconds":297.93792724609377,"chapter":"Finale","action":"state","objective":"","dialogue":"天边，那道细细的地球，亮起了一","detail":"Finale||天边，那道细细的地球，亮起了一|False|False|False|False|False"}
+{"seconds":297.9389343261719,"chapter":"Finale","action":"key","objective":"","dialogue":"天边，那道细细的地球，亮起了一","detail":"Space"}
+{"seconds":298.4544982910156,"chapter":"Finale","action":"state","objective":"","dialogue":"天边，那道细细的地球，亮起了一道新的边。长夜过去了。","detail":"Finale||天边，那道细细的地球，亮起了一道新的边。长夜过去了。|False|False|False|False|False"}
+{"seconds":298.45526123046877,"chapter":"Finale","action":"key","objective":"","dialogue":"天边，那道细细的地球，亮起了一道新的边。长夜过去了。","detail":"Space"}
+{"seconds":298.97137451171877,"chapter":"Finale","action":"state","objective":"","dialogue":"","detail":"Finale|||False|False|True|False|False"}
+{"seconds":300.20556640625,"chapter":"Finale","action":"screenshot","objective":"","dialogue":"","detail":"06-chapter-end-card; saved=True"}
+{"seconds":300.20843505859377,"chapter":"Finale","action":"key","objective":"","dialogue":"","detail":"Enter"}
+{"seconds":301.75640869140627,"chapter":"Finale","action":"key","objective":"","dialogue":"","detail":"Enter"}
+{"seconds":303.3066101074219,"chapter":"Finale","action":"key","objective":"","dialogue":"","detail":"Enter"}
+{"seconds":304.3401794433594,"chapter":"Finale","action":"state","objective":"","dialogue":"","detail":"Finale|||False|False|False|False|False"}
+{"seconds":304.857421875,"chapter":"Finale","action":"state","objective":"","dialogue":"","detail":"Finale|||True|False|False|False|False"}
+{"seconds":304.858154296875,"chapter":"Finale","action":"chapter-completed","objective":"","dialogue":"","detail":"unlocked=6"}
+{"seconds":306.241943359375,"chapter":"Finale","action":"screenshot","objective":"","dialogue":"","detail":"map-before-7; saved=True"}
+{"seconds":306.24530029296877,"chapter":"Finale","action":"key","objective":"","dialogue":"","detail":"Enter"}
+{"seconds":307.275390625,"chapter":"Finale","action":"state","objective":"","dialogue":"","detail":"Finale|||False|False|False|False|False"}
+{"seconds":307.7921447753906,"chapter":"Epilogue","action":"state","objective":"","dialogue":"","detail":"Epilogue|||False|True|False|False|False"}
+{"seconds":307.7928161621094,"chapter":"Epilogue","action":"chapter-entered","objective":"","dialogue":"","detail":"7"}
+{"seconds":312.44317626953127,"chapter":"Epilogue","action":"state","objective":"","dialogue":"","detail":"Epilogue|||False|False|False|False|False"}
+{"seconds":313.4770202636719,"chapter":"Epilogue","action":"state","objective":"长夜过去了。沿着小路走走吧。","dialogue":"","detail":"Epilogue|长夜过去了。沿着小路走走吧。||False|False|False|False|False"}
+{"seconds":315.0132751464844,"chapter":"Epilogue","action":"screenshot","objective":"长夜过去了。沿着小路走走吧。","dialogue":"","detail":"07-normal; saved=True"}
+{"seconds":315.0198669433594,"chapter":"Epilogue","action":"static-sample-start","objective":"长夜过去了。沿着小路走走吧。","dialogue":"","detail":"8 seconds; no input/capture/teleport"}
+{"seconds":323.0323181152344,"chapter":"Epilogue","action":"static-sample-end","objective":"长夜过去了。沿着小路走走吧。","dialogue":"","detail":"8 seconds"}
+{"seconds":323.0332946777344,"chapter":"Epilogue","action":"diagnostic-teleport","objective":"长夜过去了。沿着小路走走吧。","dialogue":"","detail":"(9.700, 2.480, -13.800)"}
+{"seconds":323.0343322753906,"chapter":"Epilogue","action":"epilogue-visit","objective":"长夜过去了。沿着小路走走吧。","dialogue":"","detail":"aying"}
+{"seconds":330.26953125,"chapter":"Epilogue","action":"diagnostic-teleport","objective":"长夜过去了。沿着小路走走吧。","dialogue":"","detail":"(9.176, 2.480, -13.554)"}
+{"seconds":330.2712097167969,"chapter":"Epilogue","action":"epilogue-visit","objective":"长夜过去了。沿着小路走走吧。","dialogue":"","detail":"postman"}
+{"seconds":337.50531005859377,"chapter":"Epilogue","action":"diagnostic-teleport","objective":"长夜过去了。沿着小路走走吧。","dialogue":"","detail":"(5.078, 2.396, -20.336)"}
+{"seconds":337.50592041015627,"chapter":"Epilogue","action":"epilogue-visit","objective":"长夜过去了。沿着小路走走吧。","dialogue":"","detail":"abo"}
+{"seconds":344.74139404296877,"chapter":"Epilogue","action":"diagnostic-teleport","objective":"长夜过去了。沿着小路走走吧。","dialogue":"","detail":"(8.652, 1.892, -11.620)"}
+{"seconds":344.74212646484377,"chapter":"Epilogue","action":"epilogue-visit","objective":"长夜过去了。沿着小路走走吧。","dialogue":"","detail":"dengbo"}
+{"seconds":350.9444580078125,"chapter":"Epilogue","action":"state","objective":"长夜过去了。沿着小路走走吧。","dialogue":"","detail":"Epilogue|长夜过去了。沿着小路走走吧。||False|False|True|False|False"}
+{"seconds":352.2799377441406,"chapter":"Epilogue","action":"screenshot","objective":"长夜过去了。沿着小路走走吧。","dialogue":"","detail":"07-epilogue-closing; saved=True"}
+{"seconds":352.286376953125,"chapter":"Epilogue","action":"key","objective":"长夜过去了。沿着小路走走吧。","dialogue":"","detail":"Enter"}

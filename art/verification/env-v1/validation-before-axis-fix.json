@@ -1,0 +1,2872 @@
+{
+    "status": "failed-structural-checks",
+    "utc": "2026-10-22T16:36:28.8892952Z",
+    "scope": "Prefab structure, geometry totals, layers, colliders and geometric light-target rays. No gameplay or FPS claim.",
+    "prefab": "Assets/JieGuang/Environment/Island.prefab",
+    "renderingMetricsNote": "meshRenderers and materials are object/asset inventory counts, not draw-call counts. Draw calls are not measured by this validator.",
+    "activeLod0Triangles": 379468,
+    "trianglesIncludingBothLods": 505867,
+    "skyAndSeaTriangles": 770,
+    "meshRenderers": 168,
+    "materials": 51,
+    "lodGroups": 35,
+    "groundColliders": 4,
+    "solidColliders": 51,
+    "windows": 22,
+    "spotlights": 3,
+    "checks": [
+        {
+            "name": "unique:Anchor_PlayerSpawn",
+            "detail": "Exactly one required named object.",
+            "passed": true
+        },
+        {
+            "name": "unique:Anchor_Lamp_WanFeng",
+            "detail": "Exactly one required named object.",
+            "passed": true
+        },
+        {
+            "name": "unique:Anchor_Lamp_YueChuang",
+            "detail": "Exactly one required named object.",
+            "passed": true
+        },
+        {
+            "name": "unique:Anchor_Lamp_GuiHang",
+            "detail": "Exactly one required named object.",
+            "passed": true
+        },
+        {
+            "name": "unique:Target_Path",
+            "detail": "Exactly one required named object.",
+            "passed": true
+        },
+        {
+            "name": "unique:Target_Bench",
+            "detail": "Exactly one required named object.",
+            "passed": true
+        },
+        {
+            "name": "unique:Target_Window",
+            "detail": "Exactly one required named object.",
+            "passed": true
+        },
+        {
+            "name": "unique:Target_Pier",
+            "detail": "Exactly one required named object.",
+            "passed": true
+        },
+        {
+            "name": "unique:Anchor_FlagpoleHook",
+            "detail": "Exactly one required named object.",
+            "passed": true
+        },
+        {
+            "name": "unique:NPC_AYing",
+            "detail": "Exactly one required named object.",
+            "passed": true
+        },
+        {
+            "name": "unique:NPC_Postman",
+            "detail": "Exactly one required named object.",
+            "passed": true
+        },
+        {
+            "name": "unique:NPC_Bench",
+            "detail": "Exactly one required named object.",
+            "passed": true
+        },
+        {
+            "name": "unique:NPC_ABo_Window",
+            "detail": "Exactly one required named object.",
+            "passed": true
+        },
+        {
+            "name": "unique:NPC_DengBo_Box",
+            "detail": "Exactly one required named object.",
+            "passed": true
+        },
+        {
+            "name": "unique:Cam_Title",
+            "detail": "Exactly one required named object.",
+            "passed": true
+        },
+        {
+            "name": "unique:Cam_Puzzle",
+            "detail": "Exactly one required named object.",
+            "passed": true
+        },
+        {
+            "name": "unique:Cam_Pier",
+            "detail": "Exactly one required named object.",
+            "passed": true
+        },
+        {
+            "name": "unique:Village_Windows",
+            "detail": "Exactly one required named object.",
+            "passed": true
+        },
+        {
+            "name": "unique:Sky_ScatterZone_Village",
+            "detail": "Exactly one required named object.",
+            "passed": true
+        },
+        {
+            "name": "unique:Sky_ScatterZone_Pier",
+            "detail": "Exactly one required named object.",
+            "passed": true
+        },
+        {
+            "name": "unique:Walkable_Boundary",
+            "detail": "Exactly one required named object.",
+            "passed": true
+        },
+        {
+            "name": "unique:Anchor_VillageGate",
+            "detail": "Exactly one required named object.",
+            "passed": true
+        },
+        {
+            "name": "unique:Anchor_GoldenTree",
+            "detail": "Exactly one required named object.",
+            "passed": true
+        },
+        {
+            "name": "unique:Anchor_Boat",
+            "detail": "Exactly one required named object.",
+            "passed": true
+        },
+        {
+            "name": "unique:Target_Sea",
+            "detail": "Exactly one required named object.",
+            "passed": true
+        },
+        {
+            "name": "unique:NPC_ABo_Door",
+            "detail": "Exactly one required named object.",
+            "passed": true
+        },
+        {
+            "name": "position:Anchor_PlayerSpawn",
+            "detail": "Position compared with scene-input.json, tolerance 5 mm.",
+            "passed": true
+        },
+        {
+            "name": "position:Anchor_Lamp_WanFeng",
+            "detail": "Position compared with scene-input.json, tolerance 5 mm.",
+            "passed": true
+        },
+        {
+            "name": "position:Anchor_Lamp_YueChuang",
+            "detail": "Position compared with scene-input.json, tolerance 5 mm.",
+            "passed": true
+        },
+        {
+            "name": "position:Anchor_Lamp_GuiHang",
+            "detail": "Position compared with scene-input.json, tolerance 5 mm.",
+            "passed": true
+        },
+        {
+            "name": "position:Target_Path",
+            "detail": "Position compared with scene-input.json, tolerance 5 mm.",
+            "passed": true
+        },
+        {
+            "name": "position:Target_Bench",
+            "detail": "Position compared with scene-input.json, tolerance 5 mm.",
+            "passed": true
+        },
+        {
+            "name": "position:Target_Window",
+            "detail": "Position compared with scene-input.json, tolerance 5 mm.",
+            "passed": true
+        },
+        {
+            "name": "position:Target_Pier",
+            "detail": "Position compared with scene-input.json, tolerance 5 mm.",
+            "passed": true
+        },
+        {
+            "name": "position:Anchor_FlagpoleHook",
+            "detail": "Position compared with scene-input.json, tolerance 5 mm.",
+            "passed": true
+        },
+        {
+            "name": "position:NPC_AYing",
+            "detail": "Position compared with scene-input.json, tolerance 5 mm.",
+            "passed": true
+        },
+        {
+            "name": "position:NPC_Postman",
+            "detail": "Position compared with scene-input.json, tolerance 5 mm.",
+            "passed": true
+        },
+        {
+            "name": "position:NPC_Bench",
+            "detail": "Position compared with scene-input.json, tolerance 5 mm.",
+            "passed": true
+        },
+        {
+            "name": "position:NPC_ABo_Window",
+            "detail": "Position compared with scene-input.json, tolerance 5 mm.",
+            "passed": true
+        },
+        {
+            "name": "position:NPC_DengBo_Box",
+            "detail": "Position compared with scene-input.json, tolerance 5 mm.",
+            "passed": true
+        },
+        {
+            "name": "position:Anchor_VillageGate",
+            "detail": "Position compared with scene-input.json, tolerance 5 mm.",
+            "passed": true
+        },
+        {
+            "name": "position:Anchor_GoldenTree",
+            "detail": "Position compared with scene-input.json, tolerance 5 mm.",
+            "passed": true
+        },
+        {
+            "name": "position:Anchor_Boat",
+            "detail": "Position compared with scene-input.json, tolerance 5 mm.",
+            "passed": true
+        },
+        {
+            "name": "position:Target_Sea",
+            "detail": "Position compared with scene-input.json, tolerance 5 mm.",
+            "passed": true
+        },
+        {
+            "name": "position:NPC_ABo_Door",
+            "detail": "Position compared with scene-input.json, tolerance 5 mm.",
+            "passed": true
+        },
+        {
+            "name": "position:Cam_Title",
+            "detail": "Position compared with scene-input.json, tolerance 5 mm.",
+            "passed": true
+        },
+        {
+            "name": "position:Cam_Puzzle",
+            "detail": "Position compared with scene-input.json, tolerance 5 mm.",
+            "passed": true
+        },
+        {
+            "name": "position:Cam_Pier",
+            "detail": "Position compared with scene-input.json, tolerance 5 mm.",
+            "passed": true
+        },
+        {
+            "name": "position:Cam_Village",
+            "detail": "Position compared with scene-input.json, tolerance 5 mm.",
+            "passed": true
+        },
+        {
+            "name": "position:Sky_ScatterZone_Village",
+            "detail": "Position compared with scene-input.json, tolerance 5 mm.",
+            "passed": true
+        },
+        {
+            "name": "position:Sky_ScatterZone_Pier",
+            "detail": "Position compared with scene-input.json, tolerance 5 mm.",
+            "passed": true
+        },
+        {
+            "name": "triangle-budget",
+            "detail": "Sum of enabled LOD0 meshes including sky and sea (only LOD1 excluded): 379468; sky/sea subset: 770",
+            "passed": true
+        },
+        {
+            "name": "materials-supported",
+            "detail": "",
+            "passed": true
+        },
+        {
+            "name": "ground-layer-8",
+            "detail": "Walkable colliders exist on numeric layer 8.",
+            "passed": true
+        },
+        {
+            "name": "solid-layer-9",
+            "detail": "Solid colliders exist on numeric layer 9.",
+            "passed": true
+        },
+        {
+            "name": "lod:GoldenLightTree",
+            "detail": "LOD0 18%, LOD1 1.2%, then cull; preserves trees in the distant title view.",
+            "passed": true
+        },
+        {
+            "name": "lod:LightTree_01",
+            "detail": "LOD0 18%, LOD1 1.2%, then cull; preserves trees in the distant title view.",
+            "passed": true
+        },
+        {
+            "name": "lod:LightTree_02",
+            "detail": "LOD0 18%, LOD1 1.2%, then cull; preserves trees in the distant title view.",
+            "passed": true
+        },
+        {
+            "name": "lod:LightTree_03",
+            "detail": "LOD0 18%, LOD1 1.2%, then cull; preserves trees in the distant title view.",
+            "passed": true
+        },
+        {
+            "name": "lod:LightTree_04",
+            "detail": "LOD0 18%, LOD1 1.2%, then cull; preserves trees in the distant title view.",
+            "passed": true
+        },
+        {
+            "name": "lod:LightTree_05",
+            "detail": "LOD0 18%, LOD1 1.2%, then cull; preserves trees in the distant title view.",
+            "passed": true
+        },
+        {
+            "name": "lod:LightTree_06",
+            "detail": "LOD0 18%, LOD1 1.2%, then cull; preserves trees in the distant title view.",
+            "passed": true
+        },
+        {
+            "name": "lod:LightTree_07",
+            "detail": "LOD0 18%, LOD1 1.2%, then cull; preserves trees in the distant title view.",
+            "passed": true
+        },
+        {
+            "name": "lod:LightTree_08",
+            "detail": "LOD0 18%, LOD1 1.2%, then cull; preserves trees in the distant title view.",
+            "passed": true
+        },
+        {
+            "name": "lod:LightTree_09",
+            "detail": "LOD0 18%, LOD1 1.2%, then cull; preserves trees in the distant title view.",
+            "passed": true
+        },
+        {
+            "name": "lod:LightTree_10",
+            "detail": "LOD0 18%, LOD1 1.2%, then cull; preserves trees in the distant title view.",
+            "passed": true
+        },
+        {
+            "name": "lod:LightTree_11",
+            "detail": "LOD0 18%, LOD1 1.2%, then cull; preserves trees in the distant title view.",
+            "passed": true
+        },
+        {
+            "name": "lod:LightTree_12",
+            "detail": "LOD0 18%, LOD1 1.2%, then cull; preserves trees in the distant title view.",
+            "passed": true
+        },
+        {
+            "name": "lod:LightTree_13",
+            "detail": "LOD0 18%, LOD1 1.2%, then cull; preserves trees in the distant title view.",
+            "passed": true
+        },
+        {
+            "name": "lod:ShoreRock_01",
+            "detail": "LOD0 18%, LOD1 1.2%, then cull; preserves trees in the distant title view.",
+            "passed": true
+        },
+        {
+            "name": "lod:ShoreRock_02",
+            "detail": "LOD0 18%, LOD1 1.2%, then cull; preserves trees in the distant title view.",
+            "passed": true
+        },
+        {
+            "name": "lod:ShoreRock_03",
+            "detail": "LOD0 18%, LOD1 1.2%, then cull; preserves trees in the distant title view.",
+            "passed": true
+        },
+        {
+            "name": "lod:ShoreRock_04",
+            "detail": "LOD0 18%, LOD1 1.2%, then cull; preserves trees in the distant title view.",
+            "passed": true
+        },
+        {
+            "name": "lod:ShoreRock_05",
+            "detail": "LOD0 18%, LOD1 1.2%, then cull; preserves trees in the distant title view.",
+            "passed": true
+        },
+        {
+            "name": "lod:ShoreRock_06",
+            "detail": "LOD0 18%, LOD1 1.2%, then cull; preserves trees in the distant title view.",
+            "passed": true
+        },
+        {
+            "name": "lod:ShoreRock_07",
+            "detail": "LOD0 18%, LOD1 1.2%, then cull; preserves trees in the distant title view.",
+            "passed": true
+        },
+        {
+            "name": "lod:ShoreRock_08",
+            "detail": "LOD0 18%, LOD1 1.2%, then cull; preserves trees in the distant title view.",
+            "passed": true
+        },
+        {
+            "name": "lod:ShoreRock_09",
+            "detail": "LOD0 18%, LOD1 1.2%, then cull; preserves trees in the distant title view.",
+            "passed": true
+        },
+        {
+            "name": "lod:ShoreRock_10",
+            "detail": "LOD0 18%, LOD1 1.2%, then cull; preserves trees in the distant title view.",
+            "passed": true
+        },
+        {
+            "name": "lod:ShoreRock_11",
+            "detail": "LOD0 18%, LOD1 1.2%, then cull; preserves trees in the distant title view.",
+            "passed": true
+        },
+        {
+            "name": "lod:ShoreRock_12",
+            "detail": "LOD0 18%, LOD1 1.2%, then cull; preserves trees in the distant title view.",
+            "passed": true
+        },
+        {
+            "name": "lod:ShoreRock_13",
+            "detail": "LOD0 18%, LOD1 1.2%, then cull; preserves trees in the distant title view.",
+            "passed": true
+        },
+        {
+            "name": "lod:PostmanWaystone",
+            "detail": "LOD0 18%, LOD1 1.2%, then cull; preserves trees in the distant title view.",
+            "passed": true
+        },
+        {
+            "name": "lod:OuterRockArch",
+            "detail": "LOD0 18%, LOD1 1.2%, then cull; preserves trees in the distant title view.",
+            "passed": true
+        },
+        {
+            "name": "lod:DistantReef_01",
+            "detail": "LOD0 18%, LOD1 1.2%, then cull; preserves trees in the distant title view.",
+            "passed": true
+        },
+        {
+            "name": "lod:DistantReef_02",
+            "detail": "LOD0 18%, LOD1 1.2%, then cull; preserves trees in the distant title view.",
+            "passed": true
+        },
+        {
+            "name": "lod:DistantReef_03",
+            "detail": "LOD0 18%, LOD1 1.2%, then cull; preserves trees in the distant title view.",
+            "passed": true
+        },
+        {
+            "name": "lod:DistantReef_04",
+            "detail": "LOD0 18%, LOD1 1.2%, then cull; preserves trees in the distant title view.",
+            "passed": true
+        },
+        {
+            "name": "lod:DistantReef_05",
+            "detail": "LOD0 18%, LOD1 1.2%, then cull; preserves trees in the distant title view.",
+            "passed": true
+        },
+        {
+            "name": "lod:DistantReef_06",
+            "detail": "LOD0 18%, LOD1 1.2%, then cull; preserves trees in the distant title view.",
+            "passed": true
+        },
+        {
+            "name": "exactly-three-spotlights",
+            "detail": "Three copper puzzle lamps only.",
+            "passed": true
+        },
+        {
+            "name": "harbor-light-control",
+            "detail": "Story initialization can cache a nonzero warm point light; it is not a fourth puzzle Spot.",
+            "passed": true
+        },
+        {
+            "name": "boat-mooring-anchor",
+            "detail": "Anchor matches the actual moored boat root pose.",
+            "passed": true
+        },
+        {
+            "name": "lamp-pivot:Anchor_Lamp_WanFeng",
+            "detail": "Anchor has identity rotation; LampHead local origin is the swivel; only LampHead rotates.",
+            "passed": true
+        },
+        {
+            "name": "lamp-pivot:Anchor_Lamp_YueChuang",
+            "detail": "Anchor has identity rotation; LampHead local origin is the swivel; only LampHead rotates.",
+            "passed": true
+        },
+        {
+            "name": "lamp-pivot:Anchor_Lamp_GuiHang",
+            "detail": "Anchor has identity rotation; LampHead local origin is the swivel; only LampHead rotates.",
+            "passed": true
+        },
+        {
+            "name": "village-story-centre",
+            "detail": "Village_Windows parent is the village story centre; child window poses remain preserved.",
+            "passed": true
+        },
+        {
+            "name": "independent-village-windows",
+            "detail": "At least two separately switchable windows for each of ten houses: 22",
+            "passed": true
+        },
+        {
+            "name": "trigger:Sky_ScatterZone_Village",
+            "detail": "Positive-size BoxCollider trigger.",
+            "passed": true
+        },
+        {
+            "name": "trigger:Sky_ScatterZone_Pier",
+            "detail": "Positive-size BoxCollider trigger.",
+            "passed": true
+        },
+        {
+            "name": "closed-boundary",
+            "detail": "Ordered Point_ children repeat the first point at the end; no visible line in normal play.",
+            "passed": true
+        },
+        {
+            "name": "closed-pier-boundary",
+            "detail": "Separate ordered pier footprint. Traversable area is land boundary OR PierBoundary, not a mixed point sequence.",
+            "passed": true
+        },
+        {
+            "name": "import-settings:cottage_teal:LOD0",
+            "detail": "Own ModelImporter: animation off, generated collider off, Read/Write on. Axis/scale are recorded, not changed.",
+            "passed": true
+        },
+        {
+            "name": "import-bounds:cottage_teal:LOD0",
+            "detail": "Effective imported bounds in metres, including imported root scale/rotation: (3.7435, 3.6350, 3.4567)",
+            "passed": true
+        },
+        {
+            "name": "import-settings:cottage_ochre:LOD0",
+            "detail": "Own ModelImporter: animation off, generated collider off, Read/Write on. Axis/scale are recorded, not changed.",
+            "passed": true
+        },
+        {
+            "name": "import-bounds:cottage_ochre:LOD0",
+            "detail": "Effective imported bounds in metres, including imported root scale/rotation: (3.9845, 3.5950, 3.6067)",
+            "passed": true
+        },
+        {
+            "name": "import-settings:cottage_slate:LOD0",
+            "detail": "Own ModelImporter: animation off, generated collider off, Read/Write on. Axis/scale are recorded, not changed.",
+            "passed": true
+        },
+        {
+            "name": "import-bounds:cottage_slate:LOD0",
+            "detail": "Effective imported bounds in metres, including imported root scale/rotation: (3.4019, 3.6650, 3.6067)",
+            "passed": true
+        },
+        {
+            "name": "import-settings:abode_grandma:LOD0",
+            "detail": "Own ModelImporter: animation off, generated collider off, Read/Write on. Axis/scale are recorded, not changed.",
+            "passed": true
+        },
+        {
+            "name": "import-bounds:abode_grandma:LOD0",
+            "detail": "Effective imported bounds in metres, including imported root scale/rotation: (4.6345, 3.9550, 4.4924)",
+            "passed": true
+        },
+        {
+            "name": "import-settings:copper_roadlamp:LOD0",
+            "detail": "Own ModelImporter: animation off, generated collider off, Read/Write on. Axis/scale are recorded, not changed.",
+            "passed": true
+        },
+        {
+            "name": "import-bounds:copper_roadlamp:LOD0",
+            "detail": "Effective imported bounds in metres, including imported root scale/rotation: (0.4900, 4.0450, 0.5750)",
+            "passed": true
+        },
+        {
+            "name": "import-settings:pier_module:LOD0",
+            "detail": "Own ModelImporter: animation off, generated collider off, Read/Write on. Axis/scale are recorded, not changed.",
+            "passed": true
+        },
+        {
+            "name": "import-bounds:pier_module:LOD0",
+            "detail": "Effective imported bounds in metres, including imported root scale/rotation: (2.3800, 3.3400, 3.0600)",
+            "passed": true
+        },
+        {
+            "name": "import-settings:pier_end:LOD0",
+            "detail": "Own ModelImporter: animation off, generated collider off, Read/Write on. Axis/scale are recorded, not changed.",
+            "passed": true
+        },
+        {
+            "name": "import-bounds:pier_end:LOD0",
+            "detail": "Effective imported bounds in metres, including imported root scale/rotation: (2.4400, 3.3400, 3.6600)",
+            "passed": true
+        },
+        {
+            "name": "import-settings:flagpole_blue:LOD0",
+            "detail": "Own ModelImporter: animation off, generated collider off, Read/Write on. Axis/scale are recorded, not changed.",
+            "passed": true
+        },
+        {
+            "name": "import-bounds:flagpole_blue:LOD0",
+            "detail": "Effective imported bounds in metres, including imported root scale/rotation: (1.4615, 4.9700, 0.4640)",
+            "passed": true
+        },
+        {
+            "name": "import-settings:harbor_lantern:LOD0",
+            "detail": "Own ModelImporter: animation off, generated collider off, Read/Write on. Axis/scale are recorded, not changed.",
+            "passed": true
+        },
+        {
+            "name": "import-bounds:harbor_lantern:LOD0",
+            "detail": "Effective imported bounds in metres, including imported root scale/rotation: (0.3600, 0.7930, 0.3600)",
+            "passed": true
+        },
+        {
+            "name": "import-settings:bench:LOD0",
+            "detail": "Own ModelImporter: animation off, generated collider off, Read/Write on. Axis/scale are recorded, not changed.",
+            "passed": true
+        },
+        {
+            "name": "import-bounds:bench:LOD0",
+            "detail": "Effective imported bounds in metres, including imported root scale/rotation: (1.9600, 1.0750, 0.5850)",
+            "passed": true
+        },
+        {
+            "name": "import-settings:dock_crate:LOD0",
+            "detail": "Own ModelImporter: animation off, generated collider off, Read/Write on. Axis/scale are recorded, not changed.",
+            "passed": true
+        },
+        {
+            "name": "import-bounds:dock_crate:LOD0",
+            "detail": "Effective imported bounds in metres, including imported root scale/rotation: (0.6800, 0.5600, 0.6750)",
+            "passed": true
+        },
+        {
+            "name": "import-settings:dock_kettle:LOD0",
+            "detail": "Own ModelImporter: animation off, generated collider off, Read/Write on. Axis/scale are recorded, not changed.",
+            "passed": true
+        },
+        {
+            "name": "import-bounds:dock_kettle:LOD0",
+            "detail": "Effective imported bounds in metres, including imported root scale/rotation: (0.6595, 0.5225, 0.3000)",
+            "passed": true
+        },
+        {
+            "name": "import-settings:armillary_platform:LOD0",
+            "detail": "Own ModelImporter: animation off, generated collider off, Read/Write on. Axis/scale are recorded, not changed.",
+            "passed": true
+        },
+        {
+            "name": "import-bounds:armillary_platform:LOD0",
+            "detail": "Effective imported bounds in metres, including imported root scale/rotation: (2.4400, 2.2000, 2.4400)",
+            "passed": true
+        },
+        {
+            "name": "import-settings:crescent_sculpture:LOD0",
+            "detail": "Own ModelImporter: animation off, generated collider off, Read/Write on. Axis/scale are recorded, not changed.",
+            "passed": true
+        },
+        {
+            "name": "import-bounds:crescent_sculpture:LOD0",
+            "detail": "Effective imported bounds in metres, including imported root scale/rotation: (1.5256, 2.3200, 0.9200)",
+            "passed": true
+        },
+        {
+            "name": "import-settings:village_well:LOD0",
+            "detail": "Own ModelImporter: animation off, generated collider off, Read/Write on. Axis/scale are recorded, not changed.",
+            "passed": true
+        },
+        {
+            "name": "import-bounds:village_well:LOD0",
+            "detail": "Effective imported bounds in metres, including imported root scale/rotation: (2.3752, 2.8250, 1.9734)",
+            "passed": true
+        },
+        {
+            "name": "import-settings:laundry_line:LOD0",
+            "detail": "Own ModelImporter: animation off, generated collider off, Read/Write on. Axis/scale are recorded, not changed.",
+            "passed": true
+        },
+        {
+            "name": "import-bounds:laundry_line:LOD0",
+            "detail": "Effective imported bounds in metres, including imported root scale/rotation: (3.3920, 2.0000, 0.1540)",
+            "passed": true
+        },
+        {
+            "name": "import-settings:island_terrain:LOD0",
+            "detail": "Own ModelImporter: animation off, generated collider off, Read/Write on. Axis/scale are recorded, not changed.",
+            "passed": true
+        },
+        {
+            "name": "import-bounds:island_terrain:LOD0",
+            "detail": "Effective imported bounds in metres, including imported root scale/rotation: (42.3551, 12.0250, 61.4930)",
+            "passed": true
+        },
+        {
+            "name": "import-settings:tree_a:LOD0",
+            "detail": "Own ModelImporter: animation off, generated collider off, Read/Write on. Axis/scale are recorded, not changed.",
+            "passed": true
+        },
+        {
+            "name": "import-bounds:tree_a:LOD0",
+            "detail": "Effective imported bounds in metres, including imported root scale/rotation: (4.0531, 4.7786, 4.2704)",
+            "passed": true
+        },
+        {
+            "name": "import-settings:tree_a:LOD1",
+            "detail": "Own ModelImporter: animation off, generated collider off, Read/Write on. Axis/scale are recorded, not changed.",
+            "passed": true
+        },
+        {
+            "name": "import-bounds:tree_a:LOD1",
+            "detail": "Effective imported bounds in metres, including imported root scale/rotation: (3.7104, 4.7211, 3.9670)",
+            "passed": true
+        },
+        {
+            "name": "import-settings:tree_a_sapling_01:LOD0",
+            "detail": "Own ModelImporter: animation off, generated collider off, Read/Write on. Axis/scale are recorded, not changed.",
+            "passed": true
+        },
+        {
+            "name": "import-bounds:tree_a_sapling_01:LOD0",
+            "detail": "Effective imported bounds in metres, including imported root scale/rotation: (2.4829, 2.8070, 2.5358)",
+            "passed": true
+        },
+        {
+            "name": "import-settings:tree_a_sapling_01:LOD1",
+            "detail": "Own ModelImporter: animation off, generated collider off, Read/Write on. Axis/scale are recorded, not changed.",
+            "passed": true
+        },
+        {
+            "name": "import-bounds:tree_a_sapling_01:LOD1",
+            "detail": "Effective imported bounds in metres, including imported root scale/rotation: (2.4263, 2.7922, 2.5196)",
+            "passed": true
+        },
+        {
+            "name": "import-settings:tree_a_sapling_02:LOD0",
+            "detail": "Own ModelImporter: animation off, generated collider off, Read/Write on. Axis/scale are recorded, not changed.",
+            "passed": true
+        },
+        {
+            "name": "import-bounds:tree_a_sapling_02:LOD0",
+            "detail": "Effective imported bounds in metres, including imported root scale/rotation: (2.5563, 3.0057, 2.8930)",
+            "passed": true
+        },
+        {
+            "name": "import-settings:tree_a_sapling_02:LOD1",
+            "detail": "Own ModelImporter: animation off, generated collider off, Read/Write on. Axis/scale are recorded, not changed.",
+            "passed": true
+        },
+        {
+            "name": "import-bounds:tree_a_sapling_02:LOD1",
+            "detail": "Effective imported bounds in metres, including imported root scale/rotation: (2.5439, 2.9872, 2.8547)",
+            "passed": true
+        },
+        {
+            "name": "import-settings:tree_b:LOD0",
+            "detail": "Own ModelImporter: animation off, generated collider off, Read/Write on. Axis/scale are recorded, not changed.",
+            "passed": true
+        },
+        {
+            "name": "import-bounds:tree_b:LOD0",
+            "detail": "Effective imported bounds in metres, including imported root scale/rotation: (4.4456, 4.2885, 5.9866)",
+            "passed": true
+        },
+        {
+            "name": "import-settings:tree_b:LOD1",
+            "detail": "Own ModelImporter: animation off, generated collider off, Read/Write on. Axis/scale are recorded, not changed.",
+            "passed": true
+        },
+        {
+            "name": "import-bounds:tree_b:LOD1",
+            "detail": "Effective imported bounds in metres, including imported root scale/rotation: (4.3556, 4.2706, 5.8765)",
+            "passed": true
+        },
+        {
+            "name": "import-settings:tree_c:LOD0",
+            "detail": "Own ModelImporter: animation off, generated collider off, Read/Write on. Axis/scale are recorded, not changed.",
+            "passed": true
+        },
+        {
+            "name": "import-bounds:tree_c:LOD0",
+            "detail": "Effective imported bounds in metres, including imported root scale/rotation: (5.8491, 5.1755, 6.4567)",
+            "passed": true
+        },
+        {
+            "name": "import-settings:tree_c:LOD1",
+            "detail": "Own ModelImporter: animation off, generated collider off, Read/Write on. Axis/scale are recorded, not changed.",
+            "passed": true
+        },
+        {
+            "name": "import-bounds:tree_c:LOD1",
+            "detail": "Effective imported bounds in metres, including imported root scale/rotation: (5.4106, 5.0029, 6.2894)",
+            "passed": true
+        },
+        {
+            "name": "import-settings:tree_gold:LOD0",
+            "detail": "Own ModelImporter: animation off, generated collider off, Read/Write on. Axis/scale are recorded, not changed.",
+            "passed": true
+        },
+        {
+            "name": "import-bounds:tree_gold:LOD0",
+            "detail": "Effective imported bounds in metres, including imported root scale/rotation: (5.4060, 4.9934, 5.3504)",
+            "passed": true
+        },
+        {
+            "name": "import-settings:tree_gold:LOD1",
+            "detail": "Own ModelImporter: animation off, generated collider off, Read/Write on. Axis/scale are recorded, not changed.",
+            "passed": true
+        },
+        {
+            "name": "import-bounds:tree_gold:LOD1",
+            "detail": "Effective imported bounds in metres, including imported root scale/rotation: (5.3523, 4.9908, 5.3131)",
+            "passed": true
+        },
+        {
+            "name": "import-settings:rock_mountain:LOD0",
+            "detail": "Own ModelImporter: animation off, generated collider off, Read/Write on. Axis/scale are recorded, not changed.",
+            "passed": true
+        },
+        {
+            "name": "import-bounds:rock_mountain:LOD0",
+            "detail": "Effective imported bounds in metres, including imported root scale/rotation: (4.3705, 4.5082, 4.4810)",
+            "passed": true
+        },
+        {
+            "name": "import-settings:rock_mountain:LOD1",
+            "detail": "Own ModelImporter: animation off, generated collider off, Read/Write on. Axis/scale are recorded, not changed.",
+            "passed": true
+        },
+        {
+            "name": "import-bounds:rock_mountain:LOD1",
+            "detail": "Effective imported bounds in metres, including imported root scale/rotation: (4.3303, 4.5015, 4.4678)",
+            "passed": true
+        },
+        {
+            "name": "import-settings:rock_mass:LOD0",
+            "detail": "Own ModelImporter: animation off, generated collider off, Read/Write on. Axis/scale are recorded, not changed.",
+            "passed": true
+        },
+        {
+            "name": "import-bounds:rock_mass:LOD0",
+            "detail": "Effective imported bounds in metres, including imported root scale/rotation: (5.5098, 1.8784, 3.7832)",
+            "passed": true
+        },
+        {
+            "name": "import-settings:rock_mass:LOD1",
+            "detail": "Own ModelImporter: animation off, generated collider off, Read/Write on. Axis/scale are recorded, not changed.",
+            "passed": true
+        },
+        {
+            "name": "import-bounds:rock_mass:LOD1",
+            "detail": "Effective imported bounds in metres, including imported root scale/rotation: (5.4861, 1.8664, 3.7803)",
+            "passed": true
+        },
+        {
+            "name": "import-settings:rock_arch:LOD0",
+            "detail": "Own ModelImporter: animation off, generated collider off, Read/Write on. Axis/scale are recorded, not changed.",
+            "passed": true
+        },
+        {
+            "name": "import-bounds:rock_arch:LOD0",
+            "detail": "Effective imported bounds in metres, including imported root scale/rotation: (6.0076, 2.7428, 4.3114)",
+            "passed": true
+        },
+        {
+            "name": "import-settings:rock_arch:LOD1",
+            "detail": "Own ModelImporter: animation off, generated collider off, Read/Write on. Axis/scale are recorded, not changed.",
+            "passed": true
+        },
+        {
+            "name": "import-bounds:rock_arch:LOD1",
+            "detail": "Effective imported bounds in metres, including imported root scale/rotation: (5.9931, 2.7445, 4.2973)",
+            "passed": true
+        },
+        {
+            "name": "import-settings:rock_cluster:LOD0",
+            "detail": "Own ModelImporter: animation off, generated collider off, Read/Write on. Axis/scale are recorded, not changed.",
+            "passed": true
+        },
+        {
+            "name": "import-bounds:rock_cluster:LOD0",
+            "detail": "Effective imported bounds in metres, including imported root scale/rotation: (3.4989, 1.5978, 2.3438)",
+            "passed": true
+        },
+        {
+            "name": "import-settings:rock_cluster:LOD1",
+            "detail": "Own ModelImporter: animation off, generated collider off, Read/Write on. Axis/scale are recorded, not changed.",
+            "passed": true
+        },
+        {
+            "name": "import-bounds:rock_cluster:LOD1",
+            "detail": "Effective imported bounds in metres, including imported root scale/rotation: (3.5200, 1.5956, 2.3460)",
+            "passed": true
+        },
+        {
+            "name": "import-settings:boat:LOD0",
+            "detail": "Own ModelImporter: animation off, generated collider off, Read/Write on. Axis/scale are recorded, not changed.",
+            "passed": true
+        },
+        {
+            "name": "import-bounds:boat:LOD0",
+            "detail": "Effective imported bounds in metres, including imported root scale/rotation: (1.7102, 1.4469, 5.0014)",
+            "passed": true
+        },
+        {
+            "name": "import-settings:rock_cluster_reef_01:LOD0",
+            "detail": "Own ModelImporter: animation off, generated collider off, Read/Write on. Axis/scale are recorded, not changed.",
+            "passed": true
+        },
+        {
+            "name": "import-bounds:rock_cluster_reef_01:LOD0",
+            "detail": "Effective imported bounds in metres, including imported root scale/rotation: (2.3802, 1.2052, 2.5033)",
+            "passed": true
+        },
+        {
+            "name": "import-settings:rock_cluster_reef_01:LOD1",
+            "detail": "Own ModelImporter: animation off, generated collider off, Read/Write on. Axis/scale are recorded, not changed.",
+            "passed": true
+        },
+        {
+            "name": "import-bounds:rock_cluster_reef_01:LOD1",
+            "detail": "Effective imported bounds in metres, including imported root scale/rotation: (2.3731, 1.2028, 2.5033)",
+            "passed": true
+        },
+        {
+            "name": "import-settings:rock_cluster_reef_02:LOD0",
+            "detail": "Own ModelImporter: animation off, generated collider off, Read/Write on. Axis/scale are recorded, not changed.",
+            "passed": true
+        },
+        {
+            "name": "import-bounds:rock_cluster_reef_02:LOD0",
+            "detail": "Effective imported bounds in metres, including imported root scale/rotation: (2.6057, 1.2882, 2.2297)",
+            "passed": true
+        },
+        {
+            "name": "import-settings:rock_cluster_reef_02:LOD1",
+            "detail": "Own ModelImporter: animation off, generated collider off, Read/Write on. Axis/scale are recorded, not changed.",
+            "passed": true
+        },
+        {
+            "name": "import-bounds:rock_cluster_reef_02:LOD1",
+            "detail": "Effective imported bounds in metres, including imported root scale/rotation: (2.5964, 1.2897, 2.2325)",
+            "passed": true
+        },
+        {
+            "name": "texture-import:Assets/JieGuang/Environment/Textures/tree_a/tree_a_BaseColor.png",
+            "detail": "Expected sRGB BaseColor, mipmaps enabled and maximum texture size >= 2048. Source textures smaller than this limit are not upscaled.",
+            "passed": true
+        },
+        {
+            "name": "texture-import:Assets/JieGuang/Environment/Textures/tree_a/tree_a_LeafVeins_Emission.001.png",
+            "detail": "Expected linear emission, mipmaps enabled and maximum texture size >= 2048. Source textures smaller than this limit are not upscaled.",
+            "passed": true
+        },
+        {
+            "name": "texture-import:Assets/JieGuang/Environment/Textures/tree_a/tree_a_WarmFruit_Emission.001.png",
+            "detail": "Expected linear emission, mipmaps enabled and maximum texture size >= 2048. Source textures smaller than this limit are not upscaled.",
+            "passed": true
+        },
+        {
+            "name": "texture-import:Assets/JieGuang/Environment/Textures/tree_a/tree_a_sapling_01_BaseColor.png",
+            "detail": "Expected sRGB BaseColor, mipmaps enabled and maximum texture size >= 2048. Source textures smaller than this limit are not upscaled.",
+            "passed": true
+        },
+        {
+            "name": "texture-import:Assets/JieGuang/Environment/Textures/tree_a/tree_a_sapling_01_LeafVeins_Emission.001.png",
+            "detail": "Expected linear emission, mipmaps enabled and maximum texture size >= 2048. Source textures smaller than this limit are not upscaled.",
+            "passed": true
+        },
+        {
+            "name": "texture-import:Assets/JieGuang/Environment/Textures/tree_a/tree_a_sapling_01_WarmFruit_Emission.001.png",
+            "detail": "Expected linear emission, mipmaps enabled and maximum texture size >= 2048. Source textures smaller than this limit are not upscaled.",
+            "passed": true
+        },
+        {
+            "name": "texture-import:Assets/JieGuang/Environment/Textures/tree_a/tree_a_sapling_02_BaseColor.png",
+            "detail": "Expected sRGB BaseColor, mipmaps enabled and maximum texture size >= 2048. Source textures smaller than this limit are not upscaled.",
+            "passed": true
+        },
+        {
+            "name": "texture-import:Assets/JieGuang/Environment/Textures/tree_a/tree_a_sapling_02_LeafVeins_Emission.001.png",
+            "detail": "Expected linear emission, mipmaps enabled and maximum texture size >= 2048. Source textures smaller than this limit are not upscaled.",
+            "passed": true
+        },
+        {
+            "name": "texture-import:Assets/JieGuang/Environment/Textures/tree_a/tree_a_sapling_02_WarmFruit_Emission.001.png",
+            "detail": "Expected linear emission, mipmaps enabled and maximum texture size >= 2048. Source textures smaller than this limit are not upscaled.",
+            "passed": true
+        },
+        {
+            "name": "texture-import:Assets/JieGuang/Environment/Textures/tree_b/tree_b_BaseColor.png",
+            "detail": "Expected sRGB BaseColor, mipmaps enabled and maximum texture size >= 2048. Source textures smaller than this limit are not upscaled.",
+            "passed": true
+        },
+        {
+            "name": "texture-import:Assets/JieGuang/Environment/Textures/tree_b/tree_b_LeafVeins_Emission.001.png",
+            "detail": "Expected linear emission, mipmaps enabled and maximum texture size >= 2048. Source textures smaller than this limit are not upscaled.",
+            "passed": true
+        },
+        {
+            "name": "texture-import:Assets/JieGuang/Environment/Textures/tree_b/tree_b_WarmFruit_Emission.001.png",
+            "detail": "Expected linear emission, mipmaps enabled and maximum texture size >= 2048. Source textures smaller than this limit are not upscaled.",
+            "passed": true
+        },
+        {
+            "name": "texture-import:Assets/JieGuang/Environment/Textures/tree_c/tree_c_BaseColor.png",
+            "detail": "Expected sRGB BaseColor, mipmaps enabled and maximum texture size >= 2048. Source textures smaller than this limit are not upscaled.",
+            "passed": true
+        },
+        {
+            "name": "texture-import:Assets/JieGuang/Environment/Textures/tree_c/tree_c_LeafVeins_Emission.001.png",
+            "detail": "Expected linear emission, mipmaps enabled and maximum texture size >= 2048. Source textures smaller than this limit are not upscaled.",
+            "passed": true
+        },
+        {
+            "name": "texture-import:Assets/JieGuang/Environment/Textures/tree_c/tree_c_WarmFruit_Emission.001.png",
+            "detail": "Expected linear emission, mipmaps enabled and maximum texture size >= 2048. Source textures smaller than this limit are not upscaled.",
+            "passed": true
+        },
+        {
+            "name": "texture-import:Assets/JieGuang/Environment/Textures/tree_gold/tree_gold_BaseColor.png",
+            "detail": "Expected sRGB BaseColor, mipmaps enabled and maximum texture size >= 2048. Source textures smaller than this limit are not upscaled.",
+            "passed": true
+        },
+        {
+            "name": "texture-import:Assets/JieGuang/Environment/Textures/tree_gold/tree_gold_LeafVeins_Emission.001.png",
+            "detail": "Expected linear emission, mipmaps enabled and maximum texture size >= 2048. Source textures smaller than this limit are not upscaled.",
+            "passed": true
+        },
+        {
+            "name": "texture-import:Assets/JieGuang/Environment/Textures/tree_gold/tree_gold_WarmFruit_Emission.001.png",
+            "detail": "Expected linear emission, mipmaps enabled and maximum texture size >= 2048. Source textures smaller than this limit are not upscaled.",
+            "passed": true
+        },
+        {
+            "name": "texture-import:Assets/JieGuang/Environment/Textures/rock_mountain/rock_mountain_BaseColor.png",
+            "detail": "Expected sRGB BaseColor, mipmaps enabled and maximum texture size >= 2048. Source textures smaller than this limit are not upscaled.",
+            "passed": true
+        },
+        {
+            "name": "texture-import:Assets/JieGuang/Environment/Textures/rock_mass/rock_mass_BaseColor.png",
+            "detail": "Expected sRGB BaseColor, mipmaps enabled and maximum texture size >= 2048. Source textures smaller than this limit are not upscaled.",
+            "passed": true
+        },
+        {
+            "name": "texture-import:Assets/JieGuang/Environment/Textures/rock_arch/rock_arch_BaseColor.png",
+            "detail": "Expected sRGB BaseColor, mipmaps enabled and maximum texture size >= 2048. Source textures smaller than this limit are not upscaled.",
+            "passed": true
+        },
+        {
+            "name": "texture-import:Assets/JieGuang/Environment/Textures/rock_cluster/rock_cluster_BaseColor.png",
+            "detail": "Expected sRGB BaseColor, mipmaps enabled and maximum texture size >= 2048. Source textures smaller than this limit are not upscaled.",
+            "passed": true
+        },
+        {
+            "name": "texture-import:Assets/JieGuang/Environment/Textures/boat/boat_BaseColor.png",
+            "detail": "Expected sRGB BaseColor, mipmaps enabled and maximum texture size >= 2048. Source textures smaller than this limit are not upscaled.",
+            "passed": true
+        },
+        {
+            "name": "texture-import:Assets/JieGuang/Environment/Textures/rock_cluster/rock_cluster_reef_01_BaseColor.png",
+            "detail": "Expected sRGB BaseColor, mipmaps enabled and maximum texture size >= 2048. Source textures smaller than this limit are not upscaled.",
+            "passed": true
+        },
+        {
+            "name": "texture-import:Assets/JieGuang/Environment/Textures/rock_cluster/rock_cluster_reef_02_BaseColor.png",
+            "detail": "Expected sRGB BaseColor, mipmaps enabled and maximum texture size >= 2048. Source textures smaller than this limit are not upscaled.",
+            "passed": true
+        },
+        {
+            "name": "marker:Target_Window",
+            "detail": "Imported GrandmotherHouse/Marker_Window versus anchor: 1.64000 m; tolerance 0.025 m. Forward angle is recorded for review, not assumed from FBX empty-axis conventions.",
+            "passed": false
+        },
+        {
+            "name": "marker:NPC_ABo_Window",
+            "detail": "Imported GrandmotherHouse/Marker_ABo_Seat versus anchor: 1.64000 m; tolerance 0.025 m. Forward angle is recorded for review, not assumed from FBX empty-axis conventions.",
+            "passed": false
+        },
+        {
+            "name": "marker:Anchor_FlagpoleHook",
+            "detail": "Imported Flagpole/Marker_FlagpoleHook versus anchor: 0.00000 m; tolerance 0.025 m. Forward angle is recorded for review, not assumed from FBX empty-axis conventions.",
+            "passed": true
+        },
+        {
+            "name": "marker:NPC_Bench",
+            "detail": "Imported Bench/Marker_Seat versus anchor: 0.00000 m; tolerance 0.025 m. Forward angle is recorded for review, not assumed from FBX empty-axis conventions.",
+            "passed": true
+        },
+        {
+            "name": "marker:NPC_DengBo_Box",
+            "detail": "Imported KeeperBox/Marker_Seat versus anchor: 0.00000 m; tolerance 0.025 m. Forward angle is recorded for review, not assumed from FBX empty-axis conventions.",
+            "passed": true
+        },
+        {
+            "name": "beam-clear:Anchor_Lamp_WanFeng->Target_Path",
+            "detail": "No own non-trigger collider before target; 35 cm receiver tolerance.",
+            "passed": true
+        },
+        {
+            "name": "beam-clear:Anchor_Lamp_WanFeng->Target_Bench",
+            "detail": "Props/Bench/SolidCollision",
+            "passed": false
+        },
+        {
+            "name": "beam-clear:Anchor_Lamp_YueChuang->Target_Window",
+            "detail": "No own non-trigger collider before target; 35 cm receiver tolerance.",
+            "passed": true
+        },
+        {
+            "name": "beam-clear:Anchor_Lamp_YueChuang->Target_Pier",
+            "detail": "No own non-trigger collider before target; 35 cm receiver tolerance.",
+            "passed": true
+        },
+        {
+            "name": "beam-clear:Anchor_Lamp_GuiHang->Target_Bench",
+            "detail": "Props/Bench/SolidCollision",
+            "passed": false
+        },
+        {
+            "name": "no-legacy-game-dependency",
+            "detail": "The new Island prefab does not reference old BorrowedLight assets.",
+            "passed": true
+        }
+    ],
+    "warnings": [
+        "Static validation does not establish sustained 1440x900 performance, all-route navigation, animation fit, or final lighting quality."
+    ],
+    "imports": [
+        {
+            "id": "cottage_teal",
+            "path": "Assets/JieGuang/Environment/Models/Props/cottage_teal.fbx",
+            "lod": "LOD0",
+            "meshes": 3,
+            "triangles": 1024,
+            "boundsCenter": [
+                0.0,
+                1.8174998760223389,
+                0.06665778160095215
+            ],
+            "boundsSize": [
+                3.743455410003662,
+                3.635000228881836,
+                3.4566843509674074
+            ],
+            "rootLocalPosition": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "rootLocalEuler": [
+                270.019775390625,
+                0.0,
+                0.0
+            ],
+            "rootLocalScale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "importAnimation": false,
+            "addCollider": false,
+            "isReadable": true,
+            "useFileScale": true,
+            "bakeAxisConversion": false,
+            "globalScale": 1.0
+        },
+        {
+            "id": "cottage_ochre",
+            "path": "Assets/JieGuang/Environment/Models/Props/cottage_ochre.fbx",
+            "lod": "LOD0",
+            "meshes": 3,
+            "triangles": 1024,
+            "boundsCenter": [
+                0.0,
+                1.7974998950958253,
+                0.06665778160095215
+            ],
+            "boundsSize": [
+                3.984467029571533,
+                3.5950002670288088,
+                3.6066842079162599
+            ],
+            "rootLocalPosition": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "rootLocalEuler": [
+                270.019775390625,
+                0.0,
+                0.0
+            ],
+            "rootLocalScale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "importAnimation": false,
+            "addCollider": false,
+            "isReadable": true,
+            "useFileScale": true,
+            "bakeAxisConversion": false,
+            "globalScale": 1.0
+        },
+        {
+            "id": "cottage_slate",
+            "path": "Assets/JieGuang/Environment/Models/Props/cottage_slate.fbx",
+            "lod": "LOD0",
+            "meshes": 3,
+            "triangles": 1024,
+            "boundsCenter": [
+                0.0,
+                1.8324998617172242,
+                0.06665778160095215
+            ],
+            "boundsSize": [
+                3.4018611907958986,
+                3.6650002002716066,
+                3.606684446334839
+            ],
+            "rootLocalPosition": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "rootLocalEuler": [
+                270.019775390625,
+                0.0,
+                0.0
+            ],
+            "rootLocalScale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "importAnimation": false,
+            "addCollider": false,
+            "isReadable": true,
+            "useFileScale": true,
+            "bakeAxisConversion": false,
+            "globalScale": 1.0
+        },
+        {
+            "id": "abode_grandma",
+            "path": "Assets/JieGuang/Environment/Models/Props/abode_grandma.fbx",
+            "lod": "LOD0",
+            "meshes": 1,
+            "triangles": 1728,
+            "boundsCenter": [
+                0.0,
+                1.9674999713897706,
+                0.28450191020965578
+            ],
+            "boundsSize": [
+                4.634487152099609,
+                3.955000400543213,
+                4.492372989654541
+            ],
+            "rootLocalPosition": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "rootLocalEuler": [
+                270.019775390625,
+                0.0,
+                0.0
+            ],
+            "rootLocalScale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "importAnimation": false,
+            "addCollider": false,
+            "isReadable": true,
+            "useFileScale": true,
+            "bakeAxisConversion": false,
+            "globalScale": 1.0
+        },
+        {
+            "id": "copper_roadlamp",
+            "path": "Assets/JieGuang/Environment/Models/Props/copper_roadlamp.fbx",
+            "lod": "LOD0",
+            "meshes": 2,
+            "triangles": 606,
+            "boundsCenter": [
+                0.0,
+                -1.7774999141693116,
+                0.047500044107437137
+            ],
+            "boundsSize": [
+                0.49000000953674319,
+                4.044999599456787,
+                0.5750000476837158
+            ],
+            "rootLocalPosition": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "rootLocalEuler": [
+                270.019775390625,
+                0.0,
+                0.0
+            ],
+            "rootLocalScale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "importAnimation": false,
+            "addCollider": false,
+            "isReadable": true,
+            "useFileScale": true,
+            "bakeAxisConversion": false,
+            "globalScale": 1.0
+        },
+        {
+            "id": "pier_module",
+            "path": "Assets/JieGuang/Environment/Models/Props/pier_module.fbx",
+            "lod": "LOD0",
+            "meshes": 1,
+            "triangles": 456,
+            "boundsCenter": [
+                0.0,
+                -1.5299999713897706,
+                1.1920928955078126e-7
+            ],
+            "boundsSize": [
+                2.380000114440918,
+                3.3400001525878908,
+                3.059999942779541
+            ],
+            "rootLocalPosition": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "rootLocalEuler": [
+                270.019775390625,
+                0.0,
+                0.0
+            ],
+            "rootLocalScale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "importAnimation": false,
+            "addCollider": false,
+            "isReadable": true,
+            "useFileScale": true,
+            "bakeAxisConversion": false,
+            "globalScale": 1.0
+        },
+        {
+            "id": "pier_end",
+            "path": "Assets/JieGuang/Environment/Models/Props/pier_end.fbx",
+            "lod": "LOD0",
+            "meshes": 1,
+            "triangles": 668,
+            "boundsCenter": [
+                0.0,
+                -1.5299999713897706,
+                2.384185791015625e-7
+            ],
+            "boundsSize": [
+                2.440000057220459,
+                3.3400001525878908,
+                3.6600003242492677
+            ],
+            "rootLocalPosition": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "rootLocalEuler": [
+                270.019775390625,
+                0.0,
+                0.0
+            ],
+            "rootLocalScale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "importAnimation": false,
+            "addCollider": false,
+            "isReadable": true,
+            "useFileScale": true,
+            "bakeAxisConversion": false,
+            "globalScale": 1.0
+        },
+        {
+            "id": "flagpole_blue",
+            "path": "Assets/JieGuang/Environment/Models/Props/flagpole_blue.fbx",
+            "lod": "LOD0",
+            "meshes": 2,
+            "triangles": 895,
+            "boundsCenter": [
+                -0.6107500195503235,
+                2.484999895095825,
+                0.11200379580259323
+            ],
+            "boundsSize": [
+                1.4615000486373902,
+                4.96999979019165,
+                0.46400877833366396
+            ],
+            "rootLocalPosition": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "rootLocalEuler": [
+                270.019775390625,
+                0.0,
+                0.0
+            ],
+            "rootLocalScale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "importAnimation": false,
+            "addCollider": false,
+            "isReadable": true,
+            "useFileScale": true,
+            "bakeAxisConversion": false,
+            "globalScale": 1.0
+        },
+        {
+            "id": "harbor_lantern",
+            "path": "Assets/JieGuang/Environment/Models/Props/harbor_lantern.fbx",
+            "lod": "LOD0",
+            "meshes": 1,
+            "triangles": 436,
+            "boundsCenter": [
+                0.0,
+                0.39649996161460879,
+                -5.960464477539063e-8
+            ],
+            "boundsSize": [
+                0.36000001430511477,
+                0.7929999828338623,
+                0.3600000739097595
+            ],
+            "rootLocalPosition": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "rootLocalEuler": [
+                270.019775390625,
+                0.0,
+                0.0
+            ],
+            "rootLocalScale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "importAnimation": false,
+            "addCollider": false,
+            "isReadable": true,
+            "useFileScale": true,
+            "bakeAxisConversion": false,
+            "globalScale": 1.0
+        },
+        {
+            "id": "bench",
+            "path": "Assets/JieGuang/Environment/Models/Props/bench.fbx",
+            "lod": "LOD0",
+            "meshes": 1,
+            "triangles": 324,
+            "boundsCenter": [
+                0.0,
+                0.5374999642372131,
+                -0.0025000572204589845
+            ],
+            "boundsSize": [
+                1.9600000381469727,
+                1.0750000476837159,
+                0.5850000381469727
+            ],
+            "rootLocalPosition": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "rootLocalEuler": [
+                270.019775390625,
+                0.0,
+                0.0
+            ],
+            "rootLocalScale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "importAnimation": false,
+            "addCollider": false,
+            "isReadable": true,
+            "useFileScale": true,
+            "bakeAxisConversion": false,
+            "globalScale": 1.0
+        },
+        {
+            "id": "dock_crate",
+            "path": "Assets/JieGuang/Environment/Models/Props/dock_crate.fbx",
+            "lod": "LOD0",
+            "meshes": 1,
+            "triangles": 180,
+            "boundsCenter": [
+                0.0,
+                0.2800000011920929,
+                -2.9802322387695315e-8
+            ],
+            "boundsSize": [
+                0.6800000071525574,
+                0.5600000619888306,
+                0.6750000715255737
+            ],
+            "rootLocalPosition": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "rootLocalEuler": [
+                270.019775390625,
+                0.0,
+                0.0
+            ],
+            "rootLocalScale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "importAnimation": false,
+            "addCollider": false,
+            "isReadable": true,
+            "useFileScale": true,
+            "bakeAxisConversion": false,
+            "globalScale": 1.0
+        },
+        {
+            "id": "dock_kettle",
+            "path": "Assets/JieGuang/Environment/Models/Props/dock_kettle.fbx",
+            "lod": "LOD0",
+            "meshes": 1,
+            "triangles": 436,
+            "boundsCenter": [
+                0.055251896381378177,
+                0.26874998211860659,
+                -2.9802322387695315e-8
+            ],
+            "boundsSize": [
+                0.6594963073730469,
+                0.5225000381469727,
+                0.30000007152557375
+            ],
+            "rootLocalPosition": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "rootLocalEuler": [
+                270.019775390625,
+                0.0,
+                0.0
+            ],
+            "rootLocalScale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "importAnimation": false,
+            "addCollider": false,
+            "isReadable": true,
+            "useFileScale": true,
+            "bakeAxisConversion": false,
+            "globalScale": 1.0
+        },
+        {
+            "id": "armillary_platform",
+            "path": "Assets/JieGuang/Environment/Models/Props/armillary_platform.fbx",
+            "lod": "LOD0",
+            "meshes": 1,
+            "triangles": 2536,
+            "boundsCenter": [
+                0.0,
+                1.100000023841858,
+                -2.384185791015625e-7
+            ],
+            "boundsSize": [
+                2.440000057220459,
+                2.200000286102295,
+                2.440000057220459
+            ],
+            "rootLocalPosition": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "rootLocalEuler": [
+                270.019775390625,
+                0.0,
+                0.0
+            ],
+            "rootLocalScale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "importAnimation": false,
+            "addCollider": false,
+            "isReadable": true,
+            "useFileScale": true,
+            "bakeAxisConversion": false,
+            "globalScale": 1.0
+        },
+        {
+            "id": "crescent_sculpture",
+            "path": "Assets/JieGuang/Environment/Models/Props/crescent_sculpture.fbx",
+            "lod": "LOD0",
+            "meshes": 1,
+            "triangles": 388,
+            "boundsCenter": [
+                0.2572023868560791,
+                1.1599963903427125,
+                -1.4901161193847657e-7
+            ],
+            "boundsSize": [
+                1.5255951881408692,
+                2.319992780685425,
+                0.9200001955032349
+            ],
+            "rootLocalPosition": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "rootLocalEuler": [
+                270.019775390625,
+                0.0,
+                0.0
+            ],
+            "rootLocalScale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "importAnimation": false,
+            "addCollider": false,
+            "isReadable": true,
+            "useFileScale": true,
+            "bakeAxisConversion": false,
+            "globalScale": 1.0
+        },
+        {
+            "id": "village_well",
+            "path": "Assets/JieGuang/Environment/Models/Props/village_well.fbx",
+            "lod": "LOD0",
+            "meshes": 1,
+            "triangles": 1156,
+            "boundsCenter": [
+                0.0,
+                1.3825000524520875,
+                -1.7881393432617188e-7
+            ],
+            "boundsSize": [
+                2.375223398208618,
+                2.825000286102295,
+                1.9733682870864869
+            ],
+            "rootLocalPosition": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "rootLocalEuler": [
+                270.019775390625,
+                0.0,
+                0.0
+            ],
+            "rootLocalScale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "importAnimation": false,
+            "addCollider": false,
+            "isReadable": true,
+            "useFileScale": true,
+            "bakeAxisConversion": false,
+            "globalScale": 1.0
+        },
+        {
+            "id": "laundry_line",
+            "path": "Assets/JieGuang/Environment/Models/Props/laundry_line.fbx",
+            "lod": "LOD0",
+            "meshes": 1,
+            "triangles": 356,
+            "boundsCenter": [
+                0.0,
+                0.9999999403953552,
+                0.03097599372267723
+            ],
+            "boundsSize": [
+                3.3919999599456789,
+                1.9999998807907105,
+                0.1539524495601654
+            ],
+            "rootLocalPosition": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "rootLocalEuler": [
+                270.019775390625,
+                0.0,
+                0.0
+            ],
+            "rootLocalScale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "importAnimation": false,
+            "addCollider": false,
+            "isReadable": true,
+            "useFileScale": true,
+            "bakeAxisConversion": false,
+            "globalScale": 1.0
+        },
+        {
+            "id": "island_terrain",
+            "path": "Assets/JieGuang/Environment/Models/Terrain/island_terrain.fbx",
+            "lod": "LOD0",
+            "meshes": 3,
+            "triangles": 7028,
+            "boundsCenter": [
+                4.70582389831543,
+                2.432511568069458,
+                1.7708110809326172
+            ],
+            "boundsSize": [
+                42.355064392089847,
+                12.024978637695313,
+                61.49299621582031
+            ],
+            "rootLocalPosition": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "rootLocalEuler": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "rootLocalScale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "importAnimation": false,
+            "addCollider": false,
+            "isReadable": true,
+            "useFileScale": true,
+            "bakeAxisConversion": false,
+            "globalScale": 1.0
+        },
+        {
+            "id": "tree_a",
+            "path": "Assets/JieGuang/Environment/Models/Natural/tree_a/tree_a_LOD0.fbx",
+            "lod": "LOD0",
+            "meshes": 2,
+            "triangles": 11911,
+            "boundsCenter": [
+                0.005515098571777344,
+                2.42083477973938,
+                0.0017998218536376954
+            ],
+            "boundsSize": [
+                4.053119659423828,
+                4.7785964012146,
+                4.270351409912109
+            ],
+            "rootLocalPosition": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "rootLocalEuler": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "rootLocalScale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "importAnimation": false,
+            "addCollider": false,
+            "isReadable": true,
+            "useFileScale": true,
+            "bakeAxisConversion": false,
+            "globalScale": 1.0
+        },
+        {
+            "id": "tree_a",
+            "path": "Assets/JieGuang/Environment/Models/Natural/tree_a/tree_a_LOD1.fbx",
+            "lod": "LOD1",
+            "meshes": 2,
+            "triangles": 4715,
+            "boundsCenter": [
+                -0.011424899101257325,
+                2.388672113418579,
+                0.007092118263244629
+            ],
+            "boundsSize": [
+                3.710355520248413,
+                4.721120834350586,
+                3.9669642448425295
+            ],
+            "rootLocalPosition": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "rootLocalEuler": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "rootLocalScale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "importAnimation": false,
+            "addCollider": false,
+            "isReadable": true,
+            "useFileScale": true,
+            "bakeAxisConversion": false,
+            "globalScale": 1.0
+        },
+        {
+            "id": "tree_a_sapling_01",
+            "path": "Assets/JieGuang/Environment/Models/Natural/tree_a/tree_a_sapling_01_LOD0.fbx",
+            "lod": "LOD0",
+            "meshes": 2,
+            "triangles": 6410,
+            "boundsCenter": [
+                0.002238035202026367,
+                1.400699496269226,
+                -0.0021032094955444338
+            ],
+            "boundsSize": [
+                2.48288893699646,
+                2.8069663047790529,
+                2.535780429840088
+            ],
+            "rootLocalPosition": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "rootLocalEuler": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "rootLocalScale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "importAnimation": false,
+            "addCollider": false,
+            "isReadable": true,
+            "useFileScale": true,
+            "bakeAxisConversion": false,
+            "globalScale": 1.0
+        },
+        {
+            "id": "tree_a_sapling_01",
+            "path": "Assets/JieGuang/Environment/Models/Natural/tree_a/tree_a_sapling_01_LOD1.fbx",
+            "lod": "LOD1",
+            "meshes": 2,
+            "triangles": 2514,
+            "boundsCenter": [
+                0.017619848251342775,
+                1.3990787267684937,
+                0.0022090673446655275
+            ],
+            "boundsSize": [
+                2.426279067993164,
+                2.7922346591949465,
+                2.5195765495300295
+            ],
+            "rootLocalPosition": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "rootLocalEuler": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "rootLocalScale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "importAnimation": false,
+            "addCollider": false,
+            "isReadable": true,
+            "useFileScale": true,
+            "bakeAxisConversion": false,
+            "globalScale": 1.0
+        },
+        {
+            "id": "tree_a_sapling_02",
+            "path": "Assets/JieGuang/Environment/Models/Natural/tree_a/tree_a_sapling_02_LOD0.fbx",
+            "lod": "LOD0",
+            "meshes": 2,
+            "triangles": 6411,
+            "boundsCenter": [
+                -0.001061081886291504,
+                1.503024935722351,
+                0.004546165466308594
+            ],
+            "boundsSize": [
+                2.55629825592041,
+                3.005666971206665,
+                2.8929781913757326
+            ],
+            "rootLocalPosition": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "rootLocalEuler": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "rootLocalScale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "importAnimation": false,
+            "addCollider": false,
+            "isReadable": true,
+            "useFileScale": true,
+            "bakeAxisConversion": false,
+            "globalScale": 1.0
+        },
+        {
+            "id": "tree_a_sapling_02",
+            "path": "Assets/JieGuang/Environment/Models/Natural/tree_a/tree_a_sapling_02_LOD1.fbx",
+            "lod": "LOD1",
+            "meshes": 2,
+            "triangles": 2515,
+            "boundsCenter": [
+                -0.00022876262664794922,
+                1.4945601224899293,
+                0.0012421607971191407
+            ],
+            "boundsSize": [
+                2.5439484119415285,
+                2.987171173095703,
+                2.8546786308288576
+            ],
+            "rootLocalPosition": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "rootLocalEuler": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "rootLocalScale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "importAnimation": false,
+            "addCollider": false,
+            "isReadable": true,
+            "useFileScale": true,
+            "bakeAxisConversion": false,
+            "globalScale": 1.0
+        },
+        {
+            "id": "tree_b",
+            "path": "Assets/JieGuang/Environment/Models/Natural/tree_b/tree_b_LOD0.fbx",
+            "lod": "LOD0",
+            "meshes": 3,
+            "triangles": 11966,
+            "boundsCenter": [
+                0.004516124725341797,
+                2.166006088256836,
+                0.0007350444793701172
+            ],
+            "boundsSize": [
+                4.4456024169921879,
+                4.288476943969727,
+                5.98661470413208
+            ],
+            "rootLocalPosition": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "rootLocalEuler": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "rootLocalScale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "importAnimation": false,
+            "addCollider": false,
+            "isReadable": true,
+            "useFileScale": true,
+            "bakeAxisConversion": false,
+            "globalScale": 1.0
+        },
+        {
+            "id": "tree_b",
+            "path": "Assets/JieGuang/Environment/Models/Natural/tree_b/tree_b_LOD1.fbx",
+            "lod": "LOD1",
+            "meshes": 3,
+            "triangles": 4742,
+            "boundsCenter": [
+                -0.043615102767944339,
+                2.146878242492676,
+                0.012643814086914063
+            ],
+            "boundsSize": [
+                4.355642795562744,
+                4.270624160766602,
+                5.8764801025390629
+            ],
+            "rootLocalPosition": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "rootLocalEuler": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "rootLocalScale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "importAnimation": false,
+            "addCollider": false,
+            "isReadable": true,
+            "useFileScale": true,
+            "bakeAxisConversion": false,
+            "globalScale": 1.0
+        },
+        {
+            "id": "tree_c",
+            "path": "Assets/JieGuang/Environment/Models/Natural/tree_c/tree_c_LOD0.fbx",
+            "lod": "LOD0",
+            "meshes": 2,
+            "triangles": 11910,
+            "boundsCenter": [
+                0.000396728515625,
+                2.590606212615967,
+                0.005064725875854492
+            ],
+            "boundsSize": [
+                5.8491106033325199,
+                5.175464153289795,
+                6.456652641296387
+            ],
+            "rootLocalPosition": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "rootLocalEuler": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "rootLocalScale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "importAnimation": false,
+            "addCollider": false,
+            "isReadable": true,
+            "useFileScale": true,
+            "bakeAxisConversion": false,
+            "globalScale": 1.0
+        },
+        {
+            "id": "tree_c",
+            "path": "Assets/JieGuang/Environment/Models/Natural/tree_c/tree_c_LOD1.fbx",
+            "lod": "LOD1",
+            "meshes": 2,
+            "triangles": 4716,
+            "boundsCenter": [
+                0.0016834735870361329,
+                2.4848663806915285,
+                -0.017874956130981447
+            ],
+            "boundsSize": [
+                5.410613059997559,
+                5.002943515777588,
+                6.289410591125488
+            ],
+            "rootLocalPosition": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "rootLocalEuler": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "rootLocalScale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "importAnimation": false,
+            "addCollider": false,
+            "isReadable": true,
+            "useFileScale": true,
+            "bakeAxisConversion": false,
+            "globalScale": 1.0
+        },
+        {
+            "id": "tree_gold",
+            "path": "Assets/JieGuang/Environment/Models/Natural/tree_gold/tree_gold_LOD0.fbx",
+            "lod": "LOD0",
+            "meshes": 2,
+            "triangles": 29911,
+            "boundsCenter": [
+                -0.005219459533691406,
+                2.5006587505340578,
+                0.003023386001586914
+            ],
+            "boundsSize": [
+                5.405969142913818,
+                4.993381500244141,
+                5.350407600402832
+            ],
+            "rootLocalPosition": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "rootLocalEuler": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "rootLocalScale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "importAnimation": false,
+            "addCollider": false,
+            "isReadable": true,
+            "useFileScale": true,
+            "bakeAxisConversion": false,
+            "globalScale": 1.0
+        },
+        {
+            "id": "tree_gold",
+            "path": "Assets/JieGuang/Environment/Models/Natural/tree_gold/tree_gold_LOD1.fbx",
+            "lod": "LOD1",
+            "meshes": 2,
+            "triangles": 11914,
+            "boundsCenter": [
+                0.021471500396728517,
+                2.4993484020233156,
+                -0.005315065383911133
+            ],
+            "boundsSize": [
+                5.352300643920898,
+                4.990760803222656,
+                5.313139915466309
+            ],
+            "rootLocalPosition": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "rootLocalEuler": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "rootLocalScale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "importAnimation": false,
+            "addCollider": false,
+            "isReadable": true,
+            "useFileScale": true,
+            "bakeAxisConversion": false,
+            "globalScale": 1.0
+        },
+        {
+            "id": "rock_mountain",
+            "path": "Assets/JieGuang/Environment/Models/Natural/rock_mountain/rock_mountain_LOD0.fbx",
+            "lod": "LOD0",
+            "meshes": 1,
+            "triangles": 7796,
+            "boundsCenter": [
+                -0.004001617431640625,
+                2.253035545349121,
+                -0.005431175231933594
+            ],
+            "boundsSize": [
+                4.37052059173584,
+                4.5081787109375,
+                4.481003761291504
+            ],
+            "rootLocalPosition": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "rootLocalEuler": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "rootLocalScale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "importAnimation": false,
+            "addCollider": false,
+            "isReadable": true,
+            "useFileScale": true,
+            "bakeAxisConversion": false,
+            "globalScale": 1.0
+        },
+        {
+            "id": "rock_mountain",
+            "path": "Assets/JieGuang/Environment/Models/Natural/rock_mountain/rock_mountain_LOD1.fbx",
+            "lod": "LOD1",
+            "meshes": 1,
+            "triangles": 3093,
+            "boundsCenter": [
+                -0.0023288726806640627,
+                2.249706745147705,
+                0.001178741455078125
+            ],
+            "boundsSize": [
+                4.330336570739746,
+                4.501521110534668,
+                4.467783451080322
+            ],
+            "rootLocalPosition": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "rootLocalEuler": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "rootLocalScale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "importAnimation": false,
+            "addCollider": false,
+            "isReadable": true,
+            "useFileScale": true,
+            "bakeAxisConversion": false,
+            "globalScale": 1.0
+        },
+        {
+            "id": "rock_mass",
+            "path": "Assets/JieGuang/Environment/Models/Natural/rock_mass/rock_mass_LOD0.fbx",
+            "lod": "LOD0",
+            "meshes": 1,
+            "triangles": 7813,
+            "boundsCenter": [
+                0.003821849822998047,
+                0.9390312433242798,
+                -0.005754232406616211
+            ],
+            "boundsSize": [
+                5.509810447692871,
+                1.8784191608428956,
+                3.7831802368164064
+            ],
+            "rootLocalPosition": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "rootLocalEuler": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "rootLocalScale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "importAnimation": false,
+            "addCollider": false,
+            "isReadable": true,
+            "useFileScale": true,
+            "bakeAxisConversion": false,
+            "globalScale": 1.0
+        },
+        {
+            "id": "rock_mass",
+            "path": "Assets/JieGuang/Environment/Models/Natural/rock_mass/rock_mass_LOD1.fbx",
+            "lod": "LOD1",
+            "meshes": 1,
+            "triangles": 3101,
+            "boundsCenter": [
+                0.015668630599975587,
+                0.9330129623413086,
+                -0.005934238433837891
+            ],
+            "boundsSize": [
+                5.486116886138916,
+                1.8663825988769532,
+                3.780299186706543
+            ],
+            "rootLocalPosition": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "rootLocalEuler": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "rootLocalScale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "importAnimation": false,
+            "addCollider": false,
+            "isReadable": true,
+            "useFileScale": true,
+            "bakeAxisConversion": false,
+            "globalScale": 1.0
+        },
+        {
+            "id": "rock_arch",
+            "path": "Assets/JieGuang/Environment/Models/Natural/rock_arch/rock_arch_LOD0.fbx",
+            "lod": "LOD0",
+            "meshes": 1,
+            "triangles": 7800,
+            "boundsCenter": [
+                0.00043702125549316406,
+                1.3731787204742432,
+                -0.0022721290588378908
+            ],
+            "boundsSize": [
+                6.007585048675537,
+                2.742837429046631,
+                4.3114013671875
+            ],
+            "rootLocalPosition": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "rootLocalEuler": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "rootLocalScale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "importAnimation": false,
+            "addCollider": false,
+            "isReadable": true,
+            "useFileScale": true,
+            "bakeAxisConversion": false,
+            "globalScale": 1.0
+        },
+        {
+            "id": "rock_arch",
+            "path": "Assets/JieGuang/Environment/Models/Natural/rock_arch/rock_arch_LOD1.fbx",
+            "lod": "LOD1",
+            "meshes": 1,
+            "triangles": 3095,
+            "boundsCenter": [
+                -0.005317211151123047,
+                1.3740041255950928,
+                -0.009320974349975586
+            ],
+            "boundsSize": [
+                5.993090629577637,
+                2.74448823928833,
+                4.297303676605225
+            ],
+            "rootLocalPosition": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "rootLocalEuler": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "rootLocalScale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "importAnimation": false,
+            "addCollider": false,
+            "isReadable": true,
+            "useFileScale": true,
+            "bakeAxisConversion": false,
+            "globalScale": 1.0
+        },
+        {
+            "id": "rock_cluster",
+            "path": "Assets/JieGuang/Environment/Models/Natural/rock_cluster/rock_cluster_LOD0.fbx",
+            "lod": "LOD0",
+            "meshes": 1,
+            "triangles": 7811,
+            "boundsCenter": [
+                0.00038301944732666016,
+                0.7994537949562073,
+                -0.00016200542449951172
+            ],
+            "boundsSize": [
+                3.498901844024658,
+                1.597781777381897,
+                2.3438093662261965
+            ],
+            "rootLocalPosition": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "rootLocalEuler": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "rootLocalScale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "importAnimation": false,
+            "addCollider": false,
+            "isReadable": true,
+            "useFileScale": true,
+            "bakeAxisConversion": false,
+            "globalScale": 1.0
+        },
+        {
+            "id": "rock_cluster",
+            "path": "Assets/JieGuang/Environment/Models/Natural/rock_cluster/rock_cluster_LOD1.fbx",
+            "lod": "LOD1",
+            "meshes": 1,
+            "triangles": 3099,
+            "boundsCenter": [
+                -0.000827789306640625,
+                0.7983393669128418,
+                0.0009248256683349609
+            ],
+            "boundsSize": [
+                3.5200352668762209,
+                1.595552921295166,
+                2.3459830284118654
+            ],
+            "rootLocalPosition": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "rootLocalEuler": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "rootLocalScale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "importAnimation": false,
+            "addCollider": false,
+            "isReadable": true,
+            "useFileScale": true,
+            "bakeAxisConversion": false,
+            "globalScale": 1.0
+        },
+        {
+            "id": "boat",
+            "path": "Assets/JieGuang/Environment/Models/Natural/boat/boat_LOD0.fbx",
+            "lod": "LOD0",
+            "meshes": 1,
+            "triangles": 29816,
+            "boundsCenter": [
+                0.0001398324966430664,
+                0.724065363407135,
+                -0.00025725364685058594
+            ],
+            "boundsSize": [
+                1.7101502418518067,
+                1.446919560432434,
+                5.001363754272461
+            ],
+            "rootLocalPosition": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "rootLocalEuler": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "rootLocalScale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "importAnimation": false,
+            "addCollider": false,
+            "isReadable": true,
+            "useFileScale": true,
+            "bakeAxisConversion": false,
+            "globalScale": 1.0
+        },
+        {
+            "id": "rock_cluster_reef_01",
+            "path": "Assets/JieGuang/Environment/Models/Natural/rock_cluster/rock_cluster_reef_01_LOD0.fbx",
+            "lod": "LOD0",
+            "meshes": 1,
+            "triangles": 2815,
+            "boundsCenter": [
+                -0.0010385513305664063,
+                0.6026866436004639,
+                -0.003279447555541992
+            ],
+            "boundsSize": [
+                2.3801722526550295,
+                1.2052276134490967,
+                2.5032927989959719
+            ],
+            "rootLocalPosition": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "rootLocalEuler": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "rootLocalScale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "importAnimation": false,
+            "addCollider": false,
+            "isReadable": true,
+            "useFileScale": true,
+            "bakeAxisConversion": false,
+            "globalScale": 1.0
+        },
+        {
+            "id": "rock_cluster_reef_01",
+            "path": "Assets/JieGuang/Environment/Models/Natural/rock_cluster/rock_cluster_reef_01_LOD1.fbx",
+            "lod": "LOD1",
+            "meshes": 1,
+            "triangles": 1101,
+            "boundsCenter": [
+                0.0008103847503662109,
+                0.6014726161956787,
+                -0.003279447555541992
+            ],
+            "boundsSize": [
+                2.373098134994507,
+                1.2027995586395264,
+                2.5032927989959719
+            ],
+            "rootLocalPosition": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "rootLocalEuler": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "rootLocalScale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "importAnimation": false,
+            "addCollider": false,
+            "isReadable": true,
+            "useFileScale": true,
+            "bakeAxisConversion": false,
+            "globalScale": 1.0
+        },
+        {
+            "id": "rock_cluster_reef_02",
+            "path": "Assets/JieGuang/Environment/Models/Natural/rock_cluster/rock_cluster_reef_02_LOD0.fbx",
+            "lod": "LOD0",
+            "meshes": 1,
+            "triangles": 2816,
+            "boundsCenter": [
+                0.0009126663208007813,
+                0.6435471773147583,
+                0.0011487007141113282
+            ],
+            "boundsSize": [
+                2.6057004928588869,
+                1.2882020473480225,
+                2.229654312133789
+            ],
+            "rootLocalPosition": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "rootLocalEuler": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "rootLocalScale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "importAnimation": false,
+            "addCollider": false,
+            "isReadable": true,
+            "useFileScale": true,
+            "bakeAxisConversion": false,
+            "globalScale": 1.0
+        },
+        {
+            "id": "rock_cluster_reef_02",
+            "path": "Assets/JieGuang/Environment/Models/Natural/rock_cluster/rock_cluster_reef_02_LOD1.fbx",
+            "lod": "LOD1",
+            "meshes": 1,
+            "triangles": 1102,
+            "boundsCenter": [
+                -0.003384113311767578,
+                0.6442922353744507,
+                0.0025949478149414064
+            ],
+            "boundsSize": [
+                2.596431255340576,
+                1.2896921634674073,
+                2.23254656791687
+            ],
+            "rootLocalPosition": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "rootLocalEuler": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "rootLocalScale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "importAnimation": false,
+            "addCollider": false,
+            "isReadable": true,
+            "useFileScale": true,
+            "bakeAxisConversion": false,
+            "globalScale": 1.0
+        }
+    ],
+    "markerComparisons": [
+        {
+            "instance": "GrandmotherHouse",
+            "marker": "Marker_Window",
+            "anchor": "Target_Window",
+            "actualWorldPosition": [
+                5.475666046142578,
+                4.020000457763672,
+                -17.455001831054689
+            ],
+            "anchorWorldPosition": [
+                4.0016398429870609,
+                4.019999980926514,
+                -18.17392921447754
+            ],
+            "actualWorldForward": [
+                -5.960464477539063e-8,
+                1.0,
+                1.7508864402770997e-7
+            ],
+            "anchorWorldForward": [
+                0.43837103247642519,
+                0.0,
+                -0.8987942934036255
+            ],
+            "distanceMetres": 1.640002965927124,
+            "forwardAngleDegrees": 90.00000762939453,
+            "toleranceMetres": 0.02500000037252903
+        },
+        {
+            "instance": "GrandmotherHouse",
+            "marker": "Marker_ABo_Seat",
+            "anchor": "NPC_ABo_Window",
+            "actualWorldPosition": [
+                4.890440940856934,
+                2.890000104904175,
+                -16.25511360168457
+            ],
+            "anchorWorldPosition": [
+                3.4164199829101564,
+                2.890000104904175,
+                -16.97403907775879
+            ],
+            "actualWorldForward": [
+                -5.960464477539063e-8,
+                1.0,
+                1.7508864402770997e-7
+            ],
+            "anchorWorldForward": [
+                0.43837103247642519,
+                0.0,
+                -0.8987942934036255
+            ],
+            "distanceMetres": 1.6399974822998047,
+            "forwardAngleDegrees": 90.00000762939453,
+            "toleranceMetres": 0.02500000037252903
+        },
+        {
+            "instance": "Flagpole",
+            "marker": "Marker_FlagpoleHook",
+            "anchor": "Anchor_FlagpoleHook",
+            "actualWorldPosition": [
+                10.0,
+                4.25,
+                -10.5
+            ],
+            "anchorWorldPosition": [
+                10.0,
+                4.25,
+                -10.5
+            ],
+            "actualWorldForward": [
+                1.0658141036401503e-14,
+                0.9999999403953552,
+                1.7881393432617188e-7
+            ],
+            "anchorWorldForward": [
+                0.0,
+                0.0,
+                -1.0
+            ],
+            "distanceMetres": 0.0,
+            "forwardAngleDegrees": 90.00000762939453,
+            "toleranceMetres": 0.02500000037252903
+        },
+        {
+            "instance": "Bench",
+            "marker": "Marker_Seat",
+            "anchor": "NPC_Bench",
+            "actualWorldPosition": [
+                9.0,
+                2.8500001430511476,
+                -20.96000099182129
+            ],
+            "anchorWorldPosition": [
+                9.0,
+                2.8499999046325685,
+                -20.959999084472658
+            ],
+            "actualWorldForward": [
+                0.0,
+                0.9999999403953552,
+                -1.1920928955078126e-7
+            ],
+            "anchorWorldForward": [
+                0.0,
+                0.0,
+                1.0
+            ],
+            "distanceMetres": 0.000001922192041092785,
+            "forwardAngleDegrees": 90.00000762939453,
+            "toleranceMetres": 0.02500000037252903
+        },
+        {
+            "instance": "KeeperBox",
+            "marker": "Marker_Seat",
+            "anchor": "NPC_DengBo_Box",
+            "actualWorldPosition": [
+                10.649999618530274,
+                3.0399999618530275,
+                -10.800000190734864
+            ],
+            "anchorWorldPosition": [
+                10.649999618530274,
+                3.0399999618530275,
+                -10.800000190734864
+            ],
+            "actualWorldForward": [
+                0.0,
+                0.9999999403953552,
+                -1.1920928955078126e-7
+            ],
+            "anchorWorldForward": [
+                0.0,
+                0.0,
+                1.0
+            ],
+            "distanceMetres": 0.0,
+            "forwardAngleDegrees": 90.00000762939453,
+            "toleranceMetres": 0.02500000037252903
+        }
+    ]
+}

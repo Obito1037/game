@@ -1,0 +1,664 @@
+{
+    "status": "passed-ground-samples",
+    "utc": "2026-10-22T16:58:39.1003148Z",
+    "prefab": "Assets/JieGuang/Environment/Island.prefab",
+    "scope": "Downward rays against this prefab's enabled, non-trigger layer-8 colliders only, in an isolated preview scene. Three newly requested foot/root anchors require an absolute height delta <= 0.03 m. Other samples require a hit with an upward-facing normal; their height deltas are observations, not acceptance thresholds.",
+    "deltaDefinition": "deltaY = anchor world Y minus closest downward ground-hit world Y. Positive means above ground; negative means below ground. Road probes have no reference Y.",
+    "boundsDefinition": "Corrected scene/world bounds of the instantiated Terrain subtree, including the clone's reflection correction. These are not the raw imported FBX bounds.",
+    "previousQueriesHitBackfaces": false,
+    "testedQueriesHitBackfaces": false,
+    "groundColliderCount": 4,
+    "passedSamples": 13,
+    "failedSamples": 0,
+    "correctedTerrainBounds": {
+        "path": "Island/Terrain",
+        "valid": true,
+        "layer": 0,
+        "meshCount": 3,
+        "worldDeterminant": 0.0,
+        "center": [
+            -4.7058258056640629,
+            2.4324939250946047,
+            1.7708110809326172
+        ],
+        "size": [
+            42.355064392089847,
+            12.024943351745606,
+            61.49299621582031
+        ],
+        "min": [
+            -25.883358001708986,
+            -3.5799777507781984,
+            -28.97568702697754
+        ],
+        "max": [
+            16.47170639038086,
+            8.444965362548829,
+            32.517311096191409
+        ]
+    },
+    "correctedTerrainGroundBounds": {
+        "path": "Island/Terrain (layer-8 collider meshes)",
+        "valid": true,
+        "layer": 0,
+        "meshCount": 1,
+        "worldDeterminant": 0.0,
+        "center": [
+            -4.6042327880859379,
+            4.360000133514404,
+            1.7598209381103516
+        ],
+        "size": [
+            40.573455810546878,
+            8.08000659942627,
+            59.506126403808597
+        ],
+        "min": [
+            -24.890960693359376,
+            0.31999683380126955,
+            -27.993242263793947
+        ],
+        "max": [
+            15.6824951171875,
+            8.400003433227539,
+            31.51288414001465
+        ]
+    },
+    "terrainMeshes": [
+        {
+            "path": "Island/Terrain/IslandTerrain/LOD0/CoastalCliff",
+            "valid": true,
+            "layer": 9,
+            "meshCount": 1,
+            "worldDeterminant": -999999.875,
+            "center": [
+                -4.7058258056640629,
+                -1.3535511493682862,
+                1.7708110809326172
+            ],
+            "size": [
+                42.355064392089847,
+                4.452853202819824,
+                61.49299621582031
+            ],
+            "min": [
+                -25.883358001708986,
+                -3.5799777507781984,
+                -28.97568702697754
+            ],
+            "max": [
+                16.47170639038086,
+                0.872875452041626,
+                32.517311096191409
+            ]
+        },
+        {
+            "path": "Island/Terrain/IslandTerrain/LOD0/IslandGround",
+            "valid": true,
+            "layer": 8,
+            "meshCount": 1,
+            "worldDeterminant": -999999.875,
+            "center": [
+                -4.6042327880859379,
+                4.360000133514404,
+                1.7598209381103516
+            ],
+            "size": [
+                40.573455810546878,
+                8.08000659942627,
+                59.506126403808597
+            ],
+            "min": [
+                -24.890960693359376,
+                0.31999683380126955,
+                -27.993242263793947
+            ],
+            "max": [
+                15.6824951171875,
+                8.400003433227539,
+                31.51288414001465
+            ]
+        },
+        {
+            "path": "Island/Terrain/IslandTerrain/LOD0/StonePaths",
+            "valid": true,
+            "layer": 8,
+            "meshCount": 1,
+            "worldDeterminant": -999999.875,
+            "center": [
+                -4.96319580078125,
+                5.3924560546875,
+                0.5998153686523438
+            ],
+            "size": [
+                34.08350372314453,
+                6.105018615722656,
+                50.11962127685547
+            ],
+            "min": [
+                -22.004947662353517,
+                2.339946746826172,
+                -24.45999526977539
+            ],
+            "max": [
+                12.078556060791016,
+                8.444965362548829,
+                25.659626007080079
+            ]
+        }
+    ],
+    "samples": [
+        {
+            "name": "Anchor_VillageGate",
+            "kind": "anchor",
+            "colliderPath": "Island/Terrain/IslandTerrain/LOD0/IslandGround",
+            "detail": "Upward ground hit and height delta within 0.03 m.",
+            "foundAnchor": true,
+            "hasReferenceY": true,
+            "enforceHeight": true,
+            "hit": true,
+            "upwardNormal": true,
+            "passed": true,
+            "anchorMatches": 1,
+            "testedColliders": 4,
+            "toleranceMetres": 0.029999999329447748,
+            "groundY": 8.384455680847168,
+            "deltaY": 0.001049041748046875,
+            "rayLength": 28.080007553100587,
+            "hitDistance": 10.015546798706055,
+            "referencePosition": [
+                -12.0,
+                8.385504722595215,
+                4.0
+            ],
+            "rayOrigin": [
+                -12.0,
+                18.40000343322754,
+                4.0
+            ],
+            "hitPoint": [
+                -12.0,
+                8.384455680847168,
+                3.999999523162842
+            ],
+            "hitNormal": [
+                0.011428887955844403,
+                0.9998637437820435,
+                -0.011911734938621521
+            ]
+        },
+        {
+            "name": "Anchor_GoldenTree",
+            "kind": "anchor",
+            "colliderPath": "Island/Terrain/IslandTerrain/LOD0/IslandGround",
+            "detail": "Upward ground hit and height delta within 0.03 m.",
+            "foundAnchor": true,
+            "hasReferenceY": true,
+            "enforceHeight": true,
+            "hit": true,
+            "upwardNormal": true,
+            "passed": true,
+            "anchorMatches": 1,
+            "testedColliders": 4,
+            "toleranceMetres": 0.029999999329447748,
+            "groundY": 2.3639109134674074,
+            "deltaY": 0.00012445449829101563,
+            "rayLength": 28.080007553100587,
+            "hitDistance": 16.036088943481447,
+            "referencePosition": [
+                1.7999999523162842,
+                2.3640353679656984,
+                -21.399999618530275
+            ],
+            "rayOrigin": [
+                1.7999999523162842,
+                18.40000343322754,
+                -21.399999618530275
+            ],
+            "hitPoint": [
+                1.7999998331069947,
+                2.3639109134674074,
+                -21.39999771118164
+            ],
+            "hitNormal": [
+                -0.011069600470364094,
+                0.9998897314071655,
+                -0.009904484264552594
+            ]
+        },
+        {
+            "name": "NPC_ABo_Door",
+            "kind": "anchor",
+            "colliderPath": "Island/Terrain/IslandTerrain/LOD0/IslandGround",
+            "detail": "Upward ground hit and height delta within 0.03 m.",
+            "foundAnchor": true,
+            "hasReferenceY": true,
+            "enforceHeight": true,
+            "hit": true,
+            "upwardNormal": true,
+            "passed": true,
+            "anchorMatches": 1,
+            "testedColliders": 4,
+            "toleranceMetres": 0.029999999329447748,
+            "groundY": 2.399132013320923,
+            "deltaY": 0.00003409385681152344,
+            "rayLength": 28.080007553100587,
+            "hitDistance": 16.00086784362793,
+            "referencePosition": [
+                6.201429843902588,
+                2.3991661071777345,
+                -18.23587989807129
+            ],
+            "rayOrigin": [
+                6.201429843902588,
+                18.40000343322754,
+                -18.23587989807129
+            ],
+            "hitPoint": [
+                6.20142936706543,
+                2.399132013320923,
+                -18.235876083374025
+            ],
+            "hitNormal": [
+                0.002429792657494545,
+                0.9999942183494568,
+                0.002365309512242675
+            ]
+        },
+        {
+            "name": "Anchor_PlayerSpawn",
+            "kind": "anchor",
+            "colliderPath": "Island/Terrain/IslandTerrain/LOD0/IslandGround",
+            "detail": "Upward ground hit; height delta is informational only.",
+            "foundAnchor": true,
+            "hasReferenceY": true,
+            "enforceHeight": false,
+            "hit": true,
+            "upwardNormal": true,
+            "passed": true,
+            "anchorMatches": 1,
+            "testedColliders": 4,
+            "toleranceMetres": 0.0,
+            "groundY": 2.3997232913970949,
+            "deltaY": 0.050276756286621097,
+            "rayLength": 28.080007553100587,
+            "hitDistance": 16.000276565551759,
+            "referencePosition": [
+                11.399999618530274,
+                2.450000047683716,
+                -24.5
+            ],
+            "rayOrigin": [
+                11.399999618530274,
+                18.40000343322754,
+                -24.5
+            ],
+            "hitPoint": [
+                11.399999618530274,
+                2.3997232913970949,
+                -24.499996185302736
+            ],
+            "hitNormal": [
+                0.001494794269092381,
+                0.9999982118606567,
+                0.0011055140057578683
+            ]
+        },
+        {
+            "name": "NPC_AYing",
+            "kind": "anchor",
+            "colliderPath": "Island/Pier/PierDeck_03/WalkableDeck",
+            "detail": "Upward ground hit; height delta is informational only.",
+            "foundAnchor": true,
+            "hasReferenceY": true,
+            "enforceHeight": false,
+            "hit": true,
+            "upwardNormal": true,
+            "passed": true,
+            "anchorMatches": 1,
+            "testedColliders": 4,
+            "toleranceMetres": 0.0,
+            "groundY": 2.4800000190734865,
+            "deltaY": 0.0,
+            "rayLength": 28.080007553100587,
+            "hitDistance": 15.920003890991211,
+            "referencePosition": [
+                9.699999809265137,
+                2.4800000190734865,
+                -12.5
+            ],
+            "rayOrigin": [
+                9.699999809265137,
+                18.40000343322754,
+                -12.5
+            ],
+            "hitPoint": [
+                9.699999809265137,
+                2.4800000190734865,
+                -12.5
+            ],
+            "hitNormal": [
+                0.0,
+                1.0,
+                0.0
+            ]
+        },
+        {
+            "name": "Target_Pier",
+            "kind": "anchor",
+            "colliderPath": "Island/Pier/PierDeck_01/WalkableDeck",
+            "detail": "Upward ground hit; height delta is informational only.",
+            "foundAnchor": true,
+            "hasReferenceY": true,
+            "enforceHeight": false,
+            "hit": true,
+            "upwardNormal": true,
+            "passed": true,
+            "anchorMatches": 1,
+            "testedColliders": 4,
+            "toleranceMetres": 0.0,
+            "groundY": 2.4800000190734865,
+            "deltaY": 0.0,
+            "rayLength": 28.080007553100587,
+            "hitDistance": 15.920003890991211,
+            "referencePosition": [
+                10.0,
+                2.4800000190734865,
+                -16.0
+            ],
+            "rayOrigin": [
+                10.0,
+                18.40000343322754,
+                -16.0
+            ],
+            "hitPoint": [
+                10.0,
+                2.4800000190734865,
+                -16.0
+            ],
+            "hitNormal": [
+                0.0,
+                1.0,
+                0.0
+            ]
+        },
+        {
+            "name": "NPC_Postman",
+            "kind": "anchor",
+            "colliderPath": "Island/Terrain/IslandTerrain/LOD0/IslandGround",
+            "detail": "Upward ground hit; height delta is informational only.",
+            "foundAnchor": true,
+            "hasReferenceY": true,
+            "enforceHeight": false,
+            "hit": true,
+            "upwardNormal": true,
+            "passed": true,
+            "anchorMatches": 1,
+            "testedColliders": 4,
+            "toleranceMetres": 0.0,
+            "groundY": 2.360917568206787,
+            "deltaY": 0.04854869842529297,
+            "rayLength": 28.080007553100587,
+            "hitDistance": 16.03908920288086,
+            "referencePosition": [
+                8.0,
+                2.40946626663208,
+                -13.0
+            ],
+            "rayOrigin": [
+                8.0,
+                18.40000343322754,
+                -13.0
+            ],
+            "hitPoint": [
+                7.999998569488525,
+                2.360917568206787,
+                -13.000000953674317
+            ],
+            "hitNormal": [
+                0.019378580152988435,
+                0.9997824430465698,
+                -0.00771487457677722
+            ]
+        },
+        {
+            "name": "Target_Path",
+            "kind": "anchor",
+            "colliderPath": "Island/Terrain/IslandTerrain/LOD0/IslandGround",
+            "detail": "Upward ground hit; height delta is informational only.",
+            "foundAnchor": true,
+            "hasReferenceY": true,
+            "enforceHeight": false,
+            "hit": true,
+            "upwardNormal": true,
+            "passed": true,
+            "anchorMatches": 1,
+            "testedColliders": 4,
+            "toleranceMetres": 0.0,
+            "groundY": 2.3948771953582765,
+            "deltaY": 0.05512285232543945,
+            "rayLength": 28.080007553100587,
+            "hitDistance": 16.005125045776368,
+            "referencePosition": [
+                5.5,
+                2.450000047683716,
+                -21.0
+            ],
+            "rayOrigin": [
+                5.5,
+                18.40000343322754,
+                -21.0
+            ],
+            "hitPoint": [
+                5.5,
+                2.3948771953582765,
+                -20.999998092651368
+            ],
+            "hitNormal": [
+                -0.003996937070041895,
+                0.9999839663505554,
+                -0.004007286857813597
+            ]
+        },
+        {
+            "name": "Road_VillageGate_-12_4",
+            "kind": "road-probe",
+            "colliderPath": "Island/Terrain/IslandTerrain/LOD0/IslandGround",
+            "detail": "Upward ground hit; height delta is informational only.",
+            "foundAnchor": false,
+            "hasReferenceY": false,
+            "enforceHeight": false,
+            "hit": true,
+            "upwardNormal": true,
+            "passed": true,
+            "anchorMatches": 0,
+            "testedColliders": 4,
+            "toleranceMetres": 0.0,
+            "groundY": 8.384455680847168,
+            "deltaY": 0.0,
+            "rayLength": 28.080007553100587,
+            "hitDistance": 10.015546798706055,
+            "referencePosition": [
+                -12.0,
+                0.0,
+                4.0
+            ],
+            "rayOrigin": [
+                -12.0,
+                18.40000343322754,
+                4.0
+            ],
+            "hitPoint": [
+                -12.0,
+                8.384455680847168,
+                3.999999523162842
+            ],
+            "hitNormal": [
+                0.011428887955844403,
+                0.9998637437820435,
+                -0.011911734938621521
+            ]
+        },
+        {
+            "name": "Road_VillageCentre_-13_10",
+            "kind": "road-probe",
+            "colliderPath": "Island/Terrain/IslandTerrain/LOD0/IslandGround",
+            "detail": "Upward ground hit; height delta is informational only.",
+            "foundAnchor": false,
+            "hasReferenceY": false,
+            "enforceHeight": false,
+            "hit": true,
+            "upwardNormal": true,
+            "passed": true,
+            "anchorMatches": 0,
+            "testedColliders": 4,
+            "toleranceMetres": 0.0,
+            "groundY": 8.397543907165528,
+            "deltaY": 0.0,
+            "rayLength": 28.080007553100587,
+            "hitDistance": 10.002458572387696,
+            "referencePosition": [
+                -13.0,
+                0.0,
+                10.0
+            ],
+            "rayOrigin": [
+                -13.0,
+                18.40000343322754,
+                10.0
+            ],
+            "hitPoint": [
+                -12.999999046325684,
+                8.397543907165528,
+                9.999998092651368
+            ],
+            "hitNormal": [
+                0.0031266589649021627,
+                0.9999950528144836,
+                -0.0003716557694133371
+            ]
+        },
+        {
+            "name": "Road_Descent_-10_minus1",
+            "kind": "road-probe",
+            "colliderPath": "Island/Terrain/IslandTerrain/LOD0/IslandGround",
+            "detail": "Upward ground hit; height delta is informational only.",
+            "foundAnchor": false,
+            "hasReferenceY": false,
+            "enforceHeight": false,
+            "hit": true,
+            "upwardNormal": true,
+            "passed": true,
+            "anchorMatches": 0,
+            "testedColliders": 4,
+            "toleranceMetres": 0.0,
+            "groundY": 6.1555891036987309,
+            "deltaY": 0.0,
+            "rayLength": 28.080007553100587,
+            "hitDistance": 12.244412422180176,
+            "referencePosition": [
+                -10.0,
+                0.0,
+                -1.0
+            ],
+            "rayOrigin": [
+                -10.0,
+                18.40000343322754,
+                -1.0
+            ],
+            "hitPoint": [
+                -9.999999046325684,
+                6.1555891036987309,
+                -1.0000001192092896
+            ],
+            "hitNormal": [
+                0.1371871381998062,
+                0.9525914788246155,
+                -0.27156805992126467
+            ]
+        },
+        {
+            "name": "Road_Coast_-18_0",
+            "kind": "road-probe",
+            "colliderPath": "Island/Terrain/IslandTerrain/LOD0/IslandGround",
+            "detail": "Upward ground hit; height delta is informational only.",
+            "foundAnchor": false,
+            "hasReferenceY": false,
+            "enforceHeight": false,
+            "hit": true,
+            "upwardNormal": true,
+            "passed": true,
+            "anchorMatches": 0,
+            "testedColliders": 4,
+            "toleranceMetres": 0.0,
+            "groundY": 7.059542655944824,
+            "deltaY": 0.0,
+            "rayLength": 28.080007553100587,
+            "hitDistance": 11.340458869934082,
+            "referencePosition": [
+                -18.0,
+                0.0,
+                0.0
+            ],
+            "rayOrigin": [
+                -18.0,
+                18.40000343322754,
+                0.0
+            ],
+            "hitPoint": [
+                -17.999998092651368,
+                7.059542655944824,
+                -4.183335704510682e-7
+            ],
+            "hitNormal": [
+                0.05338677391409874,
+                0.953762948513031,
+                -0.29578056931495669
+            ]
+        },
+        {
+            "name": "Road_WestVillage_-21point4_11",
+            "kind": "road-probe",
+            "colliderPath": "Island/Terrain/IslandTerrain/LOD0/IslandGround",
+            "detail": "Upward ground hit; height delta is informational only.",
+            "foundAnchor": false,
+            "hasReferenceY": false,
+            "enforceHeight": false,
+            "hit": true,
+            "upwardNormal": true,
+            "passed": true,
+            "anchorMatches": 0,
+            "testedColliders": 4,
+            "toleranceMetres": 0.0,
+            "groundY": 8.329901695251465,
+            "deltaY": 0.0,
+            "rayLength": 28.080007553100587,
+            "hitDistance": 10.070101737976075,
+            "referencePosition": [
+                -21.399999618530275,
+                0.0,
+                11.0
+            ],
+            "rayOrigin": [
+                -21.399999618530275,
+                18.40000343322754,
+                11.0
+            ],
+            "hitPoint": [
+                -21.39999771118164,
+                8.329901695251465,
+                10.999998092651368
+            ],
+            "hitNormal": [
+                -0.02315562032163143,
+                0.9997249841690064,
+                -0.003715818515047431
+            ]
+        }
+    ],
+    "errors": [],
+    "limitations": [
+        "Finite point samples do not prove that every route is traversable or that character capsules fit.",
+        "Layer-9 buildings, props and rocks are deliberately excluded from the ground-height query."
+    ]
+}

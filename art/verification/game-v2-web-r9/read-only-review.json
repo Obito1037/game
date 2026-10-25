@@ -1,0 +1,75 @@
+{
+  "revision": "WebGL r9",
+  "reviewMode": "已逐张目检既有截图并读取既有报告；未启动浏览器、Editor 或游戏",
+  "result": "浏览器启动与序章开场导航通过目检；保留两处非阻断 UI 排版问题，不代表 Web 全章通关",
+  "sourceReport": "web-report.json",
+  "consoleReport": "browser-console.json",
+  "actualPngDimensions": { "width": 1600, "height": 900, "verifiedPngCount": 8 },
+  "images": [
+    { "file": "00-loading.png", "observed": "深蓝加载页、借光岛标题和 6% 进度可读。" },
+    { "file": "01-title.png", "observed": "标题、开始提示、岛屿、房屋、树木和码头完整可见，r8 不透明物体消失现象未出现。" },
+    { "file": "02-map-after-title-click.png", "observed": "真实点击进入旅程图，序章选中，七个章节节点及底部进入按钮可见；中央下排终章标签与选中序章编号重叠，左下 Esc 说明偏低。" },
+    { "file": "03-prologue-card.png", "observed": "Enter 进入序章卡；长夜将至标题、描述、右侧缩略图和 42% 进度可见。" },
+    { "file": "04-prologue-opening.png", "observed": "屋、树、路、码头、双人和帆船可见；旁白为他不会发光。从生下来就不会。" },
+    { "file": "05-prologue-dialogue-input.png", "observed": "两次 Space 后旁白推进为所以他提着一盏灯笼……这名字是阿萤起的。" },
+    { "file": "06-pause-menu.png", "observed": "Escape 打开暂停菜单；继续、回到旅程地图、回到标题、清除进度均可读；底部返回游戏文字相对 Esc 键帽偏低。" },
+    { "file": "07-resumed-prologue.png", "observed": "再次 Escape 后暂停层消失，序章场景和第二句旁白恢复。" }
+  ],
+  "remainingLayoutIssues": [
+    { "severity": "non-blocking", "where": "02-map-after-title-click.png", "issue": "中央下排终章节点标签与选中章节序章编号重叠。" },
+    { "severity": "non-blocking", "where": "02-map-after-title-click.png / 06-pause-menu.png", "issue": "Esc 键帽旁的回到标题、返回游戏说明相对键帽偏低。" }
+  ],
+  "runtime": {
+    "startedUtc": "2026-10-23T05:58:28.558Z",
+    "completedUtc": "2026-10-23T06:00:01.217Z",
+    "reportedErrors": [],
+    "consoleCaveat": "reportedErrors 为空不表示控制台无诊断信息。",
+    "consoleDiagnostics": {
+      "invalidEnumGetInternalformatParameterWarnings": 6,
+      "unsupportedShaderLogMessages": ["Hidden/CoreSRP/CoreCopy", "Hidden/Universal Render Pipeline/StencilDitherMaskSeed", "Hidden/Universal/HDRDebugView"],
+      "soundNotLoadedLengthLogMessages": 7,
+      "textureSamplerMismatchMessages": 0
+    },
+    "separateGlDiagnosticRun": {
+      "path": "../game-v2-web-r9-render-diagnostic/gl-diagnostic.json",
+      "drawsChecked": 24755,
+      "drawFailures": 0,
+      "note": "这是独立诊断运行，不是上述正式截图运行的 draw 计数。"
+    }
+  },
+  "performance": {
+    "browserVersion": "155.0.4283.62",
+    "gpu": "Intel Iris Xe Graphics / ANGLE Direct3D11",
+    "hardwareConcurrency": 16,
+    "deviceMemoryGb": 16,
+    "canvas": "1600 x 900 framebuffer and CSS",
+    "samples": [
+      { "view": "title-before-user-gesture", "elapsedMs": 12026.365, "engineSamples": 25, "medianEngineIntervalFps": 73.968933, "minimumEngineIntervalReading": 25.322373, "medianEngineRollingFps": 66.944407, "browserRafP50Ms": 13.825, "browserRafP95Ms": 21.41, "everyEngineIntervalAtLeast30": false, "allSamplesForeground": true },
+      { "view": "prologue-opening", "elapsedMs": 12042.02, "engineSamples": 26, "medianEngineIntervalFps": 56.69623, "minimumEngineIntervalReading": 33.60215, "medianEngineRollingFps": 57.923532, "browserRafP50Ms": 14.255, "browserRafP95Ms": 27.68, "everyEngineIntervalAtLeast30": true, "allSamplesForeground": true }
+    ],
+    "limits": "FPS 来自 Unity GetMetricsInfo；rAF 数值仅为浏览器回调间隔，不能当引擎 FPS。两个约 12 秒本机样本不能证明全流程、所有镜头或其他电脑持续达到 30 FPS；标题出现低于 30 的区间读数。"
+  },
+  "audio": {
+    "status": "non-silent-signal-observed",
+    "defaultAutoplayPolicy": true,
+    "firstTrustedGesture": "pointerdown on unity-canvas",
+    "contextStateBeforeFirstGesture": "running",
+    "contextStateAfterGesture": "running",
+    "sampleRate": 48000,
+    "measuredSpanMs": 70590.925,
+    "sampleIntervalMs": 250,
+    "measuredSamples": 284,
+    "runningSamples": 284,
+    "nonSilentSamples": 284,
+    "thresholdRms": 0.00001,
+    "medianRunningRms": 0.0238357111,
+    "maximumRms": 0.053538279,
+    "listeningVerified": false,
+    "limits": "以零增益 analyser 旁路测得正常点击后至少 70 秒的 WebAudio 非零信号；无自动 resume 或 autoplay-policy 覆盖。点击前 context 已 running，因此不宣称验证了点击解锁音频。未录音或实听，不能据此证明音色、混音和每项音效质量。"
+  },
+  "coverageLimits": [
+    "浏览器证据仅覆盖加载、标题点击、地图、序章卡、开场第二句对白、暂停与恢复。",
+    "未覆盖 Web 全章通关、自由行走、码头碰撞、解谜或暂停菜单其他分支。",
+    "Windows 全章证据另见 game-v2-native-r8-full，不能替代 Web 各章运行验证。"
+  ]
+}

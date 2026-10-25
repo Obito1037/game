@@ -1,0 +1,8 @@
+{"seconds":1.1172678470611573,"chapter":"Title","action":"state","objective":"","dialogue":"","detail":"Title|||False|False|False|False|False"}
+{"seconds":5.726479530334473,"chapter":"Title","action":"screenshot","objective":"","dialogue":"","detail":"00-title; saved=True"}
+{"seconds":5.730318069458008,"chapter":"Title","action":"key","objective":"","dialogue":"","detail":"Enter"}
+{"seconds":6.24208927154541,"chapter":"Title","action":"key","objective":"","dialogue":"","detail":"Enter"}
+{"seconds":6.751075744628906,"chapter":"Title","action":"state","objective":"","dialogue":"","detail":"Title|||True|False|False|False|False"}
+{"seconds":8.302438735961914,"chapter":"Title","action":"state","objective":"","dialogue":"","detail":"Title|||False|False|False|False|False"}
+{"seconds":8.818666458129883,"chapter":"Prologue","action":"state","objective":"","dialogue":"","detail":"Prologue|||False|False|False|False|False"}
+{"seconds":129.65672302246095,"chapter":"Prologue","action":"screenshot","objective":"","dialogue":"","detail":"failure-stalled; saved=True"}

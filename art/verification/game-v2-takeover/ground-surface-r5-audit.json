@@ -1,0 +1,29 @@
+{
+  "source": "actual runtime IslandGround export provided by root; no Blender/Editor used",
+  "vertex_count": 3025,
+  "source_triangles": 5760,
+  "boundary_edges": 288,
+  "boundary_closed_degree_2": true,
+  "boundary_component_sizes": [
+    288
+  ],
+  "world_y": [
+    0.3199959,
+    8.400002
+  ],
+  "boundary_y": [
+    0.3199959,
+    2.399996
+  ],
+  "negative_world_face_normal_y_count": 5760,
+  "derived_mesh_triangles": 6336,
+  "fix": "Render exact source surface with world-scale blended textures and triplanar cliff; closed skirt down to -1.2m. Terrain.drawHeightmap=false. Original collider unchanged.",
+  "evidence": "Root disabled Terrain.drawHeightmap in 10-no-terrain.png: curtains and tearing disappeared. Outer border <=2.40m cannot cover 8.40m interior slopes, so an outer wall alone cannot fix rasterized internal steep slopes.",
+  "limitations": "Offline topology check only; Unity shader compilation and native/WebGL screenshots pending root verification.",
+  "triangles_by_upward_slope": {
+    "under22": 4111,
+    "22to36": 317,
+    "36plus": 1332
+  },
+  "world_winding_correction": "All 5760 exported faces have negative cross-product Y. Builder measures total signed area and flips winding upward for identity-transform render mesh; source collider unchanged."
+}

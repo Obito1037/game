@@ -1,0 +1,30 @@
+本机原生 opt-in QA
+
+示例参数：
+JieGuang.exe -screen-width 1600 -screen-height 900 -screen-fullscreen 0 --jg-qa --jg-qa-out C:\Users\20665\Desktop\game\art\verification\game-v2-native-qa
+
+该脚本是独立 runtime 文件 JgQaRunner.cs。仅 Windows/Linux/macOS Standalone 且明确传入 --jg-qa 时创建组件；Editor 和 WebGL 不会自动运行。
+不要以 -batchmode/-nographics 启动：需要真实画面、正常 UI 与 WaitForEndOfFrame 截图。
+
+流程：标题 Enter → 地图（读选中圆环，通过方向键选择章节）→ 章节卡正常等待 → 1—7 章。
+对话/旁白/信件/卡片每 >=0.5 秒向 GameInput.Queue 注入按键。
+调灯严格发送 D/Space/数字键并调用 LampRules.Evaluate 只读检查，不赋值 settings、Solved 或章节完成状态。
+距离交互通过 PlayerController.Teleport 诊断传送，随后 E。此过程不验证实际行走路线和碰撞。
+每章保存正常镜头，另存地图、调灯前后、信件、结束卡。PNG 头读取实际尺寸。
+每章首个正常画面停留 8 秒采样，另收集正常镜头帧时间。报告有各章 p50/p95/p99、均值FPS、p95对应FPS。
+样本排除前10秒初始化、菜单卡片、截图附近及传送1秒内；仍属于带自动化的固定/剧情镜头，不是完整人工游玩或持续最低FPS。
+
+输出：
+- qa-report.json：持续更新，机器/分辨率、经过章节、解锁记录、谜题结果、截图和帧时间。
+- events.jsonl：实际按键、诊断传送、状态变化与截图事件。
+- save-backup.json：测试前存档原值。
+- *.png：原生正常渲染截图。
+
+为了测试真实解锁链，进入时备份后临时清空 jieguang.chapter / jieguang.unlocked / jieguang.debugStart。
+正常完成、失败退出和 Application.quitting 会恢复这三个键。
+强制终止进程不能保证恢复；原值保存在 save-backup.json 可供恢复。
+重复使用已有输出目录时会建 UTC 时间子目录，不覆写原证据。
+结束退出码 0 表示自动剧情流程走完、截图落盘且无捕捉到的 Unity Error/Exception/Assert；2 表示失败。
+120秒无状态推进或整体20分钟超时将失败退出。脚本不会把超时当成通过。
+
+尚待 root 构建与实跑；本文件本身不是验证结果。没有启动游戏或 Editor。

@@ -1,0 +1,181 @@
+{
+  "revision": "Windows r10",
+  "buildId": "build_6ea1dda0e4bd",
+  "sourceReport": "qa-report.json",
+  "eventLog": "events.jsonl",
+  "reviewScope": "只读复核既有自动流程报告、PNG 文件头及先前已目检的两张地图；本轮不扩展美术检查，不运行游戏、浏览器或 Editor。",
+  "result": "自动标题至尾声流程通过；地图排版修复已见效；本轮性能未达目标，不以历史版本数据替代。",
+  "startedUtc": "2026-10-23T06:36:06.2679956Z",
+  "completedUtc": "2026-10-23T06:42:05.4744704Z",
+  "flow": {
+    "status": "passed-automated-flow",
+    "titleSeen": true,
+    "epilogueClosingSeen": true,
+    "enteredChapters": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "completedChapters": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "puzzleSolvedThroughInput": [
+      2,
+      3,
+      5
+    ],
+    "unlockValues": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "epilogueVisited": [
+      "aying",
+      "postman",
+      "abo",
+      "dengbo"
+    ],
+    "reportedErrorCount": 0,
+    "saveRestored": true,
+    "method": "Normal title/map/chapter flow. GameInput keys at >=0.5 s. Diagnostic teleports bypass traversal; no puzzle-state mutation. Automated static/cutscene samples do not establish sustained gameplay performance."
+  },
+  "screenshots": {
+    "fileCount": 36,
+    "allPngHeaders1600x900": true,
+    "normalScreenshots": [
+      "01-normal",
+      "02-normal",
+      "03-normal",
+      "04-normal",
+      "05-normal",
+      "06-normal",
+      "07-normal"
+    ],
+    "requiredBeatScreenshotsPresent": [
+      "01-sharing-light",
+      "02-postman-bench-cane",
+      "03-window-lit-grandmother",
+      "04-letter",
+      "05-dengbo-seated",
+      "05-lantern-hung",
+      "06-reunion-hands",
+      "06-first-flower"
+    ],
+    "note": "文件存在和尺寸核对不等于本轮重新目检所有 36 张图。"
+  },
+  "mapReview": {
+    "images": [
+      "map-before-1.png",
+      "map-before-2.png"
+    ],
+    "observed": "map-before-1 中终章节点标签与底部选中序章编号已明确分离，下排节点无互相遮挡；两图左下 Esc 与回到标题同高并有间隔。",
+    "captureLimit": "map-before-2 捕获于详情文本和选中环尚未填入阶段，不用于验证第一章详情排版；原生本组截图不包含暂停菜单，暂停 Esc 仍待新 Web 截图核验。",
+    "sourceGameUIHash": "658FB4A2EEFA234A1C74CF971DEDCB195CF42711545013636671E3B569F854B6"
+  },
+  "performance": {
+    "targetFps": 60,
+    "result": "未达稳定 30 FPS，更未达 60 FPS；章节平均读数约 26.09–53.69 FPS。",
+    "machine": {
+      "os": "Windows 11  (10.0.26200)",
+      "cpu": "13th Gen Intel(R) Core(TM) i5-13500H",
+      "gpu": "Intel(R) Iris(R) Xe Graphics",
+      "graphicsApi": "Direct3D11",
+      "quality": "PC",
+      "actualWidth": 1600,
+      "actualHeight": 900,
+      "vSync": 0
+    },
+    "chapterSamples": [
+      {
+        "scope": "chapter-1 normal rendered frames; static/cutscene/diagnostic travel sample",
+        "samples": 784,
+        "measuredSeconds": 30.049243927001953,
+        "p50Ms": 36.1620979309082,
+        "p95Ms": 65.7582015991211,
+        "p99Ms": 84.17230224609375,
+        "meanFps": 26.090505599975586,
+        "p95EquivalentFps": 15.207228660583496
+      },
+      {
+        "scope": "chapter-2 normal rendered frames; static/cutscene/diagnostic travel sample",
+        "samples": 2411,
+        "measuredSeconds": 64.59733581542969,
+        "p50Ms": 24.777097702026367,
+        "p95Ms": 49.19820022583008,
+        "p99Ms": 65.4059066772461,
+        "meanFps": 37.323524475097656,
+        "p95EquivalentFps": 20.325946807861328
+      },
+      {
+        "scope": "chapter-3 normal rendered frames; static/cutscene/diagnostic travel sample",
+        "samples": 515,
+        "measuredSeconds": 15.017143249511719,
+        "p50Ms": 27.37610626220703,
+        "p95Ms": 56.55120086669922,
+        "p99Ms": 71.08799743652344,
+        "meanFps": 34.29413986206055,
+        "p95EquivalentFps": 17.683090209960938
+      },
+      {
+        "scope": "chapter-4 normal rendered frames; static/cutscene/diagnostic travel sample",
+        "samples": 826,
+        "measuredSeconds": 16.454761505126953,
+        "p50Ms": 16.675901412963867,
+        "p95Ms": 34.484500885009766,
+        "p99Ms": 50.748905181884766,
+        "meanFps": 50.1982307434082,
+        "p95EquivalentFps": 28.99853515625
+      },
+      {
+        "scope": "chapter-5 normal rendered frames; static/cutscene/diagnostic travel sample",
+        "samples": 1231,
+        "measuredSeconds": 24.525663375854492,
+        "p50Ms": 16.679201126098633,
+        "p95Ms": 34.952301025390625,
+        "p99Ms": 53.48430633544922,
+        "meanFps": 50.19232177734375,
+        "p95EquivalentFps": 28.61042022705078
+      },
+      {
+        "scope": "chapter-6 normal rendered frames; static/cutscene/diagnostic travel sample",
+        "samples": 1440,
+        "measuredSeconds": 26.819547653198242,
+        "p50Ms": 16.676097869873047,
+        "p95Ms": 28.17029571533203,
+        "p99Ms": 41.59530258178711,
+        "meanFps": 53.69218444824219,
+        "p95EquivalentFps": 35.49838638305664
+      },
+      {
+        "scope": "chapter-7 normal rendered frames; static/cutscene/diagnostic travel sample",
+        "samples": 1504,
+        "measuredSeconds": 32.68490219116211,
+        "p50Ms": 19.968303680419922,
+        "p95Ms": 32.18579864501953,
+        "p99Ms": 41.438697814941406,
+        "meanFps": 46.015132904052734,
+        "p95EquivalentFps": 31.069602966308594
+      }
+    ],
+    "limits": "采用 r10 本次测量，不用 r8 接近 60 FPS 的历史读数替代。样本为脚本正常镜头、静态或过场并含诊断移动，排除了预热、截图和传送稳定时间；不代表全程手工行走或其他设备性能。"
+  },
+  "coverageLimits": [
+    "自动流程通过诊断传送绕过实际行走，但调灯解谜通过输入完成，未直接修改 solved。",
+    "本轮不宣称手工全岛行走、碰撞全覆盖、声音实听或新的主观美术验收。",
+    "Web r10 结果单独等待，不由原生通过推断。"
+  ],
+  "next": "交付主代理合并 Web r10 启动与 UI 核验后打包停工；本审核不新增源码或诊断。"
+}

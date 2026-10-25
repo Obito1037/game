@@ -1,0 +1,29 @@
+{
+  "fromCandidate": "jieguang-v2-r5",
+  "toCandidate": "jieguang-v2-r6",
+  "comparedUtc": "2026-10-23T04:20:23.572Z",
+  "filesCompared": 57,
+  "changed": [
+    {
+      "path": "GameProject/Assets/JieGuang/Scripts/Core/JgRenderStudy.cs",
+      "beforeSha256": "b6a062e4440547177656ce268b9f2db303abbad79f90dd072cb0d521a8cdc3fb",
+      "afterSha256": "83f3aa0ca0a916c2cb0461672b6ef3614a688a844a13791a765130a0f841a2c4"
+    }
+  ],
+  "metaChanged": [],
+  "addedSources": [],
+  "removedSources": [],
+  "onlyOptInWalkDiagnosticChanged": true,
+  "exactOldSourceReconstruction": {
+    "method": "Replace current diagnostic method text with recorded r5 walk method; replace three 9.4f route/camera x values with 10f; hash the reconstructed UTF-8 source.",
+    "coordinateReplacementCount": 3,
+    "reconstructedSha256": "b6a062e4440547177656ce268b9f2db303abbad79f90dd072cb0d521a8cdc3fb",
+    "expectedR5Sha256": "b6a062e4440547177656ce268b9f2db303abbad79f90dd072cb0d521a8cdc3fb",
+    "matches": true
+  },
+  "limits": [
+    "Only selected source/configuration scope is compared; not a full art dependency closure.",
+    "Route starts at x=9.4 to avoid an existing flagpole; this is not a gameplay collision fix.",
+    "Future WebGL platform fields may change separately."
+  ]
+}

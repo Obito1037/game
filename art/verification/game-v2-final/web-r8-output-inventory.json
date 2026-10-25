@@ -1,0 +1,39 @@
+{
+  "buildId": "build_de5e347913cd",
+  "measuredUtc": "2026-10-23T05:27:50.2549704Z",
+  "fileCount": 6,
+  "totalBytes": 174126608.0,
+  "note": "Actual output inventory. Unity BuildReport totalSizeBytes=6135 omits the Build resources; do not report that as the download size.",
+  "files": [
+    {
+      "path": "builds/candidates/jieguang-v2-r8/web/favicon.svg",
+      "bytes": 225,
+      "sha256": "ca05a74d2dfa0edb0797c37f7555f0ed96fd8982896268fb2fdcff2a45057dbc"
+    },
+    {
+      "path": "builds/candidates/jieguang-v2-r8/web/index.html",
+      "bytes": 5910,
+      "sha256": "45f2e4e4a920ae3641c35191834ab4d8cef686bba9873ba00926cc64107995c0"
+    },
+    {
+      "path": "builds/candidates/jieguang-v2-r8/web/Build/62b9152e92d285787d052f58578e29e2.wasm.unityweb",
+      "bytes": 11774627,
+      "sha256": "5a6d164646ead6ca24ca0bd03862351269ae2948312f46dc5206fa36c7324ee8"
+    },
+    {
+      "path": "builds/candidates/jieguang-v2-r8/web/Build/8bd5c8c9324b74a02eab599fdd242ff6.data.unityweb",
+      "bytes": 162209404,
+      "sha256": "da38dd80efe1ba367adeef596d865ecb32955199774d3b08a098e92b44bb5453"
+    },
+    {
+      "path": "builds/candidates/jieguang-v2-r8/web/Build/d9b64b1b780d819067aa18f62c6bc2e9.framework.js.unityweb",
+      "bytes": 88575,
+      "sha256": "fb0d40f831e6073d8ef91943013cb806a438313d186717283bebd1570a3f2001"
+    },
+    {
+      "path": "builds/candidates/jieguang-v2-r8/web/Build/dd1dcd467e5a9353395ff02c6537ded3.loader.js",
+      "bytes": 47867,
+      "sha256": "fdd882befa8c7f2e633cf31e1be429ca53d17070a29f45e3fd43232a267f766e"
+    }
+  ]
+}

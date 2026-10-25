@@ -1,0 +1,7 @@
+{
+  "candidate": "jieguang-v2-r10",
+  "verifiedUtc": "2026-10-23T06:58:07.2744737Z",
+  "filesChecked": 57,
+  "changed": [],
+  "scope": "Same source/configuration files and metadata as r10-source-manifest.json; not a full art dependency closure."
+}

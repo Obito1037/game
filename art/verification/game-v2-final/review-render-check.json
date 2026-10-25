@@ -1,0 +1,113 @@
+{
+  "capturedUtc": "2026-10-23T06:11:28.855Z",
+  "scope": "Local documentation rendering only; no game or runtime performance test.",
+  "htmlSha256": "960f0205c3c5e316f8be0fe5b6594844ced5ad435ecd2dd5a7429d4741a12bb4",
+  "browser": "155.0.4283.62",
+  "consoleErrors": [],
+  "checks": [
+    {
+      "name": "images",
+      "count": 41,
+      "failures": []
+    },
+    {
+      "name": "localLinks",
+      "count": 80,
+      "missing": [],
+      "brokenAnchors": []
+    },
+    {
+      "name": "overlayInteraction",
+      "value": "73%",
+      "clipPath": "inset(0px 0px 0px 73%)"
+    },
+    {
+      "name": "imageDialog",
+      "open": true,
+      "largeImageLoaded": true
+    },
+    {
+      "name": "escapeClosesDialog",
+      "passed": true
+    },
+    {
+      "name": "noHorizontalDocumentOverflow",
+      "desktop": {
+        "viewport": 1600,
+        "scrollWidth": 1600
+      },
+      "mobile": {
+        "viewport": 390,
+        "scrollWidth": 390
+      },
+      "passed": true
+    },
+    {
+      "name": "readmeLocalLinks",
+      "count": 57,
+      "missing": []
+    },
+    {
+      "name": "webR9PngSizes",
+      "files": [
+        {
+          "file": "00-loading.png",
+          "width": 1600,
+          "height": 900
+        },
+        {
+          "file": "01-title.png",
+          "width": 1600,
+          "height": 900
+        },
+        {
+          "file": "02-map-after-title-click.png",
+          "width": 1600,
+          "height": 900
+        },
+        {
+          "file": "03-prologue-card.png",
+          "width": 1600,
+          "height": 900
+        },
+        {
+          "file": "04-prologue-opening.png",
+          "width": 1600,
+          "height": 900
+        },
+        {
+          "file": "05-prologue-dialogue-input.png",
+          "width": 1600,
+          "height": 900
+        },
+        {
+          "file": "06-pause-menu.png",
+          "width": 1600,
+          "height": 900
+        },
+        {
+          "file": "07-resumed-prologue.png",
+          "width": 1600,
+          "height": 900
+        }
+      ],
+      "passed": true
+    }
+  ],
+  "screenshots": [
+    "review-r8-web-r9-desktop.png",
+    "review-r8-web-r9-full.png",
+    "review-r8-web-r9-web.png",
+    "review-r8-web-r9-reference.png",
+    "review-r8-web-r9-mobile.png"
+  ],
+  "status": "passed",
+  "visualReview": {
+    "reviewed": [
+      "review-r8-web-r9-desktop.png",
+      "review-r8-web-r9-mobile.png",
+      "review-r8-web-r9-reference.png"
+    ],
+    "findings": "Desktop and mobile text readable, no clipped cards, reference/native figures preserve original aspect ratios and different-condition warning. Local review only; not game visual acceptance."
+  }
+}

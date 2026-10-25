@@ -1,0 +1,62 @@
+{
+  "candidate": "jieguang-v2-r10",
+  "createdUtc": "2026-10-23T06:56:34.7263964Z",
+  "method": "ZIP entry inventory and uncompressed lengths compared to all source files; critical entries decompressed and SHA-256 matched. This package verification does not add gameplay coverage.",
+  "packages": [
+    {
+      "platform": "windows",
+      "path": "C:\\Users\\20665\\Desktop\\game\\builds\\packages\\JieGuang-v2-r10-Windows.zip",
+      "bytes": 215693767,
+      "sha256": "765ce3faa21898f91620c7315418f27cefdaaa3e69fe29451583718667acc8e6",
+      "entries": 176,
+      "allEntryPathsAndLengthsMatch": true,
+      "criticalPayloads": [
+        {
+          "entry": "JieGuang.exe",
+          "sha256": "eb143ead6441b6dd9d7d145adb85410e9389fb3878899ae537e8c9869cce38fa",
+          "matchesSource": true
+        },
+        {
+          "entry": "UnityPlayer.dll",
+          "sha256": "851da827899734e8b3d56f7e4dbbd58210e58e4daef504e6b7472b9ee503914b",
+          "matchesSource": true
+        }
+      ]
+    },
+    {
+      "platform": "web",
+      "path": "C:\\Users\\20665\\Desktop\\game\\builds\\packages\\JieGuang-v2-r10-WebGL.zip",
+      "bytes": 183559984,
+      "sha256": "7fc74476701f9500acf29a562458e3a491bbc162d3328af9ed6017c1f64b2a62",
+      "entries": 10,
+      "allEntryPathsAndLengthsMatch": true,
+      "criticalPayloads": [
+        {
+          "entry": "index.html",
+          "sha256": "4f23db3fa7aeb0b1dd609c6c59dfd8b9ce4302793426f1a436ff2bca640346ca",
+          "matchesSource": true
+        },
+        {
+          "entry": "serve-game.cjs",
+          "sha256": "4ffc6d3c864b55f89769f0ffbfc14c08b465f74d94e55665f28f484aee787266",
+          "matchesSource": true
+        },
+        {
+          "entry": "Start-Web.ps1",
+          "sha256": "613b5de4517484a868ed8206157d5af17e86a49c5e870f0610bf3b4149877dd1",
+          "matchesSource": true
+        },
+        {
+          "entry": "Build/879858220c40bcd47d535995be65050a.wasm.unityweb",
+          "sha256": "0a1120f8de4c1ca478ea9e14fc3ccb4ead43deb55038f77859528575e5662ec3",
+          "matchesSource": true
+        },
+        {
+          "entry": "Build/d6ece473aae28d5929f58d0da5394cc5.data.unityweb",
+          "sha256": "f5c9afc8a5d97f2d17ebf410f7a8da6cafb15abe8db4e5396121fb678233c7d9",
+          "matchesSource": true
+        }
+      ]
+    }
+  ]
+}

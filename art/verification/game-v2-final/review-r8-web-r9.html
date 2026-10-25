@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="dark">
+  <title>借光岛 · Windows r8 / Web r9 候选复核</title>
+  <style>
+    :root{--bg:#0c1219;--panel:#141e29;--border:#2c3a49;--ink:#eef2f6;--muted:#acbac8;--gold:#e6bc7b;--red:#ffb3a7;--green:#a6d7be;--radius:16px}
+    *{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:78px}body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.75 system-ui,"Microsoft YaHei",sans-serif}a{color:#bedcff;text-underline-offset:4px}a:hover{color:white}button,input{font:inherit}button,a,input{touch-action:manipulation}:focus-visible{outline:3px solid var(--gold);outline-offset:4px}button{cursor:pointer}
+    .wrap{width:min(1500px,calc(100% - 64px));margin:auto}header{padding:62px 0 30px;border-bottom:1px solid var(--border)}.eyebrow{color:var(--gold);letter-spacing:.16em;font-size:12px;font-weight:700}h1{font-size:clamp(30px,4vw,52px);letter-spacing:-.035em;line-height:1.2;margin:15px 0 22px}h2{font-size:26px;line-height:1.4;margin:0 0 12px}h3{margin:0;font-size:18px}p{margin:0 0 14px}.lede{max-width:1000px;color:#c7d3df;font-size:18px}.strong{color:var(--ink);font-weight:650}.status-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px;margin:28px 0 10px}.status{border:1px solid var(--border);border-radius:var(--radius);padding:20px;background:var(--panel)}.status p{margin:8px 0 0;color:var(--muted);font-size:14px}.badge{display:inline-block;border:1px solid currentColor;border-radius:99px;padding:1px 9px;font-size:12px;line-height:1.7;margin-left:8px;vertical-align:middle}.partial{color:var(--green)}.rejected{color:var(--red)}.pending-color{color:var(--gold)}
+    nav{position:sticky;top:0;z-index:5;background:rgba(12,18,25,.97);border-bottom:1px solid var(--border)}nav .wrap{display:flex;gap:24px;align-items:center;min-height:58px;overflow-x:auto;white-space:nowrap}nav a{font-size:14px;text-decoration:none;color:var(--muted)}nav a:hover{color:white}section{margin:48px 0}section+section{padding-top:30px;border-top:1px solid var(--border)}.section-head{display:flex;align-items:baseline;justify-content:space-between;gap:20px}.tag{font-size:12px;color:var(--muted);white-space:nowrap}.description{max-width:1100px;color:var(--muted)}.pair{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px;margin:18px 0 0}.triple{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}.shot{margin:0;overflow:hidden;border:1px solid var(--border);border-radius:var(--radius);background:var(--panel);min-width:0}.shot-top{display:flex;justify-content:space-between;align-items:center;gap:10px;padding:12px 16px;font-size:14px}.image-button{width:100%;display:block;border:0;background:#070b10;padding:0;line-height:0;position:relative}.image-button img{width:100%;height:auto;display:block}.image-button:hover:after{content:"点击查看原图";position:absolute;right:10px;bottom:10px;padding:7px 10px;border-radius:6px;background:#101925e8;color:white;line-height:1.5;font-size:12px}.shot figcaption{padding:12px 16px;font-size:13px;color:var(--muted)}.source{display:block;font-size:11px;overflow-wrap:anywhere;margin-top:7px;opacity:.85}.pending{display:flex;gap:18px;align-items:center;margin-top:14px;padding:17px 20px;background:#1d1d1a;border:1px dashed #706149;border-radius:12px;font-size:14px;color:#d9cdb9}.pending strong{color:var(--gold);white-space:nowrap}.note{border-left:3px solid var(--gold);padding:14px 18px;background:#1a2026;margin:20px 0;color:#c7d3df;font-size:14px}.danger-note{border-color:var(--red)}details{margin-top:14px}summary{cursor:pointer;color:#bedcff;font-size:14px;padding:5px 0}.overlay{position:relative;aspect-ratio:16/9;background:#070b10;margin-top:12px;border-radius:12px;overflow:hidden;isolation:isolate}.overlay img{position:absolute;inset:0;width:100%;height:100%;object-fit:contain}.overlay .after{clip-path:inset(0 0 0 var(--split,50%))}.overlay .divider{position:absolute;top:0;bottom:0;left:var(--split,50%);width:2px;background:white;box-shadow:0 0 8px #000}.overlay-label{position:absolute;top:14px;padding:3px 10px;background:#0b121cde;border-radius:6px;font-size:13px}.label-left{left:14px}.label-right{right:14px}.range-row{display:flex;align-items:center;gap:15px;padding:12px 0;font-size:13px;color:var(--muted)}.range-row input{flex:1;accent-color:var(--gold);min-width:80px}.range-row output{width:38px;text-align:right}
+    .evidence{display:grid;grid-template-columns:1fr 1fr;gap:24px;margin:22px 0}.evidence article{padding:22px;background:var(--panel);border:1px solid var(--border);border-radius:var(--radius)}.evidence p,.evidence li{font-size:14px;color:var(--muted)}.evidence ul{padding-left:20px;margin-bottom:0}.evidence code{color:#cde1f6;font-size:12px;overflow-wrap:anywhere}table{border-collapse:collapse;width:100%;font-size:14px}td,th{text-align:left;border-bottom:1px solid var(--border);padding:12px 10px;vertical-align:top}th{color:#c5d6e7;font-weight:600}td{color:var(--muted)}.table-scroll{overflow-x:auto}.checklist{padding-left:21px;color:var(--muted);font-size:15px}.checklist li{padding:4px 0}footer{margin-top:60px;padding:26px 0 45px;border-top:1px solid var(--border);color:var(--muted);font-size:13px}
+    dialog{width:min(96vw,1680px);max-width:none;max-height:96vh;border:1px solid var(--border);border-radius:12px;padding:0;background:#0b1118;color:white}dialog::backdrop{background:#000c}.dialog-bar{padding:12px 16px;display:flex;align-items:center;justify-content:space-between;gap:18px}.dialog-bar button{border:1px solid #61768a;background:#182636;color:white;border-radius:6px;padding:4px 14px}.dialog-title{font-size:14px}#large-image{display:block;max-height:calc(96vh - 70px);max-width:100%;width:auto;height:auto;margin:auto}noscript{display:block;padding:20px;border:1px solid var(--gold)}
+    @media(min-width:1800px){.wrap{width:min(1760px,calc(100% - 80px))}}@media(max-width:900px){.wrap{width:calc(100% - 32px)}header{padding-top:34px}.status-grid,.triple{grid-template-columns:1fr}.status{padding:15px 18px}.pair,.evidence{grid-template-columns:1fr}.section-head{display:block}.tag{display:block;margin-bottom:12px}.pending{align-items:flex-start;flex-direction:column;gap:5px}nav .wrap{gap:20px}.lede{font-size:16px}section{margin:34px 0}h2{font-size:22px}}@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}@media print{nav,details,.image-button:after{display:none}body{background:white;color:#111}.wrap{width:100%}.status,.shot,.evidence article{background:white;break-inside:avoid}.description,.shot figcaption,.status p,.evidence p,.evidence li,td,.checklist,.lede{color:#333}.pending,.note{background:#eee;color:#111}section{break-inside:avoid}a{color:#134c7b}}
+  </style>
+</head>
+<body>
+<header>
+  <div class="wrap">
+    <div class="eyebrow">借光岛 / 第二版 · 本地候选复核</div>
+    <h1>Windows r8 与 Web r9，现可试玩。</h1>
+    <p class="lede">原生七章自动流程通过；同源 Web 重建后，场景恢复正常，序章输入与暂停/恢复通过。最新原生图中，岸边破片和厚亮光锥未再出现，地光长反射保留。<span class="strong">双端启动已验证，整体美术与性能尚未完整验收。</span></p>
+    <div class="status-grid">
+      <article class="status"><h3>环境全景 r8 <span class="badge partial">本页图源</span></h3><p>build_a68184bd1ea9 的 11 张 1600×900 原生图。采图与 Web 构建并行，仅用作画面证据，不用作性能样本。</p></article>
+      <article class="status"><h3>Web r9 <span class="badge partial">启动通过</span></h3><p>build_0c4ae14117f9。与 Windows r8 同源，序章、对白与暂停/恢复可用；8 图，errors=[]。此前 Web r8 渲染失败证据保留。</p></article>
+      <article class="status"><h3>验收边界 <span class="badge pending-color">仍有待验</span></h3><p>原生七章自动流程通过；Web 只验到序章。美术未达到参考，持续帧率未证实达标，音频只检测到信号、未审听。</p></article>
+    </div>
+    <p><a href="../../../Open-JieGuang-V2-Candidate.cmd">Windows 本地入口</a> · <a href="../../../Open-JieGuang-V2-Web.cmd">浏览器版本地入口</a> · <a href="../../../setup/JieGuang-V2-试玩说明.txt">试玩说明</a> · <a href="README.md">验收主表</a></p>
+    <p class="source">浏览器版请通过入口启动本机服务，不直接双击构建内 index.html。本页环境全景均为 <a href="windows-r8-build.json">Windows r8</a> · <a href="../game-v2-visual-r8/">11 张原图</a>。候选未公开发布。</p>
+  </div>
+</header>
+<nav aria-label="复核内容"><div class="wrap"><a href="#web">Web 启动</a><a href="#latest-story">原生七章</a><a href="#house">房前光束</a><a href="#coast">海岸修复</a><a href="#sea">长反射</a><a href="#meadow">近景草地</a><a href="#different-view">朝屋海景</a><a href="#reference">参考草地</a><a href="#evidence">证据与边界</a><a href="#r5">Editor 历史 / 待验</a></div></nav>
+<main class="wrap">
+  <section id="web">
+    <h2>Web r9：真实点击进入序章，几何恢复正常</h2>
+    <p class="description"><a href="web-r9-build.json">Web r9 构建</a>成功，<a href="../game-v2-web-r9/web-report.json">正式浏览器报告</a>记录标题点击、序章、对白、暂停/恢复和 8 张 1600×900 截图，errors=[]。Iris Xe / Edge 155，Mobile RP renderScale=0.8；输出 canvas 1600×900 不等于内部渲染尺寸。<a href="r8-post-web-r9-source-check.json">57 文件及 .meta</a>与 Windows r8 一致，无 runtime/配置修改；<a href="web-r9-output-inventory.json">完整输出 174,572,270 bytes</a>。</p>
+    <div class="pair" id="web-r9-pair"></div>
+    <div class="note"><strong>启动通过，性能与听感仍有限定。</strong>约 12 秒序章样本：Unity interval FPS 中位 56.696、最低读数 33.602；标题中位 73.969、最低 25.322，不能称全面 ≥30。70.591 秒内 284/284 次音频信号非零，未审听；不证明音乐内容、混音或两端完整音效验收。Web 未跑七章。</div>
+    <details id="web-r8-history"><summary>展开 Web r8 失败画面与同源重建诊断</summary><p class="description"><a href="../game-v2-web-r8-render-diagnostic/decision.json">Web r8 拒绝记录</a>：附加阴影比较 sampler 绑定颜色 dummy 纹理，主体几何不显示。构建平台上下文造成 <a href="../game-v2-web-r8-render-diagnostic/r8-build-context.log">r8 预处理仅收集 PC</a>；已切到 WebGL 后同源重建，<a href="../game-v2-web-r8-render-diagnostic/r9-build-context.log">r9 收集 Mobile 与 PC</a>。<a href="../game-v2-web-r9-render-diagnostic/gl-diagnostic.json">r9 独立诊断</a>记录 24,755 次绘制、0 失败。失败版本的 FPS 不用作性能证据。</p><div class="pair" id="web-failure-pair"></div></details>
+  </section>
+  <section id="latest-story">
+    <h2>r8：重逢回到同一板面，大灯接上实际挂钩</h2>
+    <p class="description"><a href="../game-v2-native-r8-full/qa-report.json">r8 正式报告</a>记录七章完成、解锁 1–6、三次谜题经输入、errors=[]、saveRestored=true，36 张图均为 1600×900。<a href="../game-v2-native-r8-full/read-only-review.json">定向审图</a>确认 r7 站箱回归消失，坐姿/手杖、分光与窗内人物的修复保持。静态画面不证明完整动作过渡。</p>
+    <p class="description">i5-13500H / Iris Xe / 16GB / PC / 1600×900：各章自动正常与剧情镜头均值 59.939–59.975 FPS，p95 16.702–16.725ms，每章约 14.84–63.88 秒；排除预热、截图与传送稳定，不代表全岛持续移动最低帧率。环境采图另跑，与 Web 构建并行，不用于这些性能数值。</p>
+    <div class="pair" id="r8-story-pair"></div>
+    <details><summary>r7 回归与 r8 源码修复记录</summary><p class="description"><a href="../game-v2-native-r7-full/06-reunion-hands.png">r7 主角站箱原图</a>与<a href="../game-v2-native-r7-full/read-only-review.json">拒绝记录</a>保留。r8 仅移开终章起点并对齐 A16 大灯；<a href="r8-vs-r7-source-diff.json">源码反向 SHA256 核对</a>已记录。</p></details>
+  </section>
+  <div class="note">主视图为 r4 → r8 固定机位对照，r5 与 r3 历史图可展开。灯、人物与风动不保证同一动画帧。图片不调色、不裁切，点击可放大；叠层对照可拖动分界线。r3 的 06 机位不同，单独标注。</div>
+  <div id="comparisons"></div>
+  <noscript>交互对比需要 JavaScript。可直接查看 <a href="../game-v2-visual-r8/">r8 原图目录</a>、<a href="../game-v2-visual-r4/">r4 原图目录</a>与 <a href="README.md">README</a>。</noscript>
+
+  <section id="different-view">
+    <div class="section-head"><h2>06 · 朝房屋海景</h2><span class="tag">r4 / r8 同机位；r5 / r3 历史保留</span></div>
+    <p class="description">r8 保持连续岸壁，r4 的悬空破片、强条纹与厚光锥未再出现。近船水面可见弱暖条，但未隔离窗与挂灯，也没有亮灭对照，不能写成暖倒影完整通过。岸底仍有偏直、偏暗的接边。</p>
+    <div class="pair" id="different-pair"></div>
+    <details id="sea-house-history"><summary>展开 r5 同机位与 r3 不同机位历史图</summary></details>
+    <div class="pending"><strong>仍待验证</strong><span>窗与挂灯分别亮 / 灭 / 亮，确认暖色响应来自真实灯状态。当前弱暖斑不证明已隔离来源。</span></div>
+  </section>
+
+  <section id="reference">
+    <div class="section-head"><h2>参考 04 与原生 09 · 草地层次</h2><span class="tag">跨游戏、昼夜与构图不同</span></div>
+    <p class="description">参考图显示连续的高低草层、细叶、花、蕨类与路径交接。本版可辨认草叶和野花，但草簇重复、裸地过渡与坡面条纹仍突出。夜景亮度不能直接与白天比较；这里看的是结构和过渡，不是把颜色调到同样亮。</p>
+    <div class="note danger-note"><strong>不是审美通过证明，也不表示达到参考。</strong>参考 04 为 1440×900 白天画面；原生 09 为 1600×900 夜景，机位、构图、照度均不同。以下均为完整原图，不统一裁切或曝光。</div>
+    <div class="pair" id="reference-pair"></div>
+  </section>
+
+  <section id="evidence">
+    <h2>证据与边界</h2>
+    <div class="evidence">
+      <article><h3>原生修复与中间诊断分开</h3><p>r8 原生 02 / 06 / 08 中未见 r4 的破片和强重复条纹；这证明所示视角的改善，不证明全岛几何已逐处验收。底边偏暗偏直仍可继续打磨。</p><p>Editor 12 / 13 早于 T04 岩壁 shader 修改，14 早于最终 CoastalCliff 材质替换。这些中间图不作为当前候选原生证据。</p><a href="../game-v2-editor-r5/archive-manifest.json">Editor 归档 / SHA256</a> · <a href="r8-source-manifest.json">r8 冻结源码指纹</a></article>
+      <article><h3>固定截图 ≠ 通关与性能</h3><p>这些是 Windows 原生尾声固定机位诊断，不能证明实走栈桥、全岛碰撞或正常 UI 流程。r8 视觉报告 <code>samples=[]</code>、<code>walkResult=""</code>，不提供本轮图像的 FPS 或行走结果。</p><p>r8 全章与帧时另有正式报告；环境采图与 Web 构建并行，只看画面。Web r9 实测限于标题/序章。短样本不称持续最低帧率，历史行走不冒充 r8 重测。</p><a href="../game-v2-visual-r8/render-study.json">r8 视觉报告</a> · <a href="README.md">最新验收主表</a></article>
+    </div>
+    <div class="table-scroll"><table><thead><tr><th>版本</th><th>构建记录</th><th>视觉记录</th><th>本页结论</th></tr></thead><tbody>
+      <tr><td>Web r9</td><td><a href="web-r9-build.json">build_0c4ae14117f9</a><br>0 errors / 3 warnings</td><td><a href="../game-v2-web-r9/web-report.json">正式浏览器报告</a><br>8 张 1600×900 PNG</td><td>与 Windows r8 同源；启动、序章输入、暂停/恢复通过。非 Web 七章或持续性能验收。</td></tr>
+      <tr><td>r8</td><td><a href="windows-r8-build.json">build_a68184bd1ea9</a><br>0 errors / 3 warnings</td><td><a href="../game-v2-visual-r8/render-study.json">原生固定机位</a><br>11 张 1600×900 PNG</td><td>本页图源；<a href="../game-v2-visual-r8/Player.log">此轮日志</a>未检出 Error/Exception。另有原生七章通过，完整验收仍待补。</td></tr>
+      <tr><td>r5</td><td><a href="windows-r5-build.json">build_fe07fc8466d1</a></td><td><a href="../game-v2-visual-r5/">历史 11 图</a></td><td>初次连续岸壁与薄光束改善的历史证据，下方可展开原图。</td></tr>
+      <tr><td>r4</td><td><a href="windows-r4-build.json">build_7d953fb6ece4</a><br>0 errors / 1 warning</td><td><a href="../game-v2-visual-r4/render-study.json">历史固定机位</a></td><td><strong class="rejected">拒绝发布：</strong>岸边破片、光束过亮。</td></tr>
+      <tr><td>r3</td><td><a href="windows-r3-build.json">build_8622243af1ce</a><br>0 errors / 2 warnings</td><td><a href="../game-v2-visual-r3/render-study.json">历史固定机位</a></td><td>黑地、海方角与长反射局部修复；岸坡未合格。</td></tr>
+    </tbody></table></div>
+  </section>
+
+  <section id="r5">
+    <h2>Editor 中间记录与剩余验收</h2>
+    <details id="editor-r7-history"><summary>展开 Editor r7：坐姿与挂钩试摆 15 / 16 / 17</summary><p class="note">以下三张均为 Editor 中间测试，早于最终原生复验。15 仍不能验证之后的坐时手杖前移，17 明确是挂钩试摆；不证明动作过渡或最终重建接触。<a href="../game-v2-editor-r7/archive-manifest.json">归档与 SHA256</a></p><div class="triple" id="editor-r7-triple"></div></details>
+    <p class="description">12–14 已按原文件归档并核对 SHA256。它们保留修改过程，不能用来代表本页上方的 r8 原生画面。展开可查看两张最初 Editor 诊断。</p>
+    <details id="editor-history"><summary>展开 Editor 12 / 13（T04 修正前）</summary><div class="pair" id="editor-pair"></div><p class="source"><a href="../game-v2-editor-r5/14-r5-editor-coast-soft-rock.png">Editor 14 原图</a>：首次柔岩 shader 后、最终 CoastalCliff 材质替换前。</p></details>
+    <ol class="checklist">
+      <li>窗与挂灯暖倒影的独立亮灭验证；月牙与章节雾需合适视角。</li>
+      <li>全岛实际行走、道具与角色接触、完整动作过渡、风动 / LOD；干净存档自动全章已在 r8 通过。</li>
+      <li>原生 / WebGL 启动已通过；音频审听、完整性能及剩余美术证据待补，保留短样本与机器条件限制。</li>
+    </ol>
+    <div class="pending"><strong>尚未完整验收</strong><span>r8 原生全章与 Web r9 启动已复核；仍不代替全岛碰撞、音频审听、持续性能和整体美术验收。状态以 README 主表为准。</span></div>
+  </section>
+</main>
+<footer><div class="wrap">可本地试玩，未公开发布。T/V/S 新素材尚未制作，按用户指示继续使用现有资源推进，不列为等待阻塞。全部截图保留原文件；完整任务状态以 <a href="README.md">README 验收矩阵</a>与相应原始日志为准。</div></footer>
+<dialog id="viewer" aria-labelledby="viewer-title"><div class="dialog-bar"><span class="dialog-title" id="viewer-title"></span><button type="button" id="close-viewer">关闭 · Esc</button></div><img id="large-image" alt=""></dialog>
+<script>
+  'use strict';
+  const comparisons = [
+    {id:'house',file:'02-house-window.png',title:'02 · 房前光束与地面',note:'r4 的亮橙光锥覆盖屋面、人物与道路；r8 同机位中光锥明显变淡，暖窗与房屋细节重新清楚，背景强重复坡纹消退。整体艺术质量仍需正式参考对比。',history:'r3 黑地已修复，但背景岸坡竖条未合格。',before:'亮橙光锥大面积覆盖画面，r4 明确拒绝。',after:'过亮厚光锥消退，人物、屋面、道路层次可辨。'},
+    {id:'coast',file:'08-coast.png',title:'08 · 海岸连续性',note:'r8 原生图所示岸壁已连续，r4 的锯齿破片及强竖条不再可见。水线仍有偏直偏暗的底边，岩面较均一；这次修复不等于海岸审美整体通过。',history:'r3 连续岸壁带大面积重复竖条与台阶水线，未合格。',before:'holes 导致锯齿破片与裂口，明确拒绝。',after:'所示破片与强条纹消退；底部暗直边仍可打磨。'},
+    {id:'sea',file:'07-sea-earth.png',title:'07 · 地光长反射与天际线',note:'r8 延续窄长、断续的冷色反光带，所示地平线未见旧海方角。月牙没有进入这个机位；该图也没有岸上灯源，不能用于暖倒影来源验收。',history:'r3 首次确认旧海方角消失与长反射可见。',before:'r4 保留地光长带，不代表其他视觉项合格。',after:'r8 长反射可见；月牙和窗 / 挂灯另需视角验证。'},
+    {id:'meadow',file:'09-meadow-near.png',title:'09 · 近景草、花与地表',note:'r8 仍可辨认草叶、白花与紫花；近处地表强条纹减弱，右上 r4 的厚亮光束消退。草簇重复和裸地过渡仍需改善，静态图不证明风动或 LOD。',history:'r3 草花已见，但近处坡面条纹与草簇分组明显。',before:'草地可见，右上过亮光锥及坡面条纹仍在。',after:'地表与光束已有改善，草地整体尚未达到参考验收。'}
+  ];
+  const root3='../game-v2-visual-r3/', root4='../game-v2-visual-r4/', root5='../game-v2-visual-r5/', root8='../game-v2-visual-r8/';
+  function element(tag,cls,text){const n=document.createElement(tag);if(cls)n.className=cls;if(text!==undefined)n.textContent=text;return n;}
+  function shot(version,url,caption,dimensions='1600 × 900'){
+    const figure=element('figure','shot'); const top=element('div','shot-top');top.append(element('strong','',version),element('span','tag',dimensions));
+    const button=element('button','image-button');button.type='button';button.setAttribute('aria-label','放大 '+version+' '+url.split('/').pop());
+    const img=element('img');img.src=url;img.alt=version+'：'+caption;img.loading='lazy';img.decoding='async';button.append(img);button.addEventListener('click',()=>openViewer(img.src,img.alt));
+    const cap=element('figcaption','',caption);const link=element('a','source',url.split('/').slice(-2).join('/')+' · 原图');link.href=url;link.target='_blank';link.rel='noopener';cap.append(link);figure.append(top,button,cap);return figure;
+  }
+  function overlay(item){
+    const details=element('details');details.append(element('summary','','展开 r4 / r8 固定机位叠层对照'));
+    const box=element('div','overlay');const a=element('img'),b=element('img','after');a.src=root4+item.file;b.src=root8+item.file;a.alt='r4 '+item.title;b.alt='r8 '+item.title;a.loading=b.loading='lazy';
+    box.append(a,b,element('div','divider'),element('span','overlay-label label-left','r4'),element('span','overlay-label label-right','r8'));
+    const row=element('div','range-row');const label=element('label','','分界位置');const input=element('input');input.type='range';input.min='0';input.max='100';input.value='50';input.id='split-'+item.id;label.htmlFor=input.id;const out=element('output','','50%');out.htmlFor=input.id;
+    input.addEventListener('input',()=>{box.style.setProperty('--split',input.value+'%');out.value=input.value+'%';});row.append(label,input,out);details.append(box,row);return details;
+  }
+  for(const item of comparisons){
+    const section=element('section');section.id=item.id;const head=element('div','section-head');head.append(element('h2','',item.title),element('span','tag','固定机位 · r4 → r8'));
+    const pair=element('div','pair');pair.append(shot('r4 · 拒绝发布',root4+item.file,item.before),shot('r8 · 最新原生',root8+item.file,item.after));
+    const history=element('details');history.append(element('summary','','展开 r5 / r3 历史原图'));const oldPair=element('div','pair');oldPair.append(shot('r5 · 历史原生',root5+item.file,'历史图保留，不能冒充 r8。'),shot('r3 · 历史诊断',root3+item.file,item.history));history.append(oldPair);
+    section.append(head,element('p','description',item.note),pair,overlay(item),history);document.querySelector('#comparisons').append(section);
+  }
+  document.querySelector('#different-pair').append(shot('r4 · 拒绝发布',root4+'06-sea-house.png','岸下破片明显，暖色水面响应仍不可辨。'),shot('r8 · 最新原生',root8+'06-sea-house.png','破片与强条纹消退；近船弱暖斑尚未隔离来源验证。'));
+  const oldSea=shot('r3 · 不同历史机位',root3+'06-sea-house.png','近岸竖墙占据画面大部。机位不同，不能直接比较可见面积。');oldSea.style.maxWidth='780px';document.querySelector('#sea-house-history').append(shot('r5 · 同机位历史',root5+'06-sea-house.png','历史原生图，不作为 r8 本轮结果。'),oldSea);
+  document.querySelector('#reference-pair').append(shot('参考 · 04 白天','../../design/v2/benchmark/reference/04-first-gameplay.png','观察细叶、不同高度植被、花与道路边界；不能用白天亮度直接评夜景。','1440 × 900'),shot('本版 r8 · 原生 09',root8+'09-meadow-near.png','夜景、不同构图。草花可辨，但重复草簇和地表过渡仍需改善，未达到参考验收。'));
+  document.querySelector('#editor-pair').append(shot('Editor r5 · 12 中间海岸','../game-v2-editor-r5/12-r5-editor-coast.png','破片与竖条消退，但 T04 横向带明显；不是最终原生图。'),shot('Editor r5 · 13 中间房前','../game-v2-editor-r5/13-r5-editor-house.png','过亮光锥消退；拍于后续岩壁 shader 修改前。'));
+  document.querySelector('#editor-r7-triple').append(shot('Editor r7 · 15 邮差试摆','../game-v2-editor-r7/15-r7-editor-postman-seated.png','座面与坐姿的中间试摆；不代表之后手杖前移或原生接触通过。'),shot('Editor r7 · 16 灯伯试摆','../game-v2-editor-r7/16-r7-editor-keeper-seated.png','箱面高度调整后的中间画面，完整坐下过渡仍需原生复验。'),shot('Editor r7 · 17 挂钩试摆','../game-v2-editor-r7/17-r7-editor-hook-trial.png','钩与灯提环接近的研究画面，不能当最终重建挂接证据。'));
+  document.querySelector('#r8-story-pair').append(shot('r8 · 终章同板面','../game-v2-native-r8-full/06-reunion-hands.png','双方回到同一栈桥板面；伸手相对，不能据静态图判定完整动作。'),shot('r8 · A16 大灯挂钩','../game-v2-native-r8-full/05-dengbo-seated.png','大灯顶部环与实际铁钩相接，未再漂到旗杆另一侧。'));
+  document.querySelector('#web-r9-pair').append(shot('Web r9 · 序章','../game-v2-web-r9/04-prologue-opening.png','人物、房屋、地形和栈桥正常显示；Mobile RP，输出 canvas 1600×900，内部 renderScale=0.8。'),shot('Web r9 · 暂停','../game-v2-web-r9/06-pause-menu.png','真实 Esc 输入出现菜单，再次 Esc 已返回序章；本轮未完整通关 Web 七章。'));
+  document.querySelector('#web-failure-pair').append(shot('Web r8 · 渲染失败，拒绝','../game-v2-web-r8/04-prologue-opening.png','只余 UI、天空与光粒，不可用；截图与日志保留。'),shot('Web r9 · 同源重建恢复','../game-v2-web-r9/04-prologue-opening.png','正确平台上下文重建后恢复主体几何；两张不是同一动画帧。'));
+  const viewer=document.querySelector('#viewer'),large=document.querySelector('#large-image'),viewerTitle=document.querySelector('#viewer-title');
+  function openViewer(src,title){large.src=src;large.alt=title;viewerTitle.textContent=title;viewer.showModal();}
+  document.querySelector('#close-viewer').addEventListener('click',()=>viewer.close());
+  viewer.addEventListener('click',event=>{if(event.target===viewer){const r=viewer.getBoundingClientRect();if(event.clientX<r.left||event.clientX>r.right||event.clientY<r.top||event.clientY>r.bottom)viewer.close();}});
+</script>
+</body>
+</html>

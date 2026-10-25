@@ -1,0 +1,28 @@
+{
+  "status": "completed",
+  "buildId": "build_de5e347913cd",
+  "result": "Succeeded",
+  "platform": "WebGL",
+  "outputPath": "C:/Users/20665/Desktop/game/builds/candidates/jieguang-v2-r8/web",
+  "totalSizeBytes": 6135,
+  "buildTimeMs": 970139,
+  "buildStartedAt": "2026-10-23T12:08:59.2833560Z",
+  "buildEndedAt": "2026-10-23T12:25:09.4225944Z",
+  "totalWarnings": 4,
+  "totalErrors": 0,
+  "errors": [],
+  "warnings": [
+    {
+      "message": "Main Object Name 'PC_RPAsset' does not match filename 'JieGuang_PC_RPAsset'"
+    },
+    {
+      "message": "Main Object Name 'PC_RPAsset' does not match filename 'JieGuang_PC_RPAsset'"
+    },
+    {
+      "message": "Pipeline: No RuntimePipelineConfig asset found (Project Settings > Pipeline > Runtime). Pipeline will be disabled in Player builds."
+    },
+    {
+      "message": "There are inconsistent line endings in the 'Assets/JieGuang/Shaders/NightSea.shader' script. Some are Mac OS X (UNIX) and some are Windows.\nThis might lead to incorrect line numbers in stacktraces and compiler errors. Many text editors can fix this using Convert Line Endings menu commands."
+    }
+  ]
+}

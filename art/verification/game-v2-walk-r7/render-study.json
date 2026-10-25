@@ -1,0 +1,8 @@
+{
+    "gpu": "Intel(R) Iris(R) Xe Graphics",
+    "method": "Diagnostic start placement on pier at x=9.4 to route around the existing flagpole, then ordinary GameInput.Hold -> PlayerController -> CharacterController movement over A12/A13 seam and back. Route correction only, not a game collision fix. No position writes after start. Limited route only; not manual input or whole-island collision coverage.",
+    "walkResult": "out=True; back=True; minimumRootY=2.490",
+    "width": 1600,
+    "height": 900,
+    "samples": []
+}

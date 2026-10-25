@@ -1,0 +1,75 @@
+{
+  "chapters": [
+    {
+      "statesEnumerated": 6,
+      "solutions": [
+        [
+          {
+            "on": true,
+            "wide": true,
+            "direction": 0
+          },
+          {
+            "on": false,
+            "wide": false,
+            "direction": 2
+          },
+          {
+            "on": false,
+            "wide": false,
+            "direction": 2
+          }
+        ]
+      ],
+      "chapter": "One"
+    },
+    {
+      "statesEnumerated": 36,
+      "solutions": [
+        [
+          {
+            "on": true,
+            "wide": true,
+            "direction": 0
+          },
+          {
+            "on": true,
+            "wide": false,
+            "direction": 0
+          },
+          {
+            "on": false,
+            "wide": false,
+            "direction": 2
+          }
+        ]
+      ],
+      "chapter": "Two"
+    },
+    {
+      "statesEnumerated": 216,
+      "solutions": [
+        [
+          {
+            "on": true,
+            "wide": false,
+            "direction": 0
+          },
+          {
+            "on": true,
+            "wide": true,
+            "direction": 1
+          },
+          {
+            "on": true,
+            "wide": false,
+            "direction": 0
+          }
+        ]
+      ],
+      "chapter": "Three"
+    }
+  ],
+  "result": "PASS",
+  "scope": "Pure LampRules C# compiled using Add-Type; exhaustive reachable states; no Unity playtest"
+}

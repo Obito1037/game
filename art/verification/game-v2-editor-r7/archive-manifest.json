@@ -1,0 +1,46 @@
+{
+  "candidate": "r7 Editor intermediate trials",
+  "captureEnvironment": "Unity Editor images provided by root; not WindowsPlayer or WebGL",
+  "archivedUtc": "2026-10-23T04:41:02.695Z",
+  "status": "Intermediate visual placement evidence only; r7 rebuilt native verification remains pending",
+  "limits": [
+    "15/16 show seated placement trials; do not establish sitting transition, all poses or all prop contacts.",
+    "17 is explicitly a hook trial image; do not treat it as final native hook attachment or rebuilding proof.",
+    "No r7 native performance, full chapter, audio or collision result is established by these still images."
+  ],
+  "files": [
+    {
+      "filename": "15-r7-editor-postman-seated.png",
+      "source": "GameProject/Assets/Temp/jg-v2takeover/15-r7-editor-postman-seated.png",
+      "archive": "art/verification/game-v2-editor-r7/15-r7-editor-postman-seated.png",
+      "sourceModifiedUtc": "2026-10-23T04:30:53.096Z",
+      "bytes": 1436256,
+      "width": 1600,
+      "height": 900,
+      "sha256": "db5f1001d2d01bac0c09f9399079b5eaf6136ad9108393e90840929b18331444",
+      "copyMatches": true
+    },
+    {
+      "filename": "16-r7-editor-keeper-seated.png",
+      "source": "GameProject/Assets/Temp/jg-v2takeover/16-r7-editor-keeper-seated.png",
+      "archive": "art/verification/game-v2-editor-r7/16-r7-editor-keeper-seated.png",
+      "sourceModifiedUtc": "2026-10-23T04:31:39.120Z",
+      "bytes": 1440782,
+      "width": 1600,
+      "height": 900,
+      "sha256": "50ab1229ebbd4641ac331129769a9e951e7aecf757cab714caad59cacdc4b8a1",
+      "copyMatches": true
+    },
+    {
+      "filename": "17-r7-editor-hook-trial.png",
+      "source": "GameProject/Assets/Temp/jg-v2takeover/17-r7-editor-hook-trial.png",
+      "archive": "art/verification/game-v2-editor-r7/17-r7-editor-hook-trial.png",
+      "sourceModifiedUtc": "2026-10-23T04:34:16.851Z",
+      "bytes": 1537509,
+      "width": 1600,
+      "height": 900,
+      "sha256": "9438b3e52ee71e4633af0c1058aa055c1449f62574a7c0e999ab16cc23834c21",
+      "copyMatches": true
+    }
+  ]
+}

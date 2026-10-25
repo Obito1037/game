@@ -1,0 +1,45 @@
+{
+    "backupPath": "C:\\Users\\20665\\Desktop\\game\\art\\verification\\game-v2-native-r2-full\\save-backup.json",
+    "completedUtc": "2026-10-23T03:02:42.9559210Z",
+    "verified": true,
+    "before": {
+        "values": [
+            {
+                "key": "jieguang.chapter",
+                "existed": true,
+                "value": 3
+            },
+            {
+                "key": "jieguang.unlocked",
+                "existed": true,
+                "value": 2
+            },
+            {
+                "key": "jieguang.debugStart",
+                "existed": false,
+                "value": 0
+            }
+        ],
+        "note": ""
+    },
+    "after": {
+        "values": [
+            {
+                "key": "jieguang.chapter",
+                "existed": false,
+                "value": 0
+            },
+            {
+                "key": "jieguang.unlocked",
+                "existed": false,
+                "value": 0
+            },
+            {
+                "key": "jieguang.debugStart",
+                "existed": false,
+                "value": 0
+            }
+        ],
+        "note": ""
+    }
+}

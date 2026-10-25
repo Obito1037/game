@@ -7,3 +7,36 @@
 *.fbx filter=lfs diff=lfs merge=lfs -text
 *.glb filter=lfs diff=lfs merge=lfs -text
 *.otf filter=lfs diff=lfs merge=lfs -text
+
+# Newly archived JieGuang media. Keep existing Borrowed Light history intact.
+GameProject/Assets/JieGuang/**/*.png filter=lfs diff=lfs merge=lfs -text
+GameProject/Assets/JieGuang/**/*.jpg filter=lfs diff=lfs merge=lfs -text
+GameProject/Assets/JieGuang/**/*.wav filter=lfs diff=lfs merge=lfs -text
+art/generated/characters-v1/**/*.jpg filter=lfs diff=lfs merge=lfs -text
+art/generated/env-v1/**/*.png filter=lfs diff=lfs merge=lfs -text
+art/generated/env-v1/**/*.jpg filter=lfs diff=lfs merge=lfs -text
+art/generated/env-v2/**/*.png filter=lfs diff=lfs merge=lfs -text
+art/generated/env-v2/**/*.jpg filter=lfs diff=lfs merge=lfs -text
+art/generated/props-v2/**/*.png filter=lfs diff=lfs merge=lfs -text
+art/generated/props-v2/**/*.jpg filter=lfs diff=lfs merge=lfs -text
+art/incoming/**/*.png filter=lfs diff=lfs merge=lfs -text
+art/incoming/**/*.jpg filter=lfs diff=lfs merge=lfs -text
+art/demo-video/**/*.png filter=lfs diff=lfs merge=lfs -text
+art/demo-video/*.mp4 filter=lfs diff=lfs merge=lfs -text
+art/demo-video/*.wav filter=lfs diff=lfs merge=lfs -text
+art/presentation/img/*.png filter=lfs diff=lfs merge=lfs -text
+art/presentation/img/*.jpg filter=lfs diff=lfs merge=lfs -text
+# Submission files use UTF-8 path names; wildcard avoids platform quoting issues.
+*.zip filter=lfs diff=lfs merge=lfs -text
+*.mp4 filter=lfs diff=lfs merge=lfs -text
+*.pptx filter=lfs diff=lfs merge=lfs -text
+*.docx filter=lfs diff=lfs merge=lfs -text
+*.pdf filter=lfs diff=lfs merge=lfs -text
+art/design/v2/benchmark/ours/*.png filter=lfs diff=lfs merge=lfs -text
+art/verification/game-v2-native-r10-full/*.png filter=lfs diff=lfs merge=lfs -text
+art/verification/game-v2-web-r10/*.png filter=lfs diff=lfs merge=lfs -text
+art/verification/game-v3-native-r2-full/*.png filter=lfs diff=lfs merge=lfs -text
+art/verification/game-v3-web-r2/*.png filter=lfs diff=lfs merge=lfs -text
+art/verification/game-v3-web-r2-flow/*.png filter=lfs diff=lfs merge=lfs -text
+art/verification/game-v3-photos/*.png filter=lfs diff=lfs merge=lfs -text
+参赛提交/**/*.png filter=lfs diff=lfs merge=lfs -text

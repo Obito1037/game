@@ -5,6 +5,7 @@
 !/tools/*.ps1
 !/tools/*.py
 !/tools/*.cs
+!/tools/*.sh
 !/tools/package-templates/
 !/tools/font-subset/
 /tools/font-subset/*
@@ -16,6 +17,8 @@
 /builds/
 /GameProject/[Ll]ibrary/
 /GameProject/[Tt]emp/
+/GameProject/Assets/Temp/
+/GameProject/Assets/Temp.meta
 /GameProject/[Oo]bj/
 /GameProject/[Ll]ogs/
 /GameProject/[Uu]ser[Ss]ettings/
@@ -60,6 +63,8 @@ __pycache__/
 .DS_Store
 Thumbs.db
 node_modules/
+*-browser-profile/
+~$*
 
 # Superseded world outputs outside the retained dependency chain.
 # Generation scripts remain in art/blender. No local files are deleted.
@@ -79,3 +84,14 @@ node_modules/
 !/art/verification/run-035-v14/09-traveler-portrait.png
 /art/reference/*.png
 /art/reference/source-dom.html
+
+# Reference-site captures are local research, not project source assets.
+/art/design/v2/benchmark/reference/
+
+# Keep final gameplay evidence; bulk intermediate captures stay local.
+!/art/verification/game-v2-native-r10-full/*.png
+!/art/verification/game-v2-web-r10/*.png
+!/art/verification/game-v3-native-r2-full/*.png
+!/art/verification/game-v3-web-r2/*.png
+!/art/verification/game-v3-web-r2-flow/*.png
+!/art/verification/game-v3-photos/*.png
